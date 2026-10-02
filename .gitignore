@@ -1,0 +1,88 @@
+# Local-only inputs, scratch, private correspondence, review exports
+.local-work/
+.local/
+scratch/
+tmp/
+*.local.json
+*.local.toml
+*.local.yaml
+*.local.yml
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Original/decompressed saves and game files (including common uppercase forms)
+*.[sS][fF][sS]
+*.[sS][fF][sS].*
+*.ess
+*.fos
+*.sfse
+*.raw
+*.bin
+*.[eE][xX][eE]
+*.[dD][lL][lL]
+*.pdb
+*.esm
+*.esp
+*.esl
+*.ba2
+*.bsa
+*.pex
+*.nif
+*.dds
+*.mesh
+
+# Ghidra and debugger databases / dumps / bulk captures
+*.gpr
+*.rep/
+*.lock
+*.dmp
+*.mdmp
+*.trace64
+*.dd32
+*.dd64
+*.idb
+*.i64
+*.log
+
+# Generated exports: only the directory's instructions are tracked
+/exports/*
+!/exports/README.md
+
+# Archives and build output; approval is required before any evidence exception
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+build/
+dist/
+out/
+*.obj
+*.o
+*.lib
+*.a
+*.so
+*.pyc
+*.pyo
+__pycache__/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+
+# Editor and OS state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Deliberately do NOT blanket-ignore docs/, evidence/, JSON, CSV, or future data/.
+# For a cleared exception, add a narrowly named rule in a reviewed change.
+# Never treat git add -f or a changed suffix as a rights/privacy workaround.

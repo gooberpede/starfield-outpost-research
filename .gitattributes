@@ -1,0 +1,39 @@
+# Authored text: UTF-8 is an authoring rule; Git enforces line endings here.
+* text=auto eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
+*.py text eol=lf
+*.java text eol=lf
+*.ps1 text eol=lf
+*.sh text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+LICENSE text eol=lf
+
+# Binary classification is NOT permission to track/distribute these files.
+*.png binary -eol
+*.jpg binary -eol
+*.jpeg binary -eol
+*.webp binary -eol
+*.pdf binary -eol
+*.zip binary -eol
+*.7z binary -eol
+*.[sS][fF][sS] binary -eol
+*.raw binary -eol
+*.bin binary -eol
+*.exe binary -eol
+*.dll binary -eol
+*.dmp binary -eol
+
+# Selected evidence must retain original bytes, including textual captures.
+# Only authored bundle/directory READMEs receive text normalization.
+docs/experiments/evidence/** -text -eol
+docs/experiments/evidence/README.md text eol=lf
+docs/experiments/evidence/**/README.md text eol=lf
