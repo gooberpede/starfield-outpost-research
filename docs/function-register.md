@@ -16,6 +16,18 @@ Initial records are scoped to SOR-ENV-0001 and [SOR-EV-0001](experiments/evidenc
 
 Use `SOR-FN-` IDs. For native functions record actual static/image bases and instruction ranges in the linked detail. For script operations record the script, exact source/version, declaration or call site, and what was independently checked. Include Address Library IDs only with version/provenance.
 
+## SOR-EXP-0002 coordinate candidates
+
+| ID | Build/module | Original static VA / RVA | Observation and limit | Evidence |
+|---|---|---|---|---|
+| SOR-FN-0010 | SOR-ENV-0002 Starfield.exe | FUN_14167f7e0 / 0x0167f7e0 | Named property binding candidate; +0x68/+0x88 addresses passed with latitude/longitude names at 0x14167f82f–854. Object/type/units unqualified; no invocation or saved-layout claim. OBSERVED-INTERNAL. | SOR-F-0005 / SOR-EV-0002, coordinate functions export |
+| SOR-FN-0011 | SOR-ENV-0002 Starfield.exe | FUN_14341c0a0 / 0x0341c0a0 | Existing xrefs to both coordinate names at 0x14341c207/251; bounded function export. Relationship to a selected outpost UNKNOWN; not a callable integration point. | SOR-EV-0002 |
+| SOR-FN-0012 | SOR-ENV-0002 CreationKit.exe | FUN_142b96190 / 0x02b96190 | Xrefs to Location: Longitude/Latitude labels only; function body not exported. No retail address/layout equivalence. | SOR-F-0005 / SOR-EV-0002 |
+
 Preserve original names and addresses; semantic aliases do not authorize Ghidra renaming. Record reads/writes, callers, parameters, ownership, lifecycle, failure/cleanup paths, and unresolved parts as supported. Call-site and instruction evidence take precedence over an unverified decompiler prototype.
 
 Separate observed internal functions from exposed or validated integration points. See [EVIDENCE_STANDARD.md](EVIDENCE_STANDARD.md).
+
+## SOR-FN-0013 — EXP0002 native query/operand set
+
+SOR-ENV-0002, OBSERVED-INTERNAL / STATIC. [Contract table](../runtime/exp0002/STATIC-CONTRACT.md) lists each original VA/RVA and operand: GetPlayer 0x14177a1f0, transform callbacks 0x142072580/590/5a0 and 0x1420702e0/300/320, parent 0x14208b990, worldspace 0x14208b9e0, FormID 0x14204d600, location 0x14208b8f0 -> 0x140b4e650, cell-view windows and worldspace-cell setter 0x140bbdf70 (never invoked). GetBaseObject/Is3DLoaded wrapper conventions are not reused as direct R8 callbacks. Evidence SOR-F-0006 / SOR-EV-0002; independent instruction checks take precedence over library/decompiler prototypes. Calling/lifetime safety remains unvalidated live; persistence UNKNOWN. No symbol/type/comment modifications.

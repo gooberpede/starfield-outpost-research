@@ -13,4 +13,12 @@ Concrete candidates below are supported by static evidence only. No saved record
 
 Use `SOR-ST-` IDs. Unknown columns must say `UNKNOWN`, not be silently inferred. Record owning object, identity, lifetime, creation/update/consumption, relationships, and whether an interpretation is structural or semantic. Link detailed evidence rather than putting guessed layouts into this table.
 
+## SOR-ST-0007 — Coordinate-name binding candidate
+
+SOR-ENV-0002; STATIC evidence SOR-F-0005 / SOR-EV-0002. Starfield function 0x14167f7e0 passes object-relative addresses +0x68/+0x88 with latitude/longitude names. This does not define raw numeric fields; owning type, object lifetime, body/outpost link, units, authority, runtime acquisition and saved representation are UNKNOWN. Persistence UNCLASSIFIED; UI/property-binding interpretation PROVISIONAL. Keep reference transform, cell/worldspace, body-relative and map/lat-long domains separate. REVIEW-REQUIRED. No field read live or safe integration established.
+
 Persistence classes and integration statuses are defined in [EVIDENCE_STANDARD.md](EVIDENCE_STANDARD.md). An in-memory field is not proof of a serialized field; a stored value may be replaced or recalculated during load. Record mappings between runtime pointers, handles, FormIDs, saved identifiers, and logical entities only once demonstrated.
+
+## SOR-ST-0008 — Candidate native checkpoint byte views
+
+SOR-ENV-0002 / SOR-F-0006 / SOR-EV-0002. Fresh runtime reference FormID/pointer, stored base/parent, raw transform and candidate identifier are separate output fields. Native operand table and consulted type leads in STATIC-CONTRACT.md. Owning engine lifetime, resolved handles, loaded-3D, coordinate units/frame and saved authority UNKNOWN. Repeated reads do not provide atomicity or ownership. No live value acquired; persistence UNCLASSIFIED, not PERSISTED. Selection is limited to two candidate cell views and exact beacon/storage roles, not exhaustive outpost membership. REVIEW-REQUIRED.

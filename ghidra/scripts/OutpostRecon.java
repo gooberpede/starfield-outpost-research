@@ -22,7 +22,8 @@ public class OutpostRecon extends GhidraScript {
             out.write("PROGRAM\t" + currentProgram.getName() + "\nSHA256\t" + currentProgram.getExecutableSHA256()
                 + "\nBASE\t" + currentProgram.getImageBase() + "\nLANG\t" + currentProgram.getLanguageID()
                 + "\nCOMPILER\t" + currentProgram.getCompilerSpec().getCompilerSpecID() + "\n");
-            if (args.length == 1 || (args.length == 2 && args[1].equals("interfaces"))) {
+            if (args.length == 1 || (args.length == 2 && (args[1].equals("interfaces") || args[1].equals("exp0002")))) {
+                boolean exp0002 = args.length == 2 && args[1].equals("exp0002");
                 DataIterator it = currentProgram.getListing().getDefinedData(true);
                 int count = 0;
                 while (it.hasNext() && !monitor.isCancelled()) {
@@ -30,8 +31,12 @@ public class OutpostRecon extends GhidraScript {
                     if (!d.hasStringValue()) continue;
                     String s = String.valueOf(d.getValue());
                     String lower = s.toLowerCase(Locale.ROOT);
-                    if (!(lower.contains("workshop") || lower.contains("outpost") || lower.contains("cargolink") || lower.contains("unfilledcontainers"))) continue;
-                    if (args.length == 2 && !(lower.startsWith(".?a") || lower.equals("getworkshop") || lower.equals("getworkshopownedobjects") || lower.equals("getworkshopresourceobjects") || lower.equals("movecontainercontenttounfilledcontainers") || lower.contains("workshop::") || lower.contains("extraworkshop") || (lower.contains("workshop") && (lower.contains("savegame") || lower.contains("loadgame"))))) continue;
+                    if (exp0002) {
+                        if (!java.util.Arrays.asList("getplayer", "getpositionx", "getpositiony", "getpositionz", "getanglex", "getangley", "getanglez", "getparentcell", "getworldspace", "getcurrentlocation", "getbaseobject", "getformid", "is3dloaded", "getworkshop", "getrefs").contains(lower)) continue;
+                    } else {
+                        if (!(lower.contains("workshop") || lower.contains("outpost") || lower.contains("cargolink") || lower.contains("unfilledcontainers"))) continue;
+                        if (args.length == 2 && !(lower.startsWith(".?a") || lower.equals("getworkshop") || lower.equals("getworkshopownedobjects") || lower.equals("getworkshopresourceobjects") || lower.equals("movecontainercontenttounfilledcontainers") || lower.contains("workshop::") || lower.contains("extraworkshop") || (lower.contains("workshop") && (lower.contains("savegame") || lower.contains("loadgame"))))) continue;
+                    }
                     if (++count > 350) { out.write("STRING_LIMIT_REACHED\n"); break; }
                     out.write("STRING\t" + d.getAddress() + "\t" + s.replace('\n',' ').replace('\r',' ') + "\n");
                     ReferenceIterator refs = currentProgram.getReferenceManager().getReferencesTo(d.getAddress());
@@ -49,6 +54,15 @@ public class OutpostRecon extends GhidraScript {
                 try {
                     if (!dc.openProgram(currentProgram)) throw new IllegalStateException("decompiler open failed");
                     for (int i=1; i<args.length; i++) {
+                        if(args[i].startsWith("win:")) {
+                            Address center=toAddr(args[i].substring(4));
+                            Instruction x=currentProgram.getListing().getInstructionAt(center);
+                            if(x==null) throw new IllegalArgumentException("Window center not an existing instruction");
+                            for(int j=0;j<12 && x.getPrevious()!=null;j++) x=x.getPrevious();
+                            out.write("WINDOW\t"+center+"\n");
+                            for(int j=0;j<45 && x!=null;j++,x=x.getNext()) out.write(x.getAddress()+"\t"+x+"\n");
+                            continue;
+                        }
                         if(args[i].startsWith("ref:")) {
                             Address target=toAddr(args[i].substring(4));
                             out.write("REFERENCE_TARGET\t"+target+"\n");

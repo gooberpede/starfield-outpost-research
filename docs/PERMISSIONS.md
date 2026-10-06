@@ -1,11 +1,14 @@
 # Permission and Reuse Register
 
-**No third-party code reuse has been approved for this project.** There are no pending entries silently treated as approved.
+**One scoped third-party header reuse is approved (SOR-P-0001 below).** No broader SDK/library/runtime reuse follows from it.
 
 Scaffold-specific use of the supplied organizational reference and verbatim GPL legal text is recorded transparently in [SOURCES.md](SOURCES.md). Neither is a blanket permission to copy implementations, research datasets, or game scripts.
 
 | ID | Source / exact material and version | Proposed use | Rights-holder permission | User decision | Conditions / notices | Affected files / credit | Publication eligibility |
 |---|---|---|---|---|---|---|---|
+| SOR-P-0001 | Ian Patterson / SFSE `sfse/PluginAPI.h`, commit `48535cc4306ab345252bf740c20a1c6194929b0e` | Use the unmodified public plugin interface header to compile the original EXP0002 observer; retain it with the exact licence scope/notice | Upstream LICENSE explicitly grants MIT for this header only, copyright 2023 Ian Patterson | 2026-10-06 user answered: “Yes—accept MIT for this header” to the exact pinned use and notice requirements | Preserve copyright/permission/disclaimer; SFSE runtime and other source excluded; no sibling observer copying | `runtime/exp0002/third_party/sfse/`; SOR-S-0114; CREDITS/THIRD_PARTY_NOTICES | Header rights basis documented; complete package remains REVIEW-REQUIRED, not publication-authorized |
+
+The header and licence were fetched through the read-only GitHub connector at the exact commit after approval. Text content is unmodified; repository LF normalization is recorded rather than claiming upstream byte identity. SOR-P-0001 is APPROVED-FOR-STATED-SCOPE. User's preceding clarification permits external Address Library mod use with code boundaries respected and CommonLibSF reference consultation with attribution; it does not approve arbitrary library source incorporation. No Address Library installation/deployment is authorized by Gate A.
 
 Create records with `SOR-P-` IDs using [templates/permission.md](templates/permission.md).
 

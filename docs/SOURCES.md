@@ -48,7 +48,7 @@ These names came from the earlier discussion, not a completed prior-work audit i
 | SOR-S-0101 | `Nexus-Mods/StarfieldSaveTool` — <https://github.com/Nexus-Mods/StarfieldSaveTool> | Container/metadata capability and limitations | README rechecked 2026-10-06; details below; no implementation adopted |
 | SOR-S-0102 | `rux616/modding-sf1-scripts-vanilla` — <https://github.com/rux616/modding-sf1-scripts-vanilla> | Script provenance/version discovery | README rechecked 2026-10-06; local Bethesda archive used for code inspection |
 
-No third-party outpost claim has been promoted to a finding and no code reuse approval exists. Prior conversation citations and summaries must be checked before use. Add other sources only when actually consulted or deliberately registered as a lead; do not populate a ceremonial list of tools never used.
+At the initial lead-recording stage no third-party outpost claim was promoted to a finding and no reuse approval existed; later scoped SFSE header approval is recorded below. Prior conversation citations and summaries must be checked before use. Add other sources only when actually consulted or deliberately registered as a lead; do not populate a ceremonial list of tools never used.
 
 ## New records
 
@@ -105,3 +105,37 @@ Maintainer's local `starfield-reference-handles`, `docs/PROVENANCE.md` and `ghid
 ### SOR-S-0112 — SFSE installed documentation
 
 Ian Patterson, Stephen Abel and Expired; local `sfse_readme.txt` identifies 0.2.21 pre-alpha and game compatibility 1.16.244. Read-only identity check; DLL/loader hashes and PE version resources independently recorded. No loader/DLL execution or source incorporation. Documentation/software rights not reviewed for redistribution; no redistribution proposed.
+
+### SOR-EXP-0002 initial offline pass: reuse of existing research sources — 2026-10-06
+
+SOR-S-0104 supplied installed position/location declarations and proprietary CK/retail string/code inputs; SOR-S-0105 supplied Ghidra's existing xrefs/instruction/decompiler rendering through the unchanged original reader; SOR-S-0112 installed loader/DLL identities were rehashed only. Exact hashes/anchors and limitations in SOR-EV-0002. No Bethesda source/native bytes or Ghidra exports promoted into Git; no SFSE/CommonLib/sibling implementation inspected for adaptation or incorporated. Prior xEdit relationship/display-name observations (SOR-S-0103, SOR-EV-0001) informed the planned small solid-storage choice. These uses are research/tool attribution, not new code-reuse approval.
+
+### SOR-S-0113 — Installed CPython separate-tool execution
+
+Python Software Foundation and CPython contributors; installed Python 3.14.3. Used under SOR-D-0010 for original offline scripts with standard-library hashing, JSON, PE byte reads, ZIP reads, timestamps, file flushing and synthetic unittest fixtures. Exact executable hash/locator in SOR-EV-0002 local tooling manifest. No CPython implementation, examples, package, bindings or redistributable runtime copied into the repository; no dependency download. Separate-tool operation only, not approval to vendor Python or other libraries. Affects research/exp0002 helpers and their offline validation. Tool success does not validate engine semantics.
+
+### SOR-S-0114 — SFSE public interface header
+
+Ian Patterson; [PluginAPI.h](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/PluginAPI.h) and [LICENSE](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/LICENSE), commit `48535cc4306ab345252bf740c20a1c6194929b0e`, fetched 2026-10-06 through read-only GitHub connector after exact user approval. MIT applies explicitly to this header only; preserved at runtime/exp0002/third_party/sfse. SOR-P-0001 documents the user's licence acceptance and exact use. The header supplies version/interface/task/messaging declarations. Runtime remains external; no other SFSE source incorporated. Source text preserved with LF normalization; build manifest hashes local files. REVIEW-REQUIRED package, no publication approval.
+
+### SOR-S-0115 — Sibling observer architecture and research locators
+
+Maintainer's [starfield-reference-handles](https://github.com/gooberpede/starfield-reference-handles), local HEAD `6a77579a184c64e0c080c8f3b7883c34bd17e24b`. Read-only README, plugin README, provenance/SFSE licensing and engine-layout/function research records on 2026-10-06. Supplied build feasibility, external-dependency boundaries and cell/reference instruction locators. No sibling observer source/build scripts copied or adapted. Native operand locators were independently checked in this project's pinned existing Ghidra program. This expands SOR-S-0111's earlier environment-only consultation for this continuation, not retroactively for EXP0001. Source-informed research is credited; sibling findings are not live validation here.
+
+### SOR-S-0116 — CommonLibSF layout/type research leads
+
+libxse/CommonLibSF contributors; local dependency pin `e0dbccd3a3716363f6b99194c98b7d2cccf2e7e6`, [repository](https://github.com/libxse/commonlibsf). Consulted TESObjectCELL, TESObjectREFR, TESForm, PlayerCharacter, BSTArray and IDs headers as research references on 2026-10-06 under user's clarification. Field/type leads only; no source, bindings, class declarations, dependencies or tests incorporated/linked. No library build was performed. Native cell flags/worldspace operands disagreed with the consulted layout and take precedence (STATIC-CONTRACT.md). No licence accepted for code reuse; any later incorporation needs a separate exact approval.
+
+### SOR-S-0117 — Microsoft native build/debugger facilities
+
+Existing PowerShell 7.6.5 is used for the original request helper without changing execution policy; Windows PowerShell 5.1 refused scripts under its existing policy. Installed Visual Studio 2026 Community 18.9.0, MSVC toolset 14.51.36231/compiler 19.51.36256, Windows SDK 10.0.26100.0. Separate installed tooling compiled original C++20 code; no package download, copied Microsoft example implementation or redistributed SDK/runtime. Exact paths/hashes/compiler-pass output in local build/tool manifests. Windows SDK declarations and system libraries support process reads, hashing, flushing, task worker and future debugger control.
+
+### SOR-S-0118 — SFSE save/load notification implementation, read-only diagnosis
+
+Ian Patterson and SFSE contributors; consulted 2026-10-06 at the same pinned commit `48535cc4306ab345252bf740c20a1c6194929b0e`: [sfse.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/sfse.cpp), [Hooks_Serialization.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/Hooks_Serialization.cpp), and [Hooks_Data.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/Hooks_Data.cpp). Read-only source inspection after the primary A0 attempt returned loading_before_task with load generation zero. Serialization hook installation is compiled out at lines 81–98; the save-load wrapper contains the PreLoadGame/PostLoadGame dispatch. Interface enum availability therefore does not establish operational notification delivery. Data-load notifications concern game data, not a demonstrated substitute for save-load safety. This is source evidence explaining an observed integration failure, not proof of the installed DLL's complete control flow. No source implementation, hook, address or adaptation was incorporated; only the previously approved interface header remains reused. See the [Gate B run record](experiments/EXP0002-gate-b-run.md).
+
+### SOR-S-0119 — SFSE task dispatch implementation, read-only diagnosis
+
+Ian Patterson and SFSE contributors; consulted 2026-10-06 at pin `48535cc4306ab345252bf740c20a1c6194929b0e`: [PluginManager.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/PluginManager.cpp#L51-L56) routes the interface to TaskInterface; [Hooks_Command.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/Hooks_Command.cpp#L21-L46) drains the queue in the command-processing hook, with no thread-ID check there. The approved header's main-thread description was contrasted with actual A0/A0C thread IDs and the loader's main-thread ID. No source code, hook or address was copied/adapted. This supports recording a discrepancy, not asserting complete installed-binary scheduler semantics. See [review14 run](experiments/EXP0002-review14-run.md). An attempted Hooks_Threads.cpp URL returned no source and supplied no evidence.
+
+Microsoft Learn references consulted 2026-10-06: [DebugActiveProcess](https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-debugactiveprocess), [SetThreadContext](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadcontext), [DebugSetProcessKillOnExit](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-debugsetprocesskillonexit), [WaitForDebugEventEx](https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-waitfordebugeventex). Used to document debugger suspension/context, attach breakpoint, no-kill policy and timeout behavior. Documentation is not proof of target behavior; live attach was not tested.

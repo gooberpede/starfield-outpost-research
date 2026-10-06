@@ -2,7 +2,7 @@
 
 **Repository:** `starfield-outpost-research`
 
-**Stage:** Initial static reconnaissance executed; critical review pending. No live/save experiment executed.
+**Stage:** The fresh review14 Gate B run completed A0/A0C and preserved both control saves, then stopped before A1 because A0 ran outside the loader-identified main thread. No selected-reference queries or reload result. See the [current run record](docs/experiments/EXP0002-review14-run.md), [first attempt](docs/experiments/EXP0002-gate-b-run.md) and [operator card](docs/experiments/EXP0002-operator-card.md).
 
 **Development:** Private initially; completed, reviewed research must be published.
 
