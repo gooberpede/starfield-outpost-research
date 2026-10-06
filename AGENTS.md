@@ -43,6 +43,8 @@ Do not patch bytes, alter registers/memory, suppress exceptions, terminate the g
 
 Read/export existing static-analysis state by default. Keep imported executables and analysis databases outside Git. Document every script's reads, writes, dependencies, prerequisites, and effect on the target or analysis project.
 
+Future explicitly approved live captures may be intentionally crash-tolerant: a post-capture exit does not invalidate complete evidence already persisted. Evidence completeness, scientific result, and target survival are separate outcomes. This grants no live execution authority. The live brief must specify build/sample, breakpoint/hook/trace scope, expected information, finite bounds, any mutations, source-save protection, evidence flushing, and exit/recovery policy. Preserve protected saves; a pre-evidence crash is not success; disclose debugger-induced failures and stop on unexpected corruption outside the declared boundary. See decision `SOR-D-0008`.
+
 ## Repository and publication safety
 
 Keep proprietary binaries/assets, raw saves, decompressed saves, memory dumps, analysis/debugger databases, credentials, and unreviewed bulk data local and untracked. A private remote is still a disclosure boundary. Ignore rules do not clear material or remove already tracked content.

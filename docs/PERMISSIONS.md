@@ -11,6 +11,10 @@ Create records with `SOR-P-` IDs using [templates/permission.md](templates/permi
 
 ## States and gates
 
+### Initial reconnaissance boundary — 2026-10-06
+
+SOR-D-0009 records authority to run separate installed static tools and inspect local development inputs, plus install/run original bounded xEdit readers. This is execution/inspection authorization, not acceptance of any third-party code licence for incorporation. No new `SOR-P-` code-reuse entry is appropriate: none was requested or performed. xEdit/Ghidra licences do not clear Bethesda-derived outputs. Raw sources and exports remain LOCAL-ONLY; mod/source rights remain as recorded in SOR-S-0101–0112. Further tool/dependency incorporation or disclosure requires a scoped review.
+
 Use `PROPOSED`, `PENDING-PERMISSION`, `PENDING-USER-APPROVAL`, `APPROVED-FOR-STATED-SCOPE`, `DECLINED`, or `SUPERSEDED`. The two authorization dimensions must remain visible even when a short state is shown.
 
 Record the rights holder and how identified, actual permission evidence, whether the user accepts a licence grant or requires separate permission, the user's explicit decision/date, the precise actions/versions/files allowed, and conditions covering modification and redistribution where relevant. Private evaluation permission is not public-release permission.

@@ -12,4 +12,14 @@ This scaffold was drafted with ChatGPT assistance at the maintainer's direction.
 
 ## Outpost research
 
-No third-party outpost research claim has yet been independently validated or substantively adopted in this new project. Candidate sources remain leads in [SOURCES.md](docs/SOURCES.md); listing them is not evidence of use, permission, or agreement.
+- **Bethesda Game Studios:** installed development script declarations and control flow, plus game/CK data and native terminology, supply the static research inputs (SOR-S-0104). No game source is redistributed or relicensed.
+- **TES5Edit/xEdit contributors and documentation authors:** record interpretation and documented scripting APIs for the project-authored bounded readers (SOR-S-0103).
+- **NSA/Ghidra contributors:** existing-program static inspection, references, instruction rendering and decompilation; documentation for read-only headless operation (SOR-S-0105).
+- **Nexus Mods / StarfieldSaveTool contributors**, with the README's acknowledgment of **Mod Organizer 2 and Silarn**: clarification that its documented scope is save metadata, a useful limit on the initial persistence lead (SOR-S-0101).
+- **rux616:** version/provenance discovery through vanilla-script mirror documentation; actual script inspection used the independent installed archive (SOR-S-0102).
+- **SKKmods:** documented storage, unloading and removal behavior supplies test leads (SOR-S-0106). **Constellation-VASCO / Starfield Community Patch issue 155:** cargo return-flow/loading-condition report (SOR-S-0107). Neither has been reproduced here.
+- **libxse/CommonLibSF contributors:** native-library scope/coverage discovery (SOR-S-0108). **SenterPat** (OUT) and **Sgtsplat/iamsgtsplat** (Unique-Resource Containers): build/assignment and single-resource storage investigation leads (SOR-S-0109/0110).
+- **Ian Patterson, Stephen Abel and Expired:** SFSE installed documentation used for tool identity (SOR-S-0112). No SFSE run in this phase.
+- **Maintainer's reference-handle project:** environment/project-location guidance only (SOR-S-0111); no implementation or engine finding imported.
+
+Exact sources, access dates, limitations and affected research are in [SOURCES.md](docs/SOURCES.md) and cited in [the report](docs/experiments/initial-outpost-system-reconnaissance.md). Credit grants no reuse permission, and no source-reported runtime claim has been promoted to project validation.

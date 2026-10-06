@@ -1,9 +1,15 @@
 # State, Relationship, and Representation Register
 
-No state structure, field, saved record, or cross-domain identity mapping is established yet.
+Concrete candidates below are supported by static evidence only. No saved record or cross-domain identity mapping is established. Evidence/entry hashes and native operand domains: [SOR-EV-0001](experiments/evidence/initial-reconnaissance/README.md). All publication classification REVIEW-REQUIRED.
 
 | ID | Subsystem / concept | Runtime representation | Saved representation / offset domain | Definition dependencies | Persistence class | Lifecycle / authority | Build and sample scope | Confidence / evidence |
 |---|---|---|---|---|---|---|---|---|
+| SOR-ST-0001 | Member-to-workshop query relation | GetWorkshop callback reads source-object operand +0xc8 and global key; full runtime structure UNKNOWN | UNKNOWN | Beacon ACTI 002C60E9; WorkshopKeyword 00054BA7 are separate definition facts, not resolved callback-global proof | UNCLASSIFIED | Authority/creation/cleanup UNKNOWN | SOR-ENV-0001, no save sample | SOR-F-0003, SOR-H-0001; STATIC/provisional model |
+| SOR-ST-0002 | Storage capacity/filter definition | Runtime value after modifiers UNKNOWN | UNKNOWN | Starfield.esm CONT 0023AED9: CarryWeight 000002DC default 75; OutpostBuildContainer 0000F65A default 1; filter FLST 0029954D | DEFINITION-DERIVED for recorded defaults only | Native enforcement and runtime overrides UNKNOWN | SOR-ENV-0001, focused xEdit sample | PROVEN STATIC xEdit observation; SOR-F-0004 |
+| SOR-ST-0003 | Cargo endpoint relationships | Script keyword-linked reference candidates and quest/ship properties; live identities UNKNOWN | UNKNOWN | LinkOutpostCargoIncoming 002A6C46, Outgoing 002A6C45, Active 00255CC8; QUST 002A6C44 | UNCLASSIFIED | Script create/clear/transfer paths identified; native authority UNKNOWN | SOR-ENV-0001 | PROVEN STATIC names/source; relationship semantics unvalidated |
+| SOR-ST-0004 | Cargo animation state | ActorValue OutpostCargoLinkAnimState 00333D22, source SetAnimationState/OnLoad consumers | UNKNOWN | ACTI 002A6C3F/00219523 marker script; AV definition independently inventoried | UNCLASSIFIED | Source-level read/write and animation reconstruction; saved authority UNKNOWN | SOR-ENV-0001 | SOR-F-0002, SOR-H-0002; STATIC |
+| SOR-ST-0005 | Selected manufacturing output | Runtime product/rate UNKNOWN | UNKNOWN | CONT 0027319F has ResMfg_Tier01_AdaptiveFrameAV 00245794 default 1 and PowerRequired 00000330 default 5 | DEFINITION-DERIVED for recorded defaults only | No rate/scheduler/delta-time semantics inferred from values | SOR-ENV-0001 | PROVEN STATIC xEdit observation; SOR-EV-0001 |
+| SOR-ST-0006 | Crew association | GetWorkshop/AssignCrew path in OutpostActorScript; crew station removal callback | UNKNOWN | AssignAsCrewOnCreation, CrewSlotCost, CrewReassignDisabled source properties; actual robot record values UNKNOWN | UNCLASSIFIED | Script condition/assignment paths only; modifier application/persistence UNKNOWN | SOR-ENV-0001 | STATIC SOR-S-0104; runtime question OPEN |
 
 Use `SOR-ST-` IDs. Unknown columns must say `UNKNOWN`, not be silently inferred. Record owning object, identity, lifetime, creation/update/consumption, relationships, and whether an interpretation is structural or semantic. Link detailed evidence rather than putting guessed layouts into this table.
 

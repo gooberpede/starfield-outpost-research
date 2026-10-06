@@ -13,6 +13,8 @@ No third-party parser, library, native plugin, game script, executable, or datas
 
 ## Future evidence and incorporations
 
+Initial reconnaissance (2026-10-06) uses installed xEdit/Ghidra as separate tools and Bethesda development scripts/game data as local research inputs, under the invoked brief. The repository includes only original research helpers and factual notes, not these tools, dependencies, scripts or raw exports. Game-derived outputs remain LOCAL-ONLY; authored summaries/identifiers remain subject to publication review. Source-reported mod behavior and documentation are attributed without incorporating implementations. See SOR-S-0101–0112 in [SOURCES.md](docs/SOURCES.md). No third-party code reuse decision was granted.
+
 Before adding outside material, record its origin, exact version, rights-holder permission, user approval, obligations, and publication status in [PERMISSIONS.md](docs/PERMISSIONS.md). Add applicable notices here without removing upstream notices.
 
 Keep proprietary executables/DLLs, assets, raw saves, decompressed saves, imported analysis databases, memory dumps, private correspondence, and unreviewed bulk traces outside Git. Targeted game-derived evidence also needs a rights/privacy review; small size or local generation is not automatic clearance. Do not assert rightsholder approval unless it was actually obtained and its scope recorded.

@@ -16,6 +16,14 @@ The following decisions were established in the setup conversation and recorded 
 
 ## Recording future action approvals
 
+### SOR-D-0008 — Bounded crash-tolerant captures
+
+Accepted 2026-10-06 by the user's instruction to execute section 3 of the [initial reconnaissance brief](implementation-briefs/CODEX_RESEARCH_BRIEF_initial_outpost_system_reconnaissance.md). Future separately authorized traces may prioritize complete, high-information evidence over process survival. All scope, finite bounds, mutation, save protection, flushing, exit/recovery and corruption-stop requirements in [AGENTS.md](../AGENTS.md) remain mandatory. No live capture is authorized by this decision or reconnaissance.
+
+### SOR-D-0009 — Execute initial static reconnaissance
+
+User instruction dated 2026-10-06 authorizes the attached brief, read-only local/public inspection, project documentation and a small original xEdit extraction script when needed. The user additionally authorizes placing a copy in xEdit's `Edit Scripts/` directory and requesting a user-operated run if headless/alternative ESM inspection is unavailable. No plugin/save mutations, live game/debugger run, Ghidra analysis edits, third-party code reuse, staging, commits, pushes or external contribution. Stop after reconnaissance and propose commit messages; integration remains subject to critical review.
+
 Each action decision must identify the request, date, user approval evidence, exact scope, affected workspace/repository/version, permitted and prohibited operations, linked source/permission IDs, duration or stop boundary, and whether it supersedes a prior decision.
 
 Do not record an agent's recommendation as a user decision. A permission register may link here but must keep rights-holder permission distinct from user authorization.

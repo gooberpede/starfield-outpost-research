@@ -1,6 +1,6 @@
 # Outpost Subsystem Research Map
 
-This map is a research agenda, not an assertion about the engine's implementation. No subsystem findings have been established in this project.
+The [initial reconnaissance map](initial-map.md) now records scoped static evidence and unresolved live/save questions across ten areas. The original agenda below remains open; no runtime or save behavior is established by static mapping.
 
 | Area | Initial questions | Runtime / persistence / validation status |
 |---|---|---|

@@ -35,6 +35,8 @@ Record the question and claim, conditions, build/sample/tool provenance, exact o
 
 Use a no-action control when comparing saves and independent examples or repetitions appropriate to the claim. Record randomness, timing, cell/loading state, interventions, load order, and player actions where relevant. Do not silently turn incidental variation into a controlled variable.
 
+For an explicitly authorized crash-tolerant capture, report evidence completeness (including successful persistence/flush), scientific result, and target-process outcome separately. Complete evidence collected before a crash can remain useful; a crash before the required evidence is collected is not success. Disclose intervention-induced failures and missing/truncated records. The bounded authorization requirements remain in [AGENTS.md](../AGENTS.md).
+
 ## Address and identity discipline
 
 Label each location explicitly: runtime virtual address; module-relative RVA; static-analysis address; original compressed-file offset; decompressed-stream offset; record-relative offset; or another defined domain. Include the actual module/image base and build. Preserve original function names/addresses; semantic labels are aliases unless their source is established. Address Library IDs, when used, need version/provenance; they are not universal identifiers.

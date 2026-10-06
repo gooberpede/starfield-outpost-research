@@ -2,7 +2,7 @@
 
 **Repository:** `starfield-outpost-research`
 
-**Stage:** Scaffold prepared; no investigation has been executed in this project.
+**Stage:** Initial static reconnaissance executed; critical review pending. No live/save experiment executed.
 
 **Development:** Private initially; completed, reviewed research must be published.
 
@@ -19,13 +19,13 @@ Organize findings by outpost subsystem, not into disconnected runtime and save s
 1. Read [AGENTS.md](AGENTS.md), [WORKFLOW.md](WORKFLOW.md), and [THIRD_PARTY_POLICY.md](THIRD_PARTY_POLICY.md).
 2. Read the [charter](docs/CHARTER.md) and [current research state](docs/RESEARCH_STATE.md).
 3. Use the [documentation index](docs/README.md) for records and templates.
-4. For initial local setup and synchronization, use [Git setup](docs/GIT_SETUP.md).
+4. Follow [WORKFLOW.md](WORKFLOW.md) for review/integration rules. The scaffold referenced `docs/GIT_SETUP.md`, but that file is absent from this checkout; no synchronization action is implied.
 
-No initial Codex implementation brief is included: this is the requested scaffold itself. Future implementation and audit briefs belong in [docs/implementation-briefs/](docs/implementation-briefs/README.md).
+The [initial reconnaissance brief](docs/implementation-briefs/CODEX_RESEARCH_BRIEF_initial_outpost_system_reconnaissance.md) and [report](docs/experiments/initial-outpost-system-reconnaissance.md) are retained. Future briefs belong in [docs/implementation-briefs/](docs/implementation-briefs/README.md).
 
 ## Research boundary
 
-The deliverable is a verified account of the outpost system, supported by reproducible evidence and validation within an agreed scope/build matrix. Small research tools may later support the investigation. This scaffold contains no parser, runtime exporter, observer plugin, dependencies, or build/CI setup.
+The deliverable is a verified account of the outpost system, supported by reproducible evidence and validation within an agreed scope/build matrix. The initial brief authorized small xEdit/Ghidra readers; no save parser, runtime exporter, observer plugin, new dependencies, or build/CI setup was introduced.
 
 The sequence remains **complete and validate the agreed research scope -> publish the research -> decide how to consume it**. An `Import from Save` feature in Starfield Outpost Network, a generic dump tool, and future mods are downstream possibilities, not current implementation commitments. Do not impose their data models on the research.
 
@@ -55,7 +55,7 @@ The sequence remains **complete and validate the agreed research scope -> publis
 `-- exports/               # Generated work ignored except its README
 ```
 
-Use an external workspace or ignored `.local-work/` for saves, raw/decompressed data, dumps, analysis databases, unreviewed exports, and private permission correspondence. Do not upload them merely because the repository is private. No game/tool baseline from another project has been adopted.
+Use an external workspace or ignored `.local-work/` for saves, raw/decompressed data, dumps, analysis databases, unreviewed exports, and private permission correspondence. Do not upload them merely because the repository is private. The static baseline was independently checked here; no sibling baseline was adopted without verification.
 
 ## Licence and third-party conduct
 
