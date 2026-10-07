@@ -1,6 +1,6 @@
 # Offline Save Analysis
 
-No parser, compressor, schema, dependency, or save sample is supplied or approved. Candidate public implementations are research leads in [SOURCES.md](../docs/SOURCES.md), not adopted code.
+The [manual S0–S7C brief](../docs/implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md), explicitly invoked by the user, authorizes narrow project-authored offline scripts and copies of 17 named saves. The [completed first pass](../docs/experiments/manual-save-corpus-S0-S7C.md) uses installed CPython/standard-library zlib for a bounded empirical container transform and descriptive comparisons. No general save parser/editor or third-party parser implementation is adopted. Candidate public implementations remain research leads in [SOURCES.md](../docs/SOURCES.md).
 
 Future project-authored scripts belong in [scripts/](scripts/README.md). Use immutable, hashed local copies; originals and decompressed output stay outside Git. Default analysis is read-only and writes new, separately named outputs. No save rewriting, repacking, repair, or loading a modified save without a separate approved experiment.
 

@@ -1,5 +1,11 @@
 # Provenance and Environment Baseline
 
+## SOR-SAMPLE-0006–0022 — Manual S0–S7C corpus, 2026-10-07
+
+Sequential assignment: S0=0006, S0C=0007, S1=0008, S1C=0009, S2=0010, S2C=0011, S3=0012, S3C=0013, S4=0014, S4C=0015, S5=0016, S5C=0017, S6=0018, S6C=0019, S7=0020, S7C=0021, incidental exit=0022. User supplied exact filenames/actions and authorized copying plus offline analysis. All source/copy/source SHA-256 checks passed. [Selected manifest](experiments/manual-save-corpus/manifest.csv) retains sizes, times and original/decoded hashes; exact private locators are in ignored `.local-work/manual-S0-S7C/manifest.json`. Source files untouched; prior local copies preserved; fresh archive `.local-work/savegames/manual-S0-S7C/`.
+
+SOR-EV-0009 / [experiment](experiments/manual-save-corpus-S0-S7C.md) records a single continuous session, nearly stationary actor, S5 actor movement, non-atomic S3 construction, uncertain S3/S3C combat and S7 cleanup confounds. Decoded version strings report 1.16.244.0; originating executable hash and actual loaded module profile were not independently acquired for this corpus. CPython3.14.3 with installed standard-library zlib runtime1.3.1.zlib-ng, SOR-S-0113; exact tool/script/transform hashes and chunk metadata local. Raw/decoded data LOCAL-ONLY, authored summaries REVIEW-REQUIRED. This sample set does not inherit old protected-parent semantics or establish reload behavior.
+
 ## Scaffold provenance
 
 Prepared on **2026-10-01** at the user's request, using the supplied reference-handle scaffold as an organizational reference and the agreed broader outpost-systems remit.

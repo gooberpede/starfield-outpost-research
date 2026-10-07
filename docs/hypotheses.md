@@ -1,5 +1,13 @@
 # Hypotheses and Open Questions
 
+## SOR-H-0004 — Save-position candidates may share or relate to the live local frame
+
+PROVISIONAL; SOR-ST-0013, SOR-EV-0004 (EXP0002 A0/A0C) and SOR-EV-0009 (manual corpus S0–S7C). The [verified numerical comparison](experiments/manual-save-corpus-S0-S7C.md#offline-comparison-with-earlier-exp0002-live-player-coordinates) finds identical recorded live player tuples and distances 6.830539 / 8.997486 / 26.000118 to beacon/pre-S6 solar/post-S6 solar candidates. These modest numerical separations are compatible with placement at the reported same site and strengthen a same or closely related local Cartesian frame interpretation, without validating it. Prior capture reports game1.16.244.0; save headers report the same version, but actual originating save-session executable identity is not independently acquired.
+
+Alternatives: coincidental numerical proximity, translated/scaled frame, different reference or child-object ownership, or cross-session frame differences. Unknown: origin, units, axis semantics, ownership, planetary/body-relative interpretation and latitude/longitude conversion. The earlier live captures are non-atomic; numerical agreement does not establish an authoritative transform, unit scale or matched runtime/save identity.
+
+Future discriminator, recommendation only: paired, independently identified runtime/save positions at matched checkpoints, including one controlled displacement, should exhibit a consistent relation. Inconsistent displacements or unexplained varying offsets would weaken/falsify the simple shared-frame interpretation; proximity alone cannot select between frames. No such observation is authorized or implemented by this correction. The recommended next live experiment remains output-link present→removed→recreated, predicting motif present→absent→present while principal objects remain unchanged; it still requires separate authorization.
+
 The following starting questions remain open. Reconnaissance now supplies the discriminating hypotheses below; they are not established runtime explanations.
 
 | ID | Question | Status |

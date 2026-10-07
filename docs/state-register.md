@@ -1,5 +1,18 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0010–0013 — Manual-corpus saved candidates
+
+SOR-ST-0013 offline correction: [comparison with verified A0/A0C live coordinates](experiments/manual-save-corpus-S0-S7C.md#offline-comparison-with-earlier-exp0002-live-player-coordinates) gives candidate distances 6.830539 / 8.997486 / 26.000118 without physical units. This strengthens only SOR-H-0004's provisional same/related local-frame interpretation. Frame origin, units, axes, reference ownership, body-relative meaning and latitude/longitude conversion remain UNKNOWN; no authoritative object-transform or cross-session identity mapping established.
+
+SOR-EXP-0003 / SOR-EV-0009 / SOR-F-0009; SOR-SAMPLE-0006–0022. [Exact signatures, offsets and lifecycles](experiments/manual-save-corpus-S0-S7C.md), [ledger](experiments/manual-save-corpus/candidates.csv). All SAVE byte observations; semantic assignments PROVISIONAL, publication REVIEW-REQUIRED. No runtime identity mapping or safe integration point.
+
+| ID | Candidate | Observed lifecycle | Persistence/authority limit |
+|---|---|---|---|
+| SOR-ST-0010 | B/T/E/P object-window family | B appears S1; T S2; E/P S3; E disappears S7, others persist | Bytes PERSISTED in these samples; roles inferred; full record bounds, ownership and reload authority UNKNOWN |
+| SOR-ST-0011 | B/T/E relationship motif | Absent through S3C; present S4–S6C; absent S7 onward | Bytes PERSISTED; output-link interpretation inferred, endpoint direction/authority UNKNOWN |
+| SOR-ST-0012 | Outpost name string neighborhood | Kreet Outpost 1 S1–S4C, SOR-001 S5 onward | Text PERSISTED; string-table reference to B and authoritative post-load consumer UNKNOWN |
+| SOR-ST-0013 | P/B position candidates and location labels | P tuple changes only at S6; B tuple stable through actor/solar movement; header Kreet label | Bytes PERSISTED; XYZ interpretation inferred; units, frame, body mapping, latitude/longitude UNKNOWN; Narion only a script-name lead |
+
 ## SOR-ST-0009 — Candidate save-manager coordination state
 
 SOR-ENV-0003 / SOR-EV-0005 / SOR-F-0007. Static global `0x145e6d6e8` (RVA05e6d6e8) supplies the manager to the UI new-slot call. Request reads manager-relative+50; finalization setup exchanges+8c to1 and completion path clears+8c then wakes waiters. These are instruction operands, not a declared native layout or save offsets. Live object identity, lifetime, status enumeration, authority, complete synchronization, persistence and serialized representation are UNKNOWN; persistence UNCLASSIFIED. PROVISIONAL busy/completion interpretation, OBSERVED-INTERNAL, REVIEW-REQUIRED. [Detailed map](experiments/SOR-EXP-0002A-native-save-thread-mapping.md) preserves alternative/error/backend paths. No field was semantically validated live.
