@@ -20,7 +20,7 @@ Reading a brief does not authorize every action it mentions. Identify permitted 
 6. Update the experiment, relevant subsystem notes, registers, and [RESEARCH_STATE.md](docs/RESEARCH_STATE.md). Do not overwrite historical evidence to make it fit a new model.
 7. Propose the next bounded step; do not automatically begin it.
 
-No fixed language, debugger backend, save parser, or instrumentation framework has been selected. Reusing tooling from a sibling project requires provenance and authorization, not an assumption that adjacent work is already in scope.
+No project-wide debugger backend or instrumentation framework is mandated; each experiment records its selection. Maintainer-authored sibling tooling has standing reuse authorization under [SOR-P-0002](docs/PERMISSIONS.md#sor-p-0002--standing-maintainer-owned-material-grant); provenance and experiment/execution scope still apply. Third-party components remain separately gated.
 
 ## Critical review of every diff
 

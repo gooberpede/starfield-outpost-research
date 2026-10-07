@@ -1,5 +1,9 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0009 — Candidate save-manager coordination state
+
+SOR-ENV-0003 / SOR-EV-0005 / SOR-F-0007. Static global `0x145e6d6e8` (RVA05e6d6e8) supplies the manager to the UI new-slot call. Request reads manager-relative+50; finalization setup exchanges+8c to1 and completion path clears+8c then wakes waiters. These are instruction operands, not a declared native layout or save offsets. Live object identity, lifetime, status enumeration, authority, complete synchronization, persistence and serialized representation are UNKNOWN; persistence UNCLASSIFIED. PROVISIONAL busy/completion interpretation, OBSERVED-INTERNAL, REVIEW-REQUIRED. [Detailed map](experiments/SOR-EXP-0002A-native-save-thread-mapping.md) preserves alternative/error/backend paths. No field was semantically validated live.
+
 Concrete candidates below are supported by static evidence only. No saved record or cross-domain identity mapping is established. Evidence/entry hashes and native operand domains: [SOR-EV-0001](experiments/evidence/initial-reconnaissance/README.md). All publication classification REVIEW-REQUIRED.
 
 | ID | Subsystem / concept | Runtime representation | Saved representation / offset domain | Definition dependencies | Persistence class | Lifecycle / authority | Build and sample scope | Confidence / evidence |

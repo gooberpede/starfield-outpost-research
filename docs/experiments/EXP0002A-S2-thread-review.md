@@ -1,0 +1,11 @@
+# EXP0002A S2 — single-thread selection review
+
+2026-10-07, SOR-D-0019. S2 remains contingent on a full S1 pass (operator outcome, new save, detach, delayed responsiveness and normal exit/sync). This review selects a thread identity rule before any S2 arming; it does not claim a save-thread contract.
+
+Preferred candidate: the existing OS thread owning Starfield's principal game window, obtained with GetWindowThreadProcessId and correlated with the exact target PID and thread creation time. In S1, PID5692's window handle722834 belonged to TID20628, created2026-10-07T04:24:48.0753429Z. This matched a member of the debugger's observed thread population. The read-only host query is preserved in s1-live-01/window-thread-candidate.json; the initial sandbox query returned no window, so no thread identity was inferred from that failed query.
+
+Rationale: the first question is ordinary UI request initiation. Stage A identifies FUN_14166c0a0 as a selection callback and FUN_14166c190 as the direct new-slot request caller, with an independently decoded call into REQUEST_ENTRY and expected return RVA0x0166c1c3. An OS window-owner identity is more concrete for this experiment than an arbitrary oldest/first thread or a save-worker name. A named save-load worker would be a plausible serializer candidate, but not demonstrated as the initial request caller.
+
+Material uncertainty: FUN_14166c0a0 has direct/queued dispatch alternatives. Window ownership does not prove that the game menu callback or subsequent request runs on that thread. S2 may therefore produce no hit even with a successful ordinary save. Preserve that outcome without changing ownership or calling it evidence that the request site is wrong.
+
+For a fresh S2 process, never reuse S1's PID/TID. Before attach, require exactly one game process, valid nonzero game window, matching window-owner PID, one matching existing TID and recorded creation time. Recheck PID/path/build/hash/module guards. Pass the freshly verified TID explicitly to --starfield-s2. At readiness, native evidence must show exactly one DR0 owner with the same TID and creation identity; all other members and all later threads must remain unarmed. Abort the handoff if those checks disagree. One REQUEST_ENTRY or a10-second already-active window, no widening or automatic retry. Stage C remains blocked.

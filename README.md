@@ -1,8 +1,21 @@
 # Starfield Outpost Systems Research
 
+**Current direction — SOR-D-0021:** native save automation is optional/unresolved, not a project dependency. Manual differential saves and live outpost observation are primary supported paths. The [final one-shot software-breakpoint attempt](docs/implementation-briefs/EXP0002A-final-software-attempt.md) ended with zero request captures: **DEFERRED_NO_MATERIAL_ADVANCE**. This phase of native-save investigation is closed/deferred. No further S1.5, backend or hardware retry for EXP-0002A native-save instrumentation. The next active project task is [resumed beacon research](docs/experiments/EXP0002-manual-beacon-resumption.md) using manual checkpoints. Native-save revisits require a specific new reason from central outpost evidence and separate review. Stage C is not authorized. No commit/push.
+
+The dated EXP0002A holds/results below are preserved history; they do not block the overall outpost programme.
+
+**Historical S1/S2 controls:** S0 no-debugger manual save passed and is archived; S1 debugger-without-DR0 save passed and is archived. S2 armed only the reviewed game-window thread, then the game exited after one click with no REQUEST_ENTRY evidence. A remaining pre-exit-notification cleanup defect is recorded; both processes are gone and sync completed. Crash dumps are secured locally. No widening/rerun or Stage C. The entire 0.1.2 evidence remains unchanged. [Full 0.1.3 audit](docs/audits/exp0002a-adapter-0.1.3.md).
+
+
+**Historical result — adapter 0.1.2:** the authorized Stage-B attempt reached ARMED on 92 existing threads. The operator clicked New Save once, then Starfield exited before any REQUEST_ENTRY capture. Evidence is incomplete; the controller exit-event recovery defect is recorded separately. Both processes are gone, the user reports Steam sync finished, and protected Save3 hashes remain unchanged. No retry or substantive adapter fix before review. Stage C remains blocked. [Live audit](docs/audits/exp0002a-adapter-0.1.2.md).
+
 **Repository:** `starfield-outpost-research`
 
-**Stage:** The fresh review14 Gate B run completed A0/A0C and preserved both control saves, then stopped before A1 because A0 ran outside the loader-identified main thread. No selected-reference queries or reload result. See the [current run record](docs/experiments/EXP0002-review14-run.md), [first attempt](docs/experiments/EXP0002-gate-b-run.md) and [operator card](docs/experiments/EXP0002-operator-card.md).
+**Historical review hold:** [EXP0002A adapter0.1.1 qualification](docs/audits/exp0002a-adapter-0.1.1.md) passed the focused fixed-population capture, unarmed-new-thread NO_HIT and capture-first destructive-recovery controls. The0.1.0 dynamic-new-thread retirement failure is preserved. Stage B remains ordinary Steam without SFSE; Starfield mode stays disabled pending review. No deployment or game launch. Static mapping is preserved; Stage C remains blocked.
+
+**Current stage:** EXP-0002A native-save investigation is [deferred](docs/audits/exp0002a-final-software-attempt.md). EXP0002 outpost/beacon research is ready to resume using [manual controlled saves](docs/experiments/EXP0002-manual-beacon-resumption.md); native-save automation is not a prerequisite.
+
+**Historical pre-pivot stage:** [SOR-EXP-0002A](docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md) mapped static manual-save candidates, but bounded debugger setup attempts acquired no manual-save trace. User exited normally; protected parents unchanged; incidental exit save archived without deletion. No native-save prototype or safe query thread established. EXP0002 was paused after [review14 A0/A0C](docs/experiments/EXP0002-review14-run.md), before construction/native queries. Review required; no commit/push.
 
 **Development:** Private initially; completed, reviewed research must be published.
 

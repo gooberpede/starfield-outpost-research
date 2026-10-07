@@ -1,5 +1,7 @@
 # Static-Analysis Scripts
 
+EXP0002A adds `saves`, a bounded scan of existing defined strings for savegame/saveload/manualsave/quicksave/deletesave/save game/saving game/savecomplete. It uses the existing 350-string/eight-reference caps and never creates analysis. Selected exports, failed attempts and database preservation are indexed in [SOR-EV-0005](../../docs/experiments/evidence/exp0002a-static/README.md).
+
 Add only authorized project-authored or explicitly permission-cleared work. Every script documents prerequisites, inputs/outputs, effects and validation; preserve provenance and credit.
 
 ## Initial reconnaissance helpers

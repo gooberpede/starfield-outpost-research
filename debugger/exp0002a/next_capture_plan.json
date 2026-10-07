@@ -1,0 +1,104 @@
+{
+  "schema": "SOR-EXP-0002A-review-plan-2",
+  "status": "HISTORICAL_S1_S2_COMPLETED; EXP0002A_DEFERRED_SOR_D_0021",
+  "live_enabled": false,
+  "backend": "win32-hardware-rf",
+  "version_source": "tooling_version.json",
+  "game_sha256": "7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28",
+  "preferred_image_base": "0x140000000",
+  "sites": [
+    {
+      "label": "REQUEST_ENTRY",
+      "rva": "0x183c590",
+      "window_bytes": 32,
+      "sha256": "fd2719cc562926625e1305fed3c5b5913d953b9ea7717fe34fbb67562d4d2877",
+      "mechanism": "DR0_EXECUTE",
+      "max_retained_hits": 1
+    }
+  ],
+  "setup": {
+    "operator_ui_paused_required": true,
+    "initial_attach_pause_event_required": false,
+    "watchdog_seconds": 300,
+    "armed_wait_confirmation_seconds": 120,
+    "unexpected_breakpoints": "STOP_DO_NOT_CLEAR_FOREIGN_STATE"
+  },
+  "capture": {
+    "start": "ACTIVE_FLUSH_ACK_BEFORE_CLICK_NOW",
+    "deadline_seconds": 10,
+    "max_requests": 1,
+    "stack_bytes": 96,
+    "unwind_frames_max": 8,
+    "name_bytes_max": 260,
+    "manager_reads": [
+      {
+        "offset": "0x50",
+        "bytes": 4
+      },
+      {
+        "offset": "0x8c",
+        "bytes": 1
+      }
+    ],
+    "return_address": "ReadQword(RSP)",
+    "expected_new_slot_return_rva": "0x166c1c3",
+    "required_registers": [
+      "RIP",
+      "RSP",
+      "RCX",
+      "RDX",
+      "R8",
+      "R9"
+    ],
+    "null_name": "RECORD_NULL_DO_NOT_DEREFERENCE",
+    "unreadable_memory": "RECORD_UNAVAILABLE_NO_UNBOUNDED_RETRY"
+  },
+  "cleanup": {
+    "timeout_seconds": 15,
+    "max_events": 1024,
+    "flush_before_retirement": true,
+    "delayed_health_seconds": [
+      0,
+      1,
+      5,
+      15
+    ],
+    "force_kill": "EXACT_VERIFIED_EXPERIMENTAL_TARGET_ONLY_AFTER_DURABLE_CAPTURE_OR_INDEPENDENT_MACHINE_SAFETY",
+    "exception_suppression": false,
+    "policy": "CAPTURE_FIRST_DESTRUCTIVE_RECOVERY",
+    "terminate_wait_seconds": 10,
+    "evidence_completeness_independent_of_cleanup": true,
+    "pre_capture_force_kill": "FORBIDDEN_EXCEPT_INDEPENDENT_MACHINE_SAFETY",
+    "termination_identity": [
+      "retained_process_handle",
+      "pid",
+      "creation_time",
+      "full_image_path",
+      "image_sha256"
+    ]
+  },
+  "guards": {
+    "minimum_free_bytes_each_volume": 40000000000,
+    "max_output_bytes": 2000000,
+    "forbidden_loaded_module_prefixes_case_insensitive": [
+      "sfse",
+      "sorexp0002"
+    ],
+    "loaded_module_inventory_required": "BEFORE_ATTACH_BEFORE_ARMED_AND_EACH_LOAD_DLL_FAIL_CLOSED"
+  },
+  "stage_c_enabled": false,
+  "launch": {
+    "stage_b": "ORDINARY_STEAM_WITHOUT_SFSE",
+    "launcher_automation": false,
+    "operator_ready": "PAUSE_SAVE_NEW_SAVE_HIGHLIGHTED_NOT_CONFIRMED",
+    "stage_c_only": "USER_MANAGED_VORTEX_SFSE_WHEN_OBSERVER_0.1.0_IS_SEPARATELY_AUTHORIZED"
+  },
+  "thread_scope": {
+    "mode": "S1_NONE_OR_S2_SINGLE_EXISTING",
+    "post_armed_create_thread": "RECORD_ONLY_NO_DR0_INSTALL",
+    "s2_requires": "S1_PASS_AND_REVIEWED_EXPLICIT_EXISTING_TID",
+    "widening": "FORBIDDEN_PENDING_RESULTS_AND_REVIEW"
+  },
+  "superseded_by": "docs/implementation-briefs/EXP0002A-final-software-attempt.md",
+  "final_disposition": "DEFERRED_NO_MATERIAL_ADVANCE"
+}

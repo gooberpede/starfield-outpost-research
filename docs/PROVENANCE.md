@@ -76,6 +76,14 @@ Codex under SOR-D-0010 rehashed installed/pinned Starfield.exe and CreationKit.e
 
 Installed CPython 3.14.3 and standard library ran original offline metadata/hash/PE/ZIP/string and synthetic-contract checks (SOR-S-0113). Exact Python executable locator/hash and input locators remain in local evidence. No dependency install, build download or third-party implementation incorporated. No native plugin build/package exists; Python execution is not native observer validation. Current Ghidra import hashes still match both pinned executable hashes.
 
+## SOR-ENV-0003 — EXP0002A mapping and debugger setup, 2026-10-07
+
+Seven installed/pinned game/CK/SFSE/archive identities and protected Save3 original/backup match the historical baseline. Starfield1.16.244.0 SHA-256 remains `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`. Ghidra12.1.2 read-only/noanalysis exports; existing Starfield project15-file preservation checked separately. No CK database accessed. CPython3.14.3 and installed MSVC/Windows SDK built/executed the original synthetic fixture; no new package/dependency installation.
+
+Installed x64dbg headless source revision label `9c8ca1cae0b6d56cc44f31fddcb10e3b02ffbb87`; headless.exe SHA-256 `44ece2d8f81c1acbf4c85b45fe89e11875f0e1a0d2ba0c8c8c1a56bf85164268`, x64dbg.dll `dc9d5ff18d6e5fc9d667a2c2bc8fa9cce15fa5e0da9728222259a4525d542c0f`, x64bridge.dll `39730aea3509e275bc2d69d8d27f22695821b7caffa30943fa0dcf36f9f558cd`. This is installed-tool identity, not source/binary reproducibility. No debugger plugin autoload found. Each run uses isolated settings and local databases.
+
+User ready at ordinary New Save after requested SFSE-profile/parent workflow. Live PID20804; observed image base `0x00007ff60a5b0000` in manual-002. No SFSE research observer deployed; plugin directory contained only Vortex's folder marker. Actual loaded SFSE module and four32-byte code sites were checked in manual-002. Restricted attach failed; elevated-context attempts attached, then detached. Default TLS breakpoint side effects and subsequent no-pause failure are retained, not successful save traces. Final live status/parent preservation and local hashes: [SOR-EV-0005](experiments/evidence/exp0002a-static/README.md), [report](experiments/SOR-EXP-0002A-native-save-thread-mapping.md). No live save-call ABI/thread or safe query context established.
+
 ## SOR-SAMPLE-0001 — Immutable pre-outpost parent
 
 Owner-supplied Save3; original and existing backup independently compared byte-for-byte and hashed under the invoked brief. Both 2,096,496 bytes; SHA-256 `d06123ee32bd5b3e244650852fac9714697a19fd6243384966414d1d1f4ffbfe`. Exact filenames/paths/last-write timestamps remain in local `integrity-before.json` and `integrity-after.json`. Parent/backup last-write timestamps differ; bytes agree. Only hash/metadata/byte comparison performed, no save semantics inspected. Final preservation result is in SOR-EV-0002.
@@ -93,3 +101,19 @@ SOR-D-0011 corrects the premature initial stop. Original observer and diagnostic
 ### SOR-SAMPLE-0002 / SOR-SAMPLE-0003 — A0 and A0C controls
 
 Owner-operated ordinary new manual saves during the review14 attempt. Logical aliases SOR-SAMPLE-EXP0002-A0 and SOR-SAMPLE-EXP0002-A0C. Parent lineage: immutable SOR-SAMPLE-0001 to A0, then no-deliberate-action A0C. User confirms Kreet, no construction and settled controls; captured raw player/cell/world values match within the non-atomic views. Raw saves are LOCAL-ONLY; no format/semantic analysis. A0: 2,082,992 bytes, SHA-256 `7d25e02cc0ac4bc81ab7d966a73c84ade0c6c795d154aa625d85b0aaf259fa66`. A0C: 2,066,048 bytes, SHA-256 `875f2e8460d3e5adfdfc15de860a57b991139195905ffff461c43fdf59409d0c`. Exact private filenames/timestamps and source/copy/source hash checks are in local post-exit.json; A0C/exit-save correlation and its initial ambiguity are retained. No save patched or overwritten by the researcher; protected parent/backup unchanged. See [run record](experiments/EXP0002-review14-run.md).
+
+### EXP0002A disposable adapter qualification
+
+SOR-D-0016 / SOR-S-0122: four fresh disposable attachments, no game/save access. Installed MSVC/SDK built the original fixture and maintainer-core adapter; source/binary hashes, command logs, raw JSONL and failed source snapshot remain under .local-work/exp0002a-adapter. [Audit](audits/exp0002a-adapter-qualification.md) distinguishes the handle-ownership failure, subsequent passing existing-thread/timeout controls, and failed new-thread retirement/health. No engine confidence upgrade or Stage-C authorization. Raw evidence/binaries remain local-only; authored summaries and code remain review-required.
+
+### EXP0002A adapter0.1.1 qualification and prior-process closure
+
+SOR-D-0017: USER-REPORTED manual termination of failed0.1.0 disposable PID16100 after review; no agent cleanup action or process lookup for that PID. The old evidence/source/build receipts remain byte-preserved and the dynamic-new-thread failure remains failed. New0.1.1 evidence lives separately under .local-work/exp0002a-adapter-0.1.1. Three focused controls passed: fixed-population capture, unarmed-new-thread NO_HIT, and explicit disposable-only post-flush retirement-fault recovery. Native data completeness, cleanup and target outcome are separate fields. [Identity, exact hashes, limitations and review](audits/exp0002a-adapter-0.1.1.md). No new engine finding or game/save access.
+
+### SOR-SAMPLE-0004 — S0 no-debugger control
+
+2026-10-07: PROJECT-VERIFIED RUNTIME control performed by the project operator, ordinary Steam without SFSE, Save3 parent, New Save confirmed once, automatic return to gameplay, normal exit and completed sync. Codex independently archived Save6: 2,082,128 bytes, SHA-256 c40fbd2d22c81edacdb7fde5a7f68658dc3b559f4ac0aec731660bf5dd6bc94c, last-write UTC 2026-10-07T02:12:02.871840Z. Incidental exit save: 2,082,432 bytes, SHA-256 57cd8388fa13237c4573e682eff550af18024282af361897ba12608bb9efd4df, last-write UTC 2026-10-07T02:12:15.713587Z. Source/copy/source hashes secured before exact experimental Save4/5/6 cleanup. Raw saves/private paths remain ignored. [S0 scope and limits](experiments/EXP0002A-S0-control.md); corrected local archive index excludes accidentally copied unrelated history. No save parsing/reload verification.
+
+### SOR-SAMPLE-0005 — S1 debugger-only save control
+
+PROJECT-VERIFIED RUNTIME S1 pass: new Save7 created during the active no-DR0 window; user returned to gameplay, confirmed delayed responsiveness, normal exit and completed sync. Archived2,079,808 bytes, SHA-25619b88ea38a1e13893b2dda53d0eb07a13288c161b864e0f1408a9e022adec6c6, filesystem last-write2026-10-07T04:27:58.404317Z. Exact paths/incidental exit save and source/copy/source receipts stay local in s1-live-01/outcome.json. S2 produced no newly visible save and no native request contract. [Control audit](audits/exp0002a-adapter-0.1.3.md).

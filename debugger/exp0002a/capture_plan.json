@@ -1,0 +1,13 @@
+{
+  "schema": "SOR-EXP-0002A-x64dbg-plan-v1",
+  "game_sha256": "7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28",
+  "preferred_image_base": "0x140000000",
+  "armed_seconds": 10,
+  "per_site_hit_cap": 25,
+  "sites": [
+    {"label": "REQUEST_ENTRY", "rva": "0x183c590", "size": 32, "sha256": "fd2719cc562926625e1305fed3c5b5913d953b9ea7717fe34fbb67562d4d2877"},
+    {"label": "NEW_SLOT_RETURN", "rva": "0x166c1c3", "size": 32, "sha256": "f6b148cc1b3585739cf823140d4be17ebc05d2ed066e74330770b756ce057598"},
+    {"label": "SERIALIZER_ENTRY", "rva": "0x1814220", "size": 32, "sha256": "e33337afbcf60c2cc80d2ad89f546267678931bd17251be711ddba2dfb11d105"},
+    {"label": "COMPLETION_WAKE", "rva": "0x183b86d", "size": 32, "sha256": "3a58c027e406a58b73d235013aee45362a1fddcfaf250620b0e0eb3241adf203"}
+  ]
+}

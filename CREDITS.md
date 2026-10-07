@@ -1,5 +1,7 @@
 # Credits
 
+For SOR-EXP-0002A, **Ian Patterson and SFSE contributors** supplied the serialization-address/source lead, independently rejected for the current retail locations (SOR-S-0120). **x64dbg contributors and documentation authors** supplied the installed headless debugger and its command/default-behavior documentation; **Microsoft Learn authors** supplied process/debugger verification references (SOR-S-0121). **Bethesda**, **Ghidra**, **CPython**, and **Microsoft MSVC/Windows SDK** supplied the separately installed research/build/runtime tools and inputs already credited below. Original experiment controllers are source-informed work, not a clean-room claim. No additional third-party implementation was incorporated; none of these authors endorses the research.
+
 Credit identifies contributions actually used. It is neither a permission record nor a claim of endorsement. Add source-specific acknowledgments here and citations beside affected research; retain credit when independently reproducing an earlier finding.
 
 ## Scaffold preparation
@@ -31,3 +33,7 @@ For the continued EXP0002 implementation: **Ian Patterson** supplies the explici
 For the first primary Gate B attempt, **Ian Patterson and SFSE contributors** supplied read-only implementation evidence explaining why declared save/load message enums do not guarantee active dispatch (SOR-S-0118). No hook implementation was copied or adapted. This diagnosis corrects our observer's integration assumption; it is not an outpost finding.
 
 For the review14 primary run, **Ian Patterson and SFSE contributors** supplied read-only task-dispatch implementation context (SOR-S-0119) for the observed execution-thread discrepancy. No implementation was incorporated, and safe native-query thread affinity remains unresolved.
+
+Microsoft's installed CDB/dbgeng and Windows SDK minidump/AMD64 CONTEXT format declarations support the [EXP0002A offline crash comparison](docs/audits/exp0002a-crash-dump-comparison.md) (SOR-S-0117 extension). Separate installed tools and format consultation only; no third-party implementation/header incorporated. No additional maintainer-owned code reuse occurred in this task.
+
+Microsoft CDB/dbgeng and Ghidra debugger-agent documentation informed the [final EXP0002A software-breakpoint preparation](docs/audits/exp0002a-final-software-attempt.md). Separate installed tools/read-only consultation; no third-party implementation incorporated.

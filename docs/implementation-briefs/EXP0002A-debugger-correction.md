@@ -1,0 +1,15 @@
+# EXP0002A debugger correction — authorized offline work
+
+2026-10-07 Australia/Sydney. Durable adoption of the user's nine-part chat correction, SOR-D-0015. This supplements the [original brief](CODEX_RESEARCH_BRIEF_SOR-EXP-0002A_native_save_thread_mapping.md) and overrides its automatic progression to another live attempt for this correction.
+
+1. Record the standing maintainer-owned reuse grant for maintainer-authored material in all `gooberpede` GitHub/local repositories: inspect/copy/adapt/port/reuse without another permission discussion, mandatory project/path/version/use/mode provenance, optional self-credit. Embedded third-party material remains excluded; SFSE gates unchanged.
+2. Reassess in order: Ghidra debugger/dbgeng attached to an already running UI-paused process; existing maintainer Win32 hardware/RF infrastructure if a better fit; x64dbg only for a concrete technical advantage. Consult sibling documentation and implementation. Headless convenience is not selection evidence.
+3. Next operator sequence, only after review: normal launch, disposable Save3-based load, Pause > Save > highlight New Save, **do not confirm**, report ready; attach/configure afterward. UI pause and debugger event-stop are distinct. No requirement that initial attachment itself produce a specific paused notification.
+4. First useful trace: REQUEST_ENTRY alone, at most REQUEST_ENTRY plus SERIALIZER_ENTRY if clearly justified. Capture OS TID, module base/RIP, caller/return provenance, RCX/RDX/R8/R9, bounded stack arguments, manager/name pointers, bounded name data and identified state fields. Expand only after reliable ordinary-request evidence.
+5. Setup time is separate. Report ARMED only after PID/build/hash/base, site bytes, debugger state and absence of unintended breakpoints are verified. Scientific bound starts after ARMED and the user's save confirmation; retain one request and a short deadline. Record timing uncertainty honestly.
+6. Preserve Stage-A candidate chain and raw evidence. Setup/transport failure is not failure of the mapped save path. Do not remap without a contradiction.
+7. Stage C remains blocked until ordinary manual-save evidence supports thread/context, manager/objects, arguments, naming and request/completion relationship. Never guess from old SFSE source; one entry alone may still leave this gate closed.
+8. Next reviewed observer/tooling build for resumed EXP0002 starts 0.1.0, then 0.1.1 etc. One version source propagates package/plugin/evidence/manifest identity. Historical reviewNN and controller revision labels remain historical.
+9. Return selected backend/rationale, reuse provenance, exact sites, operator sequence, timing model, offline validation, file inventory, full diff and Git status. **No staging, commit, push, deployment, Starfield launch or new live trace in this correction. Return for review first.**
+
+Implementation and limitations: [correction audit](../audits/exp0002a-debugger-correction.md). This retained brief is authorization to do the listed offline correction, not authorization to execute its future operator sequence.

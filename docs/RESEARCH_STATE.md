@@ -1,10 +1,29 @@
 # Current Research State
 
-**As of:** 2026-10-06 (Australia/Sydney).
+**Current direction — SOR-D-0021:** native save automation is optional/unresolved, not a project dependency. Manual differential saves and live outpost observation are primary supported paths. The [final one-shot software-breakpoint attempt](implementation-briefs/EXP0002A-final-software-attempt.md) ended with zero request captures: **DEFERRED_NO_MATERIAL_ADVANCE**. This phase of native-save investigation is closed/deferred. No further S1.5, backend or hardware retry for EXP-0002A native-save instrumentation. The next active project task is [resumed beacon research](experiments/EXP0002-manual-beacon-resumption.md) using manual checkpoints. Native-save revisits require a specific new reason from central outpost evidence and separate review. Stage C is not authorized. No commit/push.
 
-**Stage:** The authorized fresh review14 run completed A0/A0C with zero load messages, archived both control saves, and stopped before A1 when A0's execution-thread ID differed from the loader-identified main thread. No selected-reference native queries or reload result. User exited normally and retired the observer through Vortex. Protected parent/backup unchanged. See the [current run record](experiments/EXP0002-review14-run.md); the [first attempt](experiments/EXP0002-gate-b-run.md) remains preserved.
+EXP0002 outpost/beacon research is ready to resume using manual controlled saves.
 
-**Authority:** SOR-D-0013 approved a fresh primary A0–A2R run using review14-settled after correction review. The observed thread discrepancy now requires review before native-query continuation. Vortex and ordinary game UI remain user-operated. Optional debugger trace is not authorized. No staging, commit, push, guard bypass or automatic retry.
+The decision to defer EXP-0002A does not deprecate debugger use elsewhere in the project. Debugger-assisted research remains an available technique where it has a specific, high-value target. What is being deferred is further effort to automate or instrument Starfield's native save path.
+
+The dated EXP0002A holds/results below are preserved history; they do not block the overall outpost programme.
+
+**Prior offline evidence/review hold, 2026-10-07:** [dump comparison](audits/exp0002a-crash-dump-comparison.md), SOR-EV-0007 / SOR-F-0008, finds both failed DR0 runs at REQUEST_ENTRY with STATUS_SINGLE_STEP, matching stacks and WER signature. The S2 faulting TID is the selected DR0 owner. This establishes scoped runtime entry reachability, not a successful adapter capture, complete save contract or root cause. Both original runs remain INCOMPLETE_PRE_CAPTURE_TARGET_EXIT. S1.5 (matched selected-thread lifecycle without DR writes) is recommended for separate review only; no new live authority. Stage C remains blocked. Earlier dated/status statements below are retained as historical; their no-runtime/no-entry-evidence statements are superseded only to this narrow dump-derived extent.
+
+**Historical S1/S2 controls:** S0 no-debugger manual save passed and is archived; S1 debugger-without-DR0 save passed and is archived. S2 armed only the reviewed game-window thread, then the game exited after one click with no REQUEST_ENTRY evidence. A remaining pre-exit-notification cleanup defect is recorded; both processes are gone and sync completed. Crash dumps are secured locally. No widening/rerun or Stage C. The entire 0.1.2 evidence remains unchanged. [Full 0.1.3 audit](audits/exp0002a-adapter-0.1.3.md).
+
+
+**Historical result — adapter 0.1.2:** the authorized Stage-B attempt reached ARMED on 92 existing threads. The operator clicked New Save once, then Starfield exited before any REQUEST_ENTRY capture. Evidence is incomplete; the controller exit-event recovery defect is recorded separately. Both processes are gone, the user reports Steam sync finished, and protected Save3 hashes remain unchanged. No retry or substantive adapter fix before review. Stage C remains blocked. [Live audit](audits/exp0002a-adapter-0.1.2.md).
+
+**As of:** 2026-10-07 (Australia/Sydney).
+
+**Historical review hold:** SOR-D-0017 / [adapter0.1.1 qualification](audits/exp0002a-adapter-0.1.1.md): arm only the population existing at ARMED; record later threads without DR0. Focused existing-thread capture, new-thread-only NO_HIT and post-flush destructive-recovery controls passed. Complete evidence survives cleanup failure as a separate result dimension. The0.1.0 dynamic-new-thread retirement failure remains unchanged; user reports manually terminating PID16100 after review, no further cleanup needed. No Starfield launch/attachment or deployment; live entry remains disabled. Steam without SFSE, loaded-module absence checks, Stage-A preservation and Stage-C gate remain.
+
+**Historical pre-pivot stage:** EXP0002 paused after review14 A0/A0C. [SOR-EXP-0002A](experiments/SOR-EXP-0002A-native-save-thread-mapping.md) Stage A maps static UI/request/serializer/finalizer candidates. Stage B setup attempts acquired no manual-save trace; default TLS breakpoint deviation and later missing-pause failure retained. User exited normally, sync complete, no manual save. Parents unchanged; incidental exit save copied/verified without deletion. Stage C not entered; observer0.1.0 not built. Native save/GetWorkshop execution context remains unqualified.
+
+**Authority:** SOR-D-0014 invokes the native-save brief and supersedes the earlier no-debugger boundary only for its staged, bounded save-path work. Live acquisition stopped for review after setup failures; no broader retry or Stage C qualification follows. Ordinary game UI remains user-operated; prospective Stage B uses Steam without SFSE, while Vortex/SFSE deployment is reserved for Stage C. No staging, commit, push, guard bypass, construction or automatic retry.
+
+**New evidence:** SOR-ENV-0003 / SOR-EV-0005; SOR-F-0007 establishes only five direct retail call edges and rejection of old SFSE source sites. SOR-FN-0014–0018 and SOR-ST-0009 are static candidates, not callable interfaces or persisted state. No manual-save thread/argument/completion contract recovered. Review package and preserved attempts: [evidence index](experiments/evidence/exp0002a-static/README.md). Historical EXP0002 records below remain historical; their no-debugger statements do not revoke the narrower later brief.
 
 ## Established within static scope
 
@@ -28,7 +47,7 @@ Callback static 0x142073cf0 (RVA 0x02073cf0) tail-jumps into keyed lookup 0x1405
 
 No public report was treated as reproduced. xEdit interpretation has no second-parser validation; source-to-PEX identity is unchecked; vocabulary/capture caps and missing PKIN/robot details remain documented. Actual preservation/repository checks are in [the audit](audits/initial-reconnaissance-validation.md). Raw inputs/exports remain local and ignored; the evidence index carries locators/hashes only.
 
-The only code reuse is approved SFSE PluginAPI.h under SOR-P-0001. No broader dependency incorporation, upstream communication, fork/PR, stage/commit/push or publication. Initial user-operated xEdit readers remain as previously recorded. SOR-EXP-0001 read no saves. SOR-EXP-0002 has now loaded the authorized parent through user UI; researcher save access remained protected-parent integrity checks and post-exit archival of the incidental exit save, without semantic parsing. Protected Save2 contents were not accessed. SOR-S-0118 credits read-only SFSE source diagnosis; no hook code was incorporated.
+The only third-party code reuse is approved SFSE PluginAPI.h under SOR-P-0001. Maintainer-owned native-core adaptation and offline validator reuse are separately recorded under SOR-P-0002/SOR-S-0122. No broader dependency incorporation, upstream communication, fork/PR, stage/commit/push or publication. Initial user-operated xEdit readers remain as previously recorded. SOR-EXP-0001 read no saves. SOR-EXP-0002 has now loaded the authorized parent through user UI; researcher save access remained protected-parent integrity checks and post-exit archival of the incidental exit save, without semantic parsing. Protected Save2 contents were not accessed. SOR-S-0118 credits read-only SFSE source diagnosis; no hook code was incorporated.
 
 ## Historical boundary and remaining programme decisions
 

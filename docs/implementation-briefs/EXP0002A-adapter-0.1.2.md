@@ -1,0 +1,11 @@
+# EXP0002A adapter 0.1.2 — approved bounded Starfield enablement
+
+2026-10-07, SOR-D-0018. The user approved 0.1.1 as the qualified base and explicitly authorized 0.1.2 plus one live Stage-B trace without another review, provided the substantive source delta is limited to version-associated changes and enabling the existing reviewed Starfield path. Further substantive changes require review.
+
+Preserve the pinned executable SHA-256, REQUEST_ENTRY RVA 0x0183c590 and 32-byte site hash, Steam without SFSE/SorExp0002 guards, C: and D: minimum 40,000,000,000 bytes free, frozen-at-ARMED population, one request/10-second bound and capture-first destructive recovery. Rebuild and run offline/self-checks; compare against the exact qualified source. No new disposable qualification is required. No staging, commit, push, deployment or Stage C.
+
+Reconfirm protected Save3 original/backup hashes and disk space. The operator launches normally through Steam, loads disposable Save3 state, opens Pause > Save, highlights New Save without confirming and reports ready. Only then attach 0.1.2. Verify PID/build/hash, base, site, complete module absence checks, thread population and debugger/register state; freeze membership, release setup suspensions, then report ARMED. The operator confirms New Save exactly once. Record actual click report separately from confirmation receipt; the existing provisional-hit handling and receipt-anchored no-hit deadline remain unchanged.
+
+Setup has a 300-second watchdog, ARMED coordination 120 seconds, scientific acquisition one request or 10 seconds after confirmation receipt. Later threads are recorded without DR0 ownership. Complete capture is durably flushed before bounded retirement (15 seconds/1024 events); failed retirement permits only exact retained-handle verified target termination. No pre-capture force kill except independent machine safety. Evidence completeness, interpretation, cleanup and survival remain distinct. Preserve all historical failed 0.1.0 and qualified 0.1.1 evidence.
+
+Use the [operator card](../experiments/EXP0002A-operator-card.md). Observer 0.1.0 remains an unbuilt Stage-C reservation. Entry evidence alone does not establish naming/completion or authorize native save invocation.

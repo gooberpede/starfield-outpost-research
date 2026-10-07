@@ -47,3 +47,7 @@ The project starts private. Completed, reviewed research must be published under
 3. Use the results to select bounded subsystem investigations and agree first-publication coverage.
 
 No experiment has been executed or tool selected by this charter. See [RESEARCH_STATE.md](RESEARCH_STATE.md).
+
+## Research infrastructure independence
+
+SOR-D-0021: native/plugin-triggered save invocation is optional infrastructure, not a prerequisite. The programme can proceed through manual incremental checkpoint saves, controlled no-action saves, live observer/plugin evidence and offline differential save analysis. Live behavior and saved representation remain independently valuable and should be correlated. Deferring native saving is prioritization, not failure of the outpost programme.

@@ -2,6 +2,10 @@
 
 **One scoped third-party header reuse is approved (SOR-P-0001 below).** No broader SDK/library/runtime reuse follows from it.
 
+## SOR-P-0002 — Standing maintainer-owned material grant
+
+APPROVED-FOR-STATED-SCOPE, 2026-10-07. The maintainer explicitly grants the [standing exception](../THIRD_PARTY_POLICY.md#maintainer-owned-material) for maintainer-authored material in any `gooberpede` GitHub/local repository. This supplies authorial permission and user authorization for inspection/copy/adaptation/port/reuse here without another permission discussion. Mandatory per-use provenance, optional self-credit, third-party exclusions and separate execution/publication gates are defined once in that policy. It supersedes earlier sibling-copy restrictions only for covered maintainer-authored material; historical records retain their original scope. SFSE SOR-P-0001 remains unchanged. Current use: SOR-S-0122 and [correction provenance](../debugger/exp0002a/maintainer/PROVENANCE.md). Whole-project publication remains REVIEW-REQUIRED.
+
 Scaffold-specific use of the supplied organizational reference and verbatim GPL legal text is recorded transparently in [SOURCES.md](SOURCES.md). Neither is a blanket permission to copy implementations, research datasets, or game scripts.
 
 | ID | Source / exact material and version | Proposed use | Rights-holder permission | User decision | Conditions / notices | Affected files / credit | Publication eligibility |

@@ -1,5 +1,7 @@
 # Experiments
 
+- [SOR-EXP-0002A: native save execution/thread mapping](SOR-EXP-0002A-native-save-thread-mapping.md) — static mapping analyzed; live setup attempts stopped without manual-save evidence. Default TLS-breakpoint deviation and cleanup retained. Stage C not entered. This is the current tooling record; EXP0002 construction remains paused.
+
 Static reconnaissance and two primary Gate B attempts have been executed. The fresh review14 attempt completed A0/A0C and stopped before native queries due to a thread-affinity discrepancy; A0–A2R remains incomplete. Use [the template](../templates/experiment.md), [the evidence standard](../EVIDENCE_STANDARD.md), and [WORKFLOW.md](../../WORKFLOW.md).
 
 - [SOR-EXP-0001: initial reconnaissance](initial-outpost-system-reconnaissance.md) — static execution and evidence, review required.
@@ -13,3 +15,5 @@ A record must contain the question, scope, sources/permissions, actual baseline 
 Keep failed/negative runs and superseded interpretations. Link conclusions into the subsystem and finding/state/function registers. Do not promote a claim simply because bytes differ or a test reports success.
 
 Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/README.md) with their own authored README and rights/integrity metadata. Plan any live work separately; no live run follows from this directory existing.
+
+- [EXP0002A S0 no-debugger control](EXP0002A-S0-control.md) — PROJECT-VERIFIED RUNTIME pass; S1/S2 gates in [0.1.3 audit](../audits/exp0002a-adapter-0.1.3.md).

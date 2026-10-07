@@ -19,6 +19,14 @@ Do not assume a repository's root licence covers all its files. Check file-speci
 
 ## Code reuse requires two separate gates
 
+### Maintainer-owned material
+
+Standing user grant, 2026-10-07, SOR-P-0002: `starfield-reference-handles` and any other GitHub or local repository owned by `gooberpede` may be treated as maintainer-owned. For **maintainer-authored material**, authorial permission and project authorization for inspection, copying, adaptation, porting and code reuse are granted without a separate permission discussion. Self-credit in CREDITS.md or third-party notices is not required.
+
+Provenance remains mandatory: record source repository/project, path, commit/hash or other stable version, what was reused, and whether verbatim, adapted, conceptually reused or independently rewritten. Repository ownership does not establish authorship of every contained file. Third-party material within these repositories retains its original licence, permission and notice requirements; this exception does not relax the rules for SFSE or unrelated projects. Execution, deployment, publication, fork/PR and experiment-scope gates remain separate. See [SOR-P-0002](docs/PERMISSIONS.md#sor-p-0002--standing-maintainer-owned-material-grant).
+
+### Third-party material
+
 1. **Documented rights-holder permission** for the actual proposed use, including modification and distribution when relevant.
 2. **Explicit user authorization** of that specific use after discussing the source, material/version, permission basis, obligations, publication implications, and alternatives.
 

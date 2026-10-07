@@ -1,6 +1,16 @@
 # Established Findings
 
-**Only scoped STATIC findings are established. No runtime or saved-state finding.** Policy decisions in [DECISIONS.md](DECISIONS.md) are separate from engine evidence.
+## SOR-F-0008 — Both failed DR0 runs reached the mapped request entry
+
+PROJECT-VERIFIED RUNTIME, scoped to the two preserved EXP0002A crash contexts on Starfield1.16.244.0, pinned SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`. SOR-EV-0007-A/B independently encode exception0x80000004, RIP/DR0=runtime REQUEST_ENTRY (RVA0x0183c590), DR7=1, DR6=0, EFLAGS0x244. Fault TIDs18056/19140 were armed; the latter is the sole S2 owner. Raw stack return RVA0x0166c1c3 supports the Stage-A caller edge. Windows Application1000 and WER1001 corroborate the fault signature. [Exact evidence and limits](audits/exp0002a-crash-dump-comparison.md).
+
+This proves site reachability and saved exception/register facts for these failed attempts, not normal request completion, cause-bit delivery, manager validity, naming behavior, safe integration or save persistence. No adapter hit was captured; original failures remain incomplete. Failure mechanism classification is scoped to the shared observed signature; causal explanation remains SOR-H-0003. Publication REVIEW-REQUIRED, raw dumps LOCAL-ONLY. Microsoft format/tool provenance SOR-S-0117; no third-party code incorporated.
+
+## SOR-F-0007 — Current retail save call edges differ from the SFSE source lead
+
+PROVEN / STATIC for instruction facts only; SOR-ENV-0003 Starfield1.16.244.0 SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`. Independent pinned-PE E8 decoding confirms static calls `14166c1be -> 14183c590`, `14183c65d -> 14183c830`, `14183c9a0 -> 141814050`, `141821ba8 -> 141814220`, `14183ac25 -> 14183ac80`. Existing Ghidra instructions show the first call's new-slot arguments manager/null/index-1/option0. SFSE source-reported RVA02551f1b is not an E8 call on this build and its old original target02554fd0 is not a defined function entry. This rejects transferring those source addresses/signature without validation; it does not recover a safe replacement ABI. Source SOR-S-0120, evidence SOR-EV-0005, [candidate report](experiments/SOR-EXP-0002A-native-save-thread-mapping.md). Semantic aliases PROVISIONAL; live call contract, native thread, completion durability and persistence UNKNOWN. REVIEW-REQUIRED.
+
+**Historical pre-dump status:** only scoped STATIC findings had been established here. SOR-F-0008 now adds narrowly scoped RUNTIME crash-context evidence; no saved-state semantics follow. Policy decisions in [DECISIONS.md](DECISIONS.md) are separate from engine evidence.
 
 Add decisive, scoped findings with `SOR-F-` IDs using [the finding template](templates/finding.md). State confidence and basis (`STATIC`, `RUNTIME`, `SAVE`, or `CROSS-VALIDATED`), exact build/sample scope, supporting evidence, source credit, limitations, and counterexamples. Keep unconfirmed explanations in [hypotheses.md](hypotheses.md).
 

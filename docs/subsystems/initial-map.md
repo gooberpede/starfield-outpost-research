@@ -1,5 +1,7 @@
 # Initial subsystem map — SOR-EXP-0001
 
+Persistence-tooling follow-up: [SOR-EXP-0002A](../experiments/SOR-EXP-0002A-native-save-thread-mapping.md) maps candidate UI/request/serializer/finalizer layers in the current retail binary (SOR-FN-0014–0018, SOR-ST-0009, SOR-F-0007). Live setup attempts did not capture an ordinary save. No saved layout, safe native-query thread, durable completion or archive/delete bookkeeping contract is established; EXP0002 construction stays paused.
+
 Scope: SOR-ENV-0001, Starfield/CK 1.16.244.0 and hashed local development archive. [Report](../experiments/initial-outpost-system-reconnaissance.md), [evidence](../experiments/evidence/initial-reconnaissance/README.md), [functions](../function-register.md), [state](../state-register.md). STATIC means inspected definitions/source/native instructions; none of these rows is live/save validation. FormIDs below are file/session IDs in the Starfield.esm-only xEdit load, never pointers or serialized offsets.
 
 | Subsystem | Static data / interfaces | Native or external lead | State and persistence question | Best later observation |

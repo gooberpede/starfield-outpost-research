@@ -14,6 +14,8 @@ The scaffold establishes documentation only. No game build, tool version, execut
 
 ## Third-party work: mandatory gates
 
+Maintainer-authored material in `gooberpede` repositories, including `starfield-reference-handles`, follows the standing [maintainer-owned exception](THIRD_PARTY_POLICY.md#maintainer-owned-material) (SOR-P-0002). Inspection, copying, adaptation, porting and reuse are authorized without another permission discussion; provenance remains mandatory, self-credit is optional. Third-party material inside those repositories is excluded and retains all gates below.
+
 - **No fork without prior explicit discussion and scoped user approval.** No mirror or copied repository used to evade that gate.
 - **No pull request, including a draft PR, without separate prior discussion and scoped user approval.** Investigation or fork permission is not PR permission. This also applies to PRs created in this project.
 - **No reuse of third-party code without documented rights-holder permission and explicit user authorization of that exact use.** Cover snippets, ports, translations, tests, comments, binary templates, bindings, build scripts, vendored code, dependencies, and AI-assisted adaptations. Attribution alone is not permission.

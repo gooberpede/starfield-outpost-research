@@ -1,5 +1,19 @@
 # Function and Operation Register
 
+## SOR-EXP-0002A save-path candidates
+
+SOR-ENV-0003 / SOR-EV-0005, STATIC / OBSERVED-INTERNAL, REVIEW-REQUIRED. All Starfield1.16.244.0 addresses below use preferred base0x140000000 and the pinned hash in [the detailed candidate map](experiments/SOR-EXP-0002A-native-save-thread-mapping.md#current-candidate-map). That map records call sites, provisional argument roles, strings, side effects and limits. No candidate was observed executing in a manual save; debugger setup is not native invocation qualification.
+
+| ID | Original name / static VA | RVA | Provisional role and principal limitation |
+|---|---|---|---|
+| SOR-FN-0014 | FUN_14166c0a0 / FUN_14166c190 | 0166c0a0 / 0166c190 | UI dispatch/save selection; direct or queued path, new-slot call passes manager/null/-1/0. Earliest UI thread UNKNOWN |
+| SOR-FN-0015 | FUN_14183c590 | 0183c590 | Higher-level request candidate; status/gates/name/file preparation. Live manager identity, option meaning and execution contract UNKNOWN |
+| SOR-FN-0016 | FUN_14183c830 / FUN_141814050 | 0183c830 / 01814050 | File-object preparation and serialization wrapper; storage context is not a bare name buffer; command/wait semantics incomplete |
+| SOR-FN-0017 | FUN_141814220 | 01814220 | Serializer candidate, RCX indirection observed at caller; no old SFSE prototype transfer. Large body, not a safe integration point |
+| SOR-FN-0018 | FUN_14183aaf0 / FUN_14183ac80 | 0183aaf0 / 0183ac80 | Finalization scheduling, storage/rename/cache/status-clear/wake. Completion candidate, not disk/cloud durability proof |
+
+Supporting functions and exact evidence locators remain in the report, not bulk-renamed in Ghidra. SFSE source lead SOR-S-0120 is separately credited; rejected old sites are preserved.
+
 Initial records are scoped to SOR-ENV-0001 and [SOR-EV-0001](experiments/evidence/initial-reconnaissance/README.md). All addresses are static VA/RVA from preferred base `0x140000000`, not runtime addresses. No function here was executed live; all proposed observation points require qualification. Registration objects are distinct from game-state objects.
 
 | ID | Build ID | Module / script | Static address or exact symbol | RVA / source version | Original name | Proposed semantic alias | Role and side effects | Confidence / basis | Evidence / source IDs |
