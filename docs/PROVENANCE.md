@@ -1,5 +1,11 @@
 # Provenance and Environment Baseline
 
+## SOR-SAMPLE-0023–0028 — Output-link validation, 2026-10-07
+
+L0C=0023, L1=0024, L1C=0025, L2=0026, L2C=0027, incidental exit=0028. L0 reuses S4C/SOR-SAMPLE-0015, not a new sample. Six new copies and the historical archive match their originals by SHA-256/size before analysis and at final verification. Exact private source/copy locators and filesystem metadata: `.local-work/output-link-L0-L2C/manifest.json`; [selected manifest](experiments/output-link-validation/manifest.csv). New archive `.local-work/savegames/output-link-L0-L2C/`. Original contents/mtime preserved, access-time behavior uncontrolled. Supplied brief's personal filenames remain an unresolved publication review item.
+
+SOR-EXP-0004 / SOR-EV-0010 [report](experiments/output-link-validation-L0-L2C.md): reported reload between L0/L0C, then unlink/no-action/relink/no-action; no runtime observation by this task. All decoded headers report 1.16.244.0, not a measured originating executable/profile. Installed CPython3.14.3/zlib1.3.1.zlib-ng (SOR-S-0113); unchanged project decoder/diff reused from repository HEAD `268d4e1dfe67fa1cc5abe522a09bc6fe187d4a78`, exact file hashes in preregistration. New wrappers/probes are project-authored, no third-party parser source. Initial literal-signature failure preserved; exploratory token/framing correspondence recorded separately. Seven verified transforms/154 chunks; selected outputs REVIEW-REQUIRED, raw/bulk derivatives LOCAL-ONLY.
+
 ## SOR-SAMPLE-0006–0022 — Manual S0–S7C corpus, 2026-10-07
 
 Sequential assignment: S0=0006, S0C=0007, S1=0008, S1C=0009, S2=0010, S2C=0011, S3=0012, S3C=0013, S4=0014, S4C=0015, S5=0016, S5C=0017, S6=0018, S6C=0019, S7=0020, S7C=0021, incidental exit=0022. User supplied exact filenames/actions and authorized copying plus offline analysis. All source/copy/source SHA-256 checks passed. [Selected manifest](experiments/manual-save-corpus/manifest.csv) retains sizes, times and original/decoded hashes; exact private locators are in ignored `.local-work/manual-S0-S7C/manifest.json`. Source files untouched; prior local copies preserved; fresh archive `.local-work/savegames/manual-S0-S7C/`.

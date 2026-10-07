@@ -1,0 +1,7 @@
+before,after,beacon_unequal_positions_in_512,storage_unequal_positions_in_512,extractor_unequal_positions_in_512,solar_unequal_positions_in_512
+L0,L0C,70,69,65,60
+L0C,L1,16,0,337,27
+L1,L1C,16,0,11,27
+L1C,L2,12,7,340,23
+L2,L2C,13,0,8,20
+L2C,exit,14,12,12,24

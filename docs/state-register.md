@@ -1,5 +1,9 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0011 follow-up — Link-only removal/recreation
+
+SOR-EXP-0004 / SOR-EV-0010 / SOR-F-0010: [bounded validation](experiments/output-link-validation-L0-L2C.md) preserves the failed original literal test across reload and observes a corresponding remapped/reordered relationship payload. Endpoint-pair entry present in L0/L0C, absent L1/L1C, restored L2/L2C; payload length 19/19/12/12/19/19. SOR-ST-0010's four candidate object windows remain, with new-session tokens stable throughout. Bytes PERSISTED; semantic association with output-link state is proposed STRONG pending review, not automatically promoted. Separate list/relationship region best fits the observed placement; logical owner, count encoding, mirroring, direction, authoritative post-load consumer and runtime identity mapping remain unresolved. The historical provisional records below remain intact. Publication REVIEW-REQUIRED.
+
 ## SOR-ST-0010–0013 — Manual-corpus saved candidates
 
 SOR-ST-0013 offline correction: [comparison with verified A0/A0C live coordinates](experiments/manual-save-corpus-S0-S7C.md#offline-comparison-with-earlier-exp0002-live-player-coordinates) gives candidate distances 6.830539 / 8.997486 / 26.000118 without physical units. This strengthens only SOR-H-0004's provisional same/related local-frame interpretation. Frame origin, units, axes, reference ownership, body-relative meaning and latitude/longitude conversion remain UNKNOWN; no authoritative object-transform or cross-session identity mapping established.

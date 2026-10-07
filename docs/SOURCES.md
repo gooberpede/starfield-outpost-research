@@ -1,5 +1,9 @@
 # Source Register
 
+### SOR-S-0113 extension — Output-link validation, 2026-10-07
+
+Installed CPython3.14.3 and standard-library zlib runtime1.3.1.zlib-ng supplied separate offline execution, hashing, BCPS decompression, structured comparisons and CSV/JSON generation for [SOR-EXP-0004](experiments/output-link-validation-L0-L2C.md). Python Software Foundation/CPython and zlib/zlib-ng contributors credited; no third-party implementation or dependency incorporated. Existing project-authored S0–S7C decoder/diff/candidate definitions reused with hashes/commit recorded in provenance and local preregistration. Bethesda locally owned saves supplied the evidence; no game data/raw save redistribution. No external source consultation or expanded code permission was needed.
+
 ### SOR-S-0113 extension — Manual corpus, 2026-10-07
 
 Installed CPython3.14.3 standard-library hashing, filesystem, struct, JSON, CSV, difflib, unittest and zlib runtime `1.3.1.zlib-ng` executed original bounded offline scripts for [SOR-EXP-0003](experiments/manual-save-corpus-S0-S7C.md). Credit Python Software Foundation/CPython contributors and zlib/zlib-ng contributors for separate installed tooling. No implementation/example, redistributable runtime or new dependency was copied into this repository. The BCPS bounds/alignment and candidate motifs were derived from the authorized local corpus, not from a third-party parser. Exact runtime/script/input/decoded hashes are in local SOR-EV-0009 manifests. Tool/checksum success is not semantic validation.

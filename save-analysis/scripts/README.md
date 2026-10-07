@@ -1,5 +1,26 @@
 # Offline Analysis Scripts
 
+## Output-link L0–L2C validation
+
+The invoked [link-validation brief](../../docs/implementation-briefs/CODEX_RESEARCH_BRIEF_output_link_validation_L0-L2C.md) authorizes [validate_output_link.py](validate_output_link.py) and [probe_output_link_structure.py](probe_output_link_structure.py). [Results](../../docs/experiments/output-link-validation-L0-L2C.md). Installed CPython3.14.3 standard library only; use its explicit installed executable if the Windows `python` alias is unavailable. No downloads or effects on game processes/static-analysis projects.
+
+`validate_output_link.py` without arguments reads the brief/prior manifests, records preregistered old candidates, exclusively copies six named originals and reuses S4C, verifies source/copy/source hashes/size/mtime, then writes decoded streams and bounded diff analysis. Existing archive/output roots cause refusal; do not rerun archive creation. `--run <fresh-name>` reads the existing exact manifest and parses only hash-verified local copies into a new analysis directory. It preserves absent old signatures as negative observations. Reads/writes are bounded to the named source saves and ignored `.local-work/output-link-L0-L2C/` / `.local-work/savegames/` paths. It imports the existing project decoder/diff/metadata/candidate constants without changing them.
+
+`probe_output_link_structure.py` reads hash-verified decoded `analysis-01/` inputs plus historical S3C/S4/S4C and writes an exclusive local `structure.json`. Endpoint correspondence is based on old framing/base-like bytes and repeated tokens, independently of relationship state; nonunique/missing matches stop. The bounded envelope is an explicitly post-preregistration hypothesis, not a full parser. The first strict literal run stopped on missing old L0C beacon signature; partial outputs/preregistration remain intact. The final `analysis-01` and `structure.json` already exist and must not be overwritten.
+
+Executed commands (prefix with the installed Python executable):
+
+```text
+save-analysis/scripts/validate_output_link.py
+save-analysis/scripts/validate_output_link.py --run analysis-01
+save-analysis/scripts/probe_output_link_structure.py
+-m unittest discover -s save-analysis/scripts -p test_manual_corpus.py -v
+```
+
+Local `build_review_tables.py` reads only verified analytical outputs and writes four selected review CSVs; `validate_review.py` independently checks preservation, payload bytes/bounds/canonical comparison, links and Git state, and writes local validation/inventory/status/diff outputs. Neither stages anything. Raw windows and personal paths remain local; selected summaries require review.
+
+## Historical S0–S7C tooling
+
 The invoked [manual corpus brief](../../docs/implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md) authorizes these original, corpus-specific helpers. [Results and limits](../../docs/experiments/manual-save-corpus-S0-S7C.md). Installed CPython3.14.3 standard library only (SOR-S-0113); no dependency download, vendoring, target execution or save editing.
 
 | Script | Reads | Writes / limits |
