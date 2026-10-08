@@ -1,5 +1,7 @@
 # SOR-EXP-0005 — Structural containment of outpost save candidates
 
+**Later independent work, 2026-10-08:** [SOR-EXP-0006](mature-save-outpost-validation.md) validates the count/reference grammar in a mature save and all small envelopes, including nine-byte zero-beacon cases outside this experiment's narrow predicate. Its small-corpus membership counterexample and cargo topology are recorded separately; this historical report and its observations are preserved.
+
 2026-10-08, Australia/Sydney. SOR-EV-0011 / SOR-F-0011. Offline bounded pass complete; critical review pending. SAVE basis. Authored scripts, documentation and selected metrics REVIEW-REQUIRED; original saves, decoded blobs, bulk JSON and exploratory probes LOCAL-ONLY. No publication or integration approval.
 
 ## Result

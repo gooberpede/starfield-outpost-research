@@ -17,3 +17,5 @@ Keep failed/negative runs and superseded interpretations. Link conclusions into 
 Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/README.md) with their own authored README and rights/integrity metadata. Plan any live work separately; no live run follows from this directory existing.
 
 - [EXP0002A S0 no-debugger control](EXP0002A-S0-control.md) — PROJECT-VERIFIED RUNTIME pass; S1/S2 gates in [0.1.3 audit](../audits/exp0002a-adapter-0.1.3.md).
+
+- [SOR-EXP-0006: mature-save outpost and cargo validation](mature-save-outpost-validation.md) — bounded grammar, member/name and save-only reciprocal graph checks; all-active-index interpretation contradicted by small samples; critical review pending.

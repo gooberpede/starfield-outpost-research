@@ -1,5 +1,11 @@
 # Hypotheses and Open Questions
 
+## SOR-H-0005 — Beacon collection membership may depend on object/relationship participation
+
+PROVISIONAL / SAVE, SOR-ST-0015, SOR-F-0012, SOR-EV-0012. [Mature validation](experiments/mature-save-outpost-validation.md) finds 17 named mature members matching JSON, but the same grammar's beacon collection is empty in S1/S1C/S2/S2C and S7/S7C despite retained beacon windows. Inclusion begins at S3, before the first controlled output link, and ends at S7's extractor deletion/link cleanup. A universal active-beacon registry is contradicted; relationship participation, a production-related subset, cache or another subsystem registration remain alternatives. Do not infer an engine list owner, deletion state or load authority from membership.
+
+Discriminator, proposed only: independently identified beacon/storage/producer candidates with controlled additions/removals and no-action saves could locate the membership trigger. A beacon-only case reliably represented as a member, or an included unrelated beacon without qualifying relationships, would weaken a simple participation rule; mixed transitions may require a different subset model. Cargo-only examples could separate registration sources. No new experiment is authorized by this record; semantic review first. Publication REVIEW-REQUIRED.
+
 ## SOR-H-0004 — Save-position candidates may share or relate to the live local frame
 
 PROVISIONAL; SOR-ST-0013, SOR-EV-0004 (EXP0002 A0/A0C) and SOR-EV-0009 (manual corpus S0–S7C). The [verified numerical comparison](experiments/manual-save-corpus-S0-S7C.md#offline-comparison-with-earlier-exp0002-live-player-coordinates) finds identical recorded live player tuples and distances 6.830539 / 8.997486 / 26.000118 to beacon/pre-S6 solar/post-S6 solar candidates. These modest numerical separations are compatible with placement at the reported same site and strengthen a same or closely related local Cartesian frame interpretation, without validating it. Prior capture reports game1.16.244.0; save headers report the same version, but actual originating save-session executable identity is not independently acquired.

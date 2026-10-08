@@ -1,0 +1,24 @@
+name_a,name_b,save_links,json_links
+Arch III W H2O Lub,Feynman VI-b Al Be He3,1,1
+Arch III W H2O Lub,Feynman VII-b Nd Al He3,1,1
+Arch III W H2O Lub,Schrod II Ad,1,1
+Carinae III-a Rc Fe,Feynman IX Eu Al He3,1,1
+Carinae III-a Rc Fe,Feynman VII-b Nd Al He3,1,1
+Carinae III-a Rc Fe,Feynman VIII-b Au Sb,1,1
+Carinae V-b Cs,Feynman IX Eu Al He3,1,1
+Carinae V-b Cs,Schrod II Ad,1,1
+Carinae V-c Pd Ni,Feynman III V U,1,1
+Carinae V-c Pd Ni,Ternion III Poly H2O,1,1
+Feynman I Li Cu xF4,Feynman IX Eu Al He3,1,1
+Feynman I Li Cu xF4,Feynman V Cu Co Ni IL,1,1
+Feynman I Li Cu xF4,Feynman VI-b Al Be He3,1,1
+Feynman I Li Cu xF4,Feynman VII-b Nd Al He3,1,1
+Feynman II Ag Pb,Feynman VIII-b Au Sb,1,1
+Feynman III V U,Feynman VI-b Al Be He3,1,1
+Feynman V Cu Co Ni IL,Feynman VI-b Al Be He3,1,1
+Feynman V Cu Co Ni IL,Feynman VII-b Nd Al He3,1,1
+Feynman V Cu Co Ni IL,Schrod II Ad,1,1
+Feynman V Cu Co Ni IL,Ternion III Poly H2O,1,1
+Feynman VI-b Al Be He3,Feynman VIII-b Au Sb,1,1
+Feynman VI-b Al Be He3,Ternion III Poly H2O,1,1
+Feynman VII-b Nd Al He3,Feynman VIII-b Au Sb,2,2

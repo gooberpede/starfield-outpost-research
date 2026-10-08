@@ -45,3 +45,7 @@ Microsoft CDB/dbgeng and Ghidra debugger-agent documentation informed the [final
 ## Offline structural containment — 2026-10-08
 
 SOR-EXP-0005 reuses the project's original SOR-EXP-0003/0004 decoder and candidate research, with installed CPython/standard-library zlib facilities credited in SOR-S-0113. Previous xEdit-interpreted Bethesda beacon/storage definition evidence (SOR-S-0103 / SOR-F-0004) informs explicitly limited base-token comparisons. No outside parser, implementation, new dependency or live tool run was introduced. [Results and limits](docs/experiments/outpost-save-structural-containment.md).
+
+## Mature-save validation — 2026-10-08
+
+SOR-EXP-0006 credits preserved project/maintainer-directed exploratory discovery and methods as prior unreviewed research (SOR-S-0124), rather than presenting replication as new discovery. Python Software Foundation/CPython contributors provide the installed separate runtime and standard-library zlib facilities (SOR-S-0113). Earlier Bethesda inputs and xEdit interpretation supply independently inventoried marker/keyword definition comparisons (SOR-S-0103/0104). No external save parser or new third-party implementation was incorporated. [Results, contradictions and provenance](docs/experiments/mature-save-outpost-validation.md).

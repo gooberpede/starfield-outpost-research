@@ -1,0 +1,25 @@
+pad_a,pad_b,name_a,name_b,type_a,type_b,json_signature_matches,ambiguity
+81aeb5,82dcf9,Feynman II Ag Pb,Feynman VIII-b Au Sb,regular,regular,1,unique_by_signature_only
+81ca84,84d26f,Feynman VIII-b Au Sb,Feynman VII-b Nd Al He3,regular,regular,2,permutation
+8250f6,8579b4,Feynman III V U,Feynman VI-b Al Be He3,regular,regular,1,unique_by_signature_only
+82a221,83876a,Feynman IX Eu Al He3,Feynman I Li Cu xF4,regular,regular,1,unique_by_signature_only
+82c3c4,83444c,Feynman VII-b Nd Al He3,Feynman I Li Cu xF4,regular,regular,1,unique_by_signature_only
+82c40c,844493,Feynman VII-b Nd Al He3,Feynman V Cu Co Ni IL,regular,regular,1,unique_by_signature_only
+83133d,839fe9,Feynman VI-b Al Be He3,Feynman I Li Cu xF4,regular,regular,1,unique_by_signature_only
+837602,84d265,Feynman VIII-b Au Sb,Feynman VII-b Nd Al He3,regular,regular,2,permutation
+83a02e,844440,Feynman I Li Cu xF4,Feynman V Cu Co Ni IL,regular,regular,1,unique_by_signature_only
+8428a3,850325,Feynman V Cu Co Ni IL,Feynman VI-b Al Be He3,regular,regular,1,unique_by_signature_only
+852960,857a02,Feynman VIII-b Au Sb,Feynman VI-b Al Be He3,regular,regular,1,unique_by_signature_only
+81ac91,844964,Schrod II Ad,Carinae V-b Cs,interstellar,interstellar,1,unique_by_signature_only
+820ce1,82b86b,Carinae III-a Rc Fe,Feynman IX Eu Al He3,interstellar,interstellar,1,unique_by_signature_only
+820cf6,84611c,Carinae III-a Rc Fe,Feynman VII-b Nd Al He3,interstellar,interstellar,1,unique_by_signature_only
+8217b5,84fad9,Schrod II Ad,Feynman V Cu Co Ni IL,interstellar,interstellar,1,unique_by_signature_only
+82b2b3,8330f8,Feynman VII-b Nd Al He3,Arch III W H2O Lub,interstellar,interstellar,1,unique_by_signature_only
+82ceb2,833a3a,Ternion III Poly H2O,Feynman V Cu Co Ni IL,interstellar,interstellar,1,unique_by_signature_only
+82ceff,83d8c6,Ternion III Poly H2O,Feynman VI-b Al Be He3,interstellar,interstellar,1,unique_by_signature_only
+82f63f,8382d2,Feynman VIII-b Au Sb,Carinae III-a Rc Fe,interstellar,interstellar,1,unique_by_signature_only
+833191,83dfda,Arch III W H2O Lub,Schrod II Ad,interstellar,interstellar,1,unique_by_signature_only
+8449af,850485,Carinae V-b Cs,Feynman IX Eu Al He3,interstellar,interstellar,1,unique_by_signature_only
+8503a2,8596f3,Feynman VI-b Al Be He3,Arch III W H2O Lub,interstellar,interstellar,1,unique_by_signature_only
+85090f,8559c5,Feynman III V U,Carinae V-c Pd Ni,interstellar,interstellar,1,unique_by_signature_only
+85917b,85ed59,Carinae V-c Pd Ni,Ternion III Poly H2O,interstellar,interstellar,1,unique_by_signature_only

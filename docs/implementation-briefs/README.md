@@ -21,3 +21,5 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [EXP0002A final software attempt](EXP0002A-final-software-attempt.md) — SOR-D-0021; native saving optional, exactly one final attempt then reassess/defer.
 
 - [Outpost save structural containment](CODEX_RESEARCH_BRIEF_outpost_save_structural_containment.md) — invoked 2026-10-08; existing archives and bounded offline tooling only. [Result and review package](../experiments/outpost-save-structural-containment.md); no live/Git publication authority.
+
+- [Mature-save outpost structure and cargo validation](CODEX_RESEARCH_BRIEF_mature_save_outpost_validation.md) — invoked 2026-10-08 under SOR-D-0022, offline only; [result and review](../experiments/mature-save-outpost-validation.md). Supplied brief retained unchanged; no staging/commit/push.

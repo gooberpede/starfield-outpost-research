@@ -15,3 +15,7 @@ Under this directory `.gitattributes` disables Git text conversion for evidence 
 Do not run formatters or encoding/line-ending normalization across originals. Preserve immutable inputs and write separately named derivatives with recorded transformations and hashes. Confirm staged blob bytes for evidence where exact identity matters. Binary classification does not authorize inclusion; ignored extensions require a narrowly reviewed exception, not habitual `git add -f`.
 
 Avoid OS usernames, personal save names, absolute local paths, or permission correspondence in public bundle metadata. Neutral IDs can point to local sources without pretending those sources are publicly reproducible.
+
+## SOR-EV-0012 — Mature-save validation index
+
+[Separate report](../mature-save-outpost-validation.md), [validation and review inventory](../mature-save-validation/validation.md). SOR-EXP-0006 / SOR-SAMPLE-0029 / SOR-F-0012 / SOR-ST-0015–0016. Selected authored reference/count/window/topology ledgers are REVIEW-REQUIRED; no raw evidence is added under this directory. Local `.local-work/mature-save-validation/run-07/` holds immutable save extraction (SHA-256 `a1d4490a6b41c05ad08f68b2efa28f71d6ebac56cb9aabf55eb61356833b57e2`), comparison, input/script identities, corpus grammar and negatives. Separate independent-checks/corpus-challenge/source-inputs/preservation/review artifacts remain local. Scientific confidence does not clear publication; exact local sample/JSON names and private UUIDs are omitted from selected tables.
