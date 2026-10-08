@@ -1,5 +1,9 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0014 — Shared name/animation collection and beacon index correspondence
+
+SOR-EXP-0005 / SOR-EV-0011 / SOR-F-0011. [Bounded containment](experiments/outpost-save-structural-containment.md). OBSERVED counted uint16-length string collection reached by an early logical uint32 pointer; uint16 index triples within SOR-ST-0010's beacon window match SOR-ST-0012's name and two following beacon animation entries across 20 beacon-bearing labels. Bytes PERSISTED; reference interpretation INFERRED/STRONG proposed for review. Collection is shared, not an exclusive outpost header. Parent logical owner, consumers, load authority, full object record boundaries and stable game identity UNKNOWN. Separate from three-byte candidate tokens. Existing semantic candidates are unchanged; SOR-ST-0011 remains a relationship/collection region with unresolved internal schema. Publication REVIEW-REQUIRED.
+
 ## SOR-ST-0011 follow-up — Link-only removal/recreation
 
 SOR-EXP-0004 / SOR-EV-0010 / SOR-F-0010: [bounded validation](experiments/output-link-validation-L0-L2C.md) preserves the failed original literal test across reload and observes a corresponding remapped/reordered relationship payload. Endpoint-pair entry present in L0/L0C, absent L1/L1C, restored L2/L2C; payload length 19/19/12/12/19/19. SOR-ST-0010's four candidate object windows remain, with new-session tokens stable throughout. Bytes PERSISTED; semantic association with output-link state is proposed STRONG pending review, not automatically promoted. Separate list/relationship region best fits the observed placement; logical owner, count encoding, mirroring, direction, authoritative post-load consumer and runtime identity mapping remain unresolved. The historical provisional records below remain intact. Publication REVIEW-REQUIRED.

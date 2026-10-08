@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**Latest offline result, 2026-10-08:** [structural containment](docs/experiments/outpost-save-structural-containment.md) maps known outpost anchors to separate directory-backed relationship/object/string regions. A counted shared string collection and remappable beacon name/animation indices are observed; complete object record bounds and stable runtime identity remain unresolved. Model C is the best-supported structural interpretation, pending review. 22 labels / 21 unique archived saves verified; no live work, commit or push.
+
 **Latest offline result, 2026-10-07:** [L0–L2C output-link validation](docs/experiments/output-link-validation-L0-L2C.md) observes reversible endpoint-pair removal/recreation with all four object candidates retained. The original literal fails across reload; token remapping and entry reordering explain structural correspondence. Semantic promotion to STRONG is proposed for critical review, not automatically applied. Six new saves verified, historical S4C archive reused; no live work, commit or push.
 
 **New offline result, 2026-10-07:** [manual S0–S7C save-corpus analysis](docs/experiments/manual-save-corpus-S0-S7C.md) archives and verifies 17 saves, recovers the rename anchor and candidate object/link/movement/deletion lifecycles, and flags Kreet/Narion/location uncertainty. First pass complete; critical review pending. Raw data stays local. No commit/push; proposed next experiments are not authorized by this result. Earlier “next active task” wording below predates this pass.

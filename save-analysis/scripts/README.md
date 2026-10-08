@@ -42,3 +42,17 @@ python -m unittest discover -s save-analysis/scripts -p test_manual_corpus.py -v
 The archive and analysis-01 already exist: do not overwrite them. For a repeated analysis use a new run name after confirming scope; archive verification can compare manifest hashes without rerunning copy creation. Scripts have no effects on the game or static-analysis databases. Unexpected layout/bounds errors stop analysis rather than guess a fallback decoder. Keep generated bulk outputs local.
 
 The local `build_review_tables.py` in `.local-work/manual-S0-S7C/` selects only numeric/timing/hash/candidate fields into the three review CSVs. It omits exact personal filenames, raw windows and unrelated extracted strings. Those summaries still require review before staging/disclosure. Local validation and review-export scripts are listed in the validation record; they do not grant Git write authority.
+
+## Structural containment of existing archives
+
+[analyze_structural_containment.py](analyze_structural_containment.py), authorized by the [invoked brief](../../docs/implementation-briefs/CODEX_RESEARCH_BRIEF_outpost_save_structural_containment.md), reads the two existing manifests, prior analysis hashes and hash-verified archived .sfs copies. Originals are read only for integrity hashing/stat checks. Reuses original decoder/candidate definitions with CPython standard library; no downloads, general save editor or process/database effects.
+
+Run from repository root with the recorded installed Python executable:
+
+```text
+save-analysis/scripts/analyze_structural_containment.py --run <fresh-name>
+```
+
+Writes CSV summaries and provenance/analysis JSON into an exclusively new ignored `.local-work/structural-containment/<fresh-name>/`. It does not copy original saves or write decoded blobs. Missing/hash/bounds/ambiguous-directory/object/string correspondence stops; missing arithmetic token mappings are negative evidence. Positional unequal bytes include shifts/reordering and must not be called semantic edits. Directory/family names and tail-pair interpretation are hypotheses. Completed final run is `analysis-06`; earlier exploratory/partial roots are retained. [Report and complete helper/output inventory](../../docs/experiments/outpost-save-structural-containment.md). Local `build_review_tables.py` selects numeric summaries; local `validate_review.py` hashes inputs, independently checks pointers/name indices, checks documentation/Git state, and writes a full tracked-plus-untracked diff without staging.
+
+`test_structural_containment.py` constructs synthetic in-memory directory/string/tail fixtures; checks ambiguous directory, inconsistent count bounds, dangling string indices, malformed lengths/pointers and trailing bytes. It reads no saves and writes only console test results. Run `-m unittest discover -s save-analysis/scripts -p test_structural_containment.py -v`.

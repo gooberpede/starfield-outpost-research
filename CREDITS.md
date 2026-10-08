@@ -41,3 +41,7 @@ For the review14 primary run, **Ian Patterson and SFSE contributors** supplied r
 Microsoft's installed CDB/dbgeng and Windows SDK minidump/AMD64 CONTEXT format declarations support the [EXP0002A offline crash comparison](docs/audits/exp0002a-crash-dump-comparison.md) (SOR-S-0117 extension). Separate installed tools and format consultation only; no third-party implementation/header incorporated. No additional maintainer-owned code reuse occurred in this task.
 
 Microsoft CDB/dbgeng and Ghidra debugger-agent documentation informed the [final EXP0002A software-breakpoint preparation](docs/audits/exp0002a-final-software-attempt.md). Separate installed tools/read-only consultation; no third-party implementation incorporated.
+
+## Offline structural containment — 2026-10-08
+
+SOR-EXP-0005 reuses the project's original SOR-EXP-0003/0004 decoder and candidate research, with installed CPython/standard-library zlib facilities credited in SOR-S-0113. Previous xEdit-interpreted Bethesda beacon/storage definition evidence (SOR-S-0103 / SOR-F-0004) informs explicitly limited base-token comparisons. No outside parser, implementation, new dependency or live tool run was introduced. [Results and limits](docs/experiments/outpost-save-structural-containment.md).

@@ -19,3 +19,5 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [EXP0002A offline dump comparison](EXP0002A-offline-dump-comparison.md) — SOR-D-0020, existing dumps only; completed analysis for review, no live authority.
 
 - [EXP0002A final software attempt](EXP0002A-final-software-attempt.md) — SOR-D-0021; native saving optional, exactly one final attempt then reassess/defer.
+
+- [Outpost save structural containment](CODEX_RESEARCH_BRIEF_outpost_save_structural_containment.md) — invoked 2026-10-08; existing archives and bounded offline tooling only. [Result and review package](../experiments/outpost-save-structural-containment.md); no live/Git publication authority.

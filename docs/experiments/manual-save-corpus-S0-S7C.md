@@ -1,5 +1,7 @@
 # SOR-EXP-0003 — Manual save corpus S0–S7C
 
+**Follow-up correction, 2026-10-08:** [SOR-EXP-0005's direct-byte check](outpost-save-structural-containment.md#name-containing-collection-and-new-index-bridge) finds S4C's old-name uint16 length is **15** (`0f00`), not the 14 stated below. Whole old/new fields are 17/9 bytes. Historical text/positions/lifecycle are preserved; no original bytes or candidate identity changed. The new counted string-collection/index evidence is recorded separately.
+
 2026-10-07 (Australia/Sydney). Status: first pass complete, awaiting critical review; REVIEW-REQUIRED. Raw saves, decoded streams and bulk outputs are LOCAL-ONLY. Evidence bundle SOR-EV-0009; samples SOR-SAMPLE-0006–0022.
 
 Authority: user invoked the [research brief](../implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md) and additionally requested star-system, planet and planetary-coordinate investigation, explicitly retaining actor/outpost ambiguity. No staging, commit or push. This record is the complete analysis/review entry point.

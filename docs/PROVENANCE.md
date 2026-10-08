@@ -129,3 +129,7 @@ SOR-D-0017: USER-REPORTED manual termination of failed0.1.0 disposable PID16100 
 ### SOR-SAMPLE-0005 — S1 debugger-only save control
 
 PROJECT-VERIFIED RUNTIME S1 pass: new Save7 created during the active no-DR0 window; user returned to gameplay, confirmed delayed responsiveness, normal exit and completed sync. Archived2,079,808 bytes, SHA-25619b88ea38a1e13893b2dda53d0eb07a13288c161b864e0f1408a9e022adec6c6, filesystem last-write2026-10-07T04:27:58.404317Z. Exact paths/incidental exit save and source/copy/source receipts stay local in s1-live-01/outcome.json. S2 produced no newly visible save and no native request contract. [Control audit](audits/exp0002a-adapter-0.1.3.md).
+
+## SOR-EXP-0005 / SOR-EV-0011 — Offline structural containment, 2026-10-08
+
+[Report and local provenance](experiments/outpost-save-structural-containment.md). Reuses unchanged SOR-EV-0009/0010 manifests/archives: S0–S7C plus L0–L2C, 22 labels / 21 unique saves; L0 remains immutable S4C. Original/archive hashes and decoded-output hashes freshly verified; no new save samples, original edits or raw/decoded copies. CPython 3.14.3 and standard-library zlib facility SOR-S-0113; exact tool/script/brief/input/output hashes in ignored `.local-work/structural-containment/analysis-06/analysis.json` and final inventory. Original project-authored containment script reuses project decoder and unchanged candidate/base-like definitions. Selected numeric metrics are REVIEW-REQUIRED, raw/bulk evidence LOCAL-ONLY. No new executable/runtime/profile baseline or outside parser/dependency introduced.
