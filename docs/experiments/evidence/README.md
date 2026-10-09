@@ -1,5 +1,7 @@
 # Selected Evidence
 
+SOR-EV-0019: [planetary surface-anchor report](../planetary-surface-anchor-semantics.md) and [selected numeric/hash/locator evidence](../planetary-surface-anchor/README.md), SOR-F-0018. Six source/decoded hash rows, 21 saved pair observations, three fixed-world values and 15 native-export identities are authored REVIEW-REQUIRED derivatives. Raw saves, decompressed streams, ESM payloads, Ghidra exports and private locators stay LOCAL-ONLY; native instruction limits and incomplete generic wire closure remain explicit. No publication clearance.
+
 **No research evidence is bundled at scaffold creation.** This is not a dumping ground for raw captures.
 
 Keep original saves, decompressed files, game binaries/assets, imported Ghidra/debugger databases, memory dumps, private correspondence, and unreviewed bulk output outside Git. Use an external workspace or `.local-work/`; generated `exports/` is ignored except its README. A private remote is still a disclosure boundary.

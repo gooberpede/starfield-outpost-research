@@ -1,0 +1,16 @@
+local_relative_path,sha256,bytes
+.local-work/surface-anchor/numeric-04/results.json,84289b1c3786c2a3bd99cde39f11a36f832b7c6452cd7883bef8cffb600f68c2,35325
+.local-work/surface-anchor/numeric-04/matrix.csv,804b7309d9f73af0a45cfae31a7fd54d2eb8b99ad161761a049429c8edf31366,5748
+.local-work/surface-anchor/numeric-04/preservation.json,45fcb2ff3dae95450d8f5bb2fbb48d5c0c538798a20fae55d5ea75f14cc29f9f,16148
+.local-work/surface-anchor/numeric-04/tools.json,d573b295ea8845ec3488649e5b4174b62d01d22738c3d7c29ead51afa244b770,14530
+.local-work/surface-anchor/numeric-04-console.txt,5dd1ee2d342fa651539d8054ac3d37d27235c9cac531a65469be8a4b17b56859,406
+.local-work/surface-anchor/tests.txt,13eee910054a18097d94dff960266af1d1e5512b8020f520c1a7040ec6699111,176
+.local-work/surface-anchor/database-preservation.json,baa655ca1c9065b8116ca9a75de930c31e063f93dc61855eec9912ef1e67f509,4900
+.local-work/surface-anchor/ghidra-before.json,97871216fc7af884681e07ab56dd18fe8622ffedaaebded396ac63e9842bfcc1,2890
+.local-work/surface-anchor/ghidra-after.json,8d04082616923160dad6e0551c32ac8bb08e0f4c07c104eb4998aaf736c1b629,3200
+.local-work/surface-anchor/installed-after.json,0ac931e9a4db887206f7906e507603c26becac5231808bc7999a78ca01621ceb,433
+.local-work/surface-anchor/a0-verification.json,6060aa3b04d05547f5cdec7df59768c74adf23dc94f9659c682264f37fc3394c,472
+.local-work/surface-anchor/repeated-components.json,1d5bc16714e2bb19d6d332b29c05f0e1af69a083d7b51d76839045e6571bfc25,585369
+.local-work/surface-anchor/planet-fixed-components.json,974c1d2457546242ce07986a149c9a7b7ee96829f7d2735fee948882273a82f7,10595
+.local-work/surface-anchor/rtti.json,eaa672b9ac10deb5310daf41fe57809a148c64ed240d830de7a9fccd7c30630b,1848
+.local-work/surface-anchor/overlay-rtti.json,356ac5c37b211b880e6049aedcaa68cf5cc846394d28900ce2dec1ed33bf88bb,1661

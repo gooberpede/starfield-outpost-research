@@ -36,3 +36,5 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [Scoped ordinary beacon detection](CODEX_BRIEF_SOR_scoped_ordinary_outpost_beacon_detection.md) — invoked 2026-10-09, SOR-D-0028; [result/review](../experiments/ordinary-outpost-beacon-detection.md). Supplied brief preserved unchanged; no staging/commit/push.
 
 - [Save capacity and outpost planetary location](CODEX_BRIEF_SOR_save_capacity_and_outpost_planetary_location.md) — invoked 2026-10-09, SOR-D-0029; [result/review](../experiments/save-capacity-and-planetary-location.md). Supplied brief retained unchanged; no staging/commit/push.
+
+- [Planetary surface-anchor coordinate semantics](CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md) — invoked 2026-10-09, SOR-D-0030; [result/review](../experiments/planetary-surface-anchor-semantics.md). Supplied brief preserved unchanged; offline/public-source research only, no staging/commit/push.

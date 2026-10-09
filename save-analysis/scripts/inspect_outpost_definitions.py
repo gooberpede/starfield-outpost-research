@@ -32,9 +32,11 @@ def subrecords(b):
         p += n
 
 
-def esm_records(path, wanted):
+def esm_records(path, wanted, *, repeated=False):
     """24-byte headers/groups; group end stack rejects nested overflow.
     Only requested record types are read/decompressed. Payload <=16 MiB.
+    Default dict retains the last repeated field (legacy behavior); repeated=True
+    returns the ordered field list for component-sensitive research.
     """
     with path.open('rb') as f:
         total = path.stat().st_size
@@ -70,7 +72,8 @@ def esm_records(path, wanted):
                     if len(raw) != size or not decoder.eof or decoder.unused_data or decoder.unconsumed_tail:
                         raise ValueError('ESM_COMPRESSED_CLOSURE')
                     b = raw
-                yield dict(offset=p, type=tag.decode(), formid=fid, flags=flags), dict(subrecords(b))
+                fields = list(subrecords(b))
+                yield dict(offset=p, type=tag.decode(), formid=fid, flags=flags), (fields if repeated else dict(fields))
             p = end
         if p != total or any(e != total for e in stack[1:]):
             raise ValueError('ESM_FILE_CLOSURE')

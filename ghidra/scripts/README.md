@@ -27,3 +27,7 @@ EXP0002 adds `exp0002` for exact relevant API strings and `win:<static-address>`
 ## Membership offset search
 
 [OutpostMembershipRefs.java](OutpostMembershipRefs.java) reads existing instructions only in preferred-VA range `[0x140001000,0x143400000)`, selecting exact non-stack memory operand offset `0x298`, with1000-match and cancellation markers. Writes one exclusive ignored TSV; no disassembly, analysis, symbols/types/comments or project edits. Use the wrapper's `-Reader OutpostMembershipRefs.java` with `-Target Starfield -OutputName <fresh.tsv>`; readOnly/noanalysis is retained. Matching offsets can belong to unrelated structures and are not semantic proof. [SOR-EXP-0010](../../docs/experiments/active-outpost-membership-completion.md) records actual scans, failures and preservation.
+
+## Surface-placement vocabulary — SOR-EXP-0013
+
+`OutpostRecon.java` adds optional `surface` vocabulary selection for latitude/longitude, landing, planetary, worldspace-overlay and unique-pattern-placement strings. It retains existing 350-string/8-xref bounds, exact-query behavior and readOnly/noanalysis execution. `full:<static-address>` uses the existing 250,000-character decompiler allowance; instruction export still caps at600. [Surface-anchor report/evidence](../../docs/experiments/planetary-surface-anchor/README.md) records 15 actual export hashes, capped/failed probes and complete database preservation. No third-party implementation, symbols/types/comments, game or source modifications.

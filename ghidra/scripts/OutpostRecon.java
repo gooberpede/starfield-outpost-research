@@ -22,9 +22,10 @@ public class OutpostRecon extends GhidraScript {
             out.write("PROGRAM\t" + currentProgram.getName() + "\nSHA256\t" + currentProgram.getExecutableSHA256()
                 + "\nBASE\t" + currentProgram.getImageBase() + "\nLANG\t" + currentProgram.getLanguageID()
                 + "\nCOMPILER\t" + currentProgram.getCompilerSpec().getCompilerSpecID() + "\n");
-            if (args.length == 1 || (args.length == 2 && (args[1].equals("interfaces") || args[1].equals("exp0002") || args[1].equals("saves")))) {
+            if (args.length == 1 || (args.length == 2 && (args[1].equals("interfaces") || args[1].equals("exp0002") || args[1].equals("saves") || args[1].equals("surface")))) {
                 boolean exp0002 = args.length == 2 && args[1].equals("exp0002");
                 boolean saves = args.length == 2 && args[1].equals("saves");
+                boolean surface = args.length == 2 && args[1].equals("surface");
                 DataIterator it = currentProgram.getListing().getDefinedData(true);
                 int count = 0;
                 while (it.hasNext() && !monitor.isCancelled()) {
@@ -32,7 +33,9 @@ public class OutpostRecon extends GhidraScript {
                     if (!d.hasStringValue()) continue;
                     String s = String.valueOf(d.getValue());
                     String lower = s.toLowerCase(Locale.ROOT);
-                    if (saves) {
+                    if (surface) {
+                        if (!(lower.contains("latitude") || lower.contains("longitude") || lower.contains("landing") || lower.contains("planetary") || lower.contains("worldspaceoverlay") || lower.contains("uniquePatternPlacement".toLowerCase(Locale.ROOT)))) continue;
+                    } else if (saves) {
                         if (!(lower.contains("savegame") || lower.contains("saveload") || lower.contains("manualsave") || lower.contains("quicksave") || lower.contains("deletesave") || lower.contains("save game") || lower.contains("saving game") || lower.contains("savecomplete"))) continue;
                     } else if (exp0002) {
                         if (!java.util.Arrays.asList("getplayer", "getpositionx", "getpositiony", "getpositionz", "getanglex", "getangley", "getanglez", "getparentcell", "getworldspace", "getcurrentlocation", "getbaseobject", "getformid", "is3dloaded", "getworkshop", "getrefs").contains(lower)) continue;

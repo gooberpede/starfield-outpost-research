@@ -1,5 +1,9 @@
 # Decision Register
 
+### SOR-D-0030 — Planetary surface-anchor semantics investigation
+
+2026-10-09, Australia/Sydney: the user invokes [the retained brief](implementation-briefs/CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md), asks that its instructions be followed and requests commit suggestions without committing/pushing. Authorized: bounded offline save/ESM/native analysis, public consultation and original numerical research tools. [SOR-EXP-0013 / SOR-EV-0019](experiments/planetary-surface-anchor-semantics.md) proposes scoped STRONG longitude-first/latitude-second radian site-anchor semantics, with exact beacon/terrain transform, compass/texture calibration and generic wire closure still open. Earlier interpretations/classifications remain preserved for critical review; this execution is not semantic integration/publication approval. No live launch/debugger/SFSE, game/save/database edits, third-party implementation reuse, staging, commit, push, external contact, fork or PR. Conditional next experiments require separate authority.
+
 Record user decisions, rationale, scope, and supersession. A decision to investigate is not automatically permission to deploy, copy outside code, disclose results, or integrate changes. Use a new entry for changed decisions; preserve the earlier record.
 
 The following decisions were established in the setup conversation and recorded here on **2026-10-01**. The recording date is not a claim that every earlier discussion occurred on that date.

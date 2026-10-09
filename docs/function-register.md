@@ -1,5 +1,18 @@
 # Function and Operation Register
 
+## SOR-EXP-0013 surface-anchor chain
+
+SOR-ENV-0001 / SOR-EV-0019, Starfield1.16.244.0, preferred base `0x140000000`; executable hash and [exact data flow/limits](experiments/planetary-surface-anchor-semantics.md#decisive-native-and-definition-chain). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED. No callable ABI, safe integration, live invocation or project renaming. Full exports remain LOCAL-ONLY; important instruction/decompiler limits are indexed.
+
+| ID | Original static VA | RVA | Supported observation and limit |
+|---|---|---|---|
+| SOR-FN-0023 | FUN_141686a00 | 01686a00 | Ray/sphere hit in inverse body orientation; atan2(y,x), atan2(z,horizontal norm), two double stores. Float intermediate stages; geographic datum uncalibrated. |
+| SOR-FN-0024 | FUN_140ad0650 / FUN_140ad55b0 | 00ad0650 / 00ad55b0 | Overlay path copies pair/world ID; named formatter uses second Lat, first Lon. Exact beacon position not supplied. |
+| SOR-FN-0025 | FUN_140779300 / FUN_140771ac0 | 00779300 / 00771ac0 | Supplies planet/body identity and two-double/world-ID tuple to CTPlanetOverlayData insertion command. Full wire serializer not established. |
+| SOR-FN-0026 | FUN_1407772c0 / FUN_140774ee0 / FUN_140777560 | 007772c0 / 00774ee0 / 00777560 | Command callback, component-store comparison/copy at in-memory +20/+28/+30; those are not save offsets. |
+| SOR-FN-0027 | FUN_14076ec00 / FUN_140773090 | 0076ec00 / 00773090 | Pre-BDST CNAM 20-byte latitude/longitude/world records swapped into overlay tuple. Main loader instruction cap; full decompilation plus fixed byte comparisons retained. |
+| SOR-FN-0028 | FUN_1416874f0 / FUN_142332410 / FUN_1423321f0 | 016874f0 / 02332410 / 023321f0 | Selected pair can be adjusted through terrain indices/direction projection. Exact local-beacon bridge is a follow-up, not a decoded global transform. |
+
 ## SOR-EXP-0010 conditional restoration and ownership readers
 
 SOR-ENV-0001 pinned Starfield1.16.244.0, preferred image base0x140000000, SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`; SOR-S-0127 / SOR-EV-0016. [Exact supporting observations and limits](experiments/active-outpost-membership-completion.md). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED. These loader functions mutate reconstructed objects when the game executes them; this task only reads existing instructions and never invokes them. No safe integration point, complete caller set, live ABI or authoritative player-membership predicate is established. Original Ghidra names are preserved.

@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## SOR-EXP-0013 — Public consultation only
+
+The invoked [surface-anchor brief](implementation-briefs/CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md) authorizes public-source research and original offline probes. [SOR-S-0130 / prior-art register](experiments/planetary-surface-anchor/prior-art-and-leads.md) records actual consultation and restrictions. No new incorporation permission is granted or needed for the performed citation-only research. CPS's restrictive modification/upload panel and biome projects' MIT labels have **not** been accepted by the user as an implementation/asset-reuse basis. Any future reuse/contact/fork/PR needs its relevant prior scoped gate; no contact or permission request occurred. Raw Bethesda payloads and proprietary exports remain LOCAL-ONLY, selected authored evidence REVIEW-REQUIRED. Existing SOR-P-0002/0003 scope and GPL text are unchanged.
+
 **One scoped third-party header reuse is approved (SOR-P-0001 below).** No broader SDK/library/runtime reuse follows from it.
 
 ## SOR-P-0002 — Standing maintainer-owned material grant

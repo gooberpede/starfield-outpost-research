@@ -1,5 +1,7 @@
 # Experiments
 
+- [SOR-EXP-0013: planetary surface-anchor semantics](planetary-surface-anchor-semantics.md) — proposed longitude-first/latitude-second radian site anchors, 21 saved pairs/18 bodies and three fixed cities, prior art and exact local-beacon limitations; [evidence/review](planetary-surface-anchor/README.md), offline only, critical review required.
+
 - [SOR-EXP-0002A: native save execution/thread mapping](SOR-EXP-0002A-native-save-thread-mapping.md) — static mapping analyzed; live setup attempts stopped without manual-save evidence. Default TLS-breakpoint deviation and cleanup retained. Stage C not entered. This is the current tooling record; EXP0002 construction remains paused.
 
 Static reconnaissance and two primary Gate B attempts have been executed. The fresh review14 attempt completed A0/A0C and stopped before native queries due to a thread-affinity discrepancy; A0–A2R remains incomplete. Use [the template](../templates/experiment.md), [the evidence standard](../EVIDENCE_STANDARD.md), and [WORKFLOW.md](../../WORKFLOW.md).
