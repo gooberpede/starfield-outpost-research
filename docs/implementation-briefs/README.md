@@ -25,3 +25,5 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [Mature-save outpost structure and cargo validation](CODEX_RESEARCH_BRIEF_mature_save_outpost_validation.md) — invoked 2026-10-08 under SOR-D-0022, offline only; [result and review](../experiments/mature-save-outpost-validation.md). Supplied brief retained unchanged; no staging/commit/push.
 
 - [Historical save inventory and triage](CODEX_RESEARCH_BRIEF_historical_save_inventory_triage.md) — invoked with additional outpost planet/coordinate-lead request under SOR-D-0023; [result and review](../experiments/historical-save-inventory-triage.md). Offline original reads and bounded copies only; no live migration or staging/commit/push.
+
+- [Launch-era third-party save corpus](CODEX_RESEARCH_BRIEF_launch_era_third_party_save_corpus.md) — invoked 2026-10-09, SOR-D-0024; offline intake/compatibility only. [Report](../experiments/launch-era-third-party-save-corpus.md). Supplied brief preserved unchanged; no live/Git/publication authority.

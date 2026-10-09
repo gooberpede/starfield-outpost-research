@@ -29,3 +29,11 @@ Record the rights holder and how identified, actual permission evidence, whether
 Store correspondence locally using neutral private evidence IDs. Do not publish private email addresses, signatures, or communications without separate disclosure approval. Cite enough non-sensitive metadata to find the evidence during review.
 
 Fork and PR approvals are separate action decisions in [DECISIONS.md](DECISIONS.md), linked here where related. A permission for one action is not automatically permission for any other. Ambiguity blocks the affected reuse/action; see [THIRD_PARTY_POLICY.md](../THIRD_PARTY_POLICY.md).
+
+## SOR-P-0003 — Local examination of TheDailyXPerience package
+
+2026-10-09, APPROVED-FOR-STATED-SCOPE for the invoked brief's bounded local examination and independently authored research; publication basis PENDING-PERMISSION-REVIEW. Rights holder/uploader identified as TheDailyXPerience by [listing 1798](https://www.nexusmods.com/starfield/mods/1798), SOR-S-0125. Exact archive identity and permitted/prohibited actions: [SOR-EXP-0008](experiments/launch-era-third-party-save-corpus.md). User explicitly requested execution of the retained brief; no new code/assets reuse is authorized.
+
+The listing panel prohibits other-site upload and conversion to other games, requires author permission for improvement modifications and asset use, and restricts sale/Donation Points uses. Description prose offers broad resource/testing use. Preserve that ambiguity; do not silently construe it as a distribution grant. Local `permission-reference.json` identifies sections, URLs, retrieval date and cache limitations. An exact independently preserved live-current permission snapshot was not acquired. This remains a publication-review condition, not a claim that author contact/consent occurred. No upstream contact is authorized.
+
+Original archive/saves and substantial original extracted payload must never be re-uploaded or included in this project's publication under this authorization. Only independent scripts, minimal non-sensitive numeric manifests and authored research are candidates for review; they are not yet publication-cleared. Bethesda/game-content rights remain separate. SOR-P-0001/0002 and GPL text unchanged.

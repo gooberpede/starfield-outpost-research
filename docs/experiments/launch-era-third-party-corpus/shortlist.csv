@@ -1,0 +1,6 @@
+rank,id,sha256,size,rationale
+1,TDX1798-0013,1bf145cce959961a64284e8aad1af60542a487d690f7d71f02e1629f73705398,2657440,Advanced level-41 empty unit; provisional negative indicators; paired with 0014
+2,TDX1798-0014,65983a620a572d41da72382b7c84d723692bb356d534bbab9cfde3b29b7dbba2,13579344,Same name/version/level and nearby time as 0013; nonempty groups; branch uncertainty
+3,TDX1798-0024,f23c3b63585d39666bb02f400988266cf6e3a36c99920cae1d8aab0cdf534528,869152,Distinct name label; early level-1 empty unit; observational negative calibration lead
+4,TDX1798-0080,bf9bc739cbddf7c3dd5b84d674518fbf0072e5d3995438e5de512ef52fd3bd95,11412208,Largest observed group/endpoint profile (8/16); challenges outpost specificity
+5,TDX1798-0001,991591bed4df61378b950709e5508218a18339f0db305c5df6b8aefc38b159ff,10541472,RicherMerchants.esp header lead; mod-free assumption counterexample

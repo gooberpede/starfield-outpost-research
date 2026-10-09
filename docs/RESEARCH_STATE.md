@@ -1,5 +1,8 @@
 # Current Research State
 
+**Latest supplemental result — SOR-EXP-0008 / SOR-EV-0014, 2026-10-09:** [launch-era donor corpus](experiments/launch-era-third-party-save-corpus.md) catalogs 111 distinct TheDailyXPerience saves, all with two embedded 1.7.23.0 fields and recognized bounded framing/grammar. Fourteen empty units; no known beacon/cargo/animation signatures; 15 detection-only negative candidates / 96 inconclusive / zero positives. Five selected cases include advanced empty/nonempty comparison and a mod-header lead. Missing older-version ground truth blocks total-absence claims. Separate from frozen 278 HIST saves and controlled Save3. Raw material LOCAL-ONLY/excluded from publication; permission currentness/ambiguity and authored summaries await review. No live work, staging, commit or push.
+
+
 **Latest bounded result — SOR-EXP-0007 / SOR-EV-0013, 2026-10-09:** [historical inventory](experiments/historical-save-inventory-triage.md), SOR-F-0013, catalogs 278 originals; 275 full bounded fingerprints / three header-only. Six first-version strata, 196 SUPPORTED / 82 PARTIAL. Ten mature candidates satisfy a provisional multi-indicator no-active-outpost gate; no complete residual-state exclusion. S1/S2 empty-collection and S7 retained-state counterexamples preserved. Five diverse candidates archived/reused with verified hashes. Separate location probes recover name/body leads and 36 provisional name-adjacent float triples; engine planet IDs, coordinate frame and latitude/longitude conversion remain UNKNOWN. Authored results REVIEW-REQUIRED, raw/bulk LOCAL-ONLY; no live work, staging, commit or push.
 
 

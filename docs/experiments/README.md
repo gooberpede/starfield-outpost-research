@@ -21,3 +21,5 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
 - [SOR-EXP-0006: mature-save outpost and cargo validation](mature-save-outpost-validation.md) — bounded grammar, member/name and save-only reciprocal graph checks; all-active-index interpretation contradicted by small samples; critical review pending.
 
 - [SOR-EXP-0007: historical inventory and location triage](historical-save-inventory-triage.md) — 278-file catalog, bounded presence/absence matrix, diverse shortlist and provisional name/XYZ leads; offline only, critical review pending.
+
+- [SOR-EXP-0008: supplemental launch-era third-party corpus](launch-era-third-party-save-corpus.md) — 111 saves, launch-version grammar including empty units, detection-only triage and five-case shortlist; source/raw redistribution excluded; critical review pending.
