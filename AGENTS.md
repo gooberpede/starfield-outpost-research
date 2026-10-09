@@ -31,6 +31,8 @@ These orders govern agents acting for the maintainer. They do not add conditions
 
 Use [EVIDENCE_STANDARD.md](docs/EVIDENCE_STANDARD.md). Separate source reports, direct observations, interpretations, hypotheses, predictions, and validated findings. Preserve superseded interpretations and counterexamples. Do not treat a plausible output, passing integrity check, or an agent's summary as proof of semantics.
 
+Apply its scoped-conclusion and answer-first reporting rules: distinguish confidence, coverage and claimed completeness; use the strongest supported scoped result while preserving review and authorization gates.
+
 Record build/sample/tool provenance; stable record identifiers; exact supporting evidence; and the relevant address or offset domain. Runtime pointers, handles, FormIDs, serialized IDs, and file offsets are not interchangeable. Do not transfer an address or layout between builds without validation.
 
 Track publication eligibility independently of scientific confidence. A runtime field is not automatically persisted. A saved value is not automatically authoritative after load. A discovered function or field is not automatically a safe mod integration point.

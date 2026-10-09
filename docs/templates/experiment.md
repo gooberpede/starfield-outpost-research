@@ -8,6 +8,8 @@
 
 **Subsystem / linked question and hypothesis IDs:** <IDs>
 
+For a completed substantive semantic report, begin with the compact [answer-first elements](../EVIDENCE_STANDARD.md#evidence-evaluation-and-reporting): question, best-supported answer, confidence, coverage, decisive evidence, concrete limitations and next test if needed. Keep this planned template's execution status explicit.
+
 ## Question, scope, and predicted distinction
 
 State the question; what is in/out of scope; prior findings and outside sources; alternative models; expected distinguishing observations; success and falsification criteria. A question need not already have a preferred hypothesis.

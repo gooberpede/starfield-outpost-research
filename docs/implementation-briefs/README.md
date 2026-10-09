@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Research methodology and evidence standards refinement](CODEX_BRIEF_SOR_research_methodology_evidence_standards.md) — invoked 2026-10-09, SOR-D-0027; documentation only, prospective scoped-conclusion rules. [Review package](../audits/research-methodology-evidence-standards.md); no research execution or staging/commit/push.
+
 Current override: [EXP0002A debugger correction](EXP0002A-debugger-correction.md), SOR-D-0015, 2026-10-07. Offline policy/backend/one-site/timing preparation; return for review before any deployment, launch or trace. [Audit](../audits/exp0002a-debugger-correction.md).
 
 Current tooling follow-up: [SOR-EXP-0002A native save/thread mapping](CODEX_RESEARCH_BRIEF_SOR-EXP-0002A_native_save_thread_mapping.md), invoked2026-10-07 under SOR-D-0014. Stage B is conditionally authorized within its exact limits; Stage C requires a credible live contract. Actual outcome: [research report](../experiments/SOR-EXP-0002A-native-save-thread-mapping.md). The supplied brief is retained unchanged; no commit/push/publication authority.

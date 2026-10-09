@@ -12,6 +12,8 @@ Reading a brief does not authorize every action it mentions. Identify permitted 
 
 ## Question-led research loop
 
+Apply the [scoped-conclusion, coverage and reporting rules](docs/EVIDENCE_STANDARD.md#scoped-conclusions-and-coverage). Within the approved scope, select authorized offline tests by information gain; this does not waive experiment approval or the review required for durable promotion/reclassification. Answer substantive research questions before listing limitations.
+
 1. Select a bounded question from [the subsystem map](docs/subsystems/README.md). Review existing findings, alternatives, and relevant third-party sources.
 2. Complete the necessary source/permission gates before incorporating material or using an external implementation. Record source-specific facts separately from project validation.
 3. Write an experiment plan using [the template](docs/templates/experiment.md): hypothesis or question, controls, baseline, actions, evidence, success/falsification criteria, risk, stop, and cleanup.

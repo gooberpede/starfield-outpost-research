@@ -4,12 +4,16 @@
 - Evidence basis: SOURCE-REPORTED / STATIC / RUNTIME / SAVE / CROSS-VALIDATED
 - Lifecycle: current / superseded / rejected
 - Build/sample/condition scope: <exact scope>
+- Coverage: <tested versions/representations/conditions; inferred extensions; unknowns/exclusions>
+- Completeness, if claimed: <every qualifying instance within which scope, and justification; otherwise not claimed>
 - Subsystem, experiment, function, state, and source IDs: <links>
 - Publication classification and review: <status, reviewer, date, scope>
 
 ## Claim
 
 State exactly what was established. Distinguish another author's report, independent reproduction, and project-original discovery.
+
+Begin substantive reports with the compact [answer-first elements](../EVIDENCE_STANDARD.md#evidence-evaluation-and-reporting), including the best-supported answer and highest-information next test if needed. Existing fields may supply these elements without a duplicate table.
 
 ## Decisive evidence and reasoning
 
