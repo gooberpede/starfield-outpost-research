@@ -79,7 +79,8 @@ public class OutpostRecon extends GhidraScript {
                             if(ri.hasNext()) out.write("XREF_LIMIT_REACHED\n");
                             continue;
                         }
-                        Address a=toAddr(args[i]);
+                        boolean full=args[i].startsWith("full:");
+                        Address a=toAddr(full?args[i].substring(5):args[i]);
                         Function f=currentProgram.getFunctionManager().getFunctionAt(a);
                         if(f==null) {
                             out.write("NO_FUNCTION_AT\t"+a+"\n");
@@ -100,8 +101,9 @@ public class OutpostRecon extends GhidraScript {
                         out.write("DECOMPILED\t"+result.decompileCompleted()+"\t"+result.getErrorMessage()+"\n");
                         if(result.decompileCompleted()) {
                             String c=result.getDecompiledFunction().getC();
-                            out.write(c.substring(0,Math.min(c.length(),50000)));
-                            if(c.length()>50000) out.write("\nDECOMPILATION_LIMIT_REACHED\n");
+                            int limit=full?250000:50000;
+                            out.write(c.substring(0,Math.min(c.length(),limit)));
+                            if(c.length()>limit) out.write("\nDECOMPILATION_LIMIT_REACHED\n");
                         }
                     }
                 } finally {dc.dispose();}

@@ -34,3 +34,8 @@ Identity/membership and local distribution share [SOR-EXP-0005](../experiments/o
 ## Historical identity/location and cargo triage — 2026-10-09
 
 [SOR-EXP-0007 / SOR-EV-0013](../experiments/historical-save-inventory-triage.md) catalogs 278 historical/control-profile files; 275 full bounded fingerprints and three header-only inputs. Ten mature absence candidates are provisional under multiple indicators, with no residual-state exclusion. Name/body leads and 36 name-adjacent float tuples in four saves extend identity/location questions; engine planet IDs, planetary conversion and restored authority remain UNKNOWN. Cargo references and collection/window mismatches guide the five-save shortlist without treating observational saves as controlled causality evidence. No live authority, semantic promotion or integration point follows.
+
+
+## Active identification follow-up — 2026-10-09
+
+[SOR-EXP-0009](../experiments/active-outpost-identification.md), SOR-F-0014 / SOR-ST-0017, replaces sampled object windows with exact R3 record/table/body framing and conditionally maps saved disabled/deleted flags through native named callbacks. Mature 19 inline beacons split 17 disabled-clear/two disabled-set, all deleted-clear. Alternate initial-data paths and Almanac's reconstructed keyword/ExtraWorkshop registry remain separate completeness/ownership obligations. No active-player classifier, universal absence result or safe integration point is established. SOR-H-0006 records competing rules and the proposed removal/reload discriminator; no new live authority.

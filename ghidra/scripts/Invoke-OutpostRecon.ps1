@@ -4,7 +4,8 @@
 param(
     [ValidateSet('Starfield','StarfieldCK')][string]$Target,
     [Parameter(Mandatory=$true)][string]$OutputName,
-    [string[]]$Addresses = @()
+    [string[]]$Addresses = @(),
+    [ValidateSet('OutpostRecon.java','OutpostSaveConstants.java')][string]$Reader = 'OutpostRecon.java'
 )
 $ErrorActionPreference = 'Stop'
 $repo = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
@@ -19,7 +20,7 @@ $program = if ($Target -eq 'Starfield') {'Starfield.exe'} else {'CreationKit.exe
     "-Dapplication.settingsdir=$outRoot/ghidra-settings" "-Dapplication.cachedir=$outRoot/ghidra-cache" `
     -cp "$ghidraRoot/Ghidra/Framework/Utility/lib/Utility.jar" ghidra.Ghidra `
     ghidra.app.util.headless.AnalyzeHeadless $projectRoot $Target -process $program -readOnly -noanalysis `
-    -scriptPath $PSScriptRoot -postScript OutpostRecon.java "$outRoot/$OutputName" @Addresses `
+    -scriptPath $PSScriptRoot -postScript $Reader "$outRoot/$OutputName" @Addresses `
     -log "$outRoot/$OutputName.log"
 if ($LASTEXITCODE -ne 0) { throw "Ghidra exited $LASTEXITCODE" }
 if (!(Test-Path -LiteralPath "$outRoot/$OutputName")) { throw 'Export missing; inspect Ghidra log' }

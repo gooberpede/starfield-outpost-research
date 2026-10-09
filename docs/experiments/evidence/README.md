@@ -23,3 +23,8 @@ Avoid OS usernames, personal save names, absolute local paths, or permission cor
 ## SOR-EV-0013 — Historical inventory and location triage
 
 [SOR-EXP-0007 report](../historical-save-inventory-triage.md), [validation and review inventory](../historical-save-inventory/validation.md). Selected neutral-ID/hash/numeric manifest, presence matrix, version ledger and location-candidate hops are REVIEW-REQUIRED. Exact personal paths/names, originals, copies, complete fingerprints and failed/exploratory receipts remain LOCAL-ONLY under `.local-work/historical-inventory/`; no raw evidence is added here. Frozen scan-04 hashes identify 278 originals and 275 full fingerprints, with independent control/baseline comparisons. Location fallback remains separate from classification. Publication and scientific confidence remain independent.
+
+
+## SOR-EV-0015 — Active identification record/native evidence
+
+[SOR-EXP-0009](../active-outpost-identification.md), [validation/inventory](../active-outpost-identification/validation.md). SOR-F-0014 / SOR-ST-0017 / SOR-H-0006. Selected source-hash/count/flag ledgers are authored REVIEW-REQUIRED material. Full fingerprints, executable text, Ghidra TSVs, raw source locators and failed probes stay LOCAL-ONLY under `.local-work/active-outpost/` and `.local-work/recon/active-outpost-*`. Frozen flags-03 digest and independent 11-save/874,242-record audit are in the report. Exact mechanical framing and conditional flag mappings do not establish active ownership or conclusive zero. No raw evidence is newly added under this directory.

@@ -57,3 +57,8 @@ SOR-EXP-0006 credits preserved project/maintainer-directed exploratory discovery
 ## Supplemental launch-era corpus — 2026-10-09
 
 **TheDailyXPerience** supplied the save package published on [Nexus Mods, listing 1798](https://www.nexusmods.com/starfield/mods/1798), used as observational inputs for [SOR-EXP-0008](docs/experiments/launch-era-third-party-save-corpus.md), SOR-S-0125. No endorsement is implied; originals and substantial payload remain local and excluded from publication. **Igor Pavlov and 7-Zip contributors** supplied the separately installed listing/extraction tool, SOR-S-0126. **Python Software Foundation/CPython and zlib/zlib-ng contributors** supplied installed runtime/compression facilities, SOR-S-0113. Existing project/maintainer-directed methods retain SOR-S-0124 and prior Bethesda/xEdit definition-research credit SOR-S-0103/0104. No third-party parser implementation was incorporated.
+
+
+## Active outpost identification research — 2026-10-09
+
+[SOR-EXP-0009](docs/experiments/active-outpost-identification.md) credits **Bethesda Game Studios** for the locally installed engine/content/script research inputs (SOR-S-0127 / SOR-S-0103/0104), **Ghidra contributors** and the existing installed **Eclipse Adoptium/OpenJDK** runtime for separate read-only analysis tooling, and **Python Software Foundation/CPython and zlib/zlib-ng contributors** for installed offline tooling (SOR-S-0113). Existing project/maintainer-directed methods retain SOR-S-0124 provenance. **TheDailyXPerience** retains SOR-S-0125 credit for the launch-era observational corpus and unchanged raw redistribution restrictions. No outside parser implementation or new dependency was incorporated; proprietary exports remain local.

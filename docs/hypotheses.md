@@ -1,5 +1,11 @@
 # Hypotheses and Open Questions
 
+## SOR-H-0006 — Disabled state, promotion and reconstructed workshop membership
+
+PROVISIONAL / SAVE + STATIC, SOR-EXP-0009 / SOR-EV-0015. [Mechanisms, predictions, failures and obstruction](experiments/active-outpost-identification.md). The preregistered exploratory promotion feature predicts zero inline beacons in Save3/S0/S0C, one in S1 onward/L controls and 17 promoted among 19 mature candidates. Those predictions agree. Native names reject the claim that promotion is literally an active bit. Later saved-flag decoding finds exactly correlated disabled-clear/promoted/auxiliary 0x40 versus disabled-set/unpromoted/auxiliary 0x41 states (1,804 occurrences); this is not an independently preregistered causal test.
+
+Competing interpretations: enabled beacon suffices; auxiliary registration suppression determines membership; a keyword/ExtraWorkshop/parent predicate is required; alternate base reconstruction supplies additional active representations. Native Almanac and registration paths support the latter obligations. HIST-0016's three collection-member records have alternate flags and no inline beacon base; their actual identities remain UNKNOWN, not assumed false negatives. Existing controls lack beacon removal and non-player ownership discrimination. A controlled removal/reload checkpoint could falsify the co-variation rule; complete alternate-base/registry reconstruction is separately needed for absence. No zero-active inference, full blindness claim, live authority or scientific promotion follows. Authored work REVIEW-REQUIRED; raw/bulk LOCAL-ONLY.
+
 ## SOR-H-0005 — Beacon collection membership may depend on object/relationship participation
 
 PROVISIONAL / SAVE, SOR-ST-0015, SOR-F-0012, SOR-EV-0012. [Mature validation](experiments/mature-save-outpost-validation.md) finds 17 named mature members matching JSON, but the same grammar's beacon collection is empty in S1/S1C/S2/S2C and S7/S7C despite retained beacon windows. Inclusion begins at S3, before the first controlled output link, and ends at S7's extractor deletion/link cleanup. A universal active-beacon registry is contradicted; relationship participation, a production-related subset, cache or another subsystem registration remain alternatives. Do not infer an engine list owner, deletion state or load authority from membership.
