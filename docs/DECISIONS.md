@@ -1,5 +1,10 @@
 # Decision Register
 
+## SOR-D-0032 — Offline exact-beacon investigation
+
+2026-10-09. User invokes [retained brief](implementation-briefs/CODEX_BRIEF_SOR_exact_beacon_planetary_coordinates.md), authorizes substantial offline static/archive/definition research and original tools, requests commit suggestion without committing/pushing. No live experiment, game/save/config/database mutation, outside implementation reuse, staging/commit/push/publication/contact authority. [SOR-EXP-0015](experiments/exact-beacon-planetary-coordinates.md) recovers scoped grid/projection behavior; exact continuous coordinates remain open with explicit missing terms. This package is not critical approval, integration/publication approval or authority for its proposed live discriminator.
+
+
 ### SOR-D-0030 — Planetary surface-anchor semantics investigation
 
 2026-10-09, Australia/Sydney: the user invokes [the retained brief](implementation-briefs/CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md), asks that its instructions be followed and requests commit suggestions without committing/pushing. Authorized: bounded offline save/ESM/native analysis, public consultation and original numerical research tools. [SOR-EXP-0013 / SOR-EV-0019](experiments/planetary-surface-anchor-semantics.md) proposes scoped STRONG longitude-first/latitude-second radian site-anchor semantics, with exact beacon/terrain transform, compass/texture calibration and generic wire closure still open. Earlier interpretations/classifications remain preserved for critical review; this execution is not semantic integration/publication approval. No live launch/debugger/SFSE, game/save/database edits, third-party implementation reuse, staging, commit, push, external contact, fork or PR. Conditional next experiments require separate authority.

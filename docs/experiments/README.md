@@ -1,5 +1,8 @@
 # Experiments
 
+- [SOR-EXP-0015: projection and exact-beacon boundary](exact-beacon-planetary-coordinates.md) —49152-grid,25 angular reconstructions, common-origin evidence and explicit fractional/frame blocker; [review](exact-beacon/README.md), ANALYZED, critical review required.
+
+
 - [SOR-EXP-0014: two-outpost site anchors and beacon coordinates](two-outpost-site-anchors-and-beacon-coordinates.md) — distinct Save25 Kreet parents/angles, earlier-control equality, retained cache ambiguity and native terrain-grid bridge; [review package](two-outpost-anchor/README.md), offline only, critical review required.
 
 - [SOR-EXP-0013: planetary surface-anchor semantics](planetary-surface-anchor-semantics.md) — proposed longitude-first/latitude-second radian site anchors, 21 saved pairs/18 bodies and three fixed cities, prior art and exact local-beacon limitations; [evidence/review](planetary-surface-anchor/README.md), offline only, critical review required.

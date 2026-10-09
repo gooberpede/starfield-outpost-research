@@ -1,5 +1,12 @@
 # Offline Analysis Scripts
 
+## Terrain projection audit — SOR-EXP-0015
+
+`beacon_terrain_projection.py`: original source-informed mathematical model of hemisphere projection/grid centres/float local split. Stdlib, no I/O/target effects; **not an exact-beacon API**, no boundary/atan2 bit-equivalence claim. `test_beacon_terrain_projection.py` tests analytical roundtrip, tags, quantization, negative/boundary split, not runtime semantics.
+
+`audit_beacon_projection.py`: reads extractor JSON receipts and selected fixed-city CSV, hashes before/after, requires40GB free, refuses existing output directory, writes local matrix/summary. No game/save/database/network/name coordinates; native-derived N49152 fixed independently. [Commands/parameters/counterexample](../../docs/experiments/exact-beacon-planetary-coordinates.md). No full decoder independence, critical/publication review required.
+
+
 ## Output-link L0–L2C validation
 
 The invoked [link-validation brief](../../docs/implementation-briefs/CODEX_RESEARCH_BRIEF_output_link_validation_L0-L2C.md) authorizes [validate_output_link.py](validate_output_link.py) and [probe_output_link_structure.py](probe_output_link_structure.py). [Results](../../docs/experiments/output-link-validation-L0-L2C.md). Installed CPython3.14.3 standard library only; use its explicit installed executable if the Windows `python` alias is unavailable. No downloads or effects on game processes/static-analysis projects.

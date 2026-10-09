@@ -1,5 +1,20 @@
 # Function and Operation Register
 
+## SOR-EXP-0015 projection/frame consumers
+
+Pinned SOR-ENV-0001 hash/base in [report](experiments/exact-beacon-planetary-coordinates.md), SOR-EV-0021. STATIC/OBSERVED-INTERNAL/REVIEW-REQUIRED; no live calls/ABI qualification/renaming/integration. RVA = VA minus0x140000000; member offsets are not wire offsets.
+
+| ID | Original static VA | RVA | Supported role / limit |
+|---|---|---|---|
+| SOR-FN-0033 | FUN_14008cb90 /14008cc50 /14096e060 /14096da90 | 0008cb90 /0008cc50 /0096e060 /0096da90 | Defaults10+2, ordinaryR256; actual other configuration required |
+| SOR-FN-0034 | FUN_14096ecb0 /14096f4d0 /14096efb0 | 0096ecb0 /0096f4d0 /0096efb0 | Quantizer, centred indices, origin snap; no visible-tile dimensions |
+| SOR-FN-0035 | FUN_14078d1f0 /14078d660 /1423321f0 /142332410 | 0078d1f0 /0078d660 /023321f0 /02332410 | Local floorXY/origin displacement/projection; angle omits fractionalXY/Z |
+| SOR-FN-0036 | FUN_140ad7200 /140ada960 /140ad40c0 | 00ad7200 /00ada960 /00ad40c0 | Keyed activated-overlay integerXY*100/vertical translation; restored map unqualified |
+| SOR-FN-0037 | FUN_1418325a0 /141833b20 /140b4e410 | 018325a0 /01833b20 /00b4e410 | World/initial flags/restoration/rebase; final authority unknown |
+| SOR-FN-0038 | FUN_140910690 /1407bcfb0 | 00910690 /007bcfb0 | Cached/active-world/fallback; body-space consumer also quantizes; no subcell proof |
+| SOR-FN-0039 | FUN_140ad1660 /140ad47e0 /140ad4a00 /140add310 | 00ad1660 /00ad47e0 /00ad4a00 /00add310 | ActivatedOverlayProperty creation/registration; saved linkage unknown |
+
+
 ## SOR-EXP-0014 terrain-frame bridge
 
 SOR-ENV-0001 / SOR-EV-0020, pinned Starfield1.16.244.0, preferred base `0x140000000`. [Operand locations, input gaps and export identities](experiments/two-outpost-site-anchors-and-beacon-coordinates.md#coordinate-transformation-investigation). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED; no native invocation, callable ABI, complete branch coverage or safe integration. World creation/registration and terrain queries have effects if executed; only existing analysis state was exported here. In-memory offsets are not wire offsets.

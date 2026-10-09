@@ -1,5 +1,14 @@
 # Source Register
 
+## SOR-S-0131 — Required tiling threads, access-limited
+
+2026-10-09. [Tiling example](https://old.reddit.com/r/Starfield/comments/1vqcjk3/found_a_perfect_example_of_starfields_tiling/) and [tile observations](https://old.reddit.com/r/NoSodiumStarfield/comments/1cr7w8t/obervations_on_starfields_tile_system/), latter existing SOR-S-0130/PA09: primary old/www fetches unavailable, ID/title search did not recover complete original text/authors. Requested full reading **not completed**. Brief-reported repetition/grid/rotation/mirror/2×2 remain hypotheses, not authenticated quotes. [Comparison](experiments/exact-beacon-planetary-coordinates.md#prior-art-and-publication). No code/assets/contact/fork/PR; authorship UNKNOWN where unrecovered.
+
+### SOR-S-0127 /0129 extension — Native terrain projection
+
+[SOR-EXP-0015](experiments/exact-beacon-planetary-coordinates.md): Bethesda installed native constants/initialization, loader/rebase and coordinate consumers, pinned hash/VA/RVA/export identities. Original source-informed mathematical implementation, no copied decompiler text or clean-room claim. Ghidra/JDK SOR-S-0105 and CPython/zlib SOR-S-0113 separate-tool use; maintainer archive/framing methods SOR-S-0124. Full proprietary exports LOCAL-ONLY; authored scripts/summaries REVIEW-REQUIRED, no outside implementation incorporated.
+
+
 ## SOR-S-0129 — Pinned planetary surface-placement evidence
 
 Bethesda Game Studios installed Starfield1.16.244.0, existing SOR-ENV-0001. [SOR-EXP-0013](experiments/planetary-surface-anchor-semantics.md) independently inspects spherical selection, named angle consumption, CTPlanetOverlayData creation and PNDT fixed-world loading. Fresh ESM/executable hashes, native VA/RVA locators, 15 ignored export identities, source/decoded-save hashes and selected numeric rows are in [SOR-EV-0019](experiments/planetary-surface-anchor/README.md). Complete proprietary payload/decompilation remains LOCAL-ONLY; original project numerical/parser code expresses observations, no native implementation text incorporated. Installed Ghidra12.1.2/JDK21, Python3.14.3/stdlib retain SOR-S-0105/0113 separate-tool credit; project readers/methods SOR-S-0124 and earlier SOR-S-0127/0128 remain credited. No historical content/build equivalence or load authority is inferred.

@@ -69,12 +69,14 @@ public class OutpostRecon extends GhidraScript {
                             for(int j=0;j<45 && x!=null;j++,x=x.getNext()) out.write(x.getAddress()+"\t"+x+"\n");
                             continue;
                         }
-                        if(args[i].startsWith("ref:")) {
-                            Address target=toAddr(args[i].substring(4));
+                        if(args[i].startsWith("ref:") || args[i].startsWith("refall:")) {
+                            boolean all=args[i].startsWith("refall:");
+                            int cap=all?4096:24;
+                            Address target=toAddr(args[i].substring(all?7:4));
                             out.write("REFERENCE_TARGET\t"+target+"\n");
                             ReferenceIterator ri=currentProgram.getReferenceManager().getReferencesTo(target);
                             int n=0;
-                            while(ri.hasNext() && n++<24) {
+                            while(ri.hasNext() && n++<cap) {
                                 Reference r=ri.next();
                                 Function owner=currentProgram.getFunctionManager().getFunctionContaining(r.getFromAddress());
                                 out.write("XREF\t"+r.getFromAddress()+"\t"+(owner==null?"NO_FUNCTION":owner.getEntryPoint()+"\t"+owner.getName())+"\n");

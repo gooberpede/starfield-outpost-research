@@ -1,5 +1,10 @@
 # Hypotheses and Open Questions
 
+## SOR-H-0009 — Site index and fractional beacon embedding
+
+[SOR-EXP-0015 log](experiments/exact-beacon-planetary-coordinates.md#hypothesisevidence-log-and-stopping-boundary). Native default49152-grid predicts22 beacon pairs and3 fixed anchors; scoped STRONG proposal. Controlled common origin supported arithmetically. Universal site=current occupied cell unproven: negative-X84ede9 permits origins13152/13153. Corner/centre fractional extensions cannot be distinguished by many-to-one quantized outputs. Missing terms: selected loaded/cached world mapping, activated-overlay translation, terrain origin and continuous residual consumer. Next discriminator: qualified restoration/residual geometry; new live displacement test needs separate authority. Counterexamples retained, no fitted transform/geographic datum. REVIEW-REQUIRED.
+
+
 ## SOR-H-0007 — Faction quest hand-in separates beacon identity from player control
 
 PROVISIONAL / SOURCE-REPORTED + SAVE/STATIC leads, [SOR-EXP-0010 / SOR-EV-0016](experiments/active-outpost-membership-completion.md). Maintainer reports each Terran Armada faction outpost loses player control on quest hand-in, but does not know HIST-0016's quest state. Installed UC/FC/RI QUST and matching PEX identifiers point to a beacon alias and BlockPlayerActivation/AddKeyword mechanism; full stage/control-flow and save restoration are not validated. Prediction: a labelled hand-in pair may retain beacon identity while a quest/property/registration input changes. Counterexample to assuming presence alone implies player control; no actual same-save post-hand-in false positive has yet been independently labelled. Alternative: activation blocking and Almanac exclusion have different authority or persistence. The maintainer has deferred quest-status decoding; no deletion experiment or live action follows. IsDeleted is shelved absent an outpost-specific set-bit observation/path. Keep SOR-H-0006's earlier hypotheses and proposed removal test as historical; current decision SOR-D-0026 governs priority.

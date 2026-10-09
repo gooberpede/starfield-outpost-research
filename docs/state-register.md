@@ -1,5 +1,10 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0020 — Derived terrain indices and runtime frame inputs
+
+[SOR-EXP-0015](experiments/exact-beacon-planetary-coordinates.md), SOR-F-0020/H-0009/EV-0021. Qualified saved site/XYZ/initial flags PERSISTED. Recovered grid indices/common-origin candidates are DERIVED, not new wire fields. Native manager+50 R, origin+0xc8/+0x1c0, activated-overlay shift+8/+c/+30 and cached ExtraData0x81 pair/body OBSERVED-INTERNAL; persistence/authority UNCLASSIFIED without wire linkage. Pair and fractional XYZ travel separately; active-world angle consumer quantizes, other-world/cached branches can supply anchors. Exact continuous embedding/post-load authority/integration unvalidated. REVIEW-REQUIRED, prior records retained.
+
+
 ## SOR-ST-0018 — Alternate placement prefix and omitted flag state
 
 [SOR-EXP-0010 / SOR-EV-0016](experiments/active-outpost-membership-completion.md), SOR-F-0015. Case-6 conditional REFR initial data consumes cell and placement-parent queue entries, transform and two signed int16 indices, then general self reference. HIST-0016 change flags `0x92018200` omit saved flags: disabled/deleted are UNKNOWN/inherited, not stored false. Ordered queued refs and token-domain distinctions remain PERSISTED structural evidence; final loaded identity and ownership are MIXED/unvalidated. Installed template/base relationships are STATIC; R1 adjacency interpretation and conditional plugin mapping remain INFERRED. ExtraPromotedRef type0x84, ExtraOwnership type0x1f and ExtraWorkshop type0xbc must remain distinct. Nonempty type0x80 / unknown ExtraFlags buffer version stop decoding. No complete player-membership predicate or negative proof; REVIEW-REQUIRED.

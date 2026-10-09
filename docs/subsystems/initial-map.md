@@ -1,5 +1,10 @@
 # Initial subsystem map — SOR-EXP-0001
 
+## Terrain/frame follow-up — SOR-EXP-0015
+
+[Projection research](../experiments/exact-beacon-planetary-coordinates.md), SOR-F-0020: native49152-grid reproduces22 beacon/site and3 fixed pairs; controlled common-origin arithmetic supports scoped STRONG proposal. Exact continuous beacon placement open at world/cached frame and fractional embedding; negative-X mature case prevents universal site=current-cell. Runtime inputs not assigned guessed wire offsets. No metre/texture calibration, universal completeness or safe integration. [Review](../experiments/exact-beacon/README.md), prior history retained.
+
+
 **Latest local-distribution SAVE evidence:** [SOR-EXP-0004](../experiments/output-link-validation-L0-L2C.md) isolates unlink/relink with endpoint candidates retained. A separate relationship payload reverses in action samples and stays stable in both controls. Tokens and entry order differ across the reported reload, so exact literal detection is not portable. Proposed STRONG output-link association awaits review; list ownership, count encoding, production-state interpretation, authoritative restoration and integration safety remain open. The static map and earlier provisional findings below are retained.
 
 **Later SAVE evidence:** [SOR-EXP-0003](../experiments/manual-save-corpus-S0-S7C.md) adds provisional identity/location, construction/move/delete and local-output-link candidates from the manual S0–S7C corpus. SOR-ST-0010–0013 and SOR-F-0009 separate exact saved-byte lifecycles from semantic inferences and unresolved reload authority. The original static-only map below is preserved as historical evidence, not retroactively treated as a decoded save schema.

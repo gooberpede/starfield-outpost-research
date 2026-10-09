@@ -1,5 +1,8 @@
 # Static-Analysis Scripts
 
+SOR-EXP-0015 extends `OutpostRecon.java` with `refall:VA` existing-reference export, cap4096; ordinary `ref:` retains24 cap. Reads existing state, creates no references/types/comments, reports cap overflow. [Report/ledger](../../docs/experiments/exact-beacon-planetary-coordinates.md). Continue readOnly/noanalysis, quoted PowerShell addresses, new local export filename; full native text LOCAL-ONLY.
+
+
 EXP0002A adds `saves`, a bounded scan of existing defined strings for savegame/saveload/manualsave/quicksave/deletesave/save game/saving game/savecomplete. It uses the existing 350-string/eight-reference caps and never creates analysis. Selected exports, failed attempts and database preservation are indexed in [SOR-EV-0005](../../docs/experiments/evidence/exp0002a-static/README.md).
 
 Add only authorized project-authored or explicitly permission-cleared work. Every script documents prerequisites, inputs/outputs, effects and validation; preserve provenance and credit.

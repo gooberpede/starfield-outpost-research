@@ -1,5 +1,8 @@
 # Implementation and Audit Briefs
 
+- [Exact beacon planetary coordinates](CODEX_BRIEF_SOR_exact_beacon_planetary_coordinates.md) — invoked2026-10-09, SOR-D-0032; offline terrain/frame tracing. [Report](../experiments/exact-beacon-planetary-coordinates.md), [review](../experiments/exact-beacon/README.md); exact continuous coordinates open, no live/staging/commit/push.
+
+
 - [Two-outpost site anchors and beacon coordinates](CODEX_BRIEF_SOR_two_outpost_site_anchor_and_beacon_coordinates.md) — invoked 2026-10-09, SOR-D-0031; bounded offline Save25/native investigation. [Report](../experiments/two-outpost-site-anchors-and-beacon-coordinates.md) and [review package](../experiments/two-outpost-anchor/README.md); no live work, staging, commit or push.
 
 - [Research methodology and evidence standards refinement](CODEX_BRIEF_SOR_research_methodology_evidence_standards.md) — invoked 2026-10-09, SOR-D-0027; documentation only, prospective scoped-conclusion rules. [Review package](../audits/research-methodology-evidence-standards.md); no research execution or staging/commit/push.
