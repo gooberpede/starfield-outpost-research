@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**Latest scoped result, 2026-10-09:** [ordinary beacon detection](docs/experiments/ordinary-outpost-beacon-detection.md) reproduces zero/one controls and Save52's 19 ordinary candidates split 17 disabled-clear/two disabled-set. All 17 clear records match the manual network; both set records fall outside it. Positive evidence is separate from unresolved authoritative ownership/completeness. Offline only; critical review pending, no staging/commit/push.
+
 **Latest offline result, 2026-10-09:** [historical save inventory](docs/experiments/historical-save-inventory-triage.md) catalogs 278 saves across six first-header-version strata; 275 receive bounded fingerprints and three remain header-only at the 64 MiB limit. Ten mature absence candidates are provisional; no residual-state exclusion is claimed. Name-associated local XYZ candidates and body-name leads are recorded, without decoded planetary coordinates. Critical review pending; no live work, staging, commit or push.
 
 

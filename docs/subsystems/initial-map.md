@@ -44,3 +44,7 @@ Identity/membership and local distribution share [SOR-EXP-0005](../experiments/o
 ## Alternate beacon identity and ownership follow-up — 2026-10-09
 
 [SOR-EXP-0010 / SOR-EV-0016](../experiments/active-outpost-membership-completion.md) adds case-6 placement prefixes, three installed faction beacon templates and a quest hand-in/control-loss discriminator. Omitted flags remain unknown; ExtraPromotedRef is not ExtraOwnership; current definitions/R1 adjacency do not complete load identity. Quest save-state work is deferred by maintainer; all prototype membership results remain indeterminate. Saved disabled-state observations survive; IsDeleted is shelved. No live/mod integration or universal negative proof.
+
+## Scoped ordinary beacon instrument — 2026-10-09
+
+[SOR-EXP-0011 / SOR-F-0016](../experiments/ordinary-outpost-beacon-detection.md) makes ordinary case-5 beacon identity and explicit saved disabled state usable as scoped positive evidence. Zero/one controls and Save52's 17-clear/two-set correspondence pass; template/faction leads and reference-only decoys remain separate. Complete membership, omitted-state authority, alternate reconstruction and ownership remain unresolved. Proposed scoped STRONG interpretation awaits review; IsDeleted/quest work stays deferred. Next priority after tool review is separately briefed location research, with no current location/live execution authority.

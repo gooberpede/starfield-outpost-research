@@ -67,3 +67,7 @@ SOR-ENV-0002 / SOR-F-0006 / SOR-EV-0002. Fresh runtime reference FormID/pointer,
 ## Historical triage follow-up — SOR-ST-0013 / SOR-ST-0015–0016
 
 [SOR-EXP-0007 / SOR-EV-0013](experiments/historical-save-inventory-triage.md) extends observational coverage to 275 fully inspected historical saves, with three resource-limited metadata-only inputs. Selected counts and provisional absence candidates do not establish a universal active index or residual-state exclusion. Name-associated float tuples extend SOR-ST-0013 as PROVISIONAL local-coordinate candidates; no engine body ID, planetary frame, complete record bounds or load authority is recovered. SOR-ST-0015–0016 ownership, inclusion and runtime cargo semantics remain unresolved; no semantic promotion or new safe integration point.
+
+## SOR-EXP-0011 scoped detector view of SOR-ST-0017–0018
+
+[Ordinary beacon detection](experiments/ordinary-outpost-beacon-detection.md) adds a research view of already identified PERSISTED token/prefix/flag evidence, not a new serialized field. Case-5 inline ordinary identity and saved disabled-clear/set/omitted/unresolved classes are separate from registration/player ownership. Logical record bounds, queue locations and compressed-stream spans are explicitly different address domains. R1 template adjacency is still a lead; loaded identity and omitted-state reconstruction remain unvalidated. No prior state classification is promoted. REVIEW-REQUIRED; no integration interface.

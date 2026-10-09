@@ -26,3 +26,5 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
 
 
 - [SOR-EXP-0010: alternate beacon identity and conservative membership prototype](active-outpost-membership-completion.md) — case-6 faction leads, omitted flags and deferred quest control; partial offline handoff, critical review pending.
+
+- [SOR-EXP-0011: scoped ordinary beacon detection](ordinary-outpost-beacon-detection.md) — reproducible ordinary identification and saved-state evidence, distinct from unresolved authoritative ownership; critical review required, no live or commit authority.

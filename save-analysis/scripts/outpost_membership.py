@@ -135,7 +135,7 @@ def extra_prefix(b, r, prefix, buffer_version=None):
     return out
 
 
-def classify(b, catalog):
+def classify(b, catalog, diagnostics=False):
     """Catalog: direct_bases {saved FormID: label}; templates {saved FormID: base}.
     Explicit caller supplies save-era mapping; no filename/name/count oracle.
     R1 adjacency is returned as a lead, never authoritative template resolution.
@@ -147,7 +147,7 @@ def classify(b, catalog):
     rs = records(b, a, z, d['words'][9])
     bases = catalog['direct_bases']
     templates = catalog.get('templates', {})
-    candidates, errors = [], []
+    candidates, errors, reference_leads = [], [], []
     a1, z1 = d['regions']['region_R1']
     # Search only template tokens whose resolved IDs occur in the supplied
     # catalog. These are evidence leads, not a replacement for the R1 grammar.
@@ -165,6 +165,20 @@ def classify(b, catalog):
             p += 1
     unresolved_paths = collections.Counter()
     for r in rs:
+        if diagnostics:
+            occurrences = []
+            for i, token in enumerate(r['refs']):
+                try:
+                    fid = token_value(token, table)
+                except ValueError:
+                    continue
+                if fid in bases:
+                    occurrences.append(dict(queue_index=i, token=token, formid=fid))
+            if occurrences:
+                reference_leads.append(dict(token=r['token'], offset=r['offset'],
+                    end=r['end'], body=r['body'], ordinal=r['ordinal'],
+                    flags=r['flags'], explicit_type=r['explicit_type'],
+                    occurrences=occurrences))
         if int(r['token'], 16) >> 22 != 2:
             continue
         # A base position or adjacency may justify attempting a conditional
@@ -190,6 +204,9 @@ def classify(b, catalog):
                    type_basis='EXPLICIT' if r['explicit_type'] is not None else 'CONDITIONAL_REFR',
                    identity_basis='INLINE_BASE' if case == 5 and direct else 'R1_TEMPLATE_ADJACENCY_LEAD',
                    base_formid=direct if case == 5 else None, template_leads=assoc)
+        if diagnostics:
+            row.update(ordinal=r['ordinal'], reference_start=r['reference_start'],
+                       string_start=r['string_start'])
         try:
             prefix = initial_prefix(b, r, case)
             row['prefix'] = prefix
@@ -199,7 +216,7 @@ def classify(b, catalog):
         except ValueError as e:
             row['decode_error'] = str(e)
         candidates.append(row)
-    return dict(status='INDETERMINATE', reason_codes=[
+    result = dict(status='INDETERMINATE', reason_codes=[
         'INHERITED_FORM_TYPES_AND_NONINLINE_BASES_INCOMPLETE',
         'R1_TEMPLATE_MAP_NOT_FULLY_DECODED',
         'WORKSHOP_REGISTRATION_AND_PLAYER_OWNERSHIP_UNVALIDATED',
@@ -215,3 +232,6 @@ def classify(b, catalog):
         unknown_disabled_candidates=sum(r.get('prefix', {}).get('disabled') is None for r in candidates),
         isdeleted_set_records=[dict(token=r['token'], offset=r['offset']) for r in candidates
                               if r.get('prefix', {}).get('deleted') is True])
+    if diagnostics:
+        result['reference_leads'] = reference_leads
+    return result

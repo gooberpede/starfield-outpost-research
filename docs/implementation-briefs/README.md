@@ -32,3 +32,5 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 
 
 - [Active outpost membership completion](CODEX_RESEARCH_BRIEF_active_outpost_membership_completion.md) — invoked 2026-10-09, SOR-D-0026; [partial result and review](../experiments/active-outpost-membership-completion.md). Subsequent quest-control correction/edge-case deferral durably retained; no live or commit authority.
+
+- [Scoped ordinary beacon detection](CODEX_BRIEF_SOR_scoped_ordinary_outpost_beacon_detection.md) — invoked 2026-10-09, SOR-D-0028; [result/review](../experiments/ordinary-outpost-beacon-detection.md). Supplied brief preserved unchanged; no staging/commit/push.
