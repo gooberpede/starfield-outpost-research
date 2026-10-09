@@ -1,5 +1,7 @@
 # Selected Evidence
 
+SOR-EV-0020: [two-outpost anchor report](../two-outpost-site-anchors-and-beacon-coordinates.md) and [selected evidence/review](../two-outpost-anchor/README.md). Save25 manifest, exact parent/pair/XYZ comparisons and native export identities; REVIEW-REQUIRED, original/bulk payload LOCAL-ONLY.
+
 SOR-EV-0019: [planetary surface-anchor report](../planetary-surface-anchor-semantics.md) and [selected numeric/hash/locator evidence](../planetary-surface-anchor/README.md), SOR-F-0018. Six source/decoded hash rows, 21 saved pair observations, three fixed-world values and 15 native-export identities are authored REVIEW-REQUIRED derivatives. Raw saves, decompressed streams, ESM payloads, Ghidra exports and private locators stay LOCAL-ONLY; native instruction limits and incomplete generic wire closure remain explicit. No publication clearance.
 
 **No research evidence is bundled at scaffold creation.** This is not a dumping ground for raw captures.

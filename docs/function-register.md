@@ -1,5 +1,16 @@
 # Function and Operation Register
 
+## SOR-EXP-0014 terrain-frame bridge
+
+SOR-ENV-0001 / SOR-EV-0020, pinned Starfield1.16.244.0, preferred base `0x140000000`. [Operand locations, input gaps and export identities](experiments/two-outpost-site-anchors-and-beacon-coordinates.md#coordinate-transformation-investigation). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED; no native invocation, callable ABI, complete branch coverage or safe integration. World creation/registration and terrain queries have effects if executed; only existing analysis state was exported here. In-memory offsets are not wire offsets.
+
+| ID | Original static VA | RVA | Supported observation and limit |
+|---|---|---|---|
+| SOR-FN-0029 | FUN_140ad31a0 / FUN_140ad30a0 | 00ad31a0 / 00ad30a0 | Exterior cell/world selection with inclusive integer XY bounds. Does not prove saved parent is a loaded cell or identify one universal overlay. |
+| SOR-FN-0030 | FUN_140ad3b20 / FUN_140ad3c30 | 00ad3b20 / 00ad3c30 | Eligible world/component path resolves body and searches overlay by world ID, copying two doubles. Retrieves an anchor without adding reference XYZ. |
+| SOR-FN-0031 | FUN_14077fc20 / FUN_14078d370 | 0077fc20 / 0078d370 | Branch combines terrain-index displacement and reference position, splits XY into grid offsets and residual with factor100, and projects indexed point to angles. Manager origin/resolution and precise residual projection remain unresolved. |
+| SOR-FN-0032 | FUN_1418ab8d0 / FUN_140ad0400 | 018ab8d0 / 00ad0400 | Conditional pair registration with existing world or generated-world construction. No proof of the branch actually used by Save25 or a universal one-overlay-per-outpost rule. |
+
 ## SOR-EXP-0013 surface-anchor chain
 
 SOR-ENV-0001 / SOR-EV-0019, Starfield1.16.244.0, preferred base `0x140000000`; executable hash and [exact data flow/limits](experiments/planetary-surface-anchor-semantics.md#decisive-native-and-definition-chain). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED. No callable ABI, safe integration, live invocation or project renaming. Full exports remain LOCAL-ONLY; important instruction/decompiler limits are indexed.

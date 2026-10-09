@@ -1,0 +1,44 @@
+{
+  "within_save25": {
+    "parent_tokens_equal": false,
+    "pair_bits_equal": false,
+    "body_equal": true,
+    "delta_xyz": [
+      234.1199493408203,
+      2186.0123596191406,
+      -50.24334907531738
+    ],
+    "local_distance_unassigned_units": 2199.087670197188,
+    "angular_separation_rad": 0.0012150281390800263,
+    "longitude_delta_rad": 0.0013408427594046868,
+    "latitude_delta_rad": -0.00033038985726019376
+  },
+  "s1_to_sor002": {
+    "parent_tokens_equal": false,
+    "pair_bits_equal": true,
+    "body_equal": true,
+    "delta_xyz": [
+      0.00833892822265625,
+      -4.208160400390625,
+      0.0007343292236328125
+    ],
+    "local_distance_unassigned_units": 4.20816872670038,
+    "angular_separation_rad": 0.0,
+    "longitude_delta_rad": 0.0,
+    "latitude_delta_rad": 0.0
+  },
+  "s1_to_sor003": {
+    "parent_tokens_equal": false,
+    "pair_bits_equal": false,
+    "body_equal": true,
+    "delta_xyz": [
+      234.12828826904297,
+      2181.80419921875,
+      -50.24261474609375
+    ],
+    "local_distance_unassigned_units": 2194.905451137449,
+    "angular_separation_rad": 0.0012150281390800263,
+    "longitude_delta_rad": 0.0013408427594046868,
+    "latitude_delta_rad": -0.00033038985726019376
+  }
+}

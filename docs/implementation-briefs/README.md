@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Two-outpost site anchors and beacon coordinates](CODEX_BRIEF_SOR_two_outpost_site_anchor_and_beacon_coordinates.md) — invoked 2026-10-09, SOR-D-0031; bounded offline Save25/native investigation. [Report](../experiments/two-outpost-site-anchors-and-beacon-coordinates.md) and [review package](../experiments/two-outpost-anchor/README.md); no live work, staging, commit or push.
+
 - [Research methodology and evidence standards refinement](CODEX_BRIEF_SOR_research_methodology_evidence_standards.md) — invoked 2026-10-09, SOR-D-0027; documentation only, prospective scoped-conclusion rules. [Review package](../audits/research-methodology-evidence-standards.md); no research execution or staging/commit/push.
 
 Current override: [EXP0002A debugger correction](EXP0002A-debugger-correction.md), SOR-D-0015, 2026-10-07. Offline policy/backend/one-site/timing preparation; return for review before any deployment, launch or trace. [Audit](../audits/exp0002a-debugger-correction.md).

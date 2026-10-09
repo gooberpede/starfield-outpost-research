@@ -1,0 +1,4 @@
+sample,role,bytes,sha256,classification
+SOR-SAMPLE-0030 / Save25,source,2403744,d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f5,LOCAL-ONLY; identity receipt REVIEW-REQUIRED
+SOR-SAMPLE-0030 / Save25,copy,2403744,d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f5,LOCAL-ONLY; identity receipt REVIEW-REQUIRED
+Save25,decoded,6553789,0c27c10c1f07d5a480da4f857072cafc17e198b981350e01de2fa6b09f972cfd,LOCAL-ONLY; identity receipt REVIEW-REQUIRED
