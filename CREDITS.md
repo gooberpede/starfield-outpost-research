@@ -62,3 +62,8 @@ SOR-EXP-0006 credits preserved project/maintainer-directed exploratory discovery
 ## Active outpost identification research — 2026-10-09
 
 [SOR-EXP-0009](docs/experiments/active-outpost-identification.md) credits **Bethesda Game Studios** for the locally installed engine/content/script research inputs (SOR-S-0127 / SOR-S-0103/0104), **Ghidra contributors** and the existing installed **Eclipse Adoptium/OpenJDK** runtime for separate read-only analysis tooling, and **Python Software Foundation/CPython and zlib/zlib-ng contributors** for installed offline tooling (SOR-S-0113). Existing project/maintainer-directed methods retain SOR-S-0124 provenance. **TheDailyXPerience** retains SOR-S-0125 credit for the launch-era observational corpus and unchanged raw redistribution restrictions. No outside parser implementation or new dependency was incorporated; proprietary exports remain local.
+
+
+## Alternate beacon identity and membership follow-up — 2026-10-09
+
+[SOR-EXP-0010](docs/experiments/active-outpost-membership-completion.md) credits **Bethesda Game Studios** for installed native/content/quest/script research inputs (SOR-S-0127/0128), **Ghidra contributors** and **Eclipse Adoptium/OpenJDK** for separate read-only analysis tools, and **Python Software Foundation/CPython and zlib/zlib-ng contributors** for installed runtime/compression facilities. Existing project/maintainer methods retain SOR-S-0124 provenance; **TheDailyXPerience** retains SOR-S-0125 credit and raw redistribution restrictions. The maintainer supplied the quest hand-in/control-loss explanation; this remains source-reported. No third-party parser implementation or dependency is incorporated; proprietary exports stay local, authored results await review.

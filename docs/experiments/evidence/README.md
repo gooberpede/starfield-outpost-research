@@ -28,3 +28,8 @@ Avoid OS usernames, personal save names, absolute local paths, or permission cor
 ## SOR-EV-0015 — Active identification record/native evidence
 
 [SOR-EXP-0009](../active-outpost-identification.md), [validation/inventory](../active-outpost-identification/validation.md). SOR-F-0014 / SOR-ST-0017 / SOR-H-0006. Selected source-hash/count/flag ledgers are authored REVIEW-REQUIRED material. Full fingerprints, executable text, Ghidra TSVs, raw source locators and failed probes stay LOCAL-ONLY under `.local-work/active-outpost/` and `.local-work/recon/active-outpost-*`. Frozen flags-03 digest and independent 11-save/874,242-record audit are in the report. Exact mechanical framing and conditional flag mappings do not establish active ownership or conclusive zero. No raw evidence is newly added under this directory.
+
+
+## SOR-EV-0016 — Alternate beacon identity and membership follow-up
+
+[SOR-EXP-0010](../active-outpost-membership-completion.md), SOR-F-0015 / SOR-ST-0018 / SOR-H-0007; [validation and local evidence identities](../active-outpost-membership-completion/validation.md). Selected numeric/hash/offset ledgers are authored REVIEW-REQUIRED. Raw saves, decoded payloads, private locators, BA2/PEX probes and Ghidra native exports remain ignored LOCAL-ONLY. Conditional R1 association, inherited flags and quest-control uncertainty remain visible; no complete membership/absence or publication claim.

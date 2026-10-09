@@ -1,5 +1,9 @@
 # Hypotheses and Open Questions
 
+## SOR-H-0007 — Faction quest hand-in separates beacon identity from player control
+
+PROVISIONAL / SOURCE-REPORTED + SAVE/STATIC leads, [SOR-EXP-0010 / SOR-EV-0016](experiments/active-outpost-membership-completion.md). Maintainer reports each Terran Armada faction outpost loses player control on quest hand-in, but does not know HIST-0016's quest state. Installed UC/FC/RI QUST and matching PEX identifiers point to a beacon alias and BlockPlayerActivation/AddKeyword mechanism; full stage/control-flow and save restoration are not validated. Prediction: a labelled hand-in pair may retain beacon identity while a quest/property/registration input changes. Counterexample to assuming presence alone implies player control; no actual same-save post-hand-in false positive has yet been independently labelled. Alternative: activation blocking and Almanac exclusion have different authority or persistence. The maintainer has deferred quest-status decoding; no deletion experiment or live action follows. IsDeleted is shelved absent an outpost-specific set-bit observation/path. Keep SOR-H-0006's earlier hypotheses and proposed removal test as historical; current decision SOR-D-0026 governs priority.
+
 ## SOR-H-0006 — Disabled state, promotion and reconstructed workshop membership
 
 PROVISIONAL / SAVE + STATIC, SOR-EXP-0009 / SOR-EV-0015. [Mechanisms, predictions, failures and obstruction](experiments/active-outpost-identification.md). The preregistered exploratory promotion feature predicts zero inline beacons in Save3/S0/S0C, one in S1 onward/L controls and 17 promoted among 19 mature candidates. Those predictions agree. Native names reject the claim that promotion is literally an active bit. Later saved-flag decoding finds exactly correlated disabled-clear/promoted/auxiliary 0x40 versus disabled-set/unpromoted/auxiliary 0x41 states (1,804 occurrences); this is not an independently preregistered causal test.

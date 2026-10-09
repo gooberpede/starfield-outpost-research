@@ -27,3 +27,6 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [Historical save inventory and triage](CODEX_RESEARCH_BRIEF_historical_save_inventory_triage.md) — invoked with additional outpost planet/coordinate-lead request under SOR-D-0023; [result and review](../experiments/historical-save-inventory-triage.md). Offline original reads and bounded copies only; no live migration or staging/commit/push.
 
 - [Launch-era third-party save corpus](CODEX_RESEARCH_BRIEF_launch_era_third_party_save_corpus.md) — invoked 2026-10-09, SOR-D-0024; offline intake/compatibility only. [Report](../experiments/launch-era-third-party-save-corpus.md). Supplied brief preserved unchanged; no live/Git/publication authority.
+
+
+- [Active outpost membership completion](CODEX_RESEARCH_BRIEF_active_outpost_membership_completion.md) — invoked 2026-10-09, SOR-D-0026; [partial result and review](../experiments/active-outpost-membership-completion.md). Subsequent quest-control correction/edge-case deferral durably retained; no live or commit authority.

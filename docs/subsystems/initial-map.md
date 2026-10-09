@@ -39,3 +39,8 @@ Identity/membership and local distribution share [SOR-EXP-0005](../experiments/o
 ## Active identification follow-up — 2026-10-09
 
 [SOR-EXP-0009](../experiments/active-outpost-identification.md), SOR-F-0014 / SOR-ST-0017, replaces sampled object windows with exact R3 record/table/body framing and conditionally maps saved disabled/deleted flags through native named callbacks. Mature 19 inline beacons split 17 disabled-clear/two disabled-set, all deleted-clear. Alternate initial-data paths and Almanac's reconstructed keyword/ExtraWorkshop registry remain separate completeness/ownership obligations. No active-player classifier, universal absence result or safe integration point is established. SOR-H-0006 records competing rules and the proposed removal/reload discriminator; no new live authority.
+
+
+## Alternate beacon identity and ownership follow-up — 2026-10-09
+
+[SOR-EXP-0010 / SOR-EV-0016](../experiments/active-outpost-membership-completion.md) adds case-6 placement prefixes, three installed faction beacon templates and a quest hand-in/control-loss discriminator. Omitted flags remain unknown; ExtraPromotedRef is not ExtraOwnership; current definitions/R1 adjacency do not complete load identity. Quest save-state work is deferred by maintainer; all prototype membership results remain indeterminate. Saved disabled-state observations survive; IsDeleted is shelved. No live/mod integration or universal negative proof.

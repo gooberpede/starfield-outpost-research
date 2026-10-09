@@ -1,5 +1,16 @@
 # Function and Operation Register
 
+## SOR-EXP-0010 conditional restoration and ownership readers
+
+SOR-ENV-0001 pinned Starfield1.16.244.0, preferred image base0x140000000, SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`; SOR-S-0127 / SOR-EV-0016. [Exact supporting observations and limits](experiments/active-outpost-membership-completion.md). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED. These loader functions mutate reconstructed objects when the game executes them; this task only reads existing instructions and never invokes them. No safe integration point, complete caller set, live ABI or authoritative player-membership predicate is established. Original Ghidra names are preserved.
+
+| ID | Original static VA / name | RVA | Supported observation and limitation |
+|---|---|---|---|
+| SOR-FN-0019 | FUN_141832f00 | 01832f00 | Conditional REFR initial-case selector; flags0x92018200 select6. Does not resolve inherited form type or ownership. |
+| SOR-FN-0020 | FUN_141835610 / FUN_141835c20 / FUN_1405dfa40 | 01835610 / 01835c20 / 005dfa40 | Paired initial readers and general form loader; separate queue/body consumption, self ref and bit0-gated saved flags. Omission preserves an unresolved inherited/default state. |
+| SOR-FN-0021 | FUN_14054c2f0 / FUN_14053a2d0 | 0054c2f0 / 0053a2d0 | ExtraPromotedRef0x84 counted ref/byte pairs versus ExtraOwnership0x1f; player promotion ref is not an owner field. Inherited ownership and actual execution remain unvalidated. |
+| SOR-FN-0022 | FUN_140f3bfc0 | 00f3bfc0 | Exclusion-property query through reference+0x68 with global145f0c6d0. Resolved keyword/FormID and equivalence to BlockPlayerActivation unknown; no complete player-control proof. |
+
 ## SOR-EXP-0002A save-path candidates
 
 SOR-ENV-0003 / SOR-EV-0005, STATIC / OBSERVED-INTERNAL, REVIEW-REQUIRED. All Starfield1.16.244.0 addresses below use preferred base0x140000000 and the pinned hash in [the detailed candidate map](experiments/SOR-EXP-0002A-native-save-thread-mapping.md#current-candidate-map). That map records call sites, provisional argument roles, strings, side effects and limits. No candidate was observed executing in a manual save; debugger setup is not native invocation qualification.

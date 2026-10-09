@@ -23,3 +23,6 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
 - [SOR-EXP-0007: historical inventory and location triage](historical-save-inventory-triage.md) — 278-file catalog, bounded presence/absence matrix, diverse shortlist and provisional name/XYZ leads; offline only, critical review pending.
 
 - [SOR-EXP-0008: supplemental launch-era third-party corpus](launch-era-third-party-save-corpus.md) — 111 saves, launch-version grammar including empty units, detection-only triage and five-case shortlist; source/raw redistribution excluded; critical review pending.
+
+
+- [SOR-EXP-0010: alternate beacon identity and conservative membership prototype](active-outpost-membership-completion.md) — case-6 faction leads, omitted flags and deferred quest control; partial offline handoff, critical review pending.
