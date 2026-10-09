@@ -3,7 +3,7 @@ Offline detector CLI. Reads frozen identity manifests, prior archive locators,
 verified archived saves and existing ESM definition summary. Hashes originals
 for preservation only; never analyzes live originals or creates save copies.
 Writes fresh ignored JSON results/provenance under .local-work/ordinary-beacons.
-Stdlib/project readers only; <=128MiB physical, <=64MiB decoded, >=40GB C/D,
+Stdlib/project readers only; mapped chunk decoding, >=40GB C/D,
 128MiB output and cooperative 1800s run bound. No live/database/network effects.
 Labels select inputs only; no expected gameplay labels/counts enter detection.
 """
@@ -16,7 +16,8 @@ import struct
 import sys
 import time
 from investigate_active_outposts import specs
-from inventory_historical_saves import identity, guard, framing, transform, metadata, sha, MAX_PHYSICAL, MAX_DECODED
+from inventory_historical_saves import identity, guard, metadata
+from stream_save import decoded_save, physical_streams, ResourceLimit
 from ordinary_outpost_beacons import catalog_for, summarize, compact, SCHEMA
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -25,6 +26,8 @@ ROOT = Path(__file__).resolve().parents[2]
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--run', required=True)
+    ap.add_argument('--scratch-budget', type=int, help='optional decoded scratch operational budget in bytes')
+    ap.add_argument('--decode-seconds', type=float, default=1800)
     ap.add_argument('--labels', help='comma-separated existing manifest IDs; omit for full bounded corpus')
     ap.add_argument('--definitions', type=Path,
                     default=ROOT / '.local-work/membership-completion/definitions-01/definitions.json')
@@ -76,30 +79,24 @@ def main():
                 authoritative_player_membership='INDETERMINATE', candidates=[],
                 coverage=dict(exact_r3_closure=False, complete_ordinary_enumeration=False))
             try:
-                if archive.stat().st_size > MAX_PHYSICAL:
-                    raise ValueError('PHYSICAL_SIZE_LIMIT')
-                physical = archive.read_bytes()
-                if sha(physical) != h:
-                    raise RuntimeError('read identity mismatch')
-                f, spans = framing(physical)
-                if f['declared_decoded_size'] > MAX_DECODED:
-                    raise ValueError('DECODED_SIZE_LIMIT')
-                decoded = transform(physical, spans, True)
-                catalog, plugins = catalog_for(decoded, definitions)
-                result = summarize(decoded, catalog)
-                result.update(decoded_sha256=sha(decoded), container=f,
-                    header_versions=metadata(decoded)['build_strings'],
-                    conditional_plugin_sequence=plugins)
+                with decoded_save(archive, out / 'scratch', scratch_budget=args.scratch_budget,
+                                  seconds=args.decode_seconds) as (decoded, f):
+                    catalog, plugins = catalog_for(decoded, definitions)
+                    result = summarize(decoded, catalog)
+                    result.update(decoded_sha256=f['decoded_sha256'], container=f,
+                        header_versions=metadata(decoded)['build_strings'],
+                        conditional_plugin_sequence=plugins)
                 for r in result['candidates']:
                     loc = r['location']
                     first = loc['record_start'] // f['block_size']
                     last = (loc['record_end'] - 1) // f['block_size']
-                    loc['compressed_streams'] = [dict(index=i, physical_start=spans[i][0],
-                        compressed_bytes=spans[i][1], logical_start=i*f['block_size'])
-                        for i in range(first, last+1)]
+                    loc['compressed_streams'] = list(physical_streams(archive, first, last))
                     loc['record_start_in_first_decoded_stream'] = loc['record_start'] % f['block_size']
                     loc['physical_domain'] = 'COMPRESSED_STREAM_SPAN; NO_LINEAR_RECORD_FILE_OFFSET'
-                del decoded, physical
+            except (ResourceLimit, MemoryError, OSError) as e:
+                result['headline'] = 'SCAN_RESOURCE_FAILURE'
+                result['ordinary_count'] = None
+                result['reason_codes'] = [type(e).__name__ + ': ' + str(e)]
             except (ValueError, struct.error) as e:
                 result['headline'] = 'SCAN_UNSUPPORTED'
                 result['ordinary_count'] = None

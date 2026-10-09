@@ -7,7 +7,7 @@ yield INDETERMINATE. Known gameplay labels are never inputs.
 """
 import collections
 import struct
-from outpost_record_framing import Reader, records
+from outpost_record_framing import Reader, iter_records
 from validate_mature_outposts import directory
 
 RESULTS = ('OUTPOSTS_PRESENT', 'NO_ACTIVE_OUTPOSTS', 'INDETERMINATE')
@@ -142,9 +142,15 @@ def classify(b, catalog, diagnostics=False):
     """
     d = directory(b)
     a, z = d['regions']['reference_u32']
-    table = struct.unpack_from(f'<{d["reference_count"]}I', b, a + 4)
+    table_start = a
+    class FormArray:
+        def __len__(self): return d['reference_count']
+        def __getitem__(self, i):
+            if not 0 <= i < len(self): raise IndexError(i)
+            return struct.unpack_from('<I', b, table_start + 4 + 4*i)[0]
+    table = FormArray()
     a, z = d['regions']['region_R3']
-    rs = records(b, a, z, d['words'][9])
+    rs = iter_records(b, a, z, d['words'][9])
     bases = catalog['direct_bases']
     templates = catalog.get('templates', {})
     candidates, errors, reference_leads = [], [], []
@@ -164,7 +170,9 @@ def classify(b, catalog, diagnostics=False):
                         template_formid=fid, base_formid=templates[fid]))
             p += 1
     unresolved_paths = collections.Counter()
+    framed_count = 0
     for r in rs:
+        framed_count += 1
         if diagnostics:
             occurrences = []
             for i, token in enumerate(r['refs']):
@@ -221,7 +229,7 @@ def classify(b, catalog, diagnostics=False):
         'R1_TEMPLATE_MAP_NOT_FULLY_DECODED',
         'WORKSHOP_REGISTRATION_AND_PLAYER_OWNERSHIP_UNVALIDATED',
         'SAVE_ERA_CONTENT_MAPPING_UNVERIFIED'],
-        coverage=dict(framed_records=len(rs), exact_r3_closure=True,
+        coverage=dict(framed_records=framed_count, exact_r3_closure=True,
             unresolved_dynamic_records=dict(unresolved_paths),
             supported_conditional_prefix_cases=[4, 5, 6, 7],
             extra_prefix_types=[0x84, 0x9c, 0xbc, 0x4c, 0x80],

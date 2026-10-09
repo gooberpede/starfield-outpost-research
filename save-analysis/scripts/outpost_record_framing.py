@@ -6,6 +6,7 @@ directory-declared count. Reference/string tables are relocations, not proof
 that a referenced base belongs to this record. Body semantics remain separate.
 """
 import struct
+from stream_save import ResourceLimit
 
 
 def beacon_prefix(b,r):
@@ -45,8 +46,11 @@ class Reader:
         return int.from_bytes(bytes([first])+self.take(width-1),'little')>>2
 
 
-def records(b,start,end,expected):
-    c=Reader(b,start,end);rows=[]
+def iter_records(b,start,end,expected,queue_budget=16*1024*1024):
+    """Iterate records without retaining the region or copying body payloads.
+    Full closure is checked only when the iterator is exhausted.
+    """
+    c=Reader(b,start,end)
     if not 0<=expected<=(end-start)//4:raise ValueError('record count bounds')
     for ordinal in range(expected):
         p=c.p;tag=c.take(1)[0]
@@ -57,12 +61,20 @@ def records(b,start,end,expected):
         nr=c.count() if tag&8 else 0;ns=c.count() if tag&16 else 0;size=c.count() if tag&32 else 0
         header_end=c.p
         if nr>(end-c.p)//3:raise ValueError('reference table bounds')
+        if nr*3+ns*2+size>end-c.p:raise ValueError('combined record bounds')
+        if nr*64+ns*36>queue_budget:raise ResourceLimit('RECORD_QUEUE_WORKING_MEMORY_BUDGET')
         refs=[c.take(3).hex() for _ in range(nr)]
         if ns>(end-c.p)//2:raise ValueError('string table bounds')
         strings=[int.from_bytes(c.take(2),'little') for _ in range(ns)]
-        body=c.p;c.take(size)
-        rows.append(dict(ordinal=ordinal,offset=p,end=c.p,tag=tag,explicit_type=explicit_type,
+        body=c.p
+        if size>c.end-c.p:raise ValueError('record boundary crossing')
+        c.p+=size
+        yield dict(ordinal=ordinal,offset=p,end=c.p,tag=tag,explicit_type=explicit_type,
             token=token,flags=flags,reference_start=header_end,refs=refs,
-            string_start=header_end+nr*3,strings=strings,body=body,size=size))
+            string_start=header_end+nr*3,strings=strings,body=body,size=size)
     if c.p!=end:raise ValueError('record count/region closure mismatch')
-    return rows
+
+
+def records(b,start,end,expected):
+    """Compatibility list API; capacity consumers should use iter_records."""
+    return list(iter_records(b,start,end,expected))

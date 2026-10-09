@@ -34,3 +34,5 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [Active outpost membership completion](CODEX_RESEARCH_BRIEF_active_outpost_membership_completion.md) — invoked 2026-10-09, SOR-D-0026; [partial result and review](../experiments/active-outpost-membership-completion.md). Subsequent quest-control correction/edge-case deferral durably retained; no live or commit authority.
 
 - [Scoped ordinary beacon detection](CODEX_BRIEF_SOR_scoped_ordinary_outpost_beacon_detection.md) — invoked 2026-10-09, SOR-D-0028; [result/review](../experiments/ordinary-outpost-beacon-detection.md). Supplied brief preserved unchanged; no staging/commit/push.
+
+- [Save capacity and outpost planetary location](CODEX_BRIEF_SOR_save_capacity_and_outpost_planetary_location.md) — invoked 2026-10-09, SOR-D-0029; [result/review](../experiments/save-capacity-and-planetary-location.md). Supplied brief retained unchanged; no staging/commit/push.
