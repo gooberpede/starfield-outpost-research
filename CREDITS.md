@@ -49,3 +49,7 @@ SOR-EXP-0005 reuses the project's original SOR-EXP-0003/0004 decoder and candida
 ## Mature-save validation — 2026-10-08
 
 SOR-EXP-0006 credits preserved project/maintainer-directed exploratory discovery and methods as prior unreviewed research (SOR-S-0124), rather than presenting replication as new discovery. Python Software Foundation/CPython contributors provide the installed separate runtime and standard-library zlib facilities (SOR-S-0113). Earlier Bethesda inputs and xEdit interpretation supply independently inventoried marker/keyword definition comparisons (SOR-S-0103/0104). No external save parser or new third-party implementation was incorporated. [Results, contradictions and provenance](docs/experiments/mature-save-outpost-validation.md).
+
+## Historical save inventory — 2026-10-09
+
+[Historical inventory and location triage](docs/experiments/historical-save-inventory-triage.md) builds on the project/maintainer-directed exploratory and validated save methods credited in SOR-S-0124 and SOR-EXP-0003/0005/0006. Python Software Foundation/CPython and zlib/zlib-ng contributors supply separately installed runtime/compression facilities (SOR-S-0113). Bethesda supplies the locally owned save inputs; prior xEdit interpretation and installed definition research retain SOR-S-0103/0104 attribution. No third-party parser implementation or new dependency is incorporated, and no publication permission is implied.

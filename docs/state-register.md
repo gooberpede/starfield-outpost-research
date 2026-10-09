@@ -55,3 +55,7 @@ Persistence classes and integration statuses are defined in [EVIDENCE_STANDARD.m
 ## SOR-ST-0008 — Candidate native checkpoint byte views
 
 SOR-ENV-0002 / SOR-F-0006 / SOR-EV-0002. Fresh runtime reference FormID/pointer, stored base/parent, raw transform and candidate identifier are separate output fields. Native operand table and consulted type leads in STATIC-CONTRACT.md. Owning engine lifetime, resolved handles, loaded-3D, coordinate units/frame and saved authority UNKNOWN. Repeated reads do not provide atomicity or ownership. No live value acquired; persistence UNCLASSIFIED, not PERSISTED. Selection is limited to two candidate cell views and exact beacon/storage roles, not exhaustive outpost membership. REVIEW-REQUIRED.
+
+## Historical triage follow-up — SOR-ST-0013 / SOR-ST-0015–0016
+
+[SOR-EXP-0007 / SOR-EV-0013](experiments/historical-save-inventory-triage.md) extends observational coverage to 275 fully inspected historical saves, with three resource-limited metadata-only inputs. Selected counts and provisional absence candidates do not establish a universal active index or residual-state exclusion. Name-associated float tuples extend SOR-ST-0013 as PROVISIONAL local-coordinate candidates; no engine body ID, planetary frame, complete record bounds or load authority is recovered. SOR-ST-0015–0016 ownership, inclusion and runtime cargo semantics remain unresolved; no semantic promotion or new safe integration point.

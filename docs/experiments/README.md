@@ -19,3 +19,5 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
 - [EXP0002A S0 no-debugger control](EXP0002A-S0-control.md) — PROJECT-VERIFIED RUNTIME pass; S1/S2 gates in [0.1.3 audit](../audits/exp0002a-adapter-0.1.3.md).
 
 - [SOR-EXP-0006: mature-save outpost and cargo validation](mature-save-outpost-validation.md) — bounded grammar, member/name and save-only reciprocal graph checks; all-active-index interpretation contradicted by small samples; critical review pending.
+
+- [SOR-EXP-0007: historical inventory and location triage](historical-save-inventory-triage.md) — 278-file catalog, bounded presence/absence matrix, diverse shortlist and provisional name/XYZ leads; offline only, critical review pending.

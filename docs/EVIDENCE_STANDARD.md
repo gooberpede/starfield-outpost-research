@@ -54,3 +54,7 @@ For future mod use distinguish `OBSERVED-INTERNAL`, `EXPOSED-INTERFACE`, `PROPOS
 Keep raw captures local. Promote only specifically reviewed evidence into Git with provenance and permissions. Hash original bytes before transformation. Record a separate derivative, its input/output hashes, purpose, tool version, and exact transformation. Never alter the original to make a test pass.
 
 Evidence byte files under `docs/experiments/evidence/` have Git text conversion disabled. Authored `README.md` files are the exception and are normalized. Verify the staged blob when exact byte identity matters. Document normalization, privacy redaction, and any resulting reproducibility limitation.
+
+## Historical-save methodology — SOR-EXP-0007
+
+[Inventory and triage](experiments/historical-save-inventory-triage.md): pristine Save3 and controlled action/no-action successors test causality and semantics. Mature/historical saves are observational structural/topology evidence, potentially anomalous or bug-affected; filenames, levels and timestamps do not establish a shared universe or linear history. Old-version load/current-version resave is a separate future experimental category requiring explicit authorization and immutable originals. Absence requires stronger coverage and independent negative indicators than presence: empty reference collections, parser failures or zero window counts alone never establish no outposts; distinguish provisional active-state absence from exclusion of all residual state.
