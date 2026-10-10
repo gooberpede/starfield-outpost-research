@@ -1,5 +1,9 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0023 — Parent reference transforms, overlay translation and compensated center
+
+2026-10-10, [SOR-EXP-0018 / SOR-EV-0026](experiments/durable-outpost-center-and-object-transforms.md). Persisted case5 XYZ/conditional rotations and Workshop compensation are separate from reconstructed ActivatedOverlayProperty selection. Typed payload+8/+0xc int32 shifts times100 and+0x30 floatZ are valid only with+0x35 clear; edge+0x20 is payload origin. Parent/world keys and inclusive cell bounds select the map. Captured terrain mode2 origin+c8 is10464,21120 in nine checkpoints. Stored center and general loaded center cannot universally be equated without that selection. Scoped STRONG interpretation proposed for tested transforms; continuous embedding OPEN; OBSERVED-INTERNAL only, REVIEW-REQUIRED. No old state reclassification.
+
 ## SOR-EXP-0017 supplement to SOR-ST-0021 — Proposed scoped persistence/semantics update
 
 [SOR-F-0021 / SOR-EV-0025](experiments/workshop-origin-beacon-relocation-persistence.md) supersedes the earlier unresolved interpretation **for this sampled modern branch**, preserving the original entry below. Concrete Workshop::ExtraData type 0xbc, allocated 0xa0, vtable RVA 0x4c24e60; +0x60 is three float32 values, typed relocation accumulation/current-XYZ compensation with reset paths. **PERSISTED** directly in four framed Save25/26 Workshop prefixes (12 bytes; see decoded offsets), confirmed by native saver/loader and matched captured fields across pointer reacquisition. Scoped STRONG original-center/persistence semantics proposed pending critical review. Does not establish universal load authority, immutable birth origin, historical grammar, exhaustive writes or safe integration. Raw evidence LOCAL-ONLY; authored REVIEW-REQUIRED.

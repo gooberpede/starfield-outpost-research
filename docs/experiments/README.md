@@ -1,5 +1,7 @@
 # Experiments
 
+- [SOR-EXP-0018: durable center and object transforms](durable-outpost-center-and-object-transforms.md) — exact local invariance, captured origin, nonempty Workshop prefix and conditional reference frames; [SOR-EV-0026 review](durable-center/README.md). Continuous geographic embedding remains OPEN.
+
 - SOR-EXP-0016 completed initial live run: [SOR-EV-0024 results](../audits/beacon-observer-initial-live-results.md) / [chronology](beacon-observer/initial-live-session.md). Move/save/reload/SOR-002 comparison,9 verified captures and original-location-offset lead; exact planetary conversion unresolved, interpretation awaiting critical review.
 
 - SOR-EXP-0016 deployment supplement: [actual-installation preflight](../audits/beacon-observer-post-deployment-preflight.md), SOR-EV-0023, and [Save25 operator card](beacon-observer/Save25-operator-run-card.md). Observer approved/deployed; run-card review precedes launch. Fresh runtime readiness remains unobserved; earlier offline record below retained.

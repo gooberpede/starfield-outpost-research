@@ -1,5 +1,7 @@
 # Credits
 
+For [SOR-EXP-0018 durable-center/object-transform research](docs/experiments/durable-outpost-center-and-object-transforms.md), Bethesda Game Studios supplies installed native/content evidence; Ghidra/JDK and CPython/stdlib contributors supply separately executed tools. Prior project framing/coordinate work retains SOR-S-0124 provenance. Tinbite Solomon/omaops and the original Reddit tiling observers supply consultation leads (SOR-S-0130/0131); inaccessible text/authors remain unresolved. No outside code/assets incorporated or endorsement implied.
+
 ## Broad beacon observer — 2026-10-10
 
 [SOR-EXP-0016](docs/audits/live-beacon-observer.md) credits **Ian Patterson / SFSE** for the exact approved MIT public plugin interface (SOR-P-0001), **Bethesda Game Studios** for locally inspected executable/save research inputs and **Ghidra contributors** for the existing static exports. **Microsoft** supplies installed MSVC/Windows SDK and Windows memory/cryptography/system facilities; **Python Software Foundation/CPython contributors** supply installed standard-library build, hashing, packaging and offline validation. No runtime/SDK binaries are redistributed. Maintainer-authored `gooberpede/starfield-reference-handles` finite census/association patterns retain exact commit/path/hash provenance under SOR-S-0132/SOR-P-0002. No sibling embedded third-party code incorporated, endorsement implied or publication clearance granted.

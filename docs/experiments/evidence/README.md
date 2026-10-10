@@ -1,5 +1,7 @@
 # Selected Evidence
 
+- SOR-EV-0026: [durable-center review package](../durable-center/README.md), SOR-EXP-0018. Original authored numeric selections REVIEW-REQUIRED; raw saves/captures/native exports LOCAL-ONLY. No complete continuous geographic solution or publication clearance.
+
 - SOR-EV-0024: [initial observer live results](../../audits/beacon-observer-initial-live-results.md), SOR-EXP-0016. Nine snapshots/5,233 verified raw sections, protected Save25 and archived Save26; scoped workshop offset and post-reload XYZ observations. Raw/session/save/logs LOCAL-ONLY; authored interpretations REVIEW-REQUIRED.
 
 - SOR-EV-0023: [actual observer deployment preflight](../../audits/beacon-observer-post-deployment-preflight.md), SOR-EXP-0016. Installed identity/configuration/output/control/space checks; original receipts LOCAL-ONLY. User-reported smoke test distinguished from unobserved fresh runtime readiness; [operator card](../beacon-observer/Save25-operator-run-card.md) REVIEW-REQUIRED before launch. No new scientific finding.

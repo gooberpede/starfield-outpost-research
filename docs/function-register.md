@@ -1,5 +1,17 @@
 # Function and Operation Register
 
+## SOR-FN-0047 — Save-side reference frame preparation
+
+`141856d10`, callers `14181aa30/14181af40` at `14181ae1b/14181b356`: copies own reference XYZ, selects cell/world context and conditionally subtracts `140ada3a0` translation. Static VA in pinned1.16.244.0/base140000000, RVA01856d10. Predicate and frame limits in [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md#transformation-map). STATIC, OBSERVED-INTERNAL; not a callable integration point or proof of every saved branch.
+
+## SOR-FN-0048 — Activated overlay selection and translation
+
+`140ad30a0` (RVA00ad30a0) selects valid world-keyed inclusive-cell-bounded edges; `140ada3a0` (RVA00ada3a0) reads typed payload+8/+0xc integer shifts and+0x30 floatZ, gated by+0x35. `140ad7b80/140add310/140adcfd0/140adcf50/140add850` establish named ActivatedOverlayProperty registration/copy lineage. [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md#transformation-map), STATIC pinned executable; actual archive-to-selected-map restoration remains OPEN. No Workshop-offset/type conflation or approved live invocation.
+
+## SOR-FN-0049 — Nonempty Workshop resource prefix
+
+`140f50880/140f515a0/1402cef80/1402cedd0`: modern resource groups use separate reference queues and uint32 counts; each row consumes two refs plus17 body bytes. [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md#cross-outpost-challenge-and-nonempty-workshop-resource-tables) extends the bounded prefix to all19 mature Workshop vectors, each zero. STATIC/SAVE, original reader callback; resource value semantics/full following extras/older versions remain unclassified. All addresses static VA, RVA=VA-140000000 in pinned build.
+
 ## SOR-EXP-0017 — Typed workshop, persistence and geometry
 
 SOR-EV-0025, pinned Starfield.exe SHA-256/base in [report](experiments/workshop-origin-beacon-relocation-persistence.md); STATIC/OBSERVED-INTERNAL/REVIEW-REQUIRED. RVA = static VA − 0x140000000; [native map](experiments/workshop-origin/native-map.csv) records decisive sites and limits. No invocation, ABI/safe integration validation or Ghidra renaming.

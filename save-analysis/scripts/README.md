@@ -1,5 +1,9 @@
 # Offline Analysis Scripts
 
+## SOR-EXP-0018 — durable-center probes
+
+`research_durable_center.py` reads frozen archive/catalog/manifests and native-informed conditional prefixes; writes only a fresh ignored run and temporary cleaned decoder scratch. `resource_rows` extends the existing `research_workshop_origin.workshop_prefix` through an explicitly supplied callback; default nonempty rejection remains unchanged. `audit_durable_center.py` reads final receipts/fixed-city CSV and optionally existing raw terrain sections, checks exact controls/invariance and writes new numerical tables. `test_durable_center.py` supplies eight arithmetic/bounds/ambiguity tests. Stdlib/project readers only; no target/database/network/Git writes. Existing C:/D:40GB safeguards apply. [Exact prerequisites, commands, actual checks and limits](../../docs/experiments/durable-center/README.md); not an exact geographic API or a general object parser.
+
 ## Terrain projection audit — SOR-EXP-0015
 
 `beacon_terrain_projection.py`: original source-informed mathematical model of hemisphere projection/grid centres/float local split. Stdlib, no I/O/target effects; **not an exact-beacon API**, no boundary/atan2 bit-equivalence claim. `test_beacon_terrain_projection.py` tests analytical roundtrip, tags, quantization, negative/boundary split, not runtime semantics.

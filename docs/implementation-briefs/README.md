@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Durable outpost center and object transforms](CODEX_BRIEF_SOR_durable_outpost_center_object_transforms.md): executed offline under SOR-D-0037; [SOR-EXP-0018 result](../experiments/durable-outpost-center-and-object-transforms.md), critical review required, no commit/push or live authority.
+
 - [Broad-capture live beacon coordinate observer](CODEX_IMPLEMENTATION_BRIEF_SOR_live_beacon_coordinate_observer.md) — invoked2026-10-10, SOR-D-0033; [offline implementation/qualification review](../audits/live-beacon-observer.md), gate before deployment or any Starfield session. Save25 starts at SOR-003; useful travel to SOR-002 remains in the proposed plan. No commit/push.
 
 - [Exact beacon planetary coordinates](CODEX_BRIEF_SOR_exact_beacon_planetary_coordinates.md) — invoked2026-10-09, SOR-D-0032; offline terrain/frame tracing. [Report](../experiments/exact-beacon-planetary-coordinates.md), [review](../experiments/exact-beacon/README.md); exact continuous coordinates open, no live/staging/commit/push.

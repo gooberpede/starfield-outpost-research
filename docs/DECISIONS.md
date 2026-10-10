@@ -1,5 +1,9 @@
 # Decision Register
 
+## SOR-D-0037 — Execute durable-center and object-transform brief
+
+2026-10-10, Australia/Sydney: user explicitly invokes [the retained brief](implementation-briefs/CODEX_BRIEF_SOR_durable_outpost_center_object_transforms.md), asks to follow it, requests Wayback fallback for inaccessible Reddit threads and a suggested commit without committing/pushing. Authorizes bounded offline existing-save/static/capture/numerical research, original tools and durable review documents. [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md) returns strong partial local/frame/object results; exact continuous geography remains OPEN. No new live launch/load/observer/debugger, save/configuration/database edits, dependencies, third-party incorporation, staging, commit, push, fork/PR, upstream contact or publication. Proposed acquisition requires separate authority; critical review precedes integration/expansion.
+
 ## SOR-D-0036 — Offline workshop origin, persistence and bounds research
 
 2026-10-10. User explicitly invokes [retained brief](implementation-briefs/CODEX_BRIEF_SOR_workshop_origin_beacon_relocation_persistence.md), requests its instructions followed and commit suggestions without committing/pushing. This authorizes relevant offline archive/capture/installed-data/native research, original scripts/tests and durable records. Read-only/no-analysis exports of existing Ghidra state only; no database edits. No launch, deployment, debugger, game/save/config mutation, third-party code reuse, staging, commit, push, PR or external disclosure authority. [SOR-EXP-0017](experiments/workshop-origin-beacon-relocation-persistence.md) returns scoped positive results and a separate proposed live discriminator; critical review and future live authorization remain outstanding.

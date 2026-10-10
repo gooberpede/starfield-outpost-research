@@ -43,12 +43,13 @@ def f32(values):
     return struct.pack('<3f', *values)
 
 
-def workshop_prefix(b, record, prefix):
+def workshop_prefix(b, record, prefix, resource_reader=None):
     """Modern 1.16.244 sample branch only; stop on unsupported leading extra.
 
     Source-informed by 140521620/140a23de0/140562ef0/140f50880. Reads the
     reference and string queues separately from the body. Supports zero resource
-    entries only; no guessing/skipping their variable grammar. Does not decode
+    entries only by default; an explicitly supplied bounded resource_reader may
+    extend that branch for a separate experiment. Does not decode
     extras following Workshop or assert closure of the entire REFR body.
     """
     if record['flags'] & (0x80 | 0x10):
@@ -75,19 +76,24 @@ def workshop_prefix(b, record, prefix):
             for _ in range(n): refs(1); c.take(1)
         elif typ==0xbc:
             resources=int.from_bytes(c.take(4),'little')
-            if resources: raise ValueError('nonempty Workshop resources unsupported')
+            resource_rows = []
+            if resources:
+                if resource_reader is None:
+                    raise ValueError('nonempty Workshop resources unsupported')
+                resource_rows = resource_reader(c, refs, resources)
             handles=refs(c.count())
             flag=c.take(1).hex()
             if not record['strings']: raise ValueError('workshop string queue empty')
             value78=c.take(4).hex()
             offset=c.p; delta=c.take(12).hex(); identifier=c.take(8).hex()
             return dict(extra_start=start,leading_types=leading,declared_extras=count,
-                resource_count=resources,handles=handles,flag94_hex=flag,
+                resource_count=resources,resource_rows=resource_rows,handles=handles,flag94_hex=flag,
                 name_string_index=record['strings'][0],field78_hex=value78,
                 delta_offset=offset,delta_record_offset=offset-record['offset'],
                 delta_body_offset=offset-record['body'],delta_hex=delta,
                 identifier98_hex=identifier,end=c.p,next_reference_index=ri,
-                coverage='modern zero-resource Workshop prefix; following extras not decoded')
+                coverage=('modern Workshop prefix with explicitly supplied resource reader' if resources else
+                          'modern zero-resource Workshop prefix')+'; following extras not decoded')
         else: raise ValueError(f'unsupported leading extra {typ:02x}')
     raise ValueError('no Workshop extra')
 
