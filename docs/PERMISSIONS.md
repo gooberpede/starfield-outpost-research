@@ -1,5 +1,13 @@
 # Permission and Reuse Register
 
+## SOR-EXP-0020 — Sustained offline continuation
+
+The user-invoked [follow-up brief](implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_continuous_coordinate_static_exhaustion.md) authorizes performed existing-state static/save/ESM/capture reads and original bounded tools/research records. Prior project methods and separately installed tools retain provenance. No third-party code/assets incorporated, new licence basis accepted, installation, external contact/disclosure, staging, commit, push, fork/PR or live action. No request for additional permission was needed for this offline work. Raw proprietary/capture evidence remains ignored/local; authored selected data and terminal graph claims require critical/publication review. Existing GPL and permission gates unchanged.
+
+## SOR-EXP-0019 — Offline original research and consultation
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_and_planetary_grid_geometry.md) authorizes the performed offline installed-data/static/capture/numerical work. Existing project readers/math reused; installed tools executed separately; no third-party implementation/assets incorporated, permission basis newly accepted, upstream contact/fork/PR or publication. Both Reddit threads remain access-limited consultation leads. Raw proprietary/capture inputs LOCAL-ONLY; authored research REVIEW-REQUIRED. Existing permissions and GPL text unchanged; proposed live acquisition is not authorized.
+
 ## SOR-EXP-0013 — Public consultation only
 
 The invoked [surface-anchor brief](implementation-briefs/CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md) authorizes public-source research and original offline probes. [SOR-S-0130 / prior-art register](experiments/planetary-surface-anchor/prior-art-and-leads.md) records actual consultation and restrictions. No new incorporation permission is granted or needed for the performed citation-only research. CPS's restrictive modification/upload panel and biome projects' MIT labels have **not** been accepted by the user as an implementation/asset-reuse basis. Any future reuse/contact/fork/PR needs its relevant prior scoped gate; no contact or permission request occurred. Raw Bethesda payloads and proprietary exports remain LOCAL-ONLY, selected authored evidence REVIEW-REQUIRED. Existing SOR-P-0002/0003 scope and GPL text are unchanged.

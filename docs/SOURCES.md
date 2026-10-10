@@ -1,5 +1,13 @@
 # Source Register
 
+## SOR-EXP-0020 source extensions — accessed2026-10-10
+
+SOR-S-0127/0128 Bethesda pinned native/ESM supplies typed saved-world restoration, frame selection and residual-consumer evidence in [EXP0020](experiments/activated-overlay-static-exhaustion.md). SOR-S-0124 original project streaming/framing/ESM/math readers reused with exact verification hashes; SOR-S-0132/EV0024 existing user observer evidence freshly reverified. Independent manual Save52 network retains its prior authorship/provenance and is a body/system identity check only. SOR-S-0105/0113 installed Ghidra12.1.2/JDK21/CPython stdlib supply separate tools. No additional external-source incorporation/contact/download or permission basis. Countermodels are original mathematics, source-informed rather than claimed clean-room native implementation.
+
+## SOR-EXP-0019 source extensions — accessed2026-10-10
+
+SOR-S-0127/0128 installed Bethesda executable/ESM supply typed overlay activation/rebase, grid hierarchy/seams and SFBK/SFPT footprint evidence in [report/native map](experiments/activated-overlay-and-grid-geometry.md). SOR-S-0124 original project readers/math are reused, exact script hashes retained in local verification. SOR-S-0132/EV0024 supplies freshly reverified archived observer captures, no new acquisition. SOR-S-0105/0113 installed Ghidra12.1.2/JDK21 and CPython/stdlib are separate tools. SOR-S-0131 both required old.reddit URLs retried and unavailable; authors/text remain unrecovered, brief-reported2×2 is a lead only. No outside code/assets incorporated, downloads, contact or new reuse permission; source-informed original numerical tooling, not a clean-room claim.
+
 ## SOR-EXP-0018 source extensions — accessed2026-10-10
 
 SOR-S-0127/0128: [typed native and installed-definition evidence](experiments/durable-outpost-center-and-object-transforms.md#transformation-map); SOR-S-0132/EV0024: existing user captures freshly rechecked, no new acquisition. SOR-S-0105/0113: installed Ghidra/JDK and CPython/stdlib separate-tool use. SOR-S-0124: prior project framing/math reused with exact local script hashes. SOR-S-0130/0131: [CPS metadata/permissions recheck and failed Reddit/Wayback retrieval](experiments/durable-outpost-center-and-object-transforms.md#prior-art-and-access-outcome). Consultation only; no third-party code/assets reused, permission basis accepted, installation or contact.

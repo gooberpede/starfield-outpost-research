@@ -1,5 +1,13 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0025 — Persisted world descriptor, component link and selected saved frame
+
+[EXP0020](experiments/activated-overlay-static-exhaustion.md): unit3 generated-world descriptors persist body/key/legacy ID, distinct from the leading active-context key/checksum reuse discriminator. Packed key encodes X16/Y16/tag3/index6/system18; reserved bits retained, tags2/3 reversed before native hierarchical lookup. Unit6 world component persists linked/system/index/secondary/flags/signed bounds, distinct from galaxy site30-byte entries and reconstructed activated edge. Unique selected parent→secondary descriptor joins supply saved origins. Frame20 distinguishes studied source-origin-relative/site-relative XYZ; native ref+d3 mask02 and future runtime validity/height remain distinct domains. STRONG scoped interpretation proposed, REVIEW-REQUIRED, raw LOCAL-ONLY. Arbitrary future manager aliases/epoch are not persisted origins.
+
+## SOR-ST-0024 — Active pair, reconstructed overlay payload and frame epoch
+
+[SOR-EXP-0019](experiments/activated-overlay-and-grid-geometry.md#activated-overlay-reconstruction-map),2026-10-10. Terrain+b0 (mode3:+1a8) supplies active angle pair; all9 mode2 captures project10464,21120, agreeing with separate+c8 origin. ActivatedOverlayProperty shifts+8/+c, bounds+10..1c, pair+20/+28, height+30, flags+34/+35 are typed constructed runtime state; BGSWorldSpaceOverlay_Component BNAM/body identifiers are DEFINITION-DERIVED. Rebase uses terrain+1ec/+1f0 and changes shifts/bounds together. Payload save persistence UNCLASSIFIED; selected saved-frame join/epoch OPEN. Scoped STRONG semantics proposed, REVIEW-REQUIRED. Persisted reference XYZ/Workshop compensation/site associations retain separate evidence; no automatic old-state promotion.
+
 ## SOR-ST-0023 — Parent reference transforms, overlay translation and compensated center
 
 2026-10-10, [SOR-EXP-0018 / SOR-EV-0026](experiments/durable-outpost-center-and-object-transforms.md). Persisted case5 XYZ/conditional rotations and Workshop compensation are separate from reconstructed ActivatedOverlayProperty selection. Typed payload+8/+0xc int32 shifts times100 and+0x30 floatZ are valid only with+0x35 clear; edge+0x20 is payload origin. Parent/world keys and inclusive cell bounds select the map. Captured terrain mode2 origin+c8 is10464,21120 in nine checkpoints. Stored center and general loaded center cannot universally be equated without that selection. Scoped STRONG interpretation proposed for tested transforms; continuous embedding OPEN; OBSERVED-INTERNAL only, REVIEW-REQUIRED. No old state reclassification.

@@ -1,0 +1,15 @@
+x,y,records,example,span_x,span_y,status
+0,0,23,00003B16,357913941,357913941,unsigned arithmetic only; zero/undersized not footprint proof
+3,3,374,00002FA1,0,0,unsigned arithmetic only; zero/undersized not footprint proof
+4,4,268,00046055,0,0,unsigned arithmetic only; zero/undersized not footprint proof
+5,5,224,00050F4A,0,0,unsigned arithmetic only; zero/undersized not footprint proof
+6,6,4,001D0DA7,0,0,unsigned arithmetic only; zero/undersized not footprint proof
+7,7,3,00203E39,0,0,unsigned arithmetic only; zero/undersized not footprint proof
+8,8,10,0005388C,0,0,unsigned arithmetic only; zero/undersized not footprint proof
+9,9,1,0027CFA7,0,0,unsigned arithmetic only; zero/undersized not footprint proof
+10,10,6,00141270,0,0,unsigned arithmetic only; zero/undersized not footprint proof
+11,11,3,0008DA68,0,0,unsigned arithmetic only; zero/undersized not footprint proof
+12,12,1,0029CFD5,0,0,unsigned arithmetic only; zero/undersized not footprint proof
+14,14,618,00034740,1,1,positive span under pinned B=12 merge=2
+26,26,217,0006CA3F,2,2,positive span under pinned B=12 merge=2
+100,100,1,0029A50B,8,8,positive span under pinned B=12 merge=2

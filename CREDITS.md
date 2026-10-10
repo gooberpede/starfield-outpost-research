@@ -1,5 +1,9 @@
 # Credits
 
+For [SOR-EXP-0020 static-exhaustion continuation](docs/experiments/activated-overlay-static-exhaustion.md), Bethesda Game Studios supplies installed native/content evidence; Ghidra/JDK and CPython/stdlib contributors supply separately executed tools. Original project streaming/framing/coordinate methods and archived user captures retain SOR-S-0124/0132 credit. The maintainer's separate manually authored Save52 network supplies independent body/system comparisons. No outside implementation/assets incorporated or endorsement implied.
+
+For [SOR-EXP-0019 activated overlays/grid geometry](docs/experiments/activated-overlay-and-grid-geometry.md), Bethesda Game Studios supplies installed native/content evidence; Ghidra/JDK and CPython/stdlib contributors supply separately executed tools. Earlier original project reader/math/capture work retains SOR-S-0124/0132 provenance. Original Reddit tiling observers are credited as leads (SOR-S-0131); inaccessible authors/text remain unresolved, and the brief's2×2 description is not an authenticated quotation. No outside code/assets incorporated or endorsement implied.
+
 For [SOR-EXP-0018 durable-center/object-transform research](docs/experiments/durable-outpost-center-and-object-transforms.md), Bethesda Game Studios supplies installed native/content evidence; Ghidra/JDK and CPython/stdlib contributors supply separately executed tools. Prior project framing/coordinate work retains SOR-S-0124 provenance. Tinbite Solomon/omaops and the original Reddit tiling observers supply consultation leads (SOR-S-0130/0131); inaccessible text/authors remain unresolved. No outside code/assets incorporated or endorsement implied.
 
 ## Broad beacon observer — 2026-10-10

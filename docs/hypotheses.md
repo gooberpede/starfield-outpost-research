@@ -1,5 +1,13 @@
 # Hypotheses and Open Questions
 
+## SOR-H-0012 — Non-unique off-grid embedding after saved-frame reconstruction
+
+[EXP0020 residual map](experiments/static-exhaustion/residual-map.md) narrows H0011: typed descriptor/component joins and saved-mask handling reconstruct the studied indexed representation; exact continuous embedding remains STATICALLY_BLOCKED within the closed target graph. Linear and smooth-warp same-phase extensions agree on all integer centers and translation constraints yet differ for actual residuals. This demonstrates lack of identification under recovered constraints, not correctness of either approximation or universal absence of a native consumer. A qualified independent residual→body geometric observable at a nonzero residual would reopen/discriminate; another floored pair or ordinary move/save sample cannot. Future exact loaded-frame state is separately history/epoch-dependent. No live experiment authorized.
+
+## SOR-H-0011 — Continuous durable-center embedding after selected-frame reconstruction
+
+[SOR-EXP-0019](experiments/activated-overlay-and-grid-geometry.md#exact-remaining-join-and-next-step): OPEN. Activation and rebase producers are now concrete; designated discrete samples explicitly use+.5. This rejects corner semantics for those outputs but does not select a continuous extension of fractional local XYZ. Missing joins are saved initial-data/world/cell→valid selected edge/rebase epoch, and an actual residual→body geometric consumer. Two continuous phases both preserve the exact compensated center; mature unmoved frame0x2b negative-X case rejects naive universal origin recovery. Discriminator: selected typed edge/effective origin for that case plus a consumer receiving nonzero residual. Quantized Starmap output is insufficient. No live authorization follows.
+
 ## SOR-EXP-0017 follow-up to SOR-H-0010 — Scoped compensation/persistence interpretation
 
 [SOR-F-0021 / SOR-EV-0025](experiments/workshop-origin-beacon-relocation-persistence.md) proposes STRONG semantics for the existing hypothesis: typed accumulating delta plus current XYZ supplies the sampled preserved center. Explicit saver/loader and framed Save25/26 bytes displace the *reconstruction-only* model for this modern zero-resource branch. A reset path falsifies immutable birth origin; region/volume modes falsify one universal spherical boundary. S1/S1C zero vectors and two zero-resource mature beacons provide independent compatible checks; 18 resource-bearing candidates are explicitly unsupported. Physical metre conversion, all configuration/skill variants and exact continuous current-beacon planetary mapping remain open. Historical H0010 and evidence classifications below retained; no automatic critical approval/publication clearance.

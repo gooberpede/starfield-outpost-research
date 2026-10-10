@@ -1,5 +1,21 @@
 # Function and Operation Register
 
+## SOR-FN-0052 — Typed saved-world restoration and frame selection
+
+[EXP0020 ledger/map](experiments/static-exhaustion/call-and-dataflow.md), pinned1.16.244.0 static VA/RVA=VA−140000000.141824a60/141825e00 unit3 dispatch,14132d260/14132d500 descriptor writer/reader,1403a5560/3a5e00/3a53b0 restoration,14096fb40/96fa90 packed key decode/encode;141822570/14182e280 typed unit6 dispatch;14140ff80/1414128c0 site tuple,140ad5f20/ad6150 world component. Typed IDs4 versus legacy IDs3 use distinct callbacks with1418599a0 remapping.1418325a0/141833b20 mask20/cell conversion and140ad3ed0 integer translation establish scoped saved frame. No generic full-save decoder, future live epoch or invocation authority.
+
+## SOR-FN-0053 — Closed residual-helper and local-height branches
+
+14077f900→140780a50→140780aa0→140781390 selects existing reference XYZ plus integer displacement;14077e350→140780710→14077f6e0→14078d2c0 searches integer candidate overlays.14141ccd0/14141dc70 consumes14078d370 Z in camera/local-height calculations. [EXP0020 residual map](experiments/static-exhaustion/residual-map.md) closes these indirect/helper branches and distinguishes scalar local height from body direction. STATIC OBSERVED-INTERNAL; no exact off-grid planetary embedding or safe integration point established.
+
+## SOR-FN-0050 — Activated overlay construction, typed definition and rebase
+
+[SOR-EXP-0019 native map](experiments/activated-grid/native-map.csv), pinned1.16.244.0; all entries static VA, RVA=VA−140000000.1404597a0/140459a30 load/resolve BGSWorldSpaceOverlay_Component's SFBK/body keys.1407986d0 differences active/requested grid pairs before140ad1660;140ad47e0/140ad4a00 initialize typed ActivatedOverlayProperty.140adcde0/140adccf0/140add310 register;140ad30a0/140ada3a0 select/read;140797dc0→140ad9cd0 subtracts terrain rebase from shifts/bounds. Factory141881660/vtable144b91788 inspected, no qualified wire restoration proven. STATIC, OBSERVED-INTERNAL; full saved-edge selection/continuous embedding OPEN, no invocation/integration authority.
+
+## SOR-FN-0051 — Hierarchical grid and footprint orientation
+
+14096ecb0 angle quantizer;14096f4d0/14078d660 designated half-cell projection;14096efb0 landing-origin snap;14096f5c0 signed displacement/remainder and four-tag seam transitions;14096eb90 canonical record lookup.14096ae90 SFBK DNAM→Block+40/+44;14096bba0 independent spans/remapped16×16 cache,14096be70 cache selection,140851d20 eight centered transforms from145907c10. [SOR-EXP-0019](experiments/activated-overlay-and-grid-geometry.md#grid-geometry-and-topology), STATIC scoped pinned build; mathematical tests are not native/runtime seam validation.
+
 ## SOR-FN-0047 — Save-side reference frame preparation
 
 `141856d10`, callers `14181aa30/14181af40` at `14181ae1b/14181b356`: copies own reference XYZ, selects cell/world context and conditionally subtracts `140ada3a0` translation. Static VA in pinned1.16.244.0/base140000000, RVA01856d10. Predicate and frame limits in [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md#transformation-map). STATIC, OBSERVED-INTERNAL; not a callable integration point or proof of every saved branch.

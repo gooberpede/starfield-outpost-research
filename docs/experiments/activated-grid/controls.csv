@@ -1,0 +1,8 @@
+action,control,roles,xyz_bits_equal,rotation_bits_equal
+S1,S1C,['beacon'],True,True
+S2,S2C,"['beacon', 'storage']",True,True
+S3,S3C,"['beacon', 'storage', 'extractor', 'solar']",True,True
+S4,S4C,"['beacon', 'storage', 'extractor', 'solar']",True,True
+S5,S5C,"['beacon', 'storage', 'extractor', 'solar']",True,True
+S6,S6C,"['beacon', 'storage', 'extractor', 'solar']",True,True
+S7,S7C,"['beacon', 'storage', 'solar']",True,True

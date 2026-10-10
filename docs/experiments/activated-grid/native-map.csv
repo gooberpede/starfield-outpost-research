@@ -1,0 +1,41 @@
+va,rva,evidence,operation,limit
+1404595c0,004595c0,.local-work/recon/activated-grid-04.tsv,BGSWorldSpaceOverlay_Component key/name,component distinct from activated property
+1404597a0,004597a0,.local-work/recon/activated-grid-07.tsv,BNAM PNAM SNAM loader,ESM fields not wire property
+140459a30,00459a30,.local-work/recon/activated-grid-07.tsv,resolve Block bounds,form type b3
+14045a2d0,0045a2d0,.local-work/recon/activated-grid-08.tsv,plugin-aware form resolution,not parent token lookup
+1407986d0,007986d0,.local-work/recon/activated-grid-11.tsv,active/requested pair differences and activation,mode3 alternative unobserved
+140ad1660,00ad1660,.local-work/recon/activated-grid-04.tsv,collision selection/create/height/register,multiple branches
+140ad0fb0,00ad0fb0,.local-work/recon/activated-grid-03.tsv,identity/forced versus bounds collision,inclusive overlap
+140ad47e0,00ad47e0,.local-work/recon/activated-grid-04.tsv,initialize typed shifts/pair/flags,not universal offsets
+140ad4a00,00ad4a00,.local-work/recon/activated-grid-03.tsv,component bounds and sourceworld,typed path
+140accd30,00accd30,.local-work/recon/activated-grid-05.tsv,component nominal bounds,definition-derived
+140accc10,00accc10,.local-work/recon/activated-grid-01.tsv,dimension-derived inclusive bounds,not Workshop radius
+140acf480,00acf480,.local-work/recon/activated-grid-06.tsv,height terrain sampling,not continuous longitude
+140adcde0,00adcde0,.local-work/recon/activated-grid-12.tsv,queued activated command references,reference inventory
+140adccf0,00adccf0,.local-work/recon/activated-grid-12.tsv,command component registration,manager edge construction
+140add310,00add310,.local-work/recon/activated-grid-12.tsv,keyed activated edge insertion,manager+300
+140ad7b80,00ad7b80,.local-work/recon/activated-grid-12.tsv,component store insertion,manager+268
+140adcfd0,00adcfd0,.local-work/recon/activated-grid-12.tsv,typed payload copy,not wire decoder
+141881660,01881660,.local-work/recon/activated-grid-06.tsv,Overlay factory registration,full character cap250k; instruction cap
+140ad7330,00ad7330,.local-work/recon/activated-grid-02.tsv,factory create callback,calls ad7b80
+140ad9810,00ad9810,.local-work/recon/activated-grid-04.tsv,queued pairs and selected edge update,runtime state
+140ad94a0,00ad94a0,.local-work/recon/activated-grid-04.tsv,invalidation dispatcher,actual values uncaptured
+140ad11c0,00ad11c0,.local-work/recon/activated-grid-10.tsv,invalidates world context,not universal writer inventory
+140797dc0,00797dc0,.local-work/recon/activated-grid-10.tsv,terrain+1ec/+1f0 rebase caller,runtime epoch
+140ad9cd0,00ad9cd0,.local-work/recon/activated-grid-04.tsv,subtract rebase from shift and bounds,manager+300 edges
+140ad30a0,00ad30a0,.local-work/recon/activated-grid-10.tsv,keyed inclusive-bound selection,validity gated
+140ada3a0,00ada3a0,.local-work/recon/activated-grid-10.tsv,shift*100 and height read,payload+35 clear
+140ad3c30,00ad3c30,.local-work/recon/activated-grid-06.tsv,body/component and world pair lookup,not Workshop ID
+140adbc50,00adbc50,.local-work/recon/activated-grid-05.tsv,world to associated planetary pair,typed lookup
+14096ecb0,0096ecb0,.local-work/recon/activated-grid-11.tsv,nested clamped angle quantization,mixed precision boundary limits
+14096f4d0,0096f4d0,.local-work/recon/activated-grid-01.tsv,explicit half-step cell center,discrete output
+14078d660,0078d660,.local-work/recon/activated-grid-06.tsv,half-step grid-to-square path,no continuous residual
+14096efb0,0096efb0,.local-work/recon/activated-grid-01.tsv,subdivision snapping,96 spacing not tile size
+14096f5c0,0096f5c0,.local-work/recon/activated-grid-11.tsv,signed remainder wrap and tags,not ordinary torus
+14096f940,0096f940,.local-work/recon/activated-grid-01.tsv,seam-aware grid difference,not global metric
+14096eb90,0096eb90,.local-work/recon/activated-grid-11.tsv,angle grid and canonical lookup,reverses coarse for tags2/3
+14096ae90,0096ae90,.local-work/recon/activated-grid-11.tsv,SFBK DNAM to Block+40/+44,eight bytes directly
+14096bba0,0096bba0,.local-work/recon/activated-grid-05.tsv,multi-subdivision footprint remapping,bit8 entries and gated orientation
+14096be70,0096be70,.local-work/recon/activated-grid-03.tsv,pattern remap cache selection,original+38 versus+850
+140851d20,00851d20,.local-work/recon/activated-grid-07.tsv,centered orientation matrix operation,table145907c10
+140851b40,00851b40,.local-work/recon/activated-grid-08.tsv,orientation/stride setup,not hemisphere tag
