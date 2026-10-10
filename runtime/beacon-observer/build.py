@@ -27,6 +27,7 @@ SITES={
     'grid':0x78d660,'projection':0x2332410,'workshop':0xf4ffc0,
     'extra_chain':0x517d60,
     'pool_callbacks':0x3c6b20,'pool_release':0x189f8d0,
+    'native_workshop_output_writer':0x21b29ac,'native_workshop_output_owner':0x21b294d,
 }
 SFSE_HASH='28c5bda41d9959c885efcb6e889de69e92767c80a1a66842d711d215f722f82b'
 def sha(p):
@@ -104,6 +105,13 @@ def main():
     run([sys.executable,'-B',str(SOURCE/'inspect_capture.py'),str(out/'fixtures/full-pool'),'--output',str(out/'inspected.json')],out,'inspection.txt')
     inspected=json.loads((out/'inspected.json').read_text())
     assert len(inspected['references'])==2 and inspected['raw_sections']>=512
+    run([sys.executable,'-B',str(SOURCE/'inspect_capture.py'),str(out/'fixtures/native-output'),'--output',str(out/'native-output.json')],out,'native-output.txt')
+    native=json.loads((out/'native-output.json').read_text())['native_workshop_output']
+    assert native['equal_bracket_values']
+    assert native['before']['center_float32_hex']==struct.pack('<3f',321.25,-42.5,17).hex()
+    assert native['before']['radius_float32_hex']==struct.pack('<f',150).hex()
+    assert native['before']['flags_e8_e9_ea']==[1,0,0]
+    qualification['native_stored_output_no_recomputation']='PASS'
     # Recovery is tested on a derivative; original fixture remains unchanged.
     recovery=out/'recovery-fixture';recovery.mkdir()
     (recovery/'records.jsonl').write_bytes(b'{"kind":"begin"}\n{"incomplete"')

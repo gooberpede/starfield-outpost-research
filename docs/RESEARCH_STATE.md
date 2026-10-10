@@ -1,5 +1,16 @@
 # Current Research State
 
+**Latest offline preparation — SOR-EXP-0021 / SOR-EV-0029, 2026-10-10:**
+[Durable-position model and engine oracle](experiments/durable-position-engine-oracle.md)
+provides an original executable saved-frame model with23 active predictions,
+controlled invariance/distinction, native stored-center/bounds-consumer contract
+and complementary selected-grid trace. Observer0.1.1 and disposable two-thread/
+zero-hit acquisition pass offline checks. No new live oracle outputs/equivalence;
+freshness/identity/rebase need the reviewed run card. Site-relative domain takes
+an upstream discrete site cell; arbitrary-angle bit-exact quantization is not
+complete. SOR-F0028/FN0054–55/ST0026 are scoped review proposals; prior findings
+remain. No launch/deployment/staging/commit/push; critical review required.
+
 **Latest continuation — SOR-EXP-0020 / SOR-EV-0028,2026-10-10:** [Static exhaustion report](experiments/activated-overlay-static-exhaustion.md) reconstructs a scoped saved indexed center/residual using typed parent-component-secondary-world descriptors and the initial frame flag. Six saved contexts,111 descriptors/38 bodies; all28 selected object parents qualify.25 beacon rows retain two disabled cases;23 active frames use one rule, with exact Save25→26 center/cell/residual invariance and17 independent mature body/system matches. The negative-X case is site-relative and selects13151 rather than its anchor13152. **STATIC_EXHAUSTION_DEMONSTRATED for the investigated graph, proposed for critical review:** same-phase continuous extensions remain non-unique; an unspecified future loaded edge/height/epoch is separately runtime-variable. [Terminal ledger](experiments/static-exhaustion/dependency-ledger.md) and [review package](experiments/static-exhaustion/README.md). No exact continuous geographical claim, live action, staging, commit, push or publication. Earlier open checkpoints remain history.
 
 **Latest offline result — SOR-EXP-0019 / SOR-EV-0027,2026-10-10:** [Activated overlays and grid geometry](experiments/activated-overlay-and-grid-geometry.md) maps active/requested pair→integer shift, typed overlay construction/registration/selection and terrain-driven rebase. Nine archived active pairs project to10464,21120; controlled site shifts1,2/3,24 agree. Native half-cell output establishes designated cell centers across49152 fine cells per hemisphere-square axis;96-step landing snap is separate. Installed SFBK/SFPT supports actual2×2 subdivision spans and eight rotation/reflection transforms; no visual-tile equivalence.23-save/128-prefix local invariance and19 unmoved mature zero vectors replicate. **Strong partial:** saved-frame edge/rebase epoch and continuous residual embedding remain OPEN. [Review package](experiments/activated-grid/README.md), critical review required; no live work, staging, commit, push or publication. Earlier records retain their review status.

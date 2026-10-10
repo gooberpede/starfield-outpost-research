@@ -1,5 +1,19 @@
 # Decision Register
 
+## SOR-D-0040 — Offline durable-position model and engine-oracle preparation
+
+2026-10-10 Australia/Sydney: maintainer invokes [retained brief](implementation-briefs/CODEX_BRIEF_SOR_durable_position_engine_oracle_algorithm_reconstruction.md)
+and requests suggested commits without committing/pushing. Authorizes existing
+pinned-source static research, maintainer-owned sibling methods study, original
+model/tests, observer extension and disposable qualification. [EXP0021](experiments/durable-position-engine-oracle.md)
+delivers scoped model, independent native-output contracts, frozen predictions
+and prospective run card. No Starfield launch/attach, deployment, native invocation,
+source-save/config/analysis-content mutation, staging, commit, push or disclosure.
+Disposable-only breakpoint formatting/restoration tests do not authorize live
+debugging. Live equivalence/freshness remain unvalidated; raw-angle quantizer
+and future runtime frame are explicit coverage limits. Critical review precedes
+integration or expansion; no changed third-party permission basis.
+
 ## SOR-D-0039 — Continue to scoped static exhaustion
 
 2026-10-10 Australia/Sydney: user invokes [follow-up brief](implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_continuous_coordinate_static_exhaustion.md), requests its instructions followed and prohibits commit/push. Existing EXP0019 uncommitted work is the continuation base, preserved. Offline existing-state static/save/ESM/capture investigation and original bounded numerical tooling authorized; no arbitrary research cap or partial-only stopping rationale. [EXP0020 report](experiments/activated-overlay-static-exhaustion.md) returns scoped STATIC_EXHAUSTION_DEMONSTRATED with terminal investigated-graph dispositions, recovered saved frames and explicit residual countermodels. This is a review claim, not integration/publication approval. No live/native invocation, deployment/save/config/database-content mutation, new dependencies/reuse basis, staging, commit, push, fork/PR, contact or disclosure. Proposed geometric/frame captures require their own finite authorized brief.

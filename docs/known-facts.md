@@ -1,5 +1,20 @@
 # Established Findings
 
+## SOR-F-0028 — Executable saved-position model and independent native-output contract
+
+2026-10-10, [SOR-EXP-0021 / SOR-EV-0029](experiments/durable-position-engine-oracle.md).
+PROVEN within sampled arithmetic/bytes; STRONG scoped STATIC interpretation
+proposed for review. Original reproducer yields23 active saved-frame body/cell/
+residual/center representations, with Save25/26 invariance and distinct002/003.
+Native1421b2570 writes calculated center/radius through terrain+130 to+90/+9c;
+1407a6540 consumes it for bounds filtering. Separate140ad0b90 post96f5c0
+checkpoint supplies a native selected hierarchy. Observer0.1.1 copies stored
+output; sentinel/two-thread/zero-hit qualification is offline only. Zero new
+runtime oracle comparisons; freshness/active identity/current rebase unresolved.
+Site-relative model requires upstream discrete site cell; arbitrary-angle
+bit-exact quantization is outside its completeness claim. No historical promotion,
+universal equivalence, continuous geography or safe-integration claim.
+
 ## SOR-F-0027 — Saved world identity and flag-qualified indexed center
 
 2026-10-10, [SOR-EXP-0020 / SOR-EV-0028](experiments/activated-overlay-static-exhaustion.md). PROVEN STATIC/SAVE for typed unit3 descriptor body4/key8/ID3 and unit6 world-component37-byte order; selected numeric comparisons reproduce111 descriptors/38 installed PNDT identities and unique zero-terminated runs covering28 selected object parents. STRONG scoped saved-frame interpretation proposed: mask20-clear uses secondary-world descriptor origin, mask20-set site anchor; signed float32 floor/100-unit residual produces23 active beacon representations, with two disabled cases retained separately. Both controlled workshop identifiers are bit/cell/residual invariant Save25→26; negative-X84ede9 selects13151,45120 from site13152,45120. No fitted per-site parameter or independent continuous angular truth. The investigated graph reaches a scoped static-exhaustion conclusion for off-grid embedding, with explicit countermodels and reopening criterion; this is not a proven universal absence of engine geometry. REVIEW-REQUIRED; prior findings preserved.

@@ -1,5 +1,17 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0026 — Native stored terrain workshop center/radius and selected-grid result
+
+[EXP0021 / EV0029](experiments/durable-position-engine-oracle.md): terrain singleton
+145fd9c30→+130 owner stores native center at+90/+98 and radius+9c, with raw
+activation/dirty flags e8/e9/ea. Producer1421b2570 and bounds consumer1407a6540
+are statically mapped. RUNTIME-DERIVED/TRANSIENT; persistence not established.
+Reset can zero radius while leaving center; identical brackets do not establish
+freshness or active identity. Separate140ad0b90 stack hierarchy is computed native
+coverage state with selected base/translation, not a serialized ID. Observer0.1.1
+and disposable trace qualify acquisition only, no new live observations. No
+change to ST0021/0025 persisted-vector/world classifications; review required.
+
 ## SOR-ST-0025 — Persisted world descriptor, component link and selected saved frame
 
 [EXP0020](experiments/activated-overlay-static-exhaustion.md): unit3 generated-world descriptors persist body/key/legacy ID, distinct from the leading active-context key/checksum reuse discriminator. Packed key encodes X16/Y16/tag3/index6/system18; reserved bits retained, tags2/3 reversed before native hierarchical lookup. Unit6 world component persists linked/system/index/secondary/flags/signed bounds, distinct from galaxy site30-byte entries and reconstructed activated edge. Unique selected parent→secondary descriptor joins supply saved origins. Frame20 distinguishes studied source-origin-relative/site-relative XYZ; native ref+d3 mask02 and future runtime validity/height remain distinct domains. STRONG scoped interpretation proposed, REVIEW-REQUIRED, raw LOCAL-ONLY. Arbitrary future manager aliases/epoch are not persisted origins.

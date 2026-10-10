@@ -1,5 +1,12 @@
 # Starfield Outpost Systems Research
 
+**Latest offline review package — EXP0021:** [Durable-position model and engine
+oracle](docs/experiments/durable-position-engine-oracle.md) includes23 saved-frame
+predictions, native center/grid acquisition contracts and observer0.1.1 offline
+qualification. Live equivalence and freshness remain unvalidated; site-relative
+inputs require a qualified discrete site cell. Critical review precedes deployment
+or live work. No staging, commit or push.
+
 **Latest offline result — SOR-EXP-0018 / SOR-EV-0026, 2026-10-10:** [Durable center and object transforms](docs/experiments/durable-outpost-center-and-object-transforms.md) reproduces exact Save25/26 compensated-center invariance and the captured common terrain origin. Twenty-three saves/128 selected prefixes; all19 mature compensation vectors decoded and zero; ordinary objects carry own case5 transforms with conditional overlay rebasing. Exact continuous geography remains OPEN, with concrete frame/phase counterexamples. [Review package](docs/experiments/durable-center/README.md). Critical review required; no live work, staging, commit or push.
 
 **Latest offline result — SOR-EXP-0017 / SOR-EV-0025, 2026-10-10:** [Workshop origin and persistence](docs/experiments/workshop-origin-beacon-relocation-persistence.md) identifies the captured concrete Workshop::ExtraData +0x60 vector, an accumulating relocation writer, explicit 12-byte save/load operations, and compensated-center border/terrain consumers. Save25/26 framed bytes and all nine prior snapshots agree. Scoped STRONG semantics/persistence proposed for critical review; ordinary beacon definition radius is 150 native units, configurable fallback 71.40000152587890625. Effective live radius, metre conversion and exact planetary beacon position remain open. Earlier interpretations below are historical, preserved rather than silently promoted. Authored evidence REVIEW-REQUIRED; raw inputs LOCAL-ONLY. No new live work, staging, commit or push.

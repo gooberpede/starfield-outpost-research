@@ -1,5 +1,30 @@
 # Source Register
 
+### SOR-S-0133 — Maintainer-owned resource research/reproducer methods
+
+For [EXP0021](experiments/durable-position-engine-oracle.md), read-only connected
+GitHub default-branch/revision checks and local history inspection of
+gooberpede/starfield-resource-research at `a23e1c337bc369232d6ce463552a53617bb918e2`
+and starfield-resource-reproducer at `a8ff1c788bca415f571f06769ab3e712fa674f75`.
+[Exact paths/history and conceptual reuse](experiments/engine-oracle/methods-review.md).
+SOR-P-0002 maintainer-owned basis; no code/tests/data copied, no embedded
+third-party material reused, no fork/PR/contact. Published validation totals
+are source reports, not rerun here. Local receipts pin consulted file hashes.
+
+### SOR-S-0132 extension — Retail native oracle and qualified saved-position model
+
+[EXP0021](experiments/durable-position-engine-oracle.md) continues original project
+reader/math/observer evidence and pinned installed Bethesda retail1.16.244.0
+static inspection. Native center writer/bounds consumer and terrain-selected-grid
+callback documented with exact VA/RVA; eight read-only Ghidra exports stay
+LOCAL-ONLY with hashes. Original research model/test/fixture code expresses
+observed semantics; no proprietary implementation text is copied. Installed
+CPython/stdlib, Ghidra/JDK, MSVC/Windows SDK and existing approved SFSE interface
+retain prior provenance/permissions. x64dbg disposable transport reuses original
+project exp0002a code; no native-save work reopened. New DLL/ZIP and process
+output stay ignored; no downloads/deployment/disclosure. Selected numerical
+records remain authored REVIEW-REQUIRED material, not cleared for publication.
+
 ## SOR-EXP-0020 source extensions — accessed2026-10-10
 
 SOR-S-0127/0128 Bethesda pinned native/ESM supplies typed saved-world restoration, frame selection and residual-consumer evidence in [EXP0020](experiments/activated-overlay-static-exhaustion.md). SOR-S-0124 original project streaming/framing/ESM/math readers reused with exact verification hashes; SOR-S-0132/EV0024 existing user observer evidence freshly reverified. Independent manual Save52 network retains its prior authorship/provenance and is a body/system identity check only. SOR-S-0105/0113 installed Ghidra12.1.2/JDK21/CPython stdlib supply separate tools. No additional external-source incorporation/contact/download or permission basis. Countermodels are original mathematics, source-informed rather than claimed clean-room native implementation.

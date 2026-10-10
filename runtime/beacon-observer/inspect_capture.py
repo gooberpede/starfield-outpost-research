@@ -53,6 +53,18 @@ def inspect(path):
             'body_candidate_formid':f'{struct.unpack_from("<I",terrain,0x80)[0]:08X}',
             'origins':origins}
     grid=one('terrain.grid');block=one('stitch.block');merge=one('stitch.merge')
+    output_brackets={}
+    for phase in ('before','after'):
+        blob=one('terrain.workshop_output.'+phase)
+        if blob and len(blob)>=0x100:
+            output_brackets[phase]={'center_float32_hex':blob[0x90:0x9c].hex(),
+                'radius_float32_hex':blob[0x9c:0xa0].hex(),
+                'flags_e8_e9_ea':list(blob[0xe8:0xeb]),
+                'status':'NATIVE_STORED_RESULT_FRESHNESS_AND_WORKSHOP_ID_UNASSESSED'}
+    if output_brackets:
+        result['native_workshop_output']=output_brackets
+        result['native_workshop_output']['equal_bracket_values']=(len(output_brackets)==2 and
+            output_brackets['before']==output_brackets['after'])
     if grid and block and merge:
         r=struct.unpack_from('<I',grid,0x50)[0]
         b=struct.unpack('<I',block)[0]+struct.unpack('<I',merge)[0]

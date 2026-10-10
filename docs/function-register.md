@@ -1,5 +1,25 @@
 # Function and Operation Register
 
+## SOR-FN-0054 — Native stored workshop terrain-center producer and bounds consumer
+
+SOR-ENV-0002, retail1.16.244.0. [EXP0021 contract](experiments/engine-oracle/oracle-contract.md),
+SOR-EV-0029: static VA1421b2570 / RVA021b2570 resolves Workshop and calculates
+center through140f4ab80 / RVA00f4ab80; writes XYZ/radius at1421b29ac/29b1 through
+terrain145fd9c30→+130→+90/+9c. Native1407a6540 / RVA007a6540 uses it for bounds
+filtering; thunk1407b0880, consumer installer1407a6150, activation1407a50d0 and reset1407a6690
+qualify lifecycle. STATIC/OBSERVED-INTERNAL only. Worker reads raw bytes without
+lock/pin; no query invocation/ABI-safety or authoritative freshness claim.
+
+## SOR-FN-0055 — Native terrain coverage selected-grid output
+
+Same pinned module/base140000000. VA140ad92e0→140ad08d0→140b1e190→140ad8ec0→140ad0b90;
+observe140ad0d3b / RVA00ad0d3b after14096f5c0. Captures native translated center,
+floor, body/resolution, input base/translation and output hierarchy. Later
+142332410/14096eb90/14096f940 consume it in coverage calculations. Descriptor
+140f4a140 can mutate ownership; circle/ceiling predicate140f4ac50 is complementary
+local evidence, not a planetary oracle. [Typed contract and limits](experiments/engine-oracle/oracle-contract.md).
+No live hit, safe callable interface, symbol/type/comment mutation or invocation.
+
 ## SOR-FN-0052 — Typed saved-world restoration and frame selection
 
 [EXP0020 ledger/map](experiments/static-exhaustion/call-and-dataflow.md), pinned1.16.244.0 static VA/RVA=VA−140000000.141824a60/141825e00 unit3 dispatch,14132d260/14132d500 descriptor writer/reader,1403a5560/3a5e00/3a53b0 restoration,14096fb40/96fa90 packed key decode/encode;141822570/14182e280 typed unit6 dispatch;14140ff80/1414128c0 site tuple,140ad5f20/ad6150 world component. Typed IDs4 versus legacy IDs3 use distinct callbacks with1418599a0 remapping.1418325a0/141833b20 mask20/cell conversion and140ad3ed0 integer translation establish scoped saved frame. No generic full-save decoder, future live epoch or invocation authority.

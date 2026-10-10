@@ -136,6 +136,14 @@ struct Capture {
             blob("terrain.grid",at<uint64_t>(owner,0x58),0x100,"14096da90 grid resolution+50; manager+120/owner+58");
         blob("stitch.block",module+0x5ea66f0,4,"14008cb90 B default component");
         blob("stitch.merge",module+0x5ea6770,4,"14008cc50 B merge component");
+        workshop_output("before",p);
+    }
+    void workshop_output(const std::string& phase,uint64_t terrain){
+        // Native producer1421b29ac/29b1 copies center+radius into this object.
+        // Capture the engine's stored result; never recompute it here.
+        auto output=pointer("terrain.workshop_output."+phase+".pointer",terrain+0x130,"1421b294d/2954 terrain+130 owner; lifetime unpinned");
+        blob("terrain.workshop_output."+phase,output,0x100,"native output+90 XYZ/+9c radius; flags+e8/+e9/+ea; non-atomic, freshness unproven");
+        blob("workshop.context."+phase,module+0x61dd460,8,"1418843c9 current workshop context global; pointer only");
     }
     void census(){
         // Adapted algorithm from maintainer census.cpp; exact binding is checked,
@@ -171,6 +179,8 @@ struct Capture {
         auto player=pointer("player.global",module+0x5f43230,"GetPlayer RVA177a1f0 -> singleton");
         if(player)reference("player",player);
         auto player_done=GetTickCount64();terrain();auto terrain_done=GetTickCount64();census();
+        auto end_terrain=pointer("terrain.global.after",module+0x5fd9c30,"fresh root after census");
+        workshop_output("after",end_terrain);
         w.event("{\"kind\":\"collector_metrics\",\"player_ms\":"+std::to_string(player_done-began)+",\"terrain_ms\":"+std::to_string(terrain_done-player_done)+",\"census_ms\":"+std::to_string(GetTickCount64()-terrain_done)+"}");
         w.status("native_queries","UNSUPPORTED","No native calls; execution-context affinity not assumed");
         w.finish(partial?"CAPTURE_PARTIAL":"ACQUISITION_COMPLETE_SEMANTICS_UNASSESSED");

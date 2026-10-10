@@ -1,5 +1,15 @@
 # Provenance and Environment Baseline
 
+## EXP0021 oracle/model provenance extension
+
+[Review receipts](experiments/engine-oracle/review.md) pin the original executable
+hash, selected saved extraction/prediction files, sibling default-branch commits,
+fresh read-only Ghidra exports, observer0.1.1 build/package and disposable-only
+debugger fixture. Version0.1.0 natural-output adapter is a separate component from
+observer0.1.1 and historical native-save tools. No runtime Starfield oracle data
+exists for this extension. Protected inputs and nine prior observer captures are
+rehashed; numerical model agreement is not upgraded to native equivalence.
+
 ## SOR-EV-0028 — Activated-overlay continuous-coordinate static exhaustion
 
 2026-10-10 [EXP0020 report](experiments/activated-overlay-static-exhaustion.md) / [review package](experiments/static-exhaustion/README.md). HEAD7fb9a50f49be58d6cf117d47ae04f03b1d3153af; EXP0019 tracked/new work snapshotted as continuation base, not treated as unrelated changes to overwrite. Protected41-file baseline before continuation exports. Fresh23-save/128-prefix and5265-file observer verification; scoped six-save unit3 descriptor/direct PNDT audit, five selected unit6 world-component runs and25-beacon frame comparison. Existing Ghidra -readOnly -noanalysis exports retain failures/retries and exact source/log hashes in local receipts; selected authored locators only in Git. All address/ID/wire domains and decoding limitations documented. No new acquisition, dependencies, third-party incorporation or target mutation. Raw LOCAL-ONLY, authored REVIEW-REQUIRED; final checks and complete/task-only diffs are local review artifacts.

@@ -1,5 +1,9 @@
 # Experiments
 
+- [SOR-EXP-0021: durable-position model and engine oracle](durable-position-engine-oracle.md)
+  — saved-frame reproducer, independent native-output contracts, observer0.1.1,
+  frozen predictions and reviewed prospective run card; no live equivalence yet.
+
 - [SOR-EXP-0018: durable center and object transforms](durable-outpost-center-and-object-transforms.md) — exact local invariance, captured origin, nonempty Workshop prefix and conditional reference frames; [SOR-EV-0026 review](durable-center/README.md). Continuous geographic embedding remains OPEN.
 
 - SOR-EXP-0016 completed initial live run: [SOR-EV-0024 results](../audits/beacon-observer-initial-live-results.md) / [chronology](beacon-observer/initial-live-session.md). Move/save/reload/SOR-002 comparison,9 verified captures and original-location-offset lead; exact planetary conversion unresolved, interpretation awaiting critical review.

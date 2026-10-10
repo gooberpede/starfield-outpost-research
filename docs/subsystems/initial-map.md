@@ -1,5 +1,16 @@
 # Initial subsystem map — SOR-EXP-0001
 
+## EXP0021 construction/location/terrain/persistence connection
+
+[Executable model and native oracle](../experiments/durable-position-engine-oracle.md):
+persisted XYZ/Workshop compensation plus qualified world/frame inputs yield a
+saved indexed center/residual. Native construction path writes center/radius to
+terrain's workshop output, consumed for terrain bounds; separate coverage callback
+produces selected grid hierarchy after current-frame translation. Stored native
+output and selected hierarchy are transient, not newly established save fields.
+Freshness/current epoch are pending live discriminators; continuous geography
+and safe mod interfaces remain unclaimed. Review proposals, no automatic promotion.
+
 ## SOR-EXP-0018 location / construction update
 
 [Durable center and object transforms](../experiments/durable-outpost-center-and-object-transforms.md),2026-10-10: saved compensated center remains exactly invariant across beacon relocation; nine captured terrain origins match. Own case5 object XYZ/rotations and conditional activated-overlay rebasing support local reference transforms, not direct Workshop-relative storage. All19 mature compensation vectors decode as zero, retaining the negative-X general-frame counterexample. Exact continuous planetary embedding and separate Workshop orientation remain OPEN. SOR-F-0023/0024, SOR-ST-0023, SOR-EV-0026; proposed scoped findings await review. No new live authority or prior-result promotion.

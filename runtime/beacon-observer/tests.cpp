@@ -47,6 +47,17 @@ int main(int argc,char** argv){try{
     // Reacquisition reads the new root rather than retaining a previous address.
     fake.regions[0x20000].resize(8);fake.put<uint64_t>(0x20000,0,0x30000);
     {Writer w(root/"reacquire",[]{return true;});Capture c(fake,w,0);require(c.pointer("global",0x20000,"test")==0x30000,"initial root");fake.put<uint64_t>(0x20000,0,0x40000);require(c.pointer("global",0x20000,"test")==0x40000,"fresh root");w.finish("TEST_COMPLETE");}
+    // Stored native-output capture: deliberately unrelated to reference XYZ.
+    // Sentinel proves collection reads the output and does not add beacon inputs.
+    fake.regions[0xa0000].resize(0x200);fake.put<uint64_t>(0xa0000,0x130,0xb0000);
+    fake.regions[0xb0000].resize(0x100);fake.put<float>(0xb0000,0x90,321.25f);
+    fake.put<float>(0xb0000,0x94,-42.5f);fake.put<float>(0xb0000,0x98,17.f);
+    fake.put<float>(0xb0000,0x9c,150.f);fake.put<uint8_t>(0xb0000,0xe8,1);
+    {Writer w(root/"native-output",[]{return true;});Capture c(fake,w,0x140000000);
+        c.workshop_output("before",0xa0000);c.workshop_output("after",0xa0000);w.finish("TEST_COMPLETE");}
+    fake.put<uint64_t>(0xa0000,0x130,0xc0000);
+    {Writer w(root/"missing-native-output",[]{return true;});Capture c(fake,w,0x140000000);
+        c.workshop_output("before",0xa0000);require(c.partial,"unreadable output is partial");w.finish("CAPTURE_PARTIAL");}
     // Full stock-capacity census with two independent beacons. Missing terrain
     // and absent cells/extras must not suppress either useful reference.
     const uint64_t module=0x140000000,mgr=module+0x62d1380,pool=module+0x62d1400;
