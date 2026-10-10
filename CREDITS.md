@@ -1,5 +1,9 @@
 # Credits
 
+## Broad beacon observer — 2026-10-10
+
+[SOR-EXP-0016](docs/audits/live-beacon-observer.md) credits **Ian Patterson / SFSE** for the exact approved MIT public plugin interface (SOR-P-0001), **Bethesda Game Studios** for locally inspected executable/save research inputs and **Ghidra contributors** for the existing static exports. **Microsoft** supplies installed MSVC/Windows SDK and Windows memory/cryptography/system facilities; **Python Software Foundation/CPython contributors** supply installed standard-library build, hashing, packaging and offline validation. No runtime/SDK binaries are redistributed. Maintainer-authored `gooberpede/starfield-reference-handles` finite census/association patterns retain exact commit/path/hash provenance under SOR-S-0132/SOR-P-0002. No sibling embedded third-party code incorporated, endorsement implied or publication clearance granted.
+
 [Exact-beacon terrain projection](docs/experiments/exact-beacon-planetary-coordinates.md), SOR-EXP-0015: Bethesda Game Studios supplies installed native/definition evidence; Ghidra/JDK and CPython/stdlib contributors supply separate tools; prior maintainer archive/framing methods retain SOR-S-0124 credit. Community observers behind the required tiling threads remain credited as leads, with full text/authors unrecovered (SOR-S-0131, existing PA09). Claims were not adopted as engine facts. Original mathematics is source-informed by native analysis; no outside implementation/assets incorporated. Critical/publication review remains separate from confidence.
 
 

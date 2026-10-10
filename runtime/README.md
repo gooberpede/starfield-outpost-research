@@ -1,5 +1,7 @@
 # Runtime Outpost Research
 
+Current implementation: [broad beacon observer0.1.0](beacon-observer/README.md), [offline review and operator plan](../docs/audits/live-beacon-observer.md). Not deployed/live-qualified; critical review before first Starfield session. The scaffold-only description below is retained history, superseded for the explicitly authorized EXP0002 and SOR-EXP-0016 helpers.
+
 Reserved for explicitly authorized, bounded runtime research support. No native plugin, Papyrus script, injected observer, game modification, package, or deployment configuration is included.
 
 A future runtime helper may establish ground truth, capture lifecycle events, or test a narrowly defined hypothesis. Distinguish observation-only design intent from the actual effects of instrumentation, hooks, extra scripts, timing changes, or injected code. Do not describe a helper as harmless without evidence.

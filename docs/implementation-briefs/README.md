@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Broad-capture live beacon coordinate observer](CODEX_IMPLEMENTATION_BRIEF_SOR_live_beacon_coordinate_observer.md) — invoked2026-10-10, SOR-D-0033; [offline implementation/qualification review](../audits/live-beacon-observer.md), gate before deployment or any Starfield session. Save25 starts at SOR-003; useful travel to SOR-002 remains in the proposed plan. No commit/push.
+
 - [Exact beacon planetary coordinates](CODEX_BRIEF_SOR_exact_beacon_planetary_coordinates.md) — invoked2026-10-09, SOR-D-0032; offline terrain/frame tracing. [Report](../experiments/exact-beacon-planetary-coordinates.md), [review](../experiments/exact-beacon/README.md); exact continuous coordinates open, no live/staging/commit/push.
 
 

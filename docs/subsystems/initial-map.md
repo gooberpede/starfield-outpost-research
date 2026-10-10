@@ -1,5 +1,11 @@
 # Initial subsystem map — SOR-EXP-0001
 
+**Later LIVE evidence — SOR-EXP-0016 / SOR-EV-0024:** [move/save/reload results](../audits/beacon-observer-initial-live-results.md) isolate moved beacon XYZ and a workshop original-minus-current float triple, retained after reload. SOR-H-0010/SOR-ST-0021 propose relocation compensation; operator reports no boundary shift, but native boundary authority/radius and serialized representation unresolved. Exact planetary frame embedding remains open. Nine captures verified; raw LOCAL-ONLY, authored interpretation REVIEW-REQUIRED. Earlier static/offline records below retained.
+
+## Beacon observer preparation — SOR-EXP-0016
+
+[Observer0.1.0 implementation review](../audits/live-beacon-observer.md) targets fresh ordinary-reference identity/transform, terrain mode/origins/resolution, cached planetary and workshop extra/table evidence with independent collectors. Offline synthetic/disposable qualification only; exact coordinate conversion, effective overlay-map authority and original build-boundary center remain OPEN. Proposed Save25 checkpoints start at SOR-003 and include travel to SOR-002 where useful. Critical review and separate live approval required; no new runtime finding or validated integration point.
+
 ## Terrain/frame follow-up — SOR-EXP-0015
 
 [Projection research](../experiments/exact-beacon-planetary-coordinates.md), SOR-F-0020: native49152-grid reproduces22 beacon/site and3 fixed pairs; controlled common-origin arithmetic supports scoped STRONG proposal. Exact continuous beacon placement open at world/cached frame and fractional embedding; negative-X mature case prevents universal site=current-cell. Runtime inputs not assigned guessed wire offsets. No metre/texture calibration, universal completeness or safe integration. [Review](../experiments/exact-beacon/README.md), prior history retained.

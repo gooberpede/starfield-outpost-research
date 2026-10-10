@@ -1,5 +1,11 @@
 # Selected Evidence
 
+- SOR-EV-0024: [initial observer live results](../../audits/beacon-observer-initial-live-results.md), SOR-EXP-0016. Nine snapshots/5,233 verified raw sections, protected Save25 and archived Save26; scoped workshop offset and post-reload XYZ observations. Raw/session/save/logs LOCAL-ONLY; authored interpretations REVIEW-REQUIRED.
+
+- SOR-EV-0023: [actual observer deployment preflight](../../audits/beacon-observer-post-deployment-preflight.md), SOR-EXP-0016. Installed identity/configuration/output/control/space checks; original receipts LOCAL-ONLY. User-reported smoke test distinguished from unobserved fresh runtime readiness; [operator card](../beacon-observer/Save25-operator-run-card.md) REVIEW-REQUIRED before launch. No new scientific finding.
+
+- SOR-EV-0022: [broad beacon observer offline qualification](../beacon-observer/README.md), SOR-EXP-0016. Selected authored hashes/results REVIEW-REQUIRED; full synthetic captures, binaries, private input/source/database receipts stay LOCAL-ONLY. No Starfield evidence, semantics promotion or publication clearance.
+
 SOR-EV-0020: [two-outpost anchor report](../two-outpost-site-anchors-and-beacon-coordinates.md) and [selected evidence/review](../two-outpost-anchor/README.md). Save25 manifest, exact parent/pair/XYZ comparisons and native export identities; REVIEW-REQUIRED, original/bulk payload LOCAL-ONLY.
 
 SOR-EV-0019: [planetary surface-anchor report](../planetary-surface-anchor-semantics.md) and [selected numeric/hash/locator evidence](../planetary-surface-anchor/README.md), SOR-F-0018. Six source/decoded hash rows, 21 saved pair observations, three fixed-world values and 15 native-export identities are authored REVIEW-REQUIRED derivatives. Raw saves, decompressed streams, ESM payloads, Ghidra exports and private locators stay LOCAL-ONLY; native instruction limits and incomplete generic wire closure remain explicit. No publication clearance.

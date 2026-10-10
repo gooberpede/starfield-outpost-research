@@ -1,5 +1,9 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0021 — Observed workshop relocation-offset candidate
+
+[SOR-EV-0024 / SOR-H-0010](audits/beacon-observer-initial-live-results.md), pinned1.16.244/observer0.1.0. In-memory ExtraWorkshop-candidate+0x60 holds three float32 values matching original beaconXYZ minus current beaconXYZ for one move and controls; bit-identical after manual Save26/reload with changed workshop pointer. Reference transform at+0x8c and this offset are distinct fields. Runtime byte relation OBSERVED-INTERNAL; authoritative boundary-center/radius semantics PROVISIONAL. Persistence class UNCLASSIFIED: post-load survival alone does not prove direct serialization. No serialized offset/native consumer/writer/safe integration established. Raw byte locators and exact arithmetic in report; REVIEW-REQUIRED.
+
 ## SOR-ST-0020 — Derived terrain indices and runtime frame inputs
 
 [SOR-EXP-0015](experiments/exact-beacon-planetary-coordinates.md), SOR-F-0020/H-0009/EV-0021. Qualified saved site/XYZ/initial flags PERSISTED. Recovered grid indices/common-origin candidates are DERIVED, not new wire fields. Native manager+50 R, origin+0xc8/+0x1c0, activated-overlay shift+8/+c/+30 and cached ExtraData0x81 pair/body OBSERVED-INTERNAL; persistence/authority UNCLASSIFIED without wire linkage. Pair and fractional XYZ travel separately; active-world angle consumer quantizes, other-world/cached branches can supply anchors. Exact continuous embedding/post-load authority/integration unvalidated. REVIEW-REQUIRED, prior records retained.

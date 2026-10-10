@@ -1,5 +1,9 @@
 # Hypotheses and Open Questions
 
+## SOR-H-0010 — Workshop displacement compensates for moved beacon
+
+[SOR-EXP-0016 / SOR-EV-0024](audits/beacon-observer-initial-live-results.md), LIVE + operator visual report. In one controlled move/save/reload, ExtraWorkshop-candidate float32 tuple at in-memory+0x60 equals original-minus-current beacon XYZ, reconstructing original XYZ bits when added to current XYZ. Zero before move/control, nonzero only for moved SOR-003, stable after save/reload despite changed workshop pointer and SOR-002 travel/control. Original-location compensation is PROVISIONAL; boundary-center/radius consumer and exact wire persistence remain UNCLASSIFIED. Operator observed no boundary shift without measured geometry. Alternative: another relative transform/cache purpose. Static writer/consumer mapping or an independently reviewed second displacement could discriminate; no further live authority follows. REVIEW-REQUIRED, not a validated integration point.
+
 ## SOR-H-0009 — Site index and fractional beacon embedding
 
 [SOR-EXP-0015 log](experiments/exact-beacon-planetary-coordinates.md#hypothesisevidence-log-and-stopping-boundary). Native default49152-grid predicts22 beacon pairs and3 fixed anchors; scoped STRONG proposal. Controlled common origin supported arithmetically. Universal site=current occupied cell unproven: negative-X84ede9 permits origins13152/13153. Corner/centre fractional extensions cannot be distinguished by many-to-one quantized outputs. Missing terms: selected loaded/cached world mapping, activated-overlay translation, terrain origin and continuous residual consumer. Next discriminator: qualified restoration/residual geometry; new live displacement test needs separate authority. Counterexamples retained, no fitted transform/geographic datum. REVIEW-REQUIRED.

@@ -17,6 +17,8 @@ At scaffold creation no third-party implementation was bundled. The following la
 
 ## Future evidence and incorporations
 
+SOR-EXP-0016 continues use of that exact unchanged SFSE public interface for the resumed research observer and includes its notice in the versioned package. Maintainer-authored sibling census/association patterns are adapted under the standing SOR-P-0002 exception, with [exact source provenance](docs/audits/live-beacon-observer.md) and SOR-S-0132. Embedded third-party sibling code/dependencies remain excluded. This does not incorporate SFSE runtime, CommonLib, Address Library, game bytes or compiler runtime binaries, or authorize publication.
+
 Initial reconnaissance (2026-10-06) uses installed xEdit/Ghidra as separate tools and Bethesda development scripts/game data as local research inputs, under the invoked brief. That reconnaissance added original helpers and factual notes, not those tools, dependencies, scripts or raw exports. Game-derived outputs remain LOCAL-ONLY; authored summaries/identifiers remain subject to publication review. Source-reported mod behavior and documentation are attributed without incorporating implementations. See SOR-S-0101–0112 in [SOURCES.md](docs/SOURCES.md). No third-party code reuse decision was granted for that initial reconnaissance; the later header exception is recorded above.
 
 Before adding outside material, record its origin, exact version, rights-holder permission, user approval, obligations, and publication status in [PERMISSIONS.md](docs/PERMISSIONS.md). Add applicable notices here without removing upstream notices.
