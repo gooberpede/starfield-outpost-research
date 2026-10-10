@@ -1,5 +1,19 @@
 # Function and Operation Register
 
+## SOR-EXP-0017 — Typed workshop, persistence and geometry
+
+SOR-EV-0025, pinned Starfield.exe SHA-256/base in [report](experiments/workshop-origin-beacon-relocation-persistence.md); STATIC/OBSERVED-INTERNAL/REVIEW-REQUIRED. RVA = static VA − 0x140000000; [native map](experiments/workshop-origin/native-map.csv) records decisive sites and limits. No invocation, ABI/safe integration validation or Ghidra renaming.
+
+| ID | Original static VA(s) | Supported role / limit |
+|---|---|---|
+| SOR-FN-0040 | 140f4ffc0 / 14053dd30 / 140f51350 | Type-0xbc constructor, allocation, guarded accessor; +0x60 initialization |
+| SOR-FN-0041 | 1421b11a0 / 1421b1450 / 1421b44b0 / 1421b2e20 | Accumulating endpoint-subtraction writer, callers and separate reset; endpoint labels inferred |
+| SOR-FN-0042 | 140f50660 / 140f50880 / 140521620 | Explicit +0x60/+0x68 save/load; buffer-version and variable-prefix conditions |
+| SOR-FN-0043 | 140f4ab80 | Current reference XYZ plus Workshop compensation; no planetary projection |
+| SOR-FN-0044 | 140f4a140 / 140f49440 / 140f49c50 / 140f4a910 / 140f4ac50 / 140f4aab0 / 1421bb860 / 1421b2570 | Descriptor, drawing, predicates, clamp and loaded-state output; full permission not established |
+| SOR-FN-0045 | 140f38e30 / 140157cc0 / 140157700 / 14044b670 | Property/binding/fallback radius; live overrides unresolved |
+| SOR-FN-0046 | 140ad0b90 | Compensated center/radius into terrain/overlay coverage; discrete, not continuous current-beacon coordinates |
+
 ## SOR-EXP-0015 projection/frame consumers
 
 Pinned SOR-ENV-0001 hash/base in [report](experiments/exact-beacon-planetary-coordinates.md), SOR-EV-0021. STATIC/OBSERVED-INTERNAL/REVIEW-REQUIRED; no live calls/ABI qualification/renaming/integration. RVA = VA minus0x140000000; member offsets are not wire offsets.

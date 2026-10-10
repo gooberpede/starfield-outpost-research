@@ -5,7 +5,7 @@ param(
     [ValidateSet('Starfield','StarfieldCK')][string]$Target,
     [Parameter(Mandatory=$true)][string]$OutputName,
     [string[]]$Addresses = @(),
-    [ValidateSet('OutpostRecon.java','OutpostSaveConstants.java','OutpostMembershipRefs.java')][string]$Reader = 'OutpostRecon.java'
+    [ValidateSet('OutpostRecon.java','OutpostSaveConstants.java','OutpostMembershipRefs.java','WorkshopOriginRefs.java')][string]$Reader = 'OutpostRecon.java'
 )
 $ErrorActionPreference = 'Stop'
 $repo = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))

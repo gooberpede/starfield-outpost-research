@@ -45,3 +45,5 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [Save capacity and outpost planetary location](CODEX_BRIEF_SOR_save_capacity_and_outpost_planetary_location.md) — invoked 2026-10-09, SOR-D-0029; [result/review](../experiments/save-capacity-and-planetary-location.md). Supplied brief retained unchanged; no staging/commit/push.
 
 - [Planetary surface-anchor coordinate semantics](CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md) — invoked 2026-10-09, SOR-D-0030; [result/review](../experiments/planetary-surface-anchor-semantics.md). Supplied brief preserved unchanged; offline/public-source research only, no staging/commit/push.
+
+- [Workshop origin, relocation persistence and radius](CODEX_BRIEF_SOR_workshop_origin_beacon_relocation_persistence.md): invoked 2026-10-10, SOR-D-0036; offline SOR-EXP-0017 [result](../experiments/workshop-origin-beacon-relocation-persistence.md), critical review required. No live or Git publication authority.

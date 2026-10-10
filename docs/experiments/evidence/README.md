@@ -45,3 +45,5 @@ Avoid OS usernames, personal save names, absolute local paths, or permission cor
 [SOR-EXP-0010](../active-outpost-membership-completion.md), SOR-F-0015 / SOR-ST-0018 / SOR-H-0007; [validation and local evidence identities](../active-outpost-membership-completion/validation.md). Selected numeric/hash/offset ledgers are authored REVIEW-REQUIRED. Raw saves, decoded payloads, private locators, BA2/PEX probes and Ghidra native exports remain ignored LOCAL-ONLY. Conditional R1 association, inherited flags and quest-control uncertainty remain visible; no complete membership/absence or publication claim.
 
 - SOR-EV-0017: [scoped ordinary beacon detector](../ordinary-outpost-beacon-detection.md), minimal numeric ledgers and validation under `../ordinary-outpost-beacon-detection/`; REVIEW-REQUIRED. Full receipts/raw inputs/private oracle remain LOCAL-ONLY; no publication clearance.
+
+- [SOR-EV-0025 — Workshop relocation and bounds](../workshop-origin/README.md): selected capture/native/transition ledgers and local reproduction/provenance; full raw/native evidence LOCAL-ONLY.

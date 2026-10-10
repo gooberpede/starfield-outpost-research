@@ -1,5 +1,9 @@
 # Decision Register
 
+## SOR-D-0036 — Offline workshop origin, persistence and bounds research
+
+2026-10-10. User explicitly invokes [retained brief](implementation-briefs/CODEX_BRIEF_SOR_workshop_origin_beacon_relocation_persistence.md), requests its instructions followed and commit suggestions without committing/pushing. This authorizes relevant offline archive/capture/installed-data/native research, original scripts/tests and durable records. Read-only/no-analysis exports of existing Ghidra state only; no database edits. No launch, deployment, debugger, game/save/config mutation, third-party code reuse, staging, commit, push, PR or external disclosure authority. [SOR-EXP-0017](experiments/workshop-origin-beacon-relocation-persistence.md) returns scoped positive results and a separate proposed live discriminator; critical review and future live authorization remain outstanding.
+
 ## SOR-D-0035 — Initial observer live session authorized and completed
 
 2026-10-10. User approves preflight/run card and explicitly authorizes initial live session, then performs launch, move, New Save, Save26 reload, SOR-002 fast travel and normal exit/sync/Vortex disabling. Launch-path correction follows operator-reported Vortex default-executable substitution; no observer modification. Accepted correction: allow60 seconds for startup/title/menu, with progress beyond that not an automatic failure. [SOR-EV-0024](audits/beacon-observer-initial-live-results.md) records9 durable verified partial snapshots and scoped workshop-offset lead; incomplete optional branches continued. No game-memory/native-call intervention, observer build/configuration change, save overwrite, staging/commit/push or new external disclosure. Critical review required before promoting interpretation or expanding live scope.

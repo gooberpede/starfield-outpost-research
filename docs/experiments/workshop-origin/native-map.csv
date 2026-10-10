@@ -1,0 +1,14 @@
+id,function_static_va,decisive_static_va,role,supported_data_flow,limit
+SOR-FN-0040,140f4ffc0,140f4ffc0,constructor,type bc; vtable 144c24e60; zero +60/+68,typed allocation/accessor also 14053dd30 / 140f51350
+SOR-FN-0041,1421b11a0,1421b131d / 1421b1326 / 1421b140d / 1421b1417 / 1421b1421,accumulating writer,context +608 typed lookup; delta += endpoint278XYZ - endpoint268XYZ,old/new semantic endpoint labels inferred; no exhaustive writer claim
+SOR-FN-0041,1421b2e20,1421b3ee7,reset,create-enabled accessor then zero compensation,not immutable birth origin
+SOR-FN-0042,140f50660,140f50825 / 140f50832,saver,append +60 eight bytes then +68 four,after +78 before +98; reference/string queues separate
+SOR-FN-0042,140f50880,140f51164 / 140f51171,loader,copy twelve bytes to +60 via 141865020,140521620 case bc dispatch; modern prefix/version requirements
+SOR-FN-0043,140f4ab80,140f4abef / 140f4abf4 / 140f4ac28-140f4ac3f,center,reference XYZ plus nonzero type-bc compensation,no rotation/projection; typed reference gate
+SOR-FN-0044,140f4a140,140f4a1d4 / 140f4a2ba,descriptor,compensated center and radius to bounds,region/volume branches separate
+SOR-FN-0044,140f49440,140f49c50 / 140f4a094,border drawing,named WorkshopBorderRegion/WorkshopBorderRadius; center helper,not every gameplay permission condition
+SOR-FN-0044,140f4a910,140f4ac50 / 140f4aab0,predicate,mode dispatch; circle XY <= radius squared and upper Z,no lower Z in circle; world wrapper and indexed center translation
+SOR-FN-0044,1421bb860,1421bb860,clamp,compensated center/radius; preserve Z,selected horizontal consumer only
+SOR-FN-0044,1421b2570,1421b2570,loaded-state output,compensated XYZ and radius,downstream authority unresolved
+SOR-FN-0045,140f38e30,14044b670 / 140157cc0 / 140157700,radius,property lookup; default-object binding; INI fallback,ordinary definition 150; fallback 71.40000152587890625; live value unmeasured
+SOR-FN-0046,140ad0b90,140ad0c36 / 140ad0c48,terrain coverage,compensated center/radius plus frame translation into discrete indices,not exact continuous current-beacon planetary position

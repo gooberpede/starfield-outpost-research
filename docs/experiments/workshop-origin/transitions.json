@@ -1,0 +1,128 @@
+[
+  {
+    "name": "SOR-002",
+    "before_token": "822821",
+    "after_token": "81ab50",
+    "before_parent": "822834",
+    "after_parent": "81762f",
+    "before_xyz_hex": "a266f542eb858843efd19241",
+    "after_xyz_hex": "a266f542eb858843efd19241",
+    "before_workshop": {
+      "extra_start": 1344609,
+      "leading_types": [
+        156,
+        218,
+        76,
+        188
+      ],
+      "declared_extras": 7,
+      "resource_count": 0,
+      "handles": [
+        "822834"
+      ],
+      "flag94_hex": "00",
+      "name_string_index": 668,
+      "field78_hex": "01000000",
+      "delta_offset": 1344620,
+      "delta_record_offset": 114,
+      "delta_body_offset": 47,
+      "delta_hex": "000000000000000000000000",
+      "identifier98_hex": "f1517de43e171745",
+      "end": 1344640,
+      "next_reference_index": 13,
+      "coverage": "modern zero-resource Workshop prefix; following extras not decoded"
+    },
+    "after_workshop": {
+      "extra_start": 1359645,
+      "leading_types": [
+        156,
+        218,
+        76,
+        188
+      ],
+      "declared_extras": 7,
+      "resource_count": 0,
+      "handles": [
+        "81762f"
+      ],
+      "flag94_hex": "00",
+      "name_string_index": 670,
+      "field78_hex": "01000000",
+      "delta_offset": 1359656,
+      "delta_record_offset": 114,
+      "delta_body_offset": 47,
+      "delta_hex": "000000000000000000000000",
+      "identifier98_hex": "f1517de43e171745",
+      "end": 1359676,
+      "next_reference_index": 13,
+      "coverage": "modern zero-resource Workshop prefix; following extras not decoded"
+    },
+    "direct_pairs_unchanged": true,
+    "direct_body_ids_unchanged": true,
+    "runtime_field_matches": true,
+    "recovered_origin_bits": true
+  },
+  {
+    "name": "SOR-003",
+    "before_token": "84b985",
+    "after_token": "81ab8f",
+    "before_parent": "84b996",
+    "after_parent": "81cb3d",
+    "before_xyz_hex": "0369b243f0b019457220ffc1",
+    "after_xyz_hex": "3eeda843b366164537db0cc2",
+    "before_workshop": {
+      "extra_start": 1474260,
+      "leading_types": [
+        156,
+        218,
+        76,
+        188
+      ],
+      "declared_extras": 8,
+      "resource_count": 0,
+      "handles": [
+        "84b996"
+      ],
+      "flag94_hex": "00",
+      "name_string_index": 672,
+      "field78_hex": "02000000",
+      "delta_offset": 1474271,
+      "delta_record_offset": 123,
+      "delta_body_offset": 47,
+      "delta_hex": "000000000000000000000000",
+      "identifier98_hex": "0efca066ee4c7b9b",
+      "end": 1474291,
+      "next_reference_index": 13,
+      "coverage": "modern zero-resource Workshop prefix; following extras not decoded"
+    },
+    "after_workshop": {
+      "extra_start": 1361748,
+      "leading_types": [
+        156,
+        218,
+        76,
+        188
+      ],
+      "declared_extras": 8,
+      "resource_count": 0,
+      "handles": [
+        "81cb3d"
+      ],
+      "flag94_hex": "00",
+      "name_string_index": 673,
+      "field78_hex": "02000000",
+      "delta_offset": 1361759,
+      "delta_record_offset": 120,
+      "delta_body_offset": 47,
+      "delta_hex": "50bc9741408f5242e0af5440",
+      "identifier98_hex": "0efca066ee4c7b9b",
+      "end": 1361779,
+      "next_reference_index": 13,
+      "coverage": "modern zero-resource Workshop prefix; following extras not decoded"
+    },
+    "direct_pairs_unchanged": true,
+    "direct_body_ids_unchanged": true,
+    "runtime_field_matches": true,
+    "recovered_origin_bits": true
+  }
+]

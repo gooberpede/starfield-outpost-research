@@ -1,5 +1,9 @@
 # Hypotheses and Open Questions
 
+## SOR-EXP-0017 follow-up to SOR-H-0010 — Scoped compensation/persistence interpretation
+
+[SOR-F-0021 / SOR-EV-0025](experiments/workshop-origin-beacon-relocation-persistence.md) proposes STRONG semantics for the existing hypothesis: typed accumulating delta plus current XYZ supplies the sampled preserved center. Explicit saver/loader and framed Save25/26 bytes displace the *reconstruction-only* model for this modern zero-resource branch. A reset path falsifies immutable birth origin; region/volume modes falsify one universal spherical boundary. S1/S1C zero vectors and two zero-resource mature beacons provide independent compatible checks; 18 resource-bearing candidates are explicitly unsupported. Physical metre conversion, all configuration/skill variants and exact continuous current-beacon planetary mapping remain open. Historical H0010 and evidence classifications below retained; no automatic critical approval/publication clearance.
+
 ## SOR-H-0010 — Workshop displacement compensates for moved beacon
 
 [SOR-EXP-0016 / SOR-EV-0024](audits/beacon-observer-initial-live-results.md), LIVE + operator visual report. In one controlled move/save/reload, ExtraWorkshop-candidate float32 tuple at in-memory+0x60 equals original-minus-current beacon XYZ, reconstructing original XYZ bits when added to current XYZ. Zero before move/control, nonzero only for moved SOR-003, stable after save/reload despite changed workshop pointer and SOR-002 travel/control. Original-location compensation is PROVISIONAL; boundary-center/radius consumer and exact wire persistence remain UNCLASSIFIED. Operator observed no boundary shift without measured geometry. Alternative: another relative transform/cache purpose. Static writer/consumer mapping or an independently reviewed second displacement could discriminate; no further live authority follows. REVIEW-REQUIRED, not a validated integration point.

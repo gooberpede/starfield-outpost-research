@@ -1,5 +1,13 @@
 # State, Relationship, and Representation Register
 
+## SOR-EXP-0017 supplement to SOR-ST-0021 — Proposed scoped persistence/semantics update
+
+[SOR-F-0021 / SOR-EV-0025](experiments/workshop-origin-beacon-relocation-persistence.md) supersedes the earlier unresolved interpretation **for this sampled modern branch**, preserving the original entry below. Concrete Workshop::ExtraData type 0xbc, allocated 0xa0, vtable RVA 0x4c24e60; +0x60 is three float32 values, typed relocation accumulation/current-XYZ compensation with reset paths. **PERSISTED** directly in four framed Save25/26 Workshop prefixes (12 bytes; see decoded offsets), confirmed by native saver/loader and matched captured fields across pointer reacquisition. Scoped STRONG original-center/persistence semantics proposed pending critical review. Does not establish universal load authority, immutable birth origin, historical grammar, exhaustive writes or safe integration. Raw evidence LOCAL-ONLY; authored REVIEW-REQUIRED.
+
+## SOR-ST-0022 — Radius property, compensated descriptor and terrain coverage
+
+[SOR-F-0022 / SOR-EV-0025](experiments/workshop-origin-beacon-relocation-persistence.md). Ordinary ACTI property OutpostBuildAreaRadius 150.0 is DEFINITION-DERIVED; fItemPlacementRadius:Workshop native default 71.40000152587890625 is a separate configurable fallback. Descriptor center +0x00, frame index +0x0c, radius +0x28 and separate heights feed horizontal circle or region/volume paths. Runtime effective values unobserved; persistence UNCLASSIFIED for modifications/overrides. Terrain/overlay coverage consumes compensated center plus frame translation and quantizes; it does not locate the moved beacon continuously. Native-unit compatibility supported; metres, full permission authority and integration unvalidated. REVIEW-REQUIRED.
+
 ## SOR-ST-0021 — Observed workshop relocation-offset candidate
 
 [SOR-EV-0024 / SOR-H-0010](audits/beacon-observer-initial-live-results.md), pinned1.16.244/observer0.1.0. In-memory ExtraWorkshop-candidate+0x60 holds three float32 values matching original beaconXYZ minus current beaconXYZ for one move and controls; bit-identical after manual Save26/reload with changed workshop pointer. Reference transform at+0x8c and this offset are distinct fields. Runtime byte relation OBSERVED-INTERNAL; authoritative boundary-center/radius semantics PROVISIONAL. Persistence class UNCLASSIFIED: post-load survival alone does not prove direct serialization. No serialized offset/native consumer/writer/safe integration established. Raw byte locators and exact arithmetic in report; REVIEW-REQUIRED.

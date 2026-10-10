@@ -88,3 +88,7 @@ SOR-EXP-0006 credits preserved project/maintainer-directed exploratory discovery
 ## Two-outpost anchor comparison — 2026-10-09
 
 [SOR-EXP-0014](docs/experiments/two-outpost-site-anchors-and-beacon-coordinates.md) credits **Bethesda Game Studios** for local save/content/native inputs, **Ghidra contributors** and **Eclipse Adoptium/OpenJDK** for separate read-only static tools, and **Python Software Foundation/CPython and zlib/zlib-ng contributors** for installed offline execution/compression. Existing project/maintainer methods retain SOR-S-0124 provenance. The maintainer supplies approximate Save25 traversal/placement observations and independent network documentation. Existing planetary prior-art credit is retained in the linked report/register; no outside implementation or dependency incorporated. Raw/native/private data stays local; no endorsement or publication clearance implied.
+
+## Workshop origin and bounds research — SOR-EXP-0017
+
+Bethesda Game Studios supplies the installed native/content/save relationships analyzed; the maintainer supplies controlled saves, prior observer captures and the visual boundary report. Existing Ghidra/JDK and CPython stdlib/zlib/mmap provide separate read-only analysis facilities. Earlier xEdit output supplies a radius lead, independently checked against ESM bytes. Project save/framing/coordinate readers and maintainer-authored observer lineage remain credited in [source records](docs/SOURCES.md). No external implementation is incorporated and proprietary/raw payloads remain local.

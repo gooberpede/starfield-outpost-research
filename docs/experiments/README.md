@@ -43,3 +43,5 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
 - [SOR-EXP-0011: scoped ordinary beacon detection](ordinary-outpost-beacon-detection.md) — reproducible ordinary identification and saved-state evidence, distinct from unresolved authoritative ownership; critical review required, no live or commit authority.
 
 - [SOR-EXP-0012: save capacity and planetary location](save-capacity-and-planetary-location.md) — three large saves validated; controlled Kreet and mature body/system associations, provisional surface-anchor pairs; offline only, critical review pending.
+
+- [SOR-EXP-0017 — Workshop origin, beacon relocation, persistence and radius](workshop-origin-beacon-relocation-persistence.md): typed writer/center/serializer chain, exact Save25/26 prefix, ordinary definition radius and terrain coverage; [review package](workshop-origin/README.md). Critical review pending; no new live work.

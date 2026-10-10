@@ -1,5 +1,7 @@
 # Initial subsystem map — SOR-EXP-0001
 
+**Latest offline result — SOR-EXP-0017 / SOR-EV-0025, 2026-10-10:** [Workshop origin and persistence](../experiments/workshop-origin-beacon-relocation-persistence.md) identifies the captured concrete Workshop::ExtraData +0x60 vector, an accumulating relocation writer, explicit 12-byte save/load operations, and compensated-center border/terrain consumers. Save25/26 framed bytes and all nine prior snapshots agree. Scoped STRONG semantics/persistence proposed for critical review; ordinary beacon definition radius is 150 native units, configurable fallback 71.40000152587890625. Effective live radius, metre conversion and exact planetary beacon position remain open. Earlier interpretations below are historical, preserved rather than silently promoted. Authored evidence REVIEW-REQUIRED; raw inputs LOCAL-ONLY. No new live work, staging, commit or push.
+
 **Later LIVE evidence — SOR-EXP-0016 / SOR-EV-0024:** [move/save/reload results](../audits/beacon-observer-initial-live-results.md) isolate moved beacon XYZ and a workshop original-minus-current float triple, retained after reload. SOR-H-0010/SOR-ST-0021 propose relocation compensation; operator reports no boundary shift, but native boundary authority/radius and serialized representation unresolved. Exact planetary frame embedding remains open. Nine captures verified; raw LOCAL-ONLY, authored interpretation REVIEW-REQUIRED. Earlier static/offline records below retained.
 
 ## Beacon observer preparation — SOR-EXP-0016

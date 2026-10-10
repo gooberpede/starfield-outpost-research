@@ -125,3 +125,11 @@ python -B -m unittest discover -s save-analysis/scripts -p 'test_*.py'
 ```
 
 Actual workstation interpreter path and final evidence identities: [report/index](../../docs/experiments/planetary-surface-anchor/README.md). [test_surface_anchors.py](test_surface_anchors.py) adds original synthetic axis/wrap/invalid-input, repeated-field/compression/order and truncation checks. Numeric consistency does not prove geography or load authority. No importer or mod API is created.
+
+## Workshop relocation and bounds — SOR-EXP-0017
+
+`research_workshop_origin.py --run UNIQUE_NAME` reads only exact Save25/26 archives selected by prior live final-summary, nine raw capture folders and frozen manifest, ESM catalog/source, executable and existing Ghidra DB files (hashing). Exclusively creates ignored `.local-work/workshop-origin/UNIQUE_NAME`, temporary disk-backed decoding scratch and JSON receipts; scratch is removed. Enforces 40-billion-byte C:/D: available-space floor. Stdlib plus existing project readers; no network, target execution, source save/database/config/Git writes. Requires local archived session and pinned sources in [review package](../../docs/experiments/workshop-origin/README.md). Do not run Python with optimization: assertions enforce evidence checks.
+
+`workshop_prefix` supports the observed modern case-5 no-pre-extra branch and leading 9c/da/4c/84 extras, separate reference/string queues and **zero-resource** Workshop prefix. Nonempty resources/unsupported leading types fail explicitly; following extras and whole-body closure are not claimed. `test_workshop_origin.py` uses original synthetic bytes to challenge scope, truncation, queue and resource failures.
+
+`research_workshop_bounds.py EXE ESM NEW_OUTPUT_JSON` reads selected file-backed PE constants/vtable and bounded ESM records, hashes inputs before/after and exclusively writes one ignored JSON receipt. Parent must exist; use an ignored output path. Unbacked ranges are reported, not interpreted as zeros. Same space guard/std-library/project-reader requirements, no game/database effects. Outputs contain proprietary definitions and stay LOCAL-ONLY. These are research probes, not a production importer/dumper.
