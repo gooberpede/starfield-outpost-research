@@ -1,5 +1,9 @@
 # Implementation and Audit Briefs
 
+- [Observer0.1.1 installed preflight and Phase1 preparation](observer-011-post-deployment-phase1.md)
+  — user-invoked2026-10-10, SOR-D0041; [actual report](../audits/observer-011-post-deployment-preflight.md),
+  return for review before scientific live work; fixed-POI candidate direction retained.
+
 - [Durable-position engine oracle and algorithm reconstruction](CODEX_BRIEF_SOR_durable_position_engine_oracle_algorithm_reconstruction.md):
   invoked2026-10-10 under SOR-D0040; [EXP0021 offline package](../experiments/durable-position-engine-oracle.md),
   review required before deployment/live validation; no commit/push.

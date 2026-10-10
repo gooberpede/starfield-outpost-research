@@ -1,5 +1,24 @@
 # Initial subsystem map — SOR-EXP-0001
 
+## EXP0023 live position/persistence evidence
+
+[Phase1 results](../experiments/engine-oracle/Phase1-results.md) connect observed
+stored-center transitions, retained output, Save26 relocation/compensation and
+state controls. Radius0 and the Save25/002 stale-site counterexample prevent a
+reliable active-workshop oracle claim. Independent association/frame authority,
+native grid acquisition and continuous geography remain open; no new integration
+point or gameplay mutation is established. Critical review pending.
+
+## EXP0022 prospective validation channels
+
+[Phase1](../experiments/engine-oracle/Phase1-Save25-Save26-operator-run-card.md)
+tests stored native-center freshness/identity and saved relocation invariance
+using the installed0.1.1 observer, pending live review. Separately,
+[fixed planetary POIs](../experiments/engine-oracle/fixed-poi-validation-candidates.md)
+may validate shared body/anchor/grid/frame stages if native operation identity
+is demonstrated; city anchors alone do not validate Workshop-specific compensation.
+No arbitrary outpost-count target, new POI travel or scientific promotion.
+
 ## EXP0021 construction/location/terrain/persistence connection
 
 [Executable model and native oracle](../experiments/durable-position-engine-oracle.md):

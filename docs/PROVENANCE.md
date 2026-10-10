@@ -1,5 +1,30 @@
 # Provenance and Environment Baseline
 
+## EXP0023 / EV0031 Phase1 live provenance
+
+[Results](experiments/engine-oracle/Phase1-results.md) and
+[operator ledger](experiments/engine-oracle/Phase1-live-session.md) retain the
+approved0.1.1/fresh-session identity, exact16-condition sequence and cleanup.
+All9,412 raw sections reverified offline; four protected Save25/26 original/archive
+hashes and frozen inputs/predictions unchanged. Local receipts retain paths,
+timestamps, instrument/source/process metadata, Workshop IDs, incidental exit-save
+turnover and corrected audit assumptions. No pointer identity substitutes for a
+Workshop join; no publication clearance. Raw/private metadata LOCAL-ONLY, selected
+authored table/reports REVIEW-REQUIRED. Existing SOR-S-0113/0132 sources/tooling;
+no new dependency, third-party reuse, staging, commit or push.
+
+## EXP0022 actual0.1.1 deployment provenance
+
+[Installed preflight](audits/observer-011-post-deployment-preflight.md) identifies
+the exact approved engine-oracle-011-02 ZIP, PE-exported version, packaged/config
+hashes and all five installed/staged members. Historical build authority
+`OFFLINE_NOT_DEPLOYED` is preserved as build-time provenance; user deployment
+and smoke-session0.1.1 READY/SFSE log now corroborate actual loading.
+Profile display name and gameplay remain user-reported. No scientific checkpoint
+data in that smoke session; no native-equivalence promotion. Current installed
+identities, Save25/26 original/archive hashes and5298-file preservation are retained
+in the local receipt; no package/config rebuild or mutation.
+
 ## EXP0021 oracle/model provenance extension
 
 [Review receipts](experiments/engine-oracle/review.md) pin the original executable

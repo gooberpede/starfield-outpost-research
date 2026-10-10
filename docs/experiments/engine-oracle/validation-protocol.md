@@ -1,5 +1,20 @@
 # Frozen validation protocol
 
+**2026-10-10 executed supplement, SOR-D0042 / EXP0023:**
+[Phase1 results](Phase1-results.md) preserve all16 conditions and the original
+qualification rules. Conditional exact centers and stale-site counterexamples
+do not promote to active oracle/grid equivalence. Original predictions unchanged;
+no posthoc epsilon, coordinate offset or radius expectation fitted.
+
+**2026-10-10 supplement, SOR-D0041:** [Phase1 operator card](Phase1-Save25-Save26-operator-run-card.md)
+implements the existing frozen Save25/26 comparisons with the deployed0.1.1
+instrument, pending review/live approval. [Fixed planetary POIs](fixed-poi-validation-candidates.md)
+may provide additional independent validation cases only after relevant shared
+native-algorithm use is demonstrated. Choose future outpost/POI cases by branch
+coverage, provenance and discriminatory value, not an arbitrary outpost count.
+Known fixed anchors are not blind holdouts, and cannot substitute for Workshop
+compensation tests. The original predictions/comparison policy below are unchanged.
+
 Precommitted under EXP0021 before **any new runtime oracle output**. Selected
 [inputs](inputs.json) and [predictions](predictions.json) contain23 known active
 cases: Save25/26 each002/003, S1/S1C, and17 mature Save52. They are discovery

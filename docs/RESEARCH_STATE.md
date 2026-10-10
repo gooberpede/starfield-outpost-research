@@ -1,5 +1,26 @@
 # Current Research State
 
+**Latest live result — SOR-EXP-0023 / SOR-EV-0031, 2026-10-10:**
+[Phase1 results](experiments/engine-oracle/Phase1-results.md):16 checkpoints,
+9,412 raw sections verified; protected Save25/26 unchanged, cooperative retirement,
+normal operator exit and undeployment confirmed. Native center transitions match
+003 then002 bytes conditionally; Save25/002 retains prior003 even with reported
+build-open. Radius0 throughout, active association/frame authority unresolved.
+No qualified mismatch or full oracle/grid equivalence. Critical review pending;
+no automatic next experiment. Earlier preflight status below is historical.
+
+**Latest installed preflight — SOR-EXP-0022 / SOR-EV-0030, 2026-10-10:**
+[Actual observer0.1.1 deployment](audits/observer-011-post-deployment-preflight.md)
+matches the final approved ZIP and Vortex staging; exported pluginVersion0x00010001,
+config/output path, helper controls, disk guard and Save25/26 preservation pass.
+Smoke startup READY/SFSE log corroborate the expected loaded binary; Save25 load/
+build-mode/normal exit remain user-reported. No scientific checkpoints/oracle
+equivalence. [Phase1 Save25/26 card](experiments/engine-oracle/Phase1-Save25-Save26-operator-run-card.md)
+returned for review before live work. [Fixed planetary POIs](experiments/engine-oracle/fixed-poi-validation-candidates.md)
+are conditional independent validation candidates, requiring shared native-algorithm
+evidence; no arbitrary outpost-count target or POI trip added. No observer rebuild,
+launch, real-session request, staging, commit or push in preflight.
+
 **Latest offline preparation — SOR-EXP-0021 / SOR-EV-0029, 2026-10-10:**
 [Durable-position model and engine oracle](experiments/durable-position-engine-oracle.md)
 provides an original executable saved-frame model with23 active predictions,

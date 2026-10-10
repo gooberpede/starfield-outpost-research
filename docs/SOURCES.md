@@ -1,5 +1,27 @@
 # Source Register
 
+## EXP0023 live evidence source extension
+
+[Phase1 results](experiments/engine-oracle/Phase1-results.md), SOR-EV-0031,
+use the unchanged maintainer-authored observer/helpers (SOR-S-0132 lineage),
+installed CPython/stdlib (SOR-S-0113), Bethesda native/save inputs and existing
+SFSE installation. Maintainer supplies operator conditions, load/travel/UI and
+exit reports; those remain distinct from captured bytes. No new external
+consultation, dependency, code reuse, contact or permission basis. Full raw and
+private receipts local; original source/tool credits retained.
+
+### SOR-S-0132 extension — Installed0.1.1 deployment and smoke startup
+
+[EXP0022 / EV0030](audits/observer-011-post-deployment-preflight.md) reads exact
+approved ZIP/build, actual installation/Vortex staging/deployment metadata,
+existing smoke READY/startup module inventory and SFSE logs. User-reported
+profile/gameplay are separate from directly checked loaded-binary readiness.
+Original project post-deployment script methods adapted locally; Python stdlib/
+Windows metadata APIs only, no new dependency/incorporation/contact. Protected
+raw/session/save evidence remains LOCAL-ONLY; no scientific oracle claim.
+Fixed-POI candidate note reuses original SOR-S-0129 installed-anchor/native
+evidence, not third-party prior-art claims or newly executed native research.
+
 ### SOR-S-0133 — Maintainer-owned resource research/reproducer methods
 
 For [EXP0021](experiments/durable-position-engine-oracle.md), read-only connected

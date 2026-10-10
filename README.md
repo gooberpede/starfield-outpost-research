@@ -1,5 +1,18 @@
 # Starfield Outpost Systems Research
 
+**Latest live review — EXP0023:** [Phase1 results](docs/experiments/engine-oracle/Phase1-results.md)
+record16 verified checkpoints, conditional exact centers and a retained-prior-site
+counterexample. Protected Save25/26 unchanged; retirement/exit/undeployment complete.
+Active oracle/frame authority and native grid equivalence remain unresolved;
+critical review pending. The preflight status below is historical.
+
+**Latest readiness review — EXP0022:** [Observer0.1.1 installed preflight](docs/audits/observer-011-post-deployment-preflight.md)
+passes and smoke startup readiness is corroborated. [Phase1 Save25/26 run card](docs/experiments/engine-oracle/Phase1-Save25-Save26-operator-run-card.md)
+awaits review before scientific live work; no new oracle comparisons. Fixed POIs
+are [conditional validation candidates](docs/experiments/engine-oracle/fixed-poi-validation-candidates.md),
+without an arbitrary outpost-count target. Earlier offline deployment descriptions
+below are historical; the approved0.1.1 instrument was not changed by this preflight.
+
 **Latest offline review package — EXP0021:** [Durable-position model and engine
 oracle](docs/experiments/durable-position-engine-oracle.md) includes23 saved-frame
 predictions, native center/grid acquisition contracts and observer0.1.1 offline

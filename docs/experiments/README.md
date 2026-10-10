@@ -1,5 +1,15 @@
 # Experiments
 
+- SOR-EXP-0023: [Phase1 Save25/Save26 results](engine-oracle/Phase1-results.md),
+  [live ledger](engine-oracle/Phase1-live-session.md) and
+  [selected checkpoints](engine-oracle/Phase1-checkpoints.csv):16 verified captures,
+  conditional native center matches and stale-site counterexample; critical review
+  pending, active oracle/grid authority unresolved, cleanup complete.
+
+- SOR-EXP-0022: [observer0.1.1 actual-installation preflight](../audits/observer-011-post-deployment-preflight.md)
+  and [Phase1 Save25/Save26 operator card](engine-oracle/Phase1-Save25-Save26-operator-run-card.md);
+  review required before live science, fixed-POI candidates recorded separately.
+
 - [SOR-EXP-0021: durable-position model and engine oracle](durable-position-engine-oracle.md)
   — saved-frame reproducer, independent native-output contracts, observer0.1.1,
   frozen predictions and reviewed prospective run card; no live equivalence yet.

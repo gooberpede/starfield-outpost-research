@@ -1,5 +1,14 @@
 # Credits
 
+## Phase1 live position experiment — SOR-EXP-0023
+
+[Phase1 results](docs/experiments/engine-oracle/Phase1-results.md) credit Bethesda
+Game Studios for installed native/save inputs, the maintainer for controlled
+saves/operator actions and original observer lineage, existing SFSE contributors
+for the installed loader environment, and Python Software Foundation/CPython
+contributors for offline stdlib orchestration. Existing source/permission records
+remain authoritative; no new third-party implementation incorporated.
+
 For [SOR-EXP-0021 position model and engine oracle](docs/experiments/durable-position-engine-oracle.md),
 the maintainer-owned resource research/reproducer methods retain exact revision/
 file provenance under SOR-S-0133 / SOR-P-0002; no sibling implementation copied.

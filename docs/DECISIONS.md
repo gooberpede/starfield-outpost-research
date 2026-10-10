@@ -1,5 +1,36 @@
 # Decision Register
 
+## SOR-D-0042 — Approved Phase1 observer0.1.1 live session
+
+2026-10-10 Australia/Sydney: user explicitly approves the preflight and Phase1
+operator card and requests proceeding with deployed observer0.1.1, offering to
+launch through SFSE after the go-ahead. Authorizes the card's serial Save25/26
+closed/open/no-action/closed-after conditions at003/002, fresh-session verification,
+settled snapshot requests, cooperative STOP and post-exit preservation/analysis.
+User retains launch/load/travel/build-mode/normal-exit control. [EXP0023 / EV0031
+live ledger](experiments/engine-oracle/Phase1-live-session.md). No observer/config
+change, debugger/native call, save automation/overwrite, placement/move/delete,
+forced termination, POI experiment, staging, commit, push or disclosure authority.
+
+## SOR-D-0041 — Observer0.1.1 installed preflight, Phase1 card and fixed-POI candidates
+
+2026-10-10 Australia/Sydney: user reports Vortex profile `Starfield - SFSE`
+deployment and successful startup/Save25/build-mode/exit smoke test. Explicitly
+requests normal actual-file preflight and Phase1 Save25/26 operator card, returned
+for review **before** live science; separately requests fixed planetary POIs as
+conditional independent reproducer cases without an arbitrary outpost-count target.
+[Retained scope](implementation-briefs/observer-011-post-deployment-phase1.md),
+[EXP0022 / EV0030 installed report](audits/observer-011-post-deployment-preflight.md)
+and [Phase1 card](experiments/engine-oracle/Phase1-Save25-Save26-operator-run-card.md).
+Allowed offline checks/probe/synthetic helper tests/docs only. Approved0.1.1
+package/installed bytes remain unchanged; startup readiness corroborates loader
+success, not scientific equivalence. Fixed-POI algorithm relevance must be
+demonstrated before oracle use; earlier known anchors are not blind holdouts.
+No launch/load, real-session request, observer/config/save replacement, native call,
+debugger, Vortex/profile change, staging, commit, push or disclosure in this task.
+This supersedes0.1.1's historical not-deployed status only, preserving science
+classifications and separate live review/authorization gates.
+
 ## SOR-D-0040 — Offline durable-position model and engine-oracle preparation
 
 2026-10-10 Australia/Sydney: maintainer invokes [retained brief](implementation-briefs/CODEX_BRIEF_SOR_durable_position_engine_oracle_algorithm_reconstruction.md)
