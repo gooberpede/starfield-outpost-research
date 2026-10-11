@@ -192,3 +192,7 @@ labelled from static validation. Python Software Foundation/CPython contributors
 supply the installed standard-library runtime. Maintainer-controlled action briefs
 and existing project parsers provide original controls/methods with retained local
 hashes. No outside implementation or proprietary payload incorporated.
+
+### Durable position resumption
+
+SOR-EXP-0030 builds on the existing Bethesda native/content evidence, maintainer-operated observer captures and project-authored readers/math credited above. An explicitly authorized specialist independently traced the reflected-axis defect, precise projection/quantization and bounded CPU-selected sine kernels; the independent reviewer supplies completion scrutiny separately. [Source/provenance ledger](docs/experiments/position-resumption/dependencies.md). No outside implementation or new third-party code was incorporated.

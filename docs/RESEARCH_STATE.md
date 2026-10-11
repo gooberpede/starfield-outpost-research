@@ -1,5 +1,7 @@
 # Current Research State
 
+**Durable position resumption — SOR-EXP-0030 / SOR-EV-0038, 2026-10-11:** [Report](experiments/durable-position-resumption.md), [algorithm/branch ledger](experiments/position-resumption/algorithm.md) and [review matrix](experiments/position-resumption/review.md) record version2 packed/native tag2/3 axis correction, explicit upstream unknowns, bounded CPU-kernel/angular diagnostics,23 preserved regressions, fresh23-save decoding and16 Phase1 rechecks/9,412 raw sections.32 loaded input comparisons pass;10 stored tuples match but none is fresh identity-qualified. Native grid equivalence and blind native holdouts remain NOT TESTED. Independent reviewer ESCALATE; full native equivalence remains incomplete. No historical semantic promotion/live authority/staging/commit/push.
+
 **Extractor/resource protocol trial — SOR-EXP-0029 / SOR-EV-0037, 2026-10-11:**
 [Report](experiments/extractor-resource-association.md),
 [frozen contract](experiments/extractor-resource-contract.md) and

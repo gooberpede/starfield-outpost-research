@@ -1,0 +1,31 @@
+control,property,actual,result
+Save3,ordinary beacon prefixes,0,PASS scoped zero detection
+S0,ordinary beacon prefixes,0,PASS scoped zero detection
+S0C,ordinary beacon prefixes,0,PASS scoped zero detection
+HIST-0245,ordinary beacon prefixes,0,PASS scoped zero detection
+S1/S1C,no-action beacon bits and frame,equal,PASS byte comparison
+S2/S2C,no-action beacon bits and frame,equal,PASS byte comparison
+S3/S3C,no-action beacon bits and frame,equal,PASS byte comparison
+S4/S4C,no-action beacon bits and frame,equal,PASS byte comparison
+S5/S5C,no-action beacon bits and frame,equal,PASS byte comparison
+S6/S6C,no-action beacon bits and frame,equal,PASS byte comparison
+S7/S7C,no-action beacon bits and frame,equal,PASS byte comparison
+Save52/81a75b,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/81b58f,zero compensation; saved disabled mask,zero; disabled=True,EXCLUDED active model domain
+Save52/81bf2a,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/825f95,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/828ee2,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/82a0c0,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/82be17,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/830a80,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/832210,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/832512,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/83388f,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/844cc6,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/8483f2,zero compensation; saved disabled mask,zero; disabled=True,EXCLUDED active model domain
+Save52/84b8fb,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/84e101,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/84ede9,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/84ff81,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/855619,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation
+Save52/859e53,zero compensation; saved disabled mask,zero; disabled=False,PASS input observation

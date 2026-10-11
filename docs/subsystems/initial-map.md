@@ -141,3 +141,7 @@ by identities. Controlled iron lifecycle agrees; Save52 yields 63 recognized
 references / 29 resources. Ownership, actual production, deposit eligibility,
 power/rates/storage remain separate. X-Tech static mapping exists, placement
 unobserved. Review gate and coverage are explicit; historical rows below retained.
+
+### Durable-position resumption, SOR-EXP-0030
+
+[Version2 research](../experiments/durable-position-resumption.md) corrects packed/native tag2/3 domains while retaining23 frozen cases. Body and loaded inputs are independently corroborated; native arithmetic is statically recovered; site-base association remains model-predicted and fresh end-to-end native grid UNKNOWN. [Branch map](../experiments/position-resumption/dependencies.md), [stage/review matrix](../experiments/position-resumption/review.md). No accepted historical finding or integration/liveness classification is promoted.

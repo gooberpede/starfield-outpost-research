@@ -330,3 +330,7 @@ remain separate. Installed content is not asserted identical to historical conte
 All failed runs are retained locally. Review exporter adapts project-owned
 completion-protocol/package.py with provenance; supplied brief unchanged.
 No raw payload publication, original save/config/database edits or live execution.
+
+## SOR-EV-0038 — Durable position resumption
+
+2026-10-11. [Report](experiments/durable-position-resumption.md), [primary native export identities](experiments/position-resumption/native-sources.csv) and [review](experiments/position-resumption/review.md). Retail1.16.244.0 executable remains SHA2567e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28, static base140000000; installed ESM remains1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7. Original source/model/reader/observer/frozen outputs preserved. Fresh23-save decode and raw Phase1 before/after hashes remain local; selected authored numerical tables REVIEW-REQUIRED. Specialist new readOnly/noanalysis exports preserve17 DB/reader files; failed PowerShell selector invocation retained beside successful quoted retry. No source raw native text, memory, saves or binaries incorporated.

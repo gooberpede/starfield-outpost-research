@@ -1,0 +1,10 @@
+path,bytes,sha256,classification
+.local-work/recon/static-exhaustion-47.tsv,19255,76ef92f9ee29d6e98f188ffb80bd91e418f3b3a298aa53f188a5064f5681a63f,LOCAL-ONLY primary native export
+.local-work/recon/static-exhaustion-51.tsv,90661,86e19bf475e0c934e5ec267fffc7568077763540aad3730fb0ee8bfddb56bdbc,LOCAL-ONLY primary native export
+.local-work/recon/activated-grid-01.tsv,44305,63d779c0066b6657db66f68355c8fcb54c78c3222326cf230a3e9d2075a83408,LOCAL-ONLY primary native export
+.local-work/recon/surface-projection-14.tsv,54133,adfad6c38019098a8b37b398e3a0a8211f64fa582289af69d231ab30d2b5e230,LOCAL-ONLY primary native export
+.local-work/recon/workshop-origin-04.tsv,78699,c087406d27e0c8c04ba79e496b537ff415e264ac77f46584085fdc68b329e9a0,LOCAL-ONLY primary native export
+.local-work/recon/resumption-native-math-01.tsv,18557,c23c782084728cee1bfb4e8d3a155b9b74691a23fe5d010bf1b0c647fa4c7da6,LOCAL-ONLY primary native export
+.local-work/recon/resumption-native-math-02.tsv,36786,43bf2ae513076b6fba8666481d87f87878b79dce5c292a7816ffff5e624fbe08,LOCAL-ONLY; partial failed invocation retained
+.local-work/recon/resumption-native-math-02-retry.tsv,65995,b706a891aa6645cac2448c2af505ad78461f8fa55324a8fecfb2f52424f3d468,LOCAL-ONLY primary native export
+.local-work/recon/active-outpost-static-27.tsv,9548,70e7e6513db109e7f1eb503a69abcfd20f222f04cf486e366b578b07bb3b4de9,LOCAL-ONLY primary native export

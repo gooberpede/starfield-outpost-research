@@ -454,3 +454,7 @@ declaration is contextual source evidence, not independently executed behavior.
 Two failed remote xEdit source fetches yielded no source; no xEdit implementation
 was incorporated. Locally inspected IRES diagnostic script comments/old dictionary
 were lookup context only; authorship not established, no code adapted/executed.
+
+### SOR-S-0124/0127/0128/0132 extension — Durable position resumption
+
+[EXP0030](experiments/durable-position-resumption.md) uses existing project readers/math and installed Bethesda native/ESM/save evidence, plus archived maintainer-operated observer captures. Exact native export hashes/paths are in [the source manifest](experiments/position-resumption/native-sources.csv). Specialist traces recovered tag2/3 axis reversal, mixed projection, nested quantization and both bounded SIMD sine kernels; code is original source-informed arithmetic, not a clean-room claim. Ghidra12.1.2/JDK21 and CPython3.14.3 stdlib are existing separate tools;17 DB/reader hashes preserved. No new third-party code/dependency, download, network consultation, contact, permission basis or disclosure. Existing observer lineage SOR-P-0002 unchanged; it was not rebuilt/deployed.

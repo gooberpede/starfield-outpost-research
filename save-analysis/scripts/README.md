@@ -160,3 +160,7 @@ decoder scratch is cleaned. `test_extractor_resources.py` has synthetic tests;
 `--corpus-run` additionally verifies primary archived bytes and writes local receipt.
 [Method, commands, exact coverage and review](../../docs/experiments/extractor-resource-association.md).
 Raw inputs and inventories are LOCAL-ONLY; no new dependency or live authority.
+
+## Durable position resumption (SOR-EXP-0030)
+
+`durable_position_v2.py` preserves v1 and consumes its explicit extracted-input schema; returns center/residual bits and distinct native/packed cell domains, with missing qualified site cells UNKNOWN. `position_quantizer_diagnostic.py` implements recovered mixed arithmetic and explicit bounded AVX/FMA sine branches; scalar cosine is a disclosed surrogate, and its output never fills v2 missing inputs. `verify_position_v2.py` compares all23 frozen regressions and optional fresh extraction/archived raw Phase1 evidence, with caller-available40GB C/D guards and new output directories only. New tests are pure offline. No target, save, database, network, dependency or Git mutations. [Scope, commands and limits](../../docs/experiments/durable-position-resumption.md).

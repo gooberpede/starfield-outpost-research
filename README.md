@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**Durable position resumption — SOR-EXP-0030:** [Version2 and report](docs/experiments/durable-position-resumption.md) correct packed/native reflected-axis handling, preserve23 frozen predictions and independently recheck archived inputs. [Review/matrix](docs/experiments/position-resumption/review.md) explicitly leaves fresh native grid equivalence NOT TESTED. Independent review ESCALATE: full native equivalence needs separately authorized evidence. Offline only; no commit/push.
+
 **Extractor/resource trial — SOR-EXP-0029:**
 [Scoped association](docs/experiments/extractor-resource-association.md) resolves
 controlled iron creation/deletion and 63 Save52 references / 29 resources through

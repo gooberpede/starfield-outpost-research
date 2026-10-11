@@ -1,0 +1,4 @@
+body,world,source_pair_le,record_file_offset,pair_record_decoded_offset,anchor_recheck,avx_cell,fma_cell,native_workshop_expectation
+0003F59A,002CFC4A,e629c5a1a8e2c5bfb1d19ca651eae63f,1402045128,30849,PASS exact binary64 values,"[0, 35623, 22567]","[0, 35623, 22567]",NOT APPLICABLE; fixed-anchor operation only
+0003F5A1,0001251B,07628f978f3f0240e5fbad4a75c1e63f,1402112352,55255,PASS exact binary64 values,"[0, 16985, 33329]","[0, 16985, 33329]",NOT APPLICABLE; fixed-anchor operation only
+0005E2B6,0027CFA2,67079e63db09f63f523c081a81bfb63f,1417930473,47010,PASS exact binary64 values,"[0, 30220, 46937]","[0, 30220, 46937]",NOT APPLICABLE; fixed-anchor operation only
