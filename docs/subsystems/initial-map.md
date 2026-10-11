@@ -1,5 +1,21 @@
 # Initial subsystem map — SOR-EXP-0001
 
+## EXP0026 placement/oracle acquisition latency
+
+[Latency follow-up](../experiments/event-latency/README.md) changes external
+transport/derived evidence representation, preserving center/grid ABI, native
+outputs and frame requirements. First prospective live configuration remains
+two-site center-only. No saved-layout/native semantics are promoted by disposable
+timing or durability qualification.
+
+## EXP0025 event-associated position acquisition
+
+[Scoped adapter and correction](../experiments/event-instrumentation/README.md)
+implement producing center and independent grid scopes. Actual translated axes
+are register values; the result-site center local is pretranslation. This is
+offline instrumentation qualification, not new live center/grid equivalence or
+a persisted layout promotion. Different external-debugger sequence awaits review.
+
 ## EXP0024 placement, ProcGen and UI event channels
 
 [Report](../experiments/event-associated-position-oracle-and-build-mode.md)

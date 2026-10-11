@@ -1,5 +1,20 @@
 # Experiments
 
+- SOR-EXP-0028: [final thread-control failure analysis](event-latency/thread-control-final-report.md)
+  and [review](event-latency/thread-control-final-review.md). Completed outcome B:
+  ABANDON EXTERNAL DEBUGGER PATH; actual narrow repairs failed adversarial teardown.
+  Original science/baselines retained; no new live candidate or attachment proposal.
+
+- SOR-EXP-0026: [external adapter latency](event-latency/README.md),
+  [comparison/qualification](event-latency/qualification.md), [review](event-latency/review.md)
+  and [center-only smoke proposal](event-latency/operator-card.md). Preserved0.1.2,
+  lower-latency durable0.1.3 transport; no live execution.
+
+- SOR-EXP-0025: [event-associated instrumentation](event-instrumentation/README.md),
+  [qualification](event-instrumentation/qualification.md) and
+  [prospective card](event-instrumentation/operator-card.md). Scoped external
+  software-breakpoint candidate; frozen model unchanged, no live execution.
+
 - SOR-EXP-0024: [event-associated oracle and preview investigation](event-associated-position-oracle-and-build-mode.md),
   [ranked design](event-oracle/acquisition-design.md) and [review](event-oracle/review.md).
   Offline typed ownership/invalidation/readiness graph; no new live observations
@@ -66,3 +81,7 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
 - [SOR-EXP-0012: save capacity and planetary location](save-capacity-and-planetary-location.md) — three large saves validated; controlled Kreet and mature body/system associations, provisional surface-anchor pairs; offline only, critical review pending.
 
 - [SOR-EXP-0017 — Workshop origin, beacon relocation, persistence and radius](workshop-origin-beacon-relocation-persistence.md): typed writer/center/serializer chain, exact Save25/26 prefix, ordinary definition radius and terrain coverage; [review package](workshop-origin/README.md). Critical review pending; no new live work.
+
+- **SOR-EXP-0027 / SOR-EV-0035 — [Adapter startup fail-fast](event-latency/startup-failfast-investigation.md):**
+  pinned0.1.3 causal repro, scoped0.1.4 correction and [qualification/review](event-latency/startup-review.md).
+  Original primary error unresolved; runtime counterexample retained, no live authority.

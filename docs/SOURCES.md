@@ -1,5 +1,49 @@
 # Source Register
 
+## EXP0026 external adapter latency
+
+[Report](experiments/event-latency/README.md), EV0034, preserves EXP0025 source/
+helper/fixture/binary/raw baselines. `capture_epoch.h` adapts only the writer type
+of project `runtime/beacon-observer/capture.h` SHA256
+eec78be8e1f73e70c5c3b3a23b8f0870da16ec081bc4f47b94debe8905aae1f8,
+excluding unused census/run methods. Adapted method text is checked mechanically.
+Shared observer/EXP0002 helpers are unchanged; SOR-S-0132/SOR-P-0002 remain.
+
+**SOR-S-0137:** Microsoft, [FlushFileBuffers](https://learn.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-flushfilebuffers),
+consulted2026-10-11 for explicit flush semantics/repeated-flush inefficiency;
+existing SOR-S-0136 supplies the debug-event all-stop contract. Original WAL/
+profiler/materializer/tests use installed MSVC/SDK and Python stdlib only. No
+documentation code, new third-party implementation/dependency or download.
+Power-loss behavior is not established by a successful API call or readable hash.
+Point-of-use discussion in [the report](experiments/event-latency/README.md).
+
+## EXP0025 event-associated instrumentation sources
+
+[Review](experiments/event-instrumentation/README.md), EV0033, reuses existing
+project `runtime/beacon-observer/capture.h` and `runtime/exp0002/win_support.h`/
+`core.h` guarded readers/writer/hash facilities without changing those sources.
+Their SOR-S-0132 maintainer-informed provenance and SOR-P-0002 remain applicable.
+Pinned Bethesda module SOR-S-0127 and ignored instruction exports supply native
+contracts; no proprietary function implementation is copied into the fixture.
+Original C++/MASM/stdlib code uses installed Microsoft tools/Windows SDK and
+CPython; no detour/assembler/dependency download or third-party incorporation.
+
+Maintainer-owned conceptual consultation under SOR-P-0002: reference-handles
+revision6a77579a184c64e0c080c8f3b7883c34bd17e24b, event_buffer.h/menu_return.h
+and existing acquisition-design paths; resource-research README at
+a23e1c337bc369232d6ce463552a53617bb918e2 and resource-reproducer README at
+a8ff1c788bca415f571f06769ab3e712fa674f75. Methods of independent oracle separation,
+invocation identity and health/evidence/survival separation are conceptually used;
+no sibling code, constants, quotas or embedded third-party material copied.
+Exact local consulted-file hashes are in the review provenance receipt.
+
+**SOR-S-0136:** Microsoft, [Debugging Events](https://learn.microsoft.com/en-us/windows/win32/debug/debugging-events)
+and [ContinueDebugEvent](https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-continuedebugevent),
+consulted2026-10-11. OS event-stop/continue contract informs the original scoped
+adapter; documented behavior is independently tested on disposable processes.
+No documentation example/code incorporated. Point-of-use citations in the
+[acquisition contract](experiments/event-instrumentation/contract.md).
+
 ## EXP0024 native inputs and consultation
 
 [Report](experiments/event-associated-position-oracle-and-build-mode.md), EV0032,
@@ -332,3 +376,52 @@ Bethesda Game Studios, locally installed Starfield.esm, SFBGS050.esm and SFBGS05
 ### SOR-S-0103 / SOR-S-0105 / SOR-S-0113 / SOR-S-0124 / SOR-S-0127 / SOR-S-0128 / SOR-S-0132 extension — Workshop relocation and bounds
 
 [SOR-EXP-0017](experiments/workshop-origin-beacon-relocation-persistence.md) uses Bethesda installed native/content/save evidence, prior xEdit radius observation (fresh independent ESM parse), archived maintainer-operated observer captures and project-owned framing/ESM/save readers at starting HEAD `ca80f1659b3b6fb798388b058d73a4989d6fe9e0`. Original scripts infer only supported typed/native/modern-prefix relationships. Ghidra 12.1.2/JDK21 and CPython 3.14.3 stdlib zlib/mmap are separate existing execution tools; no package install, source incorporation or outside code consultation. SOR-S-0132 / SOR-P-0002 source lineage remains credited for the earlier observer; this pass does not copy/deploy/rebuild it. Operator boundary observation remains separate from byte/native findings. All proprietary/raw/full native payloads stay LOCAL-ONLY; selected authored facts require review. No external contact, fork, PR or disclosure.
+
+### SOR-S-0112 operational consultation — center-only procedure, 2026-10-11
+
+Read installed `sfse_readme.txt` only:0.2.21 for game1.16.244 describes Steam running
+and `sfse_loader.exe` for SFSE. Readme SHA-256
+`95098f603fecb7cba8459dde2e4ac14b0c8dcf7361a469d97b8e554c6b9321e1`.
+[Run card](experiments/event-latency/center-only-live-run-card.md) instead selects
+ordinary Steam for the external debugger smoke, subject to loaded-module and
+save/content checks. No SFSE execution, copied implementation, redistribution or
+new dependency. Project-owned `debugger/exp0002a/process_read.py` supplies bounded
+read-only process primitives to the new original operational checker; source
+provenance remains SOR-S-0132/SOR-P-0002. Windows APIs/PowerShell/CPython are existing
+installed facilities, not newly vendored implementation. Live checks unexecuted.
+
+### SOR-S-0139 — Microsoft thread/debug-event contracts
+
+2026-10-11, [SOR-EXP-0028](experiments/event-latency/thread-control-final-report.md):
+Microsoft's [debug thread handle rights](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-create_thread_debug_info),
+[SuspendThread](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-suspendthread),
+[GetExitCodeThread](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodethread),
+[NtQueryObject](https://learn.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntqueryobject),
+[Debugging Events](https://learn.microsoft.com/en-us/windows/win32/debug/debugging-events)
+and [ContinueDebugEvent](https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-continuedebugevent)
+informed original API experiments and interpretation, independently checked by
+actual fixture/API traces. Installed SDK10.0.26100.0 winternl declarations supplied
+the handle-information types; no source vendored or implementation copied.
+NtQueryObject is diagnostic only, dynamically resolved from the installed OS;
+its documented change/removal caveat is not a new production dependency.
+Existing installed MSVC14.51.36231/compiler19.51.36256 and Python/Windows facilities
+execute only on original disposable experiments. Build commands/hashes and generated
+source are local. Original project adapter/fixture/reader provenance remains
+SOR-S-0132/SOR-P-0002. No third-party implementation, download or upstream contact.
+
+### SOR-S-0138 — Microsoft CRT, fail-fast and diagnostic tools
+
+2026-10-11, [SOR-EXP-0027](experiments/event-latency/startup-failfast-investigation.md):
+Microsoft's [__fastfail](https://learn.microsoft.com/en-us/cpp/intrinsics/fastfail?view=msvc-170),
+[unhandled C++ exceptions](https://learn.microsoft.com/en-us/cpp/cpp/unhandled-cpp-exceptions?view=msvc-170)
+and [CDB exception commands](https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmds/sx--sxd--sxe--sxi--sxn--sxr--sx---set-exceptions-)
+informed interpretation and original diagnostic commands, not copied implementation.
+Installed MSVC14.51.36231 CRT exe_common/exe_wmain and SDK10.0.26100.0 UCRT
+abort/terminate source were consulted read-only; SDK source is not assumed to
+match OS UCRT10.0.19041.3636 byte-for-byte. Actual DLL disassembly corroborates
+termination behavior. CDB10.0.19041.5609 and installed dumpbin/MSVC tools executed
+only on authored disposable binaries, using local symbols/no downloads; exact
+hashes/commands/module versions in private receipts. Existing tool execution is
+within the explicit brief; no Microsoft source, symbols, runtime redistributable,
+example, binding or new dependency incorporated. Original project event adapter,
+collector/reader/fixtures retain SOR-S-0132/SOR-P-0002 provenance; no upstream contact.

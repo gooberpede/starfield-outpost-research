@@ -1,5 +1,18 @@
 # Implementation and Audit Briefs
 
+- [Final external debugger thread-control recovery](CODEX_BRIEF_SOR_FINAL_THREAD_CONTROL_RECOVERY.md):
+  invoked2026-10-11, SOR-D-0048; [completed outcome B](../experiments/event-latency/thread-control-final-report.md)
+  closes this path after actual disposable repair/teardown failures. No further
+  debugger iteration, live candidate, game access, staging, commit or push.
+
+- [External event adapter latency](CODEX_BRIEF_SOR_event_adapter_latency.md):
+  preserve0.1.2, profile disposable costs and qualify durable0.1.3 improvement;
+  no game launch/attachment, staging, commit or push.
+
+- [Event-associated oracle instrumentation](CODEX_IMPLEMENTATION_BRIEF_SOR_event_associated_oracle_instrumentation.md)
+  — invoked2026-10-11, SOR-D0044; [EXP0025 review](../experiments/event-instrumentation/README.md).
+  Implementation/disposable qualification only; live work requires separate review.
+
 - [Observer0.1.1 installed preflight and Phase1 preparation](observer-011-post-deployment-phase1.md)
   — user-invoked2026-10-10, SOR-D0041; [actual report](../audits/observer-011-post-deployment-preflight.md),
   return for review before scientific live work; fixed-POI candidate direction retained.
@@ -61,3 +74,12 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [Event-associated oracle and build-mode failure](CODEX_BRIEF_SOR_event_associated_oracle_and_build_mode_failure.md): invoked2026-10-11, SOR-D-0043;
   [EXP0024 result/review](../experiments/event-associated-position-oracle-and-build-mode.md).
   Brief retained unchanged; offline research/design only, no commit/push.
+
+- [Center-only live procedure preparation](CODEX_BRIEF_SOR_center_only_live_procedure.md):
+  2026-10-11 SOR-D-0046, following0.1.3 approval; [run card and review](../experiments/event-latency/procedure-review.md).
+  Preparation/offline checks only; no launch/load/attachment or staging/commit/push.
+
+- [Adapter0.1.3 startup fail-fast investigation](CODEX_BRIEF_SOR_adapter_013_startup_failfast_investigation.md):
+  invoked2026-10-11, SOR-D-0047; supplied brief retained unchanged.
+  [EXP0027 result/review](../experiments/event-latency/startup-review.md), offline and
+  disposable only; no Starfield launch/open/memory/attachment or staging/commit/push.

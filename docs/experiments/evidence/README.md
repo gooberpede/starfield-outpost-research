@@ -1,5 +1,20 @@
 # Selected Evidence
 
+- SOR-EV-0036: [EXP0028 final thread-control analysis](../event-latency/thread-control-final-report.md).
+  Completed B;32 diagnostic workflows, five API cases, retained R1/R2/repair
+  negatives and independent postflights. Authored REVIEW-REQUIRED; raw traces,
+  WAL/memory, executables/intermediates/private receipts LOCAL-ONLY. No live
+  qualification, new scientific finding or publication clearance.
+
+- SOR-EV-0034: [EXP0026 latency/transport review](../event-latency/README.md).
+  Authored source/comparison REVIEW-REQUIRED; original0.1.2/all six controls,
+  profiling/WAL/raw/private receipts LOCAL-ONLY. No Starfield oracle evidence,
+  scientific promotion or publication clearance.
+
+- SOR-EV-0033: [EXP0025 instrumentation review](../event-instrumentation/README.md).
+  Authored source/contracts REVIEW-REQUIRED; disposable/raw/native/private receipts
+  LOCAL-ONLY. No new Starfield oracle evidence or publication clearance.
+
 - SOR-EV-0032: [EXP0024 report](../event-associated-position-oracle-and-build-mode.md)
   and [review](../event-oracle/review.md). Authored native analysis/design
   REVIEW-REQUIRED; native exports/raw/private receipts LOCAL-ONLY.
@@ -54,3 +69,10 @@ Avoid OS usernames, personal save names, absolute local paths, or permission cor
 - SOR-EV-0017: [scoped ordinary beacon detector](../ordinary-outpost-beacon-detection.md), minimal numeric ledgers and validation under `../ordinary-outpost-beacon-detection/`; REVIEW-REQUIRED. Full receipts/raw inputs/private oracle remain LOCAL-ONLY; no publication clearance.
 
 - [SOR-EV-0025 — Workshop relocation and bounds](../workshop-origin/README.md): selected capture/native/transition ledgers and local reproduction/provenance; full raw/native evidence LOCAL-ONLY.
+
+- **SOR-EV-0035 / SOR-EXP-0027:** [startup fail-fast investigation](../event-latency/startup-failfast-investigation.md),
+  exact compiled exception boundaries,19-case matrices, preserved pilots and
+  [qualification/review](../event-latency/startup-review.md). Private receipts,
+  dumps, raw fixture WALs and binaries stay in ignored `.local-work/adapter-startup`
+  and separately named event-instrumentation runs. No new Starfield sample or
+  semantic promotion; authored REVIEW-REQUIRED, raw LOCAL-ONLY.

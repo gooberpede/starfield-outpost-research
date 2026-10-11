@@ -1,5 +1,15 @@
 # Function and Operation Register
 
+## EXP0025 acquisition supplement to SOR-FN-0055/0056
+
+[Contract/correction](experiments/event-instrumentation/contract.md), EV0033:
+byte-checked center entryF4AB80/common exitF4AC44, grid callback entryAD0B90/common
+exitAD0E94 and resultAD0D3B. RBP-49 at result is pretranslation center; actual
+translated X/Y are XMM0 at AD0C93/AD0C9C. Seven scoped sites with instructions
+replayed in place by an external debugger candidate. Disposable qualification is
+not a live hit, complete frame proof or validated integration. Historical wording
+below is preserved with this correction; critical review remains required.
+
 ## SOR-FN-0056 — ProcGen lifecycle and event-associated center
 
 SOR-ENV-0002 retail1.16.244.0; [typed map](experiments/event-oracle/native-map.md),

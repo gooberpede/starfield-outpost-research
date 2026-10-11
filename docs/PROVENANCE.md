@@ -1,5 +1,43 @@
 # Provenance and Environment Baseline
 
+## SOR-EXP-0028 / SOR-EV-0036 — Final thread-control failure analysis
+
+2026-10-11. [Completed outcome B](experiments/event-latency/thread-control-final-report.md)
+retains original0.1.2/0.1.3/0.1.4 source/packages/receipts unchanged. Original
+project-authored diagnostic transforms derive from the pinned0.1.4 source and
+fixtures, retaining SOR-S-0132/SOR-P-0002 provenance. Experimental executables have
+distinct hashes, remain ignored, and are not candidates despite inherited event
+format labels. Installed MSVC/SDK/Python/Windows APIs only, SOR-S-0139 primary
+documentation consultation; no third-party implementation incorporated. Starting
+55-file snapshot, private artifact hashes, complete/task patches, all failed pilots
+and protected-input checks are in the [review](experiments/event-latency/thread-control-final-review.md).
+No game process access, external disclosure or new scientific semantics promoted.
+
+## SOR-EXP-0026 / SOR-EV-0034 — Event adapter latency
+
+2026-10-11. Existing uncommitted EXP0025 work is byte-preserved in the ignored
+baseline and prior patches. [New review](experiments/event-latency/review.md)
+distinguishes task delta from the cumulative HEAD patch. Original0.1.2 six-control
+baseline, timing-only derivative and0.1.3 have separate source/compiler/target/
+evidence hashes. Collector adaptation is attributed; shared helpers unchanged.
+SOR-S-0137 is documentation consultation, not copied code. Protected-input and
+baseline checks, retired/failed pilots and raw exclusions are explicit. No live
+game, save/config/database edits, scientific promotion or publication.
+
+## SOR-EXP-0025 / SOR-EV-0033 — Event-associated instrumentation
+
+2026-10-11. Initially only the supplied instrumentation brief was untracked.
+Original scoped debugger/fixtures/inspector and documentation remain uncommitted.
+[Review](experiments/event-instrumentation/review.md) records actual candidate
+hashes, source snapshots, toolchain/OS inputs, independent 32-byte PE guards,
+before/after20-file native/database/frozen receipts and25-checkpoint/14,645-section
+preservation audits including four protected Save25/26 original/archive paths.
+No Starfield invocation, new game build baseline, database edit or scientific
+equivalence. Failed disposable runs remain local with their diagnostics/hashes;
+application-error report and owned-fixture cleanup are disclosed. Historical
+observer0.1.1/version/ZIP/evidence and frozen predictions/protocol unchanged.
+Sources/rights in [SOR-S-0136 and existing source entries](SOURCES.md).
+
 ## SOR-EXP-0024 / SOR-EV-0032 — Offline oracle continuation
 
 2026-10-11, starting HEADdda84e2af385cae8d7f24563aed6c8554dd75076;
@@ -256,3 +294,27 @@ Private root `.local-work/third-party/the-daily-xperience-1798/`: unchanged extr
 ## SOR-SAMPLE-0030 / SOR-EV-0020 — Save25 two-outpost sample
 
 2026-10-09, [SOR-EXP-0014](experiments/two-outpost-site-anchors-and-beacon-coordinates.md). User reports pristine Save3 lineage, SOR-002 near the earlier Kreet beacon and SOR-003 approximately kilometres north, on foot without a landing-area transition. Source-reported conditions, single simultaneous state, not a differential sequence. Source/copy 2,403,744 bytes, SHA-256 `d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f5`; decoded 6,553,789 bytes, SHA-256 `0c27c10c1f07d5a480da4f857072cafc17e198b981350e01de2fa6b09f972cfd`. Final ignored archive `.local-work/savegames/two-outpost-anchor/extract-04/`; exact filename/source metadata in local manifest and supplied brief. Copy hashed before analysis; all available source/archive identities rechecked afterwards. S1/S1C/L2C frozen live originals absent, archived identities/decoded hashes verified instead. [Selected identity ledger](experiments/two-outpost-anchor/manifest.csv). Raw/whole-record/private data LOCAL-ONLY; authored evidence REVIEW-REQUIRED. Original content/mtime preserved; access-time behavior uncontrolled.
+
+## Center-only procedure preparation — SOR-D-0046, 2026-10-11
+
+[Run card/review](experiments/event-latency/procedure-review.md) and original
+`debugger/event-smoke/checks.py` are authored for the requested pre-attachment
+review. The checker imports the unchanged project-owned bounded process reader;
+it uses only installed CPython/PowerShell/Windows facilities, no third-party
+binding or downloaded dependency. SOR-S-0112 local SFSE documentation consultation
+is credited at use. Approved0.1.3 source/tool/ZIP and preserved0.1.2 artifacts are
+not replaced. Only offline input-integrity mode was run; no game process opened,
+launched or attached. No saves/config/analysis databases or repository index edited.
+
+## Adapter startup diagnosis — SOR-D-0047 / EXP0027 / EV0035
+
+2026-10-11: [investigation/review](experiments/event-latency/startup-review.md)
+preserves pinned approved0.1.3,0.1.2 baselines and all original incident receipts.
+Original adapter startup/error handling and qualification harness are narrowly
+adapted from the starting uncommitted tree; new disposable permission/startup
+controls are original stdlib/OS-API work. Collector, writer, profiler, inspector,
+materializer, fixture source and shared observers/readers remain unchanged.
+SOR-S-0138 documents Microsoft consultation/installed separate-tool execution,
+not implementation reuse. No game memory access, system security/config change,
+new dependency, save/database edit, staging, commit, push or disclosure. Raw dumps/
+WALs remain local and excluded. Candidate0.1.4 does not imply live readiness.

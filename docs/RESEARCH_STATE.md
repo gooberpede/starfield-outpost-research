@@ -1,5 +1,68 @@
 # Current Research State
 
+**Final external thread-control decision — SOR-EXP-0028 / SOR-EV-0036, 2026-10-11:**
+[Outcome B: ABANDON EXTERNAL DEBUGGER PATH](experiments/event-latency/thread-control-final-report.md).
+Actual queued owned traps are misclassified after disarming; narrow rewind/query
+repairs still fail safe retirement and encounter suspension denial despite measured
+rights and active liveness queries.32 target workflows/five API experiments retain
+all failures;19 startup/12 health/11 WAL-inspector checks pass independently.
+Original R1 native state remains unknown; clean bytes/detach do not settle queued
+exceptions. [Final review](experiments/event-latency/thread-control-final-review.md)
+returns a frozen diagnosis archive, no live candidate or further debugger iteration.
+SOR-D-0048 closes this approach; earlier run cards remain historical, not current
+authority. Protected inputs/baselines unchanged; no game access/staging/commit/push.
+
+**Startup diagnosis — SOR-EXP-0027 / SOR-EV-0035, 2026-10-11:**
+[Exact0.1.3 reproduction](experiments/event-latency/startup-failfast-investigation.md)
+proves secondary timing-report exceptions can mask startup errors with silent
+fail-fast. Original first rejection remains unrecoverable from retained receipts.
+Candidate0.1.4 reports primary errors and contains telemetry/PID failures;
+[qualification](experiments/event-latency/startup-014-qualification.md) retains a
+threaded pending-replay counterexample, independently of startup controls.
+[Review package](experiments/event-latency/startup-review.md) requires review; no
+new live readiness, game access or scientific result. Original baselines/incident,
+protected saves/frozen inputs preserved. No staging, commit, push or deployment.
+
+**First external center-only attempt, 2026-10-11:** approved card executed through
+live preflight and adapter launch;0.1.3 exited `0xC0000409` before READY/evidence
+root. [Result and review](experiments/event-latency/center-smoke-20261011-result.md)
+records no center acquisition/live qualification. Independent postflight on the
+same surviving process confirmed original site windows and debugger absence.
+User then exited normally/completed Steam sync; protected/frozen inputs pass.
+Root cause UNKNOWN; no retry, code change, staging, commit or push.
+
+**Procedure preparation, 2026-10-11 — SOR-D-0046:** maintainer approved external
+adapter0.1.3; [exact center-only run card](experiments/event-latency/center-only-live-run-card.md)
+and [operational-check review](experiments/event-latency/procedure-review.md) are
+prepared for review before attachment. Ordinary Steam launch is proposed, no SFSE
+loader or Vortex deployment. Offline pins pass; live process/site/restoration
+checks remain unexecuted. No new live evidence or scientific promotion. No
+launch/load/attachment authority, staging, commit or push follows from approval.
+
+**Latest latency review — SOR-EXP-0026 / SOR-EV-0034, 2026-10-11:**
+[External adapter0.1.3](experiments/event-latency/README.md) preserves0.1.2/all six
+controls, measures stopped writer costs and expands derived raw/journal files
+after detach using per-record durable WAL evidence. [Qualification/comparison](experiments/event-latency/qualification.md)
+is disposable only. Frozen model/predictions, protected Save25/26, shared observer
+sources/packages and native/Ghidra inputs remain unchanged. No new live evidence,
+semantic promotion or safe-integration claim. First prospective live configuration
+is exactly two center sites, grid off, under [a separately reviewed card](experiments/event-latency/operator-card.md).
+Authored REVIEW-REQUIRED/raw LOCAL-ONLY; no game launch/attachment, deployment,
+staging, commit, push or publication.
+
+**Latest implementation review — SOR-EXP-0025 / SOR-EV-0033, 2026-10-11:**
+[Scoped event adapter](experiments/event-instrumentation/README.md) implements
+center entry/common-exit pairing and independent grid callback/translated-axis/
+floor/hierarchy capture. [Qualification](experiments/event-instrumentation/qualification.md)
+records disposable controls and failed attempts. [Contract correction](experiments/event-instrumentation/contract.md)
+identifies the result-site stack local as pretranslation center; actual translated
+X/Y are two earlier register observations. Frozen predictions/protocol and
+historical evidence unchanged. No live equivalence, safe mod interface or semantic
+promotion. External debugger0.1.2 leaves SFSE observer0.1.1 unchanged and requires
+review of [the proposed different workflow](experiments/event-instrumentation/operator-card.md).
+Authored REVIEW-REQUIRED/raw LOCAL-ONLY; no deployment, launch, staging, commit,
+push or publication. WORKFLOW now has the standing review-diff convention.
+
 **Latest offline result — SOR-EXP-0024 / SOR-EV-0032,2026-10-11:**
 [Report](experiments/event-associated-position-oracle-and-build-mode.md) identifies
 manager-owned ProcGen, gated publication, partial radius reset and inactive

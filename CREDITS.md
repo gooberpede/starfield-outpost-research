@@ -1,5 +1,25 @@
 # Credits
 
+## External adapter latency — SOR-EXP-0026
+
+[Report](docs/experiments/event-latency/README.md) retains EXP0025's project/
+maintainer acquisition/fixture provenance, credits Microsoft for Windows/MSVC/
+SDK facilities and flush/debug-event documentation, and Python Software Foundation/
+CPython contributors for offline verification. Exact adapted project source/hash
+and SOR-S-0137 consultation are in [SOURCES.md](docs/SOURCES.md). No new outside
+implementation incorporated.
+
+## Event-associated instrumentation — SOR-EXP-0025
+
+[Review](docs/experiments/event-instrumentation/README.md) credits Bethesda Game
+Studios for native/save evidence, the maintainer for controlled samples and
+event/independent-oracle methodology, Microsoft/Windows/MSVC/SDK contributors
+for installed build/debug facilities and API documentation, and Python Software
+Foundation/CPython contributors for offline qualification/inspection. Existing
+reader provenance is retained; sibling conceptual sources and precise revisions
+are in [SOURCES.md](docs/SOURCES.md). No new third-party source implementation,
+download, upstream contact or permission basis is incorporated.
+
 ## Event-associated oracle and preview — SOR-EXP-0024
 
 [Report](docs/experiments/event-associated-position-oracle-and-build-mode.md)
@@ -129,3 +149,32 @@ SOR-EXP-0006 credits preserved project/maintainer-directed exploratory discovery
 ## Workshop origin and bounds research — SOR-EXP-0017
 
 Bethesda Game Studios supplies the installed native/content/save relationships analyzed; the maintainer supplies controlled saves, prior observer captures and the visual boundary report. Existing Ghidra/JDK and CPython stdlib/zlib/mmap provide separate read-only analysis facilities. Earlier xEdit output supplies a radius lead, independently checked against ESM bytes. Project save/framing/coordinate readers and maintainer-authored observer lineage remain credited in [source records](docs/SOURCES.md). No external implementation is incorporated and proprietary/raw payloads remain local.
+
+### Center-only live procedure preparation — 2026-10-11
+
+Ian Patterson, Stephen Abel and Expired's installed SFSE documentation
+(SOR-S-0112) informed the explicit distinction between `sfse_loader.exe` and an
+ordinary Steam launch. No SFSE code copied/executed. Original project process
+reader and approved adapter/decoder underpin the new original operational checks
+and [run card](docs/experiments/event-latency/center-only-live-run-card.md), retaining
+SOR-S-0132/SOR-P-0002 provenance. No new third-party implementation or dependency.
+
+### Startup fail-fast investigation — SOR-EXP-0027, 2026-10-11
+
+Microsoft's CRT/fail-fast/CDB documentation and installed diagnostic/compiler
+facilities supplied exception/compiled-startup interpretation (SOR-S-0138,
+[point-of-use sources](docs/experiments/event-latency/startup-failfast-investigation.md)).
+Read-only consultation and explicit disposable-tool execution only; no source,
+snippet, binding, symbol download or redistributable incorporated. Original
+project adapter/fixture/readers retain SOR-S-0132/SOR-P-0002 provenance. New
+startup controls, analysis, correction and review text are original project work.
+
+### Final thread-control diagnosis — SOR-EXP-0028, 2026-10-11
+
+Microsoft's primary thread/debug-event/API documentation supplied contract and
+handle-rights interpretation (SOR-S-0139; [point-of-use sources](docs/experiments/event-latency/thread-control-final-report.md)).
+Installed SDK declarations/compiler/OS/Python facilities supported explicitly
+authorized disposable experiments; no implementation copied or new dependency
+incorporated. Original project adapter, fixture, bounded reader and WAL tools
+retain SOR-S-0132/SOR-P-0002 provenance. Diagnosis transforms/API probes and the
+completed failure analysis are original project work; no upstream contact.

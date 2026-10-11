@@ -1,5 +1,11 @@
 # Ranked event-associated acquisition design
 
+**EXP0025 supplement, 2026-10-11:** [new scoped adapter contract](../event-instrumentation/contract.md)
+implements producing scopes using a debugger alternative and corrects historical
+AD0D3B “translatedXYZ” to pretranslation center. Actual translated X/Y are separate
+register sites. Original design/status below is retained as history; the later
+brief authorizes offline implementation, not live execution.
+
 SOR-EXP-0024; DESIGN ONLY, REVIEW-REQUIRED. No hook implementation, build,
 deployment or live execution authorized. All static VA/RVAs refer exclusively to
 the [pinned retail module](../event-associated-position-oracle-and-build-mode.md).

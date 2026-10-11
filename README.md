@@ -1,5 +1,31 @@
 # Starfield Outpost Systems Research
 
+**Final external-debugger decision — SOR-EXP-0028:**
+[ABANDON EXTERNAL DEBUGGER PATH](docs/experiments/event-latency/thread-control-final-report.md).
+The final offline repair attempt retains unsafe queued-trap retirement and
+unresolved suspension state. No new live candidate or exploratory attachment is
+recommended. [Completed failure-analysis review](docs/experiments/event-latency/thread-control-final-review.md).
+Earlier adapter readiness/procedure descriptions below are historical.
+
+**Latest startup investigation — EXP0027:** [Adapter0.1.3 fail-fast](docs/experiments/event-latency/startup-failfast-investigation.md)
+reproduces an error-handler defect offline; candidate0.1.4 supplies primary-error
+reporting and protected parsing. Original initiating error remains unknown.
+[Qualification/review](docs/experiments/event-latency/startup-review.md) preserves
+an independent runtime counterexample; no new live readiness or game authority.
+
+**Latest latency review — EXP0026:** [External adapter0.1.3](docs/experiments/event-latency/README.md)
+retains per-field durable evidence in an append-only log and moves conventional
+file expansion after detach. [Comparison/qualification](docs/experiments/event-latency/qualification.md)
+preserves0.1.2/all six controls; [first prospective smoke](docs/experiments/event-latency/operator-card.md)
+remains two-site center-only, grid off. No Starfield launch/attachment or live
+equivalence; separate review/authorization required. No stage/commit/push.
+
+**Latest implementation review — EXP0025:** [Event-associated instrumentation](docs/experiments/event-instrumentation/README.md)
+provides a scoped external debugger candidate for producing center calls and
+independent grid events. [Qualification/failures](docs/experiments/event-instrumentation/qualification.md)
+are distinct from live validation. Observer0.1.1/frozen model unchanged; proposed
+different live sequence requires review. No deployment, launch, commit or push.
+
 **Latest offline review — EXP0024:** [Event-associated oracle investigation](docs/experiments/event-associated-position-oracle-and-build-mode.md)
 maps ProcGen ownership, gated publication and radius-only invalidation, with a
 [ranked acquisition design](docs/experiments/event-oracle/acquisition-design.md).

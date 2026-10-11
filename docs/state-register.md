@@ -1,5 +1,14 @@
 # State, Relationship, and Representation Register
 
+## EXP0025 acquisition supplement to SOR-ST-0026
+
+[Correction](experiments/event-instrumentation/contract.md): at result AD0D3B,
+RBP-49 is pretranslation center. Actual translated X/Y exist in registers at
+AD0C93/AD0C9C before scaling. Instrumentation preserves these independently from
+floor/hierarchy and retained ProcGen output. No persistence/live-authority or
+saved-frame classification changes; old wording remains historical, and this
+supplement requires critical review.
+
 ## SOR-ST-0027 — Preview wait and UI spinner
 
 [EXP0024 / EV0032](experiments/event-associated-position-oracle-and-build-mode.md),

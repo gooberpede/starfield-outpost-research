@@ -1,5 +1,72 @@
 # Decision Register
 
+## SOR-D-0048 — Final offline thread-control attempt; close external-debugger path
+
+2026-10-11 Australia/Sydney: maintainer invokes [the final recovery brief](implementation-briefs/CODEX_BRIEF_SOR_FINAL_THREAD_CONTROL_RECOVERY.md)
+and prohibits commit/push. Its explicit outcome B authorizes completing and ending
+this approach if a safe fully qualified repair cannot be delivered. Disposable
+diagnosis and actual narrow repair trials produce [EXP0028/EV0036](experiments/event-latency/thread-control-final-report.md):
+queued owned trap/retirement failures and unresolved suspension/liveness state.
+**Completed outcome B: ABANDON EXTERNAL DEBUGGER PATH**, subject to critical review
+of the returned evidence. No new candidate or exploratory attachment proposed;
+no additional debugger implementation brief requested. Existing static/save/scientific
+findings and immutable packages remain. Alternative research is a separate future
+direction. No live game/config/security/deployment/save/database mutation, staging,
+commit, push or external disclosure. Earlier run-card authority is not extended.
+
+## SOR-D-0047 — Offline/disposable investigation of adapter0.1.3 fail-fast
+
+2026-10-11 Australia/Sydney: maintainer invokes [the retained startup brief](implementation-briefs/CODEX_BRIEF_SOR_adapter_013_startup_failfast_investigation.md)
+and prohibits commit/push. Authorizes pinned-binary/CRT/WER diagnosis, disposable
+reproductions, a supported narrow candidate repair and requalification/review.
+No Starfield launch/open/memory/attachment, deployment, save/config/database edits,
+security-policy changes, staging, commit or push. [EXP0027/EV0035](experiments/event-latency/startup-failfast-investigation.md)
+proves an error-handler defect masking early rejections, proposes0.1.4, and retains
+an independent pending-replay runtime counterexample. Original initiating error
+remains UNKNOWN; completion grants no new live authority or scientific promotion.
+
+## SOR-D-0046 — Approved adapter, prepare center-only procedure before attachment
+
+2026-10-11 Australia/Sydney: maintainer approves external adapter0.1.3 and requests
+an exact live procedure/operational checks for review before attachment, including
+Steam versus SFSE, process/site identity, operator coordination, durable evidence
+and stalled/exiting target handling. [Retained preparation brief](implementation-briefs/CODEX_BRIEF_SOR_center_only_live_procedure.md)
+authorizes documentation/original read-only checker and offline checks only.
+[Run card](experiments/event-latency/center-only-live-run-card.md) proposes ordinary
+Steam launch, no SFSE/Vortex payload, two center sites and separately authorized
+operator actions. Approval is not launch/load/attachment authority. No forced
+recovery guarantee is claimed; review must accept that exposure or require a
+separate design. Approved source/tool/ZIP and prior baselines remain unchanged.
+No game launch/attachment, deployment, save/config edits, staging, commit or push.
+
+## SOR-D-0045 — Preserve0.1.2 and qualify lower-latency external acquisition
+
+2026-10-11 Australia/Sydney: user requests baseline preservation, component latency
+measurements and a durable0.1.3 improvement if feasible. [Retained follow-up](implementation-briefs/CODEX_BRIEF_SOR_event_adapter_latency.md)
+authorizes original disposable experiments/source/docs only. [EXP0026](experiments/event-latency/README.md)
+keeps per-field durable WAL records and expands derived files after detach,
+avoiding a volatile queue or weaker completed-field prefixes. Preserve0.1.2/all
+six controls,40-billion-byte fail-closed guard, partial-evidence continuation and
+exact restoration. Initial prospective live configuration is two-site center-only,
+grid independently available/off. No Starfield launch/attachment, deployment,
+save/database/config edits, staging, commit, push or disclosure. Qualification
+and critical review grant no live smoke authority.
+
+## SOR-D-0044 — Implement and disposable-qualify event-associated oracles
+
+2026-10-11 Australia/Sydney: user invokes [the instrumentation brief](implementation-briefs/CODEX_IMPLEMENTATION_BRIEF_SOR_event_associated_oracle_instrumentation.md)
+and requests a commit suggestion without commit/push. Authorizes source/docs,
+offline pinned-byte inspection and original disposable instrumentation experiments.
+[EXP0025](experiments/event-instrumentation/README.md) selects a scoped external
+software-breakpoint adapter under section3's alternatives, with center mandatory
+and grid independently enabled. No SFSE replacement/Vortex payload is produced;
+section7's different live sequence is explicitly proposed for critical review.
+This is not authorization to attach to Starfield. Failed disposable controls and
+the user-reported application error remain in the ledger. Native-save work stays
+deferred. No game launch, live debugger, native saving, original/save/database
+mutation, new dependency, staging, commit, push, disclosure or publication.
+The requested review-diff convention applies prospectively to all review types.
+
 ## SOR-D-0043 — Offline event-associated oracle and preview investigation
 
 2026-10-11 Australia/Sydney: user explicitly invokes the retained
@@ -225,3 +292,13 @@ No historical result is invalidated or automatically promoted/demoted. SOR-D-002
 ## SOR-D-0031 — Execute bounded Save25 two-outpost anchor investigation
 
 2026-10-09. The maintainer explicitly invoked [the retained brief](implementation-briefs/CODEX_BRIEF_SOR_two_outpost_site_anchor_and_beacon_coordinates.md) and requested suggested commits only. Authorizes protected copy/hash, offline saves/content/native inspection and original bounded utilities/docs. No game launch/load, attachment, instrumentation, source-save/database mutation, staging, commit, push or publication. [SOR-EXP-0014 result](experiments/two-outpost-site-anchors-and-beacon-coordinates.md): distinct saved anchors, with exact conversion bounded to terrain/frame inputs. Proposed semantic findings await critical review; prior conclusions are not automatically promoted. No next experiment follows from completion.
+
+### SOR-D-0046 live authorization and first attempt — 2026-10-11
+
+Maintainer subsequently approves the exact run card, accepts unrecovered debugger
+stall risk, and launches ordinary Steam/Save25/SOR-003 with build closed. This
+supplies bounded live preflight/attachment authority; earlier preparation-only
+limits remain historical. [First attempt](experiments/event-latency/center-smoke-20261011-result.md)
+passes live preflight but adapter exits before READY/evidence. Same-target
+postflight confirms original windows/no debugger; user exits normally and syncs.
+No acquisition, forced recovery, automatic retry, scope expansion or Git writes.

@@ -1,5 +1,10 @@
 # Native oracle contract — retail 1.16.244.0
 
+**EXP0025 correction, 2026-10-11:** historical AD0D3B “translated center” wording
+below describes a pretranslation helper-center stack local. Actual translated
+X/Y registers are observable at AD0C93/AD0C9C. See [instruction-grounded correction](../event-instrumentation/contract.md).
+Historical evidence/frozen protocol are preserved; no live result is promoted.
+
 SOR-FN-0054/0055, SOR-EV-0029. STATIC / OBSERVED-INTERNAL, review required.
 Executable SHA-256
 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`.

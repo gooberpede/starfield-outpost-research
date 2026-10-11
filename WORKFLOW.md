@@ -30,16 +30,34 @@ Review against the governing brief and accepted corrections, not only the implem
 
 Report blockers separately from non-blocking improvements. State what was independently checked and what was merely reported. A checksum verifies bytes, not their interpretation. No live run must remain clearly distinguishable from a passed live validation.
 
-Include all new files. An unstaged `git diff` alone can omit untracked files. The user may stage reviewed files and export a full patch with Git's own output option:
+For every implementation, audit, documentation and research review, retain review
+patches in `D:\Projects\starfield-outpost-research\.local-work\diffs\`. Use a
+consistent descriptive task prefix and these coverage suffixes:
 
-```powershell
-New-Item -ItemType Directory -Force '.local-work\reviews' | Out-Null
-git status --short
-git diff --cached --check
-git diff --cached --binary --output='.local-work/reviews/review.diff'
-```
+- `<task>-task-only.diff`: changes attributable to the current task.
+- `<task>-complete.diff`: all uncommitted changes since HEAD, including untracked
+  text files and earlier uncommitted work.
 
-Only stage material already cleared for this repository. `--binary` makes a patch complete; it does not authorize sending binary evidence. Inspect the export before sharing. Avoid PowerShell redirection or `Out-File` for patch serialization; keep review exports out of commits. These commands are owner-operated examples, not agent authorization to stage.
+When prior uncommitted work exists, supply both patches; otherwise supply at
+least the complete patch. A supplied, previously untracked brief belongs in the
+complete patch and is identified separately from task-authored changes. Ordinary
+`git diff` omits untracked files: append valid Git-style new-file text patches,
+without staging to construct diffs. Preserve exact text/newline semantics and
+identify renames, deletions, generated scripts and new documents distinctly.
+Ambiguous `review.diff` or `cumulative.diff` names without coverage labels are
+insufficient. Existing historical packages are not retroactively renamed.
+
+Supply `git status --short`, a changed-file manifest, an exclusions manifest for
+ignored/binary/raw artifacts, and verification of patch completeness and
+applicability against the actual working tree. Check `git diff --check`, new-file
+whitespace and internal links. Reverse applicability alone does not prove complete
+coverage: compare the patch path inventory and contents with Git's tracked and
+untracked text inventory. Do not stage merely for review export. Keep exports
+ignored/local, serialize bytes without PowerShell text redirection, and inspect
+payloads before sharing. Exclude raw saves, memory, proprietary binaries/assets,
+analysis databases and other uncleared data; report local locations and hashes.
+An exclusion is disclosed rather than silently labelled complete. No export,
+binary patch option or private remote clears publication or staging permission.
 
 ## Durable state and text
 
