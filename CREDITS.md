@@ -183,3 +183,12 @@ authorized disposable experiments; no implementation copied or new dependency
 incorporated. Original project adapter, fixture, bounded reader and WAL tools
 retain SOR-S-0132/SOR-P-0002 provenance. Diagnosis transforms/API probes and the
 completed failure analysis are original project work; no upstream contact.
+## Extractor/resource trial — SOR-EXP-0029
+
+[Report](docs/experiments/extractor-resource-association.md) credits Bethesda Game
+Studios for installed game/save/script evidence and its Free Lanes overview;
+INARA for X-Tech feature/core/nonrefund reference reports (SOR-S-0141), separately
+labelled from static validation. Python Software Foundation/CPython contributors
+supply the installed standard-library runtime. Maintainer-controlled action briefs
+and existing project parsers provide original controls/methods with retained local
+hashes. No outside implementation or proprietary payload incorporated.

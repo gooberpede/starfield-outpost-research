@@ -151,3 +151,12 @@ SOR-ENV-0002 / SOR-F-0006 / SOR-EV-0002. Fresh runtime reference FormID/pointer,
 ### SOR-EXP-0014 follow-up to SOR-ST-0013 / SOR-ST-0019
 
 [Save25 comparison](experiments/two-outpost-site-anchors-and-beacon-coordinates.md) supplies two structurally owned case-5 local XYZ tuples and distinct parent-keyed planetary pairs. Bytes are PERSISTED in this sample; exact runtime owner/frame/authority remains UNKNOWN. Same source-world token is a cache lead, not proven same loaded cell/frame. Shape 0 omits rotation floats; reconstruction is UNKNOWN. Old cache-window predicate admits an unrelated/ambiguous Uranus-shaped match for SOR-003; direct repeated-key PNDT evidence separately supports Kreet. Native `14077fc20/14078d370` shows grid-origin/resolution and sub-grid residual stages. These in-memory inputs are not assigned guessed wire offsets. Precise beacon conversion and all integration status remain unvalidated; REVIEW-REQUIRED, no historical classification silently changed.
+## SOR-ST-0028 — Extractor instance/base/resource relationship
+
+[SOR-EXP-0029](experiments/extractor-resource-association.md), 2026-10-11.
+Saved dynamic instance token/inline base and prefix flags are PERSISTED in tested
+records; produced-resource association is DEFINITION-DERIVED via explicit static
+identity joins, not a decoded per-instance resource field. Queued beacon links
+provide context leads, not proven ownership. Operating state/load authority remain
+UNCLASSIFIED. Proposed scoped STRONG association; no safe integration point.
+Publication REVIEW-REQUIRED/raw LOCAL-ONLY; independent review gate in trial matrix.

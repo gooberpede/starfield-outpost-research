@@ -318,3 +318,15 @@ SOR-S-0138 documents Microsoft consultation/installed separate-tool execution,
 not implementation reuse. No game memory access, system security/config change,
 new dependency, save/database edit, staging, commit, push or disclosure. Raw dumps/
 WALs remain local and excluded. Candidate0.1.4 does not imply live readiness.
+## SOR-EXP-0029 / SOR-EV-0037 — Extractor/resource association
+
+2026-10-11. [Report](experiments/extractor-resource-association.md) and
+[trial review](experiments/extractor-resource-trial-review.md) retain frozen
+contract, 25 label/24 hash archive identity, 38 ESM pre/post pins and selected
+record offsets. Original stdlib tooling reuses unchanged project stream/ESM/
+reference readers, not an external parser. New modern-header grammar closes all
+tested plugin blocks; file-relative and save-era full/small/medium identities
+remain separate. Installed content is not asserted identical to historical content.
+All failed runs are retained locally. Review exporter adapts project-owned
+completion-protocol/package.py with provenance; supplied brief unchanged.
+No raw payload publication, original save/config/database edits or live execution.

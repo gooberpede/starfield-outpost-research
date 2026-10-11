@@ -149,3 +149,14 @@ Actual workstation interpreter path and final evidence identities: [report/index
 `workshop_prefix` supports the observed modern case-5 no-pre-extra branch and leading 9c/da/4c/84 extras, separate reference/string queues and **zero-resource** Workshop prefix. Nonempty resources/unsupported leading types fail explicitly; following extras and whole-body closure are not claimed. `test_workshop_origin.py` uses original synthetic bytes to challenge scope, truncation, queue and resource failures.
 
 `research_workshop_bounds.py EXE ESM NEW_OUTPUT_JSON` reads selected file-backed PE constants/vtable and bounded ESM records, hashes inputs before/after and exclusively writes one ignored JSON receipt. Parent must exist; use an ignored output path. Unbacked ranges are reported, not interpreted as zeros. Same space guard/std-library/project-reader requirements, no game/database effects. Outputs contain proprietary definitions and stay LOCAL-ONLY. These are research probes, not a production importer/dumper.
+## Extractor/resource protocol trial — SOR-EXP-0029
+
+`extractor_resources.py` consumes supplied bytes/static records without I/O;
+`research_extractor_resources.py` reads approved archives/manifests and all installed
+ESMs, writes exclusive ignored JSON/TSV receipts with before/after hashes and
+C:/D: 40,000,000,000-byte free-space guards. Uses existing project decoder/ESM/
+record readers; stdlib only, no external execution or target effects. Temporary
+decoder scratch is cleaned. `test_extractor_resources.py` has synthetic tests;
+`--corpus-run` additionally verifies primary archived bytes and writes local receipt.
+[Method, commands, exact coverage and review](../../docs/experiments/extractor-resource-association.md).
+Raw inputs and inventories are LOCAL-ONLY; no new dependency or live authority.

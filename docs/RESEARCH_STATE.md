@@ -1,5 +1,15 @@
 # Current Research State
 
+**Extractor/resource protocol trial — SOR-EXP-0029 / SOR-EV-0037, 2026-10-11:**
+[Report](experiments/extractor-resource-association.md),
+[frozen contract](experiments/extractor-resource-contract.md) and
+[review/matrix](experiments/extractor-resource-trial-review.md) record deterministic
+case-5 reference/base/resource/created-item association in 25 labels / 24 unique
+hashes. Controlled iron construction/deletion agree; Save52 has 63 recognized
+references / 37 bases / 29 resources. Proposed scoped STRONG, complete player
+ownership and active production unresolved. Four X-Tech static definitions map;
+no recognized placed X-Tech, nonrefund SOURCE-REPORTED. Independent reviewer ACCEPT; no live work, staging, commit, push or publication.
+
 **Workflow implementation for review, 2026-10-11 — SOR-D-0049:**
 [Execution and completion protocol](RESEARCH_EXECUTION_PROTOCOL.md),
 [reviewer procedure](reviewers/research-completion-reviewer.md) and

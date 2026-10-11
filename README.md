@@ -1,5 +1,12 @@
 # Starfield Outpost Systems Research
 
+**Extractor/resource trial — SOR-EXP-0029:**
+[Scoped association](docs/experiments/extractor-resource-association.md) resolves
+controlled iron creation/deletion and 63 Save52 references / 29 resources through
+definition identities. X-Tech static association demonstrated, placement not
+observed. [Contract/matrix/review](docs/experiments/extractor-resource-trial-review.md).
+Offline only; independent reviewer ACCEPT; no commit/push.
+
 **Final external-debugger decision — SOR-EXP-0028:**
 [ABANDON EXTERNAL DEBUGGER PATH](docs/experiments/event-latency/thread-control-final-report.md).
 The final offline repair attempt retains unsafe queued-trap retirement and

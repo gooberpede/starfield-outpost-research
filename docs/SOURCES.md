@@ -436,3 +436,21 @@ hashes/commands/module versions in private receipts. Existing tool execution is
 within the explicit brief; no Microsoft source, symbols, runtime redistributable,
 example, binding or new dependency incorporated. Original project event adapter,
 collector/reader/fixtures retain SOR-S-0132/SOR-P-0002 provenance; no upstream contact.
+### SOR-S-0141 — X-Tech source reports and extractor trial inputs
+
+2026-10-11, [SOR-EXP-0029](experiments/extractor-resource-association.md).
+[Bethesda overview](https://bethesda.net/en-US/news/starfield-free-lanes-terran-armada)
+reports Free Lanes X-Tech; [INARA extractor](https://inara.cz/starfield/outpost-module/4714/)
+and [power core](https://inara.cz/starfield/item/4719/) supply feature/core/nonrefund
+reference claims. Core recipe is independently checked in installed records;
+nonrefund remains SOURCE-REPORTED, special deposit rules UNKNOWN. Read-only
+consultation, no copied text/code, contact, dependency or redistribution.
+SOR-S-0128 extends to read-only 38 installed ESM input pins and original selected
+field joins; SOR-S-0113 credits installed CPython/stdlib facilities. Existing
+project SOR-EXP-0003/0004/0006/0009/0012 readers/controlled evidence are reused with
+hashes in local receipts. Manual brief's iron/deletion observations are the oracle;
+manual network labels are context only. Resource.psc's native GetCreatedObject
+declaration is contextual source evidence, not independently executed behavior.
+Two failed remote xEdit source fetches yielded no source; no xEdit implementation
+was incorporated. Locally inspected IRES diagnostic script comments/old dictionary
+were lookup context only; authorship not established, no code adapted/executed.

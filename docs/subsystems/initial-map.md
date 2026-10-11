@@ -134,3 +134,10 @@ Identity/membership and local distribution share [SOR-EXP-0005](../experiments/o
 ## Save25 identity/location follow-up — SOR-EXP-0014
 
 [Two-outpost anchor report](../experiments/two-outpost-site-anchors-and-beacon-coordinates.md): distinct saved overlay parents and angular pairs coexist with user-reported continuous Kreet traversal; direct PNDT evidence resolves both bodies. SOR-002 repeats earlier Kreet angles despite new identity/local XYZ. Frame/source-world reuse is provisional, with an unqualified cache-hit counterexample retained. Native terrain-grid origin/resolution and local residual bridge are concrete unresolved coordinate inputs. No precise beacon latitude/longitude, tile-boundary inference, loaded authority or safe integration point. SOR-F-0019 proposed for critical review; prior map/history retained.
+**Extractor association trial, 2026-10-11:**
+[SOR-EXP-0029 / SOR-F-0030](../experiments/extractor-resource-association.md)
+connects saved placed case-5 instances to definition-derived produced resources
+by identities. Controlled iron lifecycle agrees; Save52 yields 63 recognized
+references / 29 resources. Ownership, actual production, deposit eligibility,
+power/rates/storage remain separate. X-Tech static mapping exists, placement
+unobserved. Review gate and coverage are explicit; historical rows below retained.

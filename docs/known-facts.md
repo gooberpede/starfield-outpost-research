@@ -150,3 +150,14 @@ PROVEN / SAVE for observed counts and exact framing only; [SOR-EXP-0007 / SOR-EV
 ## SOR-F-0019 — Distinct Save25 site anchors in one reported traversed area
 
 [SOR-EXP-0014 / SOR-EV-0020](experiments/two-outpost-site-anchors-and-beacon-coordinates.md): PROVEN / SAVE for two recognized inline ordinary beacon records, their saved-name/base/self/parent associations and exact pair/XYZ inequalities. **STRONG scoped distinct overlay/site-anchor interpretation proposed for review**, using established longitude-first/latitude-second radians. SOR-002/SOR-003 have different parents and different pairs with direct Kreet PNDT associations; user reports uninterrupted travel. SOR-002 repeats S1/S1C/L2C angles bit-identically despite changed parent/local XYZ. Common source-world cache lead and numerical displacement support only a provisional shared local frame. A second Uranus-shaped cache window for SOR-003 exposes the old unframed search’s ambiguity; automatic concordance stays null. Targeted native inspection identifies terrain-origin/index/resolution plus local residual stages, not an exact beacon-global transform. No tile-boundary, universal per-outpost overlay, metre/north calibration, full enumeration or authoritative-load claim. Prior findings preserved; REVIEW-REQUIRED.
+## SOR-F-0030 — Scoped extractor produced-resource association (proposed)
+
+2026-10-11, [SOR-EXP-0029](experiments/extractor-resource-association.md).
+Dynamic case-5 inline CONT bases with extractor-category keyword join by PRPS
+actor-value identity to IRES NAM1, IRES NAM2 recipe and COBJ CNAM created item.
+Controlled iron creation/deletion matches independently supplied gameplay actions;
+Save52 recognizes 63 references / 29 resources. Exact sampled fields PROVEN
+SAVE/STATIC; semantic STRONG proposal pending maintainer review. No actual
+production, authoritative membership or universal population claim. Four static
+X-Tech definitions associate; placement NOT_OBSERVED_IN_SAVE_CORPUS. Authored
+REVIEW-REQUIRED, raw LOCAL-ONLY. See frozen contract and review matrix in report.
