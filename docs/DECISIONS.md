@@ -1,5 +1,20 @@
 # Decision Register
 
+## SOR-D-0049 — Research execution and completion protocol
+
+2026-10-11 (Australia/Sydney): maintainer explicitly invokes
+[the retained brief](implementation-briefs/CODEX_BRIEF_SOR_research_execution_completion_protocol.md)
+and requests a suggested commit message without commit/push. Authorizes step-1
+workflow/documentation changes, capability inspection and harmless independent
+reviewer dry run. [Protocol](RESEARCH_EXECUTION_PROTOCOL.md) and
+[review package](audits/research-execution-completion-protocol.md) are returned
+for critical review. Ordinary in-scope diagnostics/requalification remain the
+implementer's work; scoped falsification can complete negative research. Mandatory
+engineering failures remain unfinished. Existing safety, permission, review and
+publication gates are retained. No criteria change/integration approval inferred.
+No scientific findings altered or step-2 trial initiated; no game, debugger,
+deployment, save changes, third-party code reuse, staging, commit or push.
+
 ## SOR-D-0048 — Final offline thread-control attempt; close external-debugger path
 
 2026-10-11 Australia/Sydney: maintainer invokes [the final recovery brief](implementation-briefs/CODEX_BRIEF_SOR_FINAL_THREAD_CONTROL_RECOVERY.md)

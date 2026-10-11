@@ -1,5 +1,8 @@
 # Research Templates
 
+- [Completion contract](completion-contract.md): minimal acceptance, negative
+  closure, continuation, escalation and review terms for substantive briefs.
+
 - [Experiment](experiment.md): planned and actual work, controls, authorization, evidence, interpretation, validation, cleanup.
 - [Finding](finding.md): scoped claim with decisive support, limitations, provenance, and revisions.
 - [Source](source.md): exact outside contribution and inspection/permission status.

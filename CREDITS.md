@@ -1,5 +1,10 @@
 # Credits
 
+OpenAI's [Multi-agent documentation](https://developers.openai.com/api/docs/guides/agents-api/multi-agent)
+was consulted for general agent coordination context in the
+[completion-protocol capability assessment](docs/audits/research-execution-completion-protocol.md)
+(SOR-S-0140). Local mechanics were tested separately; no implementation copied.
+
 ## External adapter latency — SOR-EXP-0026
 
 [Report](docs/experiments/event-latency/README.md) retains EXP0025's project/

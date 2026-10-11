@@ -1,5 +1,14 @@
 # Current Research State
 
+**Workflow implementation for review, 2026-10-11 — SOR-D-0049:**
+[Execution and completion protocol](RESEARCH_EXECUTION_PROTOCOL.md),
+[reviewer procedure](reviewers/research-completion-reviewer.md) and
+[step-1 audit](audits/research-execution-completion-protocol.md) establish prospective
+completion contracts, in-scope continuation and independent rework. Documentation
+dry run only; policy effectiveness awaits a separately approved step-2 trial.
+No scientific finding/confidence changed, debugger work reopened, or trial/game/
+save/deployment/staging/commit/push/publication authorized by this implementation.
+
 **Final external thread-control decision — SOR-EXP-0028 / SOR-EV-0036, 2026-10-11:**
 [Outcome B: ABANDON EXTERNAL DEBUGGER PATH](experiments/event-latency/thread-control-final-report.md).
 Actual queued owned traps are misclassified after disarming; narrow rewind/query

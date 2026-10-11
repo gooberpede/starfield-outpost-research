@@ -17,6 +17,11 @@
 
 ## Governance and operations
 
+- [Research execution and completion protocol](RESEARCH_EXECUTION_PROTOCOL.md),
+  [contract template](templates/completion-contract.md),
+  [reviewer procedure](reviewers/research-completion-reviewer.md) and
+  [step-1 review package](audits/research-execution-completion-protocol.md).
+
 - [Sources](SOURCES.md) and [permissions](PERMISSIONS.md): contributions, provenance, rights-holder permission, and user approval.
 - [Publication](PUBLICATION.md): mandatory eventual publication and the scientific/rights/privacy/history gate.
 - [Workflow](../WORKFLOW.md): owner-operated review/integration rules. Historical `GIT_SETUP.md` is absent from this checkout.

@@ -1,5 +1,11 @@
 # Implementation and Audit Briefs
 
+- [Research execution and completion protocol](CODEX_BRIEF_SOR_research_execution_completion_protocol.md):
+  invoked 2026-10-11 under SOR-D-0049; workflow/documentation only, harmless reviewer
+  dry run and [review package](../audits/research-execution-completion-protocol.md).
+  Future substantive briefs embed the [completion contract](../templates/completion-contract.md).
+  Step-2 recommendation only; no trial, game/process work, staging, commit or push.
+
 - [Final external debugger thread-control recovery](CODEX_BRIEF_SOR_FINAL_THREAD_CONTROL_RECOVERY.md):
   invoked2026-10-11, SOR-D-0048; [completed outcome B](../experiments/event-latency/thread-control-final-report.md)
   closes this path after actual disposable repair/teardown failures. No further

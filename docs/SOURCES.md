@@ -1,5 +1,16 @@
 # Source Register
 
+## SOR-S-0140 — OpenAI agent documentation and local session capabilities
+
+2026-10-11: OpenAI's [Multi-agent documentation](https://developers.openai.com/api/docs/guides/agents-api/multi-agent)
+was consulted read-only for general delegation/context coordination, not as proof
+of this desktop session's features. No examples or implementation copied; no API,
+extension, configuration change or dependency added. Actual session tools and
+local CLI/version observations govern the [capability audit](audits/research-execution-completion-protocol.md).
+The original project-authored protocol derives its policy from the maintainer's
+invoked brief and existing repository rules. Installed Git/CPython standard library
+support local documentation checks/export; no new third-party code incorporation.
+
 ## EXP0026 external adapter latency
 
 [Report](experiments/event-latency/README.md), EV0034, preserves EXP0025 source/

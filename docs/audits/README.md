@@ -1,5 +1,8 @@
 # Audits
 
+- [Research execution and completion protocol](research-execution-completion-protocol.md):
+  documentation-only step-1 implementation, capability assessment and reviewer dry run.
+
 - [SOR-EV-0030: actual observer0.1.1 post-deployment preflight](observer-011-post-deployment-preflight.md)
   — installed/package/staging/version/config identity, smoke startup, preservation
   and Phase1 card for review; no scientific live session executed.

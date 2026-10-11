@@ -10,6 +10,28 @@ Implementation and audit briefs are downloadable `.md` files and are retained in
 
 Reading a brief does not authorize every action it mentions. Identify permitted operations, especially deployment, live observation, process intervention, save changes, external communication, and repository writes. When blocked, stop the affected action, explain the missing evidence or approval, and continue only unrelated authorized work.
 
+## Execution and completion contract
+
+The [Research Execution and Completion Protocol](docs/RESEARCH_EXECUTION_PROTOCOL.md)
+controls assignment completion, continuation, escalation and independent review.
+Embed its compact [contract](docs/templates/completion-contract.md) in every
+substantive future brief; trivial corrections need only proportionate criteria.
+Freeze mandatory criteria unless the maintainer approves a material change.
+A newly discovered obstacle is work, not a handoff: diagnose, correct and retest
+within existing authority. Diagnostics and requalification belong to the same
+assignment. Adequately tested scoped negative research is completed research;
+failed mandatory engineering tests remain unfinished work. Never invent a PASS.
+
+Use an independent reviewer against the original contract and primary evidence.
+ACCEPT, REWORK and ESCALATE have the meanings in the protocol. REWORK returns the
+same assignment for correction and resubmission without a new brief. Halt unsafe
+or unauthorized actions and evidence genuine blockers; continuation never waives
+existing permission, protected-input, live-operation or publication gates.
+Return a mandatory-criterion PASS / FAIL / NOT TESTED matrix, preserved failures,
+separate outcome dimensions and verified review patches under the rules below.
+See the [reviewer procedure](docs/reviewers/research-completion-reviewer.md) for
+session-specific invocation, access limits and the manual two-pass fallback.
+
 ## Question-led research loop
 
 Apply the [scoped-conclusion, coverage and reporting rules](docs/EVIDENCE_STANDARD.md#scoped-conclusions-and-coverage). Within the approved scope, select authorized offline tests by information gain; this does not waive experiment approval or the review required for durable promotion/reclassification. Answer substantive research questions before listing limitations.
