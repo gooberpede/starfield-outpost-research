@@ -1,5 +1,16 @@
 # Established Findings
 
+## SOR-F-0029 — Shared ProcGen tuple has partial invalidation and gated publication
+
+2026-10-11, [EXP0024 / EV0032](experiments/event-associated-position-oracle-and-build-mode.md).
+Scoped STRONG STATIC interpretation **proposed for critical review**: manager
+owns0x138 ProcGen; StateUpdatePlacement conditionally publishesXYZ/radius;
+reset retainsXYZ/clearsradius; e8 gates projected-decal updater. Center helper
+producesXYZ with zero compensation too. Retention is possible ordinary inactive
+state, not a proven retrospective event diagnosis. Zero shared radius does not
+prove effective radius0 or spinner causation. Both002 outcomes remain; no new
+fresh-qualified oracle/grid pass, bug finding or exhaustive writer claim.
+
 ## SOR-F-0028 — Executable saved-position model and independent native-output contract
 
 2026-10-10, [SOR-EXP-0021 / SOR-EV-0029](experiments/durable-position-engine-oracle.md).

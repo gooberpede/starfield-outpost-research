@@ -1,5 +1,30 @@
 # Source Register
 
+## EXP0024 native inputs and consultation
+
+[Report](experiments/event-associated-position-oracle-and-build-mode.md), EV0032,
+uses Bethesda installed native SOR-S-0127, prior save/capture evidence, original
+project SOR-S-0124/0132, separately executed Ghidra/JDK and CPython/stdlib.
+No new dependency/code incorporated.
+
+**SOR-S-0132 extension:** maintainer-owned starfield-reference-handles revision
+6a77579a184c64e0c080c8f3b7883c34bd17e24b; exact consulted files in
+[design](experiments/event-oracle/acquisition-design.md), hashes/local clean Git
+receipt ignored. Conceptual event/lifetime/health provenance under SOR-P-0002;
+no sibling code or embedded third-party material copied.
+
+**SOR-S-0134:** LarannKiar, [Starfield Engine Fixes — SFSE](https://www.nexusmods.com/starfield/mods/10457),
+visible21.2/update2026-10-04, accessed2026-10-11. Primary description/changelog/
+permission panel; [exact claim/access ledger](experiments/event-oracle/prior-art.md).
+Optional-feature regressions, not verified vanilla spinner fix. No download,
+contact, incorporation or accepted licence/permission basis for implementation.
+
+**SOR-S-0135:** [original Steam report](https://steamcommunity.com/app/1716740/discussions/0/3824173836668691935/)
+and two supplements in [access ledger](experiments/event-oracle/prior-art.md),
+accessed2026-10-11. Indexed firsthand snippets with attribution limits; direct
+pages gated. Mod status/build equivalence unknown, CPU/density speculation
+separate. Consultation only, no code/assets incorporated.
+
 ## EXP0023 live evidence source extension
 
 [Phase1 results](experiments/engine-oracle/Phase1-results.md), SOR-EV-0031,

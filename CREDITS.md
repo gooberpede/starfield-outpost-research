@@ -1,5 +1,18 @@
 # Credits
 
+## Event-associated oracle and preview — SOR-EXP-0024
+
+[Report](docs/experiments/event-associated-position-oracle-and-build-mode.md)
+credits Bethesda Game Studios for native/content/save evidence, the maintainer
+for controlled captures/original instrumentation methods, Ghidra/JDK and
+Python Software Foundation/CPython contributors for separate offline tools.
+Maintainer-owned starfield-reference-handles event/lifetime concepts retain
+SOR-S-0132/SOR-P-0002 revision/file provenance; no code copied. LarannKiar,
+PROTOTYPEZERO, MMZ>Traveler and other identified Steam participants supply
+consultation leads credited [at point of use](docs/experiments/event-oracle/prior-art.md),
+with access/speculation limits. No outside implementation/assets incorporated
+or endorsement/publication clearance implied.
+
 ## Phase1 live position experiment — SOR-EXP-0023
 
 [Phase1 results](docs/experiments/engine-oracle/Phase1-results.md) credit Bethesda

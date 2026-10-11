@@ -57,3 +57,7 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [Planetary surface-anchor coordinate semantics](CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md) — invoked 2026-10-09, SOR-D-0030; [result/review](../experiments/planetary-surface-anchor-semantics.md). Supplied brief preserved unchanged; offline/public-source research only, no staging/commit/push.
 
 - [Workshop origin, relocation persistence and radius](CODEX_BRIEF_SOR_workshop_origin_beacon_relocation_persistence.md): invoked 2026-10-10, SOR-D-0036; offline SOR-EXP-0017 [result](../experiments/workshop-origin-beacon-relocation-persistence.md), critical review required. No live or Git publication authority.
+
+- [Event-associated oracle and build-mode failure](CODEX_BRIEF_SOR_event_associated_oracle_and_build_mode_failure.md): invoked2026-10-11, SOR-D-0043;
+  [EXP0024 result/review](../experiments/event-associated-position-oracle-and-build-mode.md).
+  Brief retained unchanged; offline research/design only, no commit/push.

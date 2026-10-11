@@ -1,5 +1,16 @@
 # Initial subsystem map — SOR-EXP-0001
 
+## EXP0024 placement, ProcGen and UI event channels
+
+[Report](../experiments/event-associated-position-oracle-and-build-mode.md)
+separates manager-owned ProcGen tuple/decal processing, event-produced reference
+center, independent radius/descriptor geometry, native terrain selection and
+asynchronous preview readiness/UI properties. Radius-only reset and gated
+publication explain possible retention; actual Phase1 event history remains
+missing. Center-helper and terrain callbacks provide distinct future oracles.
+Spinner/wait failure controls do not establish a bug or saved-layout change.
+STATIC/REVIEW-REQUIRED; no new live/integration authority.
+
 ## EXP0023 live position/persistence evidence
 
 [Phase1 results](../experiments/engine-oracle/Phase1-results.md) connect observed

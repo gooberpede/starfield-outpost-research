@@ -1,5 +1,12 @@
 # Starfield Outpost Systems Research
 
+**Latest offline review — EXP0024:** [Event-associated oracle investigation](docs/experiments/event-associated-position-oracle-and-build-mode.md)
+maps ProcGen ownership, gated publication and radius-only invalidation, with a
+[ranked acquisition design](docs/experiments/event-oracle/acquisition-design.md).
+Preview waiting/spinner paths are distinct; no captured bug cause or live
+equivalence. [Review package](docs/experiments/event-oracle/review.md) awaits
+critical review. No live implementation, run, commit or push.
+
 **Latest live review — EXP0023:** [Phase1 results](docs/experiments/engine-oracle/Phase1-results.md)
 record16 verified checkpoints, conditional exact centers and a retained-prior-site
 counterexample. Protected Save25/26 unchanged; retirement/exit/undeployment complete.

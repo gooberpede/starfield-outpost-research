@@ -1,5 +1,28 @@
 # Function and Operation Register
 
+## SOR-FN-0056 — ProcGen lifecycle and event-associated center
+
+SOR-ENV-0002 retail1.16.244.0; [typed map](experiments/event-oracle/native-map.md),
+SOR-EV-0032. Manager ctor140787830 / RVA00787830 allocates0x138 ProcGen via
+14079d660 / RVA0079d660; manager+130 owns it, destructor14079d910. FN0054
+publisher1421b2570 is StateUpdatePlacement entry. Reset1407a6690 clears radius
+only; activation1407a50d0 changes e8/e9; updater1407a5210 requires e8; typed
+decal predicate1407a6540 skips distance filtering if radius<=0. Helper140f4ab80
+/ RVA00f4ab80 always writesXYZ, common exit140f4ac44. [Design](experiments/event-oracle/acquisition-design.md)
+binds actual reference/caller/output. STATIC/OBSERVED-INTERNAL, scoped STRONG
+proposed; no live freshness, safe integration or exhaustive alias-writer proof.
+
+## SOR-FN-0057 — Preview waiting and asynchronous spinner
+
+Same pinned build/base; [preview contract](experiments/event-oracle/preview-state.md).
+Ctor14158e280 / RVA0158e280 and14158f230 bind spinner/block-input.
+Wait3D entry1421b5720 is existing code/LAB, not a created function;
+update1421b5970 / RVA021b5970 requests spinner after timer and gates advance
+via readiness14241e7f0 / RVA0241e7f0. Exit1421b5750 requests off through
+1421f6420 / RVA021f6420; service1415902a0→14158fa50 updates selected UI data.
+STATIC/OBSERVED-INTERNAL; no failing episode, defect diagnosis, complete
+spinner-source census or live-safety finding. REVIEW-REQUIRED.
+
 ## SOR-FN-0054 — Native stored workshop terrain-center producer and bounds consumer
 
 SOR-ENV-0002, retail1.16.244.0. [EXP0021 contract](experiments/engine-oracle/oracle-contract.md),

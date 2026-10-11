@@ -1,5 +1,17 @@
 # Offline Analysis Scripts
 
+## SOR-EXP-0024 input-integrity audit
+
+`audit_event_oracle_inputs.py --output FRESH-IGNORED-PATH.json` requires the
+existing Phase1/initial-session receipts and archived capture trees. It reads
+four protected Save25/26 original/archive paths, frozen model/protocol/CSV,
+and every captured journal/raw section through the original project inspector.
+Installed CPython/stdlib only, no network/target calls/config/save/DB writes.
+Writes one exclusive NEW JSON (parent must exist); private paths remain ignored.
+Checks C:/D:40,000,000,000-byte guard, hashes/sizes, raw-path safety, final markers,
+journal truncation and expected9412+5233 section counts. Integrity is not semantic
+validation. [Actual results/limits](../../docs/experiments/event-oracle/review.md).
+
 ## SOR-EXP-0018 — durable-center probes
 
 `research_durable_center.py` reads frozen archive/catalog/manifests and native-informed conditional prefixes; writes only a fresh ignored run and temporary cleaned decoder scratch. `resource_rows` extends the existing `research_workshop_origin.workshop_prefix` through an explicitly supplied callback; default nonempty rejection remains unchanged. `audit_durable_center.py` reads final receipts/fixed-city CSV and optionally existing raw terrain sections, checks exact controls/invariance and writes new numerical tables. `test_durable_center.py` supplies eight arithmetic/bounds/ambiguity tests. Stdlib/project readers only; no target/database/network/Git writes. Existing C:/D:40GB safeguards apply. [Exact prerequisites, commands, actual checks and limits](../../docs/experiments/durable-center/README.md); not an exact geographic API or a general object parser.

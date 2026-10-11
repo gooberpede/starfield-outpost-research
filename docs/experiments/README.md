@@ -1,5 +1,10 @@
 # Experiments
 
+- SOR-EXP-0024: [event-associated oracle and preview investigation](event-associated-position-oracle-and-build-mode.md),
+  [ranked design](event-oracle/acquisition-design.md) and [review](event-oracle/review.md).
+  Offline typed ownership/invalidation/readiness graph; no new live observations
+  or instrumentation implementation, critical review required.
+
 - SOR-EXP-0023: [Phase1 Save25/Save26 results](engine-oracle/Phase1-results.md),
   [live ledger](engine-oracle/Phase1-live-session.md) and
   [selected checkpoints](engine-oracle/Phase1-checkpoints.csv):16 verified captures,

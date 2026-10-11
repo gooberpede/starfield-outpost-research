@@ -1,5 +1,16 @@
 # Decision Register
 
+## SOR-D-0043 — Offline event-associated oracle and preview investigation
+
+2026-10-11 Australia/Sydney: user explicitly invokes the retained
+[brief](implementation-briefs/CODEX_BRIEF_SOR_event_associated_oracle_and_build_mode_failure.md)
+and requests a suggested commit message, no commit/push. Authorizes extensive
+offline native/capture/prior-art analysis, original scripts and a ranked future
+acquisition design. [EXP0024 result](experiments/event-associated-position-oracle-and-build-mode.md).
+No game launch, debugger attachment, hook/plugin implementation/deployment,
+Vortex/config/save mutation, staging, commit, push, external contact or disclosure.
+Instrumentation implementation and live work need subsequent reviewed authority.
+
 ## SOR-D-0042 — Approved Phase1 observer0.1.1 live session
 
 2026-10-10 Australia/Sydney: user explicitly approves the preflight and Phase1

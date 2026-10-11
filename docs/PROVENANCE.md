@@ -1,5 +1,18 @@
 # Provenance and Environment Baseline
 
+## SOR-EXP-0024 / SOR-EV-0032 — Offline oracle continuation
+
+2026-10-11, starting HEADdda84e2af385cae8d7f24563aed6c8554dd75076;
+only supplied brief initially untracked. [Review/preservation](experiments/event-oracle/review.md)
+records read-only Ghidra exports,20-file before/after native/database/frozen
+snapshots,25 checkpoints/14,645 raw sections and four protected original/archive
+save paths reverified. Private/raw/native evidence stays ignored. No new live
+baseline. Original stdlib audit and local receipt helpers write exclusive ignored
+outputs. Sibling revision/file hashes and Nexus/Steam consultation retain
+SOR-S-0132/0134/0135 provenance. Authored work REVIEW-REQUIRED; no database,
+target, config or save change, outside implementation reuse, contact, staging,
+commit, push, publication or automatic finding integration.
+
 ## EXP0023 / EV0031 Phase1 live provenance
 
 [Results](experiments/engine-oracle/Phase1-results.md) and

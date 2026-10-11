@@ -1,5 +1,17 @@
 # Current Research State
 
+**Latest offline result — SOR-EXP-0024 / SOR-EV-0032,2026-10-11:**
+[Report](experiments/event-associated-position-oracle-and-build-mode.md) identifies
+manager-owned ProcGen, gated publication, partial radius reset and inactive
+bounds-consumer retention. Zero-compensation bypass still producesXYZ; both002
+outcomes remain evidence. [Ranked design](experiments/event-oracle/acquisition-design.md)
+favors natural center-helper entry/common exit; grid is complementary and
+scene-dependent. Explicit spinner/wait/readiness paths yield falsifiable failure
+controls, not a diagnosed vanilla bug. [Terminal ledger](experiments/event-oracle/dependency-ledger.md)
+and [review](experiments/event-oracle/review.md) preserve missing live joins,
+frozen comparisons and critical review before implementation/live work.
+No new runtime oracle events, staging, commit, push or deployment.
+
 **Latest live result — SOR-EXP-0023 / SOR-EV-0031, 2026-10-10:**
 [Phase1 results](experiments/engine-oracle/Phase1-results.md):16 checkpoints,
 9,412 raw sections verified; protected Save25/26 unchanged, cooperative retirement,

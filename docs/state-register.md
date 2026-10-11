@@ -1,5 +1,23 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0027 — Preview wait and UI spinner
+
+[EXP0024 / EV0032](experiments/event-associated-position-oracle-and-build-mode.md),
+FN0057. TRANSIENT/RUNTIME-DERIVED, persistence UNCLASSIFIED. Wait3D timers
+state+8/+c, engine-context+622 latch/+268 interface/+5c0 readiness/+210 state
+are distinct from singleton1461eefd0 WorkshopStateDataModel's named spinner,
+flycam and input-blocking properties. Constructed spinner payload+580 is not
+a universal displayed-container pointer. Asynchronous service transport and
+actual failed gate require event evidence; no shared cause established.
+
+### EXP0024 supplement to SOR-ST-0026
+
+[Map](experiments/event-oracle/native-map.md): manager-owned heap0x138 ProcGen,
+not per-workshop cache. Constructor zeros tuple/e8/e9 and sets ea; reset
+retainsXYZ/clearsradius. Gated publication and inactive consumer support possible
+retention, not exact Phase1 event history. Previous wording/evidence preserved;
+no persistence/live-authority promotion. REVIEW-REQUIRED.
+
 ## SOR-ST-0026 — Native stored terrain workshop center/radius and selected-grid result
 
 [EXP0021 / EV0029](experiments/durable-position-engine-oracle.md): terrain singleton

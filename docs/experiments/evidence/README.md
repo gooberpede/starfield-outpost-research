@@ -1,5 +1,10 @@
 # Selected Evidence
 
+- SOR-EV-0032: [EXP0024 report](../event-associated-position-oracle-and-build-mode.md)
+  and [review](../event-oracle/review.md). Authored native analysis/design
+  REVIEW-REQUIRED; native exports/raw/private receipts LOCAL-ONLY.
+  25 checkpoints/14,645 raw sections reverified; no new live oracle evidence.
+
 - SOR-EV-0026: [durable-center review package](../durable-center/README.md), SOR-EXP-0018. Original authored numeric selections REVIEW-REQUIRED; raw saves/captures/native exports LOCAL-ONLY. No complete continuous geographic solution or publication clearance.
 
 - SOR-EV-0024: [initial observer live results](../../audits/beacon-observer-initial-live-results.md), SOR-EXP-0016. Nine snapshots/5,233 verified raw sections, protected Save25 and archived Save26; scoped workshop offset and post-reload XYZ observations. Raw/session/save/logs LOCAL-ONLY; authored interpretations REVIEW-REQUIRED.
