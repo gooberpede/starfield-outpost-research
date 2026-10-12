@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**Matching-source qualification, 2026-10-12:** [Report](docs/experiments/matching-source-qualification.md) joins candidates15/16 to saved SOR-002/SOR-003 site parents and shows the matching origin already exists in Save25–27. Native landing-source reconstruction and existing-reference bypass distinguish a conditional next scenario from an E guarantee; generic grid output is a separate component test. [Review package](docs/experiments/matching-source/review.md). Offline only; unchanged030/frozen predictions, no live/Git mutation.
+
 **Q branch observer 0.3.0, offline preparation, 2026-10-12:** [Qualification](docs/experiments/q-branch-030/qualification.md) extends natural helper CALL observations and corrects packed-key/source-pointee domains in a separate candidate. Original0.2.0/evidence remain preserved; independent review and offline tests are recorded in the package. Native equivalence/live usability NOT TESTED. No deployment, launch, live capture or Git mutation.
 
 **Q/E offline reconstruction, 2026-10-12:** [Report](docs/experiments/q-to-e-control-flow.md) reconciles all18 calls: return1 is a shared continue predicate; E is optional. Recoverable packed source corrects the earlier unreadable-pointer interpretation. Conditional geometry supports a legitimate shortcut, while exact live helper/landscape/overlay operands remain missing. [Acquisition ranking and review](docs/experiments/q-to-e/review.md) retain native equivalence NOT TESTED and strict1s cadence FAIL. No live/plugin/Git actions.

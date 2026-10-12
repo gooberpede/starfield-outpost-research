@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Matching-source qualification and enumeration reachability](CODEX_BRIEF_SOR_matching_source_qualification_enumeration_reachability.md): invoked2026-10-12; offline two-candidate/save/native investigation, deterministic checks and independent review. [Report](../experiments/matching-source-qualification.md); no030 modification, live work or Git mutation.
+
 - [Q030 captured-chain offline analysis](CODEX_BRIEF_SOR_Q030_captured_chains_offline.md): direct user request2026-10-12;18 chains and next bounded E recommendation, unchanged030 and no live/Git actions. [Report](../experiments/q-branch-030/captured-chain-analysis.md).
 
 - [Q030 revised card02 preparation](CODEX_BRIEF_SOR_Q030_revised_card_02.md): direct user request2026-10-12; one new Kreet landing from Save27, qualified cooperative inventory, no manual saves. [Proposed card](../experiments/q-branch-030/live-run-card-02.md); no deployment/launch until approval.

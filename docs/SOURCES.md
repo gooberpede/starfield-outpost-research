@@ -1,5 +1,16 @@
 # Source Register
 
+### Matching-source continuation of SOR-S-0142 / SOR-S-0132
+
+2026-10-12: [report](experiments/matching-source-qualification.md),
+[exact source manifest](experiments/matching-source/sources.csv). Consulted existing
+Bethesda retail1.16.244.0 analysis/saves and retained maintainer030/020 evidence;
+new bounded Ghidra exports read existing state with `-readOnly -noanalysis`.
+Existing project readers are source-reused under maintainer provenance; original
+verification/export glue is source-informed research, not clean-room native code.
+No external code/dependency/contact or new permission basis. Raw/proprietary material
+LOCAL-ONLY; authored interpretation REVIEW-REQUIRED, publication eligibility separate.
+
 ### SOR-S-0142 / SOR-S-0132 Q branch offline extension
 
 2026-10-12. [0.3.0 package](experiments/q-branch-030/qualification.md) adapts original project0.2.0 sources and uses the retained Q/E static exports; exact original hashes/reuse modes are in [sources.csv](experiments/q-branch-030/sources.csv). Existing approved SFSE PluginAPI.h/SOR-P-0001 and notice are unchanged; installed Microsoft compiler/MASM/SDK and CPython are pinned locally. New branch bodies/tests are project-authored synthetic fixtures, not copied game code. Generated native preimages and binaries stay ignored/local. No new third-party reuse/dependency, network or contact.
