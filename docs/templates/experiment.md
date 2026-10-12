@@ -24,7 +24,7 @@ Record environment/build/tool/script IDs and hashes; game/save format versions a
 
 ## Ordered procedure
 
-Write reproducible bounded steps. Name original and derivative output locations, expected sizes/bounds, capture windows, stop points, and cleanup. Protect active/original saves. Do not claim an unexecuted procedure was run.
+Write reproducible steps with finite question/action scope, output locations, health checks, stop conditions and cleanup. Expected output sizes and capture windows are planning estimates, not automatic cutoffs. Apply [scientific experiment continuation and health](../../WORKFLOW.md#scientific-experiment-continuation-and-health): time, volume, operator delay or routine cadence overrun alone must not stop a healthy run. Preserve both-drive 40,000,000,000-byte caller-available guards and all identity, instruction, protected-input, evidence-integrity, worker-failure and operator STOP protections. Any essential additional hard limit requires concrete justification and maintainer approval before the run. Warn and continue safely during delay; consult before terminating solely for delay. Record violated approved criteria honestly. Protect active/original saves. Do not claim an unexecuted procedure was run.
 
 ## Actual execution and observations
 

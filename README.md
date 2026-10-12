@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**Fallback-grid provenance, 2026-10-12:** [Report](docs/experiments/fallback-grid-provenance.md) identifies sampled base00007145 as a ship landing marker and bounds the missing selected-Workshop/save join. One zero-offset generic component agrees; all23 Workshop predictions remain untested natively. [Review](docs/experiments/fallback-grid/review.md). Future healthy-run continuation policy corrected; no live/Git mutation.
+
 **Existing-reference grid observer, 2026-10-12:** [Offline report](docs/experiments/existing-reference-grid/report.md), [proposed integrated card](docs/experiments/existing-reference-grid/run-card.md) and [review](docs/experiments/existing-reference-grid/review.md) deliver version0.4.0 with qualified branch/selection/fresh-grid transport and DLL-only Vortex checks. Native equivalence NOT TESTED; no deployment/game/staging/commit/push.
 
 **Matching-source qualification, 2026-10-12:** [Report](docs/experiments/matching-source-qualification.md) joins candidates15/16 to saved SOR-002/SOR-003 site parents and shows the matching origin already exists in Save25–27. Native landing-source reconstruction and existing-reference bypass distinguish a conditional next scenario from an E guarantee; generic grid output is a separate component test. [Review package](docs/experiments/matching-source/review.md). Offline only; unchanged030/frozen predictions, no live/Git mutation.

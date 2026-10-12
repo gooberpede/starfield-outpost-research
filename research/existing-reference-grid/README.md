@@ -31,3 +31,42 @@ Each output must be new. Existing receipts are preserved. `prepare_lock.py
 is only for the initial clean tracked baseline; never regenerate it to hide
 changes. `package.py` exports/verifies both final patches. None of these are a
 Starfield runtime test.
+
+## Offline fallback provenance audit
+
+[identity_provenance.py](identity_provenance.py) reads38 installed ESM headers,
+selected definition fields and four existing hash-pinned saves using project
+readers; it writes only exclusive derivatives/scratch to a NEW ignored directory.
+It checks source hashes before/after and both-drive40GB guards. Raw receipts
+remain LOCAL-ONLY; the saved inline-marker scan is conditional, not exhaustive.
+Prerequisites include retained source-pin receipts under `.local-work` specified
+in the source. Reproduce from root with the explicit installed CPython:
+
+```powershell
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/existing-reference-grid/identity_provenance.py --out .local-work/fallback-grid/NEW-IDENTITY-REPRO
+```
+
+[fallback_provenance.py](fallback_provenance.py) reads the explicit immutable
+schema4 session, common raw transport in sibling retained sessions and the
+unchanged23 predictions. It writes JSON to stdout only; use a new ignored
+derivative via a byte-preserving subprocess capture. It reuses project
+`live02_analysis`/`route_inspect` with source provenance in the
+[report](../../docs/experiments/fallback-grid-provenance.md). No game, process,
+native calls, save/database edits, dependency or network access. Both-drive
+40GB guard precedes analysis. An unknown older schema is disclosed, not decoded
+under schema4 assumptions. `test_fallback_provenance.py` uses literal synthetic
+arithmetic expectations and local raw evidence for missing/duplicate/changed
+boundary controls; synthetic tests are not native observations.
+
+From repository root:
+
+```powershell
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/existing-reference-grid/fallback_provenance.py .local-work/native-oracle-live/session-36756-82447437
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B -m unittest discover -s research/existing-reference-grid -p 'test_*.py' -v
+```
+
+Operational helpers and historical cards retain their approved historical
+limits. Before future reuse, review their configuration against the prospective
+[continuation policy](../../WORKFLOW.md#scientific-experiment-continuation-and-health);
+the existing2GiB automatic output threshold is not a new default or an approval
+to execute. This assignment changes no deployed observer or operational helper.

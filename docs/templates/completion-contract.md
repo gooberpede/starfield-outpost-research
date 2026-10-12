@@ -17,6 +17,7 @@ Do not allocate IDs or claim approval from this blank template.
   in scope under this assignment; no new brief for ordinary failed tests.
 - Exit / escalation: <exact safety/authority/resource limits; evidence to retain;
   narrow request and resume checkpoint>.
+  Apply [scientific experiment continuation and health](../../WORKFLOW.md#scientific-experiment-continuation-and-health): no automatic time/volume/operator-delay/cadence cutoff for a healthy run; justify essential additional hard limits and obtain maintainer approval before live execution. Preserve both-drive free-space and all integrity/identity/worker/STOP controls, and historical criteria/results.
 - Review artifacts / disposition: acceptance matrix, primary evidence ledger,
   failed/regression cases, status/inclusion/exclusion inventories, verified
   complete/task-only diffs, separate outcome dimensions, reviewer decision.

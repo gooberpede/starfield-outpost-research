@@ -46,6 +46,18 @@ Apply the [scoped-conclusion, coverage and reporting rules](docs/EVIDENCE_STANDA
 
 No project-wide debugger backend or instrumentation framework is mandated; each experiment records its selection. Maintainer-authored sibling tooling has standing reuse authorization under [SOR-P-0002](docs/PERMISSIONS.md#sor-p-0002--standing-maintainer-owned-material-grant); provenance and experiment/execution scope still apply. Third-party components remain separately gated.
 
+## Scientific experiment continuation and health
+
+Prospective correction, 2026-10-12, under the [fallback-grid brief](docs/implementation-briefs/CODEX_BRIEF_SOR_fallback_grid_provenance_and_workflow_policy.md).
+
+**Elapsed time, evidence volume, a delayed operator action, or a routine monitoring-cadence overrun alone must not terminate an otherwise healthy scientific experiment.** Do not invent hard session/admission deadlines, event counts, evidence-size quotas or arbitrary capture cutoffs. Preserve the **40,000,000,000-byte caller-available free-space guard on both C: and D:**, verified target/plugin identities and instruction guards, protected inputs, instrumentation/evidence integrity, actual worker failure, and explicit operator STOP.
+
+Health checks must distinguish an actual failure (for example a failed worker, corrupt evidence, identity/guard mismatch or failed free-space protection) from a slow operator response or delayed routine poll. During an unexpected delay, warn and continue where safe; consult the operator before terminating solely for the delay. A missed monitoring interval remains a recorded deviation, not proof of worker failure. Never retrospectively redefine a violated approved limit as a pass.
+
+If an additional hard limit is essential for a demonstrable safety or engineering reason, document that reason, its exact trigger and recovery behavior, and obtain maintainer approval **before the live run**. Finite question/action scope and memory/queue integrity controls remain required; they do not justify arbitrary scientific event quotas. Scientific completion, evidence integrity, process health and target survival are separate outcomes.
+
+Apply this policy to every future run card and its operational helper configuration. Historical cards, approved limits, failed criteria and results remain immutable historical records; this correction neither reruns them nor changes their verdicts. An old card/helper must be prospectively reviewed against this policy before reuse. No safety control may be silently removed for throughput.
+
 ## Critical review of every diff
 
 Review against the governing brief and accepted corrections, not only the implementation summary. Assess requirement conformance; omissions and unsupported claims; scope creep; regressions; source permission and credit; privacy/rights boundaries; evidence quality; tests and their coverage; reproducibility; documentation consistency; and integration readiness.

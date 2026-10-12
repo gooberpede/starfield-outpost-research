@@ -548,3 +548,7 @@ permission basis, dependency, download, upstream contact or disclosure.
 ### SOR-S-0132/0142 extension — existing-reference grid live02
 
 2026-10-12. [Scoped result](experiments/existing-reference-grid/live-attempt-02.md) and [receipt ledger](experiments/existing-reference-grid/live02-sources.csv) credit maintainer-operated Save28/SOR-003 travel, unchanged approved0.4.0 observer and original project native-schema/model methods. New stdlib/project-only offline derivative validates Q auxiliary/E lifetimes while preserving the frozen decoder false-negative and all original raw bytes. One zero-offset generic component replay is distinct from selected Workshop/save identity. No new third-party reuse, dependency, permission basis, network consultation, external contact or disclosure. Raw/private evidence LOCAL-ONLY; authored result REVIEW-REQUIRED.
+
+### SOR-S-0127/0128/0132/0142 extension — fallback-grid provenance
+
+2026-10-12. [Report](experiments/fallback-grid-provenance.md) and [source ledger](experiments/fallback-grid/sources.csv) credit Bethesda installed native/ESM content, maintainer-operated0.4.0 capture and archived Save25–28, existing project Ghidra runner/readers and frozen v2 model. New original audit/identity probe compose project readers/stdlib; native code informs interpretations and synthetic expectations. No new outside code, dependency, licence basis, consultation, contact or disclosure. Standing SOR-P-0002 applies; approved SFSE source unchanged. Raw/native/save receipts LOCAL-ONLY; authored summaries REVIEW-REQUIRED.

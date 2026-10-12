@@ -241,3 +241,5 @@ external source or substitute for primary verification. No new borrowed code.
 2026-10-12 [Revised Q030 card02](docs/experiments/q-branch-030/live-run-card-02.md) reuses that qualified repair, original project procedure and maintainer-operated attempt01 notice/READY timing evidence. No new third-party implementation or tool dependency.
 
 2026-10-12 [Q030 attempt02](docs/experiments/q-branch-030/live-attempt-02.md) credits the maintainer's controlled Save27/Kreet landing observations, unchanged030 observer/decoder and existing pinned static CFG/descriptor-comparison methods. The direct capture summary uses existing project readers and CPython stdlib; no new borrowed code or native modification.
+
+2026-10-12 [Fallback-grid provenance](docs/experiments/fallback-grid-provenance.md) credits Bethesda installed executable/ESM evidence, maintainer-operated saves/live capture, existing project observer/readers/math and previously credited Ghidra/JDK/CPython tools. [Source ledger](docs/experiments/fallback-grid/sources.csv) separates static recovery, raw observation, synthetic tests and unjoined saved identity. No new borrowed implementation or dependency.

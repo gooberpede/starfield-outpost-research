@@ -128,7 +128,11 @@ The [historical inventory safety plan](experiments/historical-save-inventory-tri
 and [event contract](experiments/event-instrumentation/contract.md) document existing
 disk/output guards; preserve applicable fail-closed checks and thresholds (including
 40,000,000,000-byte C:/D: free-space guards), without treating old experiments as
-current authority. Their differing output/time bounds are experiment-specific.
+current authority. Their differing output/time bounds are historical experiment-specific
+criteria, not future defaults. Future cards and reused helpers must follow
+[scientific experiment continuation and health](../WORKFLOW.md#scientific-experiment-continuation-and-health);
+essential additional hard limits require concrete justification and maintainer
+approval before a live run. Historical violations and verdicts remain unchanged.
 The [operator run card](experiments/event-latency/center-only-live-run-card.md) shows
 explicit live actions, pins, recovery and protected-save rules; it is historical,
 not new launch/attachment authorization.
