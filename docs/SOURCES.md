@@ -1,5 +1,9 @@
 # Source Register
 
+### SOR-S-0142 / SOR-S-0132 Q branch offline extension
+
+2026-10-12. [0.3.0 package](experiments/q-branch-030/qualification.md) adapts original project0.2.0 sources and uses the retained Q/E static exports; exact original hashes/reuse modes are in [sources.csv](experiments/q-branch-030/sources.csv). Existing approved SFSE PluginAPI.h/SOR-P-0001 and notice are unchanged; installed Microsoft compiler/MASM/SDK and CPython are pinned locally. New branch bodies/tests are project-authored synthetic fixtures, not copied game code. Generated native preimages and binaries stay ignored/local. No new third-party reuse/dependency, network or contact.
+
 ### SOR-S-0142 / SOR-S-0132 live attempt02 extension
 
 2026-10-12. [Controlled0.2.0 result](experiments/native-oracle/continuation-020-live-attempt-02.md) uses original observer output from the approved maintainer-operated controls+N1, scoped process metadata, SFSE logs and pinned existing native gate exports. No new third-party implementation, download or external consultation. Runtime edits are exactly the reviewed four CALL/two vtable observations; machine orchestration uses existing approved helpers and CPython standard library. Operator map/location/combat/save testimony is distinct from raw ABI arguments, native linkage and frame identity. New private evidence/derivative manifests retain hashes and effects; all eight static source pins and58 prior-live pins pass. Scope:18 natural Q completions with no linked E/C, no native position equivalence claim or publication clearance.
@@ -509,3 +513,7 @@ unchanged SFSE PluginAPI.h/MIT notice (SOR-P-0001), project Windows utilities
 (SOR-P-0002) and installed MSVC/MASM/SDK/CPython/system DLLs only. prepare.py is
 pinned as a direct local build dependency. No new third-party code, consultation,
 permission basis, dependency, download, upstream contact or disclosure.
+
+### SOR-S-0127/0128/0132/0142 extension — Q/E control-flow reconstruction
+
+2026-10-12. [Report](experiments/q-to-e-control-flow.md) and [20-export source ledger](experiments/q-to-e/sources.csv) use pinned installed Bethesda native/ESM evidence, existing project Ghidra exports/read-only runner, maintainer-operated attempt02 journals and controlled Save27/28. Fresh five read-only exports extend resolver/overlay/enum/caller coverage; database hashes unchanged. New Python probes are original source-informed work reusing project schema/readers/quantizer, not clean-room work. CPython3.14.3 stdlib and existing Ghidra/JDK remain separate installed tools; no new outside code/dependency, network consultation, licence basis, contact or disclosure. SFSE observer unchanged. Raw memory/saves/proprietary output remain LOCAL-ONLY; authored analysis REVIEW-REQUIRED.

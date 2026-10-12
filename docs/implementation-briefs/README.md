@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Q branch observations offline preparation](CODEX_BRIEF_SOR_Q_branch_observations_offline.md): maintainer chat approval2026-10-12, separately versioned observer, original disposable qualification and independent review; no deployment/live/Git mutation. [Package](../experiments/q-branch-030/qualification.md).
+
 - [Research execution and completion protocol](CODEX_BRIEF_SOR_research_execution_completion_protocol.md):
   invoked 2026-10-11 under SOR-D-0049; workflow/documentation only, harmless reviewer
   dry run and [review package](../audits/research-execution-completion-protocol.md).
@@ -89,3 +91,5 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
   invoked2026-10-11, SOR-D-0047; supplied brief retained unchanged.
   [EXP0027 result/review](../experiments/event-latency/startup-review.md), offline and
   disposable only; no Starfield launch/open/memory/attachment or staging/commit/push.
+
+- [Q/E control flow and oracle reachability](CODEX_BRIEF_SOR_Q_to_E_control_flow_and_oracle_reachability.md): invoked2026-10-12; [offline report and review](../experiments/q-to-e-control-flow.md). Supplied brief retained unchanged; no live/plugin/staging/commit/push authority.

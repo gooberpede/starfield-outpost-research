@@ -1,5 +1,7 @@
 # Credits
 
+For [Q branch offline preparation](docs/experiments/q-branch-030/qualification.md), original project0.2.0 observer/fixture/health code and the reviewed Q/E reconstruction supply the design and native CALL map. Bethesda executable analysis, the previously approved SFSE header, Microsoft tooling and CPython retain their existing credit/rights boundaries. The independent reviewer challenges control linkage and FP coverage against primary source/logs. No new external code or disclosure.
+
 For [native-oracle0.2.0 live attempt02](docs/experiments/native-oracle/continuation-020-live-attempt-02.md), the maintainer performs Vortex deployment/removal, launch, Save25/26 controls, the one approved new Kreet landing and distinct Save27/28 checkpoints, and supplies location/combat/responsiveness testimony. Bethesda native inputs, approved SFSE header, original project acquisition/qualification and installed Microsoft/CPython tooling retain existing provenance. Independent reviewer checks primary raw/journal/health/cleanup evidence and actual patches. No new third-party code or external contact.
 
 For [native-oracle live attempt01](docs/experiments/native-oracle/live-attempt-01.md),
@@ -225,3 +227,5 @@ compiler/runtime/tool credits above. Q/E/terrain-fallback interpretations credit
 existing local primary exports at their [point of use](docs/experiments/native-oracle/continuation-020-architecture.md).
 Independent specialist/reviewer work is recorded as review evidence, not an
 external source or substitute for primary verification. No new borrowed code.
+
+[Q/E control-flow reconstruction](docs/experiments/q-to-e-control-flow.md) credits Bethesda installed-native/ESM evidence, maintainer-operated captures and controlled saves, existing project reader/math/schema work, and the previously credited Ghidra/JDK/CPython tools. Specialist and independent reviewer challenges are retained in the [review](docs/experiments/q-to-e/review.md). No new external implementation was incorporated; approved SFSE provenance remains unchanged.

@@ -1,5 +1,11 @@
 # Initial subsystem map — SOR-EXP-0001
 
+[Q branch observer0.3.0 offline qualification](../experiments/q-branch-030/qualification.md) prepares additional natural helper operands and E-entry lineage. Shared samples remain distinct from tested branch operands; native positioning equivalence and live trigger selection remain open. No new runtime or persistence observation is claimed.
+
+## EXP0031 Q/E scientific reconstruction
+
+[Source-grounded explanation](../experiments/q-to-e-control-flow.md) establishes shared continue/nonoverlap return semantics, optional E and a separate existing-reference enumeration. Captured packed source is decoded;18 descriptors have distinct recorded identities/angles and conditional shortcut support. Exact live predicates and full native oracle remain open; saved-angle correspondence cannot supply transient lookup/overlay state. [Acquisition assessment](../experiments/q-to-e/acquisition.md) separates gate closure from partial center/grid validation. Offline only.
+
 ## EXP0031 native-oracle 0.2.0 diagnostic continuation
 
 [Architecture/branch ledger](../experiments/native-oracle/continuation-020-architecture.md) adds natural candidate-query and enumeration boundaries to retained callback/center/grid observations. Disposable Q0/Q-E0/E-C0/C-grid0/positive traces distinguish engineered stage outcomes under qualified ancestry and worker health; actual game traversal remains UNKNOWN. A new Kreet landing has STATIC fallback-search linkage, while existing-reference success can bypass Q and virgin terrain can lack Workshop callbacks. [Executable card](../experiments/native-oracle/continuation-020-run-card.md) proposes optional N1 with protected Save26 lineage and separate actual-save approval. No durable-position confidence, native equivalence or safe mod integration point is promoted.
