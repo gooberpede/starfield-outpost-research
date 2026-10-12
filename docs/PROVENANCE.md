@@ -1,5 +1,37 @@
 # Provenance and Environment Baseline
 
+## SOR-EV-0039 live attempt02 extension
+
+2026-10-12. [0.2.0 live result](experiments/native-oracle/continuation-020-live-attempt-02.md) records explicitly approved final-review-04/card+N1 and notice correction, actual process19908/creation FILETIME/base, protected/source hashes, raw records, health/nonces, operator actions and postflight/removal. Existing SFSE/project provenance is unchanged; no source/binary patch or new third-party component. Original monitor/offline derivative scripts document reads/writes/effects and remain ignored. Query18/noE result is scoped to the instrumented chain, not saved/native identity equivalence. Raw/save/module/native-export payloads remain LOCAL-ONLY, authored interpretation REVIEW-REQUIRED. All58 prior-live pins remain unchanged; prior admission deviation retained. No stage/commit/push.
+
+## SOR-EV-0039 native-oracle 0.2.0 continuation
+
+2026-10-12. [Review](experiments/native-oracle/continuation-020-review.md) identifies new original source in runtime/native-oracle-020, exact build/ZIP/tool/source/protected pins, disposable synthetic evidence and complete/task patches. Original0.1.0 source/package, live attempt01, old proposal and all31 starting uncommitted files are retained (six summary documents receive explicit continuation entries). [Source ledger](experiments/native-oracle/continuation-020-sources.csv) extends existing local static exports with exact-beacon-05 for the natural landing fallback chain; no raw export copied into Git. SOR-S-0127/0132/0142 and approved SOR-P-0001 header/SOR-P-0002 utilities remain the only implementation lineage. Installed MSVC/MASM/SDK/CPython and system DLLs only, no network, new dependency or external disclosure. Current overlay acceptance is prospective, not a rewrite of attempt01's admission failure. Science/publication state unchanged.
+
+## SOR-EV-0039 live attempt01 extension
+
+[Controlled result](experiments/native-oracle/live-attempt-01.md) records explicit
+user approval, final04 deployed/runtime pins, PID30640/creation FILETIME and
+relocated addresses. Native/center/grid files are empty; operator marks and SFSE
+logs are primary operational evidence, not native object identity. STOP response
+and postflight establish scoped retirement/cleanup, not hot restoration or
+algorithm validation. No raw input was incorporated. Protected Save25/26/archive/
+observer0.1.1/frozen23 and source pins remain unchanged; all local failures/unknowns
+retained. Review patches distinguish this delta from earlier Phase A work.
+
+## SOR-EXP-0031 / SOR-EV-0039 — Native oracle engineering
+
+2026-10-11. [Combined review](experiments/native-oracle/review.md) retains game,
+SFSE, source/toolchain/build/package and protected-input pins. Selected primary
+[native export identities](experiments/native-oracle/native-sources.csv) remain
+LOCAL-ONLY payloads. Original source-informed observer/relay/fixture/inspector
+uses approved existing SFSE header and project utilities, no new dependency.
+Disposable ABI/transport tests are engineering evidence, not a native semantic
+finding. Baseline483 files, index/HEAD and protected Save25/26/archive/frozen23/
+observer0.1.1 hashes are rechecked by the local package receipt. Failed iterations
+and preliminary rework remain retained. No raw input incorporated, publication
+clearance, live execution, deployment, stage, commit or push.
+
 ## SOR-EXP-0028 / SOR-EV-0036 — Final thread-control failure analysis
 
 2026-10-11. [Completed outcome B](experiments/event-latency/thread-control-final-report.md)

@@ -1,0 +1,9 @@
+path,bytes,sha256,eligibility
+.local-work/recon/engine-oracle-01.tsv,34509,33c4508537b7993cc6942a3ecc8bc8b8bd77812a5d3bb9c7b104efa5ac35cfad,LOCAL-ONLY primary export; selected authored static interpretation REVIEW-REQUIRED
+.local-work/recon/engine-oracle-02.tsv,22661,13739f8755ec6a4f164a7f1759c2d19197c29eb7f81428cb5714a6b2731e42b8,LOCAL-ONLY primary export; selected authored static interpretation REVIEW-REQUIRED
+.local-work/recon/engine-oracle-04.tsv,61490,a1294f6a39e711622e3dbb55cf74ffaa09c251aa37022ebfacdeb698703fe762,LOCAL-ONLY primary export; selected authored static interpretation REVIEW-REQUIRED
+.local-work/recon/static-exhaustion-04.tsv,378025,b43b4ab1f67c6db02a2c82acef192550115c8109336cd7b236f14abeee7886e8,LOCAL-ONLY primary export; selected authored static interpretation REVIEW-REQUIRED
+.local-work/recon/workshop-origin-04.tsv,78699,c087406d27e0c8c04ba79e496b537ff415e264ac77f46584085fdc68b329e9a0,LOCAL-ONLY primary export; selected authored static interpretation REVIEW-REQUIRED
+.local-work/recon/exp0002-selection-sites.tsv,47848,1f2d830b761dcd72ce719f22509f3670e1acb41b3106b9c74347675e833225f9,LOCAL-ONLY primary export; selected authored static interpretation REVIEW-REQUIRED
+.local-work/recon/durable-center-04.tsv,77769,8a8cd7abff1a44c44d33f7f9f39e97d8503906cff73e645b58b6ff661e56636f,LOCAL-ONLY primary export; selected authored static interpretation REVIEW-REQUIRED
+.local-work/recon/exact-beacon-05.tsv,89342,ab80b3416b477d10123d008a8febd09ae5ccc987f55643108c82a8873509a1c7,LOCAL-ONLY primary export; selected authored static interpretation REVIEW-REQUIRED

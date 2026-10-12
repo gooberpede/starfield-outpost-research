@@ -1,5 +1,27 @@
 # Initial subsystem map — SOR-EXP-0001
 
+## EXP0031 native-oracle 0.2.0 diagnostic continuation
+
+[Architecture/branch ledger](../experiments/native-oracle/continuation-020-architecture.md) adds natural candidate-query and enumeration boundaries to retained callback/center/grid observations. Disposable Q0/Q-E0/E-C0/C-grid0/positive traces distinguish engineered stage outcomes under qualified ancestry and worker health; actual game traversal remains UNKNOWN. A new Kreet landing has STATIC fallback-search linkage, while existing-reference success can bypass Q and virgin terrain can lack Workshop callbacks. [Executable card](../experiments/native-oracle/continuation-020-run-card.md) proposes optional N1 with protected Save26 lineage and separate actual-save approval. No durable-position confidence, native equivalence or safe mod integration point is promoted.
+
+## EXP0031 live attempt01 reachability result
+
+[Controlled attempt](../experiments/native-oracle/live-attempt-01.md) produced no
+callback/center/grid records through both protected-save site/build routes.
+Scoped center collection does not observe other helper callers. Correct static
+vtable dispatch and upstream fallback/eligibility gates leave actual runtime
+non-traversal unresolved; no native model comparison or new gameplay trigger.
+
+## EXP0031 natural native position/grid acquisition
+
+[Combined review](../experiments/native-oracle/review.md) and
+[architecture](../experiments/native-oracle/architecture.md) map callback scope
+and private center/grid CALL outputs for a new SFSE observer. Arrival/terrain
+candidate processing is plausible; build-open reachability is unproven.
+Disposable qualification promotes engineering evidence only; fresh ordinary
+outpost identity, saved-to-loaded frame reconciliation and model equivalence
+remain untested. Earlier external debugger cards below are historical and closed.
+
 ## EXP0026 placement/oracle acquisition latency
 
 [Latency follow-up](../experiments/event-latency/README.md) changes external
