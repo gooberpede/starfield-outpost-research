@@ -1,0 +1,13 @@
+path,sha256,provenance,eligibility
+docs/experiments/q-to-e-control-flow.md,c984af43479729969edd09b17d8a6846fbf6f76cfcd8f7dd7c3f3b65f20f4215,project reconstruction; interpretation,REVIEW-REQUIRED
+docs/experiments/q-branch-030/qualification.md,3edad93ac8816819a7d529811a65bcfbfa7906dfe6badb899517b9b0f5f5e34e,previous offline qualification,REVIEW-REQUIRED
+docs/experiments/native-oracle/continuation-020-live-attempt-02.md,02d41ba40b97baaea6bb3b2b338a95035893d69ff3c702829b0d8ab252d373b0,maintainer-operated live record,REVIEW-REQUIRED
+.local-work/recon/durable-center-04.tsv,8a8cd7abff1a44c44d33f7f9f39e97d8503906cff73e645b58b6ff661e56636f,Bethesda installed native evidence; existing project export,LOCAL-ONLY
+.local-work/recon/engine-oracle-04.tsv,a1294f6a39e711622e3dbb55cf74ffaa09c251aa37022ebfacdeb698703fe762,Bethesda installed native evidence; existing project export,LOCAL-ONLY
+.local-work/q-to-e/saved-correspondence-04/receipt.json,67d959d085f005670375ceadfac9c90ba9d76eeb764e97132cbe899729b0bdec,controlled saves; project receipt,LOCAL-ONLY
+.local-work/native-oracle-020/operations/continuation-live-evidence-manifest-01.json,ff140a86dc373df92bf8197cd16be8a2c2cd6a8f80c2427f1f4f5c4c237a3f05,prior primary evidence inventory,LOCAL-ONLY
+.local-work/native-oracle-030/builds/qualification-02/build.json,6bdadc78ebfe1552adae913bb75cd5c0d54fc44ab4a5a4d12eb2bb4742b222f7,unchanged reviewed build receipt,LOCAL-ONLY
+runtime/native-oracle-030/operate.py,fd2ceea437eab9d23207eb4e738c77190e8574c1fa8636fb0c09c8c724084fad,original project operational helper; imported unchanged,REVIEW-REQUIRED
+runtime/native-oracle-030/inspect_events.py,6094478d2378e6cc6017c511901802ffd30abd93933b7d6c41883bb15f822a10,original project raw decoder/inspector; imported unchanged,REVIEW-REQUIRED
+runtime/native-oracle-030/branch_inspect.py,31d5821d8d806add558a7c24cfaa973d4a49f846ec20d93b3b94086312b743b2,original project scoped static-path analyzer; imported unchanged,REVIEW-REQUIRED
+research/exp0002/prepare.py,8dab51abba35e092f25deef63df51434e2b66d24c9181c1637362714d8502b40,original project PE layout helper; imported unchanged,REVIEW-REQUIRED

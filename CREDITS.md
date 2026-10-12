@@ -229,3 +229,11 @@ Independent specialist/reviewer work is recorded as review evidence, not an
 external source or substitute for primary verification. No new borrowed code.
 
 [Q/E control-flow reconstruction](docs/experiments/q-to-e-control-flow.md) credits Bethesda installed-native/ESM evidence, maintainer-operated captures and controlled saves, existing project reader/math/schema work, and the previously credited Ghidra/JDK/CPython tools. Specialist and independent reviewer challenges are retained in the [review](docs/experiments/q-to-e/review.md). No new external implementation was incorporated; approved SFSE provenance remains unchanged.
+
+2026-10-12 Q030 procedure preparation credits the maintainer's controlled landing/save observations, Bethesda's installed native evidence, existing project reconstruction/observer/inspector work and approved unchanged SFSE interface. [Point-of-use provenance](docs/experiments/q-branch-030/procedure-sources.csv); original external procedure checks use CPython standard library and existing project helpers only.
+
+2026-10-12 external Q030 inventory repair uses the maintainer's retained failed-run evidence and existing project observer/control methods. [Point-of-use source ledger](docs/experiments/q-branch-030/module-inventory-fix-sources.csv) records source-informed cooperative acquisition and its limits. CPython stdlib only; original030/SFSE code unchanged.
+
+2026-10-12 [Revised Q030 card02](docs/experiments/q-branch-030/live-run-card-02.md) reuses that qualified repair, original project procedure and maintainer-operated attempt01 notice/READY timing evidence. No new third-party implementation or tool dependency.
+
+2026-10-12 [Q030 attempt02](docs/experiments/q-branch-030/live-attempt-02.md) credits the maintainer's controlled Save27/Kreet landing observations, unchanged030 observer/decoder and existing pinned static CFG/descriptor-comparison methods. The direct capture summary uses existing project readers and CPython stdlib; no new borrowed code or native modification.

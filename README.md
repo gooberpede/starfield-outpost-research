@@ -178,3 +178,5 @@ Use an external workspace or ignored `.local-work/` for saves, raw/decompressed 
 No fork or pull request without prior discussion and explicit user approval. No third-party code reuse without documented rights-holder permission and explicit user authorization of the specific use. Give explicit credit for all substantive work used, including research and tools, whether or not legally required. Honour licences in letter and spirit.
 
 These are internal project operating rules, not additional restrictions on recipients exercising GPL rights. See [the detailed policy](THIRD_PARTY_POLICY.md), [credits](CREDITS.md), and [publication gate](docs/PUBLICATION.md).
+
+Q030 [single-session procedure](docs/experiments/q-branch-030/live-run-card.md) and [offline qualification/review](docs/experiments/q-branch-030/procedure-qualification.md) are prepared separately from live authorization.

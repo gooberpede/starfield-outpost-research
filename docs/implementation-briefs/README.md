@@ -1,5 +1,9 @@
 # Implementation and Audit Briefs
 
+- [Q030 captured-chain offline analysis](CODEX_BRIEF_SOR_Q030_captured_chains_offline.md): direct user request2026-10-12;18 chains and next bounded E recommendation, unchanged030 and no live/Git actions. [Report](../experiments/q-branch-030/captured-chain-analysis.md).
+
+- [Q030 revised card02 preparation](CODEX_BRIEF_SOR_Q030_revised_card_02.md): direct user request2026-10-12; one new Kreet landing from Save27, qualified cooperative inventory, no manual saves. [Proposed card](../experiments/q-branch-030/live-run-card-02.md); no deployment/launch until approval.
+
 - [Q branch observations offline preparation](CODEX_BRIEF_SOR_Q_branch_observations_offline.md): maintainer chat approval2026-10-12, separately versioned observer, original disposable qualification and independent review; no deployment/live/Git mutation. [Package](../experiments/q-branch-030/qualification.md).
 
 - [Research execution and completion protocol](CODEX_BRIEF_SOR_research_execution_completion_protocol.md):
@@ -93,3 +97,7 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
   disposable only; no Starfield launch/open/memory/attachment or staging/commit/push.
 
 - [Q/E control flow and oracle reachability](CODEX_BRIEF_SOR_Q_to_E_control_flow_and_oracle_reachability.md): invoked2026-10-12; [offline report and review](../experiments/q-to-e-control-flow.md). Supplied brief retained unchanged; no live/plugin/staging/commit/push authority.
+
+- [Q030 live acquisition procedure preparation](CODEX_BRIEF_SOR_Q_branch_030_live_acquisition_procedure.md): invoked2026-10-12; [run card/review](../experiments/q-branch-030/procedure-review.md). Offline only; supplied brief retained unchanged. Combined future live approval required; no staging/commit/push.
+
+- [Q030 external module inventory repair](CODEX_BRIEF_SOR_Q030_external_module_inventory_fix.md): durable direct user authorization2026-10-12; [offline result/review](../experiments/q-branch-030/module-inventory-fix.md). External tooling only, unchanged030 plugin; no launch/deployment/live/staging/commit/push.

@@ -1,0 +1,21 @@
+path,bytes,sha256,classification
+.local-work/q030-revised-card-02/active-run-corrected.json,435,601b1d6cb926bf1754736785f0b5a8fd20aa2155b5cdef565cbca3763cdec2b0,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q030-module-inventory-fix/release-lock-05.json,62252,d25345876fa33719e9aaccc3bd021e6efa131c375e357687ec8c369956cacd73,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q030-E-next-step/analyze.py,6836,97f2cc8bd6342a5020d96bd84263eed62c58233abc473f9fcd1ecf54717156fb,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q030-E-next-step/analyze-failed-01.py,6481,864e2564f6af6453dc39ea400cfe3fbfdbfbc8c004c7076e81020eb6e2e636d1,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q030-E-next-step/analyze-failed-02.py,6702,f27461562e083eda7becedbffc25239d95976e6d11f8f59ce58b80cef5baec4d,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q030-E-next-step/analysis.json,58794,e894cb64b396e2b967abc77f6df1b64c10efcfdc6a2425183d73ed9216553ae5,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q-to-e/reconcile-03/ledger.json,203190,0d15e71a66db08d2b3d070bf3f2ef435fcbfd1ad0e02ef0eca098f8592177b17,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q-to-e/hierarchy-probe-03.json,25271,8c75c97db9893b781bff92765e9a9acbb3be58a981b94805a094ec11da8cae84,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q-to-e/saved-correspondence-04/receipt.json,20001,67d959d085f005670375ceadfac9c90ba9d76eeb764e97132cbe899729b0bdec,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+runtime/native-oracle-030/inspect_events.py,16243,6094478d2378e6cc6017c511901802ffd30abd93933b7d6c41883bb15f822a10,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+runtime/native-oracle-030/branch_inspect.py,7795,31d5821d8d806add558a7c24cfaa973d4a49f846ec20d93b3b94086312b743b2,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+runtime/native-oracle-030/branch.h,3586,6a13ac6572a851bd06d56da789c55bfff10a023325bc6702f81c9846dec65191,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/recon/engine-oracle-02.tsv,22661,13739f8755ec6a4f164a7f1759c2d19197c29eb7f81428cb5714a6b2731e42b8,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/recon/engine-oracle-04.tsv,61490,a1294f6a39e711622e3dbb55cf74ffaa09c251aa37022ebfacdeb698703fe762,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/recon/q-to-e-specialist-01.tsv,6940,7251a7fdc0cd7e9918cc1bc869afe0230ea71947943249a13bc39ebe15d25d25,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/recon/durable-center-03.tsv,44019,c05a9cc0f88f90a3aa1655722a356539ef5ac40a45786d1d83efcb24f50351cf,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/recon/durable-center-04.tsv,77769,8a8cd7abff1a44c44d33f7f9f39e97d8503906cff73e645b58b6ff661e56636f,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q-branch-030-procedure/live-20261012T052432Z-5defdcbe4930454f978c45a904bc5705/final-evidence-manifest.json,26415,411cb07163819f57d65ef33ef6604d3c7cb32b307e70eed1537671728cb317c9,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q-branch-030-procedure/live-20261012T052432Z-5defdcbe4930454f978c45a904bc5705/independent-inspection.json,694868,342e0c3b7f4607d8b8b955c928d6ce46e584b444b03c1bb625d8c76effb536c0,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED
+.local-work/q-branch-030-procedure/live-20261012T052432Z-5defdcbe4930454f978c45a904bc5705/independent-branches.json,13150,8e9bac93ff40918d34a7a37378e4f5c49c9ffe0bd3f69dbb6c6de7c7a3c87dac,LOCAL-ONLY original/evidence/analysis; authored interpretation REVIEW-REQUIRED

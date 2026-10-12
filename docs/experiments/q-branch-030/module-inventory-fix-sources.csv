@@ -1,0 +1,7 @@
+path,sha256,provenance,eligibility
+runtime/native-oracle-030/health.h,278b9940fc154a44d45a2f9e4cbfab53675713b30c2c0e05bf58a44d95fb613c,unchanged project observer module-set/inventory/ACK ordering; cooperative races,REVIEW-REQUIRED
+runtime/native-oracle-030/operate.py,fd2ceea437eab9d23207eb4e738c77190e8574c1fa8636fb0c09c8c724084fad,unchanged project health/creation metadata/control publication,REVIEW-REQUIRED
+.local-work/q-branch-030-procedure/live-20261012T043048Z-41899f5124cc4e4cac16ee0687ea2182/modules-startup.json,4382d3ee50891fb2746cf527ae1468b8202f9747ee67138950899c1405a5e36d,primary actual failure traceback,LOCAL-ONLY
+.local-work/native-oracle-live/session-33636-62107109/health.jsonl,20e45c858185a132c7b55a2a5502174ae8676e96229d5516a718a60b755c775a,prior primary worker health; no retrospective ACK,LOCAL-ONLY
+.local-work/q030-module-inventory-fix/before/research/q-branch-030-procedure/environment.py,3c6bcd5def703a684628735455501aeccabb034178bfa2a34a8f260e7bbd46ce,"original project external reader, preserved before repair",LOCAL-ONLY
+.local-work/native-oracle-030/builds/qualification-02/build.json,6bdadc78ebfe1552adae913bb75cd5c0d54fc44ab4a5a4d12eb2bb4742b222f7,immutable reviewed030 source/package receipt,LOCAL-ONLY
