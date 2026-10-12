@@ -1,0 +1,43 @@
+source_id,path,sha256,use,publication
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/branch.h,6a13ac6572a851bd06d56da789c55bfff10a023325bc6702f81c9846dec65191,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/branch_fixture.asm,f47ff64dd3bcaf010a4351564cccf711186d0827235e13717378b7c73074a22e,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/branch_inspect.py,31d5821d8d806add558a7c24cfaa973d4a49f846ec20d93b3b94086312b743b2,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/branch_tests.cpp,e4295384146d61414ae07dabb41afbbf4ab15b858fc460e782e1582f52d9d895,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/build.py,a7c23c5563f7ad5f645dcbd44e52ce73824d5f6f3f14fb136a1be2cc4bc3b2a9,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/core.h,b734c1e1df615031ee70611125d0b2747ea266e2d754fa7e3752046e883fe989,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/fixture.asm,2066853500697e2a82105969ba9e1a2ad88a407cf7c9fa88fcc22543eb8df6ea,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/health.h,278b9940fc154a44d45a2f9e4cbfab53675713b30c2c0e05bf58a44d95fb613c,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/inspect_events.py,6094478d2378e6cc6017c511901802ffd30abd93933b7d6c41883bb15f822a10,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/operate.py,fd2ceea437eab9d23207eb4e738c77190e8574c1fa8636fb0c09c8c724084fad,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/patch.h,0b24b65facac3144e3e13f56045f6ff073faf7a1d589b0284afcf36c0843c8f0,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/plugin.cpp,5e70cfc851aef07ae1a6ca6333282138a20386a75985643e1d8f5df0f650fbc0,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/qualify_branch.py,68113c9f217531075eb9705c48db485a0a3c6099cebc7027d9af85679abcd028,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/README.md,7ba56b3d6ec8ee6159ca24ed5a330b18cd1a1aabcf7bbb16a413cc1f44b5b4bb,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/schema.md,c5e62c7f634333285413e5f633e3c7e28c71039827ca2f45f452838a61b27492,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/tests.cpp,3c139ec7d51814e98890e1cf2db14500c6cbe10950b9232a80347db3c500db0b,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/test_branch.py,6ebbbcf8cf9c3a691a17fee43addc10fc11ef1299973f49ed9b58d7757322614,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/native-oracle-030/test_inspect.py,0ceed93d41e86b61fb5307fe969590c1ef55880eb8781d5db3ab7aab99dea316,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/exp0002/third_party/sfse/PluginAPI.h,7b0bccaa54d7c65de4ee428b17c1fda9adb7b0bc8a880a432d0d848fff3ce4ab,existing approved header SOR-P-0001; unchanged,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/exp0002/win_support.h,8448738cea1cd1133a0716ef6eddc8e739741c3e83ee5e760bce4b681f888d57,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,runtime/exp0002/core.h,23e652812c32c72664f90edfe4103158aed0b7735563438ce324f44116a990f9,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,docs/experiments/engine-oracle/predictions.json,a8a7402697ed866a3410d4bd58796de513c7ca11f89e770a80deb5a8651a0487,frozen immutable comparison; not retuned,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,save-analysis/scripts/durable_position_v2.py,5a85780f12f05c6a9eb8745b7042b85756ed55ca821c5f50448eb7cc3faebac3,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,docs/experiments/matching-source-qualification.md,619cc0bb7f6ee7e00ba07ccf55b461405c3a5e3fd063c2656be55817a40e679a,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,docs/experiments/q-to-e-control-flow.md,c984af43479729969edd09b17d8a6846fbf6f76cfcd8f7dd7c3f3b65f20f4215,maintainer source adapted/consulted SOR-P-0002,REVIEW-REQUIRED
+SOR-S-0142 / SOR-S-0132,.local-work/native-oracle-040/builds/qualification-04/build.json,c2f745a68f7630ffcfaeb64b640caccc8194dfcd7e9d50e9f5af5eb9d1babace,"superseded static-link candidate; unapproved incorporation, no deployment/publication",LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/existing-reference-grid/supplement-01/receipt.json,56025e4c0d8ad62f3435cac65d921c22a81b8099dc131bd7e1447ca4d752f319,local-only primary static/qualification evidence; no raw incorporation,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/existing-reference-grid/frozen-replay-01/receipt.json,c5bb4e44789a91c6f42b382c7db81e31ea56480656116f0108c849e00e7b05fa,local-only primary static/qualification evidence; no raw incorporation,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/recon/durable-center-04.tsv,8a8cd7abff1a44c44d33f7f9f39e97d8503906cff73e645b58b6ff661e56636f,local-only primary static/qualification evidence; no raw incorporation,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/recon/exact-beacon-05.tsv,ab80b3416b477d10123d008a8febd09ae5ccc987f55643108c82a8873509a1c7,local-only primary static/qualification evidence; no raw incorporation,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/recon/static-exhaustion-11.tsv,0c0ba104307b1ff598c47286a3d24276ac9368cb3089a80cbd98d813bebf6a8f,local-only primary static/qualification evidence; no raw incorporation,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/recon/static-exhaustion-23.tsv,3c24ab3a31f2c41c2bdbb7b595283264e98661f10bd9abac81ac7c1b056b983a,local-only primary static/qualification evidence; no raw incorporation,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/recon/static-exhaustion-68.tsv,8a23d28ee34f329aec82044d79282c4c0849e09bf33feef446adddb903298a0f,local-only primary static/qualification evidence; no raw incorporation,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/recon/activated-grid-01.tsv,63d779c0066b6657db66f68355c8fcb54c78c3222326cf230a3e9d2075a83408,local-only primary static/qualification evidence; no raw incorporation,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/existing-reference-grid/supplement-02/receipt.json,6c63636c3a1fe04443156536d9bf3bc151126ba2b5799805a4c617df92c03de0,final local qualification/lock; old receipts preserved,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/existing-reference-grid/release-lock-03.json,cc24241536a4b68067df59026216c4b4fc794949d972f63cb1615d4431321429,final local qualification/lock; old receipts preserved,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/native-oracle-040/builds/qualification-07/build.json,1865e6b6bcd24fcbf4cac8f558d418cbbef471854046b8ba308584206dd61bd8,"superseded static-link candidate; unapproved incorporation, no deployment/publication",LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/existing-reference-grid/supplement-03/receipt.json,3e2709cd1f414bf9161ddd909f50c1793495e315b3cfb277ceae3f36b89030b3,final07 qualification/lock; earlier receipts retained,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/existing-reference-grid/release-lock-04.json,b0be7e9b1b4c72250fa4550870d2b62e4d196340e3816b5dd02c74734dbadd68,final07 qualification/lock; earlier receipts retained,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/native-oracle-040/builds/qualification-08/build.json,918625105e6b2006abcf97109f7130264b0914aa1584ed27f48e28d326567ecd,final08 dynamic-link qualification/lock; earlier candidates superseded,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/existing-reference-grid/supplement-04/receipt.json,e5b405bfa6171ec965e88117d131b5c5eff16cdfcf9ed41636c93ac53881cc98,final08 dynamic-link qualification/lock; earlier candidates superseded,LOCAL-ONLY
+SOR-S-0142 / SOR-S-0132,.local-work/existing-reference-grid/release-lock-05.json,060db14e0000146ed13537c6b59b688eff238132819b0e42f24a94588f69ab6b,final08 dynamic-link qualification/lock; earlier candidates superseded,LOCAL-ONLY

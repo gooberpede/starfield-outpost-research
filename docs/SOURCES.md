@@ -1,5 +1,9 @@
 # Source Register
 
+### Existing-reference grid continuation of SOR-S-0142 / SOR-S-0132
+
+2026-10-12: [report](experiments/existing-reference-grid/report.md), [ledger](experiments/existing-reference-grid/sources.csv). Project030 transport, retained native exports and frozen position model reused under SOR-P-0002. Existing SFSE header/notice SOR-P-0001 unchanged. Original route fixtures/bridge and procedure use installed Microsoft/CPython tools; no new dependency/download. Retail/static/raw material LOCAL-ONLY; no database edit or external disclosure.
+
 ### Matching-source continuation of SOR-S-0142 / SOR-S-0132
 
 2026-10-12: [report](experiments/matching-source-qualification.md),
@@ -540,3 +544,7 @@ permission basis, dependency, download, upstream contact or disclosure.
 2026-10-12 [Revised card02](experiments/q-branch-030/live-run-card-02.md) derives from card01, attempt01 notice/timestamp evidence and the qualified inventory repair. The explicit mapped-path preflight recipe uses existing project file-only audit functions and stdlib; no tool/native source changes or new borrowed implementation. Existing source ledgers remain the primary provenance; proposed execution is untested and requires new card approval.
 
 2026-10-12 [Approved Q030 attempt02](experiments/q-branch-030/live-attempt-02.md) credits maintainer-operated Save27/Kreet landing and original unchanged030/project-schema/CFG methods. Exact primary raw/journal/seal hashes and per-call direct descriptor comparisons are retained locally; runtime observations versus static path reconstruction remain distinct. Original stdlib summary utility composes existing pinned project readers, no new third-party reuse/dependency/licence basis. No network, external contact or disclosure. Raw/private evidence LOCAL-ONLY; authored scoped result REVIEW-REQUIRED.
+
+### SOR-S-0132/0142 extension — existing-reference grid live02
+
+2026-10-12. [Scoped result](experiments/existing-reference-grid/live-attempt-02.md) and [receipt ledger](experiments/existing-reference-grid/live02-sources.csv) credit maintainer-operated Save28/SOR-003 travel, unchanged approved0.4.0 observer and original project native-schema/model methods. New stdlib/project-only offline derivative validates Q auxiliary/E lifetimes while preserving the frozen decoder false-negative and all original raw bytes. One zero-offset generic component replay is distinct from selected Workshop/save identity. No new third-party reuse, dependency, permission basis, network consultation, external contact or disclosure. Raw/private evidence LOCAL-ONLY; authored result REVIEW-REQUIRED.
