@@ -1,5 +1,8 @@
 # Implementation and Audit Briefs
 
+- [Ship relocation, landing selection and grid oracle](CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md): invoked2026-10-13; offline native/raw/save assessment, specialist and independent review. [Result/package](../experiments/ship-relocation/report.md); no game/build/deploy/save changes or Git mutation.
+
+
 - [Matching-source qualification and enumeration reachability](CODEX_BRIEF_SOR_matching_source_qualification_enumeration_reachability.md): invoked2026-10-12; offline two-candidate/save/native investigation, deterministic checks and independent review. [Report](../experiments/matching-source-qualification.md); no030 modification, live work or Git mutation.
 
 - [Q030 captured-chain offline analysis](CODEX_BRIEF_SOR_Q030_captured_chains_offline.md): direct user request2026-10-12;18 chains and next bounded E recommendation, unchanged030 and no live/Git actions. [Report](../experiments/q-branch-030/captured-chain-analysis.md).

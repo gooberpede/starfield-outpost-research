@@ -1,5 +1,8 @@
 # Starfield Outpost Systems Research
 
+**Ship relocation assessment, 2026-10-13:** [Report](docs/experiments/ship-relocation/report.md) delivers **A — QUALIFIED ACQUISITION SCENARIO** for request-bound landing-marker/shared-grid observation, with local-travel controls and a stronger conditional Workshop callback path. Manual LZ sequences are separate from native traces; nonzero native/full Workshop equivalence remain NOT TESTED. [Review package](docs/experiments/ship-relocation/review.md). Offline only; no new observer/live/Git mutation.
+
+
 **Fallback-grid provenance, 2026-10-12:** [Report](docs/experiments/fallback-grid-provenance.md) identifies sampled base00007145 as a ship landing marker and bounds the missing selected-Workshop/save join. One zero-offset generic component agrees; all23 Workshop predictions remain untested natively. [Review](docs/experiments/fallback-grid/review.md). Future healthy-run continuation policy corrected; no live/Git mutation.
 
 **Existing-reference grid observer, 2026-10-12:** [Offline report](docs/experiments/existing-reference-grid/report.md), [proposed integrated card](docs/experiments/existing-reference-grid/run-card.md) and [review](docs/experiments/existing-reference-grid/review.md) deliver version0.4.0 with qualified branch/selection/fresh-grid transport and DLL-only Vortex checks. Native equivalence NOT TESTED; no deployment/game/staging/commit/push.

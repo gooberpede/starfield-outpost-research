@@ -1,5 +1,8 @@
 # Outpost Subsystem Research Map
 
+**Ship relocation and outpost positioning, 2026-10-13:** [Source-grounded assessment](../experiments/ship-relocation/report.md) separates player commands, marker lookup/reuse/creation, ship-size admission and Workshop rectangle exclusion. Shared native grid relevance is supported; selected/save/Workshop equivalence remains untested. [Future acquisition design](../experiments/ship-relocation/acquisition.md) is a proposal only.
+
+
 
 **Landing/reference identity, 2026-10-12:** [Fallback provenance](../experiments/fallback-grid-provenance.md) separates ship landing marker, runtime reference/cell/world IDs, installed base, saved template references and selected Workshop identity. Generic zero-offset agreement remains distinct from persisted site/load linkage and compensated-center equivalence.
 

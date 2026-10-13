@@ -1,5 +1,10 @@
 # Provenance and Environment Baseline
 
+## SOR-EXP-0031 / SOR-EV-0039 — ship relocation assessment
+
+2026-10-13. [Report](experiments/ship-relocation/report.md) and [source ledger](experiments/ship-relocation/sources.csv) preserve pinned installed Bethesda executable/ESM, original040 raw/journal,23 frozen extracted inputs/predictions and prior save identity counterexamples. New original stdlib/project audits and installed marker keyword walk write only new local derivatives; existing read-only Ghidra/JDK exports preserve15 DB files. Source/reader/export/test/raw/protected pins and complete/task-only patches are retained locally. Existing SOR-S-0127/0128/0132/0142, SOR-P-0002 provenance applies; no new outside code, dependency, licence basis, contact or disclosure. No game/observer build/deployment/save/configuration/Ghidra mutation, stage/commit/push. Authored conclusions REVIEW-REQUIRED, raw/native/save data LOCAL-ONLY.
+
+
 ## SOR-EV-0039 live attempt02 extension
 
 2026-10-12. [0.2.0 live result](experiments/native-oracle/continuation-020-live-attempt-02.md) records explicitly approved final-review-04/card+N1 and notice correction, actual process19908/creation FILETIME/base, protected/source hashes, raw records, health/nonces, operator actions and postflight/removal. Existing SFSE/project provenance is unchanged; no source/binary patch or new third-party component. Original monitor/offline derivative scripts document reads/writes/effects and remain ignored. Query18/noE result is scoped to the instrumented chain, not saved/native identity equivalence. Raw/save/module/native-export payloads remain LOCAL-ONLY, authored interpretation REVIEW-REQUIRED. All58 prior-live pins remain unchanged; prior admission deviation retained. No stage/commit/push.

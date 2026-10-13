@@ -1,5 +1,8 @@
 # Current Research State
 
+**Ship relocation/landing selection, 2026-10-13:** [Assessment](experiments/ship-relocation/report.md), SOR-EXP-0031 / SOR-EV-0039 continuation, delivers **A — QUALIFIED ACQUISITION SCENARIO** for integrated request→marker→fresh shared-grid observation with local-travel contrast. New native dispatch/size/terrain dependencies and the separate Workshop overlap callback are distinguished from two manual Save25 sequences. Fresh778 raw and23 frozen replays preserve zero-offset component agreement;7 saved nonzero operands are predictions, not native validation. No full Workshop equivalence, live/build/deploy/save/Git action. [Acceptance/review](experiments/ship-relocation/review.md).
+
+
 
 **Fallback-grid provenance, 2026-10-12, SOR-EXP-0031 / SOR-EV-0039 continuation:** [Report](experiments/fallback-grid-provenance.md) reconstructs the ship landing marker route, immediate producer and alternative callers, fallback selection/lifetime and downstream destination use. Four-save/static-definition investigation bounds the missing loaded-instance join. No selected SOR-003 Workshop, nonzero-offset native or full-model equivalence is claimed;23 frozen predictions preserved. Future continuation policy/templates corrected; [review](experiments/fallback-grid/review.md). No live/Git mutation; earlier classifications/results retained.
 
