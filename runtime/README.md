@@ -1,5 +1,7 @@
 # Runtime Outpost Research
 
+Latest offline candidate: [ship relocation observer0.5.0](native-oracle-050/README.md), with [qualification and prospective card](../docs/experiments/ship-relocation-050/report.md). Independent engineering review does not supply deployment or live authorization; historical descriptions below retain their original scope.
+
 Current implementation: [broad beacon observer0.1.0](beacon-observer/README.md), [offline review and operator plan](../docs/audits/live-beacon-observer.md). Not deployed/live-qualified; critical review before first Starfield session. The scaffold-only description below is retained history, superseded for the explicitly authorized EXP0002 and SOR-EXP-0016 helpers.
 
 Reserved for explicitly authorized, bounded runtime research support. No native plugin, Papyrus script, injected observer, game modification, package, or deployment configuration is included.

@@ -1,5 +1,11 @@
 # Starfield Outpost Systems Research
 
+**Observer0.5.0 Z/frame follow-up, 2026-10-13:** [Offline investigation](docs/experiments/ship-relocation-050/z-frame-followup.md) recovers2D query/grid source-frame provenance: actual source-world key matches the frozen descriptor through real Q/E/callback ancestry. Native Z differences and null own-cell fields are genuine; the extra translation word is adjacent stack data. Exact Z/restoration cause remains unresolved because relevant flag/selected height edge is absent. [Review](docs/experiments/ship-relocation-050/z-frame-followup-review.md). No new live/source/build/Git actions.
+
+**Observer0.5.0 live scientific result, 2026-10-13:** [Scientific report](docs/experiments/ship-relocation-050/live-attempt-01.md) records1194 complete events, two marker grids and40 ordinary Workshop grids across two identities. Native nonzero offsets and fine-to-middle carry observed; conditional translated XY/cells match frozen Save25/26 candidates. Raw center XYZ differs and loaded cell/world frame is unavailable, so full durable equivalence remains NOT TESTED. Clean retirement/exit/removal, protected inputs and60-file seal verified. [Scientific review](docs/experiments/ship-relocation-050/live-attempt-01-review.md). No further live/Git authority.
+
+**Ship relocation observer0.5.0, offline qualification, 2026-10-13:** [Report](docs/experiments/ship-relocation-050/report.md), [complete prospective card](docs/experiments/ship-relocation-050/run-card.md) and [review package](docs/experiments/ship-relocation-050/review.md) provide request/decision→marker/native-grid capture, a separate natural Workshop oracle, DLL-only Vortex package and disposable qualification. Native nonzero/full Workshop equivalence and retail compatibility remain NOT TESTED. No deployment, launch, save or Git mutation.
+
 **Ship relocation assessment, 2026-10-13:** [Report](docs/experiments/ship-relocation/report.md) delivers **A — QUALIFIED ACQUISITION SCENARIO** for request-bound landing-marker/shared-grid observation, with local-travel controls and a stronger conditional Workshop callback path. Manual LZ sequences are separate from native traces; nonzero native/full Workshop equivalence remain NOT TESTED. [Review package](docs/experiments/ship-relocation/review.md). Offline only; no new observer/live/Git mutation.
 
 

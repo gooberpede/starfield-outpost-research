@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Integrated ship relocation observer and live procedure](CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md): invoked2026-10-13; offline implementation/qualification/Vortex packaging and complete prospective Save25 card with mandatory independent review. [Review package](../experiments/ship-relocation-050/review.md); no deployment/launch/save editing/staging/commit/push.
+
 - [Ship relocation, landing selection and grid oracle](CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md): invoked2026-10-13; offline native/raw/save assessment, specialist and independent review. [Result/package](../experiments/ship-relocation/report.md); no game/build/deploy/save changes or Git mutation.
 
 
@@ -106,3 +108,5 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [Q030 live acquisition procedure preparation](CODEX_BRIEF_SOR_Q_branch_030_live_acquisition_procedure.md): invoked2026-10-12; [run card/review](../experiments/q-branch-030/procedure-review.md). Offline only; supplied brief retained unchanged. Combined future live approval required; no staging/commit/push.
 
 - [Q030 external module inventory repair](CODEX_BRIEF_SOR_Q030_external_module_inventory_fix.md): durable direct user authorization2026-10-12; [offline result/review](../experiments/q-branch-030/module-inventory-fix.md). External tooling only, unchanged030 plugin; no launch/deployment/live/staging/commit/push.
+
+- [Existing observer050 capture Z/frame follow-up](CODEX_BRIEF_SOR_observer050_existing_capture_z_frame_followup.md) — records the maintainer’s authorized2026-10-13 offline investigation; existing sealed/static/save evidence only, no new live run or source/build mutation.

@@ -1,5 +1,11 @@
 # Initial subsystem map — SOR-EXP-0001
 
+[Existing-capture Z/frame follow-up](../experiments/ship-relocation-050/z-frame-followup.md) recovers actual2D source-frame provenance through query key and callback descriptor ancestry. Direct own-cell pointers remain null; Z is genuine native reference output with an unobserved3D restoration/height dependency. A copied third translation word is adjacent stack data, not Z compensation. No full loaded-parent/XYZ equivalence claim.
+
+[Observer0.5.0 live attempt01](../experiments/ship-relocation-050/live-attempt-01.md) observes actual ordinary Workshop center/grid operations for two identities, nonzero offsets and a fine-to-middle carry. Conditional translated XY/cells match frozen candidates; full saved-frame/restoration and Z equivalence remains unvalidated. Ship relocation is operator-observed, while command application and marker creation remain unknown.
+
+[Ship relocation observer0.5.0](../experiments/ship-relocation-050/report.md) prepares source-supported travel request/decision, natural landing-marker/fresh native-grid and separate Workshop center/grid channels. Command handoff remains unassociated after producer return; no marker-creation/applied-ship or full durable-equivalence claim. Offline qualification and the prospective new-Kreet-landing/local-control card add acquisition capability, not new runtime/persistence semantics.
+
 [Q branch observer0.3.0 offline qualification](../experiments/q-branch-030/qualification.md) prepares additional natural helper operands and E-entry lineage. Shared samples remain distinct from tested branch operands; native positioning equivalence and live trigger selection remain open. No new runtime or persistence observation is claimed.
 
 ## EXP0031 Q/E scientific reconstruction
