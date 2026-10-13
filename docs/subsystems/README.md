@@ -1,5 +1,9 @@
 # Outpost Subsystem Research Map
 
+**Observed saved/native position values, 2026-10-13:** [Approved 0.6.0 live result](../experiments/position-write-history/live-attempt-01.md) connects exact saved XYZ to two candidate initial setters and sampled centers. Earlier Z discrepancy not reproduced; d3 writer, lifetime/remapping and common loaded frame remain gaps. [Review](../experiments/position-write-history/live-attempt-01-review.md).
+
+**Reference position history, 2026-10-13:** [Observer0.6.0](../experiments/position-write-history/report.md) joins generic early setter/conversion/command/center observations retrospectively while preserving direct-store, lifetime and remapping gaps. [Static audit](../experiments/position-write-history/static-audit.md) and [prospective card](../experiments/position-write-history/run-card.md) connect restoration and runtime frames; no new live XYZ finding or integration claim.
+
 **Vertical reference restoration, 2026-10-13:** [Producer/consumer investigation](../experiments/workshop-z-restoration/report.md) separates persisted initial XYZ, reference frame/registration mask02, actual loaded position writes, selected edge heights and Workshop compensation. Scoped negative reconstruction and [minimal acquisition design](../experiments/workshop-z-restoration/acquisition.md) preserve known XY results; full XYZ remains unvalidated. No new live authority.
 
 **Ship relocation and outpost positioning, 2026-10-13:** [Source-grounded assessment](../experiments/ship-relocation/report.md) separates player commands, marker lookup/reuse/creation, ship-size admission and Workshop rectangle exclusion. Shared native grid relevance is supported; selected/save/Workshop equivalence remains untested. [Future acquisition design](../experiments/ship-relocation/acquisition.md) is a proposal only.

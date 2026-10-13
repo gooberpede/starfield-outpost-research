@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Native Workshop position-write history and Z oracle](CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md): invoked2026-10-13; integrated offline implementation/disposable qualification/Vortex package and complete prospective Save25 card. [Review/package](../experiments/position-write-history/review.md). No deployment/launch/attachment/save editing/staging/commit/push.
+
 - [Integrated ship relocation observer and live procedure](CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md): invoked2026-10-13; offline implementation/qualification/Vortex packaging and complete prospective Save25 card with mandatory independent review. [Review package](../experiments/ship-relocation-050/review.md); no deployment/launch/save editing/staging/commit/push.
 
 - [Ship relocation, landing selection and grid oracle](CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md): invoked2026-10-13; offline native/raw/save assessment, specialist and independent review. [Result/package](../experiments/ship-relocation/report.md); no game/build/deploy/save changes or Git mutation.

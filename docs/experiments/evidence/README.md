@@ -1,5 +1,9 @@
 # Selected Evidence
 
+- SOR-EV-0039 approved live continuation: [0.6.0 native history](../position-write-history/live-attempt-01.md), [selected cases](../position-write-history/live-attempt-01-cases.csv), [provenance](../position-write-history/live-attempt-01-sources.csv), [review](../position-write-history/live-attempt-01-review.md). Exact saved/native XYZ sampled match, earlier Z discrepancy not reproduced; partial history and frame/lifetime gaps. 562,326 verified records, clean retirement/postflight, 21 sealed files. Raw evidence LOCAL-ONLY; authored result REVIEW-REQUIRED.
+
+- SOR-EV-0039 continuation: [position-write history qualification](../position-write-history/report.md), [source/receipt hashes](../position-write-history/sources.csv) and [review](../position-write-history/review.md). Authored REVIEW-REQUIRED; raw native/save/capture/build/private artifacts LOCAL-ONLY.16000 concurrent fixture records,27 decoder/seven control checks and6563 protected pins; no native060 live equivalence/publication clearance.
+
 - SOR-EV-0036: [EXP0028 final thread-control analysis](../event-latency/thread-control-final-report.md).
   Completed B;32 diagnostic workflows, five API cases, retained R1/R2/repair
   negatives and independent postflights. Authored REVIEW-REQUIRED; raw traces,

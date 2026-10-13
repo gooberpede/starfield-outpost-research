@@ -1,5 +1,13 @@
 # Source Register
 
+### Approved 0.6.0 live continuation of SOR-S-0142 / SOR-S-0132
+
+2026-10-13: [live report](experiments/position-write-history/live-attempt-01.md), [exact ledger](experiments/position-write-history/live-attempt-01-sources.csv). Primary naturally executed Bethesda native observations, protected Save25/26 and retained 0.5.0 evidence use the unchanged owned 0.6.0 observer and project BCPS/schema readers. Maintainer testimony supplies load/travel/sync context. Specialist and reviewer independently challenge history/identity/order and completion. Existing SFSE SOR-P-0001 and owned SOR-P-0002 provenance remain unchanged; no new consultation, dependency, incorporation or disclosure. Raw saves/events/module paths remain LOCAL-ONLY; authored selected scalars/interpretation REVIEW-REQUIRED.
+
+### Position-write history continuation of SOR-S-0142 / SOR-S-0132
+
+2026-10-13: [source/receipt ledger](experiments/position-write-history/sources.csv), [static specialist](experiments/position-write-history/static-audit.md), [report](experiments/position-write-history/report.md). Existing Bethesda native/save/capture evidence and fresh read-only Ghidra xrefs supply design; installed executable hash/preimages reverified. Owned050 patch/module/ABI helpers are adapted, win_support/core reused, under SOR-P-0002. Existing unmodified Ian Patterson SFSE public header/notice remains SOR-P-0001. Installed Microsoft compiler/MASM/SDK, Windows runtime, Ghidra/JDK and CPython support original disposable fixtures and offline tools. No new external consultation/code/dependency/contact. Raw/native/binary evidence LOCAL-ONLY; authored source/interpretation REVIEW-REQUIRED, not clean-room work.
+
 ### Existing-reference grid continuation of SOR-S-0142 / SOR-S-0132
 
 2026-10-12: [report](experiments/existing-reference-grid/report.md), [ledger](experiments/existing-reference-grid/sources.csv). Project030 transport, retained native exports and frozen position model reused under SOR-P-0002. Existing SFSE header/notice SOR-P-0001 unchanged. Original route fixtures/bridge and procedure use installed Microsoft/CPython tools; no new dependency/download. Retail/static/raw material LOCAL-ONLY; no database edit or external disclosure.

@@ -1,5 +1,26 @@
 # Decision Register
 
+## SOR-D-0051 — Approved 0.6.0 Save25 native position history run
+
+2026-10-13: maintainer explicitly approves the exact plugin and integrated card,
+reports Vortex deployment to `Starfield - SFSE`, authorizes preflight and performs
+normal launch, Save25 load and settled SOR-003→SOR-002→SOR-003 controls. The card's
+finite completion STOP retires capture cleanly; maintainer subsequently reports
+normal exit, Steam sync and disablement, and requests postflight plus scientific
+completion. [Live report](experiments/position-write-history/live-attempt-01.md)
+records sampled saved XYZ agreement, partial writer/frame history and the earlier
+0.5.0 discrepancy not reproduced; no correction vector/model change. Earlier
+offline-only authority remains historical. This approval covers only that exact
+run and its local analysis/review; no debugger, new trip/landing/save, additional
+instrumentation, database mutation, external disclosure, staging, commit or push.
+Postflight confirms process exit, DLL absence, protected pins and one incidental
+ExitSave rotation. [Independent review/package](experiments/position-write-history/live-attempt-01-review.md)
+controls acceptance; scientific confidence and publication eligibility remain separate.
+
+## SOR-D-0050 — Offline position-write history observer and integrated Save25 card
+
+2026-10-13, Australia/Sydney: maintainer invokes [the retained brief](implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md), authorizes offline/static/disposable implementation, qualification, Vortex packaging, complete prospective card and independent specialist/reviewer, and requests suggested commit only. [Report/rework](experiments/position-write-history/report.md) and [review](experiments/position-write-history/review.md) retain the original contract. Generic writes are captured before Workshop identity, but actual direct-store/lifetime/remapping gaps prevent an exhaustive history claim. Group-flushed OS-backed transport, explicit failed/captured/durable accounting and preallocated STOP/emergency pages replace per-record flush delays without an event/time/size cutoff. No gameplay correction vector or frozen-model change. No live execution/attachment/deployment, save/configuration/database/Vortex mutation, dependency acquisition, external disclosure, staging/commit/push or integration approval. Joint package/card review precedes separately approved live work.
+
 ## SOR-D-0049 — Research execution and completion protocol
 
 2026-10-11 (Australia/Sydney): maintainer explicitly invokes
