@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+**Vertical reference restoration, 2026-10-13:** [Producer/consumer investigation](../experiments/workshop-z-restoration/report.md) separates persisted initial XYZ, reference frame/registration mask02, actual loaded position writes, selected edge heights and Workshop compensation. Scoped negative reconstruction and [minimal acquisition design](../experiments/workshop-z-restoration/acquisition.md) preserve known XY results; full XYZ remains unvalidated. No new live authority.
+
 **Ship relocation and outpost positioning, 2026-10-13:** [Source-grounded assessment](../experiments/ship-relocation/report.md) separates player commands, marker lookup/reuse/creation, ship-size admission and Workshop rectangle exclusion. Shared native grid relevance is supported; selected/save/Workshop equivalence remains untested. [Future acquisition design](../experiments/ship-relocation/acquisition.md) is a proposal only.
 
 
