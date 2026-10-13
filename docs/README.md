@@ -1,5 +1,7 @@
 # Documentation Index
 
+- [Durable ordinary-outpost position specification](position-model/specification.md), [capabilities](position-model/capabilities.md), [applications](position-model/applications.md), [self-check](position-model/self-check.md), [disposition](position-model/disposition.md), [review](position-model/review.md).
+
 ## Authority and current state
 
 - [Charter](CHARTER.md): runtime-and-persistence remit, boundaries, completion, and prospective milestones.

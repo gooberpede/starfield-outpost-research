@@ -160,3 +160,7 @@ identity joins, not a decoded per-instance resource field. Queued beacon links
 provide context leads, not proven ownership. Operating state/load authority remain
 UNCLASSIFIED. Proposed scoped STRONG association; no safe integration point.
 Publication REVIEW-REQUIRED/raw LOCAL-ONLY; independent review gate in trial matrix.
+
+## Position consolidation cross-reference — 2026-10-13
+
+[Specification](position-model/specification.md) consolidates SOR-ST-0020/0021/0023–0026 without promoting their statuses. Serialized transforms/compensation and world descriptors remain distinct from reconstructed runtime edges and transient caller outputs. [Capabilities](position-model/capabilities.md) separates persistence, frame coverage and application readiness.

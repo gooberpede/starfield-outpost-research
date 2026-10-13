@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+**Position consolidation, 2026-10-13:** [Specification](../position-model/specification.md) and [application matrix](../position-model/applications.md) expose supported saved identity/center, conditional horizontal outputs and unknown frames. [Disposition](../position-model/disposition.md) prioritizes authoritative membership separately from geometry; no existing status promoted.
+
 **Workshop spatial consumers, 2026-10-13:** [Caller audit](../experiments/workshop-caller-semantics/report.md) separates current reference XYZ, descriptor-index translation and terrain-query XY translation. Burst rates do not identify idle-camera activation; [native ledger](../experiments/workshop-caller-semantics/native-ledger.md), [chronology](../experiments/workshop-caller-semantics/chronology.md) and [next decision](../experiments/workshop-caller-semantics/state-and-acquisition.md). Runtime writer/frame equivalence remains unresolved; no safe integration point or new live authority.
 
 **Cross-session coordinate state, 2026-10-13:** [Comparison](../experiments/cross-session-center/report.md) separates current refXYZ, Workshop compensation, own parent/frame and query source. Same native center math samples different states under different triggers/callers; historical producer and timing interference remain unresolved. [Dependency map](../experiments/cross-session-center/dependencies-and-acquisition.md), [review](../experiments/cross-session-center/review.md). FullXYZ NOT TESTED.

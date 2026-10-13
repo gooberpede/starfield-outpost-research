@@ -1,5 +1,7 @@
 # Experiments
 
+- [Durable position consolidation](../position-model/specification.md), [reproduction](../position-model/self-check.md), [review](../position-model/review.md): offline synthesis of EV0017–0026/0028/0038/0039, not a new live experiment or universal XYZ claim.
+
 - [Workshop caller semantics and idle-camera hypothesis](workshop-caller-semantics/report.md) — actual geometric caller ancestry, frame-index contract, burst/thread chronology and precise missing producer observations; [review](workshop-caller-semantics/review.md). SOR-EXP-0031 / SOR-EV-0039 continuation, offline only.
 
 - SOR-EXP-0031 continuation: [cross-session native centers and observer interference](cross-session-center/report.md), [ledger](cross-session-center/ledger.md), [review/package](cross-session-center/review.md). OutcomeB evidence-bound comparison; patchedAD0C36 unobserved060, distinct reference states/consumers and logging effects retained. FullXYZ NOT TESTED; offline only.
