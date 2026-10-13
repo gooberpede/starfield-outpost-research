@@ -1,5 +1,20 @@
 # Decision Register
 
+## SOR-D-0052 — Offline cross-session center and observer audit
+
+2026-10-13, Australia/Sydney. The maintainer explicitly invokes the
+[cross-session brief](implementation-briefs/CODEX_BRIEF_SOR_cross_session_native_center_state_and_observer_interference.md)
+and requests a suggested commit message without committing or pushing. Authority
+covers existing evidence/source/native-export reconstruction, original offline
+diagnostics, documentation, one specialist and independent review. No observer
+build, launch, injection, deployment, process/runtime memory, save modification,
+database mutation, staging, commit, push or disclosure. [Result and acceptance
+package](experiments/cross-session-center/review.md) distinguish supported state
+and coverage differences from unknown causal history/interference. OutcomeB is
+evidence-bound; fullXYZ NOT TESTED. Acquisition ranking is a proposal only;
+independent acceptance does not authorize live work or integration. Historical
+reports and prior negative results remain unchanged.
+
 ## SOR-D-0051 — Approved 0.6.0 Save25 native position history run
 
 2026-10-13: maintainer explicitly approves the exact plugin and integrated card,

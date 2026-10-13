@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+**Cross-session coordinate state, 2026-10-13:** [Comparison](../experiments/cross-session-center/report.md) separates current refXYZ, Workshop compensation, own parent/frame and query source. Same native center math samples different states under different triggers/callers; historical producer and timing interference remain unresolved. [Dependency map](../experiments/cross-session-center/dependencies-and-acquisition.md), [review](../experiments/cross-session-center/review.md). FullXYZ NOT TESTED.
+
 **Observed saved/native position values, 2026-10-13:** [Approved 0.6.0 live result](../experiments/position-write-history/live-attempt-01.md) connects exact saved XYZ to two candidate initial setters and sampled centers. Earlier Z discrepancy not reproduced; d3 writer, lifetime/remapping and common loaded frame remain gaps. [Review](../experiments/position-write-history/live-attempt-01-review.md).
 
 **Reference position history, 2026-10-13:** [Observer0.6.0](../experiments/position-write-history/report.md) joins generic early setter/conversion/command/center observations retrospectively while preserving direct-store, lifetime and remapping gaps. [Static audit](../experiments/position-write-history/static-audit.md) and [prospective card](../experiments/position-write-history/run-card.md) connect restoration and runtime frames; no new live XYZ finding or integration claim.

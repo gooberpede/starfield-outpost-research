@@ -1,5 +1,19 @@
 # Current Research State
 
+**Cross-session center and observer audit — 2026-10-13:**
+[Evidence-bound comparison](experiments/cross-session-center/report.md) independently
+checks563,520 original records,81 sealed files,61 build source pins and Save25/26
+fields. Both versions use the same F4AB80 math;050 referenceXYZ differs from060,
+with zero compensation. 060 instrumented AD0C36 but had zero calls there;16824
+F4A1D4 and twoF498F1 center invocations are different consumers under a different
+gameplay sequence. Final module identities match apart from observer DLL.
+Caller/frame-state selection and engine-thread logging differences are supported;
+historical producer/lifetime/3D-edge and causal interference remain unresolved.
+[Review/package](experiments/cross-session-center/review.md), [native dependencies
+and acquisition ranking](experiments/cross-session-center/dependencies-and-acquisition.md).
+OutcomeB independently ACCEPTED; fullXYZ NOT TESTED. Prior reports
+preserved; no game/build/deployment/save/database/staging/commit/push action.
+
 **Approved position-write history 0.6.0 live attempt01 — 2026-10-13:**
 [Report](experiments/position-write-history/live-attempt-01.md) records exact
 Save25 XYZ at both candidate initial setters and all 16,826 later center outputs

@@ -1,5 +1,15 @@
 # Credits
 
+The [cross-session center comparison](docs/experiments/cross-session-center/report.md)
+credits Bethesda native/save evidence, the maintainer's controlled saves and
+approved050/060 gameplay, existing project observer/schema/reconstruction work
+and previously credited Ghidra/Microsoft/CPython tools. The new Event decoder is
+independent original project code; existing owned BCPS decompression and review
+export methods retain explicit provenance. The specialist contributes verified
+hook coverage, caller-gate and race/sampling/timing counterexamples; the separate
+reviewer independently challenges raw records, native paths and final diffs.
+No new third-party implementation, licence acceptance or external disclosure.
+
 For the [approved 0.6.0 live history](docs/experiments/position-write-history/live-attempt-01.md), the maintainer performs Vortex deployment/removal, launch, Save25 selection, three location controls and normal exit/sync, and supplies responsiveness testimony. Bethesda native/save representations, the previously approved SFSE interface, owned observer/readers and installed Microsoft/CPython tools retain established provenance. The authorized writer specialist independently reconstructs initial setters, centers and identity/order counterexamples; a separate reviewer checks primary bytes, integrity, scientific scope and review exports. No new third-party implementation or disclosure.
 
 For [position-write history acquisition](docs/experiments/position-write-history/report.md), Bethesda native/save representations and maintainer-operated050 evidence supply primary inputs. Ian Patterson’s previously approved unmodified SFSE interface/notice, installed Microsoft compiler/MASM/SDK/Windows runtime, Ghidra/JDK and CPython retain existing credit/rights boundaries. Owned project050 helpers and ABI probe supply adapted provenance. The authorized specialist independently recovered direct-writer counterexamples, complete caller xrefs, d3 ordering and queued command ancestry; the read-only reviewer challenged raw/typed IDs, concurrency, failure recovery, operational STOP and completeness against primary artifacts. No new third-party implementation or disclosure.

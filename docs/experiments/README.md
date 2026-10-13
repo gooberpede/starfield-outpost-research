@@ -1,5 +1,7 @@
 # Experiments
 
+- SOR-EXP-0031 continuation: [cross-session native centers and observer interference](cross-session-center/report.md), [ledger](cross-session-center/ledger.md), [review/package](cross-session-center/review.md). OutcomeB evidence-bound comparison; patchedAD0C36 unobserved060, distinct reference states/consumers and logging effects retained. FullXYZ NOT TESTED; offline only.
+
 - SOR-EXP-0031 approved continuation: [0.6.0 live position history](position-write-history/live-attempt-01.md), [review/package](position-write-history/live-attempt-01-review.md). Both candidate saved XYZ inputs and sampled centers agree; prior Z discrepancy not reproduced, causal epoch/lifetime/frame gaps retained. Clean transport and cleanup; no next experiment authorized.
 
 - SOR-EXP-0031 continuation: [position-write history observer](position-write-history/report.md), [complete prospective Save25 card](position-write-history/run-card.md), [review/package](position-write-history/review.md). Offline native/decoder/lifecycle qualification, source-backed acquisition feasibility and partial-history discipline; full native XYZ equivalence NOT_TESTED. No live/deployment/Git actions.

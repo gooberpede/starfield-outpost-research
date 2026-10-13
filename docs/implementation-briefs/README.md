@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Cross-session native center state and observer interference](CODEX_BRIEF_SOR_cross_session_native_center_state_and_observer_interference.md): invoked2026-10-13; offline reconstruction, original verifier, comparative hook/ABI/timing audit and independent review. [Result/package](../experiments/cross-session-center/review.md). No observer build, live work, deployment, save mutation, staging, commit or push.
+
 - [Native Workshop position-write history and Z oracle](CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md): invoked2026-10-13; integrated offline implementation/disposable qualification/Vortex package and complete prospective Save25 card. [Review/package](../experiments/position-write-history/review.md). No deployment/launch/attachment/save editing/staging/commit/push.
 
 - [Integrated ship relocation observer and live procedure](CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md): invoked2026-10-13; offline implementation/qualification/Vortex packaging and complete prospective Save25 card with mandatory independent review. [Review package](../experiments/ship-relocation-050/review.md); no deployment/launch/save editing/staging/commit/push.

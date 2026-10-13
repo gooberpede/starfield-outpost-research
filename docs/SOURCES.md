@@ -1,5 +1,22 @@
 # Source Register
 
+### Cross-session extension of SOR-S-0127/0128/0132/0142
+
+2026-10-13. [Comparison](experiments/cross-session-center/report.md) and [exact
+source ledger](experiments/cross-session-center/sources.csv) credit Bethesda
+installed native/save evidence, the maintainer-operated050/060 sessions and
+controlled Save25/26, existing project source/observer/schema methods and archived
+Ghidra exports. New independent Event decoding and adverse tests are original
+project code using CPython stdlib; owned stream_save.py is reused only for BCPS
+decompression with its hash and inherited framing semantics disclosed. Local
+packaging adapts the existing owned Z/frame export method with provenance in
+the receipt. Specialist independently corrects hook coverage, caller gates,
+race-check semantics and storage timing; final reviewer challenges primary data
+and patches. Existing SFSE permission/source notices are unchanged. No external
+lookup, new borrowed code/dependency/licence basis, tool-native execution,
+upstream contact or disclosure. Raw/private/native artifacts LOCAL-ONLY;
+authored summaries/source REVIEW-REQUIRED. Provenance checks do not prove semantics.
+
 ### Approved 0.6.0 live continuation of SOR-S-0142 / SOR-S-0132
 
 2026-10-13: [live report](experiments/position-write-history/live-attempt-01.md), [exact ledger](experiments/position-write-history/live-attempt-01-sources.csv). Primary naturally executed Bethesda native observations, protected Save25/26 and retained 0.5.0 evidence use the unchanged owned 0.6.0 observer and project BCPS/schema readers. Maintainer testimony supplies load/travel/sync context. Specialist and reviewer independently challenge history/identity/order and completion. Existing SFSE SOR-P-0001 and owned SOR-P-0002 provenance remain unchanged; no new consultation, dependency, incorporation or disclosure. Raw saves/events/module paths remain LOCAL-ONLY; authored selected scalars/interpretation REVIEW-REQUIRED.
