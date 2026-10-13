@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+**Workshop spatial consumers, 2026-10-13:** [Caller audit](../experiments/workshop-caller-semantics/report.md) separates current reference XYZ, descriptor-index translation and terrain-query XY translation. Burst rates do not identify idle-camera activation; [native ledger](../experiments/workshop-caller-semantics/native-ledger.md), [chronology](../experiments/workshop-caller-semantics/chronology.md) and [next decision](../experiments/workshop-caller-semantics/state-and-acquisition.md). Runtime writer/frame equivalence remains unresolved; no safe integration point or new live authority.
+
 **Cross-session coordinate state, 2026-10-13:** [Comparison](../experiments/cross-session-center/report.md) separates current refXYZ, Workshop compensation, own parent/frame and query source. Same native center math samples different states under different triggers/callers; historical producer and timing interference remain unresolved. [Dependency map](../experiments/cross-session-center/dependencies-and-acquisition.md), [review](../experiments/cross-session-center/review.md). FullXYZ NOT TESTED.
 
 **Observed saved/native position values, 2026-10-13:** [Approved 0.6.0 live result](../experiments/position-write-history/live-attempt-01.md) connects exact saved XYZ to two candidate initial setters and sampled centers. Earlier Z discrepancy not reproduced; d3 writer, lifetime/remapping and common loaded frame remain gaps. [Review](../experiments/position-write-history/live-attempt-01-review.md).

@@ -114,3 +114,5 @@ Current correction: [adapter0.1.1 fixed population and capture-first recovery](E
 - [Q030 external module inventory repair](CODEX_BRIEF_SOR_Q030_external_module_inventory_fix.md): durable direct user authorization2026-10-12; [offline result/review](../experiments/q-branch-030/module-inventory-fix.md). External tooling only, unchanged030 plugin; no launch/deployment/live/staging/commit/push.
 
 - [Existing observer050 capture Z/frame follow-up](CODEX_BRIEF_SOR_observer050_existing_capture_z_frame_followup.md) — records the maintainer’s authorized2026-10-13 offline investigation; existing sealed/static/save evidence only, no new live run or source/build mutation.
+
+- [Workshop caller semantics and idle-camera hypothesis](CODEX_BRIEF_SOR_workshop_center_caller_semantics_idle_camera.md) — invoked2026-10-13; offline caller/frame/chronology research with specialist and independent review, no live/Git mutation authority.

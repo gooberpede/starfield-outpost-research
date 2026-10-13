@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**Workshop caller/idle-camera audit, 2026-10-13:** [Report](docs/experiments/workshop-caller-semantics/report.md) traces shared geometric consumers and multithreaded center bursts. Frequency does not establish idle-camera activation; historical XYZ producer and full3D frame remain unresolved. [Native ledger](docs/experiments/workshop-caller-semantics/native-ledger.md), [chronology](docs/experiments/workshop-caller-semantics/chronology.md), [review](docs/experiments/workshop-caller-semantics/review.md). Offline only; no new live or Git authority.
+
 **Cross-session native centers, 2026-10-13:** [Comparison](docs/experiments/cross-session-center/report.md) finds different native reference states at unmatched caller/action boundaries. 0.6.0 patched the historical AD0C36 site but recorded no hits; its centers came from F4A1D4/F498F1. Exact historical transition and timing interference remain unresolved; full XYZ equivalence NOT TESTED. [Ledger/review package](docs/experiments/cross-session-center/review.md). Offline only, no new live or Git authority.
 
 **Approved 0.6.0 live history, 2026-10-13:** [Result](docs/experiments/position-write-history/live-attempt-01.md) observes saved XYZ at two candidate initial setters and 16,826 subsequent native centers. Prior Z discrepancy not reproduced; historical cause and full writer/lifetime/frame equivalence remain unresolved. Clean postflight and protected inputs; [review/package](docs/experiments/position-write-history/live-attempt-01-review.md). No follow-on live or Git action.

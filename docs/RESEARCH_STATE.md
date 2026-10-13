@@ -1,5 +1,7 @@
 # Current Research State
 
+**Workshop caller semantics and idle camera, 2026-10-13 — SOR-EXP-0031 / SOR-EV-0039:** [Report](experiments/workshop-caller-semantics/report.md) records independently ACCEPTED B evidence-bound closure: shared descriptor membership/collision/border consumers, actual indexed frame contract and bursty multithreaded timing. Camera activation and camera-caused XYZ writes remain unobserved; exact historical producer and fullXYZ equivalence unresolved/NOT TESTED. Fresh sealed raw/save replay,23 unchanged frozen regressions and16 timing/schema controls; [native ledger](experiments/workshop-caller-semantics/native-ledger.md), [chronology](experiments/workshop-caller-semantics/chronology.md), [review](experiments/workshop-caller-semantics/review.md). Interpretation REVIEW-REQUIRED; original evidence LOCAL-ONLY. No launch/process/deployment/save/Git action.
+
 **Cross-session center and observer audit — 2026-10-13:**
 [Evidence-bound comparison](experiments/cross-session-center/report.md) independently
 checks563,520 original records,81 sealed files,61 build source pins and Save25/26
