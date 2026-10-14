@@ -25,8 +25,8 @@ from the later experiment. More F4A1D4 samples cannot substitute for that operat
 ## Direct comparison and provenance
 
 The new decoder does not import either observer's record decoder. Header/blob
-offsets come from the C++ declarations; all 1,194 schema5 and 562,326 schema6
-records are independently length/sequence/extent/SHA256 checked. Every schema6
+offsets come from the C++ declarations; all 1,194 schema 5 and 562,326 schema 6
+records are independently length/sequence/extent/SHA256 checked. Every schema 6
 invocation has matched thread/site/kind/parent/reference endpoints: 281,163 pairs,
 no raw tail. The two original seals (60 and 21 files), 41/20 selected build
 source inputs, both original Save25/26 archives and installed executable hash
@@ -61,7 +61,7 @@ the entire generic 060 population, before identity filtering. Other four patched
 center callers are likewise unobserved. The [coverage matrix](coverage.csv)
 separates these negatives from sites never instrumented in the other version.
 
-Four 060 pairs contain status8 reference-prefix races (sequences 206095, 321083,
+Four 060 pairs contain status 8 reference-prefix races (sequences 206095, 321083,
 330833, 401602). All output triples are retained and checked; exclude the four
 pairs from coherent before/after identity/arithmetic claims. This leaves 16,822
 coherent pairs. Counts of coherent return *records* are 5,281 / 11,543; these
@@ -90,7 +90,7 @@ comparison control here; neither selected run loaded it.
 050 starts at SOR-003 (initial SOR-002 wording was corrected), performs local
 003→002→003 controls with zero instrumented events, then one fresh Kreet landing
 and return. All 40 Workshop center/grid operations belong to that return producer,
-thread36728, and real Q→E→callback ancestry. 060 loads Save25 and performs only
+thread 36728, and real Q→E→callback ancestry. 060 loads Save25 and performs only
 003→002→003, with general writer/center capture active before loading; centers
 occur on several threads. No equivalent new-landing/return sequence was run.
 Build-mode entry, construction, beacon movement, console calls and manual saves
@@ -112,7 +112,7 @@ final inventories. Steam/NVIDIA overlays were accepted in both procedures.
 | H1, different coverage/boundaries | **SUPPORTED.** 050 only patches AD0C36 for centers and emits inside a callback after return; 060 patches all seven callers but observed only F4A1D4/F498F1. 060 lacks Q/E/callback/grid instrumentation. No equivalent-boundary pair exists. The specific claim that 060 did not patch AD0C36 is **EXCLUDED**. |
 | H2, genuine native frame/state | **SUPPORTED for different sampled XYZ/own-cell state; causal transition UNRESOLVED.** 050 own+B0 is zero, D3 absent; 060 centers have own cells/world and D3=2. Native selected-edge conversion/replacement paths can change XYZ, but actual 050 operands/epoch are absent. Caller choice does not itself supply a Z transform. |
 | H3, observer interference | **POSSIBLE, NOT ATTRIBUTED.** 060 engine-thread locking/hash/disk queries/writes differ materially from 050 queue capture. No direct XYZ mutation or demonstrated ABI defect explains these records. Existing fixtures test bounded mechanisms, not noninterference. Unmatched triggers prevent attributing changed reachability to instrumentation. |
-| H4, identity/decoding mismatch | **Simple offset/output/identity-domain error EXCLUDED for the decoded centers.** Both native returns equal separately read reference XYZ, base002C60E9 and exact ExtraWorkshop IDs qualify the samples. Runtime FormIDs differ across sessions. Continuous lifetimes, same-ID reuse and initial-setter retrospective joins remain qualified, not excluded alternatives. |
+| H4, identity/decoding mismatch | **Simple offset/output/identity-domain error EXCLUDED for the decoded centers.** Both native returns equal separately read reference XYZ, base 002C60E9 and exact ExtraWorkshop IDs qualify the samples. Runtime FormIDs differ across sessions. Continuous lifetimes, same-ID reuse and initial-setter retrospective joins remain qualified, not excluded alternatives. |
 | H5, other evidenced explanation | Different gameplay phase and caller state-selection gates are **SUPPORTED confounders**. An extra final recorded module is not supported by matched inventories. Direct stores and registration-only D3 writes survive as explicit native alternatives; no invented terrain constant, common Z correction or missing third translation word resolves the comparison. |
 
 The [dependency assessment](dependencies-and-acquisition.md) exhausts the credible
@@ -138,12 +138,12 @@ survival and publication eligibility remain independent dimensions.
 ## Checks, failures and authority
 
 Twelve original adversarial controls exercise wrong field offsets/schema,
-unreadable/status8 snapshots, pointer/session reuse, FormID/Workshop-ID confusion,
+unreadable/status 8 snapshots, pointer/session reuse, FormID/Workshop-ID confusion,
 missing or cross-thread ancestry, conflicting/absent frame fields and false
 cross-thread ordering. Exact replay receipts and package checks are listed in
 [review](review.md). Synthetic checks do not generate new native observations.
 One initial `python` command hit the inaccessible WindowsApps alias; execution
-used the installed CPython3.14.3 absolute path. No evidence or safety failure
+used the installed CPython 3.14.3 absolute path. No evidence or safety failure
 resulted. Verification-01's module fallback selected the pre-edit 050 inventory;
 verification-02 corrects it to the final `modules-9` inventory and retains both
 derivatives. The final conclusion uses only the corrected final comparison.

@@ -31,8 +31,8 @@ Static resource joins never read manual network labels. The saved context is
 reported separately from authoritative membership. No live/instrumentation work.
 
 Three substantive failures were diagnosed and corrected in this assignment:
-compact ESM IDs (run01), duplicate output label (run02), mmap count method (first
-corpus check). Successful run03/run05 and corpus receipts retain provenance;
+compact ESM IDs (run 01), duplicate output label (run 02), mmap count method (first
+corpus check). Successful run 03/run05 and corpus receipts retain provenance;
 failed-history.md in local evidence records the failures and corrections. The
 ordinary loot rule's four X-Tech counterexamples remain a scientific method limit,
 not failures averaged into PASS. No completed negative finding or impossibility

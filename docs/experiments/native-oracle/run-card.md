@@ -12,10 +12,10 @@ different save/site or configuration workaround is authorized.
 
 Package: `.local-work/native-oracle/builds/final-review-04/SorNativePositionOracle-0.1.0.zip`.
 The [review and hash ledger](review.md) names its exact SHA256, DLL/config hashes
-and final qualification. Version0.1.0 is a new SFSE component, not an external
+and final qualification. Version 0.1.0 is a new SFSE component, not an external
 adapter continuation. Install paths are precisely
 `Data/SFSE/Plugins/SorNativePositionOracle.dll` and `.config`; ResearchNotices
-contains project/header notices. Both channels enabled. Keep prior0.1.1 artifacts;
+contains project/header notices. Both channels enabled. Keep prior 0.1.1 artifacts;
 user disables conflicting/old observers through Vortex, never Codex copying files.
 
 Game1.16.244.0 SHA256
@@ -51,10 +51,10 @@ $oracleBuild = 'D:/Projects/starfield-outpost-research/.local-work/native-oracle
 & $oraclePython -B runtime/native-oracle/operate.py preflight --build $oracleBuild --deployed --receipt live-preflight-01
 ```
 
-Receipt must exit0/PASS and all checks be true: package/deployed DLL/config bytes,
+Receipt must exit 0/PASS and all checks be true: package/deployed DLL/config bytes,
 game/SFSE/loader, source snapshot, protected originals/archives/frozen fixtures,
 no Starfield/loader/debugger processes, only the reviewed SFSE plugin DLL,
-caller-available40,000,000,000 bytes on both C:/D: with writer reserve. Fresh receipt
+caller-available 40,000,000,000 bytes on both C:/D: with writer reserve. Fresh receipt
 name if a new separately reviewed attempt is needed; never overwrite a failure.
 Script writes only ignored local receipts and cannot install or launch anything.
 Check `git status --short` against the reviewed manifest; critical source/pin drift
@@ -71,20 +71,20 @@ After approval and mandatory PASS only, launch the pinned loader once:
 ```
 
 No external debugger/attachment. User remains at main menu until startup READY.
-Instrument can delay pre-main startup up to120 seconds while waiting for a sole
+Instrument can delay pre-main startup up to 120 seconds while waiting for a sole
 process thread. It never suspends threads or patches concurrently. This condition
 is untested in Starfield. If it cannot hold, startup emits NOT_READY and installs
 no hooks; retain the failure and exit normally, with no retry or forced workaround.
 
 Find the unique new `session-<PID>-<tick>` beneath
 `D:/Projects/starfield-outpost-research/.local-work/native-oracle-live/`.
-Verify its READY component0.1.0, PID/process-creation FILETIME against actual
+Verify its READY component 0.1.0, PID/process-creation FILETIME against actual
 Starfield metadata, game/SFSE/DLL hashes against build.json, event_size17,768,
 QPC frequency, both channels true, startup wait and UTC. Require patches.json
 with four installed guards (CALL RVAsAD0C36/AD0D36; vtable RVAs4B916F0/F8),
 runtime VA=READY base+RVA, all original/installed hashes, and startup module
 inventory containing those exact game/SFSE/plugin builds. Vtable guards must
-use relocated pointer targets AD8EC0 and destructor31A630; CALL relays must be
+use relocated pointer targets AD8EC0 and destructor 31A630; CALL relays must be
 within signed rel32 reach and RX. These are checked by the plugin before READY;
 never infer them from the disk DLL alone. Retain SFSE log corroboration and
 review module inventory for an unexpected injector/profile conflict. No failure.json
@@ -113,7 +113,7 @@ loading/settling without an arbitrary scientific timeout:
 | 003 no-action/build controls | Mark settled closed, a no-action control, normal build-open, no-action open control, then close. Change no object. Do not assume build-open invokes grid. |
 | 002 arrival and controls | Use normal map fast travel to existing SOR-002 only (or the already established on-foot route in the same landing area if fast travel is unavailable; record which). Repeat settled closed/no-action/open/no-action/close. Preserve loading/rebase differences. |
 | 003 return | Return via the same permitted route to SOR-003; retain terrain/site/identity-switch evidence and closed/no-action controls. |
-| Save26 arrival and controls | Mark load, select exact existing Save26 through normal UI; repeat003→002→003 arrivals and controls. Save26 already contains the relocation; do not move anything or resave. |
+| Save26 arrival and controls | Mark load, select exact existing Save26 through normal UI; repeat 003→002→003 arrivals and controls. Save26 already contains the relocation; do not move anything or resave. |
 
 Examples of unique phase marks:
 
@@ -166,7 +166,7 @@ After actual process exit and normal Steam synchronization, user disables/remove
 this observer via Vortex. Verify Starfield/loader absence and that both deployed
 observer files are absent; do not delete them directly. Process exit discards the
 retained memory hooks; no claim of live original-byte restoration is made. Recheck
-original on-disk game/SFSE, protected saves/archives/fixtures and baseline0.1.1:
+original on-disk game/SFSE, protected saves/archives/fixtures and baseline 0.1.1:
 
 ```powershell
 & $oraclePython -B runtime/native-oracle/operate.py preflight --build $oracleBuild --postflight --receipt live-postflight-01
@@ -186,7 +186,7 @@ Inspector validates raw hashes and normal invocation pairing before conditional
 comparisons. Independently review exact ordinary base, Workshop+98, reference/body,
 source/input/result hierarchy, translation, floor, resolution/block/scale and FP
 conditions. Native bytes must remain distinct from DERIVED translated arithmetic.
-For Save25/26:002 ID `f1517de43e171745`,003 ID `0efca066ee4c7b9b`, body0003F59F.
+For Save25/26:002 ID `f1517de43e171745`,003 ID `0efca066ee4c7b9b`, body 0003F59F.
 Frozen centers/cells/inputs and the existing validation protocol remain unchanged.
 No equality, timing proximity or operator site label creates identity/freshness.
 

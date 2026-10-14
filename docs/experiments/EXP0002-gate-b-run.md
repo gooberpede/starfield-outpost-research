@@ -10,9 +10,9 @@ The user confirmed corrected-package deployment through Vortex profile **Starfie
 
 ## Configuration defect found before launch
 
-The reviewed review12 ZIP contained a 65-byte config ending CRLF. The observer reads binary bytes and removes one trailing LF; the remaining CR fails its exact output-root validation. Thus the earlier package would not initialize. Offline native tests had not covered the actual packaged configuration bytes. This is a packaging failure, not scientific evidence or a runtime anomaly.
+The reviewed review 12 ZIP contained a 65-byte config ending CRLF. The observer reads binary bytes and removes one trailing LF; the remaining CR fails its exact output-root validation. Thus the earlier package would not initialize. Offline native tests had not covered the actual packaged configuration bytes. This is a packaging failure, not scientific evidence or a runtime anomaly.
 
-The new local `SorExp0002-review12-config-lf.zip` removes exactly that CR byte (64-byte config), leaving the intended path unchanged. Every other member, including DLL and notices, is byte-identical to review12. The original ZIP is preserved. build.py now writes explicit LF and checks actual ZIP config/DLL bytes. Four new offline ZIP regression tests pass: correct LF accepted, CRLF rejected, wrong path rejected, changed DLL rejected. No native code was changed or rebuilt; the prior 125 native and 26 output results remain results for the unchanged reviewed DLL, not newly executed live checks.
+The new local `SorExp0002-review12-config-lf.zip` removes exactly that CR byte (64-byte config), leaving the intended path unchanged. Every other member, including DLL and notices, is byte-identical to review 12. The original ZIP is preserved. build.py now writes explicit LF and checks actual ZIP config/DLL bytes. Four new offline ZIP regression tests pass: correct LF accepted, CRLF rejected, wrong path rejected, changed DLL rejected. No native code was changed or rebuilt; the prior 125 native and 26 output results remain results for the unchanged reviewed DLL, not newly executed live checks.
 
 | Artifact | SHA-256 |
 |---|---|

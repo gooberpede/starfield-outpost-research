@@ -7,11 +7,11 @@ This is the one combined offline procedure
 review package, not authorization to execute the proposed session.
 
 Reviewer `/root/procedure_review` and specialist `/root/procedure_trigger` were
-invoked under section6 of the active brief (at most two active sub-agents). Both
+invoked under section 6 of the active brief (at most two active sub-agents). Both
 read original brief and primary evidence; neither edited sources, opened Starfield,
 deployed, contacted external services or performed Git mutations. Specialist directly
 rehashed original/archive saves and inspected primary landing receipts and static
-exports. Reviewer directly verified exact030 ZIP/DLL/schema, old journal/retirement
+exports. Reviewer directly verified exact 030 ZIP/DLL/schema, old journal/retirement
 and Save27 provenance; prior native test counts were read, not independently rerun.
 
 ## Preserved preliminary REWORK and dispositions
@@ -21,8 +21,8 @@ and Save27 provenance; prior native test counts were read, not independently rer
 |Admission/confirmation/nonce/journal setup exceptions could miss STOP|monitor ownership validated first, then entire owned setup wrapped with best-effort STOP; admission CLI card explicitly STOPs on error; fixture tests|
 |Reparse check after resolve was ineffective|original absolute path/ancestors checked before resolve; mocked junction rejection test|
 |Missing save/evidence directory could look like empty glob|required directories explicitly fail audit; missing-save test|
-|Impossible external1-second rule|3-second target,10-second measured maximum, unchanged15-second health; violation STOP test; no retroactive repair of old cadence failure|
-|Late ACK could authorize after deadline|reject fresh ACK arriving after15 seconds;16-second fixture no READY, STOP|
+|Impossible external 1-second rule|3-second target, 10-second measured maximum, unchanged 15-second health; violation STOP test; no retroactive repair of old cadence failure|
+|Late ACK could authorize after deadline|reject fresh ACK arriving after 15 seconds; 16-second fixture no READY, STOP|
 |Save27 replay freshness, zero-event meaning and helper non-atomicity|unused different Kreet point; no guaranteed branch; bounded healthy non-observation; explicit incomplete/contradictory/static inference limits|
 
 Actual preliminary decision is retained as `independent-preliminary.md` beneath
@@ -36,7 +36,7 @@ tracked/untracked text change since HEAD, including the unchanged supplied brief
 `q-branch-030-procedure-task-only.diff` starts from this task's baseline and excludes
 that supplied pre-existing brief. package.json binds changed-file SHA/size attribution,
 exclusions, status, patch inventory/hashes, forward application to plain disposable
-trees under D:/tools and exact resulting bytes. It checks whitespace, UTF8/noBOM/LF,
+trees under D:/tools and exact resulting bytes. It checks whitespace, UTF8/no BOM/LF,
 internal file links, original build-source/protected pins and unchanged HEAD/index.
 No index staging is used. Original baseline and before copies permit exact task
 attribution; reviewed-submission retains immutable authored text/package copies.
@@ -47,22 +47,22 @@ directories; disposable patch validation trees. “Complete” means authored un
 text, not disclosure of private evidence. No new dependency, third-party permission
 basis, contact or publication occurred. Source credits are in project registers.
 
-Operator handoff after combined approval: deploy exact030 ZIP via Vortex, confirm
+Operator handoff after combined approval: deploy exact 030 ZIP via Vortex, confirm
 SFSE profile and the chosen no-save/default or optional-pair scope; Codex runs
-preflight/admission/monitor; operator uniquely identifies27, confirms actual location,
+preflight/admission/monitor; operator uniquely identifies 27, confirms actual location,
 chooses one unused accessible Kreet point, lands once and exits normally after STOP;
 user removes candidate via Vortex; Codex postflights and independently reviews data.
 
 ## Formal REWORK, first immutable submission
 
-Reviewer independently matched all16 submitted files, both patch hashes/forward
-trees,273 initial lock pins,238 baseline protected pins and unchanged index against
+Reviewer independently matched all 16 submitted files, both patch hashes/forward
+trees, 273 initial lock pins, 238 baseline protected pins and unchanged index against
 package SHA256 `de29458add2030cd976b667e4d8958987ff298434162b2e46c12c2ef339043d3`.
 Disposition **REWORK**: add executable load-order/current-module inventories with
 failed-query blocking; invoke postflight composition in fixtures; explain STOP CLI
-requires ready.json. All three are corrected outside the frozen030 tree. Exact
-environment paths/commands and30-second metadata-helper bound are in the card;
-tests-03.log17 PASS includes postflight/failure and actual own-interpreter Toolhelp
+requires ready.json. All three are corrected outside the frozen 030 tree. Exact
+environment paths/commands and 30-second metadata-helper bound are in the card;
+tests-03.log 17 PASS includes postflight/failure and actual own-interpreter Toolhelp
 ABI qualification. Initial immutable submission remains retained separately from
 the corrected resubmission. Independent review remains offline only.
 
@@ -72,10 +72,10 @@ Reviewer `/root/procedure_review` accepted all eight mandatory preparation crite
 against immutable `reviewed-submission-02/package.json`, SHA256
 `114d4be74e3b306fafa5fb74029fda780beb804cf540c1e26fc58df24a3bba90`.
 Full actual decision is `.local-work/q-branch-030-procedure/independent-decision.md`.
-Independently matched all17 submitted hashes, both patch hashes and retained
-forward-applied tree contents,274 release-lock pins, unchanged HEAD/index and all
+Independently matched all 17 submitted hashes, both patch hashes and retained
+forward-applied tree contents, 274 release-lock pins, unchanged HEAD/index and all
 baseline files outside changed paths (557 plus unchanged supplied brief =558).
-Read actual17-test/offline-audit/environment receipts and sources, plus original
+Read actual 17-test/offline-audit/environment receipts and sources, plus original
 prior evidence. Tests were not independently rerun; patch applications were assessed
 through exporter source, receipts and resulting bytes. All requested REWORK resolved.
 

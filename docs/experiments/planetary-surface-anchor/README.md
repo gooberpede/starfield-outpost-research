@@ -15,7 +15,7 @@ The native string scan ends `SCAN_END cancelled=false`, within the retained sele
 
 ## Reproduction and prerequisites
 
-Use the existing frozen EXP0012 manifests/catalog and authorized local archives/installed content, not the numeric ledger as input. Actual interpreter: `C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe`, CPython3.14.3, standard library only. Existing read-only Ghidra project, Ghidra12.1.2/JDK21 and wrapper paths are required for static exports; no download/install/analysis regeneration is implicit.
+Use the existing frozen EXP0012 manifests/catalog and authorized local archives/installed content, not the numeric ledger as input. Actual interpreter: `C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe`, CPython 3.14.3, standard library only. Existing read-only Ghidra project, Ghidra 12.1.2/JDK 21 and wrapper paths are required for static exports; no download/install/analysis regeneration is implicit.
 
 ```powershell
 & C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe -B save-analysis/scripts/research_surface_anchors.py --run <fresh-name> --frozen .local-work/save-capacity-location/body-final-03/save-derived.json --catalog .local-work/save-capacity-location/esm-index-verified.json

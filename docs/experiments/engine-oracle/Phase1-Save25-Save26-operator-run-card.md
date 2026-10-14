@@ -1,7 +1,7 @@
-# Phase1 Save25/Save26 operator run card — observer0.1.1
+# Phase 1 Save25/Save26 operator run card — observer 0.1.1
 
 **Approved for this live session, 2026-10-10:** User explicitly approves the
-preflight/card and authorizes Phase1 with the deployed0.1.1 instrument. The
+preflight/card and authorizes Phase 1 with the deployed 0.1.1 instrument. The
 review/authorization gate below is satisfied for this bounded sequence. User
 retains launch/gameplay/load/exit control. [Live ledger](Phase1-live-session.md).
 
@@ -17,7 +17,7 @@ passes. [Frozen comparisons](validation-protocol.md) and
 Does the engine's **stored native workshop center/radius** become fresh for the
 currently selected workshop when build mode opens, remain stable without action,
 change appropriately when switching002/003, and preserve durable center across
-Save25→Save26's already-saved beacon relocation? Phase1 captures this independent
+Save25→Save26's already-saved beacon relocation? Phase 1 captures this independent
 stored output, not a plugin calculation of XYZ+compensation. It does not capture
 the complementary breakpoint/grid oracle or validate all planetary placement.
 
@@ -34,7 +34,7 @@ Config SHA256 edf6c20d8bff667783467d8ac6094b331355c07adf4c5ee323e923e407033177
 Config points to
 `D:\Projects\starfield-outpost-research\.local-work\beacon-observer-live`.
 Vortex profile `Starfield - SFSE` is user-reported; user verifies that profile
-and the intended0.1.1 mod before launch. Vortex exclusively manages deployment.
+and the intended 0.1.1 mod before launch. Vortex exclusively manages deployment.
 Do not rebuild/replace the DLL/config or enable a second observer version.
 
 ## Inputs, actions and safety
@@ -61,7 +61,7 @@ Actual installed save directory:
 `C:\Users\User\Documents\My Games\Starfield\Saves`.
 Immutable archives remain under `.local-work/savegames/two-outpost-anchor/exact-beacon-01/`
 and `.local-work/savegames/beacon-observer/initial-01/` respectively.
-Recheck hashes before and after Phase1 and preserve session output locally.
+Recheck hashes before and after Phase 1 and preserve session output locally.
 
 Maintain **40,000,000,000 available-to-caller bytes on both C: and D:**.
 Recheck immediately before launch; automatic guards continue during collection.
@@ -70,7 +70,7 @@ runaway-output failure, failed disk query or below-threshold capacity. Preserve
 flushed evidence and stop acquisition; do not force-kill or hot-unload the plugin.
 Unreadable/changed/stale optional fields, CAPTURE_PARTIAL and unexpected scientific
 values are recorded and do not automatically terminate independent collectors.
-Repeated inability to acquire the **primary** native result means Phase1 is
+Repeated inability to acquire the **primary** native result means Phase 1 is
 inconclusive; return for review rather than expanding scope to force a result.
 
 ## Fresh-session readiness, then serial acquisition
@@ -78,9 +78,9 @@ inconclusive; return for review rather than expanding scope to force a result.
 1. After review/authorization, user launches through the SFSE Vortex profile.
    At main menu identify the newly created `session-<PID>-<tick>` in the configured
    root. Verify `ready.json`, startup `STARTUP_RECORDED`, current live PID/process
-   creation, version0.1.1 and the exact game/SFSE/DLL hashes from the preflight.
+   creation, version 0.1.1 and the exact game/SFSE/DLL hashes from the preflight.
    Startup module inventory and loaded code guards must be healthy. Do not reuse
-   smoke `session-6936-125088390`, old0.1.0 session17596 or their pointers/PIDs.
+   smoke `session-6936-125088390`, old 0.1.0 session 17596 or their pointers/PIDs.
    If READY is absent or mismatched, pause for readiness diagnosis before science.
 2. User loads exact Save25; reported starting site is **SOR-003**. Wait for normal
    loading/terrain settling and record how long. Confirm actual site/build-mode
@@ -105,11 +105,11 @@ inconclusive; return for review rather than expanding scope to force a result.
 | Save26 SOR-003 | `p1-26-003-closed` | `p1-26-003-open` | `p1-26-003-control` | `p1-26-003-closed-after` |
 | Save26 SOR-002 | `p1-26-002-closed` | `p1-26-002-open` | `p1-26-002-control` | `p1-26-002-closed-after` |
 
-After the first row, user travels to002 using an agreed route (on foot or fast
+After the first row, user travels to 002 using an agreed route (on foot or fast
 travel); record any loading/frame change. Travel is a separate condition, not
-a no-action control. Then user loads exact Save26, confirms003 location, settles
+a no-action control. Then user loads exact Save26, confirms 003 location, settles
 and repeats; loading reacquires all roots/associations even if addresses coincide.
-Finally visit002 for the cross-save distinction control. These16 checkpoints are
+Finally visit 002 for the cross-save distinction control. These 16 checkpoints are
 chosen state/identity/load controls on **two existing** outposts, not an arbitrary
 outpost-count target or a requirement to manufacture additional samples.
 
@@ -135,18 +135,18 @@ Offline inspection after each durable checkpoint, to a NEW ignored receipt path:
 
 ## Observables and precommitted interpretation
 
-Retain raw before/after native output prefix, its pointer provenance, center12
-bytes, radius4 bytes, flags e8/e9/ea; fresh terrain/body/origin/grid state; current
+Retain raw before/after native output prefix, its pointer provenance, center 12
+bytes, radius 4 bytes, flags e8/e9/ea; fresh terrain/body/origin/grid state; current
 context diagnostic pointer; both ordinary beacon transforms/Workshop compensation/
-identifier98 where present; worker thread, timestamps and loaded-module identity.
+identifier 98 where present; worker thread, timestamps and loaded-module identity.
 Missing/unloaded references are NOT_OBSERVED, not proof of no outpost. Saved
 tokens are not runtime FormIDs/handles. Associate using body/base/transform/
 Workshop identifier and operator condition; preserve ambiguity and pointer churn.
 
-| Site, both saves | Workshop identifier98 LE hex | Expected same-frame native center LE binary32 hex | Saved-frame cell |
+| Site, both saves | Workshop identifier 98 LE hex | Expected same-frame native center LE binary32 hex | Saved-frame cell |
 |---|---|---|---|
-| SOR-002 / Kreet0003F59F | `f1517de43e171745` | `a266f542eb858843efd19241` | [1,10465,21122] |
-| SOR-003 / Kreet0003F59F | `0efca066ee4c7b9b` | `0369b243f0b019457220ffc1` | [1,10467,21144] |
+| SOR-002 / Kreet 0003F59F | `f1517de43e171745` | `a266f542eb858843efd19241` | [1,10465,21122] |
+| SOR-003 / Kreet 0003F59F | `0efca066ee4c7b9b` | `0369b243f0b019457220ffc1` | [1,10467,21144] |
 
 Before counting an exact center pass, demonstrate native output freshness,
 active-workshop association and common coordinate frame from open/control and
@@ -157,14 +157,14 @@ Do not use matching center as the only evidence for its own association.
 If the captured evidence cannot independently establish association/frame, report
 CONDITIONAL_MATCH/UNASSESSED rather than claiming full oracle validation.
 
-Same-frame comparison requires **exact12-byte equality**, no posthoc epsilon or
-per-case offsets. Ordinary active radius150 is a conditional existing expectation,
+Same-frame comparison requires **exact 12-byte equality**, no posthoc epsilon or
+per-case offsets. Ordinary active radius 150 is a conditional existing expectation,
 not a fitted result. SOR-003 raw beacon position should differ Save25/26 while
-its durable center remains invariant;002 is unchanged and distinct. Preserve
+its durable center remains invariant; 002 is unchanged and distinct. Preserve
 unexpected values as counterexamples after identity/frame checks.
 
 The saved-frame cells/residuals are frozen model predictions, **not newly acquired
-native grid outputs in Phase1**. A current rebase may change local coordinates;
+native grid outputs in Phase 1**. A current rebase may change local coordinates;
 frame equivalence needs a demonstrated transform. This passive run does not
 capture the callback's post-quantization hierarchy. No matching local center
 alone proves planetary-grid/full-algorithm equivalence or continuous geography.

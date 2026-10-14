@@ -4,7 +4,7 @@
 
 - [Workshop caller semantics and idle-camera hypothesis](workshop-caller-semantics/report.md) — actual geometric caller ancestry, frame-index contract, burst/thread chronology and precise missing producer observations; [review](workshop-caller-semantics/review.md). SOR-EXP-0031 / SOR-EV-0039 continuation, offline only.
 
-- SOR-EXP-0031 continuation: [cross-session native centers and observer interference](cross-session-center/report.md), [ledger](cross-session-center/ledger.md), [review/package](cross-session-center/review.md). OutcomeB evidence-bound comparison; patchedAD0C36 unobserved060, distinct reference states/consumers and logging effects retained. FullXYZ NOT TESTED; offline only.
+- SOR-EXP-0031 continuation: [cross-session native centers and observer interference](cross-session-center/report.md), [ledger](cross-session-center/ledger.md), [review/package](cross-session-center/review.md). Outcome B evidence-bound comparison; patched AD0C36 unobserved 060, distinct reference states/consumers and logging effects retained. Full XYZ NOT TESTED; offline only.
 
 - SOR-EXP-0031 approved continuation: [0.6.0 live position history](position-write-history/live-attempt-01.md), [review/package](position-write-history/live-attempt-01-review.md). Both candidate saved XYZ inputs and sampled centers agree; prior Z discrepancy not reproduced, causal epoch/lifetime/frame gaps retained. Clean transport and cleanup; no next experiment authorized.
 
@@ -17,8 +17,8 @@
 
 - SOR-EXP-0026: [external adapter latency](event-latency/README.md),
   [comparison/qualification](event-latency/qualification.md), [review](event-latency/review.md)
-  and [center-only smoke proposal](event-latency/operator-card.md). Preserved0.1.2,
-  lower-latency durable0.1.3 transport; no live execution.
+  and [center-only smoke proposal](event-latency/operator-card.md). Preserved 0.1.2,
+  lower-latency durable 0.1.3 transport; no live execution.
 
 - SOR-EXP-0025: [event-associated instrumentation](event-instrumentation/README.md),
   [qualification](event-instrumentation/qualification.md) and
@@ -30,29 +30,29 @@
   Offline typed ownership/invalidation/readiness graph; no new live observations
   or instrumentation implementation, critical review required.
 
-- SOR-EXP-0023: [Phase1 Save25/Save26 results](engine-oracle/Phase1-results.md),
+- SOR-EXP-0023: [Phase 1 Save25/Save26 results](engine-oracle/Phase1-results.md),
   [live ledger](engine-oracle/Phase1-live-session.md) and
   [selected checkpoints](engine-oracle/Phase1-checkpoints.csv):16 verified captures,
   conditional native center matches and stale-site counterexample; critical review
   pending, active oracle/grid authority unresolved, cleanup complete.
 
-- SOR-EXP-0022: [observer0.1.1 actual-installation preflight](../audits/observer-011-post-deployment-preflight.md)
-  and [Phase1 Save25/Save26 operator card](engine-oracle/Phase1-Save25-Save26-operator-run-card.md);
+- SOR-EXP-0022: [observer 0.1.1 actual-installation preflight](../audits/observer-011-post-deployment-preflight.md)
+  and [Phase 1 Save25/Save26 operator card](engine-oracle/Phase1-Save25-Save26-operator-run-card.md);
   review required before live science, fixed-POI candidates recorded separately.
 
 - [SOR-EXP-0021: durable-position model and engine oracle](durable-position-engine-oracle.md)
-  — saved-frame reproducer, independent native-output contracts, observer0.1.1,
+  — saved-frame reproducer, independent native-output contracts, observer 0.1.1,
   frozen predictions and reviewed prospective run card; no live equivalence yet.
 
 - [SOR-EXP-0018: durable center and object transforms](durable-outpost-center-and-object-transforms.md) — exact local invariance, captured origin, nonempty Workshop prefix and conditional reference frames; [SOR-EV-0026 review](durable-center/README.md). Continuous geographic embedding remains OPEN.
 
-- SOR-EXP-0016 completed initial live run: [SOR-EV-0024 results](../audits/beacon-observer-initial-live-results.md) / [chronology](beacon-observer/initial-live-session.md). Move/save/reload/SOR-002 comparison,9 verified captures and original-location-offset lead; exact planetary conversion unresolved, interpretation awaiting critical review.
+- SOR-EXP-0016 completed initial live run: [SOR-EV-0024 results](../audits/beacon-observer-initial-live-results.md) / [chronology](beacon-observer/initial-live-session.md). Move/save/reload/SOR-002 comparison, 9 verified captures and original-location-offset lead; exact planetary conversion unresolved, interpretation awaiting critical review.
 
 - SOR-EXP-0016 deployment supplement: [actual-installation preflight](../audits/beacon-observer-post-deployment-preflight.md), SOR-EV-0023, and [Save25 operator card](beacon-observer/Save25-operator-run-card.md). Observer approved/deployed; run-card review precedes launch. Fresh runtime readiness remains unobserved; earlier offline record below retained.
 
 - [SOR-EXP-0016: broad beacon observer implementation](../audits/live-beacon-observer.md) — source, offline/disposable qualification, versioned package and proposed Save25 live card; [selected ledger](beacon-observer/README.md), critical review required before deployment/live execution.
 
-- [SOR-EXP-0015: projection and exact-beacon boundary](exact-beacon-planetary-coordinates.md) —49152-grid,25 angular reconstructions, common-origin evidence and explicit fractional/frame blocker; [review](exact-beacon/README.md), ANALYZED, critical review required.
+- [SOR-EXP-0015: projection and exact-beacon boundary](exact-beacon-planetary-coordinates.md) —49152-grid, 25 angular reconstructions, common-origin evidence and explicit fractional/frame blocker; [review](exact-beacon/README.md), ANALYZED, critical review required.
 
 
 - [SOR-EXP-0014: two-outpost site anchors and beacon coordinates](two-outpost-site-anchors-and-beacon-coordinates.md) — distinct Save25 Kreet parents/angles, earlier-control equality, retained cache ambiguity and native terrain-grid bridge; [review package](two-outpost-anchor/README.md), offline only, critical review required.
@@ -61,11 +61,11 @@
 
 - [SOR-EXP-0002A: native save execution/thread mapping](SOR-EXP-0002A-native-save-thread-mapping.md) — static mapping analyzed; live setup attempts stopped without manual-save evidence. Default TLS-breakpoint deviation and cleanup retained. Stage C not entered. This is the current tooling record; EXP0002 construction remains paused.
 
-Static reconnaissance and two primary Gate B attempts have been executed. The fresh review14 attempt completed A0/A0C and stopped before native queries due to a thread-affinity discrepancy; A0–A2R remains incomplete. Use [the template](../templates/experiment.md), [the evidence standard](../EVIDENCE_STANDARD.md), and [WORKFLOW.md](../../WORKFLOW.md).
+Static reconnaissance and two primary Gate B attempts have been executed. The fresh review 14 attempt completed A0/A0C and stopped before native queries due to a thread-affinity discrepancy; A0–A2R remains incomplete. Use [the template](../templates/experiment.md), [the evidence standard](../EVIDENCE_STANDARD.md), and [WORKFLOW.md](../../WORKFLOW.md).
 
 - [SOR-EXP-0001: initial reconnaissance](initial-outpost-system-reconnaissance.md) — static execution and evidence, review required.
 - [SOR-EXP-0002: membership, reload and location](SOR-EXP-0002-outpost-membership-reload-location.md) — primary Gate B authorized; [first attempt/run record](EXP0002-gate-b-run.md) documents A0 anomaly and the load-notification integration limitation. Optional debugger remains unauthorized.
-- [Review14 fresh run](EXP0002-review14-run.md) — A0/A0C controls archived, zero-message capture observed, stopped before A1 over execution-thread discrepancy. No debugger or selected-reference query.
+- [Review 14 fresh run](EXP0002-review14-run.md) — A0/A0C controls archived, zero-message capture observed, stopped before A1 over execution-thread discrepancy. No debugger or selected-reference query.
 
 Use `SOR-EXP-0001-short-topic.md` and allocate IDs sequentially. Record status as `PLANNED`, `AUTHORIZED`, `RUN`, `ANALYZED`, or `CLOSED`, with actual dates and scope. An authored plan is not authorization and a completed run is not a proven interpretation.
 
@@ -93,9 +93,9 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
 - [SOR-EXP-0017 — Workshop origin, beacon relocation, persistence and radius](workshop-origin-beacon-relocation-persistence.md): typed writer/center/serializer chain, exact Save25/26 prefix, ordinary definition radius and terrain coverage; [review package](workshop-origin/README.md). Critical review pending; no new live work.
 
 - **SOR-EXP-0027 / SOR-EV-0035 — [Adapter startup fail-fast](event-latency/startup-failfast-investigation.md):**
-  pinned0.1.3 causal repro, scoped0.1.4 correction and [qualification/review](event-latency/startup-review.md).
+  pinned 0.1.3 causal repro, scoped0.1.4 correction and [qualification/review](event-latency/startup-review.md).
   Original primary error unresolved; runtime counterexample retained, no live authority.
 
 - [SOR-EXP-0032 — Workshop membership and construction roots](workshop-membership/README.md): exact saved owner edges, native single/compound representation, all-record possible-missed ledger and independent review; offline only, no exhaustive Save52 claim.
 
-- [SOR-EXP-0033 — Workshop population rework](workshop-population/README.md): original657 baseline preserved,191 additional supported roots, original exhaustive acceptance challenged across offline aliases/defaults/reverse/alternative representations and history.
+- [SOR-EXP-0033 — Workshop population rework](workshop-population/README.md): original 657 baseline preserved, 191 additional supported roots, original exhaustive acceptance challenged across offline aliases/defaults/reverse/alternative representations and history.

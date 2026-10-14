@@ -1,6 +1,6 @@
 # Q030 captured-chain analysis and next E step
 
-2026-10-12. Durable scope record of the user's direct request: analyze the18
+2026-10-12. Durable scope record of the user's direct request: analyze the 18
 captured Q chains offline and recommend the next bounded step toward E. Keep
 0.3.0 unchanged; no deployment, launch, live capture, staging, commit or push.
 
@@ -10,12 +10,12 @@ capture, decoder, native exports and prior analyses; original stdlib/project-hel
 file-only analysis, authored reports and local review exports/disposable patch
 trees; independent read-only review. No process/game queries, tool/native changes,
 rebuild, save/config/database edits, dependencies, network or external disclosure.
-Preserve all prior work,310 lock05 pins,93 sealed evidence members and the seal;
-maintain40000000000 caller-available bytes on C/D, failing closed on query failure.
+Preserve all prior work, 310 lock 05 pins, 93 sealed evidence members and the seal;
+maintain 40000000000 caller-available bytes on C/D, failing closed on query failure.
 
 Mandatory acceptance, frozen before analysis:
 
-1. Authenticate originals and independently tabulate all18 raw chains, full ordered
+1. Authenticate originals and independently tabulate all 18 raw chains, full ordered
    A/B comparisons, helper inputs, final delta and return; reconcile prior decoded
    results and identify exact evidence domains.
 2. Distinguish demonstrated blockers from later sampled gates and unknowns;

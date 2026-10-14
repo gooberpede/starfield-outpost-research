@@ -1,4 +1,4 @@
-# Prospective integrated live run card â€” observer0.5.0
+# Prospective integrated live run card â€” observer 0.5.0
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039.
 **DELIVERED FOR REVIEW, NOT EXECUTED OR LIVE-AUTHORIZED.**
@@ -21,8 +21,8 @@ settings change, debugger, new plugin, additional trip/session or expanded hooks
 Only Data/SFSE/Plugins/SorNativePositionOracle.dll is required in deployed Plugins.
 No TXT, README, config or manifest is required beside it. Microsoft /MD runtime
 prerequisites are installed system libraries pinned in build.json, never bundled.
-ZIP notices remain package review/distribution material. Native21-site transaction,
-19RX relays and exact32-byte code guards must pass at runtime. Standard Steam and
+ZIP notices remain package review/distribution material. Native 21-site transaction,
+19RX relays and exact 32-byte code guards must pass at runtime. Standard Steam and
 NVIDIA overlays are accepted; assess unfamiliar modules for demonstrated conflict,
 not a blanket allowlist. Competing native SOR observers/debuggers/instrumentation,
 wrong loaded identity or an owned-site conflict prevent admission. No live waiver
@@ -85,12 +85,12 @@ Get-ChildItem 'C:/Users/User/Documents/My Games/Starfield/Saves' -File | ForEach
 ```
 
 Verify the reviewed build.json hash before using its pins. Preflight verifies
-Steam Starfield1.16.244.0 SHA2567e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28;
-SFSE runtime28c5bda41d9959c885efcb6e889de69e92767c80a1a66842d711d215f722f82b;
-SFSE loader16916c2ec47e31774e3d550609a1844fcb368b03060c03511891564b7f5f7526;
+Steam Starfield 1.16.244.0 SHA256 7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28;
+SFSE runtime 28c5bda41d9959c885efcb6e889de69e92767c80a1a66842d711d215f722f82b;
+SFSE loader 16916c2ec47e31774e3d550609a1844fcb368b03060c03511891564b7f5f7526;
 effective deployed DLL, package, source/dependency and protected-file hashes,
 no target/loader/debugger process, and C:/D: caller-available free space each at
-least40,000,000,000bytes plus write reserve. Failure blocks launch; do not replace
+least 40,000,000,000 bytes plus write reserve. Failure blocks launch; do not replace
 pins, overwrite originals or regenerate expectations. Record maintainer approval
 reference, active Vortex profile and actual competing-plugin/instrument assessment
 in $run/authorization-and-environment.md. Effective DLL hash, not Vortex's label,
@@ -110,7 +110,7 @@ Record the actual launch method/time. Wait at menu before loading. Locate the
 fresh session-* under .local-work/native-oracle-live, absent from sessions-before.
 Set $session to its exact absolute path. Verify ready.json/admission.json/
 patches.json against the reviewed version0.5.0/schema5/event_size17768, DLL/game/
-SFSE identity, current PID+creation time, grid=true/center=true, all21 edits and19
+SFSE identity, current PID+creation time, grid=true/center=true, all 21 edits and 19
 relays. Assess modules-pre-edit.jsonl and latest modules-N.jsonl. Runtime-native
 identity checks are cooperative, non-atomic evidence, not blanket external proof.
 No READY deadline. A waiting-sole-thread receipt means no edits have been admitted;
@@ -132,7 +132,7 @@ inspect receipts. A historical heartbeat gap or delayed monitoring poll alone is
 not termination. Actual failure.json, lost/depth errors, guard/identity mismatch,
 failed disk protection or operator STOP closes capture. Poll routinely while
 working (roughly every second when practical), record delays, never create a
-hard cadence, session clock, event quota,2GiB cap or operator-response deadline.
+hard cadence, session clock, event quota, 2 GiB cap or operator-response deadline.
 No-hit healthy worker is scientifically useful reachability evidence.
 
 For each step, mark an exclusive before and after label; notes distinguish actual
@@ -143,7 +143,7 @@ operator testimony from native fields. Example:
 ```
 
 1. Give the single advance Save25 instruction above. Record acknowledgement and
-   actual SOR-003/site/player/ship state. If ship-at-LZ1 nearSOR-002 is supported,
+   actual SOR-003/site/player/ship state. If ship-at-LZ1 near SOR-002 is supported,
    record it; otherwise record actual state and consult on material mismatch.
    Do not assume the control observation is guaranteed.
 2. Mark control-003-to-002 before/after normal fast travel, then control-002-to-003.
@@ -160,7 +160,7 @@ operator testimony from native fields. Example:
    maintainer during the approved sequence. Agree a new slot/name/receipt; never
    overwrite a protected save. Record physical inventory/hash and fresh screenshot
    if needed. Material scope/slot uncertainty requires consultation. Omit otherwise.
-5. Mark lz-new-to-003 before/after ordinary fast travel toSOR-003. Record stays/
+5. Mark lz-new-to-003 before/after ordinary fast travel to SOR-003. Record stays/
    relocates/newly selected natural marker as actually observed; LZ3â‰ˆ450m is prior
    human testimony, not a promised result or calibrated native distance. Record
    native request/decision/selected marker/fresh source/grid and separate Workshop
@@ -216,8 +216,8 @@ No moving/deleting originals or network upload.
 
 Scientific report: classify deepest observed route, generic terrain-grid result,
 ship-marker identity, ordinary Workshop center/grid and full durable equivalence
-separately. Compare unchanged23 frozen predictions only when actual ordinary
-base002C60E9/concrete Workshop identity, body/site and loaded-frame provenance are
+separately. Compare unchanged 23 frozen predictions only when actual ordinary
+base 002C60E9/concrete Workshop identity, body/site and loaded-frame provenance are
 independently qualified. SOR-002=f1517de43e171745; SOR-003=0efca066ee4c7b9b are
 Workshop identifier bytes, not pointers/handles/FormIDs. Same numbers/time/thread
 alone do not join a saved sample. Nonzero/carry coverage is encountered evidence,

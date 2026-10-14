@@ -1,4 +1,4 @@
-# Observer0.1.1 post-deployment preflight and Phase1 preparation
+# Observer 0.1.1 post-deployment preflight and Phase 1 preparation
 
 2026-10-10 Australia/Sydney. Retains the user's direct execution instruction;
 SOR-D-0041 / SOR-EXP-0022 / SOR-EV-0030. No further execution invitation is needed
@@ -7,11 +7,11 @@ for this offline preflight and documentation task.
 User reports deployment to Vortex profile `Starfield - SFSE`, successful game
 startup, Save25 load, build-mode enter/exit and normal exit. Record this as
 USER-REPORTED, separately from files/logs actually inspected. Identify the exact
-approved0.1.1 ZIP, absolute path/hash, exported packaged DLL version and config
+approved 0.1.1 ZIP, absolute path/hash, exported packaged DLL version and config
 identity. Compare actual installed files, staging, package and approved build;
 check startup evidence, versions, process absence, output/path/control helper,
 disk guard and protected Save25/26 identities. Return preflight and a practical
-Phase1 Save25/26 operator card for review before any scientific live experiment.
+Phase 1 Save25/26 operator card for review before any scientific live experiment.
 
 Allowed: read actual installation/Vortex deployment metadata/staging, original
 package/build/source/save/log/startup evidence; original local stdlib receipt

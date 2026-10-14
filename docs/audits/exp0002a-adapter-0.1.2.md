@@ -4,7 +4,7 @@ Authority: SOR-D-0018 and [retained instruction](../implementation-briefs/EXP000
 
 The native delta removes the explicit Starfield refusal, admits the existing game mode in argument validation, changes its setup evidence label to starfield_late_attach and updates the authorization comment. There is no breakpoint, capture, population, retirement or recovery logic change. Build, plan and version metadata now identify adapter 0.1.2; observer 0.1.0 remains unbuilt. The plan differs only in status/live_enabled. rf_core.h, request_fixture.cpp and the historical 0.1.1 qualifier are byte-identical to the approved base. Do not use that historical qualifier as a 0.1.2 runner.
 
-No additional third-party or maintainer code was incorporated. Existing adaptation provenance remains in [the maintainer record](../../debugger/exp0002a/maintainer/PROVENANCE.md). All 217 files in the prior 0.1.0/0.1.1 local evidence roots were hashed and preserved unchanged. The failed 0.1.0 dynamic-new-thread retirement outcome remains failed; PID16100 cleanup remains the user's reported manual termination.
+No additional third-party or maintainer code was incorporated. Existing adaptation provenance remains in [the maintainer record](../../debugger/exp0002a/maintainer/PROVENANCE.md). All 217 files in the prior 0.1.0/0.1.1 local evidence roots were hashed and preserved unchanged. The failed 0.1.0 dynamic-new-thread retirement outcome remains failed; PID 16100 cleanup remains the user's reported manual termination.
 
 Installed MSVC rebuilt both executables with /W4 /WX. Native --self-check returned 0; the offline correction checks passed (pinned PE receipt, one site, independent timing bounds, version consistency, recovery scope and continued historical x64dbg refusal). No fresh disposable process was executed. git diff --check passed. These are enablement checks, not evidence of live save semantics.
 
@@ -16,21 +16,21 @@ The [operator card](../experiments/EXP0002A-operator-card.md) retains Steam with
 
 ## Live attempt and actual result
 
-The operator reported ready at New Save. Read-only preflight identified PID10364, creation FILETIME134358117292536961, installed build1.16.244.0 and 158 modules without a forbidden prefix. The PowerShell preflight receipt serialized an empty property projection as [null]; the native complete enumerations below independently report explicit absence. This is not evidence of a loaded unnamed module.
+The operator reported ready at New Save. Read-only preflight identified PID 10364, creation FILETIME 134358117292536961, installed build 1.16.244.0 and 158 modules without a forbidden prefix. The PowerShell preflight receipt serialized an empty property projection as [null]; the native complete enumerations below independently report explicit absence. This is not evidence of a loaded unnamed module.
 
-The first adapter invocation (live-01, controller PID1900) was sandbox-denied at module snapshot, Win32 error5, before DebugActiveProcess. It installed no breakpoint, completed its delayed presence observations and exited. Its generic cleanup_status is not proof of attempted retirement: attachment had not happened. The same unchanged, hash-verified executable was then run with approved host access (live-02, controller PID13448). There was one actual attachment and one operator save click, not two save traces.
+The first adapter invocation (live-01, controller PID 1900) was sandbox-denied at module snapshot, Win32 error 5, before DebugActiveProcess. It installed no breakpoint, completed its delayed presence observations and exited. Its generic cleanup_status is not proof of attempted retirement: attachment had not happened. The same unchanged, hash-verified executable was then run with approved host access (live-02, controller PID 13448). There was one actual attachment and one operator save click, not two save traces.
 
 | Boundary | UTC / observation |
 |---|---|
 | Setup start | 2026-10-07 01:58:08.470186Z |
-| Identity | PID10364; runtime image base 0x7ff60a5b0000; REQUEST_ENTRY runtime VA0x7ff60bdec590; pinned executable and 32-byte site hashes matched |
+| Identity | PID 10364; runtime image base 0x7ff60a5b0000; REQUEST_ENTRY runtime VA 0x7ff60bdec590; pinned executable and 32-byte site hashes matched |
 | ARMED evidence | 01:58:49.018628Z; 92 member TIDs/creation times frozen; preexisting debug-state checks passed; all module guards reported SFSE/SorExp0002 absent |
 | Last setup resume | 01:58:51.799699Z; 92 owned suspensions balanced before .armed marker and operator handoff |
 | Operator action | USER-REPORTED: clicked New Save exactly once; game exited after a short delay. Actual click timestamp unknown |
-| Target exit event | 01:59:21.348330Z; EXIT_PROCESS_DEBUG_EVENT, 32,328ms after ARMED evidence; this interval is not save latency |
+| Target exit event | 01:59:21.348330Z; EXIT_PROCESS_DEBUG_EVENT, 32,328 ms after ARMED evidence; this interval is not save latency |
 | Request evidence | Zero first_hit/capture/capture_durable records; no post-ARMED new_thread_unarmed records; no scientific request record |
-| Cleanup | Native recovery suspend failed error5 after exit event; recovery_required, no terminal complete record. Verified adapter alone was stopped externally after preserving its flushed log; no Starfield TerminateProcess requested |
-| Final state | Starfield PID10364 and controller PID13448 absent. User reports Steam sync finished |
+| Cleanup | Native recovery suspend failed error 5 after exit event; recovery_required, no terminal complete record. Verified adapter alone was stopped externally after preserving its flushed log; no Starfield TerminateProcess requested |
+| Final state | Starfield PID 10364 and controller PID 13448 absent. User reports Steam sync finished |
 
 Scientific outcome: **INCOMPLETE_PRE_CAPTURE_TARGET_EXIT**, not a successful capture and not a completed bounded NO_HIT test. The click confirmation arrived after the exit/recovery hold; a separate operator report and .confirm receipt were written, but the native loop did not consume confirmation. Accordingly the 10-second receipt-anchored scientific deadline never started. No argument, manager, name or initiating-thread contract was acquired. There is no evidence here that the request executed on a new unarmed thread, nor proof that the static candidate is wrong. The only recorded exception debug event was the owned attach break-in; the adapter did not log the process exit code. The cause of the game exit remains unresolved, with debugger intervention a material possibility.
 
@@ -38,6 +38,6 @@ Separately identified cleanup defect (STATIC implementation plus RUNTIME counter
 
 Raw local-only live-02/capture.native.jsonl: 272,556 bytes, SHA-256 8606daadbbe11e399e9bbd1842924ea2cc3746cf147ddb3b336883b1360bcfeb. It contains 343 debug events, 159 successful module-preflight records and the incomplete recovery boundary. The pre-controller-cleanup copy has identical bytes. outcome.json, operator-report.json and controller-cleanup.json are separate derivatives; do not insert missing terminal rows into raw evidence. live-01 remains preserved separately.
 
-Post-attempt integrity reverified original Save3 and backup hashes, sizes and timestamps against the pinned baseline. All 217 historical evidence files and all built-source hashes remain unchanged. Save-folder metadata showed no file newer than the pre-existing 2026-10-06T23:28:30Z exit save; this supports no newly visible save file at inspection, not a semantic save-format claim. No save contents were parsed except protected-parent hashing; no archive/delete or save modification was performed. C:/D: remained above40GB. Stage-A candidates and the failed0.1.0 / qualified0.1.1 outcomes are preserved without reinterpretation.
+Post-attempt integrity reverified original Save3 and backup hashes, sizes and timestamps against the pinned baseline. All 217 historical evidence files and all built-source hashes remain unchanged. Save-folder metadata showed no file newer than the pre-existing 2026-10-06T23:28:30Z exit save; this supports no newly visible save file at inspection, not a semantic save-format claim. No save contents were parsed except protected-parent hashing; no archive/delete or save modification was performed. C:/D: remained above 40 GB. Stage-A candidates and the failed 0.1.0 / qualified 0.1.1 outcomes are preserved without reinterpretation.
 
-Subsequent interpretation only,2026-10-07: [offline comparison](exp0002a-crash-dump-comparison.md) interprets the preserved dumps and newly available event records. Both report a single-step at REQUEST_ENTRY, despite no ordinary adapter capture. Earlier raw run/collection records and incomplete classifications remain unchanged.
+Subsequent interpretation only, 2026-10-07: [offline comparison](exp0002a-crash-dump-comparison.md) interprets the preserved dumps and newly available event records. Both report a single-step at REQUEST_ENTRY, despite no ordinary adapter capture. Earlier raw run/collection records and incomplete classifications remain unchanged.

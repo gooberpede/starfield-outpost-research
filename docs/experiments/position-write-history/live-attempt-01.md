@@ -36,7 +36,7 @@ The game is pinned retail 1.16.244.0, SFSE reports 131408 (0.2.21), observer 0.6
 schema 6. Process PID 40616 has creation FILETIME 134363551777466124; module base
 `0x00007ff7593a0000`, QPC frequency 10,000,000. Native sites are module-relative
 RVAs; captured pointers are runtime addresses, not saved reference tokens.
-Admission observed a sole thread, verified 129 owned sites and waited 59,203ms.
+Admission observed a sole thread, verified 129 owned sites and waited 59,203 ms.
 Natural CALL/slot replacements, snapshots, synchronous spooling and group flushes
 affect timing. This hooked experiment is not described as non-invasive.
 
@@ -122,7 +122,7 @@ and qualified candidate inference for continuity to the later Workshop.
 All 16,826 returned center byte triples equal their respective Save25 XYZ.
 Exclude four invocation pairs from coherent before/after identity and arithmetic
 claims: SOR-003 206090→206095 and 401602→401603, SOR-002 321083→321086 and
-330832→330833. Status8 occurs at records 206095, 321083, 330833, 401602:
+330832→330833. Status 8 occurs at records 206095, 321083, 330833, 401602:
 the double-read reference prefix changed. It does not identify which field
 changed or establish reuse. The output bytes remain retained; this is sampling
 incoherence, not transport loss. For all 16,822 remaining pairs, before/after
@@ -130,7 +130,7 @@ XYZ are identical, compensation is twelve zero bytes, and actual returned output
 equals independently rounded binary32 reference+compensation on all axes.
 Center output is interpreted only after native return, never its before buffer.
 
-No later kind1 replacement, kind2 outer conversion, kind3 XYZ application or
+No later kind 1 replacement, kind 2 outer conversion, kind 3 XYZ application or
 producer/deferred application appears for either selected pointer within the
 hooked population. Those paths did execute elsewhere: 4,699 outer converter,
 4,670 XYZ application and six each queued-producer/allocation/deferred-application
@@ -165,8 +165,8 @@ not a new native validation control. The frozen 23 predictions are unchanged.
 
 Ordering is bounded by genuine invocation pairs, same-thread ancestry and sample
 intervals. Journal sequence orders serialized emission, not a total native store
-order: seq204767/thread40180/QPC1648406689521 precedes seq204768/thread49440/
-QPC1648406686623 despite the later timestamp. The selected streams have 2,801 /
+order: seq204767/thread 40180/QPC 1648406689521 precedes seq204768/thread 49440/
+QPC 1648406686623 despite the later timestamp. The selected streams have 2,801 /
 5,773 adjacent sequence QPC inversions. Stable sampled XYZ cannot exclude
 unobserved intermediate writes that return to the same bytes.
 

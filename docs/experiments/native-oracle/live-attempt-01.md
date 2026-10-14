@@ -24,28 +24,28 @@ No additional authority is inferred from the no-hit result.
 Approved component SorNativePositionOracle0.1.0, build `final-review-04`:
 ZIP SHA256 `4769f2482f06d009126395c34e280b3011763fe0e5a979598bdc4b8217d6ec79`;
 DLL `c4c3e23c9a741d7d2937fce7ffb38013b0036e4d5a07143c1d6c57d4045c2584`.
-Game/SFSE/loader and original Save25/26/archive/frozen23/observer0.1.1 pins remain
+Game/SFSE/loader and original Save25/26/archive/frozen 23/observer 0.1.1 pins remain
 those in the approved ledger. The reviewed source and card were not changed.
 
 Session: `.local-work/native-oracle-live/session-30640-210023156/`;
-PID30640, creation FILETIME134361872572484823, loaded game base
-`0x00007ff65b0f0000`, QPC frequency10,000,000. Static VA, runtime VA, RVA and PE
+PID 30640, creation FILETIME 134361872572484823, loaded game base
+`0x00007ff65b0f0000`, QPC frequency 10,000,000. Static VA, runtime VA, RVA and PE
 file offset remain separate domains; no game-memory reader/debugger was used.
 In-process code/vtable patches affect execution and are not described as
 non-invasive. They remain resident/inert after STOP until normal process exit.
 
 ## Recorded procedure and observations
 
-Deployed preflight passed33 checks: exact package/DLL/config, game/SFSE/loader,
+Deployed preflight passed 33 checks: exact package/DLL/config, game/SFSE/loader,
 sources, six protected pins, process absence, sole deployed SFSE plugin and disk.
-All25 reviewed text-file hashes and HEAD/index also matched before launch.
+All 25 reviewed text-file hashes and HEAD/index also matched before launch.
 These automated checks do not establish all operational admission conditions.
 User launched via Vortex's `sfse_loader.exe` and reported a responsive main menu.
 
-READY was present after a59,329 ms startup wait. Process creation time was checked
+READY was present after a 59,329 ms startup wait. Process creation time was checked
 through QUERY_LIMITED_INFORMATION against READY. File/module hashes, both channels,
-schema17,768, four patch locations/original hashes and SFSE success log passed.
-Startup module inventory contained90 modules, including Steam/NVIDIA overlays;
+schema 17,768, four patch locations/original hashes and SFSE success log passed.
+Startup module inventory contained 90 modules, including Steam/NVIDIA overlays;
 there was one SFSE plugin. No unexpected second SFSE plugin was observed. This
 inventory does not prove arbitrary injectors absent or all module behavior safe.
 Patch installation/integrity is plugin-attested, not independently read from live
@@ -83,18 +83,18 @@ Request marks precede actions and do not falsely attest completion. Location
 testimony is not native reference identity. No arbitrary collection timeout,
 object change, placement, relocation, deletion, manual/scripted save, console
 command, new site, debugger, setting change or instrumentation expansion occurred.
-The initial request mark is21:18:18 Sydney; final-return health check21:32:07.
+The initial request mark is 21:18:18 Sydney; final-return health check 21:32:07.
 Exact primary timestamps remain UTC in local receipts. Continuous capture was
 armed before save loading. No no-hit phase was represented as arithmetic failure.
 
-All recorded disk checks retained40,000,000,000 caller-available bytes on each
-drive; the smallest recorded C: value was83,208,355,840 bytes and D: value
+All recorded disk checks retained 40,000,000,000 caller-available bytes on each
+drive; the smallest recorded C: value was 83,208,355,840 bytes and D: value
 138,839,465,984 before retirement. All phase protected-input checks passed.
 No failure/not-ready marker, raw tail or journal truncation was observed.
 Marker absence alone was not treated as an independent worker heartbeat.
 
 After the complete sequence, Codex wrote the approved STOP. Matching retired.json
-was produced after the STOP file: events0, lost0, depth_errors0, resident inert,
+was produced after the STOP file: events 0, lost 0, depth_errors0, resident inert,
 patches retained. The game remained responsive at that check. This demonstrates
 worker execution at retirement and a completed capture drain; it does not prove
 continuous worker scheduling, callback reachability or original-byte hot restoration.
@@ -103,10 +103,10 @@ not a retirement time; STOP/terminal file ordering and verification receipt
 timestamp provide the retirement observation.
 
 User then reported normal game exit, completed Steam sync and plugin disable.
-Postflight passed29 checks, separately rehashed deployed game/SFSE/loader, confirmed
+Postflight passed 29 checks, separately rehashed deployed game/SFSE/loader, confirmed
 both deployed observer DLL/config paths absent and target/debugger process absence.
 Six protected pins and source hashes remain unchanged. C:/D: free space at the
-supplemental postflight was85,922,119,680 /138,838,753,280 bytes. No forced exit,
+supplemental postflight was 85,922,119,680 /138,838,753,280 bytes. No forced exit,
 unhook, file deletion, save modification, staging, commit, push or upload by Codex.
 Incidental autosave activity is not claimed absent; no prelaunch full save-folder
 inventory was captured. Protected originals/archives are the verified guarantee.
@@ -117,11 +117,11 @@ The authorized specialist independently rechecked existing primary static export
 
 | Question | Evidence and scoped conclusion |
 |---|---|
-| Wrong vtable slot or devirtualized dispatcher? | `exp0002-selection-sites.tsv`877/915: static140B1E2C0/140B1E33C call `[vtable+10]`; both original callback slots were patched. `engine-oracle-02.tsv`159–164 constructs exact144B916E8 before B1E190. These observed branches support the chosen slot; no concrete copied-vtable/devirtualization defect found. |
-| Can upstream gates prevent callback dispatch? | `engine-oracle-02.tsv`76/82/95–127 requires resolved overlay, active landscape, matching hierarchy and overlay+20 bit0. Selection export827–915 additionally filters nonempty reference collections, flags and non-null base. These are STATIC gates, not observed runtime causes. |
-| Does existing-site travel guarantee candidate search? | `durable-center-04.tsv`2212–2245: the known77FC20 path tests eligibility, searches existing references via77F900, then reaches77E350 as fallback. No evidence that existing-site fast travel traversed that fallback. Other callers/paths are not excluded. |
+| Wrong vtable slot or devirtualized dispatcher? | `exp0002-selection-sites.tsv`877/915: static 140B1E2C0/140B1E33C call `[vtable+10]`; both original callback slots were patched. `engine-oracle-02.tsv`159–164 constructs exact 144B916E8 before B1E190. These observed branches support the chosen slot; no concrete copied-vtable/devirtualization defect found. |
+| Can upstream gates prevent callback dispatch? | `engine-oracle-02.tsv`76/82/95–127 requires resolved overlay, active landscape, matching hierarchy and overlay+20 bit 0. Selection export 827–915 additionally filters nonempty reference collections, flags and non-null base. These are STATIC gates, not observed runtime causes. |
+| Does existing-site travel guarantee candidate search? | `durable-center-04.tsv`2212–2245: the known 77FC20 path tests eligibility, searches existing references via 77F900, then reaches 77E350 as fallback. No evidence that existing-site fast travel traversed that fallback. Other callers/paths are not excluded. |
 | Could an internal Workshop predicate alone explain zero begins? | `core.h` emits begin before original callback execution. That later predicate alone cannot explain absent begin records, assuming the observed callback is dispatched and admission works. |
-| Does zero center capture exclude fresh build-mode centers? | No. Only CALL RVAAD0C36 inside the scoped callback is patched. Other F4AB80 callers/consumers are not observed; the center channel is independently enabled but not a broad helper-entry observer. |
+| Does zero center capture exclude fresh build-mode centers? | No. Only CALL RVA AD0C36 inside the scoped callback is patched. Other F4AB80 callers/consumers are not observed; the center channel is independently enabled but not a broad helper-entry observer. |
 
 Selected static export hashes are in [native-sources.csv](native-sources.csv).
 The specialist found no concrete patchable implementation fault. Remaining
@@ -145,7 +145,7 @@ invent a speculative fix or silently broaden acquisition.
 | Automated deployed/runtime checks | Individual checks PASS for recorded pins/guards/startup; no proof of callback execution |
 | Full operational admission/card conformance | NOT SATISFIED: injector-exclusivity conflict was unresolved before proceeding; not qualified safe activation |
 | Useful native oracle acquisition | NOT_OBSERVED; zero callback/center/grid records |
-| Deterministic model comparison/branch coverage | NOT TESTED; no support or counterexample added, frozen23 unchanged |
+| Deterministic model comparison/branch coverage | NOT TESTED; no support or counterexample added, frozen 23 unchanged |
 | Capture health/retirement | Matching STOP/retired0/0/0; no failure markers, complete empty journal/raw prefix |
 | Target survival | Operator reports responsive throughout and normal exit; process absence corroborated |
 | Cleanup/protected inputs | PASS postflight/removal/hash checks; no hot-unhook claim |

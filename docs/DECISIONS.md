@@ -10,8 +10,8 @@ diagnostics, documentation, one specialist and independent review. No observer
 build, launch, injection, deployment, process/runtime memory, save modification,
 database mutation, staging, commit, push or disclosure. [Result and acceptance
 package](experiments/cross-session-center/review.md) distinguish supported state
-and coverage differences from unknown causal history/interference. OutcomeB is
-evidence-bound; fullXYZ NOT TESTED. Acquisition ranking is a proposal only;
+and coverage differences from unknown causal history/interference. Outcome B is
+evidence-bound; full XYZ NOT TESTED. Acquisition ranking is a proposal only;
 independent acceptance does not authorize live work or integration. Historical
 reports and prior negative results remain unchanged.
 
@@ -65,7 +65,7 @@ findings and immutable packages remain. Alternative research is a separate futur
 direction. No live game/config/security/deployment/save/database mutation, staging,
 commit, push or external disclosure. Earlier run-card authority is not extended.
 
-## SOR-D-0047 — Offline/disposable investigation of adapter0.1.3 fail-fast
+## SOR-D-0047 — Offline/disposable investigation of adapter 0.1.3 fail-fast
 
 2026-10-11 Australia/Sydney: maintainer invokes [the retained startup brief](implementation-briefs/CODEX_BRIEF_SOR_adapter_013_startup_failfast_investigation.md)
 and prohibits commit/push. Authorizes pinned-binary/CRT/WER diagnosis, disposable
@@ -78,7 +78,7 @@ remains UNKNOWN; completion grants no new live authority or scientific promotion
 
 ## SOR-D-0046 — Approved adapter, prepare center-only procedure before attachment
 
-2026-10-11 Australia/Sydney: maintainer approves external adapter0.1.3 and requests
+2026-10-11 Australia/Sydney: maintainer approves external adapter 0.1.3 and requests
 an exact live procedure/operational checks for review before attachment, including
 Steam versus SFSE, process/site identity, operator coordination, durable evidence
 and stalled/exiting target handling. [Retained preparation brief](implementation-briefs/CODEX_BRIEF_SOR_center_only_live_procedure.md)
@@ -90,14 +90,14 @@ recovery guarantee is claimed; review must accept that exposure or require a
 separate design. Approved source/tool/ZIP and prior baselines remain unchanged.
 No game launch/attachment, deployment, save/config edits, staging, commit or push.
 
-## SOR-D-0045 — Preserve0.1.2 and qualify lower-latency external acquisition
+## SOR-D-0045 — Preserve 0.1.2 and qualify lower-latency external acquisition
 
 2026-10-11 Australia/Sydney: user requests baseline preservation, component latency
-measurements and a durable0.1.3 improvement if feasible. [Retained follow-up](implementation-briefs/CODEX_BRIEF_SOR_event_adapter_latency.md)
+measurements and a durable 0.1.3 improvement if feasible. [Retained follow-up](implementation-briefs/CODEX_BRIEF_SOR_event_adapter_latency.md)
 authorizes original disposable experiments/source/docs only. [EXP0026](experiments/event-latency/README.md)
 keeps per-field durable WAL records and expands derived files after detach,
-avoiding a volatile queue or weaker completed-field prefixes. Preserve0.1.2/all
-six controls,40-billion-byte fail-closed guard, partial-evidence continuation and
+avoiding a volatile queue or weaker completed-field prefixes. Preserve 0.1.2/all
+six controls, 40-billion-byte fail-closed guard, partial-evidence continuation and
 exact restoration. Initial prospective live configuration is two-site center-only,
 grid independently available/off. No Starfield launch/attachment, deployment,
 save/database/config edits, staging, commit, push or disclosure. Qualification
@@ -109,9 +109,9 @@ and critical review grant no live smoke authority.
 and requests a commit suggestion without commit/push. Authorizes source/docs,
 offline pinned-byte inspection and original disposable instrumentation experiments.
 [EXP0025](experiments/event-instrumentation/README.md) selects a scoped external
-software-breakpoint adapter under section3's alternatives, with center mandatory
+software-breakpoint adapter under section 3's alternatives, with center mandatory
 and grid independently enabled. No SFSE replacement/Vortex payload is produced;
-section7's different live sequence is explicitly proposed for critical review.
+section 7's different live sequence is explicitly proposed for critical review.
 This is not authorization to attach to Starfield. Failed disposable controls and
 the user-reported application error remain in the ledger. Native-save work stays
 deferred. No game launch, live debugger, native saving, original/save/database
@@ -129,29 +129,29 @@ No game launch, debugger attachment, hook/plugin implementation/deployment,
 Vortex/config/save mutation, staging, commit, push, external contact or disclosure.
 Instrumentation implementation and live work need subsequent reviewed authority.
 
-## SOR-D-0042 — Approved Phase1 observer0.1.1 live session
+## SOR-D-0042 — Approved Phase 1 observer 0.1.1 live session
 
-2026-10-10 Australia/Sydney: user explicitly approves the preflight and Phase1
-operator card and requests proceeding with deployed observer0.1.1, offering to
+2026-10-10 Australia/Sydney: user explicitly approves the preflight and Phase 1
+operator card and requests proceeding with deployed observer 0.1.1, offering to
 launch through SFSE after the go-ahead. Authorizes the card's serial Save25/26
-closed/open/no-action/closed-after conditions at003/002, fresh-session verification,
+closed/open/no-action/closed-after conditions at 003/002, fresh-session verification,
 settled snapshot requests, cooperative STOP and post-exit preservation/analysis.
 User retains launch/load/travel/build-mode/normal-exit control. [EXP0023 / EV0031
 live ledger](experiments/engine-oracle/Phase1-live-session.md). No observer/config
 change, debugger/native call, save automation/overwrite, placement/move/delete,
 forced termination, POI experiment, staging, commit, push or disclosure authority.
 
-## SOR-D-0041 — Observer0.1.1 installed preflight, Phase1 card and fixed-POI candidates
+## SOR-D-0041 — Observer 0.1.1 installed preflight, Phase 1 card and fixed-POI candidates
 
 2026-10-10 Australia/Sydney: user reports Vortex profile `Starfield - SFSE`
 deployment and successful startup/Save25/build-mode/exit smoke test. Explicitly
-requests normal actual-file preflight and Phase1 Save25/26 operator card, returned
+requests normal actual-file preflight and Phase 1 Save25/26 operator card, returned
 for review **before** live science; separately requests fixed planetary POIs as
 conditional independent reproducer cases without an arbitrary outpost-count target.
 [Retained scope](implementation-briefs/observer-011-post-deployment-phase1.md),
 [EXP0022 / EV0030 installed report](audits/observer-011-post-deployment-preflight.md)
-and [Phase1 card](experiments/engine-oracle/Phase1-Save25-Save26-operator-run-card.md).
-Allowed offline checks/probe/synthetic helper tests/docs only. Approved0.1.1
+and [Phase 1 card](experiments/engine-oracle/Phase1-Save25-Save26-operator-run-card.md).
+Allowed offline checks/probe/synthetic helper tests/docs only. Approved 0.1.1
 package/installed bytes remain unchanged; startup readiness corroborates loader
 success, not scientific equivalence. Fixed-POI algorithm relevance must be
 demonstrated before oracle use; earlier known anchors are not blind holdouts.
@@ -192,7 +192,7 @@ integration or expansion; no changed third-party permission basis.
 
 ## SOR-D-0035 — Initial observer live session authorized and completed
 
-2026-10-10. User approves preflight/run card and explicitly authorizes initial live session, then performs launch, move, New Save, Save26 reload, SOR-002 fast travel and normal exit/sync/Vortex disabling. Launch-path correction follows operator-reported Vortex default-executable substitution; no observer modification. Accepted correction: allow60 seconds for startup/title/menu, with progress beyond that not an automatic failure. [SOR-EV-0024](audits/beacon-observer-initial-live-results.md) records9 durable verified partial snapshots and scoped workshop-offset lead; incomplete optional branches continued. No game-memory/native-call intervention, observer build/configuration change, save overwrite, staging/commit/push or new external disclosure. Critical review required before promoting interpretation or expanding live scope.
+2026-10-10. User approves preflight/run card and explicitly authorizes initial live session, then performs launch, move, New Save, Save26 reload, SOR-002 fast travel and normal exit/sync/Vortex disabling. Launch-path correction follows operator-reported Vortex default-executable substitution; no observer modification. Accepted correction: allow 60 seconds for startup/title/menu, with progress beyond that not an automatic failure. [SOR-EV-0024](audits/beacon-observer-initial-live-results.md) records 9 durable verified partial snapshots and scoped workshop-offset lead; incomplete optional branches continued. No game-memory/native-call intervention, observer build/configuration change, save overwrite, staging/commit/push or new external disclosure. Critical review required before promoting interpretation or expanding live scope.
 
 ## SOR-D-0034 — Approved deployment; preflight and run-card review
 
@@ -251,29 +251,29 @@ On 2026-10-06 the user explicitly instructed Codex to follow the [SOR-EXP-0002 b
 
 2026-10-06: after the reviewed anomaly/Vortex correction, the user stated: "we're now good for Gate B: primary live A0–A2R experiments are authorized. Please proceed when ready. Do not commit or push changes". This authorizes the six primary checkpoints, including A0C/A1C controls, ordinary menu saves, A2 reload, normal exit and subsequent protected archival under the [operator card](experiments/EXP0002-operator-card.md). Vortex remains the exclusive deployment owner and the user performs deployment/retirement and ordinary game UI. The user subsequently confirmed deployment had not yet occurred and that they would install through Vortex. No debugger trace, console, forced termination, extra construction, save modification, staging, commit, push or external disclosure is authorized. Existing bounds and stop conditions remain in force. This supersedes SOR-D-0010's Gate-A-only boundary for the primary experiment; it does not assert that live execution has occurred.
 
-Preflight found a CRLF configuration defect in review12's ZIP before launch. A separate corrected ZIP removes only the CR byte, retaining the exact reviewed DLL and all other payload bytes. The changed package/configuration identities have been surfaced under brief section 23; user confirmation and deployed-file verification remain pending. Exact hashes, preflight and the operator handoff are in the [Gate B run record](experiments/EXP0002-gate-b-run.md).
+Preflight found a CRLF configuration defect in review 12's ZIP before launch. A separate corrected ZIP removes only the CR byte, retaining the exact reviewed DLL and all other payload bytes. The changed package/configuration identities have been surfaced under brief section 23; user confirmation and deployed-file verification remain pending. Exact hashes, preflight and the operator handoff are in the [Gate B run record](experiments/EXP0002-gate-b-run.md).
 
 ### SOR-D-0015 — Maintainer reuse and offline debugger correction
 
-2026-10-07: user explicitly directs the [retained nine-part correction](implementation-briefs/EXP0002A-debugger-correction.md). SOR-P-0002 records standing maintainer-authored reuse permission, with provenance and embedded third-party exclusions; SFSE gates unchanged. Reassess Ghidra/dbgeng first, then sibling Win32 hardware/RF, then x64dbg only for a technical advantage. Preserve Stage A, reduce first capture to REQUEST_ENTRY, attach only after user pauses at New Save, separate setup/confirmation/capture clocks, and retain0.1.0 version discipline. **Offline changes only now: no deployment, Starfield launch, new live trace, staging, commit or push until review.** Stage C remains blocked on a credible ordinary-save live contract. [Selection, provenance, validation and gaps](audits/exp0002a-debugger-correction.md). No historical sibling disabled game adapter is authorized to be bypassed.
+2026-10-07: user explicitly directs the [retained nine-part correction](implementation-briefs/EXP0002A-debugger-correction.md). SOR-P-0002 records standing maintainer-authored reuse permission, with provenance and embedded third-party exclusions; SFSE gates unchanged. Reassess Ghidra/dbgeng first, then sibling Win32 hardware/RF, then x64dbg only for a technical advantage. Preserve Stage A, reduce first capture to REQUEST_ENTRY, attach only after user pauses at New Save, separate setup/confirmation/capture clocks, and retain 0.1.0 version discipline. **Offline changes only now: no deployment, Starfield launch, new live trace, staging, commit or push until review.** Stage C remains blocked on a credible ordinary-save live contract. [Selection, provenance, validation and gaps](audits/exp0002a-debugger-correction.md). No historical sibling disabled game adapter is authorized to be bypassed.
 
 ### SOR-D-0014 — Native save mapping and conditional live qualification
 
 Later correction SOR-D-0015 supersedes automatic live progression and the former sibling-reuse restriction for covered maintainer-authored material.
 
-2026-10-07: the user explicitly instructed Codex to follow the retained [SOR-EXP-0002A brief](implementation-briefs/CODEX_RESEARCH_BRIEF_SOR-EXP-0002A_native_save_thread_mapping.md), suggest commit messages and not commit/push. This pauses EXP0002 construction, authorizes bounded static mapping and internally validated ordinary-manual-save traces, and conditionally authorizes a0.1.0 prototype only after a credible live contract. User performs Vortex/game UI; no console, arbitrary target mutations, forced termination, new unapproved code reuse, fork/PR or external disclosure. Software execution-control effects must be disclosed and recorded. Existing parent and archive protections remain. The user subsequently confirmed readiness at the new-slot screen. Actual setup failures/deviations and stop before Stage C are in [the report](experiments/SOR-EXP-0002A-native-save-thread-mapping.md). This supersedes the earlier no-debugger boundary only for this brief's bounded save-path experiment, not GetWorkshop or A1–A2R.
+2026-10-07: the user explicitly instructed Codex to follow the retained [SOR-EXP-0002A brief](implementation-briefs/CODEX_RESEARCH_BRIEF_SOR-EXP-0002A_native_save_thread_mapping.md), suggest commit messages and not commit/push. This pauses EXP0002 construction, authorizes bounded static mapping and internally validated ordinary-manual-save traces, and conditionally authorizes a 0.1.0 prototype only after a credible live contract. User performs Vortex/game UI; no console, arbitrary target mutations, forced termination, new unapproved code reuse, fork/PR or external disclosure. Software execution-control effects must be disclosed and recorded. Existing parent and archive protections remain. The user subsequently confirmed readiness at the new-slot screen. Actual setup failures/deviations and stop before Stage C are in [the report](experiments/SOR-EXP-0002A-native-save-thread-mapping.md). This supersedes the earlier no-debugger boundary only for this brief's bounded save-path experiment, not GetWorkshop or A1–A2R.
 
-### SOR-D-0013 — Fresh primary run with review14-settled
+### SOR-D-0013 — Fresh primary run with review 14-settled
 
-2026-10-06: after the synchronization correction review, the user explicitly approved a fresh A0–A2R primary run using review14-settled, confirmed user-managed deployment through Vortex profile Starfield - SFSE, and reported SFSE as the only other enabled mod with the game not launched. This authorizes the six primary checkpoints and the existing ordinary UI save/reload/normal-exit/archive sequence with operator-settled attestations and fresh acquisition. ZIP SHA-256 `970dce992d665eeda0fcf8fcdbcb4d363016756e02e2e3a9ca4c7eeed4a37ff4`; DLL `9a1636adacdcd0967e7873fcdbc161fed04876d3c368f9e37735f707e9e191ed`. No debugger trace, console, extra construction, automatic retry, forced termination, staging, commit, push or external disclosure. The failed first session remains preserved. Current progress: [review14 run record](experiments/EXP0002-review14-run.md).
+2026-10-06: after the synchronization correction review, the user explicitly approved a fresh A0–A2R primary run using review 14-settled, confirmed user-managed deployment through Vortex profile Starfield - SFSE, and reported SFSE as the only other enabled mod with the game not launched. This authorizes the six primary checkpoints and the existing ordinary UI save/reload/normal-exit/archive sequence with operator-settled attestations and fresh acquisition. ZIP SHA-256 `970dce992d665eeda0fcf8fcdbcb4d363016756e02e2e3a9ca4c7eeed4a37ff4`; DLL `9a1636adacdcd0967e7873fcdbc161fed04876d3c368f9e37735f707e9e191ed`. No debugger trace, console, extra construction, automatic retry, forced termination, staging, commit, push or external disclosure. The failed first session remains preserved. Current progress: [review 14 run record](experiments/EXP0002-review14-run.md).
 
 ### SOR-D-0016 — Plain Steam Stage B and bounded disposable adapter qualification
 
 2026-10-07: user explicitly requests the [ten-part follow-up](implementation-briefs/EXP0002A-steam-adapter.md). Prospective Stage B uses ordinary Steam without SFSE and verifies SFSE/SorExp0002 are not loaded; Vortex/SFSE deployment applies to Stage C only. Implement the reviewed one-request Win32 hardware/RF adapter using covered maintainer tooling and run only bounded fresh disposable late-attach/delayed-trigger/one-hit/no-hit/new-thread/retirement/health controls. Return changes and qualification evidence for review. This supersedes SOR-D-0015’s offline-only boundary solely for these disposable processes, and supersedes earlier Stage-B SFSE-profile requirements. No Starfield launch/attachment, deployment, save modification, staging, commit, push, force kill, exception suppression or Stage C. The new-thread control failed: [review and retained counterexamples](audits/exp0002a-adapter-qualification.md). No further qualification or live progression follows automatically.
 
-### SOR-D-0017 — Adapter0.1.1 fixed population and capture-first destructive recovery
+### SOR-D-0017 — Adapter 0.1.1 fixed population and capture-first destructive recovery
 
-2026-10-07: user reports manually terminating PID16100 after review; no further cleanup action is required. Preserve0.1.0 evidence exactly as a failed dynamic-new-thread retirement test. The [current instruction](implementation-briefs/EXP0002A-adapter-0.1.1.md) authorizes adapter0.1.1 with only the thread population existing at ARMED owning REQUEST_ENTRY, later CREATE_THREAD provenance without DR0 installation, and bounded NO_HIT without ownership widening. Retain Steam without SFSE and the paused New Save handoff.
+2026-10-07: user reports manually terminating PID 16100 after review; no further cleanup action is required. Preserve 0.1.0 evidence exactly as a failed dynamic-new-thread retirement test. The [current instruction](implementation-briefs/EXP0002A-adapter-0.1.1.md) authorizes adapter 0.1.1 with only the thread population existing at ARMED owning REQUEST_ENTRY, later CREATE_THREAD provenance without DR0 installation, and bounded NO_HIT without ownership widening. Retain Steam without SFSE and the paused New Save handoff.
 
 The user explicitly prioritizes data over clean disengagement: attempt bounded clean retirement after durable complete capture; if that fails, termination of only the exact verified experimental target is permitted. No pre-capture force kill except independent machine safety such as measured low disk. Evidence completeness, scientific interpretation, cleanup and survival remain separate. This scoped recovery permission supersedes SOR-D-0016’s no-kill rule; it does not authorize a Starfield launch or trace now. Current execution is limited to the focused disposable controls, including a disposable-only post-flush retirement fault to qualify the recovery gate. No deployment, save modification, staging, commit or push. [Actual results and remaining review gate](audits/exp0002a-adapter-0.1.1.md).
 
@@ -287,7 +287,7 @@ The user explicitly prioritizes data over clean disengagement: attempt bounded c
 
 ### SOR-D-0020 — Offline comparison before any further live debugging
 
-Accepted user instruction2026-10-07: [retained scope](implementation-briefs/EXP0002A-offline-dump-comparison.md). Analyze only existing0.1.2 broad and0.1.3 S2 dumps with installed offline Microsoft tools; preserve originals and old evidence. Check available Windows records without elevation. No game launch/attach, save alteration, instrumentation deployment, Stage C, new tool installation, staging, commit or push. Return a documented comparison and one proposed next experiment for review. [Result](audits/exp0002a-crash-dump-comparison.md): shared single-step signature at the exact armed site; underlying delivery/ownership cause unresolved. S1.5 is a recommendation, not authorization.
+Accepted user instruction 2026-10-07: [retained scope](implementation-briefs/EXP0002A-offline-dump-comparison.md). Analyze only existing 0.1.2 broad and 0.1.3 S2 dumps with installed offline Microsoft tools; preserve originals and old evidence. Check available Windows records without elevation. No game launch/attach, save alteration, instrumentation deployment, Stage C, new tool installation, staging, commit or push. Return a documented comparison and one proposed next experiment for review. [Result](audits/exp0002a-crash-dump-comparison.md): shared single-step signature at the exact armed site; underlying delivery/ownership cause unresolved. S1.5 is a recommendation, not authorization.
 
 ### SOR-D-0021 — Native saving is optional; one final bounded software-breakpoint attempt
 

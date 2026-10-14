@@ -29,7 +29,7 @@ Prior art made radians and separate local/global frames credible questions. **In
 
 ## Focused secondary lead register
 
-All native locators are preferred static VAs in SOR-ENV-0001 Starfield1.16.244.0, base `0x140000000`. All are OBSERVED-INTERNAL; hypotheses and follow-up questions are unapproved work proposals, not new deliverables.
+All native locators are preferred static VAs in SOR-ENV-0001 Starfield 1.16.244.0, base `0x140000000`. All are OBSERVED-INTERNAL; hypotheses and follow-up questions are unapproved work proposals, not new deliverables.
 
 | Lead | Exact locator and observation | Hypothesis, relation and focused follow-up |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Center-only procedure preparation — review return
 
-2026-10-11 Australia/Sydney, SOR-D-0046. **External adapter0.1.3 is approved;
+2026-10-11 Australia/Sydney, SOR-D-0046. **External adapter 0.1.3 is approved;
 the live procedure is prepared for review, not executed.**
 
 - [Exact run card](center-only-live-run-card.md).
@@ -35,7 +35,7 @@ four original/archive save hashes, four frozen-file hashes, save inventory,
 content-list receipt and disk guard. Source syntax and diff/whitespace/local-link
 checks pass; both task-only and complete patches pass path inventory, reverse
 applicability and forward exact-byte comparison. The manifest records counts and
-hashes, approved-source identity and0.1.2 baseline preservation. No live checker
+hashes, approved-source identity and 0.1.2 baseline preservation. No live checker
 mode, debugger attachment or game launch was exercised. Earlier six disposable
 controls remain the qualification evidence; they were not rerun for this procedure
 and do not establish live safety. No new runtime/scientific evidence ID is claimed.

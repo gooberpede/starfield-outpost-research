@@ -6,7 +6,7 @@ Its protected-save, frozen comparison, native association/frame requirements,
 normal operator exit and independent restoration/detach checks remain applicable.
 
 The **first live configuration is exactly the two center sites**: entry RVA
-F4AB80 and common exit F4AC44. External adapter0.1.3 is prospective; use the final
+F4AB80 and common exit F4AC44. External adapter 0.1.3 is prospective; use the final
 review ZIP/hash and `--center-only`. Grid's five additional sites remain available
 through explicit `--center-and-grid` for a separately reviewed later session.
 They must not be enabled during the initial smoke. No native calls or artificial
@@ -17,7 +17,7 @@ Before any live action: critical source/latency/qualification review, then a
 separately authorized smoke card naming exact PID/module/hash, protected copies,
 load order, allowed user actions, finite scene phases, stop/recovery conditions
 and accepted timing effects. User retains launch/load/build-mode/actions/normal
-exit. Verify40-billion caller-available bytes on both C:/D:, pinned build and
+exit. Verify 40-billion caller-available bytes on both C:/D:, pinned build and
 loaded preimages. No other debugger or conflicting patch may be assumed safe.
 
 Candidate smoke phases for that separate authorization: establish one protected

@@ -3,9 +3,9 @@
 2026-10-14. SOR-EV-0041 / SOR-F-0032 / SOR-ST-0030.
 Authored REVIEW-REQUIRED; full evidence LOCAL-ONLY.
 
-The maintainer reopened population acceptance after EXP0032. The original657
-roots and evidence remain an intermediate baseline. This rework finds191
-additional supported physical roots: **848 =653single+195compound**. That count
+The maintainer reopened population acceptance after EXP0032. The original 657
+roots and evidence remain an intermediate baseline. This rework finds 191
+additional supported physical roots: **848 =653 single+195 compound**. That count
 does not satisfy exhaustive population acceptance by itself.
 
 - [Scientific report](report.md) and [original acceptance matrix](acceptance.md).

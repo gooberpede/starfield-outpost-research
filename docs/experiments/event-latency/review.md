@@ -1,6 +1,6 @@
-# Review return — external adapter0.1.3
+# Review return — external adapter 0.1.3
 
-SOR-EXP-0026 / SOR-EV-0034;2026-10-11 Australia/Sydney. [Answer-first report](README.md),
+SOR-EXP-0026 / SOR-EV-0034; 2026-10-11 Australia/Sydney. [Answer-first report](README.md),
 [latency/qualification](qualification.md), [transport](transport.md) and
 [center-only prospective card](operator-card.md). Critical review precedes
 integration or any separately authorized live action.
@@ -12,23 +12,23 @@ Local deliverables:
 - [Status, changed-file/exclusion/hash/check manifest](../../../.local-work/event-latency/review-01/review.json).
 - [Versioned candidate/source/review ZIP](../../../.local-work/event-latency/review-01/SorEventOracle-0.1.3.zip).
 - [ZIP SHA-256/member manifest](../../../.local-work/event-latency/review-01/package.json).
-- [Baseline0.1.2 preservation manifest](../../../.local-work/event-latency/baseline.json).
+- [Baseline 0.1.2 preservation manifest](../../../.local-work/event-latency/baseline.json).
 - [Numerical timing comparison](../../../.local-work/event-latency/comparison.json).
 - [Final coverage/qualification summary](../../../.local-work/event-latency/review-01/qualification.json).
 - [Postflight and protected-input checks](../../../.local-work/event-latency/review-01/preservation.json).
 
 New source: append-only writer, adapter-local collector sink adaptation, profiler,
 offline WAL materializer/recovery tests and numerical reporter. Existing adapter,
-qualifier, health checks and README advance to0.1.3. Fixture ABI/producers and
+qualifier, health checks and README advance to 0.1.3. Fixture ABI/producers and
 original inspector/tests are unchanged. New authored documentation is this five-
 file directory plus the retained follow-up brief. Root/state/decision/provenance/
 source/credit/subsystem/experiment/evidence/brief indexes receive supplements;
-the old0.1.2 review links its preserved baseline. No renames/deletions. Exact paths
+the old 0.1.2 review links its preserved baseline. No renames/deletions. Exact paths
 and classifications are in the manifest. Previous WORKFLOW changes remain in the
 complete patch; this task follows that standing convention without restaging them.
 
 The baseline contains every original candidate-07 control/raw section plus source/
-helper/build/review receipts. Its2683-file hash manifest is checked after work;
+helper/build/review receipts. Its 2683-file hash manifest is checked after work;
 original prior run/review artifacts and protected inputs are independently
 rechecked. Profiling derivatives and interrupted pilots have distinct source/
 binary/log identities. The matched benchmark is one serial pair, not a claim of

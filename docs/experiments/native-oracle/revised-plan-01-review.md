@@ -1,8 +1,8 @@
-# Independent review — revised acquisition proposal01
+# Independent review — revised acquisition proposal 01
 
 2026-10-11. Both independent returns below are retained verbatim. The first
 identifies the initial draft; the second accepts the amended plan with fresh PE
-verification/EAX-consumer clarification. That amended30-file snapshot and its
+verification/EAX-consumer clarification. That amended 30-file snapshot and its
 patches/manifest are retained in
 `.local-work/native-oracle/revised-plan-01/reviewed-snapshot-01/`. Recording these
 returns and the research-state status is a documentation-only refresh; current

@@ -2,7 +2,7 @@
 
 `ReadWorkshop.java` is original project source-informed research tooling.
 Prerequisites: existing pinned Starfield.exe Ghidra project/program and installed
-Ghidra12.1.2/JDK21; approved offline brief. It reads existing instructions,
+Ghidra 12.1.2/JDK 21; approved offline brief. It reads existing instructions,
 function boundaries, xrefs, strings/data as requested and existing decompiler
 state. It writes one exclusively new local TSV with program SHA256/base header.
 No analysis, symbols/types/comments or target operations are performed.

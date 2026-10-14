@@ -1,18 +1,18 @@
-# Observer0.1.1 post-deployment / Phase1 review package
+# Observer 0.1.1 post-deployment / Phase 1 review package
 
 2026-10-10; EXP0022 / EV0030. [Actual-file preflight](../../audits/observer-011-post-deployment-preflight.md),
-[Phase1 card](Phase1-Save25-Save26-operator-run-card.md),
+[Phase 1 card](Phase1-Save25-Save26-operator-run-card.md),
 [fixed-POI candidates](fixed-poi-validation-candidates.md),
 [retained task scope](../../implementation-briefs/observer-011-post-deployment-phase1.md).
 These are returned for critical review before the scientific live experiment.
 
 Actual checks: installed/staged/all five approved ZIP member identities and
-package CRC, directly parsed DLL SFSE export0x00010001/version0.1.1, installed
+package CRC, directly parsed DLL SFSE export 0x00010001/version 0.1.1, installed
 game/SFSE/loader versions/hashes, exact config identity, Vortex deployment source,
 smoke startup READY/module identity and SFSE loader log, target-process absence,
 path reparse attributes and exclusive write/fsync/readback/remove probe, isolated
 helper accept/reject/STOP controls, caller-available disk guard, Save25/26 original/
-archive hashes and5298-file before/after byte/size/mtime preservation. No substantive
+archive hashes and 5298-file before/after byte/size/mtime preservation. No substantive
 instrument defect found. Windows DLL version resource is absent; SFSE metadata
 and startup/log corroboration provide plugin version identity.
 
@@ -48,8 +48,8 @@ establish scientific output freshness, active Workshop identity, frame equivalen
 independent grid validation or complete algorithm equivalence. No new scientific
 finding, safe integration point or publication eligibility is promoted.
 
-No permission issue blocks this offline handoff. Phase1 remains review-required;
-fixed POIs remain conditional candidates outside Phase1, with no arbitrary
+No permission issue blocks this offline handoff. Phase 1 remains review-required;
+fixed POIs remain conditional candidates outside Phase 1, with no arbitrary
 outpost-count requirement. A useful review can accept or revise the specific
 condition matrix/association policy before authorizing live requests.
 

@@ -2,13 +2,13 @@
 
 The fresh-context population reviewer is required to test the original exhaustive
 inventory contract, including false negatives and retained inactive evidence.
-The prior scoped-positiveA acceptance remains preserved intermediate evidence.
-No new scoped-positiveA may substitute for population completeness.
+The prior scoped-positive A acceptance remains preserved intermediate evidence.
+No new scoped-positive A may substitute for population completeness.
 
-Independent work includes source-first175menu/380target class selection,
-actualREFR/ACHR alternatives,191additional identity/condition checks,124nonowner
-template/DA controls, scrap transitions, full type5/source typing, native ordered
-component grammar, final type6 closure and CalculatedPackin storageID joins.
+Independent work includes source-first 175 menu/380 target class selection,
+actual REFR/ACHR alternatives, 191 additional identity/condition checks, 124 nonowner
+template/DA controls, scrap transitions, full type 5/source typing, native ordered
+component grammar, final type 6 closure and CalculatedPackin storageID joins.
 Detailed raw/source receipts remain local with exact hashes in the review package.
 
 The independent reviewer returned **ACCEPT — completed evidence-bounded Outcome B**

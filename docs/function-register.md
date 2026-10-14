@@ -3,8 +3,8 @@
 ## EXP0025 acquisition supplement to SOR-FN-0055/0056
 
 [Contract/correction](experiments/event-instrumentation/contract.md), EV0033:
-byte-checked center entryF4AB80/common exitF4AC44, grid callback entryAD0B90/common
-exitAD0E94 and resultAD0D3B. RBP-49 at result is pretranslation center; actual
+byte-checked center entry F4AB80/common exit F4AC44, grid callback entry AD0B90/common
+exit AD0E94 and result AD0D3B. RBP-49 at result is pretranslation center; actual
 translated X/Y are XMM0 at AD0C93/AD0C9C. Seven scoped sites with instructions
 replayed in place by an external debugger candidate. Disposable qualification is
 not a live hit, complete frame proof or validated integration. Historical wording
@@ -12,74 +12,74 @@ below is preserved with this correction; critical review remains required.
 
 ## SOR-FN-0056 — ProcGen lifecycle and event-associated center
 
-SOR-ENV-0002 retail1.16.244.0; [typed map](experiments/event-oracle/native-map.md),
-SOR-EV-0032. Manager ctor140787830 / RVA00787830 allocates0x138 ProcGen via
-14079d660 / RVA0079d660; manager+130 owns it, destructor14079d910. FN0054
-publisher1421b2570 is StateUpdatePlacement entry. Reset1407a6690 clears radius
-only; activation1407a50d0 changes e8/e9; updater1407a5210 requires e8; typed
-decal predicate1407a6540 skips distance filtering if radius<=0. Helper140f4ab80
-/ RVA00f4ab80 always writesXYZ, common exit140f4ac44. [Design](experiments/event-oracle/acquisition-design.md)
+SOR-ENV-0002 retail 1.16.244.0; [typed map](experiments/event-oracle/native-map.md),
+SOR-EV-0032. Manager ctor 140787830 / RVA 00787830 allocates0x138 ProcGen via
+14079d660 / RVA 0079d660; manager+130 owns it, destructor 14079d910. FN0054
+publisher 1421b2570 is StateUpdatePlacement entry. Reset 1407a6690 clears radius
+only; activation 1407a50d0 changes e8/e9; updater 1407a5210 requires e8; typed
+decal predicate 1407a6540 skips distance filtering if radius<=0. Helper 140f4ab80
+/ RVA 00f4ab80 always writes XYZ, common exit 140f4ac44. [Design](experiments/event-oracle/acquisition-design.md)
 binds actual reference/caller/output. STATIC/OBSERVED-INTERNAL, scoped STRONG
 proposed; no live freshness, safe integration or exhaustive alias-writer proof.
 
 ## SOR-FN-0057 — Preview waiting and asynchronous spinner
 
 Same pinned build/base; [preview contract](experiments/event-oracle/preview-state.md).
-Ctor14158e280 / RVA0158e280 and14158f230 bind spinner/block-input.
-Wait3D entry1421b5720 is existing code/LAB, not a created function;
-update1421b5970 / RVA021b5970 requests spinner after timer and gates advance
-via readiness14241e7f0 / RVA0241e7f0. Exit1421b5750 requests off through
-1421f6420 / RVA021f6420; service1415902a0→14158fa50 updates selected UI data.
+Ctor 14158e280 / RVA 0158e280 and 14158f230 bind spinner/block-input.
+Wait3D entry 1421b5720 is existing code/LAB, not a created function;
+update 1421b5970 / RVA 021b5970 requests spinner after timer and gates advance
+via readiness 14241e7f0 / RVA 0241e7f0. Exit 1421b5750 requests off through
+1421f6420 / RVA 021f6420; service 1415902a0→14158fa50 updates selected UI data.
 STATIC/OBSERVED-INTERNAL; no failing episode, defect diagnosis, complete
 spinner-source census or live-safety finding. REVIEW-REQUIRED.
 
 ## SOR-FN-0054 — Native stored workshop terrain-center producer and bounds consumer
 
-SOR-ENV-0002, retail1.16.244.0. [EXP0021 contract](experiments/engine-oracle/oracle-contract.md),
-SOR-EV-0029: static VA1421b2570 / RVA021b2570 resolves Workshop and calculates
-center through140f4ab80 / RVA00f4ab80; writes XYZ/radius at1421b29ac/29b1 through
-terrain145fd9c30→+130→+90/+9c. Native1407a6540 / RVA007a6540 uses it for bounds
-filtering; thunk1407b0880, consumer installer1407a6150, activation1407a50d0 and reset1407a6690
+SOR-ENV-0002, retail 1.16.244.0. [EXP0021 contract](experiments/engine-oracle/oracle-contract.md),
+SOR-EV-0029: static VA 1421b2570 / RVA 021b2570 resolves Workshop and calculates
+center through 140f4ab80 / RVA 00f4ab80; writes XYZ/radius at 1421b29ac/29b1 through
+terrain145fd9c30→+130→+90/+9c. Native 1407a6540 / RVA 007a6540 uses it for bounds
+filtering; thunk 1407b0880, consumer installer 1407a6150, activation 1407a50d0 and reset 1407a6690
 qualify lifecycle. STATIC/OBSERVED-INTERNAL only. Worker reads raw bytes without
 lock/pin; no query invocation/ABI-safety or authoritative freshness claim.
 
 ## SOR-FN-0055 — Native terrain coverage selected-grid output
 
-Same pinned module/base140000000. VA140ad92e0→140ad08d0→140b1e190→140ad8ec0→140ad0b90;
-observe140ad0d3b / RVA00ad0d3b after14096f5c0. Captures native translated center,
+Same pinned module/base 140000000. VA 140ad92e0→140ad08d0→140b1e190→140ad8ec0→140ad0b90;
+observe 140ad0d3b / RVA 00ad0d3b after 14096f5c0. Captures native translated center,
 floor, body/resolution, input base/translation and output hierarchy. Later
 142332410/14096eb90/14096f940 consume it in coverage calculations. Descriptor
-140f4a140 can mutate ownership; circle/ceiling predicate140f4ac50 is complementary
+140f4a140 can mutate ownership; circle/ceiling predicate 140f4ac50 is complementary
 local evidence, not a planetary oracle. [Typed contract and limits](experiments/engine-oracle/oracle-contract.md).
 No live hit, safe callable interface, symbol/type/comment mutation or invocation.
 
 ## SOR-FN-0052 — Typed saved-world restoration and frame selection
 
-[EXP0020 ledger/map](experiments/static-exhaustion/call-and-dataflow.md), pinned1.16.244.0 static VA/RVA=VA−140000000.141824a60/141825e00 unit3 dispatch,14132d260/14132d500 descriptor writer/reader,1403a5560/3a5e00/3a53b0 restoration,14096fb40/96fa90 packed key decode/encode;141822570/14182e280 typed unit6 dispatch;14140ff80/1414128c0 site tuple,140ad5f20/ad6150 world component. Typed IDs4 versus legacy IDs3 use distinct callbacks with1418599a0 remapping.1418325a0/141833b20 mask20/cell conversion and140ad3ed0 integer translation establish scoped saved frame. No generic full-save decoder, future live epoch or invocation authority.
+[EXP0020 ledger/map](experiments/static-exhaustion/call-and-dataflow.md), pinned 1.16.244.0 static VA/RVA=VA−140000000.141824a60/141825e00 unit 3 dispatch, 14132d260/14132d500 descriptor writer/reader, 1403a5560/3a5e00/3a53b0 restoration, 14096fb40/96fa90 packed key decode/encode; 141822570/14182e280 typed unit 6 dispatch; 14140ff80/1414128c0 site tuple, 140ad5f20/ad6150 world component. Typed IDs 4 versus legacy IDs 3 use distinct callbacks with 1418599a0 remapping. 1418325a0/141833b20 mask 20/cell conversion and 140ad3ed0 integer translation establish scoped saved frame. No generic full-save decoder, future live epoch or invocation authority.
 
 ## SOR-FN-0053 — Closed residual-helper and local-height branches
 
-14077f900→140780a50→140780aa0→140781390 selects existing reference XYZ plus integer displacement;14077e350→140780710→14077f6e0→14078d2c0 searches integer candidate overlays.14141ccd0/14141dc70 consumes14078d370 Z in camera/local-height calculations. [EXP0020 residual map](experiments/static-exhaustion/residual-map.md) closes these indirect/helper branches and distinguishes scalar local height from body direction. STATIC OBSERVED-INTERNAL; no exact off-grid planetary embedding or safe integration point established.
+14077f900→140780a50→140780aa0→140781390 selects existing reference XYZ plus integer displacement; 14077e350→140780710→14077f6e0→14078d2c0 searches integer candidate overlays. 14141ccd0/14141dc70 consumes 14078d370 Z in camera/local-height calculations. [EXP0020 residual map](experiments/static-exhaustion/residual-map.md) closes these indirect/helper branches and distinguishes scalar local height from body direction. STATIC OBSERVED-INTERNAL; no exact off-grid planetary embedding or safe integration point established.
 
 ## SOR-FN-0050 — Activated overlay construction, typed definition and rebase
 
-[SOR-EXP-0019 native map](experiments/activated-grid/native-map.csv), pinned1.16.244.0; all entries static VA, RVA=VA−140000000.1404597a0/140459a30 load/resolve BGSWorldSpaceOverlay_Component's SFBK/body keys.1407986d0 differences active/requested grid pairs before140ad1660;140ad47e0/140ad4a00 initialize typed ActivatedOverlayProperty.140adcde0/140adccf0/140add310 register;140ad30a0/140ada3a0 select/read;140797dc0→140ad9cd0 subtracts terrain rebase from shifts/bounds. Factory141881660/vtable144b91788 inspected, no qualified wire restoration proven. STATIC, OBSERVED-INTERNAL; full saved-edge selection/continuous embedding OPEN, no invocation/integration authority.
+[SOR-EXP-0019 native map](experiments/activated-grid/native-map.csv), pinned 1.16.244.0; all entries static VA, RVA=VA−140000000.1404597a0/140459a30 load/resolve BGSWorldSpaceOverlay_Component's SFBK/body keys. 1407986d0 differences active/requested grid pairs before 140ad1660; 140ad47e0/140ad4a00 initialize typed ActivatedOverlayProperty. 140adcde0/140adccf0/140add310 register; 140ad30a0/140ada3a0 select/read; 140797dc0→140ad9cd0 subtracts terrain rebase from shifts/bounds. Factory 141881660/vtable 144b91788 inspected, no qualified wire restoration proven. STATIC, OBSERVED-INTERNAL; full saved-edge selection/continuous embedding OPEN, no invocation/integration authority.
 
 ## SOR-FN-0051 — Hierarchical grid and footprint orientation
 
-14096ecb0 angle quantizer;14096f4d0/14078d660 designated half-cell projection;14096efb0 landing-origin snap;14096f5c0 signed displacement/remainder and four-tag seam transitions;14096eb90 canonical record lookup.14096ae90 SFBK DNAM→Block+40/+44;14096bba0 independent spans/remapped16×16 cache,14096be70 cache selection,140851d20 eight centered transforms from145907c10. [SOR-EXP-0019](experiments/activated-overlay-and-grid-geometry.md#grid-geometry-and-topology), STATIC scoped pinned build; mathematical tests are not native/runtime seam validation.
+14096ecb0 angle quantizer; 14096f4d0/14078d660 designated half-cell projection; 14096efb0 landing-origin snap; 14096f5c0 signed displacement/remainder and four-tag seam transitions; 14096eb90 canonical record lookup. 14096ae90 SFBK DNAM→Block+40/+44; 14096bba0 independent spans/remapped16×16 cache, 14096be70 cache selection, 140851d20 eight centered transforms from 145907c10. [SOR-EXP-0019](experiments/activated-overlay-and-grid-geometry.md#grid-geometry-and-topology), STATIC scoped pinned build; mathematical tests are not native/runtime seam validation.
 
 ## SOR-FN-0047 — Save-side reference frame preparation
 
-`141856d10`, callers `14181aa30/14181af40` at `14181ae1b/14181b356`: copies own reference XYZ, selects cell/world context and conditionally subtracts `140ada3a0` translation. Static VA in pinned1.16.244.0/base140000000, RVA01856d10. Predicate and frame limits in [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md#transformation-map). STATIC, OBSERVED-INTERNAL; not a callable integration point or proof of every saved branch.
+`141856d10`, callers `14181aa30/14181af40` at `14181ae1b/14181b356`: copies own reference XYZ, selects cell/world context and conditionally subtracts `140ada3a0` translation. Static VA in pinned 1.16.244.0/base 140000000, RVA 01856d10. Predicate and frame limits in [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md#transformation-map). STATIC, OBSERVED-INTERNAL; not a callable integration point or proof of every saved branch.
 
 ## SOR-FN-0048 — Activated overlay selection and translation
 
-`140ad30a0` (RVA00ad30a0) selects valid world-keyed inclusive-cell-bounded edges; `140ada3a0` (RVA00ada3a0) reads typed payload+8/+0xc integer shifts and+0x30 floatZ, gated by+0x35. `140ad7b80/140add310/140adcfd0/140adcf50/140add850` establish named ActivatedOverlayProperty registration/copy lineage. [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md#transformation-map), STATIC pinned executable; actual archive-to-selected-map restoration remains OPEN. No Workshop-offset/type conflation or approved live invocation.
+`140ad30a0` (RVA 00ad30a0) selects valid world-keyed inclusive-cell-bounded edges; `140ada3a0` (RVA 00ada3a0) reads typed payload+8/+0xc integer shifts and+0x30 floatZ, gated by+0x35. `140ad7b80/140add310/140adcfd0/140adcf50/140add850` establish named ActivatedOverlayProperty registration/copy lineage. [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md#transformation-map), STATIC pinned executable; actual archive-to-selected-map restoration remains OPEN. No Workshop-offset/type conflation or approved live invocation.
 
 ## SOR-FN-0049 — Nonempty Workshop resource prefix
 
-`140f50880/140f515a0/1402cef80/1402cedd0`: modern resource groups use separate reference queues and uint32 counts; each row consumes two refs plus17 body bytes. [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md#cross-outpost-challenge-and-nonempty-workshop-resource-tables) extends the bounded prefix to all19 mature Workshop vectors, each zero. STATIC/SAVE, original reader callback; resource value semantics/full following extras/older versions remain unclassified. All addresses static VA, RVA=VA-140000000 in pinned build.
+`140f50880/140f515a0/1402cef80/1402cedd0`: modern resource groups use separate reference queues and uint32 counts; each row consumes two refs plus 17 body bytes. [SOR-EXP-0018](experiments/durable-outpost-center-and-object-transforms.md#cross-outpost-challenge-and-nonempty-workshop-resource-tables) extends the bounded prefix to all 19 mature Workshop vectors, each zero. STATIC/SAVE, original reader callback; resource value semantics/full following extras/older versions remain unclassified. All addresses static VA, RVA=VA-140000000 in pinned build.
 
 ## SOR-EXP-0017 — Typed workshop, persistence and geometry
 
@@ -101,10 +101,10 @@ Pinned SOR-ENV-0001 hash/base in [report](experiments/exact-beacon-planetary-coo
 
 | ID | Original static VA | RVA | Supported role / limit |
 |---|---|---|---|
-| SOR-FN-0033 | FUN_14008cb90 /14008cc50 /14096e060 /14096da90 | 0008cb90 /0008cc50 /0096e060 /0096da90 | Defaults10+2, ordinaryR256; actual other configuration required |
+| SOR-FN-0033 | FUN_14008cb90 /14008cc50 /14096e060 /14096da90 | 0008cb90 /0008cc50 /0096e060 /0096da90 | Defaults 10+2, ordinary R 256; actual other configuration required |
 | SOR-FN-0034 | FUN_14096ecb0 /14096f4d0 /14096efb0 | 0096ecb0 /0096f4d0 /0096efb0 | Quantizer, centred indices, origin snap; no visible-tile dimensions |
 | SOR-FN-0035 | FUN_14078d1f0 /14078d660 /1423321f0 /142332410 | 0078d1f0 /0078d660 /023321f0 /02332410 | Local floorXY/origin displacement/projection; angle omits fractionalXY/Z |
-| SOR-FN-0036 | FUN_140ad7200 /140ada960 /140ad40c0 | 00ad7200 /00ada960 /00ad40c0 | Keyed activated-overlay integerXY*100/vertical translation; restored map unqualified |
+| SOR-FN-0036 | FUN_140ad7200 /140ada960 /140ad40c0 | 00ad7200 /00ada960 /00ad40c0 | Keyed activated-overlay integer XY*100/vertical translation; restored map unqualified |
 | SOR-FN-0037 | FUN_1418325a0 /141833b20 /140b4e410 | 018325a0 /01833b20 /00b4e410 | World/initial flags/restoration/rebase; final authority unknown |
 | SOR-FN-0038 | FUN_140910690 /1407bcfb0 | 00910690 /007bcfb0 | Cached/active-world/fallback; body-space consumer also quantizes; no subcell proof |
 | SOR-FN-0039 | FUN_140ad1660 /140ad47e0 /140ad4a00 /140add310 | 00ad1660 /00ad47e0 /00ad4a00 /00add310 | ActivatedOverlayProperty creation/registration; saved linkage unknown |
@@ -112,18 +112,18 @@ Pinned SOR-ENV-0001 hash/base in [report](experiments/exact-beacon-planetary-coo
 
 ## SOR-EXP-0014 terrain-frame bridge
 
-SOR-ENV-0001 / SOR-EV-0020, pinned Starfield1.16.244.0, preferred base `0x140000000`. [Operand locations, input gaps and export identities](experiments/two-outpost-site-anchors-and-beacon-coordinates.md#coordinate-transformation-investigation). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED; no native invocation, callable ABI, complete branch coverage or safe integration. World creation/registration and terrain queries have effects if executed; only existing analysis state was exported here. In-memory offsets are not wire offsets.
+SOR-ENV-0001 / SOR-EV-0020, pinned Starfield 1.16.244.0, preferred base `0x140000000`. [Operand locations, input gaps and export identities](experiments/two-outpost-site-anchors-and-beacon-coordinates.md#coordinate-transformation-investigation). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED; no native invocation, callable ABI, complete branch coverage or safe integration. World creation/registration and terrain queries have effects if executed; only existing analysis state was exported here. In-memory offsets are not wire offsets.
 
 | ID | Original static VA | RVA | Supported observation and limit |
 |---|---|---|---|
 | SOR-FN-0029 | FUN_140ad31a0 / FUN_140ad30a0 | 00ad31a0 / 00ad30a0 | Exterior cell/world selection with inclusive integer XY bounds. Does not prove saved parent is a loaded cell or identify one universal overlay. |
 | SOR-FN-0030 | FUN_140ad3b20 / FUN_140ad3c30 | 00ad3b20 / 00ad3c30 | Eligible world/component path resolves body and searches overlay by world ID, copying two doubles. Retrieves an anchor without adding reference XYZ. |
-| SOR-FN-0031 | FUN_14077fc20 / FUN_14078d370 | 0077fc20 / 0078d370 | Branch combines terrain-index displacement and reference position, splits XY into grid offsets and residual with factor100, and projects indexed point to angles. Manager origin/resolution and precise residual projection remain unresolved. |
+| SOR-FN-0031 | FUN_14077fc20 / FUN_14078d370 | 0077fc20 / 0078d370 | Branch combines terrain-index displacement and reference position, splits XY into grid offsets and residual with factor 100, and projects indexed point to angles. Manager origin/resolution and precise residual projection remain unresolved. |
 | SOR-FN-0032 | FUN_1418ab8d0 / FUN_140ad0400 | 018ab8d0 / 00ad0400 | Conditional pair registration with existing world or generated-world construction. No proof of the branch actually used by Save25 or a universal one-overlay-per-outpost rule. |
 
 ## SOR-EXP-0013 surface-anchor chain
 
-SOR-ENV-0001 / SOR-EV-0019, Starfield1.16.244.0, preferred base `0x140000000`; executable hash and [exact data flow/limits](experiments/planetary-surface-anchor-semantics.md#decisive-native-and-definition-chain). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED. No callable ABI, safe integration, live invocation or project renaming. Full exports remain LOCAL-ONLY; important instruction/decompiler limits are indexed.
+SOR-ENV-0001 / SOR-EV-0019, Starfield 1.16.244.0, preferred base `0x140000000`; executable hash and [exact data flow/limits](experiments/planetary-surface-anchor-semantics.md#decisive-native-and-definition-chain). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED. No callable ABI, safe integration, live invocation or project renaming. Full exports remain LOCAL-ONLY; important instruction/decompiler limits are indexed.
 
 | ID | Original static VA | RVA | Supported observation and limit |
 |---|---|---|---|
@@ -136,18 +136,18 @@ SOR-ENV-0001 / SOR-EV-0019, Starfield1.16.244.0, preferred base `0x140000000`; e
 
 ## SOR-EXP-0010 conditional restoration and ownership readers
 
-SOR-ENV-0001 pinned Starfield1.16.244.0, preferred image base0x140000000, SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`; SOR-S-0127 / SOR-EV-0016. [Exact supporting observations and limits](experiments/active-outpost-membership-completion.md). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED. These loader functions mutate reconstructed objects when the game executes them; this task only reads existing instructions and never invokes them. No safe integration point, complete caller set, live ABI or authoritative player-membership predicate is established. Original Ghidra names are preserved.
+SOR-ENV-0001 pinned Starfield 1.16.244.0, preferred image base 0x140000000, SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`; SOR-S-0127 / SOR-EV-0016. [Exact supporting observations and limits](experiments/active-outpost-membership-completion.md). STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED. These loader functions mutate reconstructed objects when the game executes them; this task only reads existing instructions and never invokes them. No safe integration point, complete caller set, live ABI or authoritative player-membership predicate is established. Original Ghidra names are preserved.
 
 | ID | Original static VA / name | RVA | Supported observation and limitation |
 |---|---|---|---|
-| SOR-FN-0019 | FUN_141832f00 | 01832f00 | Conditional REFR initial-case selector; flags0x92018200 select6. Does not resolve inherited form type or ownership. |
-| SOR-FN-0020 | FUN_141835610 / FUN_141835c20 / FUN_1405dfa40 | 01835610 / 01835c20 / 005dfa40 | Paired initial readers and general form loader; separate queue/body consumption, self ref and bit0-gated saved flags. Omission preserves an unresolved inherited/default state. |
+| SOR-FN-0019 | FUN_141832f00 | 01832f00 | Conditional REFR initial-case selector; flags 0x92018200 select6. Does not resolve inherited form type or ownership. |
+| SOR-FN-0020 | FUN_141835610 / FUN_141835c20 / FUN_1405dfa40 | 01835610 / 01835c20 / 005dfa40 | Paired initial readers and general form loader; separate queue/body consumption, self ref and bit 0-gated saved flags. Omission preserves an unresolved inherited/default state. |
 | SOR-FN-0021 | FUN_14054c2f0 / FUN_14053a2d0 | 0054c2f0 / 0053a2d0 | ExtraPromotedRef0x84 counted ref/byte pairs versus ExtraOwnership0x1f; player promotion ref is not an owner field. Inherited ownership and actual execution remain unvalidated. |
-| SOR-FN-0022 | FUN_140f3bfc0 | 00f3bfc0 | Exclusion-property query through reference+0x68 with global145f0c6d0. Resolved keyword/FormID and equivalence to BlockPlayerActivation unknown; no complete player-control proof. |
+| SOR-FN-0022 | FUN_140f3bfc0 | 00f3bfc0 | Exclusion-property query through reference+0x68 with global 145f0c6d0. Resolved keyword/FormID and equivalence to BlockPlayerActivation unknown; no complete player-control proof. |
 
 ## SOR-EXP-0002A save-path candidates
 
-SOR-ENV-0003 / SOR-EV-0005, STATIC / OBSERVED-INTERNAL, REVIEW-REQUIRED. All Starfield1.16.244.0 addresses below use preferred base0x140000000 and the pinned hash in [the detailed candidate map](experiments/SOR-EXP-0002A-native-save-thread-mapping.md#current-candidate-map). That map records call sites, provisional argument roles, strings, side effects and limits. No candidate was observed executing in a manual save; debugger setup is not native invocation qualification.
+SOR-ENV-0003 / SOR-EV-0005, STATIC / OBSERVED-INTERNAL, REVIEW-REQUIRED. All Starfield 1.16.244.0 addresses below use preferred base 0x140000000 and the pinned hash in [the detailed candidate map](experiments/SOR-EXP-0002A-native-save-thread-mapping.md#current-candidate-map). That map records call sites, provisional argument roles, strings, side effects and limits. No candidate was observed executing in a manual save; debugger setup is not native invocation qualification.
 
 | ID | Original name / static VA | RVA | Provisional role and principal limitation |
 |---|---|---|---|
@@ -165,8 +165,8 @@ Initial records are scoped to SOR-ENV-0001 and [SOR-EV-0001](experiments/evidenc
 |---|---|---|---|---|---|---|---|---|---|
 | SOR-FN-0001 | SOR-ENV-0001 | Starfield.exe / ObjectReference | 0x142073cf0 | RVA 0x02073cf0 | LAB_142073cf0 (no function at entry) | GetWorkshop native callback | Reads source +0xc8 and global 0x145f0b3d8; tail-jumps to 0x140517d60; returned relationship/side effects not live-qualified | PROVEN STATIC binding; ownership interpretation PROVISIONAL | SOR-F-0003; registration FUN_14209be00; SOR-EV-0001 |
 | SOR-FN-0002 | SOR-ENV-0001 | Starfield.exe | 0x140517d60 | RVA 0x00517d60 | FUN_140517d60 | Keyed reference lookup candidate | Callback target; synchronization and keyed search visible; helper calls mean not asserted side-effect-free; full layout UNKNOWN | STRONG STATIC association; semantic alias provisional | starfield-membership.tsv; SOR-EV-0001 |
-| SOR-FN-0003 | SOR-ENV-0001 | Starfield.exe / ObjectReference | 0x142073dc0 | RVA 0x02073dc0 | FUN_142073dc0 | GetWorkshopOwnedObjects callback | Registration FUN_14209bc00 loads callback at 0x14209bc4b; output collection/owner filtering lead; no exhaustive enumeration claim | PROVEN STATIC binding; full behavior UNKNOWN | SOR-EV-0001; ObjectReference.psc:568 |
-| SOR-FN-0004 | SOR-ENV-0001 | Starfield.exe / ObjectReference | 0x142074870 | RVA 0x02074870 | FUN_142074870 | GetWorkshopResourceObjects callback | Registration FUN_14209ba00 loads callback at 0x14209ba4c; larger body export capped; parameters/source declaration not ABI proof | PROVEN STATIC binding; full behavior UNKNOWN | SOR-EV-0001; ObjectReference.psc:575 |
+| SOR-FN-0003 | SOR-ENV-0001 | Starfield.exe / ObjectReference | 0x142073dc0 | RVA 0x02073dc0 | FUN_142073dc0 | GetWorkshopOwnedObjects callback | Registration FUN_14209bc00 loads callback at 0x14209bc4b; output collection/owner filtering lead; no exhaustive enumeration claim | PROVEN STATIC binding; full behavior UNKNOWN | SOR-EV-0001; ObjectReference.psc: 568 |
+| SOR-FN-0004 | SOR-ENV-0001 | Starfield.exe / ObjectReference | 0x142074870 | RVA 0x02074870 | FUN_142074870 | GetWorkshopResourceObjects callback | Registration FUN_14209ba00 loads callback at 0x14209ba4c; larger body export capped; parameters/source declaration not ABI proof | PROVEN STATIC binding; full behavior UNKNOWN | SOR-EV-0001; ObjectReference.psc: 575 |
 | SOR-FN-0005 | SOR-ENV-0001 | Starfield.exe | 0x1421bb570 | RVA 0x021bb570 | FUN_1421bb570 | Beacon removal/validation candidate | Called by FUN_140c7af90 before beacon failure diagnostic; internal calls/state effects not fully resolved; unsafe to invoke from this finding | PROVISIONAL STATIC semantics | SOR-EV-0001; starfield-callbacks.tsv |
 | SOR-FN-0006 | SOR-ENV-0001 | SQ_OutpostCargoLinkScript.psc | TransferCargo, lines 110–183 | SOR-S-0104 archive hash | TransferCargo | Cargo transfer orchestration | Script branches for loading/unloading/specific cargo, native inventory/redistribution calls; mutations expected if executed; never invoked here | PROVEN STATIC source, MIXED implementation | SOR-F-0002; SOR-EV-0001 |
 | SOR-FN-0007 | SOR-ENV-0001 | OutpostCargoLinkMarkerScript.psc | OnLoad, lines 47–51 | SOR-S-0104 archive hash | OnLoad | Animation restoration consumer | Reads animation AV, requests animation application; storage authority/save format UNKNOWN | PROVEN STATIC source, MIXED implementation | SOR-F-0002; SOR-EV-0001 |
@@ -193,8 +193,8 @@ SOR-ENV-0002, OBSERVED-INTERNAL / STATIC. [Contract table](../runtime/exp0002/ST
 
 ## SOR-FN-0058–0059 — Saved owner and item reconstruction paths
 
-2026-10-14, [native dependency ledger](experiments/workshop-membership/dependencies.md), SOR-EV-0040. Pinned Starfield.exe SHA2567e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28, preferred base140000000. SOR-FN-0058: GetWorkshop142073cf0→140517d60,4C loader140562ef0, construction1421dd600→140f3cf40 and separate deletion1421de660. SOR-FN-0059:1421c71b0 existing-reference item builder, foundation predicate140f5f2d0, group collector140f366c0, reverse filter140f44c00, compound builder1421cbac0, root selector1421cb740 and setter140f661e0. Reads/writes, identity domains, callers, mask/default gaps and source locators are in that ledger. STATIC/OBSERVED-INTERNAL only; no live lifetime/calling qualification, database edits or mod interface authority.
+2026-10-14, [native dependency ledger](experiments/workshop-membership/dependencies.md), SOR-EV-0040. Pinned Starfield.exe SHA256 7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28, preferred base 140000000. SOR-FN-0058: GetWorkshop 142073cf0→140517d60,4C loader 140562ef0, construction 1421dd600→140f3cf40 and separate deletion 1421de660. SOR-FN-0059: 1421c71b0 existing-reference item builder, foundation predicate 140f5f2d0, group collector 140f366c0, reverse filter 140f44c00, compound builder 1421cbac0, root selector 1421cb740 and setter 140f661e0. Reads/writes, identity domains, callers, mask/default gaps and source locators are in that ledger. STATIC/OBSERVED-INTERNAL only; no live lifetime/calling qualification, database edits or mod interface authority.
 
 ## EXP0033 — Membership, registration and component restoration corrections
 
-[Native route map](experiments/workshop-population/routes.md):140517c00/140500ba0/140cf72d0 resolve quest/ALLA aliases;140518750 derives reverse4D;141815620 assigns actual record types from ordered footer runs;14181cdc0/14181ce30 gate AddChange;14182e280 restores components;140b1e720 resolves CalculatedPackinData existing instance IDs. Type4 selector1421661c0 requires an existing owner, and generic reconstruction is not categorically ships-only. Static VAs/build pins in report; no safe runtime integration claim.
+[Native route map](experiments/workshop-population/routes.md):140517c00/140500ba0/140cf72d0 resolve quest/ALLA aliases; 140518750 derives reverse 4D; 141815620 assigns actual record types from ordered footer runs; 14181cdc0/14181ce30 gate AddChange; 14182e280 restores components; 140b1e720 resolves CalculatedPackinData existing instance IDs. Type 4 selector 1421661c0 requires an existing owner, and generic reconstruction is not categorically ships-only. Static VAs/build pins in report; no safe runtime integration claim.

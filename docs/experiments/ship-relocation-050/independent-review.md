@@ -4,7 +4,7 @@
 
 Preliminary disposition: REWORK. Reviewer inspected retained native assembly,
 actual code and primary logs, with no source edits or game/Git/network actions.
-Concrete objections covered schema5/counters, heartbeat continuation, race
+Concrete objections covered schema 5/counters, heartbeat continuation, race
 qualification, orphan/helper/Q-kind integrity and pre-READY STOP. Corrections
 and primary adverse evidence are mapped in review.md. The preliminary record is not acceptance. Final exact-package return follows verbatim.
 

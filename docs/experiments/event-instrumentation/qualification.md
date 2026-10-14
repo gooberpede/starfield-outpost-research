@@ -8,14 +8,14 @@ under that run's case directories. Review packaging verifies the receipt against
 the actual sources and independent coverage checks before delivery.
 
 **Final source-pinned result: all six cases PASS within the disposable scope.**
-Full, center-only and bad-grid-preimage cases each record42 center entries,
+Full, center-only and bad-grid-preimage cases each record 42 center entries,
 41 exact normal pairs and one intentional throw without exit; each fixture
-reports bad0 and normal exit0. Full acquisition also records the scoped grid
-result and its two actual translated-axis values. Raw section counts are870,
-830 and830 respectively. Zero-hit cleanup, active-scope retirement and actual
+reports bad 0 and normal exit 0. Full acquisition also records the scoped grid
+result and its two actual translated-axis values. Raw section counts are 870,
+830 and 830 respectively. Zero-hit cleanup, active-scope retirement and actual
 WriteFile failure independently verify original code restoration/detach and
 normal fixture completion. Active retirement leaves one partial invocation;
-write failure intentionally returns adapter exit1 while fixture exit remains0.
+write failure intentionally returns adapter exit 1 while fixture exit remains 0.
 The independent review coverage receipt checks actual overlap/nesting and
 latency separately. None of these is Starfield scientific evidence.
 
@@ -53,7 +53,7 @@ Active-scope retirement must preserve original native completion with an
 explicitly unpaired observation. Writer failure must restore/detach despite an
 unusable journal. These are independently reportable health and evidence outcomes.
 
-`health_tests.cpp` has eight passing boundary/failure assertions: equal40-billion
+`health_tests.cpp` has eight passing boundary/failure assertions: equal 40-billion
 bytes, each drive one byte below, failed query, retained pre-guard evidence,
 blocked write after guard failure, invalid journal handle and raw-open failure.
 Three inspector tests cover partial final line, corrupted completed raw and
@@ -71,10 +71,10 @@ the final local `failures.json`/`failed-artifacts.json` review receipts.
 | Attempt | Actual failure / disposition |
 |---|---|
 | attempt-01 | `/EHsc` treated C-linkage fixture calls as non-throwing; its intentional C++ exception became an unhandled target exit before counts. Fixed fixture build to `/EHs`; this is not a passing unwind test. |
-| attempt-02 | The original45-second qualification wait expired during durable capture. Cooperative stop/restoration completed; remaining fixture calls ran after detach. It is partial capture, not complete pairing qualification. The disposable wait was widened to600 seconds; acquisition itself has no such quota. |
-| attempt-03 | Full capture completed106 entries/105 normal center exits; center-only control hit SuspendThread access-denied during thread exit. Cleanup restored/detached, fixture counts reported bad0. The adapter now accepts only a thread independently proven exited; inability to suspend a live thread remains a safety stop. No overall pass claimed. |
+| attempt-02 | The original 45-second qualification wait expired during durable capture. Cooperative stop/restoration completed; remaining fixture calls ran after detach. It is partial capture, not complete pairing qualification. The disposable wait was widened to 600 seconds; acquisition itself has no such quota. |
+| attempt-03 | Full capture completed 106 entries/105 normal center exits; center-only control hit SuspendThread access-denied during thread exit. Cleanup restored/detached, fixture counts reported bad 0. The adapter now accepts only a thread independently proven exited; inability to suspend a live thread remains a safety stop. No overall pass claimed. |
 | attempt-04 | Assembly build rejected untyped scalar memory operands and hexadecimal constants lacking a leading zero. No target experiment started. Corrected original fixture syntax. |
-| attempt-05 | An overly strict DR6.BS-based ownership assertion rejected a replay event. Its failure path forwarded that single-step during detach, and the user reported an application-error dialog. The adapter restored/detached; owned fixture PID4016 was then terminated after exact executable-path verification. This is a failed safety/target-survival control. Ownership now uses pending TID, verified next instruction and absence of hardware hits, with handled disposition established before rollback. The exact old DR6 value was not preserved, so no broader OS diagnosis is claimed. |
+| attempt-05 | An overly strict DR6.BS-based ownership assertion rejected a replay event. Its failure path forwarded that single-step during detach, and the user reported an application-error dialog. The adapter restored/detached; owned fixture PID 4016 was then terminated after exact executable-path verification. This is a failed safety/target-survival control. Ownership now uses pending TID, verified next instruction and absence of hardware hits, with handled disposition established before rollback. The exact old DR6 value was not preserved, so no broader OS diagnosis is claimed. |
 | attempt-06 | Intermediate full, center-only, zero-hit and WriteFile-failure controls passed with normal fixture exit and independent detach/restoration. Built source snapshots are preserved. Later source edits mean this intermediate run is not the final candidate receipt. |
 
 Final controls must rectify the relevant failure before any live proposal. Failed
@@ -86,7 +86,7 @@ process handle, with a receipt. No game termination, suppression or patching.
 ## Reproduction, evidence, limits and preservation
 
 Use the [source README command](../../../debugger/event-oracle/README.md).
-Installed VS18.9/MSVC19.51.36256.0, ml64 and Windows SDK are used without downloads;
+Installed VS 18.9/MSVC19.51.36256.0, ml64 and Windows SDK are used without downloads;
 exact tool hashes/build logs and the generated seven-site guards are retained.
 Each final run snapshots source before compilation and checks it unchanged at
 completion. Compiler/build output is qualification evidence, not redistributed
@@ -102,12 +102,12 @@ deferred; its remaining obstacle is live natural reachability and frame/source
 association, resolved next by a separately authorized terrain/site trigger trace.
 No native invocation is proposed to force that path.
 
-Before/after receipts cover the installed retail executable,15 persistent Ghidra
+Before/after receipts cover the installed retail executable, 15 persistent Ghidra
 project files and four frozen model/protocol/checkpoint files. The independent
-preservation audit verifies25 prior checkpoints/14,645 raw sections and four
+preservation audit verifies 25 prior checkpoints/14,645 raw sections and four
 protected Save25/26 original/archive paths. Frozen inputs/predictions/protocol,
 historical observer sources/packages and analysis database content are unchanged.
 Coverage is these named inputs, not every file on either drive or all metadata.
 No Ghidra execution/database edit occurred in this task. Final C:/D: space remains
-above the hard40-billion caller-available guard. Postflight confirms no owned
+above the hard 40-billion caller-available guard. Postflight confirms no owned
 fixture/adapter remains. Authored changes await critical review; no commit/push.

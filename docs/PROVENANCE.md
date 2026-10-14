@@ -2,26 +2,26 @@
 
 ## SOR-EXP-0031 / SOR-EV-0039 — ship relocation assessment
 
-2026-10-13. [Report](experiments/ship-relocation/report.md) and [source ledger](experiments/ship-relocation/sources.csv) preserve pinned installed Bethesda executable/ESM, original040 raw/journal,23 frozen extracted inputs/predictions and prior save identity counterexamples. New original stdlib/project audits and installed marker keyword walk write only new local derivatives; existing read-only Ghidra/JDK exports preserve15 DB files. Source/reader/export/test/raw/protected pins and complete/task-only patches are retained locally. Existing SOR-S-0127/0128/0132/0142, SOR-P-0002 provenance applies; no new outside code, dependency, licence basis, contact or disclosure. No game/observer build/deployment/save/configuration/Ghidra mutation, stage/commit/push. Authored conclusions REVIEW-REQUIRED, raw/native/save data LOCAL-ONLY.
+2026-10-13. [Report](experiments/ship-relocation/report.md) and [source ledger](experiments/ship-relocation/sources.csv) preserve pinned installed Bethesda executable/ESM, original 040 raw/journal, 23 frozen extracted inputs/predictions and prior save identity counterexamples. New original stdlib/project audits and installed marker keyword walk write only new local derivatives; existing read-only Ghidra/JDK exports preserve 15 DB files. Source/reader/export/test/raw/protected pins and complete/task-only patches are retained locally. Existing SOR-S-0127/0128/0132/0142, SOR-P-0002 provenance applies; no new outside code, dependency, licence basis, contact or disclosure. No game/observer build/deployment/save/configuration/Ghidra mutation, stage/commit/push. Authored conclusions REVIEW-REQUIRED, raw/native/save data LOCAL-ONLY.
 
 
-## SOR-EV-0039 live attempt02 extension
+## SOR-EV-0039 live attempt 02 extension
 
-2026-10-12. [0.2.0 live result](experiments/native-oracle/continuation-020-live-attempt-02.md) records explicitly approved final-review-04/card+N1 and notice correction, actual process19908/creation FILETIME/base, protected/source hashes, raw records, health/nonces, operator actions and postflight/removal. Existing SFSE/project provenance is unchanged; no source/binary patch or new third-party component. Original monitor/offline derivative scripts document reads/writes/effects and remain ignored. Query18/noE result is scoped to the instrumented chain, not saved/native identity equivalence. Raw/save/module/native-export payloads remain LOCAL-ONLY, authored interpretation REVIEW-REQUIRED. All58 prior-live pins remain unchanged; prior admission deviation retained. No stage/commit/push.
+2026-10-12. [0.2.0 live result](experiments/native-oracle/continuation-020-live-attempt-02.md) records explicitly approved final-review-04/card+N1 and notice correction, actual process 19908/creation FILETIME/base, protected/source hashes, raw records, health/nonces, operator actions and postflight/removal. Existing SFSE/project provenance is unchanged; no source/binary patch or new third-party component. Original monitor/offline derivative scripts document reads/writes/effects and remain ignored. Query 18/no E result is scoped to the instrumented chain, not saved/native identity equivalence. Raw/save/module/native-export payloads remain LOCAL-ONLY, authored interpretation REVIEW-REQUIRED. All 58 prior-live pins remain unchanged; prior admission deviation retained. No stage/commit/push.
 
 ## SOR-EV-0039 native-oracle 0.2.0 continuation
 
-2026-10-12. [Review](experiments/native-oracle/continuation-020-review.md) identifies new original source in runtime/native-oracle-020, exact build/ZIP/tool/source/protected pins, disposable synthetic evidence and complete/task patches. Original0.1.0 source/package, live attempt01, old proposal and all31 starting uncommitted files are retained (six summary documents receive explicit continuation entries). [Source ledger](experiments/native-oracle/continuation-020-sources.csv) extends existing local static exports with exact-beacon-05 for the natural landing fallback chain; no raw export copied into Git. SOR-S-0127/0132/0142 and approved SOR-P-0001 header/SOR-P-0002 utilities remain the only implementation lineage. Installed MSVC/MASM/SDK/CPython and system DLLs only, no network, new dependency or external disclosure. Current overlay acceptance is prospective, not a rewrite of attempt01's admission failure. Science/publication state unchanged.
+2026-10-12. [Review](experiments/native-oracle/continuation-020-review.md) identifies new original source in runtime/native-oracle-020, exact build/ZIP/tool/source/protected pins, disposable synthetic evidence and complete/task patches. Original 0.1.0 source/package, live attempt 01, old proposal and all 31 starting uncommitted files are retained (six summary documents receive explicit continuation entries). [Source ledger](experiments/native-oracle/continuation-020-sources.csv) extends existing local static exports with exact-beacon-05 for the natural landing fallback chain; no raw export copied into Git. SOR-S-0127/0132/0142 and approved SOR-P-0001 header/SOR-P-0002 utilities remain the only implementation lineage. Installed MSVC/MASM/SDK/CPython and system DLLs only, no network, new dependency or external disclosure. Current overlay acceptance is prospective, not a rewrite of attempt 01's admission failure. Science/publication state unchanged.
 
-## SOR-EV-0039 live attempt01 extension
+## SOR-EV-0039 live attempt 01 extension
 
 [Controlled result](experiments/native-oracle/live-attempt-01.md) records explicit
-user approval, final04 deployed/runtime pins, PID30640/creation FILETIME and
+user approval, final04 deployed/runtime pins, PID 30640/creation FILETIME and
 relocated addresses. Native/center/grid files are empty; operator marks and SFSE
 logs are primary operational evidence, not native object identity. STOP response
 and postflight establish scoped retirement/cleanup, not hot restoration or
 algorithm validation. No raw input was incorporated. Protected Save25/26/archive/
-observer0.1.1/frozen23 and source pins remain unchanged; all local failures/unknowns
+observer 0.1.1/frozen 23 and source pins remain unchanged; all local failures/unknowns
 retained. Review patches distinguish this delta from earlier Phase A work.
 
 ## SOR-EXP-0031 / SOR-EV-0039 — Native oracle engineering
@@ -32,16 +32,16 @@ SFSE, source/toolchain/build/package and protected-input pins. Selected primary
 LOCAL-ONLY payloads. Original source-informed observer/relay/fixture/inspector
 uses approved existing SFSE header and project utilities, no new dependency.
 Disposable ABI/transport tests are engineering evidence, not a native semantic
-finding. Baseline483 files, index/HEAD and protected Save25/26/archive/frozen23/
-observer0.1.1 hashes are rechecked by the local package receipt. Failed iterations
+finding. Baseline 483 files, index/HEAD and protected Save25/26/archive/frozen 23/
+observer 0.1.1 hashes are rechecked by the local package receipt. Failed iterations
 and preliminary rework remain retained. No raw input incorporated, publication
 clearance, live execution, deployment, stage, commit or push.
 
 ## SOR-EXP-0028 / SOR-EV-0036 — Final thread-control failure analysis
 
 2026-10-11. [Completed outcome B](experiments/event-latency/thread-control-final-report.md)
-retains original0.1.2/0.1.3/0.1.4 source/packages/receipts unchanged. Original
-project-authored diagnostic transforms derive from the pinned0.1.4 source and
+retains original 0.1.2/0.1.3/0.1.4 source/packages/receipts unchanged. Original
+project-authored diagnostic transforms derive from the pinned 0.1.4 source and
 fixtures, retaining SOR-S-0132/SOR-P-0002 provenance. Experimental executables have
 distinct hashes, remain ignored, and are not candidates despite inherited event
 format labels. Installed MSVC/SDK/Python/Windows APIs only, SOR-S-0139 primary
@@ -54,8 +54,8 @@ No game process access, external disclosure or new scientific semantics promoted
 
 2026-10-11. Existing uncommitted EXP0025 work is byte-preserved in the ignored
 baseline and prior patches. [New review](experiments/event-latency/review.md)
-distinguishes task delta from the cumulative HEAD patch. Original0.1.2 six-control
-baseline, timing-only derivative and0.1.3 have separate source/compiler/target/
+distinguishes task delta from the cumulative HEAD patch. Original 0.1.2 six-control
+baseline, timing-only derivative and 0.1.3 have separate source/compiler/target/
 evidence hashes. Collector adaptation is attributed; shared helpers unchanged.
 SOR-S-0137 is documentation consultation, not copied code. Protected-input and
 baseline checks, retired/failed pilots and raw exclusions are explicit. No live
@@ -67,20 +67,20 @@ game, save/config/database edits, scientific promotion or publication.
 Original scoped debugger/fixtures/inspector and documentation remain uncommitted.
 [Review](experiments/event-instrumentation/review.md) records actual candidate
 hashes, source snapshots, toolchain/OS inputs, independent 32-byte PE guards,
-before/after20-file native/database/frozen receipts and25-checkpoint/14,645-section
+before/after 20-file native/database/frozen receipts and 25-checkpoint/14,645-section
 preservation audits including four protected Save25/26 original/archive paths.
 No Starfield invocation, new game build baseline, database edit or scientific
 equivalence. Failed disposable runs remain local with their diagnostics/hashes;
 application-error report and owned-fixture cleanup are disclosed. Historical
-observer0.1.1/version/ZIP/evidence and frozen predictions/protocol unchanged.
+observer 0.1.1/version/ZIP/evidence and frozen predictions/protocol unchanged.
 Sources/rights in [SOR-S-0136 and existing source entries](SOURCES.md).
 
 ## SOR-EXP-0024 / SOR-EV-0032 — Offline oracle continuation
 
-2026-10-11, starting HEADdda84e2af385cae8d7f24563aed6c8554dd75076;
+2026-10-11, starting HEAD dda84e2af385cae8d7f24563aed6c8554dd75076;
 only supplied brief initially untracked. [Review/preservation](experiments/event-oracle/review.md)
-records read-only Ghidra exports,20-file before/after native/database/frozen
-snapshots,25 checkpoints/14,645 raw sections and four protected original/archive
+records read-only Ghidra exports, 20-file before/after native/database/frozen
+snapshots, 25 checkpoints/14,645 raw sections and four protected original/archive
 save paths reverified. Private/raw/native evidence stays ignored. No new live
 baseline. Original stdlib audit and local receipt helpers write exclusive ignored
 outputs. Sibling revision/file hashes and Nexus/Steam consultation retain
@@ -88,12 +88,12 @@ SOR-S-0132/0134/0135 provenance. Authored work REVIEW-REQUIRED; no database,
 target, config or save change, outside implementation reuse, contact, staging,
 commit, push, publication or automatic finding integration.
 
-## EXP0023 / EV0031 Phase1 live provenance
+## EXP0023 / EV0031 Phase 1 live provenance
 
 [Results](experiments/engine-oracle/Phase1-results.md) and
 [operator ledger](experiments/engine-oracle/Phase1-live-session.md) retain the
-approved0.1.1/fresh-session identity, exact16-condition sequence and cleanup.
-All9,412 raw sections reverified offline; four protected Save25/26 original/archive
+approved 0.1.1/fresh-session identity, exact 16-condition sequence and cleanup.
+All 9,412 raw sections reverified offline; four protected Save25/26 original/archive
 hashes and frozen inputs/predictions unchanged. Local receipts retain paths,
 timestamps, instrument/source/process metadata, Workshop IDs, incidental exit-save
 turnover and corrected audit assumptions. No pointer identity substitutes for a
@@ -101,39 +101,39 @@ Workshop join; no publication clearance. Raw/private metadata LOCAL-ONLY, select
 authored table/reports REVIEW-REQUIRED. Existing SOR-S-0113/0132 sources/tooling;
 no new dependency, third-party reuse, staging, commit or push.
 
-## EXP0022 actual0.1.1 deployment provenance
+## EXP0022 actual 0.1.1 deployment provenance
 
 [Installed preflight](audits/observer-011-post-deployment-preflight.md) identifies
 the exact approved engine-oracle-011-02 ZIP, PE-exported version, packaged/config
 hashes and all five installed/staged members. Historical build authority
 `OFFLINE_NOT_DEPLOYED` is preserved as build-time provenance; user deployment
-and smoke-session0.1.1 READY/SFSE log now corroborate actual loading.
+and smoke-session 0.1.1 READY/SFSE log now corroborate actual loading.
 Profile display name and gameplay remain user-reported. No scientific checkpoint
 data in that smoke session; no native-equivalence promotion. Current installed
-identities, Save25/26 original/archive hashes and5298-file preservation are retained
+identities, Save25/26 original/archive hashes and 5298-file preservation are retained
 in the local receipt; no package/config rebuild or mutation.
 
 ## EXP0021 oracle/model provenance extension
 
 [Review receipts](experiments/engine-oracle/review.md) pin the original executable
 hash, selected saved extraction/prediction files, sibling default-branch commits,
-fresh read-only Ghidra exports, observer0.1.1 build/package and disposable-only
-debugger fixture. Version0.1.0 natural-output adapter is a separate component from
-observer0.1.1 and historical native-save tools. No runtime Starfield oracle data
+fresh read-only Ghidra exports, observer 0.1.1 build/package and disposable-only
+debugger fixture. Version 0.1.0 natural-output adapter is a separate component from
+observer 0.1.1 and historical native-save tools. No runtime Starfield oracle data
 exists for this extension. Protected inputs and nine prior observer captures are
 rehashed; numerical model agreement is not upgraded to native equivalence.
 
 ## SOR-EV-0028 — Activated-overlay continuous-coordinate static exhaustion
 
-2026-10-10 [EXP0020 report](experiments/activated-overlay-static-exhaustion.md) / [review package](experiments/static-exhaustion/README.md). HEAD7fb9a50f49be58d6cf117d47ae04f03b1d3153af; EXP0019 tracked/new work snapshotted as continuation base, not treated as unrelated changes to overwrite. Protected41-file baseline before continuation exports. Fresh23-save/128-prefix and5265-file observer verification; scoped six-save unit3 descriptor/direct PNDT audit, five selected unit6 world-component runs and25-beacon frame comparison. Existing Ghidra -readOnly -noanalysis exports retain failures/retries and exact source/log hashes in local receipts; selected authored locators only in Git. All address/ID/wire domains and decoding limitations documented. No new acquisition, dependencies, third-party incorporation or target mutation. Raw LOCAL-ONLY, authored REVIEW-REQUIRED; final checks and complete/task-only diffs are local review artifacts.
+2026-10-10 [EXP0020 report](experiments/activated-overlay-static-exhaustion.md) / [review package](experiments/static-exhaustion/README.md). HEAD 7fb9a50f49be58d6cf117d47ae04f03b1d3153af; EXP0019 tracked/new work snapshotted as continuation base, not treated as unrelated changes to overwrite. Protected 41-file baseline before continuation exports. Fresh 23-save/128-prefix and 5265-file observer verification; scoped six-save unit 3 descriptor/direct PNDT audit, five selected unit 6 world-component runs and 25-beacon frame comparison. Existing Ghidra -readOnly -noanalysis exports retain failures/retries and exact source/log hashes in local receipts; selected authored locators only in Git. All address/ID/wire domains and decoding limitations documented. No new acquisition, dependencies, third-party incorporation or target mutation. Raw LOCAL-ONLY, authored REVIEW-REQUIRED; final checks and complete/task-only diffs are local review artifacts.
 
 ## SOR-EV-0027 — Activated overlays and planetary grid geometry
 
-2026-10-10: [report](experiments/activated-overlay-and-grid-geometry.md) / [review package](experiments/activated-grid/README.md). Starting HEAD7fb9a50f49be58d6cf117d47ae04f03b1d3153af; only supplied brief pre-existed untracked. Protected17-file baseline taken before new native exports and matches prior EXP0018 hashes. Twelve existing-state Ghidra readOnly/noanalysis exports; caps and exact function/log identities in native-exports.csv. Fresh23-save/128-prefix receipts,5265 session-file verification, nine active angular pairs, installed1753 SFBK/258 SFPT scan and pinned PE matrix extraction. Local authority `.local-work/activated-grid/`, fresh corpus `.local-work/durable-center/activated-grid-01/`, capture check `.local-work/workshop-origin/activated-grid-01/`, native `.local-work/recon/activated-grid-*`. Source/save hashes, address domains, tool versions and preservation/check limits in report and local verification. No live/target/save/analysis-content mutation or third-party incorporation; authored selections REVIEW-REQUIRED, raw LOCAL-ONLY.
+2026-10-10: [report](experiments/activated-overlay-and-grid-geometry.md) / [review package](experiments/activated-grid/README.md). Starting HEAD 7fb9a50f49be58d6cf117d47ae04f03b1d3153af; only supplied brief pre-existed untracked. Protected 17-file baseline taken before new native exports and matches prior EXP0018 hashes. Twelve existing-state Ghidra readOnly/noanalysis exports; caps and exact function/log identities in native-exports.csv. Fresh 23-save/128-prefix receipts, 5265 session-file verification, nine active angular pairs, installed 1753 SFBK/258 SFPT scan and pinned PE matrix extraction. Local authority `.local-work/activated-grid/`, fresh corpus `.local-work/durable-center/activated-grid-01/`, capture check `.local-work/workshop-origin/activated-grid-01/`, native `.local-work/recon/activated-grid-*`. Source/save hashes, address domains, tool versions and preservation/check limits in report and local verification. No live/target/save/analysis-content mutation or third-party incorporation; authored selections REVIEW-REQUIRED, raw LOCAL-ONLY.
 
 ## SOR-EV-0026 — Durable center, conditional frames and object transforms
 
-2026-10-10: [report](experiments/durable-outpost-center-and-object-transforms.md) / [review package](experiments/durable-center/README.md). Starting HEAD278d901815496a0acce19f1ee39f7c4c194859a9; only supplied brief pre-existed untracked. Fresh23 archive decodes,128 selected prefixes, modern nonempty Workshop resource extension,19 mature zero vectors, seven control pairs and nine existing terrain captures. Local final authority `.local-work/durable-center/final-06/`, audit `audit-02/`, fresh original session/hash/save verification `.local-work/workshop-origin/durable-verify-01/`; original manifests and raw exports remain local. Seven new readOnly/noanalysis native exports retain partial-window failure/caps. Protected database baseline followed export01 start; comparison to prior EXP0017 identities is separately recorded. Installed executable/ESM hashes, address domains, script lineage, tools, reproduction and selected numerical derivatives are specified in the report. No game/save/database mutation, code incorporation, staging, commit, push or disclosure. REVIEW-REQUIRED authored summaries; LOCAL-ONLY raw data.
+2026-10-10: [report](experiments/durable-outpost-center-and-object-transforms.md) / [review package](experiments/durable-center/README.md). Starting HEAD 278d901815496a0acce19f1ee39f7c4c194859a9; only supplied brief pre-existed untracked. Fresh 23 archive decodes, 128 selected prefixes, modern nonempty Workshop resource extension, 19 mature zero vectors, seven control pairs and nine existing terrain captures. Local final authority `.local-work/durable-center/final-06/`, audit `audit-02/`, fresh original session/hash/save verification `.local-work/workshop-origin/durable-verify-01/`; original manifests and raw exports remain local. Seven new readOnly/noanalysis native exports retain partial-window failure/caps. Protected database baseline followed export 01 start; comparison to prior EXP0017 identities is separately recorded. Installed executable/ESM hashes, address domains, script lineage, tools, reproduction and selected numerical derivatives are specified in the report. No game/save/database mutation, code incorporation, staging, commit, push or disclosure. REVIEW-REQUIRED authored summaries; LOCAL-ONLY raw data.
 
 ## SOR-EV-0025 — Workshop relocation, saved prefix and bounds
 
@@ -141,7 +141,7 @@ rehashed; numerical model agreement is not upgraded to native equivalence.
 
 ## SOR-EV-0024 — Initial live beacon observer session
 
-[Results](audits/beacon-observer-initial-live-results.md) / [chronology](experiments/beacon-observer/initial-live-session.md), 2026-10-10. Exact approved observer0.1.0/game1.16.244/SFSE0.2.21 and current process/READY identities verified. Nine snapshots contain5,233 hash/length-verified raw sections, raw/session manifest and local finalization receipts under `.local-work/beacon-observer-live-review/initial-01/`; session `session-17596-91165828` remains LOCAL-ONLY. SOR-SAMPLE-0031 Save26 source/archive2,409,024 bytes hash `2b4781e75226f2ff7c6aa47470fb47ff179c1754461aa208c46716d7c3935104`; protected Save25/build/module identities unchanged. Stdlib-only local finalizer reads/copies evidence, never modifies target/save/config; no new external code/tool. Operator gameplay and visual boundary observations distinguished from raw byte arithmetic. Clean STOP/exit, Vortex disabling; publication clearance and semantic promotion remain pending.
+[Results](audits/beacon-observer-initial-live-results.md) / [chronology](experiments/beacon-observer/initial-live-session.md), 2026-10-10. Exact approved observer 0.1.0/game1.16.244/SFSE 0.2.21 and current process/READY identities verified. Nine snapshots contain 5,233 hash/length-verified raw sections, raw/session manifest and local finalization receipts under `.local-work/beacon-observer-live-review/initial-01/`; session `session-17596-91165828` remains LOCAL-ONLY. SOR-SAMPLE-0031 Save26 source/archive 2,409,024 bytes hash `2b4781e75226f2ff7c6aa47470fb47ff179c1754461aa208c46716d7c3935104`; protected Save25/build/module identities unchanged. Stdlib-only local finalizer reads/copies evidence, never modifies target/save/config; no new external code/tool. Operator gameplay and visual boundary observations distinguished from raw byte arithmetic. Clean STOP/exit, Vortex disabling; publication clearance and semantic promotion remain pending.
 
 ## Actual observer deployment preflight — 2026-10-10
 
@@ -153,7 +153,7 @@ rehashed; numerical model agreement is not upgraded to native equivalence.
 
 ## SOR-EV-0021 — Terrain projection / exact-beacon boundary
 
-[SOR-EXP-0015](experiments/exact-beacon-planetary-coordinates.md), 2026-10-09. Fresh SOR-SAMPLE-0030 Save25 copy `.local-work/savegames/two-outpost-anchor/exact-beacon-01/`, source/archive SHA-256 `d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f5`, decoded `0c27c10c1f07d5a480da4f857072cafc17e198b981350e01de2fa6b09f972cfd`. Seven-label extraction/preservation receipts `.local-work/two-outpost-anchor/exact-beacon-01/`; absent S1/S1C/L2C originals disclosed, archives/frozen identities verified. Ghidra12.1.2/JDK21 readOnly/noanalysis [export ledger](experiments/exact-beacon/native-exports.csv). Database baseline taken after first new export started; limits pre/post claim. Numerical receipts/original local helpers `.local-work/exact-beacon/`. CPython3.14.3 stdlib; no new dependency/outside code. Pinned executable/ESM, source/tool IDs and integrity limits in report/[review](experiments/exact-beacon/README.md). Raw/native evidence LOCAL-ONLY, authored25-row matrix REVIEW-REQUIRED; no game/save/config/database edits/upload.
+[SOR-EXP-0015](experiments/exact-beacon-planetary-coordinates.md), 2026-10-09. Fresh SOR-SAMPLE-0030 Save25 copy `.local-work/savegames/two-outpost-anchor/exact-beacon-01/`, source/archive SHA-256 `d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f5`, decoded `0c27c10c1f07d5a480da4f857072cafc17e198b981350e01de2fa6b09f972cfd`. Seven-label extraction/preservation receipts `.local-work/two-outpost-anchor/exact-beacon-01/`; absent S1/S1C/L2C originals disclosed, archives/frozen identities verified. Ghidra 12.1.2/JDK 21 readOnly/noanalysis [export ledger](experiments/exact-beacon/native-exports.csv). Database baseline taken after first new export started; limits pre/post claim. Numerical receipts/original local helpers `.local-work/exact-beacon/`. CPython 3.14.3 stdlib; no new dependency/outside code. Pinned executable/ESM, source/tool IDs and integrity limits in report/[review](experiments/exact-beacon/README.md). Raw/native evidence LOCAL-ONLY, authored 25-row matrix REVIEW-REQUIRED; no game/save/config/database edits/upload.
 
 
 ## SOR-EV-0019 — Planetary surface-anchor provenance
@@ -164,13 +164,13 @@ rehashed; numerical model agreement is not upgraded to native equivalence.
 
 L0C=0023, L1=0024, L1C=0025, L2=0026, L2C=0027, incidental exit=0028. L0 reuses S4C/SOR-SAMPLE-0015, not a new sample. Six new copies and the historical archive match their originals by SHA-256/size before analysis and at final verification. Exact private source/copy locators and filesystem metadata: `.local-work/output-link-L0-L2C/manifest.json`; [selected manifest](experiments/output-link-validation/manifest.csv). New archive `.local-work/savegames/output-link-L0-L2C/`. Original contents/mtime preserved, access-time behavior uncontrolled. Supplied brief's personal filenames remain an unresolved publication review item.
 
-SOR-EXP-0004 / SOR-EV-0010 [report](experiments/output-link-validation-L0-L2C.md): reported reload between L0/L0C, then unlink/no-action/relink/no-action; no runtime observation by this task. All decoded headers report 1.16.244.0, not a measured originating executable/profile. Installed CPython3.14.3/zlib1.3.1.zlib-ng (SOR-S-0113); unchanged project decoder/diff reused from repository HEAD `268d4e1dfe67fa1cc5abe522a09bc6fe187d4a78`, exact file hashes in preregistration. New wrappers/probes are project-authored, no third-party parser source. Initial literal-signature failure preserved; exploratory token/framing correspondence recorded separately. Seven verified transforms/154 chunks; selected outputs REVIEW-REQUIRED, raw/bulk derivatives LOCAL-ONLY.
+SOR-EXP-0004 / SOR-EV-0010 [report](experiments/output-link-validation-L0-L2C.md): reported reload between L0/L0C, then unlink/no-action/relink/no-action; no runtime observation by this task. All decoded headers report 1.16.244.0, not a measured originating executable/profile. Installed CPython 3.14.3/zlib1.3.1.zlib-ng (SOR-S-0113); unchanged project decoder/diff reused from repository HEAD `268d4e1dfe67fa1cc5abe522a09bc6fe187d4a78`, exact file hashes in preregistration. New wrappers/probes are project-authored, no third-party parser source. Initial literal-signature failure preserved; exploratory token/framing correspondence recorded separately. Seven verified transforms/154 chunks; selected outputs REVIEW-REQUIRED, raw/bulk derivatives LOCAL-ONLY.
 
 ## SOR-SAMPLE-0006–0022 — Manual S0–S7C corpus, 2026-10-07
 
 Sequential assignment: S0=0006, S0C=0007, S1=0008, S1C=0009, S2=0010, S2C=0011, S3=0012, S3C=0013, S4=0014, S4C=0015, S5=0016, S5C=0017, S6=0018, S6C=0019, S7=0020, S7C=0021, incidental exit=0022. User supplied exact filenames/actions and authorized copying plus offline analysis. All source/copy/source SHA-256 checks passed. [Selected manifest](experiments/manual-save-corpus/manifest.csv) retains sizes, times and original/decoded hashes; exact private locators are in ignored `.local-work/manual-S0-S7C/manifest.json`. Source files untouched; prior local copies preserved; fresh archive `.local-work/savegames/manual-S0-S7C/`.
 
-SOR-EV-0009 / [experiment](experiments/manual-save-corpus-S0-S7C.md) records a single continuous session, nearly stationary actor, S5 actor movement, non-atomic S3 construction, uncertain S3/S3C combat and S7 cleanup confounds. Decoded version strings report 1.16.244.0; originating executable hash and actual loaded module profile were not independently acquired for this corpus. CPython3.14.3 with installed standard-library zlib runtime1.3.1.zlib-ng, SOR-S-0113; exact tool/script/transform hashes and chunk metadata local. Raw/decoded data LOCAL-ONLY, authored summaries REVIEW-REQUIRED. This sample set does not inherit old protected-parent semantics or establish reload behavior.
+SOR-EV-0009 / [experiment](experiments/manual-save-corpus-S0-S7C.md) records a single continuous session, nearly stationary actor, S5 actor movement, non-atomic S3 construction, uncertain S3/S3C combat and S7 cleanup confounds. Decoded version strings report 1.16.244.0; originating executable hash and actual loaded module profile were not independently acquired for this corpus. CPython 3.14.3 with installed standard-library zlib runtime 1.3.1.zlib-ng, SOR-S-0113; exact tool/script/transform hashes and chunk metadata local. Raw/decoded data LOCAL-ONLY, authored summaries REVIEW-REQUIRED. This sample set does not inherit old protected-parent semantics or establish reload behavior.
 
 ## Scaffold provenance
 
@@ -250,11 +250,11 @@ Installed CPython 3.14.3 and standard library ran original offline metadata/hash
 
 ## SOR-ENV-0003 — EXP0002A mapping and debugger setup, 2026-10-07
 
-Seven installed/pinned game/CK/SFSE/archive identities and protected Save3 original/backup match the historical baseline. Starfield1.16.244.0 SHA-256 remains `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`. Ghidra12.1.2 read-only/noanalysis exports; existing Starfield project15-file preservation checked separately. No CK database accessed. CPython3.14.3 and installed MSVC/Windows SDK built/executed the original synthetic fixture; no new package/dependency installation.
+Seven installed/pinned game/CK/SFSE/archive identities and protected Save3 original/backup match the historical baseline. Starfield 1.16.244.0 SHA-256 remains `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`. Ghidra 12.1.2 read-only/noanalysis exports; existing Starfield project 15-file preservation checked separately. No CK database accessed. CPython 3.14.3 and installed MSVC/Windows SDK built/executed the original synthetic fixture; no new package/dependency installation.
 
 Installed x64dbg headless source revision label `9c8ca1cae0b6d56cc44f31fddcb10e3b02ffbb87`; headless.exe SHA-256 `44ece2d8f81c1acbf4c85b45fe89e11875f0e1a0d2ba0c8c8c1a56bf85164268`, x64dbg.dll `dc9d5ff18d6e5fc9d667a2c2bc8fa9cce15fa5e0da9728222259a4525d542c0f`, x64bridge.dll `39730aea3509e275bc2d69d8d27f22695821b7caffa30943fa0dcf36f9f558cd`. This is installed-tool identity, not source/binary reproducibility. No debugger plugin autoload found. Each run uses isolated settings and local databases.
 
-User ready at ordinary New Save after requested SFSE-profile/parent workflow. Live PID20804; observed image base `0x00007ff60a5b0000` in manual-002. No SFSE research observer deployed; plugin directory contained only Vortex's folder marker. Actual loaded SFSE module and four32-byte code sites were checked in manual-002. Restricted attach failed; elevated-context attempts attached, then detached. Default TLS breakpoint side effects and subsequent no-pause failure are retained, not successful save traces. Final live status/parent preservation and local hashes: [SOR-EV-0005](experiments/evidence/exp0002a-static/README.md), [report](experiments/SOR-EXP-0002A-native-save-thread-mapping.md). No live save-call ABI/thread or safe query context established.
+User ready at ordinary New Save after requested SFSE-profile/parent workflow. Live PID 20804; observed image base `0x00007ff60a5b0000` in manual-002. No SFSE research observer deployed; plugin directory contained only Vortex's folder marker. Actual loaded SFSE module and four 32-byte code sites were checked in manual-002. Restricted attach failed; elevated-context attempts attached, then detached. Default TLS breakpoint side effects and subsequent no-pause failure are retained, not successful save traces. Final live status/parent preservation and local hashes: [SOR-EV-0005](experiments/evidence/exp0002a-static/README.md), [report](experiments/SOR-EXP-0002A-native-save-thread-mapping.md). No live save-call ABI/thread or safe query context established.
 
 ## SOR-SAMPLE-0001 — Immutable pre-outpost parent
 
@@ -266,21 +266,21 @@ Planet/body Kreet, outpost none, buildable-site position and inventory are USER-
 
 SOR-D-0011 corrects the premature initial stop. Original observer and diagnostic were built offline using installed VS 2026 Community 18.9.0, MSVC 14.51.36231 (compiler 19.51.36256), Windows SDK 10.0.26100.0 and CPython 3.14.3. Exact compiler/linker/source/DLL/EXE/package hashes and build logs remain in the ignored review build manifest. SFSE PluginAPI.h is the one approved MIT incorporation (SOR-P-0001); SFSE runtime external, no CommonLib/Address Library linking, sibling code copying or download. Additional read-only Ghidra exports independently checked callback/transform/cell operands; the earlier coordinate-only scope description is historical. Final 77-file project comparison and parent/build rechecks are in SOR-EV-0002. Runtime module base/profile/ABI still UNKNOWN. Native test DLL loaded only in its synthetic test process, never Starfield.
 
-### SOR-ENV-0002 live extension — review14 primary controls
+### SOR-ENV-0002 live extension — review 14 primary controls
 
-2026-10-06, SOR-D-0013 / SOR-EV-0004. The review14 DLL and configuration were independently matched to the approved ZIP after user-managed Vortex deployment. Protected parents, pinned game/SFSE and package/source identities passed preflight. Vortex profile Starfield - SFSE and SFSE-only additional mod are USER-REPORTED; file/config snapshots and 61-entry startup module snapshot are local evidence, not resolved runtime winning-definition proof. Loaded game base observed as 0x00007ff62bcf0000, observer hash `9a1636adacdcd0967e7873fcdbc161fed04876d3c368f9e37735f707e9e191ed`. A0/A0C capture IDs and SFSE logs show differing task execution threads; native query safety remains unqualified. No debugger attached.
+2026-10-06, SOR-D-0013 / SOR-EV-0004. The review 14 DLL and configuration were independently matched to the approved ZIP after user-managed Vortex deployment. Protected parents, pinned game/SFSE and package/source identities passed preflight. Vortex profile Starfield - SFSE and SFSE-only additional mod are USER-REPORTED; file/config snapshots and 61-entry startup module snapshot are local evidence, not resolved runtime winning-definition proof. Loaded game base observed as 0x00007ff62bcf0000, observer hash `9a1636adacdcd0967e7873fcdbc161fed04876d3c368f9e37735f707e9e191ed`. A0/A0C capture IDs and SFSE logs show differing task execution threads; native query safety remains unqualified. No debugger attached.
 
 ### SOR-SAMPLE-0002 / SOR-SAMPLE-0003 — A0 and A0C controls
 
-Owner-operated ordinary new manual saves during the review14 attempt. Logical aliases SOR-SAMPLE-EXP0002-A0 and SOR-SAMPLE-EXP0002-A0C. Parent lineage: immutable SOR-SAMPLE-0001 to A0, then no-deliberate-action A0C. User confirms Kreet, no construction and settled controls; captured raw player/cell/world values match within the non-atomic views. Raw saves are LOCAL-ONLY; no format/semantic analysis. A0: 2,082,992 bytes, SHA-256 `7d25e02cc0ac4bc81ab7d966a73c84ade0c6c795d154aa625d85b0aaf259fa66`. A0C: 2,066,048 bytes, SHA-256 `875f2e8460d3e5adfdfc15de860a57b991139195905ffff461c43fdf59409d0c`. Exact private filenames/timestamps and source/copy/source hash checks are in local post-exit.json; A0C/exit-save correlation and its initial ambiguity are retained. No save patched or overwritten by the researcher; protected parent/backup unchanged. See [run record](experiments/EXP0002-review14-run.md).
+Owner-operated ordinary new manual saves during the review 14 attempt. Logical aliases SOR-SAMPLE-EXP0002-A0 and SOR-SAMPLE-EXP0002-A0C. Parent lineage: immutable SOR-SAMPLE-0001 to A0, then no-deliberate-action A0C. User confirms Kreet, no construction and settled controls; captured raw player/cell/world values match within the non-atomic views. Raw saves are LOCAL-ONLY; no format/semantic analysis. A0: 2,082,992 bytes, SHA-256 `7d25e02cc0ac4bc81ab7d966a73c84ade0c6c795d154aa625d85b0aaf259fa66`. A0C: 2,066,048 bytes, SHA-256 `875f2e8460d3e5adfdfc15de860a57b991139195905ffff461c43fdf59409d0c`. Exact private filenames/timestamps and source/copy/source hash checks are in local post-exit.json; A0C/exit-save correlation and its initial ambiguity are retained. No save patched or overwritten by the researcher; protected parent/backup unchanged. See [run record](experiments/EXP0002-review14-run.md).
 
 ### EXP0002A disposable adapter qualification
 
 SOR-D-0016 / SOR-S-0122: four fresh disposable attachments, no game/save access. Installed MSVC/SDK built the original fixture and maintainer-core adapter; source/binary hashes, command logs, raw JSONL and failed source snapshot remain under .local-work/exp0002a-adapter. [Audit](audits/exp0002a-adapter-qualification.md) distinguishes the handle-ownership failure, subsequent passing existing-thread/timeout controls, and failed new-thread retirement/health. No engine confidence upgrade or Stage-C authorization. Raw evidence/binaries remain local-only; authored summaries and code remain review-required.
 
-### EXP0002A adapter0.1.1 qualification and prior-process closure
+### EXP0002A adapter 0.1.1 qualification and prior-process closure
 
-SOR-D-0017: USER-REPORTED manual termination of failed0.1.0 disposable PID16100 after review; no agent cleanup action or process lookup for that PID. The old evidence/source/build receipts remain byte-preserved and the dynamic-new-thread failure remains failed. New0.1.1 evidence lives separately under .local-work/exp0002a-adapter-0.1.1. Three focused controls passed: fixed-population capture, unarmed-new-thread NO_HIT, and explicit disposable-only post-flush retirement-fault recovery. Native data completeness, cleanup and target outcome are separate fields. [Identity, exact hashes, limitations and review](audits/exp0002a-adapter-0.1.1.md). No new engine finding or game/save access.
+SOR-D-0017: USER-REPORTED manual termination of failed 0.1.0 disposable PID 16100 after review; no agent cleanup action or process lookup for that PID. The old evidence/source/build receipts remain byte-preserved and the dynamic-new-thread failure remains failed. New 0.1.1 evidence lives separately under .local-work/exp0002a-adapter-0.1.1. Three focused controls passed: fixed-population capture, unarmed-new-thread NO_HIT, and explicit disposable-only post-flush retirement-fault recovery. Native data completeness, cleanup and target outcome are separate fields. [Identity, exact hashes, limitations and review](audits/exp0002a-adapter-0.1.1.md). No new engine finding or game/save access.
 
 ### SOR-SAMPLE-0004 — S0 no-debugger control
 
@@ -288,7 +288,7 @@ SOR-D-0017: USER-REPORTED manual termination of failed0.1.0 disposable PID16100 
 
 ### SOR-SAMPLE-0005 — S1 debugger-only save control
 
-PROJECT-VERIFIED RUNTIME S1 pass: new Save7 created during the active no-DR0 window; user returned to gameplay, confirmed delayed responsiveness, normal exit and completed sync. Archived2,079,808 bytes, SHA-25619b88ea38a1e13893b2dda53d0eb07a13288c161b864e0f1408a9e022adec6c6, filesystem last-write2026-10-07T04:27:58.404317Z. Exact paths/incidental exit save and source/copy/source receipts stay local in s1-live-01/outcome.json. S2 produced no newly visible save and no native request contract. [Control audit](audits/exp0002a-adapter-0.1.3.md).
+PROJECT-VERIFIED RUNTIME S1 pass: new Save7 created during the active no-DR0 window; user returned to gameplay, confirmed delayed responsiveness, normal exit and completed sync. Archived 2,079,808 bytes, SHA-256 19b88ea38a1e13893b2dda53d0eb07a13288c161b864e0f1408a9e022adec6c6, filesystem last-write 2026-10-07T04:27:58.404317Z. Exact paths/incidental exit save and source/copy/source receipts stay local in s1-live-01/outcome.json. S2 produced no newly visible save and no native request contract. [Control audit](audits/exp0002a-adapter-0.1.3.md).
 
 ## SOR-EXP-0005 / SOR-EV-0011 — Offline structural containment, 2026-10-08
 
@@ -339,14 +339,14 @@ Private root `.local-work/third-party/the-daily-xperience-1798/`: unchanged extr
 review. The checker imports the unchanged project-owned bounded process reader;
 it uses only installed CPython/PowerShell/Windows facilities, no third-party
 binding or downloaded dependency. SOR-S-0112 local SFSE documentation consultation
-is credited at use. Approved0.1.3 source/tool/ZIP and preserved0.1.2 artifacts are
+is credited at use. Approved 0.1.3 source/tool/ZIP and preserved 0.1.2 artifacts are
 not replaced. Only offline input-integrity mode was run; no game process opened,
 launched or attached. No saves/config/analysis databases or repository index edited.
 
 ## Adapter startup diagnosis — SOR-D-0047 / EXP0027 / EV0035
 
 2026-10-11: [investigation/review](experiments/event-latency/startup-review.md)
-preserves pinned approved0.1.3,0.1.2 baselines and all original incident receipts.
+preserves pinned approved 0.1.3,0.1.2 baselines and all original incident receipts.
 Original adapter startup/error handling and qualification harness are narrowly
 adapted from the starting uncommitted tree; new disposable permission/startup
 controls are original stdlib/OS-API work. Collector, writer, profiler, inspector,
@@ -354,7 +354,7 @@ materializer, fixture source and shared observers/readers remain unchanged.
 SOR-S-0138 documents Microsoft consultation/installed separate-tool execution,
 not implementation reuse. No game memory access, system security/config change,
 new dependency, save/database edit, staging, commit, push or disclosure. Raw dumps/
-WALs remain local and excluded. Candidate0.1.4 does not imply live readiness.
+WALs remain local and excluded. Candidate 0.1.4 does not imply live readiness.
 ## SOR-EXP-0029 / SOR-EV-0037 — Extractor/resource association
 
 2026-10-11. [Report](experiments/extractor-resource-association.md) and
@@ -370,23 +370,23 @@ No raw payload publication, original save/config/database edits or live executio
 
 ## SOR-EV-0038 — Durable position resumption
 
-2026-10-11. [Report](experiments/durable-position-resumption.md), [primary native export identities](experiments/position-resumption/native-sources.csv) and [review](experiments/position-resumption/review.md). Retail1.16.244.0 executable remains SHA2567e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28, static base140000000; installed ESM remains1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7. Original source/model/reader/observer/frozen outputs preserved. Fresh23-save decode and raw Phase1 before/after hashes remain local; selected authored numerical tables REVIEW-REQUIRED. Specialist new readOnly/noanalysis exports preserve17 DB/reader files; failed PowerShell selector invocation retained beside successful quoted retry. No source raw native text, memory, saves or binaries incorporated.
+2026-10-11. [Report](experiments/durable-position-resumption.md), [primary native export identities](experiments/position-resumption/native-sources.csv) and [review](experiments/position-resumption/review.md). Retail 1.16.244.0 executable remains SHA256 7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28, static base 140000000; installed ESM remains 1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7. Original source/model/reader/observer/frozen outputs preserved. Fresh 23-save decode and raw Phase 1 before/after hashes remain local; selected authored numerical tables REVIEW-REQUIRED. Specialist new readOnly/noanalysis exports preserve 17 DB/reader files; failed PowerShell selector invocation retained beside successful quoted retry. No source raw native text, memory, saves or binaries incorporated.
 
 ### Fallback-grid provenance and workflow correction — 2026-10-12
 
-[Report](experiments/fallback-grid-provenance.md) and [source ledger](experiments/fallback-grid/sources.csv) preserve0.4.0 raw/session/original-inspector identities and23 frozen predictions. New audit composes project route/lifetime readers. Original identity probe reads38 installed ESMs and four pinned saves, checks source identities before/after and writes exclusive ignored derivatives. Two Ghidra readOnly/noanalysis exports have complete DB-file before/after equality in `.local-work/fallback-grid-specialist/`; the initial execution-policy failure preceded Java and is retained. No analysis-content changes, plugin edits, live activity, new dependency or disclosure. Identity source originated in the authorized specialist original `identity_probe_v2.py`, promoted with LF normalization and a saved-ID namespace correction to `research/existing-reference-grid/identity_provenance.py`; originals/hashes retained. The original14-static-owner interpretation and eight false dynamic-to-static joins are explicitly INVALID_DOMAIN_JOIN; corrected receipts preserve six static/eight dynamic owners, conditional prefix limits and the four-save Frontier XY counterexample. Raw/export/save material LOCAL-ONLY; authored interpretations REVIEW-REQUIRED.
+[Report](experiments/fallback-grid-provenance.md) and [source ledger](experiments/fallback-grid/sources.csv) preserve 0.4.0 raw/session/original-inspector identities and 23 frozen predictions. New audit composes project route/lifetime readers. Original identity probe reads 38 installed ESMs and four pinned saves, checks source identities before/after and writes exclusive ignored derivatives. Two Ghidra readOnly/noanalysis exports have complete DB-file before/after equality in `.local-work/fallback-grid-specialist/`; the initial execution-policy failure preceded Java and is retained. No analysis-content changes, plugin edits, live activity, new dependency or disclosure. Identity source originated in the authorized specialist original `identity_probe_v2.py`, promoted with LF normalization and a saved-ID namespace correction to `research/existing-reference-grid/identity_provenance.py`; originals/hashes retained. The original 14-static-owner interpretation and eight false dynamic-to-static joins are explicitly INVALID_DOMAIN_JOIN; corrected receipts preserve six static/eight dynamic owners, conditional prefix limits and the four-save Frontier XY counterexample. Raw/export/save material LOCAL-ONLY; authored interpretations REVIEW-REQUIRED.
 
-### SOR-EXP-0031 / SOR-EV-0039 — integrated observer0.5.0
+### SOR-EXP-0031 / SOR-EV-0039 — integrated observer 0.5.0
 
-2026-10-13. [Report/qualification](experiments/ship-relocation-050/report.md), [source ledger](experiments/ship-relocation-050/sources.csv) and local .local-work/ship-relocation-050/baseline.json preserve starting HEAD/index, unchanged supplied brief,6241 protected paths, controlled active/archive saves,040/older observers/raw/frozen23 and exact source lineage. New050 is a separate owned derivative; no historical raw/result edits. Installed PE reads verify19 complete CALLs and target/guard windows; relocated callback slots validated separately. Original production-worker fixtures use private guard copies as data only. Final qualification03 preserves all failed interim attempts and exact tool/DLL/ZIP/runtime hashes. Screenshot metadata is human-supplied visual context; character name is maintainer testimony, not binary parsing. No game/deployment/save/Git mutation, dependency download, database edit or external disclosure. Whole package remains REVIEW-REQUIRED; binaries/raw local and excluded.
+2026-10-13. [Report/qualification](experiments/ship-relocation-050/report.md), [source ledger](experiments/ship-relocation-050/sources.csv) and local .local-work/ship-relocation-050/baseline.json preserve starting HEAD/index, unchanged supplied brief, 6241 protected paths, controlled active/archive saves, 040/older observers/raw/frozen 23 and exact source lineage. New 050 is a separate owned derivative; no historical raw/result edits. Installed PE reads verify 19 complete CALLs and target/guard windows; relocated callback slots validated separately. Original production-worker fixtures use private guard copies as data only. Final qualification 03 preserves all failed interim attempts and exact tool/DLL/ZIP/runtime hashes. Screenshot metadata is human-supplied visual context; character name is maintainer testimony, not binary parsing. No game/deployment/save/Git mutation, dependency download, database edit or external disclosure. Whole package remains REVIEW-REQUIRED; binaries/raw local and excluded.
 
-### SOR-EXP-0031 / SOR-EV-0039 — approved050 live attempt01 scientific completion
+### SOR-EXP-0031 / SOR-EV-0039 — approved 050 live attempt 01 scientific completion
 
-2026-10-13. The maintainer approved the exact plugin/run card and deployed via Vortex, then performed the bounded Save25 local control, one new Kreet landing and return. [Scientific report](experiments/ship-relocation-050/live-attempt-01.md), [source hashes](experiments/ship-relocation-050/live-attempt-01-sources.csv) and [review package](experiments/ship-relocation-050/live-attempt-01-review.md) preserve60 sealed original files,1194 records, no-loss retirement and postflight6291 checks. Seal SHA256 e73dbe60db556b3654831a966aababe7026fc098e158674ea556cc97e02d16a3. Forty ordinary grids are20 repeats each of two geometries, not40 independent holdouts. Conditional native/frozen comparisons preserve the XYZ/frame counterexample; no predictions or raw samples changed. New scientific audit reads existing project sources/frozen/capture files and writes exclusive ignored derivatives plus selected authored numeric CSV. The missed scientific-report delivery and corrected40-scope legacy diagnostic explanation remain explicit; raw sealed postflight unchanged. Source/build/HEAD/index preserved, no additional target/deployment/save/database/Git/network action.
+2026-10-13. The maintainer approved the exact plugin/run card and deployed via Vortex, then performed the bounded Save25 local control, one new Kreet landing and return. [Scientific report](experiments/ship-relocation-050/live-attempt-01.md), [source hashes](experiments/ship-relocation-050/live-attempt-01-sources.csv) and [review package](experiments/ship-relocation-050/live-attempt-01-review.md) preserve 60 sealed original files, 1194 records, no-loss retirement and postflight 6291 checks. Seal SHA256 e73dbe60db556b3654831a966aababe7026fc098e158674ea556cc97e02d16a3. Forty ordinary grids are 20 repeats each of two geometries, not 40 independent holdouts. Conditional native/frozen comparisons preserve the XYZ/frame counterexample; no predictions or raw samples changed. New scientific audit reads existing project sources/frozen/capture files and writes exclusive ignored derivatives plus selected authored numeric CSV. The missed scientific-report delivery and corrected 40-scope legacy diagnostic explanation remain explicit; raw sealed postflight unchanged. Source/build/HEAD/index preserved, no additional target/deployment/save/database/Git/network action.
 
-### SOR-EXP-0031 / SOR-EV-0039 — existing050 capture Z/frame follow-up
+### SOR-EXP-0031 / SOR-EV-0039 — existing 050 capture Z/frame follow-up
 
-2026-10-13. [Authorized bounded follow-up](implementation-briefs/CODEX_BRIEF_SOR_observer050_existing_capture_z_frame_followup.md), [report](experiments/ship-relocation-050/z-frame-followup.md), [cases/source hashes](experiments/ship-relocation-050/z-frame-followup-sources.csv) and [review](experiments/ship-relocation-050/z-frame-followup-review.md) retain the original60-file seal, approved41 source pins, executable/build and frozen outputs. All40 cases/11,375 successful blob extents audited. Eight retained native exports match prior source ledgers. Original failed source/local-copy pointer equality assertion retained in audit01; corrected audit02 preserves distinct addresses and compares actual copied bytes. No original/capture/frozen/plugin source, save/database/config or Git/network mutation. Recovered query source frame is explicitly distinct from callback own-parent/restoration; missing typed3D operands remain unresolved.
+2026-10-13. [Authorized bounded follow-up](implementation-briefs/CODEX_BRIEF_SOR_observer050_existing_capture_z_frame_followup.md), [report](experiments/ship-relocation-050/z-frame-followup.md), [cases/source hashes](experiments/ship-relocation-050/z-frame-followup-sources.csv) and [review](experiments/ship-relocation-050/z-frame-followup-review.md) retain the original 60-file seal, approved 41 source pins, executable/build and frozen outputs. All 40 cases/11,375 successful blob extents audited. Eight retained native exports match prior source ledgers. Original failed source/local-copy pointer equality assertion retained in audit 01; corrected audit 02 preserves distinct addresses and compares actual copied bytes. No original/capture/frozen/plugin source, save/database/config or Git/network mutation. Recovered query source frame is explicitly distinct from callback own-parent/restoration; missing typed 3D operands remain unresolved.
 
 ## Durable position consolidation — 2026-10-13
 
@@ -394,8 +394,8 @@ No raw payload publication, original save/config/database edits or live executio
 
 ## Workshop membership and construction roots — 2026-10-14
 
-[SOR-EXP-0032](experiments/workshop-membership/report.md), SOR-EV-0040. [Source ledger](experiments/workshop-membership/sources.csv), qualified27-label manifest and final local reproduction/validation receipts pin archives, current ESM context, native exports, protected database/executable and earlier frozen/sealed evidence. Original project-owned source-informed readers/exporter/tests and completion packaging only; no outside implementation, dependency acquisition or disclosure. Read-only/no-analysis Ghidra exports preserve original state; failed/partial exports and superseded prefix/projection runs are retained. Bulk instance/raw/native data remain ignored LOCAL-ONLY; authored summaries/code REVIEW-REQUIRED. Historical original gameplay source locations unavailable for fresh hash checks are disclosed separately from unchanged research archives. HEAD/index and supplied brief preserved, no stage/commit/push.
+[SOR-EXP-0032](experiments/workshop-membership/report.md), SOR-EV-0040. [Source ledger](experiments/workshop-membership/sources.csv), qualified 27-label manifest and final local reproduction/validation receipts pin archives, current ESM context, native exports, protected database/executable and earlier frozen/sealed evidence. Original project-owned source-informed readers/exporter/tests and completion packaging only; no outside implementation, dependency acquisition or disclosure. Read-only/no-analysis Ghidra exports preserve original state; failed/partial exports and superseded prefix/projection runs are retained. Bulk instance/raw/native data remain ignored LOCAL-ONLY; authored summaries/code REVIEW-REQUIRED. Historical original gameplay source locations unavailable for fresh hash checks are disclosed separately from unchanged research archives. HEAD/index and supplied brief preserved, no stage/commit/push.
 
 ### EXP0033 population rework — 2026-10-14
 
-[Report](experiments/workshop-population/report.md) preserves prior657 scientific/evidence bytes and source pins; new source/receipt identities and complete/task-only patches use a fresh rework prefix. Native state is read/exported only. Original project reader/exporter adaptations and specialist/reviewer sources are credited in SOR-S-0144, with no new third-party implementation/dependency. Raw/proprietary/private evidence remains local.
+[Report](experiments/workshop-population/report.md) preserves prior 657 scientific/evidence bytes and source pins; new source/receipt identities and complete/task-only patches use a fresh rework prefix. Native state is read/exported only. Original project reader/exporter adaptations and specialist/reviewer sources are credited in SOR-S-0144, with no new third-party implementation/dependency. Raw/proprietary/private evidence remains local.

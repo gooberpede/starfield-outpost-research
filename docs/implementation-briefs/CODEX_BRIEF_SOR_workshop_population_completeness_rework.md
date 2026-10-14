@@ -7,7 +7,7 @@ and retains its offline, preservation, rights, review and no-Git/live boundaries
 
 ## Maintainer's correction and binding acceptance
 
-1. Preserve the657 supported roots and all existing evidence as a validated
+1. Preserve the 657 supported roots and all existing evidence as a validated
    intermediate baseline.
 2. Continue offline investigation of Extra80, default/inherited membership,
    reverse relationships and alternative placed-reference representations.
@@ -43,15 +43,15 @@ Keep old `.local-work/workshop-inventory/`, prior patches and old scientific
 reports intact as evidence. New outputs use `.local-work/workshop-population-rework/`.
 Baseline manifest pins old evidence/protected inputs and copies current authored
 source/docs into a separate local snapshot. Do not overwrite baseline outputs.
-Both C:/D:40,000,000,000-byte guards remain; no arbitrary scientific count/time/
+Both C:/D: 40,000,000,000-byte guards remain; no arbitrary scientific count/time/
 output quota. Stop affected work on actual identity/integrity/resource failure.
 
-Routes: recover exact80 metadata and keyword/target resolution; identify implicit
-bases/template and placement-instance identity; reconstruct native reverse4D
-sources and Workshop handle/resource censuses; analyze omitted9C and historical
+Routes: recover exact 80 metadata and keyword/target resolution; identify implicit
+bases/template and placement-instance identity; reconstruct native reverse 4D
+sources and Workshop handle/resource censuses; analyze omitted 9C and historical
 states; cross-check complete R3, source definitions/templates and controlled
 action/no-action transitions. Search for counterexamples in every relevant class
-and independently compare detections outside the657 baseline. Never use a
+and independently compare detections outside the 657 baseline. Never use a
 category/name/proximity predicate as population authority.
 
 Deliver a downloadable report, explicit original-criterion matrix, additional
@@ -59,7 +59,7 @@ root/candidate and excluded/unknown ledgers, tests and primary receipts, separat
 confidence/coverage/readiness, source credit and complete/task-only patches with
 actual status/manifests/applicability/links/whitespace. Task-only means changes
 since this rework's preserved working-tree baseline; complete means all changes
-since HEAD including prior uncommitted657-root work. Retain every failed route.
+since HEAD including prior uncommitted 657-root work. Retain every failed route.
 
 Use one fresh-context independent reviewer and optionally one specialist,
 maximum two active agents besides primary. Reviewer returns ACCEPT/REWORK/

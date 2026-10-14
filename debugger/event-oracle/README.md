@@ -47,7 +47,7 @@ failure. Source snapshots, compiler diagnostics, native guard receipt, raw
 evidence and independent code-restoration/detach checks stay local. `health_tests`
 tests exact disk boundaries/query failure, writer/reader evidence integrity and
 raw-open failure; inspector tests cover incomplete/corrupt/cross-thread evidence.
-Counts and the1200-second runner wait are finite qualification safety bounds,
+Counts and the 1200-second runner wait are finite qualification safety bounds,
 not acquisition quotas. Twelve local health assertions and eleven Python tests
 include retained WAL prefixes, torn/corrupt/reordered frames and original controls.
 
@@ -97,7 +97,7 @@ suspension, disk guard and other stopped handling. Replay delivery is an upper
 bound including OS/scheduling/one instruction; unrelated wait includes native
 execution. Auxiliary `timing.json` is written after detach, is not scientific
 evidence and need not survive a debugger crash. Timing records grow with debug
-events; allocation failure follows the same rollback path. Original0.1.2 and
+events; allocation failure follows the same rollback path. Original 0.1.2 and
 all six controls are preserved under ignored `.local-work/event-latency/baseline-012/`
 with a full byte/hash manifest and sources/helpers to reproduce in a NEW scratch
 tree; do not rebuild inside that immutable baseline.

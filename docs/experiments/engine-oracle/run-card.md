@@ -33,7 +33,7 @@ travel/loading route, time state and deliberate actions for every label.
    `oracle25-003-closed-after`. Wait for each complete/partial marker before
    another action. Preserve reset/inactive/stale flags instead of discarding them.
 2. User travels to SOR-002 using an agreed route; log loading/frame changes.
-   Repeat closed/open/control/closed-after with unique002 labels. The switch
+   Repeat closed/open/control/closed-after with unique 002 labels. The switch
    tests which outpost supplies the stored center. Travel is a changed condition.
 3. User loads controlled Save26 copy; reacquire all roots and associations after
    settling. Repeat SOR-003 and, if needed for identity control, SOR-002.
@@ -55,9 +55,9 @@ python -B runtime/beacon-observer/request.py '<session>' STOP
 
 ## Complementary trace, only if separately reviewed and authorized
 
-The disposable adapter0.1.0 has **no live mode**. A future live implementation
+The disposable adapter 0.1.0 has **no live mode**. A future live implementation
 must verify executable/module/site bytes, attach only the independently identified
-target, set one post-result INT3 at RVAad0d3b, retain the contract's raw inputs/
+target, set one post-result INT3 at RVA ad0d3b, retain the contract's raw inputs/
 output with thread/time provenance, auto-continue natural hits, and flush each
 record. It must qualify code restoration, independent detach verification,
 zero-hit/partial cleanup and target survival, and provide a tested recovery policy.

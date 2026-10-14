@@ -1,8 +1,8 @@
 # Event-associated instrumentation review — SOR-EXP-0025 / SOR-EV-0033
 
-Historical0.1.2 review preserved. The [latency follow-up](../event-latency/README.md)
+Historical 0.1.2 review preserved. The [latency follow-up](../event-latency/README.md)
 retains this executable/source/all six controls in a hash-pinned local baseline;
-current `debugger/event-oracle/` sources advance to0.1.3. Original receipts/ZIP
+current `debugger/event-oracle/` sources advance to 0.1.3. Original receipts/ZIP
 and the qualification ledger below still describe0.1.2, not the new candidate.
 
 2026-10-11 Australia/Sydney. Implementation/offline qualification under

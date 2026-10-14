@@ -121,7 +121,7 @@ B has a stable 12-byte tuple `5d 62 f5 42 90 a0 8a 43 6e d0 92 41`, float interp
 
 ### Offline comparison with earlier EXP0002 live player coordinates
 
-Documentation/offline-only correction authorized by the user after the first-pass handoff; [correction audit](../audits/manual-corpus-coordinate-correction.md). Authoritative prior source: **SOR-EV-0004**, the [review14 evidence index](evidence/exp0002-review14-live/README.md), with the [run record](EXP0002-review14-run.md#captures-and-controls) as contextual corroboration. The actual archived observer JSON files were read and independently rehashed against the index, not reconstructed from the approximate values in the correction request:
+Documentation/offline-only correction authorized by the user after the first-pass handoff; [correction audit](../audits/manual-corpus-coordinate-correction.md). Authoritative prior source: **SOR-EV-0004**, the [review 14 evidence index](evidence/exp0002-review14-live/README.md), with the [run record](EXP0002-review14-run.md#captures-and-controls) as contextual corroboration. The actual archived observer JSON files were read and independently rehashed against the index, not reconstructed from the approximate values in the correction request:
 
 | Capture | Local path under `.local-work/exp0002-review14-live/` | UTC | SHA-256 |
 |---|---|---|---|

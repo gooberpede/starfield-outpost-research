@@ -70,7 +70,7 @@ reference/PNDT associations, never from names. The Save52 manual network is a
 previously independent identity cross-check, not a positional-formula input.
 
 Within the tested Workshop lifecycle, `C = float32(P + delta)`, componentwise.
-Case-5 saved beacon XYZ `P` and Workshop type0xBC `+0x60` compensation `delta` are
+Case-5 saved beacon XYZ `P` and Workshop type 0xBC `+0x60` compensation `delta` are
 persisted separately. Their typed serialization/consumers remain supported by
 [EXP0017](workshop-origin-beacon-relocation-persistence.md) and freshly replicated
 [EXP0018 tooling](durable-outpost-center-and-object-transforms.md). This run does
@@ -83,7 +83,7 @@ not change their earlier critical-review status.
 
 The two SOR-003 center byte strings are both `0369b243f0b019457220ffc1`, despite
 the moved beacon's changed XYZ and nonzero compensation. SOR-002 is
-`a266f542eb858843efd19241` in both. Identity98 values are respectively
+`a266f542eb858843efd19241` in both. Identity 98 values are respectively
 `0efca066ee4c7b9b` and `f1517de43e171745`; parents change across saves and are not
 interchangeable with these identifiers or FormIDs. Exact decoded offsets and
 parent tokens are retained in [invariance.csv](activated-grid/invariance.csv).
@@ -99,7 +99,7 @@ continuous angle pair for either the beacon or the durable center.
 
 ## Activated-overlay reconstruction map
 
-All addresses here are **static VAs**, Starfield1.16.244.0, preferred base
+All addresses here are **static VAs**, Starfield 1.16.244.0, preferred base
 `0x140000000`; RVA = VA minus that base. Offsets are members of the specified
 type, not file offsets or universal object labels. Full instruction/decompiler
 evidence stays in ignored `activated-grid-01` through `12` exports. The selected
@@ -108,15 +108,15 @@ evidence stays in ignored `activated-grid-01` through `12` exports. The selected
 | Stage / ownership | Concrete evidence | Result and boundary |
 |---|---|---|
 | Definition component | `1404595c0`, named `BGSWorldSpaceOverlay_Component`, key `1461dd7ec`; loader `1404597a0` | BNAM → tagged reference at component+8; PNAM → +1c; SNAM → +18. These are ESM component reads, not ActivatedOverlayProperty save records. |
-| Resolve definition | `140459a30 -> 14045a2d0` | BNAM remapping/resolution requires form type0xb3, BGSSurface::Block (SFBK). Bounds use its +40/+44 dimensions. This corrects a tempting Pattern-type attribution: SFPT is type0xb5. |
+| Resolve definition | `140459a30 -> 14045a2d0` | BNAM remapping/resolution requires form type 0xb3, BGSSurface::Block (SFBK). Bounds use its +40/+44 dimensions. This corrects a tempting Pattern-type attribution: SFPT is type 0xb5. |
 | Body/world association | `140ad3c30`, `140adbc50` | Component+18/+1c feed `142332d90`; PlanetWorldSpaceData is searched by world ID for the associated pair. World/body keys are not Workshop IDs. |
-| Active/requested pair → shift | `1407986d0` | Mode3 chooses terrain+1a8, otherwise+b0. Both active and requested pairs pass `14096eb90`; `14096f940` differences their integer grids. Source world comes from terrain+78 chain/+98; `140ad30a0` may select an existing overlay. If requested equals selected world, activation is skipped; linked overlay world can be unwrapped before activation. |
+| Active/requested pair → shift | `1407986d0` | Mode 3 chooses terrain+1a8, otherwise+b0. Both active and requested pairs pass `14096eb90`; `14096f940` differences their integer grids. Source world comes from terrain+78 chain/+98; `140ad30a0` may select an existing overlay. If requested equals selected world, activation is skipped; linked overlay world can be unwrapped before activation. |
 | Construct or reuse overlay | `140ad1660`, collision `140ad0fb0` | Distinguishes matching identity/force conditions from occupied inclusive-bounds overlap; existing world/component and generated-overlay paths differ. Both converge on typed payload initialization and registration, not one unconditional translation rule. |
 | Initialize payload | `140ad47e0`, `140ad4a00`, `140accd30` | ActivatedOverlayProperty: world pointer+0; int32 shifts+8/+c; inclusive bounds+10..1c; angle doubles+20/+28; float height+30; flags+34/+35. Definition component and expanded bounds feed this construction. `140694f80` handles related navigation remapping when bounds exist. |
 | Height | `140acf480`, called by `140ad1660` | Terrain-sampling path supplies vertical term. It is not a continuous center lon/lat calculation or a universal persisted altitude. |
 | Registration | `140adcde0 -> 140add2e0 -> 140adccf0 -> 140add310`; `140ad7330 -> 140ad7b80`; typed copy `140adcfd0` | Named ActivatedOverlayProperty key `145eaac2c`, manager+268 component store and +300 keyed edges. Immediate/deferred command conditions exist. Copying a typed payload is not wire deserialization. |
 | Factory evidence | `141881660` registration at `141881f98`, vtable `144b91788`, RTTI `145a62070`, factory pointer `14590a3f0` | Name Overlay, type key, null fifth descriptor; methods `14036cca0` empty iterator, `1402b75f0` false, create `140ad7330`. Inspected factory supplies no demonstrated wire reader. Null descriptor/no-op does **not** prove the state is never persisted elsewhere; generic/custom serializer closure remains open. |
-| Deferred selection/update | `140ad9810`, `140ad1d30`, `140ad4fa0` | Processes queued key pairs (global145ead238..240), copies selected edge state and updates flags/cell context conditionally. Not a raw-save pointer map. |
+| Deferred selection/update | `140ad9810`, `140ad1d30`, `140ad4fa0` | Processes queued key pairs (global 145ead238..240), copies selected edge state and updates flags/cell context conditionally. Not a raw-save pointer map. |
 | Invalidation | `140ad94a0 -> 140ad11c0` | Invalidating/updating selected-world context is separate from registration. Actual post-load flag values are not captured by this run. |
 | Rebase writer | `140797dc0 -> 140ad9cd0` | Caller reads terrain+1ec/+1f0. Callee subtracts this integer displacement from payload shifts **and all four bounds** on relevant manager+300 edges, then caller continues terrain update. A translation reconstructed before this operation is stale afterward. |
 | Select/read effective translation | `140ad30a0`, `140ada3a0` | World-keyed inclusive bounds and invalid flags select edges. Reader requires payload+35 clear, emits `(100*shiftX,100*shiftY,height)`. Edge+20 is payload origin; edge+55 is thus payload+35, not a second unrelated flag. |
@@ -136,7 +136,7 @@ unqualified saved frames. This is a specific missing join, not an unidentified
 
 `B = block + merge = 10+2 = 12`, `R=256`, `N=16*B*R=49152` in pinned
 settings/captured grid. Hierarchical index is `I=192*coarse +12*sub +fine`, with
-coarse0..255, sub0..15, fine0..11. Native coordinate struct members are tag+0,
+coarse 0..255, sub0..15, fine 0..11. Native coordinate struct members are tag+0,
 coarseXY+4/+8, subXY+14/+18, fineXY+24/+28. Intervening resolved record/flag
 members are not extra coordinate levels. Each axis has N cells and N designated
 center samples; an abstract closed square has N+1 boundaries. This is not a
@@ -157,9 +157,9 @@ XYZ should extend it. Saved angular pairs reproduce these designated outputs;
 inverse-square residuals are nonzero at mixed-float precision, not evidence of a
 physical displacement from the center.
 
-Canonical angle encoding emits north tag0 / south tag1. Tags2/3 occur in seam
-operations; the projection reverses X for1/2, Y for2/3, and uses northern Z for0/2.
-`14096eb90` maps tag2→canonical1 and tag3→canonical0 while reversing both **coarse**
+Canonical angle encoding emits north tag 0 / south tag 1. Tags 2/3 occur in seam
+operations; the projection reverses X for 1/2, Y for 2/3, and uses northern Z for 0/2.
+`14096eb90` maps tag 2→canonical 1 and tag 3→canonical 0 while reversing both **coarse**
 indices for record lookup. Fine/sub coordinates and lookup orientation are separate
 from this canonicalization. Do not conflate these tags with a pattern rotation.
 
@@ -181,24 +181,24 @@ was not performed.
 
 `14096efb0` clears fine indices and snaps sub0..3→0, sub4..11→8, sub12..15→next
 coarse/sub0, with final-coarse seam handling. Therefore adjacent landing-origin
-snap positions are `8*B=96` fine steps apart. The 16 subdivisions span192 steps
-per coarse index. Neither96 nor192 is automatically a visual tile width. The
-studied local conversion uses100 **native position units** per fine step; physical
+snap positions are `8*B=96` fine steps apart. The 16 subdivisions span 192 steps
+per coarse index. Neither 96 nor 192 is automatically a visual tile width. The
+studied local conversion uses 100 **native position units** per fine step; physical
 metres, body-dependent metric and surface-distance errors remain ungrounded.
 
 ## Tiling lead register
 
 | Lead | Direct result | Limits |
 |---|---|---|
-| Block dimensions | `14096ae90` reads SFBK DNAM's8 bytes directly into Block+40/+44. Native type0xb3/RTTI Block agrees with overlay resolver. [Dimension table](activated-grid/block-dimensions.csv):1753 records,14 distinct dimension pairs. | All installed base-ESM pairs square; no universal permitted-size list inferred. Zero/undersized records are not positive footprints. |
-| Actual multi-subdivision blocks | `14096bba0` uses `(dimensionX-merge)/B`, separately Y, for bit8-marked16×16 SFPT placements. DNAM14→1 subdivision;26→2;100→8 under B12/merge2. [Actual placements](activated-grid/pattern-positive-spans.csv) join explicit FNAM FormIDs/GNAM flags to SFBK. | These are pattern subdivision spans, not guaranteed visual repeated features or 100-unit fine cells. 3×3 and non-square1×2/2×4 actual blocks are not observed here. No absence claim for other plugins/builds/asset contents. |
-| Rotation/reflection | `140851d20`, matrix table staticVA145907c10, byte>>5 selects8 centered integer2×2 matrices. `14096be70` selects remapped cache+850 versus original+38; `14096bba0` moves footprint corners and copies span entries. | Remapping gated by145e91df8 and orientation byte≥32. Eight square permutations are verified; no loaded orientation selection was observed. Axis-independent code is capacity evidence, not proof of deployed non-square blocks. |
+| Block dimensions | `14096ae90` reads SFBK DNAM's8 bytes directly into Block+40/+44. Native type 0xb3/RTTI Block agrees with overlay resolver. [Dimension table](activated-grid/block-dimensions.csv):1753 records, 14 distinct dimension pairs. | All installed base-ESM pairs square; no universal permitted-size list inferred. Zero/undersized records are not positive footprints. |
+| Actual multi-subdivision blocks | `14096bba0` uses `(dimensionX-merge)/B`, separately Y, for bit 8-marked 16×16 SFPT placements. DNAM14→1 subdivision; 26→2; 100→8 under B12/merge 2. [Actual placements](activated-grid/pattern-positive-spans.csv) join explicit FNAM FormIDs/GNAM flags to SFBK. | These are pattern subdivision spans, not guaranteed visual repeated features or 100-unit fine cells. 3×3 and non-square1×2/2×4 actual blocks are not observed here. No absence claim for other plugins/builds/asset contents. |
+| Rotation/reflection | `140851d20`, matrix table staticVA 145907c10, byte>>5 selects 8 centered integer 2×2 matrices. `14096be70` selects remapped cache+850 versus original+38; `14096bba0` moves footprint corners and copies span entries. | Remapping gated by 145e91df8 and orientation byte≥32. Eight square permutations are verified; no loaded orientation selection was observed. Axis-independent code is capacity evidence, not proof of deployed non-square blocks. |
 | Overlay extent | `140accc10`: `[-dimX/2,(dimX-1)/2]` and analogous Y, optionally union component+24..30 then add displacement. | Inclusive integer coverage bounds; not the ordinary Workshop circle, not a visual terrain-tile boundary. |
-| Community2×2 / repetition | SOR-S-0131 supplied Reddit threads, retried2026-10-10, both fetches unavailable. Original authors/text not recovered; brief supplies the larger2×2-looking observation as a lead. | Full requested reading uncompleted and disclosed; no authenticated quote/specification. Engine data independently supports multi-subdivision spans, not identity with the reported pictured feature. |
+| Community 2×2 / repetition | SOR-S-0131 supplied Reddit threads, retried 2026-10-10, both fetches unavailable. Original authors/text not recovered; brief supplies the larger 2×2-looking observation as a lead. | Full requested reading uncompleted and disclosed; no authenticated quote/specification. Engine data independently supports multi-subdivision spans, not identity with the reported pictured feature. |
 
 The native orientation matrices are `(1,0,0,1)`, `(0,-1,1,0)`, `(-1,0,0,-1)`,
 `(0,1,-1,0)`, `(1,0,0,-1)`, `(0,1,1,0)`, `(-1,0,0,1)`, `(0,-1,-1,0)`.
-They transform centered indices in a16×16 pattern; reflections and quarter turns
+They transform centered indices in a 16×16 pattern; reflections and quarter turns
 are explicit. The selected table is independently extracted from the pinned PE,
 not inferred from terrain screenshots. No raw asset or decompiler text is copied.
 
@@ -208,21 +208,21 @@ Fresh receipts: `.local-work/durable-center/activated-grid-01/`,
 `.local-work/workshop-origin/activated-grid-01/`,
 `.local-work/activated-grid/corpus-audit/` and `geometry-03/`.
 The prior session's5265 files were verified before selected capture rereads.
-The installed scan finds53165 positive-span flagged slots:48960 with1×1 spans,
-4205 with2×2 spans. The retained16 placement rows are deterministic examples
+The installed scan finds 53165 positive-span flagged slots: 48960 with 1×1 spans,
+4205 with 2×2 spans. The retained 16 placement rows are deterministic examples
 (first eight distinct pattern/block joins per span), not the full slot dump.
-The100×100 block yields an8×8 arithmetic span but is not observed among those
-positive-span SFPT placements; it does not verify an8×8 visible terrain array.
+The 100×100 block yields an 8×8 arithmetic span but is not observed among those
+positive-span SFPT placements; it does not verify an 8×8 visible terrain array.
 
 | Check | Actual result | Scientific reach |
 |---|---|---|
-| Save25/26 SOR-003 | Compensated center bit-identical, zero component error; site pair unchanged. SOR-002 likewise invariant. | Move remains within the same100-unit cell even without compensation. Site invariance alone is insufficient; typed center consumer and exact vector recovery discriminate. |
-| Nine snapshots | Active pair `(-0.221212926466995,-0.5112328034126492)` at mode2+b0 in all9; projects `(1,10464,21120)`. Pair reconstruction max error1.6653345369377348e-16 rad; origin+c8 independently agrees. | Calls' requested shifts predict `(1,2)`/`(3,24)` without fitting. Does not observe the selected overlay edge payload or its activation event. Alternate+1a8 equals the same pair but mode3 is not sampled. |
+| Save25/26 SOR-003 | Compensated center bit-identical, zero component error; site pair unchanged. SOR-002 likewise invariant. | Move remains within the same 100-unit cell even without compensation. Site invariance alone is insufficient; typed center consumer and exact vector recovery discriminate. |
+| Nine snapshots | Active pair `(-0.221212926466995,-0.5112328034126492)` at mode 2+b0 in all 9; projects `(1,10464,21120)`. Pair reconstruction max error 1.6653345369377348e-16 rad; origin+c8 independently agrees. | Calls' requested shifts predict `(1,2)`/`(3,24)` without fitting. Does not observe the selected overlay edge payload or its activation event. Alternate+1a8 equals the same pair but mode 3 is not sampled. |
 | S1/S1C | Same Kreet/SOR-002 site cell; zero compensation; control XYZ/rotation bytes unchanged. Seven full no-action pairs replicated. | Prior-known independent session replication, not a blind holdout. Residuals can differ with the same site pair. |
-| Save52 | 17 direct documented site/body associations retained,19 studied beacons all zero compensation;53 storage+19beacon+1extractor prefixes decoded. | User confirms beacons unmoved. No reset/deletion explanation substituted. Manual JSON is identity comparison only. |
-| Negative-X falsifier | Token84ede9, body0005E0DB, frame0x2b, X=-53.4358024597168,Y=58.03339767456055, compensation0; site `(13152,45120)`. Naive site-minus-floor infers Xorigin13153, inconsistent with96-snap13152. | Rejects universal site=current-local-cell/naive origin recovery; frame selection0x2b differs from controlled0x0b. Not a compensation failure. |
-| Save2/fixed cities | Save2 player-associated New Atlantis pair equals installed0001251B pair; Akila/Cydonia retained. Total41 angular rows max error8.881784197001252e-16 lon,3.3306690738754696e-16 lat rad. | Projection/association replication, not continuous outpost-center ground truth. Repeated rows are not41 independent locations. |
-| Other objects | Own case5 XYZ/conditional rotation and seven unchanged controls replicated; same-parent versus frame-unqualified differences retained in [object table](activated-grid/object-transforms.csv). | No new attachment/snap transform composition, authoritative membership or generic frame alignment claimed. |
+| Save52 | 17 direct documented site/body associations retained, 19 studied beacons all zero compensation; 53 storage+19 beacon+1 extractor prefixes decoded. | User confirms beacons unmoved. No reset/deletion explanation substituted. Manual JSON is identity comparison only. |
+| Negative-X falsifier | Token 84ede9, body 0005E0DB, frame 0x2b, X=-53.4358024597168,Y=58.03339767456055, compensation 0; site `(13152,45120)`. Naive site-minus-floor infers Xorigin 13153, inconsistent with 96-snap13152. | Rejects universal site=current-local-cell/naive origin recovery; frame selection 0x2b differs from controlled0x0b. Not a compensation failure. |
+| Save2/fixed cities | Save2 player-associated New Atlantis pair equals installed 0001251B pair; Akila/Cydonia retained. Total 41 angular rows max error 8.881784197001252e-16 lon, 3.3306690738754696e-16 lat rad. | Projection/association replication, not continuous outpost-center ground truth. Repeated rows are not 41 independent locations. |
+| Other objects | Own case 5 XYZ/conditional rotation and seven unchanged controls replicated; same-parent versus frame-unqualified differences retained in [object table](activated-grid/object-transforms.csv). | No new attachment/snap transform composition, authoritative membership or generic frame alignment claimed. |
 
 Two previously explicit unqualified SOR-003 continuous extensions still produce
 `(-.21973838091541562,-.5116797847638825)` versus
@@ -237,7 +237,7 @@ The useful durable representation now is `(body, saved site cell/pair, saved
 parent/world and frame discriminator, compensated local XYZ)`, plus effective
 active-frame origin/translation **when independently qualified**. It preserves
 the center and its discrete planetary neighborhood. The engine's studied public
-angle consumer is many-to-one within each100-unit XY interval; there is no evidence
+angle consumer is many-to-one within each 100-unit XY interval; there is no evidence
 here that it defines a unique continuous center angle. This does not prove the
 engine lacks some other continuous geometric representation.
 
@@ -250,7 +250,7 @@ with the projected cell/body geometry into a subcell global point; inspected
 `14077fbc0/14077f900` and earlier `1407bcfb0` do not supply it.
 
 Most decisive next evidence, **separate authorization required for acquisition**:
-at one settled controlled Kreet checkpoint and the specific mature0x2b case,
+at one settled controlled Kreet checkpoint and the specific mature 0x2b case,
 capture the actually selected world/cell/key and typed overlay payload,
 terrain+b0/+1a8, +c8/+1c0 and +1ec/+1f0, initial-data discriminator, own saved versus
 loaded reference XYZ, Workshop compensation and effective translation. This tests
@@ -269,14 +269,14 @@ Save25 original `d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f
 decoded `0c27c10c1f07d5a480da4f857072cafc17e198b981350e01de2fa6b09f972cfd`;
 Save26 original `2b4781e75226f2ff7c6aa47470fb47ff179c1754461aa208c46716d7c3935104`,
 decoded `bb07dd976e369349a602c40461a4017b51aed88b81cc0acc5483220d9fcb6160`.
-All23 source identities/decoded hashes stay in fresh receipts and selected
+All 23 source identities/decoded hashes stay in fresh receipts and selected
 [decoded table](activated-grid/decoded-inputs.csv). Protected baseline was taken
 **before** new native exports and matched prior EXP0018 identities. Final comparison
 and limitations are in the [review package](activated-grid/README.md).
 
 SOR-S-0127/0128 installed Bethesda native/content, SOR-S-0124 prior original project
 readers/math, SOR-S-0132/EV0024 prior captures and separately installed
-Ghidra12.1.2/JDK21/CPython standard library supply evidence/tools. The two Reddit
+Ghidra 12.1.2/JDK 21/CPython standard library supply evidence/tools. The two Reddit
 URLs are [tiling example](https://old.reddit.com/r/Starfield/comments/1vqcjk3/found_a_perfect_example_of_starfields_tiling/)
 and [tile observations](https://old.reddit.com/r/NoSodiumStarfield/comments/1cr7w8t/obervations_on_starfields_tile_system/).
 Consultation only; no outside implementation/assets, downloads, contacts, forks,
@@ -284,8 +284,8 @@ PRs or new permission basis. Credits and source/provenance extensions accompany
 this report. Original tools are source-informed, not claimed clean-room work.
 
 Twelve Ghidra exports used existing state with `-readOnly -noanalysis`, Xmx2G,
-30-second decompiler timeout,600-instruction windows and50k decompiler-character
-caps (explicit full141881660250k). Reference inventories cap4096 where refall,
+30-second decompiler timeout, 600-instruction windows and 50k decompiler-character
+caps (explicit full 141881660250k). Reference inventories cap 4096 where refall,
 ordinary queries24. Existing-analysis xrefs and bounded exports do not prove
 whole-executable writer/serializer coverage. Selected mathematical tests execute
 no native code. Full commands, hashes, checks and diff locations are retained in

@@ -55,9 +55,9 @@ the original per-record WAL guards/flush/hash chain remain unchanged. Trace I/O
 is extra diagnostic output, not a substitute for durable WAL. The 300-second
 workload and 20/15-second cleanup bounds are orchestration timeouts, not acquisition
 quotas. Initial ordinary trace controls used a 90-second diagnostic wait; none hit
-that bound. Receipt collection historically exits0 on completed collection even
+that bound. Receipt collection historically exits 0 on completed collection even
 when a control fails: use individual results and the B disposition, not shell
-exit0, to interpret it. It is deliberately not a qualification runner.
+exit 0, to interpret it. It is deliberately not a qualification runner.
 
 Recorded command forms, repository root, installed 64-bit Python:
 

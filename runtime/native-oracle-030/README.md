@@ -20,7 +20,7 @@ admitted work and keeps all patches resident/inert until normal exit; no unload.
 |fixture.asm, branch_fixture.asm, tests.cpp, branch_tests.cpp|Original synthetic native bodies/allocated objects, exceptions, threads, actual test-process CALL edits/restoration, buffers/health and evidence flushes. No copied game body or game process.|
 |inspect_events.py, branch_inspect.py|Read raw/journal/health/frozen predictions; exclusive new derived report. No process access or original changes.|
 |test_inspect.py, test_branch.py, qualify_branch.py|Original offline synthetic/adverse decoder cases; exclusive ignored derivatives. No native-equivalence claim.|
-|operate.py|Adapted existing read-only health/control helper for schema3 test qualification. Operational CLI was not executed. Future use reads process metadata/input hashes and writes ignored receipts/STOP/nonce controls; does not deploy/launch/read target memory.|
+|operate.py|Adapted existing read-only health/control helper for schema 3 test qualification. Operational CLI was not executed. Future use reads process metadata/input hashes and writes ignored receipts/STOP/nonce controls; does not deploy/launch/read target memory.|
 
 Build with a fresh name from repository root:
 

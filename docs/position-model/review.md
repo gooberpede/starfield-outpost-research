@@ -7,7 +7,7 @@ ACCEPT.** No integration/publication/live/Git authority implied.
 | Criterion | Implementer result | Evidence / limit |
 |---|---|---|
 | A Executable specification | PASS | [Specification](specification.md), existing v2 schema/arithmetic unchanged; qualifications, missing bases and counterexamples explicit |
-| B Deterministic self-check | PASS | [Driver and command](self-check.md); check-03 receipt,23 preserved regressions/23 fresh archive input matches,40 raw native grid comparisons/two geometries,16 position tests and12 decoder controls |
+| B Deterministic self-check | PASS | [Driver and command](self-check.md); check-03 receipt, 23 preserved regressions/23 fresh archive input matches, 40 raw native grid comparisons/two geometries, 16 position tests and 12 decoder controls |
 | C Evidence/capability register | PASS | [Register](capabilities.md); confidence/coverage/readiness separated, no generalXYZ promotion |
 | D Application dependency audit | PASS | [Matrix](applications.md), specialist direct product schema/rules/backlog inspection with source pins; hypothetical spatial features separated |
 | E Disposition/backlog | PASS | [Disposition](disposition.md); constrained interface recommendation, practical membership priority and falsifiable reopen criteria |
@@ -16,7 +16,7 @@ ACCEPT.** No integration/publication/live/Git authority implied.
 | Independent review | PASS / ACCEPT | Separate read-only reviewer inspected original contract, sources, primary receipts and package; actual return below |
 
 Scientific conclusion: scoped durable ordinary positioning and horizontal
-components usable with explicit domain/frame provenance; full nativeXYZ,
+components usable with explicit domain/frame provenance; full native XYZ,
 historical Z cause and exact continuous geography remain unresolved/deferred.
 Application conclusion: no demonstrated current Tracker/stated network Planner
 blocker from those unknowns. Authoritative structure membership is the next
@@ -29,7 +29,7 @@ Primary local receipts:
 `position-tests.txt`, `decoder-tests.txt`, `corpus.txt`, `frozen/receipt.json`,
 `native/{summary,ledger,pins}.json`, `native-grids.json`, `baseline-comparison.json` and
 `.local-work/durable-center/consolidation-check-03/{results,preservation,tools}.json`.
-No required check failed or was skipped in that run. FullXYZ is deliberately
+No required check failed or was skipped in that run. Full XYZ is deliberately
 NOT TESTED, not a required universal-equivalence success criterion in this brief.
 Save27/28 are inherited scenario context, not additional native controls.
 

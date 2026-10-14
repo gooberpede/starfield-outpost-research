@@ -42,7 +42,7 @@ Vortex content and compiler intermediate objects are excluded. This is an ignore
 local review artifact, not cleared publication. Original game/SFSE package
 ownership remains with Vortex; the external tool has no game payload and no
 SFSE export/version change. The justified architecture/deliverable variation and
-different smoke/preflight sequence explicitly await review under brief section7.
+different smoke/preflight sequence explicitly await review under brief section 7.
 
 Provenance remains mandatory despite maintainer-owned reuse permission. Existing
 project readers preserve SOR-S-0132/SOR-P-0002 provenance; consulted sibling

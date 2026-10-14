@@ -21,13 +21,13 @@ engineering assignment is returned.
 
 All original adapter/fixture/collector/writer/decoder/startup/checker source remains
 unchanged. New original diagnosis source generates private experimental variants;
-none is promoted. Original0.1.4 labels in diagnostic WALs are format/baseline
+none is promoted. Original 0.1.4 labels in diagnostic WALs are format/baseline
 continuity, not a relabelled approved executable. Exact differing hashes are
 explicit. The accepted startup correction is retained in principle and as bytes.
 
-Fresh checks:19 startup controls on the exact preserved0.1.4,12 health assertions,
-11 WAL/inspector tests,32 WAL decodes, all surviving final-trial independent code/
-detach checks, expected target-exit27 receipt, protected-input/baseline hashes,
+Fresh checks: 19 startup controls on the exact preserved 0.1.4,12 health assertions,
+11 WAL/inspector tests, 32 WAL decodes, all surviving final-trial independent code/
+detach checks, expected target-exit 27 receipt, protected-input/baseline hashes,
 and complete/task-only patch inventories with reverse/forward exact-byte checks.
 These checks support the completed B analysis, **not** a qualified debugger.
 Every negative and fixture/orchestration pilot remains in the matrix/report.

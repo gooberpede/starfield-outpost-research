@@ -42,7 +42,7 @@ or live admission. Final review records the actual result.
 
 ## Failed iterations retained
 
-Ignored builds qualification-01 through09 remain intact. Initial failures exposed
+Ignored builds qualification-01 through 09 remain intact. Initial failures exposed
 a C++ name/header conflict, erroneous object-output syntax, then an actual
 non-sole-thread fixture startup. The fixture now waits for transient OS startup
 threads to retire and still refuses unless exactly one remains. A later stack
@@ -78,7 +78,7 @@ UTF8 documentation/source-pinned README. The independent reviewer also reran
 writer.bin, backlog-control/STOP and synthetic evidence sessions. Independent
 stdout/stderr were observed in tool results (native chunk e4a692, inspector
 c1a1e8), not saved as separate independent log files. Independent hash and
-post-test unchanged-tree/index checks were observed in82b345/f0cc3f. The
+post-test unchanged-tree/index checks were observed in 82b345/f0cc3f. The
 implementer's full build logs remain separately preserved; these are not
 mislabelled as reviewer-generated logs. Final artifact ledger pins both sets.
 

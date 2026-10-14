@@ -17,9 +17,9 @@ a starting shortlist. Labels are navigational; exact PNDT/WRLD joins govern.
 
 Prior source: pinned retail Starfield.esm SHA-256
 `1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7`,
-SOR-S-0129/0132 as recorded in EXP0013/0020. Native preferred static VA14076ec00
+SOR-S-0129/0132 as recorded in EXP0013/0020. Native preferred static VA 14076ec00
 reads PNDT's pre-BDST CNAM fixed-world entries, swaps disk latitude/longitude
-into the component pair and calls140773090. This establishes common **anchor
+into the component pair and calls 140773090. This establishes common **anchor
 ingestion**, not by itself common outpost-center/grid/residual reconstruction.
 No new ESM extraction or native tracing is claimed by this note.
 
@@ -51,5 +51,5 @@ No new ESM extraction or native tracing is claimed by this note.
 A qualified fixed POI can provide an independent validation channel without
 creating additional player outposts. It does not replace Save25/26's controlled
 relocation invariance, which tests a distinct Workshop-specific mechanism.
-This direction is separate from **Phase1**; no POI travel/deployment/live capture
+This direction is separate from **Phase 1**; no POI travel/deployment/live capture
 or arbitrary collection target is added to its run card.

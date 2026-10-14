@@ -59,7 +59,7 @@ change: both invoke the same center with the selected reference and output.
 An explanation must identify different reference/compensation operands, their
 native producing history, a sampling defect, or interference elsewhere.
 
-The second060 observed center site F498F1 is independently covered by
+The second 060 observed center site F498F1 is independently covered by
 `.local-work/recon/workshop-origin-02.tsv:299–342`. RCX is R14 reference and
 RDX is RSP+68 output; after return, the output pointer and R14 enter a local
 descriptor passed to F48A60. It is a third immediate consumer path, with no
@@ -72,27 +72,27 @@ copied into this authored report.
 
 | Native patch / original target | 0.5.0 wrapper and emission | 0.6.0 wrapper and emission | Comparison limit |
 |---|---|---|---|
-| AD0C36 → F4AB80, complete five-byte CALL | `center_hook`, kind2 only after native return and only inside top stage2 callback | Generated `invoke<AD0C36,center>`, kind8 before/after/unwind | Patched in both; an absent 060 event is not an uninstrumented path. Before-output is not a native center result. |
-| F498F1, F4A094, F4A1D4, 18843F2, 21B28FC, 21BB8F0 → F4AB80 | Not instrumented | Separate site-qualified kind8 scopes at all six | 050 absence conveys no reachability information. |
-| 4B916F0/4B916F8 callback pointers → AD8EC0 | `callback_hook`, begin/end/unwind stage2, TLS ref/context | Not instrumented | 060 lacks equivalent Q/E/callback ancestry, despite retaining AD0C36 site identity. |
+| AD0C36 → F4AB80, complete five-byte CALL | `center_hook`, kind 2 only after native return and only inside top stage 2 callback | Generated `invoke<AD0C36,center>`, kind 8 before/after/unwind | Patched in both; an absent 060 event is not an uninstrumented path. Before-output is not a native center result. |
+| F498F1, F4A094, F4A1D4, 18843F2, 21B28FC, 21BB8F0 → F4AB80 | Not instrumented | Separate site-qualified kind 8 scopes at all six | 050 absence conveys no reachability information. |
+| 4B916F0/4B916F8 callback pointers → AD8EC0 | `callback_hook`, begin/end/unwind stage 2, TLS ref/context | Not instrumented | 060 lacks equivalent Q/E/callback ancestry, despite retaining AD0C36 site identity. |
 | AD93FA → AD08D0; AD0AB5 → B1E190 | Q/E before/end/unwind, actual arguments and TLS ancestry | Not instrumented | Source-frame/query evidence cannot be inferred from a 060 own-cell sample. |
-| AD0D36 → 96F5C0 | `selector_hook`, kind6 input then kind3 output, linked prior native center | Not instrumented | No 060 equivalent ordinary Workshop grid output. |
+| AD0D36 → 96F5C0 | `selector_hook`, kind 6 input then kind 3 output, linked prior native center | Not instrumented | No 060 equivalent ordinary Workshop grid output. |
 | Retained travel/route nineteen-CALL set, excluding the four above | Route/request/identity/fallback/grid and command scopes | Not instrumented | Travel trigger and route are not captured equivalently. Exact nineteen pairs: `runtime/native-oracle-050/build.py:44`; wrapper mapping `plugin.cpp:11`. |
-| 115 CALLs → B4E410, including 5A14DA | Not instrumented | Generic before/after/unwind; 5A14DA dedicated kind10 restoration | Setters are invocations, not guaranteed stores or allocation births. |
-| B7351A, 18DC8D0 → B73310 | Not instrumented | Kind3 scalar application, sixteen-byte operand including mode | Partial writer coverage; outer D3 change follows ordinary inner CALL. |
-| Ordinary virtual slot 4B967B0 → B734C0 | Not instrumented | Kind2 outer conversion before/after/unwind | Other subclass slots remain uncovered. |
+| 115 CALLs → B4E410, including 5A14DA | Not instrumented | Generic before/after/unwind; 5A14DA dedicated kind 10 restoration | Setters are invocations, not guaranteed stores or allocation births. |
+| B7351A, 18DC8D0 → B73310 | Not instrumented | Kind 3 scalar application, sixteen-byte operand including mode | Partial writer coverage; outer D3 change follows ordinary inner CALL. |
+| Ordinary virtual slot 4B967B0 → B734C0 | Not instrumented | Kind 2 outer conversion before/after/unwind | Other subclass slots remain uncovered. |
 | ACD2C0 → B4A0B0; ACD2D8 →18C28B0; 18C2982 →22CDF60; 18CE315 →B4A0B0 | Not instrumented | Producer, queued producer, allocation, application | TLS ancestry and command-generation relation are different joins. |
 
 The complete [per-site ledger](coverage.csv) has 150 rows: all 21 patches in
 050 and all 129 in 060, original targets, wrapper symbols, emitted event kinds,
 phase, raw counts, downstream consumer and gaps. A read-only memory-mapped header
-scan independently counted all 1,194 schema5 and 562,326 schema6 records. It
-found zero AD0C36 events anywhere in060; F4A1D4 has33,648 records (16,824 pairs),
+scan independently counted all 1,194 schema 5 and 562,326 schema 6 records. It
+found zero AD0C36 events anywhere in 060; F4A1D4 has 33,648 records (16,824 pairs),
 and F498F1 has four records (two pairs). This is **instrumented but not observed**,
 not a missing patch or selected-identity filtering artifact. The two callback
 slots share one wrapper and cannot be distinguished from their 120 aggregate
 callback invocations. 050 shared helper kinds were joined to fixed sites where
-unique; the two delta CALLs have no kind35/36 records at either site.
+unique; the two delta CALLs have no kind 35/36 records at either site.
 
 060 `build.py:42–64` derives complete CALLs from the pinned xref export and
 checks their actual opcode/target. Selected qualification-11 manifest contains
@@ -108,12 +108,12 @@ identity/report filtering. Unknown or filtered records are not absent calls.
    only `0xD0` reference bytes; its extra read cannot recover reference `+D3`.
    060 `history.h:32` copies `0xD8`, which includes D3. Comparing a default-zero
    decoder value for missing 050 D3 with actual 060 D3 would be invalid.
-2. **Status0 has different race coverage.** 050 `core.h:99–100` rechecks only
+2. **Status 0 has different race coverage.** 050 `core.h:99–100` rechecks only
    `+24` twelve-byte identity, `+98` base pointer and `+C8` extra-list pointer.
    It does not recheck coordinate bytes. 060 `history.h:37` compares the full
-   `0xD8` prefix. Thus status0 does not certify an atomic coordinate/extra/parent
+   `0xD8` prefix. Thus status 0 does not certify an atomic coordinate/extra/parent
    snapshot in either version, and specifically does not exclude a 050
-   coordinate change during sampling. The060 comparison is at `history.h:38`.
+   coordinate change during sampling. The 060 comparison is at `history.h:38`.
 3. **050 samples after native return.** `core.h:163–169` calls original center
    before collecting reference, extras, context and output. A concurrent writer
    can intervene between the native read and those later snapshots. 060
@@ -130,9 +130,9 @@ identity/report filtering. Unknown or filtered records are not absent calls.
 |---|---|---|
 | Patch bytes and relay stack | Both `patch.h:32–83`; both plugin installation paths; build guards | Complete CALLs use E8 rel32 to a fourteen-byte leaf indirect jump. Callback/virtual edits use eight-byte pointers. No stolen prologue. Preimages, sole-thread admission, page protection, cache flush and retained resident hooks are explicit. This does not prove absence of other unrecorded instrumentation. |
 | Original call and argument order | 050 `core.h:155–187`; 060 `history.h:64–90`; generated wrapper definitions | Original pointers forwarded. 060 forwards R8/R9 on the audited four-register contracts; center output copied after return. No observer formula replaces native output. 050 center declaration has two operands, matching recovered center instructions. |
-| FP/LastError and ABI | Both Environment implementations; 050 qualification520 receipt; 060 qualification receipt and MASM fixtures | FXSAVE64/FXRSTOR64 and LastError restoration surround observation; retained tests cover nonvolatile GPR/XMM, MXCSR and native return channels. They do not prove arbitrary flags/register preservation, AVX upper-state preservation, every implicit-input contract, or retail noninterference. Caller instructions around the two audited center sites do not establish an extra incoming flags/Z-mode contract. |
+| FP/LastError and ABI | Both Environment implementations; 050 qualification 520 receipt; 060 qualification receipt and MASM fixtures | FXSAVE64/FXRSTOR64 and LastError restoration surround observation; retained tests cover nonvolatile GPR/XMM, MXCSR and native return channels. They do not prove arbitrary flags/register preservation, AVX upper-state preservation, every implicit-input contract, or retail noninterference. Caller instructions around the two audited center sites do not establish an extra incoming flags/Z-mode contract. |
 | Exceptions | `__try/__finally` wrapper scopes and retained C++/SEH tests | Native exceptions propagate; cleanup records unwind rather than swallowing game faults. Record-allocation/I/O failure remains intervention risk; fixture success is not retail fault absence. |
-| Reentrancy and depth | 050 TLS depth32/suppression and overflow fixtures; 060 TLS Scope chain | 050 has a bounded TLS capture depth and explicitly fails capture on overflow; 060 has nested stack scopes without a matching explicit32 bound. Both separate threads' ancestry. No exercised retail overflow is established. |
+| Reentrancy and depth | 050 TLS depth32/suppression and overflow fixtures; 060 TLS Scope chain | 050 has a bounded TLS capture depth and explicitly fails capture on overflow; 060 has nested stack scopes without a matching explicit 32 bound. Both separate threads' ancestry. No exercised retail overflow is established. |
 | Concurrency and ordering | 050 `core.h:33–45,77`; 060 `history.h:48–59,67–83` | 050 assigns sequence before queue publication, so cross-thread raw file order need not be numeric sequence order. 060 assigns sequence under spool lock after snapshot reads. Neither sequence orders actual native stores. TLS does not fabricate cross-thread producer ancestry. |
 | Engine-thread I/O and timing | 050 queue push versus worker flush; 060 `Spool::emit/flush` | 050 engine callbacks copy to a bounded nonblocking MPSC queue. 060 engine callbacks acquire a shared exclusive SRW lock, hash each event, query C:/D: free space and perform synchronous cached raw/journal WriteFile. Worker group-flush holds the same lock. No lock spans a native call, but contention and storage latency can delay it before/after. This is a concrete intervention difference. |
 | Admission and STOP | Both await_admission/install and worker retirement paths | Source guards require a sole-thread startup observation; STOP makes wrappers inert while leaving patches resident. 060 waits for active calls before closing transport. These are bounded engineering controls, not proof that sampling leaves gameplay state unchanged. |
@@ -154,7 +154,7 @@ cannot establish no translation or no other writes.
 
 ## Reproducible checks and exact input pins
 
-The specialist executed original CPython3.14 standard-library checks only:
+The specialist executed original CPython 3.14 standard-library checks only:
 recompute SHA256 for every `sources` entry of the two selected `build.json`
 files; assert no mismatches; assert the exact seven 060 center `guards` sites;
 assert 050's sole center `call_pairs` entry; assert the D0/D8 source-copy boundaries
@@ -165,16 +165,16 @@ failed with Python SyntaxError before doing work; a single-quoted here-string
 retry executed successfully. No scientific input changed.
 
 Header-count reproduction uses Python `mmap.ACCESS_READ` over the original raw
-files: schema6 stride3328, site uint64 at record+40; schema5 stride17768, kind
-uint64 at record+56. Assert exact divisibility before traversal. Map050 kind tags
-to its fixed `call_pairs`/relay_targets order; kinds35/36 additionally carry a
+files: schema 6 stride 3328, site uint64 at record+40; schema 5 stride 17768, kind
+uint64 at record+56. Assert exact divisibility before traversal. Map 050 kind tags
+to its fixed `call_pairs`/relay_targets order; kinds 35/36 additionally carry a
 runtime return address in block blob data+8 (record+88+14×1040+24), normalized
 by runtime module base `0x7ff7a4950000` and subtracting five. No such delta
 records were present. Callback slots remain explicitly ambiguous. Hash validation
 and semantic decoding remain separate checks in the primary independent verifier;
 this header scan is an independent coverage count, not a substitute for them.
-One first attempt looked for absent schema5 `session.json` after completing the
-schema6 scan; retry used the independently recorded module base and succeeded.
+One first attempt looked for absent schema 5 `session.json` after completing the
+schema 6 scan; retry used the independently recorded module base and succeeded.
 
 | Input path | SHA256 |
 |---|---|

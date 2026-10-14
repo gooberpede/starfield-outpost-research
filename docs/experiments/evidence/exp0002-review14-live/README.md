@@ -1,4 +1,4 @@
-# SOR-EV-0004 — Review14 primary controls and thread discrepancy
+# SOR-EV-0004 — Review 14 primary controls and thread discrepancy
 
 2026-10-06 Australia/Sydney. SOR-D-0013 / SOR-EXP-0002. [Run record](../../EXP0002-review14-run.md). Authored index REVIEW-REQUIRED; raw artifacts LOCAL-ONLY. A0/A0C completed and two manual saves were archived. The sequence stopped before construction/A1 because A0 ran on a different thread from the loader-identified main thread. No selected-reference query, debugger, observer code modification or automatic retry. Game exited normally and observer retired through user-managed Vortex.
 

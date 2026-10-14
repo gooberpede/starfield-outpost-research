@@ -22,8 +22,8 @@ not copied from earlier report tables.
 
 Five-byte CALL return addresses are distinct from the patched CALL instruction
 addresses, native calleeF4AB80/B4E410 addresses and captured output pointers.
-050 first grid records96/112 used by earlier tables are downstream of actual
-center records94/110; this ledger deliberately names the native-return boundary.
+050 first grid records 96/112 used by earlier tables are downstream of actual
+center records 94/110; this ledger deliberately names the native-return boundary.
 The CSV records per-record SHA256, raw source path, invocation/parent, TID/QPC,
 full binary32 XYZ bits, own pointers, flags and exact identity qualifiers.
 
@@ -44,10 +44,10 @@ domains are explicit. Its enclosing query source is not the reference's own
 parent. 060 world blobs end at+180 and cannot supply that+310 key. No identity
 or frame join is inferred from numerical equality of differently typed IDs.
 
-Save25 decompressed XYZ stream offsets are1,344,574 /1,474,225; compensation
-offsets1,344,620 /1,474,271. They are not offsets into the compressed original.
-Saved reference tokens822821 /84B985 are not runtime FormIDs. Both setters have
-zero beforeXYZ, input=exact savedXYZ, afterXYZ=input, D3=0 at both ends; no
+Save25 decompressed XYZ stream offsets are 1,344,574 /1,474,225; compensation
+offsets 1,344,620 /1,474,271. They are not offsets into the compressed original.
+Saved reference tokens 822821 /84B985 are not runtime FormIDs. Both setters have
+zero before XYZ, input=exact saved XYZ, afterXYZ=input, D3=0 at both ends; no
 Workshop extra or own parent is available there. Later base/FormID/pointer and
 exact ExtraWorkshop ID support a retrospective candidate association. They do
 not prove allocation birth, destruction absence or saved-token remapping.
@@ -61,13 +61,13 @@ Original raw file hashes:
 
 050 offset=(sequence−1)×17768; 060 offset=(sequence−1)×3328. Every original
 journal hash/extent and sequence is checked before interpreting selected fields.
-060 before-output contents are never treated as native returns. All40 historical
-reference triples equal output, zero compensation; all16,826 later output triples
+060 before-output contents are never treated as native returns. All 40 historical
+reference triples equal output, zero compensation; all 16,826 later output triples
 equal respective Save25 triples. Four incoherent pairs are quarantined from
 coherent identity/arithmetic claims as explained in the report.
 
-The raw journal orders emission. Independent scan detects60,264 adjacent
-cross-thread QPC inversions in the complete060 corpus. This does not imply
+The raw journal orders emission. Independent scan detects 60,264 adjacent
+cross-thread QPC inversions in the complete 060 corpus. This does not imply
 transport corruption or a total native store order. TLS ancestry is same-thread;
 050 Q/E joins are validated with actual parent/thread/kind/begin sequence,
 separately from any hypothetical cross-thread producer generation.

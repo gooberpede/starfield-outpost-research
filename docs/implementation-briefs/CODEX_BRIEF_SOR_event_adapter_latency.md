@@ -1,10 +1,10 @@
 # Event adapter latency follow-up — authorized 2026-10-11
 
-User instruction: preserve external adapter0.1.2 and its six passing disposable
+User instruction: preserve external adapter 0.1.2 and its six passing disposable
 controls as a reproducible baseline; measure debugger transport, suspension/replay,
 memory acquisition and synchronous evidence writing. Determine whether writing
 can leave the stopped interval without losing correctness/durability; implement
-and qualify0.1.3 if feasible, otherwise provide evidence and a center-only smoke
+and qualify 0.1.3 if feasible, otherwise provide evidence and a center-only smoke
 recommendation. Preserve two-site center acquisition as the first live
 configuration and keep grid independently available/off initially. Maintain
 40,000,000,000 caller-available bytes on both drives, continuation-first partial
@@ -14,7 +14,7 @@ No Starfield launch/attachment, staging, commit or push is authorized.
 ## Pre-execution experiment plan
 
 Read/hash only pinned game, protected saves, frozen inputs and analysis files.
-Copy/hash existing0.1.2 sources, helpers, build/tool receipts, review ZIP/patches
+Copy/hash existing 0.1.2 sources, helpers, build/tool receipts, review ZIP/patches
 and all six candidate-07 controls to a new ignored baseline. Never rewrite the
 original run. Preserve current working text separately for task-only review.
 

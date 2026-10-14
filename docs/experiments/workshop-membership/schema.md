@@ -52,7 +52,7 @@ bit; logical record offsets/type; optional raw position; qualified member identi
 and their offsets. Unknown names/states remain null. A compound dummy's transform
 is its raw representative transform, not a claim about every visible child or a
 global coordinate. `member_population_complete=false` means the listed peers are
-the qualified forward-edge subset, not the complete loaded reverse4D set.
+the qualified forward-edge subset, not the complete loaded reverse 4D set.
 
 Record rows retain raw reference/string queues, their logical queue/body offsets,
 prefix fields, component-envelope references/strings, linked-entry queue indexes
@@ -68,8 +68,8 @@ No category, recipe, label, proximity or inventory-contents filter is applied.
 source/script hashes, repeated-primary-byte determinism and separate arithmetic
 record-walker agreement. Repeated output is a mechanical check, not semantic proof.
 
-Modern save build strings `1.16.244.0` and header/buffer version153 are qualified;
+Modern save build strings `1.16.244.0` and header/buffer version 153 are qualified;
 other versions fail rather than reusing layouts. Conditional dynamic reference
-cases4/5/6/7 are inspected, with explicit types restricted to the previously
+cases 4/5/6/7 are inspected, with explicit types restricted to the previously
 supported REFR-family range. Missing inline bases and unsupported extras remain
 visible. The library consumes bytes only; it is a research interface, not an importer.

@@ -3,9 +3,9 @@
 - [Research execution and completion protocol](research-execution-completion-protocol.md):
   documentation-only step-1 implementation, capability assessment and reviewer dry run.
 
-- [SOR-EV-0030: actual observer0.1.1 post-deployment preflight](observer-011-post-deployment-preflight.md)
+- [SOR-EV-0030: actual observer 0.1.1 post-deployment preflight](observer-011-post-deployment-preflight.md)
   — installed/package/staging/version/config identity, smoke startup, preservation
-  and Phase1 card for review; no scientific live session executed.
+  and Phase 1 card for review; no scientific live session executed.
 
 Retain implementation reviews, evidence-integrity checks, source/permission audits, and publication-readiness reviews here. Each report identifies the governing scope, baseline/ref or artifact hash, material inspected, checks actually performed, unavailable checks, findings by severity, and readiness outcome.
 

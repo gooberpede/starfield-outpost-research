@@ -1,4 +1,4 @@
-# Independent result review — live attempt01
+# Independent result review — live attempt 01
 
 2026-10-11. The following return is retained verbatim. Its hashes identify the
 reviewed snapshot retained in

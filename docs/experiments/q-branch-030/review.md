@@ -17,7 +17,7 @@ Local directory `.local-work/native-oracle-030/builds/qualification-02/`:
 
 The ZIP/DLL are LOCAL-ONLY offline review artifacts, not deployment instructions.
 Exact packaged sources and tool/guard/protected-input identities are in build.json.
-qualification.txt has520 PASS checks; branch-qualification.txt has240; inspection-
+qualification.txt has 520 PASS checks; branch-qualification.txt has 240; inspection-
 tests.txt30; branch-inspection-tests.txt6; branch-decoder-qualification.txt12
 actual wrapper-output cases with details in branch-cases/qualification.json.
 
@@ -31,12 +31,12 @@ a fresh name. Additional checks, from repository root, using existing CPython:
 & 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B save-analysis/scripts/verify_position_v2.py --output .local-work/q-branch-030/frozen-reproduction
 ```
 
-Unchanged020 inspector regression used its retained disposable fixture bytes,
+Unchanged 020 inspector regression used its retained disposable fixture bytes,
 producing newly named synthetic derivatives only. No original evidence overwritten.
 Local `.local-work/q-branch-030/` contains initial baseline/before text copies,
-regression logs/receipt, frozen23 replay, preserved failures and package manifests.
+regression logs/receipt, frozen 23 replay, preserved failures and package manifests.
 Changed-file inventory distinguishes original uncommitted Q/E research from this
-task's separate030 sources and incremental summary/index additions.
+task's separate 030 sources and incremental summary/index additions.
 
 `.local-work/diffs/q-branch-030-complete.diff` includes all uncommitted tracked
 changes and untracked text since HEAD, including the supplied prior brief and
@@ -63,12 +63,12 @@ The implementer authored corrections; the reviewer did not edit files.
 Initial missing-module failure and intermediate manual/compile errors are preserved.
 Formal decision: **ACCEPT**, all six mandatory criteria PASS. Exact submitted
 manifest SHA256 `e038bb4c280a7941773246d36c3e4dd985266f9fa1523bd30782d69248f03012`;
-immutable `.local-work/q-branch-030/reviewed-submission/` preserves39 authored
+immutable `.local-work/q-branch-030/reviewed-submission/` preserves 39 authored
 files and the initial reviewed complete/task patches. The reviewer independently
-verified all39 tree hashes, build/source/ZIP identities,238 protected pins,
+verified all 39 tree hashes, build/source/ZIP identities, 238 protected pins,
 534 unchanged starting files, patch hashes and retained validation-tree bytes.
 The reviewer also checked reverse applicability and tracked whitespace. Forward
-applications and422 links were assessed through the packaging source/receipts;
+applications and 422 links were assessed through the packaging source/receipts;
 native test results were read from primary logs/code, not independently rerun.
 HEAD/index and reviewed snapshot remained unchanged during review. Full actual
 decision is retained in `.local-work/q-branch-030/independent-decision.md`.

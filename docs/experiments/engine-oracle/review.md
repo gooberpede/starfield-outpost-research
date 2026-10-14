@@ -8,21 +8,21 @@ This package is offline preparation; no independent retail oracle result exists.
 ## New and changed work
 
 - Original saved-position model, input adapter and eight tests under
-  `save-analysis/scripts/`; selected23 inputs/predictions and algorithm specification.
+  `save-analysis/scripts/`; selected 23 inputs/predictions and algorithm specification.
 - Native typed contracts, dependency ledger, sibling methods/revisions,
   validation protocol and prospective operator card in this directory.
-- Observer0.1.1 adds native stored center/radius/flags acquisition and inspection,
-  independent sentinel fixture and build guards; prior0.1.0 records unchanged.
+- Observer 0.1.1 adds native stored center/radius/flags acquisition and inspection,
+  independent sentinel fixture and build guards; prior 0.1.0 records unchanged.
 - Original disposable natural-output contract/fixture/qualifier and three decoder
   tests under `debugger/engine-oracle/`; two-thread and zero-hit controls.
-- Research state, sources/credits/provenance, decision0040, finding0028,
-  function0054/55, state0026 and subsystem/index links updated. Existing classifications
+- Research state, sources/credits/provenance, decision 0040, finding 0028,
+  function 0054/55, state 0026 and subsystem/index links updated. Existing classifications
   retained. The supplied brief remains unchanged and is excluded from authored diff.
 
 Complete exact changed-file inventory, SHA-256 manifest, all tracked **and new**
 authored diffs and Git status are in local ignored
 `.local-work/engine-oracle/review.json`, `complete.diff`, `status.txt`.
-Final review covers37 authored files and490 internal relative file links, with
+Final review covers 37 authored files and 490 internal relative file links, with
 zero reported issues. A local `review-package.zip` bundles these sources, the
 unchanged supplied brief, GPL text and selected review/test/build receipts;
 it excludes game binaries, saves, Ghidra exports/databases and runtime memory.
@@ -33,14 +33,14 @@ content equality are in `sources.json`; native export hashes are in `review.json
 
 ## Actual qualification
 
-Installed CPython3.14 standard library and existing project arithmetic only:
+Installed CPython 3.14 standard library and existing project arithmetic only:
 `python -B -m unittest discover -s save-analysis/scripts -p 'test_*.py'`
 passes **129 tests** (121 existing plus eight new).
 `python -B -m unittest discover -s debugger/engine-oracle -p 'test_*.py'`
 passes **three**. Transcripts: `save-tests.txt`, `contract-tests.txt` under the
 local receipt root. Frozen predictions are freshly regenerated in-memory from
 selected inputs and compared exactly; real CLI example output is also checked.
-All23 center bits/cells/floor/residualXY also match EXP0020's separate prior
+All 23 center bits/cells/floor/residualXY also match EXP0020's separate prior
 table. These are model/decoder regressions, not independent oracle comparisons.
 Frozen input SHA-256:
 `9fe2924ff7bc444714fbab685893b8d8e0572dc2c7aad96cbd06de8aac93ad91`;
@@ -62,17 +62,17 @@ Disposable debugger0.1.0 current-source receipts:
 `.local-work/engine-oracle/qualification-03/result.json` and
 `qualification-zero-02/result.json`: PASS, two different threads versus zero hits,
 32 original site bytes restored, detach independently verified, normal fixture
-exit0. Raw transport logs flush durably. Existing x64dbg/MSVC run separately;
+exit 0. Raw transport logs flush durably. Existing x64dbg/MSVC run separately;
 no third-party code is embedded. This tests sentinel capture transport and
 cleanup, not the real game's layout/ABI, reachability, timing or equivalence.
 Earlier qualification-01 did not verify restoration before target exit; it is
-retained as an incomplete control, superseded by02/03, not counted as sufficient.
+retained as an incomplete control, superseded by 02/03, not counted as sufficient.
 
 ## Preservation and validation limits
 
-Original41-file protected snapshot is freshly rehashed before/after task in
+Original 41-file protected snapshot is freshly rehashed before/after task in
 `before.json`/`preservation.json` (hash, size and mtime), including PE/ESM/saves/
-Ghidra persistent files. All41 content hashes/sizes agree. Four Ghidra `~index.dat`
+Ghidra persistent files. All 41 content hashes/sizes agree. Four Ghidra `~index.dat`
 and `~index.bak` files (idata/versioned) have refreshed modification timestamps;
 their bytes are unchanged. Timestamp differences are retained, not silently
 normalized or reported as full metadata equality. Save25 original SHA-256
@@ -80,7 +80,7 @@ normalized or reported as full metadata equality. Save25 original SHA-256
 Save26 original `2b4781e75226f2ff7c6aa47470fb47ff179c1754461aa208c46716d7c3935104`.
 Fresh original `research_workshop_origin.py --run engine-oracle-preservation-02`
 verifies **5,265 prior observer-session files**, re-extracts the two protected
-saves with identical decoded hashes and matches18 beacon observations across
+saves with identical decoded hashes and matches 18 beacon observations across
 the nine old captures. Receipt remains in
 `.local-work/workshop-origin/engine-oracle-preservation-02/`;
 console transcript is `preservation-run.txt` in the engine-oracle receipt root.
@@ -91,7 +91,7 @@ enumeration and rehash. That incomplete run is retained as
 `engine-oracle-preservation-01`; it is not a successful preservation check.
 The successful rerun waited until Ghidra exports closed; persistent-file equality
 is checked independently against the pre-task snapshot. Read-only exports do not
-authorize symbol/type/comment changes. Free space remains above40,000,000,000
+authorize symbol/type/comment changes. Free space remains above 40,000,000,000
 on C: and D:; exact final values are retained in review/build receipts.
 
 Git diff whitespace, authored-file trailing whitespace/UTF-8, internal relative

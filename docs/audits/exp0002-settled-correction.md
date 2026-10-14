@@ -38,7 +38,7 @@ Build: `.local-work/exp0002-builds/review14-settled/`. ZIP contains the original
 | workshop-trace.exe | `4da7d3252238b0b40aa257e867ef28697485a39e96df738d7bdc753afb4daa3a` |
 | SorExp0002-local-test.zip | `970dce992d665eeda0fcf8fcdbcb4d363016756e02e2e3a9ca4c7eeed4a37ff4` |
 
-Source/toolchain/site hashes and compiler logs are in build.json and *-build.txt. Earlier review13 was an intermediate passing build; review14 supersedes it for this handoff. Both remain local.
+Source/toolchain/site hashes and compiler logs are in build.json and *-build.txt. Earlier review 13 was an intermediate passing build; review 14 supersedes it for this handoff. Both remain local.
 
 Complete review artifacts: `.local-work/exp0002-settled-fix/review.diff`, `changes-this-request.diff`, `validation.json`, `status.txt`, `hashes.json`. Full diff is LOCAL-ONLY because prior task changes include the supplied private-path brief. No new permission issue. [Operator card](../experiments/EXP0002-operator-card.md) and [runtime documentation](../../runtime/exp0002/README.md) explain the changed synchronization model.
 

@@ -4,16 +4,16 @@
 
 - SOR-EV-0039 approved live continuation: [0.6.0 native history](../position-write-history/live-attempt-01.md), [selected cases](../position-write-history/live-attempt-01-cases.csv), [provenance](../position-write-history/live-attempt-01-sources.csv), [review](../position-write-history/live-attempt-01-review.md). Exact saved/native XYZ sampled match, earlier Z discrepancy not reproduced; partial history and frame/lifetime gaps. 562,326 verified records, clean retirement/postflight, 21 sealed files. Raw evidence LOCAL-ONLY; authored result REVIEW-REQUIRED.
 
-- SOR-EV-0039 continuation: [position-write history qualification](../position-write-history/report.md), [source/receipt hashes](../position-write-history/sources.csv) and [review](../position-write-history/review.md). Authored REVIEW-REQUIRED; raw native/save/capture/build/private artifacts LOCAL-ONLY.16000 concurrent fixture records,27 decoder/seven control checks and6563 protected pins; no native060 live equivalence/publication clearance.
+- SOR-EV-0039 continuation: [position-write history qualification](../position-write-history/report.md), [source/receipt hashes](../position-write-history/sources.csv) and [review](../position-write-history/review.md). Authored REVIEW-REQUIRED; raw native/save/capture/build/private artifacts LOCAL-ONLY. 16000 concurrent fixture records, 27 decoder/seven control checks and 6563 protected pins; no native 060 live equivalence/publication clearance.
 
 - SOR-EV-0036: [EXP0028 final thread-control analysis](../event-latency/thread-control-final-report.md).
-  Completed B;32 diagnostic workflows, five API cases, retained R1/R2/repair
+  Completed B; 32 diagnostic workflows, five API cases, retained R1/R2/repair
   negatives and independent postflights. Authored REVIEW-REQUIRED; raw traces,
   WAL/memory, executables/intermediates/private receipts LOCAL-ONLY. No live
   qualification, new scientific finding or publication clearance.
 
 - SOR-EV-0034: [EXP0026 latency/transport review](../event-latency/README.md).
-  Authored source/comparison REVIEW-REQUIRED; original0.1.2/all six controls,
+  Authored source/comparison REVIEW-REQUIRED; original 0.1.2/all six controls,
   profiling/WAL/raw/private receipts LOCAL-ONLY. No Starfield oracle evidence,
   scientific promotion or publication clearance.
 
@@ -77,7 +77,7 @@ Avoid OS usernames, personal save names, absolute local paths, or permission cor
 - [SOR-EV-0025 — Workshop relocation and bounds](../workshop-origin/README.md): selected capture/native/transition ledgers and local reproduction/provenance; full raw/native evidence LOCAL-ONLY.
 
 - **SOR-EV-0035 / SOR-EXP-0027:** [startup fail-fast investigation](../event-latency/startup-failfast-investigation.md),
-  exact compiled exception boundaries,19-case matrices, preserved pilots and
+  exact compiled exception boundaries, 19-case matrices, preserved pilots and
   [qualification/review](../event-latency/startup-review.md). Private receipts,
   dumps, raw fixture WALs and binaries stay in ignored `.local-work/adapter-startup`
   and separately named event-instrumentation runs. No new Starfield sample or
@@ -85,4 +85,4 @@ Avoid OS usernames, personal save names, absolute local paths, or permission cor
 
 - **SOR-EV-0040 / SOR-EXP-0032:** [Workshop membership/root inventory](../workshop-membership/README.md), [source hashes](../workshop-membership/sources.csv) and [validation/review](../workshop-membership/review.md). Selected authored reference counts/native contracts REVIEW-REQUIRED. Full instance/member/unresolved ledgers, protected archive/game/database inputs, native exports, reproduction and failed/superseded probes remain ignored LOCAL-ONLY under `.local-work/workshop-inventory/`. No raw/private evidence copied into this directory or cleared for publication.
 
-- **SOR-EV-0041 / SOR-EXP-0033:** [Workshop population rework](../workshop-population/README.md), selected authored counts/contracts/source hashes REVIEW-REQUIRED. Full historical/typed/component/default ledgers, native exports and failed probes remain ignored LOCAL-ONLY under `.local-work/workshop-population-rework/`; original657 evidence remains unchanged.
+- **SOR-EV-0041 / SOR-EXP-0033:** [Workshop population rework](../workshop-population/README.md), selected authored counts/contracts/source hashes REVIEW-REQUIRED. Full historical/typed/component/default ledgers, native exports and failed probes remain ignored LOCAL-ONLY under `.local-work/workshop-population-rework/`; original 657 evidence remains unchanged.

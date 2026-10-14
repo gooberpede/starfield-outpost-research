@@ -31,8 +31,8 @@ reconciliation and blinded native holdouts remain unresolved.
 |---|---|---|
 | 1. Fresh native identity-bound implementation | IMPLEMENTED; callback/center/grid-before/grid-result/exit records; raw identity or unreadable/race flags; [source](../../../runtime/native-oracle/README.md), schema | Live reachability, outpost identity and saved-to-loaded frame authority NOT TESTED |
 | 2. Narrow architecture and lifecycle | DISPOSABLE PASS; real CALL/relay/vtable execution, ABI sentinels, SEH/C++ propagation, nested/rejected/concurrent scopes, in-flight STOP, queue/depth/IO failure | Live timing/lifetime/CFG/CET/recovery unqualified; no dynamic unhook |
-| 3. Runnable versioned plugin/ZIP/manifests | BUILD/ARCHIVE PASS; final-review-04 below, both channels, source/toolchain/hash pins and notices | No deployment/live compatibility test; prior0.1.1 preserved |
-| 4. Adverse disposable qualification | 477 native assertions and17 inspector tests PASS; [qualification/failures](qualification.md), full retained logs | Synthetic evidence cannot prove game semantics/full equivalence |
+| 3. Runnable versioned plugin/ZIP/manifests | BUILD/ARCHIVE PASS; final-review-04 below, both channels, source/toolchain/hash pins and notices | No deployment/live compatibility test; prior 0.1.1 preserved |
+| 4. Adverse disposable qualification | 477 native assertions and 17 inspector tests PASS; [qualification/failures](qualification.md), full retained logs | Synthetic evidence cannot prove game semantics/full equivalence |
 | 5. Exact executable card now | PRODUCED; [full card](run-card.md), pre/postflight/control commands, protected saves, routes, health/STOP/exit/removal/results | Phase B authorization and user Vortex deployment pending |
 | 6. Combined critical package | PASS; replay-checked complete/task diffs, inventories/manifests and [independent ACCEPT](independent-review.md) | Acceptance grants no Phase B/live/integration authority |
 
@@ -57,7 +57,7 @@ or process-memory access. Failed iterations remain intact.
 
 Starting HEAD `aa76d2dee8b5f18b8833b94cc52570ae5b5a9a09`; index SHA256
 `a9c3892aa4679b1c3bdd05c59c78c01fb5905a1d2ffdf42c4fc2fcab1fa69ba2`.
-Baseline exact483-file inventory/bytes remain in `.local-work/native-oracle/`.
+Baseline exact 483-file inventory/bytes remain in `.local-work/native-oracle/`.
 Patches `.local-work/diffs/native-oracle-complete.diff` and
 `native-oracle-task-only.diff` include new text correctly; task-only excludes only
 the unchanged supplied brief. `.local-work/native-oracle/package.json` records
@@ -75,7 +75,7 @@ leakage, inspector unpacking/pairing/FP issues and ASLR vtable handling; all wer
 repaired and requalified. An independent specialist confirmed CALL bytes/targets,
 consumed ABI, overwritten locals and terrain candidate reachability separately.
 
-Final-review-02's independent rerun passed463/11; review nevertheless found a
+Final-review-02's independent rerun passed 463/11; review nevertheless found a
 worker control-starvation counterexample and weak FP-negative coverage. These
 were resolved by per-record production control polling, a sustained-backlog STOP
 test, production patch-failure test and qualified FP/order negative tests.
@@ -85,7 +85,7 @@ supersedes all earlier candidates.
 
 Final verdict [ACCEPT](independent-review.md) covers all six deliverables against
 final-review-04 source/build/logs, the full card and replay-checked diffs. Reviewer
-independently reproduced477 assertions/17 tests, verified all pins/ZIP/diff
+independently reproduced 477 assertions/17 tests, verified all pins/ZIP/diff
 application and confirmed unchanged reviewed tree/index. The exact reviewed
 snapshot remains in `.local-work/native-oracle/reviewed-snapshot-04/`; the final
 documentation refresh adds the verbatim decision and updates this outcome only.

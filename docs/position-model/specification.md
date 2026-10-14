@@ -50,7 +50,7 @@ remain historical fixtures. No new scientific algorithm or public API is introdu
 | descriptor | 16-hex packed key, matching body/world_token, system_id and body_index checked against decoded key. Typed save/world/installed PNDT joins are upstream prerequisites, not implied by accepting JSON. |
 | frame | integer 0b or 2b only. Saved initial-data flag, not an arbitrary live caller frame index. |
 | position_hex / compensation_hex | Exactly 12 bytes each as 24 lowercase hex digits, little-endian binary32 XYZ and ExtraWorkshop+60 vector. Original offsets/hashes stay in extraction receipts. |
-| site_cell | null or qualified `[tag,x,y]`; 2b supports tags0/1 only. Angles are upstream evidence, not a substitute for qualified discrete input. |
+| site_cell | null or qualified `[tag,x,y]`; 2b supports tags 0/1 only. Angles are upstream evidence, not a substitute for qualified discrete input. |
 
 Associated site longitude/latitude (double radians, longitude first), parent
 world/body and terrain descriptor belong in the evidence envelope even though
@@ -72,24 +72,24 @@ not planetary altitude. Grid resolution is 49152; hierarchy radices are
    binary32 input and supported integer domain. Ordinary helper arithmetic assumes
    the activator/Workshop-keyword/extra-bc eligibility branch; JSON cannot prove
    that a reference took this path live.
-2. Decode packed key low16 X, next16 Y, tag3, body6, system18; reject reserved,
-   sentinel and out-of-range domains. For tags2/3 reflect **both** packed axes:
-   `native = 49151-packed`. Tags0/1 copy. Terrain pattern orientation does not
+2. Decode packed key low 16 X, next 16 Y, tag 3, body 6, system 18; reject reserved,
+   sentinel and out-of-range domains. For tags 2/3 reflect **both** packed axes:
+   `native = 49151-packed`. Tags 0/1 copy. Terrain pattern orientation does not
    rotate ordinary reference XYZ.
 3. Copy XYZ bits when the entire compensation vector compares equal to zero
    (including signed zeros). Otherwise add all components in binary32. This is
    `C=P+D`, not subtraction. Save26 SOR-003 moves P and accumulates D while C
    remains byte-identical to Save25.
-4. Select converted descriptor origin for frame0b, upstream qualified site base
-   for frame2b. Missing 2b site leaves cell/base null and UNKNOWN while preserving
+4. Select converted descriptor origin for frame 0b, upstream qualified site base
+   for frame 2b. Missing 2b site leaves cell/base null and UNKNOWN while preserving
    center/body/residual. Never infer a discrete cell from an arbitrary angle or
    silently fall back to descriptor origin.
 5. For XY use `q=floor(f32(C*f32(.01)))`,
    `r=f32(C-f32(100*q))`. Preserve operation order, binary32 rounding and negative
    floor. Reject nonfinite/subnormal/overflow/environment-unqualified scaling;
    round-to-nearest is a precondition, historical MXCSR was not captured.
-6. Add signed C remainder of q modulo49152 to native base, wrap crossings and
-   xor tag by1 for X,3 for Y,2 for both. Decompose hierarchy. Repack using the
+6. Add signed C remainder of q modulo 49152 to native base, wrap crossings and
+   xor tag by 1 for X, 3 for Y, 2 for both. Decompose hierarchy. Repack using the
    **resulting** tag reflection. Preserve residual Z as local C.z.
 
 Landing-origin snapping is a separate upstream operation: the interior 96-step
@@ -104,7 +104,7 @@ inverse-map round trips cannot establish native exact continuous geography.
 Within supported arithmetic, qualified center/base and the stated numeric
 environment suffice to deterministically calculate cell and residual. Actual
 saved input authenticity also requires extraction/framing and typed identity
-qualification. Frame2b needs a qualified site cell for a cell result; center/body
+qualification. Frame 2b needs a qualified site cell for a cell result; center/body
 remain usable without it. These are sufficient for this offline calculation,
 not for future native loaded-edge selection, current active ownership or world
 coordinates. Saved data are durable serialization inputs. Runtime center returns
@@ -113,8 +113,8 @@ are transient invocation-specific values requiring identity, caller and frame.
 Preserve these falsifiers: v1 reflected key `02b20e7a01c8007b` produces
 `[2,124,456]`; v2 yields native `[2,49029,48695]`, packed `[2,122,456]`.
 All 23 frozen bases remain unchanged; this synthetic instruction counterexample
-is not a retail reflected-world oracle. Mature negative X/frame2b cannot be
-resolved by zero compensation. Phase1 retained-prior-site output defeats a
+is not a retail reflected-world oracle. Mature negative X/frame 2b cannot be
+resolved by zero compensation. Phase 1 retained-prior-site output defeats a
 universal passive-center oracle. 050 raw XYZ differs from saved XYZ while
 translated XY/grids agree conditionally; 060 initial setters/centers match saved
 XYZ at different boundaries, with zero AD0C36 calls. Real downstream indexed

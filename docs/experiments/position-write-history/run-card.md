@@ -26,7 +26,7 @@ Runtime payload requires only
 `Data/SFSE/Plugins/SorNativePositionOracle.dll`. Installed Windows/Microsoft /MD
 prerequisites are pinned in build.json; no new runtime/dependency installation.
 ResearchNotices are package material, not neighboring deployed-file requirements.
-Require pinned game/SFSE/plugin identity,129 guarded sites/target entries and
+Require pinned game/SFSE/plugin identity, 129 guarded sites/target entries and
 sole-thread SFSE pre-main admission. Standard Steam/NVIDIA overlays are accepted;
 actual inventories are retained. Inspect unfamiliar instrumentation for credible
 conflict; wrong identity, conflicting owned bytes or unsupported admission stops
@@ -57,9 +57,9 @@ wrong character filter. Do not repeat the selection confirmation after a clear
 acknowledgement, and never guess by list position.
 
 The finite sequence is Save25 load/settle at SOR-003 → one ordinary local travel
-to SOR-002 → one ordinary return to SOR-003. The return tests a second loaded state/frame transition. Prior050 local-only
-003→002→003 produced no events; its40 Workshop centers followed a fresh landing
-and return, which is outside this card. Broader060 writer/seven-center coverage
+to SOR-002 → one ordinary return to SOR-003. The return tests a second loaded state/frame transition. Prior 050 local-only
+003→002→003 produced no events; its 40 Workshop centers followed a fresh landing
+and return, which is outside this card. Broader 060 writer/seven-center coverage
 makes local travel a qualified diagnostic, but local-only center production is
 unproven. This is not a new landing. No construction, beacon move,
 console, settings change, new save, extra trip, build-mode intervention, new
@@ -116,7 +116,7 @@ $nonce = (Get-Content "$run/menu-request.json" -Raw | ConvertFrom-Json).nonce
 ```
 
 Require explicit `READY_ACK`, zero failed/integrity counters, actual admission
-sole_thread_observed=true, expected129 patches, matching original preimages and
+sole_thread_observed=true, expected 129 patches, matching original preimages and
 healthy durable progress before loading. `WAITING_FOR_READY_OR_ACK` is pending,
 not PASS: continue read-only inspection with fresh output names. Stale heartbeat
 age alone is a warning; establish actual worker/integrity state. Do not add a
@@ -147,7 +147,7 @@ before READY, do not load; retirement/not-ready evidence governs exit/recovery.
    neither a record quota nor a wall-clock expiry decides completion.
 
 Known stable Workshop ID byte strings are `f1517de43e171745` (SOR-002) and
-`0efca066ee4c7b9b` (SOR-003), with ordinary base002C60E9 and prior saved Kreet
+`0efca066ee4c7b9b` (SOR-003), with ordinary base 002C60E9 and prior saved Kreet
 association. Reacquire raw identities each epoch. Current FormIDs/pointers are
 not saved tokens. Own-parent/world unavailable fields remain unavailable.
 

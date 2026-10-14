@@ -1,6 +1,6 @@
 # Prospective operator card — no execution authority
 
-SOR-EXP-0025; review required. External adapter0.1.2; observer0.1.1 unchanged.
+SOR-EXP-0025; review required. External adapter 0.1.2; observer 0.1.1 unchanged.
 This task did **not** run this card. Its reviewed successor must record the exact
 tool SHA, target/SFSE/load-order identity, protected paths/hashes, allowed actions,
 source-save handling, session boundaries, crash/recovery policy and timing risk.
@@ -35,15 +35,15 @@ approval is `adapter.exe --reviewed-retail PID ABSOLUTE_SESSION_ROOT GAME_SHA
 
 ## A — Center producing invocations
 
-Protect original/archive Save25/26 as in Phase1; use reviewed controlled copies
+Protect original/archive Save25/26 as in Phase 1; use reviewed controlled copies
 and never overwrite original saves. Preserve baseline save inventory and hashes.
 No native saving, new construction, beacon movement/deletion or forced native
-query is allowed by this proposal. The moved003 case already exists in Save26.
+query is allowed by this proposal. The moved 003 case already exists in Save26.
 
 Capture natural closed/open/settled/closed-after conditions for Save25/003 then
-002 and Save26/003 then002, with positive workshop/base/body/frame association
+002 and Save26/003 then 002, with positive workshop/base/body/frame association
 and loading/travel/time-state notes. Keep recording across site switches so both
-prior retained003 and refreshed002 conditions remain visible. Natural build
+prior retained 003 and refreshed 002 conditions remain visible. Natural build
 entry, border/descriptor updates and camera/clamp activity are plausible triggers
 from the seven direct callers; build-open does not guarantee a call. Ordinary
 view/camera changes within the reviewed movement scope may expose different
@@ -58,7 +58,7 @@ this is not permission for indefinite unattended live collection.
 ## B — Grid callback, independently enabled
 
 Enable only after the same tool/preimage/latency checks, separately from A.
-Natural chain14077E350 →140AD92E0 →140AD08D0 →140B1E190 →140AD8EC0 →140AD0B90
+Natural chain 14077E350 →140AD92E0 →140AD08D0 →140B1E190 →140AD8EC0 →140AD0B90
 is terrain/site candidate processing. Reviewed loading or travel among the two
 existing sites is a plausible trigger; opening a workshop alone may never enter
 it. Preserve callback entry/exit even when early return yields no grid result.
@@ -75,7 +75,7 @@ predictions SHAa8a7402697ed866a3410d4bd58796de513c7ca11f89e770a80deb5a8651a0487.
 The [contract correction](contract.md#correction-to-the-earlier-grid-acquisition-wording)
 changes capture labels, not the predicted arithmetic or comparison tolerances.
 
-| Cases | Expected center12 LE hex | Expected saved-frame cell |
+| Cases | Expected center 12 LE hex | Expected saved-frame cell |
 |---|---|---|
 | Save25/26 SOR-002 | a266f542eb858843efd19241 | [1,10465,21122] |
 | Save25/26 SOR-003 | 0369b243f0b019457220ffc1 | [1,10467,21144] |
@@ -83,15 +83,15 @@ changes capture labels, not the predicted arithmetic or comparison tolerances.
 For A, require an actual paired invocation, ordinary base, concrete workshop
 identifier and independently qualified Kreet/body/common frame. Decode native
 binary32 XYZ and report per-axis exact bits and numerical differences from the
-frozen case. Require all12 bytes equal; no epsilon or adjusted offsets. Save26/003
+frozen case. Require all 12 bytes equal; no epsilon or adjusted offsets. Save26/003
 raw reference XYZ differs while native durable center is predicted invariant.
 Missing identity/output is PARTIAL; unknown frame is UNASSESSED. Keep every
-mismatch and distinct002/003 result; repeated equal calls are not new independent
+mismatch and distinct 002/003 result; repeated equal calls are not new independent
 samples. Radius is not a center-helper output and is not inferred here.
 
 For B, independently associate the callback and its center child by scope, then
-qualify captured source hierarchy, translation, body, resolution256 and settings
-block12. Compare actual translated X/Y bits, native floor integers and final
+qualify captured source hierarchy, translation, body, resolution 256 and settings
+block 12. Compare actual translated X/Y bits, native floor integers and final
 hierarchy/tag/cell to the model replay of **captured native inputs**, in its fixed
 float32 order. Z/local center remains separately labelled. Preserve opaque asset
 handles; residual derived from captured intermediates is not a native output.
@@ -102,7 +102,7 @@ saved-frame grid equivalence and full-model validation are separate results.
 ## Stop, evidence and cleanup
 
 STOP on user request, instrument safety/patch conflict, failed storage query,
-caller-available space below40,000,000,000 bytes on either drive, genuine runaway
+caller-available space below 40,000,000,000 bytes on either drive, genuine runaway
 writer or broken evidence integrity. Optional unreadable science fields, unknown
 values, absent calls, exceptions outside replay and missing partners continue as
 partial evidence. Preserve every flushed stream and raw-section hash. At STOP

@@ -1,4 +1,4 @@
-# Independent review — native oracle0.2.0 live attempt02
+# Independent review — native oracle 0.2.0 live attempt 02
 
 2026-10-12. SOR-EXP-0031 / SOR-EV-0039.
 
@@ -13,11 +13,11 @@ operational conformance, native position equivalence or authority for another ru
 | Criterion | Reviewer disposition and evidence |
 |---|---|
 | Authorized bounded scope | Approved attempt, N1 route and notice correction documented. Combat interruption/user-directed hold disclosed. |
-| Acquisition result |36 raw records form18 complete normal Q invocations; each captured uint32 return1. E/C/center/grid records absent. |
+| Acquisition result |36 raw records form 18 complete normal Q invocations; each captured uint32 return 1. E/C/center/grid records absent. |
 | Scientific interpretation | Q observed during this bounded session; downstream stages NOT OBSERVED. Exact predicate, callback reachability cause, object identity and native equivalence unestablished. |
-| Integrity | All127 primary manifest hashes verified; raw/journal/counters/terminal offsets reconcile. |
-| Health/retirement |1,973 health rows, maximum QPC gap4.6063803s below15s; no recorded loss/depth/watchdog fault; final queue/active0. STOP retirement within30s. |
-| Monitoring cadence | **FAIL**:1,709 monitor rows, maximum UTC gap2.792511s. Corrected documents distinguish nominal1s polling from unmet strict cadence. |
+| Integrity | All 127 primary manifest hashes verified; raw/journal/counters/terminal offsets reconcile. |
+| Health/retirement |1,973 health rows, maximum QPC gap 4.6063803 s below 15 s; no recorded loss/depth/watchdog fault; final queue/active 0. STOP retirement within 30 s. |
+| Monitoring cadence | **FAIL**:1,709 monitor rows, maximum UTC gap 2.792511 s. Corrected documents distinguish nominal 1 s polling from unmet strict cadence. |
 | Saves/cleanup | Surviving save filenames retain content hashes; Save27/28 pins match. Automatic exit-save rotation disclosed. DLL/config and all eight checked removal paths absent. |
 | Package/preservation |54 inventory hashes and retained forward-applied trees match; both patch hashes verified. Prior evidence/source/card/lock/ZIP/HEAD/index unchanged. |
 

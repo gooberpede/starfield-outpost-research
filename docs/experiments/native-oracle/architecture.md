@@ -1,20 +1,20 @@
 # Natural grid callback and CALL-boundary observation
 
 SOR-EXP-0031. STATIC / PROPOSED-INTEGRATION, not a supported game interface.
-The installed retail1.16.244.0 executable was independently rehashed to
+The installed retail 1.16.244.0 executable was independently rehashed to
 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`.
 Static VA=140000000+RVA; runtime VA=actual loaded base+RVA. PE file offsets below
 are a different domain. Existing SOR-S-0127/0132 native/project provenance applies.
 
 | Boundary | Exact contract and evidence |
 |---|---|
-| Callback vtable RVA4B916F0/4B916F8 | Two aligned pointer slots originally target AD8EC0; constructor/destructor slot4B916E8 targets31A630. Thunk dereferences RDX reference slot and RCX+8 context then tail-jumps AD0B90. Existing engine-oracle-02.tsv lines6–16/44–46. |
-| Center CALL RVAAD0C36, fileAD0236 | Complete E8 rel32 to F4AB80; RCX actual reference, RDX writable caller-owned XYZ12. Capture after natural call. Existing engine-oracle-01.tsv lines32–43; workshop-origin-04 helper instructions. |
-| Grid CALL RVAAD0D36, fileAD0336 | Complete E8 rel32 to96F5C0; RCX landscape, RDX writable native hierarchy44, R8 signed floorXY8; no consumed stack arguments. Capture input before and result after natural call. engine-oracle-01.tsv lines92–104 and selector instructions323–594. |
+| Callback vtable RVA 4B916F0/4B916F8 | Two aligned pointer slots originally target AD8EC0; constructor/destructor slot 4B916E8 targets 31A630. Thunk dereferences RDX reference slot and RCX+8 context then tail-jumps AD0B90. Existing engine-oracle-02.tsv lines 6–16/44–46. |
+| Center CALL RVA AD0C36, file AD0236 | Complete E8 rel32 to F4AB80; RCX actual reference, RDX writable caller-owned XYZ12. Capture after natural call. Existing engine-oracle-01.tsv lines 32–43; workshop-origin-04 helper instructions. |
+| Grid CALL RVA AD0D36, file AD0336 | Complete E8 rel32 to 96F5C0; RCX landscape, RDX writable native hierarchy 44, R8 signed floorXY8; no consumed stack arguments. Capture input before and result after natural call. engine-oracle-01.tsv lines 92–104 and selector instructions 323–594. |
 
 The independent specialist rechecked both installed PE call targets/bytes and
 static contracts. Postcallback sampling alone fails: center RBP-49 is overwritten
-by projection atAD0DE5; floors RBP+6F are overwritten by96F940 atAD0E20. Selected
+by projection at AD0DE5; floors RBP+6F are overwritten by 96F940 at AD0E20. Selected
 hierarchy RBP-9 expires with the callback. Context+08 candidate and+18 source are
 inputs, not a substitute for selected native output. This is the decisive reason
 for two CALL wrappers in addition to the callback scope.
@@ -46,7 +46,7 @@ after all file/code/signature guards and an actual sole-process-thread gate.
 Pinned [SFSE source](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/sfse.cpp)
 places normal Load in the CRT command-line hook before WinMain. This source report
 is not proof of installed-binary semantics or a guarantee about other plugins.
-The separate sole-thread test is mandatory. Startup can wait up to120 seconds
+The separate sole-thread test is mandatory. Startup can wait up to 120 seconds
 for background startup threads to retire, with disk checks; it then refuses all
 edits if another thread remains. This is a bounded startup admission wait, not an
 event collection quota or a patch retry. Disposable workers retired after about
@@ -77,10 +77,10 @@ retirement and is reported separately.
 Callback entry owns a TLS invocation and actual reference/context; each native
 center and grid event carries that invocation, parent, thread and raw source fields.
 Unknown identity remains unknown. Reads use bounded ReadProcessMemory without
-engine lookup/census calls. Extra chains have a64-node safety bound and cycle flags;
+engine lookup/census calls. Extra chains have a 64-node safety bound and cycle flags;
 incomplete identity prevents comparison, not native execution. Repeated reference
 headers detect some races without claiming ownership, atomicity or source-world
-authority. The queue has4096 preallocated17,768-byte slots (about69.4 MiB), plus
+authority. The queue has 4096 preallocated 17,768-byte slots (about 69.4 MiB), plus
 per-thread fixed scope/grid scratch. Saturation/lost records stop capture and are
 explicit health failures. No explicit allocation, file I/O or locks in hooks;
 OS/CRT TLS initialization and Win32 reads still affect timing.
@@ -90,7 +90,7 @@ with both enabled in the proposed package/card. A center-only configuration
 cannot fulfill the grid objective. Derived translated XY is computed only offline
 and is labelled DERIVED; there is no captured translated-register claim.
 
-Static chain77E350→AD92E0→AD08D0→B1E190→AD8EC0→AD0B90 supports terrain/site
+Static chain 77E350→AD92E0→AD08D0→B1E190→AD8EC0→AD0B90 supports terrain/site
 candidate processing as a plausible opportunity. Matching hierarchy/overlay and
 landscape gates precede reference enumeration; ordinary activator/Workshop-keyword
 gates precede center/grid. Existing `static-exhaustion-04.tsv`1115 onward and

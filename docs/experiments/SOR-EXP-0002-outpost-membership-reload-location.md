@@ -61,8 +61,8 @@ Required static work was performed, bounded to position/location interfaces and 
 
 | Domain | Static evidence / preparation | Future capture and limitation |
 |---|---|---|
-| Reference XYZ / rotation | ObjectReference.psc:523/526/529 and 372/375/378 | Record raw query triplets, API names, units/frame UNKNOWN until qualified |
-| Location, cell, worldspace | ObjectReference.psc:405/517/640; Is3DLoaded:705 | Identity/context fields separately; do not infer equivalent coordinate frames |
+| Reference XYZ / rotation | ObjectReference.psc: 523/526/529 and 372/375/378 | Record raw query triplets, API names, units/frame UNKNOWN until qualified |
+| Location, cell, worldspace | ObjectReference.psc: 405/517/640; Is3DLoaded: 705 | Identity/context fields separately; do not infer equivalent coordinate frames |
 | Cell-local / worldspace XYZ | No conversion demonstrated | UNAVAILABLE; do not relabel reference XYZ |
 | Body-relative XYZ / surface-map | No selected-reference conversion established | UNAVAILABLE; no speculative spherical transform |
 | Latitude/longitude | CK labels and game name-binding sites found | Candidate only; object type, units, handedness, range, body and outpost association UNKNOWN |

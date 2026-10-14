@@ -1,7 +1,7 @@
 # Proposed revised run card 01 — reachability before interpretation
 
 2026-10-11. SOR-EXP-0031 / SOR-EV-0039. **OFFLINE REVIEW DRAFT; NOT EXECUTABLE
-WITH0.1.0. NO LIVE/SETTINGS/DEPLOYMENT AUTHORITY.** Read the
+WITH 0.1.0. NO LIVE/SETTINGS/DEPLOYMENT AUTHORITY.** Read the
 [revised acquisition plan](revised-acquisition-plan-01.md) and its scope/risks with
 this card. This is one proposed diagnostic attempt after a separately reviewed
 implementation. It does not authorize running the existing plugin again.
@@ -10,17 +10,17 @@ implementation. It does not authorize running the existing plugin again.
 
 Before any deployment/live approval, replace BLOCKED with actual reviewed values
 in an immutable release-lock manifest; retain this proposal and the amendment.
-No invented hash, wildcard module approval or old0.1.0 acceptance is sufficient.
+No invented hash, wildcard module approval or old 0.1.0 acceptance is sufficient.
 
 | Lock field | Current value / required evidence |
 |---|---|
-| Candidate | Proposed SorNativePositionOracle0.2.0/schema2; NOT BUILT. |
+| Candidate | Proposed SorNativePositionOracle0.2.0/schema 2; NOT BUILT. |
 | ZIP/DLL/config/tool hashes, exact paths | BLOCKED — versioned build plus membership/hash manifest required. Install path remains `Data/SFSE/Plugins/SorNativePositionOracle.dll` and `.config`; any extra installed policy file must appear in the reviewed manifest/removal checks. |
 | Module policy | BLOCKED — exact reviewed identities/roles/phases; forbidden overlays below cannot be excepted by a policy row. |
 | Six patch guards | BLOCKED — full PE/runtime preimage/signature/relocation/relay ledger for four CALLs and two slots. |
-| Schema/health protocol | BLOCKED — exact event sizes/format, Q/E/C scopes, tested1-second heartbeat and15-second action/ack deadline or explicitly reviewed replacement. |
+| Schema/health protocol | BLOCKED — exact event sizes/format, Q/E/C scopes, tested 1-second heartbeat and 15-second action/ack deadline or explicitly reviewed replacement. |
 | Qualification and source snapshot | BLOCKED — all mandatory plan tests, source hashes and independent ACCEPT. |
-| Game/SFSE/loader | Reverify retail1.16.244.0 / existing pins below; no compatibility transfer. |
+| Game/SFSE/loader | Reverify retail 1.16.244.0 / existing pins below; no compatibility transfer. |
 | User approval | BLOCKED — exact release lock/card, overlay-setting changes and named diagnostic controls must be approved. |
 
 User controls settings, Vortex installation/removal, `sfse_loader.exe` launch,
@@ -44,8 +44,8 @@ Protected existing source-save entries in
 | Save25 | `Save25_D6036588M417474696C61204B6972616C79_000231_20261009102224_4_0_4.sfs`; `d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f5` |
 | Save26 | `Save26_D6036588M417474696C61204B6972616C79_000241_20261010012454_4_0_4.sfs`; `2b4781e75226f2ff7c6aa47470fb47ff179c1754461aa208c46716d7c3935104` |
 
-Also protect the two immutable archive copies, frozen23 predictions and
-observer0.1.1 using the retained six-pin baseline; lock their exact paths/hashes
+Also protect the two immutable archive copies, frozen 23 predictions and
+observer 0.1.1 using the retained six-pin baseline; lock their exact paths/hashes
 in the new release manifest. Loads use the named, verified existing entries; no
 tool writes them, no manual save/overwrite or active-playthrough replacement.
 Inventory save-folder names/sizes/hashes before launch and after exit so incidental
@@ -61,7 +61,7 @@ After explicit settings/deployment approval only, with Starfield/loader absent:
    overlay/capture features, and confirms no other injector/overlay/observer is
    enabled for this launch. Preserve exact settings and attestation locally.
 2. User installs the exact approved ZIP through Vortex profile `Starfield - SFSE`;
-   only this reviewed SFSE plugin is deployed. Preserve observer0.1.1 artifacts.
+   only this reviewed SFSE plugin is deployed. Preserve observer 0.1.1 artifacts.
 3. Codex verifies actual deployed bytes and configuration, module-policy hash,
    sources, protected inputs, actual game/SFSE/loader files, absence of target and
    debugger processes, save-folder inventory and caller-available
@@ -76,10 +76,10 @@ No fallback to Steam/NVIDIA exceptions, service termination or altered DLLs.
 ## C. Command contract — fill and verify during implementation review
 
 The PowerShell templates below preserve the existing tool interface, but **must
-not be run now**. `release-lock.json`, version2 tools and policy enforcement do
+not be run now**. `release-lock.json`, version 2 tools and policy enforcement do
 not yet exist. The reviewed final card must give the actual absolute lock path,
 SHA256 and supported command help/output schemas. A failed/missing schema is a
-gate failure; the current0.1.0 tools cannot clear the new mandatory checks.
+gate failure; the current 0.1.0 tools cannot clear the new mandatory checks.
 
 ```powershell
 # FUTURE TEMPLATE ONLY: use the absolute lock path and its separately approved SHA256.
@@ -92,7 +92,7 @@ $oracleTools = $oracleLock.tool_directory
 ```
 
 Run from `D:/Projects/starfield-outpost-research`. Independently hash the lock
-before trusting paths, verify tools against its snapshot, and require exit0,
+before trusting paths, verify tools against its snapshot, and require exit 0,
 all named checks true and an untouched new receipt. No automatic rebuild or
 download. Preflight must explicitly report all new environment/policy/protected
 checks, not just reuse0.1.0's overall boolean. User attestation and future runtime
@@ -112,7 +112,7 @@ sole-thread gate **before any six edits**. Require a flushed admission receipt
 with PID/creation FILETIME, actual base, clock, source/policy/module hashes,
 phase and explicit checks. Inventory/hash failure, forbidden/unknown module,
 thread timeout or preimage mismatch means NOT_READY and no installation when
-refusal preceded mutation.120-second sole-thread wait is the maximum; no thread
+refusal preceded mutation. 120-second sole-thread wait is the maximum; no thread
 suspension or reduced check.
 
 Find one unique new session under
@@ -125,7 +125,7 @@ full main-menu module inventory against its approved phase policy again.
 
 READY is initialization, not release for gameplay. Require a fresh worker heartbeat
 and a durable acknowledgement of a unique, newly written control nonce within
-the qualified15-second deadline. This worker-only challenge must not execute an
+the qualified 15-second deadline. This worker-only challenge must not execute an
 engine function. The final tool CLI for writing/checking the nonce is BLOCKED
 until implementation; no invocation of old `mark` is an acknowledgement.
 
@@ -156,7 +156,7 @@ is requested by the operator tooling. The user performs one complete matrix:
 | Save25 / SOR-003 | Load exact Save25. Confirm actual location/build closed, ordinary arrival/settling and no-action closed control. Open existing outpost build mode without selecting/placing/moving anything; no-action open control; close. |
 | Save25 / SOR-002 | Normal map fast travel to the existing SOR-002; confirm completion/closed, no-action control, open/no-change control, close. No new landing location or alternate route. |
 | Save25 / SOR-003 return | Normal fast travel to existing SOR-003; confirm completion/closed, no-action control. |
-| Save26 | Select exact existing Save26 through normal UI; confirm actual SOR-003. Repeat the same003→002→003 controls. Its existing relocation is input; do not relocate anything. |
+| Save26 | Select exact existing Save26 through normal UI; confirm actual SOR-003. Repeat the same 003→002→003 controls. Its existing relocation is input; do not relocate anything. |
 
 If site, route or UI capability differs from the card, stop that action and
 preserve the checkpoint; no silent substitution. The card allows ordinary loading
@@ -191,7 +191,7 @@ Close admission through the qualified STOP path once:
 ```
 
 Require terminal identity, a **fresh retirement timestamp/QPC**, active Q/E/C
-scopes drained, flushed offsets/hash chain and loss/depth/health status.0.1.0's
+scopes drained, flushed offsets/hash chain and loss/depth/health status. 0.1.0's
 reused startup UTC is not a retirement clock. All six patches/islands/DLL remain
 resident and inert until process exit; no hot-unhook or original-byte restoration
 claim. A stuck native call or disk failure may prevent a complete terminal receipt.
@@ -219,13 +219,13 @@ separately; no deletion/overwrite or automatic evidence upload/Git operation.
 
 ## G. Analysis, completion and reporting
 
-Verify original byte hashes, journal prefixes, schema2 sequencing/pairing and
+Verify original byte hashes, journal prefixes, schema 2 sequencing/pairing and
 Q→E→C identity before interpreting absence. Use the plan's diagnostic outcome
 table; heartbeat confirms worker response, not engine-hook reachability. Do not
 combine unknown/orphan scopes or turn sampled gate fields into observed branches.
 
 Native output analysis retains all original identity/frame constraints. Frozen
-Save25/26 identities:002 `f1517de43e171745`,003 `0efca066ee4c7b9b`, body0003F59F.
+Save25/26 identities: 002 `f1517de43e171745`,003 `0efca066ee4c7b9b`, body 0003F59F.
 Require actual ordinary reference/base/Workshop/source/input/result linkage;
 operator location is testimony. Compare actual input/output/intermediate bytes
 against unchanged frozen expectations only after capture. Conditional native-input

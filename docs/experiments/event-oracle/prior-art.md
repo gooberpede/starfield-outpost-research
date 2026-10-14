@@ -12,7 +12,7 @@ Source reports below are not independent native validation.
 | [Outpost building broken](https://steamcommunity.com/app/1716740/discussions/0/3824174193412391788/), SOR-S-0135 supplement | Search-index excerpt; MMZ>Traveler, 2023-12-03; direct page gated. | Reports rotating circle/grey options specifically in aerial view and no successful workaround in that person's case. This preserves variation instead of assuming every report describes one failure. |
 
 The operator's present intermittent symptom and exit/re-enter workaround remain
-USER-REPORTED. Phase1 did not capture a failing episode. The older reports support
+USER-REPORTED. Phase 1 did not capture a failing episode. The older reports support
 testing camera/readiness transitions, but establish neither unmodified vanilla
 configuration nor the same executable defect in 1.16.244.0.
 

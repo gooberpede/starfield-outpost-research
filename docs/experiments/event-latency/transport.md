@@ -1,6 +1,6 @@
 # Durable transport and timing contract
 
-SOR-EXP-0026, external adapter0.1.3; original implementation in
+SOR-EXP-0026, external adapter 0.1.3; original implementation in
 [epoch_writer.h](../../../debugger/event-oracle/epoch_writer.h),
 [materializer](../../../debugger/event-oracle/materialize_epochs.py) and
 [profile.h](../../../debugger/event-oracle/profile.h). Native ABI/site/pairing/
@@ -14,9 +14,9 @@ replay remains the [0.1.2 contract](../event-instrumentation/contract.md).
 |---|---|
 | 0..7 | ASCII SOREP013 |
 | 8..15 | Payload byte length, uint64 LE |
-| 16..23 | Consecutive record sequence starting1, uint64 LE |
-| 24..55 | Previous frame digest; zero32 for first |
-| 56..87 | SHA256(sequence LE8 + previous digest32 + payload) |
+| 16..23 | Consecutive record sequence starting 1, uint64 LE |
+| 24..55 | Previous frame digest; zero 32 for first |
+| 56..87 | SHA256(sequence LE8 + previous digest 32 + payload) |
 | 88 onward | UTF-8 JSON payload; raw records include exact bytes as data_hex plus section hash/length/address/origin/acquisition UTC |
 
 Outer record sequence is distinct from adapter event sequence, native invocation
@@ -27,7 +27,7 @@ frame changes/reordering/removal in the middle. Final truncation/removal cannot
 be distinguished from an earlier stop without independent receipts/terminal state.
 No cryptographic authenticity or completeness-from-hash claim.
 
-The writer checks the40-billion caller-available guard before each record/chunk,
+The writer checks the 40-billion caller-available guard before each record/chunk,
 writes to its sole new append handle and calls FlushFileBuffers before acknowledging
 that logical operation. No per-boundary aggregate delays a completed field's
 durability. A valid recovered frame proves retained bytes, not that a flush which

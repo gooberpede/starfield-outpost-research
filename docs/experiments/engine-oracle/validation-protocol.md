@@ -1,13 +1,13 @@
 # Frozen validation protocol
 
 **2026-10-10 executed supplement, SOR-D0042 / EXP0023:**
-[Phase1 results](Phase1-results.md) preserve all16 conditions and the original
+[Phase 1 results](Phase1-results.md) preserve all 16 conditions and the original
 qualification rules. Conditional exact centers and stale-site counterexamples
 do not promote to active oracle/grid equivalence. Original predictions unchanged;
 no posthoc epsilon, coordinate offset or radius expectation fitted.
 
-**2026-10-10 supplement, SOR-D0041:** [Phase1 operator card](Phase1-Save25-Save26-operator-run-card.md)
-implements the existing frozen Save25/26 comparisons with the deployed0.1.1
+**2026-10-10 supplement, SOR-D0041:** [Phase 1 operator card](Phase1-Save25-Save26-operator-run-card.md)
+implements the existing frozen Save25/26 comparisons with the deployed 0.1.1
 instrument, pending review/live approval. [Fixed planetary POIs](fixed-poi-validation-candidates.md)
 may provide additional independent validation cases only after relevant shared
 native-algorithm use is demonstrated. Choose future outpost/POI cases by branch
@@ -16,8 +16,8 @@ Known fixed anchors are not blind holdouts, and cannot substitute for Workshop
 compensation tests. The original predictions/comparison policy below are unchanged.
 
 Precommitted under EXP0021 before **any new runtime oracle output**. Selected
-[inputs](inputs.json) and [predictions](predictions.json) contain23 known active
-cases: Save25/26 each002/003, S1/S1C, and17 mature Save52. They are discovery
+[inputs](inputs.json) and [predictions](predictions.json) contain 23 known active
+cases: Save25/26 each 002/003, S1/S1C, and 17 mature Save52. They are discovery
 regressions, not blind holdouts. SHA-256 freeze is retained in the review receipt.
 Manual network JSON supplies comparison labels only, not model inputs.
 
@@ -28,11 +28,11 @@ Manual network JSON supplies comparison labels only, not model inputs.
 | Save26 SOR-002 | a266f542eb858843efd19241 | [1,10465,21122] | [22.700454711914062,73.04623413085938] |
 | Save26 SOR-003 | 0369b243f0b019457220ffc1 | [1,10467,21144] | [56.820404052734375,59.05859375] |
 
-Body0003F59F (Kreet) for these controls. Reference/parent saved tokens and native
+Body 0003F59F (Kreet) for these controls. Reference/parent saved tokens and native
 pointers/handles/FormIDs are distinct; associate by qualified body/base/transform/
-Workshop identifier98 plus operator context, not numeric resemblance. Save26
+Workshop identifier 98 plus operator context, not numeric resemblance. Save26
 SOR-003 raw moved XYZ must differ while compensated center remains bit-identical.
-Unmoved002 must remain distinct and invariant. Retain wrong/ambiguous matches.
+Unmoved 002 must remain distinct and invariant. Retain wrong/ambiguous matches.
 
 ## Comparisons fixed before collection
 
@@ -40,14 +40,14 @@ Unmoved002 must remain distinct and invariant. Retain wrong/ambiguous matches.
    associations. A passing integrity check does not establish semantics.
 2. For stored native output, preserve all before/after bytes, pointer provenance,
    center/radius, flags and active-context diagnostic. Classify freshness and
-   frame independently. Native radius150 is the existing ordinary definition
+   frame independently. Native radius 150 is the existing ordinary definition
    expectation, conditional on that active ordinary workshop; it is not fitted
    to the capture and not the primary durable-position result.
 3. With same-frame/identity/freshness established, require **exact 12-byte center
    equality**, body equality and controlled invariance/distinction. No numerical
    tolerance is permitted for this comparison. Capture outside build mode and
    switch controls are negative freshness controls, not extra passing samples.
-4. For callback output require native resolution256 and block12, exact body,
+4. For callback output require native resolution 256 and block 12, exact body,
    base hierarchy, input reference and translation. Compute the separately
    predicted translated center by native-order float32 additions, then float32
    scale/floor and signed seam offset from the *captured native input base*.

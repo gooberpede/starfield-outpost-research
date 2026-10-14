@@ -5,11 +5,11 @@ Kreet landing point loaded from Save27**, with moderate confidence of a useful Q
 opportunity and no guarantee of Q, a distinguishing branch, E or full equivalence.
 This is offline analysis; no new landing or replay occurred.
 
-The primary maintainer-operated020 session has18 paired Q calls returning1 and
+The primary maintainer-operated 020 session has 18 paired Q calls returning 1 and
 zero E/callback/center/grid observations. The [Q/E reconstruction](../q-to-e-control-flow.md)
-recovers caller `0x140AD93FA`: result1 continues the iterator, rather than indicating
+recovers caller `0x140AD93FA`: result 1 continues the iterator, rather than indicating
 success/failure. Previous planet-map selection alone had zero Q; the subsequent
-landing receipt reports Q18/E0/C0 and36 flushed records. Primary local sources are
+landing receipt reports Q18/E0/C0 and 36 flushed records. Primary local sources are
 `.local-work/native-oracle-020/operations/continuation-N1-{prerequisites,baseline-save,planet-map,landing,landed-save}-01.json`
 and session `session-19908-48616078`. These are operator testimony and observer
 evidence with different scopes, not interchangeable proof of geography.
@@ -21,10 +21,10 @@ reference search `0x14077F900`; a non-null result at `0x1407801BE` bypasses fall
 while the null path reaches `0x140780264` / `0x14077E350`. These build-specific static
 alternatives and Q helper lookups make cache/reuse plausible. They do not establish
 which state survives a Save27 reload. Repeating N1 is therefore not the selected
-experiment. Native addresses use retail1.16.244.0, preferred base `0x140000000`,
+experiment. Native addresses use retail 1.16.244.0, preferred base `0x140000000`,
 not runtime pointers or save offsets.
 
-All18 candidate angle pairs already occur in global unit6 in both saves, as recorded
+All 18 candidate angle pairs already occur in global unit 6 in both saves, as recorded
 in `.local-work/q-to-e/saved-correspondence-04/receipt.json`. This does not identify
 the chosen destination, prove visitation or establish cache persistence/live form
 remapping. A new unmarked terrain point reduces known reuse ambiguity but cannot

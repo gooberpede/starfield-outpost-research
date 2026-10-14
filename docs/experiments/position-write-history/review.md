@@ -10,7 +10,7 @@
 native/decoder/control/lifecycle fixtures PASS; independent reviewer **ACCEPT**.
 Final snapshot disposition and its practical limits are recorded below.
 **Science:** acquisition feasibility supported within the audited writer set;
-actual060 native history/full restored XYZ equivalence NOT_TESTED. No full
+actual 060 native history/full restored XYZ equivalence NOT_TESTED. No full
 reference lifetime, exhaustive writer set or no-write result is claimed.
 **Target:** no Starfield execution/attachment/deployment; only disposable fixtures.
 **Authority:** no staging/commit/push, save/config/database/Vortex mutation,
@@ -32,18 +32,18 @@ and research text are not deployment admission dependencies. System /MD runtime
 dependencies, actual compiler/MASM tools and source inputs are pinned in build.json.
 No binary or native preimage is included in the text patches.
 
-Primary selected receipts: `qualification.txt` (43 PASS checks;16000 records in
-1359ms), `inspector-qualification.txt` (27 checks),
+Primary selected receipts: `qualification.txt` (43 PASS checks; 16000 records in
+1359 ms), `inspector-qualification.txt` (27 checks),
 `operational-qualification.txt` (seven checks), seven `lifecycle-*.txt` scenario
 receipts and their actual raw/journal/health/emergency/terminal artifacts.
-Raw normal fixture26 records/13 pairs; concurrent fixture16000/8000 pairs.
+Raw normal fixture 26 records/13 pairs; concurrent fixture 16000/8000 pairs.
 Missing/corrupt terminal derivatives preserve prefix and expose unconfirmed
 retirement. Cross-thread command binding and literal raw-byte Workshop IDs are
 tested independently of decoder-derived expected values.
 
-All6563 expanded historical protected pins pass before/after final qualification,
-including496 .sfs paths and prior observers/archives/sessions/frozen predictions.
-Earlier preliminary347-pin checks are disclosed in the rework ledger, not
+All 6563 expanded historical protected pins pass before/after final qualification,
+including 496 .sfs paths and prior observers/archives/sessions/frozen predictions.
+Earlier preliminary 347-pin checks are disclosed in the rework ledger, not
 retroactively relabelled full preservation. Prior Git index was historical
 metadata, excluded from inherited scientific pins; current HEAD/index are checked
 separately against this task's baseline. Initial HEAD:
@@ -58,19 +58,19 @@ raw export provenance are recorded in [static-audit.md](static-audit.md).
 
 The reviewer received the original brief/contract, current source, primary native
 and decoder/control artifacts and the final complete/task-only patches. It
-independently inspected prior050 admission/ID bytes, current fixture records and
+independently inspected prior 050 admission/ID bytes, current fixture records and
 failure traces. Its REWORK findings were corrected in this assignment: admission
 receipts, incoherent-sample quarantine, cross-thread command fixture, emergency/
 terminal corruption recovery, streaming decode, false no-write inference, STOP
 availability, literal raw-ID fixture, nonzero compensation and local-travel
-reachability wording. [Report](report.md) preserves failed01/02/03 candidates and
-completed04–10 qualification history separately from selected11.
+reachability wording. [Report](report.md) preserves failed 01/02/03 candidates and
+completed 04–10 qualification history separately from selected 11.
 
-Final independent disposition: **ACCEPT** for candidate11 and the original
-offline contract. The reviewer independently checked all20 source inputs,6563
+Final independent disposition: **ACCEPT** for candidate 11 and the original
+offline contract. The reviewer independently checked all 20 source inputs, 6563
 protected pins, ZIP/DLL identity, primary normal/high-rate/failure/recovery
-records, all51 source-ledger hashes and both forward-applied text trees. It read
-actual fixture receipts without rerunning mutating native fixtures. The716-link
+records, all 51 source-ledger hashes and both forward-applied text trees. It read
+actual fixture receipts without rerunning mutating native fixtures. The 716-link
 check is implementer-tested and receipt-supported, not independently rerun.
 
 The original verbatim reviewer return is retained locally at
@@ -119,7 +119,7 @@ uncertainty. Own-parent/world may be absent; no query-source/terrain-height datu
 is guessed. Generic capture ordering is emission/operation intervals, not an
 exact total ordering of simultaneous native stores.
 
-Local-only travel did not produce native events in050. Broader060 coverage is a
+Local-only travel did not produce native events in 050. Broader 060 coverage is a
 source-supported acquisition improvement; the prospective local-only center
 outcome remains unproven and may yield a valid partial report. No fresh native Z
 or equivalence result is asserted. The previous external-debugger path stays

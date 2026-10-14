@@ -17,22 +17,22 @@ private audit receipts remain LOCAL-ONLY. [Review package](review.md).
 
 ## Exact comparison and identity
 
-All static VAs refer to retail1.16.244.0, preferred image base `140000000`,
+All static VAs refer to retail 1.16.244.0, preferred image base `140000000`,
 SHA256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`.
 RVA = static VA minus that base. Runtime VAs in the CSV belong solely to
-PID17008, creation FILETIME134363351123063612, module base `7ff7a4950000`.
+PID 17008, creation FILETIME 134363351123063612, module base `7ff7a4950000`.
 Save offsets are decompressed-stream offsets, never compressed-file offsets.
 Hex float words below are four serialized little-endian bytes.
 
 | Workshop / genuine native operation | Native reference/center Z bits and value | Save25/26 compensated Z bits and value | Diagnostic saved minus native |
 |---|---|---|---|
-| SOR-002 / sequence96, callback49, raw file1687960 | `54296940` /3.6431474685668945 | `efd19241` /18.352506637573242 | +14.709359169006348 |
-| SOR-003 / sequence112, callback55, raw file1972248 | `404318c1` /-9.51641845703125 | `7220ffc1` /-31.89084243774414 | -22.37442398071289 |
+| SOR-002 / sequence 96, callback 49, raw file 1687960 | `54296940` /3.6431474685668945 | `efd19241` /18.352506637573242 | +14.709359169006348 |
+| SOR-003 / sequence 112, callback 55, raw file 1972248 | `404318c1` /-9.51641845703125 | `7220ffc1` /-31.89084243774414 | -22.37442398071289 |
 
 The stable Workshop IDs are `f1517de43e171745` and `0efca066ee4c7b9b`.
-Ordinary base002C60E9, Kreet body0003F59F and those captured identifiers qualify
+Ordinary base 002C60E9, Kreet body 0003F59F and those captured identifiers qualify
 the comparison; no raw saved-token-to-FormID equation is assumed. Save25 tokens
-822821/84b985 become Save26 tokens81ab50/81ab8f. The prior name association and
+822821/84b985 become Save26 tokens 81ab50/81ab8f. The prior name association and
 relocation control distinguish the identities. Every comparison CSV row records
 its saved reference, parent, source key, record/field offsets, compensation,
 native pointer/FormID and whether the save was actually loaded.
@@ -45,19 +45,19 @@ geometry or observed Save26 load. Twenty repeats per identity establish stable
 sampled outputs, not twenty independent restoration trials.
 
 The query source-world key `02b20e79528028e0` and actual Q/E/callback descriptor
-chain are reverified for all40 cases. They qualify the **2D query source frame**.
+chain are reverified for all 40 cases. They qualify the **2D query source frame**.
 The requested site worlds, enumeration cells and direct reference+b0 fields are
 different joins; both direct fields are zero. The selected own-parent and vertical
 frame remain UNKNOWN. Matching that key cannot fill the missing reference flag.
 
 ## Saved fields and the first live write
 
-The framed case5 initial body contains a shape byte,12 XYZ bytes, optional
+The framed case 5 initial body contains a shape byte, 12 XYZ bytes, optional
 rotation words and a frame byte (or compact frame shorthand). Parent/base/self
-identities are separate queued references. `141835450` writes the12 bytes;
+identities are separate queued references. `141835450` writes the 12 bytes;
 `141835c20` reads them at `141835c6e–c7d`, reconstructing frame shorthand at
-`141835cd5–cff`. The frame mask20 derives inversely from ref+d3 mask02 in
-`141832fd0` case5 (`1418334fc–506`). It records save-time state, not capture-time
+`141835cd5–cff`. The frame mask 20 derives inversely from ref+d3 mask 02 in
+`141832fd0` case 5 (`1418334fc–506`). It records save-time state, not capture-time
 state or an equation between the two bytes' other bits.
 
 Fresh decoding rechecks original/decoded hashes and all selected field bytes in
@@ -70,7 +70,7 @@ height/activation epoch. Earlier [typed save/frame work](../static-exhaustion/ca
 supplies those independently qualified parent joins.
 
 `141833b20` first calls the initial reader and parent/world/cell selector
-`1418325a0`. Its created-reference case tests saved20 at `141833c9f–cb0`.
+`1418325a0`. Its created-reference case tests saved 20 at `141833c9f–cb0`.
 For actual `0x0b`, it jumps past **both** the cell conversion
 (`141833d4f–d7c`) and explicit component-edge fallback (`141833ee1–fff7`).
 It constructs the reference through `1405a0520`; at `1405a14d3–da` that routine
@@ -79,12 +79,12 @@ Z to reference+94 at `140b4e4a5–ab`, with no terrain arithmetic. Thus this is
 the precise point at which the restored argument becomes current reference Z.
 It does **not** prove that it is the last write before the later Workshop call.
 
-For saved20-set, the first branch obtains XY cell displacement and Z through
+For saved 20-set, the first branch obtains XY cell displacement and Z through
 `140ad3ed0 →140ad3240 →140ada240`; ADA240 chooses a typed world-component edge
 and returns edge+30, or zero on absence/invalidity. The alternative explicit
 lookup in the loader obtains another keyed edge+30 and performs VADDSS. Those
 are separately qualified selections, not necessarily the later ADA3A0 selection.
-The initial loader rewrites d3 only for saved20-set at `1418342b1–cb`.
+The initial loader rewrites d3 only for saved 20-set at `1418342b1–cb`.
 
 ## Later frame conversion, height production and center consumption
 
@@ -105,17 +105,17 @@ flowchart TD
   Current --> Center[F4AB80 plus Workshop68 compensation]
 ```
 
-`140b734c0` compares old d3 mask02 with the requested bit, skips when equal,
+`140b734c0` compares old d3 mask 02 with the requested bit, skips when equal,
 otherwise calls `140b73310` with the **already signed** translation. B73310 adds
 XYZ with scalar binary32 arithmetic; `140b7334b–66` writes Z. B734C0 then changes
-only mask02. `140acd180` constructs XYZ from100×edge integer XY and edge+30 Z
+only mask 02. `140acd180` constructs XYZ from 100×edge integer XY and edge+30 Z
 at `140acd1db–202`; it collects references and uses immediate `140b4a0b0` or
 queued `1418c28b0`, both reaching ordinary virtual+7f8. This is an actual
 edge→reference-write dependency. A queue may make construction and application
 epochs different. It was not instrumented in the preserved capture.
 
 `141856d10` is a **preparation-output** transformation: it tests world kind,
-reference+d3 mask02, ADA760 status/validity and ADA3A0 selection, then subtracts
+reference+d3 mask 02, ADA760 status/validity and ADA3A0 selection, then subtracts
 XYZ at `141857055–80`. It writes its output structure, not reference+94.
 Finding that subtraction cannot prove the sampled reference took a corresponding
 conversion. The query/grid translation is XY only; its third sampled word is
@@ -135,7 +135,7 @@ They are not raw beacon height-above-ground or planetary elevation definitions.
 Their selected component, samples, height modes and call-time state are absent.
 Asset decoding cannot choose these missing invocation-specific inputs.
 
-Mask02 is an operational frame/registration marker, **not an unconditional
+Mask 02 is an operational frame/registration marker, **not an unconditional
 certificate that a height translation occurred**. The additional writer census
 finds constructor/reset, plugin DATA load, replacement/move, registration and
 placement families. In particular `1417e2180` can set it after registration or
@@ -157,10 +157,10 @@ relocation writer/saver/loader and reset counterexample remain in the
 |---|---|
 | Saved Z equals native Z, or simple sign reversal | Exact two-word comparisons FAIL for both geometries. |
 | Common additive Z shift | Opposite signed required additions reject one constant for these two geometries in the same query producer (non-atomic captures). This does not reject per-site height transformations. |
-| Inherited8× or1/8 scale | Binary32 numeric comparisons FAIL for both saved center values; public BTD scaling also lacks a validated restoration join. No inference about arbitrary terrain encodings. |
-| Compensation/return-buffer error | All40 raw ref XYZ equal actual center output; compensation is zero. Rejected within sampled coverage. |
-| Created-load edge addition explains saved0b | Explicit mask20 branch bypass rejects this as the sole transformation for these saved inputs. Later conversion survives. |
-| Flag02 always implies Z addition | Metadata/registration writers supply counterexamples to that implication. |
+| Inherited 8× or 1/8 scale | Binary32 numeric comparisons FAIL for both saved center values; public BTD scaling also lacks a validated restoration join. No inference about arbitrary terrain encodings. |
+| Compensation/return-buffer error | All 40 raw ref XYZ equal actual center output; compensation is zero. Rejected within sampled coverage. |
+| Created-load edge addition explains saved 0b | Explicit mask 20 branch bypass rejects this as the sole transformation for these saved inputs. Later conversion survives. |
+| Flag 02 always implies Z addition | Metadata/registration writers supply counterexamples to that implication. |
 | XY source-key match proves XYZ | Distinct reference/world/vertical producer dependencies reject this inference. |
 | Selected per-site edge translation explains native Z | Mechanism exists; event flag, signed vector, edge identity/height and call history are not observed. UNKNOWN, not falsified or validated. |
 | Placement/replacement writer explains native Z | Raw setter and other applicable writer families exist; producing invocation/input absent. UNKNOWN. |
@@ -186,8 +186,8 @@ with these operands would reopen the result.
 ## Executable contract and validation
 
 [Isolated diagnostic](../../../save-analysis/scripts/workshop_z_diagnostic.py)
-leaves previous positioning code and23 expected predictions unchanged. It
-implements the grounded scalar center, pre-construction mask20 bypass/addition,
+leaves previous positioning code and 23 expected predictions unchanged. It
+implements the grounded scalar center, pre-construction mask 20 bypass/addition,
 preparation subtraction and ordinary bit-transition addition. All require
 caller-qualified inputs and finite normal/zero binary32 round-to-nearest values.
 Missing branch state/height returns `UNKNOWN`; the complete saved-to-observed
@@ -208,26 +208,26 @@ commands, outputs and source hashes; passing tests do not turn B into A.
 Offline authorized reads/exports only; no game launch/process access, debugger,
 deployment, save/config/analysis edits, third-party execution from consulted
 sources, staging, commit, push or external disclosure. Existing installed
-Ghidra12.1.2/JDK21 and CPython3.14.3/stdlib plus project-owned readers were used.
-Both drives passed the40,000,000,000-byte caller-available guard before substantial
+Ghidra 12.1.2/JDK 21 and CPython 3.14.3/stdlib plus project-owned readers were used.
+Both drives passed the 40,000,000,000-byte caller-available guard before substantial
 processing. Save scratch was temporary; ignored native and audit derivatives remain.
 
 Local task directory `.local-work/workshop-z-restoration/` retains baseline,
 capture-recheck, saved-audit, uncapped native instructions, scalar/test receipts,
 preservation and package manifests. Source ledger pins selected exports, logs,
-inputs and derivatives. The prior60-file seal and41 source pins are rechecked;
-all23 frozen predictions and their inputs retain their published hashes.
+inputs and derivatives. The prior 60-file seal and 41 source pins are rechecked;
+all 23 frozen predictions and their inputs retain their published hashes.
 The capture recheck reuses the project-owned prior audit with only new output
 paths; fresh save reads independently recheck selected framing/field bytes.
 
 Failures/corrections are retained: Windows `python` alias was inaccessible, so
 the pinned CPython path was used; one Ghidra export failed on the concurrent
 read-only project lock and was retried after completion; optional vtable lookups
-initially treated slot144b967b8 as a table base. Correct base144b95fb8 and concrete
+initially treated slot 144b967b8 as a table base. Correct base 144b95fb8 and concrete
 slots were then verified. Wrong lookup results were not used as REFR evidence.
 The original reader capped instruction excerpts; uncapped project-owned exports
-supplement those sections. The169-hit d3 census covers textual displacement
-matches in14,392,060 existing instructions, not aliases/overlapping stores or
+supplement those sections. The 169-hit d3 census covers textual displacement
+matches in 14,392,060 existing instructions, not aliases/overlapping stores or
 unknown functions. No fault/search failure is used as scientific negative proof.
 
 Public findings and URLs/revision limits are recorded separately by the specialist
@@ -239,4 +239,4 @@ methods, Ghidra/CPython tools and consulted SFSE/CommonLibSF/xEdit/fo76utils wor
 are credited in [sources](../../SOURCES.md) and [credits](../../../CREDITS.md).
 No outside implementation or licence basis was adopted.
 
-The first scalar draft passed seven fixtures but incorrectly used compensation Z alone to choose zero-copy. Native F4AB80 checks all three components. A new mixed X-nonzero/Z-zero signed-zero counterexample exposed that omission: the draft would preserve -0, while native addition yields +0. The corrected diagnostic requires the complete vector and retains that negative fixture. Actual050 all-zero and earlier moved-vector comparisons are unchanged. This implementer-caught correction is not attributed to the independent reviewer.
+The first scalar draft passed seven fixtures but incorrectly used compensation Z alone to choose zero-copy. Native F4AB80 checks all three components. A new mixed X-nonzero/Z-zero signed-zero counterexample exposed that omission: the draft would preserve -0, while native addition yields +0. The corrected diagnostic requires the complete vector and retains that negative fixture. Actual 050 all-zero and earlier moved-vector comparisons are unchanged. This implementer-caught correction is not attributed to the independent reviewer.

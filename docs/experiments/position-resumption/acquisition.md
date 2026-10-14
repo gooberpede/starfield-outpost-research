@@ -8,17 +8,17 @@ center helper and terrain-grid calculation in **the same invocation**, with
 reference/body identity, input base/translation and epoch. Another worker tuple
 snapshot cannot distinguish refresh, retention, wrong workshop or rebase.
 
-Candidate: an in-process SFSE observer of natural terrain callback140ad0b90
-(RVAad0b90), center call around140ad0c3b and post-quantization boundary140ad0d3b.
-Capture helper140f4ab80's copied/compensated result, native input reference,
-typed Workshop identifier98, body/world keys, pretranslation center,
+Candidate: an in-process SFSE observer of natural terrain callback 140ad0b90
+(RVA ad0b90), center call around 140ad0c3b and post-quantization boundary 140ad0d3b.
+Capture helper 140f4ab80's copied/compensated result, native input reference,
+typed Workshop identifier 98, body/world keys, pretranslation center,
 binary32 translation, translated bits, local floor, selected base/hierarchy,
 result hierarchy and grid parameters. Nest records by actual thread and invocation
 ID; do not combine equal-valued unrelated calls. Correct intermediate/register
 contracts from EXP0024/0025 must be verified against instructions before a hook
 is implemented. No injected native calls or forced processing are proposed.
 
-Natural trigger candidate14077e350 reaches terrain enumeration; opening an
+Natural trigger candidate 14077e350 reaches terrain enumeration; opening an
 existing outpost alone does not guarantee this callback. Existing direct helper
 callers can supply a narrower center-only check, but cannot substitute for the
 grid branch. Record zero-hit as NOT_OBSERVED, never an arithmetic failure.
@@ -29,7 +29,7 @@ Before any live decision: offline qualification must establish exact instruction
 preservation, register/stack/flags/SIMD/FP-environment preservation, nested scopes,
 bounded concurrency/buffering, lifetime-safe copying, durable flushing/loss
 accounting, unwind/exception behavior and clean disable/retirement. No safety
-qualification is claimed now. Observer0.1.1 success does not qualify new hooks.
+qualification is claimed now. Observer 0.1.1 success does not qualify new hooks.
 
 A later specifically authorized run would protect original Save25/26 and a
 separately chosen site-relative holdout, freeze predictions before its independent

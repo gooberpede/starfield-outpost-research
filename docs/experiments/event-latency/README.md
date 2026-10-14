@@ -12,7 +12,7 @@ launch/attachment/deployment, save/database mutation, staging, commit or push.
 
 **The dominant measured cost is the synchronous evidence writer.** A timing-only
 0.1.2 derivative's serial center-only control spends169.078 seconds in the writer
-path across83 boundaries; memory APIs total3.341 milliseconds, control APIs
+path across 83 boundaries; memory APIs total 3.341 milliseconds, control APIs
 15.954 milliseconds and explicit suspension0.560 milliseconds. Required disk
 queries cost192.413 milliseconds. Native memory acquisition/replay does not
 explain the second-scale pauses in this fixture. [Full comparison and receipts](qualification.md).
@@ -28,7 +28,7 @@ is used. Durability is not exchanged for latency.
 | Element | Scoped answer |
 |---|---|
 | Confidence | Direct QPC observations with exclusive component accounting; high confidence in the sampled I/O bottleneck. Test outcomes establish only disposable behavior. |
-| Coverage | Pinned1.16.244.0 guards; same original fixture workload, center/full/independence/zero/retirement/writer controls; storage/scheduler/load effects remain machine-specific. |
+| Coverage | Pinned 1.16.244.0 guards; same original fixture workload, center/full/independence/zero/retirement/writer controls; storage/scheduler/load effects remain machine-specific. |
 | Completeness | Pure kernel transport cannot be isolated from the scheduler and instruction execution by debugger timestamps. The replay-delivery upper bound is reported separately; unrelated waits are not called debugger overhead. |
 | Acquisition correctness | All process reads and identity/pairing decisions stay at the stopped boundary. Offline expansion never dereferences a target pointer. Raw native outputs, argument/context bytes and acquisition timestamps survive in the WAL. |
 | Durability | Completed logical operations call FlushFileBuffers before returning; full frame bytes, hash and metadata are together. No backlog or early continue on an unacknowledged field. Earlier valid prefixes remain recoverable without a terminal record. Physical power-loss/storage-device honesty is untested for both versions. |
@@ -57,18 +57,18 @@ The immutable copied0.1.2 baseline, all six candidate-07 controls/raw sections,
 original source/helper snapshots, generated guards, compiler receipts and prior
 review artifacts are under ignored `.local-work/event-latency/baseline-012/`.
 [Baseline hash manifest](../../../.local-work/event-latency/baseline.json) covers
-all2683 copied files; originals are unchanged. For reproduction, copy its
+all 2683 copied files; originals are unchanged. For reproduction, copy its
 `working-tree/` into a NEW scratch tree and use that tree's source README command
 with a NEW run name and the pinned installed MSVC/SDK/game. Do not run a build in
 the preserved baseline itself. The original versioned ZIP is preserved too.
 
 The profiling derivative has separate source snapshots and compiler/fixture/
-adapter hashes; it is not substituted for the0.1.2 baseline. Its original
+adapter hashes; it is not substituted for the 0.1.2 baseline. Its original
 preparer and exact built sources are retained in the review package. Current
 0.1.3 reproduction uses [the source README](../../../debugger/event-oracle/README.md).
 No new third-party code, licence acceptance, download, contact or disclosure.
 `capture_epoch.h` is an attributed local adaptation of this project's collector;
-shared observer0.1.1/EXP0002 sources remain unchanged. Existing SOR-S-0132/
+shared observer 0.1.1/EXP0002 sources remain unchanged. Existing SOR-S-0132/
 SOR-P-0002 provenance applies to the inherited methods.
 
 - [Qualification, failures and numerical comparison](qualification.md).
@@ -86,14 +86,14 @@ adapter/source unchanged; no live execution or scientific promotion.
 ## First authorized center-only attempt
 
 2026-10-11: maintainer approved the exact card and accepted stall exposure.
-[Attempt result](center-smoke-20261011-result.md): preflight PASS; adapter0.1.3
+[Attempt result](center-smoke-20261011-result.md): preflight PASS; adapter 0.1.3
 exited before READY/evidence, original code/no debugger independently confirmed
 while target survived. User exited normally, protected inputs unchanged.
 No acquisition/live qualification; root cause UNKNOWN, no automatic retry.
 
-## Startup fail-fast diagnosis and candidate0.1.4
+## Startup fail-fast diagnosis and candidate 0.1.4
 
-[EXP0027 investigation](startup-failfast-investigation.md) reproduces0.1.3's
+[EXP0027 investigation](startup-failfast-investigation.md) reproduces 0.1.3's
 secondary timing-write exception masking primary startup errors. [Fault map](startup-fault-map.md),
 [candidate qualification](startup-014-qualification.md) and [review](startup-review.md)
 retain exact baselines and a separate threaded runtime counterexample. Original

@@ -7,7 +7,7 @@ qualification; no deployment, game launch/open, live capture, save/config change
 staging, commit, push, network or external disclosure is authorized/performed.
 HEAD `d16cb5e9ec85e756ecb0b3b45913fb8f8b35c8ec`; initial tree contained only the
 supplied untracked brief. Local HEAD was verified; no fresh remote synchronization
-check was attempted. Existing committed030 offline qualification is the starting
+check was attempted. Existing committed 030 offline qualification is the starting
 baseline, not retail qualification.
 
 ## Actual checks and preserved limits
@@ -26,18 +26,18 @@ pre-existing/overwrite targets; unchanged inspector healthy-zero versus loss.
 The terminal-presence fixture is deliberately not evidence of qualified retirement;
 unchanged inspector separately checks drain/terminal semantics.
 
-Initial actual offline audit passed273 pins; corrected offline-audit-02 passed274.
+Initial actual offline audit passed 273 pins; corrected offline-audit-02 passed 274.
 Both verified exact ZIP CRC/membership/member SHA checks,
 installed game/loader/source hashes, required directories and process-name absence.
-C caller-available86422089728 bytes; D138692280320, above40000000000 each.
-Plugin inventory was only96-byte `__folder_managed_by_vortex`, no candidate DLL.
+C caller-available 86422089728 bytes; D138692280320, above 40000000000 each.
+Plugin inventory was only 96-byte `__folder_managed_by_vortex`, no candidate DLL.
 Save inventory hashed originals without parsing or editing; Save27/28 and their
-existing archive copies match pinned identities. Prior127-file evidence manifest
-is incorporated, as are238 baseline protected pins and27 original build source pins
+existing archive copies match pinned identities. Prior 127-file evidence manifest
+is incorporated, as are 238 baseline protected pins and 27 original build source pins
 (overlapping sets, not additive totals). Eleven original PE CALL targets validated
 read-only. No process handle was opened by the audit.
 
-Existing030 native fixture results520+240, inspector30, branch6 and actual decoder12
+Existing 030 native fixture results 520+240, inspector 30, branch 6 and actual decoder 12
 are preserved qualification **read from primary retained logs**, not rerun/rebuilt
 by this procedure assignment. Twenty-three frozen predictions remain protected;
 passing prior predictions does not establish equivalence at a new landing.
@@ -50,11 +50,11 @@ PASS here means the **offline preparation criterion** is satisfied, never a live
 
 | Criterion | Status | Exact evidence / limitation |
 |---|---|---|
-|Existing byte-identical030 package/source/schema located and verified|PASS|release lock, actual build/ZIP/DLL identities; unchanged qualified sources|
+|Existing byte-identical 030 package/source/schema located and verified|PASS|release lock, actual build/ZIP/DLL identities; unchanged qualified sources|
 |Evidence-based finite single trigger and Save27/cache alternative resolved|PASS|trigger justification, primary receipts/static exports; replay freshness OPEN; unused-site contingency|
-|Save identities, ambiguity handling, actual-location confirmation, operator control|PASS|full pinned27/28 identifiers; known menu tuples; unknown labels explicitly require confirmation|
+|Save identities, ambiguity handling, actual-location confirmation, operator control|PASS|full pinned 27/28 identifiers; known menu tuples; unknown labels explicitly require confirmation|
 |Executable integrated card, accepted overlays, deployment/removal and protected copies|PASS|run card, audit, fixture copy/admission rejection; no new third-party use|
-|Realistic external cadence, fresh ACK,15-second health, immediate fault/STOP boundaries|PASS|17 fixture tests,3-second target/10-second maximum gap, unchanged worker gates|
+|Realistic external cadence, fresh ACK, 15-second health, immediate fault/STOP boundaries|PASS|17 fixture tests, 3-second target/10-second maximum gap, unchanged worker gates|
 |Raw-chain attribution, non-atomic samples, healthy-zero interpretation and closure|PASS|unchanged inspector fixture, card scientific rules; no Q-only equivalence|
 |Offline operational checks and exact review-diff package|PASS|tests-03.log, offline-audit-02; package.json with forward exact-byte applicability|
 |Independent original-evidence/tool/card completion review and rework closure|PASS|formal ACCEPT against immutable submission-02; actual checks/limits in procedure-review|
@@ -78,13 +78,13 @@ Formal reviewer requested executable module/load-order inventory, postflight com
 coverage and pre-READY STOP handling. External environment.py supplies exact local
 config/load-order contents/hashes and game metadata; ABSENT differs from unreadable,
 which fails. Future module snapshots use Toolhelp loader metadata and on-disk module
-hashes with limited creation-time checks, bounded by a30-second helper timeout; no
+hashes with limited creation-time checks, bounded by a 30-second helper timeout; no
 target memory/debugger. Seventeen tests now pass (tests-03.log), including real
 postflight composition success, protected-pin/checkpoint/inspector failures, config
 absence/unreadability, mocked module timeout and actual Toolhelp ABI against the
 test interpreter itself. No Starfield process was opened/snapshotted. Live modules
 remain NOT TESTED. Sources are existing project patterns, not new third-party code.
-Initial lock/audit retained unchanged; release-lock-02 binds274 pins including the
+Initial lock/audit retained unchanged; release-lock-02 binds 274 pins including the
 new environment tool and updated tests. New offline-audit-02 and environment-offline-01
 retain actual read-only checks; the card explains STOP CLI unavailable before READY
 requires normal exit/incident rather than pretending retirement succeeded.

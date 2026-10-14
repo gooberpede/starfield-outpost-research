@@ -1,8 +1,8 @@
 # Research interfaces and reproduction
 
-All commands run at the repository root using existing CPython3.14 and project
+All commands run at the repository root using existing CPython 3.14 and project
 modules/stdlib. No downloaded or third-party implementation is added. Use fresh
-run names. C:/D: must each retain40,000,000,000free bytes. Do not use Python-O:
+run names. C:/D: must each retain 40,000,000,000 free bytes. Do not use Python-O:
 existing evidence assertions are prerequisites, not optional optimization hints.
 Inputs and full outputs remain ignored/local. No command launches the game,
 attaches a debugger, writes saves/configuration/Ghidra analysis, or mutates Git.
@@ -15,8 +15,8 @@ python -B save-analysis/scripts/research_workshop_population.py --inputs .local-
 
 Reads manifest-qualified existing archives; hashes each before/after. Uses the
 bounded disk-backed project decoder; scratch is cleaned. Writes exclusive JSON
-under `.local-work/workshop-population-rework/FRESH-TYPED/`. Requires format27,
-observed build/plugin grammar and buffer153. Ordered footer types and independent
+under `.local-work/workshop-population-rework/FRESH-TYPED/`. Requires format 27,
+observed build/plugin grammar and buffer 153. Ordered footer types and independent
 R3 arithmetic must close exactly. Returns every reference-family record with
 actual native type, initial case/prefix, base override, partially decoded extras,
 explicit gap and queue-key leads. Unsupported extra suffixes are never absence
@@ -32,7 +32,7 @@ Reads three explicit qualified receipts, hashes before/after, writes exclusive
 `inventory.json`, `roots.csv`, `owners.csv`. `workshop-root-rework/2` retains the
 original source identity and old root identities, adds closed native single-root
 positives, corrects the one alias-bearing generated member and retains every
-old member role. It asserts actualREFR/type+offset, unique identity, no baseline
+old member role. It asserts actual REFR/type+offset, unique identity, no baseline
 collision and missing relevant alias keys. Quest-context provenance is the full
 installed scan/native cache proof in routes.md; arbitrary supplied metadata is
 not a trustworthy semantic oracle.
@@ -59,25 +59,25 @@ python -B save-analysis/scripts/research_workshop_components.py --inputs .local-
 ```
 
 Same archive/hash/space/scratch safeguards. `workshop-component-audit/1` reads
-all47global envelopes, the type6 CTName table and43ordered component sections,
-requiring exact end closure. The pinned buffer153/activity-custom-payload context
+all 47 global envelopes, the type 6 CTName table and 43 ordered component sections,
+requiring exact end closure. The pinned buffer 153/activity-custom-payload context
 is explicit; the native name/vtable chain and independent body replay qualify
 the two actual samples. It is not a general arbitrary-context serializer. Fixed
 raw fields are retained without inventing semantics. Identity-bearing fields
-are native storageID **u32** words, not raw FFFormIDs; resolve low24 as a saved
+are native storageID **u32** words, not raw FFFormIDs; resolve low 24 as a saved
 FormRef through that save's form array/plugin tables. This parser does not infer
 ownership or construction from component presence.
 
 `workshop_global_units.py`, `workshop_population.py`, `workshop_components.py`
 and `workshop_population_extras.py` are no-I/O library functions. The default-link
 CLI `workshop_default_links.py` reads the explicit qualified definition context,
-all38installed ESMs and writes a fresh local census with before/after identities.
+all 38 installed ESMs and writes a fresh local census with before/after identities.
 
 ## Original research probes and native exports
 
 `research/workshop-population/` retains original project research sources:
-type2 map, exact default catalog, activity joins, full installedALLA, native type
-registry, dispatch catalog, type4 decode/context and historical-target probes.
+type 2 map, exact default catalog, activity joins, full installed ALLA, native type
+registry, dispatch catalog, type 4 decode/context and historical-target probes.
 They read the explicit local receipt paths in each source and exclusively write
 named local receipts. To replay preserved probes, select a fresh output name in
 a copy; do not overwrite scientific evidence. `sources.csv` and final local
@@ -85,8 +85,8 @@ manifest pin the exact executed source versions; promoted copies are separately
 hashed. Full raw ESM/native/component output is never a publication artifact.
 
 `ReadSpecialist.java` is an owned read-only existing-program exporter. The revised
-PowerShell wrapper requires a fresh ASCII name/quoted addresses and40GB guards,
-then invokes the installed Ghidra12.1.2/JDK21 with `-readOnly -noanalysis`, writes
+PowerShell wrapper requires a fresh ASCII name/quoted addresses and 40 GB guards,
+then invokes the installed Ghidra 12.1.2/JDK 21 with `-readOnly -noanalysis`, writes
 new TSV/log only, and rejects existing output. It reads existing functions,
 instructions, data, symbols and xrefs; no analysis/symbol/type/comment changes.
 The historical actual runs used the preserved specialist wrappers/commands;
@@ -106,7 +106,7 @@ python -B -m unittest discover -s save-analysis/scripts -p test_outpost_record_f
 python -B -m unittest discover -s save-analysis/scripts -p test_outpost_membership.py
 ```
 
-Eighteen new adversarial tests plus61existing tests pass. These include unknown9C,
+Eighteen new adversarial tests plus 61 existing tests pass. These include unknown 9C,
 replacement/foundation/group rejection, duplicate IDs, ordered repeated type
 runs versus independent version overrides, static/actor alternatives, global
 string/pointer/bounds framing, component context/truncation/closure, clamped

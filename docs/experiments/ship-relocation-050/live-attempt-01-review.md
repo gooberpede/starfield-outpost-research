@@ -12,12 +12,12 @@ the earlier completed offline engineering contract and its ACCEPT.
 | Exact approved build, deployment and runtime admission | PASS | Sealed preflight.json, runtime-menu-admission.json; exact DLL/game/SFSE, 21 patches/19 relays and cooperative module inventory. No complete external module-state claim. |
 | Save25 identification and actual load/site | PASS | Single advance instruction and sealed operator marks; correction to SOR-003 retained. Physical save protected by hash; UI-to-file identity not independently extracted. |
 | Local control and one new Kreet landing/return | PASS | Sealed control/new-landing/return marks and action receipts; no optional save, extra travel or repeat session. Visual ship movement is operator testimony. |
-| Health, integrity, continuation and STOP | PASS | Fresh ACK receipts, 742 worker rows, complete1194 raw/journal events and retired.json; no loss, arbitrary cutoff or forced exit. |
-| Exit/removal/save preservation and sealing | PASS | Postflight6291 checks, removal/process receipt, save inventory and original60-file seal, independently rehashed. Normal exit/sync reported by maintainer. |
+| Health, integrity, continuation and STOP | PASS | Fresh ACK receipts, 742 worker rows, complete 1194 raw/journal events and retired.json; no loss, arbitrary cutoff or forced exit. |
+| Exit/removal/save preservation and sealing | PASS | Postflight 6291 checks, removal/process receipt, save inventory and original 60-file seal, independently rehashed. Normal exit/sync reported by maintainer. |
 | Scientific route/component classifications | PASS scoped | Report distinguishes request/decision, fallback marker/native grid, actual ordinary Workshop center/grid, unassociated command and full durable equivalence. |
-| Frozen comparison, nonzero and carry coverage | PASS scoped |40 rows/two geometries; native floors, cells and conditional translated XY agree, fine-to-middle carry encountered. Raw XYZ mismatch and missing loaded frame preserved; other19 rows untested. Full durable equivalence NOT TESTED. |
+| Frozen comparison, nonzero and carry coverage | PASS scoped |40 rows/two geometries; native floors, cells and conditional translated XY agree, fine-to-middle carry encountered. Raw XYZ mismatch and missing loaded frame preserved; other 19 rows untested. Full durable equivalence NOT TESTED. |
 | Durable state/provenance and review package | PASS implementer checks | Report, selected numeric CSV/source ledger and state/credit updates; complete/task-only patches, manifests and byte-exact replay checks. Prior offline work remains separate. |
-| Independent scientific review | PASS / ACCEPT | Fresh-context read-only reviewer rehashed all60 sealed files, independently checked native arithmetic and audited the final report/package. Actual return below. |
+| Independent scientific review | PASS / ACCEPT | Fresh-context read-only reviewer rehashed all 60 sealed files, independently checked native arithmetic and audited the final report/package. Actual return below. |
 
 Separate outcomes: sampled native component agreement POSITIVE; full saved-frame
 equivalence NOT TESTED; instrumentation integrity PASS; target exit/removal PASS

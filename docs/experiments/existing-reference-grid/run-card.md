@@ -1,4 +1,4 @@
-# Proposed integrated run card: observer0.4.0 / Save28 → SOR-003
+# Proposed integrated run card: observer 0.4.0 / Save28 → SOR-003
 
 2026-10-12; SOR-EXP-0031 / SOR-EV-0039. **PROPOSED, not live-authorized.**
 Joint maintainer approval must name this complete card and the exact candidate
@@ -24,12 +24,12 @@ names, never replace pinned inputs. No command below launches or deploys the gam
 |Build receipt|same directory `build.json` / `918625105e6b2006abcf97109f7130264b0914aa1584ed27f48e28d326567ecd`|
 |Schema|`D:\Projects\starfield-outpost-research\runtime\native-oracle-040\schema.md` / `e71685c1a803e2694801e3442cfad795e6fc324fd2243afad4ba9c4f9405194c`|
 |Game|`C:\Program Files (x86)\Steam\steamapps\common\Starfield\Starfield.exe` / `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`|
-|SFSE runtime1.16.244|game root `sfse_1_16_244.dll` / `28c5bda41d9959c885efcb6e889de69e92767c80a1a66842d711d215f722f82b`|
+|SFSE runtime 1.16.244|game root `sfse_1_16_244.dll` / `28c5bda41d9959c885efcb6e889de69e92767c80a1a66842d711d215f722f82b`|
 |SFSE loader|game root `sfse_loader.exe` / `16916c2ec47e31774e3d550609a1844fcb368b03060c03511891564b7f5f7526`|
 |Frozen predictions|`D:\Projects\starfield-outpost-research\docs\experiments\engine-oracle\predictions.json` / `a8a7402697ed866a3410d4bd58796de513c7ca11f89e770a80deb5a8651a0487`|
 
 Release-lock exact identity is recorded below after offline package preparation.
-It pins historical310 inputs, new sources, call bytes, archive members and logs.
+It pins historical 310 inputs, new sources, call bytes, archive members and logs.
 Verify its SHA before every command; no automatic regeneration on mismatch.
 
 ## Protected sample and operator identification
@@ -43,13 +43,13 @@ Protected archive is the same basename under
 same hash. Save25/26/27 and their archives, previous observers/captures and frozen
 inputs are also pinned; no protected original is overwritten or normalized.
 
-Expected lineage: Attila Kiraly, character tokenD6036588, level4, Kreet,
-post-new-landing Save28, filename timestamp20261012011827 and sequence000258.
+Expected lineage: Attila Kiraly, character token D6036588, level 4, Kreet,
+post-new-landing Save28, filename timestamp 20261012011827 and sequence 000258.
 Timestamp encoding is recorded literally, not assumed to be displayed local time.
 SOR-003 was relocated in this lineage. Exact UI wording/location must be
-transcribed by the user; do not invent a menu label or interpret ordinal28 as
+transcribed by the user; do not invent a menu label or interpret ordinal 28 as
 identity. Historical similarly named Save27/28 from other characters, including
-level298, are excluded. If menu metadata cannot distinguish the file, stop for
+level 298, are excluded. If menu metadata cannot distinguish the file, stop for
 user confirmation with file/path metadata; do not guess. Save-menu parsing is
 separate backlog, not silently added here.
 
@@ -82,15 +82,15 @@ separate backlog, not silently added here.
    does not infer it from module presence. Wait at menu; no load/travel yet.
 4. Codex identifies the new `session-*` directory under
    `D:\Projects\starfield-outpost-research\.local-work\native-oracle-live`.
-   It must be absent from preflight inventory and match PID/creation time/version4
-   schema4,17768-byte events, exact DLL/game/SFSE, grid=true/center=false.
-   READY requires admission originals, sole-thread startup transaction, all15
-   guarded CALL edits and15 RX relays targeting the approved loaded DLL. Retain
-   admission/patch/module receipts. Native sole-thread wait is capped120s;
-   external READY deadline is150s from the user's recorded launch time.
+   It must be absent from preflight inventory and match PID/creation time/version 4
+   schema 4,17768-byte events, exact DLL/game/SFSE, grid=true/center=false.
+   READY requires admission originals, sole-thread startup transaction, all 15
+   guarded CALL edits and 15 RX relays targeting the approved loaded DLL. Retain
+   admission/patch/module receipts. Native sole-thread wait is capped 120 s;
+   external READY deadline is 150 s from the user's recorded launch time.
    Missing READY or startup refusal stops: no load, no write to any old session,
    no forced recovery. User controls normal exit. After fresh READY, complete
-   admission/module assessment and start the monitor within2min; otherwise STOP
+   admission/module assessment and start the monitor within 2 min; otherwise STOP
    only the verified fresh owned session and request normal user-controlled exit.
 5. Assess cooperative `modules-pre-edit.jsonl`: Windows/Steam/NVIDIA overlays
    are normal and accepted. Unfamiliar/unreadable nonessential modules require
@@ -105,7 +105,7 @@ separate backlog, not silently added here.
    & $py research/existing-reference-grid/environment.py --lock $lock --lock-sha $locksha modules --session $session --out .local-work/existing-reference-grid/live-01/modules-before-load.json
    ```
 
-   This helper terminates only its own inventory subprocess after30s on failure;
+   This helper terminates only its own inventory subprocess after 30 s on failure;
    it never terminates the game. The ACK does not contain an inventory digest or
    serial; separate scans can race, including A-B-A module changes. Treat this
    as cooperative inventory plus worker progress, not exact ACK-time membership.
@@ -119,7 +119,7 @@ separate backlog, not silently added here.
 
    Monitor must remain running while gameplay proceeds. Codex announces the
    durably written `monitor-ready.json` only after a new unpredictable nonce ACK
-   within15s. READY alone is not this health handshake. If no fresh ACK, no load.
+   within 15 s. READY alone is not this health handshake. If no fresh ACK, no load.
 
 ## Single permitted gameplay sequence and monitoring
 
@@ -134,10 +134,10 @@ times/labels separately from native assertions. A no-hit run still completes
 the permitted sequence; do not repeat for a desired result.
 
 Codex owns receipt monitoring and evidence, user owns all game interaction.
-Nominal sampling every3s allows the prior2.793s observed gap. Actual monotonic
+Nominal sampling every 3 s allows the prior 2.793 s observed gap. Actual monotonic
 gap>10s, worker heartbeat age>15s, initial ACK>15s, identity/patch receipt change,
-failure/loss/integrity error, either drive below40GB, output≥2GiB or elapsed>20min
-requests STOP. The20min timer starts when monitoring starts; launch/READY/
+failure/loss/integrity error, either drive below 40 GB, output≥2 GiB or elapsed>20 min
+requests STOP. The 20 min timer starts when monitoring starts; launch/READY/
 admission have the separate finite bounds above. No load before fresh monitor ACK.
 These are operational bounds, not event/hit quotas. No requirement
 to get a minimum number of grid events. Monitoring log flushes each sample.
@@ -170,15 +170,15 @@ or recovery relaunch. User controls any subsequent recovery, outside this card.
 ## Reconciliation and postflight
 
 Use [report's per-invocation matrix](report.md#scientific-coverage-and-reconciliation)
-and schema4 inspector. For each route list selection producer/thread ancestry,
+and schema 4 inspector. For each route list selection producer/thread ancestry,
 selected binding, saved-site association status, direct/search/fallback path,
-eligibility, chosen native ref/base/parent/world/body, source angles and44-byte
+eligibility, chosen native ref/base/parent/world/body, source angles and 44-byte
 fresh descriptor, floorXY/landscape fields, grid before/after, route residual and
 result. Pair by stable invocation/thread/sequence, never nearest timestamp alone.
 Classify deepest observed transition and missing/unwound/orphan stages.
 
 Replay captured inputs against frozen implementation with original numeric bits;
-record component agreement or disagreement. Separately list all23 untouched
+record component agreement or disagreement. Separately list all 23 untouched
 predictions with applicability/identity/frame/compensation status and outcome.
 Wrong frame/ref, absent grid and disagreement are useful results. A stable buffer,
 center coincidence or component `scientific_complete` cannot establish selected
@@ -206,8 +206,8 @@ No upload/commit/push or follow-on run is authorized; return for critical review
 
 `D:\Projects\starfield-outpost-research\.local-work\existing-reference-grid\release-lock-05.json`
 SHA-256 `060db14e0000146ed13537c6b59b688eff238132819b0e42f24a94588f69ab6b`.
-Set `$locksha` to this literal value. The lock has280 canonical absolute pins,
-covering all310 historical entries (historical aliases collapse) plus new inputs.
+Set `$locksha` to this literal value. The lock has 280 canonical absolute pins,
+covering all 310 historical entries (historical aliases collapse) plus new inputs.
 
 ## Installed runtime prerequisites, not deployed package files
 

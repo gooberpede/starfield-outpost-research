@@ -1,22 +1,22 @@
 # Initial subsystem map — SOR-EXP-0001
 
-[Existing-capture Z/frame follow-up](../experiments/ship-relocation-050/z-frame-followup.md) recovers actual2D source-frame provenance through query key and callback descriptor ancestry. Direct own-cell pointers remain null; Z is genuine native reference output with an unobserved3D restoration/height dependency. A copied third translation word is adjacent stack data, not Z compensation. No full loaded-parent/XYZ equivalence claim.
+[Existing-capture Z/frame follow-up](../experiments/ship-relocation-050/z-frame-followup.md) recovers actual 2D source-frame provenance through query key and callback descriptor ancestry. Direct own-cell pointers remain null; Z is genuine native reference output with an unobserved 3D restoration/height dependency. A copied third translation word is adjacent stack data, not Z compensation. No full loaded-parent/XYZ equivalence claim.
 
-[Observer0.5.0 live attempt01](../experiments/ship-relocation-050/live-attempt-01.md) observes actual ordinary Workshop center/grid operations for two identities, nonzero offsets and a fine-to-middle carry. Conditional translated XY/cells match frozen candidates; full saved-frame/restoration and Z equivalence remains unvalidated. Ship relocation is operator-observed, while command application and marker creation remain unknown.
+[Observer 0.5.0 live attempt 01](../experiments/ship-relocation-050/live-attempt-01.md) observes actual ordinary Workshop center/grid operations for two identities, nonzero offsets and a fine-to-middle carry. Conditional translated XY/cells match frozen candidates; full saved-frame/restoration and Z equivalence remains unvalidated. Ship relocation is operator-observed, while command application and marker creation remain unknown.
 
-[Ship relocation observer0.5.0](../experiments/ship-relocation-050/report.md) prepares source-supported travel request/decision, natural landing-marker/fresh native-grid and separate Workshop center/grid channels. Command handoff remains unassociated after producer return; no marker-creation/applied-ship or full durable-equivalence claim. Offline qualification and the prospective new-Kreet-landing/local-control card add acquisition capability, not new runtime/persistence semantics.
+[Ship relocation observer 0.5.0](../experiments/ship-relocation-050/report.md) prepares source-supported travel request/decision, natural landing-marker/fresh native-grid and separate Workshop center/grid channels. Command handoff remains unassociated after producer return; no marker-creation/applied-ship or full durable-equivalence claim. Offline qualification and the prospective new-Kreet-landing/local-control card add acquisition capability, not new runtime/persistence semantics.
 
-[Q branch observer0.3.0 offline qualification](../experiments/q-branch-030/qualification.md) prepares additional natural helper operands and E-entry lineage. Shared samples remain distinct from tested branch operands; native positioning equivalence and live trigger selection remain open. No new runtime or persistence observation is claimed.
+[Q branch observer 0.3.0 offline qualification](../experiments/q-branch-030/qualification.md) prepares additional natural helper operands and E-entry lineage. Shared samples remain distinct from tested branch operands; native positioning equivalence and live trigger selection remain open. No new runtime or persistence observation is claimed.
 
 ## EXP0031 Q/E scientific reconstruction
 
-[Source-grounded explanation](../experiments/q-to-e-control-flow.md) establishes shared continue/nonoverlap return semantics, optional E and a separate existing-reference enumeration. Captured packed source is decoded;18 descriptors have distinct recorded identities/angles and conditional shortcut support. Exact live predicates and full native oracle remain open; saved-angle correspondence cannot supply transient lookup/overlay state. [Acquisition assessment](../experiments/q-to-e/acquisition.md) separates gate closure from partial center/grid validation. Offline only.
+[Source-grounded explanation](../experiments/q-to-e-control-flow.md) establishes shared continue/nonoverlap return semantics, optional E and a separate existing-reference enumeration. Captured packed source is decoded; 18 descriptors have distinct recorded identities/angles and conditional shortcut support. Exact live predicates and full native oracle remain open; saved-angle correspondence cannot supply transient lookup/overlay state. [Acquisition assessment](../experiments/q-to-e/acquisition.md) separates gate closure from partial center/grid validation. Offline only.
 
 ## EXP0031 native-oracle 0.2.0 diagnostic continuation
 
-[Architecture/branch ledger](../experiments/native-oracle/continuation-020-architecture.md) adds natural candidate-query and enumeration boundaries to retained callback/center/grid observations. Disposable Q0/Q-E0/E-C0/C-grid0/positive traces distinguish engineered stage outcomes under qualified ancestry and worker health; actual game traversal remains UNKNOWN. A new Kreet landing has STATIC fallback-search linkage, while existing-reference success can bypass Q and virgin terrain can lack Workshop callbacks. [Executable card](../experiments/native-oracle/continuation-020-run-card.md) proposes optional N1 with protected Save26 lineage and separate actual-save approval. No durable-position confidence, native equivalence or safe mod integration point is promoted.
+[Architecture/branch ledger](../experiments/native-oracle/continuation-020-architecture.md) adds natural candidate-query and enumeration boundaries to retained callback/center/grid observations. Disposable Q0/Q-E0/E-C0/C-grid 0/positive traces distinguish engineered stage outcomes under qualified ancestry and worker health; actual game traversal remains UNKNOWN. A new Kreet landing has STATIC fallback-search linkage, while existing-reference success can bypass Q and virgin terrain can lack Workshop callbacks. [Executable card](../experiments/native-oracle/continuation-020-run-card.md) proposes optional N1 with protected Save26 lineage and separate actual-save approval. No durable-position confidence, native equivalence or safe mod integration point is promoted.
 
-## EXP0031 live attempt01 reachability result
+## EXP0031 live attempt 01 reachability result
 
 [Controlled attempt](../experiments/native-oracle/live-attempt-01.md) produced no
 callback/center/grid records through both protected-save site/build routes.
@@ -56,25 +56,25 @@ a persisted layout promotion. Different external-debugger sequence awaits review
 separates manager-owned ProcGen tuple/decal processing, event-produced reference
 center, independent radius/descriptor geometry, native terrain selection and
 asynchronous preview readiness/UI properties. Radius-only reset and gated
-publication explain possible retention; actual Phase1 event history remains
+publication explain possible retention; actual Phase 1 event history remains
 missing. Center-helper and terrain callbacks provide distinct future oracles.
 Spinner/wait failure controls do not establish a bug or saved-layout change.
 STATIC/REVIEW-REQUIRED; no new live/integration authority.
 
 ## EXP0023 live position/persistence evidence
 
-[Phase1 results](../experiments/engine-oracle/Phase1-results.md) connect observed
+[Phase 1 results](../experiments/engine-oracle/Phase1-results.md) connect observed
 stored-center transitions, retained output, Save26 relocation/compensation and
-state controls. Radius0 and the Save25/002 stale-site counterexample prevent a
+state controls. Radius 0 and the Save25/002 stale-site counterexample prevent a
 reliable active-workshop oracle claim. Independent association/frame authority,
 native grid acquisition and continuous geography remain open; no new integration
 point or gameplay mutation is established. Critical review pending.
 
 ## EXP0022 prospective validation channels
 
-[Phase1](../experiments/engine-oracle/Phase1-Save25-Save26-operator-run-card.md)
+[Phase 1](../experiments/engine-oracle/Phase1-Save25-Save26-operator-run-card.md)
 tests stored native-center freshness/identity and saved relocation invariance
-using the installed0.1.1 observer, pending live review. Separately,
+using the installed 0.1.1 observer, pending live review. Separately,
 [fixed planetary POIs](../experiments/engine-oracle/fixed-poi-validation-candidates.md)
 may validate shared body/anchor/grid/frame stages if native operation identity
 is demonstrated; city anchors alone do not validate Workshop-specific compensation.
@@ -93,7 +93,7 @@ and safe mod interfaces remain unclaimed. Review proposals, no automatic promoti
 
 ## SOR-EXP-0018 location / construction update
 
-[Durable center and object transforms](../experiments/durable-outpost-center-and-object-transforms.md),2026-10-10: saved compensated center remains exactly invariant across beacon relocation; nine captured terrain origins match. Own case5 object XYZ/rotations and conditional activated-overlay rebasing support local reference transforms, not direct Workshop-relative storage. All19 mature compensation vectors decode as zero, retaining the negative-X general-frame counterexample. Exact continuous planetary embedding and separate Workshop orientation remain OPEN. SOR-F-0023/0024, SOR-ST-0023, SOR-EV-0026; proposed scoped findings await review. No new live authority or prior-result promotion.
+[Durable center and object transforms](../experiments/durable-outpost-center-and-object-transforms.md), 2026-10-10: saved compensated center remains exactly invariant across beacon relocation; nine captured terrain origins match. Own case 5 object XYZ/rotations and conditional activated-overlay rebasing support local reference transforms, not direct Workshop-relative storage. All 19 mature compensation vectors decode as zero, retaining the negative-X general-frame counterexample. Exact continuous planetary embedding and separate Workshop orientation remain OPEN. SOR-F-0023/0024, SOR-ST-0023, SOR-EV-0026; proposed scoped findings await review. No new live authority or prior-result promotion.
 
 **Latest offline result — SOR-EXP-0017 / SOR-EV-0025, 2026-10-10:** [Workshop origin and persistence](../experiments/workshop-origin-beacon-relocation-persistence.md) identifies the captured concrete Workshop::ExtraData +0x60 vector, an accumulating relocation writer, explicit 12-byte save/load operations, and compensated-center border/terrain consumers. Save25/26 framed bytes and all nine prior snapshots agree. Scoped STRONG semantics/persistence proposed for critical review; ordinary beacon definition radius is 150 native units, configurable fallback 71.40000152587890625. Effective live radius, metre conversion and exact planetary beacon position remain open. Earlier interpretations below are historical, preserved rather than silently promoted. Authored evidence REVIEW-REQUIRED; raw inputs LOCAL-ONLY. No new live work, staging, commit or push.
 
@@ -101,11 +101,11 @@ and safe mod interfaces remain unclaimed. Review proposals, no automatic promoti
 
 ## Beacon observer preparation — SOR-EXP-0016
 
-[Observer0.1.0 implementation review](../audits/live-beacon-observer.md) targets fresh ordinary-reference identity/transform, terrain mode/origins/resolution, cached planetary and workshop extra/table evidence with independent collectors. Offline synthetic/disposable qualification only; exact coordinate conversion, effective overlay-map authority and original build-boundary center remain OPEN. Proposed Save25 checkpoints start at SOR-003 and include travel to SOR-002 where useful. Critical review and separate live approval required; no new runtime finding or validated integration point.
+[Observer 0.1.0 implementation review](../audits/live-beacon-observer.md) targets fresh ordinary-reference identity/transform, terrain mode/origins/resolution, cached planetary and workshop extra/table evidence with independent collectors. Offline synthetic/disposable qualification only; exact coordinate conversion, effective overlay-map authority and original build-boundary center remain OPEN. Proposed Save25 checkpoints start at SOR-003 and include travel to SOR-002 where useful. Critical review and separate live approval required; no new runtime finding or validated integration point.
 
 ## Terrain/frame follow-up — SOR-EXP-0015
 
-[Projection research](../experiments/exact-beacon-planetary-coordinates.md), SOR-F-0020: native49152-grid reproduces22 beacon/site and3 fixed pairs; controlled common-origin arithmetic supports scoped STRONG proposal. Exact continuous beacon placement open at world/cached frame and fractional embedding; negative-X mature case prevents universal site=current-cell. Runtime inputs not assigned guessed wire offsets. No metre/texture calibration, universal completeness or safe integration. [Review](../experiments/exact-beacon/README.md), prior history retained.
+[Projection research](../experiments/exact-beacon-planetary-coordinates.md), SOR-F-0020: native 49152-grid reproduces 22 beacon/site and 3 fixed pairs; controlled common-origin arithmetic supports scoped STRONG proposal. Exact continuous beacon placement open at world/cached frame and fractional embedding; negative-X mature case prevents universal site=current-cell. Runtime inputs not assigned guessed wire offsets. No metre/texture calibration, universal completeness or safe integration. [Review](../experiments/exact-beacon/README.md), prior history retained.
 
 
 **Latest local-distribution SAVE evidence:** [SOR-EXP-0004](../experiments/output-link-validation-L0-L2C.md) isolates unlink/relink with endpoint candidates retained. A separate relationship payload reverses in action samples and stays stable in both controls. Tokens and entry order differ across the reported reload, so exact literal detection is not portable. Proposed STRONG output-link association awaits review; list ownership, count encoding, production-state interpretation, authoritative restoration and integration safety remain open. The static map and earlier provisional findings below are retained.
@@ -178,10 +178,10 @@ unobserved. Review gate and coverage are explicit; historical rows below retaine
 
 ### Durable-position resumption, SOR-EXP-0030
 
-[Version2 research](../experiments/durable-position-resumption.md) corrects packed/native tag2/3 domains while retaining23 frozen cases. Body and loaded inputs are independently corroborated; native arithmetic is statically recovered; site-base association remains model-predicted and fresh end-to-end native grid UNKNOWN. [Branch map](../experiments/position-resumption/dependencies.md), [stage/review matrix](../experiments/position-resumption/review.md). No accepted historical finding or integration/liveness classification is promoted.
+[Version 2 research](../experiments/durable-position-resumption.md) corrects packed/native tag 2/3 domains while retaining 23 frozen cases. Body and loaded inputs are independently corroborated; native arithmetic is statically recovered; site-base association remains model-predicted and fresh end-to-end native grid UNKNOWN. [Branch map](../experiments/position-resumption/dependencies.md), [stage/review matrix](../experiments/position-resumption/review.md). No accepted historical finding or integration/liveness classification is promoted.
 
 ### Workshop membership/root inventory — SOR-EXP-0032
 
-[Report](../experiments/workshop-membership/report.md) connects runtime keyed owner lookup and native item reconstruction to counted saved extras. Single roots, compound representatives and generated foundations are distinguished independently of categories. [Dependency map](../experiments/workshop-membership/dependencies.md) preserves alternate80/default/inherited/reverse population gaps, containers/displays versus contents, and future categorization. Scoped positive, universal completeness unresolved; no automatic importer/live authority.
+[Report](../experiments/workshop-membership/report.md) connects runtime keyed owner lookup and native item reconstruction to counted saved extras. Single roots, compound representatives and generated foundations are distinguished independently of categories. [Dependency map](../experiments/workshop-membership/dependencies.md) preserves alternate 80/default/inherited/reverse population gaps, containers/displays versus contents, and future categorization. Scoped positive, universal completeness unresolved; no automatic importer/live authority.
 
-Workshop membership/population follow-up: [EXP0033](../experiments/workshop-population/report.md) corrects alias/type semantics and adds191 physical roots to the657 baseline. Membership detection, physical instance/root selection, restoration and historical population completeness remain separate dependencies; the original acceptance matrix controls terminal claims.
+Workshop membership/population follow-up: [EXP0033](../experiments/workshop-population/report.md) corrects alias/type semantics and adds 191 physical roots to the 657 baseline. Membership detection, physical instance/root selection, restoration and historical population completeness remain separate dependencies; the original acceptance matrix controls terminal claims.

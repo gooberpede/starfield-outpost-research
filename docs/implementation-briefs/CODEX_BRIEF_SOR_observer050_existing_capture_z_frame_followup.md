@@ -6,11 +6,11 @@ This records the maintainer's already-authorized chat instruction:
 > Please investigate whether the Z differences and missing loaded-frame provenance can be resolved using the existing capture and static evidence, without another live run.
 
 Question: can the two ordinary Workshop identities' native center Z differences
-from frozen Save25/26, and missing cell/world provenance in observer0.5.0 attempt01,
+from frozen Save25/26, and missing cell/world provenance in observer 0.5.0 attempt 01,
 be resolved or precisely bounded from retained bytes and source-backed layouts?
 
-Inputs: sealed attempt01 capture/receipts, unchanged approved observer/source/build,
-frozen23 inputs/predictions, retained static exports for the pinned executable,
+Inputs: sealed attempt 01 capture/receipts, unchanged approved observer/source/build,
+frozen 23 inputs/predictions, retained static exports for the pinned executable,
 existing controlled save/archive evidence and previously qualified readers.
 Permitted: offline read-only inspection and original bounded scripts producing
 new local derivatives, source-backed byte/layout/arithmetic checks, durable
@@ -20,7 +20,7 @@ interpretations; do not tune frozen expectations.
 
 No live run/launch/attachment, deployment, configuration/save/source-plugin change,
 native instruction execution, new instrumentation, Ghidra database mutation,
-network/disclosure, staging, commit or push. Both-drive40GB guard applies to
+network/disclosure, staging, commit or push. Both-drive 40 GB guard applies to
 analysis writes. Missing essential inputs or need for another live observation
 blocks only that operation; existing evidence should still yield a scoped answer.
 

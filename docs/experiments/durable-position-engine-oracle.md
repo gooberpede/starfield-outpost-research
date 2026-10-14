@@ -8,22 +8,22 @@ authored material REVIEW-REQUIRED; raw inputs LOCAL-ONLY.
 ## Answer and review package
 
 An original executable model reconstructs the qualified saved-frame durable
-center, body, indexed cell and residual for23 active cases. It preserves the
+center, body, indexed cell and residual for 23 active cases. It preserves the
 native zero-vector bypass and binary32/floor/signed-seam order. Both controlled
 Workshop identities remain invariant across Save25/26 and distinct from each
 other. This is STATIC/REPRODUCER, **not independent engine equivalence**.
 
 A new typed native chain qualifies an independent local-center oracle:
 `1421b2570 → 140f4ab80 → terrain+130 output+90/+9c → 1407a6540`
-terrain bounds consumer. Observer0.1.1 copies that stored native result without
+terrain bounds consumer. Observer 0.1.1 copies that stored native result without
 recomputing it; offline fixtures deliberately use a sentinel unrelated to beacon
-inputs. A complementary natural-execution grid oracle at RVAad0d3b exposes
+inputs. A complementary natural-execution grid oracle at RVA ad0d3b exposes
 translated center, native floor and resulting hierarchy; disposable two-thread
 and zero-hit controls pass. No Starfield launch, attachment or deployment occurred.
 
 Confidence is strong for the inspected static producer/consumer and supported
 arithmetic; runtime output freshness/identity, callback reachability and equivalence
-remain unvalidated. Coverage includes qualified flag0b/2b inputs, but the latter
+remain unvalidated. Coverage includes qualified flag 0b/2b inputs, but the latter
 requires an upstream qualified discrete site cell. Arbitrary-angle bit-exact
 quantization and future loaded-frame prediction are not complete. These explicit
 dependencies prevent claiming the full live-validated milestone now; the brief's

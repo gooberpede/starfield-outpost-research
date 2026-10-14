@@ -148,12 +148,12 @@ manifest or prior mature pin, before and after; scratch is cleaned by the decode
 All scans are exhaustive within declared record regions; no arbitrary sample cap.
 C:/D: space guards run before sizeable writes/decoding and at completion.
 
-Preserved failures: run01 stopped on compact ESM identity handling (744 compact
-records exposed the unsupported assumption); run02 stopped on duplicate incidental
+Preserved failures: run 01 stopped on compact ESM identity handling (744 compact
+records exposed the unsupported assumption); run 02 stopped on duplicate incidental
 exit filenames after valid controlled rows; first corpus test stopped because
 `mmap` has no `count` method. These are engineering failures, not scientific
 negative results. Compact table mapping, series-qualified filenames and mmap-find
-counting corrected them within this assignment. run03 and run05 completed; 11
+counting corrected them within this assignment. run 03 and run05 completed; 11
 synthetic tests and all 25 primary-byte corpus tests pass. Each successful inventory
 is repeated on the same bytes to check determinism. The 24 existing reader tests
 also pass. Independent review replays all 25 saves and directly checks all 21,585

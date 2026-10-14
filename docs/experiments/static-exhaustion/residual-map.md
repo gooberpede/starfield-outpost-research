@@ -1,7 +1,7 @@
 # EXP0020 — Residual map and identifiability boundary
 
 [Report](../activated-overlay-static-exhaustion.md) · [Ledger](dependency-ledger.md).
-Addresses are static VAs, retail1.16.244.0/base140000000. Authored interpretation
+Addresses are static VAs, retail 1.16.244.0/base 140000000. Authored interpretation
 and selected numbers: REVIEW-REQUIRED. This is a bounded graph conclusion, not
 a proof that no other function exists in the executable.
 
@@ -11,8 +11,8 @@ For a qualified saved beacon, form the durable center
 `C = f32(f32(P) + f32(workshop_delta))`, componentwise. Join its saved parent
 to the typed unit-6 world component, its secondary world to the unit-3 descriptor,
 and system/body-index to installed PNDT GNAM. Keep the saved initial frame byte.
-For the studied active cases, use the descriptor's encoded origin when mask20 is
-clear, or the saved site anchor when mask20 is set. Split each center axis using
+For the studied active cases, use the descriptor's encoded origin when mask 20 is
+clear, or the saved site anchor when mask 20 is set. Split each center axis using
 `q=floor(f32(f32(C)*f32(.01)))`, `r=f32(C-f32(100*q))`, and apply native integer
 offset/wrap `14096f5c0` to the selected base. Retain Z in its saved local frame.
 Implementation: `audit_saved_center_frame.py`; result [table](saved-center-frame.csv).
@@ -29,7 +29,7 @@ float32 translations into that epoch.
 | `14077fc20` existing-reference branch | Site/request integer pair difference ×100 plus reference XYZ; split into floor and residual; residual kept in placement state+20/+24/+28. Returned pair is requantized. | RESOLVED local placement split; no residual input to returned angular pair. |
 | `14077f900` →144b3dc10→`140780a50` →144b3dbf0→`140780aa0 →140781390` | Enumerates cells/references, selects eligible existing reference, compares local XY squared distances and copies its XYZ plus integer displacement. `14077def0` supplies eligibility, not coordinates. | RESOLVED alternative fractional producer. All coordinates come from existing reference/local translation. |
 | `14077e350` →144b3dc70→`140780710 →14077f6e0` | Searches integer candidate cells; checks `14078d2c0` integer-pair displacement; creates/selects overlay and calls the same reference search. | RESOLVED fallback; no continuous inverse projection. |
-| `14078b030/14078af30/14078bc30` and player transfer callers | Placement-state fields transferred to local player/reference/cell state. `14078d370` returns100×integer pair delta and local height. | RESOLVED local placement consumers; preservation of XYZ does not supply a body direction. |
+| `14078b030/14078af30/14078bc30` and player transfer callers | Placement-state fields transferred to local player/reference/cell state. `14078d370` returns 100×integer pair delta and local height. | RESOLVED local placement consumers; preservation of XYZ does not supply a body direction. |
 | `14078d1f0 →14078d660 →142332410` | Floors float32 XY×.01, offsets indexed origin, evaluates normalized `(i+.5)/49152-.5`. | RESOLVED exact studied discrete map; many local positions share its result. |
 | `140910690` / ExtraLocation81 | Cached pair or site pair, otherwise the same floored conversion. `14051ea30`/`140546580` write/read raw pair. Eight setter callers and request enumeration traced. `14076a340` likewise floors offset XY. | RESOLVED cache provenance; no independent continuous center oracle. |
 | `1407bcfb0` / celestial consumers | Player XY plus indexed offset, floor, cell-center projection, sin/cos, body orientation/normalization/scale/translation. | FALSIFIED_OR_IRRELEVANT as residual transform: fractions and Z are discarded before body geometry. The body's orientation/scale cannot restore discarded XY. |
@@ -38,7 +38,7 @@ float32 translations into that epoch.
 | Additional `14078d370` caller `14141ccd0` / `14141dc70` | Reads manager requested pair+98/+a0; takes only returned Z as height baseline. Camera rays intersect a local Z plane; local bounds/cells feed a sampled height calculation. | FALSIFIED_OR_IRRELEVANT as residual-to-body mapping: no center residual reaches a spherical output through this call. Camera/world ray geometry is not a planetary chart. |
 | `14096be70/14096bba0 →140851d20` | Pattern-entry lookup, centered integer rotation/reflection and installed subdivision spans. | RESOLVED footprint/index role; these transform pattern selection, not surviving fractional beacon XY into a body point. |
 
-Exports62–68 recover both formerly indirect placement helpers and the additional
+Exports 62–68 recover both formerly indirect placement helpers and the additional
 pair-to-local caller. They close these graph branches rather than relying solely
 on a list of direct projection callers. Height/eligibility/resource-allocation
 callees are excluded by the inspected typed output and call-site dataflow; this
@@ -63,12 +63,12 @@ E1 = F(tag, (i+.5+sx+.05*sin(2*pi*sx))/N-.5,
             (j+.5+sy+.05*sin(2*pi*sy))/N-.5)
 ```
 
-Both agree at every integer sample, use the same orientation and100-unit step,
+Both agree at every integer sample, use the same orientation and 100-unit step,
 are smooth and monotone inside each chart axis, and are invariant under opposite
 integer origin/local translations. They differ for the actual nonzero SOR-003
 residual. Four independent tests exercise these properties in
 `test_residual_ambiguity.py`. They are **countermodels, not proposed engine
-implementations or uncertainty bounds**. The arbitrary.05 is one global
+implementations or uncertainty bounds**. The arbitrary. 05 is one global
 mathematical counterexample parameter, not a per-outpost fit. No seam extension
 or physical metre scale is claimed for either model.
 

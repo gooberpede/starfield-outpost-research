@@ -61,7 +61,7 @@ state and are not automatically persisted values.
 
 `140ad92e0` iterates planetary sites and calls `140ad08d0`.
 The latter compares a site hierarchy against the selected source-world key,
-requires overlay flags+20 bit1, prepares a six-pointer stack context and enumerates
+requires overlay flags+20 bit 1, prepares a six-pointer stack context and enumerates
 references through `140b1e190`. The callback thunk `140ad8ec0` dispatches
 `140ad0b90` (vtable `144b916e8`). Context layout at RSI:
 
@@ -83,7 +83,7 @@ RBP-9 is the 44-byte resulting hierarchy and RBP+6f holds the two native floor
 integers. [Capture format](../../../debugger/engine-oracle/contract.py) preserves
 the native output and all input base/translation bytes; it never calculates
 the target's result. Hierarchy offsets 04/08,14/18,24/28 encode
-coarse/sub/fine signed integers. For resolution256/block12, flatten with
+coarse/sub/fine signed integers. For resolution 256/block 12, flatten with
 `coarse*192 + sub*12 + fine`; preserve the two opaque asset-handle fields.
 
 Later code projects with `142332410`, canonicalizes/subtracts hierarchies via
@@ -113,11 +113,11 @@ separate work under explicit authorization.
 ## Other candidates and exclusions
 
 `140f4ac50` consumes a descriptor and point: descriptor+0c selects a global
-frame translation in table1461fae88 when below count1461fae80; otherwise the
+frame translation in table 1461fae88 when below count 1461fae80; otherwise the
 center is copied. It tests XY distance against radius and Z against ceiling.
 At `140f4acb7`, stack XYZ and descriptor RDX are observable; AL is complete at
 `140f4acf1`. This corroborates local boundary semantics, but lacks an independent
 planetary address. `141884350` selects workshop or player for streaming center;
 it is an additional loaded-scene dependency, not a durable body/grid oracle.
-Metadata1454dd710/720 contains packed unwind RVAs, not a callable vtable.
+Metadata 1454dd710/720 contains packed unwind RVAs, not a callable vtable.
 Offset+90 matches in unrelated object types do not establish this owner chain.

@@ -1,6 +1,6 @@
 # EXP0002 operator card — future Gate B only
 
-**Current hold before native queries:** the [fresh review14 run](EXP0002-review14-run.md) completed A0/A0C but observed A0 on a different OS thread from the loader-identified main thread. A1 and later checkpoints were not requested. Review and resolve native-query thread affinity before further execution; no automatic retry. The [first run's load anomaly](EXP0002-gate-b-run.md) remains historical evidence.
+**Current hold before native queries:** the [fresh review 14 run](EXP0002-review14-run.md) completed A0/A0C but observed A0 on a different OS thread from the loader-identified main thread. A1 and later checkpoints were not requested. Review and resolve native-query thread affinity before further execution; no automatic retry. The [first run's load anomaly](EXP0002-gate-b-run.md) remains historical evidence.
 
 **Prepared for review, not execution authority.** [Experiment](SOR-EXP-0002-outpost-membership-reload-location.md), [build/audit](../audits/exp0002-preparation-validation.md), [tool commands and effects](../../runtime/exp0002/README.md). No user pointer/register transcription, console, Ghidra or save diffing is required. Researcher operates the helpers; user operates ordinary game UI. No step below was executed during Gate A.
 

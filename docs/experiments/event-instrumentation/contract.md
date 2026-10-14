@@ -14,9 +14,9 @@ in ignored `.local-work/recon/` supply the ABI/control-flow evidence. The genera
 | Center entry F4AB80 | MOV [RSP+8],RBX / 5 | RCX reference, RDX caller-owned writable XYZ12, original SP and [SP] caller. |
 | Center exit F4AC44 | MOV RBX,[RSP+40] / 5 | RBX actual reference, RDI output, original SP=current SP+38; [original SP] caller. Native XYZ12 is valid here on all traced normal branches. |
 | Grid entry AD0B90 | MOV [RSP+18],RBX / 5 | RCX six-pointer context, RDX reference, original SP/caller. |
-| Grid translated X AD0C93 | VMULSS XMM1,XMM0,XMM4 / 4 | Before multiplication, XMM0.low32 is the actual translated X; XMM4.low32 scale; RBX reference, RSI context. |
-| Grid translated Y AD0C9C | VMULSS XMM2,XMM0,XMM4 / 4 | XMM0.low32 is actual translated Y; XMM1.low32 already scaled X; XMM4 scale. |
-| Grid selected result AD0D3B | MOV RAX,[RSI+10] / 4 | RBX reference, RSI context, RBP-49 pretranslation center12, RBP-9 hierarchy44, RBP+6F floorXY8. |
+| Grid translated X AD0C93 | VMULSS XMM1,XMM0,XMM4 / 4 | Before multiplication, XMM0.low 32 is the actual translated X; XMM4.low 32 scale; RBX reference, RSI context. |
+| Grid translated Y AD0C9C | VMULSS XMM2,XMM0,XMM4 / 4 | XMM0.low 32 is actual translated Y; XMM1.low 32 already scaled X; XMM4 scale. |
+| Grid selected result AD0D3B | MOV RAX,[RSI+10] / 4 | RBX reference, RSI context, RBP-49 pretranslation center 12, RBP-9 hierarchy 44, RBP+6F floorXY8. |
 | Grid common exit AD0E94 | LEA R11,[RSP+C0] / 8 | Original entry SP=current SP+C8, caller preserved; RAX return in Windows CONTEXT. Both qualified and early-return branches join this exit. |
 
 ## Correction to the earlier grid acquisition wording
@@ -80,13 +80,13 @@ prevent center installation.
 ## Identity, frames, health and retirement
 
 Guarded copies preserve reference/base headers, XYZ, stored CELL/world, concrete
-extra-bc identifier+98/compensation+60 and extra0x81 where readable. At the same
+extra-bc identifier+98/compensation+60 and extra 0x81 where readable. At the same
 stopped boundary the inherited terrain collector records manager/body/origin,
 active-world/grid/settings roots. This is source-informed reuse of the existing
 project collector, including its limited exterior-world support; it does not
 call engine lookups or confer native ownership. Pairwise field equality is a
 check, not complete lifetime or same-frame proof. Workshop identifier raw bytes
-002=`f1517de43e171745`, 003=`0efca066ee4c7b9b` plus ordinary base002C60E9 and
+002=`f1517de43e171745`, 003=`0efca066ee4c7b9b` plus ordinary base 002C60E9 and
 independent body/frame evidence select the comparison, never output numerics.
 
 Grid additionally preserves source/candidate hierarchies, translation, bounds,

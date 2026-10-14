@@ -5,7 +5,7 @@ User instruction, 2026-10-07 Australia/Sydney; SOR-D-0016. This retains the curr
 1. Prospective Stage B uses ordinary Steam launch without SFSE.
 2. Remove Vortex/SFSE-profile requirements from the current operator card and capture plan.
 3. Preflight explicitly verifies SFSE and SorExp0002 are not loaded.
-4. Vortex/SFSE deployment remains for Stage C only, when observer0.1.0 is eventually built and separately authorized.
+4. Vortex/SFSE deployment remains for Stage C only, when observer 0.1.0 is eventually built and separately authorized.
 5. Remove or clearly mark obsolete profile flags in disabled historical x64dbg tooling.
 6. Implement the reviewed one-request Win32 hardware/RF adapter.
 7. Run only bounded fresh disposable qualification for late attach, delayed operator trigger, one hit, no-hit timeout, new-thread handling, retirement/cleanup and delayed target health.

@@ -1,6 +1,6 @@
 # Menu-only attempt 01 closure
 
-2026-10-12, SOR-EXP-0031 / SOR-EV-0039 continuation. The user approved observer0.4.0 and the original card, deployed it in Vortex profile `Starfield - SFSE`, and selected the Vortex SFSE launch button. They reported a responsive main menu without loading a save, then normal exit and observer disablement.
+2026-10-12, SOR-EXP-0031 / SOR-EV-0039 continuation. The user approved observer 0.4.0 and the original card, deployed it in Vortex profile `Starfield - SFSE`, and selected the Vortex SFSE launch button. They reported a responsive main menu without loading a save, then normal exit and observer disablement.
 
 The menu-only session was `session-9540-81095078`. Admission and cooperative module/ACK checks passed. READY's payload timestamp preceded its startup wait; actual durable READY file time was 09:48:31.958956 UTC. The first external monitor sample was 09:50:37.570208 UTC, 125.611252 seconds later. Codex stopped for exceeding the original 120-second admission budget by 5.611252 seconds. This was an external procedural timing deviation, not evidence of an unhealthy observer or game. No save was loaded. The original attempt and its deviation remain recorded.
 

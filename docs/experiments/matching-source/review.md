@@ -12,29 +12,29 @@ integration or Git authority follows from this record.
 | Mandatory criterion | Status | Evidence / limit |
 |---|---|---|
 |Both candidate identities and saved/native domain distinction|PASS|Four saves/eight parent-component-descriptor joins; runtime angle correspondence explicitly bounded|
-|Source origin and upstream callers beyond unnamed helper|PASS|78B030 angular/explicit modes→789CE0→78A5B0→generated world+310; landing and selected-reference callers traced; whole-byte flag lifecycle and flag2/flag1 counterexamples|
-|Complete Q-to-E predicates / all18 observed comparisons|PASS|198 exact operands, original IDs;28 actual CFG/snap instruction checks|
-|Packing/reflection/boundary controls and frozen23 predictions|PASS|16 key round trips/invalid rejections,13 candidate-neighbor/snap controls,162 existing tests,23 regressions unchanged|
-|Existing-reference bypass and alternate grid route|PASS|7801BE backward edge to77FD96→77FEC0; generic grid distinct from compensated Workshop oracle|
+|Source origin and upstream callers beyond unnamed helper|PASS|78B030 angular/explicit modes→789CE0→78A5B0→generated world+310; landing and selected-reference callers traced; whole-byte flag lifecycle and flag 2/flag 1 counterexamples|
+|Complete Q-to-E predicates / all 18 observed comparisons|PASS|198 exact operands, original IDs; 28 actual CFG/snap instruction checks|
+|Packing/reflection/boundary controls and frozen 23 predictions|PASS|16 key round trips/invalid rejections, 13 candidate-neighbor/snap controls, 162 existing tests, 23 regressions unchanged|
+|Existing-reference bypass and alternate grid route|PASS|7801BE backward edge to 77FD96→77FEC0; generic grid distinct from compensated Workshop oracle|
 |Per-candidate practical trigger / ranked acquisition / one scenario maximum|PASS|Separate candidate ledger, qualified Save28→SOR-003 proposal; no probability/identity guarantee; shorter generic-grid path distinguished from full Workshop oracle|
 |Protected inputs, disk guard, authority/provenance|PASS|310 pins/93 seal members and save hashes; offline only|
-|Complete/task patches, manifests, applicability and independent review|PASS|13 complete/12 task text paths; exact forward application,421 links,53 source pins,15 database entries; independent ACCEPT and final disposition-only recheck|
+|Complete/task patches, manifests, applicability and independent review|PASS|13 complete/12 task text paths; exact forward application, 421 links, 53 source pins, 15 database entries; independent ACCEPT and final disposition-only recheck|
 |New native E/center/grid/full equivalence|NOT TESTED|No live work authorized or performed|
 
 ## Objections and corrections before final submission
 
 The independent reviewer challenged pure key round trips as insufficient coverage
-for native hierarchy snaps/reflection. Verification04 adds13 candidate-neighbor,
-tag, snap-boundary and corner controls and28 actual instruction assertions. The
-reviewer also found stale packaging references to verification01; package.py now
-uses04. The reviewer independently reproduced the earlier candidate/save joins
+for native hierarchy snaps/reflection. Verification 04 adds 13 candidate-neighbor,
+tag, snap-boundary and corner controls and 28 actual instruction assertions. The
+reviewer also found stale packaging references to verification 01; package.py now
+uses 04. The reviewer independently reproduced the earlier candidate/save joins
 in isolated `reviewer-verification-01`; that receipt is not a substitute for final
 snapshot review. No failing scientific test was hidden or relaxed.
 
 The specialist independently corrected a source-creation flag assumption:
-77E350 supplies2, while17E0F40 supplies1. The report records both and withdraws
+77E350 supplies 2, while 17E0F40 supplies 1. The report records both and withdraws
 any ownership interpretation. It also corrects historical address-order reasoning
-with the7801BE backward edge while preserving the old document. Specialist
+with the 7801BE backward edge while preserving the old document. Specialist
 recommendation is conditional A; the completion reviewer separately accepted it.
 The specialist's final factual check corrected generic-grid wording to floors X/Y
 and retains Z. The primary also clarified the later scenario's finite observation
@@ -53,10 +53,10 @@ The actual return is retained verbatim locally at
 
 Independently executed: final verifier into `reviewer-verification-02`, receipt
 SHA256`60f313d50b550dda05be9572a6285672c695bbae6faf847b7371901624585ece`;
-23 frozen controls in `reviewer-frozen-01`;162 existing tests; separate stdlib
-raw slicing of18 descriptors/A/B and90 flag samples. Reviewer inspected the
-native producer/request/snap/lookup/bypass sequences, checked all53 source pins,
-13 working text paths, exact forward patch trees,15 database entries and
+23 frozen controls in `reviewer-frozen-01`; 162 existing tests; separate stdlib
+raw slicing of 18 descriptors/A/B and 90 flag samples. Reviewer inspected the
+native producer/request/snap/lookup/bypass sequences, checked all 53 source pins,
+13 working text paths, exact forward patch trees, 15 database entries and
 HEAD/index identity. Snapshot receipts are retained in the reviewer's ignored
 output directory. All mandatory offline criteria PASS; native/full equivalence
 NOT TESTED. No REWORK verdict or ESCALATE occurred in final submission; earlier

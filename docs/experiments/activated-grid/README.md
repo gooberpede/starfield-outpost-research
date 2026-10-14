@@ -7,7 +7,7 @@ REVIEW-REQUIRED. Raw saves, assets, captures, native text and databases LOCAL-ON
 
 The durable answer is a body/site/frame/local-center representation. Activation
 and rebase stages are mapped, designated discrete cells use their centers, and
-actual2×2 subdivision spans are supported. General selected saved-frame restoration
+actual 2×2 subdivision spans are supported. General selected saved-frame restoration
 and a continuous residual-to-surface consumer remain unqualified. Invariance and
 quantized angle agreement cannot establish a unique continuous geographic center.
 
@@ -18,7 +18,7 @@ Modified registers: [CREDITS](../../../CREDITS.md), [decisions](../../DECISIONS.
 [permissions](../../PERMISSIONS.md), [research state](../../RESEARCH_STATE.md),
 [findings](../../known-facts.md), [functions](../../function-register.md),
 [states](../../state-register.md), [hypotheses](../../hypotheses.md).
-New: this README, report, two original scripts and the12 selected CSVs below.
+New: this README, report, two original scripts and the 12 selected CSVs below.
 The supplied brief pre-existed untracked and is retained unchanged; it is included
 in the full diff, excluded from the task-only authored diff. No prior report edited.
 
@@ -32,7 +32,7 @@ in the full diff, excluded from the task-only authored diff. No prior report edi
 | [controls.csv](controls.csv) | Seven no-action comparisons. |
 | [decoded-inputs.csv](decoded-inputs.csv) |23 selected decoded hash/size receipts, no raw saves. |
 | [block-dimensions.csv](block-dimensions.csv) |14 distinct installed dimension pairs/counts/examples; undersized arithmetic explicitly diagnostic. |
-| [pattern-positive-spans.csv](pattern-positive-spans.csv) |16 deterministic positive-span examples, first eight distinct pattern/block joins per span. Full53165-slot count remains in local summary. |
+| [pattern-positive-spans.csv](pattern-positive-spans.csv) |16 deterministic positive-span examples, first eight distinct pattern/block joins per span. Full 53165-slot count remains in local summary. |
 | [orientation-matrices.csv](orientation-matrices.csv) | Eight original numeric PE table selections. |
 | [native-map.csv](native-map.csv) |40 decisive function addresses/RVAs and exact export locators. |
 | [native-exports.csv](native-exports.csv) |12 local export/log hashes, inventories and limits. Raw native text excluded. |
@@ -43,12 +43,12 @@ The audit reads the pinned PE/ESM, prior manifests and selected raw terrain; has
 before/after, checks matrix identity, walks SFBK/SFPT with existing original reader,
 and writes only a fresh local numeric/receipt directory. Stdlib/project modules
 only; no target/save/database/network/Git actions. The mathematical helpers are
-research models, not a native ABI or continuous location API. C:/D:40GB guard;
+research models, not a native ABI or continuous location API. C:/D: 40 GB guard;
 existing reader payload/decompression bounds remain in force.
 
 ## Reproduction
 
-Run at repository root with the separately installed CPython3.14 runtime. Fresh
+Run at repository root with the separately installed CPython 3.14 runtime. Fresh
 output names required. Prior frozen local manifests/archives must be present.
 
 ```powershell
@@ -65,33 +65,33 @@ audit `.local-work/activated-grid/corpus-audit/`; final geometry `geometry-03/`.
 Corpus and geometry CSVs are copied byte-for-byte into this authored selection.
 Native exports use existing `ghidra/scripts/Invoke-OutpostRecon.ps1 -Target Starfield
 -OutputName activated-grid-NN.tsv -Addresses @(...)`; exact args in each hashed log.
-Existing Ghidra12.1.2/JDK21, Xmx2G, readOnly/noanalysis. Four instruction caps in
-batches06/10 retained; no export error or decompiler cap observed. A final batch12
+Existing Ghidra 12.1.2/JDK 21, Xmx2G, readOnly/noanalysis. Four instruction caps in
+batches06/10 retained; no export error or decompiler cap observed. A final batch 12
 provides direct bodies for registration functions previously present as xrefs.
 Existing reference inventory/finite windows are not exhaustive writer coverage.
 
 ## Actual checks, failures and limits
 
-**95 Python tests pass**, including four new tests: all49152 hierarchy indices,
+**95 Python tests pass**, including four new tests: all 49152 hierarchy indices,
 signed seam/remainder transitions, designated-center/pole roundtrips and eight
-square-permutation transforms with a synthetic2×4→4×2 footprint. These execute no
+square-permutation transforms with a synthetic 2×4→4×2 footprint. These execute no
 native code; the non-square test is mathematical capacity, not an installed asset.
 Final geometry audit separately checks the extracted native matrix table against
-the expected eight matrices.23-save/128-prefix, seven controls,19 zero mature
-compensations,18 beacon observations/nine terrain snapshots all pass.41 angular
+the expected eight matrices. 23-save/128-prefix, seven controls, 19 zero mature
+compensations, 18 beacon observations/nine terrain snapshots all pass. 41 angular
 rows max errors8.881784197001252e-16 lon/3.3306690738754696e-16 lat radians.
-Geometry scan1753blocks/258patterns yields48960 positive1×1 and4205 positive2×2
+Geometry scan 1753blocks/258patterns yields 48960 positive 1×1 and 4205 positive 2×2
 slots; no non-square block dimension pair. Nine active pairs agree with origin,
-max reconstructed angle error1.6653345369377348e-16 radians.
+max reconstructed angle error 1.6653345369377348e-16 radians.
 
 The first geometry attempt incorrectly passed a volume root to the output-size
 guard, which enumerated that root and stopped with `output bound stop` before
 creating output. Corrected to guard only the actual output parent (the helper
 itself checks both volumes); no target/write effect. `geometry-01/02` are retained
-development receipts; final03 includes deterministic16-row selection and pinned
+development receipts; final 03 includes deterministic 16-row selection and pinned
 matrix comparison. Failed Reddit fetches do not block independent engine research.
 
-Protected pre-export baseline17 files is `.local-work/activated-grid/protected-before.json`.
+Protected pre-export baseline 17 files is `.local-work/activated-grid/protected-before.json`.
 Fresh source/archive reader receipts and final protected/source identities,
 metadata changes, script/output hashes, Markdown file-link checks, diff whitespace,
 HEAD/index preservation and free-space values are retained in
@@ -99,12 +99,12 @@ HEAD/index preservation and free-space values are retained in
 separately from byte preservation; it is not silently restored. No original save
 overwrite or Ghidra analysis-content edit is authorized/performed.
 
-Final verification rechecks41 distinct protected/source/archive/manifest files:
+Final verification rechecks 41 distinct protected/source/archive/manifest files:
 zero byte/size changes. Four Ghidra index files changed filesystem timestamps;
 their hashes/sizes remain identical. All changed Markdown file/anchor links pass,
 all authored new-file and tracked whitespace checks pass, and HEAD/index are
 unchanged. The supplied brief's three pre-existing Markdown hard-break lines are
-reported separately and preserved. Final guard values exceed88GB on C: and139GB
+reported separately and preserved. Final guard values exceed 88 GB on C: and 139 GB
 on D:.26 task-authored changed/new files plus the unchanged supplied brief are
 listed individually in the manifest. A Windows null-path check attempt was corrected
 to `/dev/null`; the check exposed only those supplied-brief hard breaks.

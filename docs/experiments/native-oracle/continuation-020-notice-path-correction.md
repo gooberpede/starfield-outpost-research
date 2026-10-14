@@ -30,6 +30,6 @@ the main menu until runtime admission and a fresh durable nonce ACK pass.
 The original blocked supplement and proposed correction remain retained under
 `.local-work/native-oracle-020/operations/`. Fresh authorization and preflight
 receipts are separate files; no prior failure is overwritten or relabelled.
-All35 automated runtime checks plus the corrected five-member deployment check
+All 35 automated runtime checks plus the corrected five-member deployment check
 must pass before launch release. Preflight is file/process metadata verification,
 not proof of future runtime reachability or native equivalence.

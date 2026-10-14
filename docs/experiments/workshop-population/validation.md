@@ -1,9 +1,9 @@
 # Validation and preservation
 
 Original scientific reports and `.local-work/workshop-inventory/` are immutable
-for this rework. `baseline.json` preserves36authored/dependency files in
-`baseline-tree/`, hashes739prior evidence files totaling12,312,512,957bytes,
-pins16existing Ghidra/executable files and both prior review patches, and records
+for this rework. `baseline.json` preserves 36 authored/dependency files in
+`baseline-tree/`, hashes 739 prior evidence files totaling 12,312,512,957 bytes,
+pins 16 existing Ghidra/executable files and both prior review patches, and records
 HEAD/index/status. The original manifest SHA256 remains
 `94ea136de103eb5dfc0dfc41de7deaf1c2fe23e1e1867cfb8d470aac429d43cd`.
 
@@ -19,24 +19,24 @@ Actual fresh checks:
   Hab world/location/source joins and native selector qualification distinguish
   recovered context from authoritative construction ownership.
 
-- Eighteen population/component adversarial tests PASS;35inventory,11extractor,
-  6record-framing and9membership tests PASS:79 total.
+- Eighteen population/component adversarial tests PASS; 35 inventory, 11 extractor,
+  6 record-framing and 9 membership tests PASS: 79 total.
 - `typed-full03`: S120705records/8Workshop-key leads; Save52205557records/
-  8628leads, independent R3 arithmetic, ordered type counts and all reference
+  8628 leads, independent R3 arithmetic, ordered type counts and all reference
   prefixes close. No prefix errors; unsupported extra suffixes retained.
-- `components01`: complete type6 body closure at297569/1451260, independently
-  checked through the final native version-gated tables. Type4 and type5 full
+- `components01`: complete type 6 body closure at 297569/1451260, independently
+  checked through the final native version-gated tables. Type 4 and type 5 full
   independent decodes and typed joins are separately pinned.
-- `roots03`: original657identity subset retained;191unique disjoint additions,
- 848combined;191identity set independently reproduced. One generated alias-bearing
+- `roots03`: original 657 identity subset retained; 191 unique disjoint additions,
+ 848 combined; 191 identity set independently reproduced. One generated alias-bearing
   member corrected without creating an extra root.
 - Full installed QUST/ALLA and placed XLKR all-variant scans; exact defaults,
-  static targets and19129saved base overrides checked.
-- Fresh `baseline-validation02` reruns the original27-label/26-archive validator:
- 755559framed records,63prior extractor-owner comparisons,17outside-base beacon
-  controls,17comparative owner names,60sealed capture files,3frozen pins and16
-  database/executable pins PASS. It validates the preserved657baseline, not the
-  new population claim. All281diagnostic identity calls remained stable.
+  static targets and 19129 saved base overrides checked.
+- Fresh `baseline-validation02` reruns the original 27-label/26-archive validator:
+ 755559framed records, 63 prior extractor-owner comparisons, 17 outside-base beacon
+  controls, 17 comparative owner names, 60 sealed capture files, 3 frozen pins and 16
+  database/executable pins PASS. It validates the preserved 657 baseline, not the
+  new population claim. All 281 diagnostic identity calls remained stable.
 
 `baseline-validation01` is retained as a failed attempt: the final repeated full
 identity assertion failed without identifying a path/field. Its expected-content
@@ -46,10 +46,10 @@ baseline hash audit independently rechecks old evidence. The original transient
 identity-failure cause is not established. No evidence or original was repaired,
 rewritten or deleted to make the check pass.
 
-Final preservation PASS:961hash checks, including739old evidence files,2prior
-patches,16protected Ghidra/executable files,38ESMs,26unique input archives and
-the baseline validator's additional pins. All36snapshot copies match their
-preserved authored versions;23scientific/source files remain unchanged in place.
+Final preservation PASS: 961 hash checks, including 739 old evidence files, 2 prior
+patches, 16 protected Ghidra/executable files, 38 ESMs, 26 unique input archives and
+the baseline validator's additional pins. All 36 snapshot copies match their
+preserved authored versions; 23scientific/source files remain unchanged in place.
 Thirteen top-level summary/provenance files were deliberately updated, with
 their prior bytes retained in the snapshot. HEAD/index remain unchanged and
 there are no staged changes.
@@ -57,13 +57,13 @@ there are no staged changes.
 Four Ghidra index sidecars (`idata/~index.bak`, `idata/~index.dat`,
 `versioned/~index.bak`, `versioned/~index.dat`) have changed mtime/ctime metadata
 after the authorized read-only/no-analysis exports. Their bytes/hashes, the
-actual program/user databases and all16protected content hashes are unchanged.
+actual program/user databases and all 16 protected content hashes are unchanged.
 This is observed tool housekeeping, not a symbol/type/comment or analysis-content
 edit. Timestamps were not restored or concealed. It could explain the earlier
 exact-identity check failure, but that specific causal association was not logged
 in the failed attempt and is not asserted as proven.
 
-The old61passing tests remain useful regression evidence. Their optional
+The old 61 passing tests remain useful regression evidence. Their optional
 `explicit_type` field name and mixed-type decoy semantics are superseded: the
 byte is a version override. New independent registry tests supply actual type
 coverage. Passing tests and exact closure do not establish exhaustive semantics.
@@ -75,7 +75,7 @@ changes/absences are recorded per file, not silently accepted under old pins.
 
 Final preservation, source/receipt identities, new complete/task-only patch
 hashes and applicability are recorded in the local review package. Complete
-means all authored changes since HEAD, including the previous uncommitted657
+means all authored changes since HEAD, including the previous uncommitted 657
 work. Task-only means changes since this rework's preserved working-tree
 snapshot. Neither patch is a staging operation. Raw saves, decompressed data,
 native instructions/decompilation, analysis DBs and bulk exports are excluded.

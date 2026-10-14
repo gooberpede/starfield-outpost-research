@@ -14,8 +14,8 @@ An earlier authentic save/capture from the same resource-identity cohort, before
 the relationship became unobservable, could discriminate it. It must preserve
 the relevant root/member/source identities and a construction/ordinary-owner
 witness; a filename, character name, matchingFFID, nearby beacon or matching
-base definition is insufficient. The existing261originals were searched and
-the older96resource tables checked. Only Save52 and its matching quicksave carry
+base definition is insufficient. The existing 261 originals were searched and
+the older 96 resource tables checked. Only Save52 and its matching quicksave carry
 the full current fingerprints; neither provides the missing relationship.
 
 A newly constructed arbitrary Hab followed by removal can validate how that
@@ -29,7 +29,7 @@ the missing relationship after load, prepare a separate finite observation card:
 exact pinned executable/plugin profile and a controlled copy of Save52; exact
 restoration entry/exit and object/owner fields; one settled load/no-action
 observation plus named affected cells only if required; independent root/member
-identity comparison against the frozen848and candidate ledgers; flush records
+identity comparison against the frozen 848 and candidate ledgers; flush records
 before any anticipated exit; stop on identity mismatch, corruption or observation
 outside the declared boundary; preserve originals, stop instrumentation and
 revalidate source/configuration afterward. A breakpoint/hook can affect execution

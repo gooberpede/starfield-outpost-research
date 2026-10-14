@@ -1,4 +1,4 @@
-# Startup investigation review return — candidate0.1.4, not live-qualified
+# Startup investigation review return — candidate 0.1.4, not live-qualified
 
 2026-10-11 Australia/Sydney; SOR-D-0047 / SOR-EXP-0027 / SOR-EV-0035.
 
@@ -25,8 +25,8 @@ unvalidated directories, closes rejected process handles and checks the existing
 both-drive storage guard before timing output. Acquisition loop and native guards
 are unchanged apart from event/READY version strings. The qualifier's optional
 keep-going mode retains failed controls and returns overall failure, enabling a
-complete case matrix instead of aborting at the first failure.19 startup controls,
-12 health and11 Python tests pass; final established controls are **5 PASS/1 FAIL**.
+complete case matrix instead of aborting at the first failure. 19 startup controls,
+12 health and 11 Python tests pass; final established controls are **5 PASS/1 FAIL**.
 Two runtime counterexamples remain blockers regardless of passing repeats.
 
 New authored files: two disposable startup scripts and their README; investigation,
@@ -35,7 +35,7 @@ startup/version code and qualification/version/reporting only. Documentation
 supplements update root/state/decision/provenance/source/credit/experiment/evidence/
 brief/latency indexes. Supplied brief is retained unchanged and included in the
 complete patch as pre-existing supplied input, not task-authored work. No renames
-or deletions. Original0.1.3 architecture README remains unchanged; the new startup
+or deletions. Original 0.1.3 architecture README remains unchanged; the new startup
 README supplies the candidate supplement.
 
 Actual review checks: preserved original/package/baseline/shared inputs; compiled

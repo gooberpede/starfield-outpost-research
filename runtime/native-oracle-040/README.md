@@ -16,7 +16,7 @@ Fifteen guarded complete CALL edits and RX leaf relays: enclosing route, eligibi
 search, fallback, source descriptor, native grid, two displacement sites, two
 reference-angle sites, Q, E, sentinel selection, explicit-body selection, explicit
 producer. The final bridge reads the proven selected RDI and operation RSI at
-CALL17DF4E2, forwards the four real native arguments and has MASM unwind metadata.
+CALL 17DF4E2, forwards the four real native arguments and has MASM unwind metadata.
 No entry detour, native call synthesis, debugger, forced key or dynamic unload.
 STOP drains admitted work; all CALLs/relays stay resident and inert until normal exit.
 Timing/execution are affected; fixture qualification is separate from retail safety.
@@ -28,12 +28,12 @@ Timing/execution are affected; fixture qualification is separate from retail saf
 |route_tests.cpp and assembly|Original synthetic ABI bodies and memory, test-process CALL edits/restoration, thread/FP/exception controls and local raw evidence. Synthetic arithmetic is not a retail semantic oracle.|
 |route_inspect.py/test_route.py|Immutable raw/journal/health/frozen inputs and original adversarial derivatives; exclusive outputs only; no process access.|
 |operate.py|Future approved receipt/nonce/STOP helper; limited process metadata only when invoked live. Deployed preflight checks runtime-essential DLL only. No config or save mutation.|
-|Retained branch/generic fixture/inspect modules|Project030 transport regressions; schema3 fixtures remain schema3. They are not the schema4 live analysis CLI.|
+|Retained branch/generic fixture/inspect modules|Project 030 transport regressions; schema 3 fixtures remain schema 3. They are not the schema 4 live analysis CLI.|
 
 Build: CPython `runtime/native-oracle-040/build.py --name NEW --sfse EXACT_PATH
 --vcvars EXACT_PATH` from repository root. Paths/hashes are pinned in the report/card.
-Both C: and D: must have at least40,000,000,000 caller-available bytes, with documented
-write reserves. Queue4096 is buffering, not a scientific event quota; saturation
+Both C: and D: must have at least 40,000,000,000 caller-available bytes, with documented
+write reserves. Queue 4096 is buffering, not a scientific event quota; saturation
 stops admission and records loss. No event-count ceiling. Windows system DLLs and
 existing compiler/SDK are separately installed tools, not new downloads.
 

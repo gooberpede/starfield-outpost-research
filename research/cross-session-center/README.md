@@ -5,14 +5,14 @@ Independent native Event decoding uses CPython standard library only. Existing
 project `save-analysis/scripts/stream_save.py` supplies BCPS decompression; it is
 reused with provenance, not silently presented as an independent save parser.
 
-From the repository root, using installed CPython3.14.3:
+From the repository root, using installed CPython 3.14.3:
 
 ```powershell
 & 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -m unittest discover -s research/cross-session-center -p 'test_*.py' -v
 & 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' research/cross-session-center/verify.py --output .local-work/cross-session-center/verification-NEW
 ```
 
-Prerequisites: both original sealed sessions, selected050/060 build manifests
+Prerequisites: both original sealed sessions, selected 050/060 build manifests
 and unchanged source inputs, existing saved-audit/saved-fields ledger and archived
 Save25/26; installed executable accessible for read-only hashing. The verifier
 fails closed if any expected hashes/record extents/identity checks disagree and
@@ -25,7 +25,7 @@ temporary decompression scratch removed by the reader. Stdlib tests create only
 in-memory synthetic records. No native execution, network, target memory,
 save modification, observer build, configuration or database mutation.
 
-Limits: hardcoded candidate pointers apply only to the pinned060 session;
+Limits: hardcoded candidate pointers apply only to the pinned 060 session;
 later coherent ExtraWorkshop observations validate their sampled association,
 not continuous lifetime. A saved numeric match is not a remapping proof. Original
 capture field sampling is non-atomic. Header sequence orders emission, not native

@@ -61,7 +61,7 @@ All artifacts below remain LOCAL-ONLY, including compiled original tools and his
 
 ## READY correction review build — 2026-10-06
 
-User-scoped initialization/publication fix and offline tests only; no new game/save/static research. This build supersedes review08 for future package review; earlier artifacts remain historical, not deleted. Its temporary manual deployment proposal was never executed and is now superseded by exclusive user-managed Vortex deployment; nothing deployed. All artifacts below LOCAL-ONLY. See the updated audit for scope and limits.
+User-scoped initialization/publication fix and offline tests only; no new game/save/static research. This build supersedes review 08 for future package review; earlier artifacts remain historical, not deleted. Its temporary manual deployment proposal was never executed and is now superseded by exclusive user-managed Vortex deployment; nothing deployed. All artifacts below LOCAL-ONLY. See the updated audit for scope and limits.
 
 | Artifact under .local-work | Bytes | SHA-256 |
 |---|---:|---|
@@ -76,7 +76,7 @@ User-scoped initialization/publication fix and offline tests only; no new game/s
 
 ## Scientific anomaly / Vortex review build — 2026-10-06
 
-Current review12-anomalies supersedes prior build selection. User-scoped observer anomaly/safety policy, offline tests and exclusive Vortex deployment documentation only; no new scientific result or game/save/static research. 125 native and 26 output checks pass. Prior artifacts, including the review11 fixture failure, are retained. See the audit and runtime README for limitations. These files and the complete review patch remain LOCAL-ONLY. No deployment or live execution occurred.
+Current review 12-anomalies supersedes prior build selection. User-scoped observer anomaly/safety policy, offline tests and exclusive Vortex deployment documentation only; no new scientific result or game/save/static research. 125 native and 26 output checks pass. Prior artifacts, including the review 11 fixture failure, are retained. See the audit and runtime README for limitations. These files and the complete review patch remain LOCAL-ONLY. No deployment or live execution occurred.
 
 | Artifact under .local-work | Bytes | SHA-256 |
 |---|---:|---|

@@ -1,7 +1,7 @@
 # External Q030 procedure checks
 
 Original GPL-3.0-or-later operational tooling for the [run card](../../docs/experiments/q-branch-030/live-run-card.md).
-CPython3.14.3 standard library and existing project helpers only; no downloads.
+CPython 3.14.3 standard library and existing project helpers only; no downloads.
 The qualified runtime/native-oracle-030 tree is read/imported, never edited or rebuilt.
 
 `prepare_lock.py` reads the existing build receipt, ZIP, executable CALL bytes,
@@ -13,14 +13,14 @@ All audit modes require 40,000,000,000 caller-available bytes on C and D (failed
 queries fail), required directories and exact protected/source identities.
 
 **2026-10-12 external inventory repair:** [qualification and prospective amendment](../../docs/experiments/q-branch-030/module-inventory-fix.md).
-Original lock02/previous tool qualification are historical. The revised modules
+Original lock 02/previous tool qualification are historical. The revised modules
 command requires a new lock explicitly pinning cooperative acquisition; no live
-retry follows. The030 DLL and runtime sources remain unchanged.
+retry follows. The 030 DLL and runtime sources remain unchanged.
 
 `environment.py files` reads explicit local load-order/INI contents and hashes,
 game-root/Data file metadata, distinguishing ABSENT from unreadable (failure).
 Its revised future-only modules command reads the unchanged worker's latest complete
-numbered module inventory, requests fresh nonce/ACK within15 seconds, validates health
+numbered module inventory, requests fresh nonce/ACK within 15 seconds, validates health
 and limited creation metadata, rehashes module files and rejects unstable/invalid
 receipts. It does not perform a cross-process module snapshot or read target memory.
 A30-second parent timeout stops only the inventory helper, never the target. Failed
@@ -45,9 +45,9 @@ Outputs are local-only `.local-work/q-branch-030-procedure/`; native session out
 uses the unchanged config's `.local-work/native-oracle-live/session-*` root.
 Use new output names; exclusive creation rejects overwrites. Admission receipts
 are plugin self-attestation, not an independent read of live patched memory.
-Monitor targets3 seconds, rejects measured gaps over10 seconds, retains the native
+Monitor targets 3 seconds, rejects measured gaps over 10 seconds, retains the native
 15-second gate, and attempts STOP on failure after establishing new-session ownership.
-The512MiB observed output threshold and20-minute monitor bound initiate STOP;
+The 512 MiB observed output threshold and 20-minute monitor bound initiate STOP;
 sampling/drain latency means they are not exact byte/time caps. STOP is resident
 retirement, never hot unloading. Terminal-file presence is preliminary; final
 inspector determines completeness. Hardware/storage inability to write STOP requires

@@ -45,13 +45,13 @@ and auxiliary lists/typed world data. Its mask `0x0c` includes a compact string
 table before the length-delimited payload. Interpreting the packed active-world
 value is now qualified by typed unpacker `14096fb40`: encoded X/Y are the
 low two uint16 fields; tag, body index and system occupy the upper word's
-low3, next6 and next18 bits. `142332ea0` resolves the body and checks the
+low 3, next 6 and next 18 bits. `142332ea0` resolves the body and checks the
 landscape identity. The four controlled samples encode the archived Kreet
-origin `(1,10464,21120)` and system88327/body15; Save52 encodes
-`(0,16992,33312)` and Jemison system71456/body3. This does not yet establish
+origin `(1,10464,21120)` and system 88327/body 15; Save52 encodes
+`(0,16992,33312)` and Jemison system 71456/body 3. This does not yet establish
 which context the loader selects at every future runtime instant. The separate
-descriptor array records each generated world's packed origin: body4/key8/ID3.
-Unique typed world-component runs now join all28 selected object parents to their
+descriptor array records each generated world's packed origin: body 4/key 8/ID3.
+Unique typed world-component runs now join all 28 selected object parents to their
 secondary descriptors, independently checked against PNDT GNAM. See the
 [selected saved beacon frames](saved-center-frame.csv).
 
@@ -87,13 +87,13 @@ XYZ translation and changes mask `0x02`; it does not rotate local axes.
 Ordinary base REFR `+0x800 → 1402b56d0` is a no-op. Actor-specific fallbacks
 were separately traced and do not establish ordinary beacon behavior.
 
-The durable saved representation uses descriptor origin for mask20-clear and
-site base for mask20-set in the qualified active corpus. This bypasses prediction
+The durable saved representation uses descriptor origin for mask 20-clear and
+site base for mask 20-set in the qualified active corpus. This bypasses prediction
 of a future live edge's loading epoch. Origin-relative SOR-003 XY
 (356.820404,2459.058594) gives cell offset(3,24) from(10464,21120);
 site-relative negative-X84ede9 gives(-1,0) from(13152,45120). These use the same
 signed-floor/100-unit rule with different saved bases, without per-site fitting.
-Disabled mask10 examples are retained without an active direct-site prediction.
+Disabled mask 10 examples are retained without an active direct-site prediction.
 
 ## Terrain rebasing
 
@@ -117,7 +117,7 @@ For an unspecified later runtime instant, selected edge validity, terrain height
 and rebase epoch are not unique save-derived values. `1407896d0` compares the
 already resident world to choose reuse/reset; activation and cleanup change the
 edge store. `140ada3a0` requires the current component source and edge+35 validity,
-returning100×edgeXY and edge+30 Z when valid. A settled checkpoint observation
+returning 100×edge XY and edge+30 Z when valid. A settled checkpoint observation
 of world/cell IDs, edge key/validity/XY/Z, manager mode/old/current origins and own
 XYZ would distinguish live alternatives. This proposed separate capture is not
 authorized here. Changing loaded frames does not choose a continuous embedding.

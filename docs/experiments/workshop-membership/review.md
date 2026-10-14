@@ -8,10 +8,10 @@ unresolved. Authored REVIEW-REQUIRED until maintainer critical review.
 | Brief requirement | Concrete deliverable / acceptance evidence |
 |---|---|
 |1. Deterministic inventory/library | Qualified offline CLI/library, versioned [schema](schema.md), stable per-root JSON/CSV, all bases/names/states retained; repeated-primary-byte detection. |
-|2. Ownership/unresolved ledger | Full direct-member edges and raw queue/offset provenance; every member role and every other R3 record retained. Conflict/null/missing/default80 exceptions are explicit. |
-|3. Save52 summary | All19 owners including two disabled historical rows in owners.csv;657 supported roots in full local export;193 member gaps and196,929 other records. No exhaustive Save52 claim. |
+|2. Ownership/unresolved ledger | Full direct-member edges and raw queue/offset provenance; every member role and every other R3 record retained. Conflict/null/missing/default 80 exceptions are explicit. |
+|3. Save52 summary | All 19 owners including two disabled historical rows in owners.csv; 657 supported roots in full local export; 193 member gaps and 196,929 other records. No exhaustive Save52 claim. |
 |4. Report/dependency map | [Native/saved mechanism](report.md), [dependency map](dependencies.md), exact source hashes/counterexamples and separate confidence/coverage/readiness. |
-|5. Executable validation |61 tests,27 labels/26 archives,755,559 arithmetic-framed records, controls,63 selected prior extractors,17 reclassified leads and preservation receipt. |
+|5. Executable validation |61 tests, 27 labels/26 archives, 755,559 arithmetic-framed records, controls, 63 selected prior extractors, 17 reclassified leads and preservation receipt. |
 |6. Capabilities/backlog | [Separate contents/category/default/native-census work](dependencies.md) and central BACKLOG; no contents or functional-link implementation. |
 |7. Independent review/package | Independent reviewer challenges and final disposition below; complete/task-only patches, exact replay checks, status/manifest/exclusions in ignored local package. |
 
@@ -30,9 +30,9 @@ preservation, synthesis and correction of superseded probes.
 
 One fresh-context reviewer `/root/independent_reviewer` challenges the population,
 not merely row joins. It independently read primary saved/native/ESM evidence,
-rehashes qualified inputs, challenged flat-member overcounting and first4C
-absence assumptions, required closed extras/no80 qualified compound peers,
-required resolving foundation targets, separated80 context and insisted on an
+rehashes qualified inputs, challenged flat-member overcounting and first 4C
+absence assumptions, required closed extras/no 80 qualified compound peers,
+required resolving foundation targets, separated 80 context and insisted on an
 explicit mixed-record audit decoy. These corrections were adopted in this same
 assignment. Counts/classes and old naive counterexamples were independently
 checked. Final verdict and exact snapshot confirmation are recorded after review.
@@ -44,9 +44,9 @@ task-only `d4b84c59d586636449c2457a6e947cd697f1eda8b0ab2d5d6d04509390af1dc4`.
 All seven mandatory deliverables PASS. Actual return is retained locally in
 `independent-review.txt`.
 
-Reviewer independently executed61 tests; checked original controlled actions,
-Save52 identity/type/role accounting, all27 final04→final05 scientific-object
-comparisons, current archive/script/context and47 candidate source-ledger hashes,
+Reviewer independently executed 61 tests; checked original controlled actions,
+Save52 identity/type/role accounting, all 27 final04→final05 scientific-object
+comparisons, current archive/script/context and 47 candidate source-ledger hashes,
 changed-file coverage, patch paths and reverse applicability. HEAD/index/reviewed
 file hashes were unchanged. Forward exact replay and broader preservation were
 inspected via implementation/receipts, not independently re-executed. The final

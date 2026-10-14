@@ -6,7 +6,7 @@
 
 ## Direct runtime observations and interpretation
 
-All offsets here are **in-memory member byte offsets**, not save-file offsets. FormIDs identify captured references within this exact sample/session; pointers/handles are separate domains. Source game SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`, Steam1.16.244.0; SFSE0.2.21 hash `28c5bda41d9959c885efcb6e889de69e92767c80a1a66842d711d215f722f82b`; approved observer0.1.0 DLL hash `0e910a3ec6362adf050add3a9cd754246ac12f25e5ae55426d1c44ed93848a31`. Fresh READY matched PID17596/process creation and module identities; SFSE log confirmed plugin loaded. Observer worker used guarded non-atomic reads, with no engine calls, hook, breakpoint or memory mutation. Gameplay, save, reload, travel and exit were operator-controlled.
+All offsets here are **in-memory member byte offsets**, not save-file offsets. FormIDs identify captured references within this exact sample/session; pointers/handles are separate domains. Source game SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`, Steam1.16.244.0; SFSE 0.2.21 hash `28c5bda41d9959c885efcb6e889de69e92767c80a1a66842d711d215f722f82b`; approved observer 0.1.0 DLL hash `0e910a3ec6362adf050add3a9cd754246ac12f25e5ae55426d1c44ed93848a31`. Fresh READY matched PID 17596/process creation and module identities; SFSE log confirmed plugin loaded. Observer worker used guarded non-atomic reads, with no engine calls, hook, breakpoint or memory mutation. Gameplay, save, reload, travel and exit were operator-controlled.
 
 | Captured reference | Before move, XYZ float32 displayed | After move, save, reload and travel |
 |---|---|---|
@@ -16,9 +16,9 @@ All offsets here are **in-memory member byte offsets**, not save-file offsets. F
 
 Selective response to the operator's move and proximity before/after fast travel support the SOR-003/SOR-002 associations within this run. The additional candidate is retained, not mistaken for a third player-controlled outpost or discarded to force a count. Ordinary-base selection is not exhaustive membership/ownership identification. Repeated identity and handle-slot association passed for all three beacon candidates; player association was false and was retained as a diagnostic. Fresh roots were reacquired after reload even though reference pointers/handles happened to remain unchanged; both workshop-extra pointers changed on reload.
 
-The moved beacon's exact XYZ bytes are `0369b243f0b019457220ffc1` before and `3eeda843b366164537db0cc2` after. Displacement magnitude is approximately56.0513 local units. The operator selected a depression described as about46m away; neither its achieved distance nor a unit conversion was measured. These numbers are not treated as equal or as planetary distances.
+The moved beacon's exact XYZ bytes are `0369b243f0b019457220ffc1` before and `3eeda843b366164537db0cc2` after. Displacement magnitude is approximately 56.0513 local units. The operator selected a depression described as about 46 m away; neither its achieved distance nor a unit conversion was measured. These numbers are not treated as equal or as planetary distances.
 
-For the SOR-003-associated captured ExtraWorkshop candidate (type0xbc), the 12 bytes at **+0x60** are zero through `premove-003`, then become:
+For the SOR-003-associated captured ExtraWorkshop candidate (type 0xbc), the 12 bytes at **+0x60** are zero through `premove-003`, then become:
 
 ```text
 50bc9741408f5242e0af5440
@@ -32,15 +32,15 @@ workshop[+0x60:+0x6c] == float32(original_beacon_XYZ - current_beacon_XYZ)
 float32(current_beacon_XYZ + workshop_tuple) == original_beacon_XYZ bits
 ```
 
-The control beacon's tuple remains zero. The moved tuple is bit-identical after save, reload, reload control, SOR-002 visit and visit control, including after the workshop object's runtime pointer changes. During the premove→moved transition, the only changed bytes in its captured0xa0-byte workshop prefix are +0x60–+0x6b; the captured192-byte workshop table is unchanged across that move. Other bytes/tables change around reload, and earlier build-UI inspection changes +0x90–+0x93. These counterexamples prevent treating the entire object/table as invariant or labeling every changed byte a move field.
+The control beacon's tuple remains zero. The moved tuple is bit-identical after save, reload, reload control, SOR-002 visit and visit control, including after the workshop object's runtime pointer changes. During the premove→moved transition, the only changed bytes in its captured 0xa0-byte workshop prefix are +0x60–+0x6b; the captured 192-byte workshop table is unchanged across that move. Other bytes/tables change around reload, and earlier build-UI inspection changes +0x90–+0x93. These counterexamples prevent treating the entire object/table as invariant or labeling every changed byte a move field.
 
 **Interpretation, SOR-H-0010:** the tuple may compensate for beacon relocation to retain an original workshop location. Exact arithmetic is directly supported here; boundary-center semantics remain PROVISIONAL. Alternatives include a relative transform/repositioning cache used for another workshop purpose. No consuming native function, writer/lifecycle, radius field or serialized offset is identified. Survival through load is POST-LOAD OBSERVED, not proof that these exact bytes were serialized rather than reconstructed. The operator's no-boundary-shift observation is consistent supporting evidence without a measured center/radius or landmark geometry. A second independent displacement or static consumer mapping would distinguish broader interpretations, but neither is automatically authorized by this handoff.
 
 ## Terrain/frame coverage and unresolved primary objective
 
-Both sites capture terrain mode2, selected origin+c8, coarse indices `(54,110)`, sub `(8,0)`, fine `(0,0)`, grid resolution256 and block+merge12; candidate axis steps are49152. Decoded origin bytes and grid fields match across the two sites and controls. The terrain raw prefix nevertheless changes at +0x190/+0x194/+0x198/+0x19c on travel, and active/world prefixes change during no-action controls too. Equal decoded origins do not mean all frame state is equal. Two additional raw sections at SOR-002 concern linked extra data; no guessed semantics assigned.
+Both sites capture terrain mode 2, selected origin+c8, coarse indices `(54,110)`, sub `(8,0)`, fine `(0,0)`, grid resolution 256 and block+merge 12; candidate axis steps are 49152. Decoded origin bytes and grid fields match across the two sites and controls. The terrain raw prefix nevertheless changes at +0x190/+0x194/+0x198/+0x19c on travel, and active/world prefixes change during no-action controls too. Equal decoded origins do not mean all frame state is equal. Two additional raw sections at SOR-002 concern linked extra data; no guessed semantics assigned.
 
-No ExtraData0x81 cached-pair section was emitted for either player-placed beacon in these snapshots. This describes collector output, not proof that no planetary cache exists anywhere. Native residual conversion, alternate-overlay authority and continuous body embedding are still open. This run delivers rich raw evidence and a reproducible original-location-offset lead; it does not solve exact planetary beacon coordinates. The previously validated discrete49152 projection is preserved without extending its claim.
+No ExtraData0x81 cached-pair section was emitted for either player-placed beacon in these snapshots. This describes collector output, not proof that no planetary cache exists anywhere. Native residual conversion, alternate-overlay authority and continuous body embedding are still open. This run delivers rich raw evidence and a reproducible original-location-offset lead; it does not solve exact planetary beacon coordinates. The previously validated discrete 49152 projection is preserved without extending its claim.
 
 ## Acquisition completeness, machine safety and target survival
 
@@ -56,13 +56,13 @@ No ExtraData0x81 cached-pair section was emitted for either player-placed beacon
 | visit-002 | 41,578 | 583 | 593 |
 | control-002 | 40,141 | 583 | 593 |
 
-All nine have durable CAPTURE_PARTIAL markers and final metrics; **5,233 raw sections / 5,323 snapshot journal rows** pass unchanged offline inspector checks, including every referenced raw length/hash. No truncated tails, observer failure marker, rejected request or quota/time-based abort. Partial flags are the additional candidate's unsupported interior world branch and intentionally unsupported native calls. Complete journal persistence is distinct from incomplete semantic/collector coverage. Full session inventory is303,692,684 bytes, including startup/control/retirement files; each checkpoint is about33.74MB. Measured working sets are whole Starfield-process costs, not observer memory attribution. Duration range38.328–41.578s applies to this run, not a guaranteed timeout/performance promise.
+All nine have durable CAPTURE_PARTIAL markers and final metrics; **5,233 raw sections / 5,323 snapshot journal rows** pass unchanged offline inspector checks, including every referenced raw length/hash. No truncated tails, observer failure marker, rejected request or quota/time-based abort. Partial flags are the additional candidate's unsupported interior world branch and intentionally unsupported native calls. Complete journal persistence is distinct from incomplete semantic/collector coverage. Full session inventory is 303,692,684 bytes, including startup/control/retirement files; each checkpoint is about 33.74 MB. Measured working sets are whole Starfield-process costs, not observer memory attribution. Duration range 38.328–41.578 s applies to this run, not a guaranteed timeout/performance promise.
 
-The initial launch lacked SFSE because, according to the operator, Vortex retained Starfield.exe as launch target after re-enabling SFSE. It produced no science capture. Correct SFSE startup succeeded; the operator's60-second startup instruction was adopted, with further time allowed for progress. STOP was sent only after final capture metrics; retirement persisted at01:37:54.483 UTC (12:37:54 AEDT). Game survived all captures and operator reports normal exit, Steam sync complete and observer disabled. Independent process check confirms game/loader absence; actual deployed plugin directory contains only the Vortex marker. Removing disabled deployed files is operator/Vortex cleanup, not failed preservation. Codex made no deployment/configuration or approved implementation changes.
+The initial launch lacked SFSE because, according to the operator, Vortex retained Starfield.exe as launch target after re-enabling SFSE. It produced no science capture. Correct SFSE startup succeeded; the operator's60-second startup instruction was adopted, with further time allowed for progress. STOP was sent only after final capture metrics; retirement persisted at 01:37:54.483 UTC (12:37:54 AEDT). Game survived all captures and operator reports normal exit, Steam sync complete and observer disabled. Independent process check confirms game/loader absence; actual deployed plugin directory contains only the Vortex marker. Removing disabled deployed files is operator/Vortex cleanup, not failed preservation. Codex made no deployment/configuration or approved implementation changes.
 
 ## Save archival and preservation
 
-Original/frozen Save25 SOR-SAMPLE-0030 remain2,403,744 bytes, hash `d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f5`. New **SOR-SAMPLE-0031 / Save26**:
+Original/frozen Save25 SOR-SAMPLE-0030 remain 2,403,744 bytes, hash `d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f5`. New **SOR-SAMPLE-0031 / Save26**:
 
 ```text
 Save26_D6036588M417474696C61204B6972616C79_000241_20261010012454_4_0_4.sfs
@@ -70,9 +70,9 @@ Save26_D6036588M417474696C61204B6972616C79_000241_20261010012454_4_0_4.sfs
 SHA-256 2b4781e75226f2ff7c6aa47470fb47ff179c1754461aa208c46716d7c3935104
 ```
 
-Exact new-file identity was selected by before/after directory comparison, not a Save26 glob. An exclusive local archive copy under `.local-work/savegames/beacon-observer/initial-01/` matches the source hash after exit. Operator said time “12:54”; filename/mtime show12:24:54 AEDT, preserved as separate observations. Save26 was not decompressed, edited or parsed for a serialized workshop-field claim in this pass.
+Exact new-file identity was selected by before/after directory comparison, not a Save26 glob. An exclusive local archive copy under `.local-work/savegames/beacon-observer/initial-01/` matches the source hash after exit. Operator said time “12:54”; filename/mtime show 12:24:54 AEDT, preserved as separate observations. Save26 was not decompressed, edited or parsed for a serialized workshop-field claim in this pass.
 
-Final hashes confirm pinned game/SFSE/loader, package, selected DLL, all12 build-manifest source files and both protected Save25 files unchanged. Deployed observer DLL/config are absent after Vortex disabling, not silently replaced. Final available bytes C:89,613,336,576; D:139,867,746,304, both above40,000,000,000. Disk guard was active in unchanged observer; no real low-space event was induced.
+Final hashes confirm pinned game/SFSE/loader, package, selected DLL, all 12 build-manifest source files and both protected Save25 files unchanged. Deployed observer DLL/config are absent after Vortex disabling, not silently replaced. Final available bytes C: 89,613,336,576; D: 139,867,746,304, both above 40,000,000,000. Disk guard was active in unchanged observer; no real low-space event was induced.
 
 ## Review package and limits
 

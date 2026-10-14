@@ -24,9 +24,9 @@ Candidate directory: `D:/Projects/starfield-outpost-research/.local-work/native-
 
 Lock/package/preservation/submission receipts reside under
 `D:/Projects/starfield-outpost-research/.local-work/native-oracle/continuation-020/`.
-The submitted inventory contains49 files; the continuation delta contains24 paths.
+The submitted inventory contains 49 files; the continuation delta contains 24 paths.
 The complete patch appropriately carries earlier pending work and both unchanged
-supplied briefs; the task patch uses the retained31-file continuation baseline.
+supplied briefs; the task patch uses the retained 31-file continuation baseline.
 I verified both patch hashes and every retained forward-applied file against the
 submitted inventory, without applying patches or changing Git state myself.
 
@@ -34,13 +34,13 @@ submitted inventory, without applying patches or changing Git state myself.
 
 | Original criterion | Decision and primary evidence | Tested limit |
 |---|---|---|
-| Engineering: native ABI, six edits, concurrency, guards, normal/abnormal behavior, health and retirement | PASS. Reviewed all `runtime/native-oracle-020/` source, generated guards, commands/logs and fixture implementation. Independently reran final04 tests.exe:520 assertions PASS, including GPR/XMM/FP/LastError preservation, full EAX Q/E and uint64 C results, C++/SEH propagation, nested/rejected scopes, concurrent publication, saturation, STOP during active work/backlog, actual read-only-mapping mid-transaction failure and restored earlier bytes/protection. | Disposable native contracts and source review; actual SFSE/game scheduling, accepted-overlay startup and survival NOT TESTED. |
-| Diagnostic capability: Q0, Q/E0, E/C0, C/grid0, paired outputs; no qualified negatives from unlinked/incomplete evidence | PASS. Independently ran current test_inspect.py against fresh native fixtures:30 tests PASS. Actual synthetic Q/E/C machine-CALL cases distinguish stages. Missing ancestry, orphan scopes, incomplete grid attempts, abnormal/missing ends, contradictory entered counters and recovered heartbeat stalls are rejected. | Synthetic qualification is explicitly marked. A complete upstream scope isolates observed downstream absence, not the exact failed engine predicate. |
-| Evidence integrity: ordered durable raw records, partial recovery, loss/read validity, identity and frozen inputs | PASS. Reviewed raw-before-journal flushing, per-field validity, sequence/TLS identity, durable health/nonce and final reconciliation. Independent adverse tests cover corruption, truncation, raw/journal tails, loss, stale/duplicate/wrong nonce, counters and unsupported FP domains. All20 build source/dependency pins, six protected inputs,11 disk guard windows and frozen prediction hash matched. | Prefix preservation is not power-loss proof. Native replay remains conditional; identity and selected-frame authority require independent evidence. |
-| Operational compatibility: accepted overlays, justified startup guards, provenance, Vortex packaging and reliable card | PASS as an offline deliverable. Checked the exact five ZIP members/CRC/content hashes and release lock against the card. The card retains mandatory identity/preimage/sole-thread/relay guards, documents accepted normal overlays and optional unreadable module hashes, requires fresh nonce health, and bounds STOP retirement to30 seconds. | No universal injector compatibility or thread-creation exclusion is proved. Sole-thread snapshots bound a disclosed startup assumption. Actual deployment/removal and runtime admission NOT TESTED here. |
+| Engineering: native ABI, six edits, concurrency, guards, normal/abnormal behavior, health and retirement | PASS. Reviewed all `runtime/native-oracle-020/` source, generated guards, commands/logs and fixture implementation. Independently reran final04 tests.exe: 520 assertions PASS, including GPR/XMM/FP/LastError preservation, full EAX Q/E and uint64 C results, C++/SEH propagation, nested/rejected scopes, concurrent publication, saturation, STOP during active work/backlog, actual read-only-mapping mid-transaction failure and restored earlier bytes/protection. | Disposable native contracts and source review; actual SFSE/game scheduling, accepted-overlay startup and survival NOT TESTED. |
+| Diagnostic capability: Q0, Q/E0, E/C0, C/grid 0, paired outputs; no qualified negatives from unlinked/incomplete evidence | PASS. Independently ran current test_inspect.py against fresh native fixtures: 30 tests PASS. Actual synthetic Q/E/C machine-CALL cases distinguish stages. Missing ancestry, orphan scopes, incomplete grid attempts, abnormal/missing ends, contradictory entered counters and recovered heartbeat stalls are rejected. | Synthetic qualification is explicitly marked. A complete upstream scope isolates observed downstream absence, not the exact failed engine predicate. |
+| Evidence integrity: ordered durable raw records, partial recovery, loss/read validity, identity and frozen inputs | PASS. Reviewed raw-before-journal flushing, per-field validity, sequence/TLS identity, durable health/nonce and final reconciliation. Independent adverse tests cover corruption, truncation, raw/journal tails, loss, stale/duplicate/wrong nonce, counters and unsupported FP domains. All 20 build source/dependency pins, six protected inputs, 11 disk guard windows and frozen prediction hash matched. | Prefix preservation is not power-loss proof. Native replay remains conditional; identity and selected-frame authority require independent evidence. |
+| Operational compatibility: accepted overlays, justified startup guards, provenance, Vortex packaging and reliable card | PASS as an offline deliverable. Checked the exact five ZIP members/CRC/content hashes and release lock against the card. The card retains mandatory identity/preimage/sole-thread/relay guards, documents accepted normal overlays and optional unreadable module hashes, requires fresh nonce health, and bounds STOP retirement to 30 seconds. | No universal injector compatibility or thread-creation exclusion is proved. Sole-thread snapshots bound a disclosed startup assumption. Actual deployment/removal and runtime admission NOT TESTED here. |
 | Acquisition design: finite controls and defensible accessible conditional natural trigger | PASS. Reviewed primary Q construction/consumer, E callback construction and existing-search/fallback exports alongside the architecture/source ledger. Save25/26 controls are not claimed Q-positive. N1 is one separately approved new Kreet landing with Save26 lineage, new baseline/landed slots, autosave preservation and no beacon construction, repeated landing or automatic fallback. | New landing creates a credible candidate-query opportunity, not guaranteed Q/E/C or a Workshop reference. Exact blocking branches, practical N1 feasibility and natural reachability remain UNKNOWN/NOT TESTED. |
-| Handoff and authority: qualification, ledger, complete/task patches, preservation and independent review | PASS for the submitted package plus this report. Independently checked49 inventory hashes, retained application trees,448 relative links, all58 prior live evidence hashes, eight static export hashes and unchanged pre-continuation files outside six intentional summary updates. Reviewed all31 individual offline-preflight checks as true. | Preflight was not rerun by this reviewer and is not deployed/runtime admission. This added report requires the implementer's documented metadata-only package refresh. |
-| Scientific validity: positive identity and frame reconciliation; no health/count-based equivalence claim | PASS for claim discipline. Inspector and card preserve conditional native-input replay, mismatches and unsupported domains; operator labels do not establish native identity. **Fresh native equivalence remains NOT TESTED.** | No actual0.2.0 game observations, qualified native-position reconstruction, selected-frame reconciliation or algorithm-equivalence result is supplied by these fixtures. |
+| Handoff and authority: qualification, ledger, complete/task patches, preservation and independent review | PASS for the submitted package plus this report. Independently checked 49 inventory hashes, retained application trees, 448 relative links, all 58 prior live evidence hashes, eight static export hashes and unchanged pre-continuation files outside six intentional summary updates. Reviewed all 31 individual offline-preflight checks as true. | Preflight was not rerun by this reviewer and is not deployed/runtime admission. This added report requires the implementer's documented metadata-only package refresh. |
+| Scientific validity: positive identity and frame reconciliation; no health/count-based equivalence claim | PASS for claim discipline. Inspector and card preserve conditional native-input replay, mismatches and unsupported domains; operator labels do not establish native identity. **Fresh native equivalence remains NOT TESTED.** | No actual 0.2.0 game observations, qualified native-position reconstruction, selected-frame reconciliation or algorithm-equivalence result is supplied by these fixtures. |
 
 ## Independent execution and preservation
 
@@ -48,9 +48,9 @@ Only the existing sealed final04 tests.exe and the existing original Python test
 were executed, as expressly authorized. Fresh ignored outputs are retained at
 `D:/Projects/starfield-outpost-research/.local-work/native-oracle-020/reviewer-fixture-04/`.
 The native process reached the disposable sole-thread phase after approximately
-30 seconds and exited0 with520 PASS. Production Health.poll/append measured a
-durable ACK at219ms. Python exited0 with30 tests PASS in0.545s. These independent
-measurements are distinct from the implementer's retained203ms build measurement.
+30 seconds and exited 0 with 520 PASS. Production Health.poll/append measured a
+durable ACK at 219 ms. Python exited 0 with 30 tests PASS in 0.545 s. These independent
+measurements are distinct from the implementer's retained 203 ms build measurement.
 
 Independent stdout is retained in session tool outputs, not additional saved log
 files: native completion chunk `c3b939`; Python chunk `382b4e`; inventory/build/
@@ -63,9 +63,9 @@ remain available for replay. `fixture-events.bin` SHA256 is
 HEAD remained `aa76d2dee8b5f18b8833b94cc52570ae5b5a9a09`; index SHA256 remained
 `2f57f33a27280969b8bcffcf414a9dac2205093eac913c996328a4e93cb2e34c`.
 Checked caller-free space remained above the hard floor on both drives
-(C:86,877,679,616; D:138,781,589,504 bytes at the independent final check).
-Original0.1.0 sources/reports, the supplied briefs, protected saves, frozen
-predictions and attempt01 evidence remained unchanged. Approved header provenance
+(C: 86,877,679,616; D: 138,781,589,504 bytes at the independent final check).
+Original 0.1.0 sources/reports, the supplied briefs, protected saves, frozen
+predictions and attempt 01 evidence remained unchanged. Approved header provenance
 and notices are retained; no new dependency or third-party reuse issue was found.
 
 ## Rework disposition and remaining boundaries
@@ -83,7 +83,7 @@ production helpers and synthetic native paths, not a game-hosted lifecycle.
 Instrumentation may affect execution. Crashes, stuck calls or disk failures can
 prevent complete retirement; the card preserves prefixes and requires ordinary
 exit or a narrow recovery decision, without kill, unhook, retry or weakened gates.
-Present overlay authorization does not erase attempt01's historical deviation.
+Present overlay authorization does not erase attempt 01's historical deviation.
 
 This reviewer changed only this review report and the expressly authorized ignored
 fixture outputs. No game/process inspection beyond existing files, launch,

@@ -1,23 +1,23 @@
 # Schema 6 — native position-write history
 
-Retail1.16.244.0 preferred base `0x140000000`; actual module base and hashes are
+Retail 1.16.244.0 preferred base `0x140000000`; actual module base and hashes are
 session fields. Scientific addresses are RVAs in `site`, runtime VAs in arguments
 and Blob addresses. FormID, Workshop ID, command generation, saved token and
 pointer are distinct domains. Every session/process creation supplies a separate
 epoch; no cross-session pointer association is allowed.
 
 Workshop IDs use the established raw-byte hexadecimal convention, not a uint64
-numeric spelling. Prior050 bytes at extra+98 are `f1517de43e171745` and
+numeric spelling. Prior 050 bytes at extra+98 are `f1517de43e171745` and
 `0efca066ee4c7b9b`; their little-endian uint64 spellings would instead be
 `4517173ee47d51f1` and `9b7b4cee66a0fc0e`. Literal run-card-ID fixtures verify
 this domain without deriving the expected IDs from the decoder itself.
 
-An Event is3328 bytes, little endian, with16 unsigned64-bit header words:
+An Event is 3328 bytes, little endian, with 16 unsigned 64-bit header words:
 
 `sequence, invocation, parent, thread, qpc, site, kind, phase, reference, command,
 result, status, arg0, arg1, arg2, arg3`.
 
-Then eight400-byte Blobs, ordered `ref, base, extra, cell, world, operand, aux,
+Then eight 400-byte Blobs, ordered `ref, base, extra, cell, world, operand, aux,
 output`. Each has runtime address uint64, requested length uint32, successful
 read flag uint32,384 owned bytes. `ok=false` means unavailable, never zero-valued
 native evidence. Unused bytes are zero padding; only requested successful bytes
@@ -26,17 +26,17 @@ bytes; unusual/nonfinite values do not terminate healthy acquisition.
 
 | Field | Source / use |
 |---|---|
-| sequence | Serialized file-write order under spool lock, starting1. QPC is sampled earlier and may have a different cross-thread order. Not a global engine causal clock. |
+| sequence | Serialized file-write order under spool lock, starting 1. QPC is sampled earlier and may have a different cross-thread order. Not a global engine causal clock. |
 | invocation/parent | Global observer invocation number and actual enclosing TLS invocation; cross-thread deferred application has its own parent, never a fabricated TLS ancestor. |
-| kind/phase | replacement1; conversion2; scalar XYZ application3; immediate producer4; queued producer5; reserved submission6; deferred application7; center8; command allocation9; initial-restoration setter10 at5A14DA. The latter distinguishes the saved construction/rework path without claiming allocation birth. Phases: before1, after2, unwind3. Submission6 is reserved and not emitted by native hooks. |
+| kind/phase | replacement 1; conversion 2; scalar XYZ application 3; immediate producer 4; queued producer 5; reserved submission 6; deferred application 7; center 8; command allocation 9; initial-restoration setter 10 at 5A14DA. The latter distinguishes the saved construction/rework path without claiming allocation birth. Phases: before 1, after 2, unwind 3. Submission 6 is reserved and not emitted by native hooks. |
 | result | Actual RAX after return; unspecified for native void functions. Only command allocator return has the evidenced pointer interpretation. |
 | ref | Reference prefix0xD8; XYZ+8C/+90/+94, FormID+28, base+98, own cell+B0, extra-list+C8, frame byte+D3. Raw +24 is not relabelled a handle. No native handle resolver is called; legitimate handle is UNAVAILABLE. |
-| extra | TypeBC node0xA0; compensation+60/+64/+68 and stable observed Workshop identity bytes+98..9F. Bounded walk statuses: cycle1, unreadable2, traversal bound4. These are optional-field limits, not event quotas. |
+| extra | TypeBC node0xA0; compensation+60/+64/+68 and stable observed Workshop identity bytes+98..9F. Bounded walk statuses: cycle 1, unreadable 2, traversal bound 4. These are optional-field limits, not event quotas. |
 | cell/world | Own cell prefix0x118 and exterior world prefix0x180, if available. Null own cell is retained; no guessed resolver fallback or query-source-world substitution. World body/geography resolver is UNAVAILABLE here. |
-| operand | Original pointer XYZ12 for setters/converter/producers; scalar application copies16 including integer mode at+C. Original pointers, not snapshot replacements, are forwarded. |
-| aux/command | Application at18CE315 uses native R8−10 command pointer; copies command0x30 (XYZ+10, reference+20, parent+28). Allocation after-event stores real RAX as command, enclosing queued producer as TLS parent. Allocation occurs before payload construction/publication; it is not evidence of successful enqueue. |
-| output | Center caller output12 from original RDX; only after-phase is returned center. Allocator after-phase captures returned allocation prefix, still uninitialized payload. |
-| status | Bit8 means reference prefix changed during snapshot. Raw bytes remain available, but all identity binding from nonzero-status events is quarantined. Sampling is non-atomic; a zero status detects no sampled change, not a proof of atomicity. |
+| operand | Original pointer XYZ12 for setters/converter/producers; scalar application copies 16 including integer mode at+C. Original pointers, not snapshot replacements, are forwarded. |
+| aux/command | Application at 18CE315 uses native R8−10 command pointer; copies command0x30 (XYZ+10, reference+20, parent+28). Allocation after-event stores real RAX as command, enclosing queued producer as TLS parent. Allocation occurs before payload construction/publication; it is not evidence of successful enqueue. |
+| output | Center caller output 12 from original RDX; only after-phase is returned center. Allocator after-phase captures returned allocation prefix, still uninitialized payload. |
+| status | Bit 8 means reference prefix changed during snapshot. Raw bytes remain available, but all identity binding from nonzero-status events is quarantined. Sampling is non-atomic; a zero status detects no sampled change, not a proof of atomicity. |
 
 `events.bin` owns unmodified records; `records.jsonl` supplies sequence, byte
 offset, fixed length and SHA256 per accepted raw record. Both use cached serialized

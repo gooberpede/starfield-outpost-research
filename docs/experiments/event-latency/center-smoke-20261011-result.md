@@ -1,7 +1,7 @@
 # First center-only attempt — adapter failure before readiness
 
 2026-10-11 Australia/Sydney; SOR-EXP-0026, SOR-D-0046. Session identifier
-`center-smoke-20261011-022037-UTC`. **Live preflight passed, but adapter0.1.3
+`center-smoke-20261011-022037-UTC`. **Live preflight passed, but adapter 0.1.3
 exited before READY or evidence-directory creation. No acquisition or successful
 live qualification is claimed.** Independent postflight while Starfield survived
 confirmed exact original code at both sites and no debugger. The user then
@@ -32,13 +32,13 @@ cue was issued and no acquisition action was requested after the failure.
 | Common exit VA / RVA | `0x7FF6A9BFAC44` / `0xF4AC44` |
 | Original 32-byte site guards | Both exact expected SHA-256, before and immediately before attempt |
 | Debugger/modules | No debugger; no SFSE/observer module; inventory retained |
-| Attachment launch | 2026-10-11T02:23:04.1284781Z; adapter PID8556, `--center-only` |
+| Attachment launch | 2026-10-11T02:23:04.1284781Z; adapter PID 8556, `--center-only` |
 | Adapter exit | 2026-10-11T02:23:04.4462634Z; signed -1073740791 / `0xC0000409` |
 | stdout / stderr | Empty; no caught-exception diagnostic |
 | Session root / READY / WAL | None created |
 | Independent postflight | PASS at receipt timestamp 02:23:16.183115Z; same live target creation/path/base, original windows, debugger absent |
 | Operator exit | User reported game exited and Steam sync complete; later process inventory returned no Starfield |
-| Post-exit integrity | PASS: approved game/tool/ZIP, four original/archive save files and four frozen files; both drives above40-billion bytes |
+| Post-exit integrity | PASS: approved game/tool/ZIP, four original/archive save files and four frozen files; both drives above 40-billion bytes |
 
 Loaded module paths were reviewed as installed game/Steam, Windows and NVIDIA
 components, with no identified conflicting instrumentation. This is a scoped

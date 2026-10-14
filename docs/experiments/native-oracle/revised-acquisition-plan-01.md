@@ -21,11 +21,11 @@ artifact locking and explicit user approval.
 | Task | Offline plan and run-card revision; no implementation in this assignment. |
 | Question | Can a conforming observer discriminate upstream non-traversal, pre-enumeration gating and callback non-dispatch while preserving independent native acquisition? |
 | Best-supported answer | Two known complete CALL boundaries can provide this discrimination if naturally reached; live reachability remains UNKNOWN. |
-| Basis/coverage | STATIC on pinned retail1.16.244.0, plus the prior zero-event session. Existing-site travel/build controls were tested only with0.1.0; proposed diagnostics are NOT BUILT/NOT TESTED. |
+| Basis/coverage | STATIC on pinned retail 1.16.244.0, plus the prior zero-event session. Existing-site travel/build controls were tested only with 0.1.0; proposed diagnostics are NOT BUILT/NOT TESTED. |
 | Mandatory proposal criteria | Explicit overlay disposition and pre-write gate; concrete native sites/contracts; linked diagnostic schema/outcomes; bounded operator card, safety/cleanup, qualification and approval requirements; reviewable diffs and independent review. |
 | Negative criterion | This proposal may specify scoped no-observation outcomes. Neither the previous empty capture nor a future diagnostic-only result closes native equivalence or proves general infeasibility. |
 | Continuation / exits | Offline document/static-evidence corrections within this request. Implementation, new hooks in a deployed binary, settings changes, a changed trigger or live execution need the specific approval described below. |
-| Present science | Native equivalence NOT TESTED; frozen23 predictions unchanged. Prior operational admission NOT SATISFIED. |
+| Present science | Native equivalence NOT TESTED; frozen 23 predictions unchanged. Prior operational admission NOT SATISFIED. |
 
 The [accepted result report](live-attempt-01.md) and
 [independent review](live-attempt-01-review.md) establish the narrow starting
@@ -55,8 +55,8 @@ installation and report NOT_READY. Do not relabel a module to make it pass.
 
 An exact, reviewed module policy is also required: canonical path, SHA256, role,
 permitted phase and reason the module fits the startup assumption. Unknown or
-changed modules fail closed. The previous90-module inventory is a discovery source,
-not an allowlist: subtracting three overlays does not approve the remaining87.
+changed modules fail closed. The previous 90-module inventory is a discovery source,
+not an allowlist: subtracting three overlays does not approve the remaining 87.
 For example, `sl.interposer.dll` and security/graphics components require explicit
 role/startup assessment; a Windows/Steam/NVIDIA path or valid signature alone is
 not a compatibility proof. Do not disable essential/security components to obtain
@@ -69,7 +69,7 @@ Required new behavior in the proposed instrument:
 
 1. Persist the process identity, disk/module/source policy and initial module
    inventory before any game code/vtable edit. No observer worker exists yet.
-2. Perform all file/preimage/relay checks; wait at most the existing120 seconds
+2. Perform all file/preimage/relay checks; wait at most the existing 120 seconds
    for sole-thread startup. Re-enumerate modules and recheck the sole thread
    immediately before installation. Any enumeration/hash/policy failure refuses
    all six edits. Persist a refusal with `patches_installed=false` when true.
@@ -100,7 +100,7 @@ disk CALL bytes do not establish ABI safety or runtime traversal.
 
 | Proposed / retained boundary | Static VA; RVA | Natural call contract and purpose |
 |---|---|---|
-| NEW query wrapper Q | `0x140AD93FA`; `0x00AD93FA` → `0x140AD08D0` | RCX is the five-pointer query context, RDX candidate descriptor. Begin/end/abnormal events bracket this caller's query. Caller compares EAX with1 at AD93FF; preserve the full consumed result, not an inferred AL-only bool. No consumed stack args identified; forwarding must be qualified. |
+| NEW query wrapper Q | `0x140AD93FA`; `0x00AD93FA` → `0x140AD08D0` | RCX is the five-pointer query context, RDX candidate descriptor. Begin/end/abnormal events bracket this caller's query. Caller compares EAX with 1 at AD93FF; preserve the full consumed result, not an inferred AL-only bool. No consumed stack args identified; forwarding must be qualified. |
 | NEW enumeration wrapper E | `0x140AD0AB5`; `0x00AD0AB5` → `0x140B1E190` | RCX collection, RDX callback object, R8B=0. Bracket reference enumeration and bind callbacks to this enumeration. Preserve full observed argument/return ABI; do not infer a void return from the decompiler. |
 | Retained callback C | Vtable RVAs `0x04B916F0/0x04B916F8` → thunk `0x00AD8EC0` | Natural per-reference callback begin/end, raw reference/context identity. |
 | Retained center/grid | CALL RVAs `0x00AD0C36` → `0x00F4AB80`; `0x00AD0D36` → `0x0096F5C0` | Original native output/input/result captures inside C; both channels enabled. |
@@ -114,7 +114,7 @@ patch set: four complete CALL replacements plus two vtable slots, installed as
 one guarded startup transaction. No entry/prologue hook, arbitrary instruction
 stealing, return-address rewriting, trap or engine call manufactured by Codex.
 
-Fresh read-only PE verification on2026-10-11 confirmed the game hash above and:
+Fresh read-only PE verification on 2026-10-11 confirmed the game hash above and:
 
 | RVA | PE file offset | Original complete CALL bytes | Decoded target RVA |
 |---|---|---|---|
@@ -122,7 +122,7 @@ Fresh read-only PE verification on2026-10-11 confirmed the game hash above and:
 | `0x00AD0AB5` | `0x00AD00B5` | `E8 D6 D6 04 00` | `0x00B1E190` |
 
 Receipt `.local-work/native-oracle/revised-plan-01/native-call-verification.json`
-also records32-byte window hashes. Original Python stdlib parsing read only the
+also records 32-byte window hashes. Original Python stdlib parsing read only the
 installed executable and wrote that exclusive ignored receipt; no process access,
 native execution, patch, tool download or database change. These candidate guards
 are not a release lock and do not clear the unimplemented six-patch transaction.
@@ -131,7 +131,7 @@ Keep Q/E diagnostics compact and distinct from oracle records. Each includes
 schema/version, global sequence, QPC/thread, unique invocation and parent ID,
 boundary RVA, phase, pointer/read-validity masks and normal/abnormal completion.
 Maintain nested TLS Q→E→C linkage, including explicit unknown/orphan parents for
-calls outside the instrumented chain. Record the40-byte Q context, bounded
+calls outside the instrumented chain. Record the 40-byte Q context, bounded
 candidate fields including its `+0x10` key, bounds/output flag before/after, actual
 query return bytes, callback vtable/context, and relevant source/active-landscape
 identity through already verified bounded layouts. Exact descriptor lengths and
@@ -143,7 +143,7 @@ Unreadable/racing identity remains unknown. Diagnostic context and a user site
 label never qualify a native grid comparison by themselves.
 
 The worker must durably publish monotonic health and control acknowledgements
-even with no native events. Proposed heartbeat period1 second; a15-second missing
+even with no native events. Proposed heartbeat period 1 second; a 15-second missing
 heartbeat/unique control-nonce acknowledgement prevents a new operator action
 and triggers health-stop handling. These are safety deadlines to qualify offline,
 not scientific no-hit time limits or proof the game is hung. Preserve an append-only
@@ -165,7 +165,7 @@ Some callbacks may have no Q/E parent; report them separately. A future runtime
 gate diagnosis would need more evidence than this minimal patch set. Specifically,
 natural helper-return observations at AD092C→ACCAD0, AD0976→96EFB0 and
 AD0986→96FB40 could expose overlay and candidate/source hierarchies. They are
-**excluded from this card**. Their qualification/review would preserve both44-byte
+**excluded from this card**. Their qualification/review would preserve both 44-byte
 hierarchies and the actual comparison-field mask at AD098B–AD0A0C; whole-buffer
 equality or an earlier sampled flag is not proof of the native branch decision.
 
@@ -174,11 +174,11 @@ equality or an earlier sampled flag is not proof of the native branch decision.
 Use the old Save25/26 SOR-003→002→003 controls first with the new Q/E diagnostics,
 as a controlled change of instrumentation/environment, not as an established
 positive trigger. Do not attribute any difference specifically to overlay removal:
-both instrumentation and environment differ from attempt01. A factorial overlay
+both instrumentation and environment differ from attempt 01. A factorial overlay
 experiment would reintroduce the excluded condition and is not proposed.
 
-`durable-center-04.tsv:1994,2038,2212–2245` shows the known77FC20 path searches
-existing references via77F900 and takes candidate search77E350 only after a null
+`durable-center-04.tsv:1994,2038,2212–2245` shows the known 77FC20 path searches
+existing references via 77F900 and takes candidate search 77E350 only after a null
 result. Existing-site travel therefore need not reach Q. This is why the new
 instrument has upstream diagnostics and why no useful-oracle guarantee is made.
 
@@ -192,7 +192,7 @@ confirmation boundary, autosave protection and a natural producer argument.
 That requires explicit user scope approval before implementation/live use. Do not
 turn an unreviewed map preview into a claim of harmless or guaranteed acquisition.
 
-Other routes considered: unchanged0.1.0 retry has little discrimination; passive
+Other routes considered: unchanged 0.1.0 retry has little discrimination; passive
 shared-center polling remains stale/ownership-ambiguous; global helper-entry hooks
 increase scope/ABI burden; gate helper wrappers add patches before the parent path
 is known reachable. The two CALL additions provide the smallest currently evidenced
@@ -200,10 +200,10 @@ separation of query, enumeration and callback. No external debugger route reopen
 
 ## 4. Required engineering before this card can be executable
 
-Proposed distinct component revision: SorNativePositionOracle0.2.0, schema2.
-These are reserved proposal labels, not a release. Preserve0.1.0 and observer0.1.1,
+Proposed distinct component revision: SorNativePositionOracle0.2.0, schema 2.
+These are reserved proposal labels, not a release. Preserve 0.1.0 and observer 0.1.1,
 all failed evidence and the frozen fixtures. No ZIP/DLL/hash or event size exists
-for0.2.0 yet. No current0.1.0 build satisfies the revised card.
+for 0.2.0 yet. No current 0.1.0 build satisfies the revised card.
 
 | Mandatory future qualification | Evidence required before approval |
 |---|---|
@@ -212,9 +212,9 @@ for0.2.0 yet. No current0.1.0 build satisfies the revised card.
 | Startup and lifetime | Pre-main sole-thread gate unchanged in strength; all-or-refused six edits, rollback/residency failure paths, STOP and abnormal native unwind through nested Q/E/C. No unload/live unpatch. |
 | Positive and negative diagnostic controls | Disposable real machine CALL/vtable chain Q→E→C→center→grid; Q-only, E-without-C, C-early-return, orphan/nested/concurrent/exception cases. Verify full ABI/FP/LastError and exact forwarding. Synthetic positives remain QUALIFICATION, never native Starfield evidence. |
 | Durable health/transport | No-event heartbeat and nonce ack, sustained backlog, disk floor/query errors, writer failure, queue loss/depth, STOP while active scopes and control starvation. Validate deadlines and bounded producer overhead; do not silently sample away counts. |
-| Inspector and scientific separation | Version2 schema/pairing/hash validation, parent scope matching, diagnostic-only outcomes, incomplete-prefix treatment, existing frozen23 predictions unchanged; strict ordinary identity/frame requirements. |
+| Inspector and scientific separation | Version 2 schema/pairing/hash validation, parent scope matching, diagnostic-only outcomes, incomplete-prefix treatment, existing frozen 23 predictions unchanged; strict ordinary identity/frame requirements. |
 | Package/tools | Reproducible versioned Vortex ZIP, source/module-policy hashes, exact install/remove manifest, future preflight/postflight commands and limitations. Postflight hashes actual installed SFSE/loader, not just a staging directory. |
-| Independent review | Original contract, adverse evidence, complete/task-only diffs, source/build/policy/card hashes, acceptance matrix and reviewer decision. No current Phase A acceptance transfers to0.2.0. |
+| Independent review | Original contract, adverse evidence, complete/task-only diffs, source/build/policy/card hashes, acceptance matrix and reviewer decision. No current Phase A acceptance transfers to 0.2.0. |
 
 Implementation may use only already authorized project/SFSE material with retained
 provenance. New dependency/framework/third-party adaptation needs its existing

@@ -17,11 +17,11 @@ publication, staging, commit, push or live authority.
 
 | Criterion | Implementer result | Primary evidence / limit |
 |---|---|---|
-| ZR1: exact controls, save structure/identity/lifetime | PASS scoped | Fresh five-save decode in ignored saved-audit.json; [25 fields](saved-fields.csv), [four comparisons](comparisons.csv); Save26 remains not loaded in050. |
+| ZR1: exact controls, save structure/identity/lifetime | PASS scoped | Fresh five-save decode in ignored saved-audit.json; [25 fields](saved-fields.csv), [four comparisons](comparisons.csv); Save26 remains not loaded in 050. |
 | ZR2: producing writes, restoration/frame flag, height/compensation consumers | PASS for B scope | [Dependency ledger](dependencies.md); native uncapped instruction exports and typed write/selection/height path distinction. Missing history identified, no alias-completeness claim. |
 | ZR3: one public specialist, independent challenge and provenance | PASS | [Six-lead matrix](external-research.md), source/credit updates. No third-party implementation reuse or source-reported promotion. |
-| ZR4: executable reconstruction or precise insufficiency, meaningful controls/regressions | PASS for partial diagnostic / B; full model NOT TESTED | Isolated scalar module/tests, genuine center/earlier relocation fixtures versus synthetic restoration branches; original positioning regressions; frozen23 unchanged. Actual restoration oracle absent. |
-| ZR5: per-Workshop bits/frame/source/provenance and formula result | PASS | Both identities/Save25–26 rows in [comparisons](comparisons.csv); actual050 native sequence/raw offsets; UNKNOWN restored prediction; same query producer, non-atomic captures. |
+| ZR4: executable reconstruction or precise insufficiency, meaningful controls/regressions | PASS for partial diagnostic / B; full model NOT TESTED | Isolated scalar module/tests, genuine center/earlier relocation fixtures versus synthetic restoration branches; original positioning regressions; frozen 23 unchanged. Actual restoration oracle absent. |
+| ZR5: per-Workshop bits/frame/source/provenance and formula result | PASS | Both identities/Save25–26 rows in [comparisons](comparisons.csv); actual 050 native sequence/raw offsets; UNKNOWN restored prediction; same query producer, non-atomic captures. |
 | ZR6: first unavailable values, ranked minimal acquisition | PASS design only | [Producer/operand boundaries](dependencies.md), [ranked acquisition](acquisition.md), same-invocation identity requirements; no implementation/live authority inferred. |
 | ZR7: synthesis, independent review and same-assignment REWORK resolution | PASS — ACCEPT | Reviewer reads original criteria and primary exports/captures/tree, with fresh context. Actual verdict retained below after return. |
 | ZR8: original evidence/frozen preservation, disk guards, patches/manifests/applicability, no Git mutation | PASS | Ignored baseline/preservation/checks/package.json; complete and task-only patches, replay byte equality, whitespace/link checks. Original untracked supplied brief identified separately. |
@@ -36,12 +36,12 @@ Publication eligibility: authored REVIEW-REQUIRED; raw/native/private LOCAL-ONLY
 
 Ignored `.local-work/workshop-z-restoration/` retains:
 
-- `baseline.json`: starting HEAD/index, authored tree hashes,348 protected
+- `baseline.json`: starting HEAD/index, authored tree hashes, 348 protected
   prior source/export files and both-drive available space.
-- `capture-recheck/summary.json`, `coverage.json`:1194 records,40 ordinary
-  operations,11375 successful blob views,60 sealed files,41 approved source pins,
+- `capture-recheck/summary.json`, `coverage.json`:1194 records, 40 ordinary
+  operations, 11375 successful blob views, 60 sealed files, 41 approved source pins,
   exact native outputs and absent d3 capture intervals.
-- `saved-audit.json`: five original/decoded hashes,25 fields, both identities and
+- `saved-audit.json`: five original/decoded hashes, 25 fields, both identities and
   relocation/mature variants; identity/sign/8×/1/8 counterexamples.
 - `native-instructions.tsv`: complete specified producing functions and uncancelled
   textual d3 census; `writer-instructions.tsv`: uncapped alternative writer bodies.
@@ -57,7 +57,7 @@ supplied untracked brief; task-only excludes that supplied file. No other prior
 uncommitted change existed at task start. Patches are local review exports, not
 permission to publish, stage or integrate their content.
 
-Both drives retained the40,000,000,000-byte guard. Preservation covers the original
+Both drives retained the 40,000,000,000-byte guard. Preservation covers the original
 sealed session, prior source/static exports, executable and verified archived
 saves plus unchanged frozen inputs/predictions. Database operations used only
 Ghidra `-readOnly -noanalysis`; no contemporaneous pre-first-export database hash
@@ -77,7 +77,7 @@ or reviewer-effectiveness rerun was claimed.
 ## Independent reviewer return
 
 The actual independent return below accepts the scientific snapshot. Reviewer early challenges prompted explicit
-saved0b branch exclusion, separate ADA240/ADA3A0 epochs, metadata-only flag writes,
+saved 0b branch exclusion, separate ADA240/ADA3A0 epochs, metadata-only flag writes,
 ordinary vtable verification and bounded census coverage. These are corrections
 within this assignment, not amendments to the original acceptance criteria.
 

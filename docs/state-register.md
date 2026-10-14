@@ -14,7 +14,7 @@ supplement requires critical review.
 [EXP0024 / EV0032](experiments/event-associated-position-oracle-and-build-mode.md),
 FN0057. TRANSIENT/RUNTIME-DERIVED, persistence UNCLASSIFIED. Wait3D timers
 state+8/+c, engine-context+622 latch/+268 interface/+5c0 readiness/+210 state
-are distinct from singleton1461eefd0 WorkshopStateDataModel's named spinner,
+are distinct from singleton 1461eefd0 WorkshopStateDataModel's named spinner,
 flycam and input-blocking properties. Constructed spinner payload+580 is not
 a universal displayed-container pointer. Asynchronous service transport and
 actual failed gate require event evidence; no shared cause established.
@@ -23,33 +23,33 @@ actual failed gate require event evidence; no shared cause established.
 
 [Map](experiments/event-oracle/native-map.md): manager-owned heap0x138 ProcGen,
 not per-workshop cache. Constructor zeros tuple/e8/e9 and sets ea; reset
-retainsXYZ/clearsradius. Gated publication and inactive consumer support possible
-retention, not exact Phase1 event history. Previous wording/evidence preserved;
+retains XYZ/clearsradius. Gated publication and inactive consumer support possible
+retention, not exact Phase 1 event history. Previous wording/evidence preserved;
 no persistence/live-authority promotion. REVIEW-REQUIRED.
 
 ## SOR-ST-0026 — Native stored terrain workshop center/radius and selected-grid result
 
 [EXP0021 / EV0029](experiments/durable-position-engine-oracle.md): terrain singleton
 145fd9c30→+130 owner stores native center at+90/+98 and radius+9c, with raw
-activation/dirty flags e8/e9/ea. Producer1421b2570 and bounds consumer1407a6540
+activation/dirty flags e8/e9/ea. Producer 1421b2570 and bounds consumer 1407a6540
 are statically mapped. RUNTIME-DERIVED/TRANSIENT; persistence not established.
 Reset can zero radius while leaving center; identical brackets do not establish
-freshness or active identity. Separate140ad0b90 stack hierarchy is computed native
-coverage state with selected base/translation, not a serialized ID. Observer0.1.1
+freshness or active identity. Separate 140ad0b90 stack hierarchy is computed native
+coverage state with selected base/translation, not a serialized ID. Observer 0.1.1
 and disposable trace qualify acquisition only, no new live observations. No
 change to ST0021/0025 persisted-vector/world classifications; review required.
 
 ## SOR-ST-0025 — Persisted world descriptor, component link and selected saved frame
 
-[EXP0020](experiments/activated-overlay-static-exhaustion.md): unit3 generated-world descriptors persist body/key/legacy ID, distinct from the leading active-context key/checksum reuse discriminator. Packed key encodes X16/Y16/tag3/index6/system18; reserved bits retained, tags2/3 reversed before native hierarchical lookup. Unit6 world component persists linked/system/index/secondary/flags/signed bounds, distinct from galaxy site30-byte entries and reconstructed activated edge. Unique selected parent→secondary descriptor joins supply saved origins. Frame20 distinguishes studied source-origin-relative/site-relative XYZ; native ref+d3 mask02 and future runtime validity/height remain distinct domains. STRONG scoped interpretation proposed, REVIEW-REQUIRED, raw LOCAL-ONLY. Arbitrary future manager aliases/epoch are not persisted origins.
+[EXP0020](experiments/activated-overlay-static-exhaustion.md): unit 3 generated-world descriptors persist body/key/legacy ID, distinct from the leading active-context key/checksum reuse discriminator. Packed key encodes X16/Y16/tag 3/index 6/system 18; reserved bits retained, tags 2/3 reversed before native hierarchical lookup. Unit 6 world component persists linked/system/index/secondary/flags/signed bounds, distinct from galaxy site 30-byte entries and reconstructed activated edge. Unique selected parent→secondary descriptor joins supply saved origins. Frame 20 distinguishes studied source-origin-relative/site-relative XYZ; native ref+d3 mask 02 and future runtime validity/height remain distinct domains. STRONG scoped interpretation proposed, REVIEW-REQUIRED, raw LOCAL-ONLY. Arbitrary future manager aliases/epoch are not persisted origins.
 
 ## SOR-ST-0024 — Active pair, reconstructed overlay payload and frame epoch
 
-[SOR-EXP-0019](experiments/activated-overlay-and-grid-geometry.md#activated-overlay-reconstruction-map),2026-10-10. Terrain+b0 (mode3:+1a8) supplies active angle pair; all9 mode2 captures project10464,21120, agreeing with separate+c8 origin. ActivatedOverlayProperty shifts+8/+c, bounds+10..1c, pair+20/+28, height+30, flags+34/+35 are typed constructed runtime state; BGSWorldSpaceOverlay_Component BNAM/body identifiers are DEFINITION-DERIVED. Rebase uses terrain+1ec/+1f0 and changes shifts/bounds together. Payload save persistence UNCLASSIFIED; selected saved-frame join/epoch OPEN. Scoped STRONG semantics proposed, REVIEW-REQUIRED. Persisted reference XYZ/Workshop compensation/site associations retain separate evidence; no automatic old-state promotion.
+[SOR-EXP-0019](experiments/activated-overlay-and-grid-geometry.md#activated-overlay-reconstruction-map), 2026-10-10. Terrain+b0 (mode 3:+1a8) supplies active angle pair; all 9 mode 2 captures project 10464,21120, agreeing with separate+c8 origin. ActivatedOverlayProperty shifts+8/+c, bounds+10..1c, pair+20/+28, height+30, flags+34/+35 are typed constructed runtime state; BGSWorldSpaceOverlay_Component BNAM/body identifiers are DEFINITION-DERIVED. Rebase uses terrain+1ec/+1f0 and changes shifts/bounds together. Payload save persistence UNCLASSIFIED; selected saved-frame join/epoch OPEN. Scoped STRONG semantics proposed, REVIEW-REQUIRED. Persisted reference XYZ/Workshop compensation/site associations retain separate evidence; no automatic old-state promotion.
 
 ## SOR-ST-0023 — Parent reference transforms, overlay translation and compensated center
 
-2026-10-10, [SOR-EXP-0018 / SOR-EV-0026](experiments/durable-outpost-center-and-object-transforms.md). Persisted case5 XYZ/conditional rotations and Workshop compensation are separate from reconstructed ActivatedOverlayProperty selection. Typed payload+8/+0xc int32 shifts times100 and+0x30 floatZ are valid only with+0x35 clear; edge+0x20 is payload origin. Parent/world keys and inclusive cell bounds select the map. Captured terrain mode2 origin+c8 is10464,21120 in nine checkpoints. Stored center and general loaded center cannot universally be equated without that selection. Scoped STRONG interpretation proposed for tested transforms; continuous embedding OPEN; OBSERVED-INTERNAL only, REVIEW-REQUIRED. No old state reclassification.
+2026-10-10, [SOR-EXP-0018 / SOR-EV-0026](experiments/durable-outpost-center-and-object-transforms.md). Persisted case 5 XYZ/conditional rotations and Workshop compensation are separate from reconstructed ActivatedOverlayProperty selection. Typed payload+8/+0xc int32 shifts times 100 and+0x30 floatZ are valid only with+0x35 clear; edge+0x20 is payload origin. Parent/world keys and inclusive cell bounds select the map. Captured terrain mode 2 origin+c8 is 10464,21120 in nine checkpoints. Stored center and general loaded center cannot universally be equated without that selection. Scoped STRONG interpretation proposed for tested transforms; continuous embedding OPEN; OBSERVED-INTERNAL only, REVIEW-REQUIRED. No old state reclassification.
 
 ## SOR-EXP-0017 supplement to SOR-ST-0021 — Proposed scoped persistence/semantics update
 
@@ -61,7 +61,7 @@ change to ST0021/0025 persisted-vector/world classifications; review required.
 
 ## SOR-ST-0021 — Observed workshop relocation-offset candidate
 
-[SOR-EV-0024 / SOR-H-0010](audits/beacon-observer-initial-live-results.md), pinned1.16.244/observer0.1.0. In-memory ExtraWorkshop-candidate+0x60 holds three float32 values matching original beaconXYZ minus current beaconXYZ for one move and controls; bit-identical after manual Save26/reload with changed workshop pointer. Reference transform at+0x8c and this offset are distinct fields. Runtime byte relation OBSERVED-INTERNAL; authoritative boundary-center/radius semantics PROVISIONAL. Persistence class UNCLASSIFIED: post-load survival alone does not prove direct serialization. No serialized offset/native consumer/writer/safe integration established. Raw byte locators and exact arithmetic in report; REVIEW-REQUIRED.
+[SOR-EV-0024 / SOR-H-0010](audits/beacon-observer-initial-live-results.md), pinned 1.16.244/observer 0.1.0. In-memory ExtraWorkshop-candidate+0x60 holds three float32 values matching original beacon XYZ minus current beacon XYZ for one move and controls; bit-identical after manual Save26/reload with changed workshop pointer. Reference transform at+0x8c and this offset are distinct fields. Runtime byte relation OBSERVED-INTERNAL; authoritative boundary-center/radius semantics PROVISIONAL. Persistence class UNCLASSIFIED: post-load survival alone does not prove direct serialization. No serialized offset/native consumer/writer/safe integration established. Raw byte locators and exact arithmetic in report; REVIEW-REQUIRED.
 
 ## SOR-ST-0020 — Derived terrain indices and runtime frame inputs
 
@@ -70,7 +70,7 @@ change to ST0021/0025 persisted-vector/world classifications; review required.
 
 ## SOR-ST-0018 — Alternate placement prefix and omitted flag state
 
-[SOR-EXP-0010 / SOR-EV-0016](experiments/active-outpost-membership-completion.md), SOR-F-0015. Case-6 conditional REFR initial data consumes cell and placement-parent queue entries, transform and two signed int16 indices, then general self reference. HIST-0016 change flags `0x92018200` omit saved flags: disabled/deleted are UNKNOWN/inherited, not stored false. Ordered queued refs and token-domain distinctions remain PERSISTED structural evidence; final loaded identity and ownership are MIXED/unvalidated. Installed template/base relationships are STATIC; R1 adjacency interpretation and conditional plugin mapping remain INFERRED. ExtraPromotedRef type0x84, ExtraOwnership type0x1f and ExtraWorkshop type0xbc must remain distinct. Nonempty type0x80 / unknown ExtraFlags buffer version stop decoding. No complete player-membership predicate or negative proof; REVIEW-REQUIRED.
+[SOR-EXP-0010 / SOR-EV-0016](experiments/active-outpost-membership-completion.md), SOR-F-0015. Case-6 conditional REFR initial data consumes cell and placement-parent queue entries, transform and two signed int16 indices, then general self reference. HIST-0016 change flags `0x92018200` omit saved flags: disabled/deleted are UNKNOWN/inherited, not stored false. Ordered queued refs and token-domain distinctions remain PERSISTED structural evidence; final loaded identity and ownership are MIXED/unvalidated. Installed template/base relationships are STATIC; R1 adjacency interpretation and conditional plugin mapping remain INFERRED. ExtraPromotedRef type 0x84, ExtraOwnership type 0x1f and ExtraWorkshop type 0xbc must remain distinct. Nonempty type 0x80 / unknown ExtraFlags buffer version stop decoding. No complete player-membership predicate or negative proof; REVIEW-REQUIRED.
 
 ## SOR-ST-0017 — Framed change records and conditional beacon initial data
 
@@ -107,7 +107,7 @@ SOR-EXP-0003 / SOR-EV-0009 / SOR-F-0009; SOR-SAMPLE-0006–0022. [Exact signatur
 
 ## SOR-ST-0009 — Candidate save-manager coordination state
 
-SOR-ENV-0003 / SOR-EV-0005 / SOR-F-0007. Static global `0x145e6d6e8` (RVA05e6d6e8) supplies the manager to the UI new-slot call. Request reads manager-relative+50; finalization setup exchanges+8c to1 and completion path clears+8c then wakes waiters. These are instruction operands, not a declared native layout or save offsets. Live object identity, lifetime, status enumeration, authority, complete synchronization, persistence and serialized representation are UNKNOWN; persistence UNCLASSIFIED. PROVISIONAL busy/completion interpretation, OBSERVED-INTERNAL, REVIEW-REQUIRED. [Detailed map](experiments/SOR-EXP-0002A-native-save-thread-mapping.md) preserves alternative/error/backend paths. No field was semantically validated live.
+SOR-ENV-0003 / SOR-EV-0005 / SOR-F-0007. Static global `0x145e6d6e8` (RVA 05e6d6e8) supplies the manager to the UI new-slot call. Request reads manager-relative+50; finalization setup exchanges+8c to 1 and completion path clears+8c then wakes waiters. These are instruction operands, not a declared native layout or save offsets. Live object identity, lifetime, status enumeration, authority, complete synchronization, persistence and serialized representation are UNKNOWN; persistence UNCLASSIFIED. PROVISIONAL busy/completion interpretation, OBSERVED-INTERNAL, REVIEW-REQUIRED. [Detailed map](experiments/SOR-EXP-0002A-native-save-thread-mapping.md) preserves alternative/error/backend paths. No field was semantically validated live.
 
 Concrete candidates below are supported by static evidence only. No saved record or cross-domain identity mapping is established. Evidence/entry hashes and native operand domains: [SOR-EV-0001](experiments/evidence/initial-reconnaissance/README.md). All publication classification REVIEW-REQUIRED.
 
@@ -167,8 +167,8 @@ Publication REVIEW-REQUIRED/raw LOCAL-ONLY; independent review gate in trial mat
 
 ## SOR-ST-0029 — Saved Workshop membership and item-root inputs
 
-2026-10-14, [SOR-EXP-0032](experiments/workshop-membership/report.md), SOR-F-0031 / SOR-EV-0040. PERSISTED within tested modern representation: queued4C keyword/mode/target,9C flags, DA fields and saved form flags. DEFINITION-DERIVED: default-object/key and optional PKIN/base names. Native item root/member layouts are OBSERVED-INTERNAL STATIC, not serialized layouts.9C bit800 foundation filtering is independent of saved form800 disabled state; omitted fields are UNKNOWN. Root graph is a scoped saved/native projection; loaded authority, defaults, full reverse membership and broad physical population remain UNCLASSIFIED. REVIEW-REQUIRED/raw LOCAL-ONLY, no safe callable integration point.
+2026-10-14, [SOR-EXP-0032](experiments/workshop-membership/report.md), SOR-F-0031 / SOR-EV-0040. PERSISTED within tested modern representation: queued 4C keyword/mode/target, 9C flags, DA fields and saved form flags. DEFINITION-DERIVED: default-object/key and optional PKIN/base names. Native item root/member layouts are OBSERVED-INTERNAL STATIC, not serialized layouts. 9C bit 800 foundation filtering is independent of saved form 800 disabled state; omitted fields are UNKNOWN. Root graph is a scoped saved/native projection; loaded authority, defaults, full reverse membership and broad physical population remain UNCLASSIFIED. REVIEW-REQUIRED/raw LOCAL-ONLY, no safe callable integration point.
 
 ## SOR-ST-0030 — Saved member/root population and restoration boundary
 
-[EXP0033](experiments/workshop-population/routes.md) distinguishes8628 explicit-key records (8627 ordinary),848 supported roots,5497generated members,2282foundations and1nonordinary unresolved target.31dynamic nonownerDA groups include17without an ownR3; resource/component/history identity is separate from qualifying physical-root status and ordinary owner. Default/alias/reverse and conditional AddChange paths are explicitly audited. Root completeness is not inferred from R3 closure. REVIEW-REQUIRED, saved/static domains only.
+[EXP0033](experiments/workshop-population/routes.md) distinguishes 8628 explicit-key records (8627 ordinary),848 supported roots, 5497 generated members, 2282 foundations and 1 nonordinary unresolved target. 31 dynamic nonowner DA groups include 17 without an own R3; resource/component/history identity is separate from qualifying physical-root status and ordinary owner. Default/alias/reverse and conditional AddChange paths are explicitly audited. Root completeness is not inferred from R3 closure. REVIEW-REQUIRED, saved/static domains only.

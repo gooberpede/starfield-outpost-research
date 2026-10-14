@@ -21,7 +21,7 @@ bytes at world+310 **as a packed value**. World prefix still preserves those bit
 center remains the latch byte, translation the 16-byte query rectangle,
 context_raw the five pointers/40 bytes, candidate the 24-byte Q descriptor.
 Normal Q result is four EAX bytes; abnormal completion has no result.
-Use schema3 reader; never reinterpret original schema2 captures in place.
+Use schema 3 reader; never reinterpret original schema 2 captures in place.
 
 | Kind / complete CALL | Natural ABI input | Completion-specific blobs |
 |---|---|---|
@@ -33,20 +33,20 @@ Use schema3 reader; never reinterpret original schema2 captures in place.
 |18 final source AD0AE5→96EB90|RCX landscape, RDX output, R8 source descriptor|center actual 24-byte source pointee; source 44-byte converted output|
 |19 final delta AD0B08→96F940|RCX landscape, RDX output, R8 source hierarchy, R9 candidate hierarchy|translation eight-byte signed XY delta; source/candidate 44-byte actual inputs|
 |20 E entry AD0AB5→B1E190|RCX collection, RDX callback object, R8B option|actual entry marker before optional E diagnostic admission; no return blob|
-|21 helper abnormal completion|status identifies helper kind13–19|arguments and shared samples only; no return/output inference|
+|21 helper abnormal completion|status identifies helper kind 13–19|arguments and shared samples only; no return/output inference|
 
-Kinds13–21 input_hierarchy contains four uint64 argument slots (32 bytes; unused
+Kinds 13–21 input_hierarchy contains four uint64 argument slots (32 bytes; unused
 slots zero). result contains eight RAX bytes on normal helper completion; these
 are transport bits, not an invented return semantic. Resolver/key upper halves
 are the actual zero-extended argument values passed by the native caller.
-Common blobs: context_raw40, world0x390, floor_xy8 packed-key sample, block/merge/
-scale4 each, extra0x34 overlay when known, landscape0x58 when known (resolution
+Common blobs: context_raw40, world 0x390, floor_xy8 packed-key sample, block/merge/
+scale 4 each, extra 0x34 overlay when known, landscape 0x58 when known (resolution
 +50/body +54). The landscape VA comes from actual A RCX, not guessed global
 state. A absent on normal nonnull-overlay path identifies the null-landscape
 static path; no unsafe global-chain traversal is added solely to sample null.
 
-Ordered hierarchy tests are byte0,dword4,dword8,byte10,dwordC,dword14,dword18,
-byte20,dword1C,dword24,dword28, hexadecimal offsets. Padding is not compared.
+Ordered hierarchy tests are byte 0,dword 4,dword 8,byte 10,dwordC,dword 14,dword 18,
+byte 20,dword 1C,dword 24,dword 28, hexadecimal offsets. Padding is not compared.
 `branch_inspect.py` uses full private output snapshots, helper argument linkage,
 Q result/latch, normal completion, journal/ancestry and worker health. An actual
 E-entry marker discriminates E entry even if STOP rejects its separate diagnostic

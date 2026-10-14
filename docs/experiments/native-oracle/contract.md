@@ -12,10 +12,10 @@ compiler and original disposable fixtures; build an ignored Vortex ZIP and local
 review diffs. No Starfield/SFSE execution, debugger, deployment, saves/configuration
 changes, analysis-database writes, staging, commit, push or disclosure.
 
-Original Save25/26, archives, observer0.1.1, all frozen predictions/model inputs
+Original Save25/26, archives, observer 0.1.1, all frozen predictions/model inputs
 and starting repository files are protected. Stop affected writes if hashes change,
-disk queries fail or caller-available C:/D: space cannot retain40,000,000,000 bytes.
-Runtime writes additionally reserve1 MiB above that floor per record operation.
+disk queries fail or caller-available C:/D: space cannot retain 40,000,000,000 bytes.
+Runtime writes additionally reserve 1 MiB above that floor per record operation.
 Original source/header/tool permissions remain unchanged; no new detour library.
 
 In-scope failures require diagnosis, correction, retest and independent re-review.

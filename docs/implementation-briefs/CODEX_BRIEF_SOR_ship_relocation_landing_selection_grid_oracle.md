@@ -24,7 +24,7 @@ Starting from **Save25** (SOR-003, no SFSE), the player initially finds the ship
 
 These are **two manually reported sequences**, not recorded native call traces. Distinguish player arrival, ship relocation, landing-marker generation/lookup/selection, and Workshop-center positioning. Do not infer that visible ship movement proves a newly generated marker; a pre-existing marker may have been selected.
 
-Additional player experience, to treat as a hypothesis: natural ship landing areas partly overlapping an outpost's boundary may be excluded for that outpost when no suitable constructed landing pad exists. The ordinary workshop build radius identified in earlier static evidence is **150 native units**, but the value used by any landing-site exclusion test is unknown. The `80m` in `ShipLandingMarker_80m_Large` may indicate ship accommodation class rather than footprint radius; verify rather than assume. Constructed 40m/80m pads and their familiar ship-follow behavior need **no new gameplay test** in this task.
+Additional player experience, to treat as a hypothesis: natural ship landing areas partly overlapping an outpost's boundary may be excluded for that outpost when no suitable constructed landing pad exists. The ordinary workshop build radius identified in earlier static evidence is **150 native units**, but the value used by any landing-site exclusion test is unknown. The `80m` in `ShipLandingMarker_80m_Large` may indicate ship accommodation class rather than footprint radius; verify rather than assume. Constructed 40 m/80m pads and their familiar ship-follow behavior need **no new gameplay test** in this task.
 
 ## 3. Mandatory investigation
 

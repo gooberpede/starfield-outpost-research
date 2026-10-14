@@ -1,14 +1,14 @@
-# EXP0002 fresh primary run — review14-settled
+# EXP0002 fresh primary run — review 14-settled
 
 2026-10-06 Australia/Sydney. SOR-D-0013 authorizes a fresh primary A0/A0C/A1/A1C/A2/A2R run after review of the [synchronization correction](../audits/exp0002-settled-correction.md). The [operator card](EXP0002-operator-card.md) governs actions, bounds, anomaly handling and cleanup. No optional debugger diagnostic. Prior failed-run evidence is not reused as a primary checkpoint.
 
 ## Preflight and current status
 
-User reports review14 ZIP installed/deployed through Vortex profile **Starfield - SFSE**, with SFSE the only other enabled mod and Starfield initially closed. Independently checked deployed DLL/config against the reviewed ZIP, source hashes against build.json, pinned game/SFSE identities, and protected parent/backup size/hash/mtime. All match. Both C:/D: have more than 40 decimal GB available. Save-directory metadata and native/configuration inventory are retained locally; protected save contents were read only for hashing, no semantic parsing.
+User reports review 14 ZIP installed/deployed through Vortex profile **Starfield - SFSE**, with SFSE the only other enabled mod and Starfield initially closed. Independently checked deployed DLL/config against the reviewed ZIP, source hashes against build.json, pinned game/SFSE identities, and protected parent/backup size/hash/mtime. All match. Both C:/D: have more than 40 decimal GB available. Save-directory metadata and native/configuration inventory are retained locally; protected save contents were read only for hashing, no semantic parsing.
 
 ZIP SHA-256 `970dce992d665eeda0fcf8fcdbcb4d363016756e02e2e3a9ca4c7eeed4a37ff4`; DLL SHA-256 `9a1636adacdcd0967e7873fcdbc161fed04876d3c368f9e37735f707e9e191ed`; config SHA-256 `e6ada6592dc673d12b920864f7c944b38251fbe9a20e221b9ef551a9c4411185`. Local evidence root `.local-work/exp0002-review14-live/`; preflight.json preserves exact locators and timestamps, LOCAL-ONLY. Runtime profile/winning definitions are not established merely by the file inventory or user-reported mod list.
 
-User-operated launch produced session `session-21888-74608765`, READY `2026-10-06T08:34:30.625Z`, with matching review14 DLL hash and no failure marker. User explicitly confirmed settled gameplay before A0 and A0C; each request included SETTLED. Both completed and passed native-schema validation with zero optional load notifications. The run was stopped before construction/A1 due to observed execution-thread inconsistency with the main-thread assumption. No debugger, native selected-reference query, commit or push occurred. Cleanup/archive status follows below.
+User-operated launch produced session `session-21888-74608765`, READY `2026-10-06T08:34:30.625Z`, with matching review 14 DLL hash and no failure marker. User explicitly confirmed settled gameplay before A0 and A0C; each request included SETTLED. Both completed and passed native-schema validation with zero optional load notifications. The run was stopped before construction/A1 due to observed execution-thread inconsistency with the main-thread assumption. No debugger, native selected-reference query, commit or push occurred. Cleanup/archive status follows below.
 
 ## Captures and controls
 
