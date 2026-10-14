@@ -1,5 +1,12 @@
 # Starfield Outpost Systems Research
 
+## Workshop population correction — 2026-10-14
+
+[SOR-EXP-0033](docs/experiments/workshop-population/README.md) preserves the657-root baseline and adds191 independently supported roots (848total). Full Extra80/ALLA, default XLKR, reverse4D, actual form-type and component/restoration investigation challenges original population acceptance. Extra80 is quest/alias data; the optional record header byte is a buffer-version override. Earlier contrary interpretations remain preserved history. Exhaustive Save52 population is not established by848 alone; see the original-criterion matrix and independent review. No live, integration, publication or Git authority.
+
+
+**Workshop membership and construction roots, 2026-10-14:** [Scientific report](docs/experiments/workshop-membership/report.md), [schema/dependencies](docs/experiments/workshop-membership/schema.md), [validation](docs/experiments/workshop-membership/validation.md) and [review](docs/experiments/workshop-membership/review.md) recover explicit saved owner edges and a native-backed single/compound root representation. Controlled construction/deletion counts agree; Save52 population and loaded/default completeness remain explicitly unresolved. Offline research only; no integration, live, commit or push authority.
+
 **Durable position application readiness, 2026-10-13:** [Consolidated specification](docs/position-model/specification.md), [capabilities](docs/position-model/capabilities.md), [Tracker/Planner audit](docs/position-model/applications.md), [self-check](docs/position-model/self-check.md) and [disposition/review](docs/position-model/review.md). Scoped saved identity/center and conditional horizontal positioning are useful now; historical Z and exact continuous geography have no demonstrated current product blocker. Authoritative structure membership is the next practical dependency. No live, importer, commit or push authority.
 
 **Workshop caller/idle-camera audit, 2026-10-13:** [Report](docs/experiments/workshop-caller-semantics/report.md) traces shared geometric consumers and multithreaded center bursts. Frequency does not establish idle-camera activation; historical XYZ producer and full3D frame remain unresolved. [Native ledger](docs/experiments/workshop-caller-semantics/native-ledger.md), [chronology](docs/experiments/workshop-caller-semantics/chronology.md), [review](docs/experiments/workshop-caller-semantics/review.md). Offline only; no new live or Git authority.

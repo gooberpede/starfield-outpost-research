@@ -161,3 +161,11 @@ SAVE/STATIC; semantic STRONG proposal pending maintainer review. No actual
 production, authoritative membership or universal population claim. Four static
 X-Tech definitions associate; placement NOT_OBSERVED_IN_SAVE_CORPUS. Authored
 REVIEW-REQUIRED, raw LOCAL-ONLY. See frozen contract and review matrix in report.
+
+## SOR-F-0031 — Explicit saved owner and native construction-root projection
+
+2026-10-14, [SOR-EXP-0032](experiments/workshop-membership/report.md), SOR-EV-0040. PROVEN within sampled SAVE/STATIC scopes: GetWorkshop default key054ba6, counted4C key/mode/target serialization, ordinary beacon joins, native9C800+192 foundation filter,191/DA grouping and dummy015804 representative. STRONG scoped construction-root interpretation proposed for maintainer review; controlled creation/deletion/no-action counts independently agree. One root per supported native item, generated parts retained separately. No class/name/proximity filter, universal construction-population or loaded/default/reverse4D completeness claim. Exact counts, counterexamples and separate review/publication status are in the linked report and validation. Earlier queued-lead-only EXP0029 evidence remains preserved history.
+
+## SOR-F-0032 — Workshop population correction and additional native roots
+
+2026-10-14, [EXP0033/EV0041](experiments/workshop-population/report.md). Exact native/saved framing and all-variant installed metadata support quest/alias Extra80, actual ordered type-registry decoding, derived reverse4D and191 additional closed single roots despite omitted9C. Original657 identities retained;848 supported physical roots,653single/195compound. Proposed STRONG scoped construction interpretation; population completeness requires the separate original-criterion disposition. No loaded-authority, arbitrary-build or publication promotion.

@@ -179,3 +179,9 @@ unobserved. Review gate and coverage are explicit; historical rows below retaine
 ### Durable-position resumption, SOR-EXP-0030
 
 [Version2 research](../experiments/durable-position-resumption.md) corrects packed/native tag2/3 domains while retaining23 frozen cases. Body and loaded inputs are independently corroborated; native arithmetic is statically recovered; site-base association remains model-predicted and fresh end-to-end native grid UNKNOWN. [Branch map](../experiments/position-resumption/dependencies.md), [stage/review matrix](../experiments/position-resumption/review.md). No accepted historical finding or integration/liveness classification is promoted.
+
+### Workshop membership/root inventory — SOR-EXP-0032
+
+[Report](../experiments/workshop-membership/report.md) connects runtime keyed owner lookup and native item reconstruction to counted saved extras. Single roots, compound representatives and generated foundations are distinguished independently of categories. [Dependency map](../experiments/workshop-membership/dependencies.md) preserves alternate80/default/inherited/reverse population gaps, containers/displays versus contents, and future categorization. Scoped positive, universal completeness unresolved; no automatic importer/live authority.
+
+Workshop membership/population follow-up: [EXP0033](../experiments/workshop-population/report.md) corrects alias/type semantics and adds191 physical roots to the657 baseline. Membership detection, physical instance/root selection, restoration and historical population completeness remain separate dependencies; the original acceptance matrix controls terminal claims.

@@ -391,3 +391,11 @@ No raw payload publication, original save/config/database edits or live executio
 ## Durable position consolidation — 2026-10-13
 
 [Self-check](position-model/self-check.md) freshly composes existing project corpus and independent native replay readers. Frozen v1/model/input/expected hashes remain pinned; no scientific algorithm or schema changed. Full receipts remain local under .local-work/position-consolidation/check-03/ and the corresponding durable-center extraction. [Product consultation](position-model/applications.md) pins sibling HEAD/files under maintainer-owned SOR-P-0002; no sibling mutations or source incorporation. [Review package](position-model/review.md) records original/task changes, byte-exact patch replays and independent disposition; publication classification unchanged.
+
+## Workshop membership and construction roots — 2026-10-14
+
+[SOR-EXP-0032](experiments/workshop-membership/report.md), SOR-EV-0040. [Source ledger](experiments/workshop-membership/sources.csv), qualified27-label manifest and final local reproduction/validation receipts pin archives, current ESM context, native exports, protected database/executable and earlier frozen/sealed evidence. Original project-owned source-informed readers/exporter/tests and completion packaging only; no outside implementation, dependency acquisition or disclosure. Read-only/no-analysis Ghidra exports preserve original state; failed/partial exports and superseded prefix/projection runs are retained. Bulk instance/raw/native data remain ignored LOCAL-ONLY; authored summaries/code REVIEW-REQUIRED. Historical original gameplay source locations unavailable for fresh hash checks are disclosed separately from unchanged research archives. HEAD/index and supplied brief preserved, no stage/commit/push.
+
+### EXP0033 population rework — 2026-10-14
+
+[Report](experiments/workshop-population/report.md) preserves prior657 scientific/evidence bytes and source pins; new source/receipt identities and complete/task-only patches use a fresh rework prefix. Native state is read/exported only. Original project reader/exporter adaptations and specialist/reviewer sources are credited in SOR-S-0144, with no new third-party implementation/dependency. Raw/proprietary/private evidence remains local.

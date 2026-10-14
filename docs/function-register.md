@@ -190,3 +190,11 @@ Separate observed internal functions from exposed or validated integration point
 ## SOR-FN-0013 — EXP0002 native query/operand set
 
 SOR-ENV-0002, OBSERVED-INTERNAL / STATIC. [Contract table](../runtime/exp0002/STATIC-CONTRACT.md) lists each original VA/RVA and operand: GetPlayer 0x14177a1f0, transform callbacks 0x142072580/590/5a0 and 0x1420702e0/300/320, parent 0x14208b990, worldspace 0x14208b9e0, FormID 0x14204d600, location 0x14208b8f0 -> 0x140b4e650, cell-view windows and worldspace-cell setter 0x140bbdf70 (never invoked). GetBaseObject/Is3DLoaded wrapper conventions are not reused as direct R8 callbacks. Evidence SOR-F-0006 / SOR-EV-0002; independent instruction checks take precedence over library/decompiler prototypes. Calling/lifetime safety remains unvalidated live; persistence UNKNOWN. No symbol/type/comment modifications.
+
+## SOR-FN-0058–0059 — Saved owner and item reconstruction paths
+
+2026-10-14, [native dependency ledger](experiments/workshop-membership/dependencies.md), SOR-EV-0040. Pinned Starfield.exe SHA2567e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28, preferred base140000000. SOR-FN-0058: GetWorkshop142073cf0→140517d60,4C loader140562ef0, construction1421dd600→140f3cf40 and separate deletion1421de660. SOR-FN-0059:1421c71b0 existing-reference item builder, foundation predicate140f5f2d0, group collector140f366c0, reverse filter140f44c00, compound builder1421cbac0, root selector1421cb740 and setter140f661e0. Reads/writes, identity domains, callers, mask/default gaps and source locators are in that ledger. STATIC/OBSERVED-INTERNAL only; no live lifetime/calling qualification, database edits or mod interface authority.
+
+## EXP0033 — Membership, registration and component restoration corrections
+
+[Native route map](experiments/workshop-population/routes.md):140517c00/140500ba0/140cf72d0 resolve quest/ALLA aliases;140518750 derives reverse4D;141815620 assigns actual record types from ordered footer runs;14181cdc0/14181ce30 gate AddChange;14182e280 restores components;140b1e720 resolves CalculatedPackinData existing instance IDs. Type4 selector1421661c0 requires an existing owner, and generic reconstruction is not categorically ships-only. Static VAs/build pins in report; no safe runtime integration claim.

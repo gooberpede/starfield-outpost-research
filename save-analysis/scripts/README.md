@@ -164,3 +164,7 @@ Raw inputs and inventories are LOCAL-ONLY; no new dependency or live authority.
 ## Durable position resumption (SOR-EXP-0030)
 
 `durable_position_v2.py` preserves v1 and consumes its explicit extracted-input schema; returns center/residual bits and distinct native/packed cell domains, with missing qualified site cells UNKNOWN. `position_quantizer_diagnostic.py` implements recovered mixed arithmetic and explicit bounded AVX/FMA sine branches; scalar cosine is a disclosed surrogate, and its output never fills v2 missing inputs. `verify_position_v2.py` compares all23 frozen regressions and optional fresh extraction/archived raw Phase1 evidence, with caller-available40GB C/D guards and new output directories only. New tests are pure offline. No target, save, database, network, dependency or Git mutations. [Scope, commands and limits](../../docs/experiments/durable-position-resumption.md).
+
+## Workshop population rework
+
+[Interface/effects/reproduction](../../docs/experiments/workshop-population/schema.md) documents `research_workshop_population.py`, `research_workshop_components.py`, `research_workshop_roots.py`, default-link census and no-I/O helpers. Explicit qualified inputs, fresh ignored outputs, before/after identities, bounded decoder scratch and40GB C/D guards; stdlib/project only. `test_workshop_population.py` supplies18 adversarial cases. No target, save, analysis DB, deployment, Git or network mutations. Not a production importer; population acceptance uses the original criteria.

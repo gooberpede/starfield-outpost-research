@@ -164,3 +164,11 @@ Publication REVIEW-REQUIRED/raw LOCAL-ONLY; independent review gate in trial mat
 ## Position consolidation cross-reference — 2026-10-13
 
 [Specification](position-model/specification.md) consolidates SOR-ST-0020/0021/0023–0026 without promoting their statuses. Serialized transforms/compensation and world descriptors remain distinct from reconstructed runtime edges and transient caller outputs. [Capabilities](position-model/capabilities.md) separates persistence, frame coverage and application readiness.
+
+## SOR-ST-0029 — Saved Workshop membership and item-root inputs
+
+2026-10-14, [SOR-EXP-0032](experiments/workshop-membership/report.md), SOR-F-0031 / SOR-EV-0040. PERSISTED within tested modern representation: queued4C keyword/mode/target,9C flags, DA fields and saved form flags. DEFINITION-DERIVED: default-object/key and optional PKIN/base names. Native item root/member layouts are OBSERVED-INTERNAL STATIC, not serialized layouts.9C bit800 foundation filtering is independent of saved form800 disabled state; omitted fields are UNKNOWN. Root graph is a scoped saved/native projection; loaded authority, defaults, full reverse membership and broad physical population remain UNCLASSIFIED. REVIEW-REQUIRED/raw LOCAL-ONLY, no safe callable integration point.
+
+## SOR-ST-0030 — Saved member/root population and restoration boundary
+
+[EXP0033](experiments/workshop-population/routes.md) distinguishes8628 explicit-key records (8627 ordinary),848 supported roots,5497generated members,2282foundations and1nonordinary unresolved target.31dynamic nonownerDA groups include17without an ownR3; resource/component/history identity is separate from qualifying physical-root status and ordinary owner. Default/alias/reverse and conditional AddChange paths are explicitly audited. Root completeness is not inferred from R3 closure. REVIEW-REQUIRED, saved/static domains only.
