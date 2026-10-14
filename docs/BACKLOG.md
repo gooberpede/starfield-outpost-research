@@ -6,6 +6,8 @@
 
 ## Read-only save-menu identification extractor
 
+2026-10-14: the [explicit support brief](implementation-briefs/CODEX_BRIEF_SOR_save_menu_identification_utility.md) is implemented for review in the [utility/report](experiments/save-menu-identification.md). Practical identification is qualified for five controlled menu entries, with original timestamp provenance/collisions/unknowns and a model-based separate mature Save52 label. Universal menu parity is outside scope. The earlier unimplemented status below is preserved history; no additional menu reverse-engineering phase is proposed.
+
 Recorded 2026-10-12 under the Q030 procedure brief; **not implemented or investigated**.
 Future separate brief should map research IDs to visible character name, manual/auto/
 exit-save type, in-game location text, level, visible date/time and playtime, detect

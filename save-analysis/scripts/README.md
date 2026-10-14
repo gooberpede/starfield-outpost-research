@@ -1,5 +1,9 @@
 # Offline Analysis Scripts
 
+## Save-menu identification
+
+[`save_menu.py`](save_menu.py) accepts exact `.sfs` paths or `--mapping` JSON, requires the explicit current menu `--utc-offset '+11:00'`, prints load instructions and exclusively writes optional `--json` output. It reads/hashes exact inputs before/after, validates BCPS1, decodes only the first bounded stream and reuses existing metadata parsing. Original source timestamps must be hash-bound when reading archives; missing fields and collisions remain explicit. No scratch, save/game/database/network effects or dependency downloads. `test_save_menu.py` uses original synthetic temporary fixtures only. [Controls, invocation, provenance and limits](../../docs/experiments/save-menu-identification.md). Keep private structured inventories local/ignored.
+
 ## SOR-EXP-0024 input-integrity audit
 
 `audit_event_oracle_inputs.py --output FRESH-IGNORED-PATH.json` requires the

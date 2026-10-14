@@ -1,5 +1,7 @@
 # Credits
 
+For [save-menu identification support](docs/experiments/save-menu-identification.md), the maintainer supplies screenshots, protected saves and prior character testimony; Bethesda Game Studios supplies the save/menu representations. Existing project header/container readers supply parsing methods; Python Software Foundation/CPython and zlib contributors supply installed offline tools. The original utility and synthetic fixtures introduce no third-party implementation or dependency. Exact source/input/tool hashes stay local, and authored conclusions await maintainer/ChatGPT review.
+
 The [cross-session center comparison](docs/experiments/cross-session-center/report.md)
 credits Bethesda native/save evidence, the maintainer's controlled saves and
 approved 050/060 gameplay, existing project observer/schema/reconstruction work

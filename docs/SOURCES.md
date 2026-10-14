@@ -1,5 +1,9 @@
 # Source Register
 
+### Save-menu support extension — SOR-S-0124 / SOR-S-0113
+
+2026-10-14. [Report](experiments/save-menu-identification.md): maintainer-provided screenshot `20261013121245_1.jpg` (SHA-256 `460a1b941870c062dc81d29e7841b313b511b650fc976dcf9483ba148ae81283`) and `20261013121257_1.jpg` (exact hash in local validation), prior [run-card transcription/testimony](experiments/ship-relocation-050/run-card.md), protected controlled/mature save headers and original filesystem metadata supply offline independent controls. Existing owned `inventory_historical_saves.py` metadata and `stream_save.py` container validation at HEAD `b225cb61bbafeefd2496f62fa4ba5a0437ded09a` are reused by the new original utility; exact source/tool hashes in `.local-work/save-menu/run-04/controlled-inventory.json` and `validation.json`. Installed CPython/zlib are separate tools, not vendored code. Bethesda save/menu representations remain proprietary local inputs; names/paths/metadata/screenshots LOCAL-ONLY, authored report/code REVIEW-REQUIRED. No new outside implementation, dependency, contact, network consultation or permission basis. No native menu reverse engineering or live work; original-mtime/current-offset interpretation is scoped to 12 controls.
+
 ### Cross-session extension of SOR-S-0127/0128/0132/0142
 
 2026-10-13. [Comparison](experiments/cross-session-center/report.md) and [exact

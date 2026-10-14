@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Save-menu identification utility](CODEX_BRIEF_SOR_save_menu_identification_utility.md): invoked 2026-10-14, explicitly single-agent offline support. [Result/report](../experiments/save-menu-identification.md); no game execution, save modification, staging, commit or push. Maintainer/ChatGPT critical review pending.
+
 - [Cross-session native center state and observer interference](CODEX_BRIEF_SOR_cross_session_native_center_state_and_observer_interference.md): invoked 2026-10-13; offline reconstruction, original verifier, comparative hook/ABI/timing audit and independent review. [Result/package](../experiments/cross-session-center/review.md). No observer build, live work, deployment, save mutation, staging, commit or push.
 
 - [Native Workshop position-write history and Z oracle](CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md): invoked 2026-10-13; integrated offline implementation/disposable qualification/Vortex package and complete prospective Save25 card. [Review/package](../experiments/position-write-history/review.md). No deployment/launch/attachment/save editing/staging/commit/push.

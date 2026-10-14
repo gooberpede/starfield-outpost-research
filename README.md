@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**Save-menu support, 2026-10-14:** [Read-only identification utility and report](docs/experiments/save-menu-identification.md) maps controlled save IDs to character/header fields and screenshot-matched original last-write timestamps. Five controlled entries and seven supplemental menu rows agree at fixed UTC+11; Save52 itself is model-based, not screenshot-verified. Single-agent completion for maintainer/ChatGPT review; no live or Git authority.
+
 ## Workshop population correction — 2026-10-14
 
 [SOR-EXP-0033](docs/experiments/workshop-population/README.md) preserves the 657-root baseline and adds 191 independently supported roots (848 total). Full Extra80/ALLA, default XLKR, reverse 4D, actual form-type and component/restoration investigation challenges original population acceptance. Extra80 is quest/alias data; the optional record header byte is a buffer-version override. Earlier contrary interpretations remain preserved history. Exhaustive Save52 population is not established by 848 alone; see the original-criterion matrix and independent review. No live, integration, publication or Git authority.
