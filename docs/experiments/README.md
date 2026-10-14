@@ -1,5 +1,7 @@
 # Experiments
 
+- SOR-EXP-0034: [Inorganic resource availability](resource-availability/report.md), [validation](resource-availability/validation.md), [review/package](resource-availability/review.md); offline UI/native/source/serialization study with typed partial calculations. Complete site sets remain unvalidated.
+
 - [Durable position consolidation](../position-model/specification.md), [reproduction](../position-model/self-check.md), [review](../position-model/review.md): offline synthesis of EV0017–0026/0028/0038/0039, not a new live experiment or universal XYZ claim.
 
 - [Workshop caller semantics and idle-camera hypothesis](workshop-caller-semantics/report.md) — actual geometric caller ancestry, frame-index contract, burst/thread chronology and precise missing producer observations; [review](workshop-caller-semantics/review.md). SOR-EXP-0031 / SOR-EV-0039 continuation, offline only.

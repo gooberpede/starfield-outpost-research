@@ -1,5 +1,18 @@
 # Credits
 
+For [inorganic resource availability research](docs/experiments/resource-availability/report.md),
+Bethesda Game Studios supplies installed native/definition/development evidence;
+the maintainer supplies protected saves, controlled actions and the prospective
+Available Resources screenshot. Existing project readers and maintainer-owned
+resource research/reproducer methods retain their [exact provenance](docs/SOURCES.md#sor-s-0145--inorganic-availability-primary-investigation).
+Ghidra contributors, Eclipse Adoptium/OpenJDK, Python Software Foundation/CPython
+and zlib contributors supply the existing offline toolchain. The specialist
+contributes native UI/producer/property/generation tracing; the independent
+reviewer contributes primary instruction, save and installed-data replays and
+the generation-closure challenge. No proprietary binaries/assets or decompiled source listings are included in
+authored deliverables; the calculations are explicitly source-informed. No new
+outside implementation is incorporated; raw evidence stays local.
+
 For [save-menu identification support](docs/experiments/save-menu-identification.md), the maintainer supplies screenshots, protected saves and prior character testimony; Bethesda Game Studios supplies the save/menu representations. Existing project header/container readers supply parsing methods; Python Software Foundation/CPython and zlib contributors supply installed offline tools. The original utility and synthetic fixtures introduce no third-party implementation or dependency. Exact source/input/tool hashes stay local, and authored conclusions await maintainer/ChatGPT review.
 
 The [cross-session center comparison](docs/experiments/cross-session-center/report.md)

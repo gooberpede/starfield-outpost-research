@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Inorganic resource availability](CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md): invoked 2026-10-14; offline UI/native/save/record investigation, original executable partials, two authorized agent roles and [critical review/package](../experiments/resource-availability/review.md). No game, instrumentation, save modification or Git mutation.
+
 - [Save-menu identification utility](CODEX_BRIEF_SOR_save_menu_identification_utility.md): invoked 2026-10-14, explicitly single-agent offline support. [Result/report](../experiments/save-menu-identification.md); no game execution, save modification, staging, commit or push. Maintainer/ChatGPT critical review pending.
 
 - [Cross-session native center state and observer interference](CODEX_BRIEF_SOR_cross_session_native_center_state_and_observer_interference.md): invoked 2026-10-13; offline reconstruction, original verifier, comparative hook/ABI/timing audit and independent review. [Result/package](../experiments/cross-session-center/review.md). No observer build, live work, deployment, save mutation, staging, commit or push.

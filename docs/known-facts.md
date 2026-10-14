@@ -1,5 +1,9 @@
 # Established Findings
 
+## SOR-F-0033 — UI aggregation differs from saved producer registry
+
+[EXP0034 / EV0042](experiments/resource-availability/report.md). Scoped STRONG STATIC/SAVE interpretation submitted for critical review: native typed UI folds three collections, filtering the third to water; harvester property presence selects a collection or bypasses the resource gate. Controlled construction/deletion and all 63 mature extractor joins identify the sampled saved Workshop groups as producer-object associations. Neither supports a complete available-site population. Actual invocation freshness, spatial source selection, valid footprint coverage and preview/established equality remain unvalidated. Publication eligibility is separate.
+
 ## SOR-F-0029 — Shared ProcGen tuple has partial invalidation and gated publication
 
 2026-10-11, [EXP0024 / EV0032](experiments/event-associated-position-oracle-and-build-mode.md).

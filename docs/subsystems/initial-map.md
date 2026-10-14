@@ -1,5 +1,9 @@
 # Initial subsystem map — SOR-EXP-0001
 
+## Inorganic availability runtime/persistence
+
+[EXP0034](../experiments/resource-availability/report.md) separates UI aggregation, resource-location gate, installed definitions and saved producer groups. [Partial contracts](../experiments/resource-availability/schema.md) preserve missing operands; [native tracing](../experiments/resource-availability/native.md) and [review](../experiments/resource-availability/review.md) qualify coverage. No full placement/site or preview/established equivalence.
+
 [Existing-capture Z/frame follow-up](../experiments/ship-relocation-050/z-frame-followup.md) recovers actual 2D source-frame provenance through query key and callback descriptor ancestry. Direct own-cell pointers remain null; Z is genuine native reference output with an unobserved 3D restoration/height dependency. A copied third translation word is adjacent stack data, not Z compensation. No full loaded-parent/XYZ equivalence claim.
 
 [Observer 0.5.0 live attempt 01](../experiments/ship-relocation-050/live-attempt-01.md) observes actual ordinary Workshop center/grid operations for two identities, nonzero offsets and a fine-to-middle carry. Conditional translated XY/cells match frozen candidates; full saved-frame/restoration and Z equivalence remains unvalidated. Ship relocation is operator-observed, while command application and marker creation remain unknown.

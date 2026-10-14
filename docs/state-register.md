@@ -1,5 +1,9 @@
 # State, Relationship, and Representation Register
 
+## SOR-ST-0031 — Resource source collections and saved producer objects
+
+[EXP0034 / EV0042](experiments/resource-availability/report.md), [native domains](experiments/resource-availability/native.md). Area-source vectors/cache are RUNTIME-DERIVED; full persistence relation UNCLASSIFIED. Sampled Workshop producer registry is PERSISTED, not a prospective availability set. Runtime pointers, saved refs, record FormIDs and generation keys remain distinct. Installed BIOM/RSGD lists supply conditional definitions; actual spatial BIOM/effective ATMO/cache inputs are not inferred from a saved center. No whole-save absence or loaded authority claim.
+
 ## EXP0025 acquisition supplement to SOR-ST-0026
 
 [Correction](experiments/event-instrumentation/contract.md): at result AD0D3B,

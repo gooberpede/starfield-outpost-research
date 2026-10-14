@@ -1,5 +1,9 @@
 # Function and Operation Register
 
+## SOR-FN-0060–0064 — Inorganic availability pipeline
+
+Pinned retail 1.16.244.0, preferred base 0x140000000, [exact executable hash/native domains](experiments/resource-availability/native.md). FN0060: typed AreaResources producer 141578500 and row binder 141581290. FN0061: source updater 1421e07d0 with placement 1421b41f0 and established 1421b2570 callers; XMM2 radius. FN0062: region callback 1421e0f50, qualified binary32 partial. FN0063: harvester resource consumer 1421f68f0 and property-presence 14044b610; not full placement. FN0064: generator 14079a330, conditional CRC/MT first gate only. Addresses are native VAs; RVA is VA minus preferred base. STATIC links do not establish observed invocation, universal serialization or safe integration. [Executable scope](experiments/resource-availability/schema.md).
+
 ## EXP0025 acquisition supplement to SOR-FN-0055/0056
 
 [Contract/correction](experiments/event-instrumentation/contract.md), EV0033:

@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**Inorganic availability research, 2026-10-14:** [Report](docs/experiments/resource-availability/report.md), [executable contracts](docs/experiments/resource-availability/schema.md), [validation](docs/experiments/resource-availability/validation.md) and [independent review/package](docs/experiments/resource-availability/review.md) distinguish the three-source UI fold, harvester resource gate and saved producer registry. Complete site reconstruction remains unvalidated; the precise archived-input boundary and proposed acquisition are retained. Offline only; no game, commit or push.
+
 **Save-menu support, 2026-10-14:** [Read-only identification utility and report](docs/experiments/save-menu-identification.md) maps controlled save IDs to character/header fields and screenshot-matched original last-write timestamps. Five controlled entries and seven supplemental menu rows agree at fixed UTC+11; Save52 itself is model-based, not screenshot-verified. Single-agent completion for maintainer/ChatGPT review; no live or Git authority.
 
 ## Workshop population correction — 2026-10-14

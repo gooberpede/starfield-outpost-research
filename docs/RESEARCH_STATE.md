@@ -1,5 +1,9 @@
 # Current Research State
 
+## Inorganic availability — SOR-EXP-0034
+
+[SOR-EV-0042 report](experiments/resource-availability/report.md), SOR-F-0033 / SOR-ST-0031: typed native UI aggregates generated regions, effective ATMO and spatial BIOM→RSGD; saved Workshop groups are producer objects. Conditional UI, geometry, property gate, RNAM and generation first-gate calculations are executable. All 29 saves and 63 extractor/root joins replay; no independent complete-site set or preview/established equality is claimed. [Independent disposition](experiments/resource-availability/review.md) governs completion. Authored REVIEW-REQUIRED, original/bulk LOCAL-ONLY; deferred Z/geography/Hab questions remain separate. No live/Git/publication authority.
+
 **Save-menu operational support, 2026-10-14:** [Utility/report](experiments/save-menu-identification.md) completes the invoked bounded single-agent brief: five controlled distinct character/time pairs and seven supplemental screenshot rows match original last-write timestamps at current fixed UTC+11. Header/filename times and copy mtimes are retained counterexamples. Mature Save52 has a separate character and inferred timestamp, with no exact screenshot control. No outpost finding promotion; authored REVIEW-REQUIRED, private inventory LOCAL-ONLY, maintainer/ChatGPT review pending. No game, staging, commit or push action. Return after review to separately authorized inorganic-resource availability research.
 
 ## Workshop population bounded negative accepted — SOR-EXP-0033

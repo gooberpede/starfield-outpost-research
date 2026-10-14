@@ -1,5 +1,7 @@
 # Selected Evidence
 
+- SOR-EV-0042: [Resource availability report](../resource-availability/report.md), [source pins](../resource-availability/sources.csv), [validation](../resource-availability/validation.md), [review](../resource-availability/review.md). Native/raw/private inputs LOCAL-ONLY; authored selected findings REVIEW-REQUIRED. No new live observations or publication clearance.
+
 - [Position capability register](../../position-model/capabilities.md) consolidates existing evidence IDs without reclassification. Fresh check receipts/patches indexed in [review](../../position-model/review.md); raw derivatives remain local, authored synthesis REVIEW-REQUIRED.
 
 - SOR-EV-0039 approved live continuation: [0.6.0 native history](../position-write-history/live-attempt-01.md), [selected cases](../position-write-history/live-attempt-01-cases.csv), [provenance](../position-write-history/live-attempt-01-sources.csv), [review](../position-write-history/live-attempt-01-review.md). Exact saved/native XYZ sampled match, earlier Z discrepancy not reproduced; partial history and frame/lifetime gaps. 562,326 verified records, clean retirement/postflight, 21 sealed files. Raw evidence LOCAL-ONLY; authored result REVIEW-REQUIRED.

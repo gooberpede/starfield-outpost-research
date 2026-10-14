@@ -1,5 +1,35 @@
 # Separately scoped research backlog
 
+## Frozen position questions — DEFERRED, 2026-10-14
+
+Verified under the [inorganic availability brief](implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md).
+These questions remain separate from resource availability; none is reopened here.
+The brief explicitly broadens the earlier feature-only reopening recommendation:
+a concrete application need, independently discriminating evidence, **or** a
+pre-public-release research review can initiate a new scoped decision. An actual
+experiment still needs its own approved inputs/actions and falsifiable controls.
+There is no promise to resolve these before release.
+
+| Status / question | Preserved evidence and reopening discriminator |
+|---|---|
+| DEFERRED — historical 0.5.0 versus 0.6.0 native XYZ/Z state | [Cross-session report](experiments/cross-session-center/report.md), [caller audit](experiments/workshop-caller-semantics/report.md), [disposition](position-model/disposition.md). Own frame flag/parent, activation epoch and transformation remain unresolved. Reopen with matched identity/lifetime/caller/epoch and independently measured frame operands, or an application/release review requiring that evidence. |
+| DEFERRED — complete saved-to-live vertical restoration and terrain/procgen dependencies | [Z restoration](experiments/workshop-z-restoration/report.md), [write history](experiments/position-write-history/report.md), [050 frame follow-up](experiments/ship-relocation-050/z-frame-followup.md). Reopen for a height-sensitive application or independently discriminating load/writer/consumer evidence, or pre-public-release review. |
+| DEFERRED — exact continuous subcell longitude/latitude | [Position specification](position-model/specification.md), [application disposition](position-model/disposition.md). Qualified anchors/discrete positions do not establish continuous beacon geography. Reopen for concrete geographic precision need, independent native geographic reference/held-out seam evidence, or release review. |
+| DEFERRED — native-equivalence branches and historical position exceptions | [Consolidated review](position-model/review.md), [capabilities](position-model/capabilities.md), [generic marker/fallback](experiments/fallback-grid-provenance.md). Preserve existing-reference, source-world/marker-to-Workshop and unmatched historical frame boundaries. Reopen with a concrete linkage need, independently discriminating branch/identity evidence, or release review. |
+
+## Removed-outpost four-wall Hab control — DEFERRED, separate question
+
+[Population acquisition assessment](experiments/workshop-population/acquisition.md)
+and [original acceptance](experiments/workshop-population/acceptance.md) preserve
+the two retained four-wall Hab assemblies. Exact world/location/historical-beacon
+context does not establish original player construction or authoritative Workshop
+ownership. A small future protected-copy construction/deletion/outpost-removal
+and no-action-save control could test whether similar remnants persist; it cannot
+recover the past ownership of those exact saved identities. Reopen only by a
+separate controlled-save brief or independently discriminating same-cohort
+historical evidence. No save creation, game launch or observer work is authorized
+by this backlog, and this control is not part of inorganic resource research.
+
 ## Position consolidation disposition — 2026-10-13
 
 [Disposition and falsifiable reopen criteria](position-model/disposition.md) defer historical runtime XYZ/Z, continuous exact geography and generic landing-marker provenance until a concrete feature needs them. Prioritize separately briefed authoritative structure membership, then deposits/active production, power and cargo semantics. No execution or integration is authorized by this backlog.

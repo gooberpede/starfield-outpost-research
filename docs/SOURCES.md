@@ -1,5 +1,23 @@
 # Source Register
 
+### SOR-S-0145 — Inorganic availability primary investigation
+
+2026-10-14. [SOR-EXP-0034 / EV0042](experiments/resource-availability/report.md),
+[exact source hashes](experiments/resource-availability/sources.csv). Bethesda
+installed pinned retail executable/ESMs and development declarations, maintainer
+controlled/protected saves and supplied preview screenshot, existing owned
+framing/definition/position/membership methods and previously credited Ghidra,
+Temurin/OpenJDK, CPython/zlib tools. Specialist traces the typed area model,
+source populations, properties, geometry/generation and definition origins;
+independent reviewer supplies instruction, original-save and installed-definition
+replays and challenges premature generation closure. Original source-informed
+stdlib/project partial calculations, not clean-room substitutes. Maintainer-owned
+resource research/reproducer exact revisions remain SOR-S-0133 prior knowledge;
+planet/biome validation is not transferred to local availability. No outside
+implementation/dependency incorporated, new licence basis, fork/PR/contact/upload
+or live/Git authority. Public API-name search discovery did not supply adopted
+technical claims. Authored REVIEW-REQUIRED, native/raw/private/bulk LOCAL-ONLY.
+
 ### Save-menu support extension — SOR-S-0124 / SOR-S-0113
 
 2026-10-14. [Report](experiments/save-menu-identification.md): maintainer-provided screenshot `20261013121245_1.jpg` (SHA-256 `460a1b941870c062dc81d29e7841b313b511b650fc976dcf9483ba148ae81283`) and `20261013121257_1.jpg` (exact hash in local validation), prior [run-card transcription/testimony](experiments/ship-relocation-050/run-card.md), protected controlled/mature save headers and original filesystem metadata supply offline independent controls. Existing owned `inventory_historical_saves.py` metadata and `stream_save.py` container validation at HEAD `b225cb61bbafeefd2496f62fa4ba5a0437ded09a` are reused by the new original utility; exact source/tool hashes in `.local-work/save-menu/run-04/controlled-inventory.json` and `validation.json`. Installed CPython/zlib are separate tools, not vendored code. Bethesda save/menu representations remain proprietary local inputs; names/paths/metadata/screenshots LOCAL-ONLY, authored report/code REVIEW-REQUIRED. No new outside implementation, dependency, contact, network consultation or permission basis. No native menu reverse engineering or live work; original-mtime/current-offset interpretation is scoped to 12 controls.
