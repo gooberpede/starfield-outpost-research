@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Experiment A internal-observation offline qualification](CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md): invoked 2026-10-15; disposable native-state, complete-geometry and operand-provenance tests. [Report/review](../experiments/spatial-equivalence-feasibility/offline-qualification/review.md). No retail observer, SFSE changes, game, Vortex package, deployment, staging, commit or push.
+
 - [0.8.0 prose correction and scientific go/no-go](CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md): invoked 2026-10-15; documentation-only repair and [scientific reassessment](../experiments/local-readiness/scientific-value-reassessment.md). NO-GO; stop for critical review. No observer modification, rebuild, native execution, deployment or Git mutation.
 
 - [Original local readiness native observation](CODEX_BRIEF_SOR_local_readiness_native_observation.md): invoked 2026-10-15; historical preparation and engineering qualification. Its pre-live ACCEPT is superseded by the correction brief; plugin and run card remain unapproved.

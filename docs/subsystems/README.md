@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+**Spatial decision observation, 2026-10-15:** [Offline qualification](../experiments/spatial-equivalence-feasibility/offline-qualification/report.md) tests internal terminal continuations and owned input/decision transport in original disposable functions. Synthetic agreement leaves native region/strip equivalence NOT TESTED; native writers, lifetimes and use-site safety remain unqualified. [Review](../experiments/spatial-equivalence-feasibility/offline-qualification/review.md); no live or integration authority.
+
 **Resource-region lifecycle, 2026-10-15:** [Native dependency report](../experiments/native-availability-map/region-dependencies.md) and [requirements matrix](../experiments/native-availability-map/region-requirements.md) distinguish resident source geometry, task readiness, query-cache freshness and player presence. Region construction and availability consumption are separate stages; save-only authority and unloaded/separate-context sufficiency remain unproven. [Review package](../experiments/native-availability-map/region-review.md).
 
 **Position consolidation, 2026-10-13:** [Specification](../position-model/specification.md) and [application matrix](../position-model/applications.md) expose supported saved identity/center, conditional horizontal outputs and unknown frames. [Disposition](../position-model/disposition.md) prioritizes authoritative membership separately from geometry; no existing status promoted.

@@ -1,5 +1,7 @@
 # Documentation Index
 
+- [Experiment A internal-observation offline qualification](experiments/spatial-equivalence-feasibility/offline-qualification/report.md), [technical contract](experiments/spatial-equivalence-feasibility/offline-qualification/contract.md), [decision](experiments/spatial-equivalence-feasibility/offline-qualification/decision.md) and [review](experiments/spatial-equivalence-feasibility/offline-qualification/review.md). Scoped synthetic result only; no retail implementation or live authority.
+
 - [Local availability scientific reassessment — NO-GO](experiments/local-readiness/scientific-value-reassessment.md), [prose audit](experiments/local-readiness/prose-correction-audit.md) and [current review status](experiments/local-readiness/review.md). The earlier engineering handoff is historical and supplies no adoption or live approval.
 
 - [Resource-region dependencies](experiments/native-availability-map/region-dependencies.md), [lifecycle](experiments/native-availability-map/region-lifecycle.md), [minimum requirements](experiments/native-availability-map/region-requirements.md), [review](experiments/native-availability-map/region-review.md).
