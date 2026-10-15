@@ -339,3 +339,7 @@ the implementer corrected them and added focused controls. No new external
 implementation, permission basis, contact or publication is implied.
 
 The [scientific reassessment](docs/experiments/local-readiness/scientific-value-reassessment.md) uses the same credited native and 0.7.0 evidence. A separate adversarial reviewer assessed H1–H6, the actual first-card coverage and the repaired prose; earlier engineering acceptance remains historical.
+
+## Experiment A feasibility — 2026-10-15
+
+The [spatial feasibility assessment](docs/experiments/spatial-equivalence-feasibility/report.md) uses Bethesda native evidence, existing Ghidra exports, the maintainer's 0.7.0 capture and project-owned spatial/observer research. Prior tool and source credits remain applicable. One independent reviewer challenges the native oracle, minimum operands, scientific payoff, safety qualification and prose. No new outside source or implementation is incorporated.

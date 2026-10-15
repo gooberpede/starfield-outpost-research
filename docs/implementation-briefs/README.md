@@ -132,3 +132,5 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 - [Workshop caller semantics and idle-camera hypothesis](CODEX_BRIEF_SOR_workshop_center_caller_semantics_idle_camera.md) — invoked 2026-10-13; offline caller/frame/chronology research with specialist and independent review, no live/Git mutation authority.
 
 - [Continuous beacon-preview resource oracle](CODEX_BRIEF_SOR_continuous_beacon_preview_resource_oracle.md): invoked 2026-10-15; authorized offline implementation/qualification, integrated Save3 procedure and independent review. [Report/package](../experiments/continuous-beacon-preview/review.md). No game/deployment/commit/push authority.
+
+- [Experiment A spatial native equivalence feasibility](CODEX_BRIEF_SOR_experiment_A_spatial_native_equivalence_feasibility.md): invoked 2026-10-15; [assessment and review](../experiments/spatial-equivalence-feasibility/report.md). Offline research/design and independent review only; no observer implementation or live authority. Experiment B remains deferred.

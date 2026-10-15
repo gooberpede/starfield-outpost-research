@@ -710,3 +710,7 @@ licence basis, dependency/download, upstream contact or disclosure. Raw native/
 save/capture/build/receipts remain LOCAL-ONLY, authored work REVIEW-REQUIRED.
 
 The [documentation-only reassessment](experiments/local-readiness/scientific-value-reassessment.md) reuses these same evidence sources, repairs task prose and recommends NO-GO for the proposed live session. No new source, native finding, dependency or rights basis was introduced.
+
+## Experiment A feasibility — existing SOR-S-0146–0150 lineage
+
+2026-10-15. [Boundary ledger](experiments/spatial-equivalence-feasibility/boundary.md) cites Bethesda pinned native instructions, inherited Ghidra exports, the maintainer-operated 0.7.0 capture and owned Milestone B/0.8.0 source. Existing authors/tool/rights attribution remains applicable. This task independently reads instruction decision edges and repeated query reductions; it introduces no native export, external consultation, borrowed implementation or dependency. Original stdlib local documentation/patch verification runs with installed CPython and Git. One independent reviewer challenges native boundaries, scientific value and prose. Local receipts and native/raw inputs remain LOCAL-ONLY; authored analysis REVIEW-REQUIRED.

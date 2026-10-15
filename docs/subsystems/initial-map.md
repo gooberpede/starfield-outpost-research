@@ -2,6 +2,8 @@
 
 ## Inorganic availability runtime/persistence
 
+[Experiment A feasibility](../experiments/spatial-equivalence-feasibility/report.md) identifies inline native region verdicts and a complete comparison contract. Recommendation REVISE pending finite offline preservation/owned-geometry qualification; no new runtime validation, observer or live authority.
+
 [Milestone B](../experiments/resource-availability-milestone-b/report.md) extends the evaluator through native consecutive-strip, vertex-height and 3D-edge tests and traces actual loaded ProcGen source/resource maps. [Coverage](../experiments/resource-availability-milestone-b/validation.md) distinguishes 11,128 argument tuples and 346 validated UI folds from missing region operands; spatial native equivalence remains NOT TESTED. The persisted producer registry remains a positive incomplete proxy.
 
 [EXP0034](../experiments/resource-availability/report.md) separates UI aggregation, resource-location gate, installed definitions and saved producer groups. [Partial contracts](../experiments/resource-availability/schema.md) preserve missing operands; [native tracing](../experiments/resource-availability/native.md) and [review](../experiments/resource-availability/review.md) qualify coverage. No full placement/site or preview/established equivalence.
