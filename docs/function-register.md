@@ -217,3 +217,14 @@ The separately approved [live continuation](experiments/continuous-beacon-previe
 directly observes the producer/preview/UI/consumer/row routes in this pinned
 session. RUNTIME / OBSERVED-INTERNAL within the guarded ten-CALL surface;
 recording success does not establish a supported or generally safe mod API.
+
+## SOR-EXP-0036 — passive source/provider observation surfaces
+
+[Native map](experiments/local-readiness/native-map.md) extends observation of the
+existing SOR-FN-0060–0064 pipeline: RVA 021e0a46→021e0f50 captures the source-value
+slot/closure during a natural scan; 007b526a/007a1a3c→0079f860 captures provider
+boundaries. Exact pinned build, guards, ABI channels and limitations are retained.
+STATIC/OBSERVED-INTERNAL, disposable qualification only. Continuation/return bits
+are not spatial acceptance or generation-success certificates; no new live calls.
+
+The [reassessment](experiments/local-readiness/scientific-value-reassessment.md) rejects the proposed live session without changing these native contracts.

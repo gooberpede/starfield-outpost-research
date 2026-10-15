@@ -691,3 +691,22 @@ testimony and previously credited SFSE/Microsoft/CPython/owned observer and ESM
 methods. [Exact live receipt hashes](experiments/continuous-beacon-preview/live-sources.csv)
 retain primary read-only derivations and independent reviewer raw reconciliation.
 No new third-party implementation, dependency, contact, licence basis or disclosure.
+
+### SOR-S-0150 — Local availability pre-live observation qualification
+
+2026-10-15. [Native map](experiments/local-readiness/native-map.md),
+[schema](experiments/local-readiness/schema.md), [review](experiments/local-readiness/review.md).
+Bethesda pinned installed executable and existing Ghidra exports provide the
+natural caller/closure/source/provider contracts; prior SOR-S-0146–0149 evidence
+and tools retain provenance. Exact source hashes for the adapted, owned 0.7.0
+and 0.6.0 observers and the baseline
+HEAD `0906c66c950870a25869aaab522d22fb9c9d11e7` are in
+runtime/local-readiness-080/lineage.json. Existing approved unchanged Ian Patterson
+SFSE PluginAPI.h/MIT notice (SOR-P-0001), installed Microsoft toolchain/runtime,
+CPython and owned save-menu, evaluator, coverage and shared-session methods were reused.
+Original bounded queue/snapshot qualification and independent reviewer challenges
+add engineering evidence; no third-party code copied from a new source, new
+licence basis, dependency/download, upstream contact or disclosure. Raw native/
+save/capture/build/receipts remain LOCAL-ONLY, authored work REVIEW-REQUIRED.
+
+The [documentation-only reassessment](experiments/local-readiness/scientific-value-reassessment.md) reuses these same evidence sources, repairs task prose and recommends NO-GO for the proposed live session. No new source, native finding, dependency or rights basis was introduced.

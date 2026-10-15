@@ -1,6 +1,13 @@
 # Phase-aware session operations
 
-This is offline-qualified infrastructure, with a thin adapter for observer 0.7.0.
+This is offline-qualified infrastructure, with version-specific adapters for
+observer 0.7.0 and the historical [0.8.0 candidate](../local-readiness-080/README.md).
+The 0.8.0 live proposal is now **NO-GO** under its
+[scientific reassessment](../../docs/experiments/local-readiness/scientific-value-reassessment.md);
+its plugin and run card remain unapproved.
+Select `adapter: "080"` only with its reviewed version 8 manifest and run card;
+the historical example below remains for 0.7.0. Adapter selection is retained in the
+hash-bound plan/receipt and mismatched receipt/plan versions are refused.
 It grants no launch, deployment, instrumentation, save or configuration authority.
 Use only after review and the next experiment's explicit authorization. Observer
 0.5.0 and 0.6.0 remain historical implementations; their protocols are not

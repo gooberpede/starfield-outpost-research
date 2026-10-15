@@ -1,5 +1,9 @@
 # Implementation and Audit Briefs
 
+- [0.8.0 prose correction and scientific go/no-go](CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md): invoked 2026-10-15; documentation-only repair and [scientific reassessment](../experiments/local-readiness/scientific-value-reassessment.md). NO-GO; stop for critical review. No observer modification, rebuild, native execution, deployment or Git mutation.
+
+- [Original local readiness native observation](CODEX_BRIEF_SOR_local_readiness_native_observation.md): invoked 2026-10-15; historical preparation and engineering qualification. Its pre-live ACCEPT is superseded by the correction brief; plugin and run card remain unapproved.
+
 - [Resource-region dependencies and minimum runtime requirements](CODEX_BRIEF_SOR_resource_region_dependencies_minimum_requirements.md): invoked 2026-10-15; offline provider/generation lifecycle, current context and location requirements. [Report/review](../experiments/native-availability-map/region-review.md). No game, observer, save mutation, staging, commit or sync.
 
 - [Corrected local inorganic native mapping](CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md): invoked2026-10-15; supersedes earlier native-contracts assignment. Actual function/dataflow register, local minimum inputs and independent [review package](../experiments/native-availability-map/review.md). Offline only, no application gap analysis, game/process/save/deployment or Git mutation.

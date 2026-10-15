@@ -88,3 +88,11 @@ Avoid OS usernames, personal save names, absolute local paths, or permission cor
 - **SOR-EV-0040 / SOR-EXP-0032:** [Workshop membership/root inventory](../workshop-membership/README.md), [source hashes](../workshop-membership/sources.csv) and [validation/review](../workshop-membership/review.md). Selected authored reference counts/native contracts REVIEW-REQUIRED. Full instance/member/unresolved ledgers, protected archive/game/database inputs, native exports, reproduction and failed/superseded probes remain ignored LOCAL-ONLY under `.local-work/workshop-inventory/`. No raw/private evidence copied into this directory or cleared for publication.
 
 - **SOR-EV-0041 / SOR-EXP-0033:** [Workshop population rework](../workshop-population/README.md), selected authored counts/contracts/source hashes REVIEW-REQUIRED. Full historical/typed/component/default ledgers, native exports and failed probes remain ignored LOCAL-ONLY under `.local-work/workshop-population-rework/`; original 657 evidence remains unchanged.
+
+- **SOR-EV-0044 / SOR-EXP-0036:** [Local readiness pre-live package](../local-readiness/review.md).
+  Authored schema/maps/qualification REVIEW-REQUIRED. Raw reference captures,
+  native exports, disposable fixture WAL, DLL/ZIP/builds and private review/pin
+  receipts remain ignored LOCAL-ONLY under `.local-work/local-readiness/`.
+  No new live evidence or publication clearance.
+
+  The [scientific reassessment](../local-readiness/scientific-value-reassessment.md) rejects the proposed live session. Earlier engineering receipts remain preserved historical evidence.

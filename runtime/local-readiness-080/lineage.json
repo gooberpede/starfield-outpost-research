@@ -1,0 +1,20 @@
+{
+  "head": "0906c66c950870a25869aaab522d22fb9c9d11e7",
+  "adapted_sources": {
+    "runtime\\beacon-resource-070\\capture.h": "52c110fa179f2fc7487f068cf2d378e03b030e3e8db82dedcae57867ca777501",
+    "runtime\\beacon-resource-070\\plugin.cpp": "7cb74fff650debb473b9957b6a112bb2c7c6fa291f129ad6267ef047cc781092",
+    "runtime\\beacon-resource-070\\build.py": "5351a4322c0b4f0aea4ebd4ac0386d59c834f276d121189156a87ec02001f3f4",
+    "runtime\\beacon-resource-070\\bridges.asm": "bed0370f18e60c492a1a3f0154857d57c0d6c33983c91d3e3dbe008236ab69f4",
+    "runtime\\beacon-resource-070\\fixture.asm": "2f7ee8ce2e11bcb4b6cf0ff530db46938bef67ab04d5822418a663b0e4871a34",
+    "runtime\\beacon-resource-070\\abi_fixture.asm": "fa95c04b6a5d89f027f25aeebe4150b83fcfeef59ee83045fab3af389cf35f2f",
+    "runtime\\beacon-resource-070\\tests.cpp": "f7114395fe93cc35d4eacaca974b792895c37b5fd6f0a764c8a3e9af3f8feecd",
+    "runtime\\beacon-resource-070\\lifecycle_tests.cpp": "86d1ebd4591f153c1ef700c7d84e0ae039e9bbbb1d3cdd3776f3598306ef12f0",
+    "runtime\\beacon-resource-070\\inspect_resources.py": "f8d04369ded0ccc24cceba08443d6c9487cd93e9ebdc98a9f52cde78b7af5ce9",
+    "runtime\\beacon-resource-070\\test_inspect.py": "a2c39d9cdf4e8c6832082a6545549153ed87f1a23012e9f790d7f069c011111e",
+    "runtime\\beacon-resource-070\\operate.py": "3dd57bfe2c9f1cffcd6bfaa1fac64dbd6cda9f2c62413e2435587ff384d8c76a",
+    "runtime\\beacon-resource-070\\test_operate.py": "5118d50d7e2ef358d653b5334c3db23cb87f0b6d044c3657e1141cac77cce8f5",
+    "runtime\\native-oracle-060\\history.h": "b2d3ae4a0e9f0662e0bf82d7aacd02c264668963e67e3430ad44a4adee3d063c",
+    "runtime\\native-oracle-060\\patch.h": "9b690b459e14163cd2a14e7e2d9207e4b582625b4d62daab62e407e64f908ef8",
+    "runtime\\native-oracle-060\\modules.h": "ca55d166c495d109b607656bdbcee4628059728e09677260f66da54908c18e6e"
+  }
+}

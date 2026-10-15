@@ -21,9 +21,22 @@ def saves(root):
     return rows
 
 
+def select_adapter(name):
+    global adapter
+    if name == '070':
+        import adapter070
+        adapter = adapter070
+    elif name == '080':
+        import adapter080
+        adapter = adapter080
+    else:
+        raise ValueError('unsupported_adapter')
+
+
 def prelaunch(plan_path, pin):
     plan = read(plan_path, pin)
-    if plan['adapter'] != '070' or not any(Path(p).name.lower() == 'sfse_loader.exe' for p in plan['extra_pins']):
+    select_adapter(plan['adapter'])
+    if not any(Path(p).name.lower() == 'sfse_loader.exe' for p in plan['extra_pins']):
         raise ValueError('adapter_or_missing_loader_tool_pins')
     initial_disk = guard()
     if adapter.prelaunch_processes():
@@ -35,7 +48,7 @@ def prelaunch(plan_path, pin):
     save_inventory = saves(plan['saves'])
     if adapter.prelaunch_processes():
         raise ValueError('prelaunch_processes_present')
-    return dict(status='PASS_PRELAUNCH', utc=now(), adapter='070', disk=guard(), initial_disk=initial_disk,
+    return dict(status='PASS_PRELAUNCH', utc=now(), adapter=plan['adapter'], disk=guard(), initial_disk=initial_disk,
                 plan=str(Path(plan_path).resolve()), plan_sha256=pin, plan_data=plan,
                 manifest=m, tools=tool_pins(), save_inventory=save_inventory,
                 plugin_inventory=plugins, build=str(Path(plan['build']).resolve()),
@@ -45,7 +58,8 @@ def prelaunch(plan_path, pin):
 
 def reuse(path, pin, full=False):
     r = read(path, pin)
-    if r['status'] != 'PASS_PRELAUNCH' or r['adapter'] != '070':
+    select_adapter(r['adapter'])
+    if r['status'] != 'PASS_PRELAUNCH' or r['adapter'] != r['plan_data']['adapter']:
         raise ValueError('prelaunch_receipt_required')
     verify_pins(r['tools'])
     plan = r['plan_data']

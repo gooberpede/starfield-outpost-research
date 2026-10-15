@@ -1,5 +1,7 @@
 # Experiments
 
+- SOR-EXP-0036 / SOR-EV-0044: [Scientific reassessment — NO-GO](local-readiness/scientific-value-reassessment.md), [prose audit](local-readiness/prose-correction-audit.md), [review](local-readiness/review.md). Preserve the offline-qualified 0.8.0 observer and proposed card as an unadopted historical candidate. Previous ACCEPT is superseded for authorization purposes; no live or redesign recommendation.
+
 - SOR-EXP-0034 / SOR-EV-0042 continuation: [Local inorganic native mapping](native-availability-map/report.md), [functions](native-availability-map/functions.csv), [dataflow](native-availability-map/dataflow.md), [minimum inputs](native-availability-map/minimum-inputs.md), [validation/review](native-availability-map/review.md). Offline native context and cache reconstruction; spatial equivalence NOT TESTED.
 
 - SOR-EXP-0034 / SOR-EV-0042 continuation: [Inorganic availability milestone B](resource-availability-milestone-b/report.md), [specification](resource-availability-milestone-b/specification.md), [coverage](resource-availability-milestone-b/validation.md), [review](resource-availability-milestone-b/review.md). Native spatial predicates and concrete B2 dependencies; final-fold agreement is distinct from untested spatial equivalence.

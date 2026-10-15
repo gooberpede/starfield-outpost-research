@@ -206,3 +206,13 @@ ancestry, persistence and deterministic reconstruction remain separate unknowns.
 ### Local inorganic native inputs — 2026-10-15
 
 [Function/dataflow mapping](../experiments/native-availability-map/report.md) separates native internal loaded-map retrieval from explicit offline region operands. Preview and established Workshop callers derive indexed position/bounds upstream. Cache failure can retain prior ATMO/BIOM populations; established runtime equality and native spatial equivalence remain NOT TESTED. [Minimum contracts](../experiments/native-availability-map/minimum-inputs.md) and [uncertainty](../experiments/native-availability-map/uncertainty.md) preserve exact context dependencies, with no mod implementation or live authority.
+
+## SOR-EXP-0036 — local readiness pre-live package
+
+[Observer/review](../experiments/local-readiness/review.md) and
+[native map](../experiments/local-readiness/native-map.md) prepare separate natural
+evaluation/source/provider/UI observation. Full spatial replay and complete/current
+coverage remain unqualified; saved producer registries are still separate from
+runtime availability. No new runtime or persistence semantics are promoted.
+
+The [scientific reassessment](../experiments/local-readiness/scientific-value-reassessment.md) recommends NO-GO for this candidate and first card. This changes the experimental recommendation, not the native subsystem findings.

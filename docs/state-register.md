@@ -186,3 +186,15 @@ observes actual indexed frame/domain/held dummy placement reference and transien
 source/UI row state. These remain RUNTIME/OBSERVED-INTERNAL, not demonstrated
 persisted fields or post-load authority. A/B/C resource-set agreement does not
 establish a safe integration point or deterministic independent reconstruction.
+
+## SOR-EXP-0036 — availability observations versus completeness
+
+[Schema 8](experiments/local-readiness/schema.md) preserves operation state, indexed
+descriptor, per-source ordered population signatures, source-value slots and
+provider output pointer slots as distinct process-local observations. Sampled
+headers are not complete maps or epochs. Initialization history, source residency
+coverage, invalidation, accepted/rejected geometry and persistence authority remain
+UNKNOWN/UNQUALIFIED as specified. No new persisted state classification or stable
+saved-to-runtime identity claim is introduced.
+
+The [reassessment](experiments/local-readiness/scientific-value-reassessment.md) recommends NO-GO; state semantics and evidence classifications remain unchanged.

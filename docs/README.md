@@ -1,5 +1,7 @@
 # Documentation Index
 
+- [Local availability scientific reassessment — NO-GO](experiments/local-readiness/scientific-value-reassessment.md), [prose audit](experiments/local-readiness/prose-correction-audit.md) and [current review status](experiments/local-readiness/review.md). The earlier engineering handoff is historical and supplies no adoption or live approval.
+
 - [Resource-region dependencies](experiments/native-availability-map/region-dependencies.md), [lifecycle](experiments/native-availability-map/region-lifecycle.md), [minimum requirements](experiments/native-availability-map/region-requirements.md), [review](experiments/native-availability-map/region-review.md).
 
 - [Durable ordinary-outpost position specification](position-model/specification.md), [capabilities](position-model/capabilities.md), [applications](position-model/applications.md), [self-check](position-model/self-check.md), [disposition](position-model/disposition.md), [review](position-model/review.md).

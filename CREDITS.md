@@ -324,3 +324,18 @@ implementation, dependency, permission basis, contact or disclosure.
 
 
 2026-10-15 [Local inorganic native mapping](docs/experiments/native-availability-map/report.md) credits Bethesda executable/definition evidence, the maintainer070 capture and independent A/B/C reports, existing owned evaluators/census/exporter, and previously credited CPython/Ghidra/JDK/Microsoft tools. The optional specialist independently verified loaded-region retrieval, caller descriptor derivation and retained-source cache branches; independent review assesses the primary evidence and original contract. No new outside implementation, dependency, licence basis or disclosure.
+
+## Local availability pre-live observation — 2026-10-15
+
+[SOR-S-0150](docs/SOURCES.md#sor-s-0150--local-availability-pre-live-observation-qualification)
+credits Bethesda native/definition evidence, maintainer-controlled saves/gameplay
+reference, existing Ian Patterson SFSE interface, Microsoft compiler/runtime,
+Ghidra/JDK/CPython tools, project-owned observers 0.7.0 and 0.6.0, and existing
+evaluator, save-menu and shared-session methods.
+[Exact source lineage](runtime/local-readiness-080/lineage.json) preserves
+source-informed adaptations. Independent reviewer identified retired-callback
+reads, source-flattening/within-call attribution and provider pointer-slot scope;
+the implementer corrected them and added focused controls. No new external
+implementation, permission basis, contact or publication is implied.
+
+The [scientific reassessment](docs/experiments/local-readiness/scientific-value-reassessment.md) uses the same credited native and 0.7.0 evidence. A separate adversarial reviewer assessed H1–H6, the actual first-card coverage and the repaired prose; earlier engineering acceptance remains historical.
