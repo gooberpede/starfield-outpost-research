@@ -300,3 +300,13 @@ Bethesda native/definition evidence, existing approved SFSE interface and owned
 observer/decoder/ESM/protection/review methods, and previously credited tools.
 The independent reviewer replays raw decoding and separately reconciles native
 union inputs, completed constructors and final row census.
+
+## Live-experiment infrastructure consolidation, 2026-10-15
+
+The [audit/qualification](docs/experiments/session-infrastructure/report.md)
+credits the maintainer's prior captures and original project 050/060/070
+operational, decoder, save-menu and review-export work. Shared wrappers reuse
+those owned contracts under SOR-P-0002. Installed CPython ZIP/zlib/hash libraries
+and Microsoft Windows disk/process metadata APIs support offline qualification;
+existing Bethesda/SFSE attribution remains applicable. No new outside
+implementation, dependency, permission basis, contact or disclosure.

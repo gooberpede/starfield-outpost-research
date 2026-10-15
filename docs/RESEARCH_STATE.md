@@ -1,5 +1,14 @@
 # Current Research State
 
+**Live-experiment infrastructure, 2026-10-15:** [Audit and offline qualification](experiments/session-infrastructure/report.md)
+adds shared prelaunch/lightweight-live/postflight commands with a thin 070
+adapter and verified lossless ZIP archival of disposable representative evidence.
+No scientific finding or historical verdict changes; live adoption remains
+NOT TESTED. No original capture is archived, deleted or modified. Authored work
+is REVIEW-REQUIRED; private receipts remain LOCAL-ONLY. Single-agent execution
+by explicit brief exception; maintainer/ChatGPT critical review pending, no
+integration, Milestone B, launch, deployment, staging, commit or push authority.
+
 ## Inorganic availability — SOR-EXP-0034
 
 [SOR-EV-0042 report](experiments/resource-availability/report.md), SOR-F-0033 / SOR-ST-0031: typed native UI aggregates generated regions, effective ATMO and spatial BIOM→RSGD; saved Workshop groups are producer objects. Conditional UI, geometry, property gate, RNAM and generation first-gate calculations are executable. All 29 saves and 63 extractor/root joins replay; no independent complete-site set or preview/established equality is claimed. [Independent disposition](experiments/resource-availability/review.md) governs completion. Authored REVIEW-REQUIRED, original/bulk LOCAL-ONLY; deferred Z/geography/Hab questions remain separate. No live/Git/publication authority.

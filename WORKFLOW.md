@@ -60,6 +60,15 @@ Apply this policy to every future run card and its operational helper configurat
 
 ## Critical review of every diff
 
+For prospective approved observer sessions, use the [shared phase-aware
+commands](runtime/session-tools/README.md) and [future run-card fragment](docs/experiments/session-infrastructure/future-run-card.md).
+Perform full protected-content/save audits before launch and after exit; use
+hash-bound prelaunch receipts and lightweight READY/ACK/health checks during play.
+Only a specific documented integrity incident justifies a full live rescan.
+After offline postflight, seal and stream-verify a lossless archive while keeping
+raw originals. The [infrastructure qualification](docs/experiments/session-infrastructure/report.md)
+does not authorize a live run or revise historical cards and verdicts.
+
 Review against the governing brief and accepted corrections, not only the implementation summary. Assess requirement conformance; omissions and unsupported claims; scope creep; regressions; source permission and credit; privacy/rights boundaries; evidence quality; tests and their coverage; reproducibility; documentation consistency; and integration readiness.
 
 Report blockers separately from non-blocking improvements. State what was independently checked and what was merely reported. A checksum verifies bytes, not their interpretation. No live run must remain clearly distinguishable from a passed live validation.

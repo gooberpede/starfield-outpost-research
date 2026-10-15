@@ -1,5 +1,20 @@
 # Source Register
 
+### Shared live-experiment operations — internal provenance extension
+
+2026-10-15. [Audit/qualification and exact source pins](experiments/session-infrastructure/report.md)
+credits project-owned 050/060/070 operational helpers, the maintainer's prior
+capture/seal/run receipts and existing save-menu identification work at HEAD
+`0d443482f82c8f1a3750461c6bfec96bd0a6e56e`. A thin 070 adapter directly reuses
+its manifest/session/admission/STOP/process/decoder functions; the 050 process-name
+inventory is reused. Phase separation and archive/verification code are original,
+informed by those owned contracts. CPython's installed standard-library ZIP,
+hashing/zlib and Windows caller-available disk APIs are execution dependencies;
+no third-party implementation is copied or new dependency installed. Existing
+Bethesda/SFSE/Microsoft/CPython attribution and permission boundaries remain.
+Private bounded evidence prefixes qualify compression only, not scientific
+semantics or publication. No external consultation, contact or disclosure.
+
 ### SOR-S-0145 — Inorganic availability primary investigation
 
 2026-10-14. [SOR-EXP-0034 / EV0042](experiments/resource-availability/report.md),
