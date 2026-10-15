@@ -312,3 +312,6 @@ those owned contracts under SOR-P-0002. Installed CPython ZIP/zlib/hash librarie
 and Microsoft Windows disk/process metadata APIs support offline qualification;
 existing Bethesda/SFSE attribution remains applicable. No new outside
 implementation, dependency, permission basis, contact or disclosure.
+
+
+2026-10-15 [Local inorganic native mapping](docs/experiments/native-availability-map/report.md) credits Bethesda executable/definition evidence, the maintainer070 capture and independent A/B/C reports, existing owned evaluators/census/exporter, and previously credited CPython/Ghidra/JDK/Microsoft tools. The optional specialist independently verified loaded-region retrieval, caller descriptor derivation and retained-source cache branches; independent review assesses the primary evidence and original contract. No new outside implementation, dependency, licence basis or disclosure.

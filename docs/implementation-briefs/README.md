@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Corrected local inorganic native mapping](CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md): invoked2026-10-15; supersedes earlier native-contracts assignment. Actual function/dataflow register, local minimum inputs and independent [review package](../experiments/native-availability-map/review.md). Offline only, no application gap analysis, game/process/save/deployment or Git mutation.
+
 - [Inorganic resource availability milestone B](CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md): invoked 2026-10-15; offline native algorithm reconstruction, executable evaluator, input provenance and independent review. [Review package](../experiments/resource-availability-milestone-b/review.md). No launch, instrumentation/deployment, save writes, staging, commit or push.
 
 - [Inorganic resource availability](CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md): invoked 2026-10-14; offline UI/native/save/record investigation, original executable partials, two authorized agent roles and [critical review/package](../experiments/resource-availability/review.md). No game, instrumentation, save modification or Git mutation.

@@ -1,0 +1,15 @@
+path,bytes,sha256,eligibility
+.local-work/recon/resource-availability-cont-01.tsv,120667,c167add6f3e75f6a0ce2627f5813b4c0e04509e5b7d2974f57d3b8795d7602a3,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-06.tsv,6662,b2744c43319a261e9965510ed7f8aa7a9256a95c8c9e27eadf1aa5433451dac4,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-07.tsv,9244,ce6ecd6fd91fc51c5dca9b386f8798caa211fb099d4b0cc719cfc8a82376c96e,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-08.tsv,32262,672e430b043f326923bbbe0f4b2bd56a8c366cf1f0c5b1aaee096e009198f074,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-09.tsv,30047,e7be84e22c9f9b228f86a1b6c8976d310ba295ebfe01d3d3af06110845dcbc89,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-10.tsv,40575,a776e83109cc75ff94666414a1da26dc7f82dffeb7dac92610dd7742dde82bd9,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-15.tsv,96248,08e3b170efd28e4e1f76d1935f723423c09a8e6673f5fe3f87a543458372ff56,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-16.tsv,102396,3e29f0c813e9a49aa9c53eada6dee052056dfd659979aeea89868fe7c8447aca,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-17.tsv,33516,80e244d7388c0c781a0fd87ab2adb318cde226468c46771ab379e263a2b02894,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-32.tsv,32886,693302552f7b759b57608786fdbffaaa85a7d8733cde12100df8208f2b84dbf9,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-milestone-b-producers-01.tsv,82472,bc5ae6b3e3b0f042e0c10d6ab73693b3f6d087821d24e120045ec2e3f206fff8,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-milestone-b-producers-02.tsv,47527,8d962ff0cc0ab4e543feb311f21cd4e0bb6e70d2bbf720232734d9dd226de25b,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-milestone-b-spatial-02.tsv,10170,d9492a14851533ff9777734a6b5733bde2f66c1002db4c0707be9c866d7e0ed9,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/workshop-origin-03.tsv,17216,0b2b6adee14887253ad4443a5dd02c12c5f3f32d1fb283817576857097f3ccff,LOCAL-ONLY native export; metadata REVIEW-REQUIRED

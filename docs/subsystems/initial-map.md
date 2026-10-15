@@ -201,3 +201,8 @@ observes 35,574 complete native evaluations and 346 UI updates; stable A/B/C
 resource sets agree with the operator's displayed lists. Continuous cached calls
 and unchanged refreshes are retained. Exact rendering time, causal asynchronous
 ancestry, persistence and deterministic reconstruction remain separate unknowns.
+
+
+### Local inorganic native inputs — 2026-10-15
+
+[Function/dataflow mapping](../experiments/native-availability-map/report.md) separates native internal loaded-map retrieval from explicit offline region operands. Preview and established Workshop callers derive indexed position/bounds upstream. Cache failure can retain prior ATMO/BIOM populations; established runtime equality and native spatial equivalence remain NOT TESTED. [Minimum contracts](../experiments/native-availability-map/minimum-inputs.md) and [uncertainty](../experiments/native-availability-map/uncertainty.md) preserve exact context dependencies, with no mod implementation or live authority.

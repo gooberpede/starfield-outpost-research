@@ -1,5 +1,7 @@
 # Experiments
 
+- SOR-EXP-0034 / SOR-EV-0042 continuation: [Local inorganic native mapping](native-availability-map/report.md), [functions](native-availability-map/functions.csv), [dataflow](native-availability-map/dataflow.md), [minimum inputs](native-availability-map/minimum-inputs.md), [validation/review](native-availability-map/review.md). Offline native context and cache reconstruction; spatial equivalence NOT TESTED.
+
 - SOR-EXP-0034 / SOR-EV-0042 continuation: [Inorganic availability milestone B](resource-availability-milestone-b/report.md), [specification](resource-availability-milestone-b/specification.md), [coverage](resource-availability-milestone-b/validation.md), [review](resource-availability-milestone-b/review.md). Native spatial predicates and concrete B2 dependencies; final-fold agreement is distinct from untested spatial equivalence.
 
 - SOR-EXP-0034: [Inorganic resource availability](resource-availability/report.md), [validation](resource-availability/validation.md), [review/package](resource-availability/review.md); offline UI/native/source/serialization study with typed partial calculations. Complete site sets remain unvalidated.

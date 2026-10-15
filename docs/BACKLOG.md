@@ -1,5 +1,9 @@
 # Separately scoped research backlog
 
+## Local native availability dependencies — 2026-10-15
+
+[Neutral native mapping](experiments/native-availability-map/report.md) identifies internal loaded-region retrieval and upstream preview/Workshop descriptor construction. [Scientific discriminators](experiments/native-availability-map/uncertainty.md) retain complete same-evaluation region/point/translation/cache operands and established-context equality as unresolved evidence needs. No observer implementation or live authority is requested by this offline result. Deferred position/geography/Hab questions remain separate.
+
 ## Inorganic availability milestone B continuation — 2026-10-15
 
 [Result](experiments/resource-availability-milestone-b/report.md) and [acquisition assessment](experiments/resource-availability-milestone-b/acquisition.md) retain the spatial-equivalence dependency: complete loaded source/resource/region/point operands and independent decisions, actual frame translation and linked final populations. The executable is conditional on qualified inputs; 346 final UI folds agree, while spatial equivalence is NOT TESTED. Arbitrary-site generation additionally needs selected component/descriptor/ordering/terrain inputs. A separate approved acquisition brief is required; no live execution or deferred-topic reopening follows.
