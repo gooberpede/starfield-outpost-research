@@ -1,0 +1,40 @@
+{
+  "schema": "sor-resource-availability-result/2",
+  "session": "SYNTHETIC",
+  "evidence": "authored control; no native oracle",
+  "spatial_diagnostics": [
+    {
+      "identity": "synthetic region 1",
+      "evidence": "authored",
+      "schema": "sor-resource-spatial-result/1",
+      "status": "KNOWN",
+      "accepted": true,
+      "branch": "single_point_broadphase",
+      "provenance": "static native transcription; synthetic qualification",
+      "reason": null
+    }
+  ],
+  "known_spatial_resource_lower_bound": [
+    1
+  ],
+  "native_equivalence": "NOT_ESTABLISHED_BY_EXECUTION",
+  "status": "CONDITIONAL_NATIVE_AVAILABILITY",
+  "missing": [],
+  "ui_rows": [
+    {
+      "pointer": 100,
+      "runtime_form_id": 1,
+      "qualified_identity": null
+    },
+    {
+      "pointer": 200,
+      "runtime_form_id": 2,
+      "qualified_identity": null
+    }
+  ],
+  "ui_form_set": [
+    1,
+    2
+  ],
+  "extractor_placement": "NOT_EVALUATED"
+}

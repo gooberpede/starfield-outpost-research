@@ -1,0 +1,58 @@
+{
+  "schema": "sor-resource-availability-input/2",
+  "exe_sha256": "7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28",
+  "session": "SYNTHETIC",
+  "evidence": "authored control; no native oracle",
+  "query": {
+    "xyz": [
+      0,
+      0,
+      0
+    ],
+    "radius": 1,
+    "height": 0,
+    "frame_qualified": true
+  },
+  "candidate_enumeration_complete": true,
+  "regions": [
+    {
+      "identity": "synthetic region 1",
+      "evidence": "authored",
+      "resolved_form_type": 159,
+      "resource": {
+        "pointer": 100,
+        "form_id": 1
+      },
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "radius": 1,
+      "points": [
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "point_count": 1
+    }
+  ],
+  "atmosphere": [
+    {
+      "pointer": 200,
+      "form_id": 2
+    }
+  ],
+  "biome": [
+    {
+      "pointer": 300,
+      "form_id": 3
+    }
+  ],
+  "selector_observed": true,
+  "selected_form_id": null,
+  "allocations_complete": true
+}

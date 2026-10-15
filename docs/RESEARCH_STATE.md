@@ -1,5 +1,7 @@
 # Current Research State
 
+**2026-10-15 — inorganic availability milestone B:** [SOR-EXP-0034/EV0042 continuation](experiments/resource-availability-milestone-b/report.md) implements native region predicates and versioned availability inputs. Complete 070 WAL replay finds 11,128 distinct argument tuples over 35,574 evaluations and 346 exact final UI folds. B2 traces loaded source/resource maps, component/descriptor selection, generation and competing-region rejection. Actual region points/counts and same-invocation translation inputs remain unrecorded: spatial native equivalence NOT TESTED; Outcome B independently ACCEPTED, awaiting maintainer critical review. [Review](experiments/resource-availability-milestone-b/review.md) retains limits and preservation. No live/save/shared-session-tool/Git mutation; deferred Z/geography/Hab work remains separate.
+
 **Live-experiment infrastructure, 2026-10-15:** [Audit and offline qualification](experiments/session-infrastructure/report.md)
 adds shared prelaunch/lightweight-live/postflight commands with a thin 070
 adapter and verified lossless ZIP archival of disposable representative evidence.

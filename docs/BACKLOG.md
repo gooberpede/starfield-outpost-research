@@ -1,5 +1,9 @@
 # Separately scoped research backlog
 
+## Inorganic availability milestone B continuation — 2026-10-15
+
+[Result](experiments/resource-availability-milestone-b/report.md) and [acquisition assessment](experiments/resource-availability-milestone-b/acquisition.md) retain the spatial-equivalence dependency: complete loaded source/resource/region/point operands and independent decisions, actual frame translation and linked final populations. The executable is conditional on qualified inputs; 346 final UI folds agree, while spatial equivalence is NOT TESTED. Arbitrary-site generation additionally needs selected component/descriptor/ordering/terrain inputs. A separate approved acquisition brief is required; no live execution or deferred-topic reopening follows.
+
 ## Frozen position questions — DEFERRED, 2026-10-14
 
 Verified under the [inorganic availability brief](implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md).

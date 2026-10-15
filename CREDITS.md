@@ -1,5 +1,7 @@
 # Credits
 
+2026-10-15 [Inorganic availability milestone B](docs/experiments/resource-availability-milestone-b/report.md) credits Bethesda native/installed definitions, the maintainer's 070 gameplay/list reports and protected saves, existing project capture/decoder/evaluator/protection/export methods, and previously credited CPython/Ghidra/JDK/Microsoft tools. The specialist reconstructs spatial predicates and input production; the independent reviewer checks the original contract and native-equivalence limits. [Source ledger](docs/SOURCES.md#sor-s-0147--inorganic-availability-milestone-b) and [native hashes](docs/experiments/resource-availability-milestone-b/native-sources.csv) retain provenance. No new outside implementation is incorporated.
+
 For [inorganic resource availability research](docs/experiments/resource-availability/report.md),
 Bethesda Game Studios supplies installed native/definition/development evidence;
 the maintainer supplies protected saves, controlled actions and the prospective

@@ -265,6 +265,8 @@ def compare_sets(expected, observed):
 
 def evaluate_json(request):
     """Explicit JSON contract for offline invocation; never samples the game."""
+    if request.get('schema') == 'sor-resource-availability-input/2':
+        return evaluate_availability(request)
     if request.get('schema') != 'sor-resource-ui-input/1': raise ValueError('SCHEMA')
     def vector(name):
         rows = request[name]
@@ -280,11 +282,100 @@ def evaluate_json(request):
                 evidence=inputs.evidence, **result)
 
 
+def evaluate_availability(request):
+    """Native spatial evaluation followed by existing native identity fold.
+
+    Version 2 accepts qualified callback-region operands, not finalized vein
+    sets. Complete candidate retrieval, definition resolution and frame mapping
+    are explicit caller qualifications; syntax cannot prove those facts. See
+    milestone B specification. Missing data returns a lower bound and UNKNOWN.
+    No game, generation, save or UI timing side effects.
+    """
+    from resource_spatial import evaluate_region
+    if request.get('schema') != 'sor-resource-availability-input/2': raise ValueError('SCHEMA')
+    if request.get('exe_sha256') != EXE_SHA256: raise ValueError('UNQUALIFIED_BUILD')
+    for key in ('session', 'evidence'):
+        if not isinstance(request.get(key), str) or not request[key].strip(): raise ValueError('PROVENANCE_REQUIRED')
+    missing, diagnostics = [], []
+    query = request.get('query')
+    if query is not None:
+        if not isinstance(query, dict): raise ValueError('QUERY_OBJECT_REQUIRED')
+        if query.get('xyz') is None or query.get('radius') is None or query.get('height') is None:
+            missing.append('query_geometry')
+        else:
+            if not isinstance(query['xyz'],(list,tuple)) or len(query['xyz']) != 3: raise ValueError('XYZ_ARITY')
+            try:
+                tuple(map(_normal_f32,query['xyz']))
+                if _normal_f32(query['radius']) < 0: raise ValueError('RADIUS_DOMAIN')
+                _normal_f32(query['height'])
+            except ValueError:
+                missing.append('unqualified_query_numeric_domain')
+        if query.get('frame_qualified') is not None and type(query['frame_qualified']) is not bool: raise ValueError('FRAME_QUALIFICATION_DOMAIN')
+    complete = request.get('candidate_enumeration_complete')
+    if complete is not None and type(complete) is not bool: raise ValueError('ENUMERATION_QUALIFICATION_DOMAIN')
+    regions = request.get('regions')
+    if regions is not None and not isinstance(regions, list): raise ValueError('REGION_ARRAY_REQUIRED')
+    first = []
+    if request.get('candidate_enumeration_complete') is not True: missing.append('complete_candidate_enumeration')
+    if query is None: missing.append('query')
+    if regions is None: missing.append('regions')
+    for region in regions or []:
+        if not isinstance(region, dict): raise ValueError('REGION_OBJECT_REQUIRED')
+        if not isinstance(region.get('evidence'),str) or not region['evidence'].strip(): raise ValueError('REGION_PROVENANCE_REQUIRED')
+        ident = region.get('identity')
+        if not isinstance(ident,str) or not ident.strip(): raise ValueError('REGION_IDENTITY_REQUIRED')
+        # Native resolves the candidate key first and checks concrete IRES type.
+        resolved = region.get('resolved_form_type')
+        if resolved is None:
+            missing.append('resolved_region_type:'+ident); continue
+        if type(resolved) is not int or not 0 <= resolved < 256: raise ValueError('FORM_TYPE_DOMAIN')
+        if resolved != 0x9f:
+            diagnostics.append(dict(identity=ident,accepted=False,branch='not_IRES')); continue
+        item = region.get('resource')
+        if item is None:
+            missing.append('resource_identity:'+ident); continue
+        item = ResourceOperand(**item)
+        if not item.pointer: raise ValueError('NULL_IRES_RESOURCE')
+        if query is None or query.get('frame_qualified') is not True:
+            missing.append('translated_query_frame:'+ident); continue
+        result = evaluate_region(query.get('xyz'), query.get('radius'), query.get('height'),
+                                 region.get('center'), region.get('radius'), region.get('points'),
+                                 point_count=region.get('point_count'))
+        diagnostics.append(dict(identity=ident,evidence=region['evidence'],**result))
+        if result['accepted'] is None: missing.append('spatial_operands:'+ident)
+        elif result['accepted']: first.append(item)
+    # Native callback append suppresses duplicate resource pointers.
+    pointers = {}
+    for r in first:
+        if r.pointer in pointers and pointers[r.pointer] != r: raise ValueError('INCONSISTENT_POINTER_SNAPSHOT')
+        pointers.setdefault(r.pointer,r)
+    first = tuple(pointers.values())
+    def supplied(name):
+        values=request.get(name)
+        if values is None: return None
+        if not isinstance(values,list): raise ValueError('VECTOR_JSON_ARRAY_REQUIRED')
+        return tuple(ResourceOperand(**r) for r in values)
+    atmosphere, biome = supplied('atmosphere'), supplied('biome')
+    inputs = UIInputs(EXE_SHA256,request['session'],request['evidence'],
+                      None if missing else first,atmosphere,biome,
+                      request.get('selector_observed',False),request.get('selected_form_id'),request.get('allocations_complete'))
+    folded = project_ui_rows(inputs)
+    missing.extend(folded['missing'])
+    if query is None or query.get('frame_qualified') is not True:
+        missing.append('qualified_query_frame')
+    if missing:
+        folded.update(status='UNKNOWN',ui_rows=None,ui_form_set=None,missing=sorted(set(missing)))
+    else: folded['status']='CONDITIONAL_NATIVE_AVAILABILITY' if inputs.allocations_complete else folded['status']
+    return dict(schema='sor-resource-availability-result/2',session=request['session'],evidence=request['evidence'],
+                spatial_diagnostics=diagnostics,known_spatial_resource_lower_bound=sorted({r.form_id for r in first}),
+                native_equivalence='NOT_ESTABLISHED_BY_EXECUTION',**folded)
+
+
 if __name__ == '__main__':
     import argparse
     import json
     from pathlib import Path
-    ap = argparse.ArgumentParser(description='Conditional offline native UI identity fold; no terrain query or placement verdict')
+    ap = argparse.ArgumentParser(description='Conditional offline native region/UI evaluator; no target access')
     ap.add_argument('input', type=Path)
     args = ap.parse_args()
     print(json.dumps(evaluate_json(json.loads(args.input.read_text(encoding='utf8'))), indent=2, sort_keys=True))

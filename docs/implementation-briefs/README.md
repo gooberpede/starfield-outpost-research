@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Inorganic resource availability milestone B](CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md): invoked 2026-10-15; offline native algorithm reconstruction, executable evaluator, input provenance and independent review. [Review package](../experiments/resource-availability-milestone-b/review.md). No launch, instrumentation/deployment, save writes, staging, commit or push.
+
 - [Inorganic resource availability](CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md): invoked 2026-10-14; offline UI/native/save/record investigation, original executable partials, two authorized agent roles and [critical review/package](../experiments/resource-availability/review.md). No game, instrumentation, save modification or Git mutation.
 
 - [Save-menu identification utility](CODEX_BRIEF_SOR_save_menu_identification_utility.md): invoked 2026-10-14, explicitly single-agent offline support. [Result/report](../experiments/save-menu-identification.md); no game execution, save modification, staging, commit or push. Maintainer/ChatGPT critical review pending.

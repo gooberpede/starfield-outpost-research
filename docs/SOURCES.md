@@ -1,5 +1,9 @@
 # Source Register
 
+### SOR-S-0147 — Inorganic availability milestone B
+
+2026-10-15. [Result](experiments/resource-availability-milestone-b/report.md) credits Bethesda pinned executable/installed definitions, maintainer-operated 070 capture and A/B/C testimony, protected controlled/mature saves, existing owned readers/evaluator/exporter and previously credited CPython/Ghidra/JDK/Microsoft tools. [Native manifest](experiments/resource-availability-milestone-b/native-sources.csv) and private preservation/coverage receipts pin evidence. Specialist reconstructs spatial strip/height/edge arithmetic, polynomial residual, loaded map traversal and concrete component/descriptor/generation/competition dependencies. Independent reviewer checks original criteria, source transcription, circular validation and missing-input claims. Source-informed original implementation uses stdlib/project modules only; no outside code, dependency, licence basis, network, author contact or disclosure. Authored REVIEW-REQUIRED; native/save/raw/large derivative evidence LOCAL-ONLY. Prior SOR-S-0145/0146 attribution and SOR-P-0002 remain applicable.
+
 ### Shared live-experiment operations — internal provenance extension
 
 2026-10-15. [Audit/qualification and exact source pins](experiments/session-infrastructure/report.md)

@@ -1,5 +1,7 @@
 # Experiments
 
+- SOR-EXP-0034 / SOR-EV-0042 continuation: [Inorganic availability milestone B](resource-availability-milestone-b/report.md), [specification](resource-availability-milestone-b/specification.md), [coverage](resource-availability-milestone-b/validation.md), [review](resource-availability-milestone-b/review.md). Native spatial predicates and concrete B2 dependencies; final-fold agreement is distinct from untested spatial equivalence.
+
 - SOR-EXP-0034: [Inorganic resource availability](resource-availability/report.md), [validation](resource-availability/validation.md), [review/package](resource-availability/review.md); offline UI/native/source/serialization study with typed partial calculations. Complete site sets remain unvalidated.
 
 - [Durable position consolidation](../position-model/specification.md), [reproduction](../position-model/self-check.md), [review](../position-model/review.md): offline synthesis of EV0017–0026/0028/0038/0039, not a new live experiment or universal XYZ claim.
