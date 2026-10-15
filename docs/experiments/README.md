@@ -101,3 +101,10 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
 - [SOR-EXP-0032 — Workshop membership and construction roots](workshop-membership/README.md): exact saved owner edges, native single/compound representation, all-record possible-missed ledger and independent review; offline only, no exhaustive Save52 claim.
 
 - [SOR-EXP-0033 — Workshop population rework](workshop-population/README.md): original 657 baseline preserved, 191 additional supported roots, original exhaustive acceptance challenged across offline aliases/defaults/reverse/alternative representations and history.
+
+- SOR-EXP-0035 / SOR-EV-0043: [Continuous beacon-preview resources](continuous-beacon-preview/report.md), [native graph](continuous-beacon-preview/native.md), [acceptance](continuous-beacon-preview/validation.md), [Save3 card](continuous-beacon-preview/run-card.md), [review](continuous-beacon-preview/review.md). Offline 0.7.0 qualification; live/rendered agreement NOT TESTED.
+
+- SOR-EXP-0035 approved continuation: [Save3 live result](continuous-beacon-preview/live-scientific-report.md)
+  supports scoped milestone A with A/B/C operator/native set agreement; B remains
+  NOT TESTED. Complete raw verification, normal exit/removal/protection and
+  independent scientific review are separate from historical offline qualification.

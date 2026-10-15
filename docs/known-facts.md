@@ -1,5 +1,19 @@
 # Established Findings
 
+## SOR-F-0034 — Continuous prospective resource sets and UI agreement
+
+2026-10-15, [EXP0035 / EV0043](experiments/continuous-beacon-preview/live-scientific-report.md).
+Direct sampled RUNTIME evidence recovers evaluation-time indexed placement
+positions, separate generated/atmosphere/biome populations and committed UI row
+identities. All 346 native input/row reconciliations AGREE. Independent operator
+A/B/C lists agree within their stable population intervals: Iron+Helium-3,
+Iron+Alkanes+Helium-3, Iron+Helium-3. Scoped STRONG milestone A result proposed for
+critical review; 35,574 complete evaluations, repeated cached evaluations and
+unchanged UI refreshes retained. Held preview context base is dummy STAT015804,
+not a placed-beacon identity assertion. Exact rendering time, unique asynchronous
+ancestry, deterministic reconstruction/persistence/other geography remain
+unresolved or NOT TESTED. Authored REVIEW-REQUIRED; raw/bulk LOCAL-ONLY.
+
 ## SOR-F-0033 — UI aggregation differs from saved producer registry
 
 [EXP0034 / EV0042](experiments/resource-availability/report.md). Scoped STRONG STATIC/SAVE interpretation submitted for critical review: native typed UI folds three collections, filtering the third to water; harvester property presence selects a collection or bypasses the resource gate. Controlled construction/deletion and all 63 mature extractor joins identify the sampled saved Workshop groups as producer-object associations. Neither supports a complete available-site population. Actual invocation freshness, spatial source selection, valid footprint coverage and preview/established equality remain unvalidated. Publication eligibility is separate.

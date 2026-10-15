@@ -334,3 +334,18 @@ Subsequent SOR-D-0013 approval superseded that correction's pre-review stop for 
 ### Q030 external module inventory offline repair — 2026-10-12
 
 [Repair and qualification](experiments/q-branch-030/module-inventory-fix.md) removes the failed cross-process module snapshot dependency, using strict unchanged-worker inventories plus fresh ACK with explicit cooperative/non-atomic provenance. Historical Windows token/policy cause remains OPEN; exact ACK-time loader completeness is not claimed. 16 focused tests and 17 external regressions pass; 310-pin offline audit preserves 030/native/frozen/prior capture inputs. Independent disposition in report. No launch/deployment/live capture/elevation/Git mutation; no new attempt authorized.
+
+## SOR-EXP-0035 / SOR-EV-0043 — continuous beacon-preview resources
+
+**Approved live continuation, 2026-10-15:** [Scientific result](experiments/continuous-beacon-preview/live-scientific-report.md)
+records unchanged 0.7.0/Save3 unplaced preview. Operator A Iron+Helium-3, B
+Iron+Alkanes+Helium-3, C Iron+Helium-3 agree with every completed native UI update
+in their containing stable population runs. 35,574 complete evaluations and 346
+UI updates; 611,926 raw records verified, zero errors. Milestone A PASS scoped
+operator/native set agreement; exact render timing/unique asynchronous ancestry
+unresolved, B NOT TESTED. Normal exit/removal/seal and 6,847 protected content
+pins PASS; incidental ExitSave rotation and 131 metadata-only timestamp changes
+disclosed. Independent scientific review ACCEPTS this scoped result; no publication
+or Git mutation authority. The offline account below remains historical.
+
+2026-10-15. [Report](experiments/continuous-beacon-preview/report.md), [matrix](experiments/continuous-beacon-preview/validation.md), [complete prospective Save3 card](experiments/continuous-beacon-preview/run-card.md), [independent review/package](experiments/continuous-beacon-preview/review.md). New 0.7.0 source-backed offline observer retains each indexed-position evaluation and independently observes actual UI consumer/constructed-row identities. No event snapshot survives the asynchronous handoff; matching source snapshots remain correspondence candidates. Synthetic native/decoder/worker controls, raw integrity and protected input receipts are separate from live validation. Milestone A actual displayed/native agreement and milestone B deterministic reconstruction remain NOT TESTED. Historical results/classifications, prior releases and saved producer-registry interpretation are unchanged. No game/deployment/save/configuration/database-content/Git mutation; combined review and explicit live authorization remain required.

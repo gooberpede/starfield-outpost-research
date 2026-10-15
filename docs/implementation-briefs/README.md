@@ -120,3 +120,5 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 - [Existing observer 050 capture Z/frame follow-up](CODEX_BRIEF_SOR_observer050_existing_capture_z_frame_followup.md) — records the maintainer’s authorized 2026-10-13 offline investigation; existing sealed/static/save evidence only, no new live run or source/build mutation.
 
 - [Workshop caller semantics and idle-camera hypothesis](CODEX_BRIEF_SOR_workshop_center_caller_semantics_idle_camera.md) — invoked 2026-10-13; offline caller/frame/chronology research with specialist and independent review, no live/Git mutation authority.
+
+- [Continuous beacon-preview resource oracle](CODEX_BRIEF_SOR_continuous_beacon_preview_resource_oracle.md): invoked 2026-10-15; authorized offline implementation/qualification, integrated Save3 procedure and independent review. [Report/package](../experiments/continuous-beacon-preview/review.md). No game/deployment/commit/push authority.

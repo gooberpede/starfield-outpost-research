@@ -202,3 +202,12 @@ SOR-ENV-0002, OBSERVED-INTERNAL / STATIC. [Contract table](../runtime/exp0002/ST
 ## EXP0033 — Membership, registration and component restoration corrections
 
 [Native route map](experiments/workshop-population/routes.md):140517c00/140500ba0/140cf72d0 resolve quest/ALLA aliases; 140518750 derives reverse 4D; 141815620 assigns actual record types from ordered footer runs; 14181cdc0/14181ce30 gate AddChange; 14182e280 restores components; 140b1e720 resolves CalculatedPackinData existing instance IDs. Type 4 selector 1421661c0 requires an existing owner, and generic reconstruction is not categorically ships-only. Static VAs/build pins in report; no safe runtime integration claim.
+
+## SOR-EXP-0035 — prospective resource observation boundaries
+
+[Native dependency ledger](experiments/continuous-beacon-preview/native.md) requalifies producer 1421e07d0, preview CALL1421b42e3, UI 141578500 and its two actual union/two row construction branches against the pinned retail executable. Getter14038a050 and typed payload layout are independently byte-qualified. STATIC / OBSERVED-INTERNAL; disposable ABI qualification is not a validated retail integration. Addresses and pointer/FormID domains remain explicitly distinct.
+
+The separately approved [live continuation](experiments/continuous-beacon-preview/live-scientific-report.md)
+directly observes the producer/preview/UI/consumer/row routes in this pinned
+session. RUNTIME / OBSERVED-INTERNAL within the guarded ten-CALL surface;
+recording success does not establish a supported or generally safe mod API.

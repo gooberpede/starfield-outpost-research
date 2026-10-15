@@ -218,3 +218,14 @@ No fork or pull request without prior discussion and explicit user approval. No 
 These are internal project operating rules, not additional restrictions on recipients exercising GPL rights. See [the detailed policy](THIRD_PARTY_POLICY.md), [credits](CREDITS.md), and [publication gate](docs/PUBLICATION.md).
 
 Q030 [single-session procedure](docs/experiments/q-branch-030/live-run-card.md) and [offline qualification/review](docs/experiments/q-branch-030/procedure-qualification.md) are prepared separately from live authorization.
+
+**Continuous beacon-preview oracle, 2026-10-15:** [SOR-EXP-0035 report](docs/experiments/continuous-beacon-preview/report.md), [acceptance](docs/experiments/continuous-beacon-preview/validation.md), [Save3 run card](docs/experiments/continuous-beacon-preview/run-card.md) and [review/package](docs/experiments/continuous-beacon-preview/review.md) prepare observer 0.7.0. Evaluation-time indexed position and native row admission are distinct channels; asynchronous ancestry remains conditional. Milestones A/B NOT TESTED; offline only, no deployment/game/Git mutation.
+
+**Approved continuous-preview live continuation, 2026-10-15:**
+[Save3 scientific report](docs/experiments/continuous-beacon-preview/live-scientific-report.md)
+records Iron+Helium-3 → Iron+Alkanes+Helium-3 → Iron+Helium-3, agreeing across
+operator lists and native UI stable intervals. 611,926 records verify; 35,574
+complete evaluations and 346 reconciled UI updates. Scoped milestone A PASS;
+exact rendering timing/unique ancestry unresolved, milestone B NOT TESTED.
+Normal exit/removal/protected postflight/seal PASS. Authored work awaits critical
+review; no staging, commit, push or publication.

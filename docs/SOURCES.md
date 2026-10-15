@@ -639,3 +639,16 @@ permission basis, dependency, download, upstream contact or disclosure.
 ### SOR-S-0144 — Original Workshop population rework and independent challenges
 
 2026-10-14. [SOR-EXP-0033/EV0041](experiments/workshop-population/report.md), [point-of-use source hashes](experiments/workshop-population/sources.csv). Bethesda installed executable/ESMs and maintainer-controlled saved/action evidence; existing owned decoder, framing/definition methods and Ghidra/JDK/CPython tools (prior credits retained). Original primary rework implements actual saved type registry, complete reference/default/component audits and 191-root supplement. Specialist contributes complete ALLA/cache/reverse/admission/type 4/restoration and historical-witness audits; independent reviewer supplies source-first class negatives, 191 identity reproduction, full type 5 and component/native-ID challenges against ORIGINAL exhaustive criteria. No new external code, dependency, upstream contact or rights basis. Prior source-informed provenance remains intact; these are not asserted clean-room substitutes. Full raw/private receipts LOCAL-ONLY, authored summaries REVIEW-REQUIRED.
+
+### SOR-S-0146 — Continuous beacon-preview observation boundaries and qualification
+
+2026-10-15, [SOR-EXP-0035 / SOR-EV-0043](experiments/continuous-beacon-preview/report.md), [exact source lineage](experiments/continuous-beacon-preview/sources.md). Bethesda installed pinned native executable supplies preview indexed position, event/model ownership, source vectors, typed row contracts and getter bytes. Existing SOR-S-0127/0128/0132/0142/0145 and SOR-P-0001/0002 lineage remains; owned 060 support is reused or adapted, including approved unchanged Ian Patterson SFSE PluginAPI.h/MIT notice. New native specialist independently audits preview/ref/domain, no-snapshot async payload, getter and both row branches; independent reviewer challenges correlation, atomicity, row admission, transport and fixture coverage. Installed Microsoft/Ghidra/JDK/CPython tools remain separate execution tools, not incorporated outside implementations. All raw exports/protected saves/builds remain local; no new licence basis, contact, fork/PR, download or disclosure.
+
+### SOR-S-0146 — approved live continuation
+
+[Save3 report](experiments/continuous-beacon-preview/live-scientific-report.md)
+credits Bethesda native/installed definition evidence, maintainer gameplay/list
+testimony and previously credited SFSE/Microsoft/CPython/owned observer and ESM
+methods. [Exact live receipt hashes](experiments/continuous-beacon-preview/live-sources.csv)
+retain primary read-only derivations and independent reviewer raw reconciliation.
+No new third-party implementation, dependency, contact, licence basis or disclosure.

@@ -176,3 +176,13 @@ Publication REVIEW-REQUIRED/raw LOCAL-ONLY; independent review gate in trial mat
 ## SOR-ST-0030 — Saved member/root population and restoration boundary
 
 [EXP0033](experiments/workshop-population/routes.md) distinguishes 8628 explicit-key records (8627 ordinary),848 supported roots, 5497 generated members, 2282 foundations and 1 nonordinary unresolved target. 31 dynamic nonowner DA groups include 17 without an own R3; resource/component/history identity is separate from qualifying physical-root status and ordinary owner. Default/alias/reverse and conditional AddChange paths are explicitly audited. Root completeness is not inferred from R3 closure. REVIEW-REQUIRED, saved/static domains only.
+
+## SOR-EXP-0035 — resource cache/UI epoch continuation
+
+[Native observation contract](experiments/continuous-beacon-preview/native.md) separates indexed descriptor/held preview reference, cached source populations, snapshot-free asynchronous command, actual consumer inputs and typed row ordinals. Sampled reference/base/cell/world walks are non-atomic; lifecycle resets are outside producer-only epoch counters. No persisted-field or stable logical-site mapping is added by the new disposable observer. Prior SOR-ST-0031 classification remains unchanged.
+
+Approved [live continuation](experiments/continuous-beacon-preview/live-scientific-report.md)
+observes actual indexed frame/domain/held dummy placement reference and transient
+source/UI row state. These remain RUNTIME/OBSERVED-INTERNAL, not demonstrated
+persisted fields or post-load authority. A/B/C resource-set agreement does not
+establish a safe integration point or deterministic independent reconstruction.

@@ -189,3 +189,13 @@ unobserved. Review gate and coverage are explicit; historical rows below retaine
 [Report](../experiments/workshop-membership/report.md) connects runtime keyed owner lookup and native item reconstruction to counted saved extras. Single roots, compound representatives and generated foundations are distinguished independently of categories. [Dependency map](../experiments/workshop-membership/dependencies.md) preserves alternate 80/default/inherited/reverse population gaps, containers/displays versus contents, and future categorization. Scoped positive, universal completeness unresolved; no automatic importer/live authority.
 
 Workshop membership/population follow-up: [EXP0033](../experiments/workshop-population/report.md) corrects alias/type semantics and adds 191 physical roots to the 657 baseline. Membership detection, physical instance/root selection, restoration and historical population completeness remain separate dependencies; the original acceptance matrix controls terminal claims.
+
+### Prospective area resources — SOR-EXP-0035
+
+[Native graph](../experiments/continuous-beacon-preview/native.md) binds preview evaluation-time indexed XYZ to three populations and separately observes exact common UI inputs, selected biome/water appends and final row admission. Caches and asynchronous model delivery remain distinct; no unique producer lineage is inferred from matching sets. [Observer/card/review](../experiments/continuous-beacon-preview/report.md) prepare future Save3 acquisition only. Runtime rendering/persistence/offline deterministic reconstruction are not newly validated.
+
+Subsequent approved [Save3 live capture](../experiments/continuous-beacon-preview/live-scientific-report.md)
+observes 35,574 complete native evaluations and 346 UI updates; stable A/B/C
+resource sets agree with the operator's displayed lists. Continuous cached calls
+and unchanged refreshes are retained. Exact rendering time, causal asynchronous
+ancestry, persistence and deterministic reconstruction remain separate unknowns.

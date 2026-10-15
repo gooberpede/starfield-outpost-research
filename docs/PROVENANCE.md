@@ -399,3 +399,17 @@ No raw payload publication, original save/config/database edits or live executio
 ### EXP0033 population rework — 2026-10-14
 
 [Report](experiments/workshop-population/report.md) preserves prior 657 scientific/evidence bytes and source pins; new source/receipt identities and complete/task-only patches use a fresh rework prefix. Native state is read/exported only. Original project reader/exporter adaptations and specialist/reviewer sources are credited in SOR-S-0144, with no new third-party implementation/dependency. Raw/proprietary/private evidence remains local.
+
+## SOR-EV-0043 — offline continuous beacon-preview observer
+
+2026-10-15. Starting HEAD 441b1e027ac2cca483ab783e4f1ae8768a53366e. [Source/reuse ledger](experiments/continuous-beacon-preview/sources.md) and selected build manifest pin owned 060 transport/patch/module support, adapted plugin/worker/operator/ABI fixtures, new original 070 capture/bridges/decoder and the unchanged approved SFSE header/notice. Existing Ghidra read-only/no-analysis exports are separately bracketed by 15 unchanged DB files. New protected baseline has 6,847 pins with explicit historical authored-text pin disposition; source-frozen final receipts/package control acceptance. Save3 source identity/menu header and mtime are freshly rechecked. No external implementation/dependency, live baseline, raw incorporation or disclosure; raw/build/fixture/private derivatives LOCAL-ONLY, authored source/docs REVIEW-REQUIRED.
+
+### SOR-EV-0043 — subsequently authorized live capture
+
+[Actual attempt](experiments/continuous-beacon-preview/live-attempt-01.md),
+[scientific scope](experiments/continuous-beacon-preview/live-scientific-report.md)
+and [live hashes](experiments/continuous-beacon-preview/live-sources.csv) retain
+the user's approval, unchanged package/source identity, session seal, phase
+reports and protected postflight. Proprietary/raw/save/bulk data remain ignored
+LOCAL-ONLY. Timestamp-only changes and incidental ExitSave rotation are disclosed;
+zero existing save content changes. No Git or publication authority is inferred.
