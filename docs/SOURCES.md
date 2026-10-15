@@ -1,5 +1,21 @@
 # Source Register
 
+### SOR-S-0149 — Resource-region lifecycle and minimum runtime state
+
+2026-10-15. [Report](experiments/native-availability-map/region-dependencies.md),
+[additional primary pins](experiments/native-availability-map/region-sources.csv),
+[qualification](experiments/native-availability-map/region-validation.md).
+Original interpretation of Bethesda's pinned executable and existing/new bounded
+Ghidra read-only/no-analysis exports. Ghidra 12.1.2_PUBLIC, Temurin 21.0.12+8-LTS
+and existing owned reader/wrapper reused; CPython 3.14.3 stdlib runs checks.
+Maintainer-owned evaluator, protected 070 evidence, preservation and patch methods
+reused from baseline HEAD6475a1fb4a70711d3035e2c89a05085b9b57f5b4 under SOR-P-0002.
+Specialist independently traces source-cache/producer/caller/reset boundaries;
+separate reviewer assesses primary evidence against the original brief. No new
+third-party implementation, dependency, licence basis, network or contact.
+Authored REVIEW-REQUIRED; native/raw/large evidence LOCAL-ONLY. Existing sources
+0145–0148 retain their original scopes and attribution.
+
 ### SOR-S-0148 — local inorganic native function and minimum-input mapping
 
 2026-10-15. [Report](experiments/native-availability-map/report.md), [source pins](experiments/native-availability-map/sources.csv), [structured register](experiments/native-availability-map/functions.csv). Original interpretation of Bethesda pinned executable/installed definitions and existing local Ghidra exports; existing maintainer 070 capture/testimony and owned spatial/UI evaluator, census and exporter reused. Installed approved CPython 3.14.3 stdlib executes the offline checks; previously credited Ghidra/JDK/Microsoft provenance is retained, with no new Ghidra invocation. New verifier checks primary instruction contracts and metadata; no new third-party implementation, dependency, external tool, network or contact. Optional specialist independently traced internal provider/caller/context/cache branches; reviewer independently checks original contract. Authored REVIEW-REQUIRED, raw/native/bulk evidence LOCAL-ONLY; SOR-S-0145/0146/0147 and standing owned-material authorization remain applicable.

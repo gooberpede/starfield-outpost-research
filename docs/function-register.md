@@ -2,7 +2,9 @@
 
 ## EXP0034 continuation — local inorganic native boundaries
 
-[Structured native register](experiments/native-availability-map/functions.csv) expands the existing SOR-FN-0060–0064 pipeline with 34 source-linked function records (local keys N01–N34, not newly allocated SOR-FN IDs). Each includes pinned executable/RVA, original name, input/output, prerequisites, effects, edges and limits. [Dataflow](experiments/native-availability-map/dataflow.md) and [minimum-input assessment](experiments/native-availability-map/minimum-inputs.md) distinguish caller-derived descriptors, internally retrieved loaded regions, provider/generation cache and asynchronous UI. STATIC/OBSERVED-INTERNAL; runtime overlay and exact scope are in the report. No safe callable API, universal freshness or established runtime equivalence is claimed.
+[Resource-region lifecycle continuation](experiments/native-availability-map/region-dependencies.md) extends this register in place with current-context source indexing, task requests/dependencies/publication and ProcGen reset/destruction. [Location/state requirements](experiments/native-availability-map/region-requirements.md) and [review](experiments/native-availability-map/region-review.md) delimit sufficiency.
+
+[Structured native register](experiments/native-availability-map/functions.csv) expands the existing SOR-FN-0060–0064 pipeline with 66 source-linked function records (local keys N01–N66, not newly allocated SOR-FN IDs). Each includes pinned executable/RVA, original name, input/output, prerequisites, effects, edges and limits. [Dataflow](experiments/native-availability-map/dataflow.md) and [minimum-input assessment](experiments/native-availability-map/minimum-inputs.md) distinguish caller-derived descriptors, internally retrieved loaded regions, provider/generation cache and asynchronous UI. STATIC/OBSERVED-INTERNAL; runtime overlay and exact scope are in the report. No safe callable API, universal freshness or established runtime equivalence is claimed.
 
 ## SOR-FN-0060–0064 — Inorganic availability pipeline
 

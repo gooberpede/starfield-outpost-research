@@ -1,5 +1,11 @@
 # Native loaded-area dependency specification
 
+2026-10-15 continuation: [resource-region lifecycle](region-lifecycle.md) traces
+provider cache keys, synchronous attempted construction, task requests/publication
+and reset/destruction. [Requirements](region-requirements.md) separately evaluates
+arbitrary resident, separate-context and unloaded queries. The provider's source
+pointer cache is the store read below; no direct updater-to-provider call is added.
+
 [Report/build domains](report.md), [structured native register](functions.csv).
 All addresses in the diagram are RVAs. Edges are STATIC unless the text explicitly
 identifies the 0.7.0 runtime observation overlay. This is an account of native

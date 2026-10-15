@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Resource-region dependencies and minimum runtime requirements](CODEX_BRIEF_SOR_resource_region_dependencies_minimum_requirements.md): invoked 2026-10-15; offline provider/generation lifecycle, current context and location requirements. [Report/review](../experiments/native-availability-map/region-review.md). No game, observer, save mutation, staging, commit or sync.
+
 - [Corrected local inorganic native mapping](CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md): invoked2026-10-15; supersedes earlier native-contracts assignment. Actual function/dataflow register, local minimum inputs and independent [review package](../experiments/native-availability-map/review.md). Offline only, no application gap analysis, game/process/save/deployment or Git mutation.
 
 - [Inorganic resource availability milestone B](CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md): invoked 2026-10-15; offline native algorithm reconstruction, executable evaluator, input provenance and independent review. [Review package](../experiments/resource-availability-milestone-b/review.md). No launch, instrumentation/deployment, save writes, staging, commit or push.

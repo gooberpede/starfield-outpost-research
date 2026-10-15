@@ -1,5 +1,7 @@
 # Documentation Index
 
+- [Resource-region dependencies](experiments/native-availability-map/region-dependencies.md), [lifecycle](experiments/native-availability-map/region-lifecycle.md), [minimum requirements](experiments/native-availability-map/region-requirements.md), [review](experiments/native-availability-map/region-review.md).
+
 - [Durable ordinary-outpost position specification](position-model/specification.md), [capabilities](position-model/capabilities.md), [applications](position-model/applications.md), [self-check](position-model/self-check.md), [disposition](position-model/disposition.md), [review](position-model/review.md).
 
 ## Authority and current state

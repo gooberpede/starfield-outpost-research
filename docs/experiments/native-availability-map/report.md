@@ -1,5 +1,10 @@
 # Local inorganic availability: native functionality and minimum inputs
 
+The later [resource-region dependency continuation](region-dependencies.md)
+extends upstream lifecycle and nonlocal minimum-state analysis under its own
+authorized brief. This report's prior acceptance and capture scope remain
+historical; the continuation has a [separate review](region-review.md).
+
 2026-10-15, Australia/Sydney. Continuation of SOR-EXP-0034 / SOR-EV-0042,
 using the approved SOR-EXP-0035 / SOR-EV-0043 capture. Authored interpretation
 REVIEW-REQUIRED; native exports, raw captures and bulk derivatives LOCAL-ONLY.

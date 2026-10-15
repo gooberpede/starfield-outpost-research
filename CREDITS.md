@@ -1,5 +1,14 @@
 # Credits
 
+2026-10-15 [Resource-region dependencies](docs/experiments/native-availability-map/region-dependencies.md)
+credits Bethesda native/definition evidence, maintainer gameplay/protected 070
+capture and owned evaluators, and previously credited Ghidra/JDK/CPython tools.
+Source/cache/producer/reset research includes the specialist's independent
+instruction audit; reviewer findings remain separate from scientific evidence.
+[SOR-S-0149](docs/SOURCES.md#sor-s-0149--resource-region-lifecycle-and-minimum-runtime-state)
+records exact source lineage and rights boundaries. No outside implementation
+or new permission basis is introduced.
+
 2026-10-15 [Inorganic availability milestone B](docs/experiments/resource-availability-milestone-b/report.md) credits Bethesda native/installed definitions, the maintainer's 070 gameplay/list reports and protected saves, existing project capture/decoder/evaluator/protection/export methods, and previously credited CPython/Ghidra/JDK/Microsoft tools. The specialist reconstructs spatial predicates and input production; the independent reviewer checks the original contract and native-equivalence limits. [Source ledger](docs/SOURCES.md#sor-s-0147--inorganic-availability-milestone-b) and [native hashes](docs/experiments/resource-availability-milestone-b/native-sources.csv) retain provenance. No new outside implementation is incorporated.
 
 For [inorganic resource availability research](docs/experiments/resource-availability/report.md),

@@ -1,5 +1,11 @@
 # Minimum sufficient inputs by native boundary
 
+2026-10-15 follow-up: [expanded requirements matrix](region-requirements.md) and
+[dependency report](region-dependencies.md) distinguish explicit operands from
+residency, construction completion and freshness, including nonlocal contexts.
+The former assignment's remote-query exclusion below is historical scope, not
+a conclusion that travel is required or separate contexts are impossible.
+
 [Report and build pin](report.md), [native dataflow](dataflow.md),
 [original function records](functions.csv). These are evidence-derived boundary
 descriptions, not hypothetical implemented callable signatures. Mathematical
