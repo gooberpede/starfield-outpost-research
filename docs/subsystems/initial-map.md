@@ -242,3 +242,7 @@ values remain qualified; organic systems and switch topology remain outside E1.
 ## E1 resource interval/size continuation — 2026-10-16
 
 [Resource-to-global table and size contract](../experiments/inorganic-extractors/resource-intervals.md) covers the main-game category catalog and separates raw PRPS, additive defaults and runtime effective overrides. The small gas/liquid/atmospheric factor differs from small solids on the traced fallback path; no measured output claim.
+
+## E2 organic production — 2026-10-16
+
+[Native reference](../experiments/organic-facilities/report.md) connects constructed assemblies to operational members, planetary species/knowledge candidates, recipe-keyed choice, resource AV configuration, persisted scheduling and transitive input consumption. [Reuse matrix](../experiments/organic-facilities/reuse.md) distinguishes shared E1 machinery from organic conditions and excludes inorganic-only player bonuses. [Local topology](../experiments/organic-facilities/links.md) retains storage/cargo boundaries without claiming throughput. Offline only; review and current-state limitations remain explicit.

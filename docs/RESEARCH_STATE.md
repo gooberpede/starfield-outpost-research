@@ -391,3 +391,7 @@ or Git mutation authority. The offline account below remains historical.
 ## E1 resource intervals and sizes — 2026-10-16
 
 [Report](experiments/inorganic-extractors/resource-intervals.md) extends SOR-EXP-0038 / SOR-EV-0046: all 154 main-game category bases map to 45 resources, with two additional IRES-only interval definitions retained. PRPS loading preserves values, establishing small solid versus gas/liquid/atmospheric fallback factors 1 versus 2, then approximately .8/.5 for medium/large. Proposed STRONG / STATIC within explicit override/provider conditions; live timing/output and DLC/mod compatibility remain untested. [Review](experiments/inorganic-extractors/resource-intervals-review.md); no game or Git mutation.
+
+## E2 organic facilities — 2026-10-16
+
+[SOR-EXP-0039 / SOR-EV-0047](experiments/organic-facilities/report.md): CONDITIONALLY COMPLETE native reference, independently accepted after corrections; [maintainer review pending](experiments/organic-facilities/review.md). Six producer definitions and pack-in constructions, 90 typed recipes, planet-scoped domesticable species/knowledge selection, recipe-keyed UI, resource AV registration, shared input consumption/scheduling and compatibility-driven link pruning within documented bounds. Six saved greenhouse rows and ExtraBF selected values agree; all six reach saved local Water producers through liquid storage. Current loaded values, cache/knowledge lifecycle limits and realized output remain qualified. No live, publication, staging, commit or push action.

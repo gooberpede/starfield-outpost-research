@@ -258,3 +258,5 @@ complete evaluations and 346 reconciled UI updates. Scoped milestone A PASS;
 exact rendering timing/unique ancestry unresolved, milestone B NOT TESTED.
 Normal exit/removal/protected postflight/seal PASS. Authored work awaits critical
 review; no staging, commit, push or publication.
+
+**2026-10-16 — E2 organic facilities:** [Native reference](docs/experiments/organic-facilities/report.md) maps six greenhouse/husbandry definitions, 90 recipes, planet-scoped selection, knowledge/current UI state, input consumption and local directional links. Saved greenhouse configuration and Water paths corroborate the native map; actual loaded state/output remain unobserved. [Review](docs/experiments/organic-facilities/review.md); offline only, no commit/push.

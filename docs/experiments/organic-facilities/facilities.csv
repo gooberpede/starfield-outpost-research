@@ -1,0 +1,7 @@
+producer_cont,edid,cont_physical_offset,organic_type,packin,packin_cell,template_refr,template_physical_offset,construction_cobj,construction_physical_offset,raw_harvester_delta,resource_property_count,resource_nonzero,research_project
+001fb279,OutpostBuilderOrganicFlora03,5605516,1.0,001fb265,001fb27d,001fb25e,358485733,001fb25d,1300461458,-0.5,30,0,00389f0a
+001fb27a,OutpostBuilderOrganicFauna03,5606360,2.0,001fb26e,001fb27c,00362922,330378473,001fb25b,1300460698,-0.5,90,0,003e3d4e
+001fb27b,OutpostBuilderOrganicFauna02,5608220,2.0,001fb278,001fb277,0036291d,206551847,001fb25c,1300461078,-0.20000000298023224,90,0,003e3d4d
+002953e2,OutpostBuilderOrganicFlora02,5788372,1.0,002491f0,00249202,002491ed,248634709,0028ad55,1300714954,-0.20000000298023224,30,0,00389f09
+002965f7,OutpostBuilderOrganicFlora01,5789216,1.0,002491f5,00249201,002491f2,218290612,0028ad59,1300715333,ABSENT,30,0,NONE
+00298a36,OutpostBuilderOrganicFauna01,5790403,2.0,00288f94,00288f93,00362918,285935991,0028ad81,1300715692,ABSENT,90,0,NONE

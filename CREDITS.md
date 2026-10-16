@@ -405,3 +405,7 @@ local provenance. Raw game-derived material remains local.
 ## E1 resource interval and extractor size continuation
 
 2026-10-16: Bethesda Game Studios supplied the installed main-game definitions and native machinery analyzed in the [interval/size report](docs/experiments/inorganic-extractors/resource-intervals.md). Existing owned catalog/ESM/Ghidra readers provide the provenance lineage; new inventory and physical verification are original bounded research. No raw game implementation/assets are incorporated into authored deliverables.
+
+## E2 organic facility reference — 2026-10-16
+
+[Organic research](docs/experiments/organic-facilities/report.md) credits Bethesda installed definitions/native/UI/script machinery; the maintainer’s supplied exporter, screenshot, gameplay leads, protected Save52 and sibling network reference work; prior owned E1/Workshop/availability readers and research; and previously credited Ghidra, Temurin, CPython and Git tooling. The native specialist traces selector/input/application consumers and a fresh independent reviewer challenges evidence and the original brief. No third-party implementation is incorporated; [source ledger](docs/SOURCES.md#e2-organic-facilities--existing-bethesdatool-and-maintainer-source-lineage) and [pins](docs/experiments/organic-facilities/sources.csv) preserve provenance.

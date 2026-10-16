@@ -208,3 +208,7 @@ remain separate. [Directional links](experiments/inorganic-extractors/links.md)
 are destination-keyed source sets; restored identities and graph caches are
 reconstructed state. This extends the existing producer/link account without
 promoting saved flags to current runtime output. No new live observations.
+
+## SOR-ST-0032 — organic configuration and selection state
+
+[E2 native map](experiments/organic-facilities/native.md) distinguishes definition-derived OrganicResourceType/support properties and recipes; transient candidate vectors/UI recipe-to-AV associations; planet/species knowledge; selected resource AV; persisted IRES-keyed Workshop producer rows; and reconstructed handles/link caches. Fresh six-producer Save52 checks correlate ExtraBF selected base AV = 1 with each saved IRES row, without asserting current loaded authority. [Topology](experiments/organic-facilities/links.md) retains directional reachability and unresolved boundary states. REVIEW-REQUIRED; raw evidence LOCAL-ONLY.

@@ -250,3 +250,7 @@ producer-row scheduling, interval/modifier dispatch and unit creation.
 incoming-source storage and direct outgoing destinations, add/remove and save/load.
 All are STATIC / OBSERVED-INTERNAL, analyst aliases REVIEW-REQUIRED. No callable
 integration or actual current operating values are claimed.
+
+## SOR-FN-0061 — organic selector, application and input contracts
+
+[SOR-EXP-0039 native map](experiments/organic-facilities/native.md) extends the existing [native CSV](experiments/native-availability-map/functions.csv) with planet/species/knowledge candidates, domesticability/resource admission, recipe-keyed UI, resource AV application, upstream input availability/consumption and incompatible-link pruning. Preferred VA/RVA, exact local exports, operand/output and effect contracts are retained there. STATIC / OBSERVED-INTERNAL, proposed STRONG within the pinned build; no safe invocation, current-state observation or integration qualification.
