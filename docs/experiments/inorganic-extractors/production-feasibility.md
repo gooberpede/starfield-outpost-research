@@ -1,5 +1,12 @@
 # Independent live-validation feasibility assessment
 
+**Supersession — 2026-10-16:** The later [stacking analysis](stacking-report.md)
+resolved the ordinary multiple-crew selection mechanism statically: each eligible
+distinct assigned actor is consumed. The historical crew-stacking live proposal
+below is no longer recommended. Its original REVISE outcome and reasoning remain
+historical; current output, clock-state and other runtime questions are separate.
+See the [arithmetic continuation](arithmetic-report.md) for the newer assessment.
+
 **REVISE.** A worthwhile, discriminating test remains, but saved controls and
 an observation contract are insufficient for GO. This is a completed feasibility
 assessment, not a request to implement instrumentation. Arithmetic-reference

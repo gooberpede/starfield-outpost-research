@@ -790,3 +790,24 @@ interpretation REVIEW-REQUIRED; game-derived bulk evidence LOCAL-ONLY.
 ## E1 stacking and Research Projects — existing lineage
 
 2026-10-16. [Report](experiments/inorganic-extractors/stacking-report.md) uses Bethesda pinned retail executable, installed Starfield.esm and ContentResources.zip (existing SOR-S0104), prior owned production/Workshop research and strict ESM reader. The new bounded definition/check scripts are original stdlib work; no Bethesda script implementation is incorporated. Ghidra12.1.2 / Temurin21.0.12+8 readOnly/noanalysis, installed CPython and Git support offline evidence and patch checks. The local exporter adapts owned `.local-work/e1-production/export.py`; baseline and source pins retain provenance. Fresh independent review challenges stacking, research negatives, scope, preservation and packaging. No new outside code, dependency, licence basis, network or disclosure.
+
+## E1 arithmetic, clocks and UI — existing Bethesda and owned tooling lineage
+
+2026-10-16. [Report](experiments/inorganic-extractors/arithmetic-report.md) and
+[pins](experiments/inorganic-extractors/arithmetic-sources.csv) credit Bethesda's
+pinned retail instructions, main ESM, ContentResources.zip and installed
+`Starfield - Interface.ba2`. The maintainer supplied two Kreet UI screenshots
+from a Save3-derived state, without a fresh identified save. A targeted specialist
+traced both UI adapters and original installed bytecode; independent review
+challenges unit, quantity, formatting and freshness claims. New stdlib BA2/SWF/ABC
+readers are original bounded local research code, with no outside extractor or
+decompiler implementation; raw assets and bytecode remain LOCAL-ONLY.
+Ghidra 12.1.2_PUBLIC / Temurin 21.0.12+8 export existing state readOnly/noanalysis;
+CPython 3.14.3 and Git support original verification/patch checks. The definition
+reader reuses the owned strict ESM reader; package exporter adapts owned
+`.local-work/e1-stacking/export.py`, with exact provenance locally. No outside
+code, dependency, download, new licence basis, communication or disclosure.
+
+## E1 resource interval/size continuation — existing source lineage
+
+2026-10-16. [Report](experiments/inorganic-extractors/resource-intervals.md) uses Bethesda pinned main ESM/retail instructions, the owned strict ESM reader and existing extractor catalog, and Ghidra 12.1.2_PUBLIC/Temurin 21.0.12+8 readOnly/noanalysis exports. Original stdlib inventory and independent physical-field checker use installed CPython 3.14.3. The local review exporter adapts owned `.local-work/e1-arithmetic/export.py`; exact provenance is retained locally. Raw definitions/native code remain LOCAL-ONLY, authored interpretation REVIEW-REQUIRED. No outside code/dependency/download or disclosure.

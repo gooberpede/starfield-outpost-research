@@ -102,3 +102,7 @@ Avoid OS usernames, personal save names, absolute local paths, or permission cor
 - **SOR-EV-0046 continuation:** [Production arithmetic/modifiers](../inorganic-extractors/production-report.md) and [pins](../inorganic-extractors/production-sources.csv), REVIEW-REQUIRED authored reference; native/definition/save receipts under `.local-work/e1-production/` and `.local-work/recon/` remain LOCAL-ONLY. Feasibility REVISE; no new live evidence.
 
 - **SOR-EV-0046 stacking continuation:** [Report](../inorganic-extractors/stacking-report.md) and [pins](../inorganic-extractors/stacking-sources.csv), REVIEW-REQUIRED. New raw exports/definition/script inventories and receipts remain LOCAL-ONLY under `.local-work/e1-stacking/` and `.local-work/recon/`; no new runtime/save evidence.
+
+- **SOR-EV-0046 arithmetic/UI continuation:** [Report](../inorganic-extractors/arithmetic-report.md) and [pins](../inorganic-extractors/arithmetic-sources.csv), authored REVIEW-REQUIRED. Raw native exports, definitions, screenshots, BA2/SWF/ABC and verification receipts remain LOCAL-ONLY under `.local-work/e1-arithmetic/`, `.local-work/screengrabs/` and `.local-work/recon/`. No new runtime evidence.
+
+E1 interval/size continuation: raw inventories, exact physical-field spans, pinned native exports and review receipts remain ignored under `.local-work/e1-intervals/` and `.local-work/recon/e1-intervals-*`. Authored [report](../inorganic-extractors/resource-intervals.md) and tables are REVIEW-REQUIRED; raw definitions/decompilation are LOCAL-ONLY.

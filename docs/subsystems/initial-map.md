@@ -234,3 +234,11 @@ values remain qualified; organic systems and switch topology remain outside E1.
 ### E1 actor selection and Research Projects — 2026-10-16
 
 [Stacking continuation](../experiments/inorganic-extractors/stacking-report.md) connects handle-unique ordinary assignment, selected-rank registration/removal and the per-actor timer consumer. Highest-rank and type-1 crew competition paths are distinguished from type-2 timers. Main-game Research Project completion gates recipes, with indirect equipment consequences; actual loaded state and universal restoration remain untested.
+
+### E1 arithmetic, clocks and UI — 2026-10-16
+
+[Production contracts](../experiments/inorganic-extractors/arithmetic-report.md) connect base/effective intervals, requested quantities, separate frame/skipped-time callers and both cached-rate UI paths. Decimal slicing versus rounding explains the paired hundredths for equal inputs. The prior crew-stacking live proposal is superseded; realization and freshness retain scoped limits.
+
+## E1 resource interval/size continuation — 2026-10-16
+
+[Resource-to-global table and size contract](../experiments/inorganic-extractors/resource-intervals.md) covers the main-game category catalog and separates raw PRPS, additive defaults and runtime effective overrides. The small gas/liquid/atmospheric factor differs from small solids on the traced fallback path; no measured output claim.

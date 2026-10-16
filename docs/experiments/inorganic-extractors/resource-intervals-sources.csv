@@ -1,0 +1,50 @@
+path,bytes,sha256,eligibility
+.local-work/e1-intervals/baseline.json,10190,750f96696d2b7e0378522019d3916866a7fe68a1920af49a4859563bbde8c6e2,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/export.py,5337,46745653408e383922fa791287d140a818bf841557c5893b0971e94d19d32bef,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/inventory01.json,687609,90fdeafe3e9caab7863eabadc6e8d2eaced66864d19b35951d9d8487e8427898,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/inventory02.json,688095,7f9c7fd437ee5418591b637f39a9291374386a70e4b3b986425d6ae9e41c0f6a,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/inventory03.json,719054,5e5269c3c4c42711b9b2d34d1b85f016dee2989d2a337fc6cc616d20e5e60720,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/prose-repair01.json,380,6667bbaeec0795bfd080f057fb8c1c9dcf0304187823dd89d7ef4a204f85d44e,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/protected-before.json,3835,28bbdaccead7c1b9bac4428c32e373ddd0a2f2713acaaa9bc95a861562609449,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/provenance.json,734,83659a0a3805e83c0f23e91c95c077ec9db09fb9697c49eeaa3414d49ecab4b4,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/register-additions01.json,6648,542385d32b2a6d1f1378bd675d893e9e7105f64b371a4599c1883942260ce1b4,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/register-additions02.json,8407,c4c49ae5bed4375f2946dde477f190493e027438e98db3f7e780c8526c1f9f36,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/verification01.json,845764,e486a06129ed889a212841d73fc3bb96fb5b132e521376682290e77cea981369,LOCAL-ONLY raw/derived evidence
+.local-work/e1-intervals/verification02.json,845764,dd575ef4b616767f6f48622f0146ffdcbd90e2da7d6357a612818e327d8d5d30,LOCAL-ONLY raw/derived evidence
+.local-work/extractor-resource/run01/static-records.json,21402931,1dba4233cc84282f3a830c2c69831f3d362400003037a299392d11c2108715bf,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-arithmetic-06.tsv,94180,3afae680159c27ea4358597858a19f37fbde9eecc57cee5f65fb12f30b1a3118,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-arithmetic-07.tsv,33670,75d4b4599fdbab4b10989077cb22ce81de3dbfd8576dde7d6a16ed4cc6dd5c43,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-arithmetic-08.tsv,17662,683d8f0c2a2369067a69fdbbe5282ea0a7febaea61b59da676c461210f9850cb,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-arithmetic-12.tsv,29982,598c0059e04632d120a6b75aa2a15f368f96fbe54bb8a6e2a7b4dafef3276101,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-arithmetic-13.tsv,49898,8b1a4b811cb1506a4f686e2a8128cab2c08645395b4e17de784ca1627015fa7f,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-arithmetic-14.tsv,72966,e1592cee17cf7a165466df4e2cf7c4deb1458786b3b4992dbc8d32d3e6f89aad,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-arithmetic-17.tsv,232413,9810ea1fa02f174d66248189ed2dd6f7312b95f82541683e7f212322ba2a1006,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-arithmetic-18.tsv,129757,102734a82fa78abeb71f44b520c742eca46b1084a43c63fa3c448955cbe25252,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-01.tsv,13930,023c58184863e8218f8bbe1abff36553551015b02c061aa00b3b8afae33fd024,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-01.tsv.log,3995,810685c16b5ee214ae34082d08b695992f5a806197679ee5755dcbc5e615050f,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-02.tsv,2916,d2ad74e1c72ff870eafb92868d4038d1b9c9e825fcdc5d696aea38b506c386ba,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-02.tsv.log,3985,25bf7c5991a9f846f4d36f3c1e041b3fe1bbbaabdfaeb2758378118578ad0e68,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-03.tsv,45566,b62efb916a3cc1d23a4c2f9949b360c98b6bf21c3ce6ca781dd01d9829964036,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-03.tsv.log,3965,a9b25cd39dc0204d6c757186192280ef5ea8a1b0462442c26bfceda6d584379c,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-04.tsv,26704,1933a24cafc8eaecbb1f1458c1f2b10889871bb2e29505d2b4305c6b351f7036,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-04.tsv.log,3989,ab5d914683f2b1fadf70f250ef801b6879ecd472c275e0353c8113c29f37c5ac,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-05.tsv,80142,798f0cfaef10cbddaea10887525f02e3a411d8f5fc2f916f1ec4e1a2b80c1084,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-05.tsv.log,3989,b93291cb50a0cff0c32ff1509d5c94234ab065c175240857951571478cd5a249,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-06.tsv,97331,b686d820f439232c0627844da32957f62b194fb28ba0524ae35f31e6bd969298,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-06.tsv.log,3972,846b7a56695cefa97ee9a1a2282493d1d9e4c9f594b7d1e237c40fb79c9f310f,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-07.tsv,32007,dd9d52984038273d9e2a89d77f09029a4d1fefc5ce1815e330d7c78ea9df7d86,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-07.tsv.log,3977,ca9aa220ca3236dd8e5c7cd9ff8606747f62b0459494fe66f0a8b8f1061f1fbc,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-08.tsv,53698,de21964d2efa7873a56e109db46cdcf8186e9bb7f48bc539699f4d1d647ef824,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-08.tsv.log,3967,1ea6c242d37a70126f2a7c6481a879c2f0beb6632619b920eb0876610f4f6e5f,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-09.tsv,111186,55b133931c9a91b425ce8b6d36530459590fe5d11157850f973f4601bc5eaaf0,LOCAL-ONLY raw/derived evidence
+.local-work/recon/e1-intervals-09.tsv.log,3941,396682ba59c32a55b825762ac816d5e9d21d44a9fbf691f27b00db659e6c89e2,LOCAL-ONLY raw/derived evidence
+ghidra/scripts/Invoke-OutpostRecon.ps1,1791,23849f10be61a17ff681529aae96e12e98f0f5f77b858a0029d36b924ac6d8dc,REVIEW-REQUIRED owned reader
+ghidra/scripts/OutpostRecon.java,15404,8faa1330593d3874150b269b3b4b9cf5b5becab9fc35bb003e1d960a61ea65b7,REVIEW-REQUIRED owned reader
+research/e1-extractors/resource-intervals.py,6033,ec07d40aac87418dd401d23df0598c4609f17faf0618564c984d1841889b5e51,REVIEW-REQUIRED owned reader
+research/e1-extractors/verify-resource-intervals.py,9550,cefc9252093c4bea37d5a89962176b234a68b8a172205cf717a6f767e98da303,REVIEW-REQUIRED owned reader
+save-analysis/scripts/extractor_resources.py,12150,414ba6e14e84512668a9504fb2a36bf75d003adfdab3490befc644f18e055ddb,REVIEW-REQUIRED owned reader
+save-analysis/scripts/inspect_outpost_definitions.py,5515,1a143040d9dd7766c42fa211af9c89c199dd0fa28b0e9b467248512239666c48,REVIEW-REQUIRED owned reader
+save-analysis/scripts/inventory_historical_saves.py,17427,42dbc384ce08b484616935abb664b83b9dee5ebfc2ac0329734ea213eb927c8d,REVIEW-REQUIRED owned reader
+.local-work/e1-intervals/prose-audit01.json,444,b697bb156138db69a8c5db6f6d350c33c7a41e9673e12fba1ad2876cad467285,LOCAL-ONLY actual review/check receipt
+.local-work/e1-intervals/prose-audit02.json,429,1e218ceb0fa18f3716da8515b00fad55ab09f488c351ebff09211b98e13bbe87,LOCAL-ONLY actual review/check receipt
+.local-work/e1-intervals/independent-review01.md,2401,c9684d2e866f10ef9567bf4a2171aca130698d68c9134c5b3a6b18d5bbad81af,LOCAL-ONLY actual review/check receipt

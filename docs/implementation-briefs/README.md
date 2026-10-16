@@ -146,3 +146,7 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 - [E1 inorganic extractor native mapping](CODEX_BRIEF_SOR_E1_inorganic_extractor_native_mapping.md): invoked 2026-10-16; [report/review](../experiments/inorganic-extractors/report.md). Supplied brief retained unchanged; offline research only, no staging/commit/push.
 
 - [E1 stacking and Research Projects](CODEX_BRIEF_SOR_E1_stacking_research_projects.md): durable record of the maintainer-authorized bounded offline continuation, including current-rank selection and Outpost research contributions. No live or Git mutation authority.
+
+- [E1 production arithmetic, clocks, scheduler and UI provenance](CODEX_BRIEF_SOR_E1_arithmetic_clock_scheduler_ui_provenance.md): invoked 2026-10-16; [report and review](../experiments/inorganic-extractors/arithmetic-report.md). Supplied brief retained unchanged; offline only, mandatory independent review, no staging/commit/push.
+
+- [E1 resource intervals and extractor sizes](CODEX_BRIEF_SOR_E1_resource_intervals_extractor_sizes.md): durable maintainer-authorized chat continuation; offline resource mapping and native size arithmetic, independent review and exact patches; no commit/push.

@@ -1,0 +1,48 @@
+resource,ires_formid,ires_physical_offset,resource_av,av_physical_offset,interval_global,global_physical_offset,hours_binary32_bytes_le,base_seconds,extractor_definitions,construction_recipe_links,scope
+Aluminum,0057d6,1301613207,05ef12,1290546577,05ed87,1249604,0ad7233c,36.0,3,3,main-game CONT-linked
+Benzene,0057e7,1301614919,05ef32,1290548679,05ed87,1249604,0ad7233c,36.0,6,6,main-game CONT-linked
+Chlorine,0057d5,1301612992,05ef74,1290549643,05ed87,1249604,0ad7233c,36.0,6,6,main-game CONT-linked
+Copper,0057cf,1301611716,05ef75,1290549731,05ed87,1249604,0ad7233c,36.0,3,3,main-game CONT-linked
+Helium3,0057f5,1301616641,05ed85,1290546313,05ed87,1249604,0ad7233c,36.0,7,6,main-game CONT-linked
+Iron,0057c7,1301610017,05ef18,1290546838,05ed87,1249604,0ad7233c,36.0,3,3,main-game CONT-linked
+Lead,0057c1,1301608954,05ef21,1290547548,05ed87,1249604,0ad7233c,36.0,3,3,main-game CONT-linked
+Nickel,0057cb,1301610867,05ef27,1290547974,05ed87,1249604,0ad7233c,36.0,3,3,main-game CONT-linked
+Uranium,0057eb,1301615778,05ef37,1290549030,05ed87,1249604,0ad7233c,36.0,3,3,main-game CONT-linked
+Water,0083ec,1301618074,05ef1e,1290547283,05ed87,1249604,0ad7233c,36.0,6,6,main-game CONT-linked
+Alkanes,0057c9,1301610447,05ef10,1290546400,05ef3f,1249825,8fc2753c,54.0,6,6,main-game CONT-linked
+Argon,0057ea,1301615566,05ef16,1290546753,05ef3f,1249825,8fc2753c,54.0,3,3,main-game CONT-linked
+Beryllium,0057d8,1301613652,05ef1a,1290546922,05ef3f,1249825,8fc2753c,54.0,3,3,main-game CONT-linked
+Chlorosilanes,0057d7,1301613430,05ef1b,1290547013,05ef3f,1249825,8fc2753c,54.0,3,3,main-game CONT-linked
+Cobalt,0057ce,1301611503,05ef1d,1290547195,05ef3f,1249825,8fc2753c,54.0,3,3,main-game CONT-linked
+Fluorine,0057d0,1301611937,05ef77,1290549905,05ef3f,1249825,8fc2753c,54.0,6,6,main-game CONT-linked
+Iridium,0057ec,1301616014,05ef3d,1290549554,05ef3f,1249825,8fc2753c,54.0,3,3,main-game CONT-linked
+Silver,0057c3,1301609378,05ef31,1290548591,05ef3f,1249825,8fc2753c,54.0,3,3,main-game CONT-linked
+Tungsten,0057c4,1301609591,05ef36,1290548940,05ef3f,1249825,8fc2753c,54.0,3,3,main-game CONT-linked
+Carboxylic Acids,0057e8,1301615135,27d0a1,1290624881,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Gold,0057d2,1301612373,05ef78,1290549995,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Lithium,0057da,1301613858,05ef22,1290547632,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Mercury,27c499,1301663510,27c49b,1290624796,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Neodymium,0057db,1301614078,05ef25,1290547803,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Neon,0057e9,1301615355,05ef26,1290547890,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Platinum,0057cc,1301611088,05ef2d,1290548241,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Tantalum,0057c8,1301610246,05ef23,1290547717,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Tetrafluorides,0057d1,1301612154,05ef29,1290548060,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Titanium,0057c6,1301609806,05ef35,1290548854,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Vanadium,0057ed,1301616218,05ef2f,1290548416,05ef3e,1249747,0ad7a33c,72.0,3,3,main-game CONT-linked
+Aldumite,005df5,1301617049,05ef11,1290546489,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Antimony,0057d3,1301612580,05ef13,1290546665,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Aqueous Hematite,006529,1301617864,006527,1290530460,05ef40,1249907,cdcccc3c,90.0,0,0,IRES only; no linked extractor found
+Caesium,0057e0,1301614492,05ef1c,1290547108,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Dysprosium,0057c2,1301609173,05ef3c,1290549464,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Europium,0057e2,1301614706,05ef76,1290549817,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Indicite,04ba38,1301618406,05ef1f,1290547368,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Ionic Liquids,0057d4,1301612783,05ef20,1290547456,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Palladium,0057cd,1301611289,05ef2b,1290548152,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Plutonium,0057ee,1301616423,05ef2e,1290548327,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Rothicite,005df1,1301616845,05ef30,1290548502,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Tasine,005df6,1301617252,05ef34,1290548768,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Xenon,0057dc,1301614290,05ef3a,1290549290,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Ytterbium,0057ca,1301610653,05ef3b,1290549375,05ef40,1249907,cdcccc3c,90.0,3,3,main-game CONT-linked
+Caelumite,252074,1301663088,252075,1290621015,05ef41,1249987,8fc2f53c,108.0,0,0,IRES only; no linked extractor found
+Veryl,005df7,1301617455,05ef38,1290549117,05ef41,1249987,8fc2f53c,108.0,3,3,main-game CONT-linked
+Vytinium,005df8,1301617657,05ef39,1290549202,05ef41,1249987,8fc2f53c,108.0,3,3,main-game CONT-linked

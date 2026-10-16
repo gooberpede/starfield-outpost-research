@@ -389,3 +389,19 @@ or new permission basis is incorporated.
 ## E1 stacking and Research Projects — 2026-10-16
 
 [Stacking reference](docs/experiments/inorganic-extractors/stacking-report.md) credits Bethesda native/definition/script evidence, prior maintainer-owned E1 and Workshop research, accepted ESM reader and the owned review exporter. Existing Ghidra, Temurin, CPython and Git credits apply. New scripts are original; an independent reviewer challenges ordinary-path stacking and Research Project completion claims. No outside implementation or new permission basis is incorporated.
+
+## E1 arithmetic, clocks and UI — 2026-10-16
+
+[Production and presentation contracts](docs/experiments/inorganic-extractors/arithmetic-report.md)
+credit Bethesda native/definition/script/interface evidence, the maintainer's
+paired Kreet screenshots and prior owned E1/Workshop research. Original bounded
+stdlib readers inspect the installed BA2/SWF/ABC bytes without incorporating
+game assets or outside implementations. The UI specialist connected both native
+adapters and decimal algorithms; independent review challenges clocks, arithmetic,
+negative coverage and exact packaging. Existing Ghidra, Temurin, CPython and Git
+credits apply. The review exporter adapts the owned stacking exporter, with
+local provenance. Raw game-derived material remains local.
+
+## E1 resource interval and extractor size continuation
+
+2026-10-16: Bethesda Game Studios supplied the installed main-game definitions and native machinery analyzed in the [interval/size report](docs/experiments/inorganic-extractors/resource-intervals.md). Existing owned catalog/ESM/Ghidra readers provide the provenance lineage; new inventory and physical verification are original bounded research. No raw game implementation/assets are incorporated into authored deliverables.
