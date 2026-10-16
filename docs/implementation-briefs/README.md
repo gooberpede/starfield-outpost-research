@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Experiment A x87 state preservation](CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md): invoked 2026-10-16; disposable three-way boundary measurements, one evidence-based correction and full relevant offline regressions. [Report/review](../experiments/spatial-equivalence-feasibility/x87-preservation/review.md). No retail process, observer/DLL/package, deployment, staging, commit or push.
+
 - [Experiment A internal-observation offline qualification](CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md): invoked 2026-10-15; disposable native-state, complete-geometry and operand-provenance tests. [Report/review](../experiments/spatial-equivalence-feasibility/offline-qualification/review.md). No retail observer, SFSE changes, game, Vortex package, deployment, staging, commit or push.
 
 - [0.8.0 prose correction and scientific go/no-go](CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md): invoked 2026-10-15; documentation-only repair and [scientific reassessment](../experiments/local-readiness/scientific-value-reassessment.md). NO-GO; stop for critical review. No observer modification, rebuild, native execution, deployment or Git mutation.

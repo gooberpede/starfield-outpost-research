@@ -1,5 +1,13 @@
 # Credits
 
+2026-10-16 [Experiment A x87 preservation](docs/experiments/spatial-equivalence-feasibility/x87-preservation/report.md)
+uses existing project-owned disposable fixture, capture/decoder and review-export
+methods, Microsoft compiler/MASM/Windows SDK/runtime and CPython. Intel's SDM
+FXSAVE/FXRSTOR instruction documentation and Microsoft's x64 CONTEXT reference
+inform the distinction between full processor pointers and legacy context views;
+the [source provenance extension](docs/SOURCES.md#experiment-a-x87-preservation--internal-provenance-extension)
+records versions and use. No outside implementation is copied or adapted.
+
 2026-10-15 [Resource-region dependencies](docs/experiments/native-availability-map/region-dependencies.md)
 credits Bethesda native/definition evidence, maintainer gameplay/protected 070
 capture and owned evaluators, and previously credited Ghidra/JDK/CPython tools.

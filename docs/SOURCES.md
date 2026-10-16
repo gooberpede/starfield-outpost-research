@@ -1,5 +1,26 @@
 # Source Register
 
+### Experiment A x87 preservation — internal provenance extension
+
+2026-10-16. [Report](experiments/spatial-equivalence-feasibility/x87-preservation/report.md)
+and [original extension sources](../research/x87-preservation/README.md) reuse
+project-owned internal-observation-qualification build/native/geometry/capture
+sources and independent geometry decoder at HEAD
+`f738d1f041f18d476a7b8d62758a267c32937d63`.
+Exact source hashes are pinned in local preservation/build manifests.
+The generator adapts source in memory; the predecessor files remain unchanged.
+The predecessor packaging method informs the new original checker. Standing
+SOR-P-0002 applies to owned methods; no new third-party code is incorporated.
+Previously credited Microsoft installed compiler/MASM/SDK/runtime and CPython
+execute only the disposable fixtures and stdlib checks. Intel's SDM Volume 2A,
+September 2016, 253666-060US, FXSAVE/FXRSTOR and Tables 3-46/3-47, and
+[Microsoft x64 CONTEXT documentation](https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-context)
+are consulted for representation semantics; the [report](experiments/spatial-equivalence-feasibility/x87-preservation/report.md)
+cites the exact Intel PDF. Documentation consultation supplies no copied code,
+new dependency or permission basis. Host exception behavior is independently
+measured, not inferred from those references. No external contact or upload;
+authored REVIEW-REQUIRED, raw synthetic/native evidence LOCAL-ONLY.
+
 ### SOR-S-0149 — Resource-region lifecycle and minimum runtime state
 
 2026-10-15. [Report](experiments/native-availability-map/region-dependencies.md),
