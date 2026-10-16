@@ -228,3 +228,7 @@ STATIC/OBSERVED-INTERNAL, disposable qualification only. Continuation/return bit
 are not spatial acceptance or generation-success certificates; no new live calls.
 
 The [reassessment](experiments/local-readiness/scientific-value-reassessment.md) rejects the proposed live session without changing these native contracts.
+
+## Experiment A geometry ownership continuation — 2026-10-16
+
+[Ownership map](experiments/spatial-equivalence-feasibility/geometry-lifetime/ownership.md) and [operand map](experiments/spatial-equivalence-feasibility/geometry-lifetime/operands.md) extend the existing SOR-EXP-0034 consumer account. On the pinned retail build, RVA 007ac2f0 appends a 0x30 region through the native allocator and invokes 007ac0d0 to copy ordered 0x10 XYZ-width records into destination-owned storage; 007ac260 frees each point buffer then outer region storage. Resource/source wrapper final-release chains run through 007aab10 and 007aa8a0. STATIC / OBSERVED-INTERNAL; aliases are analyst descriptions. Shared +40 excludes mapped construction/reset, while owner destruction 0079d910 and manager cleanup 00788bc0 have no demonstrated acquisition/fence protecting an observer snapshot. This is a scoped lifetime gap, not observed concurrency failure. Exact source hashes/RVAs and remaining caller/alias limits are in the linked ledger. No callable integration or persistence classification is promoted.

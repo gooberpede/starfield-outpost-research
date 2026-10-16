@@ -1,0 +1,14 @@
+path,bytes,sha256,eligibility
+.local-work/recon/resource-availability-ui-15.tsv,96248,08e3b170efd28e4e1f76d1935f723423c09a8e6673f5fe3f87a543458372ff56,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-16.tsv,102396,3e29f0c813e9a49aa9c53eada6dee052056dfd659979aeea89868fe7c8447aca,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-17.tsv,33516,80e244d7388c0c781a0fd87ab2adb318cde226468c46771ab379e263a2b02894,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-cont-02.tsv,67257,175ac6e946706ce48ca50f2f50f1557c6368907c27e63f78c2ef56264387b3c8,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-milestone-b-spatial-02.tsv,10170,d9492a14851533ff9777734a6b5733bde2f66c1002db4c0707be9c866d7e0ed9,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-milestone-b-producers-01.tsv,82472,bc5ae6b3e3b0f042e0c10d6ab73693b3f6d087821d24e120045ec2e3f206fff8,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-milestone-b-producers-02.tsv,47527,8d962ff0cc0ab4e543feb311f21cd4e0bb6e70d2bbf720232734d9dd226de25b,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/event-oracle-06.tsv,25842,1187488d71980c649f0acab78b695bc3ebe0d3b39386f33782252f1e78772f9f,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/event-oracle-08.tsv,83134,8c230f57025de038ceb768f99c6c4aaf739a0197d1b05d546192e9b3dfd511e9,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-region-dependencies-03.tsv,51492,2bbb3e5cda44385796448d45d24b5db70f5aaf50032fd245804cbd64be201b19,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/geometry-lifetime-01.tsv,10240,557352cc86542e43db0b3bb8d99762448d487013872f0c42a4232103c0c90065,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/geometry-lifetime-02.tsv,45288,43cba33116a42dd0a054f46a8eab232c8a9d88bfd0442f89cad92633313f9471,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/geometry-lifetime-03.tsv,52568,b21928641f37c00674cb5bd8a1ea258e99072d6438ffa7c838da065e8656cc99,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
