@@ -1,5 +1,25 @@
 # Source Register
 
+## Disappearing deposits D1 — SOR-S-0151–0158
+
+2026-10-16. [Dated public-source/query ledger](experiments/disappearing-deposits/public-sources.md)
+records SOR-S-0151 Reddit 16jwju9, 0152 Reddit 169ko1k, 0153 SFCP #703 and
+Constellation-VASCO's follow-up, 0154 Reddit 1blg5g6, 0155 Reddit 1i90iio,
+0156 Reddit 1svi772, 0157 Bethesda official 2024/2026 patch notes, and 0158
+additional Steam/Reddit reports. Read-only consultation and original paraphrase;
+no third-party code, sample or bulk content incorporation. Reports, workarounds,
+search failures and verified current metadata are distinguished from root-cause proof.
+
+The [native ledger](experiments/disappearing-deposits/native.md) reuses Bethesda
+pinned retail 1.16.244.0, installed ESM definitions and existing Ghidra exports
+with unchanged hashes. The two D1 scripts reuse/adapt maintainer-owned project
+readers, including the strict plugin-table grammar, reference ownership and
+extractor/definition methods. The header-pair diagnostic preserves the initial
+rejections and does not modify shared reader qualification. Local tools/input
+receipts pin every reused project script and actual CPython executable. Git/stdlib
+support original review packaging; no new permission basis, dependency, external
+message or publication authority. Raw/bulk inputs LOCAL-ONLY, authored REVIEW-REQUIRED.
+
 ### Native output contracts — provenance extension
 
 2026-10-16. [Reference and precise windows](experiments/native-availability-map/output-contract.md) synthesize existing SOR-EXP-0034 / SOR-EV-0042 and 070 SOR-EV-0043 evidence. Existing Bethesda native exports and maintainer capture/owned evaluator methods retain SOR-S-0145 and SOR-S-0149 attribution; [source pins](experiments/native-availability-map/sources.csv) add the previously recorded ui25 teardown export without republishing its payload. Owned preservation/export helpers adapt `.local-work/native-availability-map/preserve.py` and `.local-work/resource-region-dependencies/export.py` at the task baseline HEAD recorded in the local package; SOR-P-0002 applies. Installed CPython/Git run read/hash/document/patch checks only. No new external implementation, dependency, permission basis, native export execution or source disclosure. [Review](experiments/native-availability-map/output-review.md) records source/tool hashes and exact scope.

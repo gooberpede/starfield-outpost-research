@@ -1,5 +1,16 @@
 # Offline Analysis Scripts
 
+## D1 disappearing deposits
+
+`research_disappearing_deposits.py` reads the frozen historical inventory, current
+save inventory, qualified project catalogs and selected immutable saves; writes
+exclusive ignored run01 receipts and cleaned decoder scratch. `qualify_d1_header_pair.py`
+diagnoses the two primary build-pair rejections in a separate exclusive local
+directory, with exact plugin-block and independent record closure. Both use only
+stdlib/project readers and C:/D: 40-billion-byte free-space guards. No game,
+database, original-save, configuration, dependency, Git or network effects.
+[Commands, actual failures, scope and review](../../docs/experiments/disappearing-deposits/review.md).
+
 ## Save-menu identification
 
 [`save_menu.py`](save_menu.py) accepts exact `.sfs` paths or `--mapping` JSON, requires the explicit current menu `--utc-offset '+11:00'`, prints load instructions and exclusively writes optional `--json` output. It reads/hashes exact inputs before/after, validates BCPS1, decodes only the first bounded stream and reuses existing metadata parsing. Original source timestamps must be hash-bound when reading archives; missing fields and collisions remain explicit. No scratch, save/game/database/network effects or dependency downloads. `test_save_menu.py` uses original synthetic temporary fixtures only. [Controls, invocation, provenance and limits](../../docs/experiments/save-menu-identification.md). Keep private structured inventories local/ignored.

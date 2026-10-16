@@ -1,5 +1,11 @@
 # Outpost Subsystem Research Map
 
+[D1 disappearing-deposit reconnaissance](../experiments/disappearing-deposits/report.md)
+connects saved site/equipment identity to generated resource geometry, cached area
+lists and placement gates. It distinguishes unchanged saved coordinates in measured
+pairs from unresolved native mechanisms; actual production and the exact incident
+states remain unverified. This does not start the full extractor programme.
+
 **Spatial decision observation, 2026-10-15:** [Offline qualification](../experiments/spatial-equivalence-feasibility/offline-qualification/report.md) tests internal terminal continuations and owned input/decision transport in original disposable functions. Synthetic agreement leaves native region/strip equivalence NOT TESTED; native writers, lifetimes and use-site safety remain unqualified. [Review](../experiments/spatial-equivalence-feasibility/offline-qualification/review.md); no live or integration authority.
 
 **Resource-region lifecycle, 2026-10-15:** [Native dependency report](../experiments/native-availability-map/region-dependencies.md) and [requirements matrix](../experiments/native-availability-map/region-requirements.md) distinguish resident source geometry, task readiness, query-cache freshness and player presence. Region construction and availability consumption are separate stages; save-only authority and unloaded/separate-context sufficiency remain unproven. [Review package](../experiments/native-availability-map/region-review.md).

@@ -1,5 +1,17 @@
 # Credits
 
+## Disappearing deposits D1 — 2026-10-16
+
+[D1 source ledger](docs/experiments/disappearing-deposits/public-sources.md)
+credits Reddit reporters/commenters, SFCP reporter Constellation-VASCO and
+Bethesda's official patch notes for symptom and workaround reports, without
+treating them as reproduced causes. Bethesda's pinned executable and installed
+definitions supply native/definition evidence. Existing project save readers,
+native mappings and historical corpus provide methods and provenance; installed
+CPython/Git support offline decoding, integrity and review packaging. No new
+third-party implementation, donor save, dependency or external contribution is
+incorporated. Authored interpretation remains REVIEW-REQUIRED.
+
 2026-10-16 [Native output contracts](docs/experiments/native-availability-map/output-contract.md) credit Bethesda executable evidence, maintainer gameplay/protected 070 observations and project-owned analysis, evaluators and preservation/export methods, plus previously credited Ghidra/JDK/CPython/Git tools. Existing source and rights records are extended in [SOURCES](docs/SOURCES.md#native-output-contracts--provenance-extension). This task adds no outside implementation or new native execution; independent review is a separate assessment.
 
 2026-10-16 [Experiment A x87 preservation](docs/experiments/spatial-equivalence-feasibility/x87-preservation/report.md)

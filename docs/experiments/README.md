@@ -1,5 +1,7 @@
 # Experiments
 
+- SOR-EXP-0037 / SOR-EV-0045: [Disappearing deposits D1](disappearing-deposits/report.md), [save/control evidence](disappearing-deposits/sites.csv), [hypotheses](disappearing-deposits/hypotheses.md) and [review](disappearing-deposits/review.md). PARTIALLY DISCRIMINATED; one offline reconnaissance, no proven cause or live authority.
+
 - SOR-EXP-0034 / SOR-EV-0042 continuation: [Native output contract](native-availability-map/output-contract.md), [preview/established assessment](native-availability-map/output-paths.md), [completion](native-availability-map/completion-assessment.md) and [review](native-availability-map/output-review.md). CONDITIONALLY COMPLETE bounded native reference; runtime preview and static Workshop convergence distinguished. No new live work.
 
 - SOR-EXP-0036 / SOR-EV-0044: [Scientific reassessment — NO-GO](local-readiness/scientific-value-reassessment.md), [prose audit](local-readiness/prose-correction-audit.md), [review](local-readiness/review.md). Preserve the offline-qualified 0.8.0 observer and proposed card as an unadopted historical candidate. Previous ACCEPT is superseded for authorization purposes; no live or redesign recommendation.

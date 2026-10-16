@@ -1,6 +1,10 @@
 # Function and Operation Register
 
-[Native output contract](experiments/native-availability-map/output-contract.md) is the concise entry point for calculation, three cached populations, identity ownership and asynchronous UI consumption. [Preview/established paths](experiments/native-availability-map/output-paths.md) distinguish static convergence from runtime equality. The existing CSV now includes N67–N70 constructor/teardown/reset records (70 total); [completion assessment](experiments/native-availability-map/completion-assessment.md) is CONDITIONALLY COMPLETE for this reference endpoint, not general safe invocation.
+[D1 point-query/condition cross-references](experiments/disappearing-deposits/native.md)
+add N71/N72 to the existing native-availability CSV (72 entries). Existing native
+evidence is reused; no new native export, invocation or integration point.
+
+[Native output contract](experiments/native-availability-map/output-contract.md) is the concise entry point for calculation, three cached populations, identity ownership and asynchronous UI consumption. [Preview/established paths](experiments/native-availability-map/output-paths.md) distinguish static convergence from runtime equality. That stage added N67–N70 constructor/teardown/reset records (70 at that stage; D1 adds N71/N72); [completion assessment](experiments/native-availability-map/completion-assessment.md) is CONDITIONALLY COMPLETE for this reference endpoint, not general safe invocation.
 
 ## EXP0034 continuation — local inorganic native boundaries
 
