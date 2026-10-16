@@ -96,3 +96,5 @@ Avoid OS usernames, personal save names, absolute local paths, or permission cor
   No new live evidence or publication clearance.
 
   The [scientific reassessment](../local-readiness/scientific-value-reassessment.md) rejects the proposed live session. Earlier engineering receipts remain preserved historical evidence.
+
+- **SOR-EV-0046 / SOR-EXP-0038:** [E1 inorganic extractor reference](../inorganic-extractors/report.md), native/state/directional-link/production map and selected pins REVIEW-REQUIRED. Raw saves, definitions, exports and receipts remain LOCAL-ONLY in ignored .local-work/e1-extractors and .local-work/recon. No new live evidence.

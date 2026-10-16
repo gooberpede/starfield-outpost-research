@@ -198,3 +198,13 @@ UNKNOWN/UNQUALIFIED as specified. No new persisted state classification or stabl
 saved-to-runtime identity claim is introduced.
 
 The [reassessment](experiments/local-readiness/scientific-value-reassessment.md) recommends NO-GO; state semantics and evidence classifications remain unchanged.
+
+## SOR-EXP-0038 — extractor state and directional links
+
+[E1 layouts](experiments/inorganic-extractors/native.md) distinguish ExtraFlags9C
+powered mask 40, object/group halt predicate, evaluated production reason, cached
+producer eligibility and binary32 countdown/interval. Persistence/current authority
+remain separate. [Directional links](experiments/inorganic-extractors/links.md)
+are destination-keyed source sets; restored identities and graph caches are
+reconstructed state. This extends the existing producer/link account without
+promoting saved flags to current runtime output. No new live observations.

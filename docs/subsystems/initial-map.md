@@ -218,3 +218,11 @@ coverage remain unqualified; saved producer registries are still separate from
 runtime availability. No new runtime or persistence semantics are promoted.
 
 The [scientific reassessment](../experiments/local-readiness/scientific-value-reassessment.md) recommends NO-GO for this candidate and first card. This changes the experimental recommendation, not the native subsystem findings.
+
+## E1 inorganic extractor operating reference
+
+[SOR-EXP-0038](../experiments/inorganic-extractors/report.md) connects installed
+identity/family/resource, saved Workshop membership, current power/halt/reason
+evaluation, outgoing destinations and production timing/creation. Effective/current
+values remain qualified; organic systems and switch topology remain outside E1.
+[Review](../experiments/inorganic-extractors/review.md) controls disposition.

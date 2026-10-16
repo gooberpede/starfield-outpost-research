@@ -371,3 +371,13 @@ The [subsequent disposable qualification](docs/experiments/spatial-equivalence-f
 ## Experiment A geometry lifetime and operands — 2026-10-16
 
 The [capture-design assessment](docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/report.md) uses Bethesda native evidence, existing project-owned spatial reconstruction and synthetic/x87 qualification research. Ghidra/Temurin support read-only static exports; CPython and Git support integrity and review packaging. A separate reviewer challenges native point ownership, actual consumed values, correlation and prose. No new third-party code is incorporated; source/permission boundaries remain unchanged.
+
+## E1 inorganic extractor reference — 2026-10-16
+
+The [E1 reference](docs/experiments/inorganic-extractors/report.md) credits Bethesda
+native/definition evidence, maintainer-supplied controlled/mature saves and prior
+project extractor, membership, availability and link research. Existing Ghidra,
+Temurin, CPython and Git tool credits remain applicable. A focused saved-identity
+specialist supplied classification exceptions; an independent reviewer challenges
+state semantics, link direction and production/completion claims. No outside code
+or new permission basis is incorporated.

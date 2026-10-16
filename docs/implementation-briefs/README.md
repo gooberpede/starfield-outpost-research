@@ -142,3 +142,5 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 - [Continuous beacon-preview resource oracle](CODEX_BRIEF_SOR_continuous_beacon_preview_resource_oracle.md): invoked 2026-10-15; authorized offline implementation/qualification, integrated Save3 procedure and independent review. [Report/package](../experiments/continuous-beacon-preview/review.md). No game/deployment/commit/push authority.
 
 - [Experiment A spatial native equivalence feasibility](CODEX_BRIEF_SOR_experiment_A_spatial_native_equivalence_feasibility.md): invoked 2026-10-15; [assessment and review](../experiments/spatial-equivalence-feasibility/report.md). Offline research/design and independent review only; no observer implementation or live authority. Experiment B remains deferred.
+
+- [E1 inorganic extractor native mapping](CODEX_BRIEF_SOR_E1_inorganic_extractor_native_mapping.md): invoked 2026-10-16; [report/review](../experiments/inorganic-extractors/report.md). Supplied brief retained unchanged; offline research only, no staging/commit/push.

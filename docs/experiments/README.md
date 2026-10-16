@@ -118,3 +118,5 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
   supports scoped milestone A with A/B/C operator/native set agreement; B remains
   NOT TESTED. Complete raw verification, normal exit/removal/protection and
   independent scientific review are separate from historical offline qualification.
+
+- [SOR-EXP-0038 — E1 inorganic extractors](inorganic-extractors/report.md): native identity/state, directional output and production reference; [review/package](inorganic-extractors/review.md). Offline only, current/effective output unobserved.

@@ -767,3 +767,18 @@ The [documentation-only reassessment](experiments/local-readiness/scientific-val
 ### Experiment A geometry lifetime and native operands — existing lineage
 
 2026-10-16. [Report](experiments/spatial-equivalence-feasibility/geometry-lifetime/report.md) and [pins](experiments/spatial-equivalence-feasibility/geometry-lifetime/sources.csv) credit Bethesda pinned retail executable/native instructions and inherited project Ghidra exports, geometry reconstruction and accepted synthetic/x87 qualifications. Three bounded read-only exports use the existing owned OutpostRecon.java/Invoke-OutpostRecon.ps1 with installed Ghidra 12.1.2_PUBLIC and Temurin 21.0.12+8; CPython/Git perform original local integrity/document/patch checks. Patch checker is adapted from the maintainer-authored .local-work/spatial-equivalence-feasibility/verify-package.py; exact input hash and reuse mode are in the local package provenance. Independent review challenges payload protection, consumed operands, native pairing and prose. No new outside implementation, dependency, licence basis, communication or disclosure. Native exports/analysis databases remain LOCAL-ONLY; authored interpretation REVIEW-REQUIRED.
+
+## E1 inorganic extractors — existing Bethesda/tool lineage
+
+2026-10-16. [SOR-EXP-0038 / SOR-EV-0046](experiments/inorganic-extractors/report.md)
+uses Bethesda's pinned retail executable and installed ESM definitions, the
+maintainer's controlled/mature saves, prior extractor/Workshop/availability/link
+research and owned Ghidra reader. Ghidra 12.1.2_PUBLIC / Temurin 21.0.12+8 export
+existing state read-only; installed CPython and Git perform original offline
+byte/pin and review checks. [Source pins](experiments/inorganic-extractors/sources.csv)
+identify new native exports and reused derivations. No external implementation,
+dependency, licence basis, download, contact or disclosure was added. The package
+exporter adapts owned .local-work/native-output-contracts/export.py, with exact
+source hash/reuse mode in local provenance. One saved-identity specialist and a
+fresh independent reviewer contribute within the invoked brief. Authored
+interpretation REVIEW-REQUIRED; game-derived bulk evidence LOCAL-ONLY.
