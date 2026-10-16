@@ -381,3 +381,11 @@ Temurin, CPython and Git tool credits remain applicable. A focused saved-identit
 specialist supplied classification exceptions; an independent reviewer challenges
 state semantics, link direction and production/completion claims. No outside code
 or new permission basis is incorporated.
+
+## E1 production continuation — 2026-10-16
+
+[Production reference](docs/experiments/inorganic-extractors/production-report.md) credits Bethesda native/ESM/script evidence, maintainer controlled saves, prior owned E1/availability/D1 research and accepted ESM/save-menu readers. Ghidra, Temurin, CPython and Git support offline analysis and checks. A focused save specialist identified S4/Save12 and timestamp provenance; an independent reviewer challenges arithmetic, participation, controls and scientific value. New scripts are original; the local exporter adapts the owned E1 exporter. No outside code or new permission basis.
+
+## E1 stacking and Research Projects — 2026-10-16
+
+[Stacking reference](docs/experiments/inorganic-extractors/stacking-report.md) credits Bethesda native/definition/script evidence, prior maintainer-owned E1 and Workshop research, accepted ESM reader and the owned review exporter. Existing Ghidra, Temurin, CPython and Git credits apply. New scripts are original; an independent reviewer challenges ordinary-path stacking and Research Project completion claims. No outside implementation or new permission basis is incorporated.

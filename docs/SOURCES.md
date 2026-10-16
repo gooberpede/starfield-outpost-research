@@ -782,3 +782,11 @@ exporter adapts owned .local-work/native-output-contracts/export.py, with exact
 source hash/reuse mode in local provenance. One saved-identity specialist and a
 fresh independent reviewer contribute within the invoked brief. Authored
 interpretation REVIEW-REQUIRED; game-derived bulk evidence LOCAL-ONLY.
+
+## E1 production continuation — existing Bethesda and owned research lineage
+
+2026-10-16. [Reference](experiments/inorganic-extractors/production-report.md) credits Bethesda retail native instructions, installed ESM and ContentResources.zip script definitions (existing SOR-S0104), maintainer saves and accepted project readers/research. Ghidra 12.1.2_PUBLIC / Temurin 21.0.12+8 export existing state readOnly/noanalysis; CPython/Git perform original offline inventories and checks. New definition/verification scripts are original stdlib using owned ESM/save-menu readers. Review exporter adapts owned `.local-work/e1-extractors/export.py`; exact source pin is in local provenance. One read-only save specialist and a fresh independent reviewer contribute under the invoked brief. No new outside implementation, dependency, permission basis, download or disclosure. [Pins](experiments/inorganic-extractors/production-sources.csv) distinguish local evidence from publication eligibility.
+
+## E1 stacking and Research Projects — existing lineage
+
+2026-10-16. [Report](experiments/inorganic-extractors/stacking-report.md) uses Bethesda pinned retail executable, installed Starfield.esm and ContentResources.zip (existing SOR-S0104), prior owned production/Workshop research and strict ESM reader. The new bounded definition/check scripts are original stdlib work; no Bethesda script implementation is incorporated. Ghidra12.1.2 / Temurin21.0.12+8 readOnly/noanalysis, installed CPython and Git support offline evidence and patch checks. The local exporter adapts owned `.local-work/e1-production/export.py`; baseline and source pins retain provenance. Fresh independent review challenges stacking, research negatives, scope, preservation and packaging. No new outside code, dependency, licence basis, network or disclosure.

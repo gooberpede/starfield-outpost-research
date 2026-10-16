@@ -98,3 +98,7 @@ Avoid OS usernames, personal save names, absolute local paths, or permission cor
   The [scientific reassessment](../local-readiness/scientific-value-reassessment.md) rejects the proposed live session. Earlier engineering receipts remain preserved historical evidence.
 
 - **SOR-EV-0046 / SOR-EXP-0038:** [E1 inorganic extractor reference](../inorganic-extractors/report.md), native/state/directional-link/production map and selected pins REVIEW-REQUIRED. Raw saves, definitions, exports and receipts remain LOCAL-ONLY in ignored .local-work/e1-extractors and .local-work/recon. No new live evidence.
+
+- **SOR-EV-0046 continuation:** [Production arithmetic/modifiers](../inorganic-extractors/production-report.md) and [pins](../inorganic-extractors/production-sources.csv), REVIEW-REQUIRED authored reference; native/definition/save receipts under `.local-work/e1-production/` and `.local-work/recon/` remain LOCAL-ONLY. Feasibility REVISE; no new live evidence.
+
+- **SOR-EV-0046 stacking continuation:** [Report](../inorganic-extractors/stacking-report.md) and [pins](../inorganic-extractors/stacking-sources.csv), REVIEW-REQUIRED. New raw exports/definition/script inventories and receipts remain LOCAL-ONLY under `.local-work/e1-stacking/` and `.local-work/recon/`; no new runtime/save evidence.

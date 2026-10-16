@@ -226,3 +226,11 @@ identity/family/resource, saved Workshop membership, current power/halt/reason
 evaluation, outgoing destinations and production timing/creation. Effective/current
 values remain qualified; organic systems and switch topology remain outside E1.
 [Review](../experiments/inorganic-extractors/review.md) controls disposition.
+
+### E1 production continuation — 2026-10-16
+
+[Arithmetic/modifier reference](../experiments/inorganic-extractors/production-report.md) follows conditional timer multiplication through integer due cycles to item insertion. Definition participation and actual active actor/AV inputs remain separate; realized rate is conditional. [Live feasibility](../experiments/inorganic-extractors/production-feasibility.md) is REVISE pending controls and a qualified consumed-list observation contract. No new runtime evidence or E2 expansion.
+
+### E1 actor selection and Research Projects — 2026-10-16
+
+[Stacking continuation](../experiments/inorganic-extractors/stacking-report.md) connects handle-unique ordinary assignment, selected-rank registration/removal and the per-actor timer consumer. Highest-rank and type-1 crew competition paths are distinguished from type-2 timers. Main-game Research Project completion gates recipes, with indirect equipment consequences; actual loaded state and universal restoration remain untested.
