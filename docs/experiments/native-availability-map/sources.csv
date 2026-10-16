@@ -25,3 +25,4 @@ path,bytes,sha256,eligibility
 .local-work/recon/resource-region-dependencies-04.tsv,14392,d2aba5b8bed8c819fa2b56feb2e54d7f6dc836c37ef358dfb997a77fe3dbfe09,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
 .local-work/recon/resource-region-dependencies-05.tsv,10187,5bbb09f55e492836ef212a857cbd733314c6d5b6e0359cfc85c4dbc438b53815,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
 .local-work/recon/resource-region-dependencies-06.tsv,39353,09370d778c16b230fe731f7a46ee3be93bb3e200fe560489210eb053a9735fa8,LOCAL-ONLY native export; metadata REVIEW-REQUIRED
+.local-work/recon/resource-availability-ui-25.tsv,2608,65dc169ad170293fe2440a1a4b866f29264d6e5974264b897cdec7aadd54c27f,LOCAL-ONLY native export; metadata REVIEW-REQUIRED

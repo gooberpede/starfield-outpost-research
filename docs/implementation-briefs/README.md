@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Native availability output contracts and completion](CODEX_BRIEF_SOR_native_availability_output_contracts_completion.md): invoked 2026-10-16; bounded offline reference and completion assessment, [review package](../experiments/native-availability-map/output-review.md). No extractor, native call, observer, game/save, staging, commit or push.
+
 - [Experiment A x87 state preservation](CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md): invoked 2026-10-16; disposable three-way boundary measurements, one evidence-based correction and full relevant offline regressions. [Report/review](../experiments/spatial-equivalence-feasibility/x87-preservation/review.md). No retail process, observer/DLL/package, deployment, staging, commit or push.
 
 - [Experiment A internal-observation offline qualification](CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md): invoked 2026-10-15; disposable native-state, complete-geometry and operand-provenance tests. [Report/review](../experiments/spatial-equivalence-feasibility/offline-qualification/review.md). No retail observer, SFSE changes, game, Vortex package, deployment, staging, commit or push.

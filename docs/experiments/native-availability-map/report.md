@@ -1,5 +1,7 @@
 # Local inorganic availability: native functionality and minimum inputs
 
+2026-10-16 continuation: [native output contract](output-contract.md), [preview/established paths](output-paths.md) and [completion assessment](completion-assessment.md) consolidate result storage, identity lifetime and a bounded research stopping point. Historical results and limits below remain preserved; [separate review](output-review.md).
+
 The later [resource-region dependency continuation](region-dependencies.md)
 extends upstream lifecycle and nonlocal minimum-state analysis under its own
 authorized brief. This report's prior acceptance and capture scope remain

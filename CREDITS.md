@@ -1,5 +1,7 @@
 # Credits
 
+2026-10-16 [Native output contracts](docs/experiments/native-availability-map/output-contract.md) credit Bethesda executable evidence, maintainer gameplay/protected 070 observations and project-owned analysis, evaluators and preservation/export methods, plus previously credited Ghidra/JDK/CPython/Git tools. Existing source and rights records are extended in [SOURCES](docs/SOURCES.md#native-output-contracts--provenance-extension). This task adds no outside implementation or new native execution; independent review is a separate assessment.
+
 2026-10-16 [Experiment A x87 preservation](docs/experiments/spatial-equivalence-feasibility/x87-preservation/report.md)
 uses existing project-owned disposable fixture, capture/decoder and review-export
 methods, Microsoft compiler/MASM/Windows SDK/runtime and CPython. Intel's SDM

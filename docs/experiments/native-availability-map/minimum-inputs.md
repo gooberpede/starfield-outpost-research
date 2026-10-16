@@ -1,5 +1,7 @@
 # Minimum sufficient inputs by native boundary
 
+2026-10-16 continuation: [native output contract](output-contract.md), [preview/established paths](output-paths.md) and [completion assessment](completion-assessment.md) consolidate result storage, identity lifetime and a bounded research stopping point. Historical results and limits below remain preserved; [separate review](output-review.md).
+
 2026-10-15 follow-up: [expanded requirements matrix](region-requirements.md) and
 [dependency report](region-dependencies.md) distinguish explicit operands from
 residency, construction completion and freshness, including nonlocal contexts.

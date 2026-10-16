@@ -1,5 +1,9 @@
 # Source Register
 
+### Native output contracts — provenance extension
+
+2026-10-16. [Reference and precise windows](experiments/native-availability-map/output-contract.md) synthesize existing SOR-EXP-0034 / SOR-EV-0042 and 070 SOR-EV-0043 evidence. Existing Bethesda native exports and maintainer capture/owned evaluator methods retain SOR-S-0145 and SOR-S-0149 attribution; [source pins](experiments/native-availability-map/sources.csv) add the previously recorded ui25 teardown export without republishing its payload. Owned preservation/export helpers adapt `.local-work/native-availability-map/preserve.py` and `.local-work/resource-region-dependencies/export.py` at the task baseline HEAD recorded in the local package; SOR-P-0002 applies. Installed CPython/Git run read/hash/document/patch checks only. No new external implementation, dependency, permission basis, native export execution or source disclosure. [Review](experiments/native-availability-map/output-review.md) records source/tool hashes and exact scope.
+
 ### Experiment A x87 preservation — internal provenance extension
 
 2026-10-16. [Report](experiments/spatial-equivalence-feasibility/x87-preservation/report.md)

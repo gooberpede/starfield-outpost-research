@@ -1,10 +1,12 @@
 # Function and Operation Register
 
+[Native output contract](experiments/native-availability-map/output-contract.md) is the concise entry point for calculation, three cached populations, identity ownership and asynchronous UI consumption. [Preview/established paths](experiments/native-availability-map/output-paths.md) distinguish static convergence from runtime equality. The existing CSV now includes N67–N70 constructor/teardown/reset records (70 total); [completion assessment](experiments/native-availability-map/completion-assessment.md) is CONDITIONALLY COMPLETE for this reference endpoint, not general safe invocation.
+
 ## EXP0034 continuation — local inorganic native boundaries
 
 [Resource-region lifecycle continuation](experiments/native-availability-map/region-dependencies.md) extends this register in place with current-context source indexing, task requests/dependencies/publication and ProcGen reset/destruction. [Location/state requirements](experiments/native-availability-map/region-requirements.md) and [review](experiments/native-availability-map/region-review.md) delimit sufficiency.
 
-[Structured native register](experiments/native-availability-map/functions.csv) expands the existing SOR-FN-0060–0064 pipeline with 66 source-linked function records (local keys N01–N66, not newly allocated SOR-FN IDs). Each includes pinned executable/RVA, original name, input/output, prerequisites, effects, edges and limits. [Dataflow](experiments/native-availability-map/dataflow.md) and [minimum-input assessment](experiments/native-availability-map/minimum-inputs.md) distinguish caller-derived descriptors, internally retrieved loaded regions, provider/generation cache and asynchronous UI. STATIC/OBSERVED-INTERNAL; runtime overlay and exact scope are in the report. No safe callable API, universal freshness or established runtime equivalence is claimed.
+[Structured native register](experiments/native-availability-map/functions.csv) expands the existing SOR-FN-0060–0064 pipeline with 70 source-linked function records (local keys N01–N70, not newly allocated SOR-FN IDs). Each includes pinned executable/RVA, original name, input/output, prerequisites, effects, edges and limits. [Dataflow](experiments/native-availability-map/dataflow.md) and [minimum-input assessment](experiments/native-availability-map/minimum-inputs.md) distinguish caller-derived descriptors, internally retrieved loaded regions, provider/generation cache and asynchronous UI. STATIC/OBSERVED-INTERNAL; runtime overlay and exact scope are in the report. No safe callable API, universal freshness or established runtime equivalence is claimed.
 
 ## SOR-FN-0060–0064 — Inorganic availability pipeline
 

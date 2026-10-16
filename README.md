@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**Native availability output contract, 2026-10-16:** [Reference](docs/experiments/native-availability-map/output-contract.md), [preview/Workshop paths](docs/experiments/native-availability-map/output-paths.md), [completion assessment](docs/experiments/native-availability-map/completion-assessment.md) and [review](docs/experiments/native-availability-map/output-review.md): **CONDITIONALLY COMPLETE** for the bounded native research endpoint. Three mutable populations and final UI identities are mapped; established convergence is STATIC, general safe copy/invocation and spatial equivalence remain unqualified. No new live or Git action.
+
 **Experiment A geometry/operand design, 2026-10-16:** [Report](docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/report.md), [ownership](docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/ownership.md), [operands](docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/operands.md) and [review](docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/review.md) record evidence-bounded **NO-GO**. Native deep point ownership and mapped lock coverage are established statically; owner destruction/alias exclusion and complete consumed-value capture remain unqualified. No new fixture or observer; retail safety and native equivalence NOT TESTED.
 
 
