@@ -1,5 +1,7 @@
 # Documentation Index
 
+[SOR-EXP-0041 / SOR-EV-0049: P1 power](experiments/power/report.md) maps fixed planet-selected ratings, fuel/crew contribution, typed electrical graphs, cumulative deficit and mixed component partition. [Review](experiments/power/review.md); six saved examples distinguish historical snapshots from current authority. Offline only; no integration or Git mutation authority.
+
 - [Experiment A internal-observation offline qualification](experiments/spatial-equivalence-feasibility/offline-qualification/report.md), [technical contract](experiments/spatial-equivalence-feasibility/offline-qualification/contract.md), [decision](experiments/spatial-equivalence-feasibility/offline-qualification/decision.md) and [review](experiments/spatial-equivalence-feasibility/offline-qualification/review.md). Scoped synthetic result only; no retail implementation or live authority.
 
 - [Local availability scientific reassessment — NO-GO](experiments/local-readiness/scientific-value-reassessment.md), [prose audit](experiments/local-readiness/prose-correction-audit.md) and [current review status](experiments/local-readiness/review.md). The earlier engineering handoff is historical and supplies no adoption or live approval.

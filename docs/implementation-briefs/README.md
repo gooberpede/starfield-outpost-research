@@ -154,3 +154,9 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 - [E2 organic facility native mapping](CODEX_BRIEF_SOR_E2_organic_facility_native_mapping.md): invoked 2026-10-16; [report/review](../experiments/organic-facilities/report.md). Supplied untracked brief preserved unchanged; offline research and independent review only, no commit/push.
 
 - [E3 fabricators and manufactured production](CODEX_BRIEF_SOR_E3_fabricators_manufactured_production.md): authorized offline native/definition research, [result](../experiments/fabricators/report.md) and [review](../experiments/fabricators/review.md); no stage/commit/push.
+
+[P1 power generation, distribution and native mapping](CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md) — invoked offline research; [report](../experiments/power/report.md) and [review](../experiments/power/review.md). No live/Git mutation authority.
+
+- [P1 allocation-order and switch-persistence follow-up](CODEX_BRIEF_SOR_P1_power_order_switch_persistence_followup.md): invoked 2026-10-17, focused offline continuation of the still-uncommitted P1 package; [derivation](../experiments/power/followup.md) and [review](../experiments/power/review.md). No live execution, staging, commit or push.
+
+- [P1 load reconstruction and determinism](CODEX_BRIEF_SOR_P1_power_load_reconstruction_determinism.md): invoked 2026-10-17; [report](../experiments/power/load-determinism.md), [frozen criteria](../experiments/power/load-contract.md) and [review](../experiments/power/review.md). Offline only; no staging, commit or push.

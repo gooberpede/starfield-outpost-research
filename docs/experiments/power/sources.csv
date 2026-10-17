@@ -1,0 +1,77 @@
+path,bytes,sha256,eligibility
+C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield.esm,1457098709,1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Program Files (x86)\Steam\steamapps\common\Starfield\Starfield.exe,102476200,7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Users\User\Documents\My Games\Starfield\Saves\Autosave1_BA75E3CDM43616F205472616E_521140_20260718080630_316_14_4.sfs,7586384,aff01925cafa2473765512df0ea48dc1f41137ff523668a102406c750f5b011f,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Users\User\Documents\My Games\Starfield\Saves\Autosave1_BA75E3CDM43616F205472616E_580731_20260818031907_319_15_4.sfs,16861680,7e6642f49774c9827fe5230f8cdccdff6b00e4af8738dac11018b56e7ffeca37,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Users\User\Documents\My Games\Starfield\Saves\Autosave2_BA75E3CDM43616F205472616E_571959_20260815111021_319_15_4.sfs,15052384,3830eb374f086bece85ca3e92ff2d13a3d5aa811193f0c2e583c4564000551bc,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Users\User\Documents\My Games\Starfield\Saves\Quicksave0_BA75E3CDM43616F205472616E_530437_20260720080357_317_14_4.sfs,11650736,64f4a834b74deb85ef6dee9d03d96bf5169d30b0ba4aa74e0263d17ce9f65fb9,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Users\User\Documents\My Games\Starfield\Saves\Save51_BA75E3CDM43616F205472616E_571612_20260814024010_319_15_4.sfs,14815680,f9f39d2ab80ba8b4329295b7a24fb0fb8b511d240c7666ee74a92efdec9e2390,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\Projects\starfield-outpost-network\reference-source\planet-directory.csv,199063,c460062747126a2168109739e75742d325cedf54b98577e5a017b5108ec5eb90,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\Projects\starfield-outpost-network\src\domain\powerEfficiency.ts,951,2a5e299293e8a403b3284e1667027eeb5d7d73460c3b62e12982a87085ddef06,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.git/index,137359,9edb9995d74b0e9becf0884e19795e289ccaec4ee22dd920b17aa8ed15d5fdbb,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/e2-organic/inventory02.json,374629763,2627dffc61eff93b74b514bdf8a810df93ce3a3fce5c8c3463b0051d8bdf1b84,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/definitionVerification02.json,23410,22d4392248705b5507f3e9388ff7902220f7ce1d9de64309d0bc2e3480c10b0d,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/definitions03.json,488320,508a6aacf98ba5a37c52860ac940e25132d5a8066bb53103491f30b172af76f5,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/001.request.tsv,21364,809f13303c425e6e80f1ed3682480d5ebbc6861b807a5dc98bcdd365ef00e2d3,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/002.request.tsv,51689,184cacd16c7511e8b73bc2eb9739f9c1d713f6f07abe0b395b58bdcff8e7507f,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/003.request.tsv,1350,dc85adf7af53efdefe904be5baee278ac76410878088678d03e9332c1b432d28,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/004.request.tsv,24831,2e0614ee4bddce6016958885b6a660ce4b16d4f4e7d9a802e37ffe264ba778cd,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/005.request.tsv,1482,b3e90c1207e820d9a15b4d33c7a0f0fb15ff51f893dcdef853987f2cdb026d62,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/006.request.tsv,12063,46ded51d0cc374ed8fa47990b78b4abb88fe1a95d69c730f57596f0f3c553564,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/007.request.tsv,163824,7c001bf513a39cf9116dd2c352f41769937e54304976a7ac309f1641b89dc041,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/008.request.tsv,194793,3eec56a1c4c3a42a733656c077c2aa0319090c4f5bc947d40cb44f7d4271ae66,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/009.request.tsv,58695,4ab5dacdb5bccc675b368f352d5b91d4b413a3c6abfe5f9ff98438e7c32c1669,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/010.request.tsv,100473,7818ba1a5cba6268c52624d8cd4ee9a0f61257607fd400564c6502a01c9c84c0,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/011.request.tsv,81157,5d874b346d1c5d3579fbbb74176ea173c74434f67f6055ef56d5f2debb863dee,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/012.request.tsv,76246,8c2e8b9afbf8606d26884304cb70c9a3413d15c0c482bb0eedac3bd3fce5d783,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/013.request.tsv,8616,d07703650e3763cde38c8823cf36f0343d3776fa9fcaa572443553a699b6e864,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/014.request.tsv,29367,67e37719d01287c1aa05ec7c41035d8ebcac908a24003ffc99b3e69e1e86e128,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/015.request.tsv,23473,94247cbddde1ad5b1dcaaf0cf9f8f2f2b6cc59af7cfcbf62ad5470215c009b5d,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/016.request.tsv,101076,9eec4127212c0a7c082e811387f4bfeeda9aa78f33e765baa6fe6648a9e07ee2,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/017.request.tsv,43576,3c548d8b99e93a07effb6bbbe1b082b7a8cbd1d8829d8cf40687b1bc4c29a849,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/018.request.tsv,17617,5517f34967a72af1f6c357013c76e0a71f74b5ae4ce6d528ced6480b3118f599,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/019.request.tsv,65778,f9e0d0f5a917059a6c464cd766d43af57022bfbc60baad0c55fc65aaea26e32b,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/020.request.tsv,64707,dfd221101f52795d16f19824fd0ed3c95c0121db706d34b5d1069f5e4aa57d1e,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/021.request.tsv,26365,a1de47c7e01f93625a3d2e792df6dbeb7388a57355849eb8653252b2637e176d,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/022.request.tsv,11586,dec88ee9e4f1c5286721f9b6c89e199168a5e76f10051aec5c1be91a8dec50e7,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/023.request.tsv,26592,7038158971904653d3d86cbe045d70e00ee742ca21a461a01b09704d37f2aa2a,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/024.request.tsv,32037,2d51b883783f436a36114fd459a71532b656626088430d38c7548df6ddab2224,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/025.request.tsv,9424,06e1b1161fac226628067744e0e2e44aec36a7994ff353432744e186f577f658,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/026.request.tsv,9926,a37f0d8b24729568d5ffe41208f496337779656d4a4514daf6d8ba65db6eb6c2,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/027.request.tsv,3661,c0e329db085f5979a89be8b81670bd02bacfe165bf9638d30389bac189af2d73,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/100.request.tsv,104212,d1bc87e1d67134d8493fdb1f7b0d595668cab63b4a602e3f430b4697f4fd360a,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/101.request.tsv,32080,7d2d14e51ff39ca29d50a2930e705278321dc368deb531a9bc84f23d93d3fe28,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/102.request.tsv,1894,59d01543f4659a2c5418858b15aa9ff304d2e99506dc0fd88017aacc78f580df,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/103.request.tsv,13205,d72be90f9f87dd71356f69dccc03179b14ceb2c50aa3fe240ce2b2db8546d3e9,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/104.request.tsv,2919,8689e5a0e94274125837f0b91758bde9b2ccd05fd6f0837f7a3f3b4b3ca68b76,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/105.request.tsv,24512,d756d41d8a65e71f9e4c2b958e2ae619dea26419163f47f1882929ec53a627cb,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/106.request.tsv,562,b931ca2d99d3332faf9abc5f7fabe803222105fb13f5456d200802fd116ad184,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/107.request.tsv,1440,aba5982f9b220b1fc77a9eb66092a0b07ed4b6559d2da27ce5438f89dedfba36,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/108.request.tsv,3538,19aeb525a5a45481ae1f43dba26bd4307bad45e1fa1587a007a03f7ad1617dd5,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/E2ReadSession.java,1504,a2ddd91c138e12a48f674bb3eeb45ecf3cb3c65436b206d5906c8a791aa0bc3c,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/native/session.log,4989,a0cdb06c3035d0bbf47fd85124fc8e9a237ac071c7a57bfae6910f5434d057e1,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/planetScriptLocator01.json,628,f2c57a6bf91d27a0baa5196830d121a6ec7a8ef61a365a1fcbe7c1d2208cdec8,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/power-perks-recheck01.json,310,7d1755771871e26eb52dcb76c2dc02aa7f03eb2f99899f4d8a501f1026f837cd,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/power-perks01.json,2814,0bae08aadcc2e4a7e6c7210918d9fbe14d1758e562a07c13c04a56254532d683,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/graph03.json,1067476,849bf7996bcb0f60cf5f961b33076da20b2c9d779c7b065950274e9050f5401e,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances04.json,1097492,43262f431c416ff8cdf4738f543970209a7ac549a5ea528d66a62fc0736d3620,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances05.json,819652,0a0aeb9997b8deada34fc594cda2a6f56e1882a71fefdec424843f62ada12b41,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances06.json,1097303,b8a0bd5cbdb54efbf4928f2740cb568970126df6f01d13c804ddf795e7f25292,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances07.json,17786,cb1769956a7928d5e762d9fca646d138990e9233974019c0fb7b76dc3b4acab3,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances08.json,241365,8d1e526a0bb90e7dfc139dc8dc13889de05bdcf3a5bcc6df6f47825152894633,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances09.json,776990,633cf2f1544a383c1b559f7bcf407c7f9fc6a65edb22e96083426a91b545542c,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/recon/active-outpost-static-30.tsv,164048,1e4a8f9d5901e28abc26c00579d98348c2f84f766adae3c6a4a103dda53557cb,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/recon/e1-stacking-08.tsv,164896,3340da53b546e06ab907759962348d05b266f6d896897fdd37fc1fa7e5733e2e,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/recon/static-exhaustion-08.tsv,170869,9fe2d875ec075cf79849018b6b2fa4a60f48c22244ea26b2d980ad8173c2db85,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/recon/static-exhaustion-23.tsv,254149,3c24ab3a31f2c41c2bdbb7b595283264e98661f10bd9abac81ac7c1b056b983a,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/savegames/Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs,16411136,6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md,11899,e7cc2adfb246548b80a0fdd70fa29bddf44cb7ba9f8284e4fe89a51af605f51f,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+ghidra/scripts/OutpostRecon.java,15404,8faa1330593d3874150b269b3b4b9cf5b5becab9fc35bb003e1d960a61ea65b7,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/e2-organic/catalog.py,3573,efdbbe07d73337dc1db16a9bfe1507186c6b393d6775ea52a40fa6f3fa1e6dc4,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/e3-fabricators/catalog.py,9954,8fab3ca7d410f99147dd4d24cd5b9aca4e064db3a2e8509652a9467faefda538,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/definitions.py,9542,f38f900350189f234214444f3e5e8c69d8c3ebb5a589455415c3223bbc97e5d5,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/saved_graph.py,4268,97d06c9537d53ec3fc510dfa4a05656bacf1ded3d482860832510d4548435b0d,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/saved_instances.py,11442,cff89cb5385e2d8665ac38e01a7dd57e95a7b8aee97f975931f9ef55d97abf35,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/verify-definitions.py,4676,e8dfd4ee45cd54b6e59e1d0c270d2d4119417e305f7c5d7a64f3e8003e531792,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/verify.py,6808,140cd55af076d4c74a8c8bd1e1b7d3e7520807dd29af700dd4ecfcc136f20f66,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\tools\xEdit.4.1.5p\Edit Scripts\Starfield - Export Planet Directory.pas,16551,5fdae92aa88534797d824a79af345301ca80c33e8961627d992dbc9e72710731,LOCAL-ONLY original; metadata REVIEW-REQUIRED

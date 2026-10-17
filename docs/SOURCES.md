@@ -819,3 +819,25 @@ code, dependency, download, new licence basis, communication or disclosure.
 ## E3 fabricators - existing Bethesda and owned reader lineage
 
 2026-10-17. [SOR-EXP-0040 / SOR-EV-0048](experiments/fabricators/report.md) uses Bethesda's pinned retail executable/main ESM, existing E1/E2 native exports and strict ESM/save readers, and protected maintainer historical saves. The E2 cached selected-type inventory is physically cross-checked against the installed ESM; exact input/output/source pins remain in [sources.csv](experiments/fabricators/sources.csv) and private receipts. Existing Ghidra 12.1.2_PUBLIC / Temurin 21.0.12+8 readOnly/noanalysis tooling exports existing state; CPython 3.14.3 and Git support bounded checks and patch verification. The native session wrapper is an unchanged owned E2 utility; local review exporter adapts the owned E2 exporter. No sibling implementation or outside code/dependency is incorporated or executed. Raw save/game/native/database data stay local; authored research is REVIEW-REQUIRED, not publication-cleared.
+
+## P1 power - Bethesda, maintainer references and owned readers
+
+The [allocation-order/switch follow-up](experiments/power/followup.md) uses the
+same pinned executable/ESM and owned E2 native session/OutpostRecon reader,
+plus the strict existing save framer/extra reader. New followup.py freshly checks
+HIST-0036/HIST-0077 and conditionally replays actual saved ordered trees; its
+source, raw read-only exports, failure/restart logs and protected-input receipts
+are hash-bound in [followup-sources.csv](experiments/power/followup-sources.csv).
+The local package exporter adapts the owned P1 exporter. No new dependency,
+outside code reuse, live execution or disclosure; raw evidence LOCAL-ONLY.
+
+2026-10-17. [SOR-EXP-0041 / SOR-EV-0049](experiments/power/report.md) uses pinned Bethesda retail executable/main ESM, six protected maintainer saves, existing E1-E3 exports and strict ESM/save readers. The supplied version-4 Pascal planet-directory exporter (read, not executed) and maintainer starfield-outpost-network checkout at 9e3005aff9487f11343b39a7534a2070b429ad5f supply source-reported basic power values; main PNDT records are independently compared. Exact paths/working-file hashes and exceptions are in [definitions](experiments/power/definitions.md) and [pins](experiments/power/sources.csv). Existing Ghidra 12.1.2_PUBLIC/Temurin 21.0.12+8 export existing state readOnly/noanalysis; CPython 3.14.3 and Git perform bounded checks/package verification. New scripts adapt owned E2/E3 readers; local exporter adapts .local-work/e3-fabricators/export.py. No outside implementation, dependency, xEdit execution, download or disclosure. Raw game/native/save material stays LOCAL-ONLY; authored interpretation REVIEW-REQUIRED.
+
+## P1 load reconstruction continuation — 2026-10-17
+
+SOR-EV-0049 / SOR-EXP-0041: [report](experiments/power/load-determinism.md),
+[pin metadata](experiments/power/load-sources.csv). Original maintainer-authored
+bounded readers and retained retail 1.16.244.0 static database exports provide
+instruction/dataflow and RTTI observations; protected original save receipts
+provide historical coverage only. New raw exports and proprietary inputs remain
+local and excluded from textual review packages. No third-party code was reused.

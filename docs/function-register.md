@@ -258,3 +258,19 @@ integration or actual current operating values are claimed.
 ## E3 fabricator generic catalogue and compatibility - 2026-10-17
 
 [SOR-EXP-0040 native reference](experiments/fabricators/native.md) extends the existing [native CSV](experiments/native-availability-map/functions.csv), N225-N234, with generic catalogue callback 140f8be60, fallback/property callbacks, first selected source-product set and ingredient compatibility, transfer endpoint policy and topology wrapper. Existing E1/E2 AVIF loader and producer/selection/scheduling functions are reused explicitly. Each new row pins retail 1.16.244.0 VA/RVA, original FUN identity, arguments/results/effects, prerequisites, callers and private source export. STATIC / OBSERVED-INTERNAL, proposed STRONG scoped; no safe invocation or runtime qualification.
+
+## SOR-EXP-0041 - P1 electrical machinery
+
+[Native contracts](experiments/power/native.md), [generation/fuel](experiments/power/fuel.md) and [registry](experiments/native-availability-map/functions.csv) identify contribution, connection predicates, typed graph mutation/traversal, cumulative allocation, switching, powered state, save loading and cached UI power. New rows carry preferred VA/RVA, exact local exports and effects. STATIC / OBSERVED-INTERNAL, REVIEW-REQUIRED; no safe invocation qualification.
+
+The [focused P1 follow-up](experiments/power/followup.md) appends N270-N292
+to the same CSV: deque insertion/rotation, owner-root enumeration, cell-context
+resolution, pending open-state work, ExtraAction writers and reference default/
+current-open restoration. Original P1 rows remain historical; the follow-up
+corrects the queue/discovery-vector interpretation with instruction evidence.
+
+The [load continuation](experiments/power/load-determinism.md) appends N293-N312
+to that same CSV: flag restoration, association rebuilding, FormID versus
+handle resolution, global-data finish, actual object-loaded sink binding,
+ordered notification restoration and unresolved-owner cleanup. STATIC /
+OBSERVED-INTERNAL; no safe invocation or settled-outcome qualification.

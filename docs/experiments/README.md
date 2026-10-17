@@ -1,5 +1,7 @@
 # Experiments
 
+[SOR-EXP-0041 / SOR-EV-0049: P1 power](power/report.md) maps fixed planet-selected ratings, fuel/crew contribution, typed electrical graphs, cumulative deficit and mixed component partition. [Review](power/review.md); six saved examples distinguish historical snapshots from current authority. Offline only; no integration or Git mutation authority.
+
 - SOR-EXP-0037 / SOR-EV-0045: [Disappearing deposits D1](disappearing-deposits/report.md), [save/control evidence](disappearing-deposits/sites.csv), [hypotheses](disappearing-deposits/hypotheses.md) and [review](disappearing-deposits/review.md). PARTIALLY DISCRIMINATED; one offline reconnaissance, no proven cause or live authority.
 
 - SOR-EXP-0034 / SOR-EV-0042 continuation: [Native output contract](native-availability-map/output-contract.md), [preview/established assessment](native-availability-map/output-paths.md), [completion](native-availability-map/completion-assessment.md) and [review](native-availability-map/output-review.md). CONDITIONALLY COMPLETE bounded native reference; runtime preview and static Workshop convergence distinguished. No new live work.
@@ -124,3 +126,10 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
 - [SOR-EXP-0039 — E2 organic facilities](organic-facilities/report.md): greenhouse/husbandry selection, inputs, links, state and shared production; [review package](organic-facilities/review.md). Offline only; no current output guarantee.
 
 - [SOR-EXP-0040 - E3 automated fabricators](fabricators/report.md): ordinary catalogue, exact recipe/input/interval identities, generic selection, persistence, links and shared producer machinery; [review package](fabricators/review.md). Offline only; no current output guarantee.
+
+P1 [order/state follow-up](power/followup.md) and [availability](power/availability.md)
+refine the same SOR-EXP-0041 / SOR-EV-0049 record; no competing experiment ID.
+
+P1 [load reconstruction and determinism](power/load-determinism.md) continues
+SOR-EXP-0041 / SOR-EV-0049: restored flags, load-triggered roots, order provenance,
+H1-H4 and proposed-only repeated-load validation. No new live authority.

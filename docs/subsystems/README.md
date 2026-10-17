@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+[SOR-EXP-0041 / SOR-EV-0049: P1 power](../experiments/power/report.md) maps fixed planet-selected ratings, fuel/crew contribution, typed electrical graphs, cumulative deficit and mixed component partition. [Review](../experiments/power/review.md); six saved examples distinguish historical snapshots from current authority. Offline only; no integration or Git mutation authority.
+
 [D1 disappearing-deposit reconnaissance](../experiments/disappearing-deposits/report.md)
 connects saved site/equipment identity to generated resource geometry, cached area
 lists and placement gates. It distinguishes unchanged saved coordinates in measured

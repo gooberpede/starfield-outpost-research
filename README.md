@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**2026-10-17 - P1 power:** [Native power reference](docs/experiments/power/report.md) maps planet-selected generator ratings, fuel charge, electrical edge words, cumulative deficit allocation and mixed component partition. Six saves corroborate beacon memberships, reciprocal wired graphs and historical powered flags. [Review](docs/experiments/power/review.md) controls independent disposition; no current-state measurement or live/Git/publication authority.
+
 **2026-10-17 - E3 automated fabricators:** [Native reference](docs/experiments/fabricators/report.md) proposes COMPLETE bounded offline research: 11/10/9 ordinary catalogues, exact recipe inputs, generic selection, persisted configuration, local links and shared production arithmetic. [Review package](docs/experiments/fabricators/review.md) separates independent disposition, integrity and runtime limits. No game, staging, commit or push.
 
 **2026-10-16 — E1 resource intervals and sizes:** [Bounded offline mapping](docs/experiments/inorganic-extractors/resource-intervals.md) covers 45 resources and 154 main-game extractor definitions. Resource links, rather than rarity labels, select base intervals. The definition-only fallback distinguishes small solid factor 1 from other small extractors factor 2; medium/large factors are approximately .8/.5. Actual effective state/output remains unobserved.
@@ -262,3 +264,11 @@ Normal exit/removal/protected postflight/seal PASS. Authored work awaits critica
 review; no staging, commit, push or publication.
 
 **2026-10-16 — E2 organic facilities:** [Native reference](docs/experiments/organic-facilities/report.md) maps six greenhouse/husbandry definitions, 90 recipes, planet-scoped selection, knowledge/current UI state, input consumption and local directional links. Saved greenhouse configuration and Water paths corroborate the native map; actual loaded state/output remain unobserved. [Review](docs/experiments/organic-facilities/review.md); offline only, no commit/push.
+
+The [P1 order/state follow-up](docs/experiments/power/followup.md) specifies
+conditional saved assessment order and native open-state persistence, separately
+from powered status. [Review package](docs/experiments/power/review.md).
+
+The [P1 load continuation](docs/experiments/power/load-determinism.md) traces
+saved powered-state restoration and actual load-triggered recalculation.
+Identical-save settled consumer outcomes remain not yet established.

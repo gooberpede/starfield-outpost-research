@@ -1,0 +1,91 @@
+path,bytes,sha256,eligibility
+C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield.esm,1457098709,1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Program Files (x86)\Steam\steamapps\common\Starfield\Starfield.exe,102476200,7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Users\User\Documents\My Games\Starfield\Saves\Autosave1_BA75E3CDM43616F205472616E_521140_20260718080630_316_14_4.sfs,7586384,aff01925cafa2473765512df0ea48dc1f41137ff523668a102406c750f5b011f,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Users\User\Documents\My Games\Starfield\Saves\Autosave1_BA75E3CDM43616F205472616E_580731_20260818031907_319_15_4.sfs,16861680,7e6642f49774c9827fe5230f8cdccdff6b00e4af8738dac11018b56e7ffeca37,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Users\User\Documents\My Games\Starfield\Saves\Autosave2_BA75E3CDM43616F205472616E_571959_20260815111021_319_15_4.sfs,15052384,3830eb374f086bece85ca3e92ff2d13a3d5aa811193f0c2e583c4564000551bc,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Users\User\Documents\My Games\Starfield\Saves\Quicksave0_BA75E3CDM43616F205472616E_530437_20260720080357_317_14_4.sfs,11650736,64f4a834b74deb85ef6dee9d03d96bf5169d30b0ba4aa74e0263d17ce9f65fb9,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+C:\Users\User\Documents\My Games\Starfield\Saves\Save51_BA75E3CDM43616F205472616E_571612_20260814024010_319_15_4.sfs,14815680,f9f39d2ab80ba8b4329295b7a24fb0fb8b511d240c7666ee74a92efdec9e2390,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\Projects\starfield-outpost-network\reference-source\planet-directory.csv,199063,c460062747126a2168109739e75742d325cedf54b98577e5a017b5108ec5eb90,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\Projects\starfield-outpost-network\src\domain\powerEfficiency.ts,951,2a5e299293e8a403b3284e1667027eeb5d7d73460c3b62e12982a87085ddef06,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.git/index,137359,9edb9995d74b0e9becf0884e19795e289ccaec4ee22dd920b17aa8ed15d5fdbb,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/CREDITS.md,56573,a413c36d62135ec117895bbac4ff5d5cb53b8fceebc08126b7352bec0a627dd6,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/README.md,44613,a7d20a95bb277c948769a16320ba2218fd3a22003154b026adec669268b41ea9,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/README.md,4328,90189e87016f28c555df84c2f2f05195b9a5064459cbfea9ba3feef86202059f,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/RESEARCH_STATE.md,83739,c5017799de1c2c4629f0e39c2bee2ce91f53812f999e7998f89e52fad035ea36,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/SOURCES.md,113106,1a334f6d887ee6ade5d8eb1803e9b56e015b7c30ae014338f225b726abd23f36,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/README.md,15778,5efa77547d590f0c9af9c4c747c9a8a727889408aa235626e46200d660ad2865,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/native-availability-map/functions.csv,178126,76e06bfdbe11d9b30362705a0c47075814adc0ec99cc7eb45498d36e149cbb24,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/catalogue.csv,119616,4f4b91188e8afed6a9d110cc60e418885bf74f4794803b98f4d3c285cb679d00,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/construction.csv,49261,89a3b09cc6e062d0a1786ded8f57a707a950471a834d6770c8e511d55eb22bab,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/contract.md,3283,86b4831af17ae03ebe55a08abb446a7a71e9d502c60d0b85be6d8e68d028537d,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/definitions.md,11273,2ad94aa8c07c68238830c9943cd369de2155714a91cb9a3bbd640b71105d0c4d,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/environment.csv,3177,eb41f0099cac0a54773e85a8e36732ff530751c3b11d44064f1b7bbb45b232d0,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/fuel.md,9212,f2aeba606d11dddfdae02019c2e13af7ab5300d2cdc7ffbfc7a02729188f7991,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/native.md,16505,45fb052c1c00f29b36d6e1fe6d647eb02e0e46006d78d42b4a1e208a53707b96,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/report.md,6976,1740ed75e9a48e07a5970ba2fba88d7f9d9450fbfaef92871cc294969cfb3d48,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/review.md,7618,d0a7081e9e7b80800d800d3083b7d1ec356e9e2e297434d400ab3bf5abf2f4e0,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/saved.md,16198,94451cb67b8d7d6850e694e2183b0e1cd2c996721039ad5e49161bd407a5f10c,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/sources.csv,12785,f238e31c00d29611cd14b398303758f5d771b2e8a7d1e0eca96778d6af018390,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/experiments/power/uncertainties.md,4344,a2ae5aad80b21523ea26898c6086d5fa1896ab480e1a03af915f8fc87f9542ae,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/function-register.md,34050,dae43df6f4fc6e3dd574e3e57d53d2af4901528f1b828409d8c4f164c6bc299b,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md,11899,e7cc2adfb246548b80a0fdd70fa29bddf44cb7ba9f8284e4fe89a51af605f51f,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_order_switch_persistence_followup.md,11196,421ace6fa3a54fbe4bda430b73ade7ebded1b45e671ee5082246bd887055f252,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/implementation-briefs/README.md,20973,c12ea63acabdf37f14edb16e14ee6f341ea2a20b3fa05deefdc5f160d7affa99,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/state-register.md,33335,864ffd23b775d03b5c8f7bec30070cd727c487a8d2d0cecb216e95afeb983afa,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/docs/subsystems/README.md,8811,36ebafee1e57fbdfa1feb16338c46bae5104c1ee91f10792798a131fa0d16fdd,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/research/p1-power/README.md,3579,6888890db456848841546a78a7e2321a71d854c801d3226097b914dce6392a20,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/research/p1-power/definitions.py,9542,f38f900350189f234214444f3e5e8c69d8c3ebb5a589455415c3223bbc97e5d5,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/research/p1-power/saved_graph.py,4268,97d06c9537d53ec3fc510dfa4a05656bacf1ded3d482860832510d4548435b0d,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/research/p1-power/saved_instances.py,11442,cff89cb5385e2d8665ac38e01a7dd57e95a7b8aee97f975931f9ef55d97abf35,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/research/p1-power/verify-definitions.py,4676,e8dfd4ee45cd54b6e59e1d0c270d2d4119417e305f7c5d7a64f3e8003e531792,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline-tree/research/p1-power/verify.py,6808,140cd55af076d4c74a8c8bd1e1b7d3e7520807dd29af700dd4ecfcc136f20f66,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/baseline.json,6189,76fee3ec16092679b26e9301415a4b835d0a85af81e1a511c232de1178fa7e57,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/db-before.json,2393,aa54150736673a866468e34db3b0af848bd5beb43aff0963f81069393556c5d6,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/export.py,5258,cb3dbd5cc47167d82f1ec040ef0dd15f091c5baf0c16e43e8a2a16bbc7f21129,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native-r2/012.request.tsv,172568,c15a9563238ba6e4d16b157dfde28a8573a072a7c09bfb385effe53c76e6c2b9,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native-r2/session.log,3991,d2dc1979f3b3d16403bae36b1dd6f03ba2e6f989a3c502cc49ef04ce67071851,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/001.request.tsv,74660,31c8602a7b919bf2b7abd0c4680aaa9e3ed2348fbc09667154914207115afcb2,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/002.request.tsv,26610,ae551cfdcd7c822d1807c57674c31eebab9871dcf635bb1944335f4e885b2c16,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/003.request.tsv,30068,b0e67c6e1ece782034e16700cb624a5ce942a6ae7bc4027a41d38123c475fe7a,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/004.request.tsv,35720,2cea8905d9a70b4aed5e273d3de18e6a3cc8b2ec0aa61fa9306fca66c7186ae0,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/005.request.tsv,187715,334cef1617181633696053d33243e42d3ef492a2eadb9c9d2807127a3a0c4e9e,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/006.request.tsv,180463,3cd66ca282dec5f44411661b2d39d0abb5519a0d487c5f1d1eee62b1c8c28eb0,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/007.request.tsv,112396,1baa974fbdb933b22a5614bc8d90bc39a8ef23e86ba2f589267e99860fdcad94,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/008.request.tsv,196457,caf579450f585dd5f826ad5cdfb63519ba8a778088074c38525a255e50686cb1,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/009.request.tsv,55221,671a04db9a25ccfa6c15446093a916d9b710fe9c17315cb409cccd2caa2749a0,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/010.request.tsv,67058,b50af2c89853b53081a2c6062d67eb4a01e3de58e30a78cce0ecc5aba7cff63e,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/E2ReadSession.java,1504,a2ddd91c138e12a48f674bb3eeb45ecf3cb3c65436b206d5906c8a791aa0bc3c,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/native/session.log,6146,9b5ba03f4cce836fc4cc5b125deaeb949fd2f0a7116f9696312b43e5406daec0,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/register-additions.json,21628,87155d06914c10046fc78d9e51d5b82f56e1a8b25419e789d2acfd14885c77ca,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-order/saved/inspection02.json,1284625,e9da36dbd01c7a5585827f30fc347c810c3c63bc2d8f17d6f3dc7bdd1385bc1f,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances04.json,1097492,43262f431c416ff8cdf4738f543970209a7ac549a5ea528d66a62fc0736d3620,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances05.json,819652,0a0aeb9997b8deada34fc594cda2a6f56e1882a71fefdec424843f62ada12b41,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances06.json,1097303,b8a0bd5cbdb54efbf4928f2740cb568970126df6f01d13c804ddf795e7f25292,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances07.json,17786,cb1769956a7928d5e762d9fca646d138990e9233974019c0fb7b76dc3b4acab3,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances08.json,241365,8d1e526a0bb90e7dfc139dc8dc13889de05bdcf3a5bcc6df6f47825152894633,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+.local-work/p1-power/saved/instances09.json,776990,633cf2f1544a383c1b559f7bcf407c7f9fc6a65edb22e96083426a91b545542c,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+ghidra/scripts/OutpostRecon.java,15404,8faa1330593d3874150b269b3b4b9cf5b5becab9fc35bb003e1d960a61ea65b7,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/definitions.py,9542,f38f900350189f234214444f3e5e8c69d8c3ebb5a589455415c3223bbc97e5d5,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/followup.py,8430,9c5c2e1431b9810e0cc28cfbbaa329c637df4837b774c3cf754f543a0855c519,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/saved_graph.py,4268,97d06c9537d53ec3fc510dfa4a05656bacf1ded3d482860832510d4548435b0d,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/saved_instances.py,11442,cff89cb5385e2d8665ac38e01a7dd57e95a7b8aee97f975931f9ef55d97abf35,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/verify-definitions.py,4676,e8dfd4ee45cd54b6e59e1d0c270d2d4119417e305f7c5d7a64f3e8003e531792,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/verify-followup.py,8751,9b0d1526d2bfc275115045019b0b5c803992d5440951083e6980a0b708de4b55,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+research/p1-power/verify.py,6808,140cd55af076d4c74a8c8bd1e1b7d3e7520807dd29af700dd4ecfcc136f20f66,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.gpr,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\00\00000000.prp,502,7fa5d97130a0c92448347b20235c8638526fb6b8811cfb95810d5d29b663288d,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\00\~00000000.db\db.1.gbf,278609920,0a1c514ee44064a2065f86e7ff99de425990cfcce608f356018c753206156331,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\00\~00000000.db\db.2.gbf,1634222080,9465cc9944d35acb75440471b0841fece52cc142341c269a5129a575791ded44,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\~index.bak,116,b27275866cf5b773eaebab219d0f67a14596c7320d8359ad07d18da381c16292,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\~index.dat,116,b27275866cf5b773eaebab219d0f67a14596c7320d8359ad07d18da381c16292,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\project.prp,163,113c367c11cdfe9ac46f1cd6194fe380300a021fa4bd9908d8fa91bb2cf58ef8,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\projectState,607,e1bfd9c084d9e1831b2b68b3fa2a568706b37514243539d2b38f4619c881215b,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\00\00000000.prp,528,4b7a5edbcca229d48c89ffad0327849736f0f00732de6ced032ce2bc34881546,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\00\~00000000.db\db.1.gbf,98304,37dd81ca01e6148b53efb15bdf8c25403b3bf523d0e9358e4a4da95923c81a39,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\~index.bak,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\~index.dat,134,5a7f040bf782833462ecc7231cee2d72f88129f86e6c6e355f1e6c714d33f1a7,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\~journal.bak,114,761827a09392c9adf0451afd31299306225b3682baad7f04eea5a8a1df8b199a,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\versioned\~index.bak,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\versioned\~index.dat,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f,LOCAL-ONLY original; metadata REVIEW-REQUIRED
+D:\tools\xEdit.4.1.5p\Edit Scripts\Starfield - Export Planet Directory.pas,16551,5fdae92aa88534797d824a79af345301ca80c33e8961627d992dbc9e72710731,LOCAL-ONLY original; metadata REVIEW-REQUIRED

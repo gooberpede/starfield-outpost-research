@@ -413,3 +413,21 @@ local provenance. Raw game-derived material remains local.
 ## E3 automated fabricators - 2026-10-17
 
 [Fabricator research](docs/experiments/fabricators/report.md) credits Bethesda Game Studios' installed definitions/native machinery, the maintainer's protected historical saves, prior owned E1/E2/Workshop research and bounded readers, and previously credited Ghidra, Temurin, CPython and Git tooling. A definition/save specialist checks exact catalogue and historical configuration; an independent reviewer challenges native admission, compatibility, count/rate semantics and the original brief. Original research scripts and authored interpretations incorporate no outside implementation. [Source lineage](docs/SOURCES.md#e3-fabricators---existing-bethesda-and-owned-reader-lineage) and [pins](docs/experiments/fabricators/sources.csv) preserve provenance; game-derived raw material stays local.
+
+## P1 outpost power research
+
+The [focused follow-up](docs/experiments/power/followup.md) reuses Bethesda's
+pinned machinery, maintainer protected saves and the project's owned native/save
+readers. Fresh ordered-tree replay is original research, not live validation.
+Its [additional pins](docs/experiments/power/followup-sources.csv) retain exact
+tool/evidence provenance; no new third-party implementation was incorporated.
+
+[Power reference](docs/experiments/power/report.md) credits Bethesda Game Studios for installed definitions/native machinery, the maintainer for protected saves, the version-4 planet exporter and starfield-outpost-network source data, and prior E1-E3/Workshop readers and research. Existing credited Ghidra, Temurin, CPython and Git tools support offline analysis. Definition and save specialists inspect numerical/serialized examples; an independent reviewer checks original criteria and primary evidence. [Source lineage](docs/SOURCES.md#p1-power---bethesda-maintainer-references-and-owned-readers) and [pins](docs/experiments/power/sources.csv) retain provenance. No proprietary raw material is copied into authored deliverables.
+
+## P1 load reconstruction continuation — 2026-10-17
+
+The [load study](docs/experiments/power/load-determinism.md) uses the previously
+credited Ghidra toolchain and existing protected Starfield native/save evidence.
+New readers, checks and interpretations are maintainer-owned research; source
+pins distinguish tool provenance from semantic validation. No new third-party
+code, external contact or live capture was used.

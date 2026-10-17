@@ -250,3 +250,9 @@ values remain qualified; organic systems and switch topology remain outside E1.
 ## E3 automated manufactured production - 2026-10-17
 
 [Native reference](../experiments/fabricators/report.md) maps three ordinary catalogues (11/10/9), construction-linked preset variants, exact recipes, generic AVIF/property admission, configuration/persistence, local incoming/outgoing connections and shared input-cap/elapsed/request machinery. [Reuse matrix](../experiments/fabricators/reuse.md) identifies exact E1/E2 shared functions and manufacturing-only modifier predicates. [Saved examples](../experiments/fabricators/saves.md) preserve storage/cargo boundaries without inventory or remote logistics modeling. Bounded offline COMPLETE is proposed; critical review and publication gates remain separate.
+
+P1 [allocation-order/switch follow-up](../experiments/power/followup.md)
+specifies front worklist versus recursive generator collection, conditional
+saved replay and REFR open-state persistence. Its
+[availability table](../experiments/power/availability.md) separates these
+inputs from current power and runtime reconstruction.

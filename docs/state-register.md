@@ -216,3 +216,20 @@ promoting saved flags to current runtime output. No new live observations.
 ## E3 manufactured configuration and production state
 
 [E3 native contract](experiments/fabricators/native.md) reuses the existing selected-resource AV ExtraBF channel, resource-keyed Workshop producer rows and separate destination-keyed incoming-source registry. Facility catalogue and preset are DEFINITION-DERIVED; selected AV and scheduling/link wire identities are PERSISTED with reconstructed pointers/handles; current power/halt/reason, effective timer and accepted output remain separate MIXED/current-state dependencies. UI vectors/maps are TRANSIENT. SAVE corroboration in [saves](experiments/fabricators/saves.md) is historical configuration, not post-load authority. No competing new persistence layout or current-value claim is introduced.
+
+## SOR-EXP-0041 - electrical snapshots and current authority
+
+[Six-save matrix](experiments/power/saved.md) corroborates ExtraCB endpoint/word arrays and Extra9C powered mask 40 as PERSISTED historical snapshots. [Native map](experiments/power/native.md) separates reconstructed handles/component results, activation state, base demand, effective generation and cached Workshop integer totals. [Fuel charge](experiments/power/fuel.md) uses the existing persisted ExtraBF AV channel. These proposed scoped contracts extend earlier unclassified persistence; they do not promote old saved values to current loaded authority.
+
+P1 [switch persistence follow-up](experiments/power/followup.md#b-switch-getter-transitions-and-persistence)
+maps REFR change mask 800000 (current-open difference) and 400000 (default-open
+difference), reconstructed ExtraAction mask 04/08, and transient pointer-keyed
+pending state. These are separate from persisted ExtraFlags powered mask 40.
+The [availability table](experiments/power/availability.md) states current
+animation/interface and load-reconstruction dependencies explicitly.
+
+The [load continuation](experiments/power/load-determinism.md) positively traces
+restoration of mask 40 and later load-triggered recalculation. Settled authority
+depends on applicable effective callbacks or proven convergence, not solely the
+saved bit. ExtraCB entries retain remapped FormIDs; reverse4D and temporary
+queues instead use manager handles. Identical-reload settled results remain OPEN.

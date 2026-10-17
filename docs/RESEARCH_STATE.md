@@ -1,5 +1,9 @@
 # Current Research State
 
+**2026-10-17 - P1 focused follow-up:** [Allocation order and switch persistence](experiments/power/followup.md) specifies deque front promotion versus recursive forward generator collection, followed by the allocator's expanding seed vector. Actual saved order is CONDITIONALLY RECONSTRUCTABLE. REFR change masks encode open/default differences; ExtraAction is reconstructed and current animation/pending/interface state remains separate from powered bit 40. Fresh HIST-0036/HIST-0077 inspection and two real-tree fixtures support the qualified saved contract. One eligible He-3 satisfies the ordinary single-cycle check. [Availability](experiments/power/availability.md) and [review](experiments/power/review.md) retain limits and acceptance state; no live/Git/publication authority.
+
+[SOR-EXP-0041 / SOR-EV-0049: P1 power](experiments/power/report.md) maps fixed planet-selected ratings, fuel/crew contribution, typed electrical graphs, cumulative deficit and mixed component partition. [Review](experiments/power/review.md); six saved examples distinguish historical snapshots from current authority. Offline only; no integration or Git mutation authority.
+
 **2026-10-17 - E3 manufactured production:** [SOR-EXP-0040 / SOR-EV-0048](experiments/fabricators/report.md) proposes COMPLETE bounded offline native reference. Exact ordinary catalogue sizes are 11 simple, 10 compound and 9 multiplex across 30 construction-linked producer bases; 45 classified bases retain exceptions. Generic AVIF/property admission marks rows known, while COBJ condition metadata is not itself enforced by the mapped selection/request paths. Shared row replacement, compatibility pruning, input consumption and elapsed scheduling are mapped; mature saved examples corroborate configuration/topology. Actual loaded state and accepted output remain unobserved. [Review](experiments/fabricators/review.md) controls independent acceptance and exact package. No live/Git/publication authority; prior findings unchanged.
 
 **2026-10-16 — E1 arithmetic, clocks and UI:** [Report](experiments/inorganic-extractors/arithmetic-report.md), [clocks](experiments/inorganic-extractors/arithmetic-clocks.md) and [UI provenance](experiments/inorganic-extractors/arithmetic-ui.md) trace definition intervals, AV sources, requested counts, separate elapsed callers and cached effective nominal rates. Both screens use ExtraWorkshop+84; installed decimal slicing versus rounding explains equal inputs displaying 1.66/1.67. Exact screenshot raw bits and actual output remain unobserved. Earlier crew-stacking live proposal is prominently superseded; live repetition is NO-GO, new realization/control assessment REVISE. Independent review and exact package are linked from the report. No game/save/configuration/index/ref changes.
@@ -397,3 +401,14 @@ or Git mutation authority. The offline account below remains historical.
 ## E2 organic facilities — 2026-10-16
 
 [SOR-EXP-0039 / SOR-EV-0047](experiments/organic-facilities/report.md): CONDITIONALLY COMPLETE native reference, independently accepted after corrections; [maintainer review pending](experiments/organic-facilities/review.md). Six producer definitions and pack-in constructions, 90 typed recipes, planet-scoped domesticable species/knowledge selection, recipe-keyed UI, resource AV registration, shared input consumption/scheduling and compatibility-driven link pruning within documented bounds. Six saved greenhouse rows and ExtraBF selected values agree; all six reach saved local Water producers through liquid storage. Current loaded values, cache/knowledge lifecycle limits and realized output remain qualified. No live, publication, staging, commit or push action.
+
+## P1 load reconstruction continuation — 2026-10-17
+
+SOR-EXP-0041 / SOR-EV-0049: [focused load report](experiments/power/load-determinism.md).
+Native-static evidence binds global-data finish case 0A to conditional
+TESObjectLoadedEvent dispatch and Workshop per-reference allocation. Extra9C
+restoration retains powered 40. Neither restored flags nor missing old event
+roots settle identical-reload behavior. Fixed-input owner-refresh root union
+is permutation-invariant; general final convergence remains open. ExtraCB
+entry identity is corrected to FormID. Review/check/package disposition is
+retained in the [existing review record](experiments/power/review.md).
