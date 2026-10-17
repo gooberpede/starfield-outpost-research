@@ -1,5 +1,14 @@
 # Saved power instances and runtime boundary
 
+**Prospective Save29 supersession, 2026-10-17:**
+[Offline allocation-authority adjudication](save29-authority.md) selects
+**C / STRONG** within ordinary Save29 conditions, from a grounded beacon CB
+order and root-independent single-generator selection. Earlier mechanism-OPEN
+language and temporal-capture recommendations below are retained history,
+superseded for this bounded question. Reload PASS and writer NO-GO are unchanged;
+historical instruction execution/general prediction remain unproved. No new live
+or writer work follows; [review](save29-authority-review.md) controls disposition.
+
 Six freshly inspected saved states corroborate **two different serialized
 ExtraPowerLinks representations**. Four mature states have reciprocal
 object-to-object entries carrying word `3`; two other states have entries

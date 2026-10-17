@@ -1,5 +1,18 @@
 # Current Research State
 
+**2026-10-17 - Save29 mechanism adjudication: C / STRONG.**
+[Native/save derivation](experiments/power/save29-authority.md) recovers the beacon's
+ordered CB list (solar, #1, #2), grounds the same consumer order for every eligible
+root of this four-object component, and separates independent selection from
+old/new difference application. Ordinary load reconstruction best explains #1
+on / #2 off; actual historical event epochs/effective inputs remain unrecorded.
+This prospectively supersedes the mechanism-OPEN and automatic temporal-capture
+recommendations below, without changing the accepted three-load PASS or writer
+NO-GO. Close this bounded mechanism question for review; defer general prediction,
+with no observer escalation absent contrary evidence or material need.
+[Completion/review](experiments/power/save29-authority-review.md); authored
+REVIEW-REQUIRED, raw LOCAL-ONLY, no live/staging/commit/push/publication authority.
+
 **2026-10-17 - Save29 derivative preparation: NO-GO.**
 [Feasibility report](experiments/power/save29-derivatives.md) records an actual
 opaque BCPS-header validation gap and reverified saved identities/masks. No C/R/O

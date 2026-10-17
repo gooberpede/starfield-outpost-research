@@ -1,5 +1,17 @@
 # Separately scoped research backlog
 
+## Save29 allocation authority - bounded closure, 2026-10-17
+
+[Offline result](experiments/power/save29-authority.md): **C / STRONG** for ordinary
+Save29 loading. The known load-event allocator independently selects #1 from the
+actual ordered four-reference graph, without a favourable-root assumption.
+Retain accepted reload PASS and save-writer NO-GO; defer general save-to-settled
+power prediction. Do not automatically build a temporal observer or reopen save
+writing. A concrete contradictory native/observed path, decisive independent
+evidence or material application need can justify a separately scoped decision.
+[Independent review/package](experiments/power/save29-authority-review.md) governs
+assignment acceptance; no integration, live or publication authority follows.
+
 ## Local native availability dependencies — 2026-10-15
 
 [Neutral native mapping](experiments/native-availability-map/report.md) identifies internal loaded-region retrieval and upstream preview/Workshop descriptor construction. [Scientific discriminators](experiments/native-availability-map/uncertainty.md) retain complete same-evaluation region/point/translation/cache operands and established-context equality as unresolved evidence needs. No observer implementation or live authority is requested by this offline result. Deferred position/geography/Hab questions remain separate.

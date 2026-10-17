@@ -1,5 +1,14 @@
 # Save29 derivative preparation: NO-GO
 
+**Prospective Save29 supersession, 2026-10-17:**
+[Offline allocation-authority adjudication](save29-authority.md) selects
+**C / STRONG** within ordinary Save29 conditions, from a grounded beacon CB
+order and root-independent single-generator selection. Earlier mechanism-OPEN
+language and temporal-capture recommendations below are retained history,
+superseded for this bounded question. Reload PASS and writer NO-GO are unchanged;
+historical instruction execution/general prediction remain unproved. No new live
+or writer work follows; [review](save29-authority-review.md) controls disposition.
+
 2026-10-17, Australia/Sydney. SOR-EXP-0041 / SOR-EV-0049 continuation.
 [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_control_reversal_overpower_preparation.md).
 [Player test card](save29-derivative-card.md), [review package](save29-derivative-review.md).

@@ -442,3 +442,15 @@ credited Ghidra toolchain and existing protected Starfield native/save evidence.
 New readers, checks and interpretations are maintainer-owned research; source
 pins distinguish tool provenance from semantic validation. No new third-party
 code, external contact or live capture was used.
+
+## Save29 offline allocation authority
+
+2026-10-17. SOR-EXP-0041 / SOR-EV-0049 continuation.
+Bethesda Game Studios supplies the installed Starfield 1.16.244.0 native/ESM
+evidence inspected here; existing Ghidra exports and the project-owned strict
+save/definition readers supply the methods, with provenance retained in the
+[report](docs/experiments/power/save29-authority.md) and its original P1 source manifests.
+Existing CPython 3.14.3/stdlib tooling performs local byte/hash checks and
+projections. No new third-party source, implementation, dependency or permission
+basis is introduced. Native/save payloads remain LOCAL-ONLY; authorship of the
+synthesis does not clear the underlying evidence for redistribution.

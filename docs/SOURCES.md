@@ -855,3 +855,15 @@ bounded readers and retained retail 1.16.244.0 static database exports provide
 instruction/dataflow and RTTI observations; protected original save receipts
 provide historical coverage only. New raw exports and proprietary inputs remain
 local and excluded from textual review packages. No third-party code was reused.
+
+## Save29 offline allocation authority
+
+2026-10-17. SOR-EXP-0041 / SOR-EV-0049 continuation.
+Bethesda Game Studios supplies the installed Starfield 1.16.244.0 native/ESM
+evidence inspected here; existing Ghidra exports and the project-owned strict
+save/definition readers supply the methods, with provenance retained in the
+[report](experiments/power/save29-authority.md) and its original P1 source manifests.
+Existing CPython 3.14.3/stdlib tooling performs local byte/hash checks and
+projections. No new third-party source, implementation, dependency or permission
+basis is introduced. Native/save payloads remain LOCAL-ONLY; authorship of the
+synthesis does not clear the underlying evidence for redistribution.

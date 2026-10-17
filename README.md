@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**2026-10-17 - Save29 allocation authority:** [Offline adjudication](docs/experiments/power/save29-authority.md) selects **C / STRONG** for ordinary loading: actual beacon link order and the sole generator independently select extractor #1. Restoration and matching difference-only application coexist. Accepted three-load PASS and writer NO-GO remain; [review package](docs/experiments/power/save29-authority-review.md) separates independent acceptance from integration. No new live or Git authority.
+
 **2026-10-17 - P1 power:** [Native power reference](docs/experiments/power/report.md) maps planet-selected generator ratings, fuel charge, electrical edge words, cumulative deficit allocation and mixed component partition. Six saves corroborate beacon memberships, reciprocal wired graphs and historical powered flags. [Review](docs/experiments/power/review.md) controls independent disposition; no current-state measurement or live/Git/publication authority.
 
 **2026-10-17 - E3 automated fabricators:** [Native reference](docs/experiments/fabricators/report.md) proposes COMPLETE bounded offline research: 11/10/9 ordinary catalogues, exact recipe inputs, generic selection, persisted configuration, local links and shared production arithmetic. [Review package](docs/experiments/fabricators/review.md) separates independent disposition, integrity and runtime limits. No game, staging, commit or push.

@@ -1,5 +1,14 @@
 # Electrical graph, allocation and current-state contracts
 
+**Prospective Save29 supersession, 2026-10-17:**
+[Offline allocation-authority adjudication](save29-authority.md) selects
+**C / STRONG** within ordinary Save29 conditions, from a grounded beacon CB
+order and root-independent single-generator selection. Earlier mechanism-OPEN
+language and temporal-capture recommendations below are retained history,
+superseded for this bounded question. Reload PASS and writer NO-GO are unchanged;
+historical instruction execution/general prediction remain unproved. No new live
+or writer work follows; [review](save29-authority-review.md) controls disposition.
+
 [Report](report.md), [generation and fuel](fuel.md), [definitions](definitions.md),
 [saved instances](saved.md), [function register](../native-availability-map/functions.csv).
 The [allocation-order/switch follow-up](followup.md) refines the initial P1
