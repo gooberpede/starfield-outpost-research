@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**2026-10-17 - E3 automated fabricators:** [Native reference](docs/experiments/fabricators/report.md) proposes COMPLETE bounded offline research: 11/10/9 ordinary catalogues, exact recipe inputs, generic selection, persisted configuration, local links and shared production arithmetic. [Review package](docs/experiments/fabricators/review.md) separates independent disposition, integrity and runtime limits. No game, staging, commit or push.
+
 **2026-10-16 — E1 resource intervals and sizes:** [Bounded offline mapping](docs/experiments/inorganic-extractors/resource-intervals.md) covers 45 resources and 154 main-game extractor definitions. Resource links, rather than rarity labels, select base intervals. The definition-only fallback distinguishes small solid factor 1 from other small extractors factor 2; medium/large factors are approximately .8/.5. Actual effective state/output remains unobserved.
 
 **2026-10-16 — E1 arithmetic, clocks and UI:** [Native contracts and paired UI provenance](docs/experiments/inorganic-extractors/arithmetic-report.md) connect base/effective production, elapsed scheduling and cached nominal rates. The installed build footer slices decimals; LOCATIONS rounds. The historical crew-stacking live proposal is superseded by static analysis. Actual loaded realization remains conditional; offline only, no Git mutation.

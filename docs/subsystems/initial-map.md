@@ -246,3 +246,7 @@ values remain qualified; organic systems and switch topology remain outside E1.
 ## E2 organic production — 2026-10-16
 
 [Native reference](../experiments/organic-facilities/report.md) connects constructed assemblies to operational members, planetary species/knowledge candidates, recipe-keyed choice, resource AV configuration, persisted scheduling and transitive input consumption. [Reuse matrix](../experiments/organic-facilities/reuse.md) distinguishes shared E1 machinery from organic conditions and excludes inorganic-only player bonuses. [Local topology](../experiments/organic-facilities/links.md) retains storage/cargo boundaries without claiming throughput. Offline only; review and current-state limitations remain explicit.
+
+## E3 automated manufactured production - 2026-10-17
+
+[Native reference](../experiments/fabricators/report.md) maps three ordinary catalogues (11/10/9), construction-linked preset variants, exact recipes, generic AVIF/property admission, configuration/persistence, local incoming/outgoing connections and shared input-cap/elapsed/request machinery. [Reuse matrix](../experiments/fabricators/reuse.md) identifies exact E1/E2 shared functions and manufacturing-only modifier predicates. [Saved examples](../experiments/fabricators/saves.md) preserve storage/cargo boundaries without inventory or remote logistics modeling. Bounded offline COMPLETE is proposed; critical review and publication gates remain separate.

@@ -122,3 +122,5 @@ Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/READ
 - [SOR-EXP-0038 — E1 inorganic extractors](inorganic-extractors/report.md): native identity/state, directional output and production reference; [review/package](inorganic-extractors/review.md). Offline only, current/effective output unobserved.
 
 - [SOR-EXP-0039 — E2 organic facilities](organic-facilities/report.md): greenhouse/husbandry selection, inputs, links, state and shared production; [review package](organic-facilities/review.md). Offline only; no current output guarantee.
+
+- [SOR-EXP-0040 - E3 automated fabricators](fabricators/report.md): ordinary catalogue, exact recipe/input/interval identities, generic selection, persistence, links and shared producer machinery; [review package](fabricators/review.md). Offline only; no current output guarantee.

@@ -212,3 +212,7 @@ promoting saved flags to current runtime output. No new live observations.
 ## SOR-ST-0032 — organic configuration and selection state
 
 [E2 native map](experiments/organic-facilities/native.md) distinguishes definition-derived OrganicResourceType/support properties and recipes; transient candidate vectors/UI recipe-to-AV associations; planet/species knowledge; selected resource AV; persisted IRES-keyed Workshop producer rows; and reconstructed handles/link caches. Fresh six-producer Save52 checks correlate ExtraBF selected base AV = 1 with each saved IRES row, without asserting current loaded authority. [Topology](experiments/organic-facilities/links.md) retains directional reachability and unresolved boundary states. REVIEW-REQUIRED; raw evidence LOCAL-ONLY.
+
+## E3 manufactured configuration and production state
+
+[E3 native contract](experiments/fabricators/native.md) reuses the existing selected-resource AV ExtraBF channel, resource-keyed Workshop producer rows and separate destination-keyed incoming-source registry. Facility catalogue and preset are DEFINITION-DERIVED; selected AV and scheduling/link wire identities are PERSISTED with reconstructed pointers/handles; current power/halt/reason, effective timer and accepted output remain separate MIXED/current-state dependencies. UI vectors/maps are TRANSIENT. SAVE corroboration in [saves](experiments/fabricators/saves.md) is historical configuration, not post-load authority. No competing new persistence layout or current-value claim is introduced.

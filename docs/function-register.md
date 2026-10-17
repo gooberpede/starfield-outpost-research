@@ -254,3 +254,7 @@ integration or actual current operating values are claimed.
 ## SOR-FN-0061 — organic selector, application and input contracts
 
 [SOR-EXP-0039 native map](experiments/organic-facilities/native.md) extends the existing [native CSV](experiments/native-availability-map/functions.csv) with planet/species/knowledge candidates, domesticability/resource admission, recipe-keyed UI, resource AV application, upstream input availability/consumption and incompatible-link pruning. Preferred VA/RVA, exact local exports, operand/output and effect contracts are retained there. STATIC / OBSERVED-INTERNAL, proposed STRONG within the pinned build; no safe invocation, current-state observation or integration qualification.
+
+## E3 fabricator generic catalogue and compatibility - 2026-10-17
+
+[SOR-EXP-0040 native reference](experiments/fabricators/native.md) extends the existing [native CSV](experiments/native-availability-map/functions.csv), N225-N234, with generic catalogue callback 140f8be60, fallback/property callbacks, first selected source-product set and ingredient compatibility, transfer endpoint policy and topology wrapper. Existing E1/E2 AVIF loader and producer/selection/scheduling functions are reused explicitly. Each new row pins retail 1.16.244.0 VA/RVA, original FUN identity, arguments/results/effects, prerequisites, callers and private source export. STATIC / OBSERVED-INTERNAL, proposed STRONG scoped; no safe invocation or runtime qualification.

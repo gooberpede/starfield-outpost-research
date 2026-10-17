@@ -152,3 +152,5 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 - [E1 resource intervals and extractor sizes](CODEX_BRIEF_SOR_E1_resource_intervals_extractor_sizes.md): durable maintainer-authorized chat continuation; offline resource mapping and native size arithmetic, independent review and exact patches; no commit/push.
 
 - [E2 organic facility native mapping](CODEX_BRIEF_SOR_E2_organic_facility_native_mapping.md): invoked 2026-10-16; [report/review](../experiments/organic-facilities/report.md). Supplied untracked brief preserved unchanged; offline research and independent review only, no commit/push.
+
+- [E3 fabricators and manufactured production](CODEX_BRIEF_SOR_E3_fabricators_manufactured_production.md): authorized offline native/definition research, [result](../experiments/fabricators/report.md) and [review](../experiments/fabricators/review.md); no stage/commit/push.
