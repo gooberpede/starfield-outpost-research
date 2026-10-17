@@ -1,5 +1,13 @@
 # Current Research State
 
+**2026-10-17 - S1 capacity follow-up:** [Capacity/receiving report](experiments/storage/capacity-report.md)
+distinguishes cached occupied weight, effective CarryWeight, item-specific local
+floor-fit transfers and production/direct generic batch insertion. Nine actual
+saved examples include exact definition-fallback boundaries, over-nominal mixed
+warehouse stock and empty controls; actual loaded capacity remains unmeasured.
+Accepted S1 history is retained. [Review](experiments/storage/capacity-review.md)
+controls independent disposition; no S2, live, integration or Git authority.
+
 **2026-10-17 - S1 storage and output-link eligibility:**
 [SOR-EXP-0042 / SOR-EV-0050](experiments/storage/report.md) maps dedicated
 75/150/300-weight stores, producer buffers, reference-level native link gates,

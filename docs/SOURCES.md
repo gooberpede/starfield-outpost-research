@@ -881,3 +881,13 @@ adapt project-owned E2/E3 definition/header methods and P1 saved extra grammar;
 the package helper adapts the owned P1 exporter. Existing Ghidra/Temurin/CPython/Git
 are separately credited as tools, not evidence-rights clearance. Original source,
 native and save bytes stay local; authored metadata/synthesis REVIEW-REQUIRED.
+
+## S1 capacity/inventory state continuation
+
+2026-10-17. SOR-EXP-0042 / SOR-EV-0050 continuation. [Report](experiments/storage/capacity-report.md)
+and [fresh hash ledger](experiments/storage/capacity-sources.csv) record installed
+Bethesda native/ESM material, existing read-only Ghidra state, the four protected
+maintainer saves and owned E1/S1 contracts/readers. CPython/stdlib, Ghidra/JDK and
+Git are existing separately credited tools. Capacity calculations and packaging
+adapt only project-owned methods; no outside code, download, network contact or
+new permission basis. Payloads LOCAL-ONLY; authored synthesis REVIEW-REQUIRED.

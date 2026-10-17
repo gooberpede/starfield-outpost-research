@@ -1,5 +1,26 @@
 # S1 bounded offline readers
 
+Capacity follow-up: [contract](../../docs/experiments/storage/capacity-contract.md),
+[report](../../docs/experiments/storage/capacity-report.md).
+Encoding correction: `verify_capacity.py --text-only --run textvalidation02`
+validates UTF-8 and detects likely Windows-1252/Latin-1 mojibake, replacement
+characters, C1 controls and BOMs in newly authored text. It reads only text/Git
+inventory and writes a fresh ignored receipt; no native/save analysis or scientific
+regressions run in this mode. `text_validation.py` provides the same check to the
+review exporter. `test_text_validation.py` exercises observed corruptions,
+wrong-decoding variants and legitimate Unicode using in-memory text only.
+`capacity.py --run calculations03 --table` reads the four accepted S1 receipts,
+rehashes their original saves/readers, physically rereads selected installed
+definitions and writes a fresh local calculation receipt plus optional authored
+capacity-examples.csv. It does not extract new inventories or extend grammar.
+`verify_capacity.py --run verification01 --tables` verifies the fresh protected
+baseline, final calculations, selected native instruction locators, independent
+expected float bits/decimal arithmetic and four existing regressions; writes
+local JSON plus optional capacity-sources.csv. No live/native execution, new
+dependency, database/save/Git mutation or external contact. All follow-up scripts
+use the same CPython -B/stdlib/owned-reader safeguards described below; fresh run
+names are mandatory. Local review packaging adapts the owned S1 exporter.
+
 [Authorized brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_S1_storage_inventory_eligibility_runtime_save.md),
 [report](../../docs/experiments/storage/report.md),
 [execution contract](../../docs/experiments/storage/contract.md).

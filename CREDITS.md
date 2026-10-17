@@ -466,3 +466,12 @@ point-of-use provenance are in the [source ledger](docs/experiments/storage/sour
 and linked contracts. No outside code/dependency was incorporated, no new licence
 basis adopted and no external disclosure made. Raw/game-derived evidence stays
 LOCAL-ONLY; authored interpretations remain REVIEW-REQUIRED.
+
+## S1 capacity follow-up
+
+2026-10-17. [Native/save capacity synthesis](docs/experiments/storage/capacity-report.md)
+continues SOR-EXP-0042 using Bethesda Game Studios' installed native/ESM evidence,
+existing Ghidra/JDK analysis export, CPython/stdlib and Git. Project-owned S1/P1/E1
+contracts, saved readers and S1 packaging supply the reused methods. Fresh
+provenance is in [the ledger](docs/experiments/storage/capacity-sources.csv).
+No new external implementation or licence basis; raw evidence stays local.

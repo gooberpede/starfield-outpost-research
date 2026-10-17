@@ -284,3 +284,11 @@ inventory serialization and Transfer Container access paths. Reuse E1-E3/P1
 production/input/link contracts rather than duplicating or changing their aliases.
 All new interpretations STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED;
 no public ABI, safe invocation or integration is qualified.
+
+## S1 capacity continuation
+
+[Native derivation](experiments/storage/capacity-native.md) and appended S1C rows
+in [the register](experiments/storage/functions.csv) trace effective capacity,
+weight/cache/invalidation, MISC mass loading, generic versus local receiving and
+actual transfer descriptors. STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED;
+current live values and safe invocation remain unqualified.

@@ -84,3 +84,13 @@ confirmation, preserving unknown labels rather than decoding assumptions.
 [SOR-EXP-0032 dependency map](experiments/workshop-membership/dependencies.md) advances explicit saved owner/root reconstruction. Separate briefs are still needed for alternate 80/default/inherited population restoration, independent loaded native item census, production readiness/integration, container/display contents and category/filter views. Empty fixtures remain instances when supported; stored/displayed item rows must not be promoted without independent construction evidence. Power, deposits/operating state, cargo/output links and rates remain separate. This note authorizes no execution or implementation.
 
 Workshop population: [EXP0033 boundary and original criteria](experiments/workshop-population/acceptance.md) govern any later loaded-census or controlled historical acquisition. Container/display contents, category labels and functional cargo/power links remain separate decisions/briefs. No production importer or live execution follows from the supported 848-root research export.
+
+## S1 capacity follow-up and S2 boundary — 2026-10-17
+
+[Capacity report](experiments/storage/capacity-report.md) supplies conditional real
+saved boundary calculations and distinguishes item-specific local partial fit
+from production/direct generic batch addition. No new live evidence is required
+merely to use the bounded ordinary model. S2 must correlate actual operand state,
+planned quantities and source/destination deltas before interpreting backpressure;
+routing/retries/cargo scheduling remain separately briefed. Current effective
+capacity is unmeasured; no observer, live, importer or writer authority follows.
