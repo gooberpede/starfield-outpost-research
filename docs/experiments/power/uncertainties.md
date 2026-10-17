@@ -1,5 +1,9 @@
 # Qualified conclusions and remaining predicates
 
+**Subsequent Save29 evidence (2026-10-17):** the agreed repeated-load test
+is **PASS** for its controlled setup. [Result and mechanism plan](save29-test-plan.md)
+updates the historical offline uncertainty below; R versus C remains OPEN.
+
 [Report](report.md), [native contracts](native.md), [saved matrix](saved.md).
 These limitations separate current instance values and exceptional coverage
 from the mapped ordinary algorithm. No experiment below is authorized.
@@ -42,3 +46,15 @@ identical-load differing settled set has been demonstrated. Missing historical
 event roots do not prove variation. Saved 40 is an intermediate, not a general
 final-authority contract. A finite separately approvable UI-first experiment
 is specified in the report; no live work is authorized by this record.
+
+## Save29 accepted result — 2026-10-17
+
+**PASS** for the agreed three fresh-process repeated-load trial: user-observed
+#1 powered / #2 unpowered immediately and several seconds later, unchanged.
+The earlier repeated-load uncertainty above is resolved for this controlled
+configuration. [Save29 plan](save29-test-plan.md) separates that settled empirical
+answer from the remaining R/C mechanism question. Saved `ff022917` is powered,
+`ff02294d` unpowered; the original review02 mapping gap is resolved by subsequent user console XYZ correspondence at displayed precision (see the report).
+Matching saved/live output would still fit both mechanisms. A separately approved
+complete temporal capture is the recommended smallest candidate, with protected-copy
+conflict escalation only if necessary; no proposed test has been performed.

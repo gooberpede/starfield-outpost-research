@@ -1,5 +1,9 @@
 # P1 outpost power: native reference
 
+**Subsequent Save29 evidence (2026-10-17):** the agreed repeated-load test
+is **PASS** for its controlled setup. [Result and mechanism plan](save29-test-plan.md)
+updates the historical offline uncertainty below; R versus C remains OPEN.
+
 2026-10-17, Australia/Sydney. SOR-EXP-0041 / SOR-EV-0049.
 [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md),
 [frozen contract](contract.md), [review and checks](review.md).
@@ -116,3 +120,12 @@ Both saved-bit restoration and subsequent load-triggered recalculation are
 supported. Repeated identical-save settled outcomes remain **NOT YET
 ESTABLISHED**. ExtraCB identity terminology is corrected to FormID; Extra4D
 and temporary queues use manager handles. No live experiment was performed.
+
+## Save29 player validation — 2026-10-17
+
+**PASS:** the agreed three desktop-exit/reload trials consistently retained the
+user-observed #1 powered / #2 unpowered allocation under the 6-versus-10 deficit.
+[Accepted result and mechanism plan](save29-test-plan.md) supersedes the earlier
+repeated-load OPEN verdict for this controlled setup. It keeps saved-state
+restoration versus load recalculation OPEN and distinguishes user UI reports
+from independently decoded Save29 flags. Planning/offline inspection only.

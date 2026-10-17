@@ -1,5 +1,9 @@
 # Power restoration and identical-save reloads
 
+**Subsequent Save29 evidence (2026-10-17):** the agreed repeated-load test
+is **PASS** for its controlled setup. [Result and mechanism plan](save29-test-plan.md)
+updates the historical offline uncertainty below; R versus C remains OPEN.
+
 2026-10-17. SOR-EXP-0041 / SOR-EV-0049.
 [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_power_load_reconstruction_determinism.md),
 [frozen criteria](load-contract.md), [review](review.md).
@@ -281,3 +285,13 @@ accepted the exact review02 package against the original criteria. The
 limits, narrow tooling exception and final disposition-only delta check.
 Scientific settled-outcome equivalence remains **NOT YET ESTABLISHED**;
 no live test, integration, publication, commit or push is implied.
+
+## Subsequent player evidence — 2026-10-17
+
+The preceding offline verdict is preserved history. The user subsequently completed
+three fresh-process loads of unchanged Save29 with #1 powered / #2 unpowered
+immediately and again several seconds later. **PASS — repeated-load allocation is
+consistent in this controlled configuration**, settled for project purposes.
+[Result/provenance and mechanism test plan](save29-test-plan.md) records the
+remaining restoration-versus-recomputation equivalence; the player trial did
+not instrument internal writers. This update does not authorize another run.

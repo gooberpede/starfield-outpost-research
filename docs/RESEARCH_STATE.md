@@ -1,5 +1,9 @@
 # Current Research State
 
+**2026-10-17 - Save29: PASS.** Three user-observed fresh-process loads preserve
+#1 powered / #2 unpowered. [Result and causal test plan](experiments/power/save29-test-plan.md)
+records saved bits and the remaining restoration/recalculation question.
+
 **2026-10-17 - P1 focused follow-up:** [Allocation order and switch persistence](experiments/power/followup.md) specifies deque front promotion versus recursive forward generator collection, followed by the allocator's expanding seed vector. Actual saved order is CONDITIONALLY RECONSTRUCTABLE. REFR change masks encode open/default differences; ExtraAction is reconstructed and current animation/pending/interface state remains separate from powered bit 40. Fresh HIST-0036/HIST-0077 inspection and two real-tree fixtures support the qualified saved contract. One eligible He-3 satisfies the ordinary single-cycle check. [Availability](experiments/power/availability.md) and [review](experiments/power/review.md) retain limits and acceptance state; no live/Git/publication authority.
 
 [SOR-EXP-0041 / SOR-EV-0049: P1 power](experiments/power/report.md) maps fixed planet-selected ratings, fuel/crew contribution, typed electrical graphs, cumulative deficit and mixed component partition. [Review](experiments/power/review.md); six saved examples distinguish historical snapshots from current authority. Offline only; no integration or Git mutation authority.
@@ -412,3 +416,21 @@ roots settle identical-reload behavior. Fixed-input owner-refresh root union
 is permutation-invariant; general final convergence remains open. ExtraCB
 entry identity is corrected to FormID. Review/check/package disposition is
 retained in the [existing review record](experiments/power/review.md).
+
+## Save29 repeated-load result and mechanism planning — 2026-10-17
+
+SOR-EXP-0041 / SOR-EV-0049: **PASS — repeated-load allocation is consistent in
+this controlled configuration.** The user reports #1 powered / #2 unpowered
+before and after three desktop exits/fresh loads of the same deficient Save29,
+immediately and several seconds later (solar 6, two Iron extractors 5 each).
+[Durable result and preregistered mechanism plan](experiments/power/save29-test-plan.md)
+records independently backed-up/hashed save bits, the missing screenshot-reference
+join, and the remaining restoration/recomputation equivalence. This supersedes
+the earlier OPEN repeated-load verdict for this setup; historical reports remain
+intact. Mechanism is OPEN. Planning/offline inspection only; no new live authority.
+
+Save29 identity follow-up: subsequent user console positions match #1 to saved
+`ff022917` and #2 to `ff02294d` at two-decimal precision, independently of power
+status. Live IDs changed across the reported restart; they remain session-specific.
+Saved bits agree with the earlier reported live pair; R/C remains OPEN. Latest
+position readings are not counted as a fourth power trial. See the linked plan.
