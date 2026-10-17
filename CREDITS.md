@@ -475,3 +475,13 @@ existing Ghidra/JDK analysis export, CPython/stdlib and Git. Project-owned S1/P1
 contracts, saved readers and S1 packaging supply the reused methods. Fresh
 provenance is in [the ledger](docs/experiments/storage/capacity-sources.csv).
 No new external implementation or licence basis; raw evidence stays local.
+
+## S2 local links and remote lifecycle
+
+2026-10-17. [Native/save synthesis](docs/experiments/local-output-links/report.md)
+uses Bethesda Game Studios' installed native/ESM/development-source material,
+existing Ghidra/JDK state, CPython/stdlib and Git. Project-owned S1/E1-E3/P1
+contracts and saved readers supply the prior discoveries and reused methods;
+the S1 exporter supplies review packaging. Exact inputs/tools and local exports
+are pinned in [the ledger](docs/experiments/local-output-links/sources.csv).
+No outside implementation or new licence basis; raw/private evidence stays local.

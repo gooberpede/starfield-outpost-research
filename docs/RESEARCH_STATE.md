@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-17 - S2 local links and remote production:**
+[SOR-EXP-0043 / SOR-EV-0051](experiments/local-output-links/report.md) connects
+downstream stock movement, transitive store selection and direct production
+delivery. Typed unload events retain producer rows; registered/resolvable
+unloaded references have the same native route. Failed Workshop/producer and
+pending-return cases differ; actual residency and universal debt replay remain
+unmeasured. Fresh H36 reread reproduces246 edges,18 selected inventories/owners
+and nine real edges. [Review](experiments/local-output-links/review.md) controls
+independent disposition. Proposed STRONG/STATIC plus SAVE; S1/E1-E3 preserved,
+no logistics planner, live, integration, Git or publication authority.
+
 **2026-10-17 - S1 capacity follow-up:** [Capacity/receiving report](experiments/storage/capacity-report.md)
 distinguishes cached occupied weight, effective CarryWeight, item-specific local
 floor-fit transfers and production/direct generic batch insertion. Nine actual

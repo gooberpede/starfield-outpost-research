@@ -1,5 +1,18 @@
 # Separately scoped research backlog
 
+## S2 result and S3/cargo boundary - 2026-10-17
+
+[S2](experiments/local-output-links/report.md) supplies ordinary downstream
+movement/direct-production integration. Preserve S1 and E1-E3; no production
+logistics simulator. Current unload residency, sentinel handle reconciliation
+and actual output ordering remain specific gaps; the [matched test proposal](experiments/local-output-links/lifecycle.md)
+grants no live authority. Mixed-item planning has no aggregate reservation in
+the traced operation. S3/cargo should start from separate incoming/outgoing child
+inventories and local reachability, then independently study flights, deliveries/
+returns, inter-system fuel and possible returning-freight spillover. Full local
+storage does not establish return flow. General chest/display/shared access,
+workbench sourcing and Stored Resources remain deferred.
+
 ## Storage follow-on boundary - 2026-10-17
 
 [S1 reference](experiments/storage/report.md) supplies the storage/endpoint model.

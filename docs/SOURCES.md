@@ -1,5 +1,19 @@
 # Source Register
 
+## S2 local output links and remote production
+
+2026-10-17. SOR-EXP-0043 / SOR-EV-0051. [Report](experiments/local-output-links/report.md)
+and [fresh source ledger](experiments/local-output-links/sources.csv) bind
+Bethesda Game Studios' installed executable/ESM/development-source evidence,
+existing Ghidra analysis state, four protected maintainer originals and project
+S1/E1-E3/P1 contracts/readers. Ghidra12.1.2, Temurin21, CPython3.14/stdlib and Git
+are existing tools; no new dependency or external implementation is incorporated.
+Finite saved joins adapt owned S1/P1 prefix/inventory and E2/E3 graph/producer
+readers; package helper adapts the owned S1 exporter under SOR-P-0002 provenance.
+Source-script behavior remains SOURCE-REPORTED, not shipped-PEX equivalence.
+Raw native/save/source payloads LOCAL-ONLY; authored synthesis/metadata
+REVIEW-REQUIRED. No new licence basis, contact, upload or publication authority.
+
 ## Save29 derivative feasibility
 
 2026-10-17. [Report](experiments/power/save29-derivatives.md) extends P1's existing

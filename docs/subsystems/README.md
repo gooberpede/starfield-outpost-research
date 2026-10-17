@@ -1,5 +1,12 @@
 # Outpost Subsystem Research Map
 
+[S2 local links](../experiments/local-output-links/report.md) connects event-driven
+stock movement, transitive store selection, production and registered/resolvable
+remote lifecycle. [Save correspondence](../experiments/local-output-links/saves.md)
+and [review](../experiments/local-output-links/review.md) distinguish snapshots,
+pending bookkeeping and current realization. S1/E1-E3 retained; cargo freight and
+general storage access remain deferred.
+
 [SOR-EXP-0041 / SOR-EV-0049: P1 power](../experiments/power/report.md) maps fixed planet-selected ratings, fuel/crew contribution, typed electrical graphs, cumulative deficit and mixed component partition. [Review](../experiments/power/review.md); six saved examples distinguish historical snapshots from current authority. Offline only; no integration or Git mutation authority.
 
 [D1 disappearing-deposit reconnaissance](../experiments/disappearing-deposits/report.md)

@@ -1,5 +1,19 @@
 # Hypotheses and Open Questions
 
+## S2 ordinary movement and remote lifecycle - 2026-10-17
+
+[SOR-EXP-0043 / SOR-EV-0051](experiments/local-output-links/report.md) supports
+downstream-only existing-stock destinations and separate direct downstream
+creation. Upstream refill-source enumeration is not reverse transfer. Typed
+unload callbacks retain rows; registered/resolvable references can use the same
+delivery route. A universal return-only model is contradicted by the native
+paths; universal simulation/debt replay is unsupported. Missing whole Workshop,
+missing producer and matched return have different predictions in
+[the lifecycle matrix](experiments/local-output-links/lifecycle.md). Mixed-item
+planning supplies a concrete counterexample to aggregate reservation. These are
+proposed STRONG/STATIC scoped explanations pending review, not runtime measurements
+or promotion of older unresolved findings. Cargo return attribution remains OPEN.
+
 ## SOR-H-0012 — Non-unique off-grid embedding after saved-frame reconstruction
 
 [EXP0020 residual map](experiments/static-exhaustion/residual-map.md) narrows H0011: typed descriptor/component joins and saved-mask handling reconstruct the studied indexed representation; exact continuous embedding remains STATICALLY_BLOCKED within the closed target graph. Linear and smooth-warp same-phase extensions agree on all integer centers and translation constraints yet differ for actual residuals. This demonstrates lack of identification under recovered constraints, not correctness of either approximation or universal absence of a native consumer. A qualified independent residual→body geometric observable at a nonzero residual would reopen/discriminate; another floored pair or ordinary move/save sample cannot. Future exact loaded-frame state is separately history/epoch-dependent. No live experiment authorized.
