@@ -485,3 +485,7 @@ contracts and saved readers supply the prior discoveries and reused methods;
 the S1 exporter supplies review packaging. Exact inputs/tools and local exports
 are pinned in [the ledger](docs/experiments/local-output-links/sources.csv).
 No outside implementation or new licence basis; raw/private evidence stays local.
+
+## C1 cargo configuration/UI
+
+2026-10-18. [Research contract and Save52 case](docs/experiments/cargo-links/configuration-ui/report.md) use Bethesda Game Studios' installed native/definition/menu/development-source material, the maintainer's save/screenshot and prior mature-corpus/S1/S2/P1 research. Existing Ghidra/Temurin, CPython/stdlib and Git support static reading, checks and local packaging. Exact provenance is in [the ledger](docs/experiments/cargo-links/configuration-ui/sources.csv). No new outside code or licence basis; underlying assets/source/native/save payloads stay local.

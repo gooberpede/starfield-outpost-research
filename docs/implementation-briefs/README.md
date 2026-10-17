@@ -1,5 +1,8 @@
 # Implementation and Audit Briefs
 
+- [C1 cargo-link configuration/UI/save correspondence](CODEX_BRIEF_SOR_C1_cargo_link_configuration_ui_save.md): invoked 2026-10-18; bounded offline native/compiled-UI/save study and independent [review package](../experiments/cargo-links/configuration-ui/review.md). No live, deployment, save mutation, staging, commit or push.
+
+
 - [S1 storage, inventory and output-link eligibility](CODEX_BRIEF_SOR_S1_storage_inventory_eligibility_runtime_save.md): invoked 2026-10-17; bounded offline native/definition/save reference and [review package](../experiments/storage/review.md). No game, save edits, S2, staging, commit or push.
 
 - [D1 disappearing-deposits reconnaissance](CODEX_BRIEF_SOR_D1_disappearing_deposits_reconnaissance.md): invoked 2026-10-16 for one offline attempt; [result and review](../experiments/disappearing-deposits/report.md).

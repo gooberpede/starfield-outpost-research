@@ -1,30 +1,31 @@
 # Separately scoped research backlog
 
-## S2 result and S3/cargo boundary - 2026-10-17
+## C1 result and S2/cargo follow-on boundary - 2026-10-18
 
-[S2](experiments/local-output-links/report.md) supplies ordinary downstream
-movement/direct-production integration. Preserve S1 and E1-E3; no production
-logistics simulator. Current unload residency, sentinel handle reconciliation
-and actual output ordering remain specific gaps; the [matched test proposal](experiments/local-output-links/lifecycle.md)
-grants no live authority. Mixed-item planning has no aggregate reservation in
-the traced operation. S3/cargo should start from separate incoming/outgoing child
-inventories and local reachability, then independently study flights, deliveries/
-returns, inter-system fuel and possible returning-freight spillover. Full local
-storage does not establish return flow. General chest/display/shared access,
-workbench sourcing and Stored Resources remain deferred.
+[C1](experiments/cargo-links/configuration-ui/report.md) explains configuration/UI
+and Save52. [S2](experiments/local-output-links/report.md) preserves downstream
+stock redistribution/direct production. These backlog entries grant no live,
+implementation or C2/C3 execution authority. User topics in the C1 brief refine
+this existing boundary; earlier S1/S2 findings remain unchanged.
+
+| Deferred topic | Bounded question / provenance |
+|---|---|
+| Storage-container side indicator | Percentage and green/yellow/red thresholds, refresh, effective occupied weight/capacity and clipping/>100% after overcapacity production. Save52 screenshot is a user reference, not live instrumentation. S1 capacity supplies underlying arithmetic, not the display contract. |
+| Remote outpost diagnostics feasibility | From elsewhere (for example Lodge), query membership, individual production eligibility, power, inventory/capacity, local-link graph and pending work. Separate snapshots from trends; unresolved reference is not stopped/empty. |
+| Remote reference/producer lifecycle | Do ordinary distant/unloaded states cause failed resolution/sentinel/pending bookkeeping and later identity reconciliation/delivery/catch-up, versus deletion/exceptional cases? S2's matched lifecycle test remains proposed only; actual residency and universal debt replay are unknown. |
+| Local stock re-redistribution | Which triggers, if any, flush old upstream stock when a destination regains space, beyond established link-add and explicit/script triggers? Mixed-item local plans lack aggregate reservation; no periodic conveyor is inferred. |
+| C2 freight / C3 remote fuel | Preserve user-reported outgoing-to-incoming spillover and **undelivered freight returning from a blocked destination** as an OPEN hypothesis. C2 covers departures, loading/unloading/round trips, stranded/returned cargo; C3 remote saturation/unloaded simulation/recovery and inter-system He-3. Full local storage or C1 empty panels prove none of these causes. |
 
 ## Storage follow-on boundary - 2026-10-17
 
-[S1 reference](experiments/storage/report.md) supplies the storage/endpoint model.
-S2 is separately scoped: directional movement and transfer triggers, multi-hop
-routing, full destinations, cycles, partial insertion/batching and backpressure.
-Defer general chest/display contents and persistence, Shared Outpost Storage
-cross-outpost access, crafting sourcing and LOCATIONS Stored Resources aggregation
-(including whether Shared Storage contributes). The supplied Schrod II Ad image
-is a question prompt, not evidence for aggregation provenance. Preserve possible
-outgoing-to-incoming cargo spillover as the user's unresolved transport hypothesis.
-Ship scheduling, remote freight/returns/saturation and voyage He-3 consumption
-remain outside S1. No follow-on experiment or implementation authority follows.
+[S1 reference](experiments/storage/report.md) supplies storage/endpoint semantics;
+S2 now supplies separately scoped movement. The deferred chest/display phase
+retains general contents/persistence, Shared Outpost Storage cross-outpost access
+and workbench sourcing, and which inventories (including shared storage) feed
+LOCATIONS **Stored Resources**, with its refresh triggers. The supplied Schrod II
+Ad image remains a question prompt, not evidence of aggregation provenance.
+C1's Cargo Link resource panels are different providers. No follow-on experiment
+or implementation authority follows.
 
 ## Save29 allocation authority - bounded closure, 2026-10-17
 

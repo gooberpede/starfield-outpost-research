@@ -905,3 +905,7 @@ maintainer saves and owned E1/S1 contracts/readers. CPython/stdlib, Ghidra/JDK a
 Git are existing separately credited tools. Capacity calculations and packaging
 adapt only project-owned methods; no outside code, download, network contact or
 new permission basis. Payloads LOCAL-ONLY; authored synthesis REVIEW-REQUIRED.
+
+## C1 cargo configuration and management interface
+
+2026-10-18. SOR-EXP-0044 / SOR-EV-0052. [Report](experiments/cargo-links/configuration-ui/report.md) and [hash ledger](experiments/cargo-links/configuration-ui/sources.csv). Primary material: installed Bethesda retail executable/ESM/Interface.ba2/ContentResources.zip, matching imported native state, protected maintainer Save52 copy and attached screenshot. Native Ghidra/JDK, CPython/stdlib and Git are existing credited tools. S1/P1/E2/S2 project-owned framing/definition/inventory/packaging methods and mature-corpus name/topology research are substantively reused and cited at use. E2ReadSession is copied unchanged into ignored C1 work only. New fixed-menu ABC inspection and bounded Extra33 extension are project-authored; no outside implementation, dependency or new permission basis. Shipped PEX/development-source equivalence remains unverified. Raw/private/proprietary evidence LOCAL-ONLY; authored interpretation/metadata REVIEW-REQUIRED.

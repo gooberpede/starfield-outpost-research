@@ -1,5 +1,8 @@
 # Selected Evidence
 
+- **SOR-EV-0052 / SOR-EXP-0044:** [C1 report](../cargo-links/configuration-ui/report.md), [pins](../cargo-links/configuration-ui/sources.csv) and [review](../cargo-links/configuration-ui/review.md). Authored synthesis/metadata REVIEW-REQUIRED; screenshot, save, SWF/ABC, installed source and native exports remain LOCAL-ONLY under `.local-work/c1-cargo/`, `.local-work/recon/c1-cargo-*` and `.local-work/screengrabs/`. No runtime capture or publication clearance.
+
+
 - SOR-EV-0042: [Resource availability report](../resource-availability/report.md), [source pins](../resource-availability/sources.csv), [validation](../resource-availability/validation.md), [review](../resource-availability/review.md). Native/raw/private inputs LOCAL-ONLY; authored selected findings REVIEW-REQUIRED. No new live observations or publication clearance.
 
 - [Position capability register](../../position-model/capabilities.md) consolidates existing evidence IDs without reclassification. Fresh check receipts/patches indexed in [review](../../position-model/review.md); raw derivatives remain local, authored synthesis REVIEW-REQUIRED.

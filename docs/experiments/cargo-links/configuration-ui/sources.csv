@@ -1,0 +1,72 @@
+path,bytes,sha256,classification
+C:\Program Files (x86)\Steam\steamapps\common\Starfield\Starfield.exe,102476200,7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield.esm,1457098709,1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.gpr,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\project.prp,163,113c367c11cdfe9ac46f1cd6194fe380300a021fa4bd9908d8fa91bb2cf58ef8,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\projectState,607,e1bfd9c084d9e1831b2b68b3fa2a568706b37514243539d2b38f4619c881215b,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\~index.bak,116,b27275866cf5b773eaebab219d0f67a14596c7320d8359ad07d18da381c16292,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\~index.dat,116,b27275866cf5b773eaebab219d0f67a14596c7320d8359ad07d18da381c16292,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\~index.bak,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\~index.dat,134,5a7f040bf782833462ecc7231cee2d72f88129f86e6c6e355f1e6c714d33f1a7,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\~journal.bak,114,761827a09392c9adf0451afd31299306225b3682baad7f04eea5a8a1df8b199a,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\versioned\~index.bak,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\versioned\~index.dat,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\00\00000000.prp,528,4b7a5edbcca229d48c89ffad0327849736f0f00732de6ced032ce2bc34881546,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\00\~00000000.db\db.1.gbf,98304,37dd81ca01e6148b53efb15bdf8c25403b3bf523d0e9358e4a4da95923c81a39,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\00\00000000.prp,502,7fa5d97130a0c92448347b20235c8638526fb6b8811cfb95810d5d29b663288d,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\00\~00000000.db\db.1.gbf,278609920,0a1c514ee44064a2065f86e7ff99de425990cfcce608f356018c753206156331,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\00\~00000000.db\db.2.gbf,1634222080,9465cc9944d35acb75440471b0841fece52cc142341c269a5129a575791ded44,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+C:\Users\User\Documents\My Games\Starfield\Saves\Autosave2_BA75E3CDM43616F205472616E_571959_20260815111021_319_15_4.sfs,15052384,3830eb374f086bece85ca3e92ff2d13a3d5aa811193f0c2e583c4564000551bc,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+C:\Users\User\Documents\My Games\Starfield\Saves\Autosave2_BA75E3CDM43616F205472616E_580814_20260919093221_319_15_4.sfs,16391440,babba0dd0e1822d7afebea5ddee4461392070c25423daa494910fee831f07caa,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+C:\Users\User\Documents\My Games\Starfield\Saves\Autosave1_BA75E3CDM43616F205472616E_580731_20260818031907_319_15_4.sfs,16861680,7e6642f49774c9827fe5230f8cdccdff6b00e4af8738dac11018b56e7ffeca37,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\savegames\Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs,16411136,6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+docs\implementation-briefs\CODEX_BRIEF_SOR_C1_cargo_link_configuration_ui_save.md,13472,96b36de2286ee664c8248fc55b7c47c526c014ae9374b0f7d7cf3a7804cb14ce,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+.local-work\screengrabs\20261017235826_1.jpg,286511,b3dd624bb0a641526aa0fbca2f478ebe676fb06c38a21abf4c8ca14f0d8fb7d2,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\s1-storage\saved06.json,1532780,0001dcecfe4454a5e6f1426eeaad87c012dd14a7d834a98faada4fe61929278e,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\e2-organic\inventory02.json,374629763,2627dffc61eff93b74b514bdf8a810df93ce3a3fce5c8c3463b0051d8bdf1b84,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\research\c1-cargo\save_case.py,7282,d07076249f79716e9b8b0445d35c2b0e593f1369e56a6245683361d15e37c68e,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\s1-storage\assemblies01.json,331026,41ba64ad8b2e31a82403e3f8a5d4f3369f6f60fa3ad3c4c3d2c07aaff7286517,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+C:\Program Files (x86)\Steam\steamapps\common\Starfield\Tools\ContentResources.zip,163283936,b5f3f66d6041193c2db139c50a8a4a2da7a80c862a95ba5eec929c7a2c42983c,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield - Interface.ba2,135450443,dab6aeebb7e54282818e9a1957e80baef22ae992c6363cbe910f92b8adf3e702,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\WorkshopTargetMenu.swf,64915,0984bcc8e3d6bb57ce45f69cf0ec001ac68e09138a12a0ae8f4b95eddce3f49c,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\research\c1-cargo\sources.py,4577,f64a97ba4a380ef90779739fbcfc53dec5a2bd678cf18c24f1a36f60f016406a,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\recon\scripts\OutpostCargoLinkMenuScript.psc,1034,0442e1587a42838ceb8a10c0f49b352ed8c52c85286297c3f165944bd58d6726,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\recon\scripts\OutpostCargoLinkMarkerScript.psc,3873,c26014c735930edc10186625bdce013a053a7f19d01f80ddafc54ff36e5e3c51,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\recon\scripts\OutpostCargoLinkPackinScript.psc,1045,30ca28a28e83865abe16bfa0cc98154c5682ab4a38791e79405819b9a7d3297b,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\recon\scripts\SQ_OutpostCargoLinkScript.psc,24988,2aaceaae462fdac1fc1ab3f7732a1f3e5574af02416cbc440e6e9a74118a899f,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\recon\c1-cargo-01.tsv,9584,28e9d2f7e632173021cff0d927d66c874c9481e9f87196394a90e1e156216c9c,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\recon\c1-cargo-02.tsv,51744,fe4bd3311ec96d5be3cd497e41c8c8f857305ba63778f81bc0e734b252db2c62,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\recon\c1-cargo-03.tsv,16041,838fc84e2e2251a588d2359888af18d3f85bfa28ed224d9c4311c74fd76b2ae0,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\001.request.tsv,32141,632a132a9ab6fa5572e97c1fd5e9d0f9c2b65b0dedc9891227e59c6a6420f8fc,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\002.request.tsv,34870,08122552cd98be76799a49e8a2327e980781bd0e0e25bc82884496bd675dec75,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\003.request.tsv,157365,8ffdb5557b95e15712182372a025be562096b97c037c222d863556246b13488f,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\004.request.tsv,19767,c234eb4960b3dc5020141430229613d4b0209d9268f6fb487c0d2e9ab78087cd,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\005.request.tsv,71086,6fd0d20409640a8b76ddce660a637535362c74ad896ad77b8b2c93d5353dfb8b,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\006.request.tsv,56108,954d31ba7f1438ec643a8a48f8bc807e7355e586cb37b4c014d40c85c37c1544,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\007.request.tsv,25538,7fe299e6b7c5b95f4a28e144a597f14c68da475f726a3c77b3b7bf3d56493c53,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\008.request.tsv,6454,546303a46632862af05ca3af5395fa10c2c627824a4da1e2e59b2374e1f60f4f,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\009.request.tsv,38580,5f50e61c80af33a7663a8bbdc1ce2d121bede8d747a825a01e1a0c061da04b52,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\010.request.tsv,61147,04b9679d920cc44d277e1180ab4362f358d613861cd0e41d8704d324ae024330,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\baseline.json,5752,205aad340737d2805423dcfd06896d344b1d10ac6ccc3b3c4db9f1c86072794a,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\save06.json,201468,e51946f1ee87a8a5f005c79d2eca570957d7cfa2a76b8754c59753b3939b163a,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\sources03.json,78985,d18360b120f29025fd53fc182861c872dd38f870f8b4d42fb2bbd1a309b45ac5,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\menuabc03.json,202696,0ecf10ee374dc3e8994b21ba6f75d6bc6fb13b674a5b488a9296292e9926ab70,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\research\c1-cargo\verify.py,10174,3f5203bcf9fdf3732dff516c5cb488b7e1830540ccaf2276992606ad5fd809de,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\research\c1-cargo\menu_abc.py,8137,b0a062005f258072b5523aad76905e2c8d68d5759af6f6424c1ec391d87732a1,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\ghidra\scripts\OutpostRecon.java,15404,8faa1330593d3874150b269b3b4b9cf5b5becab9fc35bb003e1d960a61ea65b7,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\ghidra\scripts\Invoke-OutpostRecon.ps1,1791,23849f10be61a17ff681529aae96e12e98f0f5f77b858a0029d36b924ac6d8dc,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\E2ReadSession.java,1504,a2ddd91c138e12a48f674bb3eeb45ecf3cb3c65436b206d5906c8a791aa0bc3c,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\session.log,3979,48d695cb1da064116ffe14275e3b1679c6cb3290ef57f46d14b071b5e6996947,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+C:\Users\User\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.12.8-hotspot\bin\java.exe,50296,a38d821efb69ef99c55d315b00d9e8b88f126743b8773e44154e1a3d193efd41,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\python.exe,106328,cce21c0e8710e304273e98ac4b2b0f5aceb639acbcd2343cbaa5c4e81619c45b,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\tools\ghidra_12.1.2_PUBLIC\Ghidra\application.properties,659,80890f309379ef60ecbb376a95448bd79e874145544ffcfabb5ba1835ac8a2cf,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\001.request,109,602bf46fba311b9051c22a4653faf6cfba1bbe9ff514d471995e1b5294076a00,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\002.request,131,838e9441079aa77749ce77d1094efcc0c07a6182390c1d2596b65f6a631bc34a,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\003.request,119,458dbc31ef3c6c00ac5b8fce5bd3c9fb4b68d61ca7dcc6c5f9149b64bd07a06c,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\004.request,161,d5b88c635eacf1800b7bf5c0a5a0c0bb510b2b6cc2f6a17e1299ef3940085acf,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\005.request,131,a0290750706d31915314233b0640ef6e8ad3ec1d332266e6df4811856c8d9f88,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\006.request,133,f0670effbc0375d648176c6229b55a67e305f0cbd7ddaaf3609d38af91763499,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\007.request,151,f2d8c36673ef559f0a1cb8538f9f004b489fb8022b9627cecbd4574aa36ad846,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\008.request,110,a184c9103274a1521f8e30029726a5beff7692808e311dfe44ed0d48a8cdcfe7,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\009.request,93,4b7afc7cc252233e8bb33d1f36d1e5cba97a430e4cb4f63aa145050753c1ceb8,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY
+D:\Projects\starfield-outpost-research\.local-work\c1-cargo\native\010.request,106,b4628718d16a6c86d064068dea90cda414bc97484dcebf52a199d13e73fbabb4,Metadata REVIEW-REQUIRED; payload LOCAL-ONLY

@@ -1,5 +1,8 @@
 # Outpost Subsystem Research Map
 
+[C1 cargo configuration/UI](../experiments/cargo-links/configuration-ui/report.md) joins ordinary saved pair/terminal/compartments to candidates, resource panels and refresh. Empty outboxes and direct-only recipe demand explain the Feynman I/VII-b case. [Review](../experiments/cargo-links/configuration-ui/review.md); C2/C3 remain separate.
+
+
 [S2 local links](../experiments/local-output-links/report.md) connects event-driven
 stock movement, transitive store selection, production and registered/resolvable
 remote lifecycle. [Save correspondence](../experiments/local-output-links/saves.md)

@@ -1,5 +1,8 @@
 # Current Research State
 
+**2026-10-18 - C1 cargo configuration/UI:** [Answer-first report](experiments/cargo-links/configuration-ui/report.md) maps candidates/pairing, native providers, compiled menu bindings and refresh. Save52's unique ordinary Feynman I/VII-b pair has empty four child bays and ship; incoming bays feed immediate Warehouses, so indirect fabricators do not populate build-needs. STRONG scoped STATIC/SAVE explanation; historical screenshot epoch remains unobserved. [Review/package](experiments/cargo-links/configuration-ui/review.md) controls independent disposition. C2/C3 deferred; no live/integration/Git/publication authority.
+
+
 **2026-10-17 - S2 local links and remote production:**
 [SOR-EXP-0043 / SOR-EV-0051](experiments/local-output-links/report.md) connects
 downstream stock movement, transitive store selection and direct production

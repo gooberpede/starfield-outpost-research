@@ -292,3 +292,7 @@ in [the register](experiments/storage/functions.csv) trace effective capacity,
 weight/cache/invalidation, MISC mass loading, generic versus local receiving and
 actual transfer descriptors. STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED;
 current live values and safe invocation remain unqualified.
+
+## C1 cargo configuration/UI
+
+SOR-EXP-0044 / SOR-EV-0052. [Native contract](experiments/cargo-links/configuration-ui/native.md) and [exact function locations](experiments/cargo-links/configuration-ui/functions.csv) cover menu setup/candidates/picking, direct-successor recipe needs, outbox iteration, ship weight, UI binding and 4C/Extra33 restoration. Static VAs use image base0x140000000 with explicit RVAs. OBSERVED-INTERNAL only; no invocation, live validation or safe integration claim.

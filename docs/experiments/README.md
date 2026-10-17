@@ -1,5 +1,8 @@
 # Experiments
 
+- [SOR-EXP-0044 / SOR-EV-0052 - C1 cargo configuration/UI](cargo-links/configuration-ui/report.md): source-to-binding contract and Save52 correspondence; [review](cargo-links/configuration-ui/review.md). Offline only; freight lifecycle deferred.
+
+
 - [SOR-EXP-0043 / SOR-EV-0051 - S2 local output links](local-output-links/report.md): downstream movement, direct production delivery and [remote lifecycle](local-output-links/lifecycle.md); [review](local-output-links/review.md). Offline only; actual residency/output transitions unmeasured, cargo freight deferred.
 
 - [SOR-EXP-0042 / SOR-EV-0050 - S1 storage and link eligibility](storage/report.md): ordinary weight/filter/endpoint model and saved item/owner joins; [review package](storage/review.md). Offline only; S2 and current loaded measurements remain separate.

@@ -244,3 +244,7 @@ inventory serialization to four protected historical originals. Missing inventor
 flags and unknown extras never establish empty stock; no current loaded authority
 or universal construction population is claimed. Raw evidence LOCAL-ONLY;
 authored interpretation REVIEW-REQUIRED, independent disposition in the package.
+
+## C1 cargo state versus UI state
+
+SOR-EXP-0044 / SOR-EV-0052. [Field mapping](experiments/cargo-links/configuration-ui/save52.md#field-by-field-correspondence) distinguishes persisted peer/ship/child/owner4C, local-edge envelope and item inventories from definition/default capacity/recipes, reconstructed reverse links/handles and transient candidate/selected/resource arrays. The pictured pair's four bays and ship explicitly declare zero saved items. Immediate Warehouses prevent indirect recipe demand from entering this UI query; no freight-health or historical screen-epoch authority follows.
