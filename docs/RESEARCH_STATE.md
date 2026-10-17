@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-17 - S1 storage and output-link eligibility:**
+[SOR-EXP-0042 / SOR-EV-0050](experiments/storage/report.md) maps dedicated
+75/150/300-weight stores, producer buffers, reference-level native link gates,
+chest prohibitions, cargo child inventories and upstream recipe/fuel inputs.
+Four distinct protected historical originals corroborate item counts, mixed
+warehouse contents, explicit empty serialized lists and Workshop owner joins.
+Current effective values and loaded transitions remain unobserved; unsupported
+stack extras and absent sampled Transfer Container/chest/husbandry joins are
+explicit coverage gaps. [Review/package](experiments/storage/review.md) controls
+independent completion; no S2, live, staging, commit, push or publication authority.
+
 **2026-10-17 - Save29 mechanism adjudication: C / STRONG.**
 [Native/save derivation](experiments/power/save29-authority.md) recovers the beacon's
 ordered CB list (solar, #1, #2), grounds the same consumer order for every eligible

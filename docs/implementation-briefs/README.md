@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [S1 storage, inventory and output-link eligibility](CODEX_BRIEF_SOR_S1_storage_inventory_eligibility_runtime_save.md): invoked 2026-10-17; bounded offline native/definition/save reference and [review package](../experiments/storage/review.md). No game, save edits, S2, staging, commit or push.
+
 - [D1 disappearing-deposits reconnaissance](CODEX_BRIEF_SOR_D1_disappearing_deposits_reconnaissance.md): invoked 2026-10-16 for one offline attempt; [result and review](../experiments/disappearing-deposits/report.md).
 
 - [Native availability output contracts and completion](CODEX_BRIEF_SOR_native_availability_output_contracts_completion.md): invoked 2026-10-16; bounded offline reference and completion assessment, [review package](../experiments/native-availability-map/output-review.md). No extractor, native call, observer, game/save, staging, commit or push.

@@ -867,3 +867,17 @@ Existing CPython 3.14.3/stdlib tooling performs local byte/hash checks and
 projections. No new third-party source, implementation, dependency or permission
 basis is introduced. Native/save payloads remain LOCAL-ONLY; authorship of the
 synthesis does not clear the underlying evidence for redistribution.
+
+## S1 storage and output-link eligibility
+
+2026-10-17. SOR-EXP-0042 / SOR-EV-0050. [Report](experiments/storage/report.md),
+[source hash metadata](experiments/storage/sources.csv). Primary evidence is the
+freshly hash/version-checked installed Bethesda retail executable/main ESM,
+existing native analysis state exported readOnly/noanalysis, four protected
+maintainer historical saves and installed OutpostContainerScript development
+source (SOURCE-REPORTED behavior, not shipped PEX equivalence). No community
+claim or third-party implementation is used as a semantic baseline. New scripts
+adapt project-owned E2/E3 definition/header methods and P1 saved extra grammar;
+the package helper adapts the owned P1 exporter. Existing Ghidra/Temurin/CPython/Git
+are separately credited as tools, not evidence-rights clearance. Original source,
+native and save bytes stay local; authored metadata/synthesis REVIEW-REQUIRED.

@@ -233,3 +233,14 @@ restoration of mask 40 and later load-triggered recalculation. Settled authority
 depends on applicable effective callbacks or proven convergence, not solely the
 saved bit. ExtraCB entries retain remapped FormIDs; reverse4D and temporary
 queues instead use manager handles. Identical-reload settled results remain OPEN.
+
+## SOR-EXP-0042 - reference inventories and local endpoint roles
+
+[S1 matrix](experiments/storage/report.md#runtime-and-persistence-correspondence)
+separates definition-derived capacity/filter defaults, persisted item/stack/owner
+and direct-link identities, Mixed effective AV state, and reconstructed handles,
+arrays and graph caches. [Saved examples](experiments/storage/saves.md) join native
+inventory serialization to four protected historical originals. Missing inventory
+flags and unknown extras never establish empty stock; no current loaded authority
+or universal construction population is claimed. Raw evidence LOCAL-ONLY;
+authored interpretation REVIEW-REQUIRED, independent disposition in the package.

@@ -1,5 +1,7 @@
 # Experiments
 
+- [SOR-EXP-0042 / SOR-EV-0050 - S1 storage and link eligibility](storage/report.md): ordinary weight/filter/endpoint model and saved item/owner joins; [review package](storage/review.md). Offline only; S2 and current loaded measurements remain separate.
+
 [SOR-EXP-0041 / SOR-EV-0049: P1 power](power/report.md) maps fixed planet-selected ratings, fuel/crew contribution, typed electrical graphs, cumulative deficit and mixed component partition. [Review](power/review.md); six saved examples distinguish historical snapshots from current authority. Offline only; no integration or Git mutation authority.
 
 - SOR-EXP-0037 / SOR-EV-0045: [Disappearing deposits D1](disappearing-deposits/report.md), [save/control evidence](disappearing-deposits/sites.csv), [hypotheses](disappearing-deposits/hypotheses.md) and [review](disappearing-deposits/review.md). PARTIALLY DISCRIMINATED; one offline reconnaissance, no proven cause or live authority.

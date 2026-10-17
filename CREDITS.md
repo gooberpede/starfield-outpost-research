@@ -454,3 +454,15 @@ Existing CPython 3.14.3/stdlib tooling performs local byte/hash checks and
 projections. No new third-party source, implementation, dependency or permission
 basis is introduced. Native/save payloads remain LOCAL-ONLY; authorship of the
 synthesis does not clear the underlying evidence for redistribution.
+
+## S1 storage and link eligibility
+
+2026-10-17. [SOR-EXP-0042 / SOR-EV-0050](docs/experiments/storage/report.md)
+uses Bethesda Game Studios' installed native definitions/executable and development
+source, existing Ghidra 12.1.2_PUBLIC analysis state, Temurin 21.0.12+8, CPython
+and Git. Existing maintainer-owned E1-E3/P1 contracts, ESM/save readers and P1
+packaging methods supply the reused research foundation. Exact paths/hashes and
+point-of-use provenance are in the [source ledger](docs/experiments/storage/sources.csv)
+and linked contracts. No outside code/dependency was incorporated, no new licence
+basis adopted and no external disclosure made. Raw/game-derived evidence stays
+LOCAL-ONLY; authored interpretations remain REVIEW-REQUIRED.

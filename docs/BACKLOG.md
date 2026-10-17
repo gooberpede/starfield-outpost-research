@@ -1,5 +1,18 @@
 # Separately scoped research backlog
 
+## Storage follow-on boundary - 2026-10-17
+
+[S1 reference](experiments/storage/report.md) supplies the storage/endpoint model.
+S2 is separately scoped: directional movement and transfer triggers, multi-hop
+routing, full destinations, cycles, partial insertion/batching and backpressure.
+Defer general chest/display contents and persistence, Shared Outpost Storage
+cross-outpost access, crafting sourcing and LOCATIONS Stored Resources aggregation
+(including whether Shared Storage contributes). The supplied Schrod II Ad image
+is a question prompt, not evidence for aggregation provenance. Preserve possible
+outgoing-to-incoming cargo spillover as the user's unresolved transport hypothesis.
+Ship scheduling, remote freight/returns/saturation and voyage He-3 consumption
+remain outside S1. No follow-on experiment or implementation authority follows.
+
 ## Save29 allocation authority - bounded closure, 2026-10-17
 
 [Offline result](experiments/power/save29-authority.md): **C / STRONG** for ordinary

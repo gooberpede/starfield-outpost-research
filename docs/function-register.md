@@ -274,3 +274,13 @@ to that same CSV: flag restoration, association rebuilding, FormID versus
 handle resolution, global-data finish, actual object-loaded sink binding,
 ordered notification restoration and unresolved-owner cleanup. STATIC /
 OBSERVED-INTERNAL; no safe invocation or settled-outcome qualification.
+
+## SOR-EXP-0042 - inventory and local-link eligibility
+
+[S1 native register](experiments/storage/functions.csv) and
+[contracts](experiments/storage/native.md) retain preferred VA/RVA, original
+function names, exact export locators, owner/weight/capacity, source/pair/UI gates,
+inventory serialization and Transfer Container access paths. Reuse E1-E3/P1
+production/input/link contracts rather than duplicating or changing their aliases.
+All new interpretations STATIC / OBSERVED-INTERNAL / REVIEW-REQUIRED;
+no public ABI, safe invocation or integration is qualified.
