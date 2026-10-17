@@ -1,5 +1,16 @@
 # Credits
 
+## Save29 derivative feasibility
+
+2026-10-17. [P1 feasibility](docs/experiments/power/save29-derivatives.md) credits
+the maintainer's Save29 and console-position reports, Bethesda's local save and
+installed executable/definition evidence, and existing project-owned container,
+record, reference and extra readers. Python Software Foundation/CPython and
+zlib/zlib-ng contributors supply the installed separate decoding/checksum tools;
+Git supplies read-only diff/export support. No third-party implementation or new
+dependency is incorporated. Raw evidence remains LOCAL-ONLY and authored
+interpretation REVIEW-REQUIRED; no writer or live acceptance is claimed.
+
 ## Disappearing deposits D1 — 2026-10-16
 
 [D1 source ledger](docs/experiments/disappearing-deposits/public-sources.md)

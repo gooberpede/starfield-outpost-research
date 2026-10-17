@@ -1,5 +1,15 @@
 # Bounded P1 offline research utilities
 
+`save29_feasibility.py --run NAME` is an original bounded feasibility probe,
+**not a save writer**. It reads the exact existing Save29 archive/receipts,
+protected Save3/29 originals, installed executable/ESM and owned readers. It
+writes exclusive ignored `.local-work/p1-save29-derivatives/NAME/feasibility.json`
+and temporary decoder coverage probes that are removed on exit; no `.sfs`
+candidates, original edits, game/database/network/Git writes. Run CPython `-B`
+from repository root, with matching prior pins and C:/D: 40 GB free guards.
+[NO-GO report and serialization prerequisite](../../docs/experiments/power/save29-derivatives.md)
+explain why reader acceptance does not qualify repacking.
+
 [Brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md),
 [report](../../docs/experiments/power/report.md).
 Original GPL-3.0-or-later code, using owned strict ESM/save readers from E1–E3.

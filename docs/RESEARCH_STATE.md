@@ -1,5 +1,13 @@
 # Current Research State
 
+**2026-10-17 - Save29 derivative preparation: NO-GO.**
+[Feasibility report](experiments/power/save29-derivatives.md) records an actual
+opaque BCPS-header validation gap and reverified saved identities/masks. No C/R/O
+candidate saves emitted; the [preregistered card](experiments/power/save29-derivative-card.md)
+is documentation only. Container serialization qualification is the next prerequisite;
+restoration versus recalculation remains NOT TESTED. Earlier Save29 PASS is preserved.
+[Review package](experiments/power/save29-derivative-review.md) controls disposition.
+
 **2026-10-17 - Save29: PASS.** Three user-observed fresh-process loads preserve
 #1 powered / #2 unpowered. [Result and causal test plan](experiments/power/save29-test-plan.md)
 records saved bits and the remaining restoration/recalculation question.

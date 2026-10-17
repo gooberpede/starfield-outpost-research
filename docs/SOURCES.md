@@ -1,5 +1,19 @@
 # Source Register
 
+## Save29 derivative feasibility
+
+2026-10-17. [Report](experiments/power/save29-derivatives.md) extends P1's existing
+SOR-EXP-0041 / SOR-EV-0049 provenance. Maintainer-provided Save29 and console-position
+testimony, Bethesda's save/container bytes and installed executable/ESM, and
+project-owned strict stream/whole-buffer readers and reference/extra grammars
+provide the evidence. `save29_feasibility.py` is original bounded probe code;
+no qualified writer or third-party serialization source was adopted. Existing
+CPython 3.14.3/zlib-ng and Git execute separate offline checks/packaging, without
+runtime redistribution or dependency installation. Exact source/tool/input pins
+are local in `.local-work/p1-save29-derivatives/probe01/feasibility.json`.
+Opaque-field reader acceptance is a coverage observation, not a game-format
+specification. No outside consultation, contact, incorporation or disclosure.
+
 ## Disappearing deposits D1 — SOR-S-0151–0158
 
 2026-10-16. [Dated public-source/query ledger](experiments/disappearing-deposits/public-sources.md)
