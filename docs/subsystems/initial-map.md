@@ -272,3 +272,7 @@ inputs from current power and runtime reconstruction.
 ## CR1 current-assignment continuation
 
 Crew persistence correction: [real current saved assignments](../experiments/crew/current-assignments.md) connect four actor4C/E2 pairs to unique ordinary beacons; positive named available-roster instances are now qualified; post-load authority remains open. Existing CR2/CR3 boundaries remain.
+
+## CR3 contribution lifecycle continuation
+
+[CR3](../experiments/crew-lifecycle/report.md) connects E2 assignment and selected generic template parts to per-actor active entries, load replay and producer interval reset. Physical travel, handle resolution, process-entry residency and realized output remain distinct. [Native state matrix](../experiments/crew-lifecycle/native.md), [saved witnesses](../experiments/crew-lifecycle/persistence.md), [review](../experiments/crew-lifecycle/review.md).

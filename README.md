@@ -306,3 +306,7 @@ Identical-save settled consumer outcomes remain not yet established.
 ## CR2 crew skill effects
 
 [CR2 causal reference](docs/experiments/crew-skills/report.md) explains qualified crew skills, per-consumer stacking, robot power, ship/actor exclusions and sampled saved ranks. [Review package](docs/experiments/crew-skills/review.md). Offline research; REVIEW-REQUIRED, no live/integration/publication authority.
+
+## CR3 crew contribution lifecycle
+
+[CR3 report](docs/experiments/crew-lifecycle/report.md) distinguishes assignment, arrival, active entries and cached production clocks. Selected template-part evidence qualifies real assigned generic Engineering, Management and Security witnesses; native finalization clears/replays selected perk entries. [Review](docs/experiments/crew-lifecycle/review.md) controls completion; actual remote process state/output remain unobserved. Offline only; no staging, commit or push.

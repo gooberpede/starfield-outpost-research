@@ -156,3 +156,5 @@ H1-H4 and proposed-only repeated-load validation. No new live authority.
 [CR1 current saved assignments](crew/current-assignments.md): earlier mature reciprocal4C/E2 witnesses and distinct control; [corrective review](crew/current-review.md).
 
 - [SOR-EXP-0048 / SOR-EV-0056 — CR2 crew skill effects](crew-skills/report.md): qualified census, causal admission/consumers, stacking, process impact and sampled saved ranks; [independent review/package](crew-skills/review.md). Offline only.
+
+- [SOR-EXP-0049 / SOR-EV-0057 — CR3 remote crew lifecycle](crew-lifecycle/report.md): assignment versus arrival, life/process/entry gates, load replay, selected generic specialist witnesses and producer clock adoption; [review](crew-lifecycle/review.md). Offline only.

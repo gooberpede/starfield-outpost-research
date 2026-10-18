@@ -943,3 +943,7 @@ CR1 current-assignment continuation: [source metadata](experiments/crew/current-
 ## CR2 crew skills and modifier consumers
 
 2026-10-18, SOR-EXP-0048 / SOR-EV-0056. [Source ledger](experiments/crew-skills/sources.csv), [function evidence](experiments/crew-skills/functions.csv), [methods](../research/cr2-skills/README.md). Credits Bethesda installed retail EXE/ESM/Misc.ba2/development source, matching existing Ghidra analysis and maintainer historical saves. Reuses project-owned CR1 current-assignment/PEX, E1-E3/P1/S1/S2/C2/C3 causal research, mature-corpus framing/streaming/guards and review exporter under SOR-P-0002. No new outside implementation/dependency, licence basis, network or disclosure. Raw proprietary/save payloads LOCAL-ONLY; authored metadata/interpretation REVIEW-REQUIRED.
+
+## CR3 crew contribution lifecycle
+
+2026-10-18, SOR-EXP-0049 / SOR-EV-0057. [Source pins](experiments/crew-lifecycle/sources.csv), [functions](experiments/crew-lifecycle/functions.csv), [methods](../research/cr3-lifecycle/README.md). Bethesda installed retail native/ESM/scripts and matching existing Ghidra analysis; maintainer protected earlier saves. Owned CR1/CR2/E1/E3/P1/S2 discoveries/readers and CR2 review exporter reused under SOR-P-0002. Existing CPython/stdlib, Ghidra/Temurin and Git support offline examination/checks. No new outside code/dependency/permission basis or external disclosure. Raw/proprietary/private primary payloads LOCAL-ONLY; authored interpretation/numeric metadata REVIEW-REQUIRED.
