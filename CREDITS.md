@@ -489,3 +489,7 @@ No outside implementation or new licence basis; raw/private evidence stays local
 ## C1 cargo configuration/UI
 
 2026-10-18. [Research contract and Save52 case](docs/experiments/cargo-links/configuration-ui/report.md) use Bethesda Game Studios' installed native/definition/menu/development-source material, the maintainer's save/screenshot and prior mature-corpus/S1/S2/P1 research. Existing Ghidra/Temurin, CPython/stdlib and Git support static reading, checks and local packaging. Exact provenance is in [the ledger](docs/experiments/cargo-links/configuration-ui/sources.csv). No new outside code or licence basis; underlying assets/source/native/save payloads stay local.
+
+## C2 cargo transport
+
+2026-10-18. [C2 causal/save study](docs/experiments/cargo-links/transport/report.md) uses Bethesda Game Studios' installed executable/ESM/development source/shipped PEX, existing matching Ghidra/Temurin analysis and the maintainer's Save52. Owned C1/S1/S2/E1-E3 and mature-corpus research supply prior framing, inventory, graph, clock and identity discoveries; reused methods are cited in [the aids](research/c2-transport/README.md) and [source ledger](docs/experiments/cargo-links/transport/sources.csv). Existing CPython/stdlib and Git support finite checks/local packaging. No new outside code or licence basis; raw evidence remains local.

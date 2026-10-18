@@ -1,5 +1,34 @@
 # Separately scoped research backlog
 
+## Future modding application: native cargo-link management UI
+
+2026-10-18, documentation only under [C2](experiments/cargo-links/transport/report.md).
+Extend [C1's inventory/direct-neighbor queries](experiments/cargo-links/configuration-ui/report.md)
+using [S2 local output-link traversal](experiments/local-output-links/native.md).
+For **Outgoing Resources**, trace upstream through intermediate storage to
+configured extractors, greenhouses, husbandry and fabricators, deriving their
+products/recipes even when every intermediate inventory and the outgoing bay
+is empty. Show configured potential, current eligibility/operation and physical
+stock separately. For **Build Resources Needed**, trace downstream through
+storage to ultimate fabricator/fueled consumers; distinguish possible recipe
+inputs, local supply and actual unmet/import demand. Reachability alone does
+not imply exclusive import need or a producer's intended destination.
+
+Account for branches, cycles, mixed stock and ambiguous producer/consumer intent;
+do not duplicate quantities along multiple reachable paths or infer an exclusive
+manifest. Consider read-only remote graph/stock/eligibility diagnostics alongside
+the existing **Remote outpost diagnostics feasibility** entry below. C2's shared
+hold, returned freight and asynchronous sampling make stock provenance and
+freshness explicit requirements. This preserves the user's application idea;
+it authorizes no plugin design, implementation, hook, UI patch, package or new
+source project. A separately agreed implementation brief is required.
+
+Current C2/C3 boundary: remote/unloaded **transport**, saturation and interruption
+are investigated in C2; detailed inter-system He-3 acquisition, rate,
+replenishment, fuel transport and persistence remain C3. This supersedes the
+earlier C1 follow-on allocation of remote transport to C3 below; it does not
+reclassify C1 evidence or authorize C3.
+
 ## C1 result and S2/cargo follow-on boundary - 2026-10-18
 
 [C1](experiments/cargo-links/configuration-ui/report.md) explains configuration/UI

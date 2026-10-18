@@ -1,5 +1,7 @@
 # Current Research State
 
+**2026-10-18 - C2 cargo transport:** [Answer-first model](experiments/cargo-links/transport/report.md) traces the shared two-end hold, retained freight returning to origin incoming, per-ship quantized game timers, native travel/completion and ordinary cleanup. Wider Save52:24 selected ships,19 decoded holds (11 stocked/8 empty), five explicit gaps; principal C1 case preserved. STRONG STATIC/SAVE causal findings; historical incident/flight timing unobserved. [Frozen criteria/review](experiments/cargo-links/transport/review.md) controls completion. Remote transport belongs to C2; detailed He-3 remains C3. Future native UI enhancement recorded in backlog only. No live/integration/Git/publication authority.
+
 **2026-10-18 - C1 cargo configuration/UI:** [Answer-first report](experiments/cargo-links/configuration-ui/report.md) maps candidates/pairing, native providers, compiled menu bindings and refresh. Save52's unique ordinary Feynman I/VII-b pair has empty four child bays and ship; incoming bays feed immediate Warehouses, so indirect fabricators do not populate build-needs. STRONG scoped STATIC/SAVE explanation; historical screenshot epoch remains unobserved. [Review/package](experiments/cargo-links/configuration-ui/review.md) controls independent disposition. C2/C3 deferred; no live/integration/Git/publication authority.
 
 

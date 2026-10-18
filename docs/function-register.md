@@ -296,3 +296,7 @@ current live values and safe invocation remain unqualified.
 ## C1 cargo configuration/UI
 
 SOR-EXP-0044 / SOR-EV-0052. [Native contract](experiments/cargo-links/configuration-ui/native.md) and [exact function locations](experiments/cargo-links/configuration-ui/functions.csv) cover menu setup/candidates/picking, direct-successor recipe needs, outbox iteration, ship weight, UI binding and 4C/Extra33 restoration. Static VAs use image base0x140000000 with explicit RVAs. OBSERVED-INTERNAL only; no invocation, live validation or safe integration claim.
+
+## C2 cargo transfer, timer and native travel
+
+SOR-EXP-0045 / SOR-EV-0053. [Exact native locations](experiments/cargo-links/transport/functions.csv), [inventory contract](experiments/cargo-links/transport/inventory.md), [clock/modifiers](experiments/cargo-links/transport/timing.md) and [travel/recovery](experiments/cargo-links/transport/lifecycle.md) trace registration-to-mutation, timer producers/dispatch/persistence and concrete path-completion providers. Preferred static VAs, image base0x140000000, explicit RVAs. OBSERVED-INTERNAL only; no safe invocation/ABI/hook or universal flight-duration qualification.

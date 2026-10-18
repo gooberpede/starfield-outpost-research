@@ -256,3 +256,7 @@ specifies front worklist versus recursive generator collection, conditional
 saved replay and REFR open-state persistence. Its
 [availability table](../experiments/power/availability.md) separates these
 inputs from current power and runtime reconstruction.
+
+## C2 cargo transport - 2026-10-18
+
+[SOR-EXP-0045 / SOR-EV-0053](../experiments/cargo-links/transport/report.md) explains ordinary/fueled two-end shipping, capacity-limited shared hold and returned origin-incoming freight. [Timers/modifiers](../experiments/cargo-links/transport/timing.md) separate quantized game deadlines from production elapsed and native movement; [lifecycle](../experiments/cargo-links/transport/lifecycle.md) connects completion, remote paths, wait/reload and cleanup. [Saved mapping](../experiments/cargo-links/transport/saves.md) broadens the principal C1 case without inferring historical journeys. Supersedes earlier cargo-timing/return-mechanism OPEN scope for these mapped paths; detailed He-3 remains C3. Prior source reports preserved; no live or integration authority.

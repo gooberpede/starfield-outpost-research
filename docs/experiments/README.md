@@ -1,5 +1,7 @@
 # Experiments
 
+- [SOR-EXP-0045 / SOR-EV-0053 - C2 cargo freight lifecycle](cargo-links/transport/report.md): [state machine/return journey](cargo-links/transport/cycle.md), [timing/modifiers](cargo-links/transport/timing.md), remote recovery and wider Save52; [review/package](cargo-links/transport/review.md). Offline only; detailed He-3 remains C3.
+
 - [SOR-EXP-0044 / SOR-EV-0052 - C1 cargo configuration/UI](cargo-links/configuration-ui/report.md): source-to-binding contract and Save52 correspondence; [review](cargo-links/configuration-ui/review.md). Offline only; freight lifecycle deferred.
 
 

@@ -1,5 +1,7 @@
 # Selected Evidence
 
+- **SOR-EV-0053 / SOR-EXP-0045:** [C2 report](../cargo-links/transport/report.md), [source pins](../cargo-links/transport/sources.csv), [native locators](../cargo-links/transport/functions.csv), [review](../cargo-links/transport/review.md). Authored interpretation/metadata REVIEW-REQUIRED; raw installed PEX/PSC/native/definition/save derivatives LOCAL-ONLY under ignored `.local-work/c2-transport/`. No live capture or publication clearance.
+
 - **SOR-EV-0052 / SOR-EXP-0044:** [C1 report](../cargo-links/configuration-ui/report.md), [pins](../cargo-links/configuration-ui/sources.csv) and [review](../cargo-links/configuration-ui/review.md). Authored synthesis/metadata REVIEW-REQUIRED; screenshot, save, SWF/ABC, installed source and native exports remain LOCAL-ONLY under `.local-work/c1-cargo/`, `.local-work/recon/c1-cargo-*` and `.local-work/screengrabs/`. No runtime capture or publication clearance.
 
 

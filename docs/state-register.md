@@ -248,3 +248,7 @@ authored interpretation REVIEW-REQUIRED, independent disposition in the package.
 ## C1 cargo state versus UI state
 
 SOR-EXP-0044 / SOR-EV-0052. [Field mapping](experiments/cargo-links/configuration-ui/save52.md#field-by-field-correspondence) distinguishes persisted peer/ship/child/owner4C, local-edge envelope and item inventories from definition/default capacity/recipes, reconstructed reverse links/handles and transient candidate/selected/resource arrays. The pictured pair's four bays and ship explicitly declare zero saved items. Immediate Warehouses prevent indirect recipe demand from entering this UI query; no freight-health or historical screen-epoch authority follows.
+
+## C2 freight state and pending work
+
+SOR-EXP-0045 / SOR-EV-0053. [Correspondence matrix](experiments/cargo-links/transport/saves.md#entityfield-correspondence-matrix) distinguishes persisted endpoint/ship/compartment links, shared physical hold and selected target from native heap remaining timers, VM instance caches, reconstructed handles/paths and transient event work. Current target changes before departure, not a physical-location oracle. Nineteen decoded ship holds include11 stocked/eight empty; five remain unknown. Native timer save/load retains remaining one-shot work, not a count of missed voyages; specific historical timer/controller selection remains unobserved.
