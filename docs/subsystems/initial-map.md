@@ -264,3 +264,11 @@ inputs from current power and runtime reconstruction.
 ## C2 native transit continuation - 2026-10-18
 
 [Movement and round-trip model](../experiments/cargo-links/transport/transit.md) adds explicit reference/component elapsed callers, controller selection, detached 2+4 thresholds, physical path completion and movement/profile modifiers. Same packages/default waits support a common conditional model for ordinary/fueled links; no mapped astronomical-duration coefficient. Installed live calendar 15/5 changes dock wall-time equivalents by 3. Conditional ideal detached steady periods 92.16/241.92 seconds account for timer phase; nominal budgets 92.64/253.92 seconds precede phase/queues/fuel/overrides. No universal or calibrated trip interval. Earlier C2 scope/review is preserved; [continuation review](../experiments/cargo-links/transport/transit-review.md) controls this addition.
+
+## CR1 assignments and Crew screen - 2026-10-18
+
+[SOR-EXP-0047 / SOR-EV-0055](../experiments/crew/report.md) links recruitment, native unassigned/assigned lists, destination capacity, removal cleanup and travel. [Crew screen](../experiments/crew/screen.md) is a provider-built roster and perk display; [save matrix](../experiments/crew/lifecycle.md#persistence-classes) separates saved station joins from unqualified historical crew state. [CR2/CR3 handoff](../experiments/crew/handoff.md) retains Payloads, Aneutronic Fusion, Geology, Pistols and residency questions. No live or integration authority.
+
+## CR1 current-assignment continuation
+
+Crew persistence correction: [real current saved assignments](../experiments/crew/current-assignments.md) connect four actor4C/E2 pairs to unique ordinary beacons; positive named available-roster instances are now qualified; post-load authority remains open. Existing CR2/CR3 boundaries remain.

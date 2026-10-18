@@ -314,3 +314,15 @@ SOR-EXP-0045 / SOR-EV-0053. [Exact native locations](experiments/cargo-links/tra
 ## C2 transit continuation
 
 SOR-EXP-0045 / SOR-EV-0053, 2026-10-18. [Additional native locators](experiments/cargo-links/transport/transit-functions.csv) and [movement map](experiments/cargo-links/transport/transit.md) trace reference/component elapsed dispatch through 1412aeb90/1412aee90/1412af0e0 to 1427342e0, detached thresholds, full MotionStage 14271e190 and path-clear completion. Definition 15/5 calendar settings and movement profile providers are separated. Preferred static VA/RVA for pinned EXE; OBSERVED-INTERNAL, no safe invocation or historical admission proof.
+
+## CR1 recruitment, capacity and Crew providers
+
+SOR-EXP-0047 / SOR-EV-0055. [Exact function/export register](experiments/crew/functions.csv), [capacity](experiments/crew/capacity.md), [lifecycle](experiments/crew/lifecycle.md) and [native-to-movie dataflow](experiments/crew/screen.md) cover ordinary registration, cost/capacity predicates, script bypass, effects/travel boundaries and UI row admission. All locators are static VA/RVA for the pinned executable; OBSERVED-INTERNAL only, no safe invocation or live verification.
+
+CR1 allocates SOR-FN-0062 through SOR-FN-0071 to the ten named operations in
+[functions.csv](experiments/crew/functions.csv); remaining exported addresses are
+version-qualified locators without new semantic record IDs.
+
+## CR1 current-assignment continuation
+
+CR1 current persistence correction: [writer/load/fixup/consumer chain](experiments/crew/current-assignments.md#producer-wire-loader-fixup-and-consumer) adds actual14051ea30 caseE2, Actor141917e40 private header, registry14130ce90 writer,14130d540 reader,14130d650 fixup and141825820 type6 stream. Exact primary export/function lines are in current-sources.csv; no safe invocation or new ID allocation.

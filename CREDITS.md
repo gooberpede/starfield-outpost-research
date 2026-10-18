@@ -507,3 +507,11 @@ No outside implementation or new licence basis; raw/private evidence stays local
 ## C2 native transit continuation
 
 2026-10-18. [Movement and round-trip investigation](docs/experiments/cargo-links/transport/transit.md) uses Bethesda installed retail EXE/ESM and existing matching analysis. Credits the maintainer-owned prior C2 movement/timer discovery and exporters, E1 clock derivation and S1 readers/guards/PE methods; provenance is retained in [the aid](research/c2-transit/README.md) and [pins](docs/experiments/cargo-links/transport/transit-sources.csv). Existing Ghidra/Temurin, CPython/stdlib and Git support finite offline inspection/calculation/review. No new outside implementation or permission basis; proprietary inputs and raw derivatives stay local.
+
+## CR1 crew and Crew screen
+
+2026-10-18. [CR1 research](docs/experiments/crew/report.md) uses Bethesda Game Studios' installed native, definitions, scripts and menu assets; the maintainer's protected historical saves; and prior project-owned E1/Workshop/P1/S1/C1/C2 discoveries and readers. Existing Ghidra/Temurin, CPython/stdlib and Git support read-only analysis and local review packaging. [Source ledger](docs/experiments/crew/sources.csv) and [aids](research/cr1-crew/README.md) identify exact adaptations and pins. No new outside code or permission basis; underlying proprietary/raw evidence stays local.
+
+## CR1 current-assignment continuation
+
+CR1 current-assignment correction reuses this project's typed record/initial-prefix, Workshop, global-unit, save-streaming and text-validation research; exact hashes and newly inspected installed evidence are in [the current ledger](docs/experiments/crew/current-sources.csv). Maintainer-owned adaptation under SOR-P-0002; no new third-party material or redistribution grant.

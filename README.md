@@ -1,5 +1,19 @@
 # Starfield Outpost Systems Research
 
+**2026-10-18 - CR1 current-assignment correction:**
+[Real saved actor/outpost joins](docs/experiments/crew/current-assignments.md) now
+recover reciprocal relationships in HIST-0021/22/24/0255 and a positive named
+unassigned roster in principal HIST-0255 after systematic earlier-corpus search.
+Complete default/post-load coherence stays OPEN;
+[rework review](docs/experiments/crew/current-review.md) controls disposition.
+No staging, commit or push.
+
+**2026-10-18 - CR1 crew:** [Recruitment/capacity/save report](docs/experiments/crew/report.md)
+and [Crew screen population](docs/experiments/crew/screen.md) separate roster, assignment,
+travel and displayed skills. Exact station-owner joins and a bounded historical
+crew gap are retained; [review](docs/experiments/crew/review.md) controls completion.
+Offline only; no staging, commit or push.
+
 **2026-10-18 - C3 inter-system fuel:** [Fuel model](docs/experiments/cargo-links/fuel/report.md)
 separates five-unit periodic He-3 withdrawal from either-pad ship readiness,
 receipt and reverse freight. [Time examples](docs/experiments/cargo-links/fuel/time.md)

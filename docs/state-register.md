@@ -265,3 +265,17 @@ SOR-EXP-0045 / SOR-EV-0053. [Correspondence matrix](experiments/cargo-links/tran
 ## C2 transit clocks and selection
 
 SOR-EXP-0045 / SOR-EV-0053 continuation 2026-10-18. [Transit model](experiments/cargo-links/transport/transit.md) distinguishes live controller mode+5c, admitted path/accumulator, reference/component frame elapsed, effective movement curves, cached ground G and live calendar T. The normal component clock connection is now traced; actual per-ship mode/delta/action history, VM latency and timer phase are not reconstructed from hold/target snapshots. Conditional detached round-trip budgets are separate from measured timing. No new live/save decoding authority.
+
+## CR1 roster, assignment and pending movement
+
+SOR-EXP-0047 / SOR-EV-0055. [Persistence matrix](experiments/crew/lifecycle.md#persistence-classes) distinguishes E2 persisted-capable member identities and reconstructed handles; keyed assignment; separate available/owned-ship registry; definition-derived and saved base capacity; quest-added versus NPC perks; VM/alias pending movement; physical residency; transient UI rows. [Historical evidence](experiments/crew/saves.md) qualifies 17 station roots and named actor/base identities, not actual saved crew assignments, ranks or current bonuses. Generic unassigned-unload deletion is a positive script mechanism.
+
+SOR-ST-0033 identifies the CR1 owner E2 assignment list/keyed actor relationship;
+SOR-ST-0034 identifies the separate unassigned roster; SOR-ST-0035 identifies
+capacity inputs and actor costs; SOR-ST-0036 identifies downstream pending travel
+aliases and reconstructed CrewInfoA. The linked matrix controls each field's
+persistence class and qualification; these IDs grant no integration authority.
+
+## CR1 current-assignment continuation
+
+CR1 current-assignment correction: [real reciprocal4C/E2 pairs](experiments/crew/current-assignments.md) extend the same SOR-EXP-0047/EV0055 state model. Available registry serialization is native-mapped to R1 unit6; positive named available-roster rows now join exact unit6 offsets; loaded reconciliation remains OPEN. Earlier no-positive-instance statements are retained historical scope.

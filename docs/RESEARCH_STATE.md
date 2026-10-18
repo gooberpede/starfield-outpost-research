@@ -1,5 +1,26 @@
 # Current Research State
 
+**2026-10-18 - CR1 current saved assignments, corrective continuation:**
+[SOR-EXP-0047 / SOR-EV-0055](experiments/crew/current-assignments.md) demonstrates
+ten reciprocal actor4C/outpostE2 pairs across HIST-0021/22/24/0255, three
+ship-registry assignment rows and three positive named available-roster actors. The systematic203-candidate search has106 supported
+R3 scans and97 explicit header qualification rejects. E2 writer, Actor header,
+registry writer and independently bounded R1 unit6 entries are mapped. Effective
+ship child/default and full post-load coherence remain OPEN. [New review](experiments/crew/current-review.md)
+supersedes the earlier no-positive-instance endpoint for this subset; historical
+negative scans and review receipts remain intact. No game, staging, commit or push.
+
+**Earlier CR1 snapshot retained - crew and Crew screen:**
+[SOR-EXP-0047 / SOR-EV-0055](experiments/crew/report.md) maps recruitment versus
+assignment, generic unassigned-unload deletion, destination/cost/player capacity,
+station construction/removal and native-to-compiled-menu roster population.
+Seventeen fresh Save52 station roots have exact owners; 54 closed ordinary beacon
+extra lists across three inputs have no E2, leaving qualified historical actor
+assignments and pending state as a precise corpus gap. [Coverage](experiments/crew/coverage.md)
+and [review/package](experiments/crew/review.md) control disposition. Proposed
+STRONG STATIC plus scoped SAVE; authored REVIEW-REQUIRED, primary LOCAL-ONLY.
+No live, importer/mod, save change, staging, commit, push or publication authority.
+
 **2026-10-18 - C3 inter-system fuel and skipped time:**
 [SOR-EXP-0046 / SOR-EV-0054](experiments/cargo-links/fuel/report.md) establishes
 five He-3 per accepted native fuel-production cycle, base interval 108 scheduler

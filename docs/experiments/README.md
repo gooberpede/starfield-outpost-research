@@ -148,3 +148,9 @@ SOR-EXP-0041 / SOR-EV-0049: restored flags, load-triggered roots, order provenan
 H1-H4 and proposed-only repeated-load validation. No new live authority.
 
 - [SOR-EXP-0045 / SOR-EV-0053 continuation - native transit timing](cargo-links/transport/transit.md): reference/component clocks, detached/full movement completion, in-system/inter-system comparison and conditional round-trip budget; [review](cargo-links/transport/transit-review.md). Offline only.
+
+- [SOR-EXP-0047 / SOR-EV-0055 - CR1 crew](crew/report.md): recruitment, capacity, lifecycle, Crew screen and saved-instance coverage; [independent review/package](crew/review.md). Offline only.
+
+## CR1 current-assignment continuation
+
+[CR1 current saved assignments](crew/current-assignments.md): earlier mature reciprocal4C/E2 witnesses and distinct control; [corrective review](crew/current-review.md).

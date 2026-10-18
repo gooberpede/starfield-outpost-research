@@ -187,3 +187,11 @@ REVIEW-REQUIRED, raw LOCAL-ONLY. See frozen contract and review matrix in report
 ## SOR-F-0032 — Workshop population correction and additional native roots
 
 2026-10-14, [EXP0033/EV0041](experiments/workshop-population/report.md). Exact native/saved framing and all-variant installed metadata support quest/alias Extra80, actual ordered type-registry decoding, derived reverse 4D and 191 additional closed single roots despite omitted 9C. Original 657 identities retained; 848 supported physical roots, 653 single/195 compound. Proposed STRONG scoped construction interpretation; population completeness requires the separate original-criterion disposition. No loaded-authority, arbitrary-build or publication promotion.
+
+## CR1 crew - proposed scoped mechanisms
+
+2026-10-18, SOR-EXP-0047 / SOR-EV-0055. [Answer-first report](experiments/crew/report.md) proposes STRONG STATIC recruitment/assignment/capacity/UI mechanisms, with exact saved station-owner corroboration. Native membership, physical arrival, UI skills and effective effects are separate. Generic unassigned-unload cleanup differs from named retention. No qualified historical crew assignment was recovered; [negative scope](experiments/crew/coverage.md) and [review](experiments/crew/review.md) prevent universal absence or accepted-finding promotion.
+
+## CR1 current-assignment continuation
+
+CR1 corrective continuation (SOR-EXP-0047/EV0055): [ten real reciprocal actor/outpost assignments](experiments/crew/current-assignments.md) are supported in HIST-0021/22/24/0255, alongside three positive saved available-roster actors. This does not promote universal crew enumeration, unassigned status, ship category or loaded authority.

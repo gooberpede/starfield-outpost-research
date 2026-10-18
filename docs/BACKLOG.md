@@ -168,3 +168,29 @@ merely to use the bounded ordinary model. S2 must correlate actual operand state
 planned quantities and source/destination deltas before interpreting backpressure;
 routing/retries/cargo scheduling remain separately briefed. Current effective
 capacity is unmeasured; no observer, live, importer or writer authority follows.
+
+## Cargo Link Fuel-Efficiency Correction (in-game mod)
+
+2026-10-18, documentation-only future application under [CR1](experiments/crew/plan.md).
+[C3](experiments/cargo-links/fuel/report.md) establishes five He-3 per accepted
+periodic fuel-production cycle and a 108-base-scheduler-second interval, separate
+from freight trips and endpoint readiness. Investigate whether eligible
+production-speed/interval modifiers accelerate that consumption without increasing
+freight trips; identify the actual crew/player perks and their eligibility before
+attributing an effect. Consider decoupling those clocks or per-voyage fuel economics
+only in a later scoped design. Balancing is unimplemented; no perk applicability,
+mod, hook, live test or save change is authorized. Keep this separate from the
+existing cargo-link UI enhancement and Time-Skip Reconciliation applications.
+
+## Starfield Save-to-Network Importer (Outpost Network web-app feature)
+
+2026-10-18, documentation-only future application under [CR1](experiments/crew/plan.md).
+Reconstruct saved outpost identity/site, production configurations, cargo pads and
+pairings, and defensible inferred outbound products into a draft Outpost Network.
+Preserve uncertainty, player-entered planning intent and existing UUIDs on reimport.
+This is a web-app feature proposal, not an in-game mod. Outstanding completeness
+problems include selected biomes/site resources, actual skill ranks, exceptional
+constructed-object membership, identity matching and arbitrary/modded saves.
+[CR1 saved crew gaps](experiments/crew/saves.md) and earlier Workshop/site/cargo
+coverage remain explicit. Do not build an importer or promise full JSON parity;
+implementation requires its own later decision and brief.

@@ -931,3 +931,11 @@ new permission basis. Payloads LOCAL-ONLY; authored synthesis REVIEW-REQUIRED.
 ## C2 native transit continuation
 
 2026-10-18. SOR-EXP-0045 / SOR-EV-0053. [Transit model](experiments/cargo-links/transport/transit.md), [fresh metadata pins](experiments/cargo-links/transport/transit-sources.csv) and [native locators](experiments/cargo-links/transport/transit-functions.csv) use Bethesda installed pinned EXE/ESM and existing matching Ghidra analysis. Owned prior C2 scripts/packages/timer findings, E1 frame/calendar clock research and S1 definition/guard/PE methods are substantively reused with point-of-use credit. Existing Ghidra 12.1.2/Temurin 21.0.12, CPython 3.14/stdlib and Git perform read-only offline acquisitions/checks. Native component elapsed and full-flight completion are newly traced; finite phase/threshold calculations are conditional predictions. No live observation, new external code/dependency, download/contact or licence basis. Raw acquisitions remain LOCAL-ONLY; authored interpretation/metadata REVIEW-REQUIRED.
+
+## CR1 crew recruitment, capacity and Crew screen
+
+2026-10-18. SOR-EXP-0047 / SOR-EV-0055. [Report](experiments/crew/report.md), [metadata pins](experiments/crew/sources.csv) and [research aids](../research/cr1-crew/README.md) credit Bethesda installed EXE/ESM/Misc.ba2/Interface.ba2/ContentResources.zip, existing matching native state and the maintainer's protected Save52/HIST-0036/HIST-0077. Owned E1 assignment/rank research, Workshop membership/population, P1/S1 extras, C2 PEX and C1 ABC inspection/export methods supply substantive prior discoveries and adapted code; provenance is retained at use. Existing Ghidra 12.1.2/Temurin 21.0.12, CPython 3.14/stdlib and Git are execution tools, not evidence-rights clearance. No outside implementation, dependency, download, contact or new permission basis. Raw/proprietary payloads LOCAL-ONLY; authored interpretation/metadata REVIEW-REQUIRED.
+
+## CR1 current-assignment continuation
+
+CR1 current-assignment continuation: [source metadata](experiments/crew/current-sources.csv) and [corpus](experiments/crew/current-corpus.csv) pin fresh read-only native/definition/original-save evidence. Existing project-owned typed/global envelope/readers are adapted under SOR-P-0002. No new external source, code reuse or disclosure; proprietary bytes and filenames remain local.

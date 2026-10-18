@@ -173,3 +173,9 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 - [C2 cargo transport, scheduling and freight lifecycle](CODEX_BRIEF_SOR_C2_cargo_transport_scheduling_freight_lifecycle.md): invoked2026-10-18; [report](../experiments/cargo-links/transport/report.md), [contract/amendment](../experiments/cargo-links/transport/contract.md) and [review/package](../experiments/cargo-links/transport/review.md). User expands Save52 principal pair to wider network/mature saves as needed; supplied brief retained unchanged. Offline only; suggest commit subject, no commit/push.
 
 - [C2 native transit-time continuation](CODEX_BRIEF_SOR_C2_transit_time_continuation.md): direct execution instruction 2026-10-18; [movement/round-trip model](../experiments/cargo-links/transport/transit.md) and [separate review](../experiments/cargo-links/transport/transit-review.md). Offline native selection/clock/completion/modifiers, conditional estimates and explicit tolerance boundary. No commit/push.
+
+- [CR1 crew recruitment, assignment and capacity](CODEX_BRIEF_SOR_CR1_crew_recruitment_assignment_capacity.md): invoked 2026-10-18, with [durable Crew screen amendment](../experiments/crew/plan.md); [report/review](../experiments/crew/review.md). Offline research only; no staging, commit or push.
+
+## CR1 current-assignment continuation
+
+[CR1 current-assignment persistence rework](CODEX_BRIEF_SOR_CR1_current_crew_assignment_persistence_rework.md): invoked2026-10-18; [results/review](../experiments/crew/current-review.md). Offline current state, not assignment history; no commit/push.
