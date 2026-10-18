@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**2026-10-19 - L1 numerical/environment limits:** [Causal limits matrix](docs/experiments/limits/report.md) maps player deployment 8/12/16/20/24, shared cargo pads 3/6, turrets 6 and a bounded nine-group recipe census. Actual planetary conditions are traced through scanner admission; [save corroboration](docs/experiments/limits/saves.md) and [review package](docs/experiments/limits/review.md) retain loaded-state/owner gaps. L2 build-budget and L3 local placement remain future scope. Offline only; no staging, commit or push.
+
 **2026-10-18 - CR1 current-assignment correction:**
 [Real saved actor/outpost joins](docs/experiments/crew/current-assignments.md) now
 recover reciprocal relationships in HIST-0021/22/24/0255 and a positive named

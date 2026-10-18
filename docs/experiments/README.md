@@ -1,5 +1,10 @@
 # Experiments
 
+- [SOR-EXP-0051 / SOR-EV-0059 - L1 numerical/environment admission](limits/report.md):
+  player deployment, shared cargo/turret limits, bounded recipe census and actual
+  Planetary Habitation conditions; [saved coverage](limits/saves.md),
+  [review package](limits/review.md). Offline only; L2/L3 remain separate.
+
 - [SOR-EXP-0046 / SOR-EV-0054 - C3 fuel](cargo-links/fuel/report.md): periodic
   consumption, charged readiness, endpoint stages, real saved source graphs and
   conditional skipped-time examples; [review](cargo-links/fuel/review.md).

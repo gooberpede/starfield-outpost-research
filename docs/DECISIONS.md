@@ -1,5 +1,25 @@
 # Decision Register
 
+## L1 execution and three-part Limits roadmap - 2026-10-19
+
+The maintainer explicitly invokes the retained [L1 brief](implementation-briefs/CODEX_BRIEF_SOR_L1_numerical_perk_limits.md)
+and requests a conventional commit suggestion without committing or pushing.
+[Frozen plan](experiments/limits/plan.md) and [review](experiments/limits/review.md)
+retain all eight criteria and independent review. Allowed: existing protected
+offline native/definition/compiled-script/save analysis and bounded authored aids.
+No live experiment, save/configuration/database change, install, staging, commit,
+push or disclosure is authorized. Reuse accepted crew/robot mechanisms.
+
+The agreed Limits roadmap is durably separated: **L1** numerical/perk and body
+environment admission; **L2** overall Build Limit meter and complexity/budget
+accounting, including assessment of the triangle/draw-call hypothesis; **L3**
+local territory/placement, POI/city restrictions, clipped circles, collisions,
+terrain/harvestables/PackIn scenery and returning rocks/trees. Only narrow gate
+dispatch dependencies enter L1; L2/L3 remain future separately briefed work.
+No Fallout 4 behaviour is adopted as a Starfield fact. Supported ordinary L1
+mechanisms can stand with explicit saved/current-state gaps; publication and
+maintainer integration remain separately gated.
+
 ## C3 bounded execution decision - 2026-10-18
 
 The maintainer invoked the [retained C3 brief](implementation-briefs/CODEX_BRIEF_SOR_C3_intersystem_cargo_fuel_and_timeskip.md),

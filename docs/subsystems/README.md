@@ -1,5 +1,11 @@
 # Outpost Subsystem Research Map
 
+[L1 limits](../experiments/limits/report.md) joins recipe/global thresholds,
+native selected-outpost counting and player/body beacon admission. [Saved cases](../experiments/limits/saves.md)
+and [review](../experiments/limits/review.md) qualify current-state/ownership gaps.
+Crew/robot limits are reused. L2 overall budget and L3 spatial/procgen behaviour
+remain distinct future investigations; no live or integration authority.
+
 [C3 fuel](../experiments/cargo-links/fuel/report.md) joins periodic He-3
 withdrawal to either-pad readiness and conditional production/freight time-skip
 behavior. [Saved correspondence](../experiments/cargo-links/fuel/saves.md) and

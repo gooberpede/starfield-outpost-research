@@ -1,5 +1,21 @@
 # Separately scoped research backlog
 
+## Limits roadmap after L1 - 2026-10-19
+
+[L1 reference/review](experiments/limits/report.md) addresses numerical quotas,
+skill changes and body/environment admission. Retain its exact historical
+allowance, exceptional cleanup and turret-owner gaps without treating them as
+new live authority. Optional live over-limit/perk-loss controls need a concrete
+consequential question and separate authorization.
+
+- **L2, future brief:** overall Build Limit meter, complexity accounting and the
+  proposed triangle/draw-call relationship; do not import Fallout 4 values.
+- **L3, future brief:** restricted POIs/cities, intersecting/clipped build circles,
+  150-unit territory, actor/static obstruction, harvestables, PackIn scenery,
+  terrain and displaced rocks/trees returning after travel or reload.
+
+Neither future item authorizes execution, a calculator, importer or mod.
+
 ## Cargo Link Time-Skip Reconciliation
 
 2026-10-18. Separate **future modding application**, informed by

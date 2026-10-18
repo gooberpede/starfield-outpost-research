@@ -1,5 +1,18 @@
 # Source Register
 
+## L1 numerical and environmental admission
+
+2026-10-19. [SOR-EXP-0051 / SOR-EV-0059](experiments/limits/report.md) uses
+fresh pinned Bethesda EXE/ESM, compiled PlayerSkills/OutpostBeacon PEX and installed
+development-source census, existing protected Ghidra analysis and six protected
+maintainer saves. [Source ledger](experiments/limits/sources.csv) binds primary
+inputs/exports and owned CR1/R1/P1/Workshop/planetary methods under SOR-P-0002.
+Existing Ghidra 12.1.2, Temurin 21.0.12, CPython 3.14 and Git are tools; no new
+dependency, external code, licence basis, contact or disclosure. Raw payloads
+LOCAL-ONLY; authored synthesis/metadata REVIEW-REQUIRED. CR1 crew and R1 robot
+limits are reused rather than rederived; P1's BodyHasKeyword relation is
+independently retraced for the actual habitation condition graph.
+
 ## C3 inter-system fuel and time-skip interfaces
 
 2026-10-18. SOR-EXP-0046 / SOR-EV-0054.

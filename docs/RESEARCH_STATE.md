@@ -1,5 +1,19 @@
 # Current Research State
 
+**2026-10-19 - L1 numerical and environmental admission:**
+[SOR-EXP-0051 / SOR-EV-0059](experiments/limits/report.md) traces player remaining
+deployment allowance (base 8, Habitation 12/16/20/24), selected-outpost shared
+cargo quota 3/6 and turret quota 6, plus nine installed recipe-global groups.
+The full 3,009-COBJ physical census distinguishes 51 JNAM recipes from absence
+of that quota in the other candidates. Four actual planetary hazard groups
+connect to scanner/body/rank consumers. Six saved scans, 76 limited-root physical
+checks and 18 body/default examples corroborate the scoped STATIC model; exact
+historical allowance, turret-owner join and universal exceptional cleanup remain
+unmeasured. [Review/package](experiments/limits/review.md) controls completion;
+authored REVIEW-REQUIRED, primary LOCAL-ONLY. CR1/R1 retained and reused.
+L2 overall budget and L3 local placement/procgen remain separate future scope.
+No live/mod/save/configuration/database/Git/publication authority is added.
+
 **2026-10-18 - CR1 current saved assignments, corrective continuation:**
 [SOR-EXP-0047 / SOR-EV-0055](experiments/crew/current-assignments.md) demonstrates
 ten reciprocal actor4C/outpostE2 pairs across HIST-0021/22/24/0255, three

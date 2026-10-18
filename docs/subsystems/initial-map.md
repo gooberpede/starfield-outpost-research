@@ -1,5 +1,11 @@
 # Initial subsystem map — SOR-EXP-0001
 
+[L1 numerical/environment reference](../experiments/limits/report.md) supersedes
+limit-OPEN shorthand only for the mapped ordinary deployment, recipe quota and
+body/rank admission chains. All 3,009 physical COBJ records are bounded; current
+loaded state, complete saved membership and exceptional scripts remain separate.
+[Review](../experiments/limits/review.md); L2 budget and L3 spatial placement deferred.
+
 ## Inorganic availability runtime/persistence
 
 [Experiment A feasibility](../experiments/spatial-equivalence-feasibility/report.md) identifies inline native region verdicts and a complete comparison contract. Recommendation REVISE pending finite offline preservation/owned-geometry qualification; no new runtime validation, observer or live authority.

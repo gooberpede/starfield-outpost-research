@@ -1,5 +1,9 @@
 # Implementation and Audit Briefs
 
+- [L1 numerical/perk/environment limits](CODEX_BRIEF_SOR_L1_numerical_perk_limits.md):
+  invoked 2026-10-19; bounded offline execution and independent review;
+  [result/package](../experiments/limits/review.md). No staging, commit or push.
+
 [C3 inter-system fuel and time-skip brief](CODEX_BRIEF_SOR_C3_intersystem_cargo_fuel_and_timeskip.md)
 was invoked 2026-10-18 for bounded offline execution and independent prose review;
 [result/package](../experiments/cargo-links/fuel/review.md). No commit or push.

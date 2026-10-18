@@ -1,5 +1,14 @@
 # Credits
 
+## L1 numerical/environment research
+
+[L1](docs/experiments/limits/report.md) credits Bethesda Game Studios' installed
+definitions, executable and shipped Papyrus/development materials; Ghidra's
+existing analysis and the maintainer's protected historical/manual saves provide
+the primary evidence. Prior project CR1, R1, P1 and Workshop/body research and
+owned readers are cited at use and pinned in the [source ledger](docs/experiments/limits/sources.csv).
+No proprietary payload is copied into authored conclusions or cleared for publication.
+
 ## C3 fuel research
 
 The [C3 study](docs/experiments/cargo-links/fuel/report.md) uses Bethesda Game
