@@ -1,6 +1,8 @@
 # Remote transport, restoration and interruption
 
 [Answer](report.md), [clock authority](timing.md), [saved fields](saves.md).
+Prospective 2026-10-18: [native transit continuation](transit.md) extends the
+controller/timebase boundary recorded below; earlier acceptance is historical.
 All native addresses are preferred static VAs, image base0x140000000.
 The native/function ledger locates primary evidence; none was invoked live.
 

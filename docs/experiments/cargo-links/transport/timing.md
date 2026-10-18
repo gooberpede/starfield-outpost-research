@@ -1,6 +1,9 @@
 # Cargo scheduling, clocks and modifiers
 
 [Answer](report.md), [cycle](cycle.md), [remote/recovery](lifecycle.md).
+Prospective 2026-10-18 continuation: [native movement and round-trip model](transit.md)
+extends the historical flight-duration boundary below with controller selection,
+assembly-backed elapsed callers, physical-flight operands and calendar 15/5 cases.
 Native addresses are preferred static VAs, image base0x140000000; object offsets
 are hexadecimal. Local nNN denotes `.local-work/c2-transport/native/NNN.request.tsv`.
 The production clock in [E1](../../inorganic-extractors/arithmetic-clocks.md)

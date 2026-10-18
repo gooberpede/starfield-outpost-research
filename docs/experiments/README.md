@@ -142,3 +142,5 @@ refine the same SOR-EXP-0041 / SOR-EV-0049 record; no competing experiment ID.
 P1 [load reconstruction and determinism](power/load-determinism.md) continues
 SOR-EXP-0041 / SOR-EV-0049: restored flags, load-triggered roots, order provenance,
 H1-H4 and proposed-only repeated-load validation. No new live authority.
+
+- [SOR-EXP-0045 / SOR-EV-0053 continuation - native transit timing](cargo-links/transport/transit.md): reference/component clocks, detached/full movement completion, in-system/inter-system comparison and conditional round-trip budget; [review](cargo-links/transport/transit-review.md). Offline only.

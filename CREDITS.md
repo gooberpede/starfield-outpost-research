@@ -493,3 +493,7 @@ No outside implementation or new licence basis; raw/private evidence stays local
 ## C2 cargo transport
 
 2026-10-18. [C2 causal/save study](docs/experiments/cargo-links/transport/report.md) uses Bethesda Game Studios' installed executable/ESM/development source/shipped PEX, existing matching Ghidra/Temurin analysis and the maintainer's Save52. Owned C1/S1/S2/E1-E3 and mature-corpus research supply prior framing, inventory, graph, clock and identity discoveries; reused methods are cited in [the aids](research/c2-transport/README.md) and [source ledger](docs/experiments/cargo-links/transport/sources.csv). Existing CPython/stdlib and Git support finite checks/local packaging. No new outside code or licence basis; raw evidence remains local.
+
+## C2 native transit continuation
+
+2026-10-18. [Movement and round-trip investigation](docs/experiments/cargo-links/transport/transit.md) uses Bethesda installed retail EXE/ESM and existing matching analysis. Credits the maintainer-owned prior C2 movement/timer discovery and exporters, E1 clock derivation and S1 readers/guards/PE methods; provenance is retained in [the aid](research/c2-transit/README.md) and [pins](docs/experiments/cargo-links/transport/transit-sources.csv). Existing Ghidra/Temurin, CPython/stdlib and Git support finite offline inspection/calculation/review. No new outside implementation or permission basis; proprietary inputs and raw derivatives stay local.

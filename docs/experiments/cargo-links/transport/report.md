@@ -1,6 +1,10 @@
 # C2 cargo transport and returned freight
 
 2026-10-18, Australia/Sydney. SOR-EXP-0045 / SOR-EV-0053.
+Subsequent authorized [native transit investigation](transit.md) maps movement
+selection, elapsed callers, full-flight modifiers and conditional round-trip
+arithmetic. Its [separate review](transit-review.md) does not rewrite the earlier
+C2 acceptance or claim a measured universal trip duration.
 [Authority/amendment](contract.md), [state machine](cycle.md),
 [timing/modifiers](timing.md), [inventory](inventory.md),
 [remote/recovery](lifecycle.md), [saved correspondence](saves.md),

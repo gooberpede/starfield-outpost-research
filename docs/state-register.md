@@ -252,3 +252,7 @@ SOR-EXP-0044 / SOR-EV-0052. [Field mapping](experiments/cargo-links/configuratio
 ## C2 freight state and pending work
 
 SOR-EXP-0045 / SOR-EV-0053. [Correspondence matrix](experiments/cargo-links/transport/saves.md#entityfield-correspondence-matrix) distinguishes persisted endpoint/ship/compartment links, shared physical hold and selected target from native heap remaining timers, VM instance caches, reconstructed handles/paths and transient event work. Current target changes before departure, not a physical-location oracle. Nineteen decoded ship holds include11 stocked/eight empty; five remain unknown. Native timer save/load retains remaining one-shot work, not a count of missed voyages; specific historical timer/controller selection remains unobserved.
+
+## C2 transit clocks and selection
+
+SOR-EXP-0045 / SOR-EV-0053 continuation 2026-10-18. [Transit model](experiments/cargo-links/transport/transit.md) distinguishes live controller mode+5c, admitted path/accumulator, reference/component frame elapsed, effective movement curves, cached ground G and live calendar T. The normal component clock connection is now traced; actual per-ship mode/delta/action history, VM latency and timer phase are not reconstructed from hold/target snapshots. Conditional detached round-trip budgets are separate from measured timing. No new live/save decoding authority.

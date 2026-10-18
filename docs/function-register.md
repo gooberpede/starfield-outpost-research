@@ -300,3 +300,7 @@ SOR-EXP-0044 / SOR-EV-0052. [Native contract](experiments/cargo-links/configurat
 ## C2 cargo transfer, timer and native travel
 
 SOR-EXP-0045 / SOR-EV-0053. [Exact native locations](experiments/cargo-links/transport/functions.csv), [inventory contract](experiments/cargo-links/transport/inventory.md), [clock/modifiers](experiments/cargo-links/transport/timing.md) and [travel/recovery](experiments/cargo-links/transport/lifecycle.md) trace registration-to-mutation, timer producers/dispatch/persistence and concrete path-completion providers. Preferred static VAs, image base0x140000000, explicit RVAs. OBSERVED-INTERNAL only; no safe invocation/ABI/hook or universal flight-duration qualification.
+
+## C2 transit continuation
+
+SOR-EXP-0045 / SOR-EV-0053, 2026-10-18. [Additional native locators](experiments/cargo-links/transport/transit-functions.csv) and [movement map](experiments/cargo-links/transport/transit.md) trace reference/component elapsed dispatch through 1412aeb90/1412aee90/1412af0e0 to 1427342e0, detached thresholds, full MotionStage 14271e190 and path-clear completion. Definition 15/5 calendar settings and movement profile providers are separated. Preferred static VA/RVA for pinned EXE; OBSERVED-INTERNAL, no safe invocation or historical admission proof.
