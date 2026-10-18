@@ -515,3 +515,7 @@ No outside implementation or new licence basis; raw/private evidence stays local
 ## CR1 current-assignment continuation
 
 CR1 current-assignment correction reuses this project's typed record/initial-prefix, Workshop, global-unit, save-streaming and text-validation research; exact hashes and newly inspected installed evidence are in [the current ledger](docs/experiments/crew/current-sources.csv). Maintainer-owned adaptation under SOR-P-0002; no new third-party material or redistribution grant.
+
+## CR2 crew skill effects
+
+2026-10-18. [CR2 causal research](docs/experiments/crew-skills/report.md) uses Bethesda Game Studios installed native/definitions/scripts, maintainer historical saves and matching existing Ghidra analysis. Credits prior project-owned CR1 recruitment/current-assignment/PEX, E1-E3 production/stacking, P1 power, S1/S2 inventory/links, C2/C3 cargo and mature-corpus framing/streaming research. [Methods and adaptations](research/cr2-skills/README.md) and [exact provenance](docs/experiments/crew-skills/sources.csv) record reuse under SOR-P-0002. Existing CPython/stdlib, Ghidra/Temurin and Git support offline verification/local review; no new outside implementation or permission basis.

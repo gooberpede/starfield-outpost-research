@@ -302,3 +302,7 @@ from powered status. [Review package](docs/experiments/power/review.md).
 The [P1 load continuation](docs/experiments/power/load-determinism.md) traces
 saved powered-state restoration and actual load-triggered recalculation.
 Identical-save settled consumer outcomes remain not yet established.
+
+## CR2 crew skill effects
+
+[CR2 causal reference](docs/experiments/crew-skills/report.md) explains qualified crew skills, per-consumer stacking, robot power, ship/actor exclusions and sampled saved ranks. [Review package](docs/experiments/crew-skills/review.md). Offline research; REVIEW-REQUIRED, no live/integration/publication authority.

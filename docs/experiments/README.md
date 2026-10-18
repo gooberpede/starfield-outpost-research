@@ -154,3 +154,5 @@ H1-H4 and proposed-only repeated-load validation. No new live authority.
 ## CR1 current-assignment continuation
 
 [CR1 current saved assignments](crew/current-assignments.md): earlier mature reciprocal4C/E2 witnesses and distinct control; [corrective review](crew/current-review.md).
+
+- [SOR-EXP-0048 / SOR-EV-0056 — CR2 crew skill effects](crew-skills/report.md): qualified census, causal admission/consumers, stacking, process impact and sampled saved ranks; [independent review/package](crew-skills/review.md). Offline only.

@@ -1,0 +1,10 @@
+sample,actor,perk,saved_rank,rank_byte_decoded_offset,perk_block_start,perk_block_end,assignment_evidence
+HIST-0255,starfield.esm:005639,starfield.esm:21b8e3,1,9729787,9729786,9729791,CR1 current-witnesses.csv; local links
+HIST-0255,starfield.esm:005639,starfield.esm:21b8c3,3,9729788,9729786,9729791,CR1 current-witnesses.csv; local links
+HIST-0255,starfield.esm:00563c,starfield.esm:21b8cc,1,9732033,9732032,9732037,CR1 current-witnesses.csv; local links
+HIST-0255,starfield.esm:00563c,starfield.esm:21b8c8,3,9732034,9732032,9732037,CR1 current-witnesses.csv; local links
+HIST-0255,starfield.esm:29c982,starfield.esm:022274,2,11014101,11014100,11014105,CR1 current-witnesses.csv; local links
+HIST-0255,starfield.esm:29c982,starfield.esm:21b8dd,2,11014102,11014100,11014105,CR1 current-witnesses.csv; local links
+HIST-0024,starfield.esm:0057be,starfield.esm:222f83,1,7919722,7919721,7919727,CR1 current-witnesses.csv; local links
+HIST-0024,starfield.esm:0057be,starfield.esm:01c06c,2,7919723,7919721,7919727,CR1 current-witnesses.csv; local links
+HIST-0024,starfield.esm:0057be,starfield.esm:022274,1,7919724,7919721,7919727,CR1 current-witnesses.csv; local links

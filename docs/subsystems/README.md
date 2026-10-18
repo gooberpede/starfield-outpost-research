@@ -73,3 +73,7 @@ Create a focused Markdown note here when work begins; no empty per-subsystem pac
 - Validation, counterexamples, build limits, and proposed versus tested mod integration points.
 
 Link findings, state/function registers, experiments, and evidence instead of copying their entire contents. Keep runtime and persistence explanations together even when one remains unresolved. See [the charter](../CHARTER.md) and [evidence standard](../EVIDENCE_STANDARD.md).
+
+## Crew modifier reference
+
+[CR2 crew effects](../experiments/crew-skills/report.md) connects qualified population, context admission, timers/power/capacity/combat, rank stacking and saved possession. [Process matrix](../experiments/crew-skills/processes.md) supplies bounded outpost positives and negatives; [lifecycle](../experiments/crew-skills/lifecycle.md) keeps assignment, active effects and physical arrival separate. Findings remain proposed/review-required; remote residency and complete post-load reconciliation remain open for CR3.

@@ -326,3 +326,7 @@ version-qualified locators without new semantic record IDs.
 ## CR1 current-assignment continuation
 
 CR1 current persistence correction: [writer/load/fixup/consumer chain](experiments/crew/current-assignments.md#producer-wire-loader-fixup-and-consumer) adds actual14051ea30 caseE2, Actor141917e40 private header, registry14130ce90 writer,14130d540 reader,14130d650 fixup and141825820 type6 stream. Exact primary export/function lines are in current-sources.csv; no safe invocation or new ID allocation.
+
+## CR2 selected-rank and process-specific consumers
+
+SOR-EXP-0048 / SOR-EV-0056. [Function/export locators](experiments/crew-skills/functions.csv) and [causal map](experiments/crew-skills/native.md) cover registration140ca3910, dispatcher140c93cf0, timer140f7bd20, power140f3dd50, ship selector1404095c0, ability refresh14040a9d0, combat141b30b30, inherited perk copier140cd77d0 and saved rank writer/reader1412b60a0/1412b6eb0. Preferred static VA/RVA for pinned build only; OBSERVED-INTERNAL, no invocation/ABI/hook safety claim.

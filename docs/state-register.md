@@ -279,3 +279,7 @@ persistence class and qualification; these IDs grant no integration authority.
 ## CR1 current-assignment continuation
 
 CR1 current-assignment correction: [real reciprocal4C/E2 pairs](experiments/crew/current-assignments.md) extend the same SOR-EXP-0047/EV0055 state model. Available registry serialization is native-mapped to R1 unit6; positive named available-roster rows now join exact unit6 offsets; loaded reconciliation remains OPEN. Earlier no-positive-instance statements are retained historical scope.
+
+## SOR-ST-0037 — Crew owned ranks, active entries and calculated effects
+
+SOR-EXP-0048 / SOR-EV-0056. [Lifecycle and persistence](experiments/crew-skills/lifecycle.md) distinguishes saved Actor bit22 first-list explicit perk/rank bytes, definition/template grants, runtime registration buckets, keyed assignment/E2, queued destination abilities, per-call arithmetic and persisted scheduler state. Seven originals yield nine explicit ranks/four actors; unsupported ranks remain UNKNOWN. Saved possession is not effective loaded output; restoration coherence remains CR3.

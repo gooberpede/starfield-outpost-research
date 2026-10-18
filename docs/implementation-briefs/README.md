@@ -179,3 +179,5 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 ## CR1 current-assignment continuation
 
 [CR1 current-assignment persistence rework](CODEX_BRIEF_SOR_CR1_current_crew_assignment_persistence_rework.md): invoked2026-10-18; [results/review](../experiments/crew/current-review.md). Offline current state, not assignment history; no commit/push.
+
+- [CR2 crew skill effects, stacking and native paths](CODEX_BRIEF_SOR_CR2_crew_skill_effects_stacking_native_paths.md): user-invoked offline research; [review deliverable](../experiments/crew-skills/review.md). No commit/push authority.

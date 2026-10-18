@@ -195,3 +195,7 @@ REVIEW-REQUIRED, raw LOCAL-ONLY. See frozen contract and review matrix in report
 ## CR1 current-assignment continuation
 
 CR1 corrective continuation (SOR-EXP-0047/EV0055): [ten real reciprocal actor/outpost assignments](experiments/crew/current-assignments.md) are supported in HIST-0021/22/24/0255, alongside three positive saved available-roster actors. This does not promote universal crew enumeration, unassigned status, ship category or loaded authority.
+
+## SOR-F-0035 — Crew effects use distinct consumer policies (proposed)
+
+2026-10-18, [SOR-EXP-0048 / SOR-EV-0056](experiments/crew-skills/report.md). Proposed STRONG STATIC: UI admission is separate from selected-rank entry/context admission. A1 multiplies each eligible assigned actor then Player; DB adds per generator with base-power bands; AA ship capacity selects one highest qualifying entry-rank actor; type1 destination abilities use assignment-driven rank suppression/removal. Ordinary fuel marker fails Management/Engineering family conditions. Constructible ModelA03 owns distinct outpost Fusion; ship Fusion, Payloads and Pistols have bounded ship/actor contexts. Sampled SAVE ranks/assignments corroborate possession, not loaded modifier realization. Review/publication gates and CR3 limits remain explicit.

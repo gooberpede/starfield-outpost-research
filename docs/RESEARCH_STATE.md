@@ -526,3 +526,7 @@ Save29 identity follow-up: subsequent user console positions match #1 to saved
 status. Live IDs changed across the reported restart; they remain session-specific.
 Saved bits agree with the earlier reported live pair; R/C remains OPEN. Latest
 position readings are not counted as a fourth power trial. See the linked plan.
+
+## 2026-10-18 — CR2 crew effects (proposed)
+
+SOR-EXP-0048 / SOR-EV-0056: [answer-first report](experiments/crew-skills/report.md), [review](experiments/crew-skills/review.md). Qualified main-game census: 28 named,14 specialist archetypes,5 constructible robots;43 distinct skills plus separate helper/test lead. A1 timers multiply eligible actor factors; DB adds per generator; AA chooses one highest qualifying crew entry rank; type1 abilities refresh destination state. Ordinary Management/Engineering fail the fueled marker resource-family tests. ModelA03 directly owns the separate outpost Fusion perk; ordinary Fusion is ship-reactor ability. Nine explicit saved ranks/four actors, including reciprocal-assigned Lin/Heller, do not prove effective loaded production. Proposed STRONG STATIC and sampled SAVE, authored REVIEW-REQUIRED/raw LOCAL-ONLY. CR3 retains residency/arrival/death and universal post-load coherence.

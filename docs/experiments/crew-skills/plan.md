@@ -1,0 +1,13 @@
+# CR2 frozen execution contract
+
+2026-10-18, Australia/Sydney. Authority: [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_CR2_crew_skill_effects_stacking_native_paths.md), invoked by the maintainer in chat. The eight mandatory criteria in section 8 are frozen verbatim by reference; no amendment or reduced completion threshold is adopted.
+
+Question: why possessed/displayed crew skills do or do not reach outpost consumers, how contributions combine, and how saved assignments/perks relate to effect availability. Offline semantic research only. Read installed definitions/PEX, existing read-only Ghidra state and protected historical saves; author focused evidence aids and explanatory documents. No network acquisition, game execution, debugger, native invocation, instrumentation, save/configuration changes, database mutations, staging, commit, push or publication.
+
+Use established owned readers under SOR-P-0002 and their recorded source grants. Prefer definition census and existing consumer exports; obtain additional static readOnly/noanalysis exports only for missing causal edges. Purposefully begin save work with HIST-0255 and HIST-0021/22/24, then widen for relevant rank/overlap witnesses. Save52 is not a negative oracle. Preserve prior findings and failed attempts.
+
+Inputs and Git state are pinned in `.local-work/cr2-skills/baseline.json`; both C:/D: must retain at least 40,000,000,000 caller-available bytes. Fail closed on pin mismatch, failed disk query, actual worker failure or unauthorized mutation; halt only the affected operation. Outputs are exclusive ignored local primary evidence plus authored metadata/documents. Raw saves, decoded buffers, native exports and game-derived script/record text stay local. Read-only Ghidra project state is protected before/after; no symbols/types/comments or analysis are changed.
+
+Success requires all eight criteria, including an independent reviewer against primary evidence and exact task-only/complete patches. Negative closure requires positive effect definitions plus decisive context/consumer gates, not missing search results. Scientific confidence, semantic coverage, live realization and application readiness are separate. CR3 retains physical presence, remote residency and universal post-load coherence. Review acceptance is not integration approval.
+
+Initial acquisition failures: the WindowsApps `python.exe` alias could not execute; use the existing installed CPython 3.14 absolute path. Initial helper location for `TransitCalls.java` was absent in CR1 directories; locate the existing owned C2 helper instead. No input was modified by either failure.

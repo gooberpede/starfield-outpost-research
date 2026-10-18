@@ -939,3 +939,7 @@ new permission basis. Payloads LOCAL-ONLY; authored synthesis REVIEW-REQUIRED.
 ## CR1 current-assignment continuation
 
 CR1 current-assignment continuation: [source metadata](experiments/crew/current-sources.csv) and [corpus](experiments/crew/current-corpus.csv) pin fresh read-only native/definition/original-save evidence. Existing project-owned typed/global envelope/readers are adapted under SOR-P-0002. No new external source, code reuse or disclosure; proprietary bytes and filenames remain local.
+
+## CR2 crew skills and modifier consumers
+
+2026-10-18, SOR-EXP-0048 / SOR-EV-0056. [Source ledger](experiments/crew-skills/sources.csv), [function evidence](experiments/crew-skills/functions.csv), [methods](../research/cr2-skills/README.md). Credits Bethesda installed retail EXE/ESM/Misc.ba2/development source, matching existing Ghidra analysis and maintainer historical saves. Reuses project-owned CR1 current-assignment/PEX, E1-E3/P1/S1/S2/C2/C3 causal research, mature-corpus framing/streaming/guards and review exporter under SOR-P-0002. No new outside implementation/dependency, licence basis, network or disclosure. Raw proprietary/save payloads LOCAL-ONLY; authored metadata/interpretation REVIEW-REQUIRED.
