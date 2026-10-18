@@ -1,5 +1,16 @@
 # Provenance and Environment Baseline
 
+## C3 fuel baseline and offline derivatives
+
+2026-10-18. [SOR-EXP-0046 / SOR-EV-0054](experiments/cargo-links/fuel/report.md)
+pins 23 protected files, HEAD/index and supplied brief before analysis. Fresh
+read-only native exports, installed recipe/interval and PEX reads, and one
+extended bounded Save52 reread write ignored derivatives only. Exact helpers,
+reused methods, executable/member/output hashes and stopped database postchecks
+are bound in [sources](experiments/cargo-links/fuel/sources.csv) and the
+[review package](experiments/cargo-links/fuel/review.md). Original saves and
+analysis state are preserved; no game launch, modified save or new dependency.
+
 ## SOR-EXP-0031 / SOR-EV-0039 — ship relocation assessment
 
 2026-10-13. [Report](experiments/ship-relocation/report.md) and [source ledger](experiments/ship-relocation/sources.csv) preserve pinned installed Bethesda executable/ESM, original 040 raw/journal, 23 frozen extracted inputs/predictions and prior save identity counterexamples. New original stdlib/project audits and installed marker keyword walk write only new local derivatives; existing read-only Ghidra/JDK exports preserve 15 DB files. Source/reader/export/test/raw/protected pins and complete/task-only patches are retained locally. Existing SOR-S-0127/0128/0132/0142, SOR-P-0002 provenance applies; no new outside code, dependency, licence basis, contact or disclosure. No game/observer build/deployment/save/configuration/Ghidra mutation, stage/commit/push. Authored conclusions REVIEW-REQUIRED, raw/native/save data LOCAL-ONLY.

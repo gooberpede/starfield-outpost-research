@@ -1,5 +1,16 @@
 # Decision Register
 
+## C3 bounded execution decision - 2026-10-18
+
+The maintainer invoked the [retained C3 brief](implementation-briefs/CODEX_BRIEF_SOR_C3_intersystem_cargo_fuel_and_timeskip.md),
+authorized sample selection across protected outposts/saves, requested independent
+contextual prose correction, and prohibited commit/push while requesting a commit
+suggestion. [Contract](experiments/cargo-links/fuel/contract.md) freezes all eight
+criteria. Offline evidence answers the ordinary fuel model; broader VM parser
+engineering or a live validation adds little to its material conclusions.
+No live/mod/deployment/save-write/publication scope is added. Acceptance and
+maintainer integration remain separate.
+
 ## SOR-D-0052 — Offline cross-session center and observer audit
 
 2026-10-13, Australia/Sydney. The maintainer explicitly invokes the

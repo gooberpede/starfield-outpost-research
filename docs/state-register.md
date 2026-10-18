@@ -1,5 +1,14 @@
 # State, Relationship, and Representation Register
 
+## C3 charge, inventory and pending work
+
+[SOR-EXP-0046 / SOR-EV-0054](experiments/cargo-links/fuel/saves.md) separates
+persisted source stocks/edges, ExtraBF charge and producer rows from reconstructed
+handles/current reason and unjoined VM/timer instance fields. Native mode 0 can
+admit a charged pad without rechecking ingredients; mode 1 rechecks at due work.
+Five-unit recipe, 108-second base interval and ship 30/15/30 source-second timers
+are distinct definition channels. Historical saved values are not current truth.
+
 ## SOR-ST-0031 — Resource source collections and saved producer objects
 
 [EXP0034 / EV0042](experiments/resource-availability/report.md), [native domains](experiments/resource-availability/native.md). Area-source vectors/cache are RUNTIME-DERIVED; full persistence relation UNCLASSIFIED. Sampled Workshop producer registry is PERSISTED, not a prospective availability set. Runtime pointers, saved refs, record FormIDs and generation keys remain distinct. Installed BIOM/RSGD lists supply conditional definitions; actual spatial BIOM/effective ATMO/cache inputs are not inferred from a saved center. No whole-save absence or loaded authority claim.

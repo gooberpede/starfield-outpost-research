@@ -1,5 +1,15 @@
 # Credits
 
+## C3 fuel research
+
+The [C3 study](docs/experiments/cargo-links/fuel/report.md) uses Bethesda Game
+Studios' installed executable, main ESM, shipped Papyrus bytecode and development
+sources; Ghidra's existing read-only analysis and the maintainer's protected
+Save52 provide the primary evidence. Existing tool/source notices remain in
+force. Project-owned C1/C2, S1/S2, E1-E3 and P1 methods are reused with provenance
+in the [source ledger](docs/experiments/cargo-links/fuel/sources.csv). No raw
+proprietary source or save payload is incorporated into authored research.
+
 ## Save29 derivative feasibility
 
 2026-10-17. [P1 feasibility](docs/experiments/power/save29-derivatives.md) credits

@@ -1,5 +1,19 @@
 # Source Register
 
+## C3 inter-system fuel and time-skip interfaces
+
+2026-10-18. SOR-EXP-0046 / SOR-EV-0054.
+[Report](experiments/cargo-links/fuel/report.md) and
+[pins](experiments/cargo-links/fuel/sources.csv) bind fresh installed Bethesda
+EXE/ESM/BA2/PEX/development sources, protected maintainer Save52 and existing
+Ghidra analysis. Existing Bethesda source records and tool credits apply.
+Owned C2 PEX/Save52 readers, S1 inventory grammar, E1 producer audit and C2 review
+exporter are adapted with exact source hashes retained locally; SOR-P-0002.
+Ghidra 12.1.2, Temurin 21, CPython 3.14, stdlib and Git are existing tools.
+No new dependency, licence basis, upstream contact, copied third-party code or
+external disclosure. Raw game/native/save payloads remain LOCAL-ONLY; authored
+synthesis and metadata REVIEW-REQUIRED.
+
 ## S2 local output links and remote production
 
 2026-10-17. SOR-EXP-0043 / SOR-EV-0051. [Report](experiments/local-output-links/report.md)

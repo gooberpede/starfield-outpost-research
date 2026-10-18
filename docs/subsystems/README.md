@@ -1,5 +1,11 @@
 # Outpost Subsystem Research Map
 
+[C3 fuel](../experiments/cargo-links/fuel/report.md) joins periodic He-3
+withdrawal to either-pad readiness and conditional production/freight time-skip
+behavior. [Saved correspondence](../experiments/cargo-links/fuel/saves.md) and
+[review](../experiments/cargo-links/fuel/review.md) retain historical/live limits.
+C2 owns ordinary transport/remote movement; C3 adds fuel interfaces.
+
 [C1 cargo configuration/UI](../experiments/cargo-links/configuration-ui/report.md) joins ordinary saved pair/terminal/compartments to candidates, resource panels and refresh. Empty outboxes and direct-only recipe demand explain the Feynman I/VII-b case. [Review](../experiments/cargo-links/configuration-ui/review.md); C2/C3 remain separate.
 
 

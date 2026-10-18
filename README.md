@@ -1,5 +1,12 @@
 # Starfield Outpost Systems Research
 
+**2026-10-18 - C3 inter-system fuel:** [Fuel model](docs/experiments/cargo-links/fuel/report.md)
+separates five-unit periodic He-3 withdrawal from either-pad ship readiness,
+receipt and reverse freight. [Time examples](docs/experiments/cargo-links/fuel/time.md)
+explain production versus one-shot freight during wait/sleep;
+[review](docs/experiments/cargo-links/fuel/review.md) controls independent completion.
+Offline only; no mod, live, staging, commit or push.
+
 **2026-10-17 - S2 local output links:** [Native/save report](docs/experiments/local-output-links/report.md)
 connects downstream redistribution, direct production delivery and registered,
 resolvable remote/unloaded operation. [Lifecycle](docs/experiments/local-output-links/lifecycle.md)

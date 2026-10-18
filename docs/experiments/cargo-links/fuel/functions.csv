@@ -1,0 +1,23 @@
+static_va,rva,original_name,local_evidence,function_line,body,scope
+140f7d030,0xf7d030,FUN_140f7d030,.local-work/c3-fuel/native/001.request.tsv,6,"[[140f7d030, 140f7d0a3]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f7cb70,0xf7cb70,FUN_140f7cb70,.local-work/c3-fuel/native/001.request.tsv,80,"[[140f7cb70, 140f7cc68]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f7d120,0xf7d120,FUN_140f7d120,.local-work/c3-fuel/native/001.request.tsv,207,"[[140f7d120, 140f7d508]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f7d6a0,0xf7d6a0,FUN_140f7d6a0,.local-work/c3-fuel/native/001.request.tsv,732,"[[140f7d6a0, 140f7df99]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f7f1e0,0xf7f1e0,FUN_140f7f1e0,.local-work/c3-fuel/native/001.request.tsv,1752,"[[140f7f1e0, 140f7f6ea]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f7f6f0,0xf7f6f0,FUN_140f7f6f0,.local-work/c3-fuel/native/001.request.tsv,2362,"[[140f7f6f0, 140f7fd43]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f7bd20,0xf7bd20,FUN_140f7bd20,.local-work/c3-fuel/native/001.request.tsv,3176,"[[140f7bd20, 140f7bf02]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f881c0,0xf881c0,FUN_140f881c0,.local-work/c3-fuel/native/002.request.tsv,10,"[[140f881c0, 140f88964] [140f88966, 140f8896a]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f7cc70,0xf7cc70,FUN_140f7cc70,.local-work/c3-fuel/native/002.request.tsv,874,"[[140f7cc70, 140f7d022]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140b6d720,0xb6d720,FUN_140b6d720,.local-work/c3-fuel/native/002.request.tsv,1264,"[[140b6d720, 140b6d810]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+14038a200,0x38a200,FUN_14038a200,.local-work/c3-fuel/native/002.request.tsv,1382,"[[14038a200, 14038a206]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+14049a430,0x49a430,FUN_14049a430,.local-work/c3-fuel/native/002.request.tsv,1396,"[[14049a430, 14049a56a]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140c59ab0,0xc59ab0,FUN_140c59ab0,.local-work/c3-fuel/native/003.request.tsv,6,"[[140c59ab0, 140c59b37]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140c01fe0,0xc01fe0,FUN_140c01fe0,.local-work/c3-fuel/native/003.request.tsv,70,"[[140c01fe0, 140c02065]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+14206ab30,0x206ab30,FUN_14206ab30,.local-work/c3-fuel/native/003.request.tsv,138,"[[14206ab30, 14206ab47]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f8c580,0xf8c580,FUN_140f8c580,.local-work/c3-fuel/native/003.request.tsv,158,"[[140f8c580, 140f8c72d]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f7dfa0,0xf7dfa0,FUN_140f7dfa0,.local-work/c3-fuel/native/003.request.tsv,353,"[[140f7dfa0, 140f7e527]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140157240,0x157240,FUN_140157240,.local-work/c3-fuel/native/003.request.tsv,1116,"[[140157240, 140157271]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140f7bf10,0xf7bf10,FUN_140f7bf10,.local-work/c3-fuel/native/003.request.tsv,1138,"[[140f7bf10, 140f7bf71]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140d96b20,0xd96b20,FUN_140d96b20,.local-work/c3-fuel/native/004.request.tsv,6,"[[140d96b20, 140d9ce3e]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+140d96680,0xd96680,FUN_140d96680,.local-work/c3-fuel/native/004.request.tsv,1715,"[[140d96680, 140d969fb]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation
+1405e18a0,0x5e18a0,FUN_1405e18a0,.local-work/c3-fuel/native/005.request.tsv,6,"[[1405e18a0, 1405e1e95]]",STATIC / OBSERVED-INTERNAL; warnings/caps retained; no invocation

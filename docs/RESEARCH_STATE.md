@@ -1,5 +1,18 @@
 # Current Research State
 
+**2026-10-18 - C3 inter-system fuel and skipped time:**
+[SOR-EXP-0046 / SOR-EV-0054](experiments/cargo-links/fuel/report.md) establishes
+five He-3 per accepted native fuel-production cycle, base interval 108 scheduler
+seconds, direct transitive incoming inventory consumption and a distinct charged
+mode-0 readiness query. Either eligible pad can permit the shared ship's next
+load/departure at either end; receipt precedes that query. Two stocked Save52
+routes join four pad producer rows and real physical fuel sources. Historical
+VM/timer instances and current ready state remain unqualified. Conditional wait
+examples and a separate reconciliation backlog preserve C1/C2/S1/S2 history.
+[Review/package](experiments/cargo-links/fuel/review.md) controls disposition;
+STRONG STATIC with SAVE corroboration, authored REVIEW-REQUIRED, raw LOCAL-ONLY.
+No live/mod/save/Git/publication authority.
+
 **2026-10-18 - C2 native transit continuation:** [Native movement/round-trip model](experiments/cargo-links/transport/transit.md) connects reference/component frame elapsed to detached thresholds and full physical-flight completion. Installed ground 15/space 5 calendar rates change dock wall equivalents by 3; ordinary/fueled share packages/waits, with fuel readiness an extra stall. Conditional ideal detached steady periods 92.16/241.92 s (calendar 15/5) account for timer phase; conservative nominal budgets 92.64/253.92 s are separate calculations, not measured universal times or calibrated tolerances. Actual controller/action/delta/queue history remains unobserved. [Separate completion review](experiments/cargo-links/transport/transit-review.md); no live/integration/Git/publication authority.
 
 **2026-10-18 - C2 cargo transport:** [Answer-first model](experiments/cargo-links/transport/report.md) traces the shared two-end hold, retained freight returning to origin incoming, per-ship quantized game timers, native travel/completion and ordinary cleanup. Wider Save52:24 selected ships,19 decoded holds (11 stocked/8 empty), five explicit gaps; principal C1 case preserved. STRONG STATIC/SAVE causal findings; historical incident/flight timing unobserved. [Frozen criteria/review](experiments/cargo-links/transport/review.md) controls completion. Remote transport belongs to C2; detailed He-3 remains C3. Future native UI enhancement recorded in backlog only. No live/integration/Git/publication authority.

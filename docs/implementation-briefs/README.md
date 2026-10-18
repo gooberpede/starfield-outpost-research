@@ -1,5 +1,9 @@
 # Implementation and Audit Briefs
 
+[C3 inter-system fuel and time-skip brief](CODEX_BRIEF_SOR_C3_intersystem_cargo_fuel_and_timeskip.md)
+was invoked 2026-10-18 for bounded offline execution and independent prose review;
+[result/package](../experiments/cargo-links/fuel/review.md). No commit or push.
+
 - [C1 cargo-link configuration/UI/save correspondence](CODEX_BRIEF_SOR_C1_cargo_link_configuration_ui_save.md): invoked 2026-10-18; bounded offline native/compiled-UI/save study and independent [review package](../experiments/cargo-links/configuration-ui/review.md). No live, deployment, save mutation, staging, commit or push.
 
 

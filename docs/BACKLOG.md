@@ -1,5 +1,36 @@
 # Separately scoped research backlog
 
+## Cargo Link Time-Skip Reconciliation
+
+2026-10-18. Separate **future modding application**, informed by
+[C3 fuel/time research](experiments/cargo-links/fuel/report.md) and
+[worked discontinuity cases](experiments/cargo-links/fuel/time.md). Elapsed
+production and direct local delivery can advance during wait/sleep while cargo
+timer stages are one-shot and are not replayed once for each missed voyage.
+Possible consequences are outgoing freight and net He-3 buildup, remote
+manufacturing starvation and storage saturation, conditional on supply,
+consumption, capacities, timing and otherwise functioning routes. These are
+source-derived predictions, not verified universal gameplay outcomes.
+
+Future scoping could reconcile missed voyage stages or perform bounded abstract
+freight transfers during skips. It must account for temporal order, available
+stock, outbound and reverse freight, independent periodic fuel-production
+accounting and each stage's readiness timing, effective capacities, partial unloading,
+returned cargo, pauses, broken routes and item conservation. Reproducing ordinary
+transport rules and intentionally changing balance are different design choices.
+**No mod, plugin, hook or save modification is authorized.** The existing native
+cargo-link UI enhancement remains a separate backlog application.
+
+### C2/C3 boundary correction
+
+The older C2 freight / C3 remote-fuel entry below is retained as historical
+planning. [C2](experiments/cargo-links/transport/report.md) and its
+[transit continuation](experiments/cargo-links/transport/transit.md) now explain
+ordinary returned freight, remote transport, movement and recovery. C3 adds
+He-3 accounting, endpoint readiness and their elapsed-time interfaces; remote
+transport generally is no longer deferred to C3. C1/S1/S2 accepted scopes are
+preserved. No new execution follows from this prospective clarification.
+
 ## Future modding application: native cargo-link management UI
 
 2026-10-18, documentation only under [C2](experiments/cargo-links/transport/report.md).

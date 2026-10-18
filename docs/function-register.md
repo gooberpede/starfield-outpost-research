@@ -1,5 +1,15 @@
 # Function and Operation Register
 
+## C3 fuel accounting and readiness
+
+[SOR-EXP-0046 / SOR-EV-0054](experiments/cargo-links/fuel/native.md),
+[exact locators](experiments/cargo-links/fuel/functions.csv): native Papyrus
+`14206ab30` passes mode 0 to `140f7d120`; scheduler `140f7f1e0` passes mode 1.
+`140f7d030`, `140f7f6f0`, `140f881c0` and `140f7d6a0` connect category, incoming
+sources, whole-recipe cap and source inventory withdrawal. PEX CargoLinkCanProduce
+queries either non-mission endpoint; timer 2 repeats arrival/unload. Base image
+`0x140000000`, retail 1.16.244.0, STATIC / OBSERVED-INTERNAL; no safe API claim.
+
 [D1 point-query/condition cross-references](experiments/disappearing-deposits/native.md)
 add N71/N72 to the existing native-availability CSV (72 entries). Existing native
 evidence is reused; no new native export, invocation or integration point.
