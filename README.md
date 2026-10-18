@@ -310,3 +310,5 @@ Identical-save settled consumer outcomes remain not yet established.
 ## CR3 crew contribution lifecycle
 
 [CR3 report](docs/experiments/crew-lifecycle/report.md) distinguishes assignment, arrival, active entries and cached production clocks. Selected template-part evidence qualifies real assigned generic Engineering, Management and Security witnesses; native finalization clears/replays selected perk entries. [Review](docs/experiments/crew-lifecycle/review.md) controls completion; actual remote process state/output remain unobserved. Offline only; no staging, commit or push.
+
+**2026-10-18 — R1 outpost robots:** [Report](docs/experiments/robots/report.md) corrects the construction census to eight variants, traces shared build limits versus zero-cost crew assignment, conditional robot effects and eight real reciprocal robot joins. [Review/package](docs/experiments/robots/review.md) controls completion; robot-only saved witness and historical operation remain unobserved. Offline only; no staging, commit or push.

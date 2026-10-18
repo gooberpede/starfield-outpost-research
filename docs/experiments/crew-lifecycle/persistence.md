@@ -1,5 +1,7 @@
 # Saved participants and ordinary reconstruction
 
+**Prospective R1 closure, 2026-10-18:** [R1 saved robot joins](../robots/persistence.md) identify all eight HIST-0255 leading `9C` members below as constructed robots and recover reciprocal WorkshopItem/CrewAssignment plus beacon E2. The original parser gap/history remains preserved; R1 does not close opaque actor extra `15` tail or historical active-entry/output state.
+
 [Answer](report.md), [all corpus decisions](corpus.csv), [all E2 members](instances.csv), [qualified generic instances](witnesses.csv), [native lifecycle](native.md). The saved evidence is observational, potentially mod/bug affected, and does not establish a linear controlled history. Sample IDs retain CR1's frozen HIST numbering.
 
 ## Search coverage and why these witnesses qualify

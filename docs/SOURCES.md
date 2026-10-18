@@ -947,3 +947,7 @@ CR1 current-assignment continuation: [source metadata](experiments/crew/current-
 ## CR3 crew contribution lifecycle
 
 2026-10-18, SOR-EXP-0049 / SOR-EV-0057. [Source pins](experiments/crew-lifecycle/sources.csv), [functions](experiments/crew-lifecycle/functions.csv), [methods](../research/cr3-lifecycle/README.md). Bethesda installed retail native/ESM/scripts and matching existing Ghidra analysis; maintainer protected earlier saves. Owned CR1/CR2/E1/E3/P1/S2 discoveries/readers and CR2 review exporter reused under SOR-P-0002. Existing CPython/stdlib, Ghidra/Temurin and Git support offline examination/checks. No new outside code/dependency/permission basis or external disclosure. Raw/proprietary/private primary payloads LOCAL-ONLY; authored interpretation/numeric metadata REVIEW-REQUIRED.
+
+## R1 constructible outpost robots
+
+2026-10-18, SOR-EXP-0050 / SOR-EV-0058. [Source ledger](experiments/robots/sources.csv), [native register](experiments/robots/functions.csv), [methods](../research/r1-robots/README.md). Bethesda installed EXE/ESM/Misc.ba2/ContentResources.zip, matching existing Ghidra state and maintainer historical metadata/saves supply primary material. Owned CR1–CR3 assignment/PEX/rank/lifecycle, E1–E3/P1/S2 consumers and save framing/membership/streaming/guard methods are reused under SOR-P-0002. Existing Ghidra 12.1.2/Temurin 21.0.12, CPython 3.14/stdlib and Git are tools, not evidence-rights clearance. No external code, dependency, network, contact or disclosure. Raw payloads LOCAL-ONLY; authored synthesis/metadata REVIEW-REQUIRED.

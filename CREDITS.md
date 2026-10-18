@@ -523,3 +523,7 @@ CR1 current-assignment correction reuses this project's typed record/initial-pre
 ## CR3 crew contribution lifecycle
 
 2026-10-18. [CR3 research](docs/experiments/crew-lifecycle/report.md) credits Bethesda installed native/data/scripts, maintainer protected historical saves and existing Ghidra analysis. Reuses project-owned CR1 assignment/registry/PEX, CR2 rank/inheritance/effect, E1 clock/stacking, E3 manufacturing, P1 power and S2 remote/handle discoveries; adaptations and exact pins are in [methods](research/cr3-lifecycle/README.md) and [source ledger](docs/experiments/crew-lifecycle/sources.csv). Existing Ghidra/Temurin, CPython/stdlib and Git support observation-only research and local packaging. No new outside implementation or redistribution grant.
+
+## R1 robot contributions, limits and lifecycle
+
+2026-10-18. [R1 research](docs/experiments/robots/report.md) uses Bethesda installed native/definition/compiled-script material and the maintainer historical corpus. It substantively reuses project CR1–CR3, E1–E3, P1 and S2 discoveries and owned offline readers/export methods, with source-specific provenance in [the ledger](docs/experiments/robots/sources.csv). Ghidra, Temurin, CPython/stdlib and Git supply existing offline tooling. No new third-party code or redistribution clearance.

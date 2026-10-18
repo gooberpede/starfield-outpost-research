@@ -283,3 +283,7 @@ CR1 current-assignment correction: [real reciprocal4C/E2 pairs](experiments/crew
 ## SOR-ST-0037 — Crew owned ranks, active entries and calculated effects
 
 SOR-EXP-0048 / SOR-EV-0056. [Lifecycle and persistence](experiments/crew-skills/lifecycle.md) distinguishes saved Actor bit22 first-list explicit perk/rank bytes, definition/template grants, runtime registration buckets, keyed assignment/E2, queued destination abilities, per-call arithmetic and persisted scheduler state. Seven originals yield nine explicit ranks/four actors; unsupported ranks remain UNKNOWN. Saved possession is not effective loaded output; restoration coherence remains CR3.
+
+## R1 robot state correspondence
+
+[SOR-EXP-0050 correspondence](experiments/robots/persistence.md) distinguishes persisted actor/base/owner/E2/4C and selected parts, definition-derived process ranks, mixed script-applied AVs, reconstructed selected-outpost construction count and transient eligible modifier queries. [Instances](experiments/robots/instances.csv) qualify eight real actors; missing fields are UNKNOWN.

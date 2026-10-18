@@ -77,3 +77,5 @@ Link findings, state/function registers, experiments, and evidence instead of co
 ## Crew modifier reference
 
 [CR2 crew effects](../experiments/crew-skills/report.md) connects qualified population, context admission, timers/power/capacity/combat, rank stacking and saved possession. [Process matrix](../experiments/crew-skills/processes.md) supplies bounded outpost positives and negatives; [lifecycle](../experiments/crew-skills/lifecycle.md) keeps assignment, active effects and physical arrival separate. Findings remain proposed/review-required; remote residency and complete post-load reconciliation remain open for CR3.
+
+[R1 robot difference analysis](../experiments/robots/report.md) maps eight ordinary constructions, their shared limit and separate crew slots, five process perks, three no-process-bonus variants and eight reciprocal saved actors. [Comparison](../experiments/robots/comparison.md) identifies shared native paths and divergences; [review](../experiments/robots/review.md) controls acceptance. Robot-only saved coverage and actual loaded operation remain qualified.

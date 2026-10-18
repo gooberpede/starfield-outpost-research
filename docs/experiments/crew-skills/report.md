@@ -1,5 +1,7 @@
 # CR2: what assigned crew skills actually change
 
+**Prospective R1 correction, 2026-10-18:** the [eight-variant installed robot category](../robots/report.md) extends the five process-perk robots below with Security minibot, Model S01 and Model A04, whose ordinary definitions have no demonstrated A1/DB bonus. Historical CR2 census/primary evidence remains intact; the five positive process grants are unchanged.
+
 2026-10-18, Australia/Sydney. SOR-EXP-0048 / SOR-EV-0056. Proposed STRONG / STATIC and sampled SAVE findings; authored synthesis REVIEW-REQUIRED, primary payloads LOCAL-ONLY. [Frozen contract](plan.md), [review](review.md).
 
 **Assignment supplies actors to particular consumers; it does not convert every skill in the Crew screen into an outpost bonus.** A displayed skill is a possessed crew-flagged perk. Its selected rank must contain an effect, and that effect must reach a consumer with the right environment, target and conditions. Timers, power, ship capacity, abilities and combat use different paths and combination rules.

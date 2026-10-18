@@ -330,3 +330,7 @@ CR1 current persistence correction: [writer/load/fixup/consumer chain](experimen
 ## CR2 selected-rank and process-specific consumers
 
 SOR-EXP-0048 / SOR-EV-0056. [Function/export locators](experiments/crew-skills/functions.csv) and [causal map](experiments/crew-skills/native.md) cover registration140ca3910, dispatcher140c93cf0, timer140f7bd20, power140f3dd50, ship selector1404095c0, ability refresh14040a9d0, combat141b30b30, inherited perk copier140cd77d0 and saved rank writer/reader1412b60a0/1412b6eb0. Preferred static VA/RVA for pinned build only; OBSERVED-INTERNAL, no invocation/ABI/hook safety claim.
+
+## R1 robot construction and shared modifier paths
+
+[SOR-EXP-0050 native locators](experiments/robots/functions.csv) pin instruction-backed recipe-global count `140f3b170`, status `1421dcb10/140f3f9a0`, ordinary build `1421b2360/1421b2e20`, selected-owner registry `1421c6f90`, insertion `1421c6890` and removal `1421c6b90/1421c77b0`. [Limits](experiments/robots/limits.md) separates these from shared E2/A1/DB and actor restoration. OBSERVED-INTERNAL, no safe invocation guarantee.
