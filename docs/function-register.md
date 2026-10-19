@@ -334,3 +334,14 @@ SOR-EXP-0048 / SOR-EV-0056. [Function/export locators](experiments/crew-skills/f
 ## R1 robot construction and shared modifier paths
 
 [SOR-EXP-0050 native locators](experiments/robots/functions.csv) pin instruction-backed recipe-global count `140f3b170`, status `1421dcb10/140f3f9a0`, ordinary build `1421b2360/1421b2e20`, selected-owner registry `1421c6f90`, insertion `1421c6890` and removal `1421c6b90/1421c77b0`. [Limits](experiments/robots/limits.md) separates these from shared E2/A1/DB and actor restoration. OBSERVED-INTERNAL, no safe invocation guarantee.
+
+## L2 budget, accounting and footer consumers
+
+[SOR-EXP-0052 / SOR-EV-0060 native register](experiments/build-budget/functions.csv)
+pins form calculator140f4c7f0, reference filter140f4c770, single/assembly
+getters140f64b00/140f6e260, candidate cache140f33180, gate1421dcb10,
+add/subtract140f4c980/140f4ca70, BF1419aec20/1419aeff0 and
+ratio140f4cb70 -> statistics1421f2cb0 -> footer14143f690/8a0/fb40.
+[Causal explanation](experiments/build-budget/native.md) separates static VAs,
+object offsets, saved offsets and identity domains. OBSERVED-INTERNAL;
+no safe invocation, hook, mod ABI or runtime measurement is established.

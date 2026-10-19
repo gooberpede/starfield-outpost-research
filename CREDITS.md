@@ -536,3 +536,16 @@ CR1 current-assignment correction reuses this project's typed record/initial-pre
 ## R1 robot contributions, limits and lifecycle
 
 2026-10-18. [R1 research](docs/experiments/robots/report.md) uses Bethesda installed native/definition/compiled-script material and the maintainer historical corpus. It substantively reuses project CR1–CR3, E1–E3, P1 and S2 discoveries and owned offline readers/export methods, with source-specific provenance in [the ledger](docs/experiments/robots/sources.csv). Ghidra, Temurin, CPython/stdlib and Git supply existing offline tooling. No new third-party code or redistribution clearance.
+
+## L2 build-budget research
+
+gibbed's [Fallout 4 command inventory](https://mod.gib.me/fallout4/functions.html)
+supplied initial budget-command and draw/triangle search terminology (SOR-S-0152).
+Starfield's scalar mechanism was independently traced; no external code/script
+implementation or earlier-game semantics was imported. Bethesda installed
+native/definition/UI evidence and the maintainer's protected Kreet/mature saves
+and screenshot supply primary inputs. Owned prior L1/R1/Workshop/E1-E2/CR1/C1
+research supplies construction, AV serialization, UI and offline-reader methods.
+Existing Ghidra/Temurin, CPython/stdlib and Git support read-only acquisition
+and review. [Report/provenance](docs/experiments/build-budget/report.md),
+[source pins](docs/experiments/build-budget/sources.csv); raw payloads remain local.

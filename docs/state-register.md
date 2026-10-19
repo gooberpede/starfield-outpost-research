@@ -287,3 +287,14 @@ SOR-EXP-0048 / SOR-EV-0056. [Lifecycle and persistence](experiments/crew-skills/
 ## R1 robot state correspondence
 
 [SOR-EXP-0050 correspondence](experiments/robots/persistence.md) distinguishes persisted actor/base/owner/E2/4C and selected parts, definition-derived process ranks, mixed script-applied AVs, reconstructed selected-outpost construction count and transient eligible modifier queries. [Instances](experiments/robots/instances.csv) qualify eight real actors; missing fields are UNKNOWN.
+
+## L2 scalar usage and reconstructed display
+
+[SOR-EXP-0052 / SOR-EV-0060](experiments/build-budget/saves.md): WorkshopCurrentBudget
+AV00000399 base/modifiers is PERSISTED through ExtraBF; current costs/allowance
+are DEFINITION-DERIVED with effective overrides; context+78 candidate charge is
+TRANSIENT; ExtraBC+90 ratio and footer snapshot are RECONSTRUCTED/TRANSIENT.
+Fresh native BC writer/loader omit summary+7c..90, refining earlier E1's scoped
+UNCLASSIFIED persistence. Do not equate ExtraBC+78 ordinal with context+78 cost.
+Saved disabled beacons can retain nonzero usage without surviving direct roots.
+No current loaded authority or active-population oracle follows.

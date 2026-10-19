@@ -1,5 +1,21 @@
 # Current Research State
 
+**2026-10-19 - L2 build-budget accounting:**
+[SOR-EXP-0052 / SOR-EV-0060](experiments/build-budget/report.md) proposes STRONG
+ordinary STATIC scalar accounting with saved corroboration. Base charge1,
+main-ESM surcharges0, conditional allowance2500; single/assembly costs, cached
+candidate, unrounded admission, add/delete and restored AV00000399 are traced.
+All17 Kreet archive copies freshly read: positive budgets7/8/10/9 with paired
+controls; move/link unchanged. Two mature inputs add36 explicit budget records,
+including disabled historical nonzero counters. Footer provider/100-frame
+rounding is mapped; exact screenshot operands/current runtime remain unobserved.
+ExtraBC summary persistence is refined to reconstructed in the inspected
+writer/loader, while its ordinary usage AV is persisted. Earlier E1 uncertainty
+is retained historically. [Review](experiments/build-budget/review.md) governs
+independent completion; authored REVIEW-REQUIRED, primary LOCAL-ONLY.
+L1 remains closed; L3 placement/scenery and later turret ownership stay reserved.
+No live/mod/save/configuration/database/Git/publication authority is added.
+
 **2026-10-19 - L1 numerical and environmental admission:**
 [SOR-EXP-0051 / SOR-EV-0059](experiments/limits/report.md) traces player remaining
 deployment allowance (base 8, Habitation 12/16/20/24), selected-outpost shared

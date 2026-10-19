@@ -282,3 +282,13 @@ Crew persistence correction: [real current saved assignments](../experiments/cre
 ## CR3 contribution lifecycle continuation
 
 [CR3](../experiments/crew-lifecycle/report.md) connects E2 assignment and selected generic template parts to per-actor active entries, load replay and producer interval reset. Physical travel, handle resolution, process-entry residency and realized output remain distinct. [Native state matrix](../experiments/crew-lifecycle/native.md), [saved witnesses](../experiments/crew-lifecycle/persistence.md), [review](../experiments/crew-lifecycle/review.md).
+
+## L2 scalar Build Limit - 2026-10-19
+
+[Native/accounting model](../experiments/build-budget/report.md) connects eligible
+single/PackIn members, form/property cost, candidate cache and cap with saved
+usage and the compiled footer bar. Kreet add/remove/move controls corroborate
+the scalar; hab same-input and robot direct-root contrasts retain historical
+runtime limits. [Review/package](../experiments/build-budget/review.md).
+L1 is retained. L3 owns POI/territory/collision/procedural suppression and
+reappearing rocks; turret ownership/operation remains a later phase.

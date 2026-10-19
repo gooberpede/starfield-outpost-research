@@ -964,3 +964,24 @@ CR1 current-assignment continuation: [source metadata](experiments/crew/current-
 ## R1 constructible outpost robots
 
 2026-10-18, SOR-EXP-0050 / SOR-EV-0058. [Source ledger](experiments/robots/sources.csv), [native register](experiments/robots/functions.csv), [methods](../research/r1-robots/README.md). Bethesda installed EXE/ESM/Misc.ba2/ContentResources.zip, matching existing Ghidra state and maintainer historical metadata/saves supply primary material. Owned CR1–CR3 assignment/PEX/rank/lifecycle, E1–E3/P1/S2 consumers and save framing/membership/streaming/guard methods are reused under SOR-P-0002. Existing Ghidra 12.1.2/Temurin 21.0.12, CPython 3.14/stdlib and Git are tools, not evidence-rights clearance. No external code, dependency, network, contact or disclosure. Raw payloads LOCAL-ONLY; authored synthesis/metadata REVIEW-REQUIRED.
+
+## SOR-S-0152 - Fallout 4 budget command leads; L2 primary provenance
+
+2026-10-19. gibbed, [Fallout 4 commands/functions](https://mod.gib.me/fallout4/functions.html),
+entries751/752 GetBudgetCounts/WorkshopBudget; consulted read-only as a finite
+lead for L2. Source-reported names/draw-triangle terminology only. No code,
+script implementation, table, binary or substantial source text incorporated;
+no reuse permission inferred from public access. Search snippets of community
+script/AV references were discovery context, not semantic evidence. No external
+contact, fork, PR, issue, download/install or upload occurred.
+
+[SOR-EXP-0052/EV0060](experiments/build-budget/report.md), [hash ledger](experiments/build-budget/sources.csv)
+and [native locators](experiments/build-budget/functions.csv) credit Bethesda's
+installed EXE/ESM/Interface.ba2/ContentResources.zip, matching read-only Ghidra
+state, maintainer Kreet archive controls, selected mature saves and screenshot.
+Owned L1/R1/Workshop root-population/E1-E2/CR1/C1 discoveries and readers are
+reused under SOR-P-0002, with adaptation provenance in the research README.
+Existing Ghidra12.1.2/Temurin21.0.12, CPython3.14/stdlib and Git are tools, not
+clearance of proprietary output. Primary bytes remain LOCAL-ONLY; authored
+interpretation/metadata REVIEW-REQUIRED. No new external implementation or
+dependency is used.

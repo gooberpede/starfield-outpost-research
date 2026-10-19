@@ -1,5 +1,20 @@
 # Decision Register
 
+## L2 execution and retained L3 boundary - 2026-10-19
+
+The maintainer invoked the retained [L2 brief](implementation-briefs/CODEX_BRIEF_SOR_L2_outpost_build_budget_native_accounting.md)
+and requested a commit suggestion without committing or pushing. All eight
+original criteria, [plan](experiments/build-budget/plan.md) and independent
+[review](experiments/build-budget/review.md) govern completion. Allowed: existing
+pinned offline native/definition/UI/save analysis and authored artifacts;
+small read-only Fallout4 lead consultation, without imported semantics/code.
+No live/deployment/save/configuration/database change, staging, commit, push,
+external disclosure or publication is authorized. L1 stays accepted and closed.
+L3 retains POI exclusion, territory clipping, dynamic actor/flora collision,
+procedural scenery suppression and returning rocks. Turret ownership/operation
+remains reserved for the turret phase. This prospectively advances the roadmap;
+earlier future-L2 wording remains historical, not an unrecorded scope change.
+
 ## L1 execution and three-part Limits roadmap - 2026-10-19
 
 The maintainer explicitly invokes the retained [L1 brief](implementation-briefs/CODEX_BRIEF_SOR_L1_numerical_perk_limits.md)

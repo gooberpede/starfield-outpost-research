@@ -1,5 +1,10 @@
 # Experiments
 
+- [SOR-EXP-0052 / SOR-EV-0060 - L2 Build Limit](build-budget/report.md): scalar
+  form/property cost, candidate cache, admission, persisted accounting and
+  [compiled bar](build-budget/ui.md); [controls](build-budget/saves.md),
+  [review](build-budget/review.md). L1 retained; L3 deferred.
+
 - [SOR-EXP-0051 / SOR-EV-0059 - L1 numerical/environment admission](limits/report.md):
   player deployment, shared cargo/turret limits, bounded recipe census and actual
   Planetary Habitation conditions; [saved coverage](limits/saves.md),
