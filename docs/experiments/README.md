@@ -179,3 +179,5 @@ H1-H4 and proposed-only repeated-load validation. No new live authority.
 
 
 - [SOR-EXP-0055 / SOR-EV-0063 - SD1 containers and displays](containers-displays/report.md): qualified constructible census, capacity/filter/slot gates, four ownership channels, mounted item references versus actor equipment, ordinary scrap transfer and saved correspondence; [review/package](containers-displays/review.md). Offline only.
+
+- [SOR-EXP-0056 / SOR-EV-0064 - SD2 Shared Outpost Storage](shared-outpost-storage/report.md): construction prerequisites, one backing inventory, source-consumer matrix and historical membership joins; [review/package](shared-outpost-storage/review.md). Offline only, no live or Git integration authority.

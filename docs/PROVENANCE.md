@@ -424,3 +424,7 @@ the user's approval, unchanged package/source identity, session seal, phase
 reports and protected postflight. Proprietary/raw/save/bulk data remain ignored
 LOCAL-ONLY. Timestamp-only changes and incidental ExitSave rotation are disclosed;
 zero existing save content changes. No Git or publication authority is inferred.
+
+## SD2 source and persistence correspondence - 2026-10-19
+
+[SOR-EXP-0056 / SOR-EV-0064](experiments/shared-outpost-storage/report.md) freshly rechecks the protected installed EXE/ESM/archive/static-database baseline and hashes new add-on/script/control inputs. [Methods](experiments/shared-outpost-storage/methods.md) records readOnly/noanalysis workers, preserved failed selectors and normal retirement; [source register](experiments/shared-outpost-storage/sources.csv) binds local receipts and owned method lineage. All 255 accessible historical originals receive pre/post hashes, with qualified framing and missing/unsupported contexts separate. No game/save/configuration/analysis-content modification or Git/account/disclosure authority; raw payloads remain local.

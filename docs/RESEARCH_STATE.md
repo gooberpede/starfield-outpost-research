@@ -1,5 +1,21 @@
 # Current Research State
 
+**2026-10-19 - SD2 shared storage and ingredient access, SOR-EXP-0056 / SOR-EV-0064:**
+[Answer](experiments/shared-outpost-storage/report.md), [prerequisites](experiments/shared-outpost-storage/prerequisites.md),
+[inventory model](experiments/shared-outpost-storage/shared-inventory.md) and
+[consumer matrix](experiments/shared-outpost-storage/consumers.md) propose STRONG
+STATIC keyword-to-player-backing substitution and separate ingredient providers.
+Craft/research share a real provider; construction uses its own vector with
+shared local eligibility. Forward spending and member-order/transaction limits
+are explicit. [Saved correspondence](experiments/shared-outpost-storage/saves.md)
+finds 1,499 special inline-base records in 124 of 147 supported historical saves,
+with three fresh beacon-owner sets; 108 unsupported and 23 missing inputs remain
+separate. Exact saved backing quantities and settled craft/load results are
+unmeasured. [Independent review](experiments/shared-outpost-storage/review.md)
+controls acceptance. SD1/S1 and production/freight scopes retained; SD3 Stored
+Resources is not mapped. No live, save/database/configuration modification,
+staging, commit, push, publication or external-account action.
+
 **2026-10-19 - DA1 defense/attacks/Integrity, SOR-EXP-0054 / SOR-EV-0062:**
 [Answer](experiments/outpost-defense/report.md), [attack and Armillary traces](experiments/outpost-defense/attacks.md),
 [Integrity/repair](experiments/outpost-defense/integrity.md), [saved damage and turret owners](experiments/outpost-defense/persistence.md)

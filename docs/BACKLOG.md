@@ -1,5 +1,9 @@
 # Separately scoped research backlog
 
+## SD2 result and retained validation - 2026-10-19
+
+[SD2 report](experiments/shared-outpost-storage/report.md) identifies one player-held shared backing inventory, local fixture recognition and concrete crafting/research/construction source and spending paths. [Saved scope](experiments/shared-outpost-storage/saves.md) separates broad positive fixture/owner correspondence from the unparsed PlayerCharacter backing-item segment and unobserved loaded deltas. A field-anchored offline reader or separately approved controlled split-source trial would address those narrower questions. [Review](experiments/shared-outpost-storage/review.md) controls acceptance. Locations Stored Resources aggregation/refresh remains reserved for SD3; no follow-on execution or live authority is implied.
+
 ## DA1 offline result and retained causal gaps - 2026-10-19
 
 [DA1 report/review](experiments/outpost-defense/review.md) covers ordinary attack
