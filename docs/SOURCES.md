@@ -985,3 +985,11 @@ Existing Ghidra12.1.2/Temurin21.0.12, CPython3.14/stdlib and Git are tools, not
 clearance of proprietary output. Primary bytes remain LOCAL-ONLY; authored
 interpretation/metadata REVIEW-REQUIRED. No new external implementation or
 dependency is used.
+
+## L3 spatial placement primary provenance
+
+E1 [extractor definition research](experiments/inorganic-extractors/arithmetic-production.md)
+supplies CONT `0005ef19` at physical ESM byte offset 5,403,487 for the L3 saved extractor
+identity. This is reused prior project research, not a new L3 definition receipt.
+
+2026-10-19, SOR-EXP-0053 / SOR-EV-0061. [Source pins](experiments/spatial-placement/sources.csv), [native locators](experiments/spatial-placement/functions.csv), [methods](../research/spatial-placement/README.md). Bethesda installed EXE/ESM/development scripts and existing matching Ghidra analysis; maintainer six exact Kreet saves and eleven screenshots supply primary evidence. Owned Workshop construction-root/position/CR1/L1/L2 framing, extras, decoder and export methods reused/adapted under SOR-P-0002. Existing CPython 3.14/stdlib, Ghidra 12.1.2/Temurin 21.0.12 and Git support offline work. No new third-party implementation, dependency, web source, contact or disclosure. Primary bytes LOCAL-ONLY; authored interpretation/metadata REVIEW-REQUIRED.

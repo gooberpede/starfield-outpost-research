@@ -1,5 +1,23 @@
 # Current Research State
 
+**2026-10-19 - L3 spatial placement, SOR-EXP-0053 / SOR-EV-0061:**
+[Answer](experiments/spatial-placement/report.md), [native](experiments/spatial-placement/native.md),
+[saves](experiments/spatial-placement/saves.md), [witnesses](experiments/spatial-placement/screenshots.md)
+and [review](experiments/spatial-placement/review.md) propose STRONG ordinary STATIC
+territory/collision/clearing mechanisms with positive SAVE correspondence.
+Installed beacon radius 150, NoPlacement/encounter restrictions and clipped border
+construction are distinct from collision status `0x04`. Preview eligible-reference
+clearing and committed bulldozed state (change mask `0x01000000`) are separate.
+Six newly protected Kreet inputs have 0/1/3 supported roots in each scenario;
+bulldozing channels have 0/1/4 and 0/1/12 records. The user designates POI Save31/33
+SOR-004 and clutter Save35/36 SOR-005;
+these aliases do not rename saved display text. Screenshot-to-reference joins
+remain unknown; historical reappearance not reproduced. Actual POI beacon image
+says Area is restricted, correcting the unchanged brief description.
+L1/L2 and earlier position findings retained. Authored REVIEW-REQUIRED, primary
+LOCAL-ONLY; independent review controls completion. No live/mod/save/DB/Git/publication authority.
+
+
 **2026-10-19 - L2 build-budget accounting:**
 [SOR-EXP-0052 / SOR-EV-0060](experiments/build-budget/report.md) proposes STRONG
 ordinary STATIC scalar accounting with saved corroboration. Base charge1,

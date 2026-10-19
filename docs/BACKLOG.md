@@ -1,5 +1,17 @@
 # Separately scoped research backlog
 
+## L3 offline result and retained lifecycle gap - 2026-10-19
+
+[L3 report/review](experiments/spatial-placement/review.md) addresses the authorized
+POI/clipping/obstruction/scenery scope. Exact photographed references and the
+historical rock-return incident are not reconstructed. A future approved test
+would distinguish loss of change-state bit 24 or the bulldozed flag at reference
+offset `0xd3`, new generated identity, and scene
+application failure; [minimal discriminator](experiments/spatial-placement/persistence.md).
+No observer, gameplay/save request, importer or mod follows. The roadmap below
+is retained as historical pre-L3 scope; L2 has its [separate result](experiments/build-budget/report.md).
+
+
 ## Limits roadmap after L1 - 2026-10-19
 
 [L1 reference/review](experiments/limits/report.md) addresses numerical quotas,

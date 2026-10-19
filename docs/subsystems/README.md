@@ -1,5 +1,12 @@
 # Outpost Subsystem Research Map
 
+[L3 spatial placement](../experiments/spatial-placement/report.md) maps ordinary
+territory/collision/clearing stages and saved bulldozed state, with SOR-004/005
+Kreet witnesses. [Review](../experiments/spatial-placement/review.md) controls
+acceptance; photo-specific operands and historical reappearance remain unknown.
+L1/L2 findings are retained; no live or integration authority.
+
+
 [L1 limits](../experiments/limits/report.md) joins recipe/global thresholds,
 native selected-outpost counting and player/body beacon admission. [Saved cases](../experiments/limits/saves.md)
 and [review](../experiments/limits/review.md) qualify current-state/ownership gaps.

@@ -1,5 +1,11 @@
 # Experiments
 
+- [SOR-EXP-0053 / SOR-EV-0061 - L3 placement](spatial-placement/report.md):
+  POI territory/border clipping, collision and preview versus saved bulldozing;
+  six Kreet saves/eleven witnesses, SOR-004/SOR-005; [review](spatial-placement/review.md).
+  Exact photo identity and historical reappearance remain bounded gaps.
+
+
 - [SOR-EXP-0052 / SOR-EV-0060 - L2 Build Limit](build-budget/report.md): scalar
   form/property cost, candidate cache, admission, persisted accounting and
   [compiled bar](build-budget/ui.md); [controls](build-budget/saves.md),

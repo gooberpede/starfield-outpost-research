@@ -549,3 +549,10 @@ research supplies construction, AV serialization, UI and offline-reader methods.
 Existing Ghidra/Temurin, CPython/stdlib and Git support read-only acquisition
 and review. [Report/provenance](docs/experiments/build-budget/report.md),
 [source pins](docs/experiments/build-budget/sources.csv); raw payloads remain local.
+
+## L3 POI clipping and environmental clearing
+
+The prior project E1 [extractor definition work](docs/experiments/inorganic-extractors/arithmetic-production.md)
+supplies the precise Iron extractor base/physical-offset corroboration.
+
+2026-10-19. [L3 research](docs/experiments/spatial-placement/report.md) credits Bethesda installed native/data/development-script material, matching existing Ghidra analysis and the maintainer six Kreet saves/eleven screenshot witnesses. Project-owned Workshop-root, position, CR1/L1/L2 and streaming/framing methods supply reused research and tooling; [exact provenance](docs/experiments/spatial-placement/sources.csv), [methods](research/spatial-placement/README.md). Ghidra/Temurin, CPython/stdlib and Git are existing tools. No new outside code or redistribution clearance.

@@ -1,0 +1,64 @@
+kind,label,bytes,sha256,eligibility,locator
+save-original,Save30,2226640,bdcf6d03b4f495710ddf5d38ab79c6cd0ede34e8a26e9d6f88ab27259200aa3e,LOCAL-ONLY,baseline.json:save-original
+save-original,Save31,2189216,98482db78bc64aae17f0cf333ef3cb25825608fea5e87bdc43e3f989eec3fa7c,LOCAL-ONLY,baseline.json:save-original
+save-original,Save33,2116832,f1181cbbae0272110778c44c0e0dfc604fd786082504420689d0c0c51da59ea0,LOCAL-ONLY,baseline.json:save-original
+save-original,Save34,2099104,6b38eec82e2e9f71b09a3be665957671edadf290fd354cc6a5d88a68cf23403a,LOCAL-ONLY,baseline.json:save-original
+save-original,Save35,2092176,8285e864219fbc4fd8e2ecb3f6e594eb50b6ceabea8f421a0b01439c3fc811d7,LOCAL-ONLY,baseline.json:save-original
+save-original,Save36,2143728,0874817c161439b5f582a47f01e53e4b6a7beab4644362f1c660d75102d53e93,LOCAL-ONLY,baseline.json:save-original
+screenshot-original,environmental-clutter-beacon-override.jpg,522869,215f5fc50e9504fbfd2fc6a3af416e6a9f2159ea70b79fc00144c8c75ebc03d5,LOCAL-ONLY,baseline.json:screenshot-original
+screenshot-original,environmental-clutter-beacon-static-intersection.jpg,532597,4629bfb55b8d9c39f47bbbcaba60b84496b155028265d62b021e4c7fcf19f370,LOCAL-ONLY,baseline.json:screenshot-original
+screenshot-original,environmental-clutter-extractor-dynamic-intersection.jpg,688941,064265a18a5fa20cb4c613ff7db336b17410ebb13b2a931492e18c85a1acca24,LOCAL-ONLY,baseline.json:screenshot-original
+screenshot-original,environmental-clutter-solar-array-override.jpg,744815,9b534f9d99bf153c47e3c4b1f8ed885c75470aeadac76668b6fe4537d985bfe6,LOCAL-ONLY,baseline.json:screenshot-original
+screenshot-original,environmental-clutter-solar-array-static-intersection.jpg,747204,68703d2eef994ca54b57873ccba04feaec4ab919a8862a3a3f5eee99a01ad2f2,LOCAL-ONLY,baseline.json:screenshot-original
+screenshot-original,identified-poi.jpg,498022,fd710d36064c0bc6dc7e94f2ba1f3041c8c5c176a57189ef10e7307ad9136c63,LOCAL-ONLY,baseline.json:screenshot-original
+screenshot-original,poi-beacon-inside-exclusion-zone.jpg,669255,7e85e870e5b38505d23627e9c42a598a857f16a60e3e7625b528d11489621b4e,LOCAL-ONLY,baseline.json:screenshot-original
+screenshot-original,poi-clipped-outpost-boundary-above.jpg,710370,07117ba836836cb517d290c246cdd390915036b9d98a8a49f350645d0ce52b2e,LOCAL-ONLY,baseline.json:screenshot-original
+screenshot-original,poi-clipped-outpost-boundary.jpg,572725,52dddd5f398a5a32580327d7cb4733ec3a31413e56c37f93afc998584438195d,LOCAL-ONLY,baseline.json:screenshot-original
+screenshot-original,poi-solar-array-inside-exclusion-zone.jpg,653986,82c1803b623a5bf09d44312c602132c8cd6cb4560935551206a47d092f7125a5,LOCAL-ONLY,baseline.json:screenshot-original
+screenshot-original,poi-solar-array-outside-exclusion-zone.jpg,657539,edde395b91b9f04fbd0e29a0a86244cacb75bcaffff01368baf5420e5e54a8ef,LOCAL-ONLY,baseline.json:screenshot-original
+installed-or-database,Starfield - Misc.ba2,38072258,b4a634a3452e5e346ee2fffe51a9ccfbf7e263dc63a8db999988fa9594d89fdf,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,Starfield.esm,1457098709,1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,Starfield.exe,102476200,7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,ContentResources.zip,163283936,b5f3f66d6041193c2db139c50a8a4a2da7a80c862a95ba5eec929c7a2c42983c,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,Starfield.gpr,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,00000000.prp,502,7fa5d97130a0c92448347b20235c8638526fb6b8811cfb95810d5d29b663288d,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,db.1.gbf,278609920,0a1c514ee44064a2065f86e7ff99de425990cfcce608f356018c753206156331,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,db.2.gbf,1634222080,9465cc9944d35acb75440471b0841fece52cc142341c269a5129a575791ded44,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,~index.bak,116,b27275866cf5b773eaebab219d0f67a14596c7320d8359ad07d18da381c16292,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,~index.dat,116,b27275866cf5b773eaebab219d0f67a14596c7320d8359ad07d18da381c16292,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,project.prp,163,113c367c11cdfe9ac46f1cd6194fe380300a021fa4bd9908d8fa91bb2cf58ef8,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,projectState,607,e1bfd9c084d9e1831b2b68b3fa2a568706b37514243539d2b38f4619c881215b,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,00000000.prp,528,4b7a5edbcca229d48c89ffad0327849736f0f00732de6ced032ce2bc34881546,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,db.1.gbf,98304,37dd81ca01e6148b53efb15bdf8c25403b3bf523d0e9358e4a4da95923c81a39,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,~index.bak,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,~index.dat,134,5a7f040bf782833462ecc7231cee2d72f88129f86e6c6e355f1e6c714d33f1a7,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,~journal.bak,114,761827a09392c9adf0451afd31299306225b3682baad7f04eea5a8a1df8b199a,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,~index.bak,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f,LOCAL-ONLY,baseline.json:installed-or-database
+installed-or-database,~index.dat,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f,LOCAL-ONLY,baseline.json:installed-or-database
+owned-tool,.local-work/l3-placement/native/Cr1Recon.java,19993,62e18f646c76b38342d88a9a22c62c47199b1ef6087a011a27b3c6bfe997ca75,REVIEW-REQUIRED,local helper provenance; SOR-P-0002
+owned-tool,.local-work/l3-placement/native/E2ReadSession.java,1605,4a2dec38136702b17f0430cc9069746ca719381999d255815d8aa513456234e8,REVIEW-REQUIRED,local helper provenance; SOR-P-0002
+owned-tool,.local-work/l3-placement/native/TransitCalls.java,3298,b98ba7c194a5e6390462b898160615b20146b230834756cb1df900b0e8ea57ee,REVIEW-REQUIRED,local helper provenance; SOR-P-0002
+owned-tool,save-analysis/scripts/stream_save.py,6318,b71bfcb0bfba63f978fd35b3e7d3cce17585cd7fd40e1a1fc646a3d1147a7823,REVIEW-REQUIRED,local helper provenance; SOR-P-0002
+owned-tool,save-analysis/scripts/workshop_inventory.py,24009,84c8573cdf690f875517374fa1b9133e1b45ff90837341d0b94dfb35c1c9821b,REVIEW-REQUIRED,local helper provenance; SOR-P-0002
+owned-tool,save-analysis/scripts/workshop_population.py,7216,0c1caeaaf929151622e84a22558cde8bdf4a8820a0942d029122f7d79a907fee,REVIEW-REQUIRED,local helper provenance; SOR-P-0002
+owned-tool,save-analysis/scripts/outpost_record_framing.py,3948,ec453fe90937246ac4eca6dca582afc2c21137819d6579fca07a8221ebfcb25f,REVIEW-REQUIRED,local helper provenance; SOR-P-0002
+owned-tool,save-analysis/scripts/extractor_resources.py,12150,414ba6e14e84512668a9504fb2a36bf75d003adfdab3490befc644f18e055ddb,REVIEW-REQUIRED,local helper provenance; SOR-P-0002
+owned-tool,save-analysis/scripts/validate_mature_outposts.py,14051,251325513dd9ad04b83a99fcb491a6fe556d083ee2c06b6fa6a892e764fde2f6,REVIEW-REQUIRED,local helper provenance; SOR-P-0002
+owned-tool,.local-work/l3-addscan.py,1734,4db3b6c2ac2006133cd20433fec3eb8e4bedbfdd4f537a204037344aece53507,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-compare.py,2325,3c4ac7f7c7e5a4457535f049a5799a4982150f6a608454f6d5e382268434e7bf,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-defs.py,1695,6611825b62d6531c5fab5559150b7b8b2fdaaebf286324e4442b46fb6e6de32d,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-delivery.py,2960,f62e6343003c1525138d8c91c082fbf749088abcd5cffaef17c2e7fa9277a472,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-detail.py,1003,a1c36c1eb56838e867faf93db3babc10b6136f0fda5414a20ffc2fef7984d780,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-indexes.py,5610,e5ea44b9f59c9381f45d1b6c522dfbabae238092c3d7b9b175e5e189572cc5b8,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-intake.py,3480,52b9ce9b72853db63e55119694acbc26369fb7d55cef4e61f04479593c0f38a5,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-ledgers.py,4353,250458784e74e3ad3a557845815a3bf150dce8742e32a0df7575ea0da1d07897,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-package-setup.py,1502,e860888a557aeb9d8e07ae367671d77ccc93d94b566532ff31ad739716757df8,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-pe.py,962,25299c33d5a77930dee5e454d9852026c5e04a359942e40ff503057563bc671c,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-preserve.py,1622,a1731d352f4f72c3af8fd1fc3811e36ddd928a5d2387acda67817cebc2c5d422,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-read.py,938,210b828e5103f84b6453e6575aa12512789450d4eebe60077085ee6efbee11e9,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-restart.py,846,52d32f14c1d8f0502d2958d13f544e673e9385a3846666aadace313b42697294,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-saves.py,2769,d2a13e1a620c21b9a7fffa337020cf1fdee7554577a5c752bc614d3f0a3aa128,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-summary.py,353,81fd9a7a7e0db9911c9c75ee35f51b5930d9777eec17049908748699e129e875,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/l3-placement/package.py,6492,cdb77513a6522e9374ee92c72a863b77f0c78139ae39f5db8ebd25e80a790a2a,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,research/spatial-placement/verify.py,7231,fec40be215b97a4ccfed60939e064636f4a12fe8b0263d03d08f132b1b8e9a45,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002
+owned-tool,.local-work/cr1-crew/crew_extras.py,5809,d97f4680499a76816bd314d0b0aaca41c5d9d109ab236b893f2047291db2d957,REVIEW-REQUIRED,owned helper adaptation; SOR-P-0002

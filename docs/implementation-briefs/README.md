@@ -1,5 +1,11 @@
 # Implementation and Audit Briefs
 
+- [L3 spatial placement, POI and clutter persistence](CODEX_BRIEF_SOR_L3_spatial_placement_POI_clutter_persistence.md):
+  invoked 2026-10-19; user aliases SOR-004/SOR-005 and screenshot identity-gap
+  amendment in [plan](../experiments/spatial-placement/plan.md);
+  [research/review](../experiments/spatial-placement/review.md). No staging/commit/push.
+
+
 - [L2 native build-budget accounting](CODEX_BRIEF_SOR_L2_outpost_build_budget_native_accounting.md):
   invoked 2026-10-19; offline research, independent review and commit suggestion;
   [review package](../experiments/build-budget/review.md). No commit or push.
