@@ -1,0 +1,34 @@
+static_va,rva,native_receipt,role,address_domain,basis
+14135dcb0,135dcb0,n020,Locations provider registration,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14135df40,135df40,n019,provider destruction/unregistration,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14135e120,135e120,n019,Locations entry and collector call,preferred-static-VA base140000000,STATIC; no invocation guarantee
+141360e80,1360e80,n012,registered outposts and eligible inventories,preferred-static-VA base140000000,STATIC; no invocation guarantee
+140f3bfc0,f3bfc0,n015,outer exclusion property query,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14047fce0,47fce0,n028,Workshop keyword recognition,preferred-static-VA base140000000,STATIC; no invocation guarantee
+141368cf0,1368cf0,n014,container AV gate shared substitution dedup,preferred-static-VA base140000000,STATIC; no invocation guarantee
+140156f40,156f40,n030,OutpostBuildContainer default object,preferred-static-VA base140000000,STATIC; no invocation guarantee
+140b64da0,b64da0,n030,shared keyword recognition,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14136be50,136be50,n014,initialized inventory resource/count visitor,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14136c060,136c060,n014,default inventory path,preferred-static-VA base140000000,STATIC; no invocation guarantee
+141361ad0,1361ad0,n016,default resource/count visitor,preferred-static-VA base140000000,STATIC; no invocation guarantee
+141350b10,1350b10,n017,physical item to resource association,preferred-static-VA base140000000,STATIC; no invocation guarantee
+141351790,1351790,n015,resource metadata construction,preferred-static-VA base140000000,STATIC; no invocation guarantee
+141350a00,1350a00,n018,metadata field constructor,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14136bbb0,136bbb0,n015,resource FormID map insertion,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14136ac90,136ac90,n019,owned asynchronous aggregate handoff,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14136dc00,136dc00,n017,UI command receiver,preferred-static-VA base140000000,STATIC; no invocation guarantee
+141361c10,1361c10,n012,OutpostEntry and resource/count population,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14136a980,136a980,n020,resource-name sorted insertion,preferred-static-VA base140000000,STATIC; no invocation guarantee
+141369750,1369750,n028,aligned count insertion,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14136c980,136c980,n006,OutpostEntry row fields,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14135d210,135d210,n019,ResourceEntry fields,preferred-static-VA base140000000,STATIC; no invocation guarantee
+141364550,1364550,n023,OutpostStaticData construction,preferred-static-VA base140000000,STATIC; no invocation guarantee
+1413644b0,13644b0,n027,outpost list binding,preferred-static-VA base140000000,STATIC; no invocation guarantee
+1409e7900,9e7900,n026,IRES NNAM GNAM SNAM TINC loader,preferred-static-VA base140000000,STATIC; no invocation guarantee
+1409e7890,9e7890,n020,resource color fallback,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14064a770,64a770,n029,localized symbol resolution,preferred-static-VA base140000000,STATIC; no invocation guarantee
+141382c00,1382c00,n003,non-provider Workshop-tab control,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14135e270,135e270,n022,body selection event,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14135e390,135e390,n023,favorite selection event,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14135e580,135e580,n018,outpost pressed event,preferred-static-VA base140000000,STATIC; no invocation guarantee
+14135e350,135e350,n027,service event body refresh only,preferred-static-VA base140000000,STATIC; no invocation guarantee

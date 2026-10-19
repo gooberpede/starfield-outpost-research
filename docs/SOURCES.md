@@ -1006,3 +1006,15 @@ identity. This is reused prior project research, not a new L3 definition receipt
 ## SD2 shared storage and ingredient access
 
 2026-10-19, SOR-EXP-0056 / SOR-EV-0064. [Report](experiments/shared-outpost-storage/report.md), [exact source pins](experiments/shared-outpost-storage/sources.csv) and [methods](experiments/shared-outpost-storage/methods.md). Bethesda installed EXE/main/add-on ESM/development scripts/compiled script archives, matching existing Ghidra analysis and maintainer-owned immutable historical saves are primary material. Prior SD1/S1/S2/E3/C2/DA1/L1 results and owned definition/PEX/typed-save/extra readers, launcher and patch exporter are reused/adapted under SOR-P-0002; no new external source implementation, dependency, licence acceptance, contact or disclosure. CPython 3.14/stdlib, existing Ghidra 12.1.2/Temurin 21.0.12 and Git are tools only. Primary payloads LOCAL-ONLY; authored interpretation/metadata REVIEW-REQUIRED.
+
+## SD3 extension: installed Locations reporting and icon sources
+
+2026-10-19, SOR-EXP-0057 / SOR-EV-0065. Bethesda installed executable/main and
+shared-storage definitions, Interface/Localization/Misc archives and existing
+Ghidra state provide primary STATIC sources. Maintainer historical originals and
+two supplied screenshots provide SAVE and unpaired UI observations. Existing
+active-membership, SD1/SD2/S1/S2/E1–E3/C3 research and owned SD2/C1/L2/SD1/S1/CR1
+readers/export methods are reused under SOR-P-0002; [exact source hashes](experiments/stored-resources/sources.csv)
+and [methods](experiments/stored-resources/methods.md) bind each use. No outside
+code incorporation or new rights grant is claimed. Raw proprietary/private
+payloads LOCAL-ONLY; authored minimal metadata/interpretation REVIEW-REQUIRED.

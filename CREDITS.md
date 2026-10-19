@@ -569,3 +569,13 @@ supplies the precise Iron extractor base/physical-offset corroboration.
 ## SD2 shared storage and ingredient access
 
 Bethesda's installed definitions, executable and script archives supply the primary native/definition evidence; the maintainer's historical saves supply positive fixture/outpost correspondence. Existing project SD1/S1/S2, E3, cargo C2, DA1 repair and L1 admission research, and owned readers/export methods, are reused with their original coverage limits under SOR-P-0002. Ghidra/Temurin, CPython/stdlib and Git support offline analysis and review packaging. [Methods and exact provenance](docs/experiments/shared-outpost-storage/methods.md), [source hashes](docs/experiments/shared-outpost-storage/sources.csv). No endorsement, new third-party implementation reuse or publication clearance is implied.
+
+## SD3 Stored Resources and icon provenance
+
+Bethesda's installed executable, definitions and compiled interface/localization
+assets supply the primary provider/icon evidence; the maintainer's saves and
+screenshots supply historical correspondence and unpaired UI context. Prior
+project active-membership, SD1/SD2/S1/S2/E1–E3/C3 research and owned readers are
+reused with original limits under SOR-P-0002. Ghidra/Temurin, CPython/stdlib and
+Git support separate offline analysis and review packaging. [Methods/source pins](docs/experiments/stored-resources/methods.md)
+retain exact provenance; no endorsement or publication clearance is implied.

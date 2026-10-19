@@ -621,3 +621,16 @@ SOR-EXP-0048 / SOR-EV-0056: [answer-first report](experiments/crew-skills/report
 ## SD1 offline container/display research - 2026-10-19
 
 [SOR-EXP-0055 / SOR-EV-0063](experiments/containers-displays/report.md) proposes STRONG scoped STATIC mechanisms with SAVE correspondence:111 qualified definition rows, native display slot/reference versus actor equipment residence, mode/reason ownership transfer and ordinary scrap destination branches. Completed historical search:278 locators,255 accessible originals,147 qualified and108 unsupported header/build,23 missing. H21 joins actual modified helmet/backpack references to fixture slot/backlinks; H256/H257 add populated storage and three equipped mannequin rows each. Full actor tails, some extras, controlled actions and successful rendered reload remain unproven. [Review/package](experiments/containers-displays/review.md) controls completion. Earlier S1/S2 and DA1 findings retained; SD2/SD3 excluded. LOCAL-ONLY primary bytes, REVIEW-REQUIRED authored synthesis; no live, integration or Git publication authority.
+
+## SD3 Stored Resources - 2026-10-19
+
+[SOR-EXP-0057 / SOR-EV-0065](experiments/stored-resources/report.md) proposes
+STRONG bounded STATIC provider/aggregation/icon mechanisms with SAVE source
+contrasts. Actual Locations OutpostStaticData uses eligible Workshop member
+inventories and shared backing substitution; it groups by resource identity and
+paints compiled symbol/color or named OrganicIcons assets. Broad historical
+search: 278 locators, 255 accessible originals, 147 supported, 108 unsupported,
+23 missing; 27 selected item rows at three HIST-0036 beacons. Screenshot pairing,
+complete active-player membership and realized UI freshness remain unknown.
+[Review/package](experiments/stored-resources/review.md) controls disposition.
+Offline only; no staging, commit, push or publication authority.

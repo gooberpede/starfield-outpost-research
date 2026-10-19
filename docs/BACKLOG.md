@@ -242,3 +242,14 @@ implementation requires its own later decision and brief.
 ## SD1 result and retained validation - 2026-10-19
 
 [SD1 report](experiments/containers-displays/report.md) now maps ordinary container/display admission, ownership and saved residence, with real native-display/mannequin/storage witnesses. [Smallest proposed acquisition](experiments/containers-displays/saves.md#smallest-proposed-controlled-acquisition) would discriminate ordinary deposit/retrieval ownership, rendered/equipped reload, movement and scrap conservation under a separately authorized controlled-save card. Actor scrap predicate and installed override/cross-master completeness remain qualified. No live action is authorized. Shared Outpost Storage construction is classified only; SD2 cross-outpost behavior and SD3 Stored Resources remain separate briefs.
+
+## SD3 Stored Resources - 2026-10-19
+
+[Bounded provider/icons/save report](experiments/stored-resources/report.md)
+replaces the uninvestigated ordinary mechanism with a source-backed proposal;
+[review](experiments/stored-resources/review.md) controls acceptance. Remaining
+consequential validation is actual menu snapshot/re-entry freshness and remote
+resolution, not general Locations mechanics. [One proposed test](experiments/stored-resources/aggregation.md#three-separate-freshness-boundaries)
+is unexecuted and requires separate live authority. Complete membership,
+effective overrides and exact shared backing persistence remain qualified;
+no importer, mod or live experiment is authorized by this backlog entry.

@@ -428,3 +428,14 @@ zero existing save content changes. No Git or publication authority is inferred.
 ## SD2 source and persistence correspondence - 2026-10-19
 
 [SOR-EXP-0056 / SOR-EV-0064](experiments/shared-outpost-storage/report.md) freshly rechecks the protected installed EXE/ESM/archive/static-database baseline and hashes new add-on/script/control inputs. [Methods](experiments/shared-outpost-storage/methods.md) records readOnly/noanalysis workers, preserved failed selectors and normal retirement; [source register](experiments/shared-outpost-storage/sources.csv) binds local receipts and owned method lineage. All 255 accessible historical originals receive pre/post hashes, with qualified framing and missing/unsupported contexts separate. No game/save/configuration/analysis-content modification or Git/account/disclosure authority; raw payloads remain local.
+
+## SD3 source-to-row and icon mapping - 2026-10-19
+
+[SOR-EXP-0057 / SOR-EV-0065](experiments/stored-resources/report.md) freshly pins
+protected installed/static inputs, minimal compiled icon members, localization
+and all 255 accessible historical originals. [Methods](experiments/stored-resources/methods.md)
+and [source register](experiments/stored-resources/sources.csv) preserve exact
+owned reader lineage, failures and local receipt hashes. Static analysis runs
+readOnly/noanalysis; raw movie/native/save material remains LOCAL-ONLY. No new
+outside implementation, dependency, contact/disclosure, live operation, original
+mutation or Git staging/commit/push. Authored synthesis remains REVIEW-REQUIRED.

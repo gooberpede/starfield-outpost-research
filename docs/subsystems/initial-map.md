@@ -1,5 +1,16 @@
 # Initial subsystem map — SOR-EXP-0001
 
+## Locations Stored Resources - SD3, 2026-10-19
+
+[Provider and reporting model](../experiments/stored-resources/report.md) traces
+registered Workshops, eligible member inventories, shared substitution, resource
+FormID grouping and name-ordered parallel resource/count arrays. [Icons](../experiments/stored-resources/icons.md)
+join physical item/resource definitions to compiled symbols and localized
+symbol/color composites. [Saved controls](../experiments/stored-resources/saves.md)
+are historical correspondence; current remote residency/freshness and complete
+active-player membership remain qualified. [Review](../experiments/stored-resources/review.md)
+controls acceptance; no production tool, mod or live authority follows.
+
 [L1 numerical/environment reference](../experiments/limits/report.md) supersedes
 limit-OPEN shorthand only for the mapped ordinary deployment, recipe quota and
 body/rank admission chains. All 3,009 physical COBJ records are bounded; current
