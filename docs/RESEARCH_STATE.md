@@ -1,5 +1,19 @@
 # Current Research State
 
+**2026-10-19 - DA1 defense/attacks/Integrity, SOR-EXP-0054 / SOR-EV-0062:**
+[Answer](experiments/outpost-defense/report.md), [attack and Armillary traces](experiments/outpost-defense/attacks.md),
+[Integrity/repair](experiments/outpost-defense/integrity.md), [saved damage and turret owners](experiments/outpost-defense/persistence.md)
+and [review](experiments/outpost-defense/review.md) propose STRONG scoped STATIC
+mechanisms with positive SAVE damage. Same-planet one-shot checks use resource
+and cargo AVs; Armillary has a separate special quest/roll; an active human
+attack can directly destroy unloaded destructible objects. No numerical defense
+input in the mapped selector/unload resolution. Health supplies Integrity;
+ordinary storage/cargo exceptions and existing-reference repair are explicit.
+Five damaged devices and two now-qualified historical turret owner joins in
+HIST-0255; exact damage cause, travel callback ordering and actual reload/repair
+transitions remain unobserved. Independent review controls completion; no live,
+integration, staging, commit, push or publication authority.
+
 **2026-10-19 - L3 spatial placement, SOR-EXP-0053 / SOR-EV-0061:**
 [Answer](experiments/spatial-placement/report.md), [native](experiments/spatial-placement/native.md),
 [saves](experiments/spatial-placement/saves.md), [witnesses](experiments/spatial-placement/screenshots.md)

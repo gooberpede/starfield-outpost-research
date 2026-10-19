@@ -63,6 +63,13 @@ not 61 independently qualified construction roots.
 
 ## Actual turret actors
 
+**2026-10-19 continuation:** [DA1's native-backed ExtraE6 framing and fresh saved
+joins](../outpost-defense/persistence.md#l1-historical-turret-owner-gap-closed-for-the-pair)
+resolve both actors' explicit WorkshopItem owner to ff087168, with actual beacon
+and independent CB corroboration. The original L1 unsupported-prefix result
+below is preserved; this closes that specific join, not complete owner counts,
+post-load authority or combat behavior.
+
 HIST-0255 contains Actor `ff038e6c`, base `001099a5` (ballistic tier 3), at
 record offset **12263961**, and Actor `ff038e6d`, base `001e663d` (laser tier 3),
 at **12265672**. Those bases are independently joined to COBJ `001099a7` and

@@ -1,5 +1,9 @@
 # Implementation and Audit Briefs
 
+- [DA1 defense, attacks and Integrity](CODEX_BRIEF_SOR_DA1_outpost_defense_attacks_integrity.md):
+  invoked 2026-10-19; bounded offline research, [report](../experiments/outpost-defense/report.md)
+  and [review package](../experiments/outpost-defense/review.md). No live or Git mutation authority.
+
 - [Review scratch housekeeping](CODEX_BRIEF_SOR_review_scratch_housekeeping.md):
   directly authorized 2026-10-19; folder preservation, current path references
   and reusable packaging helpers only. Includes the historical locator convention.

@@ -556,3 +556,7 @@ The prior project E1 [extractor definition work](docs/experiments/inorganic-extr
 supplies the precise Iron extractor base/physical-offset corroboration.
 
 2026-10-19. [L3 research](docs/experiments/spatial-placement/report.md) credits Bethesda installed native/data/development-script material, matching existing Ghidra analysis and the maintainer six Kreet saves/eleven screenshot witnesses. Project-owned Workshop-root, position, CR1/L1/L2 and streaming/framing methods supply reused research and tooling; [exact provenance](docs/experiments/spatial-placement/sources.csv), [methods](research/spatial-placement/README.md). Ghidra/Temurin, CPython/stdlib and Git are existing tools. No new outside code or redistribution clearance.
+
+## DA1 outpost attacks and Integrity
+
+2026-10-19, SOR-EXP-0054 / SOR-EV-0062. [report](docs/experiments/outpost-defense/report.md), [source ledger](docs/experiments/outpost-defense/sources.csv), [methods](research/outpost-defense/README.md). Bethesda installed EXE/ESM/Misc.ba2/development scripts and UI, matching existing Ghidra analysis, maintainer historical saves and Kreet screenshot supply primary evidence. Prior project Workshop membership, E1–E3/P1/S1–S2/CR1–CR3/R1/L1–L3 discoveries and owned readers/export methods are reused/adapted under SOR-P-0002 with exact hashes. Existing Ghidra/Temurin, CPython3.14/stdlib and Git are tools; no external code, dependency, download, contact or disclosure was introduced. Proprietary/native/save/movie payloads stay LOCAL-ONLY; authored metadata and interpretation remain REVIEW-REQUIRED.

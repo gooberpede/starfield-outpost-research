@@ -1,5 +1,16 @@
 # Separately scoped research backlog
 
+## DA1 offline result and retained causal gaps - 2026-10-19
+
+[DA1 report/review](experiments/outpost-defense/review.md) covers ordinary attack
+selection, Armillary special attacks, defense consumers, Integrity and repair.
+The two L1 historical turret owner joins are positively resolved for HIST-0255;
+the original unsupported-E6 result remains preserved. Remaining work is exact
+historical damage authorship, travel unload/cleanup ordering and sampled loaded
+repair/reload transitions, not an assumed missing general attack scheduler.
+[Prospective discriminator](experiments/outpost-defense/persistence.md#remaining-gaps-and-prospective-discriminator)
+is a recommendation only. No live work or production tool follows.
+
 ## L3 offline result and retained lifecycle gap - 2026-10-19
 
 [L3 report/review](experiments/spatial-placement/review.md) addresses the authorized

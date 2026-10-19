@@ -1,5 +1,13 @@
 # Outpost Subsystem Research Map
 
+[DA1 attacks and defense](../experiments/outpost-defense/report.md) separates
+ordinary/Armillary event selection from incidental combat and identifies a
+positive human attack unload-destruction path. [Integrity/repair](../experiments/outpost-defense/integrity.md)
+and [saved witnesses](../experiments/outpost-defense/persistence.md) connect
+Health, native restoration and actual damage/owner joins. [Review](../experiments/outpost-defense/review.md)
+controls disposition; exact historical attack cause and travel/reload execution
+remain unobserved. No live or integration authority.
+
 [L3 spatial placement](../experiments/spatial-placement/report.md) maps ordinary
 territory/collision/clearing stages and saved bulldozed state, with SOR-004/005
 Kreet witnesses. [Review](../experiments/spatial-placement/review.md) controls
