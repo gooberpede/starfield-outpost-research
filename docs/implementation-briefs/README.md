@@ -1,5 +1,9 @@
 # Implementation and Audit Briefs
 
+- [Review scratch housekeeping](CODEX_BRIEF_SOR_review_scratch_housekeeping.md):
+  directly authorized 2026-10-19; folder preservation, current path references
+  and reusable packaging helpers only. Includes the historical locator convention.
+
 - [L3 spatial placement, POI and clutter persistence](CODEX_BRIEF_SOR_L3_spatial_placement_POI_clutter_persistence.md):
   invoked 2026-10-19; user aliases SOR-004/SOR-005 and screenshot identity-gap
   amendment in [plan](../experiments/spatial-placement/plan.md);

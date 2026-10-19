@@ -56,7 +56,7 @@ interpretation and numeric metadata are REVIEW-REQUIRED, not publication-cleared
 Local packaging adapts the owned CR1 package helper, preserving that provenance.
 It reads HEAD/index and the complete changed/untracked text inventory, creates
 exclusive complete/task-only diffs under `.local-work/diffs`, and applies/reverses
-only in fresh `D:/tools/sor-cr2-skills-*` scratch trees. It also reverse-checks the
+only in fresh `.local-work/review-patches/sor-cr2-skills-*` scratch trees. It also reverse-checks the
 actual tree without applying there. It never stages, commits, changes refs or
 uses the network. The supplied untracked brief belongs only to the complete
 patch; task-only compares against the pinned initial untracked brief.

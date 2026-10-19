@@ -54,7 +54,7 @@ native `.local-work/recon/` exports have path/size/hash entries in sources.csv.
 `.local-work/native-availability-map/` contains preservation/census/reviewer
 receipts, SQLite indices, baselines and failed intermediate packages. Protected
 executables/ESMs/saves/frozen inputs have exact paths/hashes in the 6,868-entry
-preservation receipts. Exact disposable `D:/tools/sor-resource-*` apply-tree paths
+preservation receipts. Exact disposable `.local-work/review-patches/sor-resource-*` apply-tree paths
 are recorded in each package manifest. No excluded payload enters the patches.
 
 Deliverables: report, 34-row native register, source manifest, native dataflow,

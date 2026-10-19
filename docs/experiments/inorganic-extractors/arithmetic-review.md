@@ -134,7 +134,7 @@ The owned exporter adapts `.local-work/e1-stacking/export.py`; exact source hash
 and the pre-existing-index adaptation are in provenance.json. It checks the
 actual HEAD/index, file inventory, whitespace, UTF-8/LF authored new files and
 local Markdown links, and applies/reverses both exact patches in disposable
-`D:/tools` trees, comparing all bytes. It does not apply patches to the workspace.
+`.local-work/review-patches` trees, comparing all bytes. It does not apply patches to the workspace.
 The complete patch includes earlier staged/uncommitted work and the supplied
 brief; task-only is relative to the saved task-start bytes. Raw binaries,
 assets, saves, databases and ignored bulk evidence are excluded explicitly.

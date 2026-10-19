@@ -72,7 +72,7 @@ regressions pass again. Verification01/141-check snapshot remains historical.
 `.local-work/s2-links/package-reviewNN.json` inventories exact changed/untracked
 paths and hashes, status, exclusions, encoding/mojibake/whitespace/link checks,
 and forward/reverse applicability plus exact-byte reconstruction in disposable
-D:/tools trees. Patches are `.local-work/diffs/s2-links-reviewNN-task-only.diff`
+.local-work/review-patches trees. Patches are `.local-work/diffs/s2-links-reviewNN-task-only.diff`
 and `s2-links-reviewNN-complete.diff`. The complete patch includes the supplied
 untracked S2 brief and two starting untracked S1 text-validation scripts;
 task-only excludes all three byte-preserved files. Ignored saves/decoded data/

@@ -40,7 +40,7 @@ Final review export:
 
 The adapted owned exporter reads HEAD/index and current tracked/untracked text,
 writes exclusive local diffs/manifests, and tests exact forward/reverse application
-in disposable `D:/tools` trees. Task-only excludes the supplied brief; complete
+in disposable `.local-work/review-patches` trees. Task-only excludes the supplied brief; complete
 includes it unchanged. No other pre-task changes existed. Raw original saves,
 probe JSON containing private/raw metadata, compressed/decoded data, local helper
 scripts/receipts, native exports and disposable trees are excluded from textual

@@ -207,7 +207,7 @@ Raw evidence, matrix, decoder and native files were unaffected.
 Review artifacts are under `.local-work/q030-E-next-step/`; diffs at
 `.local-work/diffs/q030-E-next-step-{complete,task-only}.diff`. Package records
 exact hashes, status, exclusions, preservation, text/link/whitespace checks and
-forward application to disposable plain D:/tools trees. No staging/commit/push,
+forward application to disposable plain .local-work/review-patches trees. No staging/commit/push,
 deployment/launch/live capture or protected-input changes. No game is running or
 absent is inferred by this offline task; prior postflight remains the source.
 

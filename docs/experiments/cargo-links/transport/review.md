@@ -110,7 +110,7 @@ those acquisitions. These are distinct evidence contributions.
 Complete and task-only text patches under `.local-work/diffs/` include all
 task-authored untracked UTF-8 text. Complete additionally includes the supplied
 brief unchanged; task-only excludes it. Manifests enumerate paths/hashes and
-raw/private exclusions. Forward and reverse application in disposable D:/tools
+raw/private exclusions. Forward and reverse application in disposable .local-work/review-patches
 trees must reproduce exact bytes; actual-tree reverse check, UTF-8/LF/whitespace,
 mojibake and local file-link audits must pass. No patch is applied to this
 workspace and no index/ref is changed.

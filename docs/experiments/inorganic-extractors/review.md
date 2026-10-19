@@ -72,7 +72,7 @@ untracked brief, unchanged; the task-only patch excludes it. No private raw
 payload, binary or executable/analysis database is bundled.
 
 The package exporter reads HEAD/index and changed UTF-8 text, writes exclusive
-local patches/manifests and disposable D:/tools apply trees. It checks forward
+local patches/manifests and disposable .local-work/review-patches apply trees. It checks forward
 and reverse application against exact bytes and compares changed path inventories,
 not merely reverse applicability. It adapts the maintainer-owned native-output-
 contracts helper; exact input hash and reuse mode are in local provenance.json.

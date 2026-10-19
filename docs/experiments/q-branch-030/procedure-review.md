@@ -36,7 +36,7 @@ tracked/untracked text change since HEAD, including the unchanged supplied brief
 `q-branch-030-procedure-task-only.diff` starts from this task's baseline and excludes
 that supplied pre-existing brief. package.json binds changed-file SHA/size attribution,
 exclusions, status, patch inventory/hashes, forward application to plain disposable
-trees under D:/tools and exact resulting bytes. It checks whitespace, UTF8/no BOM/LF,
+trees under .local-work/review-patches and exact resulting bytes. It checks whitespace, UTF8/no BOM/LF,
 internal file links, original build-source/protected pins and unchanged HEAD/index.
 No index staging is used. Original baseline and before copies permit exact task
 attribution; reviewed-submission retains immutable authored text/package copies.

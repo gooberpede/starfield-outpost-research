@@ -1,6 +1,6 @@
 """SPDX-License-Identifier: GPL-3.0-or-later
 Local review exporter. Reads Git without optional locks and the working tree;
-writes ignored receipts/diffs and disposable plain D:/tools apply trees only.
+writes ignored receipts/diffs and disposable plain .local-work/review-patches apply trees only.
 No index/ref/staging/network mutation. Stdlib only; C:/D: 40GB guard.
 Run --baseline before tracked edits; run without arguments after verification.
 """
@@ -21,7 +21,7 @@ from verify_position_v2 import guard,digest
 
 def git(*args,cwd=ROOT):
     r=subprocess.run(['git','-c','core.autocrlf=false',*args],cwd=cwd,
-        env=dict(os.environ,GIT_OPTIONAL_LOCKS='0'),capture_output=True)
+        env=dict(os.environ,GIT_OPTIONAL_LOCKS='0', GIT_CEILING_DIRECTORIES=str(ROOT/'.local-work')),capture_output=True)
     if r.returncode not in (0,1): raise RuntimeError(r.stderr.decode())
     return r
 
@@ -73,7 +73,9 @@ def main():
             if n in new: data+=git('diff','--no-index','--','/dev/null',n).stdout
         path=ROOT/f'.local-work/diffs/matching-source-{label}.diff';path.write_bytes(data)
         assert sorted(x.decode().rstrip('\r') for x in re.findall(rb'^\+\+\+ b/(.+)$',data,re.M))==files
-        scratch=Path(tempfile.mkdtemp(prefix='sor-matching-source-',dir='D:/tools'))
+        review_scratch = ROOT / '.local-work/review-patches'
+        review_scratch.mkdir(parents=True, exist_ok=True)
+        scratch=Path(tempfile.mkdtemp(prefix='sor-matching-source-',dir=review_scratch))
         for n in files:
             if n in changed:
                 dest=scratch/n;dest.parent.mkdir(parents=True,exist_ok=True)
@@ -89,7 +91,7 @@ def main():
         OUT/'reviewer-verification-02/receipt.json',OUT/'reviewer-frozen-01/receipt.json',
         OUT/'independent-decision.md']
     exclusions=[dict(path='.local-work/',reason='Ignored raw saves/captures/static exports, receipts and review snapshots; local only'),
-        dict(path='D:/ReverseEngineering; D:/tools',reason='Analysis databases/tool binaries/disposable patch trees excluded'),
+        dict(path='D:/ReverseEngineering; D:/tools; .local-work/review-patches',reason='Analysis databases/tool binaries/disposable patch trees excluded'),
         dict(path='game/Vortex/save directories',reason='Protected originals; no live/configuration/save writes')]
     package=dict(head=base['head'],index=base['index'],disk=space,files=manifest,patches=patches,
         exclusions=exclusions,links=links,source_rows=len(ledger),database_entries=len(before),

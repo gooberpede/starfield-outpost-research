@@ -54,7 +54,7 @@ No new outside implementation or permission basis was introduced.
 
 An initial patch replay under the repository's ignored subdirectory left the
 tracked-file copies unchanged; the exact-byte comparison failed. That replay is
-retained, never labelled PASS. Final replay uses disposable D:/tools directories
+retained, never labelled PASS. Final replay uses disposable .local-work/review-patches directories
 outside the repository and verifies every intended final byte after application.
 
 ## Independent decision

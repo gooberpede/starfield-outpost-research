@@ -111,7 +111,7 @@ existing source/export records. Risks are disk pressure, derivative confusion an
 numeric/source misinterpretation; stop affected operations on pin mismatch, guard
 failure, unreadable input or malformed evidence. Retain originals and failed
 receipts; decoder scratch is cleaned by existing owned readers and review apply
-trees remain disclosed under D:/tools. No target runtime effects are authorized.
+trees remain disclosed under .local-work/review-patches. No target runtime effects are authorized.
 
 Publication eligibility is separate: authored algorithms/interpretations require
 review; raw game/native exports, saves, large receipts and runtime pointers stay

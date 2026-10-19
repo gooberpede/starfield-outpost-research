@@ -66,7 +66,7 @@ copied into authored tools.
   its first syntax error occurred before writing them. l3-summary.py only prints
   selected existing scans. l3-indexes.py edits only intended documentation.
   l3-package-setup.py adapts the owned L2 exporter for L3, retaining byte-exact
-  forward/reverse tests in fresh D:/tools trees, real-tree reverse checks,
+  forward/reverse tests in fresh .local-work/review-patches trees, real-tree reverse checks,
   untracked-text coverage and unchanged-brief handling. No staging/application
   to the working tree or network operations.
 

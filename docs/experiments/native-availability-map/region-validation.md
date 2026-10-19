@@ -79,7 +79,7 @@ content was removed or reclassified as task-authored.
 
 The exporter checks Git whitespace, authored new-file LF/BOM/trailing whitespace,
 relative Markdown link files, path/content coverage, and exact forward/reverse
-apply in disposable D:/tools trees; no working-tree apply, staging or index write.
+apply in disposable .local-work/review-patches trees; no working-tree apply, staging or index write.
 Its package manifest records all included files/hashes, status, exclusions,
 patches/hashes and exact applicability. Ignored raw/native/proprietary evidence,
 saves, binaries, Ghidra databases and bulk derivatives stay excluded/local.

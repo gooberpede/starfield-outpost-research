@@ -16,7 +16,7 @@ The 40 GB free-space guard runs before/after substantial processing.
 before tracked edits; initial tracked tree must be clean. `package.py` exports
 task-only and complete patches, including untracked UTF-8 text and the supplied
 brief in complete only. It checks paths, LF/whitespace/links, unchanged unrelated
-tracked files, exact forward application in disposable plain D:/tools trees and
+tracked files, exact forward application in disposable plain .local-work/review-patches trees and
 HEAD/index identity. Writes ignored local manifests/diffs only; Git is read-only.
 It never stages. Disposable trees are retained as verification artifacts.
 

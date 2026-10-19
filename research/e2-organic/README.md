@@ -34,5 +34,5 @@ analysis. Hashes do not validate semantics; inspect the decisive native evidence
 
 The local review exporter adapts the owned E1 helper and is pinned in provenance.
 It reads HEAD/index and changed text, writes local complete/task-only patches and
-disposable D:/tools apply trees, and checks exact forward/reverse contents. Its
+disposable .local-work/review-patches apply trees, and checks exact forward/reverse contents. Its
 patches omit raw/private/binary assets. No workspace patch application or staging.

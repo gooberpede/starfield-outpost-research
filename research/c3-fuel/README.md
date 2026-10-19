@@ -32,7 +32,7 @@ sources of selected cargo markers, with the owned E1 producer audit; it reads th
 protected original and cleans decoded scratch. `show_native.py` only displays
 existing exports. `update_indexes.py` writes authored documentation. `ledgers.py`
 writes metadata CSVs and a source-ledger receipt. `package.py` adapts the owned C2
-exporter, writing ignored patches/manifests and disposable D:/tools reconstruction
+exporter, writing ignored patches/manifests and disposable .local-work/review-patches reconstruction
 trees without staging. No acquisition helper is a product deliverable.
 
 Provenance: owned `.local-work/c2-transport/{save_probe,pex_probe,package}.py`,

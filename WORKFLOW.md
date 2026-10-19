@@ -104,6 +104,17 @@ binary patch option or private remote clears publication or staging permission.
 
 ## Durable state and text
 
+Create disposable review-patch application/comparison trees under
+`.local-work/review-patches/`, creating the parent before allocating a unique
+child. Keep exported review diffs under `.local-work/diffs/`. Each
+exporter's Git environment must stop parent-repository discovery at
+`.local-work/` (using `GIT_CEILING_DIRECTORIES`) so scratch application checks
+operate on the standalone tree. Normal Git reads from the repository root
+continue to use the repository. The
+[2026-10-19 housekeeping brief](docs/implementation-briefs/CODEX_BRIEF_SOR_review_scratch_housekeeping.md)
+records the relocation of earlier `D:/tools/sor*` trees; historical receipts and
+snapshots retain their original paths and bytes.
+
 Use stable IDs defined in [EVIDENCE_STANDARD.md](docs/EVIDENCE_STANDARD.md), relative links, and ISO dates. Record actual timestamps and timezone when material. Unknown values remain `UNKNOWN`, not guessed. Do not infer the current executable/tool baseline from a prior project's version.
 
 Authored text is UTF-8 without BOM with LF endings, except Windows batch files configured for CRLF. Exact-byte evidence under `docs/experiments/evidence/` is protected from automatic Git text conversion, except authored `README.md` files. Do not normalize an original capture in place: make a separately named derivative and record input/output hashes and the transformation.

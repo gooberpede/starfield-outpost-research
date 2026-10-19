@@ -51,7 +51,7 @@ lifetime is a process bound, not a research stopping criterion.
 
 The local package helper adapts the owned C1/S2 method: reads HEAD/index/text,
 writes exclusive ignored complete/task-only diffs/manifests and disposable
-D:/tools trees, verifies exact forward/reverse reconstruction and actual-tree
+.local-work/review-patches trees, verifies exact forward/reverse reconstruction and actual-tree
 reverse applicability. It never stages/applies to the workspace or changes Git
 refs/index. Raw saves/native/script payloads, databases and bulk receipts are
 excluded. The review package records exact files and checks independently.

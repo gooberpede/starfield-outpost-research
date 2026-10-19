@@ -77,7 +77,7 @@ Complete/task-only patches are in `.local-work/diffs/e1-intervals-<revision>-`.
 The manifest records both hashes and exact path inventories. The exporter
 adapts the owned `.local-work/e1-arithmetic/export.py`, checks UTF-8/LF new text,
 whitespace and Markdown links, then applies and reverses both patches in
-disposable D:/tools trees, comparing every byte. Workspace/index/ref state is
+disposable .local-work/review-patches trees, comparing every byte. Workspace/index/ref state is
 not changed. Complete includes prior uncommitted text; task-only uses exact
 task-start bytes. Raw assets, binaries, saves, database and bulk local evidence
 are excluded explicitly. Final acknowledgment binds the accepted snapshot.

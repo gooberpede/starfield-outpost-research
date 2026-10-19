@@ -77,7 +77,7 @@ HEAD/index preservation and source-export lineage. `status.txt` is actual
 
 Ignored exports/probes/helpers, full instance/member/unresolved JSON/CSV, saves,
 decoded streams, native instruction/decompiler text, database/game binaries,
-private network, frozen/live raw files, bytecode and disposable D:/tools apply
+private network, frozen/live raw files, bytecode and disposable .local-work/review-patches apply
 trees are excluded from Git patches. Exact locators/hashes remain local or in
 authored lightweight source summaries. Packaging adapts the project-owned
 workshop-z-restoration/package.py; standing SOR-P-0002 applies, original helper

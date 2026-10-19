@@ -41,7 +41,7 @@ No helper executes decompiled game code or changes analysis state.
 
 The local package exporter adapts the owned L1 exporter, constructs complete
 and task-only Git text patches including untracked text, and applies/reverses
-them only in disposable D:/tools trees. Workspace use is reverse-check only;
+them only in disposable .local-work/review-patches trees. Workspace use is reverse-check only;
 no staging, workspace application, branch or index changes. No third-party
 code was copied into these aids. Bethesda primary payloads stay LOCAL-ONLY;
 authored metadata and interpretation remain REVIEW-REQUIRED.

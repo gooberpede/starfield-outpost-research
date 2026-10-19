@@ -47,7 +47,7 @@ Local receipt root: `.local-work/workshop-caller-semantics/`.
   native ledger; decisive claims use included instructions and full decompilation.
 - `package.json`, `status.txt`: final changed-file manifest, HEAD/index hashes,
   exclusions, link/whitespace checks, complete/task-only patch inventories and
-  exact forward application into disposable plain D:/tools trees.
+  exact forward application into disposable plain .local-work/review-patches trees.
 
 The supplied brief was the only pre-existing untracked file; no prior tracked
 edits existed. It remains byte-identical, included complete and excluded task-only.

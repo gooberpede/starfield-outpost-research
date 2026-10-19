@@ -37,7 +37,7 @@ The first worker exited on a malformed exploratory selector; the corrected
 request/restarted worker and sentinel stop remain distinct local receipts.
 
 The review exporter adapts owned R1/CR3 packaging: exact complete/task-only
-text diffs, manifests, link/encoding/whitespace checks and disposable D:/tools
+text diffs, manifests, link/encoding/whitespace checks and disposable .local-work/review-patches
 forward/reverse reconstruction, no staging or workspace/index apply. SOR-P-0002
 applies to owned methods. Bethesda sources, Ghidra/JDK/Python/Git tools and
 protected maintainer saves retain existing project credits and permissions.

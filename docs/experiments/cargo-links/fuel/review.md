@@ -68,7 +68,7 @@ Both coverage patches are retained locally:
 
 `.local-work/c3-fuel/package-final01.json` binds the complete/task-only file
 inventories, SHA-256 values, patch hashes, exclusions, link/whitespace/encoding
-checks and exact forward/reverse reconstruction in disposable D:/tools trees.
+checks and exact forward/reverse reconstruction in disposable .local-work/review-patches trees.
 The exporter compares each resulting file byte-for-byte with the actual tree,
 verifies reverse applicability against the actual tree and leaves HEAD/index
 unchanged. `status-final01.txt` preserves `git status --short`. Ignored raw game,

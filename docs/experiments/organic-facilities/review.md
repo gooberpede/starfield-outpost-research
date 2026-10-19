@@ -78,7 +78,7 @@ with explicit `complete.diff` / `task-only.diff` suffixes. Complete includes the
 supplied previously untracked brief unchanged; task-only excludes it. Package
 manifests include working-tree file hashes, path inventories, Git status,
 HEAD/index pins, exclusions and exact forward/reverse application checks in
-disposable D:/tools trees. No stage is used to construct either patch.
+disposable .local-work/review-patches trees. No stage is used to construct either patch.
 
 Excluded: original/raw/decoded saves, screenshot pixels, ESM/executable/assets,
 Ghidra databases/decompilation, UI/script derivatives, private bulk/reference

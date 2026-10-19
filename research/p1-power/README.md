@@ -43,7 +43,7 @@ bypassed by changing permissions or requesting escalation.
 
 The local review exporter adapts owned `.local-work/e3-fabricators/export.py`.
 It reads HEAD/index and changed text; writes complete/task-only diffs and
-manifests; applies them only in disposable `D:/tools` trees and verifies exact
+manifests; applies them only in disposable `.local-work/review-patches` trees and verifies exact
 forward/reverse contents. Raw saves/game/native/database evidence is excluded.
 No staging, branch/ref write, commit, push or upload occurs. Hash equality
 proves byte identity, not the correctness of the semantic interpretation.

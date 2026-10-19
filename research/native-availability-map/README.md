@@ -19,7 +19,7 @@ owned project tests. No download, process access, save/analysis-project effects.
 
 `export-review-package.py` is an adaptation of the project's Milestone B exporter
 at the task's recorded HEAD. It reads Git and authored text, writes exclusive
-ignored patches/manifests and disposable D:/tools apply trees, and checks exact
+ignored patches/manifests and disposable .local-work/review-patches apply trees, and checks exact
 forward/reverse reconstruction. It does not stage or modify Git refs/index.
 Its baseline is `.local-work/native-availability-map/baseline.json`.
 
@@ -47,5 +47,5 @@ baseline HEAD `6475a1fb4a70711d3035e2c89a05085b9b57f5b4`, with only task-local
 base and patch-prefix changes. They remain ignored; hashes and exact commands
 are in continuation validation. The initial attribution baseline contains only
 the user-supplied brief; authored files created while the input hash audit ran
-are correctly task changes. Disposable apply trees remain in D:/tools, with no
+are correctly task changes. Disposable apply trees remain in .local-work/review-patches, with no
 working-tree apply or index mutation.

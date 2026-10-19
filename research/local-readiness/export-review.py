@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Owned review-export method adapted from runtime/session-tools/export_review.py
 at HEAD 0906c66c950870a25869aaab522d22fb9c9d11e7. Reads Git/text and qualification logs;
-writes exclusive ignored patches/manifests and D:/tools disposable apply trees.
+writes exclusive ignored patches/manifests and .local-work/review-patches disposable apply trees.
 No index/ref/stage/commit/push/network mutation. Exact byte verification both ways.
 """
 import argparse
@@ -21,7 +21,7 @@ BASE = ROOT/'.local-work/local-readiness/review-01'
 TASK = 'local-readiness-review01'
 BRIEF = 'docs/implementation-briefs/CODEX_BRIEF_SOR_local_readiness_native_observation.md'
 HEAD = '0906c66c950870a25869aaab522d22fb9c9d11e7'
-ENV = dict(os.environ, GIT_OPTIONAL_LOCKS='0')
+ENV = dict(os.environ, GIT_OPTIONAL_LOCKS='0', GIT_CEILING_DIRECTORIES=str(ROOT/'.local-work'))
 
 
 def git(*args, cwd=ROOT):
@@ -96,7 +96,9 @@ def main():
         # reverse applicability against a possibly incomplete working-tree patch.
         patch_names = re.findall(rb'^diff --git a/(.*?) b/', data, re.M)
         assert [n.decode() for n in patch_names] == paths
-        scratch = Path(tempfile.mkdtemp(prefix='sor-session-review-', dir='D:/tools'))
+        review_scratch = ROOT / '.local-work/review-patches'
+        review_scratch.mkdir(parents=True, exist_ok=True)
+        scratch = Path(tempfile.mkdtemp(prefix='sor-session-review-', dir=review_scratch))
         for n in paths:
             if before[n] is not None:
                 p = scratch/n
@@ -118,7 +120,7 @@ def main():
     private_receipts += [p for p in build.glob('*') if p.is_file() and p.suffix in ('.json','.txt','.zip','.dll')]
     exclusions=[dict(path=str(evidence),kind='LOCAL-ONLY raw fixtures/build DLL ZIP/private metadata and failure receipts',hashes=[dict(path=str(p),sha256=sha(p)) for p in private_receipts]),
                 dict(path=str(ROOT/'.local-work'),kind='Original protected saves/captures/native exports and prior build trees excluded',hash_inventory=str(evidence/'baseline.json')),
-                dict(path='D:/ReverseEngineering; installed game/save directories; D:/tools',kind='Proprietary originals/databases and disposable review apply trees excluded')]
+                dict(path='D:/ReverseEngineering; installed game/save directories; D:/tools; .local-work/review-patches',kind='Proprietary originals/databases and disposable review apply trees excluded')]
     fresh(BASE/'exclusions.json', exclusions)
     fresh(BASE/'changed-files.json', [dict(path=n, sha256=sha(ROOT/n), classification='supplied unchanged brief' if n == BRIEF else 'task-authored or modified text') for n in names])
     fresh(BASE/'package.json', dict(status='PASS', head=HEAD, index_sha256=index_pin, staged_changes=False,

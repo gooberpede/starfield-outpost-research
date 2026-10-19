@@ -75,7 +75,7 @@ complete and excluded from task-only. No other initial changes existed.
 
 `package-review01.json` binds exact changed/untracked authored-text hashes,
 status, inclusion/exclusions, UTF-8/no-BOM/LF, whitespace and internal links.
-Both patches must reconstruct exact bytes forward/reverse in disposable D:/tools
+Both patches must reconstruct exact bytes forward/reverse in disposable .local-work/review-patches
 trees and reverse-check against the actual tree. No staging or workspace apply
 is used. Raw/native/save/database payloads remain excluded/local. Source ledger
 pins the original protection baseline, source methods and primary exports;

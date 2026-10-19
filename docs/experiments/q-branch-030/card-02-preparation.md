@@ -32,7 +32,7 @@ Review package `.local-work/q030-revised-card-02/package.json` binds final file
 hashes, status, inclusion/exclusion manifests, 310-pin checks and complete/task-only
 patch paths/hashes. `.local-work/diffs/q030-revised-card-02-complete.diff` includes
 earlier uncommitted work; `q030-revised-card-02-task-only.diff` isolates this task.
-Both are forward-applied to separate plain disposable D:/tools trees and resulting
+Both are forward-applied to separate plain disposable .local-work/review-patches trees and resulting
 bytes compared to the actual working tree. HEAD/index are unchanged. Raw/binary/
 save/build/private evidence remains ignored and local; authored docs REVIEW-REQUIRED.
 

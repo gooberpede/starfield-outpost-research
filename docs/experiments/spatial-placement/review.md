@@ -90,7 +90,7 @@ The complete patch includes the unchanged supplied initially untracked brief;
 task-only excludes it. All new authored untracked text is included without
 staging. Path inventory, UTF8/no-BOM/LF, introduced whitespace/mojibake/local
 Markdown links, git diff --check, real-tree reverse-check and disposable
-D:/tools forward/reverse byte-exact reconstruction are recorded. Existing
+.local-work/review-patches forward/reverse byte-exact reconstruction are recorded. Existing
 unrelated link failures are distinguished from newly introduced ones.
 
 Exclusions: original/protected/decoded saves; 11 screenshot originals/copies and

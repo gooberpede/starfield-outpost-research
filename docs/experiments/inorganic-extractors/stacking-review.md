@@ -68,7 +68,7 @@ scratch trees are excluded and retained locally.
 
 The adapted owned exporter checks HEAD/index identity, no staged changes,
 UTF-8/LF/no BOM for authored new files, whitespace, Markdown local links and
-exact forward/reverse byte application in disposable D:/tools trees. Manifest
+exact forward/reverse byte application in disposable .local-work/review-patches trees. Manifest
 and status snapshots accompany patches under `.local-work/diffs/`.
 The supplied earlier brief's intentional Markdown hard breaks are preserved;
 complete applicability uses nowarn, without silently changing that baseline.

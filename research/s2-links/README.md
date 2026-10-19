@@ -29,7 +29,7 @@ No analysis symbols/types/comments are changed.
 
 Local initialization/review helpers are adaptations of the owned S1 package
 helpers; source paths/hashes and effects are in package receipts. They read
-HEAD/index/text, write only ignored patches/manifests and disposable D:/tools
+HEAD/index/text, write only ignored patches/manifests and disposable .local-work/review-patches
 trees, and verify exact forward/reverse application. No working-tree Git apply,
 staging, ref changes or publication follows. Existing starting untracked S1 text
 validator files are byte-preserved and excluded from task-only changes.

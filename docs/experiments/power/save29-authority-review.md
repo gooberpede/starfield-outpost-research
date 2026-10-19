@@ -46,7 +46,7 @@ and [CREDITS](../../../CREDITS.md#save29-offline-allocation-authority).
 | `definitions_probe.py` -> `definitions01.json` | Hash-verified installed ESM, existing strict iterator; writes only selected local definition projections. No xEdit/native/Ghidra execution or override merge |
 | `model.py` -> `model01.json` | Reads graph and pinned E2/P1 caches, writes illustrative JSON: eight roots/modes, 32 old-set difference cases and reversed-order control. No native execution; all eligibility assumptions labelled |
 | `audit.py` -> `audit-review01.json` / later audit receipts | Rehashes protected/index/HEAD/database and used tooling/exports; audits authored encoding/links/whitespace and regression invariants. Reads target files only; writes ignored JSON |
-| `export.py --run review01` / later run | Owned exporter adapted from prior P1 packaging; writes ignored status/manifests and complete/task-only text patches; applies only in disposable D:/tools trees, verifies exact forward and reverse bytes. No application to this checkout, staging or Git metadata writes |
+| `export.py --run review01` / later run | Owned exporter adapted from prior P1 packaging; writes ignored status/manifests and complete/task-only text patches; applies only in disposable .local-work/review-patches trees, verifies exact forward and reverse bytes. No application to this checkout, staging or Git metadata writes |
 
 Baseline verifies six protected entries (original two Save3 files, original
 Save29, protected Save29 archive, installed executable and ESM), all against

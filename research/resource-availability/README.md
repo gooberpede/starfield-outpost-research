@@ -21,7 +21,7 @@ the executed originals and their hashes remain in the specialist source ledger.
 Tool transient side effects and actual failed exports are recorded separately.
 
 export-review-package.py reads HEAD/index, baseline and authored text, creates
-exclusive ignored complete/task-only patches and disposable D:/tools application
+exclusive ignored complete/task-only patches and disposable .local-work/review-patches application
 trees. It checks exact forward/reverse bytes, links and whitespace. It changes no
 workspace content, Git index/ref, staging, commit, push or remote. The algorithm
 is adapted from this project's owned workshop-population package helper; its

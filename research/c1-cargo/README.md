@@ -33,6 +33,6 @@ terminals and direct/transitive graph controls. It is not a general inventory
 extractor, save writer, logistics simulator or supported importer.
 
 Local package export adapts the owned S2 helper; it writes ignored patches/
-manifests and applies them only in fresh disposable D:/tools verification trees.
+manifests and applies them only in fresh disposable .local-work/review-patches verification trees.
 The supplied untracked brief is separate from task-authored files. Raw saves,
 images, SWF/ABC/source/native output and analysis DBs remain excluded.

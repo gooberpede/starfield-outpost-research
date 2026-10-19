@@ -55,7 +55,7 @@ checks are in .local-work/ship-relocation-050/package.json and status.txt.
 
 Excluded LOCAL-ONLY artifacts: all raw/decoded saves, memory/native exports,
 analysis databases, screenshot/private metadata, previous and new DLLs/ZIPs,
-compiler/object/PDB/EXE/fixture/raw journals, local receipts and D:/tools replay
+compiler/object/PDB/EXE/fixture/raw journals, local receipts and .local-work/review-patches replay
 scratch trees. Build package hashes/local locators are supplied for maintainer
 review, not permission to publish. No credentials or proprietary payloads in
 patches. Supplied brief is preserved verbatim. No new dependency rights issue or

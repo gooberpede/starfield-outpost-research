@@ -52,7 +52,7 @@ execution of the existing brief creates no new policy or experiment approval.
 `.local-work/s1-capacity/package-review03.json` indexes the corrected patches under
 `.local-work/diffs/`, changed/untracked text path hashes, unchanged HEAD/index,
 status, exclusions, whitespace/link/encoding audits and exact forward/reverse
-reconstruction in disposable D:/tools trees. Complete includes the supplied brief
+reconstruction in disposable .local-work/review-patches trees. Complete includes the supplied brief
 unchanged; task-only excludes it. Ignored raw/native evidence, binaries, saves,
 databases and disposable trees are disclosed exclusions; no raw bytes enter patches.
 

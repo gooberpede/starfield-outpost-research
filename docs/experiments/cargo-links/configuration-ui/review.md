@@ -75,7 +75,7 @@ epoch/current freight state NOT TESTED. Publication eligibility remains separate
 Local C1 package manifests identify complete/task-only patches under
 `.local-work/diffs/`, changed-file hashes, source exporter origin, exclusions,
 status, new-file coverage, text/link/whitespace results and exact forward/reverse
-reconstruction in disposable D:/tools trees. Complete includes the supplied
+reconstruction in disposable .local-work/review-patches trees. Complete includes the supplied
 previously untracked brief unchanged; task-only excludes it. Both include every
 task-authored UTF-8 text file. No raw screenshot, SWF/ABC, save, native source,
 database, decrypted bytes or other proprietary payload is included.

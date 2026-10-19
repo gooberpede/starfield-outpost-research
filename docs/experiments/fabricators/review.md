@@ -23,7 +23,7 @@ Maintainer critical review and integration remain separate.
 | Mature inventory beyond Save52 and actual corroboration | PASS bounded SAVE | 278 inventory rows consulted; 184 positive-beacon candidates, 122 parsed, 41 parser qualification gaps, 21 unavailable frozen sources; 105 positive saves, 1,190 repeated producer observations |
 | Deterministic verification/regression, protected inputs and prose | PASS audited scope | verification01: 417 checks, exact CSV cells, 163 available originals rehashed, ESM/executable/cache and 15 Ghidra project/database files preserved; E2 e3regression01 passes 90 recipes/six selected AV joins/six Water paths |
 | Source/credit/evidence-state and seven delivery items | PASS authored package, review pending | report family, scripts/README, shared register/state/index/source/credit updates; raw LOCAL-ONLY and authored REVIEW-REQUIRED; exact patch receipts referenced below |
-| Exact complete/task-only patches including untracked text | PASS | review01 exporter and reviewer checks HEAD/index, actual path inventory, complete and task-only exact forward/reverse bytes in disposable D:/tools trees; supplied pre-existing brief belongs only in complete patch |
+| Exact complete/task-only patches including untracked text | PASS | review01 exporter and reviewer checks HEAD/index, actual path inventory, complete and task-only exact forward/reverse bytes in disposable .local-work/review-patches trees; supplied pre-existing brief belongs only in complete patch |
 | Mandatory independent review and substantive rework | PASS / ACCEPT | Fresh independent read-only reviewer inspected primary evidence, independently reproduced definition/save checks and challenged/corrected interpretation errors; actual disposition and reviewed snapshot below |
 
 ## Actual checks, preserved failures and boundaries
@@ -95,7 +95,7 @@ coverage, status, HEAD/index and exact forward/reverse reconstruction checks.
 No index is used to construct patches. Disposable application trees remain local.
 
 Excluded: raw/original/decoded saves, game binaries/assets/definitions, memory,
-Ghidra databases/native decompilation, private bulk receipts and D:/tools scratch.
+Ghidra databases/native decompilation, private bulk receipts and .local-work/review-patches scratch.
 Metadata/source hashes locate these without packaging their bytes. Exclusion is
 disclosed; neither privacy nor publication eligibility is cleared by completeness.
 No outside implementation, dependency installation, download, communication,

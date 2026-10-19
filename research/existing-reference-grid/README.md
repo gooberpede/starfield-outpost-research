@@ -12,7 +12,7 @@ only after joint approval. No helper grants live authority.
 |procedure.py|Audits file hashes, save inventory and process names; future admission reads cooperative receipts and limited creation metadata; monitor writes exclusive ACK/STOP/monitor records to owned fresh session only. No target memory, launch, debugger, native-call synthesis, save/config writes.|
 |environment.py|Cooperative module inventory and read-only configuration assessment; missing nonessential modules recorded. External module snapshot disabled. Stdlib/existing project helpers.|
 |test_procedure.py/test_inventory.py|Disposable synthetic trees/fixtures under ignored new task directories, no installed game edits. 29 controls.|
-|package.py|Read-only Git/index/HEAD and task files; ignored manifests/diffs and disposable plain D:/tools forward-apply trees. No staging/ref/network writes.|
+|package.py|Read-only Git/index/HEAD and task files; ignored manifests/diffs and disposable plain .local-work/review-patches forward-apply trees. No staging/ref/network writes.|
 
 Prerequisites: installed pinned CPython 3.14 and project helpers; candidate build
 requires installed MSVC/MASM/Windows SDK. No dependency downloads. All writes

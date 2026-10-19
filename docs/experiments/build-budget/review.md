@@ -84,7 +84,7 @@ Local `.local-work/l2-budget/package-review01.json` binds exact changed-file
 hashes, inclusion/exclusions and status. The exporter checks UTF8/no-BOM/LF,
 mojibake/new-file whitespace and Markdown local file links, runs git diff
 --check, verifies inventories, and reconstructs both patches forward/reverse
-byte-for-byte in disposable D:/tools trees. It also reverse-checks applicability
+byte-for-byte in disposable .local-work/review-patches trees. It also reverse-checks applicability
 against the actual tree without applying to it. Existing broken links, if any,
 are reported separately rather than silently accepted as newly introduced.
 

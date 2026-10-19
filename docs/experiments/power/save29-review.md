@@ -33,7 +33,7 @@ its correction and unchanged acceptance are recorded in the report.
 
 `export.py` adapts the owned prior `.local-work/p1-load/export.py`; it reads Git
 HEAD/index, working-tree text and starting snapshot, writes exclusive local diffs
-and manifests, and uses disposable `D:/tools` trees for forward/reverse application.
+and manifests, and uses disposable `.local-work/review-patches` trees for forward/reverse application.
 No workspace patch apply or index/ref write. Task-only excludes the unchanged
 supplied brief; complete includes it. No other pre-task uncommitted files existed.
 

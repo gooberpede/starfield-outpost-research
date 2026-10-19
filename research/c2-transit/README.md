@@ -37,7 +37,7 @@ not typed callee proofs or a universal absence test. `read_native.py` only
 splits completed exports; resulting `.c` files are convenience derivatives.
 
 The ignored package helper adapts the owned C2/C1 exporter to create exact
-complete/task-only text patches and disposable `D:/tools` reconstruction trees.
+complete/task-only text patches and disposable `.local-work/review-patches` reconstruction trees.
 It checks forward/reverse bytes without applying to this workspace or changing
 its index/refs. Ignored raw payloads, analysis files and bulk receipts remain
 LOCAL-ONLY. No new third-party reuse or permission basis.

@@ -58,7 +58,7 @@ Local helper provenance: original documentation author/checker, owned preservati
 method adapted from `.local-work/native-availability-map/preserve.py`, owned review
 exporter adapted from `.local-work/resource-region-dependencies/export.py` at the
 baseline HEAD. Helpers read existing inputs/Git and create ignored receipts,
-patches and disposable apply trees under D:/tools; only `author.py` writes the
+patches and disposable apply trees under .local-work/review-patches; only `author.py` writes the
 listed authored documentation. No target/process/database/network effects or new
 dependency. Source/script hashes are in the task check receipt; native payloads
 remain local and are not embedded in patches.

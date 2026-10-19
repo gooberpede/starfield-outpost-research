@@ -83,7 +83,7 @@ Local root `.local-work/r1-robots/`; patches use
 The supplied originally untracked R1 brief is included unchanged in complete
 and excluded from task-only. No other initial uncommitted changes existed.
 Package JSON binds changed/untracked text hashes, status, source/exclusions and
-exact forward/reverse reconstruction in disposable D:/tools trees. No workspace
+exact forward/reverse reconstruction in disposable .local-work/review-patches trees. No workspace
 or index application/staging is used.
 
 `verification-final.json` records 370 checks, 26 physical ESM rereads, 137 original

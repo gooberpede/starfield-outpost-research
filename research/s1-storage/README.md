@@ -53,7 +53,7 @@ existing Ghidra 12.1.2_PUBLIC/Temurin 21.0.12+8 readOnly/noanalysis invocation.
 The request files and entire exports are local. Early address guesses, unrelated
 literal field hits and instruction-cap flags are retained rather than negative
 semantic evidence. Local packaging adapts the owned P1 exporter and applies
-patches only in fresh disposable D:/tools directories, never the working tree.
+patches only in fresh disposable .local-work/review-patches directories, never the working tree.
 
 [ScopedFieldUses.java](../../ghidra/scripts/ScopedFieldUses.java) is an original
 read-only/noanalysis bounded literal instruction locator. It reads an explicitly

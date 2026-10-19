@@ -51,7 +51,7 @@ against HEAD `5de3369a2c52c517f09a1de92cb7c409b1590f15`; task-only additionally
 retains the supplied continuation brief's baseline bytes unchanged. No unrelated
 initial changes existed. The owned exporter checks current HEAD/index identity,
 no staged changes, authored LF/UTF-8/no BOM/whitespace, Markdown local links and
-forward/reverse application with exact bytes in disposable `D:/tools` trees.
+forward/reverse application with exact bytes in disposable `.local-work/review-patches` trees.
 The final manifest supplies actual patch/file SHA-256s and status snapshot.
 No workspace patch application or index/reference mutation occurs.
 
