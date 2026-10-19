@@ -292,3 +292,8 @@ the scalar; hab same-input and robot direct-root contrasts retain historical
 runtime limits. [Review/package](../experiments/build-budget/review.md).
 L1 is retained. L3 owns POI/territory/collision/procedural suppression and
 reappearing rocks; turret ownership/operation remains a later phase.
+
+
+## SD1 containers and displays - 2026-10-19
+
+[SOR-EXP-0055 / SOR-EV-0063](../experiments/containers-displays/report.md) separates fixture inventory, native display references and mannequin actor equipment. Display include/exclude/slot gates and ordinary menu filters are independent of weight capacity; Workshop membership, fixture owner, instance owner and permitted access are separate. New mounted references can receive fixture ownership after extra copying. Native writers/load/fixup and real helmet/backpack, mannequin and storage witnesses are corroborated; rendered reload and controlled theft/conservation remain unmeasured. [Review](../experiments/containers-displays/review.md); Shared Storage classification only, behavior reserved for SD2; Stored Resources reserved for SD3.

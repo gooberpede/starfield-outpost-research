@@ -207,3 +207,6 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 - [CR3 remote crew contribution, assignment lifecycle and restoration](CODEX_BRIEF_SOR_CR3_remote_crew_contribution_lifecycle.md): invoked2026-10-18; [frozen contract](../experiments/crew-lifecycle/plan.md), [report](../experiments/crew-lifecycle/report.md), [independent review/package](../experiments/crew-lifecycle/review.md). Offline only; suggest Conventional Commit, no commit/push.
 
 - [R1 constructible robots: contributions, limits and lifecycle](CODEX_BRIEF_SOR_R1_outpost_robots_contributions_limits_lifecycle.md): invoked bounded offline native/save parcel; [research and review](../experiments/robots/report.md). No staging, commit or push.
+
+
+- [SD1 containers, displays, ownership and persistence](CODEX_BRIEF_SOR_SD1_containers_displays_ownership_persistence.md): invoked 2026-10-19; [frozen plan](../experiments/containers-displays/plan.md), [report](../experiments/containers-displays/report.md), [review/package](../experiments/containers-displays/review.md). SD2/SD3 remain separate. No staging, commit or push.

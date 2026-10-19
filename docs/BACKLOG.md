@@ -233,3 +233,8 @@ constructed-object membership, identity matching and arbitrary/modded saves.
 [CR1 saved crew gaps](experiments/crew/saves.md) and earlier Workshop/site/cargo
 coverage remain explicit. Do not build an importer or promise full JSON parity;
 implementation requires its own later decision and brief.
+
+
+## SD1 result and retained validation - 2026-10-19
+
+[SD1 report](experiments/containers-displays/report.md) now maps ordinary container/display admission, ownership and saved residence, with real native-display/mannequin/storage witnesses. [Smallest proposed acquisition](experiments/containers-displays/saves.md#smallest-proposed-controlled-acquisition) would discriminate ordinary deposit/retrieval ownership, rendered/equipped reload, movement and scrap conservation under a separately authorized controlled-save card. Actor scrap predicate and installed override/cross-master completeness remain qualified. No live action is authorized. Shared Outpost Storage construction is classified only; SD2 cross-outpost behavior and SD3 Stored Resources remain separate briefs.

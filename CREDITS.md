@@ -560,3 +560,8 @@ supplies the precise Iron extractor base/physical-offset corroboration.
 ## DA1 outpost attacks and Integrity
 
 2026-10-19, SOR-EXP-0054 / SOR-EV-0062. [report](docs/experiments/outpost-defense/report.md), [source ledger](docs/experiments/outpost-defense/sources.csv), [methods](research/outpost-defense/README.md). Bethesda installed EXE/ESM/Misc.ba2/development scripts and UI, matching existing Ghidra analysis, maintainer historical saves and Kreet screenshot supply primary evidence. Prior project Workshop membership, E1–E3/P1/S1–S2/CR1–CR3/R1/L1–L3 discoveries and owned readers/export methods are reused/adapted under SOR-P-0002 with exact hashes. Existing Ghidra/Temurin, CPython3.14/stdlib and Git are tools; no external code, dependency, download, contact or disclosure was introduced. Proprietary/native/save/movie payloads stay LOCAL-ONLY; authored metadata and interpretation remain REVIEW-REQUIRED.
+
+
+## SD1 containers, displays, ownership and persistence
+
+[Report](docs/experiments/containers-displays/report.md), [source pins](docs/experiments/containers-displays/sources.csv), [methods](docs/experiments/containers-displays/methods.md). 2026-10-19, SOR-EXP-0055 / SOR-EV-0063. Bethesda installed EXE/ESMs/Misc.ba2/development scripts, matching existing Ghidra analysis and maintainer historical saves supply primary evidence. Project-owned S1/S2/L1/L3/R1/DA1/crew/Workshop discoveries, parsers, integrity and exact-patch methods are reused/adapted under SOR-P-0002. Existing Ghidra12.1.2/Temurin21.0.12, CPython3.14/stdlib and Git support offline work. No new outside code/dependency, network consultation, contact, fork/PR or disclosure. Raw proprietary/private payloads LOCAL-ONLY; authored interpretation/numeric metadata REVIEW-REQUIRED.

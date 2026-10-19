@@ -298,3 +298,8 @@ Fresh native BC writer/loader omit summary+7c..90, refining earlier E1's scoped
 UNCLASSIFIED persistence. Do not equate ExtraBC+78 ordinal with context+78 cost.
 Saved disabled beacons can retain nonzero usage without surviving direct roots.
 No current loaded authority or active-population oracle follows.
+
+
+## SD1 residence and reconstruction - 2026-10-19
+
+[SOR-EXP-0055 / SOR-EV-0063](experiments/containers-displays/saves.md): inventory rows, selected instance extras and equipment bits are PERSISTED; native display group lists store saved item identities, not runtime handles. Component handles, actor equipment manager and attachment work are RECONSTRUCTED; rendered scene success remains unmeasured. Workshop keyed membership, explicit fixture ownership, item owner and access decisions are separate. H21 empty fixture inventory coexists with a positive displayed item; H256/H257 equipment rows preserve instance modifications and state1. Actor-tail and unsupported-extra limits remain explicit.

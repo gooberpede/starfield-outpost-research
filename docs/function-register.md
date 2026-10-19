@@ -345,3 +345,8 @@ ratio140f4cb70 -> statistics1421f2cb0 -> footer14143f690/8a0/fb40.
 [Causal explanation](experiments/build-budget/native.md) separates static VAs,
 object offsets, saved offsets and identity domains. OBSERVED-INTERNAL;
 no safe invocation, hook, mod ABI or runtime measurement is established.
+
+
+## SD1 container/display native contracts - 2026-10-19
+
+[SOR-EXP-0055 / SOR-EV-0063](experiments/containers-displays/native.md), [pinned function/export register](experiments/containers-displays/functions.csv):1404321f0 display admission;1412ffae0/1412ff580 creation/owner transformation;140643360 inventory conversion;141eb01a0 and140b66680/140b67380 menu transfer reasons;1419a3330 equipment;140641180/140641320 saved row state;140b7d5b0 equipment reconstruction;1412fd300/1412fd450/1412fd650 display writer/load/fixup;1421de660/140b61610 ordinary scrap transfer. Preferred static VAs only, matching pinned image/base; OBSERVED-INTERNAL, no safe ABI/injection authority.

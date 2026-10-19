@@ -176,3 +176,6 @@ H1-H4 and proposed-only repeated-load validation. No new live authority.
 - [SOR-EXP-0049 / SOR-EV-0057 — CR3 remote crew lifecycle](crew-lifecycle/report.md): assignment versus arrival, life/process/entry gates, load replay, selected generic specialist witnesses and producer clock adoption; [review](crew-lifecycle/review.md). Offline only.
 
 - [SOR-EXP-0050 / SOR-EV-0058 — R1 outpost robots](robots/report.md): eight variants, shared construction allowance, separate crew admission, A1/DB effects, saved robot joins and lifecycle; [review](robots/review.md). Offline only.
+
+
+- [SOR-EXP-0055 / SOR-EV-0063 - SD1 containers and displays](containers-displays/report.md): qualified constructible census, capacity/filter/slot gates, four ownership channels, mounted item references versus actor equipment, ordinary scrap transfer and saved correspondence; [review/package](containers-displays/review.md). Offline only.
