@@ -1,0 +1,9 @@
+member,bytes,sha256,scope
+Scripts/Source/Actor.psc,42277,83fd70807fdcdef639bec6b974631c03b00f14929d13b3625cdbd2a98748d6ec,"Selected declarations only; complete-member integrity hash, no script implementation reproduced"
+Scripts/Source/Game.psc,25512,ed955efb9bcd3211fe9d8fc69ecc7ab669c07dcacf07174c6fa006712284acec,"Selected declarations only; complete-member integrity hash, no script implementation reproduced"
+Scripts/Source/GlobalVariable.psc,817,10eb5917733f6f2a6183c8e3c105126214d696c1dae10bcd2bd83becde718572,"Selected declarations only; complete-member integrity hash, no script implementation reproduced"
+Scripts/Source/Location.psc,6232,1e983be3bcda8e76005ffff72af298246f9f0dc69cbbd6cde56e1a58b454644f,"Selected declarations only; complete-member integrity hash, no script implementation reproduced"
+Scripts/Source/ObjectReference.psc,81331,c30010b0cca5a9e1c26c1620ed4b50db040bbcf65dfaec34895879ef9e27ec73,"Selected declarations only; complete-member integrity hash, no script implementation reproduced"
+Scripts/Source/OutpostActorScript.psc,1921,ac5b06ab41958fd62335b5acd606af7cfc3abaf50045a1ff2bc42eaeb7827404,"Selected declarations only; complete-member integrity hash, no script implementation reproduced"
+Scripts/Source/OutpostCrewStationScript.psc,311,881dc13df9f669b9499a0c8caaa5a1d97c0b67344d761818f85c3cf83c77424a,"Selected declarations only; complete-member integrity hash, no script implementation reproduced"
+Scripts/Source/ScriptObject.psc,28310,a3b8374fdf463bb15120c64713822a9c1f1d9a866480fc203ca9a1bc92aa29af,"Selected declarations only; complete-member integrity hash, no script implementation reproduced"
