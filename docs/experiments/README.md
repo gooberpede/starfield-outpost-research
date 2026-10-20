@@ -1,5 +1,8 @@
 # Experiments
 
+- [SOR-EXP-0061 / SOR-EV-0069 - BM2 Build Mode catalogue](build-catalogue/report.md): first-FNAM discovery, grouped prospective furniture variants, eligibility/card/request paths and nominal mixed-producer accumulation; [review/package](build-catalogue/review.md). Offline only.
+
+
 - [SOR-EXP-0060 / SOR-EV-0068 - BM1 construction variants](construction-variants/report.md): manual CHANGE, initial assembly and automatic adaptation; separate material, foundation, animation and damage paths; [saved witnesses](construction-variants/saves.md), [extension map](construction-variants/extensibility.md) and [independent review/package](construction-variants/review.md). Bounded offline research.
 
 - [SOR-EXP-0058 / SOR-EV-0066 - Coordinate sufficiency](coordinate-sufficiency/report.md):

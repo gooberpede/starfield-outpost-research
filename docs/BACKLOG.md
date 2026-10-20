@@ -1,5 +1,10 @@
 # Separately scoped research backlog
 
+## BM2 catalogue and nominal aggregation - 2026-10-20
+
+[Report/review](experiments/build-catalogue/review.md) records the bounded offline discovery, grouping, eligibility, card/request and production-sum work. Optional remaining questions are actual refresh epochs, practical 1,000/2,000-item performance, winning overrides and realized throughput; they do not reopen BM1 CHANGE or authorize a mod/live run. The distinct Locations field pass remains separate. Original entries/statuses below are retained.
+
+
 ## BM1 reviewed result and retained extension gaps - 2026-10-20
 
 [BM1 report](experiments/construction-variants/report.md) and [review](experiments/construction-variants/review.md) close the bounded offline mechanism assignment. Ordinary wall alternatives are condition-eligible STBH entries targeting generated PackIns; generic data extension is conditional on the documented record/context relationships. Independent interior/exterior selection, arbitrary stair dimensions, persistent dynamic storage decals and universal furnishing/wiring migration remain unknown. A paired CHANGE/reload observation is [prospective only](experiments/construction-variants/saves.md#optional-discriminating-observation); a gameplay mod, tool or new live experiment requires a separate scoped authorization. Historical backlog items below remain intact.

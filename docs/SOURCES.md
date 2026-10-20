@@ -1,5 +1,10 @@
 # Source Register
 
+## BM2 catalogue, selection and production aggregation
+
+2026-10-20, SOR-EXP-0061 / SOR-EV-0069. [Report](experiments/build-catalogue/report.md), [source pins](experiments/build-catalogue/sources.csv), [methods/prior-work matrix](experiments/build-catalogue/methods.md). Bethesda installed EXE/main ESM/add-on/compiled UI supply primary STATIC evidence; prior project SD2, L1–L3, BM1, E1–E3, P1 and C1 findings are credited with original limits. Owned ESM/Ghidra/AVM2/verifier/patch methods are reused or adapted under SOR-P-0002. Existing CPython/stdlib, Ghidra/Temurin and Git are tools. No outside implementation, download, contact or disclosure; primary payloads LOCAL-ONLY, authored interpretation/metadata REVIEW-REQUIRED.
+
+
 ## BM1 construction-component variants and dynamic configuration
 
 2026-10-20, SOR-EXP-0060 / SOR-EV-0068. [Report](experiments/construction-variants/report.md), [exact pins](experiments/construction-variants/sources.csv), [methods and prior-work matrix](experiments/construction-variants/methods.md). Bethesda installed EXE/main ESM/development scripts and matching existing Ghidra state supply primary STATIC evidence; five protected maintainer saves and four unpaired screenshots supply saved associations and UI context. Prior project Workshop membership/population corrections, L1–L3, DA1, SD1/SD2, C1–C3 and Build Mode/position research retain their original limits. Owned readers and static/patch exporters are adapted under SOR-P-0002. Existing Ghidra/Temurin, CPython/stdlib and Git are tools; no external code incorporation, dependency download, contact or disclosure. Proprietary/private payloads remain LOCAL-ONLY; authored interpretation and minimal metadata remain REVIEW-REQUIRED for publication.

@@ -1,5 +1,10 @@
 # Credits
 
+## BM2 Build Mode catalogue and nominal aggregation
+
+Bethesda installed definitions, executable and compiled interface provide primary evidence. Prior project SD2, L1–L3, BM1, E1–E3, P1 and C1 research supplies credited discoveries, saved corroboration and bounded owned reading/export methods under SOR-P-0002. Existing Ghidra/Temurin, CPython/stdlib and Git support offline analysis and review. [Report](docs/experiments/build-catalogue/report.md), [methods](docs/experiments/build-catalogue/methods.md), [exact source pins](docs/experiments/build-catalogue/sources.csv). No raw proprietary payload or outside implementation is incorporated; no endorsement or publication clearance is implied.
+
+
 ## BM1 construction variants and dynamic configuration
 
 Bethesda installed definitions, executable and development scripts provide primary mechanism evidence; the maintainer's protected historical saves and four screenshots provide saved relationships and unpaired visual context. Project-owned Workshop membership/population, L1–L3, DA1, SD1/SD2, C1–C3 and Build Mode/position discoveries and bounded readers/export methods are reused with original limits under SOR-P-0002. Existing Ghidra/Temurin, CPython/stdlib and Git support offline research and review. [Report](docs/experiments/construction-variants/report.md), [methods/prior-work credits](docs/experiments/construction-variants/methods.md) and [source pins](docs/experiments/construction-variants/sources.csv) retain point-of-use provenance. No new outside implementation or redistribution clearance is claimed.

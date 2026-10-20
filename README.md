@@ -1,5 +1,8 @@
 # Starfield Outpost Systems Research
 
+**2026-10-20 - BM2 Build Mode catalogue:** [Discovery and selection](docs/experiments/build-catalogue/report.md) maps first-FNAM registration, grouped furniture options, hidden/locked/admission distinctions and nominal production addition. [Review/package](docs/experiments/build-catalogue/review.md) controls completion; no live, staging, commit or push.
+
+
 **2026-10-20 - BM1 construction variants:** [Manual CHANGE and dynamic configuration](docs/experiments/construction-variants/report.md) maps grouped Snap Behavior entries to generated wall PackIns, preserved anchors and saved replacement/owner links. Automatic connections, foundations, materials, animation and destruction have distinct selection paths. [Review](docs/experiments/construction-variants/review.md) records independent acceptance and limits; paired actions, rendered reload and arbitrary extension safety remain untested.
 
 **2026-10-20 - B1 outpost biomes:** [Assignment and nominal coverage](docs/experiments/outpost-biomes/report.md) derives complete-cell traversal for the qualified ordinary base-biome field. Saved Feynman V supports two identities; Carinae III-a supports one. Effective clipping and loaded equivalence remain qualified; [review/package](docs/experiments/outpost-biomes/review.md) controls completion. Offline only; no staging, commit or push.

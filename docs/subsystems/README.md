@@ -1,5 +1,8 @@
 # Outpost Subsystem Research Map
 
+[BM2 Build Mode catalogue](../experiments/build-catalogue/report.md) joins definition discovery, grouped prospective choices, visibility/locks, card and construction handoff, and nominal producer aggregation. [Extension/persistence boundaries](../experiments/build-catalogue/extensibility.md) distinguish rebuilt menu state from placed BM1 variants; [review](../experiments/build-catalogue/review.md) controls disposition. No large-menu stress test or actual throughput claim.
+
+
 [DA1 attacks and defense](../experiments/outpost-defense/report.md) separates
 ordinary/Armillary event selection from incidental combat and identifies a
 positive human attack unload-destruction path. [Integrity/repair](../experiments/outpost-defense/integrity.md)

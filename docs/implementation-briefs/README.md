@@ -1,5 +1,8 @@
 # Implementation and Audit Briefs
 
+- [BM2 Build catalogue, selection and production aggregation](CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md): invoked 2026-10-20; unchanged supplied brief, [report](../experiments/build-catalogue/report.md), [original AC1–AC8/review](../experiments/build-catalogue/review.md). No staging, commit or push.
+
+
 - [BM1 construction-component variants and dynamic configuration](CODEX_BRIEF_SOR_BM1_construction_component_variants_dynamic_configuration.md): invoked 2026-10-20; unchanged supplied brief, [report](../experiments/construction-variants/report.md), [frozen criteria and independent review](../experiments/construction-variants/review.md). Offline only; commit suggestion requested, no staging, commit or push.
 
 - [B1 outpost biome assignment and nominal territory](CODEX_BRIEF_SOR_B1_outpost_biome_assignment_nominal_territory.md) — bounded offline research; [report](../experiments/outpost-biomes/report.md) and [review](../experiments/outpost-biomes/review.md).

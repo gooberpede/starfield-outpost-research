@@ -1,0 +1,16 @@
+id,edid,ordinal,roots
+001ec788,OutpostCategoryQuest,0,1
+00008406,OutpostCategoryHarvesters,1,51
+0005a6de,OutpostCategoryPower,2,11
+0027319a,OutpostCategoryStorage,3,5
+002731a0,OutpostCategoryBuilders,4,6
+002a7578,OutpostCategoryStructures,5,11
+002cfde6,OutpostCategoryCrafting,6,6
+001e6641,OutpostCategoryDefenses,7,7
+001d9f5f,OutpostCategoryRobots,8,8
+002be3b5,OutpostCategoryFurniture,9,20
+00293adf,OutpostCategoryDecorations,10,57
+00397027,OutpostCategoryDisplays,11,9
+0006d72d,OutpostCategoryMiscellaneous,12,10
+00127e9b,OutpostCategoryBulldoze,13,1
+0002bd59,OutpostCategoryTestAssets,14,1
