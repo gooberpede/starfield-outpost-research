@@ -1,5 +1,7 @@
 # Documentation Index
 
+**Current reader route:** [Subsystem roadmap](research-roadmap.md), [history/supersession](research-history.md), [RC1 capabilities](audits/outpost-rc1-2026-10/capability-access.md), [Papyrus](audits/outpost-rc1-2026-10/papyrus-interfaces.md) and [proposed claim/build scope](audits/publication-readiness-b1/claim-build-matrix.md). Publication **NOT CLEARED**. The dated entries below preserve prior routes; they are not a current task queue.
+
 - [LO1 Locations -> Outpost field lineage](experiments/locations-outpost/report.md): full informational inventory, inherited metrics, count/allowance semantics, selected metadata and schematic asset providers; [review](experiments/locations-outpost/review.md).
 
 - [B1 outpost biome assignment and nominal coverage](experiments/outpost-biomes/report.md): causal raster/cell model, named saved contrasts, completeness proof and [review package](experiments/outpost-biomes/review.md).

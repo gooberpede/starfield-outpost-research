@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+**Current authority route:** [Subsystem roadmap](../research-roadmap.md) and [RC1 reconciliation](../audits/outpost-rc1-2026-10/gap-reconciliation.md). The dated summaries and initial All OPEN agenda below are historical snapshots, not current coverage or follow-on authorization. Later studies supersede their future-scope statements; see the [history register](../research-history.md).
+
 [BM2 Build Mode catalogue](../experiments/build-catalogue/report.md) joins definition discovery, grouped prospective choices, visibility/locks, card and construction handoff, and nominal producer aggregation. [Extension/persistence boundaries](../experiments/build-catalogue/extensibility.md) distinguish rebuilt menu state from placed BM1 variants; [review](../experiments/build-catalogue/review.md) controls disposition. No large-menu stress test or actual throughput claim.
 
 

@@ -1,6 +1,6 @@
 # Publication Plan and Release Gate
 
-**Status: NOT READY.** No research has been completed in this project and no public-release action is authorized.
+**Status: NOT READY / NOT CLEARED.** Independently reviewed bounded research exists; see the [current roadmap](research-roadmap.md). No public-release action is authorized. The [proposed claim/build scope](audits/publication-readiness-b1/claim-build-matrix.md) still requires maintainer agreement and all release gates below.
 
 The project begins privately and must publish completed, reviewed research under `GPL-3.0-or-later`. The first publication scope/build matrix must be explicitly agreed and contain runtime and persistence objectives. The continuing programme may remain broader, but unresolved required topics cannot be silently dropped to declare completion.
 

@@ -1,5 +1,7 @@
 # Experiments
 
+For current explanations use the [subsystem roadmap](../research-roadmap.md); for displaced claims use the [history register](../research-history.md). This dated index preserves original scope/next-step descriptions, including later-completed follow-ons. [RC1](../audits/outpost-rc1-2026-10/gap-reconciliation.md) records current coverage. Ignored raw evidence paths in linked records are LOCAL-ONLY, not public downloads.
+
 - [SOR-EXP-0062 / SOR-EV-0070 - LO1 Locations -> Outpost](locations-outpost/report.md): authoritative field inventory, counts/base allowance, faction/level, metadata/asset selectors and refresh boundaries; [review/package](locations-outpost/review.md). Offline only.
 
 - [SOR-EXP-0061 / SOR-EV-0069 - BM2 Build Mode catalogue](build-catalogue/report.md): first-FNAM discovery, grouped prospective furniture variants, eligibility/card/request paths and nominal mixed-producer accumulation; [review/package](build-catalogue/review.md). Offline only.

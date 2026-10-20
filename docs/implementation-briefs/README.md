@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [B1 current research roadmap and navigation](CODEX_BRIEF_SOR_B1_current_research_roadmap_navigation.md): invoked 2026-10-21; [implementation/review](../audits/publication-readiness-b1/report.md). Documentation only; no staging, commit, push or publication. Distinct from the earlier B1 biome research assignment.
+
 - [B0 publication policy, release scope and versioned baselines](CODEX_BRIEF_SOR_B0_publication_policy_release_scope.md):
   invoked 2026-10-21; [decision record](../audits/publication-readiness-b0/report.md)
   and [frozen criteria/review](../audits/publication-readiness-b0/review.md).

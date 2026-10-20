@@ -1,5 +1,9 @@
 # Audits
 
+- [B1 current roadmap and navigation](publication-readiness-b1/report.md): [review](publication-readiness-b1/review.md), [journeys](publication-readiness-b1/navigation-journeys.md), [proposed claim/build scope](publication-readiness-b1/claim-build-matrix.md). Publication NOT CLEARED.
+- [RC1 coverage and access](outpost-rc1-2026-10/report.md): [60-question reconciliation](outpost-rc1-2026-10/gap-reconciliation.md), [capabilities](outpost-rc1-2026-10/capability-access.md), [review](outpost-rc1-2026-10/review.md).
+- [Original coverage audit](outpost-coverage-2026-10/report.md) and [RR1 publication-readiness audit](publication-readiness-rr1/report.md) retain their historical assessments.
+
 - [B0 publication policy and release scope](publication-readiness-b0/report.md):
   [frozen criteria and review](publication-readiness-b0/review.md), 21 RR1
   dispositions and proposed B1–B6 gates. Policy proposal only; no publication,

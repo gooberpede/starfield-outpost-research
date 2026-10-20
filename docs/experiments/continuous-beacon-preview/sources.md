@@ -18,7 +18,7 @@
   work informed by native exports. This is source-informed research, not a
   clean-room claim. No outside implementation is copied to replace missing edges.
 - Ian Patterson's exact unchanged SFSE PluginAPI.h and MIT notice retain
-  [SOR-P-0001](../../PERMISSIONS.md#sor-p-0001). The source-informed owned
+  [SOR-P-0001](../../PERMISSIONS.md). The source-informed owned
   tooling retains SOR-P-0002/SOR-S-0132 lineage. No broader SFSE/CommonLibSDK source,
   new dependency, licence basis, network download or author contact is introduced.
 - Installed MSVC/MASM/Windows SDK, Windows libraries, CPython 3.14.3 stdlib and
