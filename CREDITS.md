@@ -1,5 +1,9 @@
 # Credits
 
+## LO1 Locations -> Outpost field lineage
+
+[SOR-EXP-0062 / SOR-EV-0070](docs/experiments/locations-outpost/report.md) credits Bethesda's installed native code, definitions, localization and compiled interface; the maintainer's two supplied screenshots; and prior project E1/P1/L1/L2/CR1/R1/C1–C3/SD3/BM2 findings and owned readers. Existing Ghidra/Temurin, CPython/stdlib and Git support offline inspection and review packaging. [Methods and exact provenance](docs/experiments/locations-outpost/methods.md) distinguish inherited discoveries from new selected-panel/provider edges. No outside code/dependency or raw proprietary material is incorporated; publication remains gated.
+
 ## BM2 Build Mode catalogue and nominal aggregation
 
 Bethesda installed definitions, executable and compiled interface provide primary evidence. Prior project SD2, L1–L3, BM1, E1–E3, P1 and C1 research supplies credited discoveries, saved corroboration and bounded owned reading/export methods under SOR-P-0002. Existing Ghidra/Temurin, CPython/stdlib and Git support offline analysis and review. [Report](docs/experiments/build-catalogue/report.md), [methods](docs/experiments/build-catalogue/methods.md), [exact source pins](docs/experiments/build-catalogue/sources.csv). No raw proprietary payload or outside implementation is incorporated; no endorsement or publication clearance is implied.

@@ -1,5 +1,9 @@
 # Source Register
 
+## LO1 Locations -> Outpost primary provenance
+
+2026-10-20, SOR-EXP-0062 / SOR-EV-0070. [Report](experiments/locations-outpost/report.md), [exact source pins](experiments/locations-outpost/sources.csv), [native coverage](experiments/locations-outpost/functions.csv), [methods/effects](experiments/locations-outpost/methods.md). Bethesda installed retail EXE/ESM/Interface.ba2/Localization.ba2 and matching existing Ghidra state; maintainer supplied screenshot witnesses. Accepted E1/P1/L1/L2/CR1/R1/C1–C3/SD3/BM2 mechanisms and owned ESM/ABC/timeline/export/patch/disk/text methods are reused under SOR-P-0002. Ghidra12.1.2/Temurin21.0.12, CPython3.14.3/stdlib and Git are installed tools. No new third-party implementation, dependency, contact, download or disclosure; raw assets/exports/local metadata LOCAL-ONLY, authored interpretation REVIEW-REQUIRED.
+
 ## BM2 catalogue, selection and production aggregation
 
 2026-10-20, SOR-EXP-0061 / SOR-EV-0069. [Report](experiments/build-catalogue/report.md), [source pins](experiments/build-catalogue/sources.csv), [methods/prior-work matrix](experiments/build-catalogue/methods.md). Bethesda installed EXE/main ESM/add-on/compiled UI supply primary STATIC evidence; prior project SD2, L1–L3, BM1, E1–E3, P1 and C1 findings are credited with original limits. Owned ESM/Ghidra/AVM2/verifier/patch methods are reused or adapted under SOR-P-0002. Existing CPython/stdlib, Ghidra/Temurin and Git are tools. No outside implementation, download, contact or disclosure; primary payloads LOCAL-ONLY, authored interpretation/metadata REVIEW-REQUIRED.

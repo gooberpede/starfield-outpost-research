@@ -1,5 +1,7 @@
 # Build Mode and Locations informational coverage
 
+Subsequent bounded follow-up: [LO1 Locations field inventory](../../experiments/locations-outpost/field-lineage.md) and [review](../../experiments/locations-outpost/review.md) trace the count, allowance, selected metadata/asset and meter edges. The audit categories below remain the original starting assessment; BM2's accepted endpoint/assignment work is reused by LO1.
+
 2026-10-20. This audit distinguishes direct screen lineage (**TRACED**), a known
 underlying mechanism with an incomplete particular binding (**PARTIAL**), and no
 authoritative field lineage in the examined records (**UNTRACED**). These labels

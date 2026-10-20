@@ -1,5 +1,9 @@
 # Separately scoped research backlog
 
+## LO1 Locations field map - 2026-10-20
+
+[Report and field inventory](experiments/locations-outpost/report.md) complete the bounded source-to-screen investigation subject to [independent review](experiments/locations-outpost/review.md). New edges distinguish entryCount/base capability, decorate-keyword exclusion, location-owner faction/level and generated map/schematic assets. Retain exceptional registry/control, actual historical epochs, owner-override lifecycle and unsupported emblem variants as narrower limitations. None authorizes a live refresh test, importer, mod or catalogue expansion; earlier audit/backlog entries remain historical.
+
 ## BM2 catalogue and nominal aggregation - 2026-10-20
 
 [Report/review](experiments/build-catalogue/review.md) records the bounded offline discovery, grouping, eligibility, card/request and production-sum work. Optional remaining questions are actual refresh epochs, practical 1,000/2,000-item performance, winning overrides and realized throughput; they do not reopen BM1 CHANGE or authorize a mod/live run. The distinct Locations field pass remains separate. Original entries/statuses below are retained.

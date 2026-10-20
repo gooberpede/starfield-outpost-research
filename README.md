@@ -1,5 +1,7 @@
 # Starfield Outpost Systems Research
 
+**2026-10-20 - LO1 Locations -> Outpost:** [Field lineage](docs/experiments/locations-outpost/report.md) consolidates accepted metrics and traces list counts/base allowance, location-owner faction, system level and metadata-driven schematics. [Review/package](docs/experiments/locations-outpost/review.md) controls completion; offline only, no staging, commit or push.
+
 **2026-10-20 - BM2 Build Mode catalogue:** [Discovery and selection](docs/experiments/build-catalogue/report.md) maps first-FNAM registration, grouped furniture options, hidden/locked/admission distinctions and nominal production addition. [Review/package](docs/experiments/build-catalogue/review.md) controls completion; no live, staging, commit or push.
 
 

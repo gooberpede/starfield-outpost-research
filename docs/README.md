@@ -1,5 +1,7 @@
 # Documentation Index
 
+- [LO1 Locations -> Outpost field lineage](experiments/locations-outpost/report.md): full informational inventory, inherited metrics, count/allowance semantics, selected metadata and schematic asset providers; [review](experiments/locations-outpost/review.md).
+
 - [B1 outpost biome assignment and nominal coverage](experiments/outpost-biomes/report.md): causal raster/cell model, named saved contrasts, completeness proof and [review package](experiments/outpost-biomes/review.md).
 
 - [C2 cargo freight lifecycle](experiments/cargo-links/transport/report.md): returned freight, scheduling/modifiers, native remote/recovery and Save52 correspondence; [review](experiments/cargo-links/transport/review.md).

@@ -1,5 +1,7 @@
 # Experiments
 
+- [SOR-EXP-0062 / SOR-EV-0070 - LO1 Locations -> Outpost](locations-outpost/report.md): authoritative field inventory, counts/base allowance, faction/level, metadata/asset selectors and refresh boundaries; [review/package](locations-outpost/review.md). Offline only.
+
 - [SOR-EXP-0061 / SOR-EV-0069 - BM2 Build Mode catalogue](build-catalogue/report.md): first-FNAM discovery, grouped prospective furniture variants, eligibility/card/request paths and nominal mixed-producer accumulation; [review/package](build-catalogue/review.md). Offline only.
 
 
