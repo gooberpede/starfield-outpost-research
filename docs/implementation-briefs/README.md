@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [BM1 construction-component variants and dynamic configuration](CODEX_BRIEF_SOR_BM1_construction_component_variants_dynamic_configuration.md): invoked 2026-10-20; unchanged supplied brief, [report](../experiments/construction-variants/report.md), [frozen criteria and independent review](../experiments/construction-variants/review.md). Offline only; commit suggestion requested, no staging, commit or push.
+
 - [B1 outpost biome assignment and nominal territory](CODEX_BRIEF_SOR_B1_outpost_biome_assignment_nominal_territory.md) — bounded offline research; [report](../experiments/outpost-biomes/report.md) and [review](../experiments/outpost-biomes/review.md).
 
 - [SD3 Stored Resources aggregation, icons and refresh](CODEX_BRIEF_SOR_SD3_stored_resources_aggregation_icons_refresh.md): invoked 2026-10-19; [frozen plan](../experiments/stored-resources/plan.md), [answer](../experiments/stored-resources/report.md), [review/package](../experiments/stored-resources/review.md). Bounded offline provider/assets/save research; no live or Git mutation authority.

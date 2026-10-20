@@ -1,0 +1,28 @@
+source,line,diagnostic,scope
+.local-work/construction-variants/native/001.request.tsv,262,SYMBOL_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/001.request.tsv,823,SYMBOL_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/003.request.tsv,183,NO_FUNCTION_AT	1421b4460,coverage limit; not a successful trace
+.local-work/construction-variants/native/007.request.tsv,1097,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/008.request.tsv,604,NO_FUNCTION_AT	140a308d0,coverage limit; not a successful trace
+.local-work/construction-variants/native/010.request.tsv,1136,DECOMPILED	false	,coverage limit; not a successful trace
+.local-work/construction-variants/native/010.request.tsv,1138,NO_FUNCTION_AT	1409045b0,coverage limit; not a successful trace
+.local-work/construction-variants/native/011.request.tsv,607,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/011.request.tsv,3413,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/012.request.tsv,637,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/012.request.tsv,1164,NO_FUNCTION_AT	140b4e030,coverage limit; not a successful trace
+.local-work/construction-variants/native/012.request.tsv,1951,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/014.request.tsv,632,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/014.request.tsv,2542,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/014.request.tsv,4394,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/014.request.tsv,5582,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/015.request.tsv,1057,NO_FUNCTION_AT	140a324e0,coverage limit; not a successful trace
+.local-work/construction-variants/native/016.request.tsv,65,NO_FUNCTION_AT	1421c1ea0,coverage limit; not a successful trace
+.local-work/construction-variants/native/017.request.tsv,1098,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/017.request.tsv,3046,NO_FUNCTION_AT	140b4e030,coverage limit; not a successful trace
+.local-work/construction-variants/native/019.request.tsv,900,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/019.request.tsv,2164,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/020.request.tsv,1354,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/021.request.tsv,988,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/022.request.tsv,607,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/025.request.tsv,607,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace
+.local-work/construction-variants/native/028.request.tsv,607,INSTRUCTION_LIMIT_REACHED,coverage limit; not a successful trace

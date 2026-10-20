@@ -1,5 +1,9 @@
 # Separately scoped research backlog
 
+## BM1 reviewed result and retained extension gaps - 2026-10-20
+
+[BM1 report](experiments/construction-variants/report.md) and [review](experiments/construction-variants/review.md) close the bounded offline mechanism assignment. Ordinary wall alternatives are condition-eligible STBH entries targeting generated PackIns; generic data extension is conditional on the documented record/context relationships. Independent interior/exterior selection, arbitrary stair dimensions, persistent dynamic storage decals and universal furnishing/wiring migration remain unknown. A paired CHANGE/reload observation is [prospective only](experiments/construction-variants/saves.md#optional-discriminating-observation); a gameplay mod, tool or new live experiment requires a separate scoped authorization. Historical backlog items below remain intact.
+
 ## SD2 result and retained validation - 2026-10-19
 
 [SD2 report](experiments/shared-outpost-storage/report.md) identifies one player-held shared backing inventory, local fixture recognition and concrete crafting/research/construction source and spending paths. [Saved scope](experiments/shared-outpost-storage/saves.md) separates broad positive fixture/owner correspondence from the unparsed PlayerCharacter backing-item segment and unobserved loaded deltas. A field-anchored offline reader or separately approved controlled split-source trial would address those narrower questions. [Review](experiments/shared-outpost-storage/review.md) controls acceptance. Locations Stored Resources aggregation/refresh remains reserved for SD3; no follow-on execution or live authority is implied.

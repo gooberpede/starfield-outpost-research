@@ -1,5 +1,7 @@
 # Experiments
 
+- [SOR-EXP-0060 / SOR-EV-0068 - BM1 construction variants](construction-variants/report.md): manual CHANGE, initial assembly and automatic adaptation; separate material, foundation, animation and damage paths; [saved witnesses](construction-variants/saves.md), [extension map](construction-variants/extensibility.md) and [independent review/package](construction-variants/review.md). Bounded offline research.
+
 - [SOR-EXP-0058 / SOR-EV-0066 - Coordinate sufficiency](coordinate-sufficiency/report.md):
   Kreet Lab fixed anchor, Save37–39 player/beacon controls, SOR-002/003 grid
   consistency, repeatability dependencies and Papyrus Location API;

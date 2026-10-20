@@ -1,5 +1,9 @@
 # Initial subsystem map — SOR-EXP-0001
 
+## Construction components and dynamic configuration - BM1, 2026-10-20
+
+[Reviewed mechanism map](../experiments/construction-variants/report.md) separates initial PKIN construction, grouped manual STBH cycling, automatic ungrouped connection rules, generated foundations, material arrays, cargo animation and destruction stages. [Saved joins](../experiments/construction-variants/saves.md) connect chosen child PackIns, anchor backlinks, Workshop owners and DE node pairs. [Extension limits](../experiments/construction-variants/extensibility.md) distinguish demonstrated data relationships from unknown independent-side, decal and ship-context transfer. Prior Workshop/L1–L3/DA1/SD1 classifications are retained; no mod or live authority follows.
+
 ## Locations Stored Resources - SD3, 2026-10-19
 
 [Provider and reporting model](../experiments/stored-resources/report.md) traces
