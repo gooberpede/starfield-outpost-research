@@ -1,0 +1,529 @@
+path,line,rule,token,classification,reason
+docs/PROVENANCE.md,5,count-elision,HEAD1210c1ff5a9501f321eb8de04a604331e84f1447,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/PROVENANCE.md,5,count-elision,matches22,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/PROVENANCE.md,5,hash-elision,HEAD1210c1ff5a9501f321eb8de04a604331e84f1447,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/RESEARCH_STATE.md,79,count-elision,All17,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/RESEARCH_STATE.md,106,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/RESEARCH_STATE.md,633,count-elision,type1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/RESEARCH_STATE.md,637,count-elision,All23,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/RESEARCH_STATE.md,637,count-elision,rank3,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/RESEARCH_STATE.md,637,count-elision,retains8,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/SOURCES.md,144,count-elision,HEAD6475a1fb4a70711d3035e2c89a05085b9b57f5b4,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/SOURCES.md,144,hash-elision,HEAD6475a1fb4a70711d3035e2c89a05085b9b57f5b4,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/audits/documentation-spacing-cleanup.md,31,count-elision,the657-root,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/audits/documentation-spacing-cleanup.md,32,count-elision,adds191,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/audits/documentation-spacing-cleanup.md,35,count-elision,observer0.5.0,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/audits/outpost-coverage-2026-10/build-mode-and-locations.md,26,count-elision,mask4,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/audits/outpost-coverage-2026-10/build-mode-and-locations.md,28,count-elision,mask1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/audits/outpost-coverage-2026-10/build-mode-and-locations.md,36,count-elision,rank4,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/audits/outpost-coverage-2026-10/build-mode-and-locations.md,36,count-elision,rank4,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/audits/outpost-coverage-2026-10/position-biomes-dependencies.md,22,count-elision,"radius150,",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/audits/outpost-coverage-2026-10/source-and-gap-reconciliation.md,23,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/audits/outpost-rc1-2026-10/capability-access.md,49,count-elision,"actor4C,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/audits/outpost-rc1-2026-10/capability-access.md,50,count-elision,slot9,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/activated-grid/native-map.csv,38,count-elision,bit8,uncertain notation/shorthand,Human-readable CSV notation; bit index/mask domain must be checked before changing prose.
+docs/experiments/build-budget/native.md,156,count-elision,type4,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/native.md,156,count-elision,type5.,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/review.md,16,count-elision,type4-,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/review.md,16,count-elision,"mask10,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/review.md,18,count-elision,All17,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/build-budget/review.md,18,count-elision,all36,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/build-budget/review.md,60,count-elision,type4b,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/saves.md,77,count-elision,type4b,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/saves.md,86,count-elision,all19,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/build-budget/ui.md,25,count-elision,bit10,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/ui.md,27,count-elision,type4,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/ui.md,31,count-elision,type4,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/ui.md,32,count-elision,type5.,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/ui.md,33,count-elision,type4,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/ui.md,33,count-elision,mask10,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/ui.md,33,count-elision,type5,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/ui.md,33,count-elision,"mask1f,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/ui.md,41,count-elision,offset14,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/build-budget/ui.md,58,count-elision,"offset17794,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/cargo-links/configuration-ui/review.md,29,count-elision,contains100,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/configuration-ui/review.md,34,count-elision,contains132,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/configuration-ui/review.md,97,count-elision,all23,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/configuration-ui/save52.md,69,count-elision,mask00,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/cargo-links/transport/cycle.md,57,count-elision,adds100,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/transport/cycle.md,59,count-elision,retains80.,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/transport/inventory.md,20,count-elision,type41,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/cargo-links/transport/lifecycle.md,100,count-elision,most30,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/transport/review.md,26,count-elision,retail1.16.244.0,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/transport/review.md,41,count-elision,contains64,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/transport/review.md,127,count-elision,all208,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/transport/saves.md,11,count-elision,"all205,557",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/transport/saves.md,11,count-elision,the246-edge,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/transport/saves.md,14,count-elision,all61,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/cargo-links/transport/saves.md,23,count-elision,mask00,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/cargo-links/transport/saves.md,47,count-elision,owner054ba6,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/cargo-links/transport/timing.md,145,count-elision,all3game,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/containers-displays/native.md,116,count-elision,"type1F,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/continuous-beacon-preview/run-card.md,83,count-elision,"schema7,",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/coordinate-sufficiency/evidence.md,14,count-elision,type6,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/coordinate-sufficiency/evidence.md,14,count-elision,offset293379,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/coordinate-sufficiency/evidence.md,14,count-elision,type6,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/coordinate-sufficiency/review.md,37,count-elision,type6,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/coordinate-sufficiency/review.md,37,count-elision,type6,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/instances.csv,1,count-elision,"slot3,nested_npc,explicit_ranks,rank_status,link_status,local_receipt",retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-lifecycle/native.md,7,count-elision,type1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/native.md,11,count-elision,type1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/native.md,11,count-elision,type2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/native.md,21,count-elision,type2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/native.md,25,count-elision,bit3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/native.md,31,count-elision,all255,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/native.md,58,count-elision,actor3D.,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew-lifecycle/persistence.md,9,count-elision,all97,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/persistence.md,9,count-elision,all23,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/persistence.md,11,count-elision,slot3.,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,13,count-elision,slot3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,13,count-elision,bit3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,13,count-elision,bit3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,13,count-elision,rank1.,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/persistence.md,19,count-elision,beacon2c60e9,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,19,count-elision,slot3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,19,count-elision,slot3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,21,count-elision,slot3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,21,count-elision,slot3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,22,count-elision,slot3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,23,count-elision,slot3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,23,count-elision,slot3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,28,count-elision,all32,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/persistence.md,40,count-elision,mask400000,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,44,count-elision,type2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/persistence.md,48,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew-lifecycle/persistence.md,52,count-elision,actor3D,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew-lifecycle/persistence.md,55,count-elision,the32,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/plan.md,5,count-elision,type2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/plan.md,15,count-elision,"slot3,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/report.md,13,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew-lifecycle/report.md,14,count-elision,rank3,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/report.md,14,count-elision,"rank1,",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/report.md,14,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/report.md,14,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/report.md,23,count-elision,type1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/report.md,23,count-elision,type2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/report.md,27,count-elision,"slot3,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/report.md,27,count-elision,actor4C.,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/review.md,8,count-elision,type1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/review.md,8,count-elision,type2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/review.md,10,count-elision,"actor4C,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-lifecycle/review.md,10,count-elision,"rank3,",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/review.md,11,count-elision,All203,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/review.md,11,count-elision,all23,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/review.md,14,count-elision,all22,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/review.md,20,count-elision,retains48,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/review.md,28,count-elision,the32,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-lifecycle/review.md,38,count-elision,all23,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/catalogue.csv,2,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,2,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,2,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,2,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,3,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,3,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,3,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,3,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,4,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,4,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,5,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,6,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,7,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,7,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,7,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,8,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,10,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,11,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,15,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,20,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,21,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,22,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,23,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,24,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,24,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,24,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,25,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,25,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,25,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,26,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,26,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,26,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,26,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,27,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,28,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,29,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,30,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,31,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,32,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,33,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,34,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,35,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,36,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,37,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,37,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,38,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,39,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,40,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,40,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,40,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,41,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,41,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,41,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,42,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,42,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,43,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,43,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,43,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,43,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,44,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,45,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,46,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,46,count-elision,type1,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/catalogue.csv,46,count-elision,type2,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,2,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,3,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,4,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,5,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,6,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,7,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,8,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,9,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,10,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,11,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,12,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,13,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,14,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,15,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,16,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,17,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,18,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,19,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,20,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,21,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,22,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,23,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,24,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,25,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,26,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,27,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,28,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,29,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,30,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,31,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,32,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,33,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,34,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,35,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,36,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,37,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,38,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,39,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,40,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,41,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,42,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,43,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,44,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,45,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,46,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,47,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/inheritance.csv,48,count-elision,slot3,retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/crew-skills/lifecycle.md,9,count-elision,type2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/lifecycle.md,20,count-elision,mask400000,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/lifecycle.md,20,count-elision,bit22,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/lifecycle.md,22,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew-skills/lifecycle.md,45,count-elision,bit25,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/native.md,9,count-elision,type2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/native.md,11,count-elision,type41,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/native.md,17,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/native.md,25,count-elision,operation2,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/native.md,27,count-elision,the502,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/native.md,27,count-elision,rank0,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/native.md,27,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/native.md,27,count-elision,least6,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/native.md,27,count-elision,least12,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/native.md,27,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/native.md,31,count-elision,type1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/native.md,31,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/native.md,33,count-elision,type1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/native.md,41,count-elision,operation3,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/native.md,43,count-elision,type41.,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/native.md,47,count-elision,type2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/native.md,47,count-elision,operation3,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/population.md,5,count-elision,"contains16,108",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/population.md,19,count-elision,the60-byte,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/population.md,19,count-elision,bit3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/population.md,21,count-elision,All28,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/population.md,21,count-elision,bit3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/population.md,23,count-elision,bit3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/population.md,23,count-elision,slot3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/population.md,23,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/population.md,23,count-elision,bit3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/population.md,27,count-elision,rank3,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/processes.md,12,count-elision,adds1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/processes.md,12,count-elision,operation2,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,15,count-elision,operation3,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,19,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,19,count-elision,"operation2,",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,35,count-elision,rank3,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,35,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,35,count-elision,rank3,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,35,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,35,count-elision,"rank1,",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,35,count-elision,rank2,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,35,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/report.md,35,count-elision,rank2.,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/review.md,12,count-elision,type1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/review.md,17,count-elision,all35,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,8,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,8,count-elision,type1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/stacking.md,10,count-elision,type2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew-skills/stacking.md,15,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,15,count-elision,rank4,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,17,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,17,count-elision,rank3,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,17,count-elision,rank4,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,17,count-elision,rank4,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,17,count-elision,rank4,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,22,count-elision,rank1,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,22,count-elision,rank2,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,22,count-elision,rank2,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew-skills/stacking.md,22,count-elision,rank4,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew/coverage.md,4,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew/current-assignments.md,9,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew/current-assignments.md,9,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew/current-assignments.md,21,count-elision,beacon2c60e9,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew/current-assignments.md,42,count-elision,"least290,",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew/current-assignments.md,43,count-elision,most64MiB.,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew/current-assignments.md,56,count-elision,All203,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew/current-assignments.md,85,count-elision,beacon2c60e9,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew/current-assignments.md,89,count-elision,offset361113343,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew/current-assignments.md,92,count-elision,"offset3360850,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew/current-assignments.md,100,count-elision,retail1.16.244.0,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew/current-assignments.md,113,count-elision,mask1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew/current-assignments.md,113,count-elision,mask2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew/current-assignments.md,117,count-elision,type6,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew/current-assignments.md,138,count-elision,type00,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/crew/current-assignments.md,158,count-elision,All106,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew/current-assignments.md,186,count-elision,including03f7e8,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/crew/lifecycle.md,4,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew/report.md,4,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew/review.md,4,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew/saves.md,4,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/crew/screen.md,4,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/experiments/inorganic-extractors/review.md,110,count-elision,mask40,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/local-output-links/saves.md,40,count-elision,mask08000020,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/local-output-links/traces.md,13,count-elision,adds10.,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/local-output-links/traces.md,14,count-elision,adds2,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/local-readiness/prose-correction-audit.md,43,count-elision,observer0.8.0,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,44,count-elision,HEAD0906,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,45,count-elision,RVA021e0a46,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,48,count-elision,observer0.8.0,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,49,count-elision,version8,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,50,count-elision,indexed24,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,50,count-elision,slot8,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,50,hex-elision,cache0x68,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,50,hex-elision,closure0x18,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,51,count-elision,slot8,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,51,hex-elision,closure0x18,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,52,count-elision,schema8,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,52,count-elision,version0.8.0,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,52,count-elision,Tags101,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,52,count-elision,most256,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,53,count-elision,"schema8,",retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,53,count-elision,retail1.16.244.0,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,55,count-elision,"least40,000,000,000",retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,57,count-elision,All6847,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,57,count-elision,including080,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,126,count-elision,adapter080,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/prose-correction-audit.md,127,count-elision,section7,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/reassessment-review.md,63,count-elision,adapter080,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/local-readiness/reassessment-review.md,63,count-elision,section7,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/native-availability-map/minimum-inputs.md,18,count-elision,RVA021e0f50,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/native-availability-map/minimum-inputs.md,19,count-elision,RVA021e07d0,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/native-availability-map/minimum-inputs.md,20,count-elision,RVA021b41f0,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/native-availability-map/minimum-inputs.md,21,count-elision,RVA021b2570,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/native-availability-map/minimum-inputs.md,22,count-elision,RVA00f4a140,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/native-availability-map/minimum-inputs.md,23,count-elision,RVA0079f860,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/native-availability-map/minimum-inputs.md,24,count-elision,RVA01578500,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/native-availability-map/uncertainty.md,31,count-elision,the24-byte,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/native-availability-map/validation.md,30,count-elision,"all35,574",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/outpost-defense/persistence.md,93,count-elision,including00800000.,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/power/save29-authority-review.md,102,count-elision,bit10,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/power/save29-authority.md,126,count-elision,bit10,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/power/save29-authority.md,136,count-elision,bit10,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/robots/prose-spacing-review.md,26,count-elision,"threshold3,",retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/robots/prose-spacing-review.md,26,count-elision,"rank2,",retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/robots/prose-spacing-review.md,26,count-elision,operation3,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/experiments/session-infrastructure/report.md,30,count-elision,schema6,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/session-infrastructure/report.md,31,count-elision,schema7,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/session-infrastructure/report.md,31,count-elision,adapter070.py,retained technical/locator,Source or receipt identifier; exact locator preserved.
+docs/experiments/ship-relocation-050/review.md,14,count-elision,schema5,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/ship-relocation-050/run-card.md,112,count-elision,version0.5.0,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/ship-relocation-050/run-card.md,112,count-elision,schema5,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/experiments/static-exhaustion/dependency-ledger.md,58,count-elision,bit2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/static-exhaustion/trace-notes.md,167,count-elision,bit2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/storage/capacity-native.md,34,count-elision,type3,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/storage/capacity-native.md,42,count-elision,type28,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/storage/capacity-native.md,66,count-elision,bit2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/storage/capacity-native.md,78,count-elision,"bit5,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/storage/capacity-native.md,93,count-elision,mask08000020,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/storage/capacity-saves.md,14,count-elision,bit2,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/experiments/workshop-population/routes.md,23,count-elision,type2-probe01.json,retained technical/locator,Source or receipt identifier; exact locator preserved.
+docs/experiments/workshop-population/routes.md,24,count-elision,type5-complete14,retained technical/locator,Source or receipt identifier; exact locator preserved.
+docs/experiments/workshop-population/routes.md,25,count-elision,type4-census01,retained technical/locator,Source or receipt identifier; exact locator preserved.
+docs/experiments/workshop-population/routes.md,25,count-elision,type4-consumers-report.md,retained technical/locator,Source or receipt identifier; exact locator preserved.
+docs/experiments/workshop-population/routes.md,26,count-elision,type6-walk14,retained technical/locator,Source or receipt identifier; exact locator preserved.
+docs/experiments/workshop-population/sources.csv,37,count-elision,"type5-complete14.json,84020832,293ee2438335f608142cde129941b4531f00f0760d36225d9fde3ff882a989a5,LOCAL-ONLY",retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/workshop-population/sources.csv,38,count-elision,"type5-member-crosscheck16.json,220,d9c0a7f3b03b63d3548bf049af24b4e6199f6b0a5005b3b2c90857e4c50c00ba,LOCAL-ONLY",retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/workshop-population/sources.csv,39,count-elision,"type5-prefix13.json,3582,86f8d87133bfb62b19701935d76c5e504560f2dffa9c5e5073fd08a1e672623d,LOCAL-ONLY",retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/workshop-population/sources.csv,40,count-elision,"type5-source15.json,653599,90ba30d80ec89d090d60fec0ac3d88d63817935046b2764b506a9c9f15bdabd1,LOCAL-ONLY",retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/workshop-population/sources.csv,216,count-elision,"type4-census01.json,2730337,5570d3bf1d5a585401af892a0c3a29c7957d98072712c9680bf1bcec401b2a4f,LOCAL-ONLY",retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/workshop-population/sources.csv,217,count-elision,"type4-consumers-report.md,7201,d21e6e4361f3cd7355b292f16549edcce936d10805827603c1f63522018053d9,LOCAL-ONLY",retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/workshop-population/sources.csv,218,count-elision,"type4-context01.json,966895,d3a872474f19b202f568b04c1e709664bedcd08c2cee8aab0e2adbfbef32c8d2,LOCAL-ONLY",retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/workshop-population/sources.csv,220,count-elision,"type2-probe01.json,50996131,7e8bc333510d3b4c3e063c0cc5c8951cbb1a324d03ee1ad7b95fbe62b82aef02,LOCAL-ONLY",retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/workshop-population/sources.csv,221,count-elision,"type6-walk14.json,3696773,31b7cd92f38fbeaf89164439f131b6ef6e0bf9021e4e595d3fc6dedb94ecd1fd,LOCAL-ONLY",retained technical/CSV,Machine-readable type/slot/source encoding; no prose rewrite inferred.
+docs/experiments/workshop-population/validation.md,24,sample-tail,Save52205557records,confirmed prose correction candidate,Known sample/count compression; sample identity must be recovered before editing.
+docs/function-register.md,5,count-elision,retail1.16.244.0.,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+docs/function-register.md,332,count-elision,type6,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md,31,count-elision,observer0.8.0,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md,32,count-elision,slot8,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md,32,hex-elision,closure0x18,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md,33,count-elision,"schema8,",retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md,33,count-elision,retail1.16.244.0,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md,34,count-elision,slot8,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md,34,hex-elision,closure0x18,retained historical/literal,Quoted prior defect or frozen brief; preserve original spelling and meaning.
+docs/known-facts.md,201,count-elision,type1,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/state-register.md,259,count-elision,"owner4C,",uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+docs/state-register.md,285,count-elision,bit22,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+docs/subsystems/initial-map.md,295,count-elision,actor4C,uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+research/c1-cargo/README.md,16,count-elision,mask00,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+research/c2-transport/README.md,13,count-elision,"least40,000,000,000",confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+research/c2-transport/README.md,25,count-elision,mask00,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+research/cr2-skills/README.md,15,count-elision,version153,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+research/cr3-lifecycle/README.md,5,count-elision,all203,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+research/cr3-lifecycle/README.md,5,count-elision,all23,confirmed prose correction candidate,Ordinary label/count/version is fused in inspected prose context; literal correction only in later brief.
+research/workshop-population/README.md,15,count-elision,"type2-probe.py,",retained technical/locator,Source or receipt identifier; exact locator preserved.
+runtime/beacon-resource-070/README.md,30,count-elision,"indexed24,",uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+runtime/beacon-resource-070/README.md,30,hex-elision,cache0x68,uncertain notation/shorthand,May be field/tag/bit/mask/type notation; inspect declared domain before choosing a reader-facing spelling.
+runtime/native-oracle-040/schema.md,28,count-elision,"operation144,",uncertain notation/shorthand,Technical state/field notation; no semantic replacement authorized.
+CREDITS.md,146,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,155,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,166,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,179,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,199,expanded-encoding,U+00C3 U+2014,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,203,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,212,expanded-encoding,U+00E2 U+20AC U+201C,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,214,expanded-encoding,U+00E2 U+20AC U+201C,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,254,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,258,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,262,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,266,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,271,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,276,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,280,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,284,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,288,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,292,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,296,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,305,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,315,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+CREDITS.md,324,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,255,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,275,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,343,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,365,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,377,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,388,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,402,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,406,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,408,expanded-encoding,U+00C3 U+2014,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,410,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,414,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,418,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,420,expanded-encoding,U+00C3 U+2014,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,422,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,427,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,431,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,435,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,437,expanded-encoding,U+00E2 U+20AC U+201C,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,439,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,445,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,449,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,453,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,457,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,469,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,479,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,489,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,497,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,504,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,510,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,511,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,519,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,523,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,527,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,531,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,535,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,539,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,543,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,547,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,551,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,555,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,559,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,563,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,567,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,571,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,575,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,579,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,583,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,587,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,591,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,595,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,597,expanded-encoding,U+00E2 U+20AC U+201C,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,599,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,613,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,617,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,621,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,623,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,627,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,631,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,635,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,638,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,643,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,647,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,651,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,655,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,659,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,663,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,676,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,695,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,711,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/SOURCES.md,730,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/durable-position-resumption.md,1,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/durable-position-resumption.md,14,expanded-encoding,U+00E2 U+20AC U+201C,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00C3 U+0192,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00C2 U+00A2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00C3 U+00A2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00E2 U+201A U+00AC,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00C2 U+00A0,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00C3 U+00A2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00E2 U+201A U+00AC,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00E2 U+201E U+00A2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00C3 U+0192,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00C2 U+00A2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00C3 U+00A2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00E2 U+201A U+00AC,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00C2 U+00A0,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00C3 U+00A2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00E2 U+201A U+00AC,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/native-oracle/continuation-020-run-card.md,160,expanded-encoding,U+00E2 U+201E U+00A2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/position-resumption/algorithm.md,77,expanded-encoding,U+00C2 U+00B2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/position-resumption/algorithm.md,77,expanded-encoding,U+00C2 U+00B2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/position-resumption/algorithm.md,77,expanded-encoding,U+00C2 U+00B2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/position-resumption/algorithm.md,77,expanded-encoding,U+00C2 U+00B2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/position-resumption/algorithm.md,80,expanded-encoding,U+00C2 U+00B2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/position-resumption/algorithm.md,80,expanded-encoding,U+00C2 U+00B2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/position-resumption/algorithm.md,80,expanded-encoding,U+00C2 U+00B2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/position-resumption/algorithm.md,80,expanded-encoding,U+00C2 U+00B2,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/position-resumption/algorithm.md,96,expanded-encoding,U+00C3 U+2014,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/ship-relocation-050/run-card.md,1,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/ship-relocation-050/run-card.md,59,expanded-encoding,U+00E2 U+20AC U+201D,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
+docs/experiments/ship-relocation-050/run-card.md,164,expanded-encoding,U+00E2 U+2030 U+02C6,confirmed encoding correction candidate,Expanded UTF8-as-CP1252/Latin1 sequence in authored context; verify original operator/punctuation before correction.
