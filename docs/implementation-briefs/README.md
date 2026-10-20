@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [B1 outpost biome assignment and nominal territory](CODEX_BRIEF_SOR_B1_outpost_biome_assignment_nominal_territory.md) — bounded offline research; [report](../experiments/outpost-biomes/report.md) and [review](../experiments/outpost-biomes/review.md).
+
 - [SD3 Stored Resources aggregation, icons and refresh](CODEX_BRIEF_SOR_SD3_stored_resources_aggregation_icons_refresh.md): invoked 2026-10-19; [frozen plan](../experiments/stored-resources/plan.md), [answer](../experiments/stored-resources/report.md), [review/package](../experiments/stored-resources/review.md). Bounded offline provider/assets/save research; no live or Git mutation authority.
 
 - [SD2 Shared Outpost Storage and crafting access](CODEX_BRIEF_SOR_SD2_shared_storage_crafting_access.md): invoked 2026-10-19; [plan](../experiments/shared-outpost-storage/plan.md), [answer](../experiments/shared-outpost-storage/report.md), [review/package](../experiments/shared-outpost-storage/review.md). Offline only; SD3 separate; no staging, commit or push.

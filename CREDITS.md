@@ -1,5 +1,9 @@
 # Credits
 
+## B1 biome assignment and nominal territory
+
+[The B1 research](docs/experiments/outpost-biomes/report.md) credits Bethesda for the installed executable, definitions and biome maps; the maintainer for saves, manual network and candidate-site testimony; and prior project geography, Workshop, L3, resource and organic investigations for the reused discoveries and readers. Ghidra/Temurin, CPython/stdlib and Git supplied separate analysis/review tools. [Source pins and reuse provenance](docs/experiments/outpost-biomes/sources.csv) distinguish original B1 derivation from those inputs. No outside code/assets were incorporated and no new external consultation or disclosure occurred.
+
 ## Coordinate sufficiency and Papyrus Location
 
 [Kreet coordinate sufficiency](docs/experiments/coordinate-sufficiency/report.md)

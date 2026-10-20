@@ -1,5 +1,9 @@
 # Source Register
 
+## B1 outpost biome assignment and nominal territory
+
+2026-10-20, SOR-EXP-0059 / SOR-EV-0067. [Report](experiments/outpost-biomes/report.md), [exact source/method pins](experiments/outpost-biomes/sources.csv), [function locations](experiments/outpost-biomes/functions.csv), [sample/corpus coverage](experiments/outpost-biomes/saves.md). Bethesda installed executable/main ESM/PlanetData BA2 are primary STATIC sources; maintainer saves/network/testimony supply SAVE and source-reported controls. Existing project geography, Workshop, L3, resource and organic research/owned readers are reused with their qualifications and provenance. Read-only Ghidra 12.1.2/Temurin, CPython stdlib and Git are separate installed tools. No new external consultation, implementation incorporation, dependency, licence basis, contact, upload, fork or PR. Existing SOR-S-0124/0127/0128 and SOR-P-0002 lineage applies. Selected authored data REVIEW-REQUIRED; maps/raw/native/save payloads LOCAL-ONLY. No historical publication classification changed.
+
 ## Coordinate sufficiency and current Location
 
 2026-10-20, SOR-EXP-0058 / SOR-EV-0066. [Report](experiments/coordinate-sufficiency/report.md),

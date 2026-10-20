@@ -1,5 +1,7 @@
 # Current Research State
 
+**2026-10-20 - B1, SOR-EXP-0059 / SOR-EV-0067:** [Base-biome assignment and nominal territory](experiments/outpost-biomes/report.md) connects installed hemisphere rasters, native integer lookup, qualified saved frames and exhaustive positive-area cell traversal. Seven reread inputs give 14 site/snapshot rows across seven distinct sites: named Feynman V has FrozenNoLife09 plus CanyonsNoLife06; Carinae III-a has HillsNoLife08; an independent Kreet Lab-region control has VolcanicRoughLifeKreet. Proposed STRONG STATIC/SAVE conditional model; visual blending, seam-footprint validation, historical effective overrides and loaded equivalence remain unmeasured. L3 clipping is secondary; no resource census or prior reclassification. [Independent review and complete/task-only package](experiments/outpost-biomes/review.md) controls disposition. Offline only, no live, integration, publication, staging, commit or push.
+
 **2026-10-20 - Coordinate sufficiency, SOR-EXP-0058 / SOR-EV-0066:**
 [Two-question answer](experiments/coordinate-sufficiency/report.md) proposes STRONG
 ordinary source-frame geographic-cell consistency, using fresh Save37–39 and
