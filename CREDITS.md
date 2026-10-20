@@ -1,5 +1,16 @@
 # Credits
 
+## Coordinate sufficiency and Papyrus Location
+
+[Kreet coordinate sufficiency](docs/experiments/coordinate-sufficiency/report.md)
+credits Bethesda's installed executable, data and development-script archive;
+the maintainer's protected saves, screenshots and placement testimony; and prior
+project position, Workshop and source-world discoveries/readers. Ghidra/Temurin,
+CPython/stdlib and Git supply the analysis and review tools. Owned-method reuse
+retains provenance under SOR-P-0002. [Source pins and methods](docs/experiments/coordinate-sufficiency/evidence.md)
+separate primary evidence, original analysis and prior research; no endorsement,
+outside-code incorporation or publication clearance is implied.
+
 ## L1 numerical/environment research
 
 [L1](docs/experiments/limits/report.md) credits Bethesda Game Studios' installed

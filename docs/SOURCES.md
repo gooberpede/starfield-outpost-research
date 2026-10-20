@@ -1,5 +1,20 @@
 # Source Register
 
+## Coordinate sufficiency and current Location
+
+2026-10-20, SOR-EXP-0058 / SOR-EV-0066. [Report](experiments/coordinate-sufficiency/report.md),
+[source hashes](experiments/coordinate-sufficiency/sources.csv),
+[methods](experiments/coordinate-sufficiency/evidence.md). Bethesda's installed
+executable/ESM/development scripts and existing matching Ghidra analysis supply
+primary STATIC evidence. The maintainer supplies Save37–39, seven original
+screenshots and placement/movement testimony; the protected Save25 archive
+supplies prior controls. Existing project position/Workshop/source-world readers,
+projection models and SD3/L3 integrity/export methods are reused/adapted under
+SOR-P-0002, with original provenance/coverage retained. CPython/stdlib,
+Ghidra/Temurin and Git support offline analysis. No new third-party implementation,
+dependency, web consultation, contact or disclosure. Primary extracts LOCAL-ONLY;
+authored interpretation and selected metadata REVIEW-REQUIRED.
+
 ## L1 numerical and environmental admission
 
 2026-10-19. [SOR-EXP-0051 / SOR-EV-0059](experiments/limits/report.md) uses

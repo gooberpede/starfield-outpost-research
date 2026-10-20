@@ -1,5 +1,10 @@
 # Experiments
 
+- [SOR-EXP-0058 / SOR-EV-0066 - Coordinate sufficiency](coordinate-sufficiency/report.md):
+  Kreet Lab fixed anchor, Save37–39 player/beacon controls, SOR-002/003 grid
+  consistency, repeatability dependencies and Papyrus Location API;
+  [review package](coordinate-sufficiency/review.md). Offline only.
+
 - [SOR-EXP-0053 / SOR-EV-0061 - L3 placement](spatial-placement/report.md):
   POI territory/border clipping, collision and preview versus saved bulldozing;
   six Kreet saves/eleven witnesses, SOR-004/SOR-005; [review](spatial-placement/review.md).

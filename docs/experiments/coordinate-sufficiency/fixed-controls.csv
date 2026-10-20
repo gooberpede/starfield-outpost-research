@@ -1,0 +1,4 @@
+body,world,record_file_offset,pair_payload_offset,longitude_rad,latitude_rad,cell,avx_fma_agree,coverage
+0003F59A,002CFC4A,1402045128,30849,-0.1709795751470004,0.7161033872749184,"[0, 35623, 22567]",True,fixed-anchor projection; not beacon offset
+0003F5A1,0001251B,1402112352,55255,2.2810355988151545,0.7111154993616507,"[0, 16985, 33329]",True,fixed-anchor projection; not beacon offset
+0005E2B6,0027CFA2,1417930473,47010,1.377406491403656,0.08885962377120052,"[0, 30220, 46937]",True,fixed-anchor projection; not beacon offset

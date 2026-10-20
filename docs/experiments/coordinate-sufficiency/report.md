@@ -1,0 +1,38 @@
+# Kreet coordinate sufficiency
+
+2026-10-20, Australia/Sydney. SOR-EXP-0058 / SOR-EV-0066.
+[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_coordinate_sufficiency_Kreet_lab_Save37-39.md), [plan](plan.md), [review](review.md).
+Authored findings REVIEW-REQUIRED; primary save/script/native evidence LOCAL-ONLY.
+
+| Question | Best-supported answer |
+|---|---|
+| **Local consistency** | **Yes, for the tested ordinary source-frame terrain-cell address.** Save39 independently satisfies the existing rule `source origin + floor(compensated XY / 100)`: Kreet, chart 0, cell **14314,12779**. SOR-002/003 satisfy the same rule in chart 1. Their displacement agrees with cell changes to the expected quantization resolution. This supports useful local geography without a continuous planet model. |
+| **Cross-game repeatability** | **Supported for geographic region/base terrain under the same ordered definitions, style relationships, load order and terrain settings; fresh-character recreation is unmeasured.** Angular/grid addressing and the inspected terrain-table generation use stable body inputs, registered definition/style filtering and a fixed configurable surface seed. A real separately randomized Planet Content Manager seed exists; identical incidental POIs/clutter are not promised. Landing UI selection precision and exact beacon replacement are separate, untested capabilities. |
+| Precision | 49,152 fine cells per hemisphere-square axis under installed defaults, 100 local units per fine-cell step. Retain local residual XY and Z with their source frame. These are not certified continuous longitude/latitude or planetary altitude. |
+| Confidence / coverage | PROVEN sampled bytes and arithmetic; STRONG scoped STATIC/SAVE interpretation proposed. Three ordinary beacons in two Kreet regions, three new controlled saves, freshly redecoded Save25, installed Lab anchor and prior fixed-city/negative-X controls. No universal loaded-frame or active-population completeness claim. |
+| Evidence | [Numerical controls](saves.md), [fixed anchor](fixed-poi.md), [repeatability dependencies](repeatability.md), [API trace](papyrus-current-location.md), [pins/methods](evidence.md). |
+| Smallest remaining dependency | For a **continuous beacon point**, the geographic embedding/phase of the within-cell residual in the selected frame, with an independent subcell correspondence. For **actual recreation**, a fresh-character observation at the same address; it is not needed to define or use the supported region address. |
+
+## Sufficient address and derivation
+
+Use an evidence envelope containing installed data/build identity, planet PNDT FormID, system/body index, coordinate convention, source descriptor and saved frame, then:
+
+1. Join the framed ordinary beacon's parent to its typed saved world component and repeated planet/site tuple. Join its secondary world to the generated-world descriptor. Resolve system/body against installed PNDT GNAM. Names and numerical proximity do not select a parent or planet.
+2. Decode the descriptor's 64-bit key: low 16 bits X, next 16 Y, then tag 3 bits, body index 6 bits, system 18 bits. Reject reserved/unsupported fields. Convert tags 2/3 to native indices by reflecting both axes, `49151 - index`; tags 0/1 copy. This task's three beacons have frame `0x0b`, so use that descriptor origin.
+3. Recover the qualified ordinary center `C = float32(P + D)` from initial XYZ and Workshop compensation. When the entire D vector compares zero, preserve P bits. All three tested beacons here have zero D. For each horizontal axis, compute `q = floor(float32(C * float32(.01)))`, then `r = float32(C - float32(100*q))`. Preserve negative floor and native rounding order.
+4. Add q to the native source origin. General seam/tag transitions and frame `0x2b` selection use the existing [v2 algorithm](../position-resumption/algorithm.md), not this interior addition shortcut. Retain `(planet, tag, I, J)` as the geographic **cell address**, and `(rX,rY,CZ,frame,source provenance)` as its qualified local detail. An anchor is not automatically the current fine beacon cell in other frames.
+5. Optional display: convert the addressed cell center with the established [hemisphere-square inverse](../../../save-analysis/scripts/beacon_terrain_projection.py). Longitude is `atan2(y,x)`, latitude is `atan2(z,horizontal norm)` in the engine body frame; +X defines zero longitude, +Z the positive pole. Compass/texture orientation is not newly calibrated. Label resulting angles **cell center/site anchor**. Do not attach unsupported decimal precision to the beacon.
+
+For Save39 this gives `0003F59F / 0 / 14314 / 12779`, residual `(88.759765625,79.728515625)`, local Z `-18.834455490112305`. Its saved site anchor is longitude `-130.57731242305528°`, latitude `+27.75291243754305°`; those decimals describe stored doubles, not measured physical accuracy. The geometric square-cell spacing is `1/49152`; no planet-radius metre conversion is used.
+
+## Quantitative sufficiency and actual limits
+
+Save39 was held out from the older derivation: origin `(14304,12768)` and saved beacon `(1088.7598,1179.7285)` independently predict `(14314,12779)`, matching its saved angular anchor's recovered indices. No per-case fitted transform is used. The existing SOR-002/003 source origin is `(10464,21120)`; their saved displacement `(234.119949,2186.012360)` gives observed cell difference `(2,22)`. Differences from `100 * cell difference` are `(34.119949,-13.987640)` local units, below the strict 100-unit axis bound for two floor-quantized points. Their 2,198.51-unit horizontal separation is consistent with the user's approximate couple-of-kilometres report, without using that testimony to calibrate units.
+
+The Lab anchor is at `(14312,12774)`; its outpost is `(2,5)` cells away. The fast-travel player and the Lab anchor are different witnesses. The source-compatible player displacement to Save38 is `(136.67,397.53,-62.44)` local units, norm 424.98; the scanner says 471 m to its target. This is not an exact metric calibration: target, fast-travel placement and site anchor have no proved point equality. See [fixed POI comparison](fixed-poi.md). The images show relative map placement and target distances, not a pixel-derived coordinate oracle.
+
+The user's approximate northward SOR-002→003 description is preserved; the engine latitude decreases there while chart Y increases. Thus local chart direction consistency is supported; a universal local-Y-equals-compass-north convention is not. The chart projection changes its geographic tangent direction by region. No unsupported compass calibration is used to force agreement.
+
+Preserve the mature negative-X/frame `0x2b` counterexample: raw floor X is -1; its site-relative predicted fine cell is 13151, not site anchor 13152 and not the old origin-subtraction candidate 13153. Zero compensation does not remove this distinction. Prior runtime caller/frame/XYZ disagreements and retained-center observations remain [unchanged](../../position-model/capabilities.md). They constrain full native equivalence, not the demonstrated source-frame regional address.
+
+**The exact-continuous-coordinate objective can be replaced by a geographic cell/region plus qualified local detail for this ordinary use.** Do not require a continuous physical sphere, exhaustive hidden-frame proof, or a new observer before retaining that result. Do not promote the qualified residual into an exact global point. Scientific scope, independent completion review and publication eligibility remain separate in [review](review.md).

@@ -1,5 +1,19 @@
 # Current Research State
 
+**2026-10-20 - Coordinate sufficiency, SOR-EXP-0058 / SOR-EV-0066:**
+[Two-question answer](experiments/coordinate-sufficiency/report.md) proposes STRONG
+ordinary source-frame geographic-cell consistency, using fresh Save37–39 and
+Save25 controls, exact Kreet fixed-anchor verification and a quantified
+player–beacon displacement. Surface-table generation has explicit body/configured
+seed dependencies; separate randomized PCM state limits incidental-content
+repeatability. Actual fresh-character recreation, landing precision and continuous
+subcell embedding remain unmeasured. [Papyrus trace](experiments/coordinate-sufficiency/papyrus-current-location.md)
+maps inherited GetCurrentLocation to BGSLocation and the player cached-state
+shortcut, supplying no longitude/latitude. [Review](experiments/coordinate-sufficiency/review.md)
+controls independent completion. Historical position statuses retained; authored
+REVIEW-REQUIRED, primary LOCAL-ONLY. No live, deployment, save/database/configuration
+modification, staging, commit, push or publication authority.
+
 **2026-10-19 - SD2 shared storage and ingredient access, SOR-EXP-0056 / SOR-EV-0064:**
 [Answer](experiments/shared-outpost-storage/report.md), [prerequisites](experiments/shared-outpost-storage/prerequisites.md),
 [inventory model](experiments/shared-outpost-storage/shared-inventory.md) and

@@ -1,0 +1,13 @@
+# Coordinate sufficiency: frozen offline plan
+
+2026-10-20, Australia/Sydney. Governing [brief](../../implementation-briefs/CODEX_BRIEF_SOR_coordinate_sufficiency_Kreet_lab_Save37-39.md), AC1–AC8 unchanged. Authored REVIEW-REQUIRED; primary evidence LOCAL-ONLY.
+
+Inputs: exact named Save37/38/39 originals, seven named screenshots, installed executable/ESM/scripts, existing read-only Ghidra database and earlier qualified SOR-002/003 controls. Local receipt directory: `.local-work/coordinate-sufficiency/`. Save37 is the Lab fast-travel baseline; Save38 is preconstruction; Save39 adds a close beacon. No player movement between 38/39 is user-reported; small beacon separation must be measured.
+
+Competing concrete models: anchors are continuous beacon coordinates; anchors select quantized terrain cells while XYZ supplies local offset; fixed-world marker origin differs from fixed geographic anchor; source-frame translation is required. Test through independent framed records, exact angular bytes, installed fixed anchor, projected grid differences and compensated centers. Preserve negative-X/frame exceptions. Cross-game tests follow actual address/terrain selection dependencies; incidental generated objects and landing UI precision are separate.
+
+Minimum method: existing stdlib/project save readers and mathematical/native-order diagnostics, targeted readOnly/noanalysis exports. No new observer or instrumentation framework. Inspect Game.GetPlayer and inherited ObjectReference.GetCurrentLocation registration, dispatch and return lookup independently of geography.
+
+Preserve SHA-256 source/copy identity and read-only archive attributes before decoding. Verify source and archive again afterwards. Both C: and D: must retain 40,000,000,000 caller-available bytes; fail closed on query/integrity failure or explicit STOP. Stop affected operations on protected drift; retain receipts and exact resume point. No overwriting evidence. Local scratch is derivative only. Preserve original screenshot bytes; screenshot distances are target distances, not anchor distances.
+
+Allowed writes: new authored documents, original analysis helpers and ignored receipts/copies/exports. No game launch, debugger, memory changes, deployment, save/config/database edits, network publication, staging, commit or push. No third-party implementation incorporation. Existing project code is reused with path/hash provenance. Raw source/save/native exports stay local. Independent reviewer reads original contract and primary evidence, returns ACCEPT/REWORK/ESCALATE; implementer resolves in-scope defects and resubmits. Review does not authorize integration.
