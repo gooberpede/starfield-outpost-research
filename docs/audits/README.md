@@ -1,5 +1,10 @@
 # Audits
 
+- [B0 publication policy and release scope](publication-readiness-b0/report.md):
+  [frozen criteria and review](publication-readiness-b0/review.md), 21 RR1
+  dispositions and proposed B1–B6 gates. Policy proposal only; no publication,
+  source promotion or cleanup authority.
+
 - [Research execution and completion protocol](research-execution-completion-protocol.md):
   documentation-only step-1 implementation, capability assessment and reviewer dry run.
 

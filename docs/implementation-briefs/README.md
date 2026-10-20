@@ -1,5 +1,10 @@
 # Implementation and Audit Briefs
 
+- [B0 publication policy, release scope and versioned baselines](CODEX_BRIEF_SOR_B0_publication_policy_release_scope.md):
+  invoked 2026-10-21; [decision record](../audits/publication-readiness-b0/report.md)
+  and [frozen criteria/review](../audits/publication-readiness-b0/review.md).
+  Documentation only; no staging, commit, push, publication or cleanup.
+
 - [LO1 Locations -> Outpost field lineage](CODEX_BRIEF_SOR_LO1_locations_outpost_field_lineage.md): invoked 2026-10-20; unchanged supplied brief, [report](../experiments/locations-outpost/report.md), [frozen AC1–AC8/review](../experiments/locations-outpost/review.md). Offline only; no staging, commit or push.
 
 - [BM2 Build catalogue, selection and production aggregation](CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md): invoked 2026-10-20; unchanged supplied brief, [report](../experiments/build-catalogue/report.md), [original AC1–AC8/review](../experiments/build-catalogue/review.md). No staging, commit or push.
