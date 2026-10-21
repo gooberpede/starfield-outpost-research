@@ -1,5 +1,10 @@
 # Provisional supplementary evidence index and archive plan
 
+**Successor:** [B4-F1 actual provisional assets and measured compression](f1/README.md)
+supersede this historical proposal's first-party holds and presumed preference for
+mature-save compression. The original B4 plan/NOT BUILT outcome below is preserved;
+F1 exact membership and publication approval remain pending.
+
 2026-10-21. **PROPOSED / HOLD; no assets exist or have been uploaded.**
 [Group/member ID inventory](archive-groups.csv), [file identities](file-dispositions.csv)
 and [claim consequences](claim-evidence.md). Exact local source paths and original

@@ -1,5 +1,13 @@
 # Current Research State
 
+**2026-10-21 — B4-F1 provisional evidence selection:** [Index and report](audits/publication-readiness-b4/f1/README.md)
+reconcile all 71 B4 identities to 25 proposed core, 27 addendum, 15 local-only,
+four excluded and zero specific holds. Exact historical filenames are hash-joined;
+HIST-0255 is first-party Save41, distinct from Save52/HIST-0267. Two proposed local
+assets and both compression alternatives pass byte-exact extraction checks.
+[Review](audits/publication-readiness-b4/f1/review.md) controls task disposition.
+No scientific reclassification, final selection, integration or publication approval.
+
 **2026-10-21 — B4 evidence preparation:** [Report](audits/publication-readiness-b4/report.md) maps 26 proposed claim rows to exact candidate identities, scoped privacy review and rights/selection holds. Conditional unchanged first-party Release-asset policy text is reviewable; no raw evidence, source pin or scientific classification is promoted. Publication NOT CLEARED; [independent disposition](audits/publication-readiness-b4/review.md).
 
 **2026-10-21 — B3 source/reproduction baseline:** [Report](audits/publication-readiness-b3/report.md) recovers all 26 RR1 historical source identities, selectively archives exact authored methods and qualifies one isolated synthetic framing case. [Baseline](audits/publication-readiness-b3/baseline-manifest.md) records one investigated 1.16.244.0 EXE; older save metadata is separate. No scientific confidence, evidence classification, live authority, integration or publication change. [Independent review](audits/publication-readiness-b3/review.md) controls task disposition.

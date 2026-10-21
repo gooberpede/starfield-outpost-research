@@ -1,5 +1,17 @@
 # Credits
 
+## B4-F1 evidence curation and packaging
+
+Bethesda supplies the underlying Starfield content; the maintainer supplies
+first-party saves/screenshots and the F1 policy/provenance decisions. Original
+project B4 privacy/source-copy manifests, historical inventory, accepted subsystem
+reports and owned BCPS/review-export methods are reused with their exact identities
+and limits. CPython/stdlib zlib/zipfile and Git supply separate local tools; no
+new outside implementation or legal licence basis is incorporated. [F1 sources
+and preservation](docs/audits/publication-readiness-b4/f1/report.md), [member source
+routes](docs/audits/publication-readiness-b4/f1/members.csv). No endorsement or
+publication clearance is implied.
+
 B4 (2026-10-21) credits the maintainer's protected saves/captures, Bethesda's underlying game evidence, existing project readers and prior report/review/source ledgers. CPython/stdlib, Git and Windows image APIs supported offline inspection; RR1's comparator consultation is reused as recorded, without new external retrieval or incorporation. See [evidence and rights assessment](docs/audits/publication-readiness-b4/rights-policy.md). No raw evidence is cleared or distributed.
 
 B3 (2026-10-21) preserves project-authored method lineage under SOR-P-0002 and credits the existing Bethesda primary inputs and previously recorded CPython/stdlib, Git, Ghidra/Temurin and xEdit research tooling. Only Python/stdlib and Git were used for B3 inspection/qualification; no new outside code or dependency was incorporated. See [source selection](docs/audits/publication-readiness-b3/source-selection.md) and [baseline](docs/audits/publication-readiness-b3/baseline-manifest.md).

@@ -29,6 +29,23 @@ The project begins privately and must publish completed, reviewed research under
 
 ## Conditional first-party original-save evidence
 
+**B4-F1 settled policy, 2026-10-21:** the
+[invoked addendum brief](implementation-briefs/CODEX_BRIEF_SOR_B4_F1_evidence_selection_addendum_packaging.md)
+accepts first-party saves/screenshots as eligible research evidence, informed by
+community practice. This is a maintainer policy decision, not an express
+Bethesda/ZeniMax licence or a claim that legal risk is eliminated. Generic absence
+of individual written permission alone does not hold first-party evidence.
+File-specific provenance, practical privacy, scientific utility and immutable-byte
+checks still apply; actual sensitive material or distinct restrictions hold the
+affected file. Character names and historical `C:\Users\User` provenance are
+acceptable; public reproduction instructions must remain portable. HIST-0255 is
+accepted as first-party from the authorized local Saves inventory and is distinct
+from Save52/HIST-0267. Bounded local provisional assembly is authorized by F1;
+exact CORE/ADDENDUM membership and distribution remain pending maintainer/B6
+approval. See the [provisional evidence index](audits/publication-readiness-b4/f1/README.md).
+This prospectively qualifies the B4 eligibility/assembly wording below; no donor,
+game-install, raw-save-in-Git, licence-grant or publication restriction is relaxed.
+
 B4 policy-text integration, 2026-10-21, under the explicitly invoked
 [brief](implementation-briefs/CODEX_BRIEF_SOR_B4_evidence_selection_rights_privacy_archives.md).
 This resolves the former blanket raw-save exclusion only for individually

@@ -27,6 +27,17 @@ Keep proprietary executables/DLLs, assets, raw saves, decompressed saves, import
 
 ## Conditional first-party evidence assets (B4)
 
+**B4-F1 clarification, 2026-10-21:** first-party research saves/screenshots are
+eligible under the maintainer's policy decision, informed by community practice;
+this is not an express Bethesda/ZeniMax licence or assurance of no legal risk.
+Missing individual written permission alone is not a first-party hold. Exact
+provenance/privacy/utility checks govern local provisional preparation; final
+membership and publication authorization remain separate. Character names and
+historical workstation profile `User` are acceptable. The
+[F1 policy and proposed assets](docs/audits/publication-readiness-b4/f1/README.md)
+prospectively qualify the prior conditional text below, without granting rights
+in underlying game content or relaxing donor/game-install/Git exclusions.
+
 Raw saves remain outside Git. Only selected unchanged first-party originals may
 be proposed as supplementary GitHub Release evidence after file-specific
 privacy, underlying-content rights and maintainer selection approval, followed

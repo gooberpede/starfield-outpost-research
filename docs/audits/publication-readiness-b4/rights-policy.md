@@ -1,5 +1,10 @@
 # Rights, privacy, policy and outstanding decisions
 
+**B4-F1 successor:** [settled policy and scoped supplemental inspection](f1/privacy-policy.md)
+supersede the generic first-party R1 hold and R2 character/profile-path choice
+below. HIST-0255 is accepted first-party; donor restrictions and B4 historical
+inspection/review results remain unchanged. Exact distribution is still pending.
+
 2026-10-21. **NOT CLEARED.** This is an assessment of existing project records
 and actual local candidate inspection, not a new legal determination. No external
 licence is newly accepted and no rights-holder contact occurred. Source facts,

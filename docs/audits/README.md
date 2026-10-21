@@ -1,5 +1,10 @@
 # Audits
 
+- [B4-F1 core/addendum evidence selection and provisional local packages](publication-readiness-b4/f1/README.md):
+  all 71 identities reconciled; exact filename/member maps, measured compression,
+  scoped privacy supplement and [review](publication-readiness-b4/f1/review.md).
+  Membership proposed; publication NOT CLEARED.
+
 - [B4 evidence selection, rights/privacy and supplementary archive plan](publication-readiness-b4/report.md): [claim matrix](publication-readiness-b4/claim-evidence.md), [proposed evidence index](publication-readiness-b4/archive-plan.md), [review](publication-readiness-b4/review.md). No raw candidate cleared; publication NOT CLEARED.
 
 - [B3 source identity and reproducibility baseline](publication-readiness-b3/report.md): selective authored source, all 26 RR1 historical identities, single 1.16.244.0 baseline, synthetic qualification and [review](publication-readiness-b3/review.md). Publication NOT CLEARED.

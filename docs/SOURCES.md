@@ -1,5 +1,15 @@
 # Source Register
 
+B4-F1 (2026-10-21) reuses exact B4 source/copy/privacy receipts and the protected
+historical scan-04 inventory, joined by SHA-256 to the frozen public inventory.
+[Member provenance](audits/publication-readiness-b4/f1/members.csv), [selection and
+replay limits](audits/publication-readiness-b4/f1/coverage.md) and [privacy supplement](audits/publication-readiness-b4/f1/privacy-policy.md)
+retain the original subsystem source routes. The owned `stream_save.py` BCPS
+header reader and B4 patch-export design are reused/adapted under SOR-P-0002;
+exact helper/input hashes remain in local F1 receipts. No new outside source,
+implementation, dependency or rights-holder licence is incorporated; the invoked
+brief supplies maintainer first-party eligibility/local assembly decisions only.
+
 B4 (2026-10-21) reuses the existing primary save/capture and Bethesda source pins, SOR-P-0001/0002/0003, RR1 rights/history/comparator records, B1 claim routes, B2 named-example context and B3 method/baseline identities. [Claim ledger](audits/publication-readiness-b4/claim-evidence.md) and [rights review](audits/publication-readiness-b4/rights-policy.md) identify actual contributions and limits. No new external source retrieval, code/asset incorporation or permission basis; no new SOR-S identity is fabricated for internal synthesis.
 
 B3 (2026-10-21) adds no outside source or permission grant. [Exact source-selection ledger](audits/publication-readiness-b3/source-selection.csv), [origin hashes](audits/publication-readiness-b3/promoted-sources.csv) and [baseline inputs](audits/publication-readiness-b3/baseline-inputs.csv) retain the immediate owned-method and existing installed-input provenance. Existing SOR-P-0002 and original per-study source/credit records apply; external tools/data remain separate.

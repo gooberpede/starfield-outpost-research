@@ -1,5 +1,11 @@
 # B4 evidence selection and publication preparation
 
+**B4-F1 successor, 2026-10-21:** [reassessed selection and actual local packages](f1/README.md)
+apply the maintainer's later first-party eligibility, provenance/path and optional
+addendum decisions. The generic first-party R1 hold and zero-package status below
+are historical B4 results, not current F1 assembly authority. Original findings,
+inventories and reviewer verdicts remain preserved. Publication NOT CLEARED.
+
 2026-10-21, Australia/Sydney. **Publication NOT CLEARED / NOT READY.**
 
 Recommend a lightweight authored research repository plus three optional GitHub
