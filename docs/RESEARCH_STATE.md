@@ -1,5 +1,7 @@
 # Current Research State
 
+**2026-10-21 — B4 evidence preparation:** [Report](audits/publication-readiness-b4/report.md) maps 26 proposed claim rows to exact candidate identities, scoped privacy review and rights/selection holds. Conditional unchanged first-party Release-asset policy text is reviewable; no raw evidence, source pin or scientific classification is promoted. Publication NOT CLEARED; [independent disposition](audits/publication-readiness-b4/review.md).
+
 **2026-10-21 — B3 source/reproduction baseline:** [Report](audits/publication-readiness-b3/report.md) recovers all 26 RR1 historical source identities, selectively archives exact authored methods and qualifies one isolated synthetic framing case. [Baseline](audits/publication-readiness-b3/baseline-manifest.md) records one investigated 1.16.244.0 EXE; older save metadata is separate. No scientific confidence, evidence classification, live authority, integration or publication change. [Independent review](audits/publication-readiness-b3/review.md) controls task disposition.
 
 **Current navigation, 2026-10-21:** [Subsystem roadmap](research-roadmap.md), [RC1 coverage/gaps](audits/outpost-rc1-2026-10/gap-reconciliation.md) and [history register](research-history.md) route the best-supported scope. Dated current/next/latest statements below are retained historical snapshots; they do not set today's task queue or grant follow-on authority. B1 proposes [release scope](audits/publication-readiness-b1/claim-build-matrix.md); publication remains **NOT CLEARED / NOT READY**.

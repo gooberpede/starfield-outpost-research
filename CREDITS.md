@@ -1,5 +1,7 @@
 # Credits
 
+B4 (2026-10-21) credits the maintainer's protected saves/captures, Bethesda's underlying game evidence, existing project readers and prior report/review/source ledgers. CPython/stdlib, Git and Windows image APIs supported offline inspection; RR1's comparator consultation is reused as recorded, without new external retrieval or incorporation. See [evidence and rights assessment](docs/audits/publication-readiness-b4/rights-policy.md). No raw evidence is cleared or distributed.
+
 B3 (2026-10-21) preserves project-authored method lineage under SOR-P-0002 and credits the existing Bethesda primary inputs and previously recorded CPython/stdlib, Git, Ghidra/Temurin and xEdit research tooling. Only Python/stdlib and Git were used for B3 inspection/qualification; no new outside code or dependency was incorporated. See [source selection](docs/audits/publication-readiness-b3/source-selection.md) and [baseline](docs/audits/publication-readiness-b3/baseline-manifest.md).
 
 ## LO1 Locations -> Outpost field lineage

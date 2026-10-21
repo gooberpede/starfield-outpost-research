@@ -24,3 +24,15 @@ Initial reconnaissance (2026-10-06) uses installed xEdit/Ghidra as separate tool
 Before adding outside material, record its origin, exact version, rights-holder permission, user approval, obligations, and publication status in [PERMISSIONS.md](docs/PERMISSIONS.md). Add applicable notices here without removing upstream notices.
 
 Keep proprietary executables/DLLs, assets, raw saves, decompressed saves, imported analysis databases, memory dumps, private correspondence, and unreviewed bulk traces outside Git. Targeted game-derived evidence also needs a rights/privacy review; small size or local generation is not automatic clearance. Do not assert rightsholder approval unless it was actually obtained and its scope recorded.
+
+## Conditional first-party evidence assets (B4)
+
+Raw saves remain outside Git. Only selected unchanged first-party originals may
+be proposed as supplementary GitHub Release evidence after file-specific
+privacy, underlying-content rights and maintainer selection approval, followed
+by separate publication authorization. Save bytes may not be sanitized,
+redacted, patched, rewritten or resaved; lossless archive compression preserves
+original names/hashes and requires byte-exact reconstruction checks. Character
+names alone do not disqualify a candidate. Donor originals remain excluded under
+existing permissions. This narrow [policy integration](docs/PUBLICATION.md#conditional-first-party-original-save-evidence)
+clears no file and grants no rights in Bethesda content. Publication NOT CLEARED.

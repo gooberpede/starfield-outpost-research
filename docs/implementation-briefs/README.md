@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [B4 evidence selection, rights, privacy and archives](CODEX_BRIEF_SOR_B4_evidence_selection_rights_privacy_archives.md): invoked 2026-10-21; [implementation/review](../audits/publication-readiness-b4/report.md). Offline evidence/policy audit; no publication, staging, commit or push.
+
 - [B3 source completeness, historical reproducibility and primary baseline](CODEX_BRIEF_SOR_B3_source_completeness_reproducibility_baseline.md): invoked 2026-10-21; [implementation and review](../audits/publication-readiness-b3/report.md). Offline source/documentation only; no staging, commit, push or publication.
 
 - [B2 focused native-notation and export-ID rework](CODEX_BRIEF_SOR_B2_focused_rework_native_notation_and_export_ids.md):

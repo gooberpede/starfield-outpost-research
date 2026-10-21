@@ -1,5 +1,7 @@
 # Source Register
 
+B4 (2026-10-21) reuses the existing primary save/capture and Bethesda source pins, SOR-P-0001/0002/0003, RR1 rights/history/comparator records, B1 claim routes, B2 named-example context and B3 method/baseline identities. [Claim ledger](audits/publication-readiness-b4/claim-evidence.md) and [rights review](audits/publication-readiness-b4/rights-policy.md) identify actual contributions and limits. No new external source retrieval, code/asset incorporation or permission basis; no new SOR-S identity is fabricated for internal synthesis.
+
 B3 (2026-10-21) adds no outside source or permission grant. [Exact source-selection ledger](audits/publication-readiness-b3/source-selection.csv), [origin hashes](audits/publication-readiness-b3/promoted-sources.csv) and [baseline inputs](audits/publication-readiness-b3/baseline-inputs.csv) retain the immediate owned-method and existing installed-input provenance. Existing SOR-P-0002 and original per-study source/credit records apply; external tools/data remain separate.
 
 ## LO1 Locations -> Outpost primary provenance
