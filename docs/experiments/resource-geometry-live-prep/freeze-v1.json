@@ -1,0 +1,31 @@
+{
+  "algorithm": "SHA-256",
+  "rule": "Do not overwrite; any correction is a new version preserving this one. No live answers used.",
+  "artifacts": [
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-live-prep\\map-p1-v1.svg",
+      "bytes": 8989,
+      "sha256": "b41196d54261f2e669c23e8737c9092675522fe0d189fbd2cd7b643a38c211d1"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-live-prep\\map-p2-v1.svg",
+      "bytes": 4409,
+      "sha256": "45122a34fe3bb5ce0f696a085307467d23e2a11c844b4fec93e6d5add9e7fd1e"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-live-prep\\map-r1-v1.svg",
+      "bytes": 8293,
+      "sha256": "e244cdc3791a254cdd3596edae4e8b854619fca5c59f0eae0014aede20ed569a"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-live-prep\\points-v1.csv",
+      "bytes": 1877,
+      "sha256": "5b85a8a344fe8a41528e2d8808fc05ba6cba6711eca5b50808901947c702e752"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-live-prep\\predictions-v1.json",
+      "bytes": 15016,
+      "sha256": "6860b2b979bca15a7b4c53ff09ec36d350c88130cf62a1e4a3a9dcba15018dea"
+    }
+  ]
+}

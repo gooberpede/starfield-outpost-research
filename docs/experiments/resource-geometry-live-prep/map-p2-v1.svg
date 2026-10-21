@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="780" viewBox="0 0 900 780">
+<rect width="900" height="780" fill="white"/>
+<text x="20" y="24" font-family="sans-serif" font-size="16">P2 Kreet Outpost 1 — frozen model, not observed patches</text>
+<defs><clipPath id="plot"><rect x="40" y="40" width="640" height="640"/></clipPath></defs>
+<g clip-path="url(#plot)">
+<circle cx="360" cy="360" r="150" fill="#eef4fa" stroke="#334155"/>
+<polyline points="204.808,637.478 171.180,617.529 147.427,582.161 119.914,551.096 84.744,532.154" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="-161.486,665.454 -134.495,633.243 -111.372,605.353 -93.789,571.375" fill="none" stroke="#475569" stroke-width="1"/>
+<polyline points="-105.700,146.585 -80.471,176.705 -73.894,209.952 -61.662,244.273" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="265.811,-52.729" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="24.524,252.187" fill="none" stroke="#475569" stroke-width="1"/>
+<polyline points="64.347,122.623 90.265,144.206 130.567,143.863" fill="none" stroke="#475569" stroke-width="1"/>
+<polyline points="139.604,305.684 138.922,269.340 150.127,233.463 156.116,199.936 164.951,157.887" fill="none" stroke="#475569" stroke-width="1"/>
+<polyline points="462.104,572.334" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="421.521,-86.265 386.584,-74.364 351.255,-58.655 315.705,-34.536 295.395,-6.310" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="550.032,-44.723 581.454,-20.773 609.211,10.048" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="623.221,91.160 616.911,132.381 588.117,157.362" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="672.220,411.157 660.192,373.003 665.095,338.114 684.749,306.488" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="736.019,91.124 775.488,84.871 809.808,75.722 843.387,76.018 873.808,52.660" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="822.516,202.452 794.046,235.812 783.487,268.848" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="404.549,-150.819" fill="none" stroke="#475569" stroke-width="1"/>
+<polyline points="473.873,190.250 468.944,151.371 447.853,119.029 422.442,97.733" fill="none" stroke="#475569" stroke-width="1"/>
+<polyline points="490.526,-76.862" fill="none" stroke="#475569" stroke-width="1"/>
+<polyline points="571.856,289.050 570.413,255.339" fill="none" stroke="#475569" stroke-width="1"/>
+<polyline points="699.464,230.046 729.161,198.418 740.401,164.825" fill="none" stroke="#475569" stroke-width="1"/>
+</g>
+<circle cx="160.000" cy="260.000" r="3" fill="black"/><text x="164.000" y="256.000" font-size="10">1</text>
+<text x="695" y="100" font-family="sans-serif" font-size="11">1: positive-control</text>
+<circle cx="360.000" cy="360.000" r="3" fill="black"/><text x="364.000" y="356.000" font-size="10">2</text>
+<text x="695" y="124" font-family="sans-serif" font-size="11">2: negative-control</text>
+<circle cx="360.000" cy="360.000" r="3" fill="black"/><text x="364.000" y="356.000" font-size="10">3</text>
+<text x="695" y="148" font-family="sans-serif" font-size="11">3: beacon</text>
+<circle cx="169.428" cy="264.714" r="3" fill="black"/><text x="173.428" y="260.714" font-size="10">4</text>
+<text x="695" y="172" font-family="sans-serif" font-size="11">4: edge-5</text>
+<circle cx="173.006" cy="266.503" r="3" fill="black"/><text x="177.006" y="262.503" font-size="10">5</text>
+<text x="695" y="196" font-family="sans-serif" font-size="11">5: edge-1</text>
+<circle cx="174.794" cy="267.397" r="3" fill="black"/><text x="178.794" y="263.397" font-size="10">6</text>
+<text x="695" y="220" font-family="sans-serif" font-size="11">6: edge+1</text>
+<circle cx="178.372" cy="269.186" r="3" fill="black"/><text x="182.372" y="265.186" font-size="10">7</text>
+<text x="695" y="244" font-family="sans-serif" font-size="11">7: edge+5</text>
+<text x="40" y="710" font-family="sans-serif" font-size="13">+X right; +Y up. Circle radius 150 native units. Path centerlines only.</text>
+<text x="40" y="734" font-family="sans-serif" font-size="13">Widths, native bound and tapered-strip decisions are in points-v1.csv.</text>
+<text x="40" y="758" font-family="sans-serif" font-size="13">Numbers identify samples; coincident controls can share a marker. No POI clipping.</text>
+</svg>

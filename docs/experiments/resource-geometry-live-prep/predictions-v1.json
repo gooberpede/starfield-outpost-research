@@ -1,0 +1,588 @@
+{
+  "schema": "sor-rg2a-prediction/1",
+  "created_date": "2026-10-22 Australia/Sydney",
+  "proprietary_bulk": "LOCAL-ONLY; full paths remain in hash-indexed local RG1 receipts",
+  "cases": [
+    {
+      "case": "P1",
+      "source": {
+        "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry\\site-kreet25-002-final03.json",
+        "bytes": 2214200,
+        "sha256": "d7c7829c26d6c1ce6f59096a1f1630d9552f99a466e0cdf563c3027881886c1d"
+      },
+      "points_receipt": {
+        "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-live-prep\\points-002-v1.json",
+        "bytes": 2866,
+        "sha256": "7412f6883d0188a0b14992d618ca2b1e0b07028ec3ec167aafa59aecac67097f"
+      },
+      "points_method_sha256": "223edaa3d275578f48e7dceb6c1443bbc6060246b26c554dfc77189215ff8175",
+      "frame": {
+        "case": "P1",
+        "sample": "Kreet25",
+        "name": "SOR-002",
+        "body": "0003f59f",
+        "beacon_token": "822821",
+        "parent_token": "822834",
+        "workshop_identifier_bytes": "f1517de43e171745",
+        "frame": "0b",
+        "chart": 1,
+        "base_x": 10464,
+        "base_y": 21120,
+        "center_x": 122.70045471191406,
+        "center_y": 273.0462341308594,
+        "center_z": 18.352506637573242,
+        "biomes": "0023c0ce",
+        "ownership": "ordinary named Workshop SAVE association; active player ownership after load UNKNOWN",
+        "prediction": "QUALIFIED_KREET_CONDITIONAL"
+      },
+      "circle_resource_predictions": [
+        "000057c7"
+      ],
+      "coverage": {
+        "sources": 6,
+        "paths": 766,
+        "resource_cell_calls": 2592
+      },
+      "edge_bracket": [
+        [
+          111.76691814139485,
+          273.0462341308594
+        ],
+        [
+          111.76691823452711,
+          273.0462341308594
+        ]
+      ],
+      "status": "FROZEN_PREDICTION_NOT_RUNTIME_OBSERVATION",
+      "samples": [
+        {
+          "id": "positive-control",
+          "xy": [
+            22.700454711914062,
+            273.0462341308594
+          ],
+          "offset": [
+            -100.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057c7"
+            ],
+            "strips": [
+              "000057c7"
+            ]
+          }
+        },
+        {
+          "id": "negative-control",
+          "xy": [
+            122.70045471191406,
+            273.0462341308594
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        },
+        {
+          "id": "beacon",
+          "xy": [
+            122.70045471191406,
+            273.0462341308594
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge-5",
+          "xy": [
+            106.76691818796098,
+            273.0462341308594
+          ],
+          "offset": [
+            -15.93353652395308,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057c7"
+            ],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge-1",
+          "xy": [
+            110.76691818796098,
+            273.0462341308594
+          ],
+          "offset": [
+            -11.93353652395308,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057c7"
+            ],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge+1",
+          "xy": [
+            112.76691818796098,
+            273.0462341308594
+          ],
+          "offset": [
+            -9.93353652395308,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge+5",
+          "xy": [
+            116.76691818796098,
+            273.0462341308594
+          ],
+          "offset": [
+            -5.93353652395308,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        }
+      ]
+    },
+    {
+      "case": "P2",
+      "source": {
+        "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry\\site-kreet39-final03.json",
+        "bytes": 395773,
+        "sha256": "41e217b3f447dcec51a788990d7e6736e67909e43477684d84c0f33509a667ad"
+      },
+      "points_receipt": {
+        "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-live-prep\\points-039-v1.json",
+        "bytes": 2961,
+        "sha256": "58ed2ec6b9aaa7fa2b588ef649ba61b021eb94f084f2ece9d05d4354a5decf04"
+      },
+      "points_method_sha256": "223edaa3d275578f48e7dceb6c1443bbc6060246b26c554dfc77189215ff8175",
+      "frame": {
+        "case": "P2",
+        "sample": "Kreet39",
+        "name": "Kreet Outpost 1",
+        "body": "0003f59f",
+        "beacon_token": "841421",
+        "parent_token": "839160",
+        "workshop_identifier_bytes": "41da48765780cc0c",
+        "frame": "0b",
+        "chart": 0,
+        "base_x": 14304,
+        "base_y": 12768,
+        "center_x": 1088.759765625,
+        "center_y": 1179.728515625,
+        "center_z": -18.834455490112305,
+        "biomes": "002c9985",
+        "ownership": "ordinary named Workshop SAVE association; active player ownership after load UNKNOWN",
+        "prediction": "QUALIFIED_KREET_CONDITIONAL"
+      },
+      "circle_resource_predictions": [],
+      "coverage": {
+        "sources": 4,
+        "paths": 123,
+        "resource_cell_calls": 1152
+      },
+      "edge_bracket": [
+        [
+          902.6598204299808,
+          1272.7784882225096
+        ],
+        [
+          902.6598206162453,
+          1272.7784881293774
+        ]
+      ],
+      "status": "FROZEN_PREDICTION_NOT_RUNTIME_OBSERVATION",
+      "samples": [
+        {
+          "id": "positive-control",
+          "xy": [
+            888.759765625,
+            1279.728515625
+          ],
+          "offset": [
+            -200.0,
+            100.0
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [
+              "000057c1"
+            ],
+            "strips": [
+              "000057c1"
+            ]
+          }
+        },
+        {
+          "id": "negative-control",
+          "xy": [
+            1088.759765625,
+            1179.728515625
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        },
+        {
+          "id": "beacon",
+          "xy": [
+            1088.759765625,
+            1179.728515625
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge-5",
+          "xy": [
+            898.1876845681135,
+            1275.0145561534432
+          ],
+          "offset": [
+            -190.57208105688653,
+            95.28604052844321
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [
+              "000057c1"
+            ],
+            "strips": [
+              "000057c1"
+            ]
+          }
+        },
+        {
+          "id": "edge-1",
+          "xy": [
+            901.7653933321131,
+            1273.2257017714435
+          ],
+          "offset": [
+            -186.99437229288685,
+            93.49718614644348
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [
+              "000057c1"
+            ],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge+1",
+          "xy": [
+            903.5542477141129,
+            1272.3312745804435
+          ],
+          "offset": [
+            -185.20551791088712,
+            92.6027589554435
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge+5",
+          "xy": [
+            907.1319564781126,
+            1270.5424201984438
+          ],
+          "offset": [
+            -181.62780914688744,
+            90.81390457344378
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        }
+      ]
+    },
+    {
+      "case": "R1",
+      "source": {
+        "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry\\site-kreet25-003-final03.json",
+        "bytes": 1692003,
+        "sha256": "df2758e5e45f74b8522a297607c596ace8947908fd385fc9aee4648c873ff421"
+      },
+      "points_receipt": {
+        "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-live-prep\\points-003-v1.json",
+        "bytes": 2820,
+        "sha256": "7a9e6813058fbdbe23fa1711287915aa17a7ed7a39c01c1686dc264f73f9622a"
+      },
+      "points_method_sha256": "223edaa3d275578f48e7dceb6c1443bbc6060246b26c554dfc77189215ff8175",
+      "frame": {
+        "case": "R1",
+        "sample": "Kreet25",
+        "name": "SOR-003",
+        "body": "0003f59f",
+        "beacon_token": "84b985",
+        "parent_token": "84b996",
+        "workshop_identifier_bytes": "0efca066ee4c7b9b",
+        "frame": "0b",
+        "chart": 1,
+        "base_x": 10464,
+        "base_y": 21120,
+        "center_x": 356.8204040527344,
+        "center_y": 2459.05859375,
+        "center_z": -31.89084243774414,
+        "biomes": "0023c0ce",
+        "ownership": "ordinary named Workshop SAVE association; active player ownership after load UNKNOWN",
+        "prediction": "QUALIFIED_KREET_CONDITIONAL"
+      },
+      "circle_resource_predictions": [
+        "000057c7"
+      ],
+      "coverage": {
+        "sources": 4,
+        "paths": 589,
+        "resource_cell_calls": 2016
+      },
+      "edge_bracket": [
+        [
+          281.4089508615434,
+          2459.05859375
+        ],
+        [
+          281.40895076841116,
+          2459.05859375
+        ]
+      ],
+      "status": "FROZEN_PREDICTION_NOT_RUNTIME_OBSERVATION",
+      "samples": [
+        {
+          "id": "positive-control",
+          "xy": [
+            356.8204040527344,
+            2459.05859375
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057c7"
+            ],
+            "strips": []
+          }
+        },
+        {
+          "id": "negative-control",
+          "xy": [
+            256.8204040527344,
+            2459.05859375
+          ],
+          "offset": [
+            -100.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        },
+        {
+          "id": "beacon",
+          "xy": [
+            356.8204040527344,
+            2459.05859375
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057c7"
+            ],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge-5",
+          "xy": [
+            286.4089508149773,
+            2459.05859375
+          ],
+          "offset": [
+            -70.41145323775709,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057c7"
+            ],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge-1",
+          "xy": [
+            282.4089508149773,
+            2459.05859375
+          ],
+          "offset": [
+            -74.41145323775709,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057c7"
+            ],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge+1",
+          "xy": [
+            280.4089508149773,
+            2459.05859375
+          ],
+          "offset": [
+            -76.41145323775709,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        },
+        {
+          "id": "edge+5",
+          "xy": [
+            276.4089508149773,
+            2459.05859375
+          ],
+          "offset": [
+            -80.41145323775709,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          }
+        }
+      ]
+    }
+  ],
+  "unknown_cases": [
+    {
+      "case": "P3",
+      "sample": "HIST-0267",
+      "name": "Feynman V Cu Co Ni IL",
+      "body": "0005e0de",
+      "beacon_token": "83388f",
+      "parent_token": "84ec80",
+      "workshop_identifier_bytes": "c3a5866f4cfcf585",
+      "frame": "2b",
+      "chart": 0,
+      "base_x": 25124,
+      "base_y": 32446,
+      "center_x": 83.460693359375,
+      "center_y": 67.88771057128906,
+      "center_z": -0.153639554977417,
+      "biomes": "000fc61c;00145440",
+      "ownership": "ordinary named Workshop SAVE association; active player ownership after load UNKNOWN",
+      "prediction": "UNKNOWN_SOURCE_OPERANDS"
+    },
+    {
+      "case": "P4",
+      "sample": "HIST-0267",
+      "name": "Carinae III-a Rc Fe",
+      "body": "0005e4da",
+      "beacon_token": "82be17",
+      "parent_token": "84655c",
+      "workshop_identifier_bytes": "91bac704da9b1e34",
+      "frame": "2b",
+      "chart": 0,
+      "base_x": 21399,
+      "base_y": 15640,
+      "center_x": 86.6380615234375,
+      "center_y": 70.4791259765625,
+      "center_z": 6.211387634277344,
+      "biomes": "001160d9",
+      "ownership": "ordinary named Workshop SAVE association; active player ownership after load UNKNOWN",
+      "prediction": "UNKNOWN_SOURCE_OPERANDS"
+    },
+    {
+      "case": "R2",
+      "sample": "HIST-0267",
+      "name": "Feynman V Cu IL F",
+      "body": "0005e0de",
+      "beacon_token": "84e101",
+      "parent_token": "859b49",
+      "workshop_identifier_bytes": "b0e207c2dee2c1b6",
+      "frame": "2b",
+      "chart": 0,
+      "base_x": 37536,
+      "base_y": 20928,
+      "center_x": 81.19074249267578,
+      "center_y": 90.27748107910156,
+      "center_z": 5.303274154663086,
+      "biomes": "00145440",
+      "ownership": "ordinary named Workshop SAVE association; active player ownership after load UNKNOWN",
+      "prediction": "UNKNOWN_SOURCE_OPERANDS"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+id,role,path,bytes,sha256
+RG2A-I001,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\points-002-v1.json,2866,7412f6883d0188a0b14992d618ca2b1e0b07028ec3ec167aafa59aecac67097f
+RG2A-I002,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry\site-kreet25-002-final03.json,2214200,d7c7829c26d6c1ce6f59096a1f1630d9552f99a466e0cdf563c3027881886c1d
+RG2A-I003,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\points-039-v1.json,2961,58ed2ec6b9aaa7fa2b588ef649ba61b021eb94f084f2ece9d05d4354a5decf04
+RG2A-I004,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry\site-kreet39-final03.json,395773,41e217b3f447dcec51a788990d7e6736e67909e43477684d84c0f33509a667ad
+RG2A-I005,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\points-003-v1.json,2820,7a9e6813058fbdbe23fa1711287915aa17a7ed7a39c01c1686dc264f73f9622a
+RG2A-I006,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry\site-kreet25-003-final03.json,1692003,df2758e5e45f74b8522a297607c596ace8947908fd385fc9aee4648c873ff421
+RG2A-I007,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry\baseline.json,5317,1dfd78e77292b61ce7c241793b6902bdadafd3e0202049c2a4e8d23f9a4c108d
+RG2A-I008,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry\planet-context01.json,2399366,b4086c298040810da4ade95599bc1dbd31069a023750064e63f820c164bbd8e1
+RG2A-I009,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry\source-definitions01.json,20785948,ecf9e86ac36e10cafbeda3c60b626d455e408e51872f4308b7d8005dd15b1783
+RG2A-I010,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\outpost-biomes\model-r2.json,127949,ad4fa41529b57ce4168f602b050eb37d574fc116615be62d32d814565f8cdc97
+RG2A-I011,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\outpost-biomes\HIST-0267-r3.json,2902693,6fc88d7f1893feb5f0b27a2f1875a9cb99b5f2d00b88af5e9e6f06e83b3ef589
+RG2A-I012,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\menu.json,14250,cf6729669e564bdb8005a379d211d5d7f718138c1757ea30cd60bfc4cc26cbb0
+RG2A-I013,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\mature-diagnostics.json,14340,3a37101e1e1f39b2bb80ede6144de8bb3bef6b9644340d9910f203a790e6a52d
+RG2A-I014,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\mature-alternatives.json,2337,cc2ccb74826c3dc60c7c2b81c752bd284b12f5cd7dda60014a2a469e2c588ee4
+RG2A-I015,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\two-outpost-anchor\extract-03\manifest.json,937,215b55f294f8e492cf4677cc654f3fe1d7416ec2bc19d7fb213bc70bf7c41942
+RG2A-I016,input-or-owned-method,D:\Projects\starfield-outpost-research\research\resource-geometry-live-prep\points.py,4794,223edaa3d275578f48e7dceb6c1443bbc6060246b26c554dfc77189215ff8175
+RG2A-I017,input-or-owned-method,D:\Projects\starfield-outpost-research\research\resource-geometry\context.py,8792,371a2bc6127bbf429a586f01d3eae250dd787ae41cbe2bfa720169ca9c09e796
+RG2A-I018,input-or-owned-method,D:\Projects\starfield-outpost-research\research\resource-geometry\geometry.py,26508,909dcf1c028a7c24bf698a9144fdd6478f01063717dee560f2214966b72a5eec
+RG2A-I019,input-or-owned-method,D:\Projects\starfield-outpost-research\research\resource-geometry\reference_check.py,6022,b41b4b2f7ff11a6e5adcdbf63798efc58e1373e795b25c1837c63d1518b7c0b8
+RG2A-I020,input-or-owned-method,D:\Projects\starfield-outpost-research\save-analysis\scripts\save_menu.py,13188,84740cacfacbc16999b96029a19dd54dbbc2e2f4d60cb89906db6931b7fd5710
+RG2A-I021,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\outpost-biomes\kreet.biom,655414,d1badcd0b67cc4ff5f67e4199f0383b99ae3aa043e1199a1885011e80cde6b50
+RG2A-I022,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\outpost-biomes\feynman v.biom,655414,bd06d24e8ca1788481f6a4388c0e262b863b8b376a521752cf3d286c69f23863
+RG2A-I023,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\outpost-biomes\carinae iii-a.biom,655414,bd9a3370b1c1b827cecdbdce318ee1f8af0608c4aade8e4e443968c2a720550f
+RG2A-I024,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry\package.py,6892,8f6828e58f22d7fcf9cb34bf223889423fb3b1b713f69361242530d474e59e47
+RG2A-I025,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\package.py,6866,64c97dea316f294e5486f132afa61b97c233236b2496cc06c145a0027a6edd93
+RG2A-I026,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\rg2a-start.py,1818,f692dd357abd5a2272bf239b58b0171af3ea52740504306988ac59ae4ba147b5
+RG2A-I027,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\rg2a-investigate.py,4213,dd32af47c65fd5e2b0cce23a3e84d813ebb54206f982d7efcb9f3b993c21ae5d
+RG2A-I028,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\rg2a-package-data.py,8450,78bea7a4f30fd7d1ed6c5c7574f33a78c8a4c0e0245311fcf8ea7a7ce6b01f8b
+RG2A-I029,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\rg2a-checks.py,2722,2c2626cb9b777dd173de67f064b643f793b64a712f8cf6e553ca439420a9f43e
+RG2A-I030,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\rg2a-verify.py,3384,df55dba081a505a85987eab971888631646bb8a678d79f0f902a27d69e23f19f
+RG2A-I031,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\rg2a-navigation.py,5190,c3a58893e00f4684300d9a4010186df4a094acc2f7dccd97c0cd075eabf61e7b
+RG2A-I032,input-or-owned-method,D:\Projects\starfield-outpost-research\research\resource-geometry\qualify_sites.py,8548,0bbaa50b2800165a257b48a0e448f84022d6a53d24b0af767d4733845ec4cf67
+RG2A-I033,input-or-owned-method,D:\Projects\starfield-outpost-research\save-analysis\scripts\inventory_historical_saves.py,17427,42dbc384ce08b484616935abb664b83b9dee5ebfc2ac0329734ea213eb927c8d
+RG2A-I034,input-or-owned-method,D:\Projects\starfield-outpost-research\save-analysis\scripts\stream_save.py,6318,b71bfcb0bfba63f978fd35b3e7d3cce17585cd7fd40e1a1fc646a3d1147a7823
+RG2A-I035,input-or-owned-method,D:\Projects\starfield-resource-reproducer\src\starfield_resource_reproducer\prng.py,10254,a806ac1b114ac107acba0bf4c5a6552859a6f2e4d393ef8edd107bc7eaaacfee
+RG2A-I036,input-or-owned-method,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield - Misc.ba2,38072258,b4a634a3452e5e346ee2fffe51a9ccfbf7e263dc63a8db999988fa9594d89fdf
+RG2A-I037,input-or-owned-method,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield.esm,1457098709,1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7
+RG2A-I038,input-or-owned-method,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Starfield.exe,102476200,7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28
+RG2A-I039,input-or-owned-method,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Tools\ContentResources.zip,163283936,b5f3f66d6041193c2db139c50a8a4a2da7a80c862a95ba5eec929c7a2c42983c
+RG2A-I040,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.gpr,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+RG2A-I041,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\00\00000000.prp,502,7fa5d97130a0c92448347b20235c8638526fb6b8811cfb95810d5d29b663288d
+RG2A-I042,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\00\~00000000.db\db.1.gbf,278609920,0a1c514ee44064a2065f86e7ff99de425990cfcce608f356018c753206156331
+RG2A-I043,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\00\~00000000.db\db.2.gbf,1634222080,9465cc9944d35acb75440471b0841fece52cc142341c269a5129a575791ded44
+RG2A-I044,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\~index.bak,116,b27275866cf5b773eaebab219d0f67a14596c7320d8359ad07d18da381c16292
+RG2A-I045,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\idata\~index.dat,116,b27275866cf5b773eaebab219d0f67a14596c7320d8359ad07d18da381c16292
+RG2A-I046,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\project.prp,163,113c367c11cdfe9ac46f1cd6194fe380300a021fa4bd9908d8fa91bb2cf58ef8
+RG2A-I047,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\projectState,607,e1bfd9c084d9e1831b2b68b3fa2a568706b37514243539d2b38f4619c881215b
+RG2A-I048,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\00\00000000.prp,528,4b7a5edbcca229d48c89ffad0327849736f0f00732de6ced032ce2bc34881546
+RG2A-I049,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\00\~00000000.db\db.1.gbf,98304,37dd81ca01e6148b53efb15bdf8c25403b3bf523d0e9358e4a4da95923c81a39
+RG2A-I050,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\~index.bak,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f
+RG2A-I051,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\~index.dat,134,5a7f040bf782833462ecc7231cee2d72f88129f86e6c6e355f1e6c714d33f1a7
+RG2A-I052,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\user\~journal.bak,114,761827a09392c9adf0451afd31299306225b3682baad7f04eea5a8a1df8b199a
+RG2A-I053,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\versioned\~index.bak,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f
+RG2A-I054,input-or-owned-method,D:\ReverseEngineering\Starfield\GhidraProject\Starfield.rep\versioned\~index.dat,63,afed071b228a87fbbb18d8bf39667792d6912c1d1ad2ea2f4f41dac320db8b2f
+RG2A-I055,input-or-owned-method,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield - PlanetData.ba2,22468821,2fb1fff5d8fc074718bf05022c099f3c87ef70e00050229b368ae7d680fbe5d5
+RG2A-I056,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\protected\Save25_D6036588M417474696C61204B6972616C79_000231_20261009102224_4_0_4.sfs,2403744,d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f5
+RG2A-I057,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\protected\Save39_D6036588M417474696C61204B6972616C79_000209_20261020003045_3_0_4.sfs,1840400,69e5bffb97b6320d7657677607e331898a499f50510c54f8c05f2b349619c879
+RG2A-I058,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\protected\Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs,16411136,6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8
+RG2A-I059,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\rg2a-menu-collisions.py,2237,3a27566e98337f9c4204dc6152542ecdfae04a93915da9ef87b10f27f91b4ce9
+RG2A-I060,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\rg2a-current-menu.py,1555,d676f0795bf22fc4bc022cf9e8e2023ab3487328e985cc95dc976bc6624440ba
+RG2A-I061,input-or-owned-method,D:\Projects\starfield-outpost-research\research\resource-geometry-live-prep\test_points.py,1376,240e261d97f724071eb017d9fb5e96438a34279650130702d705d218ea9555a3
+RG2A-I062,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\baseline.json,8279,05390d6d9ad6c77f80e8e155906db7fe43565ec36650ee22ab0ff09e686a33f7
+RG2A-I063,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\menu-current.json,12428,e45ddec0088c19fee152448f582e914ae4eb47d522519716df5432a410f55cce
+RG2A-I064,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\menu-collisions.json,1181,fdaa223a350b39843a02c8bb382f8b57f2747580b5151cc374119c5853340ed2
+RG2A-I065,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\menu-collisions-current.json,1601,4205514c7675224b4beac75d7a9543e3f7aac69a71bc078fc466bfbbfaa5528f
+RG2A-I066,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\checks-check01.json,2601,19adde973b0ce26cc517cd6153ee5a793453b6fef7e4625d0b3a398d065cf6af
+RG2A-I067,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\alternate-check01.json,570,1c21c67591aa098935e4e303138841616ee408473deeb35399fcfbe5de49c154
+RG2A-I068,input-or-owned-method,D:\Projects\starfield-outpost-research\.local-work\resource-geometry-live-prep\save-protection.json,3247,b430869d342d6ff9d9d43bd3c29efa55f76f9fe9bb0b69c845ff7b3900473576

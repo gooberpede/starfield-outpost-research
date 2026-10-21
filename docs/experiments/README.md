@@ -197,3 +197,5 @@ H1-H4 and proposed-only repeated-load validation. No new live authority.
 - [SOR-EXP-0056 / SOR-EV-0064 - SD2 Shared Outpost Storage](shared-outpost-storage/report.md): construction prerequisites, one backing inventory, source-consumer matrix and historical membership joins; [review/package](shared-outpost-storage/review.md). Offline only, no live or Git integration authority.
 
 - [SOR-EXP-0063 / SOR-EV-0071 - RG1 inorganic vein geometry](resource-geometry/report.md): qualified source/context-to-region generation for three saved Kreet frames, native-bound competition, finite coverage and nominal circle decisions; historical/native correspondence remains unobserved. [Independent review and package](resource-geometry/review.md). Offline only; B6 remains on hold.
+
+- [SOR-EXP-0064 / SOR-EV-0072 — RG2-A spatial validation preparation](resource-geometry-live-prep/report.md): decoded operator save identities, four primary/two reserve cases, frozen Kreet points/maps and concrete mature source holds; [review](resource-geometry-live-prep/review.md). Offline only, prospective cards NOT AUTHORIZED.

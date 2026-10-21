@@ -447,3 +447,7 @@ owned reader lineage, failures and local receipt hashes. Static analysis runs
 readOnly/noanalysis; raw movie/native/save material remains LOCAL-ONLY. No new
 outside implementation, dependency, contact/disclosure, live operation, original
 mutation or Git staging/commit/push. Authored synthesis remains REVIEW-REQUIRED.
+
+## RG2-A offline preparation — 2026-10-22
+
+[Source ledger](experiments/resource-geometry-live-prep/sources.csv) and [verification/methods](experiments/resource-geometry-live-prep/verification.md) bind initial HEAD/index/brief, nineteen protected installed/Ghidra inputs, accepted RG1 source/evaluator/map receipts, exact save/header/copy identities and immutable v1 point/map predictions. New local copies preserve all three selected saves; original bytes remain unchanged. Mature site/descriptor counterfactuals remain unqualified rather than substituted into generation. No live equality, permission expansion, scientific reclassification or publication follows.

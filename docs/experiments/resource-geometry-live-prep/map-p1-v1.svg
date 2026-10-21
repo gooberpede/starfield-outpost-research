@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="780" viewBox="0 0 900 780">
+<rect width="900" height="780" fill="white"/>
+<text x="20" y="24" font-family="sans-serif" font-size="16">P1 SOR-002 — frozen model, not observed patches</text>
+<defs><clipPath id="plot"><rect x="40" y="40" width="640" height="640"/></clipPath></defs>
+<g clip-path="url(#plot)">
+<circle cx="360" cy="360" r="150" fill="#eef4fa" stroke="#334155"/>
+<polyline points="-59.327,253.104 -85.420,273.724 -128.123,273.133 -160.772,296.590" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="-22.344,142.272 -36.541,104.915 -23.490,69.963 -22.122,29.889 -44.510,-3.056" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="27.144,84.296" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="-42.684,-8.735 -36.848,30.623" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="39.764,156.447 54.517,194.780 41.142,233.433 51.471,271.988" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="-173.725,193.212 -139.791,214.876" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="-106.549,614.127 -69.656,599.113 -38.411,584.139 -4.242,580.229 27.930,592.248" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="-116.803,475.163 -146.429,444.795 -172.554,410.322 -204.520,389.461" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="-134.048,359.082 -99.452,366.981 -65.408,354.069" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="-101.191,119.559 -139.701,134.364" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="26.703,729.754 46.448,763.864" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="32.905,504.803 43.576,467.015 37.162,424.168 22.868,388.076" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="-13.372,365.255 -2.167,327.394" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="40.457,676.546" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="40.846,548.006 39.839,585.763" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="63.263,392.899 53.774,359.141" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="40.645,-2.428 22.639,-39.213" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="310.601,817.297 351.152,822.298" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="212.133,820.222" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="413.618,846.273 430.574,811.297" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="175.758,723.132 172.858,682.360 185.801,647.203" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="521.883,-122.340 557.154,-122.805" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="629.449,-74.469" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="650.387,416.938 641.363,450.951" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="720.748,203.585 697.103,240.211" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="701.131,120.404 740.996,110.675 771.945,122.537 814.256,121.076 848.001,128.793" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="766.507,441.107 733.190,435.648" fill="none" stroke="#0369a1" stroke-width="1"/>
+<polyline points="140.976,459.209 110.965,434.903 67.631,427.480" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="169.832,401.673 204.412,399.907 234.433,384.388 255.327,350.314" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="182.681,263.420 154.144,291.953 141.883,332.270 111.359,358.388" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="199.483,210.114 168.165,179.399 137.543,156.536 96.496,142.877" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="139.891,118.969 169.114,137.217" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="203.959,-50.119 198.702,-92.911 203.103,-135.509" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="287.920,646.999" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="243.139,583.301 240.964,541.741 252.357,507.742 284.461,483.396 304.716,450.129" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="281.628,454.718 274.606,415.448 295.183,382.546 320.017,354.816" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="268.971,388.458 258.987,425.029 234.162,455.173 198.883,472.660" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="268.346,152.901 268.255,113.441 275.272,80.560" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="291.473,10.318" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="390.228,497.918 410.126,468.775" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="396.713,80.553 362.613,70.063 324.373,54.580 291.813,66.254" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="346.020,-49.487 387.013,-60.699" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="398.553,-104.519 429.509,-81.491 464.326,-68.322 503.464,-50.572 543.827,-56.454" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="536.518,651.426 568.949,631.011 606.633,621.380" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="463.144,306.051 435.417,281.959 408.436,248.064 397.484,213.453" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="516.225,71.050 555.623,58.792 592.914,57.938 629.376,52.709" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="621.954,686.655 616.861,729.665 620.856,762.487 604.922,791.920 609.634,834.343" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="539.867,399.657 555.303,430.943" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="611.545,269.139 580.827,242.424 556.025,209.759" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="576.865,222.188 603.493,253.236" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="556.794,105.326 539.271,136.460" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="689.313,703.216 725.515,708.348 760.018,727.842" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="684.466,575.416 648.569,581.011" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="646.522,327.404" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="638.617,39.103 674.650,51.583" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="696.937,-37.383" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="818.259,715.191 790.771,695.370 778.336,664.265 779.222,623.121" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="747.798,574.941 731.169,607.788 693.174,620.281" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="781.940,186.257" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="843.538,632.983 838.012,598.553 822.410,566.132 792.651,541.578" fill="none" stroke="#b45309" stroke-width="1"/>
+<polyline points="902.936,305.027 879.028,333.829 844.780,357.989 804.634,371.182" fill="none" stroke="#b45309" stroke-width="1"/>
+</g>
+<circle cx="260.000" cy="360.000" r="3" fill="black"/><text x="264.000" y="356.000" font-size="10">1</text>
+<text x="695" y="100" font-family="sans-serif" font-size="11">1: positive-control</text>
+<circle cx="360.000" cy="360.000" r="3" fill="black"/><text x="364.000" y="356.000" font-size="10">2</text>
+<text x="695" y="124" font-family="sans-serif" font-size="11">2: negative-control</text>
+<circle cx="360.000" cy="360.000" r="3" fill="black"/><text x="364.000" y="356.000" font-size="10">3</text>
+<text x="695" y="148" font-family="sans-serif" font-size="11">3: beacon</text>
+<circle cx="344.066" cy="360.000" r="3" fill="black"/><text x="348.066" y="356.000" font-size="10">4</text>
+<text x="695" y="172" font-family="sans-serif" font-size="11">4: edge-5</text>
+<circle cx="348.066" cy="360.000" r="3" fill="black"/><text x="352.066" y="356.000" font-size="10">5</text>
+<text x="695" y="196" font-family="sans-serif" font-size="11">5: edge-1</text>
+<circle cx="350.066" cy="360.000" r="3" fill="black"/><text x="354.066" y="356.000" font-size="10">6</text>
+<text x="695" y="220" font-family="sans-serif" font-size="11">6: edge+1</text>
+<circle cx="354.066" cy="360.000" r="3" fill="black"/><text x="358.066" y="356.000" font-size="10">7</text>
+<text x="695" y="244" font-family="sans-serif" font-size="11">7: edge+5</text>
+<text x="40" y="710" font-family="sans-serif" font-size="13">+X right; +Y up. Circle radius 150 native units. Path centerlines only.</text>
+<text x="40" y="734" font-family="sans-serif" font-size="13">Widths, native bound and tapered-strip decisions are in points-v1.csv.</text>
+<text x="40" y="758" font-family="sans-serif" font-size="13">Numbers identify samples; coincident controls can share a marker. No POI clipping.</text>
+</svg>
