@@ -1,0 +1,43 @@
+{
+  "command": [
+    "C:\\Users\\User\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "-I",
+    "-B",
+    "-c",
+    "import sys,runpy;sys.path.insert(0,'.');sys.argv=['test_outpost_record_framing.py'];runpy.run_path('test_outpost_record_framing.py',run_name='__main__')"
+  ],
+  "cwd": "D:\\Projects\\starfield-outpost-research\\.local-work\\review-patches\\b3-synthetic-krx6_2fz",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "python_sha256": "cce21c0e8710e304273e98ac4b2b0f5aceb639acbcd2343cbaa5c4e81619c45b",
+  "sources": [
+    {
+      "path": "save-analysis/scripts/test_outpost_record_framing.py",
+      "sha256": "9ce58f3b2a1e771cd918e13b59271f58d8204301339535b63ab3dfb6eec7e8a5",
+      "bytes": 4753
+    },
+    {
+      "path": "save-analysis/scripts/outpost_record_framing.py",
+      "sha256": "ec453fe90937246ac4eca6dca582afc2c21137819d6579fca07a8221ebfcb25f",
+      "bytes": 3948
+    },
+    {
+      "path": "save-analysis/scripts/stream_save.py",
+      "sha256": "b71bfcb0bfba63f978fd35b3e7d3cce17585cd7fd40e1a1fc646a3d1147a7823",
+      "bytes": 6318
+    }
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_count_widths (__main__.FramingTests.test_count_widths) ... ok\ntest_defaults (__main__.FramingTests.test_defaults) ... ok\ntest_exact_closure (__main__.FramingTests.test_exact_closure) ... ok\ntest_header_tables_body (__main__.FramingTests.test_header_tables_body) ... ok\ntest_prefix_offsets_and_decoy (__main__.FramingTests.test_prefix_offsets_and_decoy) ... ok\ntest_reject_truncations (__main__.FramingTests.test_reject_truncations) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n",
+  "source_tree_unchanged": true,
+  "expected": "six unittest methods pass; adversarial truncation/closure rejects; independent walker agreement; no corpus invocation",
+  "writes": "three source copies and this receipt only; -I -B excludes user site and bytecode",
+  "dependency_risks": "stdlib/project only, stream_save imported but decoder never called; source top-level inspected before execution",
+  "derivation": {
+    "source_receipt": ".local-work/b3/synthetic.json",
+    "source_sha256": "aa8f11f967df74b88e2201d65080d682d72e0549e9ab0368f1541052182ca019",
+    "purpose": "readable tracked test metadata; no synthetic input bytes or test outcome changed",
+    "transform": "JSON parse; stderr CRLF to LF then remove remaining CR; add this provenance field; JSON dump indent=2 with final LF",
+    "tool": "CPython 3.14.3 stdlib json"
+  }
+}

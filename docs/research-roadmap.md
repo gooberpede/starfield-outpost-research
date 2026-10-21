@@ -1,5 +1,7 @@
 # Current outpost research roadmap
 
+B3 reader routes: [method/source availability](audits/publication-readiness-b3/source-selection.md), [reproduction contracts](audits/publication-readiness-b3/method-reproduction.md) and [primary 1.16.244.0 baseline](audits/publication-readiness-b3/baseline-manifest.md). All native/definition research uses this one executable; historical save creation metadata remains separately qualified. Publication NOT CLEARED.
+
 2026-10-21, Australia/Sydney. **Publication NOT CLEARED / NOT READY.** This is a
 subsystem-first navigation synthesis of reviewed research, not a new scientific
 classification. Source reports and their independent reviews control exact claims,

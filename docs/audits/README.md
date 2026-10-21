@@ -1,5 +1,7 @@
 # Audits
 
+- [B3 source identity and reproducibility baseline](publication-readiness-b3/report.md): selective authored source, all 26 RR1 historical identities, single 1.16.244.0 baseline, synthetic qualification and [review](publication-readiness-b3/review.md). Publication NOT CLEARED.
+
 - [B2 documentation quality and evidence context](publication-readiness-b2/report.md):
   occurrence corrections, technical notation, analytical tables, local evidence
   dependencies and [independent review](publication-readiness-b2/review.md).

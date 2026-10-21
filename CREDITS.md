@@ -1,5 +1,7 @@
 # Credits
 
+B3 (2026-10-21) preserves project-authored method lineage under SOR-P-0002 and credits the existing Bethesda primary inputs and previously recorded CPython/stdlib, Git, Ghidra/Temurin and xEdit research tooling. Only Python/stdlib and Git were used for B3 inspection/qualification; no new outside code or dependency was incorporated. See [source selection](docs/audits/publication-readiness-b3/source-selection.md) and [baseline](docs/audits/publication-readiness-b3/baseline-manifest.md).
+
 ## LO1 Locations -> Outpost field lineage
 
 [SOR-EXP-0062 / SOR-EV-0070](docs/experiments/locations-outpost/report.md) credits Bethesda's installed native code, definitions, localization and compiled interface; the maintainer's two supplied screenshots; and prior project E1/P1/L1/L2/CR1/R1/C1–C3/SD3/BM2 findings and owned readers. Existing Ghidra/Temurin, CPython/stdlib and Git support offline inspection and review packaging. [Methods and exact provenance](docs/experiments/locations-outpost/methods.md) distinguish inherited discoveries from new selected-panel/provider edges. No outside code/dependency or raw proprietary material is incorporated; publication remains gated.

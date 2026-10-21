@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [B3 source completeness, historical reproducibility and primary baseline](CODEX_BRIEF_SOR_B3_source_completeness_reproducibility_baseline.md): invoked 2026-10-21; [implementation and review](../audits/publication-readiness-b3/report.md). Offline source/documentation only; no staging, commit, push or publication.
+
 - [B2 focused native-notation and export-ID rework](CODEX_BRIEF_SOR_B2_focused_rework_native_notation_and_export_ids.md):
   invoked 2026-10-21; [focused record and full B2 requalification](../audits/publication-readiness-b2/focused-rework.md).
   Retained supplied input; same frozen B2 contract, no staging, commit or push.

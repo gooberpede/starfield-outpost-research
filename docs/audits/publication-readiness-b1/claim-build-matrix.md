@@ -1,5 +1,7 @@
 # Proposed first-release claim/build scope
 
+**B3 provenance clarification, 2026-10-21:** [Populated single-executable baseline](../publication-readiness-b3/baseline-manifest.md) and [claim-led method access](../publication-readiness-b3/source-selection.md) now provide the B3 route. N244 covers the one investigated native/definition executable, 1.16.244.0. H? qualifies historical save creation provenance, not another analyzed native build. Earlier pending-scope statements below remain historical proposals; B4/B6 and maintainer approval are still required.
+
 2026-10-21. **PROPOSAL ONLY — NOT CLEARED / NOT READY.** No row grants inclusion,
 changes scientific confidence or replaces the cited independent disposition.
 The maintainer must agree the exact required runtime/persistence questions and

@@ -1,5 +1,7 @@
 # Documentation Index
 
+Current [B3 method/source and baseline package](audits/publication-readiness-b3/report.md) supplies source access tiers, exact historical identities and the single investigated executable baseline. Publication remains NOT CLEARED.
+
 - [B2 documentation corrections and reader aids](audits/publication-readiness-b2/report.md):
   notation, analytical decision tables and historical evidence availability.
 

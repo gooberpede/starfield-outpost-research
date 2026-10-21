@@ -1,5 +1,9 @@
 # Provenance and Environment Baseline
 
+## B3 source identity / primary baseline — 2026-10-21
+
+[Manifest](audits/publication-readiness-b3/baseline-manifest.md) consolidates existing verified input pins under the single investigated Starfield.exe 1.16.244.0. B3 rehashes the selected protected LO1 scope and exact authored source; [historical reconciliation](audits/publication-readiness-b3/historical-source-reconciliation.md) preserves old pins and distinct current methods. [Contracts and synthetic qualification](audits/publication-readiness-b3/method-reproduction.md) state actual effects and limits. No new external implementation, tool execution, native baseline, save/database/configuration change or publication clearance.
+
 ## LO1 Locations selected-panel lineage - 2026-10-20
 
 [SOR-EXP-0062 / SOR-EV-0070](experiments/locations-outpost/report.md) starts from HEAD 1210c1ff5a9501f321eb8de04a604331e84f1447 and freshly matches 22 installed/static/screenshot protected inputs. [Methods](experiments/locations-outpost/methods.md) preserve readOnly/noanalysis exports, failed locators/recovery, raw compiled-member identity, 14 physical metadata controls and source-specific hashes. No new save analysis, live/target/database/configuration mutation, outside code/dependency or network action. Exact complete/task-only reconstruction and independent disposition remain in [review](experiments/locations-outpost/review.md); source and publication classifications are unchanged.

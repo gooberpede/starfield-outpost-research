@@ -1,5 +1,7 @@
 # Source Register
 
+B3 (2026-10-21) adds no outside source or permission grant. [Exact source-selection ledger](audits/publication-readiness-b3/source-selection.csv), [origin hashes](audits/publication-readiness-b3/promoted-sources.csv) and [baseline inputs](audits/publication-readiness-b3/baseline-inputs.csv) retain the immediate owned-method and existing installed-input provenance. Existing SOR-P-0002 and original per-study source/credit records apply; external tools/data remain separate.
+
 ## LO1 Locations -> Outpost primary provenance
 
 2026-10-20, SOR-EXP-0062 / SOR-EV-0070. [Report](experiments/locations-outpost/report.md), [exact source pins](experiments/locations-outpost/sources.csv), [native coverage](experiments/locations-outpost/functions.csv), [methods/effects](experiments/locations-outpost/methods.md). Bethesda installed retail EXE/ESM/Interface.ba2/Localization.ba2 and matching existing Ghidra state; maintainer supplied screenshot witnesses. Accepted E1/P1/L1/L2/CR1/R1/C1–C3/SD3/BM2 mechanisms and owned ESM/ABC/timeline/export/patch/disk/text methods are reused under SOR-P-0002. Ghidra12.1.2/Temurin21.0.12, CPython3.14.3/stdlib and Git are installed tools. No new third-party implementation, dependency, contact, download or disclosure; raw assets/exports/local metadata LOCAL-ONLY, authored interpretation REVIEW-REQUIRED.

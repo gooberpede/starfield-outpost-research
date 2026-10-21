@@ -1,5 +1,7 @@
 # B0 versioned research baselines and incremental requalification
 
+**B3 populated baseline, 2026-10-21:** [Primary manifest](../publication-readiness-b3/baseline-manifest.md) documents the one investigated 1.16.244.0 executable. Older saved-evidence origins are separate. The prospective future-update schema below is retained; it does not imply another native research baseline.
+
 2026-10-21. Prospective policy/schema only: no new-build investigation, executable
 scan/import, native relocation, populated crosswalk or regression execution.
 Research-release identity and game-build identity are independent. Older tagged
