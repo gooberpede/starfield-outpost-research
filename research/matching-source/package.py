@@ -75,16 +75,17 @@ def main():
         assert sorted(x.decode().rstrip('\r') for x in re.findall(rb'^\+\+\+ b/(.+)$',data,re.M))==files
         review_scratch = ROOT / '.local-work/review-patches'
         review_scratch.mkdir(parents=True, exist_ok=True)
-        scratch=Path(tempfile.mkdtemp(prefix='sor-matching-source-',dir=review_scratch))
-        for n in files:
-            if n in changed:
-                dest=scratch/n;dest.parent.mkdir(parents=True,exist_ok=True)
-                dest.write_bytes(git('show',f'HEAD:{n}').stdout)
-        for args in [('apply','--no-index','--check','--whitespace=error',str(path)),
-                     ('apply','--no-index','--whitespace=error',str(path))]:
-            r=git(*args,cwd=scratch);assert r.returncode==0,r.stderr.decode()
-        assert all((scratch/n).read_bytes()==(ROOT/n).read_bytes() for n in files)
-        patches[label]=dict(path=str(path),sha256=digest(path),paths=files,scratch=str(scratch),forward_exact=True)
+        with tempfile.TemporaryDirectory(prefix='sor-matching-source-',dir=review_scratch) as scratch_directory:
+            scratch = Path(scratch_directory)
+            for n in files:
+                if n in changed:
+                    dest=scratch/n;dest.parent.mkdir(parents=True,exist_ok=True)
+                    dest.write_bytes(git('show',f'HEAD:{n}').stdout)
+            for args in [('apply','--no-index','--check','--whitespace=error',str(path)),
+                         ('apply','--no-index','--whitespace=error',str(path))]:
+                r=git(*args,cwd=scratch);assert r.returncode==0,r.stderr.decode()
+            assert all((scratch/n).read_bytes()==(ROOT/n).read_bytes() for n in files)
+            patches[label]=dict(path=str(path),sha256=digest(path),paths=files,scratch=str(scratch),forward_exact=True)
     manifest=[dict(path=n,bytes=(ROOT/n).stat().st_size,sha256=digest(ROOT/n),
         role='supplied brief' if n==base['supplied_brief'] else 'task authored') for n in allfiles]
     receipts=[OUT/'verification-04/receipt.json',OUT/'frozen-01/receipt.json',

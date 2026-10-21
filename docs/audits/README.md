@@ -1,5 +1,9 @@
 # Audits
 
+- [B5-A local storage and scratch lifecycle](publication-readiness-b5/report.md):
+  measured retention ledger, exact deletion proposal, reference holds and
+  [review](publication-readiness-b5/review.md). No deletion or publication authority.
+
 - [B4-F1 core/addendum evidence selection and provisional local packages](publication-readiness-b4/f1/README.md):
   all 71 identities reconciled; exact filename/member maps, measured compression,
   scoped privacy supplement and [review](publication-readiness-b4/f1/review.md).

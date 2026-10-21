@@ -1,5 +1,12 @@
 # Current Research State
 
+**2026-10-21 — B5-A housekeeping:** [Report](audits/publication-readiness-b5/report.md)
+records fresh local storage accounting, protected evidence retention, exact
+deletion candidates/reference holds and current scratch-exporter qualification.
+[Review](audits/publication-readiness-b5/review.md) controls task disposition.
+No scientific reclassification, existing artifact deletion, staging, commit,
+push or publication; B5-B is deferred until after release and still needs new explicit maintainer approval; detailed candidates remain local-only.
+
 **2026-10-21 — B4-F1 provisional evidence selection:** [Index and report](audits/publication-readiness-b4/f1/README.md)
 reconcile all 71 B4 identities to 25 proposed core, 27 addendum, 15 local-only,
 four excluded and zero specific holds. Exact historical filenames are hash-joined;

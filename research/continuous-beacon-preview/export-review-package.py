@@ -49,17 +49,18 @@ for label,paths,oldset in [('complete',names,original),('task-only',task,taskbas
  with path.open('xb') as f:f.write(data)
  review_scratch = root / '.local-work/review-patches'
  review_scratch.mkdir(parents=True, exist_ok=True)
- scratch=Path(tempfile.mkdtemp(prefix='sor-preview-'+label+'-',dir=review_scratch))
- for n in paths:
-  if oldset[n]:
-   p=scratch/n;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(oldset[n])
- git('apply','--no-index','--whitespace=nowarn','--check',str(path),cwd=scratch)
- git('apply','--no-index','--whitespace=nowarn',str(path),cwd=scratch)
- assert all((scratch/n).read_bytes()==current[n] for n in paths)
- git('apply','--no-index','--reverse','--check',str(path),cwd=scratch)
- git('apply','--no-index','--reverse',str(path),cwd=scratch)
- assert all((scratch/n).read_bytes()==oldset[n] if oldset[n] else not (scratch/n).exists() for n in paths)
- patches[label]=dict(path=str(path),sha256=sha(path),bytes=len(data),paths=paths,scratch=str(scratch),forward_check=True,forward_apply_exact=True,reverse_check=True,reverse_apply_exact=True)
+ with tempfile.TemporaryDirectory(prefix='sor-preview-'+label+'-',dir=review_scratch) as scratch_directory:
+     scratch = Path(scratch_directory)
+     for n in paths:
+      if oldset[n]:
+       p=scratch/n;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(oldset[n])
+     git('apply','--no-index','--whitespace=nowarn','--check',str(path),cwd=scratch)
+     git('apply','--no-index','--whitespace=nowarn',str(path),cwd=scratch)
+     assert all((scratch/n).read_bytes()==current[n] for n in paths)
+     git('apply','--no-index','--reverse','--check',str(path),cwd=scratch)
+     git('apply','--no-index','--reverse',str(path),cwd=scratch)
+     assert all((scratch/n).read_bytes()==oldset[n] if oldset[n] else not (scratch/n).exists() for n in paths)
+     patches[label]=dict(path=str(path),sha256=sha(path),bytes=len(data),paths=paths,scratch=str(scratch),forward_check=True,forward_apply_exact=True,reverse_check=True,reverse_apply_exact=True)
 local_artifacts=[dict(root=str(base/'builds'),hash_manifest=str(base/'builds/qualification-06/build.json'),contents='DLL/ZIP/OBJ/disposable EXEs/WAL fixtures/test receipts; excluded'),dict(root=str(base/'specialist'),hash_manifest=str(base/'specialist/seal.json'),contents='Private native specialist/DB bracket receipts'),dict(root=str(root/'.local-work/recon'),hash_manifest=str(base/'specialist/seal.json'),contents='Exact six continuous-preview exports/logs; raw native excluded'),dict(root=str(base),hash_manifest=str(base/'baseline.json'),contents='6,847 exact protected original/archive/prior release/frozen input paths and hashes; source/save-menu receipts stay private'),dict(root='D:/ReverseEngineering/Starfield/GhidraProject',hash_manifest=str(base/'specialist/seal.json'),contents='Analysis DB; excluded'),dict(root='.local-work/review-patches',hash_manifest='package patches[*].scratch exact paths',contents='Disposable forward/reverse apply trees; authored files only')]
 manifest=dict(local_artifacts=local_artifacts,run=args.run,head=seed['head'],index_sha256=seed['index']['sha256'],staged_changes=False,complete_files=[dict(path=n,sha256=sha(root/n)) for n in names],task_files=task,patches=patches,checks=checks,baseline_snapshot=str(base/'baseline.json'),exclusions=['Ignored local raw saves/decoded bytes/native/proprietary evidence excluded','Protected game/Ghidra inputs and .local-work/review-patches scratch trees excluded','Supplied unchanged brief excluded from task-only; earlier tracked work retained','No network/publication/integration/staging/commit/push authority'],exporter_sha256=sha(Path(__file__)))
 mp=base/('package-'+args.run+'.json');mp.open('x',encoding='utf8').write(json.dumps(manifest,indent=2)+'\n');(base/('status-'+args.run+'.txt')).open('xb').write(git('status','--short'))

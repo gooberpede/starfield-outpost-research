@@ -23,7 +23,7 @@ BRIEF='docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preserv
 
 def git(*args,cwd=ROOT):
     result=subprocess.run(['git','-c','core.autocrlf=false',*args],cwd=cwd,
-                          env=dict(os.environ,GIT_OPTIONAL_LOCKS='0'),capture_output=True)
+                          env=dict(os.environ,GIT_OPTIONAL_LOCKS='0',GIT_CEILING_DIRECTORIES=str(ROOT/'.local-work')),capture_output=True)
     if result.returncode: raise RuntimeError((args,result.stderr.decode(errors='replace')))
     return result.stdout
 
@@ -85,7 +85,9 @@ def main():
         data=b''.join(patch(n,old[n],current[n]) for n in paths)
         target.write_bytes(data)
         assert re.findall(r'^diff --git a/(.*?) b/.*$',data.decode(),re.M)==paths
-        with tempfile.TemporaryDirectory(prefix='sor-x87-review-') as directory:
+        review_scratch = ROOT/'.local-work/review-patches'
+        review_scratch.mkdir(parents=True, exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=review_scratch, prefix='sor-x87-review-') as directory:
             tree=Path(directory)
             for name in paths:
                 if old[name] is not None:

@@ -3,7 +3,7 @@ writes ignored receipts/patches and temporary text apply trees. No target execut
 network, dependencies, index/ref mutation or protected-input writes."""
 import csv,difflib,hashlib,json,os,pathlib,re,subprocess,tempfile
 R=pathlib.Path(__file__).resolve().parents[2]; O=R/'.local-work/internal-observation-qualification'
-ENV=dict(os.environ,GIT_OPTIONAL_LOCKS='0')
+ENV=dict(os.environ,GIT_OPTIONAL_LOCKS='0',GIT_CEILING_DIRECTORIES=str(R/'.local-work'))
 def git(*a,cwd=R):
  p=subprocess.run(['git','-c','core.autocrlf=false',*a],cwd=cwd,env=ENV,capture_output=True)
  if p.returncode:raise RuntimeError((a,p.stderr.decode(errors='replace')))
@@ -67,7 +67,9 @@ for kind,paths in [('task-only',task),('complete',names)]:
  data=b''.join(diff(n,old[n],cur[n]) for n in paths)
  out=R/('.local-work/diffs/internal-observation-qualification-'+kind+'.diff');out.parent.mkdir(exist_ok=True);out.write_bytes(data)
  inventory=re.findall(r'^diff --git a/(.*?) b/.*$',data.decode(),re.M);assert inventory==paths
- with tempfile.TemporaryDirectory(prefix='sor-spatial-review-') as td:
+ review_scratch = R/'.local-work/review-patches'
+ review_scratch.mkdir(parents=True, exist_ok=True)
+ with tempfile.TemporaryDirectory(dir=review_scratch, prefix='sor-spatial-review-') as td:
   d=pathlib.Path(td)
   for n in paths:
    if old[n] is not None:(d/n).parent.mkdir(parents=True,exist_ok=True);(d/n).write_bytes(old[n])

@@ -49,17 +49,18 @@ for label,paths,oldset in [('complete',names,original),('task-only',task,taskbas
  with path.open('xb') as f:f.write(data)
  review_scratch = root / '.local-work/review-patches'
  review_scratch.mkdir(parents=True, exist_ok=True)
- scratch=Path(tempfile.mkdtemp(prefix='sor-resource-'+label+'-',dir=review_scratch))
- for n in paths:
-  if oldset[n]:
-   p=scratch/n;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(oldset[n])
- git('apply','--no-index','--whitespace=nowarn','--check',str(path),cwd=scratch)
- git('apply','--no-index','--whitespace=nowarn',str(path),cwd=scratch)
- assert all((scratch/n).read_bytes()==current[n] for n in paths)
- git('apply','--no-index','--reverse','--check',str(path),cwd=scratch)
- git('apply','--no-index','--reverse',str(path),cwd=scratch)
- assert all((scratch/n).read_bytes()==oldset[n] if oldset[n] else not (scratch/n).exists() for n in paths)
- patches[label]=dict(path=str(path),sha256=sha(path),bytes=len(data),paths=paths,scratch=str(scratch),forward_check=True,forward_apply_exact=True,reverse_check=True,reverse_apply_exact=True)
+ with tempfile.TemporaryDirectory(prefix='sor-resource-'+label+'-',dir=review_scratch) as scratch_directory:
+     scratch = Path(scratch_directory)
+     for n in paths:
+      if oldset[n]:
+       p=scratch/n;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(oldset[n])
+     git('apply','--no-index','--whitespace=nowarn','--check',str(path),cwd=scratch)
+     git('apply','--no-index','--whitespace=nowarn',str(path),cwd=scratch)
+     assert all((scratch/n).read_bytes()==current[n] for n in paths)
+     git('apply','--no-index','--reverse','--check',str(path),cwd=scratch)
+     git('apply','--no-index','--reverse',str(path),cwd=scratch)
+     assert all((scratch/n).read_bytes()==oldset[n] if oldset[n] else not (scratch/n).exists() for n in paths)
+     patches[label]=dict(path=str(path),sha256=sha(path),bytes=len(data),paths=paths,scratch=str(scratch),forward_check=True,forward_apply_exact=True,reverse_check=True,reverse_apply_exact=True)
 manifest=dict(run=args.run,head=seed['head'],index_sha256=seed['index']['sha256'],staged_changes=False,complete_files=[dict(path=n,sha256=sha(root/n)) for n in names],task_files=task,patches=patches,checks=checks,baseline_snapshot=str(base/'baseline.json'),exclusions=['Ignored local raw saves/decoded bytes/native/proprietary evidence excluded','Protected game/Ghidra inputs and .local-work/review-patches scratch trees excluded','Supplied unchanged brief excluded from task-only; earlier tracked work retained','No network/publication/integration/staging/commit/push authority'],exporter_sha256=sha(Path(__file__)))
 mp=base/('package-'+args.run+'.json');mp.open('x',encoding='utf8').write(json.dumps(manifest,indent=2)+'\n');(base/('status-'+args.run+'.txt')).open('xb').write(git('status','--short'))
 assert sha(root/'.git/index')==seed['index']['sha256'];print('PASS complete/task-only forward+reverse exact',len(names),len(task),sha(mp))

@@ -91,21 +91,22 @@ def main():
         assert [n.decode() for n in patch_names] == paths
         review_scratch = ROOT / '.local-work/review-patches'
         review_scratch.mkdir(parents=True, exist_ok=True)
-        scratch = Path(tempfile.mkdtemp(prefix='sor-session-review-', dir=review_scratch))
-        for n in paths:
-            if before[n] is not None:
-                p = scratch/n
-                p.parent.mkdir(parents=True, exist_ok=True)
-                p.write_bytes(before[n])
-        git('apply', '--no-index', '--check', str(path), cwd=scratch)
-        git('apply', '--no-index', str(path), cwd=scratch)
-        assert all((scratch/n).read_bytes() == current[n] if current[n] is not None else not (scratch/n).exists() for n in paths)
-        git('apply', '--no-index', '--reverse', '--check', str(path), cwd=scratch)
-        git('apply', '--no-index', '--reverse', str(path), cwd=scratch)
-        assert all((scratch/n).read_bytes() == before[n] if before[n] is not None else not (scratch/n).exists() for n in paths)
-        patches[label] = dict(path=str(path), sha256=sha(path), bytes=len(data), paths=paths,
-                              scratch=str(scratch), forward_check=True, forward_apply_exact=True,
-                              reverse_check=True, reverse_apply_exact=True)
+        with tempfile.TemporaryDirectory(prefix='sor-session-review-', dir=review_scratch) as scratch_directory:
+            scratch = Path(scratch_directory)
+            for n in paths:
+                if before[n] is not None:
+                    p = scratch/n
+                    p.parent.mkdir(parents=True, exist_ok=True)
+                    p.write_bytes(before[n])
+            git('apply', '--no-index', '--check', str(path), cwd=scratch)
+            git('apply', '--no-index', str(path), cwd=scratch)
+            assert all((scratch/n).read_bytes() == current[n] if current[n] is not None else not (scratch/n).exists() for n in paths)
+            git('apply', '--no-index', '--reverse', '--check', str(path), cwd=scratch)
+            git('apply', '--no-index', '--reverse', str(path), cwd=scratch)
+            assert all((scratch/n).read_bytes() == before[n] if before[n] is not None else not (scratch/n).exists() for n in paths)
+            patches[label] = dict(path=str(path), sha256=sha(path), bytes=len(data), paths=paths,
+                                  scratch=str(scratch), forward_check=True, forward_apply_exact=True,
+                                  reverse_check=True, reverse_apply_exact=True)
     (BASE/'git-status-short.txt').write_bytes(git('status', '--short'))
     private_receipts = [ROOT/'.local-work/session-tools/qualification-01/summary.json',
                         ROOT/'.local-work/session-tools/qualification-01/protected-before.json',

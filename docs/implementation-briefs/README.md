@@ -1,5 +1,9 @@
 # Implementation and Audit Briefs
 
+- [B5-A local-work inventory and scratch lifecycle](CODEX_BRIEF_SOR_B5_A_local_work_inventory_scratch_lifecycle.md):
+  invoked 2026-10-21; [report and review](../audits/publication-readiness-b5/report.md).
+  Read-only deletion planning and bounded current-exporter repairs; B5-B is deferred until after release and needs new explicit deletion approval; detailed candidates remain local-only.
+
 - [B4-F1 evidence selection, addendum and packaging](CODEX_BRIEF_SOR_B4_F1_evidence_selection_addendum_packaging.md):
   invoked 2026-10-21; [implementation/review](../audits/publication-readiness-b4/f1/README.md).
   Bounded offline local preparation only; no staging, commit, push or publication.

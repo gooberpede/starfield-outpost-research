@@ -1,5 +1,9 @@
 # Documentation Index
 
+- [B5-A housekeeping and retention proposal](audits/publication-readiness-b5/report.md):
+  exact storage accounting, protected evidence and prospective scratch lifecycle.
+  No deletion authorized; publication remains NOT CLEARED.
+
 Current [B3 method/source and baseline package](audits/publication-readiness-b3/report.md) supplies source access tiers, exact historical identities and the single investigated executable baseline. Publication remains NOT CLEARED.
 
 - [B2 documentation corrections and reader aids](audits/publication-readiness-b2/report.md):
