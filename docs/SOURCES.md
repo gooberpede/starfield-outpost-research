@@ -141,7 +141,7 @@ Original interpretation of Bethesda's pinned executable and existing/new bounded
 Ghidra read-only/no-analysis exports. Ghidra 12.1.2_PUBLIC, Temurin 21.0.12+8-LTS
 and existing owned reader/wrapper reused; CPython 3.14.3 stdlib runs checks.
 Maintainer-owned evaluator, protected 070 evidence, preservation and patch methods
-reused from baseline HEAD6475a1fb4a70711d3035e2c89a05085b9b57f5b4 under SOR-P-0002.
+reused from baseline HEAD 6475a1fb4a70711d3035e2c89a05085b9b57f5b4 under SOR-P-0002.
 Specialist independently traces source-cache/producer/caller/reset boundaries;
 separate reviewer assesses primary evidence against the original brief. No new
 third-party implementation, dependency, licence basis, network or contact.
@@ -252,7 +252,7 @@ Read-only process metadata uses QUERY_LIMITED_INFORMATION; no debugger/game-memo
 reader, forced target intervention, new hook or changed trigger was executed.
 Raw session/logs/marks and proprietary/static payloads remain LOCAL-ONLY.
 
-## SOR-S-0142 â€” Native oracle engineering contracts and provenance
+## SOR-S-0142 — Native oracle engineering contracts and provenance
 
 2026-10-11, [SOR-EXP-0031 / SOR-EV-0039](experiments/native-oracle/review.md).
 Microsoft's [x64 calling convention](https://learn.microsoft.com/en-us/cpp/build/x64-calling-convention?view=msvc-170),
@@ -272,7 +272,7 @@ MSVC/MASM/SDK/CPython execute only original disposable/build programs; no game,
 SFSE loader, debugger, new tool download or network upload executes in Phase A.
 Native/raw/proprietary inputs remain LOCAL-ONLY; authored reports REVIEW-REQUIRED.
 
-## SOR-S-0140 â€” OpenAI agent documentation and local session capabilities
+## SOR-S-0140 — OpenAI agent documentation and local session capabilities
 
 2026-10-11: OpenAI's [Multi-agent documentation](https://developers.openai.com/api/docs/guides/agents-api/multi-agent)
 was consulted read-only for general delegation/context coordination, not as proof
@@ -340,7 +340,7 @@ No new dependency/code incorporated.
 receipt ignored. Conceptual event/lifetime/health provenance under SOR-P-0002;
 no sibling code or embedded third-party material copied.
 
-**SOR-S-0134:** LarannKiar, [Starfield Engine Fixes â€” SFSE](https://www.nexusmods.com/starfield/mods/10457),
+**SOR-S-0134:** LarannKiar, [Starfield Engine Fixes — SFSE](https://www.nexusmods.com/starfield/mods/10457),
 visible 21.2/update 2026-10-04, accessed 2026-10-11. Primary description/changelog/
 permission panel; [exact claim/access ledger](experiments/event-oracle/prior-art.md).
 Optional-feature regressions, not verified vanilla spinner fix. No download,
@@ -362,7 +362,7 @@ exit reports; those remain distinct from captured bytes. No new external
 consultation, dependency, code reuse, contact or permission basis. Full raw and
 private receipts local; original source/tool credits retained.
 
-### SOR-S-0132 extension â€” Installed 0.1.1 deployment and smoke startup
+### SOR-S-0132 extension — Installed 0.1.1 deployment and smoke startup
 
 [EXP0022 / EV0030](audits/observer-011-post-deployment-preflight.md) reads exact
 approved ZIP/build, actual installation/Vortex staging/deployment metadata,
@@ -374,7 +374,7 @@ raw/session/save evidence remains LOCAL-ONLY; no scientific oracle claim.
 Fixed-POI candidate note reuses original SOR-S-0129 installed-anchor/native
 evidence, not third-party prior-art claims or newly executed native research.
 
-### SOR-S-0133 â€” Maintainer-owned resource research/reproducer methods
+### SOR-S-0133 — Maintainer-owned resource research/reproducer methods
 
 For [EXP0021](experiments/durable-position-engine-oracle.md), read-only connected
 GitHub default-branch/revision checks and local history inspection of
@@ -385,7 +385,7 @@ SOR-P-0002 maintainer-owned basis; no code/tests/data copied, no embedded
 third-party material reused, no fork/PR/contact. Published validation totals
 are source reports, not rerun here. Local receipts pin consulted file hashes.
 
-### SOR-S-0132 extension â€” Retail native oracle and qualified saved-position model
+### SOR-S-0132 extension — Retail native oracle and qualified saved-position model
 
 [EXP0021](experiments/durable-position-engine-oracle.md) continues original project
 reader/math/observer evidence and pinned installed Bethesda retail 1.16.244.0
@@ -399,62 +399,62 @@ project exp0002a code; no native-save work reopened. New DLL/ZIP and process
 output stay ignored; no downloads/deployment/disclosure. Selected numerical
 records remain authored REVIEW-REQUIRED material, not cleared for publication.
 
-## SOR-EXP-0020 source extensions â€” accessed 2026-10-10
+## SOR-EXP-0020 source extensions — accessed 2026-10-10
 
 SOR-S-0127/0128 Bethesda pinned native/ESM supplies typed saved-world restoration, frame selection and residual-consumer evidence in [EXP0020](experiments/activated-overlay-static-exhaustion.md). SOR-S-0124 original project streaming/framing/ESM/math readers reused with exact verification hashes; SOR-S-0132/EV0024 existing user observer evidence freshly reverified. Independent manual Save52 network retains its prior authorship/provenance and is a body/system identity check only. SOR-S-0105/0113 installed Ghidra 12.1.2/JDK 21/CPython stdlib supply separate tools. No additional external-source incorporation/contact/download or permission basis. Countermodels are original mathematics, source-informed rather than claimed clean-room native implementation.
 
-## SOR-EXP-0019 source extensions â€” accessed 2026-10-10
+## SOR-EXP-0019 source extensions — accessed 2026-10-10
 
-SOR-S-0127/0128 installed Bethesda executable/ESM supply typed overlay activation/rebase, grid hierarchy/seams and SFBK/SFPT footprint evidence in [report/native map](experiments/activated-overlay-and-grid-geometry.md). SOR-S-0124 original project readers/math are reused, exact script hashes retained in local verification. SOR-S-0132/EV0024 supplies freshly reverified archived observer captures, no new acquisition. SOR-S-0105/0113 installed Ghidra 12.1.2/JDK 21 and CPython/stdlib are separate tools. SOR-S-0131 both required old.reddit URLs retried and unavailable; authors/text remain unrecovered, brief-reported 2Ã—2 is a lead only. No outside code/assets incorporated, downloads, contact or new reuse permission; source-informed original numerical tooling, not a clean-room claim.
+SOR-S-0127/0128 installed Bethesda executable/ESM supply typed overlay activation/rebase, grid hierarchy/seams and SFBK/SFPT footprint evidence in [report/native map](experiments/activated-overlay-and-grid-geometry.md). SOR-S-0124 original project readers/math are reused, exact script hashes retained in local verification. SOR-S-0132/EV0024 supplies freshly reverified archived observer captures, no new acquisition. SOR-S-0105/0113 installed Ghidra 12.1.2/JDK 21 and CPython/stdlib are separate tools. SOR-S-0131 both required old.reddit URLs retried and unavailable; authors/text remain unrecovered, brief-reported 2×2 is a lead only. No outside code/assets incorporated, downloads, contact or new reuse permission; source-informed original numerical tooling, not a clean-room claim.
 
-## SOR-EXP-0018 source extensions â€” accessed 2026-10-10
+## SOR-EXP-0018 source extensions — accessed 2026-10-10
 
 SOR-S-0127/0128: [typed native and installed-definition evidence](experiments/durable-outpost-center-and-object-transforms.md#transformation-map); SOR-S-0132/EV0024: existing user captures freshly rechecked, no new acquisition. SOR-S-0105/0113: installed Ghidra/JDK and CPython/stdlib separate-tool use. SOR-S-0124: prior project framing/math reused with exact local script hashes. SOR-S-0130/0131: [CPS metadata/permissions recheck and failed Reddit/Wayback retrieval](experiments/durable-outpost-center-and-object-transforms.md#prior-art-and-access-outcome). Consultation only; no third-party code/assets reused, permission basis accepted, installation or contact.
 
-## SOR-S-0132 â€” Maintainer reference census and handle association reuse
+## SOR-S-0132 — Maintainer reference census and handle association reuse
 
 2026-10-10, [SOR-EXP-0016 review/provenance](audits/live-beacon-observer.md). `gooberpede/starfield-reference-handles` at commit `6a77579a184c64e0c080c8f3b7883c34bd17e24b`, clean local working tree. `plugin/reference-observer/src/census.h`, `census.cpp`, `snapshot.h`, `snapshot.cpp` and plugin README supply finite stock-pool enumeration, repeated slot/identity checks, spatial roots and handle index/generation association. Maintainer-authored algorithms/constants conceptually reused/adapted in `runtime/beacon-observer/capture.h` under SOR-P-0002, with exact file hashes/HEAD equivalence in local review receipts. No native helper, hook, CommonLib, assembler or embedded third-party implementation incorporated. Existing project guarded Windows/SHA/JSON helpers reused; exact approved SFSE header unchanged under SOR-P-0001/SOR-S-0114. Bethesda native/static exports SOR-S-0127/0129 provide field/coordinate candidates, with no decompiler text incorporated; Ghidra is not executed this pass. Installed Microsoft compiler/SDK/system DLLs and CPython stdlib supply separate build/qualification tools, no downloaded/bundled runtime. Current staged SFSE bytes are not a loaded-runtime validation. No external contact/fork/PR or publication clearance.
 
-## SOR-S-0131 â€” Required tiling threads, access-limited
+## SOR-S-0131 — Required tiling threads, access-limited
 
-2026-10-09. [Tiling example](https://old.reddit.com/r/Starfield/comments/1vqcjk3/found_a_perfect_example_of_starfields_tiling/) and [tile observations](https://old.reddit.com/r/NoSodiumStarfield/comments/1cr7w8t/obervations_on_starfields_tile_system/), latter existing SOR-S-0130/PA09: primary old/www fetches unavailable, ID/title search did not recover complete original text/authors. Requested full reading **not completed**. Brief-reported repetition/grid/rotation/mirror/2Ã—2 remain hypotheses, not authenticated quotes. [Comparison](experiments/exact-beacon-planetary-coordinates.md#prior-art-and-publication). No code/assets/contact/fork/PR; authorship UNKNOWN where unrecovered.
+2026-10-09. [Tiling example](https://old.reddit.com/r/Starfield/comments/1vqcjk3/found_a_perfect_example_of_starfields_tiling/) and [tile observations](https://old.reddit.com/r/NoSodiumStarfield/comments/1cr7w8t/obervations_on_starfields_tile_system/), latter existing SOR-S-0130/PA09: primary old/www fetches unavailable, ID/title search did not recover complete original text/authors. Requested full reading **not completed**. Brief-reported repetition/grid/rotation/mirror/2×2 remain hypotheses, not authenticated quotes. [Comparison](experiments/exact-beacon-planetary-coordinates.md#prior-art-and-publication). No code/assets/contact/fork/PR; authorship UNKNOWN where unrecovered.
 
-### SOR-S-0127 /0129 extension â€” Native terrain projection
+### SOR-S-0127 /0129 extension — Native terrain projection
 
 [SOR-EXP-0015](experiments/exact-beacon-planetary-coordinates.md): Bethesda installed native constants/initialization, loader/rebase and coordinate consumers, pinned hash/VA/RVA/export identities. Original source-informed mathematical implementation, no copied decompiler text or clean-room claim. Ghidra/JDK SOR-S-0105 and CPython/zlib SOR-S-0113 separate-tool use; maintainer archive/framing methods SOR-S-0124. Full proprietary exports LOCAL-ONLY; authored scripts/summaries REVIEW-REQUIRED, no outside implementation incorporated.
 
 
-## SOR-S-0129 â€” Pinned planetary surface-placement evidence
+## SOR-S-0129 — Pinned planetary surface-placement evidence
 
 Bethesda Game Studios installed Starfield 1.16.244.0, existing SOR-ENV-0001. [SOR-EXP-0013](experiments/planetary-surface-anchor-semantics.md) independently inspects spherical selection, named angle consumption, CTPlanetOverlayData creation and PNDT fixed-world loading. Fresh ESM/executable hashes, native VA/RVA locators, 15 ignored export identities, source/decoded-save hashes and selected numeric rows are in [SOR-EV-0019](experiments/planetary-surface-anchor/README.md). Complete proprietary payload/decompilation remains LOCAL-ONLY; original project numerical/parser code expresses observations, no native implementation text incorporated. Installed Ghidra 12.1.2/JDK 21, Python 3.14.3/stdlib retain SOR-S-0105/0113 separate-tool credit; project readers/methods SOR-S-0124 and earlier SOR-S-0127/0128 remain credited. No historical content/build equivalence or load authority is inferred.
 
-## SOR-S-0130 â€” Public planetary-coordinate and tiling prior art
+## SOR-S-0130 — Public planetary-coordinate and tiling prior art
 
 Consulted 2026-10-09; [author-by-author original URLs, dates, versions, claims, access limits and confirmation](experiments/planetary-surface-anchor/prior-art-and-leads.md). Tinbite Solomon/omaops (CPS GPS), Mesmacat and Anig (CK guides), MikkoK141/forum contributors (POI/terrain methods), PixelRick/Even ENTEM and deveris256 (biome experiments), thecommabandit (planet/location/texture experiments), goarray (planet catalog lead), and identified/unknown original Reddit observers supplied questions and prior research. Public prose/README metadata/indexed excerpts only; no source implementation adapted, parser/mod installed, assets copied, dependency downloaded, upstream contact, fork or PR. Angle/local-frame claims were independently checked to the explicitly reported scope; other tiling/resource/appearance and Earth-calibration claims remain SOURCE-REPORTED. MIT labels/restrictive panels are consultation metadata, not an accepted reuse basis; [permission boundary](PERMISSIONS.md#sor-exp-0013--public-consultation-only).
 
-### SOR-S-0113 extension â€” Output-link validation, 2026-10-07
+### SOR-S-0113 extension — Output-link validation, 2026-10-07
 
-Installed CPython 3.14.3 and standard-library zlib runtime 1.3.1.zlib-ng supplied separate offline execution, hashing, BCPS decompression, structured comparisons and CSV/JSON generation for [SOR-EXP-0004](experiments/output-link-validation-L0-L2C.md). Python Software Foundation/CPython and zlib/zlib-ng contributors credited; no third-party implementation or dependency incorporated. Existing project-authored S0â€“S7C decoder/diff/candidate definitions reused with hashes/commit recorded in provenance and local preregistration. Bethesda locally owned saves supplied the evidence; no game data/raw save redistribution. No external source consultation or expanded code permission was needed.
+Installed CPython 3.14.3 and standard-library zlib runtime 1.3.1.zlib-ng supplied separate offline execution, hashing, BCPS decompression, structured comparisons and CSV/JSON generation for [SOR-EXP-0004](experiments/output-link-validation-L0-L2C.md). Python Software Foundation/CPython and zlib/zlib-ng contributors credited; no third-party implementation or dependency incorporated. Existing project-authored S0–S7C decoder/diff/candidate definitions reused with hashes/commit recorded in provenance and local preregistration. Bethesda locally owned saves supplied the evidence; no game data/raw save redistribution. No external source consultation or expanded code permission was needed.
 
-### SOR-S-0113 extension â€” Manual corpus, 2026-10-07
+### SOR-S-0113 extension — Manual corpus, 2026-10-07
 
 Installed CPython 3.14.3 standard-library hashing, filesystem, struct, JSON, CSV, difflib, unittest and zlib runtime `1.3.1.zlib-ng` executed original bounded offline scripts for [SOR-EXP-0003](experiments/manual-save-corpus-S0-S7C.md). Credit Python Software Foundation/CPython contributors and zlib/zlib-ng contributors for separate installed tooling. No implementation/example, redistributable runtime or new dependency was copied into this repository. The BCPS bounds/alignment and candidate motifs were derived from the authorized local corpus, not from a third-party parser. Exact runtime/script/input/decoded hashes are in local SOR-EV-0009 manifests. Tool/checksum success is not semantic validation.
 
 Existing SOR-S-0103/0104 findings supplied the independently recorded beacon/storage definition numbers and script vocabulary used only as candidate comparisons. Bethesda's save bytes are local research inputs; no raw saves, decoded blobs or bulk string inventories are proposed for tracking. No new source implementation consultation, maintainer-code adaptation or permission expansion occurred in this pass.
 
-### SOR-S-0122 â€” Maintainer debugger lifecycle research and scoped tooling reuse
+### SOR-S-0122 — Maintainer debugger lifecycle research and scoped tooling reuse
 
 2026-10-07, `gooberpede/starfield-reference-handles`, clean local checkout/origin verified at commit `6a77579a184c64e0c080c8f3b7883c34bd17e24b`. Consulted debugger/README.md, debugger/native/README.md, native Win32 hardware/RF core, startup/post-title/destructive adapters, probe_attach.py and lifecycle/capability reports. Exact per-file hashes and copied/adapted/conceptual uses: [provenance](../debugger/exp0002a/maintainer/PROVENANCE.md). SOR-P-0002 supplies the maintainer-authored rights/user grant, not a blanket grant for contained third-party work. Initial correction copied lifecycle_checks.py and adapted only offline read_rows/validate. SOR-D-0016 subsequently adapts the native RF core into the one-request adapter and runs bounded fresh disposable controls; [results](audits/exp0002a-adapter-qualification.md) include an unresolved new-thread retirement failure. No sibling disabled live adapter was enabled. Historical negative outcomes inform backend selection, not current-game findings. Raw sibling disposable evidence replay is explicitly historical. No self-credit/notice required; provenance retained at use.
 
-### SOR-S-0123 â€” Installed Ghidra dbgeng capability assessment
+### SOR-S-0123 — Installed Ghidra dbgeng capability assessment
 
 Ghidra 12.1.2 PUBLIC local `Ghidra/Debug/Debugger-agent-dbgeng/`: data/support/local-dbgeng-attach.py (attach/wait sequence), pypkg/src/ghidradbg/methods.py (attach_pid, break_hw_address, detach), commands.py (ghidra_trace_attach), pypkg/pyproject.toml (ghidratrace12.1/Pybag dependency). Read-only inspection 2026-10-07; exact file hashes in correction backend-inventory.json. Confirms available implementation paths, not an executed Ghidra session or safe lifecycle. No source/dependency incorporation, install or debugger execution. Prior Ghidra credit SOR-S-0105 applies; [ordered assessment](audits/exp0002a-debugger-correction.md). Maintainer exception does not cover these third-party files.
 
-### SOR-S-0120 â€” SFSE serialization addresses as a rejected current-build lead
+### SOR-S-0120 — SFSE serialization addresses as a rejected current-build lead
 
 Ian Patterson and SFSE contributors, read-only consultation 2026-10-07; pin `48535cc4306ab345252bf740c20a1c6194929b0e`, [sfse/Hooks_Serialization.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/Hooks_Serialization.cpp). Exact declaration locators SaveGame_Call, SaveGame_Original, DeleteSaveGame_Original and Hooks_Serialization_Commit / disabled installation. Substantive influence: distinguishing save wrapper/serializer, choosing a high-layer search and testing old addresses before use. Retail checks reject address/signature transfer; [EXP0002A report](experiments/SOR-EXP-0002A-native-save-thread-mapping.md), SOR-F-0007. No hook code, binding, layout, comment or source fragment incorporated. SOR-P-0001 remains limited to the already approved PluginAPI.h. Consultation is neither broader reuse permission nor author endorsement.
 
-### SOR-S-0121 â€” x64dbg headless command and breakpoint behavior
+### SOR-S-0121 — x64dbg headless command and breakpoint behavior
 
 x64dbg contributors/documentation authors, consulted 2026-10-07. Installed revision label `9c8ca1cae0b6d56cc44f31fddcb10e3b02ffbb87`; read-only [src/headless/headless.cpp](https://github.com/x64dbg/x64dbg/blob/9c8ca1cae0b6d56cc44f31fddcb10e3b02ffbb87/src/headless/headless.cpp), [src/dbg/x64dbg.cpp](https://github.com/x64dbg/x64dbg/blob/9c8ca1cae0b6d56cc44f31fddcb10e3b02ffbb87/src/dbg/x64dbg.cpp), [src/dbg/commands/cmd-debug-control.cpp](https://github.com/x64dbg/x64dbg/blob/9c8ca1cae0b6d56cc44f31fddcb10e3b02ffbb87/src/dbg/commands/cmd-debug-control.cpp) and [src/dbg/debugger.cpp](https://github.com/x64dbg/x64dbg/blob/9c8ca1cae0b6d56cc44f31fddcb10e3b02ffbb87/src/dbg/debugger.cpp). Locators: headless stdin command loop; -userdir/-cf parsing; cbDebugAttach's PROCESS_ALL_ACCESS and hexadecimal failure PID; cbDebugDetach breakpoint removal; Events/TlsCallbacks default true. Used to understand the installed interface, failed attach and unexpected TLS sites. No debugger implementation adapted/incorporated. Original Python command orchestration invokes the installed executable as a separate tool; no SDK linking, vendoring or new dependency.
 
@@ -466,7 +466,7 @@ Record meaningful sources when they influence the work. A source entry is not a 
 
 ## Sources used for scaffold preparation
 
-### SOR-S-0001 â€” User-supplied reference scaffold
+### SOR-S-0001 — User-supplied reference scaffold
 
 - Source: `starfield-reference-handles-scaffold(1).zip`, attached to the setup request; no public URL supplied.
 - Supplier: project maintainer. Original per-file authorship/rights not independently established from an upstream repository.
@@ -476,7 +476,7 @@ Record meaningful sources when they influence the work. A source entry is not a 
 - Permission/user decision: use as the structural reference explicitly requested; not a blanket grant for third-party content it might identify. Decision `SOR-D-0006`.
 - Credit: [CREDITS.md](../CREDITS.md). No claim of independent validation of the reference-handle research.
 
-### SOR-S-0002 â€” GNU GPLv3 text and SPDX version-choice reference
+### SOR-S-0002 — GNU GPLv3 text and SPDX version-choice reference
 
 - Author of licence text: Free Software Foundation, Inc.; licence dated 29 June 2007.
 - Public reference: <https://spdx.org/licenses/GPL-3.0-or-later.html>; inspected 2026-10-01.
@@ -486,7 +486,7 @@ Record meaningful sources when they influence the work. A source entry is not a 
 - Permission: the licence document expressly permits verbatim copying/distribution; its notice is retained. This legal-text inclusion implements the user's chosen GPL licence, not approval to reuse any software implementation.
 - Credit: [CREDITS.md](../CREDITS.md) and [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md).
 
-### SOR-S-0003 â€” Git attributes and ignore documentation
+### SOR-S-0003 — Git attributes and ignore documentation
 
 - Author/project: Git documentation contributors.
 - Sources: <https://git-scm.com/docs/gitattributes> and <https://git-scm.com/docs/gitignore>; inspected 2026-10-01, online documentation rather than a pinned source checkout.
@@ -494,21 +494,21 @@ Record meaningful sources when they influence the work. A source entry is not a 
 - Scope: reference use, not copied Git implementation code; no dependency/binary bundled.
 - Affected files: `.gitattributes`, `.gitignore`, `WORKFLOW.md`, and evidence instructions. Credit: [CREDITS.md](../CREDITS.md).
 
-### SOR-S-0004 â€” GitHub local-repository and remote instructions
+### SOR-S-0004 — GitHub local-repository and remote instructions
 
 - Author/project: GitHub documentation contributors.
 - Sources: <https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github> and <https://docs.github.com/en/get-started/git-basics/managing-remote-repositories>; inspected 2026-10-01.
 - Contribution: historical reference for owner-operated initial push/remote instructions in `GIT_SETUP.md`, absent from the current checkout. Original provenance retained; no new setup instructions or Git action inferred.
 - Scope: standard command usage tailored to the user's paths, not copied GitHub implementation; no dependency bundled. Credit: [CREDITS.md](../CREDITS.md).
 
-## Candidate outpost-research leads â€” not validated or approved
+## Candidate outpost-research leads — not validated or approved
 
 These names came from the earlier discussion, not a completed prior-work audit in this project. They are listed to preserve leads, not to assert functionality, licence coverage, or release compatibility.
 
 | Source ID | Candidate | Purpose of possible review | Current status |
 |---|---|---|---|
-| SOR-S-0101 | `Nexus-Mods/StarfieldSaveTool` â€” <https://github.com/Nexus-Mods/StarfieldSaveTool> | Container/metadata capability and limitations | README rechecked 2026-10-06; details below; no implementation adopted |
-| SOR-S-0102 | `rux616/modding-sf1-scripts-vanilla` â€” <https://github.com/rux616/modding-sf1-scripts-vanilla> | Script provenance/version discovery | README rechecked 2026-10-06; local Bethesda archive used for code inspection |
+| SOR-S-0101 | `Nexus-Mods/StarfieldSaveTool` — <https://github.com/Nexus-Mods/StarfieldSaveTool> | Container/metadata capability and limitations | README rechecked 2026-10-06; details below; no implementation adopted |
+| SOR-S-0102 | `rux616/modding-sf1-scripts-vanilla` — <https://github.com/rux616/modding-sf1-scripts-vanilla> | Script provenance/version discovery | README rechecked 2026-10-06; local Bethesda archive used for code inspection |
 
 At the initial lead-recording stage no third-party outpost claim was promoted to a finding and no reuse approval existed; later scoped SFSE header approval is recorded below. Prior conversation citations and summaries must be checked before use. Add other sources only when actually consulted or deliberately registered as a lead; do not populate a ceremonial list of tools never used.
 
@@ -516,87 +516,87 @@ At the initial lead-recording stage no third-party outpost claim was promoted to
 
 Use [templates/source.md](templates/source.md). Record author/owner, exact title/location and commit/version, access date, contribution, inspection status, original rights-holder/licence evidence, affected findings/files, permission decisions, credits, and public/private evidence locations. Preserve original attribution when later independently reproducing a result.
 
-## Initial reconnaissance consultation â€” 2026-10-06
+## Initial reconnaissance consultation — 2026-10-06
 
 Inspector: Codex at maintainer direction; all entries affect [SOR-EXP-0001](experiments/initial-outpost-system-reconnaissance.md). Public pages are read-only consultations, not tool downloads, execution, code reuse or permissions. Web snapshots may be stale; versions below identify returned pages, not verified latest releases. Commit hashes not exposed by the retrieved page remain UNKNOWN. Project notes are REVIEW-REQUIRED; raw local inputs/exports are LOCAL-ONLY. No publication clearance or author contact.
 
-### SOR-S-0101 â€” StarfieldSaveTool recheck
+### SOR-S-0101 — StarfieldSaveTool recheck
 
 Nexus Mods contributors; repository README on `master`, commit UNKNOWN. The description explicitly limits primary JSON work to metadata and excludes interpretation of main data blocks. This is a container/metadata lead, not an established outpost-state parser. README credits Mod Organizer 2 and Silarn for earlier format help. No implementation/templates inspected or adopted; no obvious licence file in retrieved root listing, rights basis UNKNOWN. Future execution/reuse requires its own review. SOURCE-REPORTED; no saves read here.
 
-### SOR-S-0102 â€” Vanilla-script mirror recheck
+### SOR-S-0102 — Vanilla-script mirror recheck
 
 rux616; `main` README, commit UNKNOWN. It reports CK/game 1.16.244.0 and version/build-labelled tags, and attributes underlying software rights to Bethesda. Useful as a version/provenance lead only. No mirror scripts/compiler imported. Locally installed `ContentResources.zip` was independently found and inspected (SOR-S-0104); mirror byte equivalence NOT CHECKED. Mirror accessibility grants no reuse rights.
 
-### SOR-S-0103 â€” xEdit documentation/tool
+### SOR-S-0103 — xEdit documentation/tool
 
 TES5Edit/xEdit contributors; [overview](https://tes5edit.github.io/docs/2-overview.html) command-line section and [API reference](https://tes5edit.github.io/docs/13-Scripting-Functions.html) getters, traversal, loaded-file and output APIs. Online documentation version/commit UNKNOWN; local tool identified in SOR-ENV-0001. Consulted API contracts to author a small independent reader; no example script or implementation copied/adapted. View mode and cache flags are documentation-reported, not yet qualified by this project. Existing local log identifies MPL-2.0 for xEdit source; documentation-specific rights UNKNOWN. User authorizes separate-tool operation/helper placement through SOR-D-0009; no software redistribution. See [helper](../xedit/README.md).
 
-### SOR-S-0104 â€” Bethesda installed development sources
+### SOR-S-0104 — Bethesda installed development sources
 
 Bethesda Game Studios; installed `Tools/ContentResources.zip`, exact hash/size in SOR-ENV-0001. Inspected selected `Scripts/Source/*.psc` entries locally, byte-identical extraction only into ignored private workspace. Original declarations/control flow support scoped STATIC findings; compiled PEX equivalence and actual VM execution remain unchecked. Underlying proprietary script rights remain Bethesda's, not the project GPL; no game code redistributed. The brief explicitly authorizes local inspection, not incorporation. Exact entry hashes and line anchors are recorded with SOR-EV-0001.
 
-### SOR-S-0105 â€” Ghidra
+### SOR-S-0105 — Ghidra
 
 NSA/Ghidra contributors; installed 12.1.2 PUBLIC, revision `c0f584bf229fffba61b36431f3ce30c0c3e4e682`. Local `support/analyzeHeadlessREADME.html`, launcher configuration and Java API used for bounded existing-program inspection. Headless documentation establishes `-readOnly -noanalysis` behavior; preservation is separately checked. Local launcher carries Apache-2.0 notice; no Ghidra source redistributed. Original `OutpostRecon.java` uses tool APIs, no sibling exporter code reused. Executed under brief Phase E; generated game-derived exports remain LOCAL-ONLY.
 
-### SOR-S-0106 â€” SKK Universal Stash
+### SOR-S-0106 — SKK Universal Stash
 
 SKKmods; [Nexus description/changelog](https://www.nexusmods.com/starfield/mods/5670?tab=description), returned version 009, updated 2024-06-23. SOURCE-REPORTED: distinguishes capped outpost production collectors from unlimited stash; reports workbench reconnection after unload and inventory consequences of removing transfer containers. These motivate capacity, unload and removal controls; none reproduced here. Page prohibits redistribution and requires permission for modification/assets; do not reuse scripts. Documentation only, no files downloaded. Affects storage/lifecycle/time questions.
 
-### SOR-S-0107 â€” Cargo-link return-flow issue
+### SOR-S-0107 — Cargo-link return-flow issue
 
 Constellation-VASCO / Starfield Community Patch issue [#155](https://github.com/Starfield-Community-Patch/Starfield-Community-Patch/issues/155), issue page reports game version `1.0`, exact executable UNKNOWN, status Needs Vetting in returned page. SOURCE-REPORTED: outgoing material appears at its own incoming endpoint, with reported player-presence/sleep sensitivity. Used as a counterexample lead requiring loaded/unloaded controls, not proof of an engine defect in 1.16.244.0. Text rights UNKNOWN; short factual paraphrase only; no issue interaction or code consulted.
 
-### SOR-S-0108 â€” CommonLibSF scope and coverage
+### SOR-S-0108 — CommonLibSF scope and coverage
 
 libxse contributors; [README](https://github.com/libxse/commonlibsf), `main`, commit UNKNOWN; [include/RE/W listing](https://github.com/libxse/commonlibsf/tree/main/include/RE/W). Reports reverse-engineered library and GPL-3.0-or-later with Modding and Linking exceptions. Full file-specific terms not audited; no reuse decision. Returned W directory did not expose a Workshop header; this narrow negative search does not establish absence elsewhere. No offsets/layouts adopted. Useful future native-interface lead, presently LEAD/CONSULTED rather than validation.
 
-### SOR-S-0109 â€” OUT: Outpost Ultimate Tweaks and add-ons
+### SOR-S-0109 — OUT: Outpost Ultimate Tweaks and add-ons
 
 SenterPat; [Nexus description](https://www.nexusmods.com/starfield/mods/7013?tab=description) and [documentation search result](https://www.nexusmods.com/starfield/mods/7013?tab=docs). Returned description version 1.57, updated 2024-06-08; cached snapshot, current status UNKNOWN. SOURCE-REPORTED: outpost build/content expansion; documentation search snippet raises robot crew assignment/bonus constraints. Snippet-level robot claim is a provisional discovery lead only; full supporting implementation not inspected. Rights not established for incorporation; no mod/code downloaded. Affects construction and assignment questions.
 
-### SOR-S-0110 â€” Unique-Resource Containers
+### SOR-S-0110 — Unique-Resource Containers
 
 Sgtsplat / iamsgtsplat; [Nexus description](https://www.nexusmods.com/starfield/mods/13016?tab=description), returned version 1.1, updated 2025-02-09. SOURCE-REPORTED: resource-specific small containers and transfer-container links. A useful single-resource control idea; not a validation of capacity/link semantics. Retrieved permissions prohibit reupload and require modification permission. No implementation downloaded or used; local vanilla container code was inspected independently. Affects storage/local-link test design.
 
-### SOR-S-0111 â€” Sibling environment lead
+### SOR-S-0111 — Sibling environment lead
 
 Maintainer's local `starfield-reference-handles`, `docs/PROVENANCE.md` and `ghidra/README.md`, inspected 2026-10-06. Used only to locate external Ghidra project and documented headless entry point and compare reported SFSE/game versions. No exporter source or engine findings adopted. Commit not pinned; claims remain SOURCE-REPORTED until the independent local checks in SOR-ENV-0001. Rights basis for implementation reuse not reviewed; none authorized.
 
-### SOR-S-0112 â€” SFSE installed documentation
+### SOR-S-0112 — SFSE installed documentation
 
 Ian Patterson, Stephen Abel and Expired; local `sfse_readme.txt` identifies 0.2.21 pre-alpha and game compatibility 1.16.244. Read-only identity check; DLL/loader hashes and PE version resources independently recorded. No loader/DLL execution or source incorporation. Documentation/software rights not reviewed for redistribution; no redistribution proposed.
 
-### SOR-EXP-0002 initial offline pass: reuse of existing research sources â€” 2026-10-06
+### SOR-EXP-0002 initial offline pass: reuse of existing research sources — 2026-10-06
 
 SOR-S-0104 supplied installed position/location declarations and proprietary CK/retail string/code inputs; SOR-S-0105 supplied Ghidra's existing xrefs/instruction/decompiler rendering through the unchanged original reader; SOR-S-0112 installed loader/DLL identities were rehashed only. Exact hashes/anchors and limitations in SOR-EV-0002. No Bethesda source/native bytes or Ghidra exports promoted into Git; no SFSE/CommonLib/sibling implementation inspected for adaptation or incorporated. Prior xEdit relationship/display-name observations (SOR-S-0103, SOR-EV-0001) informed the planned small solid-storage choice. These uses are research/tool attribution, not new code-reuse approval.
 
-### SOR-S-0113 â€” Installed CPython separate-tool execution
+### SOR-S-0113 — Installed CPython separate-tool execution
 
 Python Software Foundation and CPython contributors; installed Python 3.14.3. Used under SOR-D-0010 for original offline scripts with standard-library hashing, JSON, PE byte reads, ZIP reads, timestamps, file flushing and synthetic unittest fixtures. Exact executable hash/locator in SOR-EV-0002 local tooling manifest. No CPython implementation, examples, package, bindings or redistributable runtime copied into the repository; no dependency download. Separate-tool operation only, not approval to vendor Python or other libraries. Affects research/exp0002 helpers and their offline validation. Tool success does not validate engine semantics.
 
-### SOR-S-0114 â€” SFSE public interface header
+### SOR-S-0114 — SFSE public interface header
 
 Ian Patterson; [PluginAPI.h](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/PluginAPI.h) and [LICENSE](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/LICENSE), commit `48535cc4306ab345252bf740c20a1c6194929b0e`, fetched 2026-10-06 through read-only GitHub connector after exact user approval. MIT applies explicitly to this header only; preserved at runtime/exp0002/third_party/sfse. SOR-P-0001 documents the user's licence acceptance and exact use. The header supplies version/interface/task/messaging declarations. Runtime remains external; no other SFSE source incorporated. Source text preserved with LF normalization; build manifest hashes local files. REVIEW-REQUIRED package, no publication approval.
 
-### SOR-S-0115 â€” Sibling observer architecture and research locators
+### SOR-S-0115 — Sibling observer architecture and research locators
 
 Maintainer's [starfield-reference-handles](https://github.com/gooberpede/starfield-reference-handles), local HEAD `6a77579a184c64e0c080c8f3b7883c34bd17e24b`. Read-only README, plugin README, provenance/SFSE licensing and engine-layout/function research records on 2026-10-06. Supplied build feasibility, external-dependency boundaries and cell/reference instruction locators. No sibling observer source/build scripts copied or adapted. Native operand locators were independently checked in this project's pinned existing Ghidra program. This expands SOR-S-0111's earlier environment-only consultation for this continuation, not retroactively for EXP0001. Source-informed research is credited; sibling findings are not live validation here.
 
-### SOR-S-0116 â€” CommonLibSF layout/type research leads
+### SOR-S-0116 — CommonLibSF layout/type research leads
 
 libxse/CommonLibSF contributors; local dependency pin `e0dbccd3a3716363f6b99194c98b7d2cccf2e7e6`, [repository](https://github.com/libxse/commonlibsf). Consulted TESObjectCELL, TESObjectREFR, TESForm, PlayerCharacter, BSTArray and IDs headers as research references on 2026-10-06 under user's clarification. Field/type leads only; no source, bindings, class declarations, dependencies or tests incorporated/linked. No library build was performed. Native cell flags/worldspace operands disagreed with the consulted layout and take precedence (STATIC-CONTRACT.md). No licence accepted for code reuse; any later incorporation needs a separate exact approval.
 
-### SOR-S-0117 â€” Microsoft native build/debugger facilities
+### SOR-S-0117 — Microsoft native build/debugger facilities
 
 Existing PowerShell 7.6.5 is used for the original request helper without changing execution policy; Windows PowerShell 5.1 refused scripts under its existing policy. Installed Visual Studio 2026 Community 18.9.0, MSVC toolset 14.51.36231/compiler 19.51.36256, Windows SDK 10.0.26100.0. Separate installed tooling compiled original C++20 code; no package download, copied Microsoft example implementation or redistributed SDK/runtime. Exact paths/hashes/compiler-pass output in local build/tool manifests. Windows SDK declarations and system libraries support process reads, hashing, flushing, task worker and future debugger control.
 
-### SOR-S-0118 â€” SFSE save/load notification implementation, read-only diagnosis
+### SOR-S-0118 — SFSE save/load notification implementation, read-only diagnosis
 
-Ian Patterson and SFSE contributors; consulted 2026-10-06 at the same pinned commit `48535cc4306ab345252bf740c20a1c6194929b0e`: [sfse.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/sfse.cpp), [Hooks_Serialization.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/Hooks_Serialization.cpp), and [Hooks_Data.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/Hooks_Data.cpp). Read-only source inspection after the primary A0 attempt returned loading_before_task with load generation zero. Serialization hook installation is compiled out at lines 81â€“98; the save-load wrapper contains the PreLoadGame/PostLoadGame dispatch. Interface enum availability therefore does not establish operational notification delivery. Data-load notifications concern game data, not a demonstrated substitute for save-load safety. This is source evidence explaining an observed integration failure, not proof of the installed DLL's complete control flow. No source implementation, hook, address or adaptation was incorporated; only the previously approved interface header remains reused. See the [Gate B run record](experiments/EXP0002-gate-b-run.md).
+Ian Patterson and SFSE contributors; consulted 2026-10-06 at the same pinned commit `48535cc4306ab345252bf740c20a1c6194929b0e`: [sfse.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/sfse.cpp), [Hooks_Serialization.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/Hooks_Serialization.cpp), and [Hooks_Data.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/Hooks_Data.cpp). Read-only source inspection after the primary A0 attempt returned loading_before_task with load generation zero. Serialization hook installation is compiled out at lines 81–98; the save-load wrapper contains the PreLoadGame/PostLoadGame dispatch. Interface enum availability therefore does not establish operational notification delivery. Data-load notifications concern game data, not a demonstrated substitute for save-load safety. This is source evidence explaining an observed integration failure, not proof of the installed DLL's complete control flow. No source implementation, hook, address or adaptation was incorporated; only the previously approved interface header remains reused. See the [Gate B run record](experiments/EXP0002-gate-b-run.md).
 
-### SOR-S-0119 â€” SFSE task dispatch implementation, read-only diagnosis
+### SOR-S-0119 — SFSE task dispatch implementation, read-only diagnosis
 
 Ian Patterson and SFSE contributors; consulted 2026-10-06 at pin `48535cc4306ab345252bf740c20a1c6194929b0e`: [PluginManager.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/PluginManager.cpp#L51-L56) routes the interface to TaskInterface; [Hooks_Command.cpp](https://github.com/ianpatt/sfse/blob/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/Hooks_Command.cpp#L21-L46) drains the queue in the command-processing hook, with no thread-ID check there. The approved header's main-thread description was contrasted with actual A0/A0C thread IDs and the loader's main-thread ID. No source code, hook or address was copied/adapted. This supports recording a discrepancy, not asserting complete installed-binary scheduler semantics. See [review 14 run](experiments/EXP0002-review14-run.md). An attempted Hooks_Threads.cpp URL returned no source and supplied no evidence.
 
@@ -610,57 +610,57 @@ SOR-S-0117 extension, 2026-10-07 / SOR-EV-0007: installed Microsoft CDB/dbgeng10
 
 SOR-S-0117 / SOR-S-0123 extension, 2026-10-07: final EXP0002A uses installed CDB/dbgeng10.0.19041.5609 and Microsoft documentation for bp /1, qd and -pd. Ghidra 12.1.2 local-dbgeng-attach.py and ghidradbg/methods.py were inspected as capability references only; no implementation copied. The direct engine console avoids a new Trace RMI/agent integration for this single test. Project-authored deadline guard0.1.4 uses installed OS APIs and Python standard library; no new dependency or sibling reuse. [Backend rationale and exact references](audits/exp0002a-final-software-attempt.md).
 
-### SOR-S-0113 extension â€” Structural containment, 2026-10-08
+### SOR-S-0113 extension — Structural containment, 2026-10-08
 
 Installed CPython 3.14.3 and standard-library zlib `1.3.1.zlib-ng` used separately for SOR-EXP-0005's hash verification, existing bounded BCPS transform, pointer/count/length probes and numeric summaries. Original project-authored code only; no implementation/examples/dependency copied or downloaded. Prior SOR-S-0103 / SOR-F-0004 supply independently inspected beacon/storage definition comparisons, not save-tag authority; no xEdit execution or new ESM inspection in this pass. [Report](experiments/outpost-save-structural-containment.md). No external source consultation/contact or additional permission basis was needed.
 
-### SOR-S-0124 â€” Prior unreviewed mature-save exploratory research
+### SOR-S-0124 — Prior unreviewed mature-save exploratory research
 
 Project/maintainer-directed Codex exploration, `.local-work/mature-save-offbook/`, preserved unchanged on 2026-10-08. Supplies prior discovery of the mature envelope/count grammar, base/prefix windows, name-index subunits, beacon-association pattern and cargo-reference methods. These are hypotheses and source-informed methods; the previous chat summary is not validation. The entire original workspace is hashed in `.local-work/mature-save-validation/before.json`; every exploratory script hash is in final inputs-before/after manifests. Only `local_decode.py` is imported/executed; no exploratory driver is rerun. The new validator conceptually reimplements count/window/name/graph methods and independently challenges them, with a separate physical-stream/count audit. No third-party material/dependency was incorporated or outside service consulted. [Exact provenance and results](experiments/mature-save-outpost-validation.md); SOR-P-0002 maintainer-owned exception remains distinct from execution/publication scope.
 
-SOR-S-0113 extension â€” SOR-EXP-0006: installed CPython 3.14.3 and standard-library zlib facilities perform bounded offline transforms, hashing, synthetic tests and local review exports. No runtime implementation, example code or dependency was copied/downloaded. Prior SOR-S-0103/0104 static marker/keyword definitions inform arithmetic/type comparisons, not a universal save-tag schema. Existing separate-tool credit applies.
+SOR-S-0113 extension — SOR-EXP-0006: installed CPython 3.14.3 and standard-library zlib facilities perform bounded offline transforms, hashing, synthetic tests and local review exports. No runtime implementation, example code or dependency was copied/downloaded. Prior SOR-S-0103/0104 static marker/keyword definitions inform arithmetic/type comparisons, not a universal save-tag schema. Existing separate-tool credit applies.
 
-### SOR-S-0113 / SOR-S-0124 extension â€” Historical inventory, 2026-10-09
+### SOR-S-0113 / SOR-S-0124 extension — Historical inventory, 2026-10-09
 
 [SOR-EXP-0007](experiments/historical-save-inventory-triage.md) uses installed CPython 3.14.3/stdlib zlib separately, project-owned SOR-EXP-0003/0005/0006 directory/grammar/string/window methods and preserved prior exploration as credited source-informed research. Exact imported-script/tool hashes are in the local scan provenance. No outside parser, copied example, new dependency, tool download or external consultation. Prior Bethesda save inputs and xEdit-interpreted definitions retain SOR-S-0103/0104 attribution; header metadata is observed save content, not a measured originating executable. The local offbook decoder was consulted, not imported/executed by this inventory. Separate post-freeze location fallback and float probes remain hypotheses.
 
-### SOR-S-0125 â€” TheDailyXPerience launch-era save package
+### SOR-S-0125 — TheDailyXPerience launch-era save package
 
 2026-10-09: [Nexus listing 1798](https://www.nexusmods.com/starfield/mods/1798), author/uploader TheDailyXPerience; [files tab](https://www.nexusmods.com/starfield/mods/1798?tab=files), large first-playthrough package. Operator-supplied `Over 110 saves-1798-1-1694378623.7z`, SHA-256 `9b8bd55553c8e21f97a88d201a06aa870dd77a476f76cef69041176cf71b9093`, 867,429,978 bytes. Supplies observational inputs for [SOR-EXP-0008](experiments/launch-era-third-party-save-corpus.md), not source code, controlled causality or author endorsement. SOR-P-0003 records local examination authority, restrictive panel/broad prose ambiguity and raw redistribution exclusion. Cached web description/file sections and retrieval limitations are indexed in ignored `permission-reference.json`; a live-current permission snapshot remains required before publication. All source saves, archive and substantial extracted payload remain LOCAL-ONLY; independent summaries REVIEW-REQUIRED.
 
-### SOR-S-0126 â€” Installed 7-Zip separate extraction tool
+### SOR-S-0126 — Installed 7-Zip separate extraction tool
 
 Igor Pavlov and 7-Zip contributors; installed 7-Zip 22.01 x64 (2022-07-15 build banner), executable hash/size and complete technical listing retained in SOR-EXP-0008 local provenance. Used solely to list and extract the operator-specified archive under the invoked brief's execution authority; no install/download, implementation copying, dependency incorporation or tool redistribution. Archive member CRCs/sizes checked independently after extraction. This tool's availability or terms do not clear source-save redistribution.
 
-SOR-S-0113 / SOR-S-0124 extension â€” SOR-EXP-0008 reuses project-owned historical/mature framing, directory, string, reference and window methods unchanged, with exact script hashes in scan-03 provenance (repository starting HEAD `231786cc8c4c39b2defe706d2b9fe1c5344821f5`). CPython 3.14.3/stdlib zlib supplies separate installed runtime/compression facilities. SOR-S-0103/0104 retain prior definition-comparison credit. New intake/independent audit helpers are project-authored; no third-party parser code incorporated.
+SOR-S-0113 / SOR-S-0124 extension — SOR-EXP-0008 reuses project-owned historical/mature framing, directory, string, reference and window methods unchanged, with exact script hashes in scan-03 provenance (repository starting HEAD `231786cc8c4c39b2defe706d2b9fe1c5344821f5`). CPython 3.14.3/stdlib zlib supplies separate installed runtime/compression facilities. SOR-S-0103/0104 retain prior definition-comparison credit. New intake/independent audit helpers are project-authored; no third-party parser code incorporated.
 
 
-### SOR-S-0127 â€” Installed retail save loader and workshop/Almanac native evidence
+### SOR-S-0127 — Installed retail save loader and workshop/Almanac native evidence
 
 Bethesda Game Studios; existing SOR-ENV-0001 pinned Starfield 1.16.244.0 executable, SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`. Source-informed local read-only static inspection for [SOR-EXP-0009](experiments/active-outpost-identification.md): record/count readers, initial-data selector, reference/string queues, named form-state callbacks, ExtraWorkshop load dispatch, registry insertion/removal and Almanac consumer. Exact addresses/local export hashes are retained in the evidence package. Proprietary code/decompilation remains ignored and LOCAL-ONLY; no implementation text was copied into project code. Original parser logic expresses observed framing/field semantics and preserves provenance. Existing Ghidra/JDK separate-tool credit applies; no new tool/dependency installed. Prior SOR-S-0103/0104 definition/script evidence, SOR-S-0124 project methods and SOR-S-0113 installed Python/stdlib remain credited. Donor inputs retain SOR-S-0125 / SOR-P-0003 limits. No external consultation/contact, fork or PR.
 
 
-### SOR-S-0128 â€” Installed faction beacon definitions and quest/script leads
+### SOR-S-0128 — Installed faction beacon definitions and quest/script leads
 
 Bethesda Game Studios, locally installed Starfield.esm, SFBGS050.esm and SFBGS050 - Main.ba2, inspected read-only for [SOR-EXP-0010](experiments/active-outpost-membership-completion.md). Original bounded ESM/group/subrecord reader observes beacon ACTI/REFR definitions and exact source hashes; focused QUST/VMAD and BA2/PEX probes preserve quest FormID, alias and activation-blocking leads. Complete proprietary payload/native decompilation stays ignored LOCAL-ONLY; no implementation text/example/third-party parser/dependency is copied or redistributed. Installed content is not a historical save-era snapshot or complete override merger. Maintainer's Terran Armada quest hand-in explanation and edge-case deferral are SOURCE-REPORTED evidence, durably retained in SOR-D-0026, not independently validated gameplay. Prior native reader evidence SOR-S-0127, project methods SOR-S-0124, Python/stdlib SOR-S-0113, installed Ghidra/JDK and donor SOR-S-0125 / SOR-P-0003 retain credit and restrictions. No outside lookup/contact or changed permission basis. [Exact identities and review](experiments/active-outpost-membership-completion/validation.md).
 
-### SOR-S-0113 / SOR-S-0124 / SOR-S-0125 / SOR-S-0127 / SOR-S-0128 extension â€” Scoped ordinary detection
+### SOR-S-0113 / SOR-S-0124 / SOR-S-0125 / SOR-S-0127 / SOR-S-0128 extension — Scoped ordinary detection
 
 [SOR-EXP-0011](experiments/ordinary-outpost-beacon-detection.md) directly reuses project-owned record/prefix/token/physical/directory readers at HEAD `4029c5242edc8dde2651260b896d22b31c401744`, with optional diagnostics and original presentation/runner/tests. Native/content/definition basis and prior project method credits remain as above; no new Ghidra/xEdit execution or external consultation. Installed Python/stdlib/zlib supplies separate execution facilities. TheDailyXPerience's existing local corpus supplies observational challenges under SOR-P-0003, with original/substantial payload excluded from deliverables. Exact imported paths/hashes and fresh oracle/input preservation receipts are local. No outside code/dependency incorporated, contact, fork, PR, disclosure or changed permission basis.
 
-### SOR-S-0113 / SOR-S-0124 / SOR-S-0125 / SOR-S-0127 / SOR-S-0128 extension â€” Capacity and planetary location
+### SOR-S-0113 / SOR-S-0124 / SOR-S-0125 / SOR-S-0127 / SOR-S-0128 extension — Capacity and planetary location
 
 [SOR-EXP-0012](experiments/save-capacity-and-planetary-location.md) reuses project-owned save framing, directory, conditional reference prefixes and bounded ESM readers at starting HEAD `451bb4aeedf55512e94feb21d8c5c0bc115770ca`. Original stdlib streaming/mmap and association readers express observed data relationships; no outside implementation incorporated. Bethesda Game Studios installed save/native/content inputs supply PNDT/STDT/WRLD/CELL/LCTN evidence and six pinned read-only native export batches (`location-functions-01` through `06`). Installed ESM SHA-256 `1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7`; source payloads remain local. Ghidra/JDK retain separate-tool SOR-S-0105 provenance; CPython/stdlib zlib/mmap retain SOR-S-0113. TheDailyXPerience's two regression samples retain SOR-S-0125 / SOR-P-0003 limits. The maintainer supplies controlled Kreet/Save2 gameplay conditions and imperfect manual network comparison; names are correspondence aids, not location authority. No external consultation, contact, dependency or changed permission basis.
 
-### SOR-S-0113 / SOR-S-0124 / SOR-S-0127 / SOR-S-0128 extension â€” Two-outpost anchors
+### SOR-S-0113 / SOR-S-0124 / SOR-S-0127 / SOR-S-0128 extension — Two-outpost anchors
 
 [SOR-EXP-0014](experiments/two-outpost-site-anchors-and-beacon-coordinates.md) reuses project-owned save/ESM/detector/coordinate readers at HEAD `162ffba899d71bb64877d86069e0a749c16cfe0f`. Bethesda Game Studios installed save/content/native inputs supply exact relationships and four new readOnly/noanalysis native batches; pinned hashes/addresses and local export identities in the report. CPython/stdlib zlib/mmap SOR-S-0113 and Ghidra/JDK SOR-S-0105 remain separate tools. Maintainer supplies approximate travel/placement conditions and private network comparison. No new third-party source/code/dependency, broad web sweep, external contact or changed reuse permission. Existing EXP0013 prior-art/lead register remains credited by reference; native/raw/private payload stays LOCAL-ONLY, authored selected evidence REVIEW-REQUIRED.
 
-### SOR-S-0103 / SOR-S-0105 / SOR-S-0113 / SOR-S-0124 / SOR-S-0127 / SOR-S-0128 / SOR-S-0132 extension â€” Workshop relocation and bounds
+### SOR-S-0103 / SOR-S-0105 / SOR-S-0113 / SOR-S-0124 / SOR-S-0127 / SOR-S-0128 / SOR-S-0132 extension — Workshop relocation and bounds
 
 [SOR-EXP-0017](experiments/workshop-origin-beacon-relocation-persistence.md) uses Bethesda installed native/content/save evidence, prior xEdit radius observation (fresh independent ESM parse), archived maintainer-operated observer captures and project-owned framing/ESM/save readers at starting HEAD `ca80f1659b3b6fb798388b058d73a4989d6fe9e0`. Original scripts infer only supported typed/native/modern-prefix relationships. Ghidra 12.1.2/JDK 21 and CPython 3.14.3 stdlib zlib/mmap are separate existing execution tools; no package install, source incorporation or outside code consultation. SOR-S-0132 / SOR-P-0002 source lineage remains credited for the earlier observer; this pass does not copy/deploy/rebuild it. Operator boundary observation remains separate from byte/native findings. All proprietary/raw/full native payloads stay LOCAL-ONLY; selected authored facts require review. No external contact, fork, PR or disclosure.
 
-### SOR-S-0112 operational consultation â€” center-only procedure, 2026-10-11
+### SOR-S-0112 operational consultation — center-only procedure, 2026-10-11
 
 Read installed `sfse_readme.txt` only: 0.2.21 for game1.16.244 describes Steam running
 and `sfse_loader.exe` for SFSE. Readme SHA-256
@@ -673,7 +673,7 @@ read-only process primitives to the new original operational checker; source
 provenance remains SOR-S-0132/SOR-P-0002. Windows APIs/PowerShell/CPython are existing
 installed facilities, not newly vendored implementation. Live checks unexecuted.
 
-### SOR-S-0139 â€” Microsoft thread/debug-event contracts
+### SOR-S-0139 — Microsoft thread/debug-event contracts
 
 2026-10-11, [SOR-EXP-0028](experiments/event-latency/thread-control-final-report.md):
 Microsoft's [debug thread handle rights](https://learn.microsoft.com/en-us/windows/win32/api/minwinbase/ns-minwinbase-create_thread_debug_info),
@@ -692,7 +692,7 @@ execute only on original disposable experiments. Build commands/hashes and gener
 source are local. Original project adapter/fixture/reader provenance remains
 SOR-S-0132/SOR-P-0002. No third-party implementation, download or upstream contact.
 
-### SOR-S-0138 â€” Microsoft CRT, fail-fast and diagnostic tools
+### SOR-S-0138 — Microsoft CRT, fail-fast and diagnostic tools
 
 2026-10-11, [SOR-EXP-0027](experiments/event-latency/startup-failfast-investigation.md):
 Microsoft's [__fastfail](https://learn.microsoft.com/en-us/cpp/intrinsics/fastfail?view=msvc-170),
@@ -708,7 +708,7 @@ hashes/commands/module versions in private receipts. Existing tool execution is
 within the explicit brief; no Microsoft source, symbols, runtime redistributable,
 example, binding or new dependency incorporated. Original project event adapter,
 collector/reader/fixtures retain SOR-S-0132/SOR-P-0002 provenance; no upstream contact.
-### SOR-S-0141 â€” X-Tech source reports and extractor trial inputs
+### SOR-S-0141 — X-Tech source reports and extractor trial inputs
 
 2026-10-11, [SOR-EXP-0029](experiments/extractor-resource-association.md).
 [Bethesda overview](https://bethesda.net/en-US/news/starfield-free-lanes-terran-armada)
@@ -727,7 +727,7 @@ Two failed remote xEdit source fetches yielded no source; no xEdit implementatio
 was incorporated. Locally inspected IRES diagnostic script comments/old dictionary
 were lookup context only; authorship not established, no code adapted/executed.
 
-### SOR-S-0124/0127/0128/0132 extension â€” Durable position resumption
+### SOR-S-0124/0127/0128/0132 extension — Durable position resumption
 
 [EXP0030](experiments/durable-position-resumption.md) uses existing project readers/math and installed Bethesda native/ESM/save evidence, plus archived maintainer-operated observer captures. Exact native export hashes/paths are in [the source manifest](experiments/position-resumption/native-sources.csv). Specialist traces recovered tag 2/3 axis reversal, mixed projection, nested quantization and both bounded SIMD sine kernels; code is original source-informed arithmetic, not a clean-room claim. Ghidra 12.1.2/JDK 21 and CPython 3.14.3 stdlib are existing separate tools; 17 DB/reader hashes preserved. No new third-party code/dependency, download, network consultation, contact, permission basis or disclosure. Existing observer lineage SOR-P-0002 unchanged; it was not rebuilt/deployed.
 

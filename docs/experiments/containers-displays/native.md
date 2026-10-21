@@ -2,12 +2,24 @@
 
 [Answer](report.md), [saved witnesses](saves.md), [methods](methods.md).
 Every native address is a hexadecimal **preferred static VA**, image base
-`140000000`; subtract that base for RVA. Object offsets are hexadecimal.
+`0x140000000`; subtract that base for RVA. Retail executable version is
+1.16.244.0 under the exact hash below. Object offsets are hexadecimal.
 None is a runtime pointer, file offset or safe callable ABI.
 
 Fresh EXE SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`;
 main ESM `1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7`.
-`nNNN` denotes `.local-work/sd1-containers/native/NNN.request.tsv`.
+`nNNN` denotes a numbered **SD1-local export request/output**, not a function
+name or global identifier. The [export-ID guide and SD1 lookup](../../audits/publication-readiness-b2/native-export-ids.md#sd1-lookup-example)
+links each function address to its tracked register and exact local output/pin.
+Raw `.local-work/sd1-containers/native/NNN.request.tsv` outputs are LOCAL-ONLY;
+one output may contain several FUNCTION sections. Identical numbers in another
+experiment have a different namespace.
+
+Reading convention: an explicit vtable byte offset selects a pointer in the
+referenced interface's vtable; an object/member offset selects data in the named
+object. Neither is an executable address or a vtable slot index. Existing shorter
+hexadecimal expressions below retain their locally stated owner; see the
+[prose notation convention](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use).
 Read-only Ghidra exports identify the imported hash/base in every file.
 RTTI names are existing analysis state; semantic names below are analyst labels,
 OBSERVED-INTERNAL. Instructions govern when decompiler pointer/float types err.
@@ -22,7 +34,7 @@ It does not infer display behavior merely from CONT or a keyword/name.
 `1413026e0` (n003) registers loaded DisplayCaseComponent and its unloaded
 counterpart, IDs `1461eea88/1461eea8c`, with attach/detach creation policy.
 
-Form-component vtable `144b0cd00`, loader virtual+40 -> `140431b50` (n011/012):
+Form-component vtable `144b0cd00`, loader at vtable byte offset `0x40` -> `140431b50` (n011/012):
 DCSD is a sequence of 16-byte little-endian rows, **include form, exclude form,
 snap-node index, maximum item count**. The loader expands each to a runtime
 30-byte-hex rule. Versions below 140 hex decrement the saved node index;
@@ -39,8 +51,10 @@ The rule's node index is a separate field. Zero configured rules uses
 That fallback is not the normal 1-item limit in populated DCSD rules.
 
 Ordinary menu TransferItem follows the accepted S1 sink -> `141eaf9e0` ->
-`141eb7950` -> `141eafe00`. Fresh `141eaf090` (n010) requires item virtual+130
-and the menu+4c8 callable. Fresh `141eadb50` (n039) assigns the bound
+`141eb7950` -> `141eafe00`. Fresh `141eaf090` (SD1 n010) requires the item-interface predicate at **vtable
+byte offset `0x130`** and the bound callable held at **menu object + `0x4C8`**.
+The latter is a member holding the callable object, not its code address.
+Fresh `141eadb50` (SD1 n039) assigns the bound
 `141eadf60` predicate through `14146bc10` (n041), closing the earlier S1
 assignment boundary for this setup path. A null callable throws.
 `141eafe00` also enforces take/give mode and actor capacity before `141eb01a0`.
@@ -56,7 +70,8 @@ This slot gate is independent of the general captured callable.
 
 `141eadf60` (n041) -> `141eae1f0` (n042) applies item/quest eligibility,
 mode-specific pickpocket/quest restrictions, target-specific gates and the actual
-menu filter at+d68 with inversion byte+d70. FLST filters iterate alternatives;
+menu filter held at **menu object + `0xD68`**, with the inversion byte at
+**menu object + `0xD70`**. FLST filters iterate alternatives;
 `141ee7440` handles a single form/category. Thus the mannequin script's supplied
 filter has a native consumer; compatible appearance alone does not admit an item.
 The completed ancestry supersedes the interim captured-callable uncertainty.
@@ -113,7 +128,7 @@ Count/instance extras, item-reference identity and rule position are different f
 
 Workshop placement uses `140f3cf40/1421dd600` (n016/023), setting the
 WorkshopItem relationship. Extra4C is not ExtraOwnership.
-Fixture/item setter `14050ced0` (n010) creates ExtraOwnership type1F, stores
+Fixture/item setter `14050ced0` (n010) creates ExtraOwnership type 1F, stores
 either a form pointer at extra+18 or actor reference identity at +20, and its
 byte at +24. `14050aad0`, `140ba4eb0` and `14050aa30` (n010/014) read the
 different reference/actor/faction lanes; zero/null does not encode one universal
@@ -135,7 +150,7 @@ reason 2 removes Extra1F; reason 5 has its own no-owner fallback. The caller's
 reason and direction must therefore accompany any conservation/ownership claim.
 No general stolen-item laundering claim is justified by putting an item in a
 Workshop fixture, and saved ownership bytes alone do not prove UI theft color.
-Fresh request ancestry closes that gap: reference virtual+458 at
+Fresh request ancestry closes that gap: reference-interface vtable byte offset `0x458` at
 `144b95fb8+458 = 144b96410` resolves `140b66680` (n037/039), then
 `140b67a30` (n041), `140b7c560/140b89690` (n043), row visitors
 `140b89fd0/140b8a8c0 -> 140b8f540` (n044/050), and `140b67100` (n051).
@@ -143,7 +158,7 @@ The latter calls `140b7c100/140b7bd20` (n048), which actually invoke
 `140b67380` with each selected instance and split quantity. Their callback
 context retains the original request; reason is request+20, destination+28.
 
-| Menu mode at+d80 | Store/take transfer reason | Scoped ownership effect |
+| Mode at menu object + `0xD80` | Store/take transfer reason | Scoped ownership effect |
 |---|---|---|
 | 2 | 5 | Callback's guarded no-owner fallback can assign Player NPC; existing ownership is not simply erased |
 | 1 | 1 | Source-owner handling applies; taking also has explicit selected-stack owner/crime processing before transfer |
@@ -189,10 +204,10 @@ checks the corresponding bit via `14196cdc0 -> 1418f56d0` (n050/054).
 The live manager collection at actor+228, manager state+270/+278 is separate
 from serialized inventory rows and holds form/instance/slot state.
 
-Initialization `140b6ee30` (n053, reference virtual+900 in the inspected table)
+Initialization `140b6ee30` (n053, reference-interface vtable byte offset `0x900` in the inspected table)
 calls `140b7d5b0` (n055). It iterates loaded rows, tests low 3 equipment bits,
 dispatches armor to `140b79750`, weapons to `140b79970`, and reconstructs actor
-equipment through virtual+740 and `1419b4d10` after resolving instance/slot.
+equipment through vtable byte offset `0x740` of the actor interface and `1419b4d10` after resolving instance/slot.
 This supplies a restoration consumer for the saved bits; it is not the earlier
 `1406416f0` extra-normalization helper, which runs before reading those bits.
 H256/H257 now positively corroborate three modified equipped rows each
@@ -217,7 +232,7 @@ world instances, but do not describe the ordinary construction preview's final
 inventory.
 
 `1421dcb10` (full n073) updates the construction preview through `1421d9230`,
-obtains the selected preview wrapper's representative handle at virtual+40,
+obtains the selected preview wrapper's representative handle through its vtable byte offset `0x40`,
 resolves that actual reference, then applies the decisive branches:
 
 - A nonactor with positive `140b693b0` inventory count is passed to
@@ -231,7 +246,8 @@ resolves that actual reference, then applies the decisive branches:
 
 The analogous clearing blocks appear in the assembly preview `1421cbf40` and
 the helper `1421cbc20` (n073). The ordinary accepted placement remains
-`1421b10b0 -> 1421de3f0 -> wrapper virtual+A0 -> 140f60f60 -> 1421dd600`
+`1421b10b0` -> `1421de3f0` -> wrapper vtable byte offset `0xA0` ->
+`140f60f60` -> `1421dd600`
 ([L1](../limits/native.md), fresh n070). It commits the representative reference;
 this is distinct from moving an existing fixture through `1421b1450`.
 
@@ -274,8 +290,8 @@ alone is not proof of completed scene construction.
 Removal of a displayed reference from slot lists is `141304f40` (n005),
 independent of generic inventory mutation. Workshop scrap
 `140f34650 -> 140f404f0 -> 140f3a6e0` (n016/029) removes roots/children and
-queues `140f42ec0` (n031), which calls reference virtual+538 before deletion.
-Virtual+538 resolves to `140b3e1e0`, a 3D replacement/detachment operation
+queues `140f42ec0` (n031), which calls the reference-interface method at vtable byte offset `0x538` before deletion.
+That vtable byte offset `0x538` resolves to `140b3e1e0`, a 3D replacement/detachment operation
 (n032/033), not an inventory-content transfer. It is incorrect to infer item
 return from that operation or the final Delete alone.
 The decisive ordinary Workshop caller is **`1421de660`** (n052; full n057).
@@ -293,7 +309,7 @@ from final reference deletion. Other reference-removal callers need not use it.
 Bulk `140b61610` (n053) rejects source==destination and unsupported sources;
 the optional positive-capacity branch limits quantity by item weight. It builds
 instance/quantity requests with the original reason/destination and invokes
-source virtual+458. For native displays it first calls `1417324f0` (n055):
+the source-reference interface at vtable byte offset `0x458`. For native displays it first calls `1417324f0` (n055):
 walk fixture ExtraDroppedItemList, resolve each item and `141732620` (n057)
 copies qualifying item extras/count back into the source inventory before
 removing the displayed representation. Missing handles and flags 820 cause

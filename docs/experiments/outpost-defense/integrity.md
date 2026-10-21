@@ -1,5 +1,10 @@
 # Integrity, damage, operational effects and repair
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Answer](report.md), [attack lifecycle](attacks.md), [saved contrasts](persistence.md).
 Native export numbers below refer to `.local-work/da1-defense/native/`.
 Every address is preferred static hexadecimal VA, not a runtime pointer.

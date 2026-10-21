@@ -27,7 +27,7 @@ The57 passing tests exercise the existing evaluator's recovered arithmetic,
 UNKNOWN behavior and final pointer fold with original synthetic controls.
 No new evaluator or invented cache/query API was introduced.
 
-Fresh full-capture replay verifies every611,926 WAL/raw record and all35,574
+Fresh full-capture replay verifies every 611,926 WAL/raw record and all 35,574
 evaluation pairs,11,128 distinct argument descriptors and346 exact ordered native
 UI comparisons. Disk-backed uniqueness preserves bounded memory. These numbers
 are scoped to argument/population observations, not independent geometries.

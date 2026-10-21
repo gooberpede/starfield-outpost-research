@@ -10,8 +10,8 @@ source/receiver capability. Floats round to binary32 at each native operation.
 
 | Case | Concrete path and outcome |
 |---|---|
-| Fitting transfer | Source stock10, C75/W70, w.5. `140f84c40` admits; `140f84fc0` floor-fit10 prepares quantity10; source458 removes10, receiver4d0 adds10. Source becomes0, receiver mass75. The item visitor's return1 only continues. |
-| Partial and full | Source10, C75/W74, w.5 gives k2; descriptor2 removes/adds2 and leaves8 upstream when no other receiver. At W75, F0<w: filter rejects, no descriptor, stock10 remains source. At W74.75, F.25<w also rejects, although W<C. Incompatible item rejects before quantity planning even with W0. |
+| Fitting transfer | Source stock 10, C75/W70, w.5. `140f84c40` admits; `140f84fc0` floor-fit 10 prepares quantity 10; source458 removes 10, receiver4d0 adds 10. Source becomes 0, receiver mass 75. The item visitor's return1 only continues. |
+| Partial and full | Source 10, C75/W74, w.5 gives k2; descriptor2 removes/adds 2 and leaves 8 upstream when no other receiver. At W75, F0<w: filter rejects, no descriptor, stock 10 remains source. At W74.75, F.25<w also rejects, although W<C. Incompatible item rejects before quantity planning even with W0. |
 | Fork | Cached vector[self,A,B], source10, both compatible, each C75: B W74 fits2, then A W73 fits4, remainder4 stays source. Reverse vector order matters; swapping vector operands changes allocation. This is not a first-created-edge policy or fairness proof. |
 | Multi-hop | Directed source->A->B, ordinary stores, cache[self,A,B]. If B admits, original source can remove directly into B within this same mover call. A need not receive and forward a batch. No receiver-recursive mover call is needed. |
 | Qualified link-add flush | Add A->B with B an ordinary eligible store: after successful validation/insertion and `140f7d0b0(B)`, caller seeds A and collects its upstream container sources through `140f8a020`. Each resolved selected source gets its own downstream redistribution invocation. If B is a builder/fuel consumer failing that predicate, insertion can succeed without this flush branch. |

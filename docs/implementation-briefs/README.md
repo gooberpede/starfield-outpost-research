@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [B2 focused native-notation and export-ID rework](CODEX_BRIEF_SOR_B2_focused_rework_native_notation_and_export_ids.md):
+  invoked 2026-10-21; [focused record and full B2 requalification](../audits/publication-readiness-b2/focused-rework.md).
+  Retained supplied input; same frozen B2 contract, no staging, commit or push.
+
+- [B2 documentation quality, technical presentation and evidence context](CODEX_BRIEF_SOR_B2_documentation_quality_technical_presentation_evidence_context.md):
+  invoked 2026-10-21; [implementation and review](../audits/publication-readiness-b2/report.md).
+  Offline documentation only; no staging, commit, push or publication.
+
 - [B1 current research roadmap and navigation](CODEX_BRIEF_SOR_B1_current_research_roadmap_navigation.md): invoked 2026-10-21; [implementation/review](../audits/publication-readiness-b1/report.md). Documentation only; no staging, commit, push or publication. Distinct from the earlier B1 biome research assignment.
 
 - [B0 publication policy, release scope and versioned baselines](CODEX_BRIEF_SOR_B0_publication_policy_release_scope.md):

@@ -1,5 +1,10 @@
 # Newly traced Locations edges and decisive locators
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Inventory](field-lineage.md), [methods/pins](methods.md). `nNNN` means local
 `.local-work/lo1-locations/native/NNN.request.tsv`; `mNNN` means inherited
 `.local-work/sd3-stored/02.json` ABC method number. VAs use preferred image
@@ -33,7 +38,7 @@ Installed DFOB 003e4f4a DATA ->KYWD 003e4f4b physically confirms the identity
 conditional on that resolved default being a KYWD; exceptional/global registry
 completeness and player control remain outside this native screen rule.
 
-After enumeration,141360e80 initializes maximum 0. For a valid AVIF at145f0c570
+After enumeration,141360e80 initializes maximum 0. For a valid AVIF at 145f0c570
 it calls **141976dc0(player 145f43230+70, AV)**, then truncates returned float to
 integer. This is the base-value path with cache at AV-owner+1f0 (n003/n016/n027),
 not 1419776f0, which composes base and modifiers for the effective getter.
@@ -143,7 +148,7 @@ Physical system-location controls are:
 The FACT 000638e5 localized FULL 00006d04 is **Freestar Collective**. Its faction
 type is KYWD 000546df FactionTypeFreestarCollective, distinct from the FACT itself.
 DFOB 00137e5c FactionFreestar_DO points to that keyword. Constructor 1401366a0
-binds the default at145eff100/value 145eff148 (n025/n027; direct string pin);
+binds the default at 145eff100/value 145eff148 (n025/n027; direct string pin);
 14172bc70's fixed keyword comparisons return enum 4 for it. A configured extension
 array provides additional type indices; unresolved type isffff, null type-1.
 This does not guarantee matching art for all extension indices.
@@ -153,7 +158,7 @@ uSystemMinLevel; comparison with 145e85bf8/5c18/5c38/5c58 produces challenge 0..
 (n004/n027). Constructors 1400255c0/5f0/620/650 set **11/21/31/51** for
 iLevelChallengeThresholdEasy/Average/Challenging/Deadly:StarMap. Setter 1402d66a0
 stores the setting's value at+8 (n022/n023, pe-selected01). Effective settings
-can differ from compiled defaults. The Locations body binder is141364930;
+can differ from compiled defaults. The Locations body binder is 141364930;
 queued 141369b80 ->14136dc40 ->**14135fcc0** copies faction/level and body data.
 **m1285** displays the unsigned level; **m1286** maps challenge 0..4 to timeline
 labels Level 1-10, Level 11-20, Level 21-30, Level 31-50, Level 51-75. The last
@@ -165,7 +170,7 @@ occurs in this Locations classification.
 **Faction:**m1285 passes iFactionType to shared **m190 GetFactionIconLabel**,
 then gotoAndStop on FactionIcon_mc. Enum 4 selects **FreestarCollective**;
 type-1 selects **None**. Locations sprite 154 (definition SWF byte 16924,
-placed at22101) has exactly seven labels: BlackFleet, FreestarCollective,
+placed at 22101) has exactly seven labels: BlackFleet, FreestarCollective,
 HouseVaruun, RyujinIndustries, UnitedColonies, Constellation, None (assets01).
 The shared helper can also return TrackersAlliance/TerranArmada/Creations,
 which are **not labels on that clip**. No fallback/render behavior for those

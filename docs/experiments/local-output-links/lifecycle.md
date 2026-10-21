@@ -12,7 +12,7 @@ Fresh n08-n10 establish typed event ancestry rather than guessing from a Boolean
 `BSTEventSource<TESObjectLoadedEvent>`. Initializer `1421ad290` subscribes
 `145916510`; its vtable144c25de8 has callback+8 = `140f7dfa0` (n05/n06).
 Cleanup `1421ad550` unregisters it. Separate `140b994d0 -> 145977ba8 ->
-vtable144b98240` is TESContainerChangedEvent, subscribed at145916518 with
+vtable144b98240` is TESContainerChangedEvent, subscribed at 145916518 with
 callback `140f7e530`. These identities are grounded by symbols and pointer data,
 not just event-shaped argument guesses.
 

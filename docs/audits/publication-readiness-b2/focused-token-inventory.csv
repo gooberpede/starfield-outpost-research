@@ -1,0 +1,39 @@
+row,path,before_values,after_values,removed_values,added_values,reason
+1,docs/experiments/containers-displays/native.md,140000000:1,140000000:1;1:1;16:1;244:1;0:1,NONE,1:1;16:1;244:1;0:1,"Existing SD1 report/methods baseline; spelling only, unchanged image base."
+2,docs/experiments/containers-displays/native.md,,,NONE,,SD1 functions.csv export column; methods sd1-more.py/reader; pinned numbered requests and FUNCTION headers.
+3,docs/experiments/containers-displays/native.md,141eaf090:1;130:1;4c8:1;141eadb50:1,141eaf090:1;130:1;4c8:1;141eadb50:1,NONE,,010.request.tsv:2034–2060: item-interface indirect call at141eaf0af; menu pointer RBX=RCX and load at141eaf0b5; 039.request.tsv setup. No concrete item class/vtable slot inferred.
+4,docs/experiments/containers-displays/native.md,d68:1;d70:1,d68:1;d70:1,NONE,,"042.request.tsv:6565 onward: R15=RCX at141eae207, filter load141eae357, byte comparison141eae3a2. Existing SD1 explanation identifies menu argument."
+5,docs/experiments/containers-displays/native.md,40:1,40:1,NONE,,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded."
+6,docs/experiments/containers-displays/native.md,458:1,458:1,NONE,,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded."
+7,docs/experiments/containers-displays/native.md,900:1,900:1,NONE,,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded."
+8,docs/experiments/containers-displays/native.md,740:1,740:1,NONE,,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded."
+9,docs/experiments/containers-displays/native.md,40:1,40:1,NONE,,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded."
+10,docs/experiments/containers-displays/native.md,a0:1,a0:1,NONE,,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded."
+11,docs/experiments/containers-displays/native.md,538:1,538:1,NONE,,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded."
+12,docs/experiments/containers-displays/native.md,538:1,538:1,NONE,,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded."
+13,docs/experiments/containers-displays/native.md,458:1,458:1,NONE,,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded."
+14,docs/experiments/inorganic-extractors/arithmetic-production.md,70:1;18:1,70:1;18:1,NONE,,"Existing same-document native contract, established caller/interface or menu owner; tracked function/source register linked in document."
+15,docs/experiments/crew-skills/native.md,70:1;68:1,70:1;68:1,NONE,,"Existing same-document native contract, established caller/interface or menu owner; tracked function/source register linked in document."
+16,docs/experiments/shared-outpost-storage/consumers.md,2e8:1,2e8:1,NONE,,"Existing same-document native contract, established caller/interface or menu owner; tracked function/source register linked in document."
+17,docs/experiments/build-budget/native.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+18,docs/experiments/build-catalogue/catalogue.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+19,docs/experiments/cargo-links/configuration-ui/native.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+20,docs/experiments/construction-variants/manual-and-automatic.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+21,docs/experiments/crew-lifecycle/native.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+22,docs/experiments/crew-skills/native.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+23,docs/experiments/limits/native.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+24,docs/experiments/local-output-links/native.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+25,docs/experiments/locations-outpost/native-and-ui.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+26,docs/experiments/outpost-biomes/native.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+27,docs/experiments/outpost-defense/integrity.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+28,docs/experiments/shared-outpost-storage/consumers.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+29,docs/experiments/shared-outpost-storage/shared-inventory.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+30,docs/experiments/stored-resources/aggregation.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+31,docs/experiments/stored-resources/provider.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+32,docs/experiments/inorganic-extractors/arithmetic-production.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+33,docs/experiments/organic-facilities/native.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+34,docs/experiments/storage/native.md,,,NONE,,Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.
+35,docs/experiments/storage/native.md,130:1;4c8:1,130:1;4c8:1,NONE,,"Existing S1 s037 and independently pinned SD1 n010 at141eaf0af/141eaf0b5; shared function141eaf090, same field domains. S1 historical binding gap remains qualified."
+36,docs/experiments/shared-outpost-storage/consumers.md,2f0:1;2f8:1,2f0:1;2f8:1,NONE,,SD2 n011/n012:141445669/141445670/141445677 address the same RCX menu object fields 2f8/2f0/2e8.
+37,docs/experiments/containers-displays/native.md,d80:1,d80:1,NONE,,SD1 n042:141eae207 retains menu in R15;141eae21d reads byte[R15+0xd80].
+38,docs/experiments/containers-displays/native.md,1421b10b0:1;1421de3f0:1;a0:1;140f60f60:1;1421dd600:1,1421b10b0:1;1421de3f0:1;a0:1;140f60f60:1;1421dd600:1,NONE,,"Independent focused review: repair nested inline spans only; all four function addresses, wrapper offset 0xA0 and operation order unchanged."

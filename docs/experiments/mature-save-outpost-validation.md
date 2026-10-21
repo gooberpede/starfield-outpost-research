@@ -4,6 +4,11 @@
 
 ## Result
 
+Reader context added 2026-10-21: [Save52 identity and evidence availability](../audits/publication-readiness-b2/evidence-dependencies.md)
+explains the mature playthrough sample and private comparative JSON. The derived
+tables below support understanding; exact independent replication needs those
+local inputs. This annotation does not revise the historical observations.
+
 The principal numerical observations reproduce: 141 valid streams, 36,934,800 decoded bytes, a bounded 1,588-byte payload containing 17 beacon references, 199 keyed groups and 246 endpoints; 324 distinct nonzero tokens each match a unique recognizable window. The save-only extraction yields 53 uniquely member-associated cargo markers, 25 regular and 28 interstellar, with 48 distinct pads in 24 reciprocal pairs. All 17 names, every per-outpost pad count/type and the full outpost-pair multiset match the comparative JSON.
 
 Two important qualifications change the interpretation. First, a broader scan finds **61** marker-like windows, including eight without the observed beacon association; 53 describes the associated subset. Second, the beacon collection is **not demonstrated to enumerate all active outposts generally**: it is empty in S1/S1C/S2/S2C and S7/S7C while the previously validated beacon window remains. This is a bounded beacon-reference plus relationship collection, strongly correlated with the mature network. A universal active index is contradicted by the small-corpus lifecycle; the inclusion rule remains unresolved. Its correspondence to the JSON's active set is a scoped mature-save observation.

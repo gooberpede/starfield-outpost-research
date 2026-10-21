@@ -11,7 +11,7 @@ maintainer review; no deployment/live/Git authority.
 |Mandatory criterion|Status|Primary evidence / exact scope|
 |---|---|---|
 |I1 native design/contracts/minimum practical instrumentation|PASS|design.md; retained static-exhaustion-23.tsv3130–3135/3312–3316, engine-oracle-01.tsv6–104; qualification 03 build.json verifies 19 CALLs/targets/guards and 2 relocated callback slots. Alternate callers retain disclosed weaker binding.|
-|I2 raw operands/identity/ancestry/status|PASS|schema5/travel.h/route.h/core.h, route-events.bin/travel-events.bin/fixtures and 22 adverse decoder tests. Real parent/TID/QPC/raw blobs; command is explicitly UNASSOCIATED after producer return. Race-bit 8 cannot qualify.|
+|I2 raw operands/identity/ancestry/status|PASS|schema 5/travel.h/route.h/core.h, route-events.bin/travel-events.bin/fixtures and 22 adverse decoder tests. Real parent/TID/QPC/raw blobs; command is explicitly UNASSOCIATED after producer return. Race-bit 8 cannot qualify.|
 |I3 actual native result transport/frozen distinction|PASS engineering|route-qualification.txt/fixture records capture synthetic native before/after in-place bytes, not runtime replay output. inspect_capture.py separates generic/marker/Workshop and full durable equivalence. Frozen 23 unchanged; new retail nonzero/carry/Workshop validation NOT TESTED, never a promised offline outcome.|
 |I4 no-hit worker/deepest route|PASS|production lifecycle-no-hit complete raw 0 with durable ACK/health/retired, analysis-no-hit.json; scoped diagnostics and no quota/forced native call.|
 |I5 preservation/version/rights|PASS|baseline/build protected 6241 hashes before/after, all old observer/raw/frozen/saves preserved; new 050 directory, SOR-P-0001 unchanged header and SOR-P-0002 owned lineage.|

@@ -26,12 +26,12 @@ copy is decoded read-only with strict bounded framing; scratch is cleaned.
 source comparisons and one installed Interface member. `save06.json` rereads29
 selected references,205557 R3 records,246 local edges and immediate/transitive
 controls; the specifically investigated ship Extra33 gap is resolved.
-`menuabc03.json` contains100 selected bodies with complete framing/no opcode stops.
+`menuabc03.json` contains 100 selected bodies with complete framing/no opcode stops.
 Native d01-d03 and n001-n010 keep function bodies, exact locators, decompiler/
 instruction limitations and nonmatching selectors. Native request session exited
 normally on its stop marker; readOnly/noanalysis preserved the imported project.
 
-`verification03.json` contains132 actual mechanical checks and the four existing
+`verification03.json` contains 132 actual mechanical checks and the four existing
 reader regression outputs. These checks verify framing/joins/pins and evidence
 anchors, not an independent runtime semantic oracle. No game launch/attachment,
 live invocation, instrumentation, save/config/asset/DB/Git mutation, download or
@@ -94,7 +94,7 @@ Final administrative receipt index: `.local-work/c1-cargo/package-final03.json`,
 `status-final03.txt`, `independent-review-final.md` and `final-seal.json`.
 Final patches: `.local-work/diffs/c1-cargo-final03-complete.diff` and
 `c1-cargo-final03-task-only.diff`. That package rechecks1065 file links, UTF-8/
-mojibake/whitespace, all23 complete/22 task-only text files and exact forward/
+mojibake/whitespace, all 23 complete/22 task-only text files and exact forward/
 reverse reconstruction. `anchors01.json` separately checks the two C1 anchor
 links in the first snapshot; those headings/targets are unchanged. The final
 independent delta/hash recheck applies to this receipt-index update; the seal

@@ -23,7 +23,7 @@ SOR-EXP-0045 / SOR-EV-0053. Implementer assessment is not independent acceptance
 
 `.local-work/c2-transport/baseline.json` records21 protected EXE/ESM/native-database/
 original-save files, supplied unchanged brief, HEAD and index. The installed
-retail1.16.244.0 EXE is102476200 bytes, SHA-256
+retail 1.16.244.0 EXE is 102476200 bytes, SHA-256
 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`.
 Image base0x140000000. `sources03.json` freshly rereads37 selected ESM records,
 compares five PEX and five PSC members to installed archives and rehashes inputs.
@@ -38,7 +38,7 @@ limitations; n010's VM+7dc scan examined14392060 instructions, selected26 and
 completed uncancelled. This is a scoped field scan, not a whole-game semantic
 absence proof. Existing readOnly/noanalysis state was exported without changes.
 
-`verification01.json` contains64 actual pin/receipt/arithmetic checks; post-session
+`verification01.json` contains 64 actual pin/receipt/arithmetic checks; post-session
 `verification02.json` repeats the protected checks after reader retirement.
 `regressions01.json` records61 passing existing reader tests:35 inventory,
 6 record framing,9 stream/save,11 resource/form identity. Tests verify their
@@ -124,7 +124,7 @@ Final package: `.local-work/c2-transport/package-final03.json`; patches
 the actual acceptance/receipt index only; final delta review is preserved as
 `.local-work/c2-transport/independent-review-final.md`. The package also retains
 `exceptions01.json` (explicitly a transcription, not raw console output) and
-`source-ledger-check01.json` (all208 ledger pins matched).
+`source-ledger-check01.json` (all 208 ledger pins matched).
 Independent acceptance concerns these frozen criteria, not maintainer integration
 or publication approval. Authored material remains REVIEW-REQUIRED; underlying
 native/script/save/bulk payloads LOCAL-ONLY. No permission issue blocks the

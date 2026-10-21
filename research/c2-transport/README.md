@@ -10,7 +10,7 @@ Use existing CPython3.14 with `-B` from the repository root. No installation,
 download, network access or target invocation. All acquired Bethesda payloads
 stay ignored under `.local-work/c2-transport/`. Preconditions include the prior
 accepted local S1/C1/E2 receipts and matching installed inputs. Caller-available
-free space on **both C: and D:** must remain at least40,000,000,000 bytes; each
+free space on **both C: and D:** must remain at least 40,000,000,000 bytes; each
 entrypoint calls the owned fail-closed guard. New run labels use exclusive output
 creation; do not overwrite evidence receipts.
 

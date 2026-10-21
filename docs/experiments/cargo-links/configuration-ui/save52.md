@@ -35,13 +35,13 @@ not visible image content. Both the user's association and its timing limit rema
 |---|---|---|---|
 | VII-b beacon | ff025f95 / 2c60e9 | 3436622 | Named-beacon shared-string/Workshop association retained from mature study; explicit owner self at 3437033 |
 | I beacon | ff030a80 / 2c60e9 | 4187949 | Named-beacon association; explicit owner self at 4188279 |
-| VII-b marker | ff02c3c4 / ACTI 2a6c3f | 3810829 | Counted4C at3810958: owner ff025f95; LinkActive255cc8 -> ff03444c; LinkShip255cc7 -> ff02dc37 |
-| I marker | ff03444c / ACTI 2a6c3f | 4505842 | Counted4C at4505971: owner ff030a80; LinkActive -> ff02c3c4; LinkShip -> same ff02dc37 |
+| VII-b marker | ff02c3c4 / ACTI 2a6c3f | 3810829 | Counted4C at 3810958: owner ff025f95; LinkActive255cc8 -> ff03444c; LinkShip255cc7 -> ff02dc37 |
+| I marker | ff03444c / ACTI 2a6c3f | 4505842 | Counted4C at 4505971: owner ff030a80; LinkActive -> ff02c3c4; LinkShip -> same ff02dc37 |
 | VII-b outgoing | ff02c3ef / CONT 219171 | 3826329 | Marker key2a6c45; reciprocal role/owner links; inventory [3826448,3826449) compact zero |
 | VII-b incoming | ff02c3f0 / CONT 219173 | 3826450 | Marker key2a6c46; reciprocal role/owner; inventory [3826569,3826570) compact zero |
 | I outgoing | ff034474 / CONT 219171 | 4521282 | Marker key2a6c45; reciprocal role/owner; inventory [4521401,4521402) compact zero |
 | I incoming | ff034475 / CONT 219173 | 4521403 | Marker key2a6c46; reciprocal role/owner; inventory [4521522,4521523) compact zero |
-| Cargo ship | ff02dc37 / 255cc6 | 2344136 | Both markers' ship key; ship4C at2344486 independently links both markers, both incoming/outgoing children and landing markers; inventory [2344497,2344498) compact zero |
+| Cargo ship | ff02dc37 / 255cc6 | 2344136 | Both markers' ship key; ship4C at 2344486 independently links both markers, both incoming/outgoing children and landing markers; inventory [2344497,2344498) compact zero |
 | I terminals | ff034470, ff034473 / ACTI2508aa | 4518941; 4520228 | ExtraDA templates21916d/218230 in ordinary PKIN2191a0; 4C2a6c3e -> ff03444c; owner ff030a80 |
 | VII-b terminals | ff02c3eb, ff02c3ee / ACTI2508aa | 3823988; 3825275 | Same template roles; 4C2a6c3e -> ff02c3c4; owner ff025f95 |
 
@@ -61,9 +61,9 @@ reported LEADING_EXTRA_GAP. It was not an empty-stock result. Fresh native
 mod-instance list with optional flags and queued form identities. Writer
 `14051ea30` case33 -> `140404cf0` independently corroborates the framing.
 
-The observed bytes at2344473 are tag33, flags02, compact count2, zero 3-bit masks.
+The observed bytes at 2344473 are tag33, flags02, compact count2, zero 3-bit masks.
 Two mod identities consume queued refs but no optional per-mod bytes. The next
-Extra84 and nine-entry4C close the declared four-extra list at2344497; inventory
+Extra84 and nine-entry4C close the declared four-extra list at 2344497; inventory
 then explicitly declares zero items. This is independently consistent with the
 ship's complete per-endpoint4C relationships. C1 implements only this flag02/
 count2/mask00 case, failing closed on other mod flags/masks/counts. It is not a

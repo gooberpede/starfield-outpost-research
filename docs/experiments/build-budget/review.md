@@ -13,9 +13,9 @@ assessment, not a self-issued independent ACCEPT.
 | 1. Actual metrics/limits/full meaning | PASS | native.md; n003/005/006/011/020/021, installed GMST0 and default allowance2500; one scalar cap in ordinary chain, exact U+C<=M, full-meter rounding distinguished |
 | 2. Efficient object/assembly cost | PASS | n005/007/014/015; effective forms/properties and member sum, candidate+78 cache; no renderer counting or invented model cache |
 | 3. Admission/add/delete/move/load/over-limit | PASS scoped ordinary model | n006/014/017/018/020; status1e, action gate, saved BF, wrapper reconstruction without new-placement debit; no universal script/atomic recheck claim |
-| 4. Meter provider/formula/refresh | PASS to compiled-menu boundary | n005/009/011/016/017/019/023-025; type4->mask10, queue, summary+90 and named fBuildLimit; actual SWF621 round/100-frame clip; out-of-range Scaleform behavior bounded, no invocation |
+| 4. Meter provider/formula/refresh | PASS to compiled-menu boundary | n005/009/011/016/017/019/023-025; type4->mask 0x10, queue, summary+90 and named fBuildLimit; actual SWF621 round/100-frame clip; out-of-range Scaleform behavior bounded, no invocation |
 | 5. Hab, robot and direct/PackIn contrast | PASS with explicit historical limits | saves.md, examples01.json, actual current definitions and accepted root/R1 ledgers; same-input furnishing path has no room/visibility discount; no controlled hab/robot HUD delta fabricated |
-| 6. Identified Kreet witnesses and save/runtime correspondence | PASS | All17 archived samples rehashed/read, 15 explicit budget base rows7/8/10/9 with action/control offsets; all36 mature beacon rows explicit; no absent original or missing HUD reading converted to zero |
+| 6. Identified Kreet witnesses and save/runtime correspondence | PASS | All 17 archived samples rehashed/read, 15 explicit budget base rows 7/8/10/9 with action/control offsets; all 36 mature beacon rows explicit; no absent original or missing HUD reading converted to zero |
 | 7. Primary pins/native refs/provenance/checks/protection/failures | PASS technical correspondence | functions.csv/sources.csv, verification01.json (1271 checks), preservation-review02.json; raw bytes/local payloads excluded; failures below |
 | 8. Independent original-criterion acceptance and exact review package | Technical package plus actual independent decision required | package-review01.json, complete/task-only reconstruction checks, actual independent-review01.md; accepted completion requires its ACCEPT for unchanged snapshot |
 
@@ -48,7 +48,7 @@ is authorized by completion or independent acceptance.
   hashes; old unavailable paths remain explicitly recorded in baseline.json.
 - Initial timeline parsing assumed PlaceObject2 for the named clip. The actual
   tag is PlaceObject3; the assertion failed before any output receipt. The
-  corrected flags/class-name-aware parser resolves sprite118 and closes exactly
+  corrected flags/class-name-aware parser resolves sprite 118 and closes exactly
   100 ShowFrames. Raw asset was unchanged. This was not a successful first pass.
 - Guessed non-entry functions140f5daca0/140b6cbc0 and1421d1770 returned
   NO_FUNCTION_AT; the real marker selector1405daca0 and containing functions

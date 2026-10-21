@@ -2,7 +2,7 @@
 
 ## LO1 Locations -> Outpost adapters and metadata
 
-[SOR-EXP-0062 / SOR-EV-0070](experiments/locations-outpost/native-and-ui.md), [export register](experiments/locations-outpost/functions.csv):141360e80/141361c10/14136c980 supply entries and base maximum;14135e270/14135f0e0/14135fcc0 refresh selected-body/system data;14135d890/140aba950 select location-owner faction;1416aacd0/1416aab70 and1413630c0/14136cf60 supply schematic and galaxy-marker data. Preferred image base140000000, pinned retail1.16.244.0. STATIC/OBSERVED-INTERNAL only; no safe invocation or persistence guarantee.
+[SOR-EXP-0062 / SOR-EV-0070](experiments/locations-outpost/native-and-ui.md), [export register](experiments/locations-outpost/functions.csv):141360e80/141361c10/14136c980 supply entries and base maximum;14135e270/14135f0e0/14135fcc0 refresh selected-body/system data;14135d890/140aba950 select location-owner faction;1416aacd0/1416aab70 and1413630c0/14136cf60 supply schematic and galaxy-marker data. Preferred image base 140000000, pinned retail 1.16.244.0. STATIC/OBSERVED-INTERNAL only; no safe invocation or persistence guarantee.
 
 ## C3 fuel accounting and readiness
 

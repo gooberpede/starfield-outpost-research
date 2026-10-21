@@ -1,5 +1,10 @@
 # Outpost identity and the source-to-row contract
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Answer](report.md), [methods](methods.md). `nNNN` refers to the exact local
 `native/NNN.request.tsv` export under `.local-work/sd3-stored/`.
 Addresses are preferred static hexadecimal VAs at image base `140000000`;

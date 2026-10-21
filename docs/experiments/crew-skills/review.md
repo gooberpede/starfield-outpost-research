@@ -14,7 +14,7 @@ No integration/publication permission follows from assignment acceptance.
 | 5 Process-specific effects | PASS | processes.md covers every required process; fueled marker keyword negative, separate robot power positive, CONT/ship distinctions and bounded defense scope |
 | 6 Assignment and persistence | PASS | lifecycle.md traces rank queue/registration, assignment refresh/removal and Actor rank writer/loader; seven originals, nine explicit saved ranks/four actors, real reciprocal Lin/Heller assignments, positive available controls; unsupported ranks UNKNOWN |
 | 7 Evidence/integrity | PASS | primary source/function CSVs, helpers/README, preserved failures below; verification-final01.json 347 checks/106 ESM physical rereads, 68 existing regressions; no live test claimed |
-| 8 Independent review/package | PASS | Independent reviewer ACCEPT on review02; all35 complete/34 task hashes, inventory, patch payload reconstruction, reverse applicability and protected inputs independently checked. Final receipt-only delta rechecked separately |
+| 8 Independent review/package | PASS | Independent reviewer ACCEPT on review02; all 35 complete/34 task hashes, inventory, patch payload reconstruction, reverse applicability and protected inputs independently checked. Final receipt-only delta rechecked separately |
 
 Scientific confidence: proposed STRONG STATIC for traced mechanisms and sampled
 SAVE joins. Coverage: qualified installed main-game recruitment/robots, bounded

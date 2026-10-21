@@ -10,7 +10,7 @@ HIST-0036 original SHA-256:
 Decoded SHA-256:
 `6f47ac5a129fecef2a6323994478372a85ee975a1a582343de379c47a9bf2184`.
 Fresh `.local-work/s2-links/saved01.json` redecodes this protected original,
-reproduces all 246 edges in the unique qualified envelope at1913537, and rereads
+reproduces all 246 edges in the unique qualified envelope at 1913537, and rereads
 18 fixed endpoint records through separate reference prefix/counted extras and
 inventory grammar. Nine selected edges have matching explicit Workshop owner
 joins. Producer rows are independently joined through beacon ExtraBC, not guessed
@@ -24,7 +24,7 @@ the accepted S1 originals' receipts. No historical transition is inferred.
 | ff0288d7 -> ff031075 | Medium He-3 harvester20a07c -> small gas273199 | He-3 MISC00558e x15 and x150; common owner ff01bc4d. Producer row3154079 joins IRES0057f5 and same source/base. |
 | ff01aa14 -> ff01aa4d | Cargo incoming219173 -> small liquid2c5913 | Caesium MISC0057df x374 and x93; common owner in receipt. Near-full target under S1 fallback mass .8/C75; no attribution to shipment or reverse flow. |
 | ff0514e1 and ff050aae -> ff038416 | Two small solid stores -> Zero Wire fabricator | First source Copper MISC005576 x125; second explicit empty; fabricator explicit empty. These are ingredient-source relationships, not evidence the builder physically stores all inputs. |
-| ff028cfd -> ff028cbd | Small liquid -> greenhouse2965f7 | Water005591 x150 upstream; organic product0055a6 x8 at facility; owner ff028c1c and registered IRES077826 at3612143. No measured consumption. |
+| ff028cfd -> ff028cbd | Small liquid -> greenhouse2965f7 | Water005591 x150 upstream; organic product0055a6 x8 at facility; owner ff028c1c and registered IRES077826 at 3612143. No measured consumption. |
 
 Additional selected witnesses preserve S1's full/over-nominal cases: ff018b64
 Lithium00557f x150, definition-fallback C75/W75; ff02c339 mixed warehouse246b77

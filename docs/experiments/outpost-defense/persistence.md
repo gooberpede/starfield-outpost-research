@@ -90,7 +90,7 @@ L1 failure and report are retained; this is a new qualified continuation.
 |---|---|---|
 | Definition maximum and destruction stages | DEFINITION-DERIVED, DEST/component plus property defaults | Health base fallback 140b82b40; explicit AV overrides can supersede defaults |
 | Health damage and explicit bases | PERSISTED when serialized, ExtraBF | 14051ea30 case BF ->1419aec20; loader 140521620 case BF ->1419aeff0; current/permanent/modifier methods use separate sections |
-| Destroyed reference flag | PERSISTED change channel; different from negative Health damage | Writer-side SetDestroyed/terminal damage marks form change 1; common form loader 1405dfa40 merges saved reference mask d12960, including00800000. A flag's restoration is not an observed settled reload |
+| Destroyed reference flag | PERSISTED change channel; different from negative Health damage | Writer-side SetDestroyed/terminal damage marks form change 1; common form loader 1405dfa40 merges saved reference mask d12960, including 00800000. A flag's restoration is not an observed settled reload |
 | Disabled/deleted | Separate form bits, not synonyms for zero Integrity | Existing prefix reader exposes800/20; production checks these independently |
 | Owner and electrical/local links | PERSISTED saved identities, RECONSTRUCTED handles/maps | Counted4C/CB and prior Workshop/P1/S2 contracts; no attack cause follows from an edge |
 | Attack timestamps | Script writes planet-location AVs | General AV persistence machinery exists; exact timestamp payloads in selected planet locations were not decoded here |

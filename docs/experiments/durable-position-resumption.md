@@ -1,4 +1,4 @@
-# Durable outpost position resumption â€” SOR-EXP-0030
+# Durable outpost position resumption — SOR-EXP-0030
 
 2026-10-11 Australia/Sydney. SOR-EV-0038. Original
 [authorized brief](../implementation-briefs/CODEX_BRIEF_SOR_durable_outpost_position_reconstruction_resumption.md).
@@ -11,7 +11,7 @@ implementation/evidence package, full native-equivalence objective incomplete.
 | Question | Can persisted ordinary Workshop inputs reproduce native body/frame/grid/subcell/compensated-center representation with independent validation? |
 | Answer | Version 2 corrects a native packed-origin reflection defect outside the 23 frozen cases, reproduces all 23 unchanged, exposes missing site cells as UNKNOWN, and separates native hierarchy from packed coordinates. Native-order angular diagnostics materially refine the earlier ideal math. Fresh same-invocation native grid equivalence remains NOT TESTED. |
 | Confidence | Static instruction/arithmetic claims scoped to pinned retail 1.16.244.0; loaded input bits independently corroborated. No new semantic promotion or native-equivalence PASS. |
-| Coverage |23 frozen active inputs: Save25/26 four, S1/S1C two, Save52 seventeen; fresh 23-save decode, all 16 Phase 1 checkpoints/9,412 raw sections, 32 loaded Workshop records, synthetic tags 0â€“3/crossings/quantizer boundaries. No blind native holdout. |
+| Coverage |23 frozen active inputs: Save25/26 four, S1/S1C two, Save52 seventeen; fresh 23-save decode, all 16 Phase 1 checkpoints/9,412 raw sections, 32 loaded Workshop records, synthetic tags 0–3/crossings/quantizer boundaries. No blind native holdout. |
 | Evidence | [Algorithm](position-resumption/algorithm.md), [dependency/alternatives ledger](position-resumption/dependencies.md), [review and acceptance matrix](position-resumption/review.md); local verification receipts and selected comparison CSVs in that directory. |
 | Limits | Frame 2b requires an upstream qualified site cell; raw-angle SIMD/CRT and floating-environment equivalence, future selected live edge/epoch and fresh native center/grid ownership are not established. 10 matching passive tuples do not close these gaps. |
 | Next decision | Independent scrutiny of the residual authority gap, then [narrow observer qualification design](position-resumption/acquisition.md). No live action or external debugger work is authorized. |

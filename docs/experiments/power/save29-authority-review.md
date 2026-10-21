@@ -99,7 +99,7 @@ No semantic or packaging defect required rework. Its limits match the report.
 
 The first disposition edit changed this review document only and was independently
 ACCEPTED in `independent-review02.md` for `package-final01.json`. A subsequent
-precision correction labels the event gate as current reference bit10 rather
+precision correction labels the event gate as current reference bit index 10 rather
 than assigning an unproved disabled-state name, and documents why the serialized
 form-flag word is not a direct runtime gate value. Selection/verdict is unchanged.
 Final checks and exact patches are `audit-final02.json`, `package-final02.json`

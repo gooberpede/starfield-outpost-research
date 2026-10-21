@@ -54,9 +54,9 @@ manual changes or successful local downstream redistribution. Those quantities
 and mass are hypothetical, not installed item identity assertions.
 
 1. At A, arrival unloads nothing. After the admitted timer0, loading removes
-   100 from A.out and adds100 to hold. Timer1 reverses Current to B and requests
+   100 from A.out and adds 100 to hold. Timer1 reverses Current to B and requests
    travel. No bay-full threshold or minimum cargo condition is checked.
-2. At B's package end, unloading can add20 to B.in. Hold retains80. The subsequent
+2. At B's package end, unloading can add 20 to B.in. Hold retains 80. The subsequent
    incoming redistribution request cannot move anything under our declared
    blocked-downstream condition. No immediate second ordinary unload is issued.
 3. B passes readiness. Timer0 loads B.out's40 into the **same** hold, now120.

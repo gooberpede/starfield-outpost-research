@@ -1,5 +1,10 @@
 # Native contribution lifecycle and recovery
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Answer](report.md), [function locators](functions.csv), [source pins](sources.csv). `nNNN` is `.local-work/cr3-lifecycle/native/NNN.request.tsv`. All addresses are hexadecimal preferred static VAs for EXE1.16.244.0/SHA in the report; object offsets are hexadecimal. Aliases describe observed internals, not supported integration points. No native routine was invoked.
 
 ## Assignment to a real query
@@ -20,7 +25,7 @@ Thus the ordinary model is **assignment plus current actor state plus active ent
 
 Normal rank mutation uses `141954810 → 1412b5c60 → 1418c4f00`. The service runs directly or queues `1418ccbd0`; `1418c50a0` resolves the actor and rejects deleted/invalid-state/form-identity cases before `140ca3910`. The latter removes entries matching old rank through virtual70 and registers selected new rank through virtual68. Entry vtable `144bd2870` maps these to `140ca1bd0/140ca1a20`. The registration routine allocates per-entry-point storage only when process+8 exists, then inserts type2 entries. Rank ownership is not itself bucket availability. Per-entry locking does not make a whole rank transition atomic.
 
-**The actual actor finalization path is now traced:** `1419198a0` (n007, focused instructions n021 at14191aa26..46) clears existing buckets via `1419f7b80` when storage exists, then calls Actor virtualBB0, resolved to `141955400`. That routine (n017) walks the effective base NPC's perk/rank array (+250 count/+258 data), sending old0/new selected rank through `1418c4f00` with registration mode4; it separately snapshots the actor's additional ranked list under +36c and replays those entries after unlocking. This is positive native reconstruction, not an assertion that saved wire pointers become active entries. The caller wrapper `141a4b590` (n022) reaches `1419198a0`; its vtable reference is Actor+E8, alongside the established Actor load reader. Complete global startup interleaving remains unqualified.
+**The actual actor finalization path is now traced:** `1419198a0` (n007, focused instructions n021 at 14191aa26..46) clears existing buckets via `1419f7b80` when storage exists, then calls Actor virtualBB0, resolved to `141955400`. That routine (n017) walks the effective base NPC's perk/rank array (+250 count/+258 data), sending old 0/new selected rank through `1418c4f00` with registration mode 4; it separately snapshots the actor's additional ranked list under +36c and replays those entries after unlocking. This is positive native reconstruction, not an assertion that saved wire pointers become active entries. The caller wrapper `141a4b590` (n022) reaches `1419198a0`; its vtable reference is Actor+E8, alongside the established Actor load reader. Complete global startup interleaving remains unqualified.
 
 Base selected-rank lookup `141955080` (n001) searches base NPC rank rows first, then actor additional rows. Generic Extra2B's selected template part3 and the native NPC template copier `140cd77d0` therefore matter. `1405d4a00` builds a new NPC from the saved source/selected part context and invokes the part copier; the spell/perk override explicitly tests bit3 and copies rank rows, not an arbitrary ancestor union. CR1's `140cdfde0/1405366a0/140543370` and nested NPC `140cdf140` establish the saved branch; CR2 n020/n024 and fresh n002/n006 qualify part-specific reconstruction. See [actual instances](persistence.md).
 
@@ -28,7 +33,7 @@ The actor finalization sequence also calls `1412b62f0` to prune null entries fro
 
 ## Entry-storage loss and return
 
-Process transitions `1418e17d0` (sets level3) and `1418e2540` (sets level2) explicitly destroy/free process+8 and set it null (n011), including its bucket owner. Destructor `1419f8f40` calls `1419f7b80`; the latter frees all255 bucket arrays and nulls +480 under the process lock (n012/n018). `141936490` can destroy the full process and null actor+228. These paths establish a real indirect contribution-loss condition even though A1 does not inspect graphics. They do not establish that every remote assigned actor takes these transitions.
+Process transitions `1418e17d0` (sets level 3) and `1418e2540` (sets level 2) explicitly destroy/free process+8 and set it null (n011), including its bucket owner. Destructor `1419f8f40` calls `1419f7b80`; the latter frees all 255 bucket arrays and nulls +480 under the process lock (n012/n018). `141936490` can destroy the full process and null actor+228. These paths establish a real indirect contribution-loss condition even though A1 does not inspect graphics. They do not establish that every remote assigned actor takes these transitions.
 
 Conversely, setup/replacement paths `1418d8ea0` and `141948250` clear/replay nonplayer entries through BB0 after their own applicable state/setup checks (n021). The former skips this replay on the true dead predicate; the latter's relevant branch also checks it. Actor finalization has the explicit clear→replay order above. Recovery requires suitable process storage and successful registration; a later 3D setup path is a concrete re-registration opportunity, not proof that 3D was the timer's direct operand. No unconditional timer-side lazy bucket rebuild was found: the actual bucket test simply returns false when storage is absent.
 
@@ -55,7 +60,7 @@ Main Actor virtual868 is `1418e4540` (n004/n005). It reads actor+F8 masked by1E0
 | Destination unregistered or its Workshop/producer fails resolution | Scheduler skips Workshop or producer branch | No crew effect can create missing scheduled work. S2's pending/sentinel recovery limits still apply. |
 | Generic unassigned then unloaded | CR1 compiled cleanup clears availability/holding references and disables/deletes actor | Named retention differs. A deleted generic's replacement is a new identity, not automatic recovery. |
 
-Handle resolver `1428ccc40` validates masked index, nonnull table entry and generation before callback (S2 n004). It does not load missing references or check actor3D. The A1 loop, E2 load reader and serializer have different mutation behavior; confusing them creates a false universal automatic-recovery claim. Normal dedup/removal handles ordinary repeated assignment; deliberately malformed/restored duplicates and disagreements remain outside the settled-transition proof.
+Handle resolver `1428ccc40` validates masked index, nonnull table entry and generation before callback (S2 n004). It does not load missing references or check actor 3D. The A1 loop, E2 load reader and serializer have different mutation behavior; confusing them creates a false universal automatic-recovery claim. Normal dedup/removal handles ordinary repeated assignment; deliberately malformed/restored duplicates and disagreements remain outside the settled-transition proof.
 
 ## Production clocks and remote scheduling
 

@@ -143,7 +143,7 @@ was consulted for general agent coordination context in the
 [completion-protocol capability assessment](docs/audits/research-execution-completion-protocol.md)
 (SOR-S-0140). Local mechanics were tested separately; no implementation copied.
 
-## External adapter latency â€” SOR-EXP-0026
+## External adapter latency — SOR-EXP-0026
 
 [Report](docs/experiments/event-latency/README.md) retains EXP0025's project/
 maintainer acquisition/fixture provenance, credits Microsoft for Windows/MSVC/
@@ -152,7 +152,7 @@ CPython contributors for offline verification. Exact adapted project source/hash
 and SOR-S-0137 consultation are in [SOURCES.md](docs/SOURCES.md). No new outside
 implementation incorporated.
 
-## Event-associated instrumentation â€” SOR-EXP-0025
+## Event-associated instrumentation — SOR-EXP-0025
 
 [Review](docs/experiments/event-instrumentation/README.md) credits Bethesda Game
 Studios for native/save evidence, the maintainer for controlled samples and
@@ -163,7 +163,7 @@ reader provenance is retained; sibling conceptual sources and precise revisions
 are in [SOURCES.md](docs/SOURCES.md). No new third-party source implementation,
 download, upstream contact or permission basis is incorporated.
 
-## Event-associated oracle and preview â€” SOR-EXP-0024
+## Event-associated oracle and preview — SOR-EXP-0024
 
 [Report](docs/experiments/event-associated-position-oracle-and-build-mode.md)
 credits Bethesda Game Studios for native/content/save evidence, the maintainer
@@ -176,7 +176,7 @@ consultation leads credited [at point of use](docs/experiments/event-oracle/prio
 with access/speculation limits. No outside implementation/assets incorporated
 or endorsement/publication clearance implied.
 
-## Phase 1 live position experiment â€” SOR-EXP-0023
+## Phase 1 live position experiment — SOR-EXP-0023
 
 [Phase 1 results](docs/experiments/engine-oracle/Phase1-results.md) credit Bethesda
 Game Studios for installed native/save inputs, the maintainer for controlled
@@ -196,11 +196,11 @@ credit and notices. No new third-party incorporation, endorsement or disclosure.
 
 For [SOR-EXP-0020 static-exhaustion continuation](docs/experiments/activated-overlay-static-exhaustion.md), Bethesda Game Studios supplies installed native/content evidence; Ghidra/JDK and CPython/stdlib contributors supply separately executed tools. Original project streaming/framing/coordinate methods and archived user captures retain SOR-S-0124/0132 credit. The maintainer's separate manually authored Save52 network supplies independent body/system comparisons. No outside implementation/assets incorporated or endorsement implied.
 
-For [SOR-EXP-0019 activated overlays/grid geometry](docs/experiments/activated-overlay-and-grid-geometry.md), Bethesda Game Studios supplies installed native/content evidence; Ghidra/JDK and CPython/stdlib contributors supply separately executed tools. Earlier original project reader/math/capture work retains SOR-S-0124/0132 provenance. Original Reddit tiling observers are credited as leads (SOR-S-0131); inaccessible authors/text remain unresolved, and the brief's2Ã—2 description is not an authenticated quotation. No outside code/assets incorporated or endorsement implied.
+For [SOR-EXP-0019 activated overlays/grid geometry](docs/experiments/activated-overlay-and-grid-geometry.md), Bethesda Game Studios supplies installed native/content evidence; Ghidra/JDK and CPython/stdlib contributors supply separately executed tools. Earlier original project reader/math/capture work retains SOR-S-0124/0132 provenance. Original Reddit tiling observers are credited as leads (SOR-S-0131); inaccessible authors/text remain unresolved, and the brief's2×2 description is not an authenticated quotation. No outside code/assets incorporated or endorsement implied.
 
 For [SOR-EXP-0018 durable-center/object-transform research](docs/experiments/durable-outpost-center-and-object-transforms.md), Bethesda Game Studios supplies installed native/content evidence; Ghidra/JDK and CPython/stdlib contributors supply separately executed tools. Prior project framing/coordinate work retains SOR-S-0124 provenance. Tinbite Solomon/omaops and the original Reddit tiling observers supply consultation leads (SOR-S-0130/0131); inaccessible text/authors remain unresolved. No outside code/assets incorporated or endorsement implied.
 
-## Broad beacon observer â€” 2026-10-10
+## Broad beacon observer — 2026-10-10
 
 [SOR-EXP-0016](docs/audits/live-beacon-observer.md) credits **Ian Patterson / SFSE** for the exact approved MIT public plugin interface (SOR-P-0001), **Bethesda Game Studios** for locally inspected executable/save research inputs and **Ghidra contributors** for the existing static exports. **Microsoft** supplies installed MSVC/Windows SDK and Windows memory/cryptography/system facilities; **Python Software Foundation/CPython contributors** supply installed standard-library build, hashing, packaging and offline validation. No runtime/SDK binaries are redistributed. Maintainer-authored `gooberpede/starfield-reference-handles` finite census/association patterns retain exact commit/path/hash provenance under SOR-S-0132/SOR-P-0002. No sibling embedded third-party code incorporated, endorsement implied or publication clearance granted.
 
@@ -209,9 +209,9 @@ For [SOR-EXP-0018 durable-center/object-transform research](docs/experiments/dur
 
 For [planetary surface-anchor research](docs/experiments/planetary-surface-anchor-semantics.md), Bethesda Game Studios supplies locally inspected native/content/save evidence; Ghidra/JDK and CPython/stdlib contributors supply separately installed tools. Prior project save/ESM/framing methods retain SOR-S-0124/0127/0128 credit. **Tinbite Solomon/omaops, Mesmacat, Anig, MikkoK141 and forum contributors, PixelRick/Even ENTEM, deveris256, thecommabandit, goarray and the original community observers** supplied public planetary-coordinate, worldspace, tiling and biome research leads. [Exact contributions, original sources and access/validation limits](docs/experiments/planetary-surface-anchor/prior-art-and-leads.md), SOR-S-0130. Consultation and independent testing do not imply collaboration, endorsement or code-reuse permission. No third-party implementation/assets incorporated; authored summaries remain REVIEW-REQUIRED.
 
-For [L0â€“L2C output-link validation](docs/experiments/output-link-validation-L0-L2C.md), **Python Software Foundation/CPython contributors and zlib/zlib-ng contributors** supplied the separately installed runtime/compression facilities (SOR-S-0113). **Bethesda Game Studios** supplied the locally owned save inputs. Existing project-authored manual-corpus methods and prior candidate discovery are identified at use. No third-party parser code was incorporated; evidence and publication boundaries remain separate.
+For [L0–L2C output-link validation](docs/experiments/output-link-validation-L0-L2C.md), **Python Software Foundation/CPython contributors and zlib/zlib-ng contributors** supplied the separately installed runtime/compression facilities (SOR-S-0113). **Bethesda Game Studios** supplied the locally owned save inputs. Existing project-authored manual-corpus methods and prior candidate discovery are identified at use. No third-party parser code was incorporated; evidence and publication boundaries remain separate.
 
-For [manual S0â€“S7C save analysis](docs/experiments/manual-save-corpus-S0-S7C.md), **Python Software Foundation/CPython contributors and zlib/zlib-ng contributors** supplied the installed separate runtime and compression facilities (SOR-S-0113 extension). **Bethesda Game Studios** supplied the locally owned game/save inputs; prior xEdit/script research (SOR-S-0103/0104) supplied labelled definition/vocabulary comparisons. No third-party parser implementation was incorporated. Raw saves and decoded content remain local, with independent publication review required for selected research summaries.
+For [manual S0–S7C save analysis](docs/experiments/manual-save-corpus-S0-S7C.md), **Python Software Foundation/CPython contributors and zlib/zlib-ng contributors** supplied the installed separate runtime and compression facilities (SOR-S-0113 extension). **Bethesda Game Studios** supplied the locally owned game/save inputs; prior xEdit/script research (SOR-S-0103/0104) supplied labelled definition/vocabulary comparisons. No third-party parser implementation was incorporated. Raw saves and decoded content remain local, with independent publication review required for selected research summaries.
 
 For SOR-EXP-0002A, **Ian Patterson and SFSE contributors** supplied the serialization-address/source lead, independently rejected for the current retail locations (SOR-S-0120). **x64dbg contributors and documentation authors** supplied the installed headless debugger and its command/default-behavior documentation; **Microsoft Learn authors** supplied process/debugger verification references (SOR-S-0121). **Bethesda**, **Ghidra**, **CPython**, and **Microsoft MSVC/Windows SDK** supplied the separately installed research/build/runtime tools and inputs already credited below. Original experiment controllers are source-informed work, not a clean-room claim. No additional third-party implementation was incorporated; none of these authors endorses the research.
 
@@ -251,49 +251,49 @@ Microsoft's installed CDB/dbgeng and Windows SDK minidump/AMD64 CONTEXT format d
 
 Microsoft CDB/dbgeng and Ghidra debugger-agent documentation informed the [final EXP0002A software-breakpoint preparation](docs/audits/exp0002a-final-software-attempt.md). Separate installed tools/read-only consultation; no third-party implementation incorporated.
 
-## Offline structural containment â€” 2026-10-08
+## Offline structural containment — 2026-10-08
 
 SOR-EXP-0005 reuses the project's original SOR-EXP-0003/0004 decoder and candidate research, with installed CPython/standard-library zlib facilities credited in SOR-S-0113. Previous xEdit-interpreted Bethesda beacon/storage definition evidence (SOR-S-0103 / SOR-F-0004) informs explicitly limited base-token comparisons. No outside parser, implementation, new dependency or live tool run was introduced. [Results and limits](docs/experiments/outpost-save-structural-containment.md).
 
-## Mature-save validation â€” 2026-10-08
+## Mature-save validation — 2026-10-08
 
 SOR-EXP-0006 credits preserved project/maintainer-directed exploratory discovery and methods as prior unreviewed research (SOR-S-0124), rather than presenting replication as new discovery. Python Software Foundation/CPython contributors provide the installed separate runtime and standard-library zlib facilities (SOR-S-0113). Earlier Bethesda inputs and xEdit interpretation supply independently inventoried marker/keyword definition comparisons (SOR-S-0103/0104). No external save parser or new third-party implementation was incorporated. [Results, contradictions and provenance](docs/experiments/mature-save-outpost-validation.md).
 
-## Historical save inventory â€” 2026-10-09
+## Historical save inventory — 2026-10-09
 
 [Historical inventory and location triage](docs/experiments/historical-save-inventory-triage.md) builds on the project/maintainer-directed exploratory and validated save methods credited in SOR-S-0124 and SOR-EXP-0003/0005/0006. Python Software Foundation/CPython and zlib/zlib-ng contributors supply separately installed runtime/compression facilities (SOR-S-0113). Bethesda supplies the locally owned save inputs; prior xEdit interpretation and installed definition research retain SOR-S-0103/0104 attribution. No third-party parser implementation or new dependency is incorporated, and no publication permission is implied.
 
-## Supplemental launch-era corpus â€” 2026-10-09
+## Supplemental launch-era corpus — 2026-10-09
 
 **TheDailyXPerience** supplied the save package published on [Nexus Mods, listing 1798](https://www.nexusmods.com/starfield/mods/1798), used as observational inputs for [SOR-EXP-0008](docs/experiments/launch-era-third-party-save-corpus.md), SOR-S-0125. No endorsement is implied; originals and substantial payload remain local and excluded from publication. **Igor Pavlov and 7-Zip contributors** supplied the separately installed listing/extraction tool, SOR-S-0126. **Python Software Foundation/CPython and zlib/zlib-ng contributors** supplied installed runtime/compression facilities, SOR-S-0113. Existing project/maintainer-directed methods retain SOR-S-0124 and prior Bethesda/xEdit definition-research credit SOR-S-0103/0104. No third-party parser implementation was incorporated.
 
 
-## Active outpost identification research â€” 2026-10-09
+## Active outpost identification research — 2026-10-09
 
 [SOR-EXP-0009](docs/experiments/active-outpost-identification.md) credits **Bethesda Game Studios** for the locally installed engine/content/script research inputs (SOR-S-0127 / SOR-S-0103/0104), **Ghidra contributors** and the existing installed **Eclipse Adoptium/OpenJDK** runtime for separate read-only analysis tooling, and **Python Software Foundation/CPython and zlib/zlib-ng contributors** for installed offline tooling (SOR-S-0113). Existing project/maintainer-directed methods retain SOR-S-0124 provenance. **TheDailyXPerience** retains SOR-S-0125 credit for the launch-era observational corpus and unchanged raw redistribution restrictions. No outside parser implementation or new dependency was incorporated; proprietary exports remain local.
 
 
-## Alternate beacon identity and membership follow-up â€” 2026-10-09
+## Alternate beacon identity and membership follow-up — 2026-10-09
 
 [SOR-EXP-0010](docs/experiments/active-outpost-membership-completion.md) credits **Bethesda Game Studios** for installed native/content/quest/script research inputs (SOR-S-0127/0128), **Ghidra contributors** and **Eclipse Adoptium/OpenJDK** for separate read-only analysis tools, and **Python Software Foundation/CPython and zlib/zlib-ng contributors** for installed runtime/compression facilities. Existing project/maintainer methods retain SOR-S-0124 provenance; **TheDailyXPerience** retains SOR-S-0125 credit and raw redistribution restrictions. The maintainer supplied the quest hand-in/control-loss explanation; this remains source-reported. No third-party parser implementation or dependency is incorporated; proprietary exports stay local, authored results await review.
 
-## Scoped ordinary beacon detector â€” 2026-10-09
+## Scoped ordinary beacon detector — 2026-10-09
 
 [SOR-EXP-0011](docs/experiments/ordinary-outpost-beacon-detection.md) reuses prior project/maintainer research (SOR-S-0124), **Bethesda Game Studios** local native/content/save inputs (SOR-S-0127/0128 and earlier definition evidence), and installed **Python Software Foundation/CPython and zlib/zlib-ng contributors**' separate runtime/compression facilities (SOR-S-0113). **TheDailyXPerience** retains SOR-S-0125 credit for the distinct launch-era observational corpus and its raw redistribution restrictions. The maintainer's manual network is the independent comparative gameplay documentation. No outside parser implementation/dependency was incorporated, and no endorsement or publication clearance is implied.
 
-## Save capacity and planetary location â€” 2026-10-09
+## Save capacity and planetary location — 2026-10-09
 
 [SOR-EXP-0012](docs/experiments/save-capacity-and-planetary-location.md) credits **Bethesda Game Studios** for locally installed save, content and native research inputs; **Ghidra contributors** and **Eclipse Adoptium/OpenJDK** for separate read-only static tooling; **Python Software Foundation/CPython and zlib/zlib-ng contributors** for installed offline execution/compression facilities; and **TheDailyXPerience** for the two existing launch-era regression inputs, with unchanged raw redistribution restrictions. Project/maintainer methods retain SOR-S-0124 provenance. The maintainer supplies controlled gameplay conditions and the imperfect manually maintained network comparison. No external parser implementation or new dependency incorporated; raw data and native exports stay local.
 
-## Two-outpost anchor comparison â€” 2026-10-09
+## Two-outpost anchor comparison — 2026-10-09
 
 [SOR-EXP-0014](docs/experiments/two-outpost-site-anchors-and-beacon-coordinates.md) credits **Bethesda Game Studios** for local save/content/native inputs, **Ghidra contributors** and **Eclipse Adoptium/OpenJDK** for separate read-only static tools, and **Python Software Foundation/CPython and zlib/zlib-ng contributors** for installed offline execution/compression. Existing project/maintainer methods retain SOR-S-0124 provenance. The maintainer supplies approximate Save25 traversal/placement observations and independent network documentation. Existing planetary prior-art credit is retained in the linked report/register; no outside implementation or dependency incorporated. Raw/native/private data stays local; no endorsement or publication clearance implied.
 
-## Workshop origin and bounds research â€” SOR-EXP-0017
+## Workshop origin and bounds research — SOR-EXP-0017
 
 Bethesda Game Studios supplies the installed native/content/save relationships analyzed; the maintainer supplies controlled saves, prior observer captures and the visual boundary report. Existing Ghidra/JDK and CPython stdlib/zlib/mmap provide separate read-only analysis facilities. Earlier xEdit output supplies a radius lead, independently checked against ESM bytes. Project save/framing/coordinate readers and maintainer-authored observer lineage remain credited in [source records](docs/SOURCES.md). No external implementation is incorporated and proprietary/raw payloads remain local.
 
-### Center-only live procedure preparation â€” 2026-10-11
+### Center-only live procedure preparation — 2026-10-11
 
 Ian Patterson, Stephen Abel and Expired's installed SFSE documentation
 (SOR-S-0112) informed the explicit distinction between `sfse_loader.exe` and an
@@ -302,7 +302,7 @@ reader and approved adapter/decoder underpin the new original operational checks
 and [run card](docs/experiments/event-latency/center-only-live-run-card.md), retaining
 SOR-S-0132/SOR-P-0002 provenance. No new third-party implementation or dependency.
 
-### Startup fail-fast investigation â€” SOR-EXP-0027, 2026-10-11
+### Startup fail-fast investigation — SOR-EXP-0027, 2026-10-11
 
 Microsoft's CRT/fail-fast/CDB documentation and installed diagnostic/compiler
 facilities supplied exception/compiled-startup interpretation (SOR-S-0138,
@@ -312,7 +312,7 @@ snippet, binding, symbol download or redistributable incorporated. Original
 project adapter/fixture/readers retain SOR-S-0132/SOR-P-0002 provenance. New
 startup controls, analysis, correction and review text are original project work.
 
-### Final thread-control diagnosis â€” SOR-EXP-0028, 2026-10-11
+### Final thread-control diagnosis — SOR-EXP-0028, 2026-10-11
 
 Microsoft's primary thread/debug-event/API documentation supplied contract and
 handle-rights interpretation (SOR-S-0139; [point-of-use sources](docs/experiments/event-latency/thread-control-final-report.md)).
@@ -321,7 +321,7 @@ authorized disposable experiments; no implementation copied or new dependency
 incorporated. Original project adapter, fixture, bounded reader and WAL tools
 retain SOR-S-0132/SOR-P-0002 provenance. Diagnosis transforms/API probes and the
 completed failure analysis are original project work; no upstream contact.
-## Extractor/resource trial â€” SOR-EXP-0029
+## Extractor/resource trial — SOR-EXP-0029
 
 [Report](docs/experiments/extractor-resource-association.md) credits Bethesda Game
 Studios for installed game/save/script evidence and its Free Lanes overview;

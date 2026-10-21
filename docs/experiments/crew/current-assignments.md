@@ -18,7 +18,7 @@ No assignment history is needed.
 |---|---|---|
 | Individual identity | **Demonstrated from real saves.** Named placed and dynamic ACHR identities; Lin/Heller/Sarah and three available named actors join installed NPC bases. | Generic base26f937 is Crew_LvlCrew_Any; nested templates include Engineering/Security definitions. Exact final display name and template-role selection are not reconstructed. |
 | Assigned versus unassigned | **Both demonstrated as saved inputs.** Explicit assignments agree with outpost E2 or owned-ship membership; HIST-0255 positively stores three available actors in the independently bounded registry. | Unassigned means the saved available-roster input to the native UNASSIGNED row path. It does not guarantee final loaded coherence or absence of overriding defaults. |
-| Outpost versus ship | **Both demonstrated at saved registry level.** Ordinary outpost beacon2c60e9 joins differ from targets positively in the restored owned-ship array. | The saved ship reference is unique; effective child/base, displayed ship name and loaded UI category remain **not established**. |
+| Outpost versus ship | **Both demonstrated at saved registry level.** Ordinary outpost beacon 2c60e9 joins differ from targets positively in the restored owned-ship array. | The saved ship reference is unique; effective child/base, displayed ship name and loaded UI category remain **not established**. |
 | Unique destination | **Demonstrated from real saves.** Exact dynamic saved destination identity and unique R3 record, rather than proximity/name matching. | IDs are save-local; mutable outpost labels and galaxy/body naming are separate decoration. Sarah's exact target and saved ship-registry membership are recovered; effective loaded classification remains unresolved. |
 | Saved authority versus reconstruction | **Native-only mapped in part.** E2 actor identities rebuild fresh handles; 4C mode0 targets become handles. Registry fixup and definition/default paths matter. | The saved lists/links are inputs, not an observed post-load census. General default/Extra80 precedence, disagreements, VM ordering and full restored coherence remain OPEN. |
 
@@ -39,8 +39,8 @@ of the last three. CR2/CR3 are unchanged.
 
 `.local-work/cr1-current/selection.json` freezes selection from the existing
 278-save inventory **before** the new record search. Select every candidate with
-header level candidate at least290, parsed header playtime earlier than Save52's
-58d7h43m, and declared decoded size at most64MiB. This yields203 originals,
+header level candidate at least 290, parsed header playtime earlier than Save52's
+58d7h43m, and declared decoded size at most 64 MiB. This yields 203 originals,
 including rich outpost and ship-location profiles and no-beacon comparison profiles.
 Playtime/level are selection strata, not verified gameplay chronology, shared
 universe identity or proof of crew. Original filenames, paths, contextual header
@@ -53,7 +53,7 @@ they are untested semantically, not negative crew samples. Across supported inpu
 953 ordinary beacon counted-extra prefixes close;287 explicitly contain E2,
 including empty lists. **23 saves contain nonempty beacon E2**;59 selected records
 queue the assignment key. These are search leads, not59 qualified assignment rows
-or23 independent controlled repetitions. All203 originals match before/after hashes.
+or 23 independent controlled repetitions. All 203 originals match before/after hashes.
 
 HIST-0021/22/24 were selected for detailed reads after positive detection. Their
 headers describe mature level317/318 profiles, playtimes55d0h24m/55d7h7m/55d14h22m
@@ -79,17 +79,17 @@ and `HIST-0024-witness05.json`; principal `HIST-0255-witness06.json` and
 
 | Save / actor | Saved actor/base identity | Current saved assignment | Exact evidence / independent corroboration | Limit |
 |---|---|---|---|---|
-| HIST-0255 / Lin005639 | Static ACHR005639 → NPC005638 | Outpost ff047885 | Actor4C mode at9729048; destination E2 at6919420 lists Lin and Heller among4 members. | Current saved membership; arrival/effect unknown. |
-| HIST-0255 / Heller00563c | Static ACHR00563c → NPC00563a | Same outpost ff047885 | Actor4C mode at9731318; independently decoded E2 includes Heller. | Base identity corroborated by installed NAME, not inferred from location. |
-| HIST-0255 / Sarah005986 | Static ACHR005986 → NPC005983 | Saved owned-ship reference ff02a419 | Actor4C mode at9750456; unique target positively occurs in the independently bounded owned-ship array. | Effective loaded ship child/base/name remains unqualified. |
-| HIST-0021 / ff04e381 | Typed ACHR, dynamic ff04e381; initial NPC26f937; nested Engineering template associations | Outpost ff02a587, ordinary beacon2c60e9 | Actor record9769132;4C mode0 at9770766; destination E2 at4211213 explicitly lists ff04e381. Actor and destination identities come from different records. | Generic template association is not an imported effective perk/name. |
-| HIST-0022 / ff05102a | Typed ACHR, initial NPC26f937 | Outpost ff02b720 | Actor11332833;4C mode11334468; E2 at4632748 contains this actor. | Independent save reproduces grammar, not a controlled intervention. |
-| HIST-0024 / ff03f5ac | Typed ACHR, initial NPC26f937; nested Security Chief associations | Outpost ff02e122 | Actor10599609;4C mode10601277; E2 at4666649 contains both listed actors. | Two members, not two slot-cost observations. |
+| HIST-0255 / Lin005639 | Static ACHR005639 → NPC005638 | Outpost ff047885 | Actor4C mode at 9729048; destination E2 at 6919420 lists Lin and Heller among 4 members. | Current saved membership; arrival/effect unknown. |
+| HIST-0255 / Heller00563c | Static ACHR00563c → NPC00563a | Same outpost ff047885 | Actor4C mode at 9731318; independently decoded E2 includes Heller. | Base identity corroborated by installed NAME, not inferred from location. |
+| HIST-0255 / Sarah005986 | Static ACHR005986 → NPC005983 | Saved owned-ship reference ff02a419 | Actor4C mode at 9750456; unique target positively occurs in the independently bounded owned-ship array. | Effective loaded ship child/base/name remains unqualified. |
+| HIST-0021 / ff04e381 | Typed ACHR, dynamic ff04e381; initial NPC26f937; nested Engineering template associations | Outpost ff02a587, ordinary beacon 2c60e9 | Actor record9769132;4C mode0 at 9770766; destination E2 at 4211213 explicitly lists ff04e381. Actor and destination identities come from different records. | Generic template association is not an imported effective perk/name. |
+| HIST-0022 / ff05102a | Typed ACHR, initial NPC26f937 | Outpost ff02b720 | Actor11332833;4C mode11334468; E2 at 4632748 contains this actor. | Independent save reproduces grammar, not a controlled intervention. |
+| HIST-0024 / ff03f5ac | Typed ACHR, initial NPC26f937; nested Security Chief associations | Outpost ff02e122 | Actor10599609;4C mode10601277; E2 at 4666649 contains both listed actors. | Two members, not two slot-cost observations. |
 | HIST-0024 / ff058402 | Typed ACHR, initial NPC26f937; nested Engineering associations | Same outpost ff02e122 | Actor11352510;4C mode11354143; same E2 independently contains ff058402. | No claim of physical arrival or bonus. |
-| HIST-0024 / Sarah005986 | Static ACHR005986 → installed NPC005983; NAME original ESM offset361113343 | Explicitly assigned elsewhere, target ff057a47 | Actor7919769;actual4C CrewAssignment mode0 at7924285; target record2878750 initial base GBFM0b136e (LvlShip_CrimsonFleet_Combat). | New registry boundary positively classifies this as a saved owned-ship target. Effective child/category and reciprocal ship E2 remain unqualified; not final loaded getter authority. |
+| HIST-0024 / Sarah005986 | Static ACHR005986 → installed NPC005983; NAME original ESM offset 361113343 | Explicitly assigned elsewhere, target ff057a47 | Actor7919769;actual4C CrewAssignment mode0 at 7924285; target record2878750 initial base GBFM0b136e (LvlShip_CrimsonFleet_Combat). | New registry boundary positively classifies this as a saved owned-ship target. Effective child/category and reciprocal ship E2 remain unqualified; not final loaded getter authority. |
 
 The distinct-target Sarah row is a positive assigned-elsewhere control.
-HIST-0255 supplies a separate **positive saved unassigned-roster control** below. Empty E2 at HIST-0021 beacon ff01993e, offset3360850, explicitly
+HIST-0255 supplies a separate **positive saved unassigned-roster control** below. Empty E2 at HIST-0021 beacon ff01993e, offset 3360850, explicitly
 stores count0; the nonempty beacon's count1 and HIST-0024's count2 cross-check count
 and queue consumption. Empty membership qualifies that serialized owner list only.
 It is not proof that any named actor is unassigned or that every destination is empty.
@@ -97,7 +97,7 @@ It is not proof that any named actor is unassigned or that every destination is 
 ## Producer, wire, loader, fixup and consumer
 
 Native addresses below are hexadecimal **static VA**, image base140000000,
-pinned retail1.16.244.0 / EXE SHA256
+pinned retail 1.16.244.0 / EXE SHA256
 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`.
 Installed ESM SHA256 remains
 `1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7`.
@@ -108,13 +108,13 @@ exports/functions and source/tool pins are in [current-sources.csv](current-sour
 |---|---|---|
 | Assignment writer | Existing1404076b0 removes old owner membership, appends actor handle to destination E2, and writes actor keyed relationship through140ba0d40. Removal140407a10 clears/removes. | A current owner relationship, not an arrival flag or skill grant. |
 | Destination serializer | **14051ea30 caseE2**, export005 lines2544 onward. Calls14040a0d0 on +18 count/+20 array to prune unresolved handles, writes compact count with141868770, then140306db0 emits each resolving actor's **FormID through the saved identity encoder**. | Actual writer found. Runtime pointer/capacity/handle words are not the wire schema. Empty E2 and omitted E2 are different states; outer change masks/presence bits control serialization. |
-| Actual E2 wire | One extra tagE2, compact count (low2 bits width, value shifted2), members consume reference-queue entries; count body occupies bytes even when identities are out of line. | Real count0/1/2 and reciprocal pairs above; the extra can be on an ordinary beacon. Not every assignment requires a sampled beacon extra. |
+| Actual E2 wire | One extra tagE2, compact count (low 2 bits width, value shifted 2), members consume reference-queue entries; count body occupies bytes even when identities are out of line. | Real count 0/1/2 and reciprocal pairs above; the extra can be on an ordinary beacon. Not every assignment requires a sampled beacon extra. |
 | E2 loader | 140521620 caseE2 →140408a50(owner,true) →1404089e0; compact count then140306e40 reads/remaps identity, resolves Actor and obtains a fresh handle, or invalid sentinel. | No call to ordinary capacity admission during this reader. The owner's runtime +28 identity comes from owner context, not a second saved destination field in E2. |
 | Actor save/load | Actor private header precedes TESForm flags/common REFR extras. Actual141917e40 reads u32 mask,u32 field,optional u32(mask1),optional byte(mask2),u32,byte **before140b29990**. | Omitting this header caused the earlier false prefixes; correct initial case6 for static changed actors also differs from dynamic case5. |
 | Actor explicit4C | Writer14051ea30 case4C delegates linked-reference save; reader140521620→140547c90→140562ef0. Counted key, one mode byte, target consume explicit queued identities. | Witnesses decode CrewAssignment26beac, mode0 and target; no queue-adjacency heuristic makes the claim. Mode1 stores a FormID representation and is not silently treated as mode0. |
 | Generic branch | Extra2B has source NPC,15-bit template mask/selected references, created-NPC identity, change mask and nested NPC self. Only **zero nested NPC change mask** is supported in the new aid. | Template identities and created NPC differ from placed/dynamic ACHR identity. Nonzero nested changes fail closed; no universal actor/NPC decoder. |
 | Unassigned registry serializer | **14130ce90 is also the actual writer**, not merely a pruning helper as described in the initial CR1 discussion. It copies ship/available handle arrays, prunes unresolved entries in those temporary copies, writes scalar identities and u32-counted identity arrays. Caller14130fba0 enumerates ShipManagementComponent entries. | Does not prove mutation of the original runtime arrays. Real per-entry available-roster locators are now qualified by the independent boundary below; final loaded coherence remains separate. |
-| Enclosing registry stream | 141825820 type6→141822570→14130fba0; actual R1 global **unit6** is framed in HIST-0024 at1438888..1738495 (end exclusive), units24.json. | Actual block boundary now independently identified by the preceding world-component zero terminator and native successor order; interior Player-token search alone remains rejected as proof. |
+| Enclosing registry stream | 141825820 type6→141822570→14130fba0; actual R1 global **unit6** is framed in HIST-0024 at 1438888..1738495 (end exclusive), units24.json. | Actual block boundary now independently identified by the preceding world-component zero terminator and native successor order; interior Player-token search alone remains rejected as proof. |
 | Registry loader/fixup | 14130d540 reads scalar identities into +38/+3c and arrays +40/+58. 14130d650, called by1418234e0, resolves/remaps these into runtime ship +8/+10 and available-actor +20/+28 arrays, retaining qualifying resolved types. | The independently qualified HIST-0255 block now supplies three real available actors. Unresolved/pruned entries must not become known unassigned actors. |
 | Crew screen reader | Existing14153cfe0 walks restored available handles, owned ship handles and registered Workshop handles;14153d170 uses destination E2.14153e4f0 fills assigned row or UNASSIGNED when no AssignmentInfo was supplied. | UI authority is consumer-specific: destination E2 supplies assigned rows; registry supplies unassigned rows. An optional selected candidate can also have no AssignmentInfo. The label alone is not a global saved-status oracle. |
 
@@ -155,7 +155,7 @@ this proposal under offline authority. No historical timeline reconstruction fol
 ## Independent registry boundary and positive unassigned input
 
 This follow-up completes the in-scope unit6 lead instead of stopping at the first
-Player-token pattern. All106 qualified originals were searched with the native-shaped
+Player-token pattern. All 106 qualified originals were searched with the native-shaped
 registry grammar; only HIST-0255 yielded a nonempty candidate available list. The
 initial candidates and rejected Player-token occurrences remain in `registry/` and
 `registry-candidates01.json`; candidate uniqueness alone was not accepted.
@@ -176,14 +176,14 @@ This corroborates the scoped boundary, not every earlier unit6 component.
 | HIST-0021 | 422 /12 | 1501085..1501131 | 0 |
 | HIST-0022 | 450 /13 | 1597697..1597743 | 0 |
 | HIST-0024 | 436 /15 | 1629617..1629663 | 0 |
-| HIST-0255, principal positive | 563 /17 | 2195684..2195742 | **3 at2195726** |
+| HIST-0255, principal positive | 563 /17 | 2195684..2195742 | **3 at 2195726** |
 
 Each block begins u32 outer count1, encoded u32 Player identity000014, u16 index0,
 then the exact native scalar/u32-counted ship-array/scalar/u32-counted actor-array
 sequence. `14186b940→14186bd40` writes saved form tokens as little-endian u32 here,
 **not** R3's three-byte queue entries. The scalar fields remain unnamed; do not
 mistake the second scalar's outpost value for a proven home-ship field. Every block
-has five saved ship identities including03f7e8; explicit assigned targets independently
+has five saved ship identities including 03f7e8; explicit assigned targets independently
 join this array. Loader14130d540 and post-load14130d650 map the second array to the
 runtime +20/+28 population consumed by14153cfe0 without AssignmentInfo. Ordinary
 insertion1404076b0 removes the actor from availability via14130cbf0 before assignment.

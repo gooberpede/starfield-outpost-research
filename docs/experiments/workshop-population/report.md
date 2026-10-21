@@ -39,7 +39,7 @@ unknown and no activity/deletion semantics are invented.
 
 EXP0032 conservatively refused root classification when ExtraFlags9C was omitted.
 Native 1421c6f90 iterates reverse Workshop members and calls 1421c71b0 without
-requiring9C. Its foundation predicate 140f5f2d0 is a conjunction: 9C bit 800 AND
+requiring 9C. Its foundation predicate 140f5f2d0 is a conjunction: 9C bit 800 AND
 a resolving 192 target. The saved 4C loader 140547c90 resizes its array to the saved
 count and 140562ef0 overwrites every entry. For these 191 closed lists, no 192 entry
 can survive through inheritance. Installed alias metadata independently contains
@@ -60,7 +60,7 @@ recipes and examines actual ACHR alternatives. It checks ordinary structures,
 containers, weapon displays, furniture and compound constructions, including
 127 container roots, 17 weapon-rack roots, 76 structure roots and 3258 generated parts.
 It also retains 124 selected nonowner leads rather than filtering by category.
-ExactDA/template NAME joins explain 123 of those leads; 99 have a genuinely nullDA
+Exact DA/template NAME joins explain 123 of those leads; 99 have a genuinely null DA
 group 58, including procedural assemblies. Null does not mean a decoder failure.
 One weapon case has a saved static POI storage-cell parent. Source ancestry
 alone does not prove construction or historical ordinary ownership.

@@ -75,11 +75,11 @@ LOCAL-ONLY; independent review controls completion. No live/mod/save/DB/Git/publ
 
 **2026-10-19 - L2 build-budget accounting:**
 [SOR-EXP-0052 / SOR-EV-0060](experiments/build-budget/report.md) proposes STRONG
-ordinary STATIC scalar accounting with saved corroboration. Base charge1,
-main-ESM surcharges0, conditional allowance2500; single/assembly costs, cached
+ordinary STATIC scalar accounting with saved corroboration. Base charge 1,
+main-ESM surcharges 0, conditional allowance 2500; single/assembly costs, cached
 candidate, unrounded admission, add/delete and restored AV00000399 are traced.
-All17 Kreet archive copies freshly read: positive budgets7/8/10/9 with paired
-controls; move/link unchanged. Two mature inputs add36 explicit budget records,
+All 17 Kreet archive copies freshly read: positive budgets 7/8/10/9 with paired
+controls; move/link unchanged. Two mature inputs add 36 explicit budget records,
 including disabled historical nonzero counters. Footer provider/100-frame
 rounding is mapped; exact screenshot operands/current runtime remain unobserved.
 ExtraBC summary persistence is refined to reconstructed in the inspected
@@ -106,8 +106,8 @@ No live/mod/save/configuration/database/Git/publication authority is added.
 **2026-10-18 - CR1 current saved assignments, corrective continuation:**
 [SOR-EXP-0047 / SOR-EV-0055](experiments/crew/current-assignments.md) demonstrates
 ten reciprocal actor4C/outpostE2 pairs across HIST-0021/22/24/0255, three
-ship-registry assignment rows and three positive named available-roster actors. The systematic203-candidate search has106 supported
-R3 scans and97 explicit header qualification rejects. E2 writer, Actor header,
+ship-registry assignment rows and three positive named available-roster actors. The systematic 203-candidate search has 106 supported
+R3 scans and 97 explicit header qualification rejects. E2 writer, Actor header,
 registry writer and independently bounded R1 unit6 entries are mapped. Effective
 ship child/default and full post-load coherence remain OPEN. [New review](experiments/crew/current-review.md)
 supersedes the earlier no-positive-instance endpoint for this subset; historical
@@ -636,7 +636,7 @@ SOR-EXP-0048 / SOR-EV-0056: [answer-first report](experiments/crew-skills/report
 
 ## CR3 remote crew lifecycle — 2026-10-18
 
-[SOR-EXP-0049 / SOR-EV-0057](experiments/crew-lifecycle/report.md) provides a proposed STRONG conditional mechanism: assigned E2 actors need resolution, life-state/Health, matching environment and active entries; arrival/3D are not direct timer operands. Process-storage teardown can remove entries; actor finalization clears/replays base/additional ranks. Existing producer clocks adopt changed factors after due processing. All23 earlier nonempty-E2 saves freshly read;32 reciprocal generic selected-part3 witnesses (21 Engineering,2 Management,9 Security) close the prior template-candidate gap, alongside named rank3 Lin/Heller and positive available/ship controls. [Persistence](experiments/crew-lifecycle/persistence.md) scopes current-main-definition reconstruction versus historical runtime, and retains8 unsupported E2 members. [Review/package](experiments/crew-lifecycle/review.md) controls disposition; actual remote retention/load execution/output NOT TESTED. No finding promotion, live, importer/mod, staging, commit, push or publication authority.
+[SOR-EXP-0049 / SOR-EV-0057](experiments/crew-lifecycle/report.md) provides a proposed STRONG conditional mechanism: assigned E2 actors need resolution, life-state/Health, matching environment and active entries; arrival/3D are not direct timer operands. Process-storage teardown can remove entries; actor finalization clears/replays base/additional ranks. Existing producer clocks adopt changed factors after due processing. All 23 earlier nonempty-E2 saves freshly read; 32 reciprocal generic selected-part 3 witnesses (21 Engineering, 2 Management, 9 Security) close the prior template-candidate gap, alongside named rank 3 Lin/Heller and positive available/ship controls. [Persistence](experiments/crew-lifecycle/persistence.md) scopes current-main-definition reconstruction versus historical runtime, and retains 8 unsupported E2 members. [Review/package](experiments/crew-lifecycle/review.md) controls disposition; actual remote retention/load execution/output NOT TESTED. No finding promotion, live, importer/mod, staging, commit, push or publication authority.
 
 ## R1 constructed robots — 2026-10-18
 

@@ -1,5 +1,10 @@
 # Organic selection, state and production dataflow
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Report](report.md), [definitions](definitions.md), [reuse matrix](reuse.md),
 [function register](../native-availability-map/functions.csv), [pins](sources.csv).
 All native addresses here are hexadecimal **preferred static VAs**, image base

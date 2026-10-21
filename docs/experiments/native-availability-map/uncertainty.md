@@ -28,7 +28,7 @@ to an impossibility claim: full generation and component-stream reconstruction
 could be future research, but do not recover unrecorded same-evaluation live
 pointees merely by knowing an owner key or installed definition.
 
-The source-level boundary is concrete:070 records the24-byte indexed descriptor,
+The source-level boundary is concrete: 070 records the 24-byte indexed descriptor,
 104-byte query state and final vector/member headers; it does not dereference
 ProcGen source/resource maps,48-byte regions,16-byte point sequences or the
 actual translation table. The event named `region` is a UI union observation.

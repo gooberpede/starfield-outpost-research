@@ -2,7 +2,7 @@
 
 ## LO1 Locations selected-panel lineage - 2026-10-20
 
-[SOR-EXP-0062 / SOR-EV-0070](experiments/locations-outpost/report.md) starts from HEAD1210c1ff5a9501f321eb8de04a604331e84f1447 and freshly matches22 installed/static/screenshot protected inputs. [Methods](experiments/locations-outpost/methods.md) preserve readOnly/noanalysis exports, failed locators/recovery, raw compiled-member identity,14 physical metadata controls and source-specific hashes. No new save analysis, live/target/database/configuration mutation, outside code/dependency or network action. Exact complete/task-only reconstruction and independent disposition remain in [review](experiments/locations-outpost/review.md); source and publication classifications are unchanged.
+[SOR-EXP-0062 / SOR-EV-0070](experiments/locations-outpost/report.md) starts from HEAD 1210c1ff5a9501f321eb8de04a604331e84f1447 and freshly matches 22 installed/static/screenshot protected inputs. [Methods](experiments/locations-outpost/methods.md) preserve readOnly/noanalysis exports, failed locators/recovery, raw compiled-member identity, 14 physical metadata controls and source-specific hashes. No new save analysis, live/target/database/configuration mutation, outside code/dependency or network action. Exact complete/task-only reconstruction and independent disposition remain in [review](experiments/locations-outpost/review.md); source and publication classifications are unchanged.
 
 ## C3 fuel baseline and offline derivatives
 

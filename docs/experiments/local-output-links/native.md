@@ -1,5 +1,10 @@
 # Native contracts, direction and dispatch
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Report](report.md), [function register](functions.csv), [lifecycle](lifecycle.md).
 All VAs are preferred **static VAs**, base `0x140000000`; RVA = VA minus base.
 Object offsets and strides here are hexadecimal. Build 1.16.244.0;

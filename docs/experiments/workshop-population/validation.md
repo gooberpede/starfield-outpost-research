@@ -21,7 +21,7 @@ Actual fresh checks:
 
 - Eighteen population/component adversarial tests PASS; 35 inventory, 11 extractor,
   6 record-framing and 9 membership tests PASS: 79 total.
-- `typed-full03`: S120705records/8Workshop-key leads; Save52205557records/
+- `typed-full03`: S1: 20705 records / 8 Workshop-key leads; Save52: 205557 records /
   8628 leads, independent R3 arithmetic, ordered type counts and all reference
   prefixes close. No prefix errors; unsupported extra suffixes retained.
 - `components01`: complete type 6 body closure at 297569/1451260, independently

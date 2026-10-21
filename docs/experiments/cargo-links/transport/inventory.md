@@ -8,8 +8,8 @@ Native locators are preferred static VAs, base0x140000000. `nNN` is local
 ## Shipment operation and native admission
 
 The shipped quest's TransferCargo has89 instructions (body10001..10925 in
-`sq_outpostcargolinkscript.pex`). Ordinary unload at10325 passes
-RemoveAllItems(incoming,false,true); ordinary load at10743 passes
+`sq_outpostcargolinkscript.pex`). Ordinary unload at 10325 passes
+RemoveAllItems(incoming,false,true); ordinary load at 10743 passes
 RemoveAllItems(ship,false,true). The last argument is capacity respect, verified
 against native registration `142092b00` and implementation `14207dd70` (n02/n03).
 That wrapper supplies remove reason18 hex and the respect-capacity byte to
@@ -48,7 +48,7 @@ else: keep it and advance planned_weight_so_far
 VROUNDSS immediate1 floors; integer conversion truncates that result. Equality
 fits; there is no epsilon, throughput-per-second rate or reservation shared with
 another simultaneous transfer. Only retained/bounded descriptors execute.
-If C<=0, this routine leaves its initial free-weight budget at0; it does **not**
+If C<=0, this routine leaves its initial free-weight budget at 0; it does **not**
 inherit the generic add helper's nonpositive-capacity bypass. Positive-weight
 stock is then rejected by its budget loop; zero-weight rows are a distinct case.
 Corrupt/negative/extreme/NaN quantities or mass are outside the qualified model.

@@ -31,10 +31,10 @@ Start with HIST-0255 (mature Save41) and independent positive assignment HIST-00
 
 | Sample / actor | Positive saved information | Remaining boundary |
 |---|---|---|
-| HIST-0255 Lin005639 | Ranked list9729786..9729791: Demolitions1 at9729787, Management3 at9729788; keyed assignmentff047885 and reciprocal E2 | Actual current entries, Health and output unobserved |
-| HIST-0255 Heller00563c | Ranked list9732032..9732037: Geology1 at9732033, Engineering3 at9732034; same keyed owner/reciprocal E2 | Geology's presence does not create an A1 entry; actual effective producer context unobserved |
-| HIST-0024 Vasco0057be | Fusion1/Shields2/EM1 at7919722/23/24; installed ACHR NAME0057bb independently confirms base | Assignment parser does not close that leading-extra branch; rank evidence remains useful without invented assignment |
-| HIST-0255 Moara29c982 | EM2/Marksmanship2 at11014101/02; fresh installed ACHR NAME015df3 confirms identity | Assignment remains UNKNOWN in this acquisition |
+| HIST-0255 Lin005639 | Ranked list9729786..9729791: Demolitions1 at 9729787, Management3 at 9729788; keyed assignmentff047885 and reciprocal E2 | Actual current entries, Health and output unobserved |
+| HIST-0255 Heller00563c | Ranked list9732032..9732037: Geology1 at 9732033, Engineering3 at 9732034; same keyed owner/reciprocal E2 | Geology's presence does not create an A1 entry; actual effective producer context unobserved |
+| HIST-0024 Vasco0057be | Fusion1/Shields2/EM1 at 7919722/23/24; installed ACHR NAME0057bb independently confirms base | Assignment parser does not close that leading-extra branch; rank evidence remains useful without invented assignment |
+| HIST-0255 Moara29c982 | EM2/Marksmanship2 at 11014101/02; fresh installed ACHR NAME015df3 confirms identity | Assignment remains UNKNOWN in this acquisition |
 | HIST-0255 Barrett005788, Sam29d488, Andreja0059a9 | Independently framed saved available registry from CR1; positive unassigned-roster inputs | This suffix reader rejects their layout. Actual possessed rank remains UNKNOWN, not inferred from direct base grants |
 | HIST-0021/22/24 Lin/Heller and later comparisons | Positive assignment where independently decoded; unsupported/no explicit extra-rank block reported | Missing explicit additional rank list is not zero skill and not unassigned. Definition inheritance and other state can supply ranks |
 

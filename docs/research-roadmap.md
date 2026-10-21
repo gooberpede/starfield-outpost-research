@@ -6,6 +6,10 @@ classification. Source reports and their independent reviews control exact claim
 confidence, coverage and task closure; maintainer integration remains separate.
 The release is a proposed version-bound research archive, not a software product.
 
+Reader aids: [technical notation](audits/publication-readiness-b2/notation.md),
+[analytical mechanism tables](audits/publication-readiness-b2/mechanisms.md) and
+[historical sample context / evidence availability](audits/publication-readiness-b2/evidence-dependencies.md).
+
 Start with the explanation below, follow **Technical** for definitions/native/save
 detail, and **Evidence and review** to challenge it. Each report links its original
 brief, predecessor studies and source pins. The [history register](research-history.md)

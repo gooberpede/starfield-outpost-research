@@ -12,7 +12,7 @@ assignment and unique destination; no assignment timeline, CR2/CR3, live acquisi
 save generation/mutation, deployment, third-party reuse, staging, commit or push.
 Inputs: existing protected originals, installed definitions, readOnly/noanalysis
 Ghidra state and owned readers. Outputs: scoped reader, tests, authored synthesis
-and metadata, ignored raw evidence and exact review exports. Both-drive40GB guards,
+and metadata, ignored raw evidence and exact review exports. Both-drive 40GB guards,
 protected hashes, identity/bounds and actual worker health remain hard gates.
 Diagnose/correct ordinary failures in scope; escalate only the affected action
 requiring missing authority/user evidence or an integrity gate. The correction's

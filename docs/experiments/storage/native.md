@@ -1,5 +1,10 @@
 # Native storage and endpoint contracts
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Answer-first report](report.md), [saved joins](saves.md), [register](functions.csv).
 All hexadecimal addresses are preferred static VAs, image base `140000000`;
 RVA = VA minus base. Object offsets are hexadecimal. Fresh executable version
@@ -108,8 +113,8 @@ The actual manual command was then traced: ContainerMenu's TransferItem sink
 at object offset 138 dispatches through vtable `144d07dd8` to `141eaf900`
 (s028-s031). The handler runs or queues `141eaf9e0` (s033), which finds the
 inventory item and reaches `141eb7950` -> `141eafe00` (s035-s036). That path
-first calls `141eaf090` (s037): item virtual +130 **and** the invocation's
-callable at menu +4c8 must accept. It then applies direction/take-give state,
+first calls `141eaf090` (s037): the item-interface predicate at vtable byte offset `0x130` **and** the invocation's
+callable held at menu object + `0x4C8` must accept. It then applies direction/take-give state,
 actor-specific capacity checks and the shared transfer operation `141eb01a0`.
 That operation also reaches the ordinary fit/insertion helpers; it is not a
 single unconditional item-copy operation.

@@ -6,12 +6,12 @@ Offsets below are decimal **decoded logical-stream offsets**. They are neither
 compressed file offsets nor native addresses. `ff` identities are save-era
 resolved FormIDs, not stable live handles or cross-save identities.
 
-The protected Save52 copy is16,411,136bytes, SHA-256
+The protected Save52 copy is 16,411,136 bytes, SHA-256
 `6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8`.
-Fresh C2 `save02.json` frames all205,557 R3 records and the246-edge local-link
+Fresh C2 `save02.json` frames all 205,557 R3 records and the 246-edge local-link
 envelope. Candidate marker queues select75 records; **61 actually have a
 qualifying ordinary/fueled marker base**, matching the earlier broader-window
-coverage without promoting all61 to active-player pads. One-hop queued references
+coverage without promoting all 61 to active-player pads. One-hop queued references
 and ship endpoints yield929 inspected records and24 selected ship-base matches.
 This is a finite cargo investigation, not an exhaustive Workshop/ship census.
 
@@ -27,10 +27,10 @@ extension is reused with provenance; all other flags/masks remain rejected.
 
 | Example | Saved records and endpoint identities | Inventory / direction evidence | What it establishes |
 |---|---|---|---|
-| Principal ordinary pair | Ship ff02dc37 / GBFM255cc6 at2344136; endpoint01 VII-b ff02c3c4; endpoint02 I ff03444c, both base2a6c3f | Empty item list2344497..2344498. AV2457af=1 at2344468; Current255cc3→I landing ff03444b at2344491. Both outgoing/incoming role keys match C1's four empty bays | Common hold, both directions' compartment identity, saved target02. Does not establish physically landed, in flight, timer ID or historical emptiness throughout operation |
-| Stocked ordinary, VIII-b ↔ VII-b | Ship ff019341 /255cc6 at2271664;01marker ff01ca84 owned ff044cc6 (VIII-b);02ff04d26f owned ff025f95 (VII-b), both2a6c3f | Inventory2272007..2272030: He-3 MISC00558e×558 and Gold005579×3. Current→01 landing ff01ca83 at2272001 | Positive mixed freight in ordinary ship; He-3 here is cargo, not evidence of fuel consumption. No shipment provenance or causal return inference |
-| Stocked inter-system, Schrod II ↔ Feynman V | Ship ff01c5b7 /GBFM219042 at2276744;01ff0217b5 owned ff04ff81 (Schrod II);02ff04fad9 owned ff03388f (Feynman V), both ACTI219523 | Inventory2277095..2277107: Ionic Liquids MISC00557a×7, quantity bytes at2277097; Current→01 landing ff0217b4 at2277088. Ship incoming01 ff0217c8, outgoing01 ff0217bf; incoming02 ff04faec, outgoing02 ff04fae3 | Independently grounded different-system fueled link with real stock. No explicit destination AV override in this qualified BF section; do not invent a saved0 byte |
-| Stocked inter-system direction control, Carinae III-a ↔ Feynman IX | Ship ff047b8b /219042 at2436024;01ff020ce1 owned ff02be17 (Carinae III-a);02ff02b86b owned ff02a0c0 (Feynman IX), both219523 | Inventory2436372..2436384: Lithium00557f×3; destination AV=1 at2436339; Current→02 landing ff02b86a at2436366 | Positive stock coexists with explicit opposite-target selection; direction agrees with script. Target is not a timestamped departure/arrival observation |
+| Principal ordinary pair | Ship ff02dc37 / GBFM255cc6 at 2344136; endpoint01 VII-b ff02c3c4; endpoint02 I ff03444c, both base2a6c3f | Empty item list2344497..2344498. AV2457af=1 at 2344468; Current255cc3→I landing ff03444b at 2344491. Both outgoing/incoming role keys match C1's four empty bays | Common hold, both directions' compartment identity, saved target02. Does not establish physically landed, in flight, timer ID or historical emptiness throughout operation |
+| Stocked ordinary, VIII-b ↔ VII-b | Ship ff019341 /255cc6 at 2271664;01marker ff01ca84 owned ff044cc6 (VIII-b);02ff04d26f owned ff025f95 (VII-b), both2a6c3f | Inventory2272007..2272030: He-3 MISC00558e×558 and Gold005579×3. Current→01 landing ff01ca83 at 2272001 | Positive mixed freight in ordinary ship; He-3 here is cargo, not evidence of fuel consumption. No shipment provenance or causal return inference |
+| Stocked inter-system, Schrod II ↔ Feynman V | Ship ff01c5b7 /GBFM219042 at 2276744;01ff0217b5 owned ff04ff81 (Schrod II);02ff04fad9 owned ff03388f (Feynman V), both ACTI219523 | Inventory2277095..2277107: Ionic Liquids MISC00557a×7, quantity bytes at 2277097; Current→01 landing ff0217b4 at 2277088. Ship incoming01 ff0217c8, outgoing01 ff0217bf; incoming02 ff04faec, outgoing02 ff04fae3 | Independently grounded different-system fueled link with real stock. No explicit destination AV override in this qualified BF section; do not invent a saved 0 byte |
+| Stocked inter-system direction control, Carinae III-a ↔ Feynman IX | Ship ff047b8b /219042 at 2436024;01ff020ce1 owned ff02be17 (Carinae III-a);02ff02b86b owned ff02a0c0 (Feynman IX), both219523 | Inventory2436372..2436384: Lithium00557f×3; destination AV=1 at 2436339; Current→02 landing ff02b86a at 2436366 | Positive stock coexists with explicit opposite-target selection; direction agrees with script. Target is not a timestamped departure/arrival observation |
 
 Owner/name associations use the earlier independently extracted beacon table,
 then fresh explicit marker owner links, reciprocal peers, pad→ship and ship→pad/
@@ -44,7 +44,7 @@ linear save history is introduced.
 
 | Entity / field | Definition → serialized representation | Load/reconstruction → runtime consumer/effect | Classification / boundary |
 |---|---|---|---|
-| Both pad markers | Ordinary ACTI2a6c3f / fueled219523; template ownership/child references. Saved base and Extra4C owner054ba6 | Reference/base restoration; Workshop identity and current reference resolution; marker script | Base DEFINITION-DERIVED; explicit owner/reference PERSISTED; runtime handles RECONSTRUCTED. Membership completeness is not inferred |
+| Both pad markers | Ordinary ACTI2a6c3f / fueled219523; template ownership/child references. Saved base and Extra4C owner 054ba6 | Reference/base restoration; Workshop identity and current reference resolution; marker script | Base DEFINITION-DERIVED; explicit owner/reference PERSISTED; runtime handles RECONSTRUCTED. Membership completeness is not inferred |
 | Reciprocal route | LinkActive255cc8 on both pad markers | C1/S1 Extra4C `140562ef0` restores/remaps queued identities and reverse links; menu/script change events apply route lifecycle | PERSISTED relation; reverse index RECONSTRUCTED; UI pending choice TRANSIENT |
 | Shared assigned ship | Pad LinkShip255cc7→same ff ship; ship keys217856/217855→both markers | Current reference lookup and script Create/ClearCargoLink; reverse links supply readiness participants | PERSISTED links; successful resolution/recreated scripting is not guaranteed by saved existence |
 | Both outgoing bays | CONT219171 in sampled assemblies; marker2a6c45 and ship255ccc/255ccb | Restored reference inventory; timer0's outgoing selection and capacity-respecting source removal | Stock/links PERSISTED, default contents DEFINITION-DERIVED, per-call transfer plan TRANSIENT |

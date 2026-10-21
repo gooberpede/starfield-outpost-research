@@ -95,6 +95,9 @@ For an explicitly authorized crash-tolerant capture, report evidence completenes
 
 ## Address and identity discipline
 
+The [reader notation guide](audits/publication-readiness-b2/notation.md) provides
+domain-specific examples without changing historical address or evidence pins.
+
 Label each location explicitly: runtime virtual address; module-relative RVA; static-analysis address; original compressed-file offset; decompressed-stream offset; record-relative offset; or another defined domain. Include the actual module/image base and build. Preserve original function names/addresses; semantic labels are aliases unless their source is established. Address Library IDs, when used, need version/provenance; they are not universal identifiers.
 
 A runtime pointer, reference handle, FormID, saved identifier, script instance identifier, and logical outpost ID are different concepts until a mapping is demonstrated. Explain mapping scope and whether it survives reload or another save/playthrough. For binary claims record lengths, endianness, encoding, compression/transformations, bounds, flags, and failure cases only where established.

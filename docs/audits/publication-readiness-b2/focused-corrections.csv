@@ -1,0 +1,153 @@
+path,line,original,corrected,domain_verification,kind
+docs/experiments/containers-displays/native.md,5,`140000000`; subtract that base for RVA. Object offsets are hexadecimal.,"`0x140000000`; subtract that base for RVA. Retail executable version is
+1.16.244.0 under the exact hash below. Object offsets are hexadecimal.","Existing SD1 report/methods baseline; spelling only, unchanged image base.",contextual clarification
+docs/experiments/containers-displays/native.md,11,`nNNN` denotes `.local-work/sd1-containers/native/NNN.request.tsv`.,"`nNNN` denotes a numbered **SD1-local export request/output**, not a function
+name or global identifier. The [export-ID guide and SD1 lookup](../../audits/publication-readiness-b2/native-export-ids.md#sd1-lookup-example)
+links each function address to its tracked register and exact local output/pin.
+Raw `.local-work/sd1-containers/native/NNN.request.tsv` outputs are LOCAL-ONLY;
+one output may contain several FUNCTION sections. Identical numbers in another
+experiment have a different namespace.
+
+Reading convention: an explicit vtable byte offset selects a pointer in the
+referenced interface's vtable; an object/member offset selects data in the named
+object. Neither is an executable address or a vtable slot index. Existing shorter
+hexadecimal expressions below retain their locally stated owner; see the
+[prose notation convention](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use).",SD1 functions.csv export column; methods sd1-more.py/reader; pinned numbered requests and FUNCTION headers.,contextual clarification
+docs/experiments/containers-displays/native.md,54,"`141eaf090` (n010) requires item virtual+130
+and the menu+4c8 callable. Fresh `141eadb50` (n039) assigns the bound","`141eaf090` (SD1 n010) requires the item-interface predicate at **vtable
+byte offset `0x130`** and the bound callable held at **menu object + `0x4C8`**.
+The latter is a member holding the callable object, not its code address.
+Fresh `141eadb50` (SD1 n039) assigns the bound",010.request.tsv:2034–2060: item-interface indirect call at141eaf0af; menu pointer RBX=RCX and load at141eaf0b5; 039.request.tsv setup. No concrete item class/vtable slot inferred.,contextual clarification
+docs/experiments/containers-displays/native.md,73,menu filter at+d68 with inversion byte+d70,"menu filter held at **menu object + `0xD68`**, with the inversion byte at
+**menu object + `0xD70`**","042.request.tsv:6565 onward: R15=RCX at141eae207, filter load141eae357, byte comparison141eae3a2. Existing SD1 explanation identifies menu argument.",contextual clarification
+docs/experiments/containers-displays/native.md,37,loader virtual+40,loader at vtable byte offset `0x40`,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded.",contextual clarification
+docs/experiments/containers-displays/native.md,153,reference virtual+458,reference-interface vtable byte offset `0x458`,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded.",contextual clarification
+docs/experiments/containers-displays/native.md,207,reference virtual+900,reference-interface vtable byte offset `0x900`,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded.",contextual clarification
+docs/experiments/containers-displays/native.md,210,through virtual+740,through vtable byte offset `0x740` of the actor interface,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded.",contextual clarification
+docs/experiments/containers-displays/native.md,235,handle at virtual+40,handle through its vtable byte offset `0x40`,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded.",contextual clarification
+docs/experiments/containers-displays/native.md,249,wrapper virtual+A0,wrapper vtable byte offset `0xA0`,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded.",contextual clarification
+docs/experiments/containers-displays/native.md,292,calls reference virtual+538,calls the reference-interface method at vtable byte offset `0x538`,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded.",contextual clarification
+docs/experiments/containers-displays/native.md,293,Virtual+538 resolves,That vtable byte offset `0x538` resolves,"Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded.",contextual clarification
+docs/experiments/containers-displays/native.md,310,"invokes
+source virtual+458","invokes
+the source-reference interface at vtable byte offset `0x458`","Existing SD1 native.md explains this same interface/offset, corresponding function/address and local export; only the byte-offset domain is expanded.",contextual clarification
+docs/experiments/inorganic-extractors/arithmetic-production.md,38,producer+70 virtual+18,"producer ActorValueOwner interface at object byte offset `0x70`,
+method at vtable byte offset `0x18`","Existing same-document native contract, established caller/interface or menu owner; tracked function/source register linked in document.",contextual clarification
+docs/experiments/crew-skills/native.md,9,calls virtual+70; matching new rank calls+68,"calls the entry method at vtable byte offset `0x70`; matching new rank
+calls the method at vtable byte offset `0x68`","Existing same-document native contract, established caller/interface or menu owner; tracked function/source register linked in document.",contextual clarification
+docs/experiments/shared-outpost-storage/consumers.md,11,menu+2e8,menu object + `0x2E8`,"Existing same-document native contract, established caller/interface or menu owner; tracked function/source register linked in document.",contextual clarification
+docs/experiments/build-budget/native.md,1,"# Native cost, admission and accounting","# Native cost, admission and accounting
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/build-catalogue/catalogue.md,1,"# Catalogue discovery, grouping and selection","# Catalogue discovery, grouping and selection
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/cargo-links/configuration-ui/native.md,1,"# C1 native, script and compiled UI contract","# C1 native, script and compiled UI contract
+
+Reader notation: [vtable versus object offsets](../../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/construction-variants/manual-and-automatic.md,1,"# Manual CHANGE, initial construction and automatic adaptation","# Manual CHANGE, initial construction and automatic adaptation
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/crew-lifecycle/native.md,1,# Native contribution lifecycle and recovery,"# Native contribution lifecycle and recovery
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/crew-skills/native.md,1,# Definition admission through actual consumers,"# Definition admission through actual consumers
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/limits/native.md,1,# L1 causal native and definition reference,"# L1 causal native and definition reference
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/local-output-links/native.md,1,"# Native contracts, direction and dispatch","# Native contracts, direction and dispatch
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/locations-outpost/native-and-ui.md,1,# Newly traced Locations edges and decisive locators,"# Newly traced Locations edges and decisive locators
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/outpost-biomes/native.md,1,"# Definition, assignment and consumer chain","# Definition, assignment and consumer chain
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/outpost-defense/integrity.md,1,"# Integrity, damage, operational effects and repair","# Integrity, damage, operational effects and repair
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/shared-outpost-storage/consumers.md,1,"# Ingredient visibility, eligibility and spending","# Ingredient visibility, eligibility and spending
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/shared-outpost-storage/shared-inventory.md,1,"# One backing inventory, multiple access fixtures","# One backing inventory, multiple access fixtures
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/stored-resources/aggregation.md,1,"# Resource identities, counts and freshness","# Resource identities, counts and freshness
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/stored-resources/provider.md,1,# Outpost identity and the source-to-row contract,"# Outpost identity and the source-to-row contract
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/inorganic-extractors/arithmetic-production.md,1,"# Quantity, effective interval and realization","# Quantity, effective interval and realization
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/organic-facilities/native.md,1,"# Organic selection, state and production dataflow","# Organic selection, state and production dataflow
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/storage/native.md,1,# Native storage and endpoint contracts,"# Native storage and endpoint contracts
+
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.",Existing entry-point declarations and tracked source/function registers; namespace guide records exact local scope.,first-use legend/link
+docs/experiments/storage/native.md,116,"item virtual +130 **and** the invocation's
+callable at menu +4c8","the item-interface predicate at vtable byte offset `0x130` **and** the invocation's
+callable held at menu object + `0x4C8`","Existing S1 s037 and independently pinned SD1 n010 at141eaf0af/141eaf0b5; shared function141eaf090, same field domains. S1 historical binding gap remains qualified.",contextual clarification
+docs/experiments/shared-outpost-storage/consumers.md,17,combined inventory at +2f0 and source vector at +2f8,combined inventory at menu object + `0x2F0` and source vector at menu object + `0x2F8`,SD2 n011/n012:141445669/141445670/141445677 address the same RCX menu object fields 2f8/2f0/2e8.,contextual clarification
+docs/experiments/containers-displays/native.md,161,Menu mode at+d80,Mode at menu object + `0xD80`,SD1 n042:141eae207 retains menu in R15;141eae21d reads byte[R15+0xd80].,contextual clarification
+docs/experiments/containers-displays/native.md,249,`1421b10b0 -> 1421de3f0 -> wrapper vtable byte offset `0xA0` -> 140f60f60 -> 1421dd600`,"`1421b10b0` -> `1421de3f0` -> wrapper vtable byte offset `0xA0` ->
+`140f60f60` -> `1421dd600`","Independent focused review: repair nested inline spans only; all four function addresses, wrapper offset 0xA0 and operation order unchanged.",Markdown inline-code correction

@@ -76,8 +76,8 @@ rows, not a search for plausible bytes. The local receipt retains every stack
 offset and original queue through the pinned S1 input.
 
 Physically reread MISC DATA sources: Lithium0000557f at ESM6976950;
-Chlorine0000557c at6975811; Caesium000057df at6990695;
-Magnet00246b77 at7265207; Superconductor00246b73 at7263770. Full selected
+Chlorine0000557c at 6975811; Caesium000057df at 6990695;
+Magnet00246b77 at 7265207; Superconductor00246b73 at 7263770. Full selected
 definition identity/offset inventory, Water/Iron and base offsets are in
 calculations03.json and the fresh source ledger. Weight is the little-endian
 binary32 DATA+4 word, with native loader/component corroboration in capacity-native.md.

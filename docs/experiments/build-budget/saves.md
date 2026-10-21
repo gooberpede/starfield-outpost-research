@@ -77,13 +77,13 @@ not proximity or robot names. The current definitions are reread as targeted
 physical records. The form calculator has a literal type4b actor surcharge
 branch, but effective-base resolution can supply an NPC_ form instead. Do not
 call that branch an extra robot fee from its label; the installed surcharge
-is0 in either case. A damaged/unassigned robot's operating contribution is
+is 0 in either case. A damaged/unassigned robot's operating contribution is
 separate from construction ownership and its persisted budget history.
 
-Fresh HIST-0255 beacon owner `ff038542` stores U=556 at6344232, and owner
-`ff062012` stores U=249 at7831298. These are mixed mature outposts, **not**
+Fresh HIST-0255 beacon owner `ff038542` stores U=556 at 6344232, and owner
+`ff062012` stores U=249 at 7831298. These are mixed mature outposts, **not**
 before/after robot placements; no per-robot delta is extracted from them.
-All 17 positive beacon records in that input and all19 in HIST-0267 have
+All 17 positive beacon records in that input and all 19 in HIST-0267 have
 explicit current-budget base values. Corpus receipt hashes pin the originals.
 
 Hab interiors do not receive a position/occlusion discount in the traced
@@ -99,7 +99,7 @@ not promoted into a new budget inventory here.
 ## Persisted history is not a population oracle
 
 Save52's historically disabled beacons `ff01b58f` and `ff0483f2` retain U=310
-at3022948 and U=198 at5378142, despite zero surviving direct Workshop edges in
+at 3022948 and U=198 at 5378142, despite zero surviving direct Workshop edges in
 the accepted saved-owner ledger. This is an important counterexample to
 equating the scalar with a fresh root census, to inferring zero from empty
 links, and to treating a nonzero counter as proof of an active outpost.

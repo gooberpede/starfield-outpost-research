@@ -1,5 +1,10 @@
 # C1 native, script and compiled UI contract
 
+Reader notation: [vtable versus object offsets](../../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Report](report.md), [Save52](save52.md), [function locators](functions.csv),
 [pins](sources.csv). Retail 1.16.244.0 / image base 0x140000000. Native addresses
 below are static-analysis VAs, not live pointers. Local `nNN` means

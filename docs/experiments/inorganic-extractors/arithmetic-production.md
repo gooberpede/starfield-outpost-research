@@ -1,5 +1,10 @@
 # Quantity, effective interval and realization
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Report](arithmetic-report.md), [clock contract](arithmetic-clocks.md),
 [modifiers](arithmetic-modifiers.md), [source pins](arithmetic-sources.csv).
 Native static VAs use base 0x140000000 and the pinned retail executable in the
@@ -35,9 +40,10 @@ definitions; resource-to-global association must still be demonstrated.
 The missing-global fallback reads fResourceDefaultProductionIntervalHours;
 no current override was sampled.
 
-Registration 140f7dfa0 at 140f7e1cc..1ec calls producer+70 virtual+18 keyed by
+Registration 140f7dfa0 at 140f7e1cc..1ec calls producer ActorValueOwner interface at object byte offset `0x70`,
+method at vtable byte offset `0x18` keyed by
 IRES+f8, VROUNDSS immediate 2 (toward positive infinity), then VCVTTSS2SI.
-Its integer result becomes row+0c; the runtime row stride is1c. New rows start
+Its integer result becomes row+0c; the runtime row stride is 1c. New rows start
 with zero countdown/interval and cached eligibility from reason==0. The
 scheduler loops row+0c times, rechecking current reason on each iteration,
 passing the same due-cycle count to 140f7d6a0. Thus for a settled ordinary

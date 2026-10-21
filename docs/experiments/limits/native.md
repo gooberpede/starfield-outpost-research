@@ -1,5 +1,10 @@
 # L1 causal native and definition reference
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Answer and matrix](report.md), [functions](functions.csv), [pins](sources.csv).
 `nNNN` denotes `.local-work/l1-limits/native/NNN.request.tsv`; `rNNN` denotes
 the retained R1 native export of that number. All function addresses here are

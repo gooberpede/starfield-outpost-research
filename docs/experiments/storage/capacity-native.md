@@ -168,7 +168,7 @@ is continuation, not accepted-count feedback. Nonpositive-weight items take a
 separate whole-remaining path after filter admission; negative/extreme mass
 behavior is not generalized.
 
-Manual ContainerMenu `141eb01a0` (c02/c07) calls the fit helper at141eb0787:
+Manual ContainerMenu `141eb01a0` (c02/c07) calls the fit helper at 141eb0787:
 zero takes the feedback/refusal branch; nonzero is stored back into the subsequent
 requested count at `141eb0c37`. Its captured predicate at `141eaf090` remains
 the precise unresolved manual category boundary from accepted S1. These minimal

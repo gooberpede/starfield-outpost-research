@@ -1,5 +1,10 @@
 # Ingredient visibility, eligibility and spending
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Answer](report.md), [shared model](shared-inventory.md), [prerequisites](prerequisites.md),
 [methods](methods.md). All priorities below are **STATIC**, not observed craft
 results. Source registration is not proof that a particular ingredient is present.
@@ -8,8 +13,8 @@ results. Source registration is not proof that a particular ingredient is presen
 
 Crafting event ancestry reaches ordinary job `1417f8f70 -> 1417f9a20 ->
 1417faca0` (n025/n027). Menu refresh callbacks `141445660/1414462c0/141446bb0`
-(n011/n012) call `1417f6fa0`, providing the actual bench at menu+2e8, temporary
-combined inventory at +2f0 and source vector at +2f8. This is an ingredient
+(n011/n012) call `1417f6fa0`, providing the actual bench at menu object + `0x2E8`, temporary
+combined inventory at menu object + `0x2F0` and source vector at menu object + `0x2F8`. This is an ingredient
 provider, not the player's ordinary inventory-screen list.
 
 Research's AddMaterial consumer is `14160fba0` (n027): immediate or queued

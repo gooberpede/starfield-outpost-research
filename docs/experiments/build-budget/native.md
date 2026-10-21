@@ -1,5 +1,10 @@
 # Native cost, admission and accounting
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Answer](report.md), [save correspondence](saves.md), [UI](ui.md).
 `nNNN` means `.local-work/l2-budget/native/NNN.request.tsv`. Function/register
 locators include exact line ranges, hashes and capped-export flags. Addresses
@@ -153,7 +158,7 @@ The previous E1 summary-persistence UNCLASSIFIED statement is refined for this
 pinned ordinary serializer only, without rewriting historical evidence.
 
 Changes to U or M can affect the next admission/ratio calculation. Accounting
-emits refresh type4; selected-owner entry emits type5. Queue processing and
+emits refresh type 4; selected-owner entry emits type 5. Queue processing and
 summary publication are separate, so immediate display freshness after an
 arbitrary console/setting mutation is not promised. Existing cost values are
 not a renderer performance measurement or a safe mod integration interface.

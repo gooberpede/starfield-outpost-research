@@ -63,7 +63,7 @@ update interface at whole-agent+18 and query-following interface at+28.
 resets its accumulator. `142731f50`, called with the update-interface pointer,
 adds the supplied float movement delta; crossing the start threshold publishes
 the first path payload, and exceeding start+delay publishes the remaining
-payloads and calls its own cleanup interface: n032 at142732119 forms
+payloads and calls its own cleanup interface: n032 at 142732119 forms
 update-interface+8 (whole-agent+20), whose vtable144d95dd8+30 selects
 `142732280`. That routine clears/releases the retained request/path.
 Query-following `142732320` consequently reports completion because its retained
@@ -97,7 +97,7 @@ dormant/invalid references are not thereby certified to progress.
 | Ship disabled when a timer runs | Handler checks IsDisabled and returns | That event does not rearm itself; simply re-enabling is not proven to restart a stranded timer chain |
 | Retarget or remove link | Marker change clears old pair before creating replacement; no manifest is redirected to new peer | Resolve old hold→home ship capacity fit, then remainder→player; retire old ship and cancel timers |
 | Pad deconstruction | OnWorkshopObjectRemoved calls ClearCargoLink(self,None); quest resolves peer then clears both | Same old-hold recovery if ship resolves; incoming/outgoing child stock follows separate construction cleanup, not this ship-hold routine |
-| Busy/failed ship placement | At most30 failed PlaceShipAtMe attempts,1-second real waits; failure message and route clear | No normal transport starts without a ship; rollback of native pairing is explicit marker/quest cleanup |
+| Busy/failed ship placement | At most 30 failed PlaceShipAtMe attempts, 1-second real waits; failure message and route clear | No normal transport starts without a ship; rollback of native pairing is explicit marker/quest cleanup |
 | Unexpected ship loss/despawn | No automatic replacement loop is present in ship timers or marker load callback | Absence is not proof of deletion semantics; the ordinary creation and clearing paths do not certify recovery from all engine faults |
 | Concurrent unlink and already executing callback | Create/Clear use cargoLinkGuard; TransferCargo is not guarded by it | Cancel removes pending timers but cannot be assumed to undo an already running transfer. No universal race/atomicity proof |
 

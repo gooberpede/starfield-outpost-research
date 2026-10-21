@@ -1,5 +1,10 @@
 # Manual CHANGE, initial construction and automatic adaptation
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Answer](report.md), [census](behavior-rules.csv), [saved joins](saves.md).
 `nNNN` means `.local-work/construction-variants/native/NNN.request.tsv`.
 [Functions](functions.csv) supplies exact section lines, hashes and export limits.

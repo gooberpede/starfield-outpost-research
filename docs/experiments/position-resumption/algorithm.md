@@ -74,12 +74,12 @@ not archived. Current installed CRT state cannot establish which provider
 executed historically. These are specific missing inputs/validation, not a
 claim that the static functions are intrinsically unrecoverable.
 
-`1423321f0` accumulates normÂ² as `(YÂ²+XÂ²)+ZÂ²`, converts to binary32,
+`1423321f0` accumulates norm² as `(Y²+X²)+Z²`, converts to binary32,
 uses sqrtss and binary32 reciprocal, then scales double XYZ. South negates X;
 divide X/Y by `1+abs(Z)` and clamp each to[-1,1]. Radicands use distinct
-orders `(aÂ²+2)-bÂ²` and `(2-aÂ²)+bÂ²`, plus/minus `2.8284271247461903*a/b`.
+orders `(a²+2)-b²` and `(2-a²)+b²`, plus/minus `2.8284271247461903*a/b`.
 Replace a radicand by positive zero only when `abs(r)<1e-7`; this is not
-`max(0,r)`. Multiply each double square root by. 25 before subtraction. No FMA
+`max(0,r)`. Multiply each double square root by .25 before subtraction. No FMA
 occurs in this inspected path. Invalid/nonfinite diagnostic domains fail.
 
 With B12,R256,M192,N49152: clamp `w=u+.5` to `[0,1-1/(B*N)]`;
@@ -93,7 +93,7 @@ does not describe hemisphere corners: subX<4 selects0,4..11 selects8,>=12
 increments coarseX and may toggle hemisphere; the Y>=12 branch depends on
 whether X already crossed, and the Y boundary reflects coarseX. V2 does not
 invoke this snap or fabricate a corner result. Terrain pattern orientation and
-2Ã—2 footprints likewise affect asset lookup, not ordinary REFR axis rotation.
+2×2 footprints likewise affect asset lookup, not ordinary REFR axis rotation.
 
 Tests cover all tag/crossing combinations, signed-remainder multiples, native
 packed reflection, signed zero through inherited tests, negative floor,

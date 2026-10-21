@@ -1,5 +1,8 @@
 # Documentation Index
 
+- [B2 documentation corrections and reader aids](audits/publication-readiness-b2/report.md):
+  notation, analytical decision tables and historical evidence availability.
+
 **Current reader route:** [Subsystem roadmap](research-roadmap.md), [history/supersession](research-history.md), [RC1 capabilities](audits/outpost-rc1-2026-10/capability-access.md), [Papyrus](audits/outpost-rc1-2026-10/papyrus-interfaces.md) and [proposed claim/build scope](audits/publication-readiness-b1/claim-build-matrix.md). Publication **NOT CLEARED**. The dated entries below preserve prior routes; they are not a current task queue.
 
 - [LO1 Locations -> Outpost field lineage](experiments/locations-outpost/report.md): full informational inventory, inherited metrics, count/allowance semantics, selected metadata and schematic asset providers; [review](experiments/locations-outpost/review.md).

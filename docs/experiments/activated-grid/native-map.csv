@@ -35,7 +35,7 @@ va,rva,evidence,operation,limit
 14096f940,0096f940,.local-work/recon/activated-grid-01.tsv,seam-aware grid difference,not global metric
 14096eb90,0096eb90,.local-work/recon/activated-grid-11.tsv,angle grid and canonical lookup,reverses coarse for tags2/3
 14096ae90,0096ae90,.local-work/recon/activated-grid-11.tsv,SFBK DNAM to Block+40/+44,eight bytes directly
-14096bba0,0096bba0,.local-work/recon/activated-grid-05.tsv,multi-subdivision footprint remapping,bit8 entries and gated orientation
+14096bba0,0096bba0,.local-work/recon/activated-grid-05.tsv,multi-subdivision footprint remapping,mask 0x08 entries and gated orientation
 14096be70,0096be70,.local-work/recon/activated-grid-03.tsv,pattern remap cache selection,original+38 versus+850
 140851d20,00851d20,.local-work/recon/activated-grid-07.tsv,centered orientation matrix operation,table145907c10
 140851b40,00851b40,.local-work/recon/activated-grid-08.tsv,orientation/stride setup,not hemisphere tag

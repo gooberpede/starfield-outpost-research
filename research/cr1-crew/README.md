@@ -7,7 +7,7 @@
 verify_current.py. Run the latter with `-B research/cr1-crew/verify_current.py --run verification02`
 using the installed CPython from the repository root. It reads ignored witness05/native
 receipts and source originals and writes one exclusive ignored JSON; no game, native
-execution, database, network or Git mutation. Both-drive40GB guards apply.
+execution, database, network or Git mutation. Both-drive 40GB guards apply.
 
 current.py imports owned Reader and typed initial-prefix helpers. It adds the actual
 Actor private header before common TESForm data, leading2B only when nested NPC

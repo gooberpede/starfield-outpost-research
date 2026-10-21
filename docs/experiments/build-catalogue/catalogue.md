@@ -1,5 +1,10 @@
 # Catalogue discovery, grouping and selection
 
+Reader notation: [vtable versus object offsets](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use);
+[experiment-local export namespaces and lookup](../../audits/publication-readiness-b2/native-export-ids.md).
+These guide the existing local address/offset declarations; they do not make
+export labels global symbols or raw exports available in a checkout.
+
 [Answer](report.md), [methods and source domains](methods.md),
 [definition controls](definitions.csv), [category inventory](categories.csv).
 `nNNN` means `.local-work/build-catalogue/native/NNN.request.tsv`.
