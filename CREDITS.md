@@ -623,3 +623,9 @@ project active-membership, SD1/SD2/S1/S2/E1–E3/C3 research and owned readers a
 reused with original limits under SOR-P-0002. Ghidra/Temurin, CPython/stdlib and
 Git support separate offline analysis and review packaging. [Methods/source pins](docs/experiments/stored-resources/methods.md)
 retain exact provenance; no endorsement or publication clearance is implied.
+
+## RG1 geometry alternatives and original analysis
+
+The [RG1 prior-art ledger](docs/experiments/resource-geometry/prior-art.md) credits DownfallNemesis and credited collaborators ZeeOgre/ProbeTech for overlay-mask documentation, Mesmacat for CK overlay/POI terminology, Jaheay and Aldruun for resource-catalogue/combination tool descriptions, deveris256 for a planetary-map experiment lead, and Constellation-VASCO/SFCP issue 703 for an earlier deposit-change report. These informed alternative-path/terminology distinctions, not an adopted vein algorithm. No third-party implementation or data was incorporated. Bethesda installed native/definition inputs and existing project-owned arithmetic/readers are credited at [the native analysis](docs/experiments/resource-geometry/native.md) and [source ledger](docs/experiments/resource-geometry/sources.csv). No endorsement or collaboration is implied.
+
+RG1 continuation also credits gooberpede's maintainer-authored resource reproducer domain/generation/explicit-MT modules, reused under SOR-P-0002 with fresh installed fields, and owned B1 map/frame/orientation work. [Source/version pins and exact roles](docs/experiments/resource-geometry/sources.csv) distinguish this from unincorporated public candidate code/data. The new independent arithmetic geometry check and source-context derivation are original work.

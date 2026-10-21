@@ -266,3 +266,7 @@ resolution, not general Locations mechanics. [One proposed test](experiments/sto
 is unexecuted and requires separate live authority. Complete membership,
 effective overrides and exact shared backing persistence remain qualified;
 no importer, mod or live experiment is authorized by this backlog entry.
+
+## RG1 geometry reconstruction - 2026-10-21
+
+[Report](experiments/resource-geometry/report.md) and [review](experiments/resource-geometry/review.md) document qualified ordinary Kreet source/context-to-vein reconstruction after REWORK: full planar competition/native bounds, whole-source outside-start coverage, three saved frames and alternate arithmetic controls. [Next decision](experiments/resource-geometry/next-decision.md) separates scoped static acceptance from future historical/native correspondence, seams, effective overrides and POI clipping. B6 remains paused; its separate notation/prose lead is recorded without changing the historical region-dependencies report.

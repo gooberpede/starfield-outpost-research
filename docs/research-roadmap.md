@@ -206,3 +206,7 @@ experiment merely to remain useful. [B2 candidates](audits/publication-readiness
 propose presentation improvements only. [B1 report/review](audits/publication-readiness-b1/report.md)
 records navigation verification, proposed scope and unresolved release decisions.
 No importer, mod, capture, tool execution or publication follows from this roadmap.
+
+## RG1 vein geometry continuation
+
+[Qualified geometry report](experiments/resource-geometry/report.md) adds installed source/context-to-region reconstruction for three saved Kreet frames, full planar competition/native bounds, finite source coverage and nominal circle decisions. [Criterion accounting and review](experiments/resource-geometry/review.md) preserve REWORK and govern final acceptance; alternate arithmetic checks support the scoped static model, while historical/native correspondence remains unobserved. Prior biome/availability findings and publication classifications are unchanged.

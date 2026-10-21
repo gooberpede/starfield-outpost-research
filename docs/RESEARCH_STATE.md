@@ -1,5 +1,7 @@
 # Current Research State
 
+**2026-10-21 - RG1 qualified vein reconstruction:** [Report](experiments/resource-geometry/report.md) connects three saved Kreet frames to a current-build main-file/default-settings source/context-to-region evaluator, native-bound competition, finite outside-start coverage and nominal circle decisions. Alternate arithmetic reproduces 1478 paths and 147 fixed-point checks. Historical loaded-cache correspondence, seams/effective overrides and native marginal boundaries remain unobserved. [Frozen criteria and independent review](experiments/resource-geometry/review.md) control acceptance. Historical findings/classifications unchanged; B6 remains on hold. No live, staging, commit, push or publication.
+
 **2026-10-21 — B5-A housekeeping:** [Report](audits/publication-readiness-b5/report.md)
 records fresh local storage accounting, protected evidence retention, exact
 deletion candidates/reference holds and current scratch-exporter qualification.

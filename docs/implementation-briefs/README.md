@@ -250,3 +250,5 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 
 
 - [SD1 containers, displays, ownership and persistence](CODEX_BRIEF_SOR_SD1_containers_displays_ownership_persistence.md): invoked 2026-10-19; [frozen plan](../experiments/containers-displays/plan.md), [report](../experiments/containers-displays/report.md), [review/package](../experiments/containers-displays/review.md). SD2/SD3 remain separate. No staging, commit or push.
+
+- [RG1 inorganic resource vein geometry reconstruction](CODEX_BRIEF_SOR_RG1_inorganic_resource_vein_geometry_reconstruction.md): invoked 2026-10-21; [qualified ordinary-site report](../experiments/resource-geometry/report.md), [unchanged contract and review](../experiments/resource-geometry/review.md). Final independent acceptance governs completion; historical native correspondence remains unobserved. No B6/live/staging/commit/push authority.
