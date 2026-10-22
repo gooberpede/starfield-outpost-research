@@ -1,0 +1,334 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Adapted from owned C1C controller at HEAD 60ce35a; separate retail launch gate.
+#include <windows.h>
+#include "decode.h"
+#include "sourcefiles.h"
+#include <bcrypt.h>
+#include <fstream>
+#include <iostream>
+#include <sstream>
+#include <iomanip>
+#include <vector>
+#include <map>
+#include <string>
+#include <stdexcept>
+#include <algorithm>
+#pragma comment(lib,"bcrypt.lib")
+static HANDLE process=nullptr;
+static HANDLE fixture_gate=nullptr;
+static HANDLE fixture_ready=nullptr;
+static bool disposal_allowed=false;
+static uint64_t reads=0, bytes=0;
+static std::string fault;
+static void require(bool ok,const char* why);
+static void require(bool ok,const char* why) {
+    if (!ok) throw std::runtime_error(std::string(why)+" win32="+std::to_string(GetLastError()));
+}
+static void disk_guard(){
+    for(auto drive:{L"C:\\",L"D:\\"}){ULARGE_INTEGER available{};
+        require(GetDiskFreeSpaceExW(drive,&available,nullptr,nullptr)&&available.QuadPart>=40000000000ULL,"disk guard");}
+}
+static std::string input_line(){
+    std::string line;char ch{};DWORD got{};
+    while(ReadFile(GetStdHandle(STD_INPUT_HANDLE),&ch,1,&got,nullptr)&&got){
+        if(ch=='\n')return line;if(ch!='\r')line.push_back(ch);require(line.size()<=128,"control line budget");}
+    return "STOP";
+}
+static std::string hex(const void* data,size_t size) {
+    std::ostringstream s; s<<std::hex<<std::setfill('0');
+    auto p=static_cast<const unsigned char*>(data);
+    for(size_t i=0;i<size;++i) s<<std::setw(2)<<unsigned(p[i]);
+    return s.str();
+}
+static std::string sha(const std::vector<char>& b) {
+    BCRYPT_ALG_HANDLE a; BCRYPT_HASH_HANDLE h; unsigned char digest[32];
+    require(BCryptOpenAlgorithmProvider(&a,BCRYPT_SHA256_ALGORITHM,nullptr,0)==0,"sha provider");
+    require(BCryptCreateHash(a,&h,nullptr,0,nullptr,0,0)==0,"sha create");
+    require(BCryptHashData(h,reinterpret_cast<PUCHAR>(const_cast<char*>(b.data())),ULONG(b.size()),0)==0,"sha data");
+    require(BCryptFinishHash(h,digest,32,0)==0,"sha finish");
+    BCryptDestroyHash(h); BCryptCloseAlgorithmProvider(a,0); return hex(digest,32);
+}
+static std::vector<char> file(const std::wstring& path) {
+    std::ifstream f(path,std::ios::binary); require(bool(f),"open image");
+    std::vector<char> b((std::istreambuf_iterator<char>(f)),{});
+    require(!b.empty() && b.size()<256*1024*1024,"image size"); return b;
+}
+static bool read(uint64_t address,void* dest,size_t n) {
+    ++reads; if(n>65536 || bytes+n>1048576 || !retail::range(address,n)) return false;
+    bytes+=n; SIZE_T got=0;
+    return ReadProcessMemory(process,reinterpret_cast<void*>(address),dest,n,&got) && got==n;
+}
+#ifdef RETAIL_FIXTURE
+// Resolve exports from bytes of the pinned PE, never load/run the target locally.
+static uint32_t exported(const std::vector<char>& b,const char* name) {
+    auto span=[&](size_t at,size_t n)->const char* {
+        require(at<=b.size() && n<=b.size()-at,"PE bounds"); return b.data()+at;
+    };
+    auto dos=reinterpret_cast<const IMAGE_DOS_HEADER*>(span(0,sizeof(IMAGE_DOS_HEADER)));
+    require(dos->e_magic==IMAGE_DOS_SIGNATURE,"DOS");
+    auto nt=reinterpret_cast<const IMAGE_NT_HEADERS64*>(span(dos->e_lfanew,sizeof(IMAGE_NT_HEADERS64)));
+    require(nt->Signature==IMAGE_NT_SIGNATURE && nt->FileHeader.Machine==IMAGE_FILE_MACHINE_AMD64,"PE x64");
+    auto sections=reinterpret_cast<const IMAGE_SECTION_HEADER*>(span(dos->e_lfanew+sizeof(IMAGE_NT_HEADERS64),nt->FileHeader.NumberOfSections*sizeof(IMAGE_SECTION_HEADER)));
+    auto rva=[&](uint32_t r,size_t n)->const char* {
+        for(unsigned i=0;i<nt->FileHeader.NumberOfSections;++i) {
+            auto s=sections[i];
+            if(r>=s.VirtualAddress && uint64_t(r)-s.VirtualAddress+n<=s.SizeOfRawData)
+                return span(uint64_t(s.PointerToRawData)+r-s.VirtualAddress,n);
+        } throw std::runtime_error("unmapped PE RVA");
+    };
+    auto exp=reinterpret_cast<const IMAGE_EXPORT_DIRECTORY*>(rva(nt->OptionalHeader.DataDirectory[0].VirtualAddress,sizeof(IMAGE_EXPORT_DIRECTORY)));
+    require(exp->NumberOfNames<=128 && exp->NumberOfFunctions<=128,"export budget");
+    auto names=reinterpret_cast<const DWORD*>(rva(exp->AddressOfNames,exp->NumberOfNames*4));
+    auto ord=reinterpret_cast<const WORD*>(rva(exp->AddressOfNameOrdinals,exp->NumberOfNames*2));
+    auto funcs=reinterpret_cast<const DWORD*>(rva(exp->AddressOfFunctions,exp->NumberOfFunctions*4));
+    for(unsigned i=0;i<exp->NumberOfNames;++i) {
+        auto p=rva(names[i],strlen(name)+1);
+        if(!memcmp(p,name,strlen(name)+1)) {
+            require(ord[i]<exp->NumberOfFunctions,"export ordinal"); return funcs[ord[i]];
+        }
+    } throw std::runtime_error("missing synthetic export");
+}
+#endif
+struct Thread { HANDLE handle; uint64_t lifetime,sequence=0; uint64_t reference=0, operation=0, root=0, call_rsp=0; retail::Join gate{}; };
+int wmain(int argc,wchar_t** argv) {
+    PROCESS_INFORMATION pi{};
+    try {
+        disk_guard();
+#ifdef RETAIL_FIXTURE
+        require(argc==4 && std::wstring(argv[1])==L"--synthetic-fixture","fixture-only required");
+        std::string expected;
+        for(auto q=argv[2];*q;++q){require(*q>=32&&*q<=126,"hash ASCII");expected.push_back(static_cast<char>(*q));}
+        wchar_t own[32768];require(GetModuleFileNameW(nullptr,own,32768)>0,"self path");
+        std::wstring target=own;target=target.substr(0,target.find_last_of(L"\\/")+1)+L"sor-c1d-fixture.exe";
+        auto image=file(target);require(sha(image)==expected,"fixture hash");
+        const char* labels[]={"established_updater_call","spatial_transfer_payload","catalogue_selected_population","catalogue_grid_return"};
+        const char* names[]={"fixture_update_call","fixture_transfer","fixture_selector","fixture_grid_return"};
+        uint32_t rvas[4];for(int i=0;i<4;++i)rvas[i]=exported(image,names[i]);
+        uint32_t updater_return=exported(image,"fixture_update_return");
+        std::wstring gate_name=L"Local\\sor-c1d-"+std::to_wstring(GetCurrentProcessId())+L"-"+std::to_wstring(GetTickCount64());
+        fixture_gate=CreateEventW(nullptr,TRUE,FALSE,gate_name.c_str());require(fixture_gate!=nullptr,"fixture gate");
+        fixture_ready=CreateEventW(nullptr,TRUE,FALSE,(gate_name+L"-ready").c_str());require(fixture_ready!=nullptr,"fixture ready event");
+        std::wstring command=L"\""+target+L"\" "+argv[3]+L" "+gate_name;
+#else
+        require(argc==3 && std::wstring(argv[1])==L"--retail-pilot", "retail-pilot PID required");
+        std::string expected="7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28";
+        std::wstring target=L"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Starfield\\Starfield.exe";
+        auto image=file(target);require(sha(image)==expected,"pinned retail hash");
+        const char* labels[]={"established_updater_call","spatial_transfer_payload","catalogue_selected_population","catalogue_grid_return"};
+        const auto& rvas=retail::sites;
+        std::wstring command=L"\""+target+L"\"";
+        uint32_t updater_return=0x21b6936;
+#endif
+        STARTUPINFOW si{}; si.cb=sizeof(si);
+        auto target_dir=target.substr(0,target.find_last_of(L"\\/"));
+#ifdef RETAIL_FIXTURE
+        require(CreateProcessW(target.c_str(),command.data(),nullptr,nullptr,FALSE,CREATE_NO_WINDOW,nullptr,target_dir.c_str(),&si,&pi),"create gated fixture");
+        disposal_allowed=true;
+        // Fixture-only startup bound: no operator input. Attach only after main
+        // has completed loader/CRT initialization and reached its blocking gate.
+        require(WaitForSingleObject(fixture_ready,10000)==WAIT_OBJECT_0,"fixture main readiness");
+#else
+        wchar_t* end=nullptr;auto requested=wcstoul(argv[2],&end,10);
+        require(end&&!*end&&requested>0,"PID domain");pi.dwProcessId=requested;
+        pi.hProcess=OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION|PROCESS_VM_READ|PROCESS_TERMINATE,FALSE,pi.dwProcessId);
+        require(pi.hProcess!=nullptr,"retail process rights");
+        wchar_t actual_before[32768];DWORD actual_size=32768;
+        require(QueryFullProcessImageNameW(pi.hProcess,0,actual_before,&actual_size),"pre-attach image path");
+        require(!_wcsicmp(actual_before,target.c_str())&&sha(file(actual_before))==expected,"pre-attach pinned identity");
+        disposal_allowed=true;
+#endif
+        require(DebugActiveProcess(pi.dwProcessId),"attach guarded process");
+        require(DebugSetProcessKillOnExit(TRUE),"kill-on-debugger-exit");
+        std::map<DWORD,Thread> threads; uint64_t base=0,lifetimes=0,events=0,samples=0;
+        bool startup=false,stopping=false; unsigned char guards[4][16]{};
+        for(;;) {
+            disk_guard();
+            DEBUG_EVENT ev{}; if(!WaitForDebugEvent(&ev,1000)) {
+                require(GetLastError()==ERROR_SEM_TIMEOUT,"wait event");
+                DWORD available=0;
+                if(PeekNamedPipe(GetStdHandle(STD_INPUT_HANDLE),nullptr,0,nullptr,&available,nullptr)&&available){
+                    std::string control=input_line();
+                    require(control=="STOP","idle control");require(TerminateProcess(pi.hProcess,0xc1d0),"operator idle STOP");stopping=true;
+                }
+                continue;
+            } ++events;
+            require(ev.dwProcessId==pi.dwProcessId,"debug PID");
+            DWORD disposition=DBG_CONTINUE;
+            if(ev.dwDebugEventCode==CREATE_PROCESS_DEBUG_EVENT || ev.dwDebugEventCode==CREATE_THREAD_DEBUG_EVENT) {
+                HANDLE thread;
+                if(ev.dwDebugEventCode==CREATE_PROCESS_DEBUG_EVENT) {
+                    process=ev.u.CreateProcessInfo.hProcess; base=reinterpret_cast<uint64_t>(ev.u.CreateProcessInfo.lpBaseOfImage);
+                    wchar_t actual[32768]; DWORD length=32768;
+                    require(QueryFullProcessImageNameW(process,0,actual,&length),"process image path");
+                    require(!_wcsicmp(actual,target.c_str()),"actual image identity");
+                    require(sha(file(actual))==expected,"created image hash");
+                    thread=ev.u.CreateProcessInfo.hThread;
+                    if(ev.u.CreateProcessInfo.hFile) CloseHandle(ev.u.CreateProcessInfo.hFile);
+                    // Pin instruction bytes to the same on-disk export RVA via a mapped image resource.
+                    HMODULE mapped=LoadLibraryExW(target.c_str(),nullptr,LOAD_LIBRARY_AS_IMAGE_RESOURCE);
+                    require(mapped!=nullptr,"image resource mapping");
+                    auto local=reinterpret_cast<uint64_t>(mapped)&~uint64_t(3);
+                    for(int i=0;i<4;++i) {
+                        require(read(base+rvas[i],guards[i],16),"site read");
+                        require(!memcmp(guards[i],reinterpret_cast<void*>(local+rvas[i]),16),"site instruction guard");
+                    }
+                    FreeLibrary(mapped);
+                    std::cout<<"{\"kind\":\"SESSION\",\"pid\":"<<pi.dwProcessId<<",\"module_base\":"<<base<<",\"exe_sha256\":\""<<expected<<"\",\"sites\":[";
+                    for(int i=0;i<4;++i) { if(i) std::cout<<','; std::cout<<"{\"rva\":"<<rvas[i]<<",\"bytes\":\""<<hex(guards[i],16)<<"\"}"; }
+                    std::cout<<"]}"<<std::endl;
+                } else thread=ev.u.CreateThread.hThread;
+                CONTEXT c{}; c.ContextFlags=CONTEXT_DEBUG_REGISTERS|CONTEXT_CONTROL;
+                require(GetThreadContext(thread,&c),"initial context");
+                require(!(c.Dr7&0xffff00ff) && !(c.EFlags&0x100),"unowned debug state");
+                std::cout<<"{\"kind\":\"THREAD_BEGIN\",\"tid\":"<<ev.dwThreadId<<",\"lifetime\":"<<++lifetimes<<",\"original_dr7\":"<<c.Dr7<<"}"<<std::endl;
+                threads.emplace(ev.dwThreadId,Thread{thread,lifetimes});
+                c.Dr0=base+rvas[0]; c.Dr1=base+rvas[1]; c.Dr2=base+rvas[2]; c.Dr3=base+rvas[3]; c.Dr7=(c.Dr7&~0xffff00ffULL)|0x55;
+                c.Dr6=0; require(SetThreadContext(thread,&c),"install hardware sites");
+            } else if(ev.dwDebugEventCode==LOAD_DLL_DEBUG_EVENT) {
+                if(ev.u.LoadDll.hFile) CloseHandle(ev.u.LoadDll.hFile);
+            } else if(ev.dwDebugEventCode==EXIT_THREAD_DEBUG_EVENT) {
+                require(threads.count(ev.dwThreadId)!=0,"thread exit lifetime");
+                std::cout<<"{\"kind\":\"THREAD_END\",\"tid\":"<<ev.dwThreadId<<",\"lifetime\":"<<threads.at(ev.dwThreadId).lifetime<<"}"<<std::endl;
+                threads.erase(ev.dwThreadId);
+            } else if(ev.dwDebugEventCode==EXCEPTION_DEBUG_EVENT) {
+                auto x=ev.u.Exception; auto code=x.ExceptionRecord.ExceptionCode;
+                disposition=DBG_EXCEPTION_NOT_HANDLED;
+                if(code==EXCEPTION_BREAKPOINT && !startup && x.dwFirstChance) {
+                    startup=true; disposition=DBG_CONTINUE;
+                    // Attachment initialization can restore initial thread state
+                    // after CREATE events. Reconcile slots at the all-stop startup
+                    // breakpoint before releasing the cooperative test gate.
+                    for(auto& [tid,t]:threads){CONTEXT arm{};arm.ContextFlags=CONTEXT_DEBUG_REGISTERS|CONTEXT_CONTROL;
+                        require(GetThreadContext(t.handle,&arm),"startup thread context");
+                        auto prior=arm.Dr7;
+                        require(!(arm.EFlags&0x100),"startup unowned TF");
+                        require(!(arm.Dr7&0xffff00ff)||((arm.Dr7&0xffff00ff)==0x55&&arm.Dr0==base+rvas[0]&&arm.Dr1==base+rvas[1]&&arm.Dr2==base+rvas[2]&&arm.Dr3==base+rvas[3]),"startup unowned slots");
+                        arm.Dr0=base+rvas[0];arm.Dr1=base+rvas[1];arm.Dr2=base+rvas[2];arm.Dr3=base+rvas[3];arm.Dr6=0;arm.Dr7=(arm.Dr7&~0xffff00ffULL)|0x55;
+                        require(SetThreadContext(t.handle,&arm),"startup arm");
+                        CONTEXT verify{};verify.ContextFlags=CONTEXT_DEBUG_REGISTERS;
+                        require(GetThreadContext(t.handle,&verify)&&(verify.Dr7&0xffff00ff)==0x55&&verify.Dr0==arm.Dr0&&verify.Dr1==arm.Dr1&&verify.Dr2==arm.Dr2&&verify.Dr3==arm.Dr3,"startup arm readback");
+                        std::cout<<"{\"kind\":\"STARTUP_ARMED\",\"tid\":"<<tid<<",\"prior_dr7\":"<<prior<<",\"readback_dr7\":"<<verify.Dr7<<"}"<<std::endl;
+                    }
+                    if(fixture_gate)require(SetEvent(fixture_gate),"release fixture after attachment");
+                }
+                else if(code==EXCEPTION_SINGLE_STEP && !stopping) {
+                    require(threads.count(ev.dwThreadId)!=0,"trap thread"); auto& t=threads.at(ev.dwThreadId);
+                    CONTEXT c{}; c.ContextFlags=CONTEXT_ALL; require(GetThreadContext(t.handle,&c),"trap context");
+                    int slot=retail::owned_slot(base,c.Rip,c.Dr6,rvas);
+                    require(slot>=0 && (c.Dr6&15)==(1ULL<<slot) && !(c.Dr6&0x6000) &&
+                        c.Dr0==base+rvas[0] && c.Dr1==base+rvas[1] && c.Dr2==base+rvas[2] && c.Dr3==base+rvas[3] && (c.Dr7&0xffff00ff)==0x55,"unowned trap");
+#ifdef RETAIL_FIXTURE
+                    if(std::wstring(argv[3])==L"guard-mismatch")guards[slot][0]^=1;
+#endif
+                    auto began=GetTickCount64();
+                    reads=bytes=0; unsigned char check[16];
+                    require(read(c.Rip,check,16) && !memcmp(check,guards[slot],16),"hit instruction guard");
+                    std::ostringstream row;
+                    row<<"{\"kind\":\"SAMPLE\",\"pid\":"<<ev.dwProcessId<<",\"tid\":"<<ev.dwThreadId
+                       <<",\"thread_lifetime\":"<<t.lifetime<<",\"thread_sequence\":"<<++t.sequence
+                       <<",\"debug_event\":"<<events<<",\"capture\":"<<++samples
+                       <<",\"site\":\""<<labels[slot]<<"\",\"site_rva\":"<<rvas[slot]
+                       <<",\"rip\":"<<c.Rip<<",\"raw_context\":\""<<hex(&c,sizeof(c))
+                       <<"\",\"freshness\":\"UNKNOWN\"";
+                    auto reader=[](uint64_t at,void* dest,size_t n){return read(at,dest,n);};
+                    if(slot==0){t.reference=c.R14;t.operation=c.Rsi;t.call_rsp=c.Rsp;t.root=0;
+                        require(c.Rcx==c.Rsi+0x520 && c.Rsi==base+0x5f5d2e0,"established shared operation");
+                        require(read(c.Rsi+0x268,&t.root,8),"operation root read");}
+                    bool ancestry=slot==0;
+                    if(slot==1){
+                        uint64_t caller=0,saved_r14=0;
+                        require(read(c.Rbp+0x38,&caller,8)&&read(c.Rbp+0x18,&saved_r14,8),"transfer caller frame");
+                        ancestry=caller==base+updater_return && c.R14==base+0x5f5d800 && c.R13==base+0x5f5d618;
+                        t.reference=saved_r14;t.operation=base+0x5f5d2e0;t.root=0;
+                        require(read(t.operation+0x268,&t.root,8),"transfer operation root");
+                        row<<",\"caller_return\":"<<caller<<",\"saved_caller_r14\":"<<saved_r14;
+                    }
+                    uint64_t current_root=0;
+                    bool root_ok=t.operation==base+0x5f5d2e0 && read(t.operation+0x268,&current_root,8) && current_root==t.root;
+                    auto binding=retail::identity(reader,t.reference,base);
+                    bool bound=ancestry&&root_ok&&binding.bound;
+                    row<<",\"shared_population_site_ancestry\":\"UNKNOWN\",\"refresh_payload_site_ancestry\":\""<<(slot==1&&bound?"BOUND_TRANSFER":"UNKNOWN")<<"\"";
+                    row<<",\"identity\":\""<<(bound?"BOUND":"UNKNOWN")<<"\",\"binding_reason\":\""<<binding.reason
+                       <<"\",\"binding_reference\":"<<t.reference<<",\"binding_extra\":"<<binding.extra_pointer
+                       <<",\"raw_binding_reference\":\""<<hex(binding.ref,sizeof binding.ref)
+                       <<"\",\"raw_binding_base\":\""<<hex(binding.base,sizeof binding.base)
+                       <<"\",\"raw_binding_extra\":\""<<hex(binding.extra,sizeof binding.extra)<<"\"";
+                    // Each copied range belongs to this stopped event only.
+                    if(slot==0){
+                        unsigned char ref[0xd0]{},desc[0x38]{};uint64_t workshop=0;
+                        bool ref_ok=read(c.R14,ref,sizeof ref),desc_ok=read(c.Rdx,desc,sizeof desc);
+                        bool w_ok=read(c.Rsi+0x268,&workshop,8);
+                        row<<",\"reference_pointer\":"<<c.R14<<",\"workshop_pointer\":"<<workshop
+                           <<",\"reference_read\":"<<(ref_ok?"true":"false")<<",\"descriptor_read\":"<<(desc_ok?"true":"false")
+                           <<",\"workshop_read\":"<<(w_ok?"true":"false")<<",\"raw_reference\":\""<<hex(ref,sizeof ref)
+                           <<"\",\"raw_descriptor\":\""<<hex(desc,sizeof desc)<<"\"";
+                    }
+                    row<<",\"populations\":{";
+                    for(int i=0;i<3;++i){if(i)row<<',';const char* tags[]={"spatial","atmosphere","biome"};
+                        row<<"\""<<tags[i]<<"\":"<<retail::population(reader,base+0x5f5d800+24*i,bound).json();}
+                    row<<'}';
+                    if(slot==1){
+                        auto payload=retail::population(reader,c.Rdx,true);
+                        row<<",\"refresh_payload\":"<<payload.json()<<",\"payload_file_provenance\":[";
+                        bool comma=false;
+                        for(auto& member:payload.members){auto id=retail::field<uint32_t>(member.raw,0x28);
+                            if(id!=0x57d4 && id!=0x57cf)continue;
+                            if(comma)row<<',';comma=true;
+                            row<<"{\"runtime_formid\":"<<id<<",\"resource_pointer\":"<<member.pointer
+                               <<",\"provenance\":"<<retail::provenance(reader,member.pointer,base,id).json()<<"}";
+                        }row<<']';
+                    }
+                    if(slot==2){
+                        uint64_t caller=0,node=0;
+                        require(read(c.Rbp+0x5f,&caller,8)&&read(c.Rbp+0x47,&node,8),"gate frame read");
+                        bool grid=caller==base+rvas[3];
+                        t.gate={t.lifetime,c.Rbp+0x67,node,grid};
+                        row<<",\"selected_population\":\""<<retail::selector(base,c.Rcx)<<"\",\"node_pointer\":"<<node
+                           <<",\"grid_caller\":"<<(grid?"true":"false")<<",\"return_va\":"<<caller;
+                        // Produced array is native begin/end/cap at RBP-79/-71/-69.
+                        row<<",\"produced\":"<<retail::population(reader,c.Rbp-0x79,true).json();
+                    }
+                    if(slot==3){row<<",\"actual_filter_al\":"<<(c.Rax&255)<<",\"matched_selected_input\":"
+                        <<(t.gate.matches(t.lifetime,c.Rsp)&&t.gate.node==c.Rdi?"true":"false")<<",\"node_pointer\":"<<c.Rdi;t.gate.active=false;}
+                    row<<",\"read_calls\":"<<reads<<",\"read_bytes\":"<<bytes
+                       <<",\"copy_ms\":"<<(GetTickCount64()-began)<<"}";
+                    require(row.str().size()<=1024*1024,"frame byte budget");
+                    std::cout<<row.str()<<std::endl;
+                    std::string ack=input_line();auto numbered="ACK "+std::to_string(samples);
+                    bool accepted=ack==numbered || ack==numbered+" STOP";
+                    std::cout<<"{\"kind\":\"ACK_ACCEPTED\",\"capture\":"<<samples<<",\"accepted\":"<<(accepted?"true":"false")<<"}"<<std::endl;
+                    if(!accepted || ack==numbered+" STOP") {
+                        require(TerminateProcess(process,0xc1c0),"retail STOP"); stopping=true;
+                    } else {
+                        // Execution breakpoints fault before execution. RF resumes this instruction once;
+                        // DR slots remain armed, with no byte patch, TF dance, or manual thread suspension.
+                        c.ContextFlags=CONTEXT_DEBUG_REGISTERS|CONTEXT_CONTROL;
+                        c.Dr6&=~15ULL; c.EFlags|=0x10000;
+                        require(SetThreadContext(t.handle,&c),"resume RF");
+                        CONTEXT after{}; after.ContextFlags=CONTEXT_ALL;
+                        require(GetThreadContext(t.handle,&after),"verify resume state");
+                        require(!memcmp(&c.Rax,&after.Rax,17*sizeof(DWORD64)) &&
+                            !memcmp(&c.FltSave,&after.FltSave,sizeof(c.FltSave)) && c.MxCsr==after.MxCsr &&
+                            (after.EFlags&~0x10002UL)==(c.EFlags&~0x10002UL) &&
+                            after.Dr0==c.Dr0 && after.Dr1==c.Dr1 && after.Dr2==c.Dr2 && after.Dr3==c.Dr3 && (after.Dr7&~0x400ULL)==(c.Dr7&~0x400ULL),"unintended CPU state change");
+                        std::cout<<"{\"kind\":\"RESUME_VERIFIED\",\"capture\":"<<samples
+                            <<",\"flags_requested\":"<<c.EFlags<<",\"flags_readback\":"<<after.EFlags
+                            <<",\"dr7_requested\":"<<c.Dr7<<",\"dr7_readback\":"<<after.Dr7<<"}"<<std::endl;
+                    }
+                    disposition=DBG_CONTINUE;
+                } else {
+                    std::cout<<"{\"kind\":\"EXCEPTION\",\"code\":"<<code<<",\"first_chance\":"<<x.dwFirstChance<<"}"<<std::endl;
+                }
+            } else if(ev.dwDebugEventCode==EXIT_PROCESS_DEBUG_EVENT) {
+                std::cout<<"{\"kind\":\"EXIT\",\"code\":"<<ev.u.ExitProcess.dwExitCode<<",\"captures\":"<<samples<<",\"stopped\":"<<(stopping?"true":"false")<<"}"<<std::endl;
+                require(ContinueDebugEvent(ev.dwProcessId,ev.dwThreadId,DBG_CONTINUE),"continue exit"); break;
+            }
+            require(ContinueDebugEvent(ev.dwProcessId,ev.dwThreadId,disposition),"continue event");
+        }
+        CloseHandle(pi.hThread); CloseHandle(pi.hProcess); return 0;
+    } catch(const std::exception& e) {
+        std::cerr<<e.what()<<std::endl;
+        if(pi.hProcess) { if(disposal_allowed)TerminateProcess(pi.hProcess,0xc1cf); CloseHandle(pi.hProcess); CloseHandle(pi.hThread); }
+        return 2;
+    }
+}

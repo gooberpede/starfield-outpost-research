@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## RG2-C1D bounded retail execution
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md) conditionally authorizes this separate guarded hardware-breakpoint adapter, original fixture execution, protected save copies and first Save52 P3 pilot. User corrections require Steam URI launch and confirm Cloud disabled. SOR-P-0002 covers owned C1B/C1C/Workshop methods with [per-use provenance](experiments/resource-oracle-retail/sources.csv). No third-party incorporation, installation, licence acceptance, contact, disclosure, stage/commit/push or release. Approved outside-sandbox ordinary-user execution is distinct from Windows administrator elevation, which has not been used. B6/old-observer/publication boundaries remain.
+
 ## SOR-EXP-0020 — Sustained offline continuation
 
 The user-invoked [follow-up brief](implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_continuous_coordinate_static_exhaustion.md) authorizes performed existing-state static/save/ESM/capture reads and original bounded tools/research records. Prior project methods and separately installed tools retain provenance. No third-party code/assets incorporated, new licence basis accepted, installation, external contact/disclosure, staging, commit, push, fork/PR or live action. No request for additional permission was needed for this offline work. Raw proprietary/capture evidence remains ignored/local; authored selected data and terminal graph claims require critical/publication review. Existing GPL and permission gates unchanged.

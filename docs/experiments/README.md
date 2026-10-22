@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-C1D retail resource oracle](resource-oracle-retail/report.md): separate adapter, native-layout qualification and bounded Steam pilot; [review](resource-oracle-retail/review.md). Third bounded attempt captured P3-bound spatial transfer with qualified IL/Copper; geometry and catalogue site joins remain unknown.
+
 - [RG2-C1C native resource collector](resource-oracle-collector/report.md): real Windows hardware-breakpoint/foreign-memory synthetic implementation,19-case qualification and [review](resource-oracle-collector/review.md). No retail execution/readiness claim.
 
 - [RG2-C1B native UI resource oracle](resource-ui-oracle/report.md): parallel catalogue/shared-population lineage, source-tagged capture contract, conditional acquisition architecture and synthetic receipt qualification; [review](resource-ui-oracle/review.md). Offline only; no live authority.

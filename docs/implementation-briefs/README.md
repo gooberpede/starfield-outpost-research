@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-C1D retail adapter and first pilot](CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md): invoked2026-10-22; [report](../experiments/resource-oracle-retail/report.md), [review](../experiments/resource-oracle-retail/review.md). Conditional bounded live authority; no staging/commit/push.
+
 - [RG2-C1C native resource oracle collector](CODEX_BRIEF_SOR_RG2_C1C_native_resource_oracle_collector.md): invoked2026-10-22; [implementation/qualification](../experiments/resource-oracle-collector/report.md), [review/package](../experiments/resource-oracle-collector/review.md). Synthetic-only execution; no retail/staging/commit/push authority.
 
 - [RG2-C1B native UI resource oracle qualification](CODEX_BRIEF_SOR_RG2_C1B_native_UI_resource_oracle_qualification.md): invoked 2026-10-22; [report](../experiments/resource-ui-oracle/report.md) and [review](../experiments/resource-ui-oracle/review.md). Offline research/prototype only.

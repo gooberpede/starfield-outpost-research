@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-C1D retail resource oracle
+
+Bethesda native/save/definition evidence and the maintainer's Save52 context supply the inputs. Owned C1B/C1C debugger/transport methods and Workshop persistence research are adapted under SOR-P-0002 with [exact provenance](docs/experiments/resource-oracle-retail/sources.csv). Microsoft Windows API contracts are inherited through C1C; no outside code/dependency is incorporated.
+
 ## RG2-C1B native resource oracle
 
 The maintainer's screenshot/save context and project availability/070, BM2, RG1/A1/F1/D1/C1/C1A research supply the evidence and methods; Bethesda supplies native/save/UI primary content. Microsoft Learn debug-event-loop and ReadProcessMemory API explanations inform the conditional external architecture, without example/code reuse. [Exact uses and provenance](docs/experiments/resource-ui-oracle/verification.md) distinguish inherited findings, new static reconciliation and original synthetic accounting. No endorsement or outside implementation incorporation implied.
