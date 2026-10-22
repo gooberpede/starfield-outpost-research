@@ -667,3 +667,7 @@ records specific use and exact provenance. No third-party code incorporation.
 ## RG2-C1C synthetic native collector
 
 [Implementation and provenance](docs/experiments/resource-oracle-collector/verification.md) use Microsoft Windows debug-event, CONTEXT, continuation and context-sanitization documentation as API contracts (consulted2026-10-22; no example code copied). Existing project-owned C1B receipt framing/copy method and MSVC build/review-export methods retain exact source pins under SOR-P-0002. Bethesda's retail/native evidence supplies only the inherited future-pilot lineage; the synthetic ABI/target/controller/oracle are original and do not reproduce a retail structure. No endorsement, outside-code incorporation or publication clearance is implied.
+
+## RG2-C1E accepted-region ancestry
+
+The [ancestry ledger](docs/experiments/resource-region-ancestry/contract.md) builds on this project's C1D/C1C debugger, C1B receipt pipeline and RG1/RG2 native research. Bethesda Game Studios' Starfield1.16.244.0 executable supplies local-only static/data-layout evidence; no proprietary implementation or raw export is incorporated as project code. [Pins and use](docs/experiments/resource-region-ancestry/sources.csv) retain exact provenance.

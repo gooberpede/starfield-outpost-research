@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-C1E native resource-region ancestry](CODEX_BRIEF_SOR_RG2_C1E_native_resource_region_ancestry.md): invoked2026-10-22, offline Phase A only; [report](../experiments/resource-region-ancestry/report.md), [prospective card](../experiments/resource-region-ancestry/run-card.md), [review](../experiments/resource-region-ancestry/review.md). Fresh explicit live approval required.
+
 - [RG2-C1D retail adapter and first pilot](CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md): invoked2026-10-22; [report](../experiments/resource-oracle-retail/report.md), [review](../experiments/resource-oracle-retail/review.md). Conditional bounded live authority; no staging/commit/push.
 
 - [RG2-C1C native resource oracle collector](CODEX_BRIEF_SOR_RG2_C1C_native_resource_oracle_collector.md): invoked2026-10-22; [implementation/qualification](../experiments/resource-oracle-collector/report.md), [review/package](../experiments/resource-oracle-collector/review.md). Synthetic-only execution; no retail/staging/commit/push authority.

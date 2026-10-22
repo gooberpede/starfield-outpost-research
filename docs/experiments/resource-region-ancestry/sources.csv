@@ -1,0 +1,18 @@
+source_id,path,bytes,sha256,role
+C1E-S001,.local-work/recon/resource-availability-ui-15.tsv,96248,08e3b170efd28e4e1f76d1935f723423c09a8e6673f5fe3f87a543458372ff56,LOCAL-ONLY native/receipt
+C1E-S002,.local-work/recon/resource-availability-ui-16.tsv,102396,3e29f0c813e9a49aa9c53eada6dee052056dfd659979aeea89868fe7c8447aca,LOCAL-ONLY native/receipt
+C1E-S003,research/resource-oracle-retail/controller.cpp,23943,3cf5bc25efd9cdc071207ae2a1d66d97109c2b0081a7f74df23d772d4562dd23,owned project provenance / inherited research
+C1E-S004,research/resource-oracle-retail/decode.h,5131,5517fa45e311419a68957554cc3f6374711d1d43104e37dd763d9483215299b0,owned project provenance / inherited research
+C1E-S005,research/resource-oracle-retail/sourcefiles.h,4051,7ab700bf17d557b763ad578acd48457db5d5645d721ce204b9b1908ea302c732,owned project provenance / inherited research
+C1E-S006,research/resource-oracle-retail/collect.py,8335,e8945b2830303d7ab015b0c3f84ec816f0d2f31baf4b234627fcefd05c548d90,owned project provenance / inherited research
+C1E-S007,research/resource-oracle-retail/build.py,2886,ebf6011ee5cbef085c9d2c61fcb1ccfe991fe2dcd99ef6c874b25b02bd0c7a46,owned project provenance / inherited research
+C1E-S008,research/resource-oracle-retail/qualify.py,6169,d7f7e14425b59f8476e6c92c947cbd836c723b1b974be49dc9f0383c58e9b696,owned project provenance / inherited research
+C1E-S009,research/resource-ui-oracle/receipt_probe.py,8309,a9d4ed8653ecf17e7732c5d7d3c55609942f7c481219932a23c0db4b57022a4b,owned project provenance / inherited research
+C1E-S010,save-analysis/scripts/resource_spatial.py,7440,500de4a2304e02fda1566a996ce58a865de5adc9625d34eb61569548916294cb,owned project provenance / inherited research
+C1E-S011,docs/experiments/resource-geometry-mature-context/freeze-mature-v2.json,2020,992c7f97211d0784de0ed66345caca1d415bad409601426405048dd9dbb038e9,owned project provenance / inherited research
+C1E-S012,.local-work/resource-oracle-retail/analysis-attempt03-final.json,4836,ec09647609a8df25d0d18fd5de875359bd983709e3b847f6f77948862f5c33a7,LOCAL-ONLY native/receipt
+C1E-S013,.local-work/resource-oracle-retail/identity-postflight-final.json,26616,7378e064760f2017ccb5289038c915c4a2922cb2d9a92123fae8bcfe52858295,LOCAL-ONLY native/receipt
+C1E-S014,docs/experiments/resource-oracle-retail/report.md,7758,5801639a3a64666b1bd1684435949b2214b406ebb52476aa828ff10e4028ffbb,owned project provenance / inherited research
+C1E-S015,docs/experiments/resource-geometry-observation/native-contract.md,10705,fb8e199392ce9e97bb74b8b01ba4b83a2da112678e4584184067fba3fe2ef6e0,owned project provenance / inherited research
+C1E-S016,docs/experiments/native-availability-map/region-lifecycle.md,7431,cd66ad922ba98e288488b497dace384703fe005bd0eecfc736780a91b40ca633,owned project provenance / inherited research
+C1E-S017,docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/operands.md,10565,edcc56eaa9dc8172a0d79913f5c7da9678c99c12aad20065263df1a434f1f3a8,owned project provenance / inherited research

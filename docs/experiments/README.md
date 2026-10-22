@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-C1E accepted-region ancestry](resource-region-ancestry/report.md): C1D extension, true-edge/source/ordered-geometry receipts,32 synthetic Windows cases and [approval-only run card](resource-region-ancestry/run-card.md); [review](resource-region-ancestry/review.md). No retail Phase B execution.
+
 - [RG2-C1D retail resource oracle](resource-oracle-retail/report.md): separate adapter, native-layout qualification and bounded Steam pilot; [review](resource-oracle-retail/review.md). Third bounded attempt captured P3-bound spatial transfer with qualified IL/Copper; geometry and catalogue site joins remain unknown.
 
 - [RG2-C1C native resource collector](resource-oracle-collector/report.md): real Windows hardware-breakpoint/foreign-memory synthetic implementation,19-case qualification and [review](resource-oracle-collector/review.md). No retail execution/readiness claim.
