@@ -1,0 +1,19 @@
+source_id,path,bytes,sha256,role
+RG2C1A-S001,docs/experiments/resource-geometry/report.md,5784,03bf39e0f71a176885b1646f38758cc5becbf77f64c50f737f6c56793f7cde9f,RG1 conditional scope
+RG2C1A-S002,docs/experiments/resource-geometry/native.md,14972,cfc97f28435bee9838876cbb3e61fcc446519a06c47fcaea75618609584d6bb8,native generator and consumers
+RG2C1A-S003,docs/experiments/resource-geometry-observation/acquisition.md,5640,73fbdac961a1ace9242527c82f6e9bab94673796aa7efeeae404bad155b767df,C1 bounded census and NO-GO
+RG2C1A-S004,docs/experiments/resource-geometry-observation/native-contract.md,10705,fb8e199392ce9e97bb74b8b01ba4b83a2da112678e4584184067fba3fe2ef6e0,native boundaries and exact schema
+RG2C1A-S005,docs/experiments/resource-geometry-observation/cases.md,4506,c5cec37085b0709b915c231442fb95e2545d6a9ac6d4e5f2994977fcff52cde5,case identities
+RG2C1A-S006,docs/experiments/resource-geometry-mature-context/f1-reconciliation.md,13585,5a3d11e901757ec28763fd5e40ab1bc6b38aadb201a46b7654dbdb3a8c55eae0,F1 observed counterexamples
+RG2C1A-S007,docs/experiments/resource-geometry-mature-context/f1-witnesses.csv,1730,62c9d913c0e5a75de8582c650801ebfeddcc952908db6b12bc5c8426bdcc154b,saved object joins and XYZ
+RG2C1A-S008,docs/experiments/resource-geometry-mature-context/predictions.md,7408,c72d40a9ac547bc072ceb2e90ebab830fc5bce708d3da049d5e3a1d89bd05d53,frozen model scope
+RG2C1A-S009,docs/experiments/resource-geometry-mature-context/sources.md,7396,9b8a42fcb6f14ccd71f1c212c522406c7aaaee0ac52443ad3dcde09bcd1bd3cc,inherited sibling pins/roles
+RG2C1A-S010,docs/experiments/disappearing-deposits/report.md,12258,1cc2a7f1a50cdb4f5f55e6bdab53b783c4b140145f0c53ef0267524c8644cfda,D1 observational limits
+RG2C1A-S011,docs/experiments/disappearing-deposits/native.md,5438,6b126b1c0867c9081fc8fe41c23164ad29a02b1e9fdda5468d89e4190f75168d,selected gate and persisted fields
+RG2C1A-S012,docs/experiments/native-availability-map/region-lifecycle.md,7431,cd66ad922ba98e288488b497dace384703fe005bd0eecfc736780a91b40ca633,cache and lifecycle
+RG2C1A-S013,docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/report.md,6741,721bee082b62428e4078da1f37e158ba5d2abb50ff7d3563356e81296a79376b,lifetime NO-GO
+RG2C1A-S014,docs/experiments/event-latency/thread-control-final-report.md,18268,8690942b7a453221de67b2f43efffd7ae8bc3d2e2ae71a2ad3a3026ec1395b5e,queued trap failure
+RG2C1A-S015,research/review_package.py,8422,de140de74590db1ae85bbd8cc3ccd4d2a36fc19117546be9fd0c9f8d9d544c75,owned B5 review exporter
+RG2C1A-S016,.local-work/recon/resource-availability-ui-10.tsv,40575,a776e83109cc75ff94666414a1da26dc7f82dffeb7dac92610dd7742dde82bd9,LOCAL-ONLY primary static window
+RG2C1A-S017,.local-work/recon/resource-availability-ui-15.tsv,96248,08e3b170efd28e4e1f76d1935f723423c09a8e6673f5fe3f87a543458372ff56,LOCAL-ONLY primary static window
+RG2C1A-S018,.local-work/recon/resource-availability-ui-16.tsv,102396,3e29f0c813e9a49aa9c53eada6dee052056dfd659979aeea89868fe7c8447aca,LOCAL-ONLY primary static window

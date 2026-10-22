@@ -1087,3 +1087,7 @@ retain local raw boundaries; no new outside implementation or permission basis.
 ## RG2-C1 coherent observation design — 2026-10-22
 
 [Native contract and point-of-use provenance](experiments/resource-geometry-observation/native-contract.md), [bounded exact receipt check](experiments/resource-geometry-observation/acquisition.md) reuse project-owned RG1/RG2-A/A1/F1/D1 and native-lifetime/debugger findings. Historical B3 source identities remain controlling. Local evidence.json records exact native/raw source pins; no outside code, dependency, contact or disclosure. Bethesda primary bytes remain LOCAL-ONLY; authored synthesis REVIEW-REQUIRED.
+
+## RG2-C1A acquisition method qualification — 2026-10-22
+
+[Selected pins and measured verification](experiments/resource-region-acquisition/verification.md) credit project-owned RG1/RG2-A/A1/F1/D1, native availability/lifetime/debugger failure research and owned B5 review-export methods. Bethesda native/save/UI inputs and maintainer saves/screenshots supply inherited primary evidence. The original manual receipt-envelope prototype uses stdlib only; no external code, dependency, new consultation/contact or disclosure. SOR-P-0002 scope unchanged. Raw inputs LOCAL-ONLY; authored conditional protocol REVIEW-REQUIRED; no live safety/geometry equality or publication clearance.

@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-C1A resource-region acquisition method qualification](CODEX_BRIEF_SOR_RG2_C1A_resource_region_acquisition_method_qualification.md): invoked 2026-10-22; [conditional manual-first report](../experiments/resource-region-acquisition/report.md) and [review package](../experiments/resource-region-acquisition/review.md). Offline investigation/prototype only; no live/Git/publication authority.
+
 - [RG2-A1-F1 mature observation/geometry reconciliation](CODEX_BRIEF_SOR_RG2_A1_F1_mature_vein_observation_reconciliation.md): invoked offline continuation; entire cumulative RG2-A1 review, no live/commit/push authority.
 
 - [RG2-A1 planetary resource seed and mature source context](CODEX_BRIEF_SOR_RG2_A1_planetary_resource_seed_mature_context.md): invoked 2026-10-22; [report/review](../experiments/resource-geometry-mature-context/report.md). Offline only, no live or Git mutation authority.

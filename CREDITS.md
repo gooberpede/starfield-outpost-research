@@ -651,3 +651,7 @@ the frozen mature predictions. Existing project-native geometry/admission and
 Save52 root/extractor analyses supply the methods; Bethesda supplies primary
 game/native/definition evidence. [F1 reconciliation](docs/experiments/resource-geometry-mature-context/f1-reconciliation.md)
 records specific use and exact provenance. No third-party code incorporation.
+
+## RG2-C1A acquisition design
+
+[Acquisition qualification](docs/experiments/resource-region-acquisition/report.md) uses the maintainer's Save52/historical screenshots and project RG1/A1/F1/D1 findings, plus prior native-lifetime and debugger-retirement failures. Bethesda supplies the underlying game/save/native/UI evidence. [Source pins and exact roles](docs/experiments/resource-region-acquisition/verification.md) distinguish inherited research from the original manual protocol and synthetic receipt accounting. No outside code incorporated or endorsement implied.
