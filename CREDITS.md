@@ -659,3 +659,7 @@ records specific use and exact provenance. No third-party code incorporation.
 ## RG2-C1A acquisition design
 
 [Acquisition qualification](docs/experiments/resource-region-acquisition/report.md) uses the maintainer's Save52/historical screenshots and project RG1/A1/F1/D1 findings, plus prior native-lifetime and debugger-retirement failures. Bethesda supplies the underlying game/save/native/UI evidence. [Source pins and exact roles](docs/experiments/resource-region-acquisition/verification.md) distinguish inherited research from the original manual protocol and synthetic receipt accounting. No outside code incorporated or endorsement implied.
+
+## RG2-C1C synthetic native collector
+
+[Implementation and provenance](docs/experiments/resource-oracle-collector/verification.md) use Microsoft Windows debug-event, CONTEXT, continuation and context-sanitization documentation as API contracts (consulted2026-10-22; no example code copied). Existing project-owned C1B receipt framing/copy method and MSVC build/review-export methods retain exact source pins under SOR-P-0002. Bethesda's retail/native evidence supplies only the inherited future-pilot lineage; the synthetic ABI/target/controller/oracle are original and do not reproduce a retail structure. No endorsement, outside-code incorporation or publication clearance is implied.

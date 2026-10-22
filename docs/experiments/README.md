@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-C1C native resource collector](resource-oracle-collector/report.md): real Windows hardware-breakpoint/foreign-memory synthetic implementation,19-case qualification and [review](resource-oracle-collector/review.md). No retail execution/readiness claim.
+
 - [RG2-C1B native UI resource oracle](resource-ui-oracle/report.md): parallel catalogue/shared-population lineage, source-tagged capture contract, conditional acquisition architecture and synthetic receipt qualification; [review](resource-ui-oracle/review.md). Offline only; no live authority.
 
 - [RG2-C1A resource-region acquisition qualification](resource-region-acquisition/report.md): actionable conditional manual IL/Copper control/reload route, save/native comparison, safety matrix and [review](resource-region-acquisition/review.md). Offline only; no live execution approval.
