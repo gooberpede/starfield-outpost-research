@@ -1,5 +1,10 @@
 # RG2-A: offline spatial validation preparation
 
+2026-10-22 prospective correction: [RG2-A1](../resource-geometry-mature-context/report.md)
+and its [F1 reconciliation](../resource-geometry-mature-context/f1-reconciliation.md) retain conditional mature predictions with observed counterexamples and correct the withdrawn R2 deletion premise. The six-case account
+below records the original RG2-A result; use the [current population](../resource-geometry-mature-context/active-candidates.md).
+Prediction v1 remains unchanged.
+
 2026-10-22, Australia/Sydney. SOR-EXP-0064 / SOR-EV-0072.
 [Invoked AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_A_offline_live_validation_preparation.md),
 [review](review.md), [verification](verification.md), [sources](sources.csv).

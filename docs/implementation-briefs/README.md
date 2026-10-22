@@ -1,5 +1,9 @@
 # Implementation and Audit Briefs
 
+- [RG2-A1-F1 mature observation/geometry reconciliation](CODEX_BRIEF_SOR_RG2_A1_F1_mature_vein_observation_reconciliation.md): invoked offline continuation; entire cumulative RG2-A1 review, no live/commit/push authority.
+
+- [RG2-A1 planetary resource seed and mature source context](CODEX_BRIEF_SOR_RG2_A1_planetary_resource_seed_mature_context.md): invoked 2026-10-22; [report/review](../experiments/resource-geometry-mature-context/report.md). Offline only, no live or Git mutation authority.
+
 - [B5-A local-work inventory and scratch lifecycle](CODEX_BRIEF_SOR_B5_A_local_work_inventory_scratch_lifecycle.md):
   invoked 2026-10-21; [report and review](../audits/publication-readiness-b5/report.md).
   Read-only deletion planning and bounded current-exporter repairs; B5-B is deferred until after release and needs new explicit deletion approval; detailed candidates remain local-only.

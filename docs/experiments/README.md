@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-A1 resource seeds and mature context](resource-geometry-mature-context/report.md): CK field/RSCS and ordinary owner producers, frame discrimination, frozen conditional mature predictions and [F1 observed/saved counterexamples, Water admission and Copper disk](resource-geometry-mature-context/f1-reconciliation.md); [review](resource-geometry-mature-context/review.md). Offline only.
+
 For current explanations use the [subsystem roadmap](../research-roadmap.md); for displaced claims use the [history register](../research-history.md). This dated index preserves original scope/next-step descriptions, including later-completed follow-ons. [RC1](../audits/outpost-rc1-2026-10/gap-reconciliation.md) records current coverage. Ignored raw evidence paths in linked records are LOCAL-ONLY, not public downloads.
 
 - [SOR-EXP-0062 / SOR-EV-0070 - LO1 Locations -> Outpost](locations-outpost/report.md): authoritative field inventory, counts/base allowance, faction/level, metadata/asset selectors and refresh boundaries; [review/package](locations-outpost/review.md). Offline only.

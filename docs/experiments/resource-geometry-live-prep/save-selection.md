@@ -1,5 +1,10 @@
 # Operator save identification
 
+2026-10-22 F1: R2's deletion designation is withdrawn; it remains an optional
+candidate, not a mandatory test or selected reserve. [Current saved status and
+qualification](../resource-geometry-mature-context/active-candidates.md). Original
+prediction/reviewer records remain historical; no live card is approved.
+
 Read [save-identities.csv](save-identities.csv) for full SHA-256, original source,
 read copy and new protected copy. [cases.csv](cases.csv) joins **every case** to
 one of those three identities. A filename is an offline locator, never a menu ID.
@@ -9,7 +14,7 @@ The decoded header location is the saved player location, not every outpost.
 |---|---|---|---|
 | P1/R1: Kreet25 / Save25; SOR-002 and SOR-003 | `Save25_D6036588M417474696C61204B6972616C79_000231_20261009102224_4_0_4.sfs` | **Attila Kiraly**; **Kreet - Outpost**; level **4**; **2h 31m** | **10/9/26, 9:22:22 PM**, UTC+11:00 |
 | P2: Kreet39 / Save39 | `Save39_D6036588M417474696C61204B6972616C79_000209_20261020003045_3_0_4.sfs` | **Attila Kiraly**; **Kreet - Outpost**; level **3**; **2h 9m** | **10/20/26, 11:30:44 AM**, UTC+11:00 |
-| P3/P4/R2: Save52 / HIST-0267 | `Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs` | **Cao Tran**; **Jemison - The Lodge**; level **319**; **58d 7h 43m** | **8/18/26, 5:45:40 PM**, UTC+11:00 |
+| P3/P4: Save52 / HIST-0267 | `Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs` | **Cao Tran**; **Jemison - The Lodge**; level **319**; **58d 7h 43m** | **8/18/26, 5:45:40 PM**, UTC+11:00 |
 
 Character/location/level are first-stream header observations using the owned
 [save-menu reader](../../../save-analysis/scripts/save_menu.py), version 1.0.0.
@@ -72,7 +77,6 @@ the hash-matched protected copy under that same approved handling protocol.
 | P3 | From **Jemison - The Lodge**, starmap → **Feynman V** → named **Feynman V Cu Co Ni IL** outpost marker. Actual fast-travel availability and landing/arrival offset UNKNOWN; if unavailable, record the restriction and stop for route review. Do not substitute the other Feynman site. | beacon `83388f`, parent `84ec80`, Workshop `c3a5866f4cfcf585`, center `(83.460693,67.887711,-0.153640)` in saved 2b site plane |
 | P4 | From the Lodge, starmap → **Carinae III-a** → **Carinae III-a Rc Fe**. Same conditional map/travel gate. It is not Carinae III-c or Carinae V-c. | beacon `82be17`, parent `84655c`, Workshop `91bac704da9b1e34`, center `(86.638062,70.479126,6.211388)` |
 | R1 | Save25 player is already near **SOR-003**, Kreet. Confirm name before leaving. | beacon `84b985`, parent `84b996`, Workshop `0efca066ee4c7b9b`, center `(356.820404,2459.058594,-31.890842)` |
-| R2 | From Lodge, starmap → Feynman V → **Feynman V Cu IL F**; distinct from P3. | beacon `84e101`, parent `859b49`, Workshop `b0e207c2dee2c1b6`, center `(81.190742,90.277481,5.303274)` |
 
 Saved three-byte tokens, Workshop identifier bytes and live RefIDs are different
 domains. They cannot be pasted as current console IDs. Reacquire the selected

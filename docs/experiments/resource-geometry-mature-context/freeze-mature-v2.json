@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-21T23:56:15.267650+00:00",
+  "rule": "Immutable; new version for any correction; all observations still future and unauthorized.",
+  "live_observation": false,
+  "prior_freeze": {
+    "path": "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-mature-context\\freeze-mature-v1.json",
+    "bytes": 2436,
+    "sha256": "292edc625dd6ff5fa57922021f48e535174fa1034213f72e96d53c79733c40e3"
+  },
+  "artifacts": [
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-mature-context\\operands-v2.json",
+      "bytes": 29667,
+      "sha256": "dfeaff1a93dbe32969460ad0dc543acd3ded406d8f8a09c8f6770ed5679defb7"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-mature-context\\predictions-mature-v2.json",
+      "bytes": 33163,
+      "sha256": "58641744a1b6a904a08a27c7a9355b53a9eeb356cb14fe29ecbd1a1ced9c103c"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-mature-context\\points-mature-v2.csv",
+      "bytes": 6108,
+      "sha256": "8f7291c203f5a38f2edd99c5fea5971011feed58386cf5f89840d83219869c70"
+    }
+  ],
+  "complete_geometry": [
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\site-feynman-initial02.json",
+      "bytes": 523972,
+      "sha256": "6f40b0d3166796bbdabb31dd8cd4a00dbfc9da144eb13ba3a336367d2f6c539b"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\site-carinae-initial02.json",
+      "bytes": 2358110,
+      "sha256": "0d019138d5ca5d058b0de6989e0534795896233257344e13299fd235a140ec6c"
+    }
+  ],
+  "sample_verification": {
+    "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\samples-independent02.json",
+    "bytes": 3386,
+    "sha256": "68b14f44db559c85123dea26dcbb11e2e222e43adc676fd08c97199e6294016f"
+  }
+}

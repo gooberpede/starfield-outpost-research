@@ -1,0 +1,1067 @@
+{
+  "schema": "sor-rg2a1-input-assessment/2",
+  "baseline": "retail 1.16.244.0 main ESM/native defaults; conditional installed reconstruction",
+  "publication": "REVIEW-REQUIRED",
+  "live_observation": false,
+  "rows": [
+    {
+      "case": "P3",
+      "name": "Feynman V Cu Co Ni IL",
+      "body": "0005e0de",
+      "owner_key": 385246,
+      "owner_basis": "STATIC retail PNDT FormID->owner loader + body lookup + manager setter",
+      "RSCS_u32": 427600259,
+      "surface_seed_default": "20201215",
+      "system": 86469,
+      "body_index": 5,
+      "selection_draws": 29,
+      "main_families_atmo_alternatives_equal": true,
+      "final_views_equal": false,
+      "candidate_families": [
+        {
+          "biome": "000fc61c",
+          "rsgd": "0037C672",
+          "root": "000057CB",
+          "ordered_main_resources": [
+            "000057CE",
+            "000057CB"
+          ],
+          "special": null,
+          "everywhere_entries": [
+            "000083EC"
+          ],
+          "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+        },
+        {
+          "biome": "00145440",
+          "rsgd": "00258050",
+          "root": "000057CF",
+          "ordered_main_resources": [
+            "000057D4",
+            "000057D0",
+            "000057CF"
+          ],
+          "special": null,
+          "everywhere_entries": [],
+          "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+        }
+      ],
+      "frame_variants": [
+        {
+          "hypothesis": "SITE_AS_GENERATOR",
+          "origin": [
+            25124,
+            32446
+          ],
+          "center": [
+            83.460693359375,
+            67.88771057128906
+          ],
+          "sources": [
+            {
+              "source": {
+                "id": "0:25116:32436:002c5878",
+                "block": 2906232,
+                "pattern": 2350728,
+                "coarse_pattern_flags": 8,
+                "source_flags": 104,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  25116,
+                  32436
+                ],
+                "local_cell_origin": [
+                  -8,
+                  -10
+                ],
+                "padding": 2,
+                "origin": [
+                  -1000,
+                  -1200
+                ],
+                "clip_center": [
+                  -500,
+                  -700,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1033756
+              },
+              "masks": [
+                8
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "02a38a287a0f5e3d",
+              "crc_with_static_pndt_owner": 3312174398
+            },
+            {
+              "source": {
+                "id": "0:25116:32448:00257f38",
+                "block": 2457400,
+                "pattern": 2350578,
+                "coarse_pattern_flags": 8,
+                "source_flags": 104,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  25116,
+                  32448
+                ],
+                "local_cell_origin": [
+                  -8,
+                  2
+                ],
+                "padding": 2,
+                "origin": [
+                  -1000,
+                  0
+                ],
+                "clip_center": [
+                  -500,
+                  500,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1332288
+              },
+              "masks": [
+                8
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "02a38a287ebf5e3d",
+              "crc_with_static_pndt_owner": 376512267
+            },
+            {
+              "source": {
+                "id": "0:25128:32436:0029d210",
+                "block": 2740752,
+                "pattern": 2350728,
+                "coarse_pattern_flags": 8,
+                "source_flags": 136,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  25128,
+                  32436
+                ],
+                "local_cell_origin": [
+                  4,
+                  -10
+                ],
+                "padding": 2,
+                "origin": [
+                  200,
+                  -1200
+                ],
+                "clip_center": [
+                  700,
+                  -700,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1033756
+              },
+              "masks": [
+                8
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "02a38a287a0f62ed",
+              "crc_with_static_pndt_owner": 3148294409
+            },
+            {
+              "source": {
+                "id": "0:25128:32448:0029d20f",
+                "block": 2740751,
+                "pattern": 2350578,
+                "coarse_pattern_flags": 8,
+                "source_flags": 8,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  25128,
+                  32448
+                ],
+                "local_cell_origin": [
+                  4,
+                  2
+                ],
+                "padding": 2,
+                "origin": [
+                  200,
+                  0
+                ],
+                "clip_center": [
+                  700,
+                  500,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1332288
+              },
+              "masks": [
+                8
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "02a38a287ebf62ed",
+              "crc_with_static_pndt_owner": 1757279036
+            }
+          ]
+        },
+        {
+          "hypothesis": "DESCRIPTOR_AS_GENERATOR",
+          "origin": [
+            25152,
+            32448
+          ],
+          "center": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "sources": [
+            {
+              "source": {
+                "id": "0:25116:32436:002c5878",
+                "block": 2906232,
+                "pattern": 2350728,
+                "coarse_pattern_flags": 8,
+                "source_flags": 104,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  25116,
+                  32436
+                ],
+                "local_cell_origin": [
+                  -36,
+                  -12
+                ],
+                "padding": 2,
+                "origin": [
+                  -3800,
+                  -1400
+                ],
+                "clip_center": [
+                  -3300,
+                  -900,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1033756
+              },
+              "masks": [
+                8
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "02a38a2879495369",
+              "crc_with_static_pndt_owner": 2611716712
+            },
+            {
+              "source": {
+                "id": "0:25116:32448:00257f38",
+                "block": 2457400,
+                "pattern": 2350578,
+                "coarse_pattern_flags": 8,
+                "source_flags": 104,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  25116,
+                  32448
+                ],
+                "local_cell_origin": [
+                  -36,
+                  0
+                ],
+                "padding": 2,
+                "origin": [
+                  -3800,
+                  -200
+                ],
+                "clip_center": [
+                  -3300,
+                  300,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1332288
+              },
+              "masks": [
+                8
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "02a38a287df95369",
+              "crc_with_static_pndt_owner": 1219590237
+            },
+            {
+              "source": {
+                "id": "0:25128:32436:0029d210",
+                "block": 2740752,
+                "pattern": 2350728,
+                "coarse_pattern_flags": 8,
+                "source_flags": 136,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  25128,
+                  32436
+                ],
+                "local_cell_origin": [
+                  -24,
+                  -12
+                ],
+                "padding": 2,
+                "origin": [
+                  -2600,
+                  -1400
+                ],
+                "clip_center": [
+                  -2100,
+                  -900,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1033756
+              },
+              "masks": [
+                8
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "02a38a2879495819",
+              "crc_with_static_pndt_owner": 2629870808
+            },
+            {
+              "source": {
+                "id": "0:25128:32448:0029d20f",
+                "block": 2740751,
+                "pattern": 2350578,
+                "coarse_pattern_flags": 8,
+                "source_flags": 8,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  25128,
+                  32448
+                ],
+                "local_cell_origin": [
+                  -24,
+                  0
+                ],
+                "padding": 2,
+                "origin": [
+                  -2600,
+                  -200
+                ],
+                "clip_center": [
+                  -2100,
+                  300,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1332288
+              },
+              "masks": [
+                8
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "02a38a287df95819",
+              "crc_with_static_pndt_owner": 1339719405
+            }
+          ]
+        }
+      ],
+      "geometry_status": "PREDICTION_CONDITIONAL_ORDINARY_INITIALIZATION",
+      "missing": [
+        "historical/rebased selected frame and effective override correspondence; not part of conditional initialization prediction"
+      ],
+      "frozen_vein_predictions": true,
+      "historical_loaded_geometry": "UNKNOWN",
+      "source_receipt": {
+        "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\site-feynman-initial02.json",
+        "bytes": 523972,
+        "sha256": "6f40b0d3166796bbdabb31dd8cd4a00dbfc9da144eb13ba3a336367d2f6c539b"
+      },
+      "conditional_descriptor_origin": [
+        25152,
+        32448
+      ],
+      "conditional_source_center": [
+        -2716.539306640625,
+        -132.11228942871094
+      ],
+      "uncertainties": [
+        "historical selected/rebased context",
+        "effective overrides/component-selected alternate RSGD",
+        "scalar-cos/native FP environment",
+        "final center translation rounding",
+        "native marginal quaternion/terrain/POI admission"
+      ]
+    },
+    {
+      "case": "P4",
+      "name": "Carinae III-a Rc Fe",
+      "body": "0005e4da",
+      "owner_key": 386266,
+      "owner_basis": "STATIC retail PNDT FormID->owner loader + body lookup + manager setter",
+      "RSCS_u32": 3128886084,
+      "surface_seed_default": "20201215",
+      "system": 118021,
+      "body_index": 8,
+      "selection_draws": 23,
+      "main_families_atmo_alternatives_equal": true,
+      "final_views_equal": false,
+      "candidate_families": [
+        {
+          "biome": "001160d9",
+          "rsgd": "0018CE04",
+          "root": "000057C7",
+          "ordered_main_resources": [
+            "00005DF1",
+            "000057C9",
+            "000057C7"
+          ],
+          "special": null,
+          "everywhere_entries": [],
+          "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+        }
+      ],
+      "frame_variants": [
+        {
+          "hypothesis": "SITE_AS_GENERATOR",
+          "origin": [
+            21399,
+            15640
+          ],
+          "center": [
+            86.6380615234375,
+            70.4791259765625
+          ],
+          "sources": [
+            {
+              "source": {
+                "id": "0:21372:15612:002493eb",
+                "block": 2397163,
+                "pattern": 2174489,
+                "coarse_pattern_flags": 8,
+                "source_flags": 104,
+                "dimensions": [
+                  22,
+                  22
+                ],
+                "geographic_origin": [
+                  21372,
+                  15612
+                ],
+                "local_cell_origin": [
+                  -27,
+                  -28
+                ],
+                "padding": 2,
+                "origin": [
+                  -2900,
+                  -3000
+                ],
+                "clip_center": [
+                  -1800,
+                  -1900,
+                  0
+                ],
+                "clip_half": [
+                  1300,
+                  1300,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  25,
+                  1,
+                  25
+                ],
+                "resource_biome": 1138905
+              },
+              "masks": [
+                4
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "039a0a4031614844",
+              "crc_with_static_pndt_owner": 3024406632
+            },
+            {
+              "source": {
+                "id": "0:21384:15636:0006ce55",
+                "block": 446037,
+                "pattern": 2174489,
+                "coarse_pattern_flags": 8,
+                "source_flags": 168,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  21384,
+                  15636
+                ],
+                "local_cell_origin": [
+                  -15,
+                  -4
+                ],
+                "padding": 2,
+                "origin": [
+                  -1700,
+                  -600
+                ],
+                "clip_center": [
+                  -1200,
+                  -100,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1138905
+              },
+              "masks": [
+                4
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "039a0a403ac14cf4",
+              "crc_with_static_pndt_owner": 1535014402
+            },
+            {
+              "source": {
+                "id": "0:21396:15624:002493e7",
+                "block": 2397159,
+                "pattern": 2174489,
+                "coarse_pattern_flags": 8,
+                "source_flags": 72,
+                "dimensions": [
+                  22,
+                  22
+                ],
+                "geographic_origin": [
+                  21396,
+                  15624
+                ],
+                "local_cell_origin": [
+                  -3,
+                  -16
+                ],
+                "padding": 2,
+                "origin": [
+                  -500,
+                  -1800
+                ],
+                "clip_center": [
+                  600,
+                  -700,
+                  0
+                ],
+                "clip_half": [
+                  1300,
+                  1300,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  25,
+                  1,
+                  25
+                ],
+                "resource_biome": 1138905
+              },
+              "masks": [
+                4
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "039a0a40361151a4",
+              "crc_with_static_pndt_owner": 3141720479
+            },
+            {
+              "source": {
+                "id": "0:21396:15648:002493ed",
+                "block": 2397165,
+                "pattern": 2174489,
+                "coarse_pattern_flags": 8,
+                "source_flags": 104,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  21396,
+                  15648
+                ],
+                "local_cell_origin": [
+                  -3,
+                  8
+                ],
+                "padding": 2,
+                "origin": [
+                  -500,
+                  600
+                ],
+                "clip_center": [
+                  0,
+                  1100,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1138905
+              },
+              "masks": [
+                4
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "039a0a403f7151a4",
+              "crc_with_static_pndt_owner": 3322309556
+            }
+          ]
+        },
+        {
+          "hypothesis": "DESCRIPTOR_AS_GENERATOR",
+          "origin": [
+            21408,
+            15648
+          ],
+          "center": [
+            -813.3619384765625,
+            -729.5208740234375
+          ],
+          "sources": [
+            {
+              "source": {
+                "id": "0:21372:15612:002493eb",
+                "block": 2397163,
+                "pattern": 2174489,
+                "coarse_pattern_flags": 8,
+                "source_flags": 104,
+                "dimensions": [
+                  22,
+                  22
+                ],
+                "geographic_origin": [
+                  21372,
+                  15612
+                ],
+                "local_cell_origin": [
+                  -36,
+                  -36
+                ],
+                "padding": 2,
+                "origin": [
+                  -3800,
+                  -3800
+                ],
+                "clip_center": [
+                  -2700,
+                  -2700,
+                  0
+                ],
+                "clip_half": [
+                  1300,
+                  1300,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  25,
+                  1,
+                  25
+                ],
+                "resource_biome": 1138905
+              },
+              "masks": [
+                4
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "039a0a402e4944c9",
+              "crc_with_static_pndt_owner": 1875245605
+            },
+            {
+              "source": {
+                "id": "0:21384:15636:0006ce55",
+                "block": 446037,
+                "pattern": 2174489,
+                "coarse_pattern_flags": 8,
+                "source_flags": 168,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  21384,
+                  15636
+                ],
+                "local_cell_origin": [
+                  -24,
+                  -12
+                ],
+                "padding": 2,
+                "origin": [
+                  -2600,
+                  -1400
+                ],
+                "clip_center": [
+                  -2100,
+                  -900,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1138905
+              },
+              "masks": [
+                4
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "039a0a4037a94979",
+              "crc_with_static_pndt_owner": 3879606173
+            },
+            {
+              "source": {
+                "id": "0:21396:15624:002493e7",
+                "block": 2397159,
+                "pattern": 2174489,
+                "coarse_pattern_flags": 8,
+                "source_flags": 72,
+                "dimensions": [
+                  22,
+                  22
+                ],
+                "geographic_origin": [
+                  21396,
+                  15624
+                ],
+                "local_cell_origin": [
+                  -12,
+                  -24
+                ],
+                "padding": 2,
+                "origin": [
+                  -1400,
+                  -2600
+                ],
+                "clip_center": [
+                  -300,
+                  -1500,
+                  0
+                ],
+                "clip_half": [
+                  1300,
+                  1300,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  25,
+                  1,
+                  25
+                ],
+                "resource_biome": 1138905
+              },
+              "masks": [
+                4
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "039a0a4032f94e29",
+              "crc_with_static_pndt_owner": 33397525
+            },
+            {
+              "source": {
+                "id": "0:21396:15648:002493ed",
+                "block": 2397165,
+                "pattern": 2174489,
+                "coarse_pattern_flags": 8,
+                "source_flags": 104,
+                "dimensions": [
+                  10,
+                  10
+                ],
+                "geographic_origin": [
+                  21396,
+                  15648
+                ],
+                "local_cell_origin": [
+                  -12,
+                  0
+                ],
+                "padding": 2,
+                "origin": [
+                  -1400,
+                  -200
+                ],
+                "clip_center": [
+                  -900,
+                  300,
+                  0
+                ],
+                "clip_half": [
+                  700,
+                  700,
+                  0
+                ],
+                "cell_bounds": [
+                  1,
+                  13,
+                  1,
+                  13
+                ],
+                "resource_biome": 1138905
+              },
+              "masks": [
+                4
+              ],
+              "first_cell": [
+                1,
+                1
+              ],
+              "first_key": "039a0a403c594e29",
+              "crc_with_static_pndt_owner": 1617381974
+            }
+          ]
+        }
+      ],
+      "geometry_status": "PREDICTION_CONDITIONAL_ORDINARY_INITIALIZATION",
+      "missing": [
+        "historical/rebased selected frame and effective override correspondence; not part of conditional initialization prediction"
+      ],
+      "frozen_vein_predictions": true,
+      "historical_loaded_geometry": "UNKNOWN",
+      "source_receipt": {
+        "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\site-carinae-initial02.json",
+        "bytes": 2358110,
+        "sha256": "0d019138d5ca5d058b0de6989e0534795896233257344e13299fd235a140ec6c"
+      },
+      "conditional_descriptor_origin": [
+        21408,
+        15648
+      ],
+      "conditional_source_center": [
+        -813.3619384765625,
+        -729.5208740234375
+      ],
+      "uncertainties": [
+        "historical selected/rebased context",
+        "effective overrides/component-selected alternate RSGD",
+        "scalar-cos/native FP environment",
+        "final center translation rounding",
+        "native marginal quaternion/terrain/POI admission"
+      ]
+    }
+  ],
+  "excluded_former_R2": {
+    "name": "Feynman V Cu IL F",
+    "reason": "maintainer identifies deleted; surviving record/flags/member edges insufficient"
+  },
+  "frame_audit_inputs": [
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry\\source-definitions01.json",
+      "bytes": 20785948,
+      "sha256": "ecf9e86ac36e10cafbeda3c60b626d455e408e51872f4308b7d8005dd15b1783"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-live-prep\\mature-alternatives.json",
+      "bytes": 2337,
+      "sha256": "cc2ccb74826c3dc60c7c2b81c752bd284b12f5cd7dda60014a2a469e2c588ee4"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-live-prep\\mature-diagnostics.json",
+      "bytes": 14340,
+      "sha256": "3a37101e1e1f39b2bb80ede6144de8bb3bef6b9644340d9910f203a790e6a52d"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-geometry\\audit_mature_context.py",
+      "bytes": 5914,
+      "sha256": "ccb0d9844c3d189ab89b55250e6ce2c434ba286fc0197a6c7564e9102c17c4b3"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-geometry\\context.py",
+      "bytes": 8792,
+      "sha256": "371a2bc6127bbf429a586f01d3eae250dd787ae41cbe2bfa720169ca9c09e796"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-geometry\\geometry.py",
+      "bytes": 26508,
+      "sha256": "909dcf1c028a7c24bf698a9144fdd6478f01063717dee560f2214966b72a5eec"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\outpost-biomes\\feynman v.biom",
+      "bytes": 655414,
+      "sha256": "bd06d24e8ca1788481f6a4388c0e262b863b8b376a521752cf3d286c69f23863"
+    },
+    {
+      "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\outpost-biomes\\carinae iii-a.biom",
+      "bytes": 655414,
+      "sha256": "bd9a3370b1c1b827cecdbdce318ee1f8af0608c4aade8e4e443968c2a720550f"
+    }
+  ],
+  "supersedes": "operands-v1.json only for conditional ordinary initialization; historical epoch stays UNKNOWN"
+}

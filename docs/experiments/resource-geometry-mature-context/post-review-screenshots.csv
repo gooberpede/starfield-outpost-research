@@ -1,0 +1,12 @@
+source_id,locator,bytes,sha256,site,resource,displayed_per_hour,observation
+RG2A1-POST-S001,.local-work/screengrabs/20261022111814_1.jpg,513981,e130a41c8cb5f3f8e687f56722122f519e0e06155750aa1fbbcfbae4e241f12a,Feynman,Ionic Liquids,44,Ground-level cyan resource region and extractor preview; producing extractor reported by maintainer
+RG2A1-POST-S002,.local-work/screengrabs/20261022111843_1.jpg,636531,c45247b645314883d816be27555fff8ba21a5027900b59a1ce4baa02ee8da252,Feynman,Ionic Liquids,44,Overhead cyan region; overlap rejection
+RG2A1-POST-S003,.local-work/screengrabs/20261022111915_1.jpg,629868,fe3ce71cda7ae3deb5589013f28a12acd7b40b3f5ab42bfc0fead9b1b283a036,Feynman,Water,111,Water preview; no localized colored region apparent; placement anywhere is maintainer report
+RG2A1-POST-S004,.local-work/screengrabs/20261022111932_1.jpg,568322,277662d0c33db7a809b480ca84b34274ccc3129d718a03c96e73a159e9aa1400,Feynman,Cobalt,148,Blue region; overlap rejection
+RG2A1-POST-S005,.local-work/screengrabs/20261022111944_1.jpg,588004,8e62a86edb3b1fcdc71b389aa1396f6195019280f731a08a2268cc4ae450440e,Feynman,Copper,222,Small cyan region; overlap rejection
+RG2A1-POST-S006,.local-work/screengrabs/20261022111956_1.jpg,542965,922fb941a56de4291ec6b6692076f8b1c10b7eb51bbf875573b6c3d5f5b26f3c,Feynman,Nickel,222,Yellow region
+RG2A1-POST-S007,.local-work/screengrabs/20261022112100_1.jpg,416543,cf627556c94c172a7dc0d2498c58f7ce0bfa3b8085277f27117fc4553ed17347,Carinae,Alkanes,74,Large pink region
+RG2A1-POST-S008,.local-work/screengrabs/20261022112106_1.jpg,380412,1bf5a87be6db4d0e850e6029788b81178b659bc2feab596a8a63fbc6deaf8f8d,Carinae,Alkanes,74,Separate Alkanes deposit identified by maintainer
+RG2A1-POST-S009,.local-work/screengrabs/20261022112120_1.jpg,428577,285e00b3cf66435cac8e814ba3cf2ad9b777272bbc9b893022b23b57ca35d60e,Carinae,Iron,222,Pink region; outside-build-area rejection
+RG2A1-POST-S010,.local-work/screengrabs/20261022112130_1.jpg,382858,de620a3aebbda0eff07a32d256199819d70f2c6db3702b5b22ae19830f486348,Carinae,Iron,222,Pink region and existing equipment
+RG2A1-POST-S011,.local-work/screengrabs/20261022112140_1.jpg,431855,e979671b7806b8eb083f2195e436257d2894074b2e1c2fcd346abae8f520e8ec,Carinae,Rothicite,89,Pink region; overlap rejection

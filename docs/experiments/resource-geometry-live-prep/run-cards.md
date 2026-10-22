@@ -1,7 +1,12 @@
 # Prospective operator cards
 
+2026-10-22 F1: R2's deletion designation is withdrawn; it remains an optional
+candidate, not a mandatory test or selected reserve. [Current saved status and
+qualification](../resource-geometry-mature-context/active-candidates.md). Original
+prediction/reviewer records remain historical; no live card is approved.
+
 **PROSPECTIVE — NOT AUTHORIZED.** Applies to every card, including reserves.
-These are design outputs under RG2-A, not instructions to launch now. P3/P4/R2
+These are design outputs under RG2-A, not instructions to launch now. P3/P4
 are **HELD: mature vein predictions UNKNOWN**. RG2-B must approve the exact
 claim, actions, identity/coordinate gates, working-save handling and final cards.
 No debugger/observer/Creation Kit deployment or native call is included.
@@ -158,10 +163,3 @@ tapered strips predict empty there. Negative is offset `(-100,0)`; travel along
 −X; region edge X≈281.408950815. Use explicit samples/map, not P1's edge.
 Only a separately recorded reserve activation/substitution permits this case;
 it cannot substitute for mature coverage. Apply all common controls.
-
-**R2 — PROSPECTIVE — NOT AUTHORIZED; HELD.** Same **Cao Tran, Lodge, Level 319,
-58d 7h 43m, 8/18/26 5:45:40 PM (+11:00)** Save52 hash. Travel to **Feynman V
-Cu IL F**, distinct beacon `84e101`/parent `859b49`. Saved center
-`(81.190742493,90.277481079)`, site `(0,37536,20928)`; CanyonsNoLife06 only.
-Unknown owner/frame/selection and varying masks prevent vein points or competition
-claims. Resolve and freeze before any resource comparison; no automatic activation.

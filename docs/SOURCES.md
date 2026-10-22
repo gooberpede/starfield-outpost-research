@@ -1072,3 +1072,14 @@ payloads LOCAL-ONLY; authored minimal metadata/interpretation REVIEW-REQUIRED.
 ## RG2-A spatial validation preparation — 2026-10-22
 
 SOR-EXP-0064 / SOR-EV-0072. [Report](experiments/resource-geometry-live-prep/report.md), [exact source pins](experiments/resource-geometry-live-prep/sources.csv), [methods/checks](experiments/resource-geometry-live-prep/verification.md). Bethesda installed EXE/ESM/PlanetData and maintainer immutable saves supply existing primary inputs. Accepted RG1 generator/context/independent arithmetic, B1 biome/frame work, v2 position, Workshop associations, native availability/lifetime/interference and owned save-menu reader are reused with their original limits. SOR-P-0002 covers owned method lineage and sibling explicit MT; RG1 source pins retain its exact revision. Original RG2-A selector, diagnostics, plots and packaging do not add third-party code/data or native execution. No new public consultation, dependency, rights grant, contact or disclosure; raw/private/proprietary evidence LOCAL-ONLY, authored metadata/analysis REVIEW-REQUIRED.
+
+## RG2-A1 seed and mature-frame reconstruction — 2026-10-22
+
+[Source/permission ledger](experiments/resource-geometry-mature-context/sources.md) and [exact pins](experiments/resource-geometry-mature-context/sources.csv) record local maintainer-owned starfield-resource-research a23e1c337bc369232d6ce463552a53617bb918e2 and reproducer a8ff1c788bca415f571f06769ab3e712fa674f75; Bethesda installed retail/CK/ESM/map and immutable-save/capture evidence; owned RG1/B1/Workshop/position methods. SOR-P-0002 and the explicit invocation cover findings/owned analytical reuse. New readOnly/noanalysis exports and original frame/CRC checks remain offline; no proprietary native source/raw data or outside implementation copied into Git. Publication remains NOT CLEARED.
+
+## RG2-A1-F1 mature observation reconciliation
+
+Maintainer eleven Save52 captures, existing owned/native/save methods and fresh
+installed Bethesda definitions support the [F1 claim/geometry/Water report](experiments/resource-geometry-mature-context/f1-reconciliation.md).
+[Exact source pins](experiments/resource-geometry-mature-context/f1-sources.csv)
+retain local raw boundaries; no new outside implementation or permission basis.

@@ -1,0 +1,15 @@
+case,sample,source_x,source_y,site_x,site_y,dx,dy,inside_nominal_circle,bounded_region,tapered_strip,qualification
+P3,positive-control,-3016.539306640625,-232.11228942871094,-216.539306640625,-32.11228942871094,-300.0,-100.0,False,000057ce,000057ce,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P3,negative-control,-2716.539306640625,-132.11228942871094,83.460693359375,67.88771057128906,0.0,0.0,True,,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P3,beacon,-2716.539306640625,-132.11228942871094,83.460693359375,67.88771057128906,0.0,0.0,True,,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P3,edge-5,-2992.676400024663,-224.15798722339034,-192.67640002466305,-24.157987223390336,-276.13709338403805,-92.0456977946794,False,000057ce,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P3,edge-1,-2988.881666832461,-222.893076159323,-188.88166683246118,-22.893076159322987,-272.3423601918362,-90.78078673061205,False,000057ce,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P3,edge+1,-2986.98430023636,-222.26062062728928,-186.98430023636,-22.260620627289285,-270.444993595735,-90.14833119857835,False,,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P3,edge+5,-2983.189567044158,-220.99570956322194,-183.18956704415814,-20.995709563221936,-266.65026040353314,-88.883420134511,False,,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P4,positive-control,-813.3619384765625,-729.5208740234375,86.6380615234375,70.4791259765625,0.0,0.0,True,00005df1,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P4,negative-control,-713.3619384765625,-729.5208740234375,186.6380615234375,70.4791259765625,100.0,0.0,True,,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P4,beacon,-813.3619384765625,-729.5208740234375,86.6380615234375,70.4791259765625,0.0,0.0,True,00005df1,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P4,edge-5,-812.6131897438318,-729.5208740234375,87.38681025616825,70.4791259765625,0.7487487327307463,0.0,True,00005df1,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P4,edge-1,-808.6131897438318,-729.5208740234375,91.38681025616825,70.4791259765625,4.748748732730746,0.0,True,00005df1,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P4,edge+1,-806.6131897438318,-729.5208740234375,93.38681025616825,70.4791259765625,6.748748732730746,0.0,True,,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN
+P4,edge+5,-802.6131897438318,-729.5208740234375,97.38681025616825,70.4791259765625,10.748748732730746,0.0,True,,,conditional ordinary initialization only; historical frame/override/native oracle UNKNOWN

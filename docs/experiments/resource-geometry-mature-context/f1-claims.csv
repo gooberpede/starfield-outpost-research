@@ -1,0 +1,10 @@
+site,resource,ires,bounded_region_radius150,tapered_strips_radius150,visual_patches,screenshot_suffix,ui_outcome,displayed_per_hour,saved_extractor_tokens,saved_bounded_point_hits,saved_tapered_point_hits
+Feynman,Nickel,000057cb,PRESENT,PRESENT,1 shown,S006,yellow patch; no rejection text,222,838366,838366,none
+Feynman,Cobalt,000057ce,PRESENT,PRESENT,1 shown,S004,blue patch; overlap rejection,148,838360,838360,none
+Feynman,Copper,000057cf,PRESENT,UNKNOWN,1 shown,S005,near-circular patch; overlap rejection,222,83836a,83836a,83836a
+Feynman,Ionic Liquids,000057d4,ABSENT,ABSENT,1 shown,S001/S002,cyan region; S002 overlap rejection; production maintainer-reported,44,83836b,none,none
+Feynman,Fluorine,000057d0,PRESENT,PRESENT,not shown,none,not in supplied visible menu; no exhaustive absence test,not shown,NONE_IN_SUPPORTED_P3/P4_ROOT_JOIN,none,none
+Feynman,Water,000083ec,ABSENT,ABSENT,no localized patch apparent,S003,preview without rejection text; placement anywhere maintainer-reported,111,NONE_IN_SUPPORTED_P3/P4_ROOT_JOIN,none,none
+Carinae,Alkanes,000057c9,PRESENT,PRESENT,approximately 2 distinct shown,S007/S008,colored regions; no rejection text,74,82bea9,none,none
+Carinae,Iron,000057c7,ABSENT,UNKNOWN,approximately 2 distinct shown,S009/S010,S009 outside-build-area rejection; S010 existing equipment,222,82bea6,none,none
+Carinae,Rothicite,00005df1,PRESENT,PRESENT,1 shown,S011,colored region; overlap rejection,89,82bea4,none,none

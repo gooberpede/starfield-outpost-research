@@ -1,0 +1,1087 @@
+{
+  "schema": "sor-rg2a1-mature-prediction/2",
+  "status": "FROZEN_CONDITIONAL_INITIALIZATION_PREDICTIONS",
+  "live_observation": false,
+  "method": "owned RG1 geometry + angular-snap/owner static lineage + fresh main-file selection",
+  "products": [
+    {
+      "version": "rg2a-points/1",
+      "center": [
+        -2716.539306640625,
+        -132.11228942871094
+      ],
+      "radius": 150,
+      "resource": "000057ce",
+      "edge_bracket": [
+        [
+          -2987.932983674109,
+          -222.57684843987226
+        ],
+        [
+          -2987.932983394712,
+          -222.57684834674
+        ]
+      ],
+      "bracket_width": 2.9451005721170265e-07,
+      "transect_direction": [
+        0.9486832980505138,
+        0.3162277660168379
+      ],
+      "samples": [
+        {
+          "id": "positive-control",
+          "offset": [
+            -300.0,
+            -100.0
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [
+              "000057ce"
+            ],
+            "strips": [
+              "000057ce"
+            ]
+          },
+          "source_frame_xy": [
+            -3016.539306640625,
+            -232.11228942871094
+          ],
+          "saved_site_frame_xy": [
+            -216.539306640625,
+            -32.11228942871094
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "negative-control",
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "saved_site_frame_xy": [
+            83.460693359375,
+            67.88771057128906
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "beacon",
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "saved_site_frame_xy": [
+            83.460693359375,
+            67.88771057128906
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "edge-5",
+          "offset": [
+            -276.13709338403805,
+            -92.0456977946794
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [
+              "000057ce"
+            ],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -2992.676400024663,
+            -224.15798722339034
+          ],
+          "saved_site_frame_xy": [
+            -192.67640002466305,
+            -24.157987223390336
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "edge-1",
+          "offset": [
+            -272.3423601918362,
+            -90.78078673061205
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [
+              "000057ce"
+            ],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -2988.881666832461,
+            -222.893076159323
+          ],
+          "saved_site_frame_xy": [
+            -188.88166683246118,
+            -22.893076159322987
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "edge+1",
+          "offset": [
+            -270.444993595735,
+            -90.14833119857835
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -2986.98430023636,
+            -222.26062062728928
+          ],
+          "saved_site_frame_xy": [
+            -186.98430023636,
+            -22.260620627289285
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "edge+5",
+          "offset": [
+            -266.65026040353314,
+            -88.883420134511
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -2983.189567044158,
+            -220.99570956322194
+          ],
+          "saved_site_frame_xy": [
+            -183.18956704415814,
+            -20.995709563221936
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "interior-witness-000057cb",
+          "source_frame_xy": [
+            -2685.35595703125,
+            -171.7330322265625
+          ],
+          "saved_site_frame_xy": [
+            114.64404296875,
+            28.2669677734375
+          ],
+          "offset": [
+            31.183349609375,
+            -39.62074279785156
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057cb"
+            ],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "interior-witness-000057ce",
+          "source_frame_xy": [
+            -2797.41748046875,
+            -180.294921875
+          ],
+          "saved_site_frame_xy": [
+            2.58251953125,
+            19.705078125
+          ],
+          "offset": [
+            -80.878173828125,
+            -48.18263244628906
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057ce"
+            ],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "interior-witness-000057cf",
+          "source_frame_xy": [
+            -2663.88427734375,
+            -44.542327880859375
+          ],
+          "saved_site_frame_xy": [
+            136.11572265625,
+            155.45767211914062
+          ],
+          "offset": [
+            52.655029296875,
+            87.56996154785156
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057cf"
+            ],
+            "strips": [
+              "000057cf"
+            ]
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "interior-witness-000057d0",
+          "source_frame_xy": [
+            -2753.04541015625,
+            -97.77816009521484
+          ],
+          "saved_site_frame_xy": [
+            46.95458984375,
+            102.22183990478516
+          ],
+          "offset": [
+            -36.506103515625,
+            34.334129333496094
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057d0"
+            ],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "exterior-155-0",
+          "source_frame_xy": [
+            -2561.539306640625,
+            -132.11228942871094
+          ],
+          "saved_site_frame_xy": [
+            238.460693359375,
+            67.88771057128906
+          ],
+          "offset": [
+            155.0,
+            0.0
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "exterior--155-0",
+          "source_frame_xy": [
+            -2871.539306640625,
+            -132.11228942871094
+          ],
+          "saved_site_frame_xy": [
+            -71.539306640625,
+            67.88771057128906
+          ],
+          "offset": [
+            -155.0,
+            0.0
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "exterior-0-155",
+          "source_frame_xy": [
+            -2716.539306640625,
+            22.887710571289062
+          ],
+          "saved_site_frame_xy": [
+            83.460693359375,
+            222.88771057128906
+          ],
+          "offset": [
+            0.0,
+            155.0
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "exterior-0--155",
+          "source_frame_xy": [
+            -2716.539306640625,
+            -287.11228942871094
+          ],
+          "saved_site_frame_xy": [
+            83.460693359375,
+            -87.11228942871094
+          ],
+          "offset": [
+            0.0,
+            -155.0
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        }
+      ],
+      "coverage": {
+        "sources": 6,
+        "paths": 156,
+        "resource_cell_calls": 2592
+      },
+      "status": "FROZEN_PREDICTION_NOT_RUNTIME_OBSERVATION",
+      "case": "P3",
+      "name": "Feynman V Cu Co Ni IL",
+      "body": "0005e0de",
+      "source_receipt": {
+        "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\site-feynman-initial02.json",
+        "bytes": 523972,
+        "sha256": "6f40b0d3166796bbdabb31dd8cd4a00dbfc9da144eb13ba3a336367d2f6c539b"
+      },
+      "scope": "CONDITIONAL_MAIN_FILE_DEFAULT_SETTINGS_ORDINARY_INITIALIZATION",
+      "translation": [
+        -2800,
+        -200
+      ],
+      "nominal_circle_products": {
+        "000057cb": {
+          "nominal": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 28,
+              "POSITIVE_AREA": 1,
+              "UNKNOWN": 19
+            }
+          },
+          "bounded_region_circle": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 47,
+              "POSITIVE_AREA": 1
+            }
+          }
+        },
+        "000057ce": {
+          "nominal": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 27,
+              "POSITIVE_AREA": 1,
+              "UNKNOWN": 6
+            }
+          },
+          "bounded_region_circle": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 33,
+              "POSITIVE_AREA": 1
+            }
+          }
+        },
+        "000057cf": {
+          "nominal": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 33,
+              "UNKNOWN": 13
+            }
+          },
+          "bounded_region_circle": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 45,
+              "POSITIVE_AREA": 1
+            }
+          }
+        },
+        "000057d0": {
+          "nominal": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 23,
+              "POSITIVE_AREA": 1,
+              "UNKNOWN": 3
+            }
+          },
+          "bounded_region_circle": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 26,
+              "POSITIVE_AREA": 1
+            }
+          }
+        },
+        "000057d4": {
+          "nominal": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 1
+            }
+          },
+          "bounded_region_circle": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 1
+            }
+          }
+        },
+        "000083ec": {
+          "nominal": {
+            "statuses": {}
+          },
+          "bounded_region_circle": {
+            "statuses": {}
+          }
+        }
+      },
+      "initialization_frame_qualified_conditionally": true,
+      "historical_loaded_frame_qualified": false,
+      "full_resource_set_native_oracle": "UNKNOWN",
+      "circle_resource_results": {
+        "000057cb": {
+          "nominal": "PRESENT",
+          "bounded_region_circle": "PRESENT"
+        },
+        "000057ce": {
+          "nominal": "PRESENT",
+          "bounded_region_circle": "PRESENT"
+        },
+        "000057cf": {
+          "nominal": "UNKNOWN",
+          "bounded_region_circle": "PRESENT"
+        },
+        "000057d0": {
+          "nominal": "PRESENT",
+          "bounded_region_circle": "PRESENT"
+        },
+        "000057d4": {
+          "nominal": "ABSENT",
+          "bounded_region_circle": "ABSENT"
+        },
+        "000083ec": {
+          "nominal": "ABSENT",
+          "bounded_region_circle": "ABSENT"
+        }
+      }
+    },
+    {
+      "version": "rg2a-points/1",
+      "center": [
+        -813.3619384765625,
+        -729.5208740234375
+      ],
+      "radius": 150,
+      "resource": "00005df1",
+      "edge_bracket": [
+        [
+          -807.6131897903979,
+          -729.5208740234375
+        ],
+        [
+          -807.6131896972656,
+          -729.5208740234375
+        ]
+      ],
+      "bracket_width": 9.313225746154785e-08,
+      "transect_direction": [
+        1.0,
+        0.0
+      ],
+      "samples": [
+        {
+          "id": "positive-control",
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "00005df1"
+            ],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -813.3619384765625,
+            -729.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            86.6380615234375,
+            70.4791259765625
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "negative-control",
+          "offset": [
+            100.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -713.3619384765625,
+            -729.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            186.6380615234375,
+            70.4791259765625
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "beacon",
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "00005df1"
+            ],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -813.3619384765625,
+            -729.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            86.6380615234375,
+            70.4791259765625
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "edge-5",
+          "offset": [
+            0.7487487327307463,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "00005df1"
+            ],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -812.6131897438318,
+            -729.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            87.38681025616825,
+            70.4791259765625
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "edge-1",
+          "offset": [
+            4.748748732730746,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "00005df1"
+            ],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -808.6131897438318,
+            -729.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            91.38681025616825,
+            70.4791259765625
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "edge+1",
+          "offset": [
+            6.748748732730746,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -806.6131897438318,
+            -729.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            93.38681025616825,
+            70.4791259765625
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "edge+5",
+          "offset": [
+            10.748748732730746,
+            0.0
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "source_frame_xy": [
+            -802.6131897438318,
+            -729.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            97.38681025616825,
+            70.4791259765625
+          ],
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "interior-witness-000057c9",
+          "source_frame_xy": [
+            -936.8492431640625,
+            -733.3739013671875
+          ],
+          "saved_site_frame_xy": [
+            -36.8492431640625,
+            66.6260986328125
+          ],
+          "offset": [
+            -123.4873046875,
+            -3.85302734375
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "000057c9"
+            ],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "interior-witness-00005df1",
+          "source_frame_xy": [
+            -827.2733764648438,
+            -715.468017578125
+          ],
+          "saved_site_frame_xy": [
+            72.72662353515625,
+            84.531982421875
+          ],
+          "offset": [
+            -13.91143798828125,
+            14.0528564453125
+          ],
+          "nominal_circle": true,
+          "expected": {
+            "region": [
+              "00005df1"
+            ],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "exterior-155-0",
+          "source_frame_xy": [
+            -658.3619384765625,
+            -729.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            241.6380615234375,
+            70.4791259765625
+          ],
+          "offset": [
+            155.0,
+            0.0
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "exterior--155-0",
+          "source_frame_xy": [
+            -968.3619384765625,
+            -729.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            -68.3619384765625,
+            70.4791259765625
+          ],
+          "offset": [
+            -155.0,
+            0.0
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "exterior-0-155",
+          "source_frame_xy": [
+            -813.3619384765625,
+            -574.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            86.6380615234375,
+            225.4791259765625
+          ],
+          "offset": [
+            0.0,
+            155.0
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        },
+        {
+          "id": "exterior-0--155",
+          "source_frame_xy": [
+            -813.3619384765625,
+            -884.5208740234375
+          ],
+          "saved_site_frame_xy": [
+            86.6380615234375,
+            -84.5208740234375
+          ],
+          "offset": [
+            0.0,
+            -155.0
+          ],
+          "nominal_circle": false,
+          "expected": {
+            "region": [
+              "000057c9"
+            ],
+            "strips": []
+          },
+          "uncertainties": [
+            "historical selected/rebased context",
+            "effective overrides/component-selected alternate RSGD",
+            "scalar-cos/native FP environment",
+            "final center translation rounding",
+            "native marginal quaternion/terrain/POI admission"
+          ],
+          "oracle_status": "CONDITIONAL_PLANAR_PREDICTION; native/scanner/footprint correspondence UNKNOWN"
+        }
+      ],
+      "coverage": {
+        "sources": 4,
+        "paths": 895,
+        "resource_cell_calls": 4320
+      },
+      "status": "FROZEN_PREDICTION_NOT_RUNTIME_OBSERVATION",
+      "case": "P4",
+      "name": "Carinae III-a Rc Fe",
+      "body": "0005e4da",
+      "source_receipt": {
+        "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\site-carinae-initial02.json",
+        "bytes": 2358110,
+        "sha256": "0d019138d5ca5d058b0de6989e0534795896233257344e13299fd235a140ec6c"
+      },
+      "scope": "CONDITIONAL_MAIN_FILE_DEFAULT_SETTINGS_ORDINARY_INITIALIZATION",
+      "translation": [
+        -900,
+        -800
+      ],
+      "nominal_circle_products": {
+        "000057c7": {
+          "nominal": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 129,
+              "UNKNOWN": 130
+            }
+          },
+          "bounded_region_circle": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 259
+            }
+          }
+        },
+        "000057c9": {
+          "nominal": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 388,
+              "POSITIVE_AREA": 4,
+              "UNKNOWN": 113
+            }
+          },
+          "bounded_region_circle": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 500,
+              "POSITIVE_AREA": 5
+            }
+          }
+        },
+        "00005df1": {
+          "nominal": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 117,
+              "POSITIVE_AREA": 1,
+              "UNKNOWN": 13
+            }
+          },
+          "bounded_region_circle": {
+            "statuses": {
+              "DISJOINT_OR_ZERO_AREA": 130,
+              "POSITIVE_AREA": 1
+            }
+          }
+        }
+      },
+      "initialization_frame_qualified_conditionally": true,
+      "historical_loaded_frame_qualified": false,
+      "full_resource_set_native_oracle": "UNKNOWN",
+      "circle_resource_results": {
+        "000057c7": {
+          "nominal": "UNKNOWN",
+          "bounded_region_circle": "ABSENT"
+        },
+        "000057c9": {
+          "nominal": "PRESENT",
+          "bounded_region_circle": "PRESENT"
+        },
+        "00005df1": {
+          "nominal": "PRESENT",
+          "bounded_region_circle": "PRESENT"
+        }
+      }
+    }
+  ],
+  "supersedes": "v1 point coverage only; adds interior witnesses/exterior controls before any live observation"
+}

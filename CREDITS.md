@@ -633,3 +633,21 @@ RG1 continuation also credits gooberpede's maintainer-authored resource reproduc
 ## RG2-A test design and inherited evidence
 
 [RG2-A](docs/experiments/resource-geometry-live-prep/report.md) credits Bethesda installed native/definition/map inputs and the maintainer's immutable save corpus; accepted project RG1/B1/position/Workshop/save-menu research supplies bounded source/frame/identity knowledge. Prior native availability, debugger abandonment, geometry lifetime and observer interference work constrain oracle safety. The owned explicit-MT arithmetic and review-export methods retain their RG1 provenance under SOR-P-0002. [Exact roles/pins](docs/experiments/resource-geometry-live-prep/sources.csv) and [method effects](docs/experiments/resource-geometry-live-prep/verification.md) distinguish original point selection/test design from inherited findings; no new third-party implementation or endorsement is implied.
+
+## RG2-A1 seed lineage and mature context
+
+[RG2-A1 sources](docs/experiments/resource-geometry-mature-context/sources.md) credit gooberpede's resource-research and reproducer selection/atmosphere findings, Bethesda installed CK/retail/definition evidence, maintainer screenshot/save/capture ground truth, and the project's earlier RG1/B1/position/Workshop arithmetic and methods. The new loader/UI/frame interpretation and independent CRC discrimination are original analysis. Exact sibling revisions and roles are retained; no endorsement, additional rights grant or publication clearance is implied.
+
+## RG2-A1 subsequent Save52 observations
+
+The maintainer supplied eleven outpost screenshots, Water-placement observations
+and the corrected R2 status; Bethesda supplies depicted game/UI content. See
+[observations and source pins](docs/experiments/resource-geometry-mature-context/post-review-screenshots.md).
+
+## RG2-A1-F1 reconciliation
+
+The maintainer's Save52 screenshots and placement/status corrections challenge
+the frozen mature predictions. Existing project-native geometry/admission and
+Save52 root/extractor analyses supply the methods; Bethesda supplies primary
+game/native/definition evidence. [F1 reconciliation](docs/experiments/resource-geometry-mature-context/f1-reconciliation.md)
+records specific use and exact provenance. No third-party code incorporation.
