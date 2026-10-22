@@ -1083,3 +1083,7 @@ Maintainer eleven Save52 captures, existing owned/native/save methods and fresh
 installed Bethesda definitions support the [F1 claim/geometry/Water report](experiments/resource-geometry-mature-context/f1-reconciliation.md).
 [Exact source pins](experiments/resource-geometry-mature-context/f1-sources.csv)
 retain local raw boundaries; no new outside implementation or permission basis.
+
+## RG2-C1 coherent observation design — 2026-10-22
+
+[Native contract and point-of-use provenance](experiments/resource-geometry-observation/native-contract.md), [bounded exact receipt check](experiments/resource-geometry-observation/acquisition.md) reuse project-owned RG1/RG2-A/A1/F1/D1 and native-lifetime/debugger findings. Historical B3 source identities remain controlling. Local evidence.json records exact native/raw source pins; no outside code, dependency, contact or disclosure. Bethesda primary bytes remain LOCAL-ONLY; authored synthesis REVIEW-REQUIRED.

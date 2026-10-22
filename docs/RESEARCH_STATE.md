@@ -684,3 +684,7 @@ search: 278 locators, 255 accessible originals, 147 supported, 108 unsupported,
 complete active-player membership and realized UI freshness remain unknown.
 [Review/package](experiments/stored-resources/review.md) controls disposition.
 Offline only; no staging, commit, push or publication authority.
+
+## RG2-C1 observation feasibility — 2026-10-22
+
+[Consumer-first design](experiments/resource-geometry-observation/report.md) specifies a coherent source/population/epoch/native-result contract and IL/Iron/Copper plus optional D1 stability cases. No currently qualified safe full capture route is established in the bounded inspected evidence; owner fence, alias protection, per-use operands, population correlation and acquisition retirement remain engineering gates. IL/Iron disagreements unresolved; frozen predictions unchanged. [Review](experiments/resource-geometry-observation/review.md) controls C1 acceptance. No C2 or RG2-B executed; publication/observer NO-GO unchanged.

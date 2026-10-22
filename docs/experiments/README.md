@@ -201,3 +201,5 @@ H1-H4 and proposed-only repeated-load validation. No new live authority.
 - [SOR-EXP-0063 / SOR-EV-0071 - RG1 inorganic vein geometry](resource-geometry/report.md): qualified source/context-to-region generation for three saved Kreet frames, native-bound competition, finite coverage and nominal circle decisions; historical/native correspondence remains unobserved. [Independent review and package](resource-geometry/review.md). Offline only; B6 remains on hold.
 
 - [SOR-EXP-0064 / SOR-EV-0072 — RG2-A spatial validation preparation](resource-geometry-live-prep/report.md): decoded operator save identities, four primary/two reserve cases, frozen Kreet points/maps and concrete mature source holds; [review](resource-geometry-live-prep/review.md). Offline only, prospective cards NOT AUTHORIZED.
+
+- [RG2-C1 coherent native observation feasibility](resource-geometry-observation/report.md): consumer-first capture contract, four cases, lifecycle discriminators and held C2 cards; [review](resource-geometry-observation/review.md). Offline only; no qualified live path.
