@@ -1,0 +1,62 @@
+source_id,path,bytes,sha256,role
+RG2C1B-S001,.local-work/recon/resource-availability-ui-06.tsv,6662,b2744c43319a261e9965510ed7f8aa7a9256a95c8c9e27eadf1aa5433451dac4,primary LOCAL-ONLY
+RG2C1B-S002,.local-work/recon/resource-availability-ui-07.tsv,9244,ce6ecd6fd91fc51c5dca9b386f8798caa211fb099d4b0cc719cfc8a82376c96e,primary LOCAL-ONLY
+RG2C1B-S003,.local-work/recon/resource-availability-ui-08.tsv,32262,672e430b043f326923bbbe0f4b2bd56a8c366cf1f0c5b1aaee096e009198f074,primary LOCAL-ONLY
+RG2C1B-S004,.local-work/recon/resource-availability-ui-09.tsv,30047,e7be84e22c9f9b228f86a1b6c8976d310ba295ebfe01d3d3af06110845dcbc89,primary LOCAL-ONLY
+RG2C1B-S005,.local-work/recon/resource-availability-ui-10.tsv,40575,a776e83109cc75ff94666414a1da26dc7f82dffeb7dac92610dd7742dde82bd9,primary LOCAL-ONLY
+RG2C1B-S006,.local-work/recon/resource-availability-ui-15.tsv,96248,08e3b170efd28e4e1f76d1935f723423c09a8e6673f5fe3f87a543458372ff56,primary LOCAL-ONLY
+RG2C1B-S007,.local-work/recon/resource-availability-ui-16.tsv,102396,3e29f0c813e9a49aa9c53eada6dee052056dfd659979aeea89868fe7c8447aca,primary LOCAL-ONLY
+RG2C1B-S008,.local-work/recon/resource-availability-ui-17.tsv,33516,80e244d7388c0c781a0fd87ab2adb318cde226468c46771ab379e263a2b02894,primary LOCAL-ONLY
+RG2C1B-S009,.local-work/recon/resource-availability-ui-32.tsv,32886,693302552f7b759b57608786fdbffaaa85a7d8733cde12100df8208f2b84dbf9,primary LOCAL-ONLY
+RG2C1B-S010,.local-work/recon/workshop-origin-03.tsv,17216,0b2b6adee14887253ad4443a5dd02c12c5f3f32d1fb283817576857097f3ccff,primary LOCAL-ONLY
+RG2C1B-S011,.local-work/recon/resource-availability-ui-28.tsv,170255,1367f556f1f39aaad9b84197699996875c523320721d64af2f4842648251aa43,primary LOCAL-ONLY
+RG2C1B-S012,.local-work/recon/resource-availability-ui-29.tsv,59019,8d20748d86ab87b4ae3fbb5ba91209df1be5b7226c217c561911d34dd6533ec3,primary LOCAL-ONLY
+RG2C1B-S013,.local-work/recon/resource-availability-ui-31.tsv,70395,6d31b1b3f4c688841afc5c14d5584f863884e52905e4acd8e73ba44dd36aacc9,primary LOCAL-ONLY
+RG2C1B-S014,.local-work/recon/resource-availability-ui-34.tsv,9058,2af57979930d8bab9bb025c97ec7a13dce0e4b3bb609598a1511f7a559081a88,primary LOCAL-ONLY
+RG2C1B-S015,.local-work/recon/resource-availability-ui-25.tsv,2608,65dc169ad170293fe2440a1a4b866f29264d6e5974264b897cdec7aadd54c27f,primary LOCAL-ONLY
+RG2C1B-S016,.local-work/build-catalogue/native/001.request.tsv,77977,846f6172ab44806a6aec098871fa53142cf1759ed6f14c9bae9b72f048cbf683,primary LOCAL-ONLY
+RG2C1B-S017,.local-work/build-catalogue/native/002.request.tsv,122018,952e824c8937fcc9454cdc7e120fec86e63f21e778d925572d52114190d9a603,primary LOCAL-ONLY
+RG2C1B-S018,.local-work/build-catalogue/native/003.request.tsv,35502,0595a055086d4fe6145dc68a3497555826faca4578864ebb6c2d9576228011c6,primary LOCAL-ONLY
+RG2C1B-S019,.local-work/build-catalogue/native/004.request.tsv,130175,b049e4e7a99d461cfa98050bc7d91563577268e900c312ad689acc0e5f308d80,primary LOCAL-ONLY
+RG2C1B-S020,.local-work/build-catalogue/native/005.request.tsv,27740,e74bb8e1dc5f9b4136deeef3d8721911120955fe7d1f17a674d88f67126ef002,primary LOCAL-ONLY
+RG2C1B-S021,.local-work/build-catalogue/native/006.request.tsv,41196,e37a94da903f903a33c0a5a853c253d89262b8eb921331bbac14450584936621,primary LOCAL-ONLY
+RG2C1B-S022,.local-work/build-catalogue/native/007.request.tsv,106014,882a7a3eb9242d1df02c7f59987cd264ace5e3fe3e3a63d68b5a457e07cd0b95,primary LOCAL-ONLY
+RG2C1B-S023,.local-work/build-catalogue/native/008.request.tsv,42760,e03ec60e7321a0c89cc0cfb769a3d823da85af27b635c5d7263954b97177a6af,primary LOCAL-ONLY
+RG2C1B-S024,.local-work/build-catalogue/native/009.request.tsv,28532,a97a6a691ba6ff109c2da5bcce9006fbd832b267e5604e0864d245514682ec0f,primary LOCAL-ONLY
+RG2C1B-S025,.local-work/build-catalogue/native/010.request.tsv,101868,039c568fcca3b4d29a2c2a74392f2fe53d85924a367ca7d96bea8746d9e09fda,primary LOCAL-ONLY
+RG2C1B-S026,.local-work/build-catalogue/native/011.request.tsv,65974,4e6c24ea9065b20524740d2c112ca08fc6b3f5733ffc75dce963887267c86e7e,primary LOCAL-ONLY
+RG2C1B-S027,.local-work/build-catalogue/native/012.request.tsv,32573,cdfe5a37323b07aa997656c3f408bd33003a28a57faa4b46029cf06ee2b47231,primary LOCAL-ONLY
+RG2C1B-S028,.local-work/build-catalogue/native/013.request.tsv,20929,1610d74928423af3097173fae64018ba57a7e5270fc5891886a7cefe294ec1bc,primary LOCAL-ONLY
+RG2C1B-S029,.local-work/build-catalogue/native/014.request.tsv,28488,e5955a01c2e09a528399e976e1780a851415e15f181f0bf9371b04026fb4bb26,primary LOCAL-ONLY
+RG2C1B-S030,.local-work/build-catalogue/native/015.request.tsv,14198,5d96544cfdedf522d56e48838b1e784747c4ac3dfc0e32bb66260af917fc43de,primary LOCAL-ONLY
+RG2C1B-S031,.local-work/build-catalogue/native/016.request.tsv,54409,8bfb26056f03037145911cce8a6fbb9c69b7bdee086c72ec6725a3eb8aa5ef78,primary LOCAL-ONLY
+RG2C1B-S032,.local-work/build-catalogue/native/017.request.tsv,25607,a43160a7d5c477ee147cb3bd8f0520af25a7e75e6a4cd9f42e030b44a88d44d1,primary LOCAL-ONLY
+RG2C1B-S033,.local-work/build-catalogue/native/018.request.tsv,170290,8ef33e71c292ddb93abf1009c548acd947128870d95f64d52d13a5e9de203112,primary LOCAL-ONLY
+RG2C1B-S034,.local-work/build-catalogue/native/019.request.tsv,39627,2603ddbabfe5bff94e1cc2f65e86fcccfe0e5b8bd71914208310d8b4aeb4e5ee,primary LOCAL-ONLY
+RG2C1B-S035,.local-work/build-catalogue/native/020.request.tsv,104517,3d4c88e2e5b3201833010d7bcf46a2a4d9bf0a16acb77ec95349d040813c1abe,primary LOCAL-ONLY
+RG2C1B-S036,.local-work/build-catalogue/native/021.request.tsv,125030,61a094cde16c696c5f05c02b745c83501027201a54200f600caef0263f2716c2,primary LOCAL-ONLY
+RG2C1B-S037,.local-work/build-catalogue/native/022.request.tsv,95665,d6d19cbc63957fb6ffa36f5622aac9b6887d551a879f8fb91b1d3d3f4ebeed96,primary LOCAL-ONLY
+RG2C1B-S038,.local-work/build-catalogue/native/023.request.tsv,103978,c3154e7c9dd03139ec0e9303a1451c479bfbd725562f06dd43edda3c258d45e9,primary LOCAL-ONLY
+RG2C1B-S039,.local-work/e1-arithmetic/ui-assets/workshopmenu.uncompressed.swf,207247,ef94d1b681faf7592faf753848e91a968d8401a5822d752fe06fce463cd899cb,primary LOCAL-ONLY
+RG2C1B-S040,docs/experiments/resource-region-acquisition/report.md,4542,6d2a4c0ccbb6282d94b4122f7b0b2a7b47c8f85bfb9cd26404259ad8f7476b89,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S041,docs/experiments/resource-region-acquisition/plan.md,11630,e225b712a9b73da70668f278c7f7eb1ff6c1241c23e3a9d5ad21ce81516d5024,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S042,docs/experiments/resource-region-acquisition/native.md,9418,7c7b565a512e9aeaa6a199d2ed08d4c1ed8f4fc65e7aa761ec6202a5556a2744,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S043,docs/experiments/resource-region-acquisition/verification.md,6667,b9af08020acda28fcb47586be5983f24ae4fba49c8f423762176772980929374,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S044,docs/experiments/resource-geometry-observation/native-contract.md,10705,fb8e199392ce9e97bb74b8b01ba4b83a2da112678e4584184067fba3fe2ef6e0,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S045,docs/experiments/resource-geometry-observation/report.md,4382,c8e2d2ef3b46f945795c1d9794f5a0a28c8b6115922a3fb5c8a30b755add6a88,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S046,docs/experiments/resource-geometry-observation/cases.md,4506,c5cec37085b0709b915c231442fb95e2545d6a9ac6d4e5f2994977fcff52cde5,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S047,docs/experiments/resource-geometry-observation/acquisition.md,5640,73fbdac961a1ace9242527c82f6e9bab94673796aa7efeeae404bad155b767df,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S048,docs/experiments/resource-geometry-mature-context/f1-reconciliation.md,13585,5a3d11e901757ec28763fd5e40ab1bc6b38aadb201a46b7654dbdb3a8c55eae0,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S049,docs/experiments/resource-geometry-mature-context/f1-water.md,5041,3d1e71e07c7df0bf47018f0c9c9ff8395f194b4fbf5f3fbb2987690e2d4a63b4,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S050,docs/experiments/resource-geometry-mature-context/seed-lineage.md,11344,661f8c1fe63f04e8c693bf5fe63c589aecb49e798ae11c20dc2eeeba40fa10f3,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S051,docs/experiments/resource-geometry-mature-context/sources.md,7396,9b8a42fcb6f14ccd71f1c212c522406c7aaaee0ac52443ad3dcde09bcd1bd3cc,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S052,docs/experiments/native-availability-map/output-contract.md,13680,be9097ace6d40ae6f3d1b77f14c0b228ed6e4b2d773585ed4f28853ef48156fc,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S053,docs/experiments/native-availability-map/region-lifecycle.md,7431,cd66ad922ba98e288488b497dace384703fe005bd0eecfc736780a91b40ca633,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S054,docs/experiments/native-availability-map/output-paths.md,4214,6246d2a4c5c9e75407139bb9a6a32e50c0e1958ccc01bb3bd97c21715af63974,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S055,docs/experiments/build-catalogue/catalogue.md,7911,4d82a9a8ca1062f302686cb62d34f3218f3b9d6c29f034b5de333bc47f20597d,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S056,docs/experiments/build-catalogue/eligibility.md,7665,325455c18e577dbb1814f2141f30272de36572f2fa50308921f097e401c264b4,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S057,docs/experiments/build-catalogue/ui.md,9805,210b14477a015088c6342560912cf15db516fa8ca7474035b9501018ee2ab744,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S058,docs/experiments/event-latency/thread-control-final-report.md,18268,8690942b7a453221de67b2f43efffd7ae8bc3d2e2ae71a2ad3a3026ec1395b5e,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S059,docs/experiments/disappearing-deposits/report.md,12258,1cc2a7f1a50cdb4f5f55e6bdab53b783c4b140145f0c53ef0267524c8644cfda,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S060,research/review_package.py,8422,de140de74590db1ae85bbd8cc3ccd4d2a36fc19117546be9fd0c9f8d9d544c75,inherited project method/research; exact use in dataflow/methods
+RG2C1B-S061,runtime/beacon-resource-070/capture.h,8177,52c110fa179f2fc7487f068cf2d378e03b030e3e8db82dedcae57867ca777501,inherited project method/research; exact use in dataflow/methods

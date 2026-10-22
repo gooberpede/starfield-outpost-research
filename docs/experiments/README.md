@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-C1B native UI resource oracle](resource-ui-oracle/report.md): parallel catalogue/shared-population lineage, source-tagged capture contract, conditional acquisition architecture and synthetic receipt qualification; [review](resource-ui-oracle/review.md). Offline only; no live authority.
+
 - [RG2-C1A resource-region acquisition qualification](resource-region-acquisition/report.md): actionable conditional manual IL/Copper control/reload route, save/native comparison, safety matrix and [review](resource-region-acquisition/review.md). Offline only; no live execution approval.
 
 - [RG2-A1 resource seeds and mature context](resource-geometry-mature-context/report.md): CK field/RSCS and ordinary owner producers, frame discrimination, frozen conditional mature predictions and [F1 observed/saved counterexamples, Water admission and Copper disk](resource-geometry-mature-context/f1-reconciliation.md); [review](resource-geometry-mature-context/review.md). Offline only.

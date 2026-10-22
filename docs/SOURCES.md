@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-C1B native UI resource oracle qualification
+
+[Exact pins/use](experiments/resource-ui-oracle/sources.csv), [provenance/checks](experiments/resource-ui-oracle/verification.md): inherited availability/070, BM2 catalogue, RG1/A1/F1/D1/C1/C1A research and Bethesda native/save/UI evidence; supplied maintainer screenshot remains local. Microsoft Learn debug-event loop and ReadProcessMemory documentation consulted 2026-10-22 for architecture only (RG2C1B-W01/W02); no example/code reuse. New original stdlib synthetic receipt prototype uses no outside implementation/dependency. SOR-P-0002 covers owned methods; source-reported and observed/static/proposed results remain distinct. No live or publication authority.
+
 B4-F1 (2026-10-21) reuses exact B4 source/copy/privacy receipts and the protected
 historical scan-04 inventory, joined by SHA-256 to the frozen public inventory.
 [Member provenance](audits/publication-readiness-b4/f1/members.csv), [selection and

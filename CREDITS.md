@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-C1B native resource oracle
+
+The maintainer's screenshot/save context and project availability/070, BM2, RG1/A1/F1/D1/C1/C1A research supply the evidence and methods; Bethesda supplies native/save/UI primary content. Microsoft Learn debug-event-loop and ReadProcessMemory API explanations inform the conditional external architecture, without example/code reuse. [Exact uses and provenance](docs/experiments/resource-ui-oracle/verification.md) distinguish inherited findings, new static reconciliation and original synthetic accounting. No endorsement or outside implementation incorporation implied.
+
 ## B4-F1 evidence curation and packaging
 
 Bethesda supplies the underlying Starfield content; the maintainer supplies
