@@ -1111,3 +1111,7 @@ retain local raw boundaries; no new outside implementation or permission basis.
 ## RG2-C1E Phase B native consumer evidence
 
 2026-10-22. The separately approved [single-session pilot](experiments/resource-region-ancestry/phase-b.md) uses the existing owned C1D/C1E collector/SRO1 pipeline and unchanged RG1/RG2 evaluator. [Exact evidence/source pins](experiments/resource-region-ancestry/phase-b-sources.csv) bind native accepted geometry and transfer receipts, pre/postflight and immutable prediction comparison. No new outside implementation or licence basis; raw native memory/save/debug outputs remain local-only, authored synthesis review-required. Selected source BIOM/generator history remain unknown.
+
+## RG2-C1F generation divergence — 2026-10-23
+
+[Source pins](experiments/resource-generation-ancestry/sources.csv) identify inherited Bethesda retail native/definition evidence and owned C1E raw framing/ancestry plus RG1/RG2 evaluator/selection research at task HEAD9c2765fde66dd128d8f0b2d3bb28d5563d21134e. [Operand ledger](experiments/resource-generation-ancestry/ancestry.md) cites exact native branches; new bounded replays retain conditional status. No new outside implementation, dependency, licence acceptance, contact or disclosure. Raw evidence LOCAL-ONLY; authored synthesis REVIEW-REQUIRED.

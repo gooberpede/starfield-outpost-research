@@ -1,0 +1,30 @@
+source_id,path,bytes,sha256,role
+C1F-S001,.local-work/resource-generation-ancestry/replay05.json,10872,9b74317d1b3a54c21d2362fcbca61e67100e59901b46403381c53a7805ca6cea,LOCAL-ONLY primary or derivative
+C1F-S002,.local-work/resource-generation-ancestry/protected-before.json,507508,43fb52038dbe07686dbacc0efcdec83f7724ec9560d9070280723e716fd5d99e,LOCAL-ONLY primary or derivative
+C1F-S003,.local-work/resource-generation-ancestry/baseline.json,267,13800e8af77f4e78663cd04c1fca76db0c1cd26c2e810deeecf0959e4e3c670b,LOCAL-ONLY primary or derivative
+C1F-S004,.local-work/resource-region-ancestry/retail-attempt01/events.jsonl,7414584,249ea01cf45c2e35f07287a1eb709007aa409442d088113d3d9c2d48b94919a8,LOCAL-ONLY primary or derivative
+C1F-S005,.local-work/resource-region-ancestry/analysis-attempt01.json,363751,2bb68b75e3abb8de7802f5eb9c959d1e05bf27c0e54e057b9757c4a36b6912d7,LOCAL-ONLY primary or derivative
+C1F-S006,.local-work/recon/resource-milestone-b-producers-01.tsv,82472,bc5ae6b3e3b0f042e0c10d6ab73693b3f6d087821d24e120045ec2e3f206fff8,LOCAL-ONLY primary or derivative
+C1F-S007,.local-work/recon/resource-milestone-b-producers-02.tsv,47527,8d962ff0cc0ab4e543feb311f21cd4e0bb6e70d2bbf720232734d9dd226de25b,LOCAL-ONLY primary or derivative
+C1F-S008,.local-work/recon/resource-availability-cont-01.tsv,120667,c167add6f3e75f6a0ce2627f5813b4c0e04509e5b7d2974f57d3b8795d7602a3,LOCAL-ONLY primary or derivative
+C1F-S009,.local-work/recon/resource-availability-cont-02.tsv,67257,175ac6e946706ce48ca50f2f50f1557c6368907c27e63f78c2ef56264387b3c8,LOCAL-ONLY primary or derivative
+C1F-S010,.local-work/recon/resource-availability-ui-15.tsv,96248,08e3b170efd28e4e1f76d1935f723423c09a8e6673f5fe3f87a543458372ff56,LOCAL-ONLY primary or derivative
+C1F-S011,.local-work/recon/resource-availability-ui-16.tsv,102396,3e29f0c813e9a49aa9c53eada6dee052056dfd659979aeea89868fe7c8447aca,LOCAL-ONLY primary or derivative
+C1F-S012,.local-work/recon/resource-availability-ui-29.tsv,59019,8d20748d86ab87b4ae3fbb5ba91209df1be5b7226c217c561911d34dd6533ec3,LOCAL-ONLY primary or derivative
+C1F-S013,docs/experiments/resource-geometry-mature-context/freeze-mature-v2.json,2020,992c7f97211d0784de0ed66345caca1d415bad409601426405048dd9dbb038e9,owned source/frozen provenance
+C1F-S014,.local-work/resource-geometry-mature-context/site-feynman-initial02.json,523972,6f40b0d3166796bbdabb31dd8cd4a00dbfc9da144eb13ba3a336367d2f6c539b,LOCAL-ONLY primary or derivative
+C1F-S015,research/resource-geometry/geometry.py,26508,909dcf1c028a7c24bf698a9144fdd6478f01063717dee560f2214966b72a5eec,owned source/frozen provenance
+C1F-S016,research/resource-region-ancestry/qualify.py,10465,63fef32377d7c67ee62e780e4b09ab8985f56257a765250a997137b9b3e1b423,owned source/frozen provenance
+C1F-S017,research/resource-region-ancestry/analyze.py,4122,cdec35c44c012b23cf4df249d199d9d2fcb6af134c860a6a20d5b37e31a8321f,owned source/frozen provenance
+C1F-S018,research/resource-generation-ancestry/investigate.py,10244,330146b320fb65e12a557a623ac9ce431e325758b99c55680a69c07227818eeb,owned source/frozen provenance
+C1F-S019,research/resource-generation-ancestry/test_investigate.py,1292,015a68d779d85d44c9b6767808ae8243ab1191532d1f9e2d672917ae2ee506ed,owned source/frozen provenance
+C1F-S020,.local-work/resource-region-ancestry/retail-attempt01/capture-00299.bin,7851,0575a3af8403ed2333bb2a3d0ab7f9543f5957e31d79af2758c30635786b806b,LOCAL-ONLY primary or derivative
+C1F-S021,.local-work/resource-region-ancestry/retail-attempt01/capture-00325.bin,7789,c6a217abbdf668129e2f9d2bdbc9aab6086c2a9e6e73a2fa135939e94c0d2e08,LOCAL-ONLY primary or derivative
+C1F-S022,.local-work/resource-region-ancestry/retail-attempt01/capture-00696.bin,7818,110a86096417540d497a4d0d7b825ff5618a5ab70a77741a293dfa68f8eda780,LOCAL-ONLY primary or derivative
+C1F-S023,.local-work/resource-region-ancestry/retail-attempt01/capture-00716.bin,7852,c2a70ec1f13eb15934fd95762a5145daf2a455485be20102a79e6195cc2b8c11,LOCAL-ONLY primary or derivative
+C1F-S024,.local-work/resource-region-ancestry/retail-attempt01/capture-00967.bin,4389,aa8cef2407c09523218d68332f2882855b3ae3830db45a7a4155c39a0950243f,LOCAL-ONLY primary or derivative
+C1F-S025,.local-work/resource-generation-ancestry/protected-after01.json,183,0b6576665cee0c1ecf61f61be8e10811218d775f91065ffe0ef5c8c2bf5ce2ca,LOCAL-ONLY derivative
+C1F-S026,.local-work/resource-region-ancestry/c1f-preservation01.json,117177,ec50299fa670d4cfa161a2157b5b913caaca442c779cf885b168aa1592762f44,LOCAL-ONLY derivative
+C1F-S027,.local-work/resource-milestone-b-spatial-constants.json,4100,792288db6c019e033885c9044e21c902fed526cdcf199b3489209ca7b36e025f,LOCAL-ONLY derivative
+C1F-S028,research/resource-oracle-retail/decode.h,5131,5517fa45e311419a68957554cc3f6374711d1d43104e37dd763d9483215299b0,owned inherited native layout decoder
+C1F-S029,research/resource-oracle-retail/sourcefiles.h,4051,7ab700bf17d557b763ad578acd48457db5d5645d721ce204b9b1908ea302c732,owned inherited native layout decoder

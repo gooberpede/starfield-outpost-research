@@ -671,3 +671,7 @@ records specific use and exact provenance. No third-party code incorporation.
 ## RG2-C1E accepted-region ancestry
 
 The [ancestry ledger](docs/experiments/resource-region-ancestry/contract.md) builds on this project's C1D/C1C debugger, C1B receipt pipeline and RG1/RG2 native research. Bethesda Game Studios' Starfield1.16.244.0 executable supplies local-only static/data-layout evidence; no proprietary implementation or raw export is incorporated as project code. [Pins and use](docs/experiments/resource-region-ancestry/sources.csv) retain exact provenance.
+
+## RG2-C1F generation ancestry
+
+[Report and point-of-use lineage](docs/experiments/resource-generation-ancestry/report.md) build on this project's C1D/C1E native ancestry/framing, RG1 geometry and RG2-A1 selection/seed research. Bethesda Game Studios supplies the underlying local-only executable, definitions and native observations; the maintainer supplies protected Save52 provenance. Existing project-owned evaluator and review-export methods are reused with exact pins; no outside implementation is incorporated.
