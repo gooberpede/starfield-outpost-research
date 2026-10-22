@@ -1107,3 +1107,7 @@ retain local raw boundaries; no new outside implementation or permission basis.
 ## RG2-C1E region ancestry — provenance extension
 
 2026-10-22. [Exact local/source pins](experiments/resource-region-ancestry/sources.csv) and [callsite ledger](experiments/resource-region-ancestry/contract.md) identify Bethesda retail1.16.244.0 ui15/ui16 static evidence, C1D native receipt inheritance and owned collector/decoder/SRO1/evaluator adaptation. No new outside implementation, licence acceptance, native export publication or contact. Bethesda-derived instructions/raw memory remain local-only; authored synthesis is review-required. SOR-P-0002 covers maintainer-authored pipeline reuse, not proprietary input redistribution.
+
+## RG2-C1E Phase B native consumer evidence
+
+2026-10-22. The separately approved [single-session pilot](experiments/resource-region-ancestry/phase-b.md) uses the existing owned C1D/C1E collector/SRO1 pipeline and unchanged RG1/RG2 evaluator. [Exact evidence/source pins](experiments/resource-region-ancestry/phase-b-sources.csv) bind native accepted geometry and transfer receipts, pre/postflight and immutable prediction comparison. No new outside implementation or licence basis; raw native memory/save/debug outputs remain local-only, authored synthesis review-required. Selected source BIOM/generator history remain unknown.

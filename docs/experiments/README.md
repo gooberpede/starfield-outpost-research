@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-C1E Phase B accepted native regions](resource-region-ancestry/phase-b.md): one approved P3 pilot, 967 ACKed captures, IL geometry discrepancy and exact Copper/other path controls; [review/package](resource-region-ancestry/phase-b-review.md). No retry/fallback or further live authority.
+
 - [RG2-C1E accepted-region ancestry](resource-region-ancestry/report.md): C1D extension, true-edge/source/ordered-geometry receipts,32 synthetic Windows cases and [approval-only run card](resource-region-ancestry/run-card.md); [review](resource-region-ancestry/review.md). No retail Phase B execution.
 
 - [RG2-C1D retail resource oracle](resource-oracle-retail/report.md): separate adapter, native-layout qualification and bounded Steam pilot; [review](resource-oracle-retail/review.md). Third bounded attempt captured P3-bound spatial transfer with qualified IL/Copper; geometry and catalogue site joins remain unknown.

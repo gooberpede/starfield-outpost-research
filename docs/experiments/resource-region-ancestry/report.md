@@ -1,5 +1,7 @@
 # RG2-C1E: accepted-region ancestry, offline Phase A
 
+**Later approved Phase B:** [Native result](phase-b.md) acquired accepted IL/Copper region geometry and their P3-bound transfer; [Phase B review/package](phase-b-review.md). The remainder records the original offline Phase A and its historical authority/measurement boundaries.
+
 2026-10-22 Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1E_native_resource_region_ancestry.md).
 Authored work REVIEW-REQUIRED; native/raw/save evidence LOCAL-ONLY; publication
 NOT CLEARED. Phase B requires a fresh explicit maintainer instruction after

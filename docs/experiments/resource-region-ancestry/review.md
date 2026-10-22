@@ -1,5 +1,7 @@
 # Independent review and exact delivery
 
+**Later approved pilot:** [Phase B result](phase-b.md) and [separate output/package review](phase-b-review.md) govern the retail evidence. This page retains the original Phase A review.
+
 [Frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1E_native_resource_region_ancestry.md),
 [AC1–AC8 matrix](report.md), [verification/primary receipts](verification.md),
 [approval-only card](run-card.md). No integration/live/publication authority.
@@ -10,11 +12,11 @@ primary ui15/ui16 instructions, source/stack offsets, edge semantics, code and
 actual synthetic receipts. Initial REWORK identified fixed-list transfer and
 packet-verdict fixture weaknesses, missing error/loss accounting, incomplete
 query-read admission and postflight set coverage. Corrections and failures are
-preserved in verification.md. The critic independently parsed final99 receipts /
+preserved in verification.md. The critic independently parsed the final 99 receipts /
 297 frames and checked raw semantic mixed/source/nested cases, not just PASS flags.
 
 The critic returned **ACCEPT for Phase A final01, AC1–AC8 PASS**, with exact
-patch hashes, all24 file pins,17 source pins and99 independently parsed receipts.
+patch hashes, all 24 file pins, 17 source pins and 99 independently parsed receipts.
 It independently checked current-tree hashes and reverse applicability; forward
 scratch reconstruction, full save-tree hashing and regression execution were
 inspected through primary receipts. Retail lifetime/per-use/generation gaps remain.

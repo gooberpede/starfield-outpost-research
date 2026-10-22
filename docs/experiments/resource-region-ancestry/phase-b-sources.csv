@@ -1,0 +1,23 @@
+source_id,path,bytes,sha256,role
+C1E-B001,.local-work/resource-region-ancestry/phase-b-baseline.json,592,0f40f3184e29c4c587d4f960c4e96319817645b427962a1b6113210c040a6a2d,LOCAL-ONLY exact primary/derivative receipt
+C1E-B002,.local-work/resource-region-ancestry/pilot-approval01.json,637,17d600d8febce36ff541ae20ec26494f446fe6a787e95630c1520e4875a0f4b4,LOCAL-ONLY exact primary/derivative receipt
+C1E-B003,.local-work/resource-region-ancestry/steam-launch01.json,184,e4eaad9f2c61e9859d27ca3ebafa6d71bf2d18902101824bbdc396e750b1f9f5,LOCAL-ONLY exact primary/derivative receipt
+C1E-B004,.local-work/resource-region-ancestry/pilot-qualification01/qualification.json,33855,6386ebf42abff2a16cc3ad298138ec4b3a8754218ee0de5cca0b4d7a8740af1b,LOCAL-ONLY exact primary/derivative receipt
+C1E-B005,.local-work/resource-region-ancestry/pilot-preflight01/preflight.json,118876,2b8acdcf52e2cd731b923cd16950c64011088b8cec3c9902f5e43d2c9cb5500f,LOCAL-ONLY exact primary/derivative receipt
+C1E-B006,.local-work/resource-region-ancestry/retail-attempt01/config.json,1136,bfaf74aa433088430e24b5a441d9725cd879b5d203b04d8b8da6b3fd1f8a16dd,LOCAL-ONLY exact primary/derivative receipt
+C1E-B007,.local-work/resource-region-ancestry/retail-attempt01/events.jsonl,7414584,249ea01cf45c2e35f07287a1eb709007aa409442d088113d3d9c2d48b94919a8,LOCAL-ONLY exact primary/derivative receipt
+C1E-B008,.local-work/resource-region-ancestry/retail-attempt01/capture-00299.bin,7851,0575a3af8403ed2333bb2a3d0ab7f9543f5957e31d79af2758c30635786b806b,LOCAL-ONLY exact primary/derivative receipt
+C1E-B009,.local-work/resource-region-ancestry/retail-attempt01/capture-00325.bin,7789,c6a217abbdf668129e2f9d2bdbc9aab6086c2a9e6e73a2fa135939e94c0d2e08,LOCAL-ONLY exact primary/derivative receipt
+C1E-B010,.local-work/resource-region-ancestry/retail-attempt01/capture-00967.bin,4389,aa8cef2407c09523218d68332f2882855b3ae3830db45a7a4155c39a0950243f,LOCAL-ONLY exact primary/derivative receipt
+C1E-B011,.local-work/resource-region-ancestry/retail-attempt01/accounting.json,96,ddf2cb7a486a6d118b2d41ec6099d6bce47efab0a06f576dbc08af4284e7b7bf,LOCAL-ONLY exact primary/derivative receipt
+C1E-B012,.local-work/resource-region-ancestry/analysis-attempt01.json,363751,2bb68b75e3abb8de7802f5eb9c959d1e05bf27c0e54e057b9757c4a36b6912d7,LOCAL-ONLY exact primary/derivative receipt
+C1E-B013,.local-work/resource-region-ancestry/comparison-attempt01-v2.json,5464,e259012eb41312d045f4f45158a399116ed37716d25e80c2e76ddd5eeda30b83,LOCAL-ONLY exact primary/derivative receipt
+C1E-B014,.local-work/resource-region-ancestry/postflight-attempt01.json,117177,ec50299fa670d4cfa161a2157b5b913caaca442c779cf885b168aa1592762f44,LOCAL-ONLY exact primary/derivative receipt
+C1E-B015,.local-work/resource-region-ancestry/secondary-save-paths01.json,51320,7e49fa990e8bdbbbd18f336375cadd9d0ab2db726e6f66d05e99e94ebdfc744d,LOCAL-ONLY exact primary/derivative receipt
+C1E-B016,.local-work/resource-region-ancestry/secondary-save-postflight01.json,51084,75987863f3e3de05c3e0f8c00a81c8be9766a8a0cc097765f209cdec881daa08,LOCAL-ONLY exact primary/derivative receipt
+C1E-B017,.local-work/resource-region-ancestry/phase-b-protected-final.json,350,c0bcb7fdef87722e7090ae765ac11a48f9855cff5d008c746dd367fecf3532bf,LOCAL-ONLY exact primary/derivative receipt
+C1E-B018,.local-work/resource-region-ancestry/pilot-metrics01.json,581,63db33e198aab0268071b3cdb5ef2df20f2716fefd38ceb46ed3c30819827276,LOCAL-ONLY exact primary/derivative receipt
+C1E-B019,research/resource-region-ancestry/compare_pilot.py,4599,ad623e8b481582e317a421b0c3f12da9ad7f2d483f07ff3581aec400e24861c6,owned comparison/frozen source
+C1E-B020,docs/experiments/resource-geometry-mature-context/freeze-mature-v2.json,2020,992c7f97211d0784de0ed66345caca1d415bad409601426405048dd9dbb038e9,owned comparison/frozen source
+C1E-B021,.local-work/resource-region-ancestry/comparison-checks01.json,1018,0cc2df6ace9a9a5d3b38afdb4372cc0de75585ad3b0a7869b516159cf0b16f20,LOCAL-ONLY check/sealing receipt
+C1E-B022,.local-work/resource-region-ancestry/archive-verification01.json,185321,36cee29044ebb896d3d453690ca4b9a5f56fd6e6a70481ed18958d53aff7c5c2,LOCAL-ONLY check/sealing receipt
