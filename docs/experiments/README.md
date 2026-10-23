@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-C2B Carinae source-context reconstruction](resource-carinae-source-context/report.md): bounded joint-frame tests, preserved exact controls, synthetic consumer-context extension and [proposed card](resource-carinae-source-context/run-card.md); [review/package](resource-carinae-source-context/review.md). Historical source/selection/epoch remains unknown; no retail authority.
+
 - [Carinae Phase B/C native Iron result](resource-carinae/phase-b.md): reviewed corrected retry, 2587 complete captures, native accepted Iron/Alkanes/Rothicite and exact offline mismatch; [review/package](resource-carinae/phase-b-review.md). Source/frame/epoch cause remains unknown; no further live authority.
 
 - [RG2-C2A Carinae native Iron qualification](resource-carinae/report.md): separate collector, 40 synthetic debugger cases, inherited regressions and exact comparator; [approval-ready card](resource-carinae/run-card.md), [review/package](resource-carinae/review.md). Phase B and retail Phase C not executed.

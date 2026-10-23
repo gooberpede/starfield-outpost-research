@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-C2B Carinae source context
+
+Bethesda supplies the installed native/definition evidence. The maintainer supplied Save52 and five connected-overlay photographs and reported deposit/extractor counts. Existing owned C2A/C1D acquisition and RG1/RG2-A1/C1H mathematics support this bounded extension and replay under SOR-P-0002, with [exact provenance](docs/experiments/resource-carinae-source-context/sources.md). Microsoft Windows/MSVC, CPython and Git are existing separate tools. No outside code was incorporated or raw evidence cleared for publication.
+
 ## RG2-C1H installed settings and editorial finalization
 
 Bethesda supplies installed native/definition evidence; the maintainer's Save52

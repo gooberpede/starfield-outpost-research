@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-C2B Carinae source context
+
+[Source ledger](experiments/resource-carinae-source-context/sources.csv) and [method effects](experiments/resource-carinae-source-context/sources.md) bind owned C2A debugger/fixture/transport adaptation, unchanged RG1/RG2-A1/C1H arithmetic and exact replay, prior native exports/receipts, Save52 and supplied JPEG constraints. Narrow consultation of the owned prior resource-research CK notes does not establish retail Carinae ancestry. SOR-P-0002 applies; no third-party incorporation, dependency, new licence basis, contact, download or disclosure. Raw inputs remain LOCAL-ONLY; authored synthesis REVIEW-REQUIRED. The proposed consumer-frame capture remains unauthorized.
+
 ## Carinae Phase B/C native-region capture
 
 [Phase B/C ledger](experiments/resource-carinae/phase-b-sources.csv) pins the original/retry/Phase C authority, independent retry review, unchanged build05, fresh qualifications and save/sync/protected audits, both raw event/SRO1 archives and the exact offline comparison. The [report](experiments/resource-carinae/phase-b.md) preserves the scanner-only first attempt and user correction. Owned C1E/C1D/C2A framing, decoder, debugger and nonfitting comparison methods continue under SOR-P-0002; no new external implementation, licence basis, dependency, contact or disclosure. Original local receipt-audit/archive helpers use CPython stdlib only. Bethesda memory/raw save inputs and archives remain LOCAL-ONLY; selected five-point numeric synthesis is REVIEW-REQUIRED.
