@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-23 — C2B Phase B source-context capture:** [Result](experiments/resource-carinae-source-context/phase-b.md)
+joins complete Iron/Alkanes/Rothicite decisions to one Carinae transfer. Their
+observed source anchor (-12,-12) is absent from the four frozen prediction
+sources; current owner and derived descriptor frame agree. Historical generating
+selection/epoch and exact reconstruction remain open. The sandboxed first
+attachment failed; a separately approved ordinary unrestricted-user retry
+completed 2587 captures/ACKs and controlled disposal. Both postflights pass.
+[Independent review/package](experiments/resource-carinae-source-context/phase-b-review.md)
+controls completion. Original and retry live authorities are consumed; no further
+session, save recovery, integration or publication follows. Earlier chronology remains below.
+
 **2026-10-23 — C2B transient-save amendment:** [Prospective protection](SAVE_PROTECTION.md)
 excludes reliably classified active exitsave/autosave churn while retaining
 strict research/manual/quicksave, backup and historical evidence checks.

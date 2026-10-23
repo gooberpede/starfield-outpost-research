@@ -1,5 +1,20 @@
 # Permission and Reuse Register
 
+## C2B Phase B and one corrected execution-context retry — 2026-10-23
+
+The maintainer approved the updated [Phase B card](experiments/resource-carinae-source-context/run-card.md)
+subject to successful preflight and confirmed Steam Cloud disabled. After the
+sandboxed collector's access-denied failure and successful postflight, the
+maintainer explicitly instructed: “After postflight is finished let's make
+another attempt as the unrestricted user.” The [reviewed addendum](experiments/resource-carinae-source-context/retry-run-card-01.md)
+governed one additional process with ordinary unrestricted-user dispatch,
+without administrator elevation, privilege enabling or security changes.
+The [result](experiments/resource-carinae-source-context/phase-b.md) preserves both
+attempts, exact local instructions, consumed approval gates and successful
+postflights. No third session, retarget, save/configuration mutation, recovery,
+integration, staging, commit, push or publication is authorized. Owned methods
+remain under SOR-P-0002; no new third-party incorporation or disclosure occurred.
+
 ## C2B prospective transient-save correction — 2026-10-23
 
 The invoked [amendment](implementation-briefs/CODEX_AMENDMENT_SOR_C2B_transient_save_protection.md)

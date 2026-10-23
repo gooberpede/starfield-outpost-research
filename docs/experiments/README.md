@@ -1,5 +1,7 @@
 # Experiments
 
+- [C2B Phase B source-context result](resource-carinae-source-context/phase-b.md): complete three-resource transfer shows a consumed source absent from the frozen four-source inputs; current owner/frame agree. Preserved access-denied attempt, separately approved retry, exact receipts and successful postflights; [review/package](resource-carinae-source-context/phase-b-review.md). Historical generation remains open; no further live authority.
+
 - [C2B transient-save protection amendment](resource-carinae-source-context/transient-save-protection.md): native-bound full-name classification, strict designated/manual/quicksave and backup preservation, nonblocking active transient churn, preserved old exitsave discrepancy and amended card. Phase B remains pending approval.
 
 - [RG2-C2B Carinae source-context reconstruction](resource-carinae-source-context/report.md): bounded joint-frame tests, preserved exact controls, synthetic consumer-context extension and [proposed card](resource-carinae-source-context/run-card.md); [review/package](resource-carinae-source-context/review.md). Historical source/selection/epoch remains unknown; no retail authority.

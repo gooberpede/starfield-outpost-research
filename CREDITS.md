@@ -1,5 +1,14 @@
 # Credits
 
+## C2B Phase B source-context acquisition
+
+Bethesda supplies the native runtime/static evidence. The maintainer supplied
+Save52, live authority, Steam Cloud confirmation and operator gameplay reports.
+Owned C2B/C2A methods support receipt acquisition, exact comparisons and archival
+under SOR-P-0002, with [per-use pins](docs/experiments/resource-carinae-source-context/phase-b-sources.csv).
+Existing CPython, Microsoft Windows/MSVC and Git remain separate tools.
+No outside implementation was incorporated or raw evidence cleared for publication.
+
 ## C2B transient-save amendment
 
 Existing project-owned C2B save/receipt methods and EXP0002A native formatter

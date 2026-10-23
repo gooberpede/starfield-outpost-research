@@ -1,5 +1,10 @@
 # Carinae source context: the geographic join remains missing
 
+**Subsequent separately authorized Phase B:** [Runtime result](phase-b.md)
+captures the consumed source anchor/manager frame and narrows the four-source
+input mismatch. The Phase A observations and authority statements below retain
+their historical scope; [new review/package](phase-b-review.md) controls that run.
+
 **Prospective operational amendment, 2026-10-23:**
 [Transient-save protection](transient-save-protection.md) supersedes the old
 exitsave corpus-disposition requirement and operational helper descriptions.

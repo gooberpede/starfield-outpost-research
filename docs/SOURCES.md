@@ -1,5 +1,16 @@
 # Source Register
 
+## C2B Phase B source-context acquisition
+
+[Runtime report](experiments/resource-carinae-source-context/phase-b.md) and
+[exact pins](experiments/resource-carinae-source-context/phase-b-sources.csv)
+bind the unchanged owned C2B collector/comparison methods, original C2A local
+audit/archival methods, prior native constructor/provider/frame exports, frozen
+four-source inputs, new raw receipts and direct maintainer/operator instructions.
+SOR-P-0002 covers owned adaptation. Bethesda native evidence and raw captures
+remain LOCAL-ONLY; authored synthesis remains REVIEW-REQUIRED. No external
+code, dependency, licence basis, contact or disclosure was introduced.
+
 ## C2B prospective transient-save protection
 
 [The amendment record](experiments/resource-carinae-source-context/transient-save-protection.md)

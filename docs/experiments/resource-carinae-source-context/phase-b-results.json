@@ -1,0 +1,370 @@
+{
+  "schema": "sor-c2b-phase-b-selected/1",
+  "publication": "REVIEW-REQUIRED",
+  "pid": 27156,
+  "raw_module_base": "0x7ff6da140000",
+  "captures": 2587,
+  "complete_captures": 2587,
+  "accepted_acks": 2587,
+  "qualified_transfers": 1,
+  "exit_code": "0xc1c0",
+  "contexts": [
+    {
+      "capture": 84,
+      "resource": "0x00005df1",
+      "transfer": 2587,
+      "source_ordinal": 27,
+      "owner": 386266,
+      "mode": 2,
+      "selected_descriptor_offset": "0xc8",
+      "descriptor_tag": 0,
+      "coarse": [
+        111,
+        81
+      ],
+      "sub": [
+        8,
+        8
+      ],
+      "fine": [
+        0,
+        0
+      ],
+      "derived_descriptor_origin": [
+        21408,
+        15648
+      ],
+      "source_words": [
+        -12,
+        -12,
+        10,
+        10,
+        2,
+        2,
+        14,
+        14
+      ],
+      "source_anchor": [
+        -12,
+        -12
+      ],
+      "padding": [
+        2,
+        2
+      ],
+      "raw_dimensions": [
+        14,
+        14
+      ],
+      "derived_geographic_anchor": [
+        21396,
+        15636
+      ],
+      "derived_generator_origin": [
+        -1400,
+        -1400
+      ],
+      "source_sha256": "01ab34593269583b7e6d8fc5b95b78135c23f6ef382502ce15cef2a57a8bc654",
+      "descriptor_pair_equal": true,
+      "same_geometry_as_prior": true,
+      "matching_frozen_origins": [],
+      "generation_epoch": "UNKNOWN",
+      "historical_selection": "UNKNOWN"
+    },
+    {
+      "capture": 94,
+      "resource": "0x000057c7",
+      "transfer": 2587,
+      "source_ordinal": 27,
+      "owner": 386266,
+      "mode": 2,
+      "selected_descriptor_offset": "0xc8",
+      "descriptor_tag": 0,
+      "coarse": [
+        111,
+        81
+      ],
+      "sub": [
+        8,
+        8
+      ],
+      "fine": [
+        0,
+        0
+      ],
+      "derived_descriptor_origin": [
+        21408,
+        15648
+      ],
+      "source_words": [
+        -12,
+        -12,
+        10,
+        10,
+        2,
+        2,
+        14,
+        14
+      ],
+      "source_anchor": [
+        -12,
+        -12
+      ],
+      "padding": [
+        2,
+        2
+      ],
+      "raw_dimensions": [
+        14,
+        14
+      ],
+      "derived_geographic_anchor": [
+        21396,
+        15636
+      ],
+      "derived_generator_origin": [
+        -1400,
+        -1400
+      ],
+      "source_sha256": "01ab34593269583b7e6d8fc5b95b78135c23f6ef382502ce15cef2a57a8bc654",
+      "descriptor_pair_equal": true,
+      "same_geometry_as_prior": true,
+      "matching_frozen_origins": [],
+      "generation_epoch": "UNKNOWN",
+      "historical_selection": "UNKNOWN"
+    },
+    {
+      "capture": 115,
+      "resource": "0x000057c9",
+      "transfer": 2587,
+      "source_ordinal": 27,
+      "owner": 386266,
+      "mode": 2,
+      "selected_descriptor_offset": "0xc8",
+      "descriptor_tag": 0,
+      "coarse": [
+        111,
+        81
+      ],
+      "sub": [
+        8,
+        8
+      ],
+      "fine": [
+        0,
+        0
+      ],
+      "derived_descriptor_origin": [
+        21408,
+        15648
+      ],
+      "source_words": [
+        -12,
+        -12,
+        10,
+        10,
+        2,
+        2,
+        14,
+        14
+      ],
+      "source_anchor": [
+        -12,
+        -12
+      ],
+      "padding": [
+        2,
+        2
+      ],
+      "raw_dimensions": [
+        14,
+        14
+      ],
+      "derived_geographic_anchor": [
+        21396,
+        15636
+      ],
+      "derived_generator_origin": [
+        -1400,
+        -1400
+      ],
+      "source_sha256": "01ab34593269583b7e6d8fc5b95b78135c23f6ef382502ce15cef2a57a8bc654",
+      "descriptor_pair_equal": true,
+      "same_geometry_as_prior": true,
+      "matching_frozen_origins": [],
+      "generation_epoch": "UNKNOWN",
+      "historical_selection": "UNKNOWN"
+    }
+  ],
+  "frozen_requests": [
+    {
+      "source": "0:21372:15612:002493eb",
+      "origin": [
+        -3800,
+        -3800
+      ],
+      "clip_center": [
+        -2700,
+        -2700,
+        0
+      ],
+      "clip_half": [
+        1300,
+        1300,
+        0
+      ],
+      "owner_key": 386266
+    },
+    {
+      "source": "0:21384:15636:0006ce55",
+      "origin": [
+        -2600,
+        -1400
+      ],
+      "clip_center": [
+        -2100,
+        -900,
+        0
+      ],
+      "clip_half": [
+        700,
+        700,
+        0
+      ],
+      "owner_key": 386266
+    },
+    {
+      "source": "0:21396:15624:002493e7",
+      "origin": [
+        -1400,
+        -2600
+      ],
+      "clip_center": [
+        -300,
+        -1500,
+        0
+      ],
+      "clip_half": [
+        1300,
+        1300,
+        0
+      ],
+      "owner_key": 386266
+    },
+    {
+      "source": "0:21396:15648:002493ed",
+      "origin": [
+        -1400,
+        -200
+      ],
+      "clip_center": [
+        -900,
+        300,
+        0
+      ],
+      "clip_half": [
+        700,
+        700,
+        0
+      ],
+      "owner_key": 386266
+    }
+  ],
+  "comparisons": [
+    {
+      "capture": 84,
+      "resource": "0x00005df1",
+      "paths": 131,
+      "full_exact": 0,
+      "xyw_exact": 0,
+      "geometry_sha256": "dd89c7eb3d4004c3de4afceaff49171442f625ed85e02077a8491c72eb252cee",
+      "native_bound": [
+        -774.3823852539062,
+        -640.0171508789062,
+        0.0,
+        49.85234069824219
+      ],
+      "ordered_xyzw": [
+        [
+          -764.2591552734375,
+          -623.094482421875,
+          0.0,
+          30.132884979248047
+        ],
+        [
+          -783.0944213867188,
+          -654.580810546875,
+          0.0,
+          32.88179016113281
+        ]
+      ],
+      "source_ordinal": 27,
+      "source_slot_va": "0x203c8e8d360",
+      "source_key_va": "0x20bba88d520",
+      "wrapper_va": "0x20b839244c0",
+      "generation_epoch": "UNKNOWN"
+    },
+    {
+      "capture": 94,
+      "resource": "0x000057c7",
+      "paths": 259,
+      "full_exact": 0,
+      "xyw_exact": 0,
+      "geometry_sha256": "c59382862e65375e00578dd1704951d1b857e6d1dfcc47bb1895a7aaaa86f065",
+      "native_bound": [
+        -902.5105590820312,
+        -859.2149658203125,
+        0.0,
+        46.016265869140625
+      ],
+      "ordered_xyzw": [
+        [
+          -910.0562744140625,
+          -839.7998046875,
+          0.0,
+          25.186338424682617
+        ],
+        [
+          -896.1412353515625,
+          -875.603271484375,
+          0.0,
+          28.433734893798828
+        ]
+      ],
+      "source_ordinal": 27,
+      "source_slot_va": "0x203c8e8d360",
+      "source_key_va": "0x20bba88d520",
+      "wrapper_va": "0x20b839244c0",
+      "generation_epoch": "UNKNOWN"
+    },
+    {
+      "capture": 115,
+      "resource": "0x000057c9",
+      "paths": 505,
+      "full_exact": 0,
+      "xyw_exact": 0,
+      "geometry_sha256": "efb0414f8445a068360f3de74b4b77c58118c46a0cb3497776ef57a31fad4230",
+      "native_bound": [
+        -896.781494140625,
+        -704.4169311523438,
+        0.0,
+        26.64691925048828
+      ],
+      "ordered_xyzw": [
+        [
+          -896.781494140625,
+          -704.4169311523438,
+          0.0,
+          26.64691925048828
+        ]
+      ],
+      "source_ordinal": 27,
+      "source_slot_va": "0x203c8e8d360",
+      "source_key_va": "0x20bba88d520",
+      "wrapper_va": "0x20b839244c0",
+      "generation_epoch": "UNKNOWN"
+    }
+  ],
+  "generation_epoch": "UNKNOWN",
+  "census_complete": false
+}
