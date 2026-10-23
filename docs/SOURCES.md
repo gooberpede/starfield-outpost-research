@@ -1,5 +1,16 @@
 # Source Register
 
+## RG2-C2D linked surface trees and source lookup
+
+Bethesda's pinned installed EXE/main ESM provide the PNDT/SFTR definitions and
+native selector/lookup branches. [Per-use ledger](experiments/resource-pattern-selection/sources.csv)
+and [native locations](experiments/resource-pattern-selection/native.md) distinguish
+new read-only exports, unchanged owned methods and closed captured controls.
+Existing Ghidra/JDK, CPython and Git are separate tools. SOR-P-0002 covers owned
+method adaptation; no outside implementation, new dependency, licence basis or
+external communication. Primary bytes and full tables/geometry remain LOCAL-ONLY;
+authored synthesis is REVIEW-REQUIRED. No save-file surface-tree claim is made.
+
 ## RG2-C2C selected-pattern and observed-source reconciliation
 
 [Source ledger](experiments/resource-source-enumeration/sources.csv) pins the

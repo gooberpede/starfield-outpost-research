@@ -1,5 +1,16 @@
 # Permission and Reuse Register
 
+## RG2-C2D offline surface selection — 2026-10-23
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md)
+authorizes the performed offline installed-data reads, bounded existing-state
+native exports and original calculations/tests. Owned RG1/C2C/C1H/ESM-reader,
+Ghidra export, protection and review methods retain [per-use pins](experiments/resource-pattern-selection/sources.csv)
+under SOR-P-0002. No new third-party incorporation, licence acceptance, contact,
+disclosure, live experiment, save/configuration/database-content modification,
+staging, commit, push or publication. Historical baselines remain protected;
+independent acceptance and maintainer integration are separate.
+
 ## RG2-C2C offline source-enumeration research — 2026-10-23
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md)

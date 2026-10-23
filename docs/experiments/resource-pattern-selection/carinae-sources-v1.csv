@@ -1,0 +1,7 @@
+identity,pattern,before,after,classification,reason,source_flags,nominal_dimensions,mask_footprint
+0:21372:15624:002493da,0x00212e16,True,True,DERIVED_CONDITIONAL,Retained source identity; typed block accepted under selected linked tree,0x68,10x10,4
+0:21372:15636:002493e8,0x00212e16,True,True,DERIVED_CONDITIONAL,Retained source identity; typed block accepted under selected linked tree,0x08,22x22,4
+0:21384:15612:002493ea,0x00212e16,True,True,DERIVED_CONDITIONAL,Retained source identity; typed block accepted under selected linked tree,0x28,22x22,4
+0:21384:15624:002493ea,0x00212e16,False,True,DERIVED_CONDITIONAL,Added by single-backlink typed-block correction under independently selected linked tree,0x10,22x22,4
+0:21396:15636:002493cf,0x00212e16,True,True,DERIVED_CONDITIONAL,Retained source identity; typed block accepted under selected linked tree,0xe8,10x10,4
+0:21396:15648:002493de,0x00212e16,True,True,DERIVED_CONDITIONAL,Retained source identity; typed block accepted under selected linked tree,0xe8,10x10,4

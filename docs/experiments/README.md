@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-C2D upstream surface-pattern selection](resource-pattern-selection/report.md): independent PNDT/SFTR prediction, 48-cell lookup correction, both sites' before/after inventories and seven exact geometry controls; [review package](resource-pattern-selection/review.md). Offline only; no native census claim.
+
 - [RG2-C2C source enumeration and Carinae reconciliation](resource-source-enumeration/report.md): retained-pattern discrepancy, independently enumerated observed source and three exact geometry matches; preserved Feynman controls, explicit fallback/census limits and [review package](resource-source-enumeration/review.md). Offline only.
 
 - [C2B Phase B source-context result](resource-carinae-source-context/phase-b.md): complete three-resource transfer shows a consumed source absent from the frozen four-source inputs; current owner/frame agree. Preserved access-denied attempt, separately approved retry, exact receipts and successful postflights; [review/package](resource-carinae-source-context/phase-b-review.md). Historical generation remains open; no further live authority.

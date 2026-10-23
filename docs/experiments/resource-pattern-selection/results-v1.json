@@ -1,0 +1,65 @@
+{
+  "sites": [
+    {
+      "site": "Carinae",
+      "selection_validation": "EXACT_UPSTREAM_INSTALLED_PREDICTION",
+      "predicted": "0x00212e16",
+      "observed": "0x00212e16",
+      "cell_counts": {
+        "RESOLVED_TYPED_BLOCK": 272
+      },
+      "paths": 1326,
+      "comparisons": [
+        {
+          "capture": 1270,
+          "resource": "0x00005df1",
+          "exact_matches": 1
+        },
+        {
+          "capture": 1280,
+          "resource": "0x000057c7",
+          "exact_matches": 1
+        },
+        {
+          "capture": 1301,
+          "resource": "0x000057c9",
+          "exact_matches": 1
+        }
+      ]
+    },
+    {
+      "site": "Feynman",
+      "selection_validation": "NO_RUNTIME_SFPT_WITNESS",
+      "cell_counts": {
+        "RESOLVED_TYPED_BLOCK": 484
+      },
+      "paths": 156,
+      "geometry_unchanged": true,
+      "source_identity_unchanged": false,
+      "comparisons": [
+        {
+          "capture": 299,
+          "resource": "0x000057d4",
+          "exact_matches": 1
+        },
+        {
+          "capture": 325,
+          "resource": "0x000057cf",
+          "exact_matches": 1
+        },
+        {
+          "capture": 696,
+          "resource": "0x000057ce",
+          "exact_matches": 1
+        },
+        {
+          "capture": 716,
+          "resource": "0x000057cb",
+          "exact_matches": 1
+        }
+      ]
+    }
+  ],
+  "publication": "REVIEW-REQUIRED",
+  "scope": "Finite conditional base-source enumeration; no native source census"
+}

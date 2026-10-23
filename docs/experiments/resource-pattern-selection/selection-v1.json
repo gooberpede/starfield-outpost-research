@@ -1,0 +1,188 @@
+{
+  "schema": "sor-c2d-selected-traces/1",
+  "installed_sites": [
+    {
+      "site": "Carinae",
+      "pndt": "0x0005e4da",
+      "pndt_file_offset": 1425228291,
+      "tree": "0x00177c6f",
+      "tree_file_offset": 1395499426,
+      "components": [
+        "SurfaceTreePatternSwapInfo_Component"
+      ],
+      "traces": [
+        {
+          "chart": 0,
+          "coarse": [
+            111,
+            81
+          ],
+          "native_face_slot": 28497,
+          "selected": "0x00212e16",
+          "flags": "0x08",
+          "candidate_order": "NOT CONSUMED: linked precomputed SFTR",
+          "seed": "NOT CONSUMED: linked precomputed SFTR",
+          "decision": "PNDT FNAM -> typed SFTR -> face FNAM/GNAM -> X*256+Y"
+        }
+      ],
+      "qualification": "STATIC installed-main prediction; effective runtime overrides/epoch unobserved"
+    },
+    {
+      "site": "Feynman",
+      "pndt": "0x0005e0de",
+      "pndt_file_offset": 1411909071,
+      "tree": "0x00168814",
+      "tree_file_offset": 1374615748,
+      "components": [],
+      "traces": [
+        {
+          "chart": 0,
+          "coarse": [
+            130,
+            168
+          ],
+          "native_face_slot": 33448,
+          "selected": "0x0023de88",
+          "flags": "0x08",
+          "candidate_order": "NOT CONSUMED: linked precomputed SFTR",
+          "seed": "NOT CONSUMED: linked precomputed SFTR",
+          "decision": "PNDT FNAM -> typed SFTR -> face FNAM/GNAM -> X*256+Y"
+        },
+        {
+          "chart": 0,
+          "coarse": [
+            130,
+            169
+          ],
+          "native_face_slot": 33449,
+          "selected": "0x0023ddf6",
+          "flags": "0x08",
+          "candidate_order": "NOT CONSUMED: linked precomputed SFTR",
+          "seed": "NOT CONSUMED: linked precomputed SFTR",
+          "decision": "PNDT FNAM -> typed SFTR -> face FNAM/GNAM -> X*256+Y"
+        }
+      ],
+      "qualification": "STATIC installed-main prediction; effective runtime overrides/epoch unobserved"
+    }
+  ],
+  "generation_control": [
+    {
+      "site": "Carinae",
+      "system": 118021,
+      "body_index": 8,
+      "crc_operands_le": "0800000005cd010015122020",
+      "registry_basis": "Installed main-file record order; runtime order UNKNOWN",
+      "surface_seed": "0x20201215",
+      "rotate": false,
+      "seed": 4277502381,
+      "draw_count": 131072,
+      "traces": [
+        {
+          "chart": 0,
+          "coarse": [
+            111,
+            81
+          ],
+          "raster_ordinal": 44655,
+          "biome": "0x001160d9",
+          "style": 2174491,
+          "candidate_order": [
+            "0x00212e15",
+            "0x00212e16",
+            "0x00212e17",
+            "0x00212e18",
+            "0x00212e19"
+          ],
+          "draw_start": 44655,
+          "words": [
+            3969642406
+          ],
+          "uniform": 0.9242451786994934,
+          "candidate_index": 4,
+          "selected": "0x00212e19",
+          "flags": "0x08"
+        }
+      ],
+      "qualification": {
+        "effective_map": false,
+        "runtime_registration_order": false,
+        "effective_surface_seed": false,
+        "effective_rotation": false
+      },
+      "outcome": "UNRESOLVED_EFFECTIVE_INPUTS"
+    },
+    {
+      "site": "Feynman",
+      "system": 86469,
+      "body_index": 5,
+      "crc_operands_le": "05000000c551010015122020",
+      "registry_basis": "Installed main-file record order; runtime order UNKNOWN",
+      "surface_seed": "0x20201215",
+      "rotate": false,
+      "seed": 848616252,
+      "draw_count": 131072,
+      "traces": [
+        {
+          "chart": 0,
+          "coarse": [
+            130,
+            169
+          ],
+          "raster_ordinal": 22146,
+          "biome": "0x00145440",
+          "style": 2350584,
+          "candidate_order": [
+            "0x0020bc2e",
+            "0x0023ddf2",
+            "0x0023ddf3",
+            "0x0023ddf4",
+            "0x0023ddf5",
+            "0x0023ddf6"
+          ],
+          "draw_start": 22146,
+          "words": [
+            914086882
+          ],
+          "uniform": 0.21282531321048737,
+          "candidate_index": 1,
+          "selected": "0x0023ddf2",
+          "flags": "0x08"
+        },
+        {
+          "chart": 0,
+          "coarse": [
+            130,
+            168
+          ],
+          "raster_ordinal": 22402,
+          "biome": "0x000fc61c",
+          "style": 2357069,
+          "candidate_order": [
+            "0x0023de88",
+            "0x0023de89",
+            "0x0023de8a",
+            "0x0023de8b",
+            "0x0023f74b"
+          ],
+          "draw_start": 22402,
+          "words": [
+            858882076
+          ],
+          "uniform": 0.19997206330299377,
+          "candidate_index": 0,
+          "selected": "0x0023de88",
+          "flags": "0x08"
+        }
+      ],
+      "qualification": {
+        "effective_map": false,
+        "runtime_registration_order": false,
+        "effective_surface_seed": false,
+        "effective_rotation": false
+      },
+      "outcome": "UNRESOLVED_EFFECTIVE_INPUTS"
+    }
+  ],
+  "predictor_sha256": "970453745248627c30dd9947171c951e34642a4163e6fc4262a6f5a60a4f51a7",
+  "validator_sha256": "de39dd936a4ece71afd79b1a7ee1558bd357a6e5a4f5a69285c6dd959b8b3d5b"
+}

@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-23 — RG2-C2D upstream surface selection:** [Report](experiments/resource-pattern-selection/report.md)
+independently follows PNDT's installed SFTR reference to predict Carinae
+`0x00212e16`, preserving the failed default-regeneration prediction. A native
+single-backlink/type-check correction resolves all 48 former halo failures,
+giving six derived sources and 1326 paths. Feynman's linked tree changes three
+conditional source identities while preserving all 156 geometries; seven exact
+native-region regressions pass. [Review](experiments/resource-pattern-selection/review.md)
+controls acceptance. Historical effective overrides/epoch and native census
+remain unknown; prior frozen reports are intact. No live test was performed;
+B6/publication remain on hold. No staging, commit or push.
+
 **2026-10-23 — RG2-C2C offline reconciliation:** [Report](experiments/resource-source-enumeration/report.md)
 identifies retained Carinae SFPT `0x00212e16` versus frozen `0x00212e19`.
 Witnessed coarse-pattern enumeration discovers the omitted (-12, -12) source

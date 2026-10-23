@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-C2D surface-pattern selection and source coverage](CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md): invoked 2026-10-23, offline only; [report](../experiments/resource-pattern-selection/report.md), [review](../experiments/resource-pattern-selection/review.md). No live or Git integration authority.
+
 - [RG2-C2C source enumeration and Carinae reconciliation](CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md): invoked 2026-10-23, offline research and bounded synthetic tests; [report](../experiments/resource-source-enumeration/report.md) and [review](../experiments/resource-source-enumeration/review.md). No live or Git publication authority.
 
 - [C2B transient-save protection amendment](CODEX_AMENDMENT_SOR_C2B_transient_save_protection.md): prospective operational correction; [policy](../SAVE_PROTECTION.md) and [review](../experiments/resource-carinae-source-context/transient-save-protection.md). No live authority.

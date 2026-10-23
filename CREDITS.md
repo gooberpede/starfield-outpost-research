@@ -1,5 +1,14 @@
 # Credits
 
+## RG2-C2D upstream surface-pattern selection
+
+Bethesda supplies installed native/definition evidence, including the precomputed
+surface trees. The maintainer supplied Save52 and the earlier controlled native
+observations. Owned RG1/C2C/C1H math, ESM/receipt readers and read-only export and
+protection methods support this research under SOR-P-0002, with [per-use pins](docs/experiments/resource-pattern-selection/sources.csv).
+Ghidra/JDK, CPython and Git remain separate tools. No outside implementation was
+incorporated or raw material cleared for publication.
+
 ## C2B Phase B source-context acquisition
 
 Bethesda supplies the native runtime/static evidence. The maintainer supplied

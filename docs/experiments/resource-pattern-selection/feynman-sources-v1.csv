@@ -1,0 +1,10 @@
+identity,pattern,before,after,classification,reason,source_flags,nominal_dimensions,mask_footprint
+0:25104:32436:002c5878,0x0023de88,True,True,DERIVED_CONDITIONAL,Retained source identity; typed block accepted under selected linked tree,0x28,10x10,8
+0:25104:32448:0024ef53,0x0023ddf2,True,False,DERIVED_CONDITIONAL,Excluded by installed linked-SFTR pattern substitution,0xe8,10x10,8
+0:25104:32448:0029d20f,0x0023ddf6,False,True,DERIVED_CONDITIONAL,Added by installed linked-SFTR pattern substitution,0x48,10x10,8
+0:25116:32436:002c5878,0x0023de88,True,True,DERIVED_CONDITIONAL,Retained source identity; typed block accepted under selected linked tree,0x68,10x10,8
+0:25116:32448:00257f38,0x0023ddf2,True,False,DERIVED_CONDITIONAL,Excluded by installed linked-SFTR pattern substitution,0x68,10x10,8
+0:25116:32448:0029d20e,0x0023ddf6,False,True,DERIVED_CONDITIONAL,Added by installed linked-SFTR pattern substitution,0x88,10x10,8
+0:25128:32436:0029d210,0x0023de88,True,True,DERIVED_CONDITIONAL,Retained source identity; typed block accepted under selected linked tree,0x88,10x10,8
+0:25128:32448:0029d20f,0x0023ddf2,True,False,DERIVED_CONDITIONAL,Excluded by installed linked-SFTR pattern substitution,0x08,10x10,8
+0:25128:32448:0029d211,0x0023ddf6,False,True,DERIVED_CONDITIONAL,Added by installed linked-SFTR pattern substitution,0x68,10x10,8
