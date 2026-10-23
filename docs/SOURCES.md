@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-C1G effective resource selection
+
+[Exact source ledger](experiments/resource-selection-operands/sources.csv) and [native/settings provenance](experiments/resource-selection-operands/native.md) pin Bethesda EXE/main-ESM GMST/RSGD evidence, seven maintainer screenshots, original967 C1E receipts and frozen RG1/RG2/C1F records. Owned C1E engine/transport/preflight, C1D associated-file decoder, RG1 evaluator/record reader and Cr1Recon export method are reused/adapted at task HEAD43786e5 under SOR-P-0002. Microsoft MSVC/Windows debugger APIs, CPython, Git and Ghidra are existing tools, no implementation incorporation or download. New original source-shaped fixture and single installed-.05 diagnostic remain separate from historical/native validation. No new outside licence basis, communication or publication.
+
 ## RG2-C1D retail resource oracle
 
 [Source pins](experiments/resource-oracle-retail/sources.csv), [mapping/effects](experiments/resource-oracle-retail/implementation.md): owned C1C debugger and C1B SRO1 framing at HEAD60ce35a, native C1B/BM2 and Workshop saved/runtime correspondence. Original native-layout fixture and separate retail decoder; no new outside implementation, licence acceptance, download, contact or publication. Raw Bethesda/save evidence remains local.

@@ -1,0 +1,89 @@
+source_id,path,bytes,sha256,role
+C1G-S001,.local-work/resource-selection-operands/native/command.json,1819,db99b4f99c88cff85832477c61b85ec9b917e83ac496b68f13ddb1b59f6976fb,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S002,.local-work/resource-selection-operands/native/command02.json,1773,89b01692e7baa2c6e3b3d4f1c64829ba282f5bb65a0ba0146a9191430156f446,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S003,.local-work/resource-selection-operands/native/command03.json,1784,b801bccd821f156a95f499148bc9e2f0a34744e906713775646f2f6c38d8c00d,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S004,.local-work/resource-selection-operands/native/command04.json,1796,5057a8d80be95ec53a764482c3b7dcab304e871f08d6b582e64c9441af82aacd,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S005,.local-work/resource-selection-operands/native/command05.json,1817,b3d496e3022fcf539c1ea93083cd73d801db4ac0ab0ce0640249b59915c1f181,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S006,.local-work/resource-selection-operands/native/command06.json,1836,f8f11982a5a178e3a13696d9961272dca4f5fda977ad596ea3cbbad60b2f900a,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S007,.local-work/resource-selection-operands/native/command07.json,1796,582b9b7ad8d3ce164f043299b8febb887bb25ca0c6bdba08ad969ff75e467705,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S008,.local-work/resource-selection-operands/native/command08.json,1775,752b8e37653882659253348518e78535273ea2625f77a6b5dce906515e6340ca,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S009,.local-work/resource-selection-operands/native/console.log,3745,0c66407877409c7d9850f445fd9168cbed4512ed2288dcb8b6323c9c5bccd755,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S010,.local-work/resource-selection-operands/native/console02.log,3706,391f146bcdf6a5f488d607e7171a7eb4124e680c562eb628ccf021bf01ddb37e,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S011,.local-work/resource-selection-operands/native/console03.log,3717,c0cb0d7e2602749ee4096a558aa3ed58d038aba4c169a2273f975a6d7c2bb28f,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S012,.local-work/resource-selection-operands/native/console04.log,3725,e3d8a92950408fc927b9d6f69326d6d345fb34fd27cce39d6f4dc8973ec6a1cf,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S013,.local-work/resource-selection-operands/native/console05.log,3742,060bec8c6a168729b9fe0baa1ff0c4746f7e0e66370095c752600a91b9f3f182,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S014,.local-work/resource-selection-operands/native/console06.log,3757,7105c5708c0a5efdbacff99c54850a91e4fb7040119658267417f6873d4282d9,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S015,.local-work/resource-selection-operands/native/console07.log,3725,356528cb61513cd3817d9cac91435adf807467e83aeb81dff29f937f19611d0f,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S016,.local-work/resource-selection-operands/native/console08.log,3708,212ecfad2b220b3e37cceb541929b3de39e2e3b1e7736410f9a3e7d1168c95d8,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S017,.local-work/resource-selection-operands/native/headless.log,4232,93cd78e9e43d8b2a36c5d2fdceff502973fb83db880e212ab8de6073b8fa5ebc,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S018,.local-work/resource-selection-operands/native/headless02.log,4193,90978bca9893538e9ebdc84742a188c54d431d74797f51da72fdec35619837ed,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S019,.local-work/resource-selection-operands/native/headless03.log,4204,57cfadffbf52dbe8c1d8dcd6061a492e87e9d7b9bb7455f35d8e3c82bee594ed,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S020,.local-work/resource-selection-operands/native/headless04.log,4212,c423524c97b535925d2de982196cf71459643ceb0b4b8af83ff44458650d14d9,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S021,.local-work/resource-selection-operands/native/headless05.log,4229,37a0502be01187eb598dbf55e7f89f2fae514120aeb3da2eeba022106825b4df,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S022,.local-work/resource-selection-operands/native/headless06.log,4244,8c5314724a18e1a67cafd69f2e71b7176eee69bbae6441982e1150f5b8f6407a,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S023,.local-work/resource-selection-operands/native/headless07.log,4212,2bc81f7e0f053c2a74050c436569a374a264beec40e09cdf353146c931c05a2a,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S024,.local-work/resource-selection-operands/native/headless08.log,4195,e5a784a420822893b2567a562a2846740127dab8b258e8fb13100a44abc97be3,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S025,.local-work/resource-selection-operands/native/settings01.tsv,6636,d096331d8f3ac98823c8564d21d6104e9ecb394d891e1aa6cc56dc2ba13dec4d,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S026,.local-work/resource-selection-operands/native/settings02.tsv,4897,d9cc9195b7363748ee3fdd7c1b80b12b5a5328cdb29a919a8899c0dc6320e77b,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S027,.local-work/resource-selection-operands/native/settings03.tsv,13687,6fe4e94a082766599a285103719a67fdfc0206a0b7962b53bb705396093307c2,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S028,.local-work/resource-selection-operands/native/settings04.tsv,19534,a250cb9116c85f40c790627c6d14bc3817b24cb48c7560f5987d1a738007062f,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S029,.local-work/resource-selection-operands/native/settings05.tsv,162266,a57fd2f768f01c342a41e248df59b0967ac218859b1342556ca396ee0b2dacb7,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S030,.local-work/resource-selection-operands/native/settings06.tsv,32334,ef7bd253ffb5b0fb5d72f2fefd8aaa8141f1d02e331a7877a8118bc31827c936,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S031,.local-work/resource-selection-operands/native/settings07.tsv,26901,3bdafb6aa1ff8b1d7272a5667dc4691c89316d86bb32b695cf5b83a1770361d5,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S032,.local-work/resource-selection-operands/native/settings08.tsv,24790,cc50e402cb85bbfa809b9107e3140d32b592250e742426f56ef70c95dbe89159,LOCAL-ONLY read-only Ghidra export or command/log
+C1G-S033,.local-work/resource-selection-operands/baseline.json,311,eb247498c8f02045d65f541ce584605f47c6cd2c689261f717e45a7fe3dd9c45,LOCAL-ONLY primary or derivative receipt
+C1G-S034,.local-work/resource-selection-operands/protected-before.json,524791,8ad0790c7f1b508c287fc16a0949c07619138c4eb6d207a52d6fbe17c057afa9,LOCAL-ONLY primary or derivative receipt
+C1G-S035,.local-work/resource-selection-operands/protected-after02.json,179,cd3003d0cb2a168d7fe2f655d84784a323b25a27f067711a47b4b9cf1f19bba6,LOCAL-ONLY primary or derivative receipt
+C1G-S036,.local-work/resource-selection-operands/provenance01.json,16026,c30cac3eb0b3f986af10421170c9be25670f193c107c6a181ac305939a9706b0,LOCAL-ONLY primary or derivative receipt
+C1G-S037,.local-work/resource-selection-operands/replay01.json,2200,3d7e65136d673c512de3663846726110babd9057c4e567ed658a8e7734e0dc61,LOCAL-ONLY primary or derivative receipt
+C1G-S038,.local-work/resource-selection-operands/offline-preflight02/preflight.json,119402,d2c5692635ee939fd449a57ad7035b96914f73a45052bd35a5cc779a4cb16bd1,LOCAL-ONLY primary or derivative receipt
+C1G-S039,.local-work/resource-selection-operands/offline-postflight02.json,117177,c83b7a6b7b0895b59049b7ff52cfce74d303f3b2b49120e8a44f0dfb775b024f,LOCAL-ONLY primary or derivative receipt
+C1G-S040,.local-work/resource-selection-operands/build05/build.json,4747,3cd428c2515501b80ff28f084e58d943e27eb638ac849653a1ac413a1398805c,LOCAL-ONLY primary or derivative receipt
+C1G-S041,.local-work/resource-selection-operands/qualification04/qualification.json,101249,aba1b2b17124d3e9810d99799c63742959f0d7ef828388ba07bb244724b2733c,LOCAL-ONLY primary or derivative receipt
+C1G-S042,.local-work/screengrabs/ch-feynman-v-rsgd-canyonsdefaultres-copper.PNG,46581,c934d4f193432bc5c5bd0855b1528a72ef791951a52cf3fcf8140b2c57d1910f,LOCAL-ONLY supplied maintainer CK screenshot
+C1G-S043,.local-work/screengrabs/ch-feynman-v-rsgd-canyonsdefaultres-nickel.PNG,46506,3462bf1b6e8be87c8866da9774465e37f664f4837cfd947ee8fe99f9f1bcb2db,LOCAL-ONLY supplied maintainer CK screenshot
+C1G-S044,.local-work/screengrabs/ch-feynman-v-rsgd-desertrocksdefaultres-lead.PNG,46567,fa291623afa3a42e1653f1c6081591bf5e9008cbf1c452e15bc87c808bbba6c6,LOCAL-ONLY supplied maintainer CK screenshot
+C1G-S045,.local-work/screengrabs/ch-feynman-v-rsgd-desertrocksdefaultres-uranium.PNG,46527,628348bddd88ab0f9a807c06fcb4a50fc1f87651436b79c769cd9fa2aa4b0dd3,LOCAL-ONLY supplied maintainer CK screenshot
+C1G-S046,.local-work/screengrabs/ch-feynman-v-rsgd-frozenbarrendefaultres03-lead.PNG,47758,f8a3f4ddca005f708410e62f9022925123d2fbc718b2faf5ac6cfafeac598683,LOCAL-ONLY supplied maintainer CK screenshot
+C1G-S047,.local-work/screengrabs/ch-feynman-v-rsgd-frozenbarrendefaultres03-nickel.PNG,47615,dacd39db4658fa5743912ced66bb6efb0c37e1f5cda1c7d64c6c197c3b4b8a8e,LOCAL-ONLY supplied maintainer CK screenshot
+C1G-S048,.local-work/screengrabs/ch-feynman-v-rsgd-frozenbarrendefaultres03-water.PNG,44471,e8030d2195404e7ad621896d09e9b8ec1013b71c283f4231ef921900e42e2535,LOCAL-ONLY supplied maintainer CK screenshot
+C1G-S049,research/resource-selection-operands/build.py,3018,36c7366759e13eabbd4c531a1f0da7671fa992a3cdbc499e68ae204871456fcd,owned C1G implementation or qualification source
+C1G-S050,research/resource-selection-operands/collect.py,6318,88263dd29daf640f05d6499f44b271ae8b084cd95143052297ef7e7c39afee59,owned C1G implementation or qualification source
+C1G-S051,research/resource-selection-operands/controller.cpp,20433,b7affc32f85d9928fe10a849bdee07f38255748532a27dde6a9d46dfe78d2b59,owned C1G implementation or qualification source
+C1G-S052,research/resource-selection-operands/fixture.asm,3362,5bc17df803b08c28e64d85ff7aaafd1c2763107c08aa71cfdee1832f411e2200,owned C1G implementation or qualification source
+C1G-S053,research/resource-selection-operands/fixture.cpp,6630,55fdee8cf482205221f871d69252287f88f73a24e298582d4675571d4443dd28,owned C1G implementation or qualification source
+C1G-S054,research/resource-selection-operands/operands.h,544,ea6c5364879251a33485eb78157180f0484d75403deeb2d5a27ab537511a6588,owned C1G implementation or qualification source
+C1G-S055,research/resource-selection-operands/postflight.py,2864,3556415cf9a4134f3e3d212e24eefa4c2a8e018c7e4d07a9e677fb55b86c3b7c,owned C1G implementation or qualification source
+C1G-S056,research/resource-selection-operands/preflight.py,4885,711b47e2db2d48780eacf403357ecb3aa77970613ba99e2aeb7c4554014b9e79,owned C1G implementation or qualification source
+C1G-S057,research/resource-selection-operands/provenance.py,4058,17afcda060d0ccbb7b0400f2be1a8a583f0cd2e69c2f9338e59b3e1ceb6b7b00,owned C1G implementation or qualification source
+C1G-S058,research/resource-selection-operands/qualify.py,9306,a41336fb62b5677ed76fc62494e5809ced1bf00b4724773cf1f4fe9595af4953,owned C1G implementation or qualification source
+C1G-S059,research/resource-selection-operands/readiness.py,2410,f746c167802a6568627183432bb523cd8069ae3e0f915b1c1065c6ce09abde24,owned C1G implementation or qualification source
+C1G-S060,research/resource-selection-operands/replay.py,4734,a6403fa20f54697757a6353209aa332b41cf77ff69c41b3fca1966734075856b,owned C1G implementation or qualification source
+C1G-S061,research/resource-selection-operands/sample.inc,6532,624397ca535f7bc7b4f9b61efa900fa9b46f9cf1e7352fb46961084ceee5eb41,owned C1G implementation or qualification source
+C1G-S062,research/resource-selection-operands/test_readiness.py,2446,db0230f551366019a03bfa5eccf55ec895d30e798b8804348690646cc67cc795,owned C1G implementation or qualification source
+C1G-S063,research/resource-region-ancestry/controller.cpp,19522,7a52a915e6f18b623c51397eedb23b8fc50094234b9c280f25061e2997296bec,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S064,research/resource-region-ancestry/build.py,2980,e4d80814821566e6cd05ad6275b058248cfeac025f3998d6309716102025847a,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S065,research/resource-region-ancestry/collect.py,7319,e5663eb2c61fd7d159cc017f519ab847dc8fcd521e677750dc34ced57e3264a2,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S066,research/resource-region-ancestry/preflight.py,4895,39a4ec32a6dd3e770238adec70e5d5d943bb26b6ccc2c733e28abe7920a1b91c,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S067,research/resource-region-ancestry/postflight.py,2861,3abb831e6d203d5d0730d9e3855680263b25f2d5ef343f2887651722e667c8fc,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S068,research/resource-oracle-retail/decode.h,5131,5517fa45e311419a68957554cc3f6374711d1d43104e37dd763d9483215299b0,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S069,research/resource-oracle-retail/sourcefiles.h,4051,7ab700bf17d557b763ad578acd48457db5d5645d721ce204b9b1908ea302c732,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S070,research/resource-oracle-retail/collect.py,8335,e8945b2830303d7ab015b0c3f84ec816f0d2f31baf4b234627fcefd05c548d90,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S071,research/resource-generation-ancestry/investigate.py,10244,330146b320fb65e12a557a623ac9ce431e325758b99c55680a69c07227818eeb,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S072,research/resource-geometry/geometry.py,26508,909dcf1c028a7c24bf698a9144fdd6478f01063717dee560f2214966b72a5eec,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S073,save-analysis/scripts/inspect_outpost_definitions.py,5515,1a143040d9dd7766c42fa211af9c89c199dd0fa28b0e9b467248512239666c48,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S074,.local-work/resource-geometry/native/019.request.tsv,3969,79b0b07c0900ddd2fd26b00b53bd59f357267ae7cd7afd75c91c87a13a3340f7,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S075,.local-work/resource-geometry/native/Cr1Recon.java,20181,3e459a21a1db32bc6a6cfe73f705b623fde31800a4dbe23f297ee6ac8abceee5,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S076,research/review_package.py,8422,de140de74590db1ae85bbd8cc3ccd4d2a36fc19117546be9fd0c9f8d9d544c75,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S077,.local-work/recon/resource-availability-cont-01.tsv,120667,c167add6f3e75f6a0ce2627f5813b4c0e04509e5b7d2974f57d3b8795d7602a3,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S078,.local-work/recon/resource-availability-ui-29.tsv,59019,8d20748d86ab87b4ae3fbb5ba91209df1be5b7226c217c561911d34dd6533ec3,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S079,.local-work/recon/resource-milestone-b-producers-01.tsv,82472,bc5ae6b3e3b0f042e0c10d6ab73693b3f6d087821d24e120045ec2e3f206fff8,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S080,.local-work/resource-region-ancestry/retail-attempt01/events.jsonl,7414584,249ea01cf45c2e35f07287a1eb709007aa409442d088113d3d9c2d48b94919a8,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S081,.local-work/resource-generation-ancestry/replay05.json,10872,9b74317d1b3a54c21d2362fcbca61e67100e59901b46403381c53a7805ca6cea,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S082,docs/experiments/resource-geometry-mature-context/freeze-mature-v2.json,2020,992c7f97211d0784de0ed66345caca1d415bad409601426405048dd9dbb038e9,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S083,.local-work/resource-geometry-mature-context/site-feynman-initial02.json,523972,6f40b0d3166796bbdabb31dd8cd4a00dbfc9da144eb13ba3a336367d2f6c539b,inherited owned method or LOCAL-ONLY evidence; initial HEAD43786e5
+C1G-S084,.local-work/resource-oracle-collector/qualification-c1g02/qualification.json,3989,9288e4d71d114d6cfb95b66529edf7391aa50435778043950bc455b3923a2755,LOCAL-ONLY executed inherited regression
+C1G-S085,.local-work/resource-oracle-retail/qualification-c1g01/qualification.json,13661,18273b2c1f058d7cfe780ed2eb1e81a63834900042c87d1e7239f2eafeae501f,LOCAL-ONLY executed inherited regression
+C1G-S086,.local-work/resource-region-ancestry/qualification-c1g01/qualification.json,33855,4faf9b099960fc3b627015bc3f5abe011517c8a798585e79fe86c1f541b253c2,LOCAL-ONLY executed inherited regression
+C1G-S087,.local-work/resource-selection-operands/pure-checks01.json,216,57cdeca828cb8b3b0463a11aa5879f9f83e6ec9bcf7eff0b5c15f14e439d8015,LOCAL-ONLY executed qualification or distinct reviewer replay
+C1G-S088,.local-work/resource-selection-operands/reviewer-replay01.json,2200,3d7e65136d673c512de3663846726110babd9057c4e567ed658a8e7734e0dc61,LOCAL-ONLY executed qualification or distinct reviewer replay

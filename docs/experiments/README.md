@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-C1G effective selection/chance operands](resource-selection-operands/report.md): main-GMST0.05 conditional four-path match, real Windows synthetic collector and [unexecuted approval-only Phase B card](resource-selection-operands/run-card.md); [review](resource-selection-operands/review.md). Frozen predictions and historical epoch unchanged.
+
 - [RG2-C1E Phase B accepted native regions](resource-region-ancestry/phase-b.md): one approved P3 pilot, 967 ACKed captures, IL geometry discrepancy and exact Copper/other path controls; [review/package](resource-region-ancestry/phase-b-review.md). No retry/fallback or further live authority.
 
 - [RG2-C1E accepted-region ancestry](resource-region-ancestry/report.md): C1D extension, true-edge/source/ordered-geometry receipts,32 synthetic Windows cases and [approval-only run card](resource-region-ancestry/run-card.md); [review](resource-region-ancestry/review.md). No retail Phase B execution.

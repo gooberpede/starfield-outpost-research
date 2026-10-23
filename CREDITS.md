@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-C1G effective resource-selection operands
+
+Bethesda supplies native/definition evidence; the maintainer supplied seven Creation Kit screenshots and Save52/P3 context. Existing project C1C/D/E debugger, transport, identity, RG1/RG2/C1F evaluator/ancestry, ESM reader and read-only Ghidra methods support the bounded acquisition and diagnostic, reused under SOR-P-0002 with [exact provenance](docs/experiments/resource-selection-operands/sources.csv). Microsoft Windows/MSVC, CPython, Git and Ghidra are separate existing tools. No outside code/dependency is incorporated; byte equality is not historical generation proof or publication clearance.
+
 ## RG2-C1D retail resource oracle
 
 Bethesda native/save/definition evidence and the maintainer's Save52 context supply the inputs. Owned C1B/C1C debugger/transport methods and Workshop persistence research are adapted under SOR-P-0002 with [exact provenance](docs/experiments/resource-oracle-retail/sources.csv). Microsoft Windows API contracts are inherited through C1C; no outside code/dependency is incorporated.

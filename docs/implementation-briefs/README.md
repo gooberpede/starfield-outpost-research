@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-C1G selection/chance-weight acquisition](CODEX_BRIEF_SOR_RG2_C1G_effective_resource_selection_chance_weight_capture.md): invoked2026-10-23, Phase A only; [report](../experiments/resource-selection-operands/report.md), [qualification/review](../experiments/resource-selection-operands/review.md), [Phase B card](../experiments/resource-selection-operands/run-card.md) requires separate explicit approval.
+
 - [RG2-C1F native generation ancestry/divergence](CODEX_BRIEF_SOR_RG2_C1F_native_resource_generation_ancestry_divergence.md): invoked2026-10-23, offline only; [report](../experiments/resource-generation-ancestry/report.md), [review](../experiments/resource-generation-ancestry/review.md), prospective live design approval pending.
 
 - [RG2-C1E native resource-region ancestry](CODEX_BRIEF_SOR_RG2_C1E_native_resource_region_ancestry.md): invoked2026-10-22, offline Phase A only; [report](../experiments/resource-region-ancestry/report.md), [prospective card](../experiments/resource-region-ancestry/run-card.md), [review](../experiments/resource-region-ancestry/review.md). Fresh explicit live approval required.
