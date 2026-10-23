@@ -1119,3 +1119,7 @@ retain local raw boundaries; no new outside implementation or permission basis.
 ## RG2-C1F generation divergence — 2026-10-23
 
 [Source pins](experiments/resource-generation-ancestry/sources.csv) identify inherited Bethesda retail native/definition evidence and owned C1E raw framing/ancestry plus RG1/RG2 evaluator/selection research at task HEAD9c2765fde66dd128d8f0b2d3bb28d5563d21134e. [Operand ledger](experiments/resource-generation-ancestry/ancestry.md) cites exact native branches; new bounded replays retain conditional status. No new outside implementation, dependency, licence acceptance, contact or disclosure. Raw evidence LOCAL-ONLY; authored synthesis REVIEW-REQUIRED.
+
+## RG2-C1G Phase B — 2026-10-23
+
+[Source pins](experiments/resource-selection-operands/phase-b-sources.csv) bind the approved card/build, fresh qualification/preflight, ordinary Steam session, all raw receipt identities through the seal, decisive comparisons, offline analyzer and postflight preservation. [Result](experiments/resource-selection-operands/phase-b.md) credits maintainer operator/save provenance, Bethesda local native/definition evidence and existing owned C1G and RG1/RG2 methods (task HEAD bbe1f075e3e7850f6bcfae45e5586819ed0d506b). No new outside implementation, dependency, licence acceptance, contact or disclosure. Raw evidence LOCAL-ONLY; authored synthesis REVIEW-REQUIRED; historical evidence immutable.

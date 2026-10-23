@@ -679,3 +679,7 @@ The [ancestry ledger](docs/experiments/resource-region-ancestry/contract.md) bui
 ## RG2-C1F generation ancestry
 
 [Report and point-of-use lineage](docs/experiments/resource-generation-ancestry/report.md) build on this project's C1D/C1E native ancestry/framing, RG1 geometry and RG2-A1 selection/seed research. Bethesda Game Studios supplies the underlying local-only executable, definitions and native observations; the maintainer supplies protected Save52 provenance. Existing project-owned evaluator and review-export methods are reused with exact pins; no outside implementation is incorporated.
+
+## RG2-C1G Phase B effective operands
+
+The maintainer supplied explicit live authorization, protected Save52, Cloud/main-menu confirmations and the precise P3 fast-travel action report. Bethesda supplies the underlying local-only executable, installed definitions and native memory evidence. This project's C1G collector/framing/selector and RG1/RG2 CRC/MT evaluator supply the acquisition and offline comparison methods; [result and exact provenance](docs/experiments/resource-selection-operands/phase-b.md) distinguish direct operands from derived predicates. The offline receipt analyzer is original project work. No outside code incorporation, endorsement or publication clearance.
