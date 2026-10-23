@@ -1,5 +1,9 @@
 # Source Register
 
+## Carinae Phase B/C native-region capture
+
+[Phase B/C ledger](experiments/resource-carinae/phase-b-sources.csv) pins the original/retry/Phase C authority, independent retry review, unchanged build05, fresh qualifications and save/sync/protected audits, both raw event/SRO1 archives and the exact offline comparison. The [report](experiments/resource-carinae/phase-b.md) preserves the scanner-only first attempt and user correction. Owned C1E/C1D/C2A framing, decoder, debugger and nonfitting comparison methods continue under SOR-P-0002; no new external implementation, licence basis, dependency, contact or disclosure. Original local receipt-audit/archive helpers use CPython stdlib only. Bethesda memory/raw save inputs and archives remain LOCAL-ONLY; selected five-point numeric synthesis is REVIEW-REQUIRED.
+
 ## RG2-C2A Carinae native Iron-region qualification
 
 [Exact source/receipt ledger](experiments/resource-carinae/sources.csv) and [method effects](experiments/resource-carinae/sources.md) pin owned C1E/C1D controller, decoders, fixtures, transport and save audit methods, existing stored-CELL research, Save52/F1 identities and immutable C1H geometry/settings. Reuse under SOR-P-0002 at starting HEAD `7bd54daf1bde432c3275bd81f9fc8088954fe79e`; original separate Carinae adapter/comparator, no generator fitting. Installed MSVC/SDK/Windows debugger APIs, CPython stdlib and Git remain separate tools. No new external implementation, dependency, licence basis, contact or disclosure. Raw proprietary inputs, saves and debugger receipts remain LOCAL-ONLY; authored package REVIEW-REQUIRED. No retail operation or publication.

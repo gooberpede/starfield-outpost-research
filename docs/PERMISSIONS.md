@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## Carinae bounded Phase B, corrected retry and offline Phase C
+
+The maintainer approved the [C2A Phase B card](experiments/resource-carinae/run-card.md) conditional on fresh preflight and confirmed Steam Cloud disabled. After correcting the scanner-only first attempt, “Can we try again?” explicitly authorized one same-target corrected retry under the independently reviewed [addendum](experiments/resource-carinae/retry-run-card-01.md). “Authorize Phase C comparison” separately authorized the prepared nonfitting offline comparison after useful capture. Exact instructions/receipt hashes and execution limits are retained in the [result/source ledger](experiments/resource-carinae/phase-b.md). No further live session, retarget, arbitrary fitting, save/config modification, restore, external disclosure, staging, commit, push or publication follows. SOR-P-0002 covers owned method reuse; no new third-party incorporation or licence acceptance occurred.
+
 ## RG2-C1D bounded retail execution
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md) conditionally authorizes this separate guarded hardware-breakpoint adapter, original fixture execution, protected save copies and first Save52 P3 pilot. User corrections require Steam URI launch and confirm Cloud disabled. SOR-P-0002 covers owned C1B/C1C/Workshop methods with [per-use provenance](experiments/resource-oracle-retail/sources.csv). No third-party incorporation, installation, licence acceptance, contact, disclosure, stage/commit/push or release. Approved outside-sandbox ordinary-user execution is distinct from Windows administrator elevation, which has not been used. B6/old-observer/publication boundaries remain.

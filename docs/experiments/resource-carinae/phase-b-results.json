@@ -1,0 +1,194 @@
+{
+  "schema": "sor-c2a-retail-selected/1",
+  "publication": "REVIEW-REQUIRED",
+  "phase_b_executed": true,
+  "phase_c_authorized": true,
+  "pid": 8920,
+  "module_base": "0x7ff66ca80000",
+  "captures": 2587,
+  "complete": 2587,
+  "accepted_acks": 2587,
+  "native_decisions": {
+    "REJECT": 2582,
+    "ACCEPT": 3
+  },
+  "all_comparison": {
+    "NO_EXACT_MATCH": 2585
+  },
+  "accepted": [
+    {
+      "capture": 1270,
+      "transfer": 2587,
+      "resource": "0x00005df1",
+      "point_count": 2,
+      "native_bound": [
+        -774.3823852539062,
+        -640.0171508789062,
+        0.0,
+        49.85234069824219
+      ],
+      "ordered_xyzw": [
+        [
+          -764.2591552734375,
+          -623.094482421875,
+          0.0,
+          30.132884979248047
+        ],
+        [
+          -783.0944213867188,
+          -654.580810546875,
+          0.0,
+          32.88179016113281
+        ]
+      ],
+      "geometry_sha256": "dd89c7eb3d4004c3de4afceaff49171442f625ed85e02077a8491c72eb252cee",
+      "runtime_reference_formid": "0xff02b6a8",
+      "runtime_reference_xyz": [
+        -813.3619384765625,
+        -729.5208740234375,
+        68.7126693725586
+      ],
+      "source_ordinal": 24,
+      "source_key": "0x21c42d53ba0",
+      "source_wrapper": "0x21c49c637c0",
+      "query": {
+        "qb": [
+          -813.3619384765625,
+          -729.5208740234375,
+          68.7126693725586
+        ],
+        "radius": 150.0,
+        "upper": 168.71267700195312,
+        "evidence": "RETAINED_WORDS_NOT_EVERY_PER_USE_LOAD"
+      },
+      "geometry_equality": "NO_EXACT_MATCH",
+      "exact_xyw_projection_matches": 0,
+      "conditional_replay": {
+        "schema": "sor-resource-spatial-result/1",
+        "status": "KNOWN",
+        "accepted": true,
+        "branch": "vertex_xy_radius_height",
+        "provenance": "static native transcription; synthetic qualification",
+        "reason": null
+      },
+      "source_frame_identity": "UNKNOWN",
+      "generation_epoch": "UNKNOWN"
+    },
+    {
+      "capture": 1280,
+      "transfer": 2587,
+      "resource": "0x000057c7",
+      "point_count": 2,
+      "native_bound": [
+        -902.5105590820312,
+        -859.2149658203125,
+        0.0,
+        46.016265869140625
+      ],
+      "ordered_xyzw": [
+        [
+          -910.0562744140625,
+          -839.7998046875,
+          0.0,
+          25.186338424682617
+        ],
+        [
+          -896.1412353515625,
+          -875.603271484375,
+          0.0,
+          28.433734893798828
+        ]
+      ],
+      "geometry_sha256": "c59382862e65375e00578dd1704951d1b857e6d1dfcc47bb1895a7aaaa86f065",
+      "runtime_reference_formid": "0xff02b6a8",
+      "runtime_reference_xyz": [
+        -813.3619384765625,
+        -729.5208740234375,
+        68.7126693725586
+      ],
+      "source_ordinal": 24,
+      "source_key": "0x21c42d53ba0",
+      "source_wrapper": "0x21c49c637c0",
+      "query": {
+        "qb": [
+          -813.3619384765625,
+          -729.5208740234375,
+          68.7126693725586
+        ],
+        "radius": 150.0,
+        "upper": 168.71267700195312,
+        "evidence": "RETAINED_WORDS_NOT_EVERY_PER_USE_LOAD"
+      },
+      "geometry_equality": "NO_EXACT_MATCH",
+      "exact_xyw_projection_matches": 0,
+      "conditional_replay": {
+        "schema": "sor-resource-spatial-result/1",
+        "status": "KNOWN",
+        "accepted": true,
+        "branch": "vertex_xy_radius_height",
+        "provenance": "static native transcription; synthetic qualification",
+        "reason": null
+      },
+      "source_frame_identity": "UNKNOWN",
+      "generation_epoch": "UNKNOWN"
+    },
+    {
+      "capture": 1301,
+      "transfer": 2587,
+      "resource": "0x000057c9",
+      "point_count": 1,
+      "native_bound": [
+        -896.781494140625,
+        -704.4169311523438,
+        0.0,
+        26.64691925048828
+      ],
+      "ordered_xyzw": [
+        [
+          -896.781494140625,
+          -704.4169311523438,
+          0.0,
+          26.64691925048828
+        ]
+      ],
+      "geometry_sha256": "efb0414f8445a068360f3de74b4b77c58118c46a0cb3497776ef57a31fad4230",
+      "runtime_reference_formid": "0xff02b6a8",
+      "runtime_reference_xyz": [
+        -813.3619384765625,
+        -729.5208740234375,
+        68.7126693725586
+      ],
+      "source_ordinal": 24,
+      "source_key": "0x21c42d53ba0",
+      "source_wrapper": "0x21c49c637c0",
+      "query": {
+        "qb": [
+          -813.3619384765625,
+          -729.5208740234375,
+          68.7126693725586
+        ],
+        "radius": 150.0,
+        "upper": 168.71267700195312,
+        "evidence": "RETAINED_WORDS_NOT_EVERY_PER_USE_LOAD"
+      },
+      "geometry_equality": "NO_EXACT_MATCH",
+      "exact_xyw_projection_matches": 0,
+      "conditional_replay": {
+        "schema": "sor-resource-spatial-result/1",
+        "status": "KNOWN",
+        "accepted": true,
+        "branch": "single_point_broadphase",
+        "provenance": "static native transcription; synthetic qualification",
+        "reason": null
+      },
+      "source_frame_identity": "UNKNOWN",
+      "generation_epoch": "UNKNOWN"
+    }
+  ],
+  "census_complete": false,
+  "generation_epoch": "UNKNOWN",
+  "completed_cache_install": "NOT_OBSERVED",
+  "catalogue": "NOT_OBSERVED",
+  "audit_sha256": "048b7b2ace2aadbebae0b013e91f163dcc2083c7ed4064de6877f7fbd75bbfec",
+  "comparison_sha256": "7285c761fa241f871bcc021803b58aeebfb38fff14a696cfe6748fbc9bd8ed17"
+}

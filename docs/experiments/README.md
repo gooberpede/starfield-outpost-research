@@ -1,5 +1,7 @@
 # Experiments
 
+- [Carinae Phase B/C native Iron result](resource-carinae/phase-b.md): reviewed corrected retry, 2587 complete captures, native accepted Iron/Alkanes/Rothicite and exact offline mismatch; [review/package](resource-carinae/phase-b-review.md). Source/frame/epoch cause remains unknown; no further live authority.
+
 - [RG2-C2A Carinae native Iron qualification](resource-carinae/report.md): separate collector, 40 synthetic debugger cases, inherited regressions and exact comparator; [approval-ready card](resource-carinae/run-card.md), [review/package](resource-carinae/review.md). Phase B and retail Phase C not executed.
 
 - [RG2-C1H installed settings and cross-site geometry](resource-installed-settings/report.md): four exact accepted Feynman paths, three native chance comparisons, unchanged Carinae Iron discrepancy and durable editorial finalization; [review/package](resource-installed-settings/review.md). Offline only; no complete population or historical epoch claim.
