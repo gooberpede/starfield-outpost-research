@@ -1,5 +1,16 @@
 # Source Register
 
+## RG2-C1H installed settings and cross-site replay
+
+[Exact input/method pins](experiments/resource-installed-settings/sources.csv)
+and [source effects](experiments/resource-installed-settings/sources.md) cover
+fresh EXE/39-plugin/23-configuration reads, existing C1E/C1G receipts, native
+exports and frozen RG1/RG2/F1 evidence at starting HEAD `cca6502`.
+Owned evaluator, ESM reader, framing parser, area transcription and patch exporter
+are reused under SOR-P-0002. The original editorial checker and analytical
+resolver add no external code/dependency or new licence basis. Bethesda raw
+data and full local geometry remain excluded; authored results REVIEW-REQUIRED.
+
 ## RG2-C1G effective resource selection
 
 [Exact source ledger](experiments/resource-selection-operands/sources.csv) and [native/settings provenance](experiments/resource-selection-operands/native.md) pin Bethesda EXE/main-ESM GMST/RSGD evidence, seven maintainer screenshots, original967 C1E receipts and frozen RG1/RG2/C1F records. Owned C1E engine/transport/preflight, C1D associated-file decoder, RG1 evaluator/record reader and Cr1Recon export method are reused/adapted at task HEAD43786e5 under SOR-P-0002. Microsoft MSVC/Windows debugger APIs, CPython, Git and Ghidra are existing tools, no implementation incorporation or download. New original source-shaped fixture and single installed-.05 diagnostic remain separate from historical/native validation. No new outside licence basis, communication or publication.

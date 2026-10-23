@@ -1,0 +1,20 @@
+{
+  "defective": [
+    ["We checked all1296calls.", "JOINED_PROSE"],
+    ["Inspect cell10,1 next.", "JOINED_COORDINATE"],
+    ["Save52contains the sample.", "JOINED_PROSE"],
+    ["The test passed,Then it ended.", "PUNCTUATION_SPACE"],
+    ["A replacement character: �", "ENCODING"],
+    ["Static VA `14079b520` identifies entry.", "HEX_DOMAIN_PREFIX"],
+    ["See [evidence](missing", "MARKDOWN_LINK"]
+  ],
+  "valid": [
+    "Save52 contains the sample; XMM3 holds the weight.",
+    "Inspect cell (10, 1), with 1296 calls.",
+    "Static VA `0x14079b520`; member offset `0x10` belongs to the source.",
+    "Use `FUN_14079b520`, `foo_v2.json` and `Starfield.esm:0057d4` as literal identifiers.",
+    "PID 6248 and thread ID 19416 are decimal counts.",
+    "The probability is 0.05; its binary32 bits are `0x3d4ccccd`.",
+    "DERIVED does not imply OBSERVED. A cache pointer does not identify an epoch."
+  ]
+}

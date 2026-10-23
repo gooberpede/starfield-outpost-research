@@ -1,0 +1,1591 @@
+{
+  "schema": "sor-c1h-predictions/1",
+  "status": "CONDITIONAL_INSTALLED_MAIN_SETTINGS_ORDINARY_INITIALIZATION",
+  "publication": "REVIEW-REQUIRED",
+  "scientific_promotion": false,
+  "inputs": {
+    ".local-work\\resource-installed-settings\\settings01.json": "0ee7eab06ceeaa05363b8a253996bba277c59fdf148b2a9fc557285fc94dba09",
+    "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-mature-context\\freeze-mature-v2.json": "992c7f97211d0784de0ed66345caca1d415bad409601426405048dd9dbb038e9",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry\\source-definitions01.json": "ecf9e86ac36e10cafbeda3c60b626d455e408e51872f4308b7d8005dd15b1783",
+    "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-mature-context\\operands-v2.json": "dfeaff1a93dbe32969460ad0dc543acd3ded406d8f8a09c8f6770ed5679defb7",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-milestone-b-spatial-constants.json": "792288db6c019e033885c9044e21c902fed526cdcf199b3489209ca7b36e025f",
+    "D:\\Projects\\starfield-outpost-research\\docs\\experiments\\resource-geometry-mature-context\\f1-witnesses.csv": "62c9d913c0e5a75de8582c650801ebfeddcc952908db6b12bc5c8426bdcc154b",
+    "D:\\Projects\\starfield-outpost-research\\research\\resource-installed-settings\\replay.py": "0e299c41e40ccfde248df444972d93a41b63195e886941852bca688c607a4c8a",
+    "D:\\Projects\\starfield-outpost-research\\research\\resource-installed-settings\\settings.py": "624ed089dbafc9334a3813221aaa86338660b05168480bde6073b7f45fdd10bf",
+    "D:\\Projects\\starfield-outpost-research\\research\\resource-geometry\\geometry.py": "909dcf1c028a7c24bf698a9144fdd6478f01063717dee560f2214966b72a5eec",
+    "D:\\Projects\\starfield-outpost-research\\save-analysis\\scripts\\resource_spatial.py": "500de4a2304e02fda1566a996ce58a865de5adc9625d34eb61569548916294cb",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\site-feynman-initial02.json": "6f40b0d3166796bbdabb31dd8cd4a00dbfc9da144eb13ba3a336367d2f6c539b",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\site-carinae-initial02.json": "0d019138d5ca5d058b0de6989e0534795896233257344e13299fd235a140ec6c"
+  },
+  "sites": [
+    {
+      "site": "Feynman",
+      "frame": {
+        "center": [
+          -2716.539306640625,
+          -132.11228942871094
+        ],
+        "translation": [
+          -2800,
+          -200
+        ],
+        "origin": [
+          25152,
+          32448
+        ],
+        "basis": "native angular landing-snap matches exact joined secondary descriptor; AVX/FMA diagnostic agreement; scalar cos/native epoch unobserved"
+      },
+      "sources": [
+        {
+          "source": {
+            "id": "0:25104:32436:002c5878",
+            "block": 2906232,
+            "pattern": 2350728,
+            "coarse_pattern_flags": 8,
+            "source_flags": 40,
+            "dimensions": [
+              10,
+              10
+            ],
+            "geographic_origin": [
+              25104,
+              32436
+            ],
+            "local_cell_origin": [
+              -48,
+              -12
+            ],
+            "padding": 2,
+            "origin": [
+              -5000,
+              -1400
+            ],
+            "clip_center": [
+              -4500,
+              -900,
+              0
+            ],
+            "clip_half": [
+              700,
+              700,
+              0
+            ],
+            "cell_bounds": [
+              1,
+              13,
+              1,
+              13
+            ],
+            "resource_biome": 1033756
+          },
+          "selection": {
+            "biome": "000fc61c",
+            "rsgd": "0037C672",
+            "root": "000057CB",
+            "ordered_main_resources": [
+              "000057CE",
+              "000057CB"
+            ],
+            "special": null,
+            "everywhere_entries": [
+              "000083EC"
+            ],
+            "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+          },
+          "operands": [
+            {
+              "resource": "0x000057ce",
+              "rarity": 1,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 45.0,
+              "default_weight_bits": "0x3e4ccccd",
+              "installed_weight_bits": "0x3e4ccccd"
+            },
+            {
+              "resource": "0x000057cb",
+              "rarity": 0,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 60.0,
+              "default_weight_bits": "0x3e99999a",
+              "installed_weight_bits": "0x3e99999a"
+            },
+            {
+              "resource": "0x000083ec",
+              "rarity": 6,
+              "branch": "everywhere",
+              "mask": 8,
+              "cell_chance": 0.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            }
+          ],
+          "baseline_count": 32,
+          "installed_count": 32
+        },
+        {
+          "source": {
+            "id": "0:25104:32448:0024ef53",
+            "block": 2420563,
+            "pattern": 2350578,
+            "coarse_pattern_flags": 8,
+            "source_flags": 232,
+            "dimensions": [
+              10,
+              10
+            ],
+            "geographic_origin": [
+              25104,
+              32448
+            ],
+            "local_cell_origin": [
+              -48,
+              0
+            ],
+            "padding": 2,
+            "origin": [
+              -5000,
+              -200
+            ],
+            "clip_center": [
+              -4500,
+              300,
+              0
+            ],
+            "clip_half": [
+              700,
+              700,
+              0
+            ],
+            "cell_bounds": [
+              1,
+              13,
+              1,
+              13
+            ],
+            "resource_biome": 1332288
+          },
+          "selection": {
+            "biome": "00145440",
+            "rsgd": "00258050",
+            "root": "000057CF",
+            "ordered_main_resources": [
+              "000057D4",
+              "000057D0",
+              "000057CF"
+            ],
+            "special": null,
+            "everywhere_entries": [],
+            "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+          },
+          "operands": [
+            {
+              "resource": "0x000057d4",
+              "rarity": 3,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 15.0,
+              "default_weight_bits": "0x3c23d70a",
+              "installed_weight_bits": "0x3d4ccccd"
+            },
+            {
+              "resource": "0x000057d0",
+              "rarity": 1,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 45.0,
+              "default_weight_bits": "0x3e4ccccd",
+              "installed_weight_bits": "0x3e4ccccd"
+            },
+            {
+              "resource": "0x000057cf",
+              "rarity": 0,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 60.0,
+              "default_weight_bits": "0x3e99999a",
+              "installed_weight_bits": "0x3e99999a"
+            }
+          ],
+          "baseline_count": 21,
+          "installed_count": 21
+        },
+        {
+          "source": {
+            "id": "0:25116:32436:002c5878",
+            "block": 2906232,
+            "pattern": 2350728,
+            "coarse_pattern_flags": 8,
+            "source_flags": 104,
+            "dimensions": [
+              10,
+              10
+            ],
+            "geographic_origin": [
+              25116,
+              32436
+            ],
+            "local_cell_origin": [
+              -36,
+              -12
+            ],
+            "padding": 2,
+            "origin": [
+              -3800,
+              -1400
+            ],
+            "clip_center": [
+              -3300,
+              -900,
+              0
+            ],
+            "clip_half": [
+              700,
+              700,
+              0
+            ],
+            "cell_bounds": [
+              1,
+              13,
+              1,
+              13
+            ],
+            "resource_biome": 1033756
+          },
+          "selection": {
+            "biome": "000fc61c",
+            "rsgd": "0037C672",
+            "root": "000057CB",
+            "ordered_main_resources": [
+              "000057CE",
+              "000057CB"
+            ],
+            "special": null,
+            "everywhere_entries": [
+              "000083EC"
+            ],
+            "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+          },
+          "operands": [
+            {
+              "resource": "0x000057ce",
+              "rarity": 1,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 45.0,
+              "default_weight_bits": "0x3e4ccccd",
+              "installed_weight_bits": "0x3e4ccccd"
+            },
+            {
+              "resource": "0x000057cb",
+              "rarity": 0,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 60.0,
+              "default_weight_bits": "0x3e99999a",
+              "installed_weight_bits": "0x3e99999a"
+            },
+            {
+              "resource": "0x000083ec",
+              "rarity": 6,
+              "branch": "everywhere",
+              "mask": 8,
+              "cell_chance": 0.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            }
+          ],
+          "baseline_count": 30,
+          "installed_count": 30
+        },
+        {
+          "source": {
+            "id": "0:25116:32448:00257f38",
+            "block": 2457400,
+            "pattern": 2350578,
+            "coarse_pattern_flags": 8,
+            "source_flags": 104,
+            "dimensions": [
+              10,
+              10
+            ],
+            "geographic_origin": [
+              25116,
+              32448
+            ],
+            "local_cell_origin": [
+              -36,
+              0
+            ],
+            "padding": 2,
+            "origin": [
+              -3800,
+              -200
+            ],
+            "clip_center": [
+              -3300,
+              300,
+              0
+            ],
+            "clip_half": [
+              700,
+              700,
+              0
+            ],
+            "cell_bounds": [
+              1,
+              13,
+              1,
+              13
+            ],
+            "resource_biome": 1332288
+          },
+          "selection": {
+            "biome": "00145440",
+            "rsgd": "00258050",
+            "root": "000057CF",
+            "ordered_main_resources": [
+              "000057D4",
+              "000057D0",
+              "000057CF"
+            ],
+            "special": null,
+            "everywhere_entries": [],
+            "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+          },
+          "operands": [
+            {
+              "resource": "0x000057d4",
+              "rarity": 3,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 15.0,
+              "default_weight_bits": "0x3c23d70a",
+              "installed_weight_bits": "0x3d4ccccd"
+            },
+            {
+              "resource": "0x000057d0",
+              "rarity": 1,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 45.0,
+              "default_weight_bits": "0x3e4ccccd",
+              "installed_weight_bits": "0x3e4ccccd"
+            },
+            {
+              "resource": "0x000057cf",
+              "rarity": 0,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 60.0,
+              "default_weight_bits": "0x3e99999a",
+              "installed_weight_bits": "0x3e99999a"
+            }
+          ],
+          "baseline_count": 31,
+          "installed_count": 31
+        },
+        {
+          "source": {
+            "id": "0:25128:32436:0029d210",
+            "block": 2740752,
+            "pattern": 2350728,
+            "coarse_pattern_flags": 8,
+            "source_flags": 136,
+            "dimensions": [
+              10,
+              10
+            ],
+            "geographic_origin": [
+              25128,
+              32436
+            ],
+            "local_cell_origin": [
+              -24,
+              -12
+            ],
+            "padding": 2,
+            "origin": [
+              -2600,
+              -1400
+            ],
+            "clip_center": [
+              -2100,
+              -900,
+              0
+            ],
+            "clip_half": [
+              700,
+              700,
+              0
+            ],
+            "cell_bounds": [
+              1,
+              13,
+              1,
+              13
+            ],
+            "resource_biome": 1033756
+          },
+          "selection": {
+            "biome": "000fc61c",
+            "rsgd": "0037C672",
+            "root": "000057CB",
+            "ordered_main_resources": [
+              "000057CE",
+              "000057CB"
+            ],
+            "special": null,
+            "everywhere_entries": [
+              "000083EC"
+            ],
+            "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+          },
+          "operands": [
+            {
+              "resource": "0x000057ce",
+              "rarity": 1,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 45.0,
+              "default_weight_bits": "0x3e4ccccd",
+              "installed_weight_bits": "0x3e4ccccd"
+            },
+            {
+              "resource": "0x000057cb",
+              "rarity": 0,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 60.0,
+              "default_weight_bits": "0x3e99999a",
+              "installed_weight_bits": "0x3e99999a"
+            },
+            {
+              "resource": "0x000083ec",
+              "rarity": 6,
+              "branch": "everywhere",
+              "mask": 8,
+              "cell_chance": 0.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            }
+          ],
+          "baseline_count": 20,
+          "installed_count": 20
+        },
+        {
+          "source": {
+            "id": "0:25128:32448:0029d20f",
+            "block": 2740751,
+            "pattern": 2350578,
+            "coarse_pattern_flags": 8,
+            "source_flags": 8,
+            "dimensions": [
+              10,
+              10
+            ],
+            "geographic_origin": [
+              25128,
+              32448
+            ],
+            "local_cell_origin": [
+              -24,
+              0
+            ],
+            "padding": 2,
+            "origin": [
+              -2600,
+              -200
+            ],
+            "clip_center": [
+              -2100,
+              300,
+              0
+            ],
+            "clip_half": [
+              700,
+              700,
+              0
+            ],
+            "cell_bounds": [
+              1,
+              13,
+              1,
+              13
+            ],
+            "resource_biome": 1332288
+          },
+          "selection": {
+            "biome": "00145440",
+            "rsgd": "00258050",
+            "root": "000057CF",
+            "ordered_main_resources": [
+              "000057D4",
+              "000057D0",
+              "000057CF"
+            ],
+            "special": null,
+            "everywhere_entries": [],
+            "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+          },
+          "operands": [
+            {
+              "resource": "0x000057d4",
+              "rarity": 3,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 15.0,
+              "default_weight_bits": "0x3c23d70a",
+              "installed_weight_bits": "0x3d4ccccd"
+            },
+            {
+              "resource": "0x000057d0",
+              "rarity": 1,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 45.0,
+              "default_weight_bits": "0x3e4ccccd",
+              "installed_weight_bits": "0x3e4ccccd"
+            },
+            {
+              "resource": "0x000057cf",
+              "rarity": 0,
+              "branch": "ordinary",
+              "mask": 8,
+              "cell_chance": 60.0,
+              "default_weight_bits": "0x3e99999a",
+              "installed_weight_bits": "0x3e99999a"
+            }
+          ],
+          "baseline_count": 22,
+          "installed_count": 22
+        }
+      ],
+      "baseline_count": 156,
+      "installed_count": 156,
+      "unchanged_geometry": 154,
+      "removed": [
+        {
+          "source": "0:25116:32448:00257f38",
+          "resource": "0x000057d0",
+          "cell": [
+            2,
+            6
+          ],
+          "geometry_sha256": "16616d1188da71e1721177b16c2ee16f7c4a4292b632c1aa476f8e4a2a7e6ae8"
+        },
+        {
+          "source": "0:25116:32448:00257f38",
+          "resource": "0x000057d0",
+          "cell": [
+            10,
+            1
+          ],
+          "geometry_sha256": "89ebdcb3e0a707aa35c9bc3a2d8e582bd8fcf87e8c83a18d31072f36d60f0850"
+        }
+      ],
+      "added": [
+        {
+          "source": "0:25116:32448:00257f38",
+          "resource": "0x000057d4",
+          "cell": [
+            2,
+            6
+          ],
+          "geometry_sha256": "16616d1188da71e1721177b16c2ee16f7c4a4292b632c1aa476f8e4a2a7e6ae8"
+        },
+        {
+          "source": "0:25116:32448:00257f38",
+          "resource": "0x000057d4",
+          "cell": [
+            10,
+            1
+          ],
+          "geometry_sha256": "89ebdcb3e0a707aa35c9bc3a2d8e582bd8fcf87e8c83a18d31072f36d60f0850"
+        }
+      ],
+      "baseline": {
+        "000057cb": {
+          "paths": 48,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 47,
+            "POSITIVE_AREA": 1
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 28,
+            "UNKNOWN": 19,
+            "POSITIVE_AREA": 1
+          },
+          "nominal_area": {
+            "False": 47,
+            "True": 1
+          }
+        },
+        "000057ce": {
+          "paths": 34,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 33,
+            "POSITIVE_AREA": 1
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 27,
+            "UNKNOWN": 6,
+            "POSITIVE_AREA": 1
+          },
+          "nominal_area": {
+            "False": 33,
+            "True": 1
+          }
+        },
+        "000057cf": {
+          "paths": 46,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 45,
+            "POSITIVE_AREA": 1
+          },
+          "tapered": {
+            "UNKNOWN": 13,
+            "DISJOINT_OR_ZERO_AREA": 33
+          },
+          "nominal_area": {
+            "False": 45,
+            "True": 1
+          }
+        },
+        "000057d0": {
+          "paths": 27,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 26,
+            "POSITIVE_AREA": 1
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 23,
+            "POSITIVE_AREA": 1,
+            "UNKNOWN": 3
+          },
+          "nominal_area": {
+            "False": 26,
+            "True": 1
+          }
+        },
+        "000057d4": {
+          "paths": 1,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 1
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 1
+          },
+          "nominal_area": {
+            "False": 1
+          }
+        }
+      },
+      "installed": {
+        "000057cb": {
+          "paths": 48,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 47,
+            "POSITIVE_AREA": 1
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 28,
+            "UNKNOWN": 19,
+            "POSITIVE_AREA": 1
+          },
+          "nominal_area": {
+            "False": 47,
+            "True": 1
+          }
+        },
+        "000057ce": {
+          "paths": 34,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 33,
+            "POSITIVE_AREA": 1
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 27,
+            "UNKNOWN": 6,
+            "POSITIVE_AREA": 1
+          },
+          "nominal_area": {
+            "False": 33,
+            "True": 1
+          }
+        },
+        "000057cf": {
+          "paths": 46,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 45,
+            "POSITIVE_AREA": 1
+          },
+          "tapered": {
+            "UNKNOWN": 13,
+            "DISJOINT_OR_ZERO_AREA": 33
+          },
+          "nominal_area": {
+            "False": 45,
+            "True": 1
+          }
+        },
+        "000057d0": {
+          "paths": 25,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 25
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 22,
+            "UNKNOWN": 3
+          },
+          "nominal_area": {
+            "False": 25
+          }
+        },
+        "000057d4": {
+          "paths": 3,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 2,
+            "POSITIVE_AREA": 1
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 2,
+            "POSITIVE_AREA": 1
+          },
+          "nominal_area": {
+            "False": 2,
+            "True": 1
+          }
+        }
+      },
+      "witnesses": [
+        {
+          "token": "838360",
+          "resource": "0x000057ce",
+          "model_xy": [
+            -2775.541259765625,
+            -217.1739959716797
+          ],
+          "baseline": {
+            "bounded_hits": 1,
+            "tapered_hits": 0,
+            "nearest_bound_gap": -29.328331903814814
+          },
+          "installed": {
+            "bounded_hits": 1,
+            "tapered_hits": 0,
+            "nearest_bound_gap": -29.328331903814814
+          }
+        },
+        {
+          "token": "838366",
+          "resource": "0x000057cb",
+          "model_xy": [
+            -2686.38720703125,
+            -173.2825927734375
+          ],
+          "baseline": {
+            "bounded_hits": 1,
+            "tapered_hits": 0,
+            "nearest_bound_gap": -30.466840820928184
+          },
+          "installed": {
+            "bounded_hits": 1,
+            "tapered_hits": 0,
+            "nearest_bound_gap": -30.466840820928184
+          }
+        },
+        {
+          "token": "83836a",
+          "resource": "0x000057cf",
+          "model_xy": [
+            -2662.7119140625,
+            -51.005279541015625
+          ],
+          "baseline": {
+            "bounded_hits": 1,
+            "tapered_hits": 1,
+            "nearest_bound_gap": -17.400044779556158
+          },
+          "installed": {
+            "bounded_hits": 1,
+            "tapered_hits": 1,
+            "nearest_bound_gap": -17.400044779556158
+          }
+        },
+        {
+          "token": "83836b",
+          "resource": "0x000057d4",
+          "model_xy": [
+            -2753.10888671875,
+            -93.251953125
+          ],
+          "baseline": {
+            "bounded_hits": 0,
+            "tapered_hits": 0,
+            "nearest_bound_gap": 221.6371449550511
+          },
+          "installed": {
+            "bounded_hits": 1,
+            "tapered_hits": 1,
+            "nearest_bound_gap": -31.31235766181843
+          }
+        }
+      ],
+      "accepted": [
+        {
+          "capture": 299,
+          "resource": "0x000057d4",
+          "native_source_ordinal": 31,
+          "raw_sha256": "0575a3af8403ed2333bb2a3d0ab7f9543f5957e31d79af2758c30635786b806b",
+          "geometry_sha256": "89ebdcb3e0a707aa35c9bc3a2d8e582bd8fcf87e8c83a18d31072f36d60f0850",
+          "baseline_matches": 0,
+          "installed_matches": [
+            {
+              "source": "0:25116:32448:00257f38",
+              "cell": [
+                10,
+                1
+              ]
+            }
+          ],
+          "query_xyz": [
+            -2716.539306640625,
+            -132.11228942871094,
+            -0.10489535331726074
+          ],
+          "radius": 150.0,
+          "absolute_upper": 99.89510345458984,
+          "retained_query_replay": {
+            "schema": "sor-resource-spatial-result/1",
+            "status": "KNOWN",
+            "accepted": true,
+            "branch": "vertex_xy_radius_height",
+            "provenance": "static native transcription; synthetic qualification",
+            "reason": null
+          },
+          "native_generation_source": "UNKNOWN",
+          "historical_epoch": "UNKNOWN"
+        },
+        {
+          "capture": 325,
+          "resource": "0x000057cf",
+          "native_source_ordinal": 31,
+          "raw_sha256": "c6a217abbdf668129e2f9d2bdbc9aab6086c2a9e6e73a2fa135939e94c0d2e08",
+          "geometry_sha256": "c9e7d24c23473b4981b9b55da6cf10a5b507c70f16fe4a9ee6b416c94c1f504b",
+          "baseline_matches": 1,
+          "installed_matches": [
+            {
+              "source": "0:25116:32448:00257f38",
+              "cell": [
+                11,
+                1
+              ]
+            }
+          ],
+          "query_xyz": [
+            -2716.539306640625,
+            -132.11228942871094,
+            -0.10489535331726074
+          ],
+          "radius": 150.0,
+          "absolute_upper": 99.89510345458984,
+          "retained_query_replay": {
+            "schema": "sor-resource-spatial-result/1",
+            "status": "KNOWN",
+            "accepted": true,
+            "branch": "single_point_broadphase",
+            "provenance": "static native transcription; synthetic qualification",
+            "reason": null
+          },
+          "native_generation_source": "UNKNOWN",
+          "historical_epoch": "UNKNOWN"
+        },
+        {
+          "capture": 696,
+          "resource": "0x000057ce",
+          "native_source_ordinal": 54,
+          "raw_sha256": "110a86096417540d497a4d0d7b825ff5618a5ab70a77741a293dfa68f8eda780",
+          "geometry_sha256": "eb6f8e39d230b310f7e01060f3bf8bf56783c96230c6296efcb20a7e75114d95",
+          "baseline_matches": 1,
+          "installed_matches": [
+            {
+              "source": "0:25116:32436:002c5878",
+              "cell": [
+                10,
+                12
+              ]
+            }
+          ],
+          "query_xyz": [
+            -2716.539306640625,
+            -132.11228942871094,
+            -0.10489535331726074
+          ],
+          "radius": 150.0,
+          "absolute_upper": 99.89510345458984,
+          "retained_query_replay": {
+            "schema": "sor-resource-spatial-result/1",
+            "status": "KNOWN",
+            "accepted": true,
+            "branch": "vertex_xy_radius_height",
+            "provenance": "static native transcription; synthetic qualification",
+            "reason": null
+          },
+          "native_generation_source": "UNKNOWN",
+          "historical_epoch": "UNKNOWN"
+        },
+        {
+          "capture": 716,
+          "resource": "0x000057cb",
+          "native_source_ordinal": 54,
+          "raw_sha256": "c2a70ec1f13eb15934fd95762a5145daf2a455485be20102a79e6195cc2b8c11",
+          "geometry_sha256": "17392d7214736e07f44358bc717c2672e72c26ecf0064a408453b147202bc15f",
+          "baseline_matches": 1,
+          "installed_matches": [
+            {
+              "source": "0:25116:32436:002c5878",
+              "cell": [
+                11,
+                12
+              ]
+            }
+          ],
+          "query_xyz": [
+            -2716.539306640625,
+            -132.11228942871094,
+            -0.10489535331726074
+          ],
+          "radius": 150.0,
+          "absolute_upper": 99.89510345458984,
+          "retained_query_replay": {
+            "schema": "sor-resource-spatial-result/1",
+            "status": "KNOWN",
+            "accepted": true,
+            "branch": "vertex_xy_radius_height",
+            "provenance": "static native transcription; synthetic qualification",
+            "reason": null
+          },
+          "native_generation_source": "UNKNOWN",
+          "historical_epoch": "UNKNOWN"
+        }
+      ],
+      "visited": {
+        "REJECT": 961,
+        "REJECT_exact_modeled_geometry": 147,
+        "retained_query_False_native_REJECT": 961,
+        "ACCEPT": 4,
+        "ACCEPT_exact_modeled_geometry": 4,
+        "retained_query_True_native_ACCEPT": 4
+      },
+      "modeled_paths_without_exact_visited_geometry": 5,
+      "actual_retained_query_positive_paths": {
+        "0x000057ce": 1,
+        "0x000057cb": 1,
+        "0x000057d4": 1,
+        "0x000057cf": 1
+      },
+      "actual_retained_query_unknown_paths": {},
+      "events_sha256": "249ea01cf45c2e35f07287a1eb709007aa409442d088113d3d9c2d48b94919a8",
+      "chance_comparison": [
+        {
+          "capture": 1129,
+          "call_capture": 1020,
+          "resource": "0x000057d4",
+          "cell": [
+            10,
+            1
+          ],
+          "observed": {
+            "weight": "0x3d4ccccd",
+            "draw": "0x3efba983",
+            "threshold": "0x3f400000",
+            "edge": "ADMIT"
+          },
+          "predicted": {
+            "weight": "0x3d4ccccd",
+            "draw": "0x3efba983",
+            "threshold": "0x3f400000",
+            "edge": "ADMIT"
+          },
+          "equal": true,
+          "receipt_sha256": "656e917496e2e596015a3f0f9c99cdb42ba7122b990db35b18ac4bd509b9d30d",
+          "call_sha256": "c05fa2829744b28b8823cab53611980e506456a603c4af9d8f95a9964c2d19ee"
+        },
+        {
+          "capture": 1141,
+          "call_capture": 1020,
+          "resource": "0x000057d4",
+          "cell": [
+            11,
+            1
+          ],
+          "observed": {
+            "weight": "0x3d4ccccd",
+            "draw": "0x4123d9da",
+            "threshold": "0x3f400000",
+            "edge": "REJECT"
+          },
+          "predicted": {
+            "weight": "0x3d4ccccd",
+            "draw": "0x4123d9da",
+            "threshold": "0x3f400000",
+            "edge": "REJECT"
+          },
+          "equal": true,
+          "receipt_sha256": "6be87b01284d6294c85f6fffe168fb492b4bd387471cb00a88d696b6b3fe4e74",
+          "call_sha256": "c05fa2829744b28b8823cab53611980e506456a603c4af9d8f95a9964c2d19ee"
+        },
+        {
+          "capture": 1431,
+          "call_capture": 1310,
+          "resource": "0x000057cf",
+          "cell": [
+            11,
+            1
+          ],
+          "observed": {
+            "weight": "0x3e99999a",
+            "draw": "0x4123d9da",
+            "threshold": "0x41900000",
+            "edge": "ADMIT"
+          },
+          "predicted": {
+            "weight": "0x3e99999a",
+            "draw": "0x4123d9da",
+            "threshold": "0x41900000",
+            "edge": "ADMIT"
+          },
+          "equal": true,
+          "receipt_sha256": "3b4002ef5ec01825a63f9b7bdb06d49e57f42a9b46008447dcf79f8ca7236d8d",
+          "call_sha256": "ab224bbbfa53acd60226b2b29ed8e59a0da3517db6491f645fabbaedb67daafa"
+        }
+      ]
+    },
+    {
+      "site": "Carinae",
+      "frame": {
+        "center": [
+          -813.3619384765625,
+          -729.5208740234375
+        ],
+        "translation": [
+          -900,
+          -800
+        ],
+        "origin": [
+          21408,
+          15648
+        ],
+        "basis": "native angular landing-snap matches exact joined secondary descriptor; AVX/FMA diagnostic agreement; scalar cos/native epoch unobserved"
+      },
+      "sources": [
+        {
+          "source": {
+            "id": "0:21372:15612:002493eb",
+            "block": 2397163,
+            "pattern": 2174489,
+            "coarse_pattern_flags": 8,
+            "source_flags": 104,
+            "dimensions": [
+              22,
+              22
+            ],
+            "geographic_origin": [
+              21372,
+              15612
+            ],
+            "local_cell_origin": [
+              -36,
+              -36
+            ],
+            "padding": 2,
+            "origin": [
+              -3800,
+              -3800
+            ],
+            "clip_center": [
+              -2700,
+              -2700,
+              0
+            ],
+            "clip_half": [
+              1300,
+              1300,
+              0
+            ],
+            "cell_bounds": [
+              1,
+              25,
+              1,
+              25
+            ],
+            "resource_biome": 1138905
+          },
+          "selection": {
+            "biome": "001160d9",
+            "rsgd": "0018CE04",
+            "root": "000057C7",
+            "ordered_main_resources": [
+              "00005DF1",
+              "000057C9",
+              "000057C7"
+            ],
+            "special": null,
+            "everywhere_entries": [],
+            "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+          },
+          "operands": [
+            {
+              "resource": "0x00005df1",
+              "rarity": 4,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 10.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            },
+            {
+              "resource": "0x000057c9",
+              "rarity": 1,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 45.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            },
+            {
+              "resource": "0x000057c7",
+              "rarity": 0,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 60.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            }
+          ],
+          "baseline_count": 354,
+          "installed_count": 354
+        },
+        {
+          "source": {
+            "id": "0:21384:15636:0006ce55",
+            "block": 446037,
+            "pattern": 2174489,
+            "coarse_pattern_flags": 8,
+            "source_flags": 168,
+            "dimensions": [
+              10,
+              10
+            ],
+            "geographic_origin": [
+              21384,
+              15636
+            ],
+            "local_cell_origin": [
+              -24,
+              -12
+            ],
+            "padding": 2,
+            "origin": [
+              -2600,
+              -1400
+            ],
+            "clip_center": [
+              -2100,
+              -900,
+              0
+            ],
+            "clip_half": [
+              700,
+              700,
+              0
+            ],
+            "cell_bounds": [
+              1,
+              13,
+              1,
+              13
+            ],
+            "resource_biome": 1138905
+          },
+          "selection": {
+            "biome": "001160d9",
+            "rsgd": "0018CE04",
+            "root": "000057C7",
+            "ordered_main_resources": [
+              "00005DF1",
+              "000057C9",
+              "000057C7"
+            ],
+            "special": null,
+            "everywhere_entries": [],
+            "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+          },
+          "operands": [
+            {
+              "resource": "0x00005df1",
+              "rarity": 4,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 10.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            },
+            {
+              "resource": "0x000057c9",
+              "rarity": 1,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 45.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            },
+            {
+              "resource": "0x000057c7",
+              "rarity": 0,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 60.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            }
+          ],
+          "baseline_count": 84,
+          "installed_count": 84
+        },
+        {
+          "source": {
+            "id": "0:21396:15624:002493e7",
+            "block": 2397159,
+            "pattern": 2174489,
+            "coarse_pattern_flags": 8,
+            "source_flags": 72,
+            "dimensions": [
+              22,
+              22
+            ],
+            "geographic_origin": [
+              21396,
+              15624
+            ],
+            "local_cell_origin": [
+              -12,
+              -24
+            ],
+            "padding": 2,
+            "origin": [
+              -1400,
+              -2600
+            ],
+            "clip_center": [
+              -300,
+              -1500,
+              0
+            ],
+            "clip_half": [
+              1300,
+              1300,
+              0
+            ],
+            "cell_bounds": [
+              1,
+              25,
+              1,
+              25
+            ],
+            "resource_biome": 1138905
+          },
+          "selection": {
+            "biome": "001160d9",
+            "rsgd": "0018CE04",
+            "root": "000057C7",
+            "ordered_main_resources": [
+              "00005DF1",
+              "000057C9",
+              "000057C7"
+            ],
+            "special": null,
+            "everywhere_entries": [],
+            "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+          },
+          "operands": [
+            {
+              "resource": "0x00005df1",
+              "rarity": 4,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 10.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            },
+            {
+              "resource": "0x000057c9",
+              "rarity": 1,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 45.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            },
+            {
+              "resource": "0x000057c7",
+              "rarity": 0,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 60.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            }
+          ],
+          "baseline_count": 364,
+          "installed_count": 364
+        },
+        {
+          "source": {
+            "id": "0:21396:15648:002493ed",
+            "block": 2397165,
+            "pattern": 2174489,
+            "coarse_pattern_flags": 8,
+            "source_flags": 104,
+            "dimensions": [
+              10,
+              10
+            ],
+            "geographic_origin": [
+              21396,
+              15648
+            ],
+            "local_cell_origin": [
+              -12,
+              0
+            ],
+            "padding": 2,
+            "origin": [
+              -1400,
+              -200
+            ],
+            "clip_center": [
+              -900,
+              300,
+              0
+            ],
+            "clip_half": [
+              700,
+              700,
+              0
+            ],
+            "cell_bounds": [
+              1,
+              13,
+              1,
+              13
+            ],
+            "resource_biome": 1138905
+          },
+          "selection": {
+            "biome": "001160d9",
+            "rsgd": "0018CE04",
+            "root": "000057C7",
+            "ordered_main_resources": [
+              "00005DF1",
+              "000057C9",
+              "000057C7"
+            ],
+            "special": null,
+            "everywhere_entries": [],
+            "everywhere_order": "after main family and Special; own descriptor, weight 1; not modeled by main-only Kreet driver"
+          },
+          "operands": [
+            {
+              "resource": "0x00005df1",
+              "rarity": 4,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 10.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            },
+            {
+              "resource": "0x000057c9",
+              "rarity": 1,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 45.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            },
+            {
+              "resource": "0x000057c7",
+              "rarity": 0,
+              "branch": "ordinary",
+              "mask": 4,
+              "cell_chance": 60.0,
+              "default_weight_bits": "0x3f800000",
+              "installed_weight_bits": "0x3f800000"
+            }
+          ],
+          "baseline_count": 93,
+          "installed_count": 93
+        }
+      ],
+      "baseline_count": 895,
+      "installed_count": 895,
+      "unchanged_geometry": 895,
+      "removed": [],
+      "added": [],
+      "baseline": {
+        "000057c7": {
+          "paths": 259,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 259
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 129,
+            "UNKNOWN": 130
+          },
+          "nominal_area": {
+            "False": 259
+          }
+        },
+        "000057c9": {
+          "paths": 505,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 500,
+            "POSITIVE_AREA": 5
+          },
+          "tapered": {
+            "UNKNOWN": 113,
+            "DISJOINT_OR_ZERO_AREA": 388,
+            "POSITIVE_AREA": 4
+          },
+          "nominal_area": {
+            "False": 500,
+            "True": 5
+          }
+        },
+        "00005df1": {
+          "paths": 131,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 130,
+            "POSITIVE_AREA": 1
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 117,
+            "UNKNOWN": 13,
+            "POSITIVE_AREA": 1
+          },
+          "nominal_area": {
+            "False": 130,
+            "True": 1
+          }
+        }
+      },
+      "installed": {
+        "000057c7": {
+          "paths": 259,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 259
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 129,
+            "UNKNOWN": 130
+          },
+          "nominal_area": {
+            "False": 259
+          }
+        },
+        "000057c9": {
+          "paths": 505,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 500,
+            "POSITIVE_AREA": 5
+          },
+          "tapered": {
+            "UNKNOWN": 113,
+            "DISJOINT_OR_ZERO_AREA": 388,
+            "POSITIVE_AREA": 4
+          },
+          "nominal_area": {
+            "False": 500,
+            "True": 5
+          }
+        },
+        "00005df1": {
+          "paths": 131,
+          "bounded": {
+            "DISJOINT_OR_ZERO_AREA": 130,
+            "POSITIVE_AREA": 1
+          },
+          "tapered": {
+            "DISJOINT_OR_ZERO_AREA": 117,
+            "UNKNOWN": 13,
+            "POSITIVE_AREA": 1
+          },
+          "nominal_area": {
+            "False": 130,
+            "True": 1
+          }
+        }
+      },
+      "witnesses": [
+        {
+          "token": "82bea4",
+          "resource": "0x00005df1",
+          "model_xy": [
+            -774.5008544921875,
+            -651.1856689453125
+          ],
+          "baseline": {
+            "bounded_hits": 0,
+            "tapered_hits": 0,
+            "nearest_bound_gap": -86.42757043377304
+          },
+          "installed": {
+            "bounded_hits": 0,
+            "tapered_hits": 0,
+            "nearest_bound_gap": -86.42757043377304
+          }
+        },
+        {
+          "token": "82bea6",
+          "resource": "0x000057c7",
+          "model_xy": [
+            -760.7152099609375,
+            -793.4074096679688
+          ],
+          "baseline": {
+            "bounded_hits": 0,
+            "tapered_hits": 0,
+            "nearest_bound_gap": 233.29781343389072
+          },
+          "installed": {
+            "bounded_hits": 0,
+            "tapered_hits": 0,
+            "nearest_bound_gap": 233.29781343389072
+          }
+        },
+        {
+          "token": "82bea9",
+          "resource": "0x000057c9",
+          "model_xy": [
+            -858.4259033203125,
+            -714.3272705078125
+          ],
+          "baseline": {
+            "bounded_hits": 0,
+            "tapered_hits": 0,
+            "nearest_bound_gap": -32.88358185275101
+          },
+          "installed": {
+            "bounded_hits": 0,
+            "tapered_hits": 0,
+            "nearest_bound_gap": -32.88358185275101
+          }
+        }
+      ]
+    }
+  ],
+  "limits": "No complete native census, historical source/epoch join, final catalogue admission, or Carinae live geometry. Retained C1E query replay remains conditional on per-use stability."
+}

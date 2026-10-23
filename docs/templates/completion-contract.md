@@ -21,6 +21,9 @@ Do not allocate IDs or claim approval from this blank template.
 - Review artifacts / disposition: acceptance matrix, primary evidence ledger,
   failed/regression cases, status/inclusion/exclusion inventories, verified
   complete/task-only diffs, separate outcome dimensions, reviewer decision.
+- Editorial finalization: follow [the standard](../EDITORIAL_STANDARD.md), record
+  screening and complete manual coverage, obtain independent exact-final-prose
+  review, and verify snapshot/export identity; review substantive later deltas.
 
 Freeze mandatory criteria for acceptance. Record maintainer-approved material
 amendments with original criteria, date and reason. Apply the

@@ -27,6 +27,25 @@ to the implementer. Never accept your own corrections.
 
 ## Session tool procedure
 
+For substantive future deliveries, independently enforce
+[EDITORIAL_STANDARD](../EDITORIAL_STANDARD.md), separately from scientific tests:
+
+- Check the complete changed authored prose inventory, including tables, captions,
+  CSV labels, explanatory comments/docstrings and edits to existing documents.
+- Read the exact final changed prose; inspect screen diagnostics, manual coverage,
+  corrected defects and reasoned exceptions. A zero-diagnostic scan is insufficient.
+- Challenge joined words/numbers, punctuation spacing, concatenations, encoding,
+  Markdown and evidence links, and disproportionate or ambiguous numeric notation.
+- Check evidence strength, attempt/path and pointer/epoch distinctions, source/
+  terrain/beacon identity, consistent terminology and summary/detail agreement.
+  Unsupported certainty is a scientific defect.
+- Return REWORK for material defects or missing required coverage. Bind disposition
+  to exact file hashes. Review substantive post-review deltas independently;
+  small self-describing closure records may receive a narrow delta review.
+
+Report editorial disposition separately from scientific conformance. These
+prospective checks preserve original contracts, reviewer authority and all gates.
+
 Recheck tool availability each session. In the implementing session, use
 `collaboration.spawn_agent` with a separate reviewer task, inherited model and
 the instruction above, original brief path, report/contract path, primary receipt

@@ -60,6 +60,15 @@ Apply this policy to every future run card and its operational helper configurat
 
 ## Critical review of every diff
 
+Every substantive future Codex delivery must follow the mandatory
+[editorial finalization standard](docs/EDITORIAL_STANDARD.md): finish science and
+tests, screen changed authored text, manually read and correct the complete
+changed prose set, obtain independent review of the exact final snapshot, then
+verify/export its diffs and manifest. Preserve diagnostics, exceptions and review
+disposition. Substantive post-review edits require independent delta review;
+material prose or scientific-qualification defects return the same task as REWORK.
+The screen alone never satisfies finalization. Historical contracts are unchanged.
+
 For prospective approved observer sessions, use the [shared phase-aware
 commands](runtime/session-tools/README.md) and [future run-card fragment](docs/experiments/session-infrastructure/future-run-card.md).
 Perform full protected-content/save audits before launch and after exit; use

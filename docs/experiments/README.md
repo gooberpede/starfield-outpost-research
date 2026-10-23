@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-C1H installed settings and cross-site geometry](resource-installed-settings/report.md): four exact accepted Feynman paths, three native chance comparisons, unchanged Carinae Iron discrepancy and durable editorial finalization; [review/package](resource-installed-settings/review.md). Offline only; no complete population or historical epoch claim.
+
 - [RG2-C1G Phase B effective operands](resource-selection-operands/phase-b.md): approved single natural-generation pilot, observed native IL weight 0.05 and chance-stage result, Copper admission control, retained incomplete joins and [review/package](resource-selection-operands/phase-b-review.md). Historical generation and final geometry remain unknown.
 
 - [RG2-C1G effective selection/chance operands](resource-selection-operands/report.md): main-GMST0.05 conditional four-path match, real Windows synthetic collector and [unexecuted approval-only Phase B card](resource-selection-operands/run-card.md); [review](resource-selection-operands/review.md). Frozen predictions and historical epoch unchanged.

@@ -99,6 +99,19 @@ accepted completion unless the original contract explicitly allows that fallback
 
 ## Completion accounting and evidence
 
+Prospective editorial completion follows [EDITORIAL_STANDARD](EDITORIAL_STANDARD.md).
+The required order is science/code/tests, automatic changed-text screening,
+actual manual reading and correction of the entire changed prose set, independent
+review of that exact final text and its scientific qualifications, then verified
+delivery export. Retain a compliance record with inventory, findings, exceptions
+and disposition. Material editorial/scientific defects mean REWORK; a missing
+required independent result means unfinished, never accepted completion.
+Freeze the reviewed file hashes. Substantive later changes invalidate acceptance
+for those changes and require relevant independent delta review. Minor
+self-describing review-record closure can use a delta review without restarting
+the investigation. This prospective requirement does not revise frozen criteria
+or historical verdicts and grants no integration authority.
+
 Every substantial review return includes every original mandatory criterion as
 PASS / FAIL / NOT TESTED, an exact evidence path/location and one-line reason.
 Include earlier failed runs, regressions and counterexamples alongside corrections.

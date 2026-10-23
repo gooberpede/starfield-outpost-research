@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-23 — RG2-C1H installed settings and editorial finalization:**
+[Report](experiments/resource-installed-settings/report.md) audits six settings
+across 39 installed plugin files and 23 configuration files. The unchanged
+evaluator matches four accepted Feynman paths and three native chance decisions;
+two paths change from Fluorine to IL. Carinae's 895 paths are unchanged and Iron
+remains unresolved. [Prospective editorial standard](EDITORIAL_STANDARD.md)
+requires screening, actual manual reading and independent exact-final-prose
+review. [Review/package](experiments/resource-installed-settings/review.md)
+controls completion. Frozen predecessors, historical epoch unknowns and B6/
+publication hold remain; no live or Git publication action.
+
 **2026-10-23 — RG2-C1G Phase B:** [Live result](experiments/resource-selection-operands/phase-b.md) directly observes effective IL weight 0.05, candidate (10,1) admission, (11,1) rejection and Copper (11,1) admission in a new generation epoch. There are 1455 ACKed captures; 144 unbound nonordinary diagnostics are retained. Historical epoch, unique RSGD and final path/competition remain unknown. One approved session ended at useful evidence during P3 fast travel; build mode not completed. Saves/configuration unchanged. [Independent review/package](experiments/resource-selection-operands/phase-b-review.md); no further live or publication authority.
 
 **2026-10-23 - RG2-C1G Phase A:** [Report](experiments/resource-selection-operands/report.md) finds main-ESM exotic inactive GMST0.05 versus EXE default0.01. One definition-backed conditional replay matches all four native paths, preserving Copper without extra IL(11,1); frozen predictions unchanged. Real Windows four-site operand collector passes27 synthetic cases plus inherited suites. [Review/package](experiments/resource-selection-operands/review.md), [unexecuted Phase B card](experiments/resource-selection-operands/run-card.md). Historical/effective settings remain UNKNOWN; no live, integration or publication authority.

@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-C1H installed settings, cross-site geometry and editorial standard](CODEX_BRIEF_SOR_RG2_C1H_installed_settings_cross_site_geometry_editorial_standard.md): invoked 2026-10-23, two mandatory offline workstreams; [report](../experiments/resource-installed-settings/report.md), [review](../experiments/resource-installed-settings/review.md). No live, staging, commit, push or publication authority.
+
 - [RG2-C1G selection/chance-weight acquisition](CODEX_BRIEF_SOR_RG2_C1G_effective_resource_selection_chance_weight_capture.md): invoked2026-10-23, Phase A only; [report](../experiments/resource-selection-operands/report.md), [qualification/review](../experiments/resource-selection-operands/review.md), [Phase B card](../experiments/resource-selection-operands/run-card.md) requires separate explicit approval.
 
 - [RG2-C1F native generation ancestry/divergence](CODEX_BRIEF_SOR_RG2_C1F_native_resource_generation_ancestry_divergence.md): invoked2026-10-23, offline only; [report](../experiments/resource-generation-ancestry/report.md), [review](../experiments/resource-generation-ancestry/review.md), prospective live design approval pending.
