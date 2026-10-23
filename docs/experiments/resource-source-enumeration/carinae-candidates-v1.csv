@@ -1,0 +1,24 @@
+source,pattern,block,geographic_x,geographic_y,local_x,local_y,origin_x,origin_y,nominal_x,nominal_y,padding,source_flags,in_before,in_after,classification,reason
+0:21384:15624:002493ed,0x00212e15,0x002493ed,21384,15624,-24,-24,-2600,-2600,10,10,2,0xe8,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21372:15624:002493da,0x00212e16,0x002493da,21372,15624,-36,-24,-3800,-2600,10,10,2,0x68,False,True,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21384:15624:002493e3,0x00212e17,0x002493e3,21384,15624,-24,-24,-2600,-2600,22,22,2,0x88,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21384:15624:002493f6,0x00212e18,0x002493f6,21384,15624,-24,-24,-2600,-2600,10,10,2,0x08,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21372:15612:002493eb,0x00212e19,0x002493eb,21372,15612,-36,-36,-3800,-3800,22,22,2,0x68,True,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21384:15636:002493d1,0x00212e15,0x002493d1,21384,15636,-24,-12,-2600,-1400,10,10,2,0xa8,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21372:15636:002493e2,0x00212e17,0x002493e2,21372,15636,-36,-12,-3800,-1400,10,10,2,0xe8,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21384:15636:002493e4,0x00212e18,0x002493e4,21384,15636,-24,-12,-2600,-1400,22,22,2,0x48,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21384:15636:0006ce55,0x00212e19,0x0006ce55,21384,15636,-24,-12,-2600,-1400,10,10,2,0xa8,True,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21384:15648:002493eb,0x00212e15,0x002493eb,21384,15648,-24,0,-2600,-200,22,22,2,0x68,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21372:15636:002493e8,0x00212e16,0x002493e8,21372,15636,-36,-12,-3800,-1400,22,22,2,0x08,False,True,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21384:15648:002493d0,0x00212e17,0x002493d0,21384,15648,-24,0,-2600,-200,10,10,2,0x68,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21372:15648:002493e0,0x00212e18,0x002493e0,21372,15648,-36,0,-3800,-200,10,10,2,0x68,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21396:15624:0006ce55,0x00212e15,0x0006ce55,21396,15624,-12,-24,-1400,-2600,10,10,2,0xe8,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21384:15612:002493ea,0x00212e16,0x002493ea,21384,15612,-24,-36,-2600,-3800,22,22,2,0x28,False,True,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21396:15612:002493d2,0x00212e17,0x002493d2,21396,15612,-12,-36,-1400,-3800,10,10,2,0xe8,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21396:15624:0006ce57,0x00212e18,0x0006ce57,21396,15624,-12,-24,-1400,-2600,10,10,2,0xe8,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21396:15624:002493e7,0x00212e19,0x002493e7,21396,15624,-12,-24,-1400,-2600,22,22,2,0x48,True,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21396:15636:0006ce59,0x00212e15,0x0006ce59,21396,15636,-12,-12,-1400,-1400,10,10,2,0x28,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21396:15636:002493cf,0x00212e16,0x002493cf,21396,15636,-12,-12,-1400,-1400,10,10,2,0xe8,False,True,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21396:15648:002493de,0x00212e16,0x002493de,21396,15648,-12,0,-1400,-200,10,10,2,0xe8,False,True,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21396:15648:002493db,0x00212e17,0x002493db,21396,15648,-12,0,-1400,-200,10,10,2,0xc8,False,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished
+0:21396:15648:002493ed,0x00212e19,0x002493ed,21396,15648,-12,0,-1400,-200,10,10,2,0x68,True,False,CANDIDATE,Compatible-pattern envelope; actual selected membership unestablished

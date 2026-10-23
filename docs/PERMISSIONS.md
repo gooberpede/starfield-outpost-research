@@ -1,5 +1,15 @@
 # Permission and Reuse Register
 
+## RG2-C2C offline source-enumeration research — 2026-10-23
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md)
+authorizes existing protected input reads, original analytical code and bounded
+offline generation/tests. [Per-use provenance](experiments/resource-source-enumeration/sources.csv)
+retains unchanged owned methods under SOR-P-0002. No new third-party incorporation,
+external disclosure, target operation, database/configuration/save change,
+staging, commit, push or publication. [Scoped results](experiments/resource-source-enumeration/report.md)
+and independent review remain separate from integration approval.
+
 ## C2B Phase B and one corrected execution-context retry — 2026-10-23
 
 The maintainer approved the updated [Phase B card](experiments/resource-carinae-source-context/run-card.md)

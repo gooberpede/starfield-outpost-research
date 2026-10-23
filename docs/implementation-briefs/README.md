@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-C2C source enumeration and Carinae reconciliation](CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md): invoked 2026-10-23, offline research and bounded synthetic tests; [report](../experiments/resource-source-enumeration/report.md) and [review](../experiments/resource-source-enumeration/review.md). No live or Git publication authority.
+
 - [C2B transient-save protection amendment](CODEX_AMENDMENT_SOR_C2B_transient_save_protection.md): prospective operational correction; [policy](../SAVE_PROTECTION.md) and [review](../experiments/resource-carinae-source-context/transient-save-protection.md). No live authority.
 
 - [RG2-C2B Carinae procedural source context](CODEX_BRIEF_SOR_RG2_C2B_carinae_procedural_source_context_reconstruction.md): invoked 2026-10-23, Phase A only; [report](../experiments/resource-carinae-source-context/report.md), [review](../experiments/resource-carinae-source-context/review.md), [proposed card](../experiments/resource-carinae-source-context/run-card.md). Separate Phase B approval and exact corpus-disposition decision required.

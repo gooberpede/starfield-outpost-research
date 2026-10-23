@@ -1,0 +1,1948 @@
+{
+  "schema": "sor-c2c-source-analysis/1",
+  "publication": "REVIEW-REQUIRED",
+  "inputs": {
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-installed-settings\\c2b-geometry01.json": "bd4cf4d76c326ecfa88af253c6b50b1dd65e8ecc0aafe7c10367c8f1b9bbbbbb",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry\\source-definitions01.json": "ecf9e86ac36e10cafbeda3c60b626d455e408e51872f4308b7d8005dd15b1783",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-milestone-b-spatial-constants.json": "792288db6c019e033885c9044e21c902fed526cdcf199b3489209ca7b36e025f",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\site-carinae-initial02.json": "0d019138d5ca5d058b0de6989e0534795896233257344e13299fd235a140ec6c",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-geometry-mature-context\\site-feynman-initial02.json": "6f40b0d3166796bbdabb31dd8cd4a00dbfc9da144eb13ba3a336367d2f6c539b",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\outpost-biomes\\carinae iii-a.biom": "bd9a3370b1c1b827cecdbdce318ee1f8af0608c4aade8e4e443968c2a720550f",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\outpost-biomes\\feynman v.biom": "bd06d24e8ca1788481f6a4388c0e262b863b8b376a521752cf3d286c69f23863",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-carinae-source-context\\retail-attempt02\\capture-00084.bin": "84ef43cd63e55369962b0a517fc46f85a4f424f3f998df4bca759165e82c7a90",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-carinae-source-context\\retail-attempt02\\capture-00094.bin": "87d76ee90a9c9737f0a42c937240534041d69c588e9f1b5586aefcbd14e9f2cf",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-carinae-source-context\\retail-attempt02\\capture-00115.bin": "35594488503bae04affe86533c43438d3d2f72b55f646a12211c57b4b0906e39",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-carinae-source-context\\retail-attempt02\\capture-02587.bin": "9ee108f8783cd85a22dfc956d1e542846b3b6b0a3aa4e4d9b02cfde6b06abde9",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-carinae\\retail-attempt02\\capture-01270.bin": "3fc3b69b0ba6bc85efee1a6ae34ebd89cb0d61d4e31dbdce3c3fd4cfa3387c51",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-carinae\\retail-attempt02\\capture-01280.bin": "ac230a6063857b4e7e157a46a7764591e14c6b343b639523878b2bac608e3220",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-carinae\\retail-attempt02\\capture-01301.bin": "0fa04500d2dd0c78daa6829b69bd6b9f47f2afa8c1384e3559673b078b018b7b",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\resource-carinae\\retail-attempt02\\capture-02587.bin": "bc74ed6deefb639e133ed4ef2ca30f478d63d21c71b08ffdec9866011a91a3c1"
+  },
+  "sites": [
+    {
+      "site": "Carinae",
+      "frame": [
+        21408,
+        15648
+      ],
+      "center": [
+        -813.3619384765625,
+        -729.5208740234375
+      ],
+      "halo": {
+        "owner_cell_bounds": [
+          [
+            21392,
+            15632
+          ],
+          [
+            21407,
+            15648
+          ]
+        ],
+        "halo_native": 777.0,
+        "maximum_width": 111.0
+      },
+      "before": [
+        {
+          "id": "0:21372:15612:002493eb",
+          "block": 2397163,
+          "pattern": 2174489,
+          "coarse_pattern_flags": 8,
+          "source_flags": 104,
+          "dimensions": [
+            22,
+            22
+          ],
+          "geographic_origin": [
+            21372,
+            15612
+          ],
+          "local_cell_origin": [
+            -36,
+            -36
+          ],
+          "padding": 2,
+          "origin": [
+            -3800,
+            -3800
+          ],
+          "clip_center": [
+            -2700,
+            -2700,
+            0
+          ],
+          "clip_half": [
+            1300,
+            1300,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            25,
+            1,
+            25
+          ],
+          "resource_biome": 1138905
+        },
+        {
+          "id": "0:21384:15636:0006ce55",
+          "block": 446037,
+          "pattern": 2174489,
+          "coarse_pattern_flags": 8,
+          "source_flags": 168,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            21384,
+            15636
+          ],
+          "local_cell_origin": [
+            -24,
+            -12
+          ],
+          "padding": 2,
+          "origin": [
+            -2600,
+            -1400
+          ],
+          "clip_center": [
+            -2100,
+            -900,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1138905
+        },
+        {
+          "id": "0:21396:15624:002493e7",
+          "block": 2397159,
+          "pattern": 2174489,
+          "coarse_pattern_flags": 8,
+          "source_flags": 72,
+          "dimensions": [
+            22,
+            22
+          ],
+          "geographic_origin": [
+            21396,
+            15624
+          ],
+          "local_cell_origin": [
+            -12,
+            -24
+          ],
+          "padding": 2,
+          "origin": [
+            -1400,
+            -2600
+          ],
+          "clip_center": [
+            -300,
+            -1500,
+            0
+          ],
+          "clip_half": [
+            1300,
+            1300,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            25,
+            1,
+            25
+          ],
+          "resource_biome": 1138905
+        },
+        {
+          "id": "0:21396:15648:002493ed",
+          "block": 2397165,
+          "pattern": 2174489,
+          "coarse_pattern_flags": 8,
+          "source_flags": 104,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            21396,
+            15648
+          ],
+          "local_cell_origin": [
+            -12,
+            0
+          ],
+          "padding": 2,
+          "origin": [
+            -1400,
+            -200
+          ],
+          "clip_center": [
+            -900,
+            300,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1138905
+        }
+      ],
+      "failures": [
+        {
+          "cell": [
+            21392,
+            15636
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15637
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15638
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15639
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15640
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15641
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15642
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15643
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15644
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15645
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15646
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15647
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15636
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15637
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15638
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15639
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15640
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15641
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15642
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15643
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15644
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15645
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15646
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15647
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15636
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15637
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15638
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15639
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15640
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15641
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15642
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15643
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15644
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15645
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15646
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15647
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15636
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15637
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15638
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15639
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15640
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15641
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15642
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15643
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15644
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15645
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15646
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15647
+          ],
+          "pattern": "0x00212e16",
+          "reason": "unqualified source anchor"
+        }
+      ],
+      "compatible_patterns": {
+        "111,81": [
+          2174485,
+          2174486,
+          2174487,
+          2174488,
+          2174489
+        ]
+      },
+      "native_selection": "UNKNOWN; candidate envelope is not native source census",
+      "after": [
+        {
+          "id": "0:21372:15624:002493da",
+          "block": 2397146,
+          "pattern": 2174486,
+          "coarse_pattern_flags": 8,
+          "source_flags": 104,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            21372,
+            15624
+          ],
+          "local_cell_origin": [
+            -36,
+            -24
+          ],
+          "padding": 2,
+          "origin": [
+            -3800,
+            -2600
+          ],
+          "clip_center": [
+            -3300,
+            -2100,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1138905
+        },
+        {
+          "id": "0:21372:15636:002493e8",
+          "block": 2397160,
+          "pattern": 2174486,
+          "coarse_pattern_flags": 8,
+          "source_flags": 8,
+          "dimensions": [
+            22,
+            22
+          ],
+          "geographic_origin": [
+            21372,
+            15636
+          ],
+          "local_cell_origin": [
+            -36,
+            -12
+          ],
+          "padding": 2,
+          "origin": [
+            -3800,
+            -1400
+          ],
+          "clip_center": [
+            -2700,
+            -300,
+            0
+          ],
+          "clip_half": [
+            1300,
+            1300,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            25,
+            1,
+            25
+          ],
+          "resource_biome": 1138905
+        },
+        {
+          "id": "0:21384:15612:002493ea",
+          "block": 2397162,
+          "pattern": 2174486,
+          "coarse_pattern_flags": 8,
+          "source_flags": 40,
+          "dimensions": [
+            22,
+            22
+          ],
+          "geographic_origin": [
+            21384,
+            15612
+          ],
+          "local_cell_origin": [
+            -24,
+            -36
+          ],
+          "padding": 2,
+          "origin": [
+            -2600,
+            -3800
+          ],
+          "clip_center": [
+            -1500,
+            -2700,
+            0
+          ],
+          "clip_half": [
+            1300,
+            1300,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            25,
+            1,
+            25
+          ],
+          "resource_biome": 1138905
+        },
+        {
+          "id": "0:21396:15636:002493cf",
+          "block": 2397135,
+          "pattern": 2174486,
+          "coarse_pattern_flags": 8,
+          "source_flags": 232,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            21396,
+            15636
+          ],
+          "local_cell_origin": [
+            -12,
+            -12
+          ],
+          "padding": 2,
+          "origin": [
+            -1400,
+            -1400
+          ],
+          "clip_center": [
+            -900,
+            -900,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1138905
+        },
+        {
+          "id": "0:21396:15648:002493de",
+          "block": 2397150,
+          "pattern": 2174486,
+          "coarse_pattern_flags": 8,
+          "source_flags": 232,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            21396,
+            15648
+          ],
+          "local_cell_origin": [
+            -12,
+            0
+          ],
+          "padding": 2,
+          "origin": [
+            -1400,
+            -200
+          ],
+          "clip_center": [
+            -900,
+            300,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1138905
+        }
+      ],
+      "after_unresolved_cells": [
+        {
+          "cell": [
+            21392,
+            15636
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15637
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15638
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15639
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15640
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15641
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15642
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15643
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15644
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15645
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15646
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21392,
+            15647
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15636
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15637
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15638
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15639
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15640
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15641
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15642
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15643
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15644
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15645
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15646
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21393,
+            15647
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15636
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15637
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15638
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15639
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15640
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15641
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15642
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15643
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15644
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15645
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15646
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21394,
+            15647
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15636
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15637
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15638
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15639
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15640
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15641
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15642
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15643
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15644
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15645
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15646
+          ],
+          "reason": "unqualified source anchor"
+        },
+        {
+          "cell": [
+            21395,
+            15647
+          ],
+          "reason": "unqualified source anchor"
+        }
+      ],
+      "observed": {
+        "block": "0x002493cf",
+        "tag": 0,
+        "coarse": [
+          111,
+          81
+        ],
+        "pattern": "0x00212e16",
+        "pattern_flags": 8,
+        "sub": [
+          7,
+          7
+        ],
+        "source_block": "0x002493cf",
+        "source_flags": 232,
+        "raw_sha256": "01ab34593269583b7e6d8fc5b95b78135c23f6ef382502ce15cef2a57a8bc654"
+      },
+      "frozen_pattern": "0x00212e19",
+      "diagnostic_source": {
+        "id": "0:21396:15636:002493cf",
+        "block": 2397135,
+        "pattern": 2174486,
+        "coarse_pattern_flags": 8,
+        "source_flags": 232,
+        "dimensions": [
+          10,
+          10
+        ],
+        "geographic_origin": [
+          21396,
+          15636
+        ],
+        "local_cell_origin": [
+          -12,
+          -12
+        ],
+        "padding": 2,
+        "origin": [
+          -1400,
+          -1400
+        ],
+        "clip_center": [
+          -900,
+          -900,
+          0
+        ],
+        "clip_half": [
+          700,
+          700,
+          0
+        ],
+        "cell_bounds": [
+          1,
+          13,
+          1,
+          13
+        ],
+        "resource_biome": 1138905
+      },
+      "observed_anchor_inside_old_halo": true,
+      "replay": {
+        "comparisons": [
+          {
+            "resource": "0x00005df1",
+            "capture": 1270,
+            "exact_matches": 1,
+            "cells": [
+              [
+                6,
+                7
+              ]
+            ],
+            "native_sha256": "dd89c7eb3d4004c3de4afceaff49171442f625ed85e02077a8491c72eb252cee"
+          },
+          {
+            "resource": "0x000057c7",
+            "capture": 1280,
+            "exact_matches": 1,
+            "cells": [
+              [
+                4,
+                5
+              ]
+            ],
+            "native_sha256": "c59382862e65375e00578dd1704951d1b857e6d1dfcc47bb1895a7aaaa86f065"
+          },
+          {
+            "resource": "0x000057c9",
+            "capture": 1301,
+            "exact_matches": 1,
+            "cells": [
+              [
+                5,
+                6
+              ]
+            ],
+            "native_sha256": "efb0414f8445a068360f3de74b4b77c58118c46a0cb3497776ef57a31fad4230"
+          }
+        ],
+        "paths": 79,
+        "per_resource": {
+          "00005df1": 8,
+          "000057c9": 49,
+          "000057c7": 22
+        },
+        "query": {
+          "xyz": [
+            -813.3619384765625,
+            -729.5208740234375,
+            68.7126693725586
+          ],
+          "radius": 150.0,
+          "upper": 168.71267700195312,
+          "positive_paths": [
+            {
+              "resource": "0x00005df1",
+              "cell": [
+                6,
+                7
+              ]
+            },
+            {
+              "resource": "0x000057c9",
+              "cell": [
+                5,
+                6
+              ]
+            },
+            {
+              "resource": "0x000057c9",
+              "cell": [
+                5,
+                7
+              ]
+            },
+            {
+              "resource": "0x000057c7",
+              "cell": [
+                4,
+                5
+              ]
+            },
+            {
+              "resource": "0x000057c7",
+              "cell": [
+                4,
+                6
+              ]
+            },
+            {
+              "resource": "0x000057c7",
+              "cell": [
+                6,
+                4
+              ]
+            },
+            {
+              "resource": "0x000057c7",
+              "cell": [
+                6,
+                6
+              ]
+            }
+          ]
+        },
+        "historical_inputs": "UNKNOWN; current copied descriptor plus installed BIOM/RSGD/order/mask/settings"
+      },
+      "selected_population": {
+        "paths": 978,
+        "per_resource": {
+          "00005df1": 140,
+          "000057c9": 572,
+          "000057c7": 266
+        },
+        "positive_paths": [
+          {
+            "source": "0:21396:15636:002493cf",
+            "resource": "0x00005df1",
+            "cell": [
+              6,
+              7
+            ]
+          },
+          {
+            "source": "0:21396:15636:002493cf",
+            "resource": "0x000057c9",
+            "cell": [
+              5,
+              6
+            ]
+          },
+          {
+            "source": "0:21396:15636:002493cf",
+            "resource": "0x000057c9",
+            "cell": [
+              5,
+              7
+            ]
+          },
+          {
+            "source": "0:21396:15636:002493cf",
+            "resource": "0x000057c7",
+            "cell": [
+              4,
+              5
+            ]
+          },
+          {
+            "source": "0:21396:15636:002493cf",
+            "resource": "0x000057c7",
+            "cell": [
+              4,
+              6
+            ]
+          },
+          {
+            "source": "0:21396:15636:002493cf",
+            "resource": "0x000057c7",
+            "cell": [
+              6,
+              4
+            ]
+          },
+          {
+            "source": "0:21396:15636:002493cf",
+            "resource": "0x000057c7",
+            "cell": [
+              6,
+              6
+            ]
+          }
+        ],
+        "incomplete_due_to_unresolved_cells": true
+      },
+      "excluded_before_sources": [
+        {
+          "source": "0:21372:15612:002493eb",
+          "reason": "Different source identity under witnessed coarse pattern; historical frozen input retained"
+        },
+        {
+          "source": "0:21384:15636:0006ce55",
+          "reason": "Different source identity under witnessed coarse pattern; historical frozen input retained"
+        },
+        {
+          "source": "0:21396:15624:002493e7",
+          "reason": "Different source identity under witnessed coarse pattern; historical frozen input retained"
+        },
+        {
+          "source": "0:21396:15648:002493ed",
+          "reason": "Different source identity under witnessed coarse pattern; historical frozen input retained"
+        }
+      ]
+    },
+    {
+      "site": "Feynman",
+      "frame": [
+        25152,
+        32448
+      ],
+      "center": [
+        -2716.539306640625,
+        -132.11228942871094
+      ],
+      "halo": {
+        "owner_cell_bounds": [
+          [
+            25114,
+            32436
+          ],
+          [
+            25135,
+            32457
+          ]
+        ],
+        "halo_native": 1046.2640687119285,
+        "maximum_width": 111.0
+      },
+      "before": [
+        {
+          "id": "0:25104:32436:002c5878",
+          "block": 2906232,
+          "pattern": 2350728,
+          "coarse_pattern_flags": 8,
+          "source_flags": 40,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25104,
+            32436
+          ],
+          "local_cell_origin": [
+            -48,
+            -12
+          ],
+          "padding": 2,
+          "origin": [
+            -5000,
+            -1400
+          ],
+          "clip_center": [
+            -4500,
+            -900,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1033756
+        },
+        {
+          "id": "0:25104:32448:0024ef53",
+          "block": 2420563,
+          "pattern": 2350578,
+          "coarse_pattern_flags": 8,
+          "source_flags": 232,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25104,
+            32448
+          ],
+          "local_cell_origin": [
+            -48,
+            0
+          ],
+          "padding": 2,
+          "origin": [
+            -5000,
+            -200
+          ],
+          "clip_center": [
+            -4500,
+            300,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1332288
+        },
+        {
+          "id": "0:25116:32436:002c5878",
+          "block": 2906232,
+          "pattern": 2350728,
+          "coarse_pattern_flags": 8,
+          "source_flags": 104,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25116,
+            32436
+          ],
+          "local_cell_origin": [
+            -36,
+            -12
+          ],
+          "padding": 2,
+          "origin": [
+            -3800,
+            -1400
+          ],
+          "clip_center": [
+            -3300,
+            -900,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1033756
+        },
+        {
+          "id": "0:25116:32448:00257f38",
+          "block": 2457400,
+          "pattern": 2350578,
+          "coarse_pattern_flags": 8,
+          "source_flags": 104,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25116,
+            32448
+          ],
+          "local_cell_origin": [
+            -36,
+            0
+          ],
+          "padding": 2,
+          "origin": [
+            -3800,
+            -200
+          ],
+          "clip_center": [
+            -3300,
+            300,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1332288
+        },
+        {
+          "id": "0:25128:32436:0029d210",
+          "block": 2740752,
+          "pattern": 2350728,
+          "coarse_pattern_flags": 8,
+          "source_flags": 136,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25128,
+            32436
+          ],
+          "local_cell_origin": [
+            -24,
+            -12
+          ],
+          "padding": 2,
+          "origin": [
+            -2600,
+            -1400
+          ],
+          "clip_center": [
+            -2100,
+            -900,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1033756
+        },
+        {
+          "id": "0:25128:32448:0029d20f",
+          "block": 2740751,
+          "pattern": 2350578,
+          "coarse_pattern_flags": 8,
+          "source_flags": 8,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25128,
+            32448
+          ],
+          "local_cell_origin": [
+            -24,
+            0
+          ],
+          "padding": 2,
+          "origin": [
+            -2600,
+            -200
+          ],
+          "clip_center": [
+            -2100,
+            300,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1332288
+        }
+      ],
+      "failures": [],
+      "compatible_patterns": {
+        "130,168": [
+          2350728,
+          2350729,
+          2350730,
+          2350731,
+          2357067
+        ],
+        "130,169": [
+          2145326,
+          2350578,
+          2350579,
+          2350580,
+          2350581,
+          2350582
+        ]
+      },
+      "native_selection": "UNKNOWN; candidate envelope is not native source census",
+      "after": [
+        {
+          "id": "0:25104:32436:002c5878",
+          "block": 2906232,
+          "pattern": 2350728,
+          "coarse_pattern_flags": 8,
+          "source_flags": 40,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25104,
+            32436
+          ],
+          "local_cell_origin": [
+            -48,
+            -12
+          ],
+          "padding": 2,
+          "origin": [
+            -5000,
+            -1400
+          ],
+          "clip_center": [
+            -4500,
+            -900,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1033756
+        },
+        {
+          "id": "0:25104:32448:0024ef53",
+          "block": 2420563,
+          "pattern": 2350578,
+          "coarse_pattern_flags": 8,
+          "source_flags": 232,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25104,
+            32448
+          ],
+          "local_cell_origin": [
+            -48,
+            0
+          ],
+          "padding": 2,
+          "origin": [
+            -5000,
+            -200
+          ],
+          "clip_center": [
+            -4500,
+            300,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1332288
+        },
+        {
+          "id": "0:25116:32436:002c5878",
+          "block": 2906232,
+          "pattern": 2350728,
+          "coarse_pattern_flags": 8,
+          "source_flags": 104,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25116,
+            32436
+          ],
+          "local_cell_origin": [
+            -36,
+            -12
+          ],
+          "padding": 2,
+          "origin": [
+            -3800,
+            -1400
+          ],
+          "clip_center": [
+            -3300,
+            -900,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1033756
+        },
+        {
+          "id": "0:25116:32448:00257f38",
+          "block": 2457400,
+          "pattern": 2350578,
+          "coarse_pattern_flags": 8,
+          "source_flags": 104,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25116,
+            32448
+          ],
+          "local_cell_origin": [
+            -36,
+            0
+          ],
+          "padding": 2,
+          "origin": [
+            -3800,
+            -200
+          ],
+          "clip_center": [
+            -3300,
+            300,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1332288
+        },
+        {
+          "id": "0:25128:32436:0029d210",
+          "block": 2740752,
+          "pattern": 2350728,
+          "coarse_pattern_flags": 8,
+          "source_flags": 136,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25128,
+            32436
+          ],
+          "local_cell_origin": [
+            -24,
+            -12
+          ],
+          "padding": 2,
+          "origin": [
+            -2600,
+            -1400
+          ],
+          "clip_center": [
+            -2100,
+            -900,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1033756
+        },
+        {
+          "id": "0:25128:32448:0029d20f",
+          "block": 2740751,
+          "pattern": 2350578,
+          "coarse_pattern_flags": 8,
+          "source_flags": 8,
+          "dimensions": [
+            10,
+            10
+          ],
+          "geographic_origin": [
+            25128,
+            32448
+          ],
+          "local_cell_origin": [
+            -24,
+            0
+          ],
+          "padding": 2,
+          "origin": [
+            -2600,
+            -200
+          ],
+          "clip_center": [
+            -2100,
+            300,
+            0
+          ],
+          "clip_half": [
+            700,
+            700,
+            0
+          ],
+          "cell_bounds": [
+            1,
+            13,
+            1,
+            13
+          ],
+          "resource_biome": 1332288
+        }
+      ],
+      "excluded_before_sources": []
+    }
+  ]
+}

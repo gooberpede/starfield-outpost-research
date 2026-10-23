@@ -1,0 +1,7 @@
+source,pattern,block,geographic_x,geographic_y,local_x,local_y,origin_x,origin_y,nominal_x,nominal_y,padding,source_flags,in_before,in_after,classification,reason
+0:25104:32436:002c5878,0x0023de88,0x002c5878,25104,32436,-48,-12,-5000,-1400,10,10,2,0x28,True,True,DERIVED,No independent pattern witness; retain conditional frozen inventory
+0:25104:32448:0024ef53,0x0023ddf2,0x0024ef53,25104,32448,-48,0,-5000,-200,10,10,2,0xe8,True,True,DERIVED,No independent pattern witness; retain conditional frozen inventory
+0:25116:32436:002c5878,0x0023de88,0x002c5878,25116,32436,-36,-12,-3800,-1400,10,10,2,0x68,True,True,DERIVED,No independent pattern witness; retain conditional frozen inventory
+0:25116:32448:00257f38,0x0023ddf2,0x00257f38,25116,32448,-36,0,-3800,-200,10,10,2,0x68,True,True,DERIVED,No independent pattern witness; retain conditional frozen inventory
+0:25128:32436:0029d210,0x0023de88,0x0029d210,25128,32436,-24,-12,-2600,-1400,10,10,2,0x88,True,True,DERIVED,No independent pattern witness; retain conditional frozen inventory
+0:25128:32448:0029d20f,0x0023ddf2,0x0029d20f,25128,32448,-24,0,-2600,-200,10,10,2,0x08,True,True,DERIVED,No independent pattern witness; retain conditional frozen inventory

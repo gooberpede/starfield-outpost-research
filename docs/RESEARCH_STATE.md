@@ -1,5 +1,15 @@
 # Current Research State
 
+**2026-10-23 — RG2-C2C offline reconciliation:** [Report](experiments/resource-source-enumeration/report.md)
+identifies retained Carinae SFPT `0x00212e16` versus frozen `0x00212e19`.
+Witnessed coarse-pattern enumeration discovers the omitted (-12, -12) source
+without anchor insertion; whole-source installed-input replay exactly matches
+Iron, Alkanes and Rothicite. Four Feynman exact controls remain. Historical
+selector operands, 48 unresolved halo cells and native census coverage remain
+open. [Inventories](experiments/resource-source-enumeration/inventories.md) and
+[review](experiments/resource-source-enumeration/review.md) control the proposed
+scoped result. No live, integration or publication authority; B6 remains on hold.
+
 **2026-10-23 — C2B Phase B source-context capture:** [Result](experiments/resource-carinae-source-context/phase-b.md)
 joins complete Iron/Alkanes/Rothicite decisions to one Carinae transfer. Their
 observed source anchor (-12,-12) is absent from the four frozen prediction

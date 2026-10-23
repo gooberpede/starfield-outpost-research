@@ -1,0 +1,5 @@
+source,pattern,block,geographic_x,geographic_y,local_x,local_y,origin_x,origin_y,nominal_x,nominal_y,padding,source_flags,in_before,in_after,classification,reason
+0:21372:15612:002493eb,0x00212e19,0x002493eb,21372,15612,-36,-36,-3800,-3800,22,22,2,0x68,True,False,DERIVED,Frozen ordinary initialization pattern and owner-cell halo
+0:21384:15636:0006ce55,0x00212e19,0x0006ce55,21384,15636,-24,-12,-2600,-1400,10,10,2,0xa8,True,False,DERIVED,Frozen ordinary initialization pattern and owner-cell halo
+0:21396:15624:002493e7,0x00212e19,0x002493e7,21396,15624,-12,-24,-1400,-2600,22,22,2,0x48,True,False,DERIVED,Frozen ordinary initialization pattern and owner-cell halo
+0:21396:15648:002493ed,0x00212e19,0x002493ed,21396,15648,-12,0,-1400,-200,10,10,2,0x68,True,False,DERIVED,Frozen ordinary initialization pattern and owner-cell halo

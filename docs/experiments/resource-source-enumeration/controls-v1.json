@@ -1,0 +1,246 @@
+{
+  "schema": "sor-c2c-controls/1",
+  "receipt_sha256": "88f1f3b7663fbf31f53794cbe72a60f521433f0076f7005783c8353711add71f",
+  "sites": [
+    {
+      "site": "Feynman",
+      "baseline_count": 156,
+      "installed_count": 156,
+      "accepted": [
+        {
+          "capture": 299,
+          "resource": "0x000057d4",
+          "native_source_ordinal": 31,
+          "raw_sha256": "0575a3af8403ed2333bb2a3d0ab7f9543f5957e31d79af2758c30635786b806b",
+          "geometry_sha256": "89ebdcb3e0a707aa35c9bc3a2d8e582bd8fcf87e8c83a18d31072f36d60f0850",
+          "baseline_matches": 0,
+          "installed_matches": [
+            {
+              "source": "0:25116:32448:00257f38",
+              "cell": [
+                10,
+                1
+              ]
+            }
+          ],
+          "query_xyz": [
+            -2716.539306640625,
+            -132.11228942871094,
+            -0.10489535331726074
+          ],
+          "radius": 150.0,
+          "absolute_upper": 99.89510345458984,
+          "retained_query_replay": {
+            "schema": "sor-resource-spatial-result/1",
+            "status": "KNOWN",
+            "accepted": true,
+            "branch": "vertex_xy_radius_height",
+            "provenance": "static native transcription; synthetic qualification",
+            "reason": null
+          },
+          "native_generation_source": "UNKNOWN",
+          "historical_epoch": "UNKNOWN"
+        },
+        {
+          "capture": 325,
+          "resource": "0x000057cf",
+          "native_source_ordinal": 31,
+          "raw_sha256": "c6a217abbdf668129e2f9d2bdbc9aab6086c2a9e6e73a2fa135939e94c0d2e08",
+          "geometry_sha256": "c9e7d24c23473b4981b9b55da6cf10a5b507c70f16fe4a9ee6b416c94c1f504b",
+          "baseline_matches": 1,
+          "installed_matches": [
+            {
+              "source": "0:25116:32448:00257f38",
+              "cell": [
+                11,
+                1
+              ]
+            }
+          ],
+          "query_xyz": [
+            -2716.539306640625,
+            -132.11228942871094,
+            -0.10489535331726074
+          ],
+          "radius": 150.0,
+          "absolute_upper": 99.89510345458984,
+          "retained_query_replay": {
+            "schema": "sor-resource-spatial-result/1",
+            "status": "KNOWN",
+            "accepted": true,
+            "branch": "single_point_broadphase",
+            "provenance": "static native transcription; synthetic qualification",
+            "reason": null
+          },
+          "native_generation_source": "UNKNOWN",
+          "historical_epoch": "UNKNOWN"
+        },
+        {
+          "capture": 696,
+          "resource": "0x000057ce",
+          "native_source_ordinal": 54,
+          "raw_sha256": "110a86096417540d497a4d0d7b825ff5618a5ab70a77741a293dfa68f8eda780",
+          "geometry_sha256": "eb6f8e39d230b310f7e01060f3bf8bf56783c96230c6296efcb20a7e75114d95",
+          "baseline_matches": 1,
+          "installed_matches": [
+            {
+              "source": "0:25116:32436:002c5878",
+              "cell": [
+                10,
+                12
+              ]
+            }
+          ],
+          "query_xyz": [
+            -2716.539306640625,
+            -132.11228942871094,
+            -0.10489535331726074
+          ],
+          "radius": 150.0,
+          "absolute_upper": 99.89510345458984,
+          "retained_query_replay": {
+            "schema": "sor-resource-spatial-result/1",
+            "status": "KNOWN",
+            "accepted": true,
+            "branch": "vertex_xy_radius_height",
+            "provenance": "static native transcription; synthetic qualification",
+            "reason": null
+          },
+          "native_generation_source": "UNKNOWN",
+          "historical_epoch": "UNKNOWN"
+        },
+        {
+          "capture": 716,
+          "resource": "0x000057cb",
+          "native_source_ordinal": 54,
+          "raw_sha256": "c2a70ec1f13eb15934fd95762a5145daf2a455485be20102a79e6195cc2b8c11",
+          "geometry_sha256": "17392d7214736e07f44358bc717c2672e72c26ecf0064a408453b147202bc15f",
+          "baseline_matches": 1,
+          "installed_matches": [
+            {
+              "source": "0:25116:32436:002c5878",
+              "cell": [
+                11,
+                12
+              ]
+            }
+          ],
+          "query_xyz": [
+            -2716.539306640625,
+            -132.11228942871094,
+            -0.10489535331726074
+          ],
+          "radius": 150.0,
+          "absolute_upper": 99.89510345458984,
+          "retained_query_replay": {
+            "schema": "sor-resource-spatial-result/1",
+            "status": "KNOWN",
+            "accepted": true,
+            "branch": "vertex_xy_radius_height",
+            "provenance": "static native transcription; synthetic qualification",
+            "reason": null
+          },
+          "native_generation_source": "UNKNOWN",
+          "historical_epoch": "UNKNOWN"
+        }
+      ],
+      "chance_comparison": [
+        {
+          "capture": 1129,
+          "call_capture": 1020,
+          "resource": "0x000057d4",
+          "cell": [
+            10,
+            1
+          ],
+          "observed": {
+            "weight": "0x3d4ccccd",
+            "draw": "0x3efba983",
+            "threshold": "0x3f400000",
+            "edge": "ADMIT"
+          },
+          "predicted": {
+            "weight": "0x3d4ccccd",
+            "draw": "0x3efba983",
+            "threshold": "0x3f400000",
+            "edge": "ADMIT"
+          },
+          "equal": true,
+          "receipt_sha256": "656e917496e2e596015a3f0f9c99cdb42ba7122b990db35b18ac4bd509b9d30d",
+          "call_sha256": "c05fa2829744b28b8823cab53611980e506456a603c4af9d8f95a9964c2d19ee"
+        },
+        {
+          "capture": 1141,
+          "call_capture": 1020,
+          "resource": "0x000057d4",
+          "cell": [
+            11,
+            1
+          ],
+          "observed": {
+            "weight": "0x3d4ccccd",
+            "draw": "0x4123d9da",
+            "threshold": "0x3f400000",
+            "edge": "REJECT"
+          },
+          "predicted": {
+            "weight": "0x3d4ccccd",
+            "draw": "0x4123d9da",
+            "threshold": "0x3f400000",
+            "edge": "REJECT"
+          },
+          "equal": true,
+          "receipt_sha256": "6be87b01284d6294c85f6fffe168fb492b4bd387471cb00a88d696b6b3fe4e74",
+          "call_sha256": "c05fa2829744b28b8823cab53611980e506456a603c4af9d8f95a9964c2d19ee"
+        },
+        {
+          "capture": 1431,
+          "call_capture": 1310,
+          "resource": "0x000057cf",
+          "cell": [
+            11,
+            1
+          ],
+          "observed": {
+            "weight": "0x3e99999a",
+            "draw": "0x4123d9da",
+            "threshold": "0x41900000",
+            "edge": "ADMIT"
+          },
+          "predicted": {
+            "weight": "0x3e99999a",
+            "draw": "0x4123d9da",
+            "threshold": "0x41900000",
+            "edge": "ADMIT"
+          },
+          "equal": true,
+          "receipt_sha256": "3b4002ef5ec01825a63f9b7bdb06d49e57f42a9b46008447dcf79f8ca7236d8d",
+          "call_sha256": "ab224bbbfa53acd60226b2b29ed8e59a0da3517db6491f645fabbaedb67daafa"
+        }
+      ],
+      "visited": {
+        "REJECT": 961,
+        "REJECT_exact_modeled_geometry": 147,
+        "retained_query_False_native_REJECT": 961,
+        "ACCEPT": 4,
+        "ACCEPT_exact_modeled_geometry": 4,
+        "retained_query_True_native_ACCEPT": 4
+      },
+      "actual_retained_query_positive_paths": {
+        "0x000057ce": 1,
+        "0x000057cb": 1,
+        "0x000057d4": 1,
+        "0x000057cf": 1
+      }
+    },
+    {
+      "site": "Carinae",
+      "baseline_count": 895,
+      "installed_count": 895,
+      "accepted": null,
+      "chance_comparison": null,
+      "visited": null,
+      "actual_retained_query_positive_paths": null
+    }
+  ]
+}

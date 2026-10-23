@@ -1,5 +1,16 @@
 # Source Register
 
+## RG2-C2C selected-pattern and observed-source reconciliation
+
+[Source ledger](experiments/resource-source-enumeration/sources.csv) pins the
+existing native selector/constructor/provider/consumer exports, frozen v2,
+installed-settings requests and closed C2A/C2B receipts. [Report](experiments/resource-source-enumeration/report.md)
+reuses unchanged owned context/geometry, independent framing and C1H controls
+under SOR-P-0002, with new bounded interpretation and analytical code. No sibling
+repository or outside source was newly consulted; no third-party incorporation,
+new licence basis, contact or disclosure. Raw inputs remain LOCAL-ONLY;
+authored selected results remain REVIEW-REQUIRED.
+
 ## C2B Phase B source-context acquisition
 
 [Runtime report](experiments/resource-carinae-source-context/phase-b.md) and
