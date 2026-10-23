@@ -1,5 +1,14 @@
 # Current Research State
 
+**2026-10-23 — C2B transient-save amendment:** [Prospective protection](SAVE_PROTECTION.md)
+excludes reliably classified active exitsave/autosave churn while retaining
+strict research/manual/quicksave, backup and historical evidence checks.
+The maintainer designated nonstandard `funclist.sfs` protected. The old C2B
+exitsave rotation no longer requires corpus acceptance; [amended operational
+review](experiments/resource-carinae-source-context/transient-save-protection.md)
+controls delivery. No Carinae live run is authorized; Phase B remains pending
+maintainer approval. Earlier chronology is preserved below.
+
 **2026-10-23 — RG2-C2B source context:** [Offline report](experiments/resource-carinae-source-context/report.md) confirms all three consumed Carinae paths still mismatch the unchanged 895-path baseline; a pre-existing alternate frame also fails the separate coherent projection. Four Feynman exact paths and three chance controls pass. A qualified consumer extension copies the missing source-key referent and manager frame without inventing producer history; [proposed card](experiments/resource-carinae-source-context/run-card.md) requires separate live approval and explicit exitsave-corpus reconciliation. [Review/package](experiments/resource-carinae-source-context/review.md) controls Phase A acceptance. No retail, restoration, publication or Git mutation authority.
 
 **2026-10-23 — Carinae Phase B/C:** [Native result](experiments/resource-carinae/phase-b.md) captures an accepted two-point Iron region and Alkanes/Rothicite controls in one Carinae-bound pre-install transfer. All 2587 captures/ACKs are complete. Separately approved exact comparison finds no accepted-path match in the immutable installed prediction; source/frame/generation cause remains OPEN. The scanner-only first attempt and explicitly requested reviewed retry are preserved. Saves, installed inputs and protected evidence are unchanged; [independent review/package](experiments/resource-carinae/phase-b-review.md) controls completion. No further live, fitting, Git publication or release authority.

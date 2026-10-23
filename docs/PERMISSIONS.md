@@ -1,5 +1,17 @@
 # Permission and Reuse Register
 
+## C2B prospective transient-save correction — 2026-10-23
+
+The invoked [amendment](implementation-briefs/CODEX_AMENDMENT_SOR_C2B_transient_save_protection.md)
+authorizes the operational implementation and [prospective policy](SAVE_PROTECTION.md):
+active exitsave/autosave churn is diagnostic only, while designated research,
+manual and quicksaves, backup records and historical evidence remain strict.
+The maintainer explicitly designated `funclist.sfs` protected regardless of its
+unknown nominal kind. No file was renamed, restored, deleted or rehashed into a
+replacement historical baseline. The old exitsave rotation needs no additional
+corpus acceptance under this amendment. This grants no game launch/attachment,
+save/configuration mutation, integration, staging, commit, push or publication.
+
 ## Carinae bounded Phase B, corrected retry and offline Phase C
 
 The maintainer approved the [C2A Phase B card](experiments/resource-carinae/run-card.md) conditional on fresh preflight and confirmed Steam Cloud disabled. After correcting the scanner-only first attempt, “Can we try again?” explicitly authorized one same-target corrected retry under the independently reviewed [addendum](experiments/resource-carinae/retry-run-card-01.md). “Authorize Phase C comparison” separately authorized the prepared nonfitting offline comparison after useful capture. Exact instructions/receipt hashes and execution limits are retained in the [result/source ledger](experiments/resource-carinae/phase-b.md). No further live session, retarget, arbitrary fitting, save/config modification, restore, external disclosure, staging, commit, push or publication follows. SOR-P-0002 covers owned method reuse; no new third-party incorporation or licence acceptance occurred.

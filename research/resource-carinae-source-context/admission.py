@@ -1,25 +1,12 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""Pure prospective save-corpus gate; never writes, restores or operates a target.
-
-A missing historical save needs a separate explicit, hash-bound maintainer
-disposition. This predicate cannot confer that authority itself.
-"""
+"""Pure prospective protected-save gate and unchanged scientific transfer test."""
+from save_policy import admission as save_admission
 
 
-def admit(live, backup, historical, disposition=None, card_hash=None):
-    assert backup == historical, 'Independent historical backup changed'
-    missing = sorted(set(historical) - set(live))
-    added = sorted(set(live) - set(historical))
-    assert all(live[n] == historical[n] for n in set(live) & set(historical)), 'Existing save changed'
-    if missing or added:
-        assert disposition is not None, 'Missing historical saves require explicit disposition'
-        assert disposition['status'] == 'ACCEPT_CURRENT_CORPUS_PRESERVE_BACKUP'
-        assert disposition['human_instruction'].strip() and card_hash is not None
-        assert disposition['card_sha256'] == card_hash
-        assert disposition['missing'] == {n: historical[n] for n in missing}
-        assert disposition['added'] == {n: live[n] for n in added}
-        assert disposition['restore_authorized'] is False
-    return missing, added
+def admit(live, backup, historical, policy):
+    result = save_admission(live, backup, historical, policy)
+    assert result['ok'], result
+    return result
 
 
 def useful_transfer(row, accepted):

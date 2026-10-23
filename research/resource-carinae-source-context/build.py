@@ -46,7 +46,7 @@ def main():
     script.write_text('@echo off\n' + '\n'.join(commands) + '\n', encoding='utf8', newline='\r\n')
     p = subprocess.run(['cmd', '/d', '/c', str(script)], cwd=out, capture_output=True)
     (out / 'build.log').write_bytes(p.stdout + p.stderr)
-    files = [VC, *SRC.glob('*.cpp'), SRC / 'fixture.asm', *SRC.glob('*.h'), *SRC.glob('*.inc'), *SRC.glob('*.py'), * (ROOT / 'research/resource-oracle-retail').glob('*.h'), Path(__file__), *out.glob('*')]
+    files = [VC, *SRC.glob('*.cpp'), SRC / 'fixture.asm', *SRC.glob('*.h'), *SRC.glob('*.inc'), *SRC.glob('*.py'), SRC / 'save_policy.json', * (ROOT / 'research/resource-oracle-retail').glob('*.h'), Path(__file__), *out.glob('*')]
     (out / 'build.json').write_text(json.dumps(dict(exit_code=p.returncode, files={str(f): pin(f) for f in files if f.is_file()}), indent=2) + '\n', encoding='utf8', newline='\n')
     print(out, p.returncode)
     print((p.stdout + p.stderr).decode(errors='replace')[-4000:])

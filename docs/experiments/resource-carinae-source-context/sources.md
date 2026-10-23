@@ -1,5 +1,11 @@
 # C2B provenance and method effects
 
+**Prospective operational amendment, 2026-10-23:**
+[Transient-save protection](transient-save-protection.md) supersedes the old
+exitsave corpus-disposition requirement and operational helper descriptions.
+Historical observations, failed gates, source pins and acceptance snapshots
+below retain their original scope. Current Phase B remains pending approval.
+
 [Exact pins](sources.csv), [typed native joins](native.md), [report](report.md).
 Starting HEAD `ad7e5fc54fe3e7d080317f9f899c3de81b4718d0`; index SHA-256
 `9566a6a009501b1d9e20ce7b1eada76a05e28cf01d0135bdadd9a9e54724c1ed`.

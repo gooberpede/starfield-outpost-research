@@ -48,6 +48,15 @@ No project-wide debugger backend or instrumentation framework is mandated; each 
 
 ## Scientific experiment continuation and health
 
+Prospective save preservation follows [SAVE_PROTECTION](docs/SAVE_PROTECTION.md):
+protect explicitly designated research saves, manual saves and quicksaves;
+exclude reliably classified active exitsaves/autosaves from preservation/equality
+gates while retaining diagnostics; fail closed on unclassified saves. An explicit
+research designation overrides kind and requires independently verified backup
+readiness. Historical evidence and backup records remain strict. Apply this
+classification consistently before reusing a legacy operational helper; old
+manifests and failed-run verdicts remain historical, not rewritten baselines.
+
 Prospective correction, 2026-10-12, under the [fallback-grid brief](docs/implementation-briefs/CODEX_BRIEF_SOR_fallback_grid_provenance_and_workflow_policy.md).
 
 **Elapsed time, evidence volume, a delayed operator action, or a routine monitoring-cadence overrun alone must not terminate an otherwise healthy scientific experiment.** Do not invent hard session/admission deadlines, event counts, evidence-size quotas or arbitrary capture cutoffs. Preserve the **40,000,000,000-byte caller-available free-space guard on both C: and D:**, verified target/plugin identities and instruction guards, protected inputs, instrumentation/evidence integrity, actual worker failure, and explicit operator STOP.

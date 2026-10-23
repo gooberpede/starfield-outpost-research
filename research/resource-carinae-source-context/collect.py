@@ -55,11 +55,20 @@ def main():
         assert transport.pin(p)==h
     for p,h in pre['code_pins'].items():
         assert transport.pin(p)==h
-    from admission import admit, useful_transfer
-    missing,added=admit(pre['live'],pre['backup'],pre['backup'],pre.get('integrity_disposition'),transport.pin(card))
-    assert missing==pre['accepted_missing'] and added==pre['accepted_added'] and pre['status']=='OFFLINE_CHECKED_NOT_AUTHORIZED'
-    for folder,inventory in ((Path(pre['live_path']),pre['live']),(Path(pre['backup_path']),pre['backup']),(Path(pre['supplemental_path']),pre['supplemental'])):
-        assert {p.relative_to(folder).as_posix():p.stat().st_size for p in folder.rglob('*') if p.is_file()}=={n:r['bytes'] for n,r in inventory.items()}
+    from admission import useful_transfer
+    from save_policy import load_policy, policy_hash, sizes, partition
+    assert pre['schema']=='sor-c2b-preflight/2'
+    policy=pre['save_policy']
+    assert pre['save_policy_sha256']==policy_hash(policy)==policy_hash(load_policy())
+    assert pre['status']=='OFFLINE_CHECKED_NOT_AUTHORIZED'
+    # Full protected hashes were checked offline before launch. This bounded
+    # admission check retains name/size checks without hashing during gameplay.
+    current=sizes(Path(pre['live_path']),policy)
+    live_parts=partition(current,policy)
+    assert not live_parts['unclassified']
+    assert {n:r['bytes'] for n,r in live_parts['protected'].items()}=={n:r['bytes'] for n,r in pre['protected_live'].items()}
+    folder=Path(pre['backup_path'])
+    assert {p.relative_to(folder).as_posix():p.stat().st_size for p in folder.rglob('*') if p.is_file()}=={n:r['bytes'] for n,r in pre['backup'].items()}
     assert min(shutil.disk_usage(d).free for d in ('C:/','D:/'))>=40_000_000_000
     process=json.loads(subprocess.check_output(['powershell','-NoProfile','-Command',
         f'Get-Process -Id {a.pid} | Select-Object Id,Path,@{{n="StartUtc";e={{$_.StartTime.ToUniversalTime().ToString("o")}}}} | ConvertTo-Json'],text=True))

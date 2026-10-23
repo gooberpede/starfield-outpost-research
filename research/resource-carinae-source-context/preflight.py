@@ -2,9 +2,9 @@
 """OFFLINE inventory/guard/backup audit; never launches or attaches to a game.
 
 Reads installed definitions/config, live saves and C1D independent backups, source
-pins and synthetic qualifications. Hashes both save trees; after exact explicit
-corpus approval, copies additions to a new supplemental backup and rehearses
-Save52 restoration in a new ignored scratch file. Writes a fresh local receipt, never restores
+pins and synthetic qualifications. Classifies live save kinds prospectively,
+hashes protected saves and all historical backup records, and rehearses Save52
+restoration in a new ignored scratch file. Writes a fresh local receipt, never restores
 live saves or changes Cloud/config, Git, databases or prior evidence. Python
 stdlib, existing Windows/Git tooling; no downloads/dependencies.
 """
@@ -22,7 +22,7 @@ LOCAL = ROOT / '.local-work/resource-carinae-source-context'
 sys.path.insert(0, str(ROOT / 'research/resource-oracle-retail'))
 from saves import inventory, SAVES, EXPECTED
 from collect import pin, write
-from admission import admit
+from save_policy import load_policy, policy_hash, snapshot, partition, admission
 from protection import audit, sync_snapshot
 
 GAME = Path('C:/Program Files (x86)/Steam/steamapps/common/Starfield')
@@ -33,7 +33,6 @@ def main():
     ap.add_argument('--build', type=Path, required=True)
     ap.add_argument('--qualification', type=Path, required=True)
     ap.add_argument('--name', required=True)
-    ap.add_argument('--integrity-disposition', type=Path)
     a = ap.parse_args()
     assert a.name and all(c in 'abcdefghijklmnopqrstuvwxyz0123456789-' for c in a.name)
     assert subprocess.check_output(['powershell','-NoProfile','-Command',
@@ -50,8 +49,9 @@ def main():
     q = json.loads(a.qualification.read_text())
     assert q['context_tests_exit'] == 0
     assert q['synthetic'] and q['build_sha256'] == pin(build/'build.json') and len(q['cases']) == 42 and all(c['passed'] for c in q['cases'])
-    protection = audit()
-    sync = sync_snapshot()
+    policy = load_policy()
+    protection = audit(policy)
+    sync = sync_snapshot(policy)
     write(out/'protected-audit.json', protection)
     write(out/'sync-audit.json', sync)
     assert not protection['changes'] and sync['matches_historical']
@@ -68,20 +68,14 @@ def main():
     approved_installed = json.loads((ROOT/'.local-work/resource-carinae/pilot-preflight02/preflight.json').read_text())
     assert definitions == approved_installed['definitions'] and config == approved_installed['config']
     previous = json.loads((ROOT/'.local-work/resource-oracle-retail/preflight-saves.json').read_text())
-    live = inventory(SAVES)
+    live = snapshot(SAVES, policy)
     backup_path = Path(previous['backup_path'])
     backup = inventory(backup_path)
-    card = ROOT/'docs/experiments/resource-carinae-source-context/run-card.md'
-    disposition = json.loads(a.integrity_disposition.read_text()) if a.integrity_disposition else None
-    write(out/'save-corpus-diagnostic.json', dict(live=live, backup=backup, historical=previous['backup'], disposition=disposition))
-    missing, added = admit(live, backup, previous['backup'], disposition, pin(card))
-    supplemental_path = out/'supplemental-backup'
-    supplemental_path.mkdir()
-    for name in added:
-        shutil.copyfile(SAVES/name,supplemental_path/name)
-    supplemental = inventory(supplemental_path)
-    assert supplemental == {name:live[name] for name in added}
-    n = next(n for n,r in live.items() if n.startswith('Save52_') and r['sha256']==EXPECTED)
+    result = admission(live, backup, previous['backup'], policy)
+    write(out/'save-corpus-diagnostic.json', dict(live=live, backup=backup, historical=previous['backup'], policy=policy, result=result))
+    assert result['ok'], result
+    n = next(name for name, row in policy['designated'].items() if row['sha256'] == EXPECTED)
+    assert live[n] == backup[n] and live[n]['sha256'] == EXPECTED
     scratch = out/'restore-rehearsal.sfs'
     shutil.copyfile(backup_path/n,scratch)
     assert pin(scratch) == EXPECTED
@@ -98,14 +92,13 @@ def main():
         c=at(r,5);assert c[0]==0xe8 and r+5+struct.unpack_from('<i',c,1)[0]==dest
     assert at(0x21e174e,4)==bytes.fromhex('4883c330')
     assert at(0x21e1772,4)==bytes.fromhex('488b5e08')
-    write(out/'preflight.json', dict(status='OFFLINE_CHECKED_NOT_AUTHORIZED', utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),
+    write(out/'preflight.json', dict(schema='sor-c2b-preflight/2',save_policy=policy,save_policy_sha256=policy_hash(policy),
+        protected_live=partition(live,policy)['protected'],status='OFFLINE_CHECKED_NOT_AUTHORIZED', utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),
         build_sha256=pin(build/'build.json'), controller_sha256=pin(build/'sor-c2b-controller.exe'),
         qualification_sha256=pin(a.qualification), guards=guards,definitions=definitions,config=config,
         code_pins={str(p):pin(p) for p in (ROOT/'research/resource-carinae-source-context').glob('*.py')},
         exe_sha256=pin(exe),live=live,backup=backup,backup_path=str(backup_path),live_path=str(SAVES),
         protected_audit_sha256=pin(out/'protected-audit.json'),sync=sync,
-        accepted_missing=missing,accepted_added=added,integrity_disposition=disposition,
-        supplemental=supplemental,supplemental_path=str(supplemental_path),
         save52=n,restore_rehearsal_sha256=pin(scratch),cloud_current='UNKNOWN_REQUIRES_FRESH_OPERATOR_CONFIRMATION',
         free_bytes={d:shutil.disk_usage(d).free for d in ('C:/','D:/')}))
     print(out, 'offline only', len(live), 'live and backup saves',len(definitions),'definitions')

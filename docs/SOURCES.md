@@ -1,5 +1,16 @@
 # Source Register
 
+## C2B prospective transient-save protection
+
+[The amendment record](experiments/resource-carinae-source-context/transient-save-protection.md)
+and [current pins](experiments/resource-carinae-source-context/transient-sources.csv)
+cover the owned C2B operational adaptation, original EXP0002A native filename
+formatter evidence, unchanged historical manifests/backups and the maintainer's
+explicit `funclist.sfs` protection designation. SOR-P-0002 applies to owned code
+reuse; no outside code, dependency, licence basis, contact or disclosure was
+introduced. Active transient classification does not clear raw historical
+research bytes or publication. No game execution occurred.
+
 ## RG2-C2B Carinae source context
 
 [Source ledger](experiments/resource-carinae-source-context/sources.csv) and [method effects](experiments/resource-carinae-source-context/sources.md) bind owned C2A debugger/fixture/transport adaptation, unchanged RG1/RG2-A1/C1H arithmetic and exact replay, prior native exports/receipts, Save52 and supplied JPEG constraints. Narrow consultation of the owned prior resource-research CK notes does not establish retail Carinae ancestry. SOR-P-0002 applies; no third-party incorporation, dependency, new licence basis, contact, download or disclosure. Raw inputs remain LOCAL-ONLY; authored synthesis REVIEW-REQUIRED. The proposed consumer-frame capture remains unauthorized.

@@ -1,8 +1,10 @@
 # Proposed C2B Phase B: bind the consumed Carinae source frame
 
-2026-10-23, Australia/Sydney. **PROPOSED ONLY — NOT AUTHORIZED.**
+2026-10-23, Australia/Sydney. **Phase B: PENDING MAINTAINER APPROVAL.**
+Prospectively amended under the [transient-save correction](transient-save-protection.md);
+scientific scope and one-session action limits are unchanged.
 [Frozen Phase A contract](contract.md), [qualification](verification.md),
-[source pins](sources.csv), [discriminator](comparison.md).
+[amended source pins](transient-sources.csv), [discriminator](comparison.md).
 Independent review cannot approve launch, attachment, save recovery or publication.
 
 ## Scientific discriminator and identity
@@ -24,8 +26,9 @@ Alkanes `0x000057c9`, Rothicite `0x00005df1`. Saved beacon token `82be17`
 and historical runtime FormID `0xff02b6a8` are contextual records, never inputs
 to runtime pointer resolution. Slot 24 is not an expected permanent identity.
 
-Use `.local-work/resource-carinae-source-context/build06`, whose exact build and
-controller pins are in [sources.csv](sources.csv). A changed source/tool/binary
+Use `.local-work/resource-carinae-source-context/transient-build01`; its exact
+build/controller pins are in [transient-sources.csv](transient-sources.csv).
+A changed source/tool/binary
 requires fresh qualification and independent review before this card is used.
 DR0–DR3 retain RVAs `0x021e07d0`, `0x021e1772`, `0x021e174e`, `0x021e0bf4`.
 Preflight records exact 16-byte disk preimages and verifies calls at RVAs
@@ -41,47 +44,46 @@ or context verification failures. No software breakpoints or code patching.
    disposable process, including DR/RF intervention and controlled disposal.
    The process may exit before catalogue appearance. No approval receipt is
    created during Phase A.
-2. Resolve the already observed historical exitsave discrepancy. The old protected
-   live file `Exitsave0_BA75E3CDM43616F205472616E_580748_20261022002200_319_15_4.sfs`
-   is absent, and `Exitsave0_BA75E3CDM43616F205472616E_580746_20261023053108_319_15_4.sfs`
-   is newly present relative to that historical corpus. Save52 and independent
-   backups remain protected. Both corpora contain 271 files; equal counts do
-   not establish equal contents. Do not launch under the stale corpus claim. The maintainer must separately approve
-   named recovery, or explicitly accept the current corpus while preserving
-   the historical backup. No automatic restore or deletion is permitted.
-3. For the latter option only, retain the actual explicit instruction in a new
-   local integrity-disposition JSON. Required fields: `status` equal to
-   `ACCEPT_CURRENT_CORPUS_PRESERVE_BACKUP`, nonempty `human_instruction`, exact
-   `card_sha256`, `missing` mapping each absent basename to its original
-   `{bytes,sha256}` from the protected backup inventory, `added` mapping every
-   new basename to its exact current `{bytes,sha256}`, and
-   `restore_authorized:false`. Approval must include copying those additions
-   to a new supplemental backup outside game/sync writes before launch. The helper refuses undeclared additions, changed
-   existing saves/backups, inaccurate missing entries or a different card. This prospective
-   procedure does not presume that acceptance has been given.
+2. Apply [the prospective save policy](../../SAVE_PROTECTION.md). Protect
+   designated research/manual saves and quicksaves, exact historical backup
+   records and all raw research evidence. Exclude reliably classified active
+   exitsaves/autosaves from preservation gates; retain their churn as diagnostic
+   information. Unclassified saves fail closed. The tracked exact policy includes
+   Save52 and the maintainer-designated `funclist.sfs`; its hash is bound into
+   the preflight receipt. Do not infer kind from a filename substring.
+3. The previously observed old/new exitsave rotation is historical transient
+   churn. It requires no corpus-disposition JSON, supplemental transient backup,
+   restoration or further approval. Preserve the original manifests, failure
+   receipts and independently stored backup bytes. Newly changed/missing
+   protected saves, missing/corrupt backups, or unclassified saves still stop
+   admission. A later explicit transient research designation requires exact
+   pins and an independently verified backup before admission.
 4. Confirm game absent. Operator inspects Steam Cloud and confirms it disabled
    through postflight. Verify actual Documents/Saves, reparse/OneDrive ancestors,
-   Steam userdata/remote and remotecache write paths, and that pause/travel/wait/
-   rest autosaves remain disabled. Unknown active sync/write paths or changed
-   settings stop admission; this card does not authorize configuration changes.
+   Steam userdata/remote and remotecache write paths, and the existing
+   pause/travel/wait/rest autosave configuration. Unknown active sync/write
+   paths or changed settings stop admission; this card does not authorize
+   configuration changes.
    Keep both drives above 40,000,000,000 caller-available bytes throughout.
 5. Run fresh offline qualification and preflight, with fresh output names:
 
    ```powershell
    $c2bPython = 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe'
-   & $c2bPython -B research/resource-carinae-source-context/qualify.py --build .local-work/resource-carinae-source-context/build06 --output .local-work/resource-carinae-source-context/pilot-qualification01
-   & $c2bPython -B research/resource-carinae-source-context/preflight.py --build .local-work/resource-carinae-source-context/build06 --qualification .local-work/resource-carinae-source-context/pilot-qualification01/qualification.json --integrity-disposition .local-work/resource-carinae-source-context/integrity-disposition01.json --name pilot-preflight01
+   & $c2bPython -B research/resource-carinae-source-context/qualify.py --build .local-work/resource-carinae-source-context/transient-build01 --output .local-work/resource-carinae-source-context/pilot-qualification01
+   & $c2bPython -B research/resource-carinae-source-context/preflight.py --build .local-work/resource-carinae-source-context/transient-build01 --qualification .local-work/resource-carinae-source-context/pilot-qualification01/qualification.json --name pilot-preflight01
    ```
 
    Require 42 debugger cases and the context-memory unit controls PASS. Preflight
    verifies all pinned source/build bytes, installed definitions/configuration,
-   full protected-content hashes, live/backup save content and Steam remote/cache
-   hashes. It rehearses Save52 restoration to a fresh ignored scratch file and
+   full protected-content hashes, protected live saves, all historical backup
+   records and filtered Steam saves plus unchanged Cloud metadata/cache hashes.
+   It rehearses Save52 restoration to a fresh ignored scratch file and
    verifies the original hash. Diagnostics persist before corpus assertions.
-   The historical backup remains unchanged. Explicitly admitted additions get
-   an independent hash-verified supplemental backup; the absent original is
-   retained in the historical backup. Repeat full audits before launch if any
-   intervening game/save/config activity occurred. Do not perform full scans
+   The historical backup remains unchanged. All protected names/hashes/backup
+   identities must agree; equal total save counts are insufficient. The schema-2
+   receipt binds the policy and records full classifications and transient
+   diagnostics. Repeat full audits before launch if intervening gameplay could
+   have changed protected inputs. Do not perform full scans
    during play unless a specific integrity incident requires one.
 6. Retain the verbatim fresh instruction in `pilot-approval01.json`, with
    `status:GO_PHASE_B`, `human_instruction`, `card_sha256`, `build_sha256`,
@@ -98,7 +100,7 @@ or context verification failures. No software breakpoints or code patching.
    play process or launch the EXE directly. At the main menu, before loading:
 
    ```powershell
-   & $c2bPython -B research/resource-carinae-source-context/collect.py --retail-pilot --approval .local-work/resource-carinae-source-context/pilot-approval01.json --preflight .local-work/resource-carinae-source-context/pilot-preflight01/preflight.json --build .local-work/resource-carinae-source-context/build06 --pid PID --launch-utc UTC --output .local-work/resource-carinae-source-context/retail-attempt01
+   & $c2bPython -B research/resource-carinae-source-context/collect.py --retail-pilot --approval .local-work/resource-carinae-source-context/pilot-approval01.json --preflight .local-work/resource-carinae-source-context/pilot-preflight01/preflight.json --build .local-work/resource-carinae-source-context/transient-build01 --pid PID --launch-utc UTC --output .local-work/resource-carinae-source-context/retail-attempt01
    ```
 
    Pass PID and UTC as exact arguments; avoid PowerShell locale timestamp
@@ -169,8 +171,11 @@ stderr, incomplete files and exit accounting. No automatic relaunch.
     & $c2bPython -B research/resource-carinae-source-context/postflight.py --preflight .local-work/resource-carinae-source-context/pilot-preflight01/preflight.json --output .local-work/resource-carinae-source-context/postflight-attempt01.json
     ```
 
-    Require exact pre/post live, historical-backup and supplemental-backup inventories, installed/configuration,
-    protected-content and Steam remote/cache equality. Record additions/removals/
+    Require exact protected-live and all historical-backup inventories,
+    installed/configuration/protected-evidence equality and the filtered Steam
+    comparison plus unchanged Cloud metadata/cache hashes. Classify with the
+    same hash-bound policy; log active transient additions/replacements/removals
+    without treating them as failures or restoring them. Record additions/removals/
     changes before assertions. Preserve any changed file outside active/sync
     paths before a recovery decision. No helper restores or deletes saves.
 11. Recovery requires separate explicit permission naming each affected path.

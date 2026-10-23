@@ -1,5 +1,11 @@
 # C2B verification, failures and reproduction
 
+**Prospective operational amendment, 2026-10-23:**
+[Transient-save protection](transient-save-protection.md) supersedes the old
+exitsave corpus-disposition requirement and operational helper descriptions.
+Historical observations, failed gates, source pins and acceptance snapshots
+below retain their original scope. Current Phase B remains pending approval.
+
 [Report](report.md), [source pins](sources.csv), [review matrix](review.md).
 Run from repository root with installed CPython 3.14, `-B` and no `-O`.
 Use new output names; existing artifacts are never overwritten.

@@ -1,5 +1,11 @@
 # Carinae source context: the geographic join remains missing
 
+**Prospective operational amendment, 2026-10-23:**
+[Transient-save protection](transient-save-protection.md) supersedes the old
+exitsave corpus-disposition requirement and operational helper descriptions.
+Historical observations, failed gates, source pins and acceptance snapshots
+below retain their original scope. Current Phase B remains pending approval.
+
 2026-10-23, Australia/Sydney. **Phase A only. Phase B is not authorized.**
 [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2B_carinae_procedural_source_context_reconstruction.md),
 [frozen contract](contract.md), [native ancestry](native.md),

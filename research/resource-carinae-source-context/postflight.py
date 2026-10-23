@@ -14,7 +14,8 @@ ROOT=Path(__file__).resolve().parents[2]
 LOCAL=ROOT/'.local-work/resource-carinae-source-context'
 sys.path.insert(0,str(ROOT/'research/resource-oracle-retail'))
 from saves import inventory
-from protection import audit, sync_snapshot
+from protection import audit, sync_snapshot, sync_equal
+from save_policy import snapshot, compare, load_policy, policy_hash
 from collect import pin,write
 
 
@@ -32,7 +33,10 @@ def main():
     assert subprocess.check_output(['powershell','-NoProfile','-Command',
         '@(Get-Process Starfield -ErrorAction SilentlyContinue).Count'],text=True).strip()=='0'
     pre=json.loads(a.preflight.read_text())
-    live=inventory(Path(pre['live_path']));backup=inventory(Path(pre['backup_path']))
+    assert pre['schema']=='sor-c2b-preflight/2'
+    policy=pre['save_policy']
+    assert pre['save_policy_sha256']==policy_hash(policy)==policy_hash(load_policy())
+    live=snapshot(Path(pre['live_path']),policy);backup=inventory(Path(pre['backup_path']))
     game=Path('C:/Program Files (x86)/Steam/steamapps/common/Starfield')
     definitions={str(p):dict(bytes=p.stat().st_size,sha256=pin(p)) for p in (game/'Data').iterdir()
         if p.suffix.lower() in ('.esm','.esp','.esl')}
@@ -41,9 +45,9 @@ def main():
         for p in folder.iterdir():
             if p.is_file() and (p.suffix.lower()=='.ini' or p.name.lower() in ('plugins.txt','loadorder.txt')):
                 config[str(p)]=pin(p)
-    protection=audit();sync=sync_snapshot()
-    supplemental=inventory(Path(pre['supplemental_path']))
-    result=dict(supplemental=supplemental,supplemental_changes=changes(pre['supplemental'],supplemental),protection=protection,sync=sync,preflight_sha256=pin(a.preflight),live=live,backup=backup,
+    protection=audit(policy);sync=sync_snapshot(policy)
+    live_comparison=compare(pre['live'],live,policy)
+    result=dict(live_comparison=live_comparison,protection=protection,sync=sync,preflight_sha256=pin(a.preflight),live=live,backup=backup,
         live_changes=changes(pre['live'],live),backup_changes=changes(pre['backup'],backup),
         definitions=definitions,config=config,
         definition_changes=changes(pre['definitions'],definitions),config_changes=changes(pre['config'],config),
@@ -51,11 +55,10 @@ def main():
         restoration='NONE_PERFORMED_REQUIRES_NAMED_AUTHORITY')
     write(a.output,result)
     print(a.output,result['live_changes'],result['backup_changes'])
-    assert not any(result['live_changes'].values()) and not any(result['backup_changes'].values())
+    assert live_comparison['ok'] and not any(result['backup_changes'].values())
     assert not any(result['definition_changes'].values()) and not any(result['config_changes'].values())
     assert not result['changed_exe']
-    assert not any(result['supplemental_changes'].values())
-    assert not protection['changes'] and sync == pre['sync']
+    assert not protection['changes'] and sync_equal(pre['sync'],sync,policy)
 
 
 if __name__=='__main__':

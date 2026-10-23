@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from admission import admit, useful_transfer
+from admission import useful_transfer
 from qualify import independent, preserve
 
 
@@ -31,28 +31,6 @@ class Contract(unittest.TestCase):
         self.assertEqual(row, before)
         self.assertEqual(struct.unpack('<4f', bytes.fromhex(result['geometry']['ordered_xyzw'])),
                          (86.6380615234375, 70.4791259765625, 0, 25))
-
-    def test_missing_corpus_requires_exact_authority(self):
-        old = {'Save52': dict(bytes=3, sha256='52'), 'Exitsave0': dict(bytes=4, sha256='exit')}
-        live = {'Save52': old['Save52']}
-        with self.assertRaises(AssertionError):
-            admit(live, old, old)
-        decision = dict(status='ACCEPT_CURRENT_CORPUS_PRESERVE_BACKUP',
-            human_instruction='Synthetic approval fixture', card_sha256='card',
-            missing={'Exitsave0': old['Exitsave0']}, added={}, restore_authorized=False)
-        self.assertEqual(admit(live, old, old, decision, 'card'), (['Exitsave0'], []))
-        current = dict(live, NewExit=dict(bytes=4, sha256='new'))
-        with self.assertRaises(AssertionError):
-            admit(current, old, old, decision, 'card')
-        accepted = dict(decision, added={'NewExit': current['NewExit']})
-        self.assertEqual(admit(current, old, old, accepted, 'card'), (['Exitsave0'], ['NewExit']))
-        for field, value in (('card_sha256', 'other'), ('human_instruction', ''),
-                             ('missing', {}), ('restore_authorized', True)):
-            bad = dict(decision, **{field: value})
-            with self.assertRaises(AssertionError):
-                admit(live, old, old, bad, 'card')
-        with self.assertRaises(AssertionError):
-            admit({'Save52': dict(bytes=3, sha256='changed')}, old, old, decision, 'card')
 
     def test_receipt_loss_truncation_and_ack(self):
         root = Path(__file__).resolve().parents[2] / '.local-work/resource-carinae-source-context'

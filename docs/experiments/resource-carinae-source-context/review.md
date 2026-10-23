@@ -1,5 +1,11 @@
 # C2B acceptance and exact delivery
 
+**Prospective operational amendment, 2026-10-23:**
+[Transient-save protection](transient-save-protection.md) supersedes the old
+exitsave corpus-disposition requirement and operational helper descriptions.
+Historical observations, failed gates, source pins and acceptance snapshots
+below retain their original scope. Current Phase B remains pending approval.
+
 [Original frozen AC1–AC8](contract.md), [report](report.md),
 [verification and preserved failures](verification.md), [sources](sources.csv).
 This matrix evaluates Phase A. It does not declare the scientific cause resolved
