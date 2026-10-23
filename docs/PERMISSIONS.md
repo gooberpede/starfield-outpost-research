@@ -1,5 +1,15 @@
 # Permission and Reuse Register
 
+## RG2-D1 offline portable geometry — 2026-10-24
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md)
+authorizes fresh read-only installed extraction, owned code adaptation and
+isolated local prediction/tests. [Per-use pins](experiments/resource-standalone/sources.csv)
+cover SOR-P-0002 methods and primary evidence. No third-party incorporation,
+licence acceptance, contact, disclosure, live operation, save/configuration/DB
+change, staging, commit, push or publication. Actual corpus LOCAL-ONLY; authored
+specifications REVIEW-REQUIRED; code publication remains undecided.
+
 ## RG2-C2D offline surface selection — 2026-10-23
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md)

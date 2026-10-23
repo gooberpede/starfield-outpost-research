@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D1 standalone geometry](resource-standalone/report.md): measured portable corpus alternatives, seven exact native paths, qualified availability and independent [review](resource-standalone/review.md). Offline only; actual corpus LOCAL-ONLY.
+
 - [RG2-C2D upstream surface-pattern selection](resource-pattern-selection/report.md): independent PNDT/SFTR prediction, 48-cell lookup correction, both sites' before/after inventories and seven exact geometry controls; [review package](resource-pattern-selection/review.md). Offline only; no native census claim.
 
 - [RG2-C2C source enumeration and Carinae reconciliation](resource-source-enumeration/report.md): retained-pattern discrepancy, independently enumerated observed source and three exact geometry matches; preserved Feynman controls, explicit fallback/census limits and [review package](resource-source-enumeration/review.md). Offline only.

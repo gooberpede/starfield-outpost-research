@@ -1,5 +1,13 @@
 # Current Research State
 
+**2026-10-24 — RG2-D1 portable geometry:** [Report](experiments/resource-standalone/report.md)
+implements a corpus-only predictor for three supplied interior tiles. Both
+16,792-byte normalized and 25,942-byte expanded corpora reproduce seven exact
+native paths; qualified geometric availability and UNKNOWN coverage are separate.
+Actual payloads stay local; [review](experiments/resource-standalone/review.md)
+controls completion. Native census, historical epoch and final catalogue remain
+unknown. B6/publication stay on hold; no live, staging, commit or push.
+
 **2026-10-23 — RG2-C2D upstream surface selection:** [Report](experiments/resource-pattern-selection/report.md)
 independently follows PNDT's installed SFTR reference to predict Carinae
 `0x00212e16`, preserving the failed default-regeneration prediction. A native

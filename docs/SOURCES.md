@@ -1,5 +1,16 @@
 # Source Register
 
+## RG2-D1 portable geometry and minimal corpus
+
+Bethesda supplies pinned installed ESM/EXE/PlanetData and the earlier native
+controls. [Per-use pins](experiments/resource-standalone/sources.csv) distinguish
+fresh extraction, unchanged owned arithmetic, adapted RG1/planetary selection,
+independent receipt comparison and the editorial-only helper snapshot.
+SOR-P-0002 covers maintainer-owned methods; CPython/Git are existing separate
+tools. No new outside implementation or dependency was incorporated. Actual
+corpora/full geometry remain LOCAL-ONLY; authored specifications REVIEW-REQUIRED,
+code publication undecided. [Rights](experiments/resource-standalone/rights.md).
+
 ## RG2-C2D linked surface trees and source lookup
 
 Bethesda's pinned installed EXE/main ESM provide the PNDT/SFTR definitions and

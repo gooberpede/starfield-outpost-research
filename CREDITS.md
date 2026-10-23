@@ -1,5 +1,14 @@
 # Credits
 
+## RG2-D1 standalone resource geometry
+
+Bethesda supplies the inspected installed data and native evidence. The
+maintainer supplied the earlier controlled captures and owns the RG1/C2D
+geometry/context, ESM/receipt/protection methods and planetary reproducer reused
+under SOR-P-0002. [Exact per-use pins](docs/experiments/resource-standalone/sources.csv)
+retain provenance. Existing CPython and Git remain separate tools. No outside
+implementation was incorporated or proprietary payload cleared for publication.
+
 ## RG2-C2D upstream surface-pattern selection
 
 Bethesda supplies installed native/definition evidence, including the precomputed

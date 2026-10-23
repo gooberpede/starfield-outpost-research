@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-D1 portable corpus and standalone geometry](CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md): invoked 2026-10-24, offline extraction/implementation/tests only; [report](../experiments/resource-standalone/report.md), [review](../experiments/resource-standalone/review.md). B6/publication remain on hold; no live or Git integration authority.
+
 - [RG2-C2D surface-pattern selection and source coverage](CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md): invoked 2026-10-23, offline only; [report](../experiments/resource-pattern-selection/report.md), [review](../experiments/resource-pattern-selection/review.md). No live or Git integration authority.
 
 - [RG2-C2C source enumeration and Carinae reconciliation](CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md): invoked 2026-10-23, offline research and bounded synthetic tests; [report](../experiments/resource-source-enumeration/report.md) and [review](../experiments/resource-source-enumeration/review.md). No live or Git publication authority.

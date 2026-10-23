@@ -1,0 +1,606 @@
+{
+  "schema": "sor-d1-selected-results/1",
+  "publication": "REVIEW-REQUIRED",
+  "local_summary_sha256": "5a9a60e71f664254efdf549b834109baa0acb2ad9a1656fb674bf0e55b18ebae",
+  "local_manifest_sha256": "8918f8508424f4c28aab93fe67e08cec229690f7814aa59be2d3e3b11ab2d1f4",
+  "build_seconds": [
+    9.064193500002148,
+    9.229640399993514
+  ],
+  "variants": [
+    {
+      "bytes": 16792,
+      "payload_sha256": "2a3b6a176b8e54168aaa85a93a2db94093585e7dfcc3f8711d7938db6e4ad66b",
+      "representation": "normalized",
+      "sha256": "367a97b8669ff3978bd9bf0dab91873ad1067980c35a56dabdb6d1fe0c928ed2",
+      "zlib9_bytes": 3125
+    },
+    {
+      "bytes": 25942,
+      "payload_sha256": "dec8ca1b20b51397c93219e21fe2afba7dd4dc2cb15ea63dc8c067c374375c1d",
+      "representation": "expanded",
+      "sha256": "2eb9c86d9ec31f79929861bb553d73812dff43b58ae2a2f968ccb063d7ca468f",
+      "zlib9_bytes": 4252
+    }
+  ],
+  "record_counts": {
+    "bodies": 2,
+    "constants": 16,
+    "generation_blocks": 4,
+    "patterns": 3,
+    "source_blocks": 106
+  },
+  "sites": [
+    {
+      "body": "0005e0de",
+      "regions": 103,
+      "sources": 4,
+      "matched_native_controls": 4,
+      "missing_native_controls": 0,
+      "additional_generated_paths_without_seven_control_witness": 99,
+      "additional_paths_classification": "UNVERIFIED; not established native extras or errors",
+      "spatial_membership": {
+        "000057cb": {
+          "INTERIOR": 0,
+          "BOUNDARY": 0,
+          "OUTSIDE": 31,
+          "UNKNOWN": 0
+        },
+        "000057ce": {
+          "INTERIOR": 0,
+          "BOUNDARY": 0,
+          "OUTSIDE": 19,
+          "UNKNOWN": 0
+        },
+        "000057cf": {
+          "INTERIOR": 0,
+          "BOUNDARY": 0,
+          "OUTSIDE": 29,
+          "UNKNOWN": 0
+        },
+        "000057d0": {
+          "INTERIOR": 0,
+          "BOUNDARY": 0,
+          "OUTSIDE": 21,
+          "UNKNOWN": 0
+        },
+        "000057d4": {
+          "INTERIOR": 0,
+          "BOUNDARY": 0,
+          "OUTSIDE": 3,
+          "UNKNOWN": 0
+        }
+      },
+      "availability": {
+        "000057cb": {
+          "callback_complete": true,
+          "callback_present": true,
+          "scope": "Conditional ordinary planar veins in enumerated source halo; final catalogue UNKNOWN",
+          "status": "PRESENT"
+        },
+        "000057ce": {
+          "callback_complete": true,
+          "callback_present": true,
+          "scope": "Conditional ordinary planar veins in enumerated source halo; final catalogue UNKNOWN",
+          "status": "PRESENT"
+        },
+        "000057cf": {
+          "callback_complete": true,
+          "callback_present": true,
+          "scope": "Conditional ordinary planar veins in enumerated source halo; final catalogue UNKNOWN",
+          "status": "PRESENT"
+        },
+        "000057d0": {
+          "callback_complete": true,
+          "callback_present": false,
+          "scope": "Conditional ordinary planar veins in enumerated source halo; final catalogue UNKNOWN",
+          "status": "ABSENT_WITHIN_PROVEN_SCOPE"
+        },
+        "000057d4": {
+          "callback_complete": true,
+          "callback_present": true,
+          "scope": "Conditional ordinary planar veins in enumerated source halo; final catalogue UNKNOWN",
+          "status": "PRESENT"
+        }
+      },
+      "native_census": "UNKNOWN"
+    },
+    {
+      "body": "0005e4da",
+      "regions": 1326,
+      "sources": 6,
+      "matched_native_controls": 3,
+      "missing_native_controls": 0,
+      "additional_generated_paths_without_seven_control_witness": 1323,
+      "additional_paths_classification": "UNVERIFIED; not established native extras or errors",
+      "spatial_membership": {
+        "000057c7": {
+          "INTERIOR": 0,
+          "BOUNDARY": 0,
+          "OUTSIDE": 366,
+          "UNKNOWN": 0
+        },
+        "000057c9": {
+          "INTERIOR": 0,
+          "BOUNDARY": 0,
+          "OUTSIDE": 764,
+          "UNKNOWN": 0
+        },
+        "00005df1": {
+          "INTERIOR": 1,
+          "BOUNDARY": 0,
+          "OUTSIDE": 195,
+          "UNKNOWN": 0
+        }
+      },
+      "availability": {
+        "000057c7": {
+          "callback_complete": true,
+          "callback_present": true,
+          "scope": "Conditional ordinary planar veins in enumerated source halo; final catalogue UNKNOWN",
+          "status": "PRESENT"
+        },
+        "000057c9": {
+          "callback_complete": true,
+          "callback_present": true,
+          "scope": "Conditional ordinary planar veins in enumerated source halo; final catalogue UNKNOWN",
+          "status": "PRESENT"
+        },
+        "00005df1": {
+          "callback_complete": true,
+          "callback_present": true,
+          "scope": "Conditional ordinary planar veins in enumerated source halo; final catalogue UNKNOWN",
+          "status": "PRESENT"
+        }
+      },
+      "native_census": "UNKNOWN"
+    }
+  ],
+  "comparisons": [
+    {
+      "body": "0005e0de",
+      "capture": 299,
+      "variant": "normalized",
+      "resource": "0x000057d4",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e0de",
+      "capture": 299,
+      "variant": "expanded",
+      "resource": "0x000057d4",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e0de",
+      "capture": 325,
+      "variant": "normalized",
+      "resource": "0x000057cf",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e0de",
+      "capture": 325,
+      "variant": "expanded",
+      "resource": "0x000057cf",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e0de",
+      "capture": 696,
+      "variant": "normalized",
+      "resource": "0x000057ce",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e0de",
+      "capture": 696,
+      "variant": "expanded",
+      "resource": "0x000057ce",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e0de",
+      "capture": 716,
+      "variant": "normalized",
+      "resource": "0x000057cb",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e0de",
+      "capture": 716,
+      "variant": "expanded",
+      "resource": "0x000057cb",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e4da",
+      "capture": 1270,
+      "variant": "normalized",
+      "resource": "0x00005df1",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e4da",
+      "capture": 1270,
+      "variant": "expanded",
+      "resource": "0x00005df1",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e4da",
+      "capture": 1280,
+      "variant": "normalized",
+      "resource": "0x000057c7",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e4da",
+      "capture": 1280,
+      "variant": "expanded",
+      "resource": "0x000057c7",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e4da",
+      "capture": 1301,
+      "variant": "normalized",
+      "resource": "0x000057c9",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    },
+    {
+      "body": "0005e4da",
+      "capture": 1301,
+      "variant": "expanded",
+      "resource": "0x000057c9",
+      "exact_matches": 1,
+      "native_decision": "ACCEPT",
+      "callback_matches": true
+    }
+  ],
+  "startup": [
+    {
+      "variant": "normalized",
+      "cold_process_load_seconds": 0.28952429999480955
+    },
+    {
+      "variant": "expanded",
+      "cold_process_load_seconds": 0.1426006999972742
+    }
+  ],
+  "benchmarks": [
+    {
+      "variant": "normalized",
+      "case": "one-outpost",
+      "requests": 1,
+      "bodies": 1,
+      "prediction_seconds": [
+        0.5657267000060529,
+        0.5596145000017714
+      ],
+      "median_seconds": 0.5626706000039121,
+      "load_validate_median_seconds": 0.0008626999988337047,
+      "regions": [
+        103
+      ],
+      "coverage": "Only supplied interior coarse tiles"
+    },
+    {
+      "variant": "normalized",
+      "case": "one-planet",
+      "requests": 3,
+      "bodies": 1,
+      "prediction_seconds": [
+        1.689029399989522,
+        1.6845141999947373
+      ],
+      "median_seconds": 1.6867717999921297,
+      "load_validate_median_seconds": 0.0008515500085195526,
+      "regions": [
+        103,
+        103,
+        103
+      ],
+      "coverage": "Only supplied interior coarse tiles"
+    },
+    {
+      "variant": "normalized",
+      "case": "multiple-planets",
+      "requests": 2,
+      "bodies": 2,
+      "prediction_seconds": [
+        37.52891490000184,
+        37.408675700004096
+      ],
+      "median_seconds": 37.46879530000297,
+      "load_validate_median_seconds": 0.0008532999927410856,
+      "regions": [
+        103,
+        1326
+      ],
+      "coverage": "Only supplied interior coarse tiles"
+    },
+    {
+      "variant": "expanded",
+      "case": "one-outpost",
+      "requests": 1,
+      "bodies": 1,
+      "prediction_seconds": [
+        0.5604411999956938,
+        0.5563115999975707
+      ],
+      "median_seconds": 0.5583763999966322,
+      "load_validate_median_seconds": 0.0014843499957351014,
+      "regions": [
+        103
+      ],
+      "coverage": "Only supplied interior coarse tiles"
+    },
+    {
+      "variant": "expanded",
+      "case": "one-planet",
+      "requests": 3,
+      "bodies": 1,
+      "prediction_seconds": [
+        1.7043733000027714,
+        1.682063600004767
+      ],
+      "median_seconds": 1.6932184500037692,
+      "load_validate_median_seconds": 0.0014548499893862754,
+      "regions": [
+        103,
+        103,
+        103
+      ],
+      "coverage": "Only supplied interior coarse tiles"
+    },
+    {
+      "variant": "expanded",
+      "case": "multiple-planets",
+      "requests": 2,
+      "bodies": 2,
+      "prediction_seconds": [
+        36.91788649999944,
+        36.67484079999849
+      ],
+      "median_seconds": 36.796363649998966,
+      "load_validate_median_seconds": 0.0014869000006001443,
+      "regions": [
+        103,
+        1326
+      ],
+      "coverage": "Only supplied interior coarse tiles"
+    }
+  ],
+  "sizes": [
+    {
+      "variant": "normalized",
+      "bodies": [],
+      "bytes": 15951,
+      "zlib9_bytes": 2878,
+      "note": "Fixed shared tables retained to expose per-body marginal cost; empty-body size is accounting only"
+    },
+    {
+      "variant": "normalized",
+      "bodies": [
+        "0005e0de"
+      ],
+      "bytes": 16473,
+      "zlib9_bytes": 3062,
+      "note": "Fixed shared tables retained to expose per-body marginal cost; empty-body size is accounting only"
+    },
+    {
+      "variant": "normalized",
+      "bodies": [
+        "0005e4da"
+      ],
+      "bytes": 16269,
+      "zlib9_bytes": 3035,
+      "note": "Fixed shared tables retained to expose per-body marginal cost; empty-body size is accounting only"
+    },
+    {
+      "variant": "normalized",
+      "bodies": [
+        "0005e0de",
+        "0005e4da"
+      ],
+      "bytes": 16792,
+      "zlib9_bytes": 3125,
+      "note": "Fixed shared tables retained to expose per-body marginal cost; empty-body size is accounting only"
+    },
+    {
+      "variant": "expanded",
+      "bodies": [],
+      "bytes": 1230,
+      "zlib9_bytes": 609,
+      "note": "Fixed shared tables retained to expose per-body marginal cost; empty-body size is accounting only"
+    },
+    {
+      "variant": "expanded",
+      "bodies": [
+        "0005e0de"
+      ],
+      "bytes": 17663,
+      "zlib9_bytes": 3098,
+      "note": "Fixed shared tables retained to expose per-body marginal cost; empty-body size is accounting only"
+    },
+    {
+      "variant": "expanded",
+      "bodies": [
+        "0005e4da"
+      ],
+      "bytes": 9508,
+      "zlib9_bytes": 1914,
+      "note": "Fixed shared tables retained to expose per-body marginal cost; empty-body size is accounting only"
+    },
+    {
+      "variant": "expanded",
+      "bodies": [
+        "0005e0de",
+        "0005e4da"
+      ],
+      "bytes": 25942,
+      "zlib9_bytes": 4252,
+      "note": "Fixed shared tables retained to expose per-body marginal cost; empty-body size is accounting only"
+    }
+  ],
+  "ablations": [
+    {
+      "group": "constants",
+      "operation": "remove",
+      "status": "UNKNOWN",
+      "reason": "MALFORMED_CORPUS: 'constants'"
+    },
+    {
+      "group": "settings",
+      "operation": "remove",
+      "status": "UNKNOWN",
+      "reason": "MALFORMED_CORPUS: 'settings'"
+    },
+    {
+      "group": "patterns",
+      "operation": "remove",
+      "status": "UNKNOWN",
+      "reason": "MALFORMED_CORPUS: 'patterns'"
+    },
+    {
+      "group": "source_blocks",
+      "operation": "remove",
+      "status": "UNKNOWN",
+      "reason": "MALFORMED_CORPUS: 'source_blocks'"
+    },
+    {
+      "group": "generation_blocks",
+      "operation": "remove",
+      "status": "UNKNOWN",
+      "reason": "MALFORMED_CORPUS: 'generation_blocks'"
+    },
+    {
+      "group": "bodies",
+      "operation": "remove",
+      "status": "UNKNOWN",
+      "reason": "MALFORMED_CORPUS: 'bodies'"
+    },
+    {
+      "group": "inactive-settings",
+      "operation": "perturb",
+      "status": "CONDITIONAL_GEOMETRY",
+      "geometry_changed": true
+    },
+    {
+      "group": "source-dimensions",
+      "operation": "perturb",
+      "status": "CONDITIONAL_GEOMETRY",
+      "geometry_changed": true
+    },
+    {
+      "group": "competition-order",
+      "operation": "perturb",
+      "status": "CONDITIONAL_GEOMETRY",
+      "geometry_changed": true
+    },
+    {
+      "group": "system-key",
+      "operation": "perturb",
+      "status": "CONDITIONAL_GEOMETRY",
+      "geometry_changed": true
+    }
+  ],
+  "isolation": [
+    {
+      "variant": "normalized",
+      "body": "0005e0de",
+      "seconds": 0.6931618999951752,
+      "denied_probes": 8,
+      "forbidden_inference_attempts": 0,
+      "output_sha256": "9588b9eac0eb1aa501348d5593643a27a73f1465e116de25edfb63624c576073"
+    },
+    {
+      "variant": "normalized",
+      "body": "0005e4da",
+      "seconds": 35.83288609998999,
+      "denied_probes": 8,
+      "forbidden_inference_attempts": 0,
+      "output_sha256": "50c79000ec56363a6dca592ee25a3abe05aa5adc91a11ce6abaddbdf65a2e899"
+    },
+    {
+      "variant": "expanded",
+      "body": "0005e0de",
+      "seconds": 0.7019462000025669,
+      "denied_probes": 8,
+      "forbidden_inference_attempts": 0,
+      "output_sha256": "826b7e8fdfa370d41954d91daafafdd56ac467b7e6c6b79ab92d3266a2e93d3a"
+    },
+    {
+      "variant": "expanded",
+      "body": "0005e4da",
+      "seconds": 36.71541079999588,
+      "denied_probes": 8,
+      "forbidden_inference_attempts": 0,
+      "output_sha256": "f24d2b2f5346e5e0d60d672966b3f73d18528909fd41c9954a81aa7b2ce741c2"
+    }
+  ],
+  "tests_total": 96,
+  "postflight": {
+    "frozen_files": 21857,
+    "frozen_equal": true,
+    "protected_rows": 12974,
+    "protected_changes": 0,
+    "head_unchanged": true,
+    "index_unchanged": true,
+    "free_bytes": {
+      "C:/": 92036128768,
+      "D:/": 103952777216
+    }
+  },
+  "determinism": {
+    "corpus_variants_identical": true,
+    "flat_code_identical": true,
+    "builds": [
+      "build03",
+      "build04"
+    ],
+    "variants": [
+      {
+        "bytes": 16792,
+        "payload_sha256": "2a3b6a176b8e54168aaa85a93a2db94093585e7dfcc3f8711d7938db6e4ad66b",
+        "representation": "normalized",
+        "sha256": "367a97b8669ff3978bd9bf0dab91873ad1067980c35a56dabdb6d1fe0c928ed2",
+        "zlib9_bytes": 3125
+      },
+      {
+        "bytes": 25942,
+        "payload_sha256": "dec8ca1b20b51397c93219e21fe2afba7dd4dc2cb15ea63dc8c067c374375c1d",
+        "representation": "expanded",
+        "sha256": "2eb9c86d9ec31f79929861bb553d73812dff43b58ae2a2f968ccb063d7ca468f",
+        "zlib9_bytes": 4252
+      }
+    ]
+  }
+}
