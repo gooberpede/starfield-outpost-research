@@ -1,0 +1,362 @@
+{
+  "synthetic": true,
+  "cases": [
+    {
+      "mode": "good",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "generic-resource",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "short-circuit",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "rothicite",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "wrong-cell",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "partial-page",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "source-reuse",
+      "passed": true,
+      "exit": 0,
+      "samples": 4,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "no-hit",
+      "passed": true,
+      "exit": 0,
+      "samples": 0,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "retained-cache",
+      "passed": true,
+      "exit": 0,
+      "samples": 0,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "alkanes",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "reject",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "multi",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "maximum",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "multi-reject",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "sources",
+      "passed": true,
+      "exit": 0,
+      "samples": 4,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "nested",
+      "passed": true,
+      "exit": 0,
+      "samples": 6,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "threads",
+      "passed": true,
+      "exit": 0,
+      "samples": 9,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "mixed",
+      "passed": true,
+      "exit": 0,
+      "samples": 4,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "invalid-procgen",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "wrong-workshop",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "wrong-source",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "wrong-resource",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "wrong-caller",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "stale-transfer",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "outside-region",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "empty",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "partial",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "corrupt",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "oversized",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "byte-budget",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "invalid-source",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "source-budget",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "empty-collection",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "corrupt-collection",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "invalid-collection",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 1,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "guard-mismatch",
+      "passed": true,
+      "exit": 2,
+      "samples": 0,
+      "incomplete_samples": 0,
+      "fatal_losses": 1
+    },
+    {
+      "mode": "ackfail",
+      "passed": true,
+      "exit": 0,
+      "samples": 1,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "crash-before",
+      "passed": true,
+      "exit": 0,
+      "samples": 0,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "crash-after",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    },
+    {
+      "mode": "completion",
+      "passed": true,
+      "exit": 0,
+      "samples": 3,
+      "incomplete_samples": 0,
+      "fatal_losses": 0
+    }
+  ],
+  "all_passed": true,
+  "total": 40,
+  "source_receipt_sha256": "2a6865c905f05f55c83226d43c39115e258371f4d92df11d1eb0eefe916b9ebf",
+  "verified_closed_captures": 118,
+  "inherited": [
+    {
+      "suite": "resource-oracle-collector",
+      "passed": true,
+      "total": 19,
+      "receipt_sha256": "46deedf4327026716cf26f2d2af01eb24d1bee3642eb28053cfeb4239f1a656d"
+    },
+    {
+      "suite": "resource-oracle-retail",
+      "passed": true,
+      "total": 13,
+      "receipt_sha256": "3858eb72bdb8ca539cbbfd3ccf1caf301345ebb28df2ef9f058a8d88f52aa6e3"
+    },
+    {
+      "suite": "resource-region-ancestry",
+      "passed": true,
+      "total": 32,
+      "receipt_sha256": "75ebab07b60ef0c6907093ddf77f8c3a31d190aa0c8611da75ed18ee40717eec"
+    },
+    {
+      "suite": "resource-selection-operands",
+      "passed": true,
+      "total": 27,
+      "receipt_sha256": "d81e48f65c03bf4de2f725739bf29b0186307614eb89f691ec7474e190ad74b5"
+    }
+  ],
+  "offline_regression": {
+    "command": "research/resource-installed-settings/test_settings.py",
+    "tests": 15,
+    "skipped": 0,
+    "exit": 0,
+    "actual_tool_result": "Ran 15 tests in 53.459s; OK"
+  }
+}

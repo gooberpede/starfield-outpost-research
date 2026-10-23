@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-C2A Carinae native Iron-region qualification
+
+[Exact source/receipt ledger](experiments/resource-carinae/sources.csv) and [method effects](experiments/resource-carinae/sources.md) pin owned C1E/C1D controller, decoders, fixtures, transport and save audit methods, existing stored-CELL research, Save52/F1 identities and immutable C1H geometry/settings. Reuse under SOR-P-0002 at starting HEAD `7bd54daf1bde432c3275bd81f9fc8088954fe79e`; original separate Carinae adapter/comparator, no generator fitting. Installed MSVC/SDK/Windows debugger APIs, CPython stdlib and Git remain separate tools. No new external implementation, dependency, licence basis, contact or disclosure. Raw proprietary inputs, saves and debugger receipts remain LOCAL-ONLY; authored package REVIEW-REQUIRED. No retail operation or publication.
+
 ## RG2-C1H installed settings and cross-site replay
 
 [Exact input/method pins](experiments/resource-installed-settings/sources.csv)

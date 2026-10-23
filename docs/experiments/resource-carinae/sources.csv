@@ -1,0 +1,47 @@
+source_id,path,bytes,sha256,role
+C2A-S001,research/resource-region-ancestry/controller.cpp,19522,7a52a915e6f18b623c51397eedb23b8fc50094234b9c280f25061e2997296bec,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S002,research/resource-region-ancestry/sample.inc,4899,443768cda97dcfcf7dcdc49cc31ad413a8e7851d34dbc5932ace4d563914a783,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S003,research/resource-region-ancestry/ancestry.h,4970,14c926ab3e611de5789f9e25dd55104535329898bc67ee3ea75699cad2deb309,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S004,research/resource-region-ancestry/fixture.cpp,7933,573440dc67a3e59d1215a667419f37563af1f300789904ae63bb136a8939b16e,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S005,research/resource-region-ancestry/fixture.asm,2956,13baff3d7ee320803a4a2acee8638ed777b5e0a8dc584947640ac043243fe007,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S006,research/resource-region-ancestry/build.py,2980,e4d80814821566e6cd05ad6275b058248cfeac025f3998d6309716102025847a,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S007,research/resource-region-ancestry/qualify.py,10465,63fef32377d7c67ee62e780e4b09ab8985f56257a765250a997137b9b3e1b423,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S008,research/resource-region-ancestry/preflight.py,4895,39a4ec32a6dd3e770238adec70e5d5d943bb26b6ccc2c733e28abe7920a1b91c,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S009,research/resource-region-ancestry/postflight.py,2861,3abb831e6d203d5d0730d9e3855680263b25f2d5ef343f2887651722e667c8fc,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S010,research/resource-region-ancestry/collect.py,7319,e5663eb2c61fd7d159cc017f519ab847dc8fcd521e677750dc34ced57e3264a2,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S011,research/resource-oracle-retail/decode.h,5131,5517fa45e311419a68957554cc3f6374711d1d43104e37dd763d9483215299b0,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S012,research/resource-oracle-retail/sourcefiles.h,4051,7ab700bf17d557b763ad578acd48457db5d5645d721ce204b9b1908ea302c732,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S013,runtime/beacon-observer/capture.h,14478,eec78be8e1f73e70c5c3b3a23b8f0870da16ec081bc4f47b94debe8905aae1f8,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S014,research/resource-oracle-retail/collect.py,8335,e8945b2830303d7ab015b0c3f84ec816f0d2f31baf4b234627fcefd05c548d90,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S015,research/resource-oracle-retail/saves.py,4563,52d369a33861877ac47a612d389f2054c809548f200e0bd83fef4f4f1d96950a,Owned precursor method; adapted or conceptually reused under SOR-P-0002
+C2A-S016,docs/experiments/resource-geometry-observation/cases.md,4506,c5cec37085b0709b915c231442fb95e2545d6a9ac6d4e5f2994977fcff52cde5,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S017,docs/experiments/resource-geometry-mature-context/active-candidates.csv,2304,a950776cc719d3b659f79b5302a8282dd9d3fd0385c8b3f9cabf66a60a271c34,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S018,docs/experiments/resource-geometry-mature-context/f1-witnesses.csv,1730,62c9d913c0e5a75de8582c650801ebfeddcc952908db6b12bc5c8426bdcc154b,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S019,docs/experiments/resource-geometry-mature-context/freeze-mature-v2.json,2020,992c7f97211d0784de0ed66345caca1d415bad409601426405048dd9dbb038e9,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S020,docs/experiments/resource-installed-settings/predictions-installed-v1.json,45591,88f1f3b7663fbf31f53794cbe72a60f521433f0076f7005783c8353711add71f,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S021,docs/experiments/resource-installed-settings/settings-provenance-v1.json,15628,0ee7eab06ceeaa05363b8a253996bba277c59fdf148b2a9fc557285fc94dba09,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S022,docs/experiments/resource-installed-settings/sources.csv,22996,566e0dfac3a24c5e0e2630cb7f3d23326475e295e57d3de5c3a206ae8680c6e5,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S023,.local-work/resource-installed-settings/geometry02.json,1065039,bd4cf4d76c326ecfa88af253c6b50b1dd65e8ecc0aafe7c10367c8f1b9bbbbbb,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S024,.local-work/recon/resource-availability-ui-15.tsv,96248,08e3b170efd28e4e1f76d1935f723423c09a8e6673f5fe3f87a543458372ff56,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S025,.local-work/recon/resource-availability-ui-16.tsv,102396,3e29f0c813e9a49aa9c53eada6dee052056dfd659979aeea89868fe7c8447aca,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S026,.local-work/resource-carinae/baseline.json,307,b77590278298ea25defcde445440503d20193cb965b6484b60699013d962e1b2,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S027,.local-work/resource-carinae/protected-before.json,1787652,4ee3ae22917faecc2c5d0de402e2eb87e2ddcd54a903b9c7a430290e4346d07f,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S028,.local-work/resource-carinae/build01/build.json,3532,fd5d5eb7c16a30a527e4367fd8b113c6d988a3cf93e9e4d1ab0ac311b5776cb7,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S029,.local-work/resource-carinae/reuse.json,2136,2983075fafdc492843fdc5cc348b6c69cc5237cc5747835a3f37f7d2325587cf,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S030,.local-work/resource-carinae/build04/build.json,4478,fe3d822e9130f81f2898ebd613d48720416d1dee0137eb643291fb7d27a2de16,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S031,.local-work/resource-carinae/qualification04/qualification.json,43385,e15aa43e28acf2ea30e3594ce081f5093dac224adf8249868e8edcb674c9a10a,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S032,.local-work/resource-carinae/synthetic-comparison01.json,1674,81b1d66d0762bef5de2001e7c40087eb1b450fde5aa2311f98711dd66e2f2586,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S033,.local-work/resource-carinae/offline-preflight01/preflight.json,118989,ad70828b523c1be7bc42b7206063e741bb6177786c4f9a34b2aeddd15f68f73b,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S034,.local-work/resource-oracle-collector/qualification-c2a01/qualification.json,3991,46deedf4327026716cf26f2d2af01eb24d1bee3642eb28053cfeb4239f1a656d,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S035,.local-work/resource-oracle-retail/qualification-c2a01/qualification.json,13661,3858eb72bdb8ca539cbbfd3ccf1caf301345ebb28df2ef9f058a8d88f52aa6e3,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S036,.local-work/resource-region-ancestry/qualification-c2a01/qualification.json,33855,75ebab07b60ef0c6907093ddf77f8c3a31d190aa0c8611da75ed18ee40717eec,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S037,.local-work/resource-selection-operands/qualification-c2a01/qualification.json,103069,d81e48f65c03bf4de2f725739bf29b0186307614eb89f691ec7474e190ad74b5,Input/receipt; raw local bytes excluded; see sources.md
+C2A-S038,.local-work/resource-carinae/protected-after.json,145,db39803c559da4c854d3b2f46e658cc43e1f72cd126dbb1fcf7080b21fbc55a1,Final Phase A local receipt; raw bytes excluded; see sources.md
+C2A-S039,.local-work/resource-carinae/offline-postflight01.json,117177,142949db3d62ebda7ba9d5f65558187e7360dd04db39e9dc55a2ce2a0f2035e5,Final Phase A local receipt; raw bytes excluded; see sources.md
+C2A-S040,.local-work/resource-carinae/offline-preflight02/preflight.json,118989,e8d11c0005da4473c67939995501509ece4197427715a8a8d1dfd8e8a19c93fd,Final Phase A local receipt; raw bytes excluded; see sources.md
+C2A-S041,.local-work/resource-carinae/build05/build.json,4478,42ecda7762331206c80efb650db0c02511673c7baed9e90224d6aa4fe4c0a6fd,Final Phase A local receipt; raw bytes excluded; see sources.md
+C2A-S042,.local-work/resource-carinae/qualification05/qualification.json,43385,2a6865c905f05f55c83226d43c39115e258371f4d92df11d1eb0eefe916b9ebf,Final Phase A local receipt; raw bytes excluded; see sources.md
+C2A-S043,.local-work/resource-carinae/comparison-checks.json,546,93ca0bd9c545cfdf918e5754864ebd8d9ab0f1c6ec137032f0983d3370259fe6,Final Phase A local receipt; raw bytes excluded; see sources.md
+C2A-S044,.local-work/resource-carinae/synthetic-comparison02.json,1674,8b3694757e0f78abb74e37da16bac0a1c3097af1b41271f54ffc42ed7fd3fd74,Final Phase A local receipt; raw bytes excluded; see sources.md
+C2A-S045,.local-work/resource-carinae/editorial-tests01.txt,106,75ff54e727b57e4bd7b88956ed0c92c4b9a416e6f0976707e8fb54aa385ac0bd,Final Phase A local receipt; raw bytes excluded; see sources.md
+C2A-S046,.local-work/resource-carinae/offline-postflight02.json,117177,3be13fac3e56a7e8e4e6cde91b1cdee4e0fd15873f140c28a780aa4667bf8ba1,Final offline preservation receipt; raw bytes excluded; see sources.md

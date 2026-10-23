@@ -1,5 +1,7 @@
 # Current Research State
 
+**2026-10-23 — RG2-C2A Carinae Phase A:** [Report](experiments/resource-carinae/report.md) implements a separate Workshop-bound Iron-region collector, 40 real Windows synthetic cases and an exact nonfitting comparator. C1C/C1D/C1E/C1G and installed-settings regressions pass; Carinae's 895 paths and unresolved Iron discrepancy are preserved. [Prospective card](experiments/resource-carinae/run-card.md) awaits fresh approval; [review/package](experiments/resource-carinae/review.md) controls exact completion. No Phase B/C retail execution, installed-source/save/config changes, scientific promotion or publication authority.
+
 **2026-10-23 — RG2-C1H installed settings and editorial finalization:**
 [Report](experiments/resource-installed-settings/report.md) audits six settings
 across 39 installed plugin files and 23 configuration files. The unchanged
