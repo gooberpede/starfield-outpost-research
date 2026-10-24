@@ -1,0 +1,87 @@
+[
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\controller.cpp",
+    "sha256": "be19cd7244059db79534d0e5b20068ac7b133bd2c5e65a45bdcc216c3f844e68",
+    "adapted": "controller.cpp"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\sample.inc",
+    "sha256": "b6ab6c1a1a30c93c969fc75007877349a755c050938d14bad5b2eb4aa12b521d",
+    "adapted": "sample.inc"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\ancestry.h",
+    "sha256": "24f20ad88692568b4c9b2f2b12a93f00f6b1fa1f23be74d4c70ab49e6ac5512b",
+    "adapted": "ancestry.h"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\context.h",
+    "sha256": "bf1d8601d6a3f1ca798b54db06d9b086daa94c8b679ccb98ecc4538c3a9e642c",
+    "adapted": "context.h"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\decode.h",
+    "sha256": "e8072f6b0cb7f9b04286205c59fbb16cddc0d18033d13b204037dbf1da234828",
+    "adapted": "decode.h"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\sourcefiles.h",
+    "sha256": "c69b9c9343a73f09cb998e7c3fe5f9ca434eaae1211c06d1891e12c645994ebb",
+    "adapted": "sourcefiles.h"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\fixture.cpp",
+    "sha256": "121ab3bf1c53d7cbe6fb8776c9468d0efadaed43126a4f05f3230cd9150161ae",
+    "adapted": "fixture.cpp"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\fixture.asm",
+    "sha256": "80229d09d6320bc360fc4a25a2beb47319e65aa5cc2aee231813fd6bf6be6531",
+    "adapted": "fixture.asm"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\build.py",
+    "sha256": "db8409693c4c111c825e1452a949e42b44763fcc8e43533844dc1ab6cb5112f7",
+    "adapted": "build.py"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\context_tests.cpp",
+    "sha256": "8f9cc541b9e6b330103c80d6b8b3ac3e623ee997acdd50b56956fe24ad973d4d",
+    "adapted": "context_tests.cpp"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\qualify.py",
+    "sha256": "3c52f9e43977ca577ac5454f98c89c9b3a8358d140cddd137f8e87dac25660dd",
+    "adapted": "qualify.py"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\collect.py",
+    "sha256": "5f07d3e818bcc58389042a32908499c8a84dac92f4fa3e3a1a09c425d85e2b47",
+    "adapted": "collect.py"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\preflight.py",
+    "sha256": "bfdf49c9045e05e8bebc3670e42d827d309ed9153f57368fb1a88cadb232a80c",
+    "adapted": "preflight.py"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\postflight.py",
+    "sha256": "6b78068bc8b1663f7517d1aac817b0c7bab698baecb1f6b4ccffbfafef69737d",
+    "adapted": "postflight.py"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\save_policy.py",
+    "sha256": "0a22bf8b280051614007e1b7f80b2282674518ef39e90f6e7c8282383ac167cd",
+    "adapted": "save_policy.py"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\save_policy.json",
+    "sha256": "9d7ad26f172884c4c69d05c1ccbf6128d75c8c38bba855224c57fd7abdbc97e6",
+    "adapted": "save_policy.json"
+  },
+  {
+    "path": "D:\\Projects\\starfield-outpost-research\\research\\resource-carinae-source-context\\protection.py",
+    "sha256": "3b34fbf46f5b0c326ae6188775065a5acaf2eae96ead8c34fc85b694e30cbce4",
+    "adapted": "protection.py"
+  }
+]

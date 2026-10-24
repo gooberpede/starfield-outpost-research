@@ -1,0 +1,9 @@
+# Editorial finalization
+
+Coverage includes every changed Markdown paragraph/table, source-ledger label, Python comment/docstring, C++/header/include/assembly comment, JSON schema label and the supplied amendment. Existing files are reviewed at changed paragraphs; new authored files are read in full for prose and qualifications. Opaque hashes, paths, native bytes and identifiers are checked for identity, not stylistically rewritten. No legacy bulk cleanup was performed.
+
+The automated changed-text screen initially found two missing review.md links while that file was being prepared. Creating the review record resolved both; the subsequent screen returned zero diagnostics. No ignore annotation or waived diagnostic is used. Manual reading checked complete prose, not only the screen inventory: C++/assembly comments and JSON labels receive manual coverage even where the bounded checker does not inspect them.
+
+Corrections made during review include explicit current-owner versus saved-parent scope, pointer/epoch and current/historical BIOM distinctions, input-source membership versus surviving geometry, actual ACCEPT versus return, indexed descriptor versus reduced Qb, object movement versus normal travel, and final versus development build/receipt names. C2B/C1D names in inherited comments identify method lineage; origins.json and sources.csv preserve their exact original bytes and attribution. Decimal counters and source-grid coordinates are counts/indices; native offsets, FormIDs and bit patterns use hexadecimal notation in authored prose.
+
+Screening cannot prove semantic correctness or find every concatenation. Independent scientific, engineering and editorial review must bind the exact final snapshot and any subsequent delta. The review manifest inventories the actual files and patch hashes; acceptance is recorded separately in review.md. Raw receipts, binaries, saves and proprietary exports remain local-only regardless of confidence.

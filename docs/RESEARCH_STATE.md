@@ -1,5 +1,7 @@
 # Current Research State
 
+**2026-10-24 — RG2-D4A Tungsten-bound acquisition:** [Phase A report](experiments/resource-tungsten-acquisition/report.md) adds a Workshop-bound ACCEPT/transfer selector with cached-region support and partial generation diagnostics. The original D4 findings remain historical; its body-only prospective card is superseded by the [new NOT AUTHORIZED card](experiments/resource-tungsten-acquisition/run-card.md). Actual Archimedes generation history remains UNKNOWN; exact completion requires [independent review](experiments/resource-tungsten-acquisition/review.md).
+
 **2026-10-24 — RG2-D4 selection-context acquisition:** [Phase A report](experiments/resource-selection-context/report.md) adds source BIOM/query/component/mask and visited alternate-descriptor acquisition through a rotating hardware breakpoint. Synthetic qualification is separate from native semantics; historical Archimedes Tungsten provenance and Workshop/consumer epoch binding remain UNKNOWN. [Review](experiments/resource-selection-context/review.md) controls exact acceptance; [one-session candidate card](experiments/resource-selection-context/run-card.md) requires separate approval. Frozen D1/D2/D3 predictions and B6/publication hold remain unchanged.
 
 **2026-10-24 — RG2-D3 discrepancy and coverage investigation:**

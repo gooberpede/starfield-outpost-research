@@ -292,3 +292,5 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 - [RG2-A offline live-validation preparation](CODEX_BRIEF_SOR_RG2_A_offline_live_validation_preparation.md): invoked 2026-10-22; [report and held prospective cards](../experiments/resource-geometry-live-prep/report.md), [criterion/review package](../experiments/resource-geometry-live-prep/review.md). No live, staging, commit, push or publication.
 
 - [RG2-C1 native region observation feasibility](CODEX_BRIEF_SOR_RG2_C1_native_region_observation_feasibility.md): invoked 2026-10-22; [report](../experiments/resource-geometry-observation/report.md), [review/package](../experiments/resource-geometry-observation/review.md). No C2/live/Git/publication authority.
+
+- [RG2-D4A amendment](CODEX_AMENDMENT_SOR_RG2_D4A_archimedes_tungsten_bound_acquisition.md): offline Tungsten-bound acquisition engineering; [report](../experiments/resource-tungsten-acquisition/report.md) and [superseding unexecuted card](../experiments/resource-tungsten-acquisition/run-card.md). No live or Git publication authority.

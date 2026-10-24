@@ -1,0 +1,17 @@
+{
+  "schema": "sor-save-protection/1",
+  "native_build": "1.16.244.0",
+  "designated": {
+    "funclist.sfs": {
+      "bytes": 2302832,
+      "sha256": "e063dcdae6e29d04d937c19db78a39240cd7c0ed3344a692b1580b304cf714d3",
+      "evidence": "2026-10-23 maintainer answer: Designate it as protected (Recommended); C2B transient-save amendment"
+    },
+    "Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs": {
+      "bytes": 16411136,
+      "sha256": "6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8",
+      "evidence": "RG2-C2B primary research input Save52/HIST-0267"
+    }
+  },
+  "classified": {}
+}

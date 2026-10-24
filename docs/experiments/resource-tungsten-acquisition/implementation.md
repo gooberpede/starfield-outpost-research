@@ -1,0 +1,21 @@
+# Implementation and reproducibility
+
+The [source directory](../../../research/resource-tungsten-acquisition/controller.cpp) adapts project-owned C2B controller, readers, fixture, save policy and durable SRO1/ACK transport. Per-file source SHA-256 pins are in origins.json. New diagnostic code is original, using the existing D4 static operand map. SOR-P-0002 permits this maintainer-owned reuse. Bethesda supplies the underlying installed/native evidence; MSVC/Windows and Python are existing local tools. No third-party implementation or dependency was added.
+
+Builds and all raw outputs live under ignored `.local-work/resource-tungsten-acquisition`. Each command requires a fresh output name. Python 3.14.3 runs without bytecode writes; installed MSVC 19.51.36256.0 supplies the source-shaped Windows target/controller. Build manifests pin authored inputs, transitive transport/save helpers, frozen comparison modules, tool entry point and generated binaries/logs. They are local receipts, not publication clearance.
+
+```powershell
+$d4aPython = 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe'
+& $d4aPython -B research/resource-tungsten-acquisition/build.py --name build08
+& $d4aPython -B research/resource-tungsten-acquisition/qualify.py --build .local-work/resource-tungsten-acquisition/build08 --output .local-work/resource-tungsten-acquisition/qualification07
+& $d4aPython -B -m unittest discover -s research/resource-tungsten-acquisition -v
+& $d4aPython -B research/resource-tungsten-acquisition/compare.py --captures .local-work/resource-tungsten-acquisition/qualification07/good --output .local-work/resource-tungsten-acquisition/synthetic-comparison02.json
+```
+
+The qualifier executes disposable, hash-pinned synthetic executables with real DebugActiveProcess and ReadProcessMemory. Every SAMPLE is externally flushed, read back, hashed, independently framed and acknowledged before STOP can dispose the target. The target has original synthetic geometry/stack semantics; it is not a replacement retail oracle. Exact expected point/bound/source/Workshop/query bytes supplement selector outcomes. Lifecycle tests keep ACKing after useful transfers to expose thread/stack reuse, nested/new-thread phase retention and a post-capture exception. Negative receipt replay mutates each join identity and injects loss boundaries.
+
+Failure history is retained. build01–build04 were implementation iterations; qualification01–qualification03 were development checks. The first unit invocation exposed a missing flat geometry import; the comparator now uses the pinned frozen D3 bundle. A D4 regression output initially failed its authorized-local-root guard before creating output; rerun uses the original D4 local root. qualification04 exposed an overbroad zero-Qb oracle on indexed queries; its bytes and failed summary remain retained, and the oracle now expects the actual nonzero synthetic reduced query. The first patch export rejected CRLF in origins.json; only that metadata line ending was normalized before build08 and qualification07. No failure is relabeled PASS. The first preflight was a development audit started before final source freezing; preflight03 is the final build08 audit. Offline tests replay pinned qualification05 native-copy bytes, and the final build includes that event-file dependency.
+
+The unchanged full D4 regression uses build12 and new output `.local-work/resource-selection-context/d4a-regression01`. Seven native controls were rerun with unchanged D1 build03 into `seven-controls01`, producing exact matches for both normalized and expanded representations. Additional generated paths are unverified, not native census evidence.
+
+The live wrapper is prepared but unexecuted. It admits only a fresh exact-card human approval/preflight/build receipt, positive current Cloud confirmation and new pinned Steam process. It performs bounded protected-save name/size checks immediately before attachment; full hashes and independent backup checks occur offline. Postflight writes differences before failing, restores nothing and requires process absence. SRO1 receipt bytes, event stream and accounting distinguish requested STOP, accepted ACK, partial/loss and useful Tungsten evidence.

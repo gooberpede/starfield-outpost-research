@@ -1,0 +1,11 @@
+# Frozen-model comparison
+
+The executable [comparator](../../../research/resource-tungsten-acquisition/compare.py) consumes independently decoded SRO1 captures and their ordered event stream. It uses only the exact qualifying ACCEPT selected by the transfer predicate, then waits for positive ACK_ACCEPTED. Exceptions, LOSS and thread endings invalidate pending chains. It never compares every ACCEPT merely because it shares an invocation number.
+
+Frozen inputs are D3 revision06 first-pass `D2-81a75b-stdout.json` and build-v6 normalized installed corpus. Their envelope identities must agree. The baseline predicts Chlorine from BIOM `0x0028acd1` / RSGD `0x0037c66c`; the planetary Lead/Tungsten BIOM `0x002636ba` is not substituted for it. D2's saved Workshop/body/frame remain the case identity.
+
+The current manager mode chooses descriptor `+0xc8`, or `+0x1c0` for mode 3, solely as a current-frame derivation. Chart/coarse/sub/fine words yield `192*coarse+12*sub+fine`; adding source anchor yields a geographic source candidate. This is the existing C2B method, with bounded interior-domain checks. Resolve that anchor using unchanged D3 installed-data lookup and enumerate the complete frozen request halo again. Source membership is checked against those input sources, including sources with no surviving geometry, independently of nonempty output paths.
+
+The earliest supported comparison is current frame disagreement, source anchor disagreement, missing source input, or consumed resource versus modeled family. It is a comparison of current metadata to model assumptions, not a historical BIOM or causal finding. Installed-model coverage failures remain UNSUPPORTED. Family and resource representation are reported explicitly.
+
+Geometry is MATCH or DIFFER only when the source anchor and descriptor frame agree and that source/resource has modeled geometry: compare exact bound and ordered XYZW bytes. Otherwise it is UNSUPPORTED. No translated geometry, fitted seed, reordered path, silent biome selection or regenerated frozen prediction is allowed. Synthetic comparator fixtures test exact bytes, differing bytes, missing Tungsten family and unsupported frame. Native seven-control results remain a separate regression; they do not validate Archimedes geometry.
