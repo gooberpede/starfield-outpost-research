@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+[RG2-D4B resource admission](../experiments/resource-tungsten-repair/report.md) traces owner-range supplemental resources omitted by the selected-family projection and exactly replays Tungsten plus two Chlorine controls using observed calls. Historical generating epoch and exact supplying component remain unknown. The separate terminal teardown repair is synthetically qualified; [review](../experiments/resource-tungsten-repair/review.md) controls acceptance. No live or publication authority follows.
+
 [RG2-D1 resource geometry](../experiments/resource-standalone/report.md) supplies a
 portable corpus and standalone ordinary-vein model for three interior tiles,
 with seven exact native paths and qualified coverage/availability. Historical

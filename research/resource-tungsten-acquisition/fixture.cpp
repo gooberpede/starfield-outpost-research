@@ -5,6 +5,8 @@
 #include <thread>
 #include <string>
 #include <cmath>
+#include <vector>
+static DWORD WINAPI terminal_worker(void*){Sleep(INFINITE);return 0;}
 extern "C" void diagnostic_run(void*,void*,void*,uint64_t);
 extern "C" void fixture_run(void*,void*,void*,void*);
 template<class T>void put(unsigned char* p,size_t at,T v){memcpy(p+at,&v,sizeof v);}
@@ -170,6 +172,17 @@ int main(int argc,char** argv){
     if(mode=="crash-before")RaiseException(0xe0c1e000,0,0,nullptr);
     if(mode=="unrelated-first")diagnostic_run(geographic,geographic+0x10,geographic,0x5de4c);
     auto run=[&]{fixture_run(ref,op,&transfer,&p);};
+    // D4B: retain several real native threads until debugger disposal, so STOP
+    // must drain EXIT_THREAD before EXIT_PROCESS after transfer retirement.
+    bool teardown=mode=="stop-threads"||mode=="stop-many"||mode=="terminate-failure"||mode=="continue-failure"||
+        mode=="duplicate-continue"||mode=="pending-stop";
+    if(teardown){for(int i=0;i<(mode=="stop-many"?96:3);++i){
+        HANDLE worker=CreateThread(nullptr,0,terminal_worker,nullptr,0,nullptr);
+        if(!worker)return 11;CloseHandle(worker);
+    }}
+    if(mode=="pending-stop"){
+        std::thread worker(run);worker.join();Sleep(INFINITE);
+    }
     if(mode=="threads"){for(int i=0;i<3;++i){std::thread t(run);t.join();points[0][0]=float(100+i);}}
     else if(mode=="stack-reuse"){run();run();}
     else if(mode=="contention"){std::thread a(run),b(run);a.join();b.join();}

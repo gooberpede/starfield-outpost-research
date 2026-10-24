@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-D4B Tungsten provenance and teardown repair](CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md): invoked 2026-10-24 for offline research, bounded implementation and real Windows synthetic tests; [report](../experiments/resource-tungsten-repair/report.md), [review](../experiments/resource-tungsten-repair/review.md). No retail, staging, commit, push or publication authority.
+
 - [RG2-D4 native resource-selection context acquisition](CODEX_BRIEF_SOR_RG2_D4_native_resource_selection_context_acquisition.md): invoked 2026-10-24, Phase A only; [report](../experiments/resource-selection-context/report.md), [review](../experiments/resource-selection-context/review.md). No live launch/attach or Git publication authority.
 
 - [RG2-D2 Save52-wide resource validation](CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md): invoked 2026-10-24, offline only; [report](../experiments/resource-save52/report.md), [review](../experiments/resource-save52/review.md). No live or Git integration authority; B6 remains on hold.

@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## RG2-D4B offline research and synthetic teardown repair — 2026-10-24
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md) authorizes bounded offline source/evidence reads and exports, owned collector adaptation, diagnostic replay and actual disposable Windows debugging fixtures. [Source pins](experiments/resource-tungsten-repair/sources.csv) preserve SOR-P-0002 lineage. No new outside incorporation, licence acceptance, contact, external disclosure, retail launch/attachment, save/configuration/analysis-content mutation, staging, commit, push, fork/PR or publication was performed. The unimplemented prospective owner-map acquisition card needs separate qualification and explicit live approval. Original D4A evidence and teardown FAIL remain immutable; B6 remains on hold.
+
 ## RG2-D3 offline discrepancies and coverage — 2026-10-24
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D3_save52_discrepancies_coverage.md)

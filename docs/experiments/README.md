@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D4B Tungsten admission and terminal teardown](resource-tungsten-repair/report.md): native supplemental-map divergence, exact conditional three-region replay, real Windows STOP repair and bounded missing-node acquisition plan; [review](resource-tungsten-repair/review.md). No new retail execution; historical epoch remains unknown.
+
 - [RG2-D4 native selection context](resource-selection-context/report.md): working candidate-source collector, native producer/operand contracts, synthetic Windows controls and prospective Archimedes card; [review](resource-selection-context/review.md). Offline only; no retail authority or historical epoch join.
 
 - [RG2-D3 Save52 discrepancies and coverage](resource-save52-d3/report.md): nine new corroborated pairs, supported Special/descriptor branches, retained Tungsten discrepancy and precise mask/descriptor acquisition routes; [review](resource-save52-d3/review.md). Offline only; raw corpus and screenshots LOCAL-ONLY.

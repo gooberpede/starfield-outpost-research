@@ -20,6 +20,52 @@ static HANDLE process=nullptr;
 static HANDLE fixture_gate=nullptr;
 static HANDLE fixture_ready=nullptr;
 static bool disposal_allowed=false;
+// Terminal intent is monotonic and precedes every disposal API call. A failed
+// API does not reopen sampling or transfer ownership of a pending debug event.
+static bool terminal=false, termination_requested=false, attached=false;
+static ULONGLONG terminal_since=0;
+static DEBUG_EVENT pending{};
+static bool pending_owned=false;
+static DWORD pending_disposition=DBG_CONTINUE;
+static void commit_stop(){
+    if(terminal)return;
+    terminal=true;
+    terminal_since=GetTickCount64();
+    std::cout<<"{\"kind\":\"STOP_COMMITTED\"}"<<std::endl;
+}
+static bool continue_pending(){
+    if(!pending_owned)return true;
+    if(!ContinueDebugEvent(pending.dwProcessId,pending.dwThreadId,pending_disposition))return false;
+    pending_owned=false;return true;
+}
+static bool terminate_once(HANDLE target,DWORD code){
+    commit_stop();
+    if(termination_requested)return true;
+    if(!TerminateProcess(target,code))return false;
+    termination_requested=true;return true;
+}
+static void drain_failure(HANDLE target,DWORD pid){
+    commit_stop();
+    bool killed=terminate_once(target,0xc1cf);
+    bool continued=continue_pending(),exited=false;
+    auto until=GetTickCount64()+10000;
+    // Engineering recovery bound only: drain an already disposed synthetic or
+    // approved target; this is not a scientific capture or operator deadline.
+    while(attached&&continued&&GetTickCount64()<until){
+        DEBUG_EVENT ev{};
+        if(!WaitForDebugEvent(&ev,100))continue;
+        pending=ev;pending_owned=true;
+        pending_disposition=ev.dwDebugEventCode==EXCEPTION_DEBUG_EVENT?DBG_EXCEPTION_NOT_HANDLED:DBG_CONTINUE;
+        if(ev.dwProcessId!=pid)break;
+        if(ev.dwDebugEventCode==LOAD_DLL_DEBUG_EVENT&&ev.u.LoadDll.hFile)CloseHandle(ev.u.LoadDll.hFile);
+        if(ev.dwDebugEventCode==CREATE_PROCESS_DEBUG_EVENT&&ev.u.CreateProcessInfo.hFile)CloseHandle(ev.u.CreateProcessInfo.hFile);
+        exited=ev.dwDebugEventCode==EXIT_PROCESS_DEBUG_EVENT;
+        continued=continue_pending();
+        if(exited){attached=false;break;}
+    }
+    std::cout<<"{\"kind\":\"FAILURE_CLEANUP\",\"termination_requested\":"<<(killed?"true":"false")
+        <<",\"continued\":"<<(continued?"true":"false")<<",\"exit_observed\":"<<(exited?"true":"false")<<"}"<<std::endl;
+}
 static uint64_t reads=0, bytes=0;
 static std::string fault;
 static void require(bool ok,const char* why);
@@ -146,11 +192,13 @@ int wmain(int argc,wchar_t** argv) {
         disposal_allowed=true;
 #endif
         require(DebugActiveProcess(pi.dwProcessId),"attach guarded process");
+        attached=true;
         require(DebugSetProcessKillOnExit(TRUE),"kill-on-debugger-exit");
         std::map<DWORD,Thread> threads; uint64_t base=0,lifetimes=0,events=0,samples=0;
-        bool startup=false,stopping=false; unsigned char guards[7][16]{};bool consumer_mode=false;uint64_t phase=0;
+        bool startup=false;bool& stopping=terminal; unsigned char guards[7][16]{};bool consumer_mode=false;uint64_t phase=0;
         uint32_t allsites[7];std::copy(consumer,consumer+4,allsites);std::copy(diagnostic+1,diagnostic+4,allsites+4);
         auto rearm=[&](){
+            if(stopping)return;
             bool next=false;for(auto& [id,t]:threads)next=next||!t.ancestry.stack.empty();
             if(next==consumer_mode)return;consumer_mode=next;++phase;
             std::copy(next?consumer:diagnostic,(next?consumer:diagnostic)+4,rvas);
@@ -166,15 +214,34 @@ int wmain(int argc,wchar_t** argv) {
             disk_guard();
             DEBUG_EVENT ev{}; if(!WaitForDebugEvent(&ev,1000)) {
                 require(GetLastError()==ERROR_SEM_TIMEOUT,"wait event");
+                require(!stopping||GetTickCount64()-terminal_since<=10000,"terminal event drain timeout");
                 DWORD available=0;
                 if(PeekNamedPipe(GetStdHandle(STD_INPUT_HANDLE),nullptr,0,nullptr,&available,nullptr)&&available){
                     std::string control=input_line();
-                    require(control=="STOP","idle control");require(TerminateProcess(pi.hProcess,0xc1d0),"operator idle STOP");stopping=true;
+                    require(control=="STOP","idle control");require(terminate_once(pi.hProcess,0xc1d0),"operator idle STOP");
                 }
                 continue;
             } ++events;
+            pending=ev;pending_owned=true;pending_disposition=DBG_CONTINUE;
             require(ev.dwProcessId==pi.dwProcessId,"debug PID");
             DWORD disposition=DBG_CONTINUE;
+            if(stopping&&ev.dwDebugEventCode!=EXIT_PROCESS_DEBUG_EVENT){
+                // Windows can deliver queued thread/exception events after
+                // TerminateProcess. Drain them without context reads or arming.
+                if(ev.dwDebugEventCode==LOAD_DLL_DEBUG_EVENT&&ev.u.LoadDll.hFile)CloseHandle(ev.u.LoadDll.hFile);
+                if(ev.dwDebugEventCode==CREATE_PROCESS_DEBUG_EVENT&&ev.u.CreateProcessInfo.hFile)CloseHandle(ev.u.CreateProcessInfo.hFile);
+                if(ev.dwDebugEventCode==EXIT_THREAD_DEBUG_EVENT)threads.erase(ev.dwThreadId);
+                if(ev.dwDebugEventCode==EXCEPTION_DEBUG_EVENT){
+                    auto& x=ev.u.Exception;
+                    auto address=reinterpret_cast<uint64_t>(x.ExceptionRecord.ExceptionAddress);
+                    bool owned=x.ExceptionRecord.ExceptionCode==EXCEPTION_SINGLE_STEP&&threads.count(ev.dwThreadId)&&
+                        std::any_of(rvas,rvas+4,[&](uint32_t r){return address==base+r;});
+                    disposition=owned?DBG_CONTINUE:DBG_EXCEPTION_NOT_HANDLED;
+                }
+                std::cout<<"{\"kind\":\"TERMINAL_EVENT\",\"event\":"<<ev.dwDebugEventCode<<",\"tid\":"<<ev.dwThreadId<<"}"<<std::endl;
+                pending_disposition=disposition;
+                require(continue_pending(),"continue terminal event");continue;
+            }
             if(ev.dwDebugEventCode==CREATE_PROCESS_DEBUG_EVENT || ev.dwDebugEventCode==CREATE_THREAD_DEBUG_EVENT) {
                 HANDLE thread;
                 if(ev.dwDebugEventCode==CREATE_PROCESS_DEBUG_EVENT) {
@@ -210,12 +277,23 @@ int wmain(int argc,wchar_t** argv) {
             } else if(ev.dwDebugEventCode==EXIT_THREAD_DEBUG_EVENT) {
                 require(threads.count(ev.dwThreadId)!=0,"thread exit lifetime");
                 std::cout<<"{\"kind\":\"THREAD_END\",\"tid\":"<<ev.dwThreadId<<",\"lifetime\":"<<threads.at(ev.dwThreadId).lifetime<<"}"<<std::endl;
-                threads.erase(ev.dwThreadId);rearm();
+                threads.erase(ev.dwThreadId);
+#ifdef RETAIL_FIXTURE
+                // Deterministic transport barrier at an actual Windows thread
+                // exit event. The harness queues STOP while this event is owned.
+                if(samples&&std::wstring(argv[3])==L"pending-stop"){
+                    require(input_line()=="STOP","fixture pending STOP");
+                    require(terminate_once(pi.hProcess,0xc1d0),"pending event STOP");
+                }
+#endif
+                rearm();
             } else if(ev.dwDebugEventCode==EXCEPTION_DEBUG_EVENT) {
                 auto x=ev.u.Exception; auto code=x.ExceptionRecord.ExceptionCode;
                 disposition=DBG_EXCEPTION_NOT_HANDLED;
+                pending_disposition=disposition;
                 if(code==EXCEPTION_BREAKPOINT && !startup && x.dwFirstChance) {
                     startup=true; disposition=DBG_CONTINUE;
+                    pending_disposition=DBG_CONTINUE;
                     // Attachment initialization can restore initial thread state
                     // after CREATE events. Reconcile slots at the all-stop startup
                     // breakpoint before releasing the cooperative test gate.
@@ -238,6 +316,7 @@ int wmain(int argc,wchar_t** argv) {
                     int slot=retail::owned_slot(base,c.Rip,c.Dr6,rvas);
                     require(slot>=0 && (c.Dr6&15)==(1ULL<<slot) && !(c.Dr6&0x6000) &&
                         c.Dr0==base+rvas[0] && c.Dr1==base+rvas[1] && c.Dr2==base+rvas[2] && c.Dr3==base+rvas[3] && (c.Dr7&0xffff00ff)==0x55,"unowned trap");
+                    pending_disposition=DBG_CONTINUE;
 #ifdef RETAIL_FIXTURE
                     if(std::wstring(argv[3])==L"guard-mismatch")guards[slot][0]^=1;
 #endif
@@ -266,7 +345,13 @@ int wmain(int argc,wchar_t** argv) {
                     bool accepted=ack==numbered || ack==numbered+" STOP";
                     std::cout<<"{\"kind\":\"ACK_ACCEPTED\",\"capture\":"<<samples<<",\"accepted\":"<<(accepted?"true":"false")<<"}"<<std::endl;
                     if(!accepted || ack==numbered+" STOP") {
-                        require(TerminateProcess(process,0xc1c0),"retail STOP"); stopping=true;
+                        pending_disposition=DBG_CONTINUE;
+                        commit_stop();
+#ifdef RETAIL_FIXTURE
+                        if(std::wstring(argv[3])==L"terminate-failure")
+                            require(terminate_once(nullptr,0xc1c0),"fixture invalid-handle termination");
+#endif
+                        require(terminate_once(process,0xc1c0),"retail STOP");
                     } else {
                         // Execution breakpoints fault before execution. RF resumes this instruction once;
                         // DR slots remain armed, with no byte patch, TF dance, or manual thread suspension.
@@ -291,16 +376,33 @@ int wmain(int argc,wchar_t** argv) {
                     std::cout<<"{\"kind\":\"EXCEPTION\",\"code\":"<<code<<",\"first_chance\":"<<x.dwFirstChance<<"}"<<std::endl;
                 }
             } else if(ev.dwDebugEventCode==EXIT_PROCESS_DEBUG_EVENT) {
-                std::cout<<"{\"kind\":\"EXIT\",\"code\":"<<ev.u.ExitProcess.dwExitCode<<",\"captures\":"<<samples<<",\"stopped\":"<<(stopping?"true":"false")<<"}"<<std::endl;
-                require(ContinueDebugEvent(ev.dwProcessId,ev.dwThreadId,DBG_CONTINUE),"continue exit"); break;
+                bool stop_requested=stopping;commit_stop();
+                std::cout<<"{\"kind\":\"EXIT\",\"code\":"<<ev.u.ExitProcess.dwExitCode<<",\"captures\":"<<samples<<",\"stopped\":"<<(stop_requested?"true":"false")<<"}"<<std::endl;
+                pending_disposition=DBG_CONTINUE;
+                require(continue_pending(),"continue exit");attached=false;break;
             }
-            require(ContinueDebugEvent(ev.dwProcessId,ev.dwThreadId,disposition),"continue event");
+            pending_disposition=disposition;
+#ifdef RETAIL_FIXTURE
+            if(stopping&&std::wstring(argv[3])==L"continue-failure")
+                require(ContinueDebugEvent(0,0,disposition),"fixture invalid-owner continuation");
+#endif
+            require(continue_pending(),"continue event");
+#ifdef RETAIL_FIXTURE
+            if(stopping&&std::wstring(argv[3])==L"duplicate-continue"){
+                SetLastError(0);
+                bool duplicate=ContinueDebugEvent(ev.dwProcessId,ev.dwThreadId,disposition);
+                auto error=GetLastError();require(!duplicate,"duplicate continuation unexpectedly accepted");
+                std::cout<<"{\"kind\":\"DUPLICATE_CONTINUE_REFUSED\",\"win32\":"<<error<<"}"<<std::endl;
+            }
+#endif
         }
-        CloseHandle(pi.hThread); CloseHandle(pi.hProcess); return 0;
+        CloseHandle(pi.hThread); CloseHandle(pi.hProcess);
+        if(fixture_gate)CloseHandle(fixture_gate);if(fixture_ready)CloseHandle(fixture_ready);return 0;
     } catch(const std::exception& e) {
         std::cerr<<e.what()<<std::endl;
         std::cout<<"{\"kind\":\"LOSS\",\"reason\":\"controller-fatal\",\"detail_hex\":\""<<hex(e.what(),strlen(e.what()))<<"\"}"<<std::endl;
-        if(pi.hProcess) { if(disposal_allowed)TerminateProcess(pi.hProcess,0xc1cf); CloseHandle(pi.hProcess); CloseHandle(pi.hThread); }
+        if(pi.hProcess) { if(disposal_allowed)drain_failure(pi.hProcess,pi.dwProcessId); CloseHandle(pi.hProcess); CloseHandle(pi.hThread); }
+        if(fixture_gate)CloseHandle(fixture_gate);if(fixture_ready)CloseHandle(fixture_ready);
         return 2;
     }
 }

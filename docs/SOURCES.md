@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-D4B Tungsten admission and terminal teardown
+
+Bethesda's pinned native/definition evidence and the maintainer's accepted D4A receipts support the [report](experiments/resource-tungsten-repair/report.md). [Per-use pins](experiments/resource-tungsten-repair/sources.csv) identify the map export, surrounding existing exports, old/new collector sources/builds, frozen D2/D3 and exact replay/regression/terminal receipts. Owned D4A acquisition, D4/C1 methods, RG1 geometry, D1 isolation/verification, protection and review-export methods are adapted or reused under SOR-P-0002. Microsoft Windows/MSVC, Ghidra/JDK, CPython and Git are existing separate tools. No third-party implementation was incorporated; raw native payloads, generated geometry, saves and binaries remain LOCAL-ONLY. Conditional replay is not historical epoch proof or a corrected blind corpus.
+
 ## RG2-D3 Save52 discrepancy investigation
 
 Bethesda's pinned installed/native evidence and the maintainer's protected
