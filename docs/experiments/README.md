@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D4 native selection context](resource-selection-context/report.md): working candidate-source collector, native producer/operand contracts, synthetic Windows controls and prospective Archimedes card; [review](resource-selection-context/review.md). Offline only; no retail authority or historical epoch join.
+
 - [RG2-D3 Save52 discrepancies and coverage](resource-save52-d3/report.md): nine new corroborated pairs, supported Special/descriptor branches, retained Tungsten discrepancy and precise mask/descriptor acquisition routes; [review](resource-save52-d3/review.md). Offline only; raw corpus and screenshots LOCAL-ONLY.
 
 - [RG2-D2 Save52-wide validation](resource-save52/report.md): frozen 15-case held-out assessment, positive-only comparison, component discrepancy, unsupported classes and seven exact native controls; [review](resource-save52/review.md). Offline only; actual corpus LOCAL-ONLY.

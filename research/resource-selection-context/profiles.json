@@ -1,0 +1,77 @@
+{
+  "schema": "sor-d4-profiles/1",
+  "cases": {
+    "D2-81a75b": {
+      "body": "0005de4c",
+      "saved_token": "81a75b",
+      "workshop_bytes": "e07e10e02770599b",
+      "descriptor": [
+        27168,
+        36000
+      ],
+      "chart": 0,
+      "expected_source_biom": "0028acd1",
+      "expected_rsgd": "0037c66c"
+    },
+    "D2-81bf2a": {
+      "body": "0005e0e3",
+      "saved_token": "81bf2a",
+      "workshop_bytes": "768fefacc1c939a7",
+      "descriptor": [
+        29568,
+        10944
+      ],
+      "chart": 0,
+      "expected_source_biom": null,
+      "expected_rsgd": null
+    },
+    "D2-825f95": {
+      "body": "0005e0e7",
+      "saved_token": "825f95",
+      "workshop_bytes": "011f99da36a6145d",
+      "descriptor": [
+        32160,
+        15168
+      ],
+      "chart": 1,
+      "expected_source_biom": null,
+      "expected_rsgd": null
+    },
+    "D2-832210": {
+      "body": "0005e0dc",
+      "saved_token": "832210",
+      "workshop_bytes": "13931fc799215c48",
+      "descriptor": [
+        17568,
+        22848
+      ],
+      "chart": 0,
+      "expected_source_biom": null,
+      "expected_rsgd": null
+    },
+    "D2-844cc6": {
+      "body": "0005e0ee",
+      "saved_token": "844cc6",
+      "workshop_bytes": "bd2780da52fe20bd",
+      "descriptor": [
+        38112,
+        960
+      ],
+      "chart": 1,
+      "expected_source_biom": null,
+      "expected_rsgd": null
+    },
+    "D2-84e101": {
+      "body": "0005e0de",
+      "saved_token": "84e101",
+      "workshop_bytes": "b0e207c2dee2c1b6",
+      "descriptor": [
+        37536,
+        20928
+      ],
+      "chart": 0,
+      "expected_source_biom": null,
+      "expected_rsgd": null
+    }
+  }
+}

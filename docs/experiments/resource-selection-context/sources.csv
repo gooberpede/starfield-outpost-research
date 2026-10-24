@@ -1,0 +1,52 @@
+source,path,bytes,sha256,eligibility
+D4-S001,.local-work\recon\resource-availability-cont-01.tsv,120667,c167add6f3e75f6a0ce2627f5813b4c0e04509e5b7d2974f57d3b8795d7602a3,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S002,.local-work\recon\resource-availability-cont-05.tsv,105992,dc674983ae0f2999b5dcc00f0372db71786a9637aa7b233d96d2f72e5a69ef10,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S003,.local-work\recon\resource-availability-cont-11.tsv,32360,f80f4269f02cf0072f758ac36658052eca1c02d121ab8a3de74eabd10f85e171,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S004,.local-work\recon\resource-availability-ui-34.tsv,9058,2af57979930d8bab9bb025c97ec7a13dce0e4b3bb609598a1511f7a559081a88,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S005,.local-work\recon\resource-availability-ui-35.tsv,97386,ffa1be1c48436c695ef9bd195d83f93d6f328c278af38748f2d9ac277c65df6d,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S006,.local-work\recon\resource-milestone-b-producers-01.tsv,82472,bc5ae6b3e3b0f042e0c10d6ab73693b3f6d087821d24e120045ec2e3f206fff8,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S007,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield.esm,1457098709,1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S008,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Starfield.exe,102476200,7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S009,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield - PlanetData.ba2,22468821,2fb1fff5d8fc074718bf05022c099f3c87ef70e00050229b368ae7d680fbe5d5,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S010,C:\Users\User\Documents\My Games\Starfield\Saves\Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs,16411136,6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S011,.local-work\screengrabs\20261024105134_1.jpg,537204,707bf134115f4d0d6889cd781494c65828f6db6ea6c5d102028d08fd5dd8923a,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S012,.local-work\screengrabs\20261024105203_1.jpg,542475,1018a5e736746e36cbc2b9088b6dd7ca0a7a75bbf8721c8d8d8c982e74e2d1d7,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S013,.local-work\screengrabs\20261024105216_1.jpg,544537,ab49730766fa337bbb508d768b3f1bae0f00adc6ecdc94a9842b056a2fa29b74,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S014,.local-work\screengrabs\20261024105235_1.jpg,552255,0576f2a5c04000bf6a60b7a354208a566b647ef3edc6896011e6012bb08471a8,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S015,.local-work\screengrabs\20261024105243_1.jpg,545965,3f6aa03950649183b925ed471cfe8a2094983e55135823a8d47152ef00830a46,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S016,.local-work\screengrabs\20261024105246_1.jpg,539699,6a0ca2b15b8ee6399f0aa441ffb81c4cf67c1e618030867e80a499641ccbfb04,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S017,.local-work\screengrabs\20261024105254_1.jpg,551007,696c87e021eae799ac1ca4210736e0c8790c74e5bbee24b7680075a667d7b59a,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S018,.local-work\screengrabs\20261024105313_1.jpg,586320,ac44e3cea38b1ddcea9283098aefa04e7a679f647f33ba0a21dda9a0d5843275,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S019,.local-work\resource-save52\build-v1\manifest.json,86322,9d2ff9012a573595227c8feda5345de35286b807103665486239ddbe8cbfa9de,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S020,.local-work\resource-save52\build-v1\normalized.json,735952,c0002efbf174094d942a96f154b1ff6c4170a5732277bf43396814172777dade,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S021,.local-work\resource-save52\requests-v1.json,8007,58d2c6e3a5fdf833a80ff973ab639ef6a3c3e340f898c260ecb0700a8f27fb80,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S022,.local-work\resource-save52\comparison-v3\pairs.json,10566,2ca7d4646d969a071f52c42ab83a3ddb66a03e2bc566f63cbea9297738e857c1,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S023,.local-work\resource-save52\diagnostics-v3.json,17770,f354fdb20be79e61652425d11af3d363a71a5927c1bbc04e7fc1fe148d2d186c,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D4-S024,research\resource-selection-operands\controller.cpp,20433,b7affc32f85d9928fe10a849bdee07f38255748532a27dde6a9d46dfe78d2b59,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S025,research\resource-selection-operands\sample.inc,6532,624397ca535f7bc7b4f9b61efa900fa9b46f9cf1e7352fb46961084ceee5eb41,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S026,research\resource-selection-operands\operands.h,544,ea6c5364879251a33485eb78157180f0484d75403deeb2d5a27ab537511a6588,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S027,research\resource-selection-operands\fixture.cpp,6630,55fdee8cf482205221f871d69252287f88f73a24e298582d4675571d4443dd28,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S028,research\resource-selection-operands\fixture.asm,3362,5bc17df803b08c28e64d85ff7aaafd1c2763107c08aa71cfdee1832f411e2200,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S029,research\resource-selection-operands\build.py,3018,36c7366759e13eabbd4c531a1f0da7671fa992a3cdbc499e68ae204871456fcd,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S030,research\resource-carinae-source-context\collect.py,7863,5f07d3e818bcc58389042a32908499c8a84dac92f4fa3e3a1a09c425d85e2b47,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S031,research\resource-carinae-source-context\preflight.py,6135,bfdf49c9045e05e8bebc3670e42d827d309ed9153f57368fb1a88cadb232a80c,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S032,research\resource-carinae-source-context\postflight.py,3393,6b78068bc8b1663f7517d1aac817b0c7bab698baecb1f6b4ccffbfafef69737d,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S033,research\resource-carinae-source-context\save_policy.py,7293,0a22bf8b280051614007e1b7f80b2282674518ef39e90f6e7c8282383ac167cd,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S034,research\resource-carinae-source-context\save_policy.json,632,9d7ad26f172884c4c69d05c1ccbf6128d75c8c38bba855224c57fd7abdbc97e6,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S035,research\resource-carinae-source-context\protection.py,4110,3b34fbf46f5b0c326ae6188775065a5acaf2eae96ead8c34fc85b694e30cbce4,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S036,research\resource-oracle-retail\collect.py,8335,e8945b2830303d7ab015b0c3f84ec816f0d2f31baf4b234627fcefd05c548d90,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S037,research\resource-oracle-retail\decode.h,5131,5517fa45e311419a68957554cc3f6374711d1d43104e37dd763d9483215299b0,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S038,research\resource-oracle-retail\sourcefiles.h,4051,7ab700bf17d557b763ad578acd48457db5d5645d721ce204b9b1908ea302c732,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S039,research\resource-oracle-retail\saves.py,4563,52d369a33861877ac47a612d389f2054c809548f200e0bd83fef4f4f1d96950a,Owned input at HEAD e684cd4; metadata REVIEW-REQUIRED
+D4-S040,research/resource-ui-oracle/receipt_probe.py,8309,a9d4ed8653ecf17e7732c5d7d3c55609942f7c481219932a23c0db4b57022a4b,Owned transitive SRO1 dependency; metadata REVIEW-REQUIRED
+D4-S041,.local-work\resource-selection-context\build12\build.json,7942,a74c25906a10f11803528eb9a092f89f7461090706146cfb68e07fad09a5ca2e,LOCAL-ONLY tool/build/receipt; metadata REVIEW-REQUIRED
+D4-S042,.local-work\resource-selection-context\build12\sor-d4-controller.exe,404480,9c3cfa9c050c90ce7404cc0d7a3678551fe8a53eece71a97613415f0cd601db6,LOCAL-ONLY tool/build/receipt; metadata REVIEW-REQUIRED
+D4-S043,.local-work\resource-selection-context\build12\sor-d4-fixture-controller.exe,413184,eb58a482fb601e44b7e6793c63c6c445d4c6bbc22bec2b2a61f2d0b5cd78daa1,LOCAL-ONLY tool/build/receipt; metadata REVIEW-REQUIRED
+D4-S044,.local-work\resource-selection-context\build12\sor-d4-fixture.exe,159232,743f7b525c23ac008101357ec070b5c597ee24d2d96264be4a49ae3fb0392488,LOCAL-ONLY tool/build/receipt; metadata REVIEW-REQUIRED
+D4-S045,.local-work\resource-selection-context\qualification11\qualification.json,178290,8927d12ec3ebd2e5ba543acb3c4b23b8c7a157e870279ce3487de5d0066edaac,LOCAL-ONLY tool/build/receipt; metadata REVIEW-REQUIRED
+D4-S046,.local-work\resource-selection-context\offline-preflight04\preflight.json,191333,b840e6ffd6351287cf05466821804fcaf49b2731cee86ce146c3d270375cf193,LOCAL-ONLY tool/build/receipt; metadata REVIEW-REQUIRED
+D4-S047,C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe,893328,e6d57100c82ae0310c18b16abfe52bc0df8fbb272ca6c5fb287d485807cfce91,LOCAL-ONLY tool/build/receipt; metadata REVIEW-REQUIRED
+D4-S048,C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\link.exe,3701088,3ef8fcf80d409fab22ddd89ee19249f31a26ad9914d3e3e48573c30998fa24de,LOCAL-ONLY tool/build/receipt; metadata REVIEW-REQUIRED
+D4-S049,C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\ml64.exe,751976,a0cdb011ab6dffe8282b14d195922654978626eb235fb9c52b814cfb48978a9f,LOCAL-ONLY tool/build/receipt; metadata REVIEW-REQUIRED
+D4-S050,.local-work/resource-selection-context/preservation.json,335,ee4d3c1cfa43b028e612370085c49c5a2ec2e3952c7dbf40bea0c521bbde4f8b,LOCAL-ONLY preservation receipt; metadata REVIEW-REQUIRED
+D4-S051,.local-work/resource-selection-context/offline-postflight01.json,310131,c3483138057bff08913a0afcba2a3404564be00c8ddc14fafbfee1e11a82f281,LOCAL-ONLY preservation receipt; metadata REVIEW-REQUIRED

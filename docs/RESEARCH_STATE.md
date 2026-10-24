@@ -1,5 +1,7 @@
 # Current Research State
 
+**2026-10-24 — RG2-D4 selection-context acquisition:** [Phase A report](experiments/resource-selection-context/report.md) adds source BIOM/query/component/mask and visited alternate-descriptor acquisition through a rotating hardware breakpoint. Synthetic qualification is separate from native semantics; historical Archimedes Tungsten provenance and Workshop/consumer epoch binding remain UNKNOWN. [Review](experiments/resource-selection-context/review.md) controls exact acceptance; [one-session candidate card](experiments/resource-selection-context/run-card.md) requires separate approval. Frozen D1/D2/D3 predictions and B6/publication hold remain unchanged.
+
 **2026-10-24 — RG2-D3 discrepancy and coverage investigation:**
 [Report](experiments/resource-save52-d3/report.md) adds the supported Special
 geometric pass and assigned-family descriptor resolution. Nine of D2's 18
