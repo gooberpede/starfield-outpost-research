@@ -1,5 +1,7 @@
 # Experiments
 
+- [D5 Feynman construction masks and component precedence](resource-feynman-d5/report.md): conditional descriptor selection, two newly corroborated pairs, seven localized mask gaps, full cohort/geometry regression and 24 screenshot observations; [review](resource-feynman-d5/review.md). Offline only; prospective source-specific capture requires separate approval.
+
 - [D4E component-slot provenance and predictive owner-root map](resource-slot-provenance/report.md): BIOM-local sixth-slot writer, frozen installed-input component/map prediction, versioned corpus and full regression accounting; [native ledger](resource-slot-provenance/native.md), [review](resource-slot-provenance/review.md). Historical epoch remains UNKNOWN; offline only.
 
 - [D4D live owner-root construction](resource-owner-acquisition/phase-b.md): captured component slots, displaced Tungsten/Water array, second Water supply and exact ordinary call sequence; [native ledger](resource-owner-acquisition/phase-b-native.md), [review](resource-owner-acquisition/phase-b-review.md). Historical generation epoch remains UNKNOWN; no further live authority.

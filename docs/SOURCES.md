@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-D5 construction and selection
+
+[Native lineage](experiments/resource-feynman-d5/native.md) uses pinned Bethesda executable/definitions, existing exports and two new read-only sampler/raster exports. The maintainer supplies 24 original JPEGs, with [individual hashes and annotations](experiments/resource-feynman-d5/screenshots.csv). D4 acquisition/transport, D4C key/layout research, D4E component/map/corpus preparation, D1/D3 geometry/isolation and protection/export tooling retain [SOR-P-0002 per-use provenance](experiments/resource-feynman-d5/sources.csv). Ghidra/JDK, CPython and Git remain separate installed tools. No new outside incorporation or disclosure.
+
 ## RG2-D4E component-slot provenance
 
 [Native ledger](experiments/resource-slot-provenance/native.md) uses the pinned Bethesda executable/installed definitions and earlier D4D receipts. [Per-use pins](experiments/resource-slot-provenance/sources.csv) retain the independent freeze, new read-only exports, source-backed small-list ordering, comparisons and owned methods. D1/D3 inference/isolation, D4C map/layout, D4D decoding, protection/export tooling and sibling planetary selection retain SOR-P-0002 provenance; the new component projection and synthetic discriminators are original authored work. CPython 3.14.3, Git and existing Ghidra 12.1.2/JDK are separate installed tools. No new third-party incorporation, licence acceptance, contact or disclosure. Proprietary inputs/exports/corpora remain LOCAL-ONLY.

@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## RG2-D5 offline Feynman reconciliation — 2026-10-25
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5_feynman_construction_mask_component_selection.md) authorizes offline reads, first-party screenshot intake, owned analytical adaptation and independent review. [Per-use provenance](experiments/resource-feynman-d5/sources.csv) retains SOR-P-0002 lineage. No new outside incorporation, licence acceptance, external contact/disclosure, live action, save/configuration/analysis-content mutation, staging, commit, push or publication is authorized or performed. The proposed live card requires separate approval; raw payloads stay LOCAL-ONLY and authored work REVIEW-REQUIRED.
+
 ## RG2-D4E offline component-slot provenance — 2026-10-25
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md) authorizes offline native/installed reads, owned analytical adaptation, synthetic tests and independent review. [Per-use provenance](experiments/resource-slot-provenance/sources.csv) retains SOR-P-0002 lineage. No new outside incorporation, licence acceptance, contact/disclosure, retail launch/attachment, save/configuration/analysis-content mutation, staging, commit, push or publication is authorized or performed. Derived corpora, exports and raw receipts remain LOCAL-ONLY; authored work remains REVIEW-REQUIRED. B6 stays on hold.
