@@ -1,5 +1,9 @@
 # Source Register
 
+## D4D Phase B native construction
+
+[The live result](experiments/resource-owner-acquisition/phase-b.md) uses the explicitly approved pinned external collector and protected Save52. [Exact per-use evidence/method pins](experiments/resource-owner-acquisition/phase-b-sources.csv) bind native receipts, ACKs, preflight/postflight, frozen D4C input, original offline origin propagation and verified archive. D4A/D4B transport/identity/terminal methods, D4C logical transitions and shared archival/export methods retain SOR-P-0002 provenance. Installed Windows, CPython and the computer-use plugin are separate tools; both attempted window captures failed and no gameplay UI input was automated. No new third-party implementation, licence acceptance or external disclosure. Raw native/save/derived payloads remain LOCAL-ONLY.
+
 ## RG2-D4D ordered owner-root acquisition
 
 [Native contract](experiments/resource-owner-acquisition/native.md) uses existing pinned Bethesda instruction exports and earlier D4A/D4B/D4C research. [Per-use provenance](experiments/resource-owner-acquisition/sources.csv) identifies exact owned controller/fixture/transport/protection, logical-map, geometry/isolation and review-export methods reused under SOR-P-0002. Synthetic fixture histories and new acquisition/comparison code are original authored work. Windows/MSVC, CPython and Git remain installed separate tools. No new third-party implementation or licence basis was incorporated or accepted; raw exports, saves and generated geometry remain LOCAL-ONLY.

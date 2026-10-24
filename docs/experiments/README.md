@@ -1,5 +1,7 @@
 # Experiments
 
+- [D4D live owner-root construction](resource-owner-acquisition/phase-b.md): captured component slots, displaced Tungsten/Water array, second Water supply and exact ordinary call sequence; [native ledger](resource-owner-acquisition/phase-b-native.md), [review](resource-owner-acquisition/phase-b-review.md). Historical generation epoch remains UNKNOWN; no further live authority.
+
 - [RG2-D4D ordered owner-root acquisition](resource-owner-acquisition/report.md): component/staging/map/CALL capture, synthetic Windows qualification and first-divergence comparison; [review](resource-owner-acquisition/review.md), [unexecuted Phase B card](resource-owner-acquisition/run-card.md). Historical Archimedes ancestry remains UNKNOWN.
 
 - [RG2-D4C owner-root map](resource-owner-root/report.md): static staging/exchange reconstruction, conditional Tungsten carry, failed complete-list hypothesis and source-qualified geometry comparisons; [review](resource-owner-root/review.md). Offline only; prospective acquisition unexecuted.

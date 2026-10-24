@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## D4D one-session Phase B — 2026-10-24
+
+The maintainer explicitly [approved the exact Phase B card](experiments/resource-owner-acquisition/phase-b-authorization.md) subject to successful preflight and confirmed Steam Cloud disabled. [Result](experiments/resource-owner-acquisition/phase-b.md) records one Steam-launched PID, one actual debugger attachment, ordinary-user external DR/RF observation, operator-only gameplay and ACK-before-controlled-disposal. The timestamp formatting rejection preceded debugger creation and gate consumption; no second live attempt occurred. Full postflight passed and no restoration was performed. Offline analysis, local archival and independent diff review remain in scope. Approval is consumed; no new session, retarget, forced generation, save/configuration modification, deployment, outside incorporation, external disclosure, staging, commit, push or publication follows. Maintainer-owned methods remain under SOR-P-0002.
+
 ## RG2-D4D Phase A — 2026-10-24
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4D_owner_root_component_acquisition.md) authorizes offline native reads, original code, real disposable Windows debugger fixtures, protected-input audits, scratch restoration rehearsal and authored review records. [Per-use lineage](experiments/resource-owner-acquisition/sources.csv) records existing maintainer methods under SOR-P-0002. No new third-party incorporation, retail launch/attachment, save/configuration change, external disclosure, staging, commit, push or publication is authorized. The [Phase B card](experiments/resource-owner-acquisition/run-card.md) requires a new explicit approval naming its exact build. Independent Phase A review grants no live or integration authority.

@@ -1,5 +1,9 @@
 # Credits
 
+## D4D Phase B native construction
+
+Bethesda supplies the inspected native state and installed definitions; the maintainer supplies protected Save52 and operator actions. Earlier D4A/D4B identity/transport/terminal work, D4C map research and shared archival/review methods retain [per-use provenance](docs/experiments/resource-owner-acquisition/phase-b-sources.csv) under SOR-P-0002. Windows/CPython and the separately installed computer-use plugin remain tools; no new third-party implementation or raw payload redistribution is introduced.
+
 ## RG2-D4D ordered owner-root acquisition
 
 Bethesda supplies the existing native/definition evidence; the maintainer supplies protected saves, earlier captures and owned acquisition/replay methods. D4B terminal handling, D4A/C1 transport and identity checks, D4C logical transitions, D1/D3 geometry controls and exact review-export methods retain [per-use provenance](docs/experiments/resource-owner-acquisition/sources.csv) under SOR-P-0002. Microsoft Windows/MSVC, CPython and Git remain separate installed tools. No new outside implementation or raw payload redistribution is introduced.
