@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D4D ordered owner-root acquisition](resource-owner-acquisition/report.md): component/staging/map/CALL capture, synthetic Windows qualification and first-divergence comparison; [review](resource-owner-acquisition/review.md), [unexecuted Phase B card](resource-owner-acquisition/run-card.md). Historical Archimedes ancestry remains UNKNOWN.
+
 - [RG2-D4C owner-root map](resource-owner-root/report.md): static staging/exchange reconstruction, conditional Tungsten carry, failed complete-list hypothesis and source-qualified geometry comparisons; [review](resource-owner-root/review.md). Offline only; prospective acquisition unexecuted.
 
 - [RG2-D4B Tungsten admission and terminal teardown](resource-tungsten-repair/report.md): native supplemental-map divergence, exact conditional three-region replay, real Windows STOP repair and bounded missing-node acquisition plan; [review](resource-tungsten-repair/review.md). No new retail execution; historical epoch remains unknown.

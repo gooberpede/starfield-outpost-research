@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## RG2-D4D Phase A — 2026-10-24
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4D_owner_root_component_acquisition.md) authorizes offline native reads, original code, real disposable Windows debugger fixtures, protected-input audits, scratch restoration rehearsal and authored review records. [Per-use lineage](experiments/resource-owner-acquisition/sources.csv) records existing maintainer methods under SOR-P-0002. No new third-party incorporation, retail launch/attachment, save/configuration change, external disclosure, staging, commit, push or publication is authorized. The [Phase B card](experiments/resource-owner-acquisition/run-card.md) requires a new explicit approval naming its exact build. Independent Phase A review grants no live or integration authority.
+
 ## RG2-D4C offline owner-root investigation — 2026-10-24
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4C_owner_root_map_archimedes.md) authorizes the performed offline reads, read-only static exports, owned logical evaluator, conditional predictions and synthetic tests. [Pins](experiments/resource-owner-root/sources.csv) retain SOR-P-0002 provenance. No third-party incorporation, new licence acceptance, contact/disclosure, live operation, protected-input mutation, staging, commit, push or publication occurred. The [prospective card](experiments/resource-owner-root/run-card.md) remains unimplemented and needs fresh qualification plus separate explicit live approval.

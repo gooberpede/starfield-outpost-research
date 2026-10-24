@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-D4D ordered owner-root acquisition
+
+[Native contract](experiments/resource-owner-acquisition/native.md) uses existing pinned Bethesda instruction exports and earlier D4A/D4B/D4C research. [Per-use provenance](experiments/resource-owner-acquisition/sources.csv) identifies exact owned controller/fixture/transport/protection, logical-map, geometry/isolation and review-export methods reused under SOR-P-0002. Synthetic fixture histories and new acquisition/comparison code are original authored work. Windows/MSVC, CPython and Git remain installed separate tools. No new third-party implementation or licence basis was incorporated or accepted; raw exports, saves and generated geometry remain LOCAL-ONLY.
+
 ## RG2-D4C owner-root map
 
 [Research](experiments/resource-owner-root/report.md) uses pinned Bethesda installed/native inputs and the maintainer's D4A receipts. [Field and source provenance](experiments/resource-owner-root/native.md), [input freeze](experiments/resource-owner-root/candidate-trace.md) and [per-use hashes](experiments/resource-owner-root/sources.csv) distinguish observed operands from the hypothetical family-to-slot projection. Owned D1/D3/D4A/D4B methods and sibling planetary modules retain SOR-P-0002 lineage. Raw exports/corpora stay LOCAL-ONLY; no new outside incorporation or disclosure.

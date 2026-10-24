@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-D4D ordered owner-root acquisition
+
+Bethesda supplies the existing native/definition evidence; the maintainer supplies protected saves, earlier captures and owned acquisition/replay methods. D4B terminal handling, D4A/C1 transport and identity checks, D4C logical transitions, D1/D3 geometry controls and exact review-export methods retain [per-use provenance](docs/experiments/resource-owner-acquisition/sources.csv) under SOR-P-0002. Microsoft Windows/MSVC, CPython and Git remain separate installed tools. No new outside implementation or raw payload redistribution is introduced.
+
 ## RG2-D4C owner-root map
 
 Bethesda supplies the pinned installed/native evidence; the maintainer supplies protected saves and original native receipts. Owned D1/D3 selection, geometry, isolation, protection, Ghidra export and review methods are reused under SOR-P-0002 with [per-use pins](docs/experiments/resource-owner-root/sources.csv). Existing CPython, Git and Ghidra/JDK are separate tools. No new third-party implementation or raw payload is incorporated. The conditional family-slot map is not a complete native prediction.
