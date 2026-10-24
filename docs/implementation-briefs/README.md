@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-D4E component-slot provenance and owner-root prediction](CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md): invoked 2026-10-25 for offline native/installed analysis, original reconstruction, regression and independent review; [report](../experiments/resource-slot-provenance/report.md), [review](../experiments/resource-slot-provenance/review.md). No live, staging, commit, push or publication authority.
+
 - [RG2-D4D owner-root component acquisition](CODEX_BRIEF_SOR_RG2_D4D_owner_root_component_acquisition.md): invoked 2026-10-24 for Phase A offline analysis, implementation and real synthetic Windows qualification; [report](../experiments/resource-owner-acquisition/report.md), [review](../experiments/resource-owner-acquisition/review.md). Separate approval is required for Phase B; no commit/push/publication authority.
 
 - [RG2-D4C owner-root map and Archimedes](CODEX_BRIEF_SOR_RG2_D4C_owner_root_map_archimedes.md): invoked 2026-10-24 for offline research, logical implementation and synthetic tests; [report](../experiments/resource-owner-root/report.md), [review](../experiments/resource-owner-root/review.md). No live, staging, commit, push or publication authority.

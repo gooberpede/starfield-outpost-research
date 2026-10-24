@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-D4E component-slot provenance
+
+[Native ledger](experiments/resource-slot-provenance/native.md) uses the pinned Bethesda executable/installed definitions and earlier D4D receipts. [Per-use pins](experiments/resource-slot-provenance/sources.csv) retain the independent freeze, new read-only exports, source-backed small-list ordering, comparisons and owned methods. D1/D3 inference/isolation, D4C map/layout, D4D decoding, protection/export tooling and sibling planetary selection retain SOR-P-0002 provenance; the new component projection and synthetic discriminators are original authored work. CPython 3.14.3, Git and existing Ghidra 12.1.2/JDK are separate installed tools. No new third-party incorporation, licence acceptance, contact or disclosure. Proprietary inputs/exports/corpora remain LOCAL-ONLY.
+
 ## D4D Phase B native construction
 
 [The live result](experiments/resource-owner-acquisition/phase-b.md) uses the explicitly approved pinned external collector and protected Save52. [Exact per-use evidence/method pins](experiments/resource-owner-acquisition/phase-b-sources.csv) bind native receipts, ACKs, preflight/postflight, frozen D4C input, original offline origin propagation and verified archive. D4A/D4B transport/identity/terminal methods, D4C logical transitions and shared archival/export methods retain SOR-P-0002 provenance. Installed Windows, CPython and the computer-use plugin are separate tools; both attempted window captures failed and no gameplay UI input was automated. No new third-party implementation, licence acceptance or external disclosure. Raw native/save/derived payloads remain LOCAL-ONLY.

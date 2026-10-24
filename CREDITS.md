@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-D4E component-slot provenance
+
+Bethesda supplies the inspected native instructions and installed definitions; the maintainer supplies existing D4D captures and earlier planetary/resource research. D1/D3 corpus/geometry/isolation, D4C map/layout, D4D receipt decoding and protection/review-export methods retain [per-use provenance](docs/experiments/resource-slot-provenance/sources.csv) under SOR-P-0002. Existing Ghidra/JDK, CPython and Git remain separate tools. No new outside implementation or raw payload redistribution is introduced.
+
 ## D4D Phase B native construction
 
 Bethesda supplies the inspected native state and installed definitions; the maintainer supplies protected Save52 and operator actions. Earlier D4A/D4B identity/transport/terminal work, D4C map research and shared archival/review methods retain [per-use provenance](docs/experiments/resource-owner-acquisition/phase-b-sources.csv) under SOR-P-0002. Windows/CPython and the separately installed computer-use plugin remain tools; no new third-party implementation or raw payload redistribution is introduced.

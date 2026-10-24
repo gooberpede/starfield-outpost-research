@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## RG2-D4E offline component-slot provenance — 2026-10-25
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md) authorizes offline native/installed reads, owned analytical adaptation, synthetic tests and independent review. [Per-use provenance](experiments/resource-slot-provenance/sources.csv) retains SOR-P-0002 lineage. No new outside incorporation, licence acceptance, contact/disclosure, retail launch/attachment, save/configuration/analysis-content mutation, staging, commit, push or publication is authorized or performed. Derived corpora, exports and raw receipts remain LOCAL-ONLY; authored work remains REVIEW-REQUIRED. B6 stays on hold.
+
 ## D4D one-session Phase B — 2026-10-24
 
 The maintainer explicitly [approved the exact Phase B card](experiments/resource-owner-acquisition/phase-b-authorization.md) subject to successful preflight and confirmed Steam Cloud disabled. [Result](experiments/resource-owner-acquisition/phase-b.md) records one Steam-launched PID, one actual debugger attachment, ordinary-user external DR/RF observation, operator-only gameplay and ACK-before-controlled-disposal. The timestamp formatting rejection preceded debugger creation and gate consumption; no second live attempt occurred. Full postflight passed and no restoration was performed. Offline analysis, local archival and independent diff review remain in scope. Approval is consumed; no new session, retarget, forced generation, save/configuration modification, deployment, outside incorporation, external disclosure, staging, commit, push or publication follows. Maintainer-owned methods remain under SOR-P-0002.
