@@ -1,5 +1,16 @@
 # Permission and Reuse Register
 
+## RG2-D2 offline Save52-wide validation — 2026-10-24
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md)
+authorizes performed read-only Save52/installed-definition work, owned analytical
+adaptation, isolated inference, post-freeze comparison and independent review.
+[Per-use provenance](experiments/resource-save52/sources.csv) retains SOR-P-0002
+methods and protected primary identities. No new third-party incorporation,
+licence acceptance, contact, disclosure, live operation, save/configuration/
+analysis mutation, staging, commit, push or publication occurred. The prospective
+card is unexecuted and requires separate finalized qualification and approval.
+
 ## RG2-D1 offline portable geometry — 2026-10-24
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md)

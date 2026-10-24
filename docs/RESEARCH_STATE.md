@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-24 — RG2-D2 Save52-wide validation:** [Report](experiments/resource-save52/report.md)
+accounts for 19 recognized ordinary beacons: 17 saved-active qualified cases
+and two disabled cases, with authoritative player membership still unverified.
+All 15 held-out eligible cases are included; eight have full conditional
+geometry and one retains partial positives. Sixteen of 17 testable positive
+resource pairs correspond; Archimedes Tungsten is a component-level discrepancy.
+Eighteen further ordinary pairs remain indeterminate. All seven native geometry
+controls remain exact. [Review](experiments/resource-save52/review.md) controls
+acceptance; the prospective card is unexecuted. No live test, integration or
+publication clearance; B6 remains on hold.
+
 **2026-10-24 — RG2-D1 portable geometry:** [Report](experiments/resource-standalone/report.md)
 implements a corpus-only predictor for three supplied interior tiles. Both
 16,792-byte normalized and 25,942-byte expanded corpora reproduce seven exact

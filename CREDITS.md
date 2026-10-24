@@ -1,5 +1,15 @@
 # Credits
 
+## RG2-D2 Save52-wide resource validation
+
+Bethesda supplies the pinned installed definitions and earlier native evidence;
+the maintainer supplies protected Save52 and the independent manual network.
+Owned D1 geometry/isolation, planetary selection, Workshop membership/resource,
+saved-coordinate and protection methods are reused under SOR-P-0002, with
+[per-use pins](docs/experiments/resource-save52/sources.csv). CPython and Git
+remain existing separate tools. No outside implementation was incorporated or
+raw corpus/save/native payload cleared for publication.
+
 ## RG2-D1 standalone resource geometry
 
 Bethesda supplies the inspected installed data and native evidence. The

@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-D2 Save52-wide resource validation](CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md): invoked 2026-10-24, offline only; [report](../experiments/resource-save52/report.md), [review](../experiments/resource-save52/review.md). No live or Git integration authority; B6 remains on hold.
+
 - [RG2-D1 portable corpus and standalone geometry](CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md): invoked 2026-10-24, offline extraction/implementation/tests only; [report](../experiments/resource-standalone/report.md), [review](../experiments/resource-standalone/review.md). B6/publication remain on hold; no live or Git integration authority.
 
 - [RG2-C2D surface-pattern selection and source coverage](CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md): invoked 2026-10-23, offline only; [report](../experiments/resource-pattern-selection/report.md), [review](../experiments/resource-pattern-selection/review.md). No live or Git integration authority.

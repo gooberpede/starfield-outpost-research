@@ -1,5 +1,16 @@
 # Source Register
 
+## RG2-D2 Save52-wide validation
+
+Bethesda's pinned installed definitions/EXE/PlanetData, protected Save52 and
+seven earlier native receipts support the [offline report](experiments/resource-save52/report.md).
+[Per-use pins](experiments/resource-save52/sources.csv) record primary local
+manifests and owned D1/planetary/Workshop/coordinate methods. SOR-P-0002 covers
+their adaptation; the existing independent maintainer-authored manual network
+is post-freeze membership corroboration only. No new outside code, dependency,
+licence basis, communication or disclosure. Actual corpus/full geometry/raw
+evidence remain LOCAL-ONLY; authored aggregates remain REVIEW-REQUIRED.
+
 ## RG2-D1 portable geometry and minimal corpus
 
 Bethesda supplies pinned installed ESM/EXE/PlanetData and the earlier native

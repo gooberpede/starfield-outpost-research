@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D2 Save52-wide validation](resource-save52/report.md): frozen 15-case held-out assessment, positive-only comparison, component discrepancy, unsupported classes and seven exact native controls; [review](resource-save52/review.md). Offline only; actual corpus LOCAL-ONLY.
+
 - [RG2-D1 standalone geometry](resource-standalone/report.md): measured portable corpus alternatives, seven exact native paths, qualified availability and independent [review](resource-standalone/review.md). Offline only; actual corpus LOCAL-ONLY.
 
 - [RG2-C2D upstream surface-pattern selection](resource-pattern-selection/report.md): independent PNDT/SFTR prediction, 48-cell lookup correction, both sites' before/after inventories and seven exact geometry controls; [review package](resource-pattern-selection/review.md). Offline only; no native census claim.
