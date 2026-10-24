@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+[RG2-D4C owner-root map](../experiments/resource-owner-root/report.md) qualifies the displaced-array route from Lead to Chlorine under a frozen installed family-slot hypothesis. Two Water candidates and actual component ancestry remain unresolved; a separately corrected SFPT installation transpose resolves the Chlorine source-ID mismatch. No complete owner-root correction or historical epoch join is claimed. [Review](../experiments/resource-owner-root/review.md) controls disposition; the prospective acquisition remains unexecuted.
+
 [RG2-D4B resource admission](../experiments/resource-tungsten-repair/report.md) traces owner-range supplemental resources omitted by the selected-family projection and exactly replays Tungsten plus two Chlorine controls using observed calls. Historical generating epoch and exact supplying component remain unknown. The separate terminal teardown repair is synthetically qualified; [review](../experiments/resource-tungsten-repair/review.md) controls acceptance. No live or publication authority follows.
 
 [RG2-D1 resource geometry](../experiments/resource-standalone/report.md) supplies a

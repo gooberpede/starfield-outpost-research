@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## RG2-D4C offline owner-root investigation — 2026-10-24
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4C_owner_root_map_archimedes.md) authorizes the performed offline reads, read-only static exports, owned logical evaluator, conditional predictions and synthetic tests. [Pins](experiments/resource-owner-root/sources.csv) retain SOR-P-0002 provenance. No third-party incorporation, new licence acceptance, contact/disclosure, live operation, protected-input mutation, staging, commit, push or publication occurred. The [prospective card](experiments/resource-owner-root/run-card.md) remains unimplemented and needs fresh qualification plus separate explicit live approval.
+
 ## RG2-D4B offline research and synthetic teardown repair — 2026-10-24
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md) authorizes bounded offline source/evidence reads and exports, owned collector adaptation, diagnostic replay and actual disposable Windows debugging fixtures. [Source pins](experiments/resource-tungsten-repair/sources.csv) preserve SOR-P-0002 lineage. No new outside incorporation, licence acceptance, contact, external disclosure, retail launch/attachment, save/configuration/analysis-content mutation, staging, commit, push, fork/PR or publication was performed. The unimplemented prospective owner-map acquisition card needs separate qualification and explicit live approval. Original D4A evidence and teardown FAIL remain immutable; B6 remains on hold.

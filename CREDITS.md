@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-D4C owner-root map
+
+Bethesda supplies the pinned installed/native evidence; the maintainer supplies protected saves and original native receipts. Owned D1/D3 selection, geometry, isolation, protection, Ghidra export and review methods are reused under SOR-P-0002 with [per-use pins](docs/experiments/resource-owner-root/sources.csv). Existing CPython, Git and Ghidra/JDK are separate tools. No new third-party implementation or raw payload is incorporated. The conditional family-slot map is not a complete native prediction.
+
 ## RG2-D4B Tungsten provenance and teardown
 
 Bethesda supplies native/definition evidence; the maintainer supplied protected Save52, D4A captures and earlier geometry/screenshot controls. Owned D4A/D4/C1 acquisition, RG1 geometry, D1/D2/D3 isolation/comparison, protection and review methods are used under SOR-P-0002 with [per-use provenance](docs/experiments/resource-tungsten-repair/sources.csv). Existing Microsoft Windows/MSVC, Ghidra/JDK, CPython and Git remain separate tools. No new third-party code or proprietary payload redistribution is introduced.

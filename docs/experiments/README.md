@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D4C owner-root map](resource-owner-root/report.md): static staging/exchange reconstruction, conditional Tungsten carry, failed complete-list hypothesis and source-qualified geometry comparisons; [review](resource-owner-root/review.md). Offline only; prospective acquisition unexecuted.
+
 - [RG2-D4B Tungsten admission and terminal teardown](resource-tungsten-repair/report.md): native supplemental-map divergence, exact conditional three-region replay, real Windows STOP repair and bounded missing-node acquisition plan; [review](resource-tungsten-repair/review.md). No new retail execution; historical epoch remains unknown.
 
 - [RG2-D4 native selection context](resource-selection-context/report.md): working candidate-source collector, native producer/operand contracts, synthetic Windows controls and prospective Archimedes card; [review](resource-selection-context/review.md). Offline only; no retail authority or historical epoch join.

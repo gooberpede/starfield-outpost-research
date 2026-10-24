@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-D4C owner-root map
+
+[Research](experiments/resource-owner-root/report.md) uses pinned Bethesda installed/native inputs and the maintainer's D4A receipts. [Field and source provenance](experiments/resource-owner-root/native.md), [input freeze](experiments/resource-owner-root/candidate-trace.md) and [per-use hashes](experiments/resource-owner-root/sources.csv) distinguish observed operands from the hypothetical family-to-slot projection. Owned D1/D3/D4A/D4B methods and sibling planetary modules retain SOR-P-0002 lineage. Raw exports/corpora stay LOCAL-ONLY; no new outside incorporation or disclosure.
+
 ## RG2-D4B Tungsten admission and terminal teardown
 
 Bethesda's pinned native/definition evidence and the maintainer's accepted D4A receipts support the [report](experiments/resource-tungsten-repair/report.md). [Per-use pins](experiments/resource-tungsten-repair/sources.csv) identify the map export, surrounding existing exports, old/new collector sources/builds, frozen D2/D3 and exact replay/regression/terminal receipts. Owned D4A acquisition, D4/C1 methods, RG1 geometry, D1 isolation/verification, protection and review-export methods are adapted or reused under SOR-P-0002. Microsoft Windows/MSVC, Ghidra/JDK, CPython and Git are existing separate tools. No third-party implementation was incorporated; raw native payloads, generated geometry, saves and binaries remain LOCAL-ONLY. Conditional replay is not historical epoch proof or a corrected blind corpus.
