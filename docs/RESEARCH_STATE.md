@@ -1,5 +1,15 @@
 # Current Research State
 
+**2026-10-24 — RG2-D3 discrepancy and coverage investigation:**
+[Report](experiments/resource-save52-d3/report.md) adds the supported Special
+geometric pass and assigned-family descriptor resolution. Nine of D2's 18
+indeterminate held-out associations become corroborated positives; nine remain
+indeterminate and Archimedes Tungsten remains a selection-stage potential false
+negative. Four mixed-mask cases need the first construction query; Feynman III
+needs alternate descriptor order. All 19 cases, original D1 requests and seven
+exact native controls are accounted for. [Review](experiments/resource-save52-d3/review.md)
+controls acceptance. No live test, integration or publication clearance; B6 remains on hold.
+
 **2026-10-24 — RG2-D2 Save52-wide validation:** [Report](experiments/resource-save52/report.md)
 accounts for 19 recognized ordinary beacons: 17 saved-active qualified cases
 and two disabled cases, with authoritative player membership still unverified.

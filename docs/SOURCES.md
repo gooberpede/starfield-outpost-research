@@ -1,5 +1,16 @@
 # Source Register
 
+## RG2-D3 Save52 discrepancy investigation
+
+Bethesda's pinned installed/native evidence and the maintainer's protected
+Save52/eight Archimedes screenshots support the [report](experiments/resource-save52-d3/report.md).
+[Per-use identities](experiments/resource-save52-d3/sources.csv) preserve primary
+and owned-method provenance. D3 adapts committed D1/D2 code and uses existing
+maintainer-owned planetary selection under SOR-P-0002; no sibling catalogue or
+outside implementation was incorporated. Screenshot pixels, maintainer reports,
+saved positive witnesses and conditional predictions remain distinct. Primary
+payloads stay LOCAL-ONLY; authored summaries remain REVIEW-REQUIRED.
+
 ## RG2-D2 Save52-wide validation
 
 Bethesda's pinned installed definitions/EXE/PlanetData, protected Save52 and

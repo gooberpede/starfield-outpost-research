@@ -1,0 +1,30 @@
+source,path,bytes,sha256,eligibility
+D3-S001,.local-work\recon\resource-availability-cont-01.tsv,120667,c167add6f3e75f6a0ce2627f5813b4c0e04509e5b7d2974f57d3b8795d7602a3,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S002,.local-work\recon\resource-availability-cont-05.tsv,105992,dc674983ae0f2999b5dcc00f0372db71786a9637aa7b233d96d2f72e5a69ef10,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S003,.local-work\recon\resource-availability-cont-11.tsv,32360,f80f4269f02cf0072f758ac36658052eca1c02d121ab8a3de74eabd10f85e171,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S004,.local-work\recon\resource-availability-ui-34.tsv,9058,2af57979930d8bab9bb025c97ec7a13dce0e4b3bb609598a1511f7a559081a88,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S005,.local-work\recon\resource-availability-ui-35.tsv,97386,ffa1be1c48436c695ef9bd195d83f93d6f328c278af38748f2d9ac277c65df6d,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S006,.local-work\recon\resource-milestone-b-producers-01.tsv,82472,bc5ae6b3e3b0f042e0c10d6ab73693b3f6d087821d24e120045ec2e3f206fff8,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S007,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield.esm,1457098709,1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S008,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Starfield.exe,102476200,7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S009,C:\Program Files (x86)\Steam\steamapps\common\Starfield\Data\Starfield - PlanetData.ba2,22468821,2fb1fff5d8fc074718bf05022c099f3c87ef70e00050229b368ae7d680fbe5d5,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S010,C:\Users\User\Documents\My Games\Starfield\Saves\Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs,16411136,6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S011,.local-work\screengrabs\20261024105134_1.jpg,537204,707bf134115f4d0d6889cd781494c65828f6db6ea6c5d102028d08fd5dd8923a,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S012,.local-work\screengrabs\20261024105203_1.jpg,542475,1018a5e736746e36cbc2b9088b6dd7ca0a7a75bbf8721c8d8d8c982e74e2d1d7,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S013,.local-work\screengrabs\20261024105216_1.jpg,544537,ab49730766fa337bbb508d768b3f1bae0f00adc6ecdc94a9842b056a2fa29b74,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S014,.local-work\screengrabs\20261024105235_1.jpg,552255,0576f2a5c04000bf6a60b7a354208a566b647ef3edc6896011e6012bb08471a8,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S015,.local-work\screengrabs\20261024105243_1.jpg,545965,3f6aa03950649183b925ed471cfe8a2094983e55135823a8d47152ef00830a46,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S016,.local-work\screengrabs\20261024105246_1.jpg,539699,6a0ca2b15b8ee6399f0aa441ffb81c4cf67c1e618030867e80a499641ccbfb04,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S017,.local-work\screengrabs\20261024105254_1.jpg,551007,696c87e021eae799ac1ca4210736e0c8790c74e5bbee24b7680075a667d7b59a,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S018,.local-work\screengrabs\20261024105313_1.jpg,586320,ac44e3cea38b1ddcea9283098aefa04e7a679f647f33ba0a21dda9a0d5843275,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S019,.local-work\resource-save52\build-v1\manifest.json,86322,9d2ff9012a573595227c8feda5345de35286b807103665486239ddbe8cbfa9de,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S020,.local-work\resource-save52\build-v1\normalized.json,735952,c0002efbf174094d942a96f154b1ff6c4170a5732277bf43396814172777dade,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S021,.local-work\resource-save52\requests-v1.json,8007,58d2c6e3a5fdf833a80ff973ab639ef6a3c3e340f898c260ecb0700a8f27fb80,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S022,.local-work\resource-save52\comparison-v3\pairs.json,10566,2ca7d4646d969a071f52c42ab83a3ddb66a03e2bc566f63cbea9297738e857c1,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S023,.local-work\resource-save52\diagnostics-v3.json,17770,f354fdb20be79e61652425d11af3d363a71a5927c1bbc04e7fc1fe148d2d186c,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S024,D:\Projects\starfield-resource-reproducer\src\starfield_resource_reproducer\__init__.py,22,27e8febb48ada44153ea2add9969a2c50a9831a74d9755fdd53c549a888b1cc2,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S025,D:\Projects\starfield-resource-reproducer\src\starfield_resource_reproducer\candidates.py,1752,1dd6a94264441a1ad7f6cf297f6c9f81693bb14bf07da03b3d0f0a080b88e16a,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S026,D:\Projects\starfield-resource-reproducer\src\starfield_resource_reproducer\diagnostics.py,9110,e01c5e4d7bf4f69ec13edcf2a93711478be3910f524d05707571dfc94776d4d0,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S027,D:\Projects\starfield-resource-reproducer\src\starfield_resource_reproducer\domain.py,9806,e100a1ad51fb7e1107a05811567b89a82188848679c55c6b0dbb669adc8826bc,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S028,D:\Projects\starfield-resource-reproducer\src\starfield_resource_reproducer\generation.py,61224,fc104fb92f24b7db48d246b9720b40c38a8e6209309d1f5d31a216dc7ca0c96b,LOCAL-ONLY input; metadata REVIEW-REQUIRED
+D3-S029,D:\Projects\starfield-resource-reproducer\src\starfield_resource_reproducer\prng.py,10254,a806ac1b114ac107acba0bf4c5a6552859a6f2e4d393ef8edd107bc7eaaacfee,LOCAL-ONLY input; metadata REVIEW-REQUIRED

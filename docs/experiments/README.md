@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D3 Save52 discrepancies and coverage](resource-save52-d3/report.md): nine new corroborated pairs, supported Special/descriptor branches, retained Tungsten discrepancy and precise mask/descriptor acquisition routes; [review](resource-save52-d3/review.md). Offline only; raw corpus and screenshots LOCAL-ONLY.
+
 - [RG2-D2 Save52-wide validation](resource-save52/report.md): frozen 15-case held-out assessment, positive-only comparison, component discrepancy, unsupported classes and seven exact native controls; [review](resource-save52/review.md). Offline only; actual corpus LOCAL-ONLY.
 
 - [RG2-D1 standalone geometry](resource-standalone/report.md): measured portable corpus alternatives, seven exact native paths, qualified availability and independent [review](resource-standalone/review.md). Offline only; actual corpus LOCAL-ONLY.

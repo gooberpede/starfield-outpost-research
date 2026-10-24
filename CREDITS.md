@@ -1,5 +1,14 @@
 # Credits
 
+## RG2-D3 resource discrepancies and coverage
+
+Bethesda supplies the inspected definitions and native evidence. The maintainer
+supplies protected Save52, earlier native controls and the eight new Archimedes
+screenshots. D1/D2 extraction, isolation, geometry, selection, protection and
+review methods are reused under SOR-P-0002 with [per-use provenance](docs/experiments/resource-save52-d3/sources.csv).
+Existing CPython and Git remain separate tools; no outside implementation or
+proprietary image/raw-payload redistribution is introduced.
+
 ## RG2-D2 Save52-wide resource validation
 
 Bethesda supplies the pinned installed definitions and earlier native evidence;

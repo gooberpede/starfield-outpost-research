@@ -1,5 +1,16 @@
 # Permission and Reuse Register
 
+## RG2-D3 offline discrepancies and coverage — 2026-10-24
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D3_save52_discrepancies_coverage.md)
+authorizes bounded installed/source/evidence reads, versioned owned predictor
+adaptation, offline replay and independent review. [Provenance](experiments/resource-save52-d3/sources.csv)
+retains SOR-P-0002 methods and the maintainer's eight supplied screenshots.
+No proprietary image publication, outside code incorporation, new licence
+acceptance, external contact/disclosure, game/debugger/analysis mutation, save
+production, staging, commit, push or PR was performed. The prospective card
+requires separate reviewed qualification and explicit live approval. B6 remains on hold.
+
 ## RG2-D2 offline Save52-wide validation — 2026-10-24
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md)
