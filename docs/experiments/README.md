@@ -1,5 +1,7 @@
 # Experiments
 
+- [Preservation verification audit](preservation-verification-optimization/report.md): reconstructed historical audit accounting, disposable W1/W2 qualification and an inactive policy proposal. AC4 FAIL / REWORK; no workflow activation or live authority.
+
 - [RG2-D5G source predictability contrast](resource-predictability-contrast/report.md): ten native control associations, full linked Feynman record population, 25 source-domain rows and frozen mask alternatives. [Causal ledger](resource-predictability-contrast/causal-ledger.md), [methods](resource-predictability-contrast/methods.md) and [review](resource-predictability-contrast/review.md). Offline only; complete native reachable-query invariance remains unproved.
 
 - [RG2-D5E continuous source decisions](resource-source-decisions/report.md): four permanent probes, ordered conservative reduction and real disposable Windows qualification. [Native limits](resource-source-decisions/native.md), [review](resource-source-decisions/review.md) and [NOT AUTHORIZED Phase B card](resource-source-decisions/run-card.md). No new retail observation.
@@ -267,3 +269,5 @@ H1-H4 and proposed-only repeated-load validation. No new live authority.
 - [SOR-EXP-0064 / SOR-EV-0072 — RG2-A spatial validation preparation](resource-geometry-live-prep/report.md): decoded operator save identities, four primary/two reserve cases, frozen Kreet points/maps and concrete mature source holds; [review](resource-geometry-live-prep/review.md). Offline only, prospective cards NOT AUTHORIZED.
 
 - [RG2-C1 coherent native observation feasibility](resource-geometry-observation/report.md): consumer-first capture contract, four cases, lifecycle discriminators and held C2 cards; [review](resource-geometry-observation/review.md). Offline only; no qualified live path.
+
+- [Consolidated evidence archive discovery, Stage A](evidence-archive-discovery/report.md): whole-namespace discovery, non-save archive/retention proposals and disposable integrity/restore measurements; [review](evidence-archive-discovery/review.md). No real migration or cleanup; saved files held separately.

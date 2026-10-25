@@ -1,5 +1,9 @@
 # Credits
 
+## Preservation verification audit
+
+The maintainer's D5C/D5D/D5E/D5G methods and receipts provide the [baseline audit](docs/experiments/preservation-verification-optimization/baseline.md); existing protection, editorial and review-package helpers are reused under SOR-P-0002. Microsoft documents the Windows journal interfaces, and installed CPython/SQLite/Git provide execution tools. The new prototype and fixtures are original task work. [Provenance](docs/experiments/preservation-verification-optimization/provenance.md) preserves exact roles and input identities without redistributing raw evidence or implying outside endorsement.
+
 ## RG2-D5G source predictability contrast
 
 Bethesda supplies the local-only installed/native evidence; the maintainer supplies protected Save52 and earlier gameplay observations. The project's D1 portable reconstruction, C2D installed selectors, D4C/D4E source/component corrections and D5–D5E mask/lifecycle/demand work provide the [comparison's](docs/experiments/resource-predictability-contrast/report.md) foundations. [Exact provenance](docs/experiments/resource-predictability-contrast/sources.csv) distinguishes fresh installed/domain measurements from inherited frozen geometry. Existing owned methods are adapted under SOR-P-0002; no new outside implementation or publication clearance.
@@ -809,3 +813,14 @@ The maintainer supplied explicit one-session approval, protected Save52, Cloud/m
 ## RG2-D5D demand and acquisition audit
 
 Bethesda supplies the local-only native/installed inputs. The maintainer supplied historical Save52 and gameplay reports. The project's C1E/C1G, C2A/C2B, D4A/D4D/D4E and D5B/D5C research supplies the prior acquisition and lifecycle evidence, separately rechecked as described in the [D5D report](docs/experiments/resource-construction-demand/report.md). Project-owned D5C audit/package methods are adapted under SOR-P-0002; the unchanged native reader and exact exporter are reused with [content provenance](docs/experiments/resource-construction-demand/sources.csv). No new outside implementation or publication clearance.
+
+## Consolidated evidence archive discovery, Stage A
+
+The maintainer supplied the original brief and subsequent saved-file exclusion.
+The project-owned archive and exact review-export methods are reused under
+SOR-P-0002. CPython 3.14.3 standard-library Zstandard/SQLite and Git support offline
+measurement. Existing Bethesda-derived native/log/definition samples remain
+local-only research inputs. [Provenance](docs/experiments/evidence-archive-discovery/provenance.md)
+and [source pins](docs/experiments/evidence-archive-discovery/sources.csv) distinguish
+executed historical methods from later prototype corrections. No new outside
+implementation, dependency, contact or disclosure.

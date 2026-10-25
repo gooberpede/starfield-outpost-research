@@ -1,0 +1,26 @@
+research_area,consumer_class,literal_mentions,consumer_files,example_consumer,example_line,adaptation
+cargo-transport,documentation,3112,34,docs/audits/publication-readiness-b2/native-export-ids.md,55,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+cargo-transport,research-tools,18,15,research/c1-cargo/README.md,11,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+construction-limits-defense,documentation,2817,57,docs/audits/publication-readiness-b2/corrections.md,21,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+construction-limits-defense,research-tools,25,24,research/build-budget/README.md,17,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+crew-robots,documentation,5203,53,docs/audits/publication-readiness-b2/corrections.csv,78,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+crew-robots,research-tools,47,29,research/cr1-crew/README.md,18,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+governance-publication-review,documentation,4563,237,docs/audits/documentation-spacing-cleanup.md,107,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+governance-publication-review,research-tools,93,49,research/build-budget/README.md,44,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+governance-publication-review,runtime-tools,4,1,runtime/session-tools/export_review.py,4,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+identity-location-lifecycle,documentation,17300,219,docs/PROVENANCE.md,151,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+identity-location-lifecycle,research-tools,124,87,research/continuous-beacon-preview/export-review-package.py,2,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+identity-location-lifecycle,runtime-tools,65,28,runtime/beacon-observer/build.py,76,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+native-observation-infrastructure,documentation,5952,182,docs/PROVENANCE.md,151,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+native-observation-infrastructure,research-tools,70,41,research/c1-cargo/sources.py,66,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+native-observation-infrastructure,runtime-tools,24,9,runtime/beacon-observer/README.md,25,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+persistence-save-corpora,documentation,572,63,docs/PROVENANCE.md,175,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+persistence-save-corpora,research-tools,11,11,research/e1-extractors/verify-production.py,78,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+power,documentation,1836,28,docs/SOURCES.md,260,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+power,research-tools,30,12,research/historical-methods/b3/cr1-crew/crew_extras.py,6,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+resources-production,documentation,6623,232,docs/SOURCES.md,286,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+resources-production,research-tools,411,207,research/c1-cargo/save_case.py,39,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+resources-production,runtime-tools,11,5,runtime/beacon-resource-070/build.py,52,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+storage-links,documentation,3776,56,docs/PROVENANCE.md,184,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+storage-links,research-tools,43,34,research/build-catalogue/verify.py,129,Controlled extraction or explicit locator adapter; literal mentions do not prove execution
+unclassified-working,documentation,11,10,docs/audits/publication-readiness-b5/hold-inventory.csv,154,Controlled extraction or explicit locator adapter; literal mentions do not prove execution

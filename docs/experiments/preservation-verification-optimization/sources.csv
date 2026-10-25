@@ -1,0 +1,83 @@
+source,sha256,role,rights
+.local-work/resource-carinae-source-context/protected-before.json,1c0c17a92964c3e9600082b8605738dedec2d201aa622633d95e292546ced687,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-construction-demand/audit-after-time.json,1b77c8dab326cc661183a8a4625fd7c338a82efe9de0e9ce2597e8e45a14dfcb,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-construction-demand/audit-after.json,1a8d518d96d05795566ab5b0a0dc6fe9ec71c5461db6e0218c20b2db7cb82ec0,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-construction-demand/audit-before-time.json,2e586d1c430c35e4ce6efa1a050daa79540d47e30bde1b66994d5966a947fbdf,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-construction-demand/audit-before.json,1a8d518d96d05795566ab5b0a0dc6fe9ec71c5461db6e0218c20b2db7cb82ec0,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-construction-demand/protected-after.json,318a5b51a28423e4ba7da8d88fb679d19122bf6598553975abcb10b6fab24bed,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-construction-demand/protected-before.json,318a5b51a28423e4ba7da8d88fb679d19122bf6598553975abcb10b6fab24bed,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-feynman-d5/audit-after.json,b9812d64a15b8248bf7ce642726fb834631073b64269ed5e685f6b767297ce94,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-feynman-d5/audit-before.json,b9812d64a15b8248bf7ce642726fb834631073b64269ed5e685f6b767297ce94,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-feynman-d5/protected-after.json,318a5b51a28423e4ba7da8d88fb679d19122bf6598553975abcb10b6fab24bed,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-feynman-d5/protected-before.json,318a5b51a28423e4ba7da8d88fb679d19122bf6598553975abcb10b6fab24bed,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-population-lifecycle/audit-after-time.json,ab70b658bc6aeda73984930fb7ac4549d5fbc803de7cab388734609c4b255931,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-population-lifecycle/audit-after.json,f622ffc3025fef057fd22af6e337987d55a820ad06948e7f476b076606c58f28,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-population-lifecycle/audit-before-time.json,98136a449a85b8e38d43a20c2d46a0bf28d9e7e5f8d06bd2ee8f18e0c4c0e0c6,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-population-lifecycle/audit-before.json,f622ffc3025fef057fd22af6e337987d55a820ad06948e7f476b076606c58f28,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-population-lifecycle/protected-after.json,318a5b51a28423e4ba7da8d88fb679d19122bf6598553975abcb10b6fab24bed,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-population-lifecycle/protected-before.json,318a5b51a28423e4ba7da8d88fb679d19122bf6598553975abcb10b6fab24bed,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-predictability-contrast/audit-after-time.json,7a3496b8475dbb5a8e33ebef1996f550b055d0e28a8530f9d9a521630e30c6aa,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-predictability-contrast/audit-after.json,a243c67c0e451aac21cbb5fcb671c9e94ad2b3806406d0fdec1b2626f153ab9b,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-predictability-contrast/audit-before-method.py,38d26b4bf4fc83f778b1bf1bcc8ea53e8eaa1d314efde2b186bc262d9dcb7774,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-predictability-contrast/audit-before-time.json,7c53fb935a4de86d454080397f2fb730874d06a76eab8e5fcf0074598e47471b,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-predictability-contrast/audit-before.json,a243c67c0e451aac21cbb5fcb671c9e94ad2b3806406d0fdec1b2626f153ab9b,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-predictability-contrast/input-pins.json,69b31a8a7c855b2f57accbc6d8eb7ddef2075686765080086d4824b43453caf6,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-predictability-contrast/protected-after.json,318a5b51a28423e4ba7da8d88fb679d19122bf6598553975abcb10b6fab24bed,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-predictability-contrast/protected-before.json,318a5b51a28423e4ba7da8d88fb679d19122bf6598553975abcb10b6fab24bed,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-predictability-contrast/worktree-start.json,61a20c06c65ac65cf128f91dff4e23fa438f851657e3a7a12a43bf979f4e4528,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-source-decisions/audit-after-time.json,76182fcf67f56b59f15eaa895aa6b0f2a6b3806975abb56dd2561434acd05c3d,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-source-decisions/audit-after.json,39a2582d02eaab0d1696375fe76a1b1115a60ab06417a0fee729b36ab865005d,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-source-decisions/audit-before-time.json,f2bc0b47969cbe52ff33b57f0d92d447946f4e5a5f22b3a4cb9b0390385b40a7,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-source-decisions/audit-before.json,39a2582d02eaab0d1696375fe76a1b1115a60ab06417a0fee729b36ab865005d,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-source-decisions/final_checks.py,62ff1aaac4fa41931159ecaff4e5cad57f6d341c303c75681278180e07593ff7,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-source-decisions/protected-after.json,318a5b51a28423e4ba7da8d88fb679d19122bf6598553975abcb10b6fab24bed,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-source-decisions/protected-before.json,318a5b51a28423e4ba7da8d88fb679d19122bf6598553975abcb10b6fab24bed,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+.local-work/resource-source-decisions/support.py,4b55cac3fac6786073d51d35ef0f805b63f591d396fd8cf89f88b80cce548e04,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+AGENTS.md,9262e0c2164679c25f66530dc7c2a9f2d7f241b0a58bdfe0883e2aa85f606294,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+README.md,100eeeb92134c4793e9f46b407597b8810a03d77c1d346197bac0d182d73353b,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+THIRD_PARTY_POLICY.md,ced9baf3bf117a5cc33c66541a26815fca1a6b681d0ea34a1ae7088292e43f44,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+WORKFLOW.md,dceedd2f275920313d0f01bfa1e4b382537e99a3b3c45ad8090eb49e2614a6fb,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/CHARTER.md,609f7dec06295f6dd6c972c46632207d43411387f7eea3b264c8cb7400605830,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/EDITORIAL_STANDARD.md,f853950fe4276c993ff186b995cc8c07e34f66e0139d6e90af572efbfdabad91,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/EVIDENCE_STANDARD.md,fe5bb6809c6b76262025a81f4c33b08f16f2872984a6571c1e661e2d281d869f,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/PERMISSIONS.md,c8aa41d41c66ceb1dabb4589708351aa7e2fc00fe16b1f1d86c60556a96807da,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/PROVENANCE.md,3da1720c383aa9f618b589c3051ae45a4d3a75c8c5db04b83c40a5902b1f059f,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/PUBLICATION.md,54e71fb09132bd207f9b8cdaf2dfcc910167249e4ae2d2586b302a2193de8d57,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/RESEARCH_EXECUTION_PROTOCOL.md,bf4a383f4fe5f6b82f462afb9a024005841fa9e60c9bb66ec17744eb2a148e24,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/RESEARCH_STATE.md,e3297907782e764bf10f8df2f81e334b69d5e15892468d1feee6c7b8a9e44b63,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/SAVE_PROTECTION.md,5c327c271bddf7815e60762e3e0b4de69c09147fde797974c0fdc7a814b900f7,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/experiments/resource-construction-demand/review.md,73284c601b4cadf098b6aff03227eb34e0cdd79edbf2773535b79ce94fa3736b,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/experiments/resource-feynman-d5/review.md,21b3b5ee70ccf4064ad67ce9f52ec67d8eee0c6ae4c2e765cbff914b770c46bd,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/experiments/resource-population-lifecycle/review.md,4e2abbd3b63b15b5515b5cf2c70e5e9f6f2332c494d2f04dc2798f9e08eb3a21,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/experiments/resource-predictability-contrast/review.md,af655d0f3c1a9b2f1bb7c0bd22ec8a266348cb3afab439e3f990f0cea0e3f40b,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/experiments/resource-source-decisions/review.md,85e57ce3f8480cf53b69c4d61d3f1947806a4deea782f4f279fd31486d69a3d6,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/implementation-briefs/CODEX_BRIEF_SOR_preservation_audit_optimization.md,9432f7bdc0361d43c29296066685b23e1cb173081b87b88b63282294b7236b51,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/reviewers/research-completion-reviewer.md,892939a81722b8a824695204d14da943294f359052e98eebba540d19effd20c4,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/templates/completion-contract.md,009f74a9bb93f590c635bb857ab4806d950d81797233dc7666f8a963eb14c6a5,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+research/editorial/screen.py,193d3e8e70f5665dd337ba4d1bbf33ff487cd260ca7073df5ab71c12d3706bde,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+research/resource-carinae-source-context/save_policy.json,9d7ad26f172884c4c69d05c1ccbf6128d75c8c38bba855224c57fd7abdbc97e6,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+research/resource-carinae-source-context/save_policy.py,0a22bf8b280051614007e1b7f80b2282674518ef39e90f6e7c8282383ac167cd,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+research/resource-construction-demand/audit.py,16fafe062dcd23fe70f2d24c9294dbb02b34c98b4d5d6c2b20584f888b5830ee,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+research/resource-feynman-d5/audit.py,b3fe541ec387ed15a37e4fc26c938041c1159eee238162427b2e69f61111b551,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+research/resource-population-lifecycle/audit.py,e8369270e70833f0a253af9d49ad328cfd8a7cd8b925ff3fadcaa116d9232393,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+research/resource-predictability-contrast/audit.py,59b43ec6c920938cd8ec34f9f50075a50a81528b3bf37006818fc192c5122815,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+research/resource-tungsten-acquisition/protection.py,3b34fbf46f5b0c326ae6188775065a5acaf2eae96ead8c34fc85b694e30cbce4,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+research/review_package.py,de140de74590db1ae85bbd8cc3ccd4d2a36fc19117546be9fd0c9f8d9d544c75,Owned primary policy/method/receipt; no payload copied,SOR-P-0002; project-authored material
+docs/experiments/resource-predictability-contrast/sources.csv,b430af7d1f3a7690504cf3d6b9aa4dd7a16b135f123c69295b5d4d9b63954f10,D5G cited-input coverage cross-check,SOR-P-0002
+.local-work/preservation-verification/run04/counterexample.json,d6508ba05588cf32c1cdaa778dc8bc5d4220e1e6ec3cd9f126926c0aed7d7a49,Fresh synthetic qualification or reconstruction receipt,Original task output; LOCAL-ONLY receipt
+.local-work/preservation-verification/run04/freeze.json,3993e329e808f1d1ca716e87c578bea54c9d227110e75b6b76b9e5fe2c9bd7f9,Fresh synthetic qualification or reconstruction receipt,Original task output; LOCAL-ONLY receipt
+.local-work/preservation-verification/run04/measurements.json,e54ea2afe02c69ebf173d89efd426bb0df056848e839f370e6023d498e6c8e51,Fresh synthetic qualification or reconstruction receipt,Original task output; LOCAL-ONLY receipt
+.local-work/preservation-verification/run04/setup.json,aa34cef5379f3f39279882af0e3e078298a54b1a1e4f12baca9db33ad42e38f7,Fresh synthetic qualification or reconstruction receipt,Original task output; LOCAL-ONLY receipt
+.local-work/preservation-verification/run04/tests.json,925f7b35f3aad74617810017ef68e4887519e56c1938f5c81fd61c8fc6c666b1,Fresh synthetic qualification or reconstruction receipt,Original task output; LOCAL-ONLY receipt
+.local-work/preservation-verification/reconstruction.json,4877beb5fa87ccf48b0afdc611478ad8b41975d2dff242f26257dad609ee9f26,Fresh synthetic qualification or reconstruction receipt,Original task output; LOCAL-ONLY receipt
+research/preservation-verification/journal.py,460db0c9d4e685525576104e0253a072deff9ec845a3ffcc5599463b597dfa09,Original task method,GPL-3.0-or-later
+research/preservation-verification/prototype.py,009928d8026277116a7bac8f62f02b8a3c4c36dc2a7fdbb6238997493a4d3e62,Original task method,GPL-3.0-or-later
+research/preservation-verification/qualify.py,69681fbc9a98ccddb8c9ba4f7a2db03a4cb72a98b64f6a05a79e2b5d97785034,Original task method,GPL-3.0-or-later
+research/preservation-verification/reconstruct.py,7f638775f4d4ee48a6e04359e56ad221665dd11071c977bdae932db930456208,Original task method,GPL-3.0-or-later
+research/preservation-verification/summarize.py,7bf4ce0d8295309a18f1988695f2fb617a9dc23fe620769752b34baac947f5d9,Original task method,GPL-3.0-or-later
+research/preservation-verification/additional.py,6aef0e3e2e886691f7ef842cd44ef916f346de9aadb3ec1ffefa478e45ea646e,Original task method,GPL-3.0-or-later
+research/preservation-verification/deliver.py,3cdbf68b80a2f77fbf93c67e226056c2a12eb94546a56655bfac25eae4e6cd44,Original task method,GPL-3.0-or-later
+.local-work/preservation-verification/supplement01/freeze.json,d68a661416094dc8cd7a1607cecd5eefe4ddde7b6cef9b8c645d79aa38754e8d,Supplementary frozen control receipt,Original task output; LOCAL-ONLY receipt
+.local-work/preservation-verification/supplement01/tests.json,b0a1840ad1bd24d35a45d87d4dfe9cbdff43f59aca2f242acba0c68451d595c3,Supplementary frozen control receipt,Original task output; LOCAL-ONLY receipt
+research/resource-tungsten-acquisition/save_policy.py,0a22bf8b280051614007e1b7f80b2282674518ef39e90f6e7c8282383ac167cd,Actual imported helper alias; late path check equals initially pinned bytes and HEAD,SOR-P-0002
+research/resource-tungsten-acquisition/save_policy.json,9d7ad26f172884c4c69d05c1ccbf6128d75c8c38bba855224c57fd7abdbc97e6,Actual imported helper alias; late path check equals initially pinned bytes and HEAD,SOR-P-0002

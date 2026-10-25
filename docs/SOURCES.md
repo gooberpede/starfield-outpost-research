@@ -1,5 +1,9 @@
 # Source Register
 
+## Preservation verification audit
+
+[Source ledger](experiments/preservation-verification-optimization/sources.csv) binds the maintainer's D5C/D5D/D5E/D5G audit methods and receipts, existing save-protection policy, editorial screen and exact review exporter under SOR-P-0002. Original stdlib/Windows/SQLite prototype code and synthetic fixtures introduce no third-party implementation. Microsoft Windows SDK/API documentation supplies interface facts; [provenance](experiments/preservation-verification-optimization/provenance.md) distinguishes consultation, actual unprivileged journal tests and the modeled corruption counterexample. Raw manifests and paths remain LOCAL-ONLY; no evidence redistribution or policy activation.
+
 ## RG2-D5G source predictability contrast
 
 [Content identities](experiments/resource-predictability-contrast/sources.csv) and [methods](experiments/resource-predictability-contrast/methods.md) record Bethesda's pinned installed main definitions/PlanetData and existing native exports, the maintainer's protected Save52 and prior observations, and the project's D1–D5E research. D5G independently enumerates installed Feynman lineage and measures source domains; exact geometry and D5A alternatives remain frozen prior results. Owned D5 audit/package and source-enumeration methods at HEAD `8e318e92620fb2da7455768c450e29df8087ea0f` are adapted under SOR-P-0002. No new outside implementation, dependency, licence acceptance, contact or disclosure. Raw payloads LOCAL-ONLY; authored synthesis REVIEW-REQUIRED.
@@ -1283,3 +1287,13 @@ RG2-D4A [Phase B evidence ledger](experiments/resource-tungsten-acquisition/phas
 ## RG2-D5D construction-demand investigation
 
 [Report and boundaries](experiments/resource-construction-demand/report.md), [per-use pins](experiments/resource-construction-demand/sources.csv). Bethesda native code is read as local-only research evidence. Prior project acquisition reports, journals and immutable selected receipts are distinguished from new read-only Ghidra exports. Five `d5d-demand` exports use installed Ghidra 12.1.2 and JDK 21.0.12.8 through the unchanged owned `ReadSpecialist.java`/`export.ps1`; no native code is incorporated. Owned D5C audit/package methods at HEAD `bd3d0485ccc0abc5405ee57f076945fb047bb551` are adapted under SOR-P-0002. CPython 3.14.3/stdlib and Git provide offline verification and exact patch exports. No new dependency, rights basis, outside contact or disclosure.
+
+## Consolidated evidence archive discovery, Stage A
+
+[Source ledger](experiments/evidence-archive-discovery/sources.csv) pins the original
+brief, maintainer scope amendment, governing records, whole-namespace metadata,
+existing source identities, measured disposable samples, exact executed methods
+and final prototype qualification. [Provenance](experiments/evidence-archive-discovery/provenance.md)
+credits owned archive/export methods under SOR-P-0002 and distinguishes original
+Bethesda-derived local-only inputs from authored synthesis. No new dependency,
+external incorporation, contact, upload or publication clearance.

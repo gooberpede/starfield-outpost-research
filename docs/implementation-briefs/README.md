@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Preservation audit and optimization](CODEX_BRIEF_SOR_preservation_audit_optimization.md): invoked 2026-10-25 for offline reconstruction, isolated implementation, disposable qualification and independent review. [Report](../experiments/preservation-verification-optimization/report.md) retains AC4 FAIL / REWORK; no protection relaxation, activation, game operation or Git publication authority.
+
 - [RG2-D5G source predictability and reachable-query invariance](CODEX_BRIEF_SOR_RG2_D5G_source_predictability_and_reachable_query_invariance.md): invoked 2026-10-25 for bounded offline installed/native comparison, source matrices and independent review. [Report](../experiments/resource-predictability-contrast/report.md), [review](../experiments/resource-predictability-contrast/review.md). No retail, instrumentation, staging, commit, push or publication authority.
 
 - [RG2-D5E continuous source-decision acquisition](CODEX_BRIEF_SOR_RG2_D5E_continuous_source_decision_acquisition.md): invoked 2026-10-25 for Phase A native analysis, implementation and disposable Windows qualification; [report](../experiments/resource-source-decisions/report.md), [review](../experiments/resource-source-decisions/review.md). Phase B requires separate review and explicit GO; no commit/push/publication authority.
@@ -316,3 +318,5 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 - [RG2-C1 native region observation feasibility](CODEX_BRIEF_SOR_RG2_C1_native_region_observation_feasibility.md): invoked 2026-10-22; [report](../experiments/resource-geometry-observation/report.md), [review/package](../experiments/resource-geometry-observation/review.md). No C2/live/Git/publication authority.
 
 - [RG2-D4A amendment](CODEX_AMENDMENT_SOR_RG2_D4A_archimedes_tungsten_bound_acquisition.md): offline Tungsten-bound acquisition engineering; [report](../experiments/resource-tungsten-acquisition/report.md) and [superseding unexecuted card](../experiments/resource-tungsten-acquisition/run-card.md). No live or Git publication authority.
+
+- [Consolidated evidence archival, Stage A](CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_a.md): offline discovery and disposable prototype; [scope amendment](../experiments/evidence-archive-discovery/scope-amendment.md), [report](../experiments/evidence-archive-discovery/report.md) and [review](../experiments/evidence-archive-discovery/review.md). Archive boundaries and retention require maintainer review; no migration, deletion, staging, commit or push.

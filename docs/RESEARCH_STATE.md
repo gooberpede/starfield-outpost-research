@@ -1,5 +1,12 @@
 # Current Research State
 
+**2026-10-25 — Preservation verification audit:** [Report](experiments/preservation-verification-optimization/report.md)
+reconciles the 77,893/78,435/93,334-pin inventories and qualifies an isolated
+conditional NTFS journal prototype. The full-byte fallback misses the frozen
+80% target; conditional savings lack comparable current-readable-byte coverage.
+AC4 remains FAIL / REWORK. [Policy proposal](experiments/preservation-verification-optimization/policy-proposal.md)
+is NOT EFFECTIVE; current protections, B6 and publication holds remain unchanged.
+
 **2026-10-25 — RG2-D5G predictability contrast:** [Offline source audit](experiments/resource-predictability-contrast/report.md) accounts for ten exact region controls across 12 modeled sources and all 13 frozen mixed-neighborhood sources. The original Feynman V biome boundary preserves measured mask 8; second V keeps the Copper-family BIOM while its margins cross masks 0/3. Nominal rectangles and inverse base-selector tiles are uniform even for the 13 mixed neighborhoods, but complete native query reachability is unproved. [Lineage](experiments/resource-predictability-contrast/feynman-lineage.csv) enumerates the shared linked tree's 16 SFPTs. [Review](experiments/resource-predictability-contrast/review.md) governs completion; no historical reclassification, predictor change, live authority or publication clearance.
 
 **2026-10-25 — RG2-D5E continuous decisions:** [Phase A](experiments/resource-source-decisions/report.md) implements four permanent decision/query/mask probes and disposable Windows qualification without D5B mode switching. Native observations remain C/D because lifecycle, associated-file provenance and completed construction are not fenced; no new retail mask or historical epoch is claimed. [Review](experiments/resource-source-decisions/review.md) controls completion; [Phase B proposal](experiments/resource-source-decisions/run-card.md) is NOT AUTHORIZED. Frozen geometry, seven indeterminate associations and B6/publication holds remain.
@@ -825,3 +832,16 @@ Offline only; no staging, commit, push or publication authority.
 ## RG2-C1 observation feasibility — 2026-10-22
 
 [Consumer-first design](experiments/resource-geometry-observation/report.md) specifies a coherent source/population/epoch/native-result contract and IL/Iron/Copper plus optional D1 stability cases. No currently qualified safe full capture route is established in the bounded inspected evidence; owner fence, alias protection, per-use operands, population correlation and acquisition retirement remain engineering gates. IL/Iron disagreements unresolved; frozen predictions unchanged. [Review](experiments/resource-geometry-observation/review.md) controls C1 acceptance. No C2 or RG2-B executed; publication/observer NO-GO unchanged.
+
+## Consolidated evidence archive discovery, Stage A
+
+[Discovery report](experiments/evidence-archive-discovery/report.md) inventories the
+whole local namespace and proposes nine focused or six broad research-system
+archives. Saved files, decoded save streams and opaque existing containers are
+held under the [maintainer amendment](experiments/evidence-archive-discovery/scope-amendment.md).
+The non-save essential set is 32.893 GB before compression; a 10 GB backup remains
+plausible but unconfirmed. Only disposable prototypes were packaged/restored.
+Real migration, cleanup, policy activation and the 80% verification objective
+remain future work. [Review](experiments/evidence-archive-discovery/review.md) and
+[unexecuted Stage B plan](experiments/evidence-archive-discovery/stage-b-plan.md)
+preserve approval gates. The earlier preservation optimization remains REWORK.

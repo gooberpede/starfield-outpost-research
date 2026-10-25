@@ -1,0 +1,10 @@
+tier,files,logical_bytes,decision,evidence
+Complete current non-save proposal,242995,32930782429,KEEP all unique/primary/unknown content; current scope only,Frozen inventory03 + accepted scope amendment
+Essential current non-save proposal,238875,32892968157,Only proven deterministic stand-ins omitted as a proposal; no deletion,"reproduction-proof.json; retain builder, baseline, ZIP and actual receipts"
+Proven reproducible stand-in candidate,4120,37814272,Future retirement needs explicit retention/cutover approval,"Exact pinned builder, original manifest and fresh byte-hash equality"
+HELD-OPAQUE-CONTAINER,207,556626031,HELD; preserved and outside current backup/recovery denominator,Metadata scope rule; uncertain content is not called disposable
+HELD-POSSIBLE-RAW-SAVE,27,150933895,HELD; preserved and outside current backup/recovery denominator,Metadata scope rule; uncertain content is not called disposable
+HELD-SAVE-CORPUS-ROOT,36,2965948,HELD; preserved and outside current backup/recovery denominator,Metadata scope rule; uncertain content is not called disposable
+HELD-SAVED-FILES,1486,14604824016,HELD; preserved and outside current backup/recovery denominator,Metadata scope rule; uncertain content is not called disposable
+LOOSE-ACTIVE-STAGE-A,31,113888828,HELD; preserved and outside current backup/recovery denominator,Metadata scope rule; uncertain content is not called disposable
+LOOSE-UNKNOWN,315,1098656,HELD; preserved and outside current backup/recovery denominator,Metadata scope rule; uncertain content is not called disposable
