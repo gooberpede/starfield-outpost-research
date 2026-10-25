@@ -9,12 +9,15 @@ import argparse
 import json
 import struct
 import zlib
+import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / '.local-work/c1-cargo'
+sys.path.insert(0, str(ROOT / 'research/evidence-access'))
+from access import consumer_paths
 ap = argparse.ArgumentParser()
 ap.add_argument('--run', required=True)
-cli = ap.parse_args()
+cli, BASE, OUTPUT = consumer_paths(ap, 'c1-cargo', BASE)
 assert cli.run.isalnum()
 class Cursor:
     def __init__(self, b):
@@ -211,7 +214,7 @@ for _ in range(c.u()):
     bodies.append(dict(method=method, binding=binding, code_bytes=len(code),
                        decoded_bytes=d.p, instructions=lines))
 assert c.p == len(c.b)
-with (BASE / (cli.run + '.json')).open('x', encoding='utf8', newline='\n') as f:
+with (OUTPUT / (cli.run + '.json')).open('x', encoding='utf8', newline='\n') as f:
     json.dump(dict(version=version, strings=ss, methods=bodies,
                    trait_constants=trait_constants), f, indent=2)
     f.write('\n')

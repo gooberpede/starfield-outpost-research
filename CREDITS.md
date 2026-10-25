@@ -1,5 +1,15 @@
 # Credits
 
+## Cargo archive access and proposed verification cutover
+
+The maintainer supplied the bounded continuation brief. Project-owned Stage A
+archive validation, Stage B authenticated packaging/handle methods and the current
+review exporter are reused under SOR-P-0002. Existing Bethesda-derived SWF/PEX and
+historical research bytes provide the local-only reproduction inputs. Installed
+CPython/stdlib, Git and Windows APIs support the [qualified access and proposed
+cutover](docs/experiments/cargo-evidence-cutover/report.md). Exact provenance and
+failed trials remain local; no new third-party incorporation or disclosure.
+
 ## Preservation verification audit
 
 The maintainer's D5C/D5D/D5E/D5G methods and receipts provide the [baseline audit](docs/experiments/preservation-verification-optimization/baseline.md); existing protection, editorial and review-package helpers are reused under SOR-P-0002. Microsoft documents the Windows journal interfaces, and installed CPython/SQLite/Git provide execution tools. The new prototype and fixtures are original task work. [Provenance](docs/experiments/preservation-verification-optimization/provenance.md) preserves exact roles and input identities without redistributing raw evidence or implying outside endorsement.

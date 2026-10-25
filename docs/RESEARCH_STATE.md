@@ -1,5 +1,15 @@
 # Current Research State
 
+**2026-10-26 — Cargo archive access and proposed cutover:**
+[Report](experiments/cargo-evidence-cutover/report.md) qualifies authenticated
+locate/verify/restore and complete SWF/PEX replay. The exact proposal covers all
+1,051 archived originals, holds three unarchived packagers and projects
+13,594,624 bytes of net file-allocation recovery including retained audit artifacts.
+Independent final-snapshot review is recorded in the local delivery package. **DELETION NOT AUTHORIZED**;
+routine policy is inactive. Cargo shadow verification removes retired-member
+checks in its own boundary; no savings are claimed for the 93,334-pin inventory.
+The earlier preservation-optimization AC4 remains FAIL / REWORK.
+
 **2026-10-25 — Preservation verification audit:** [Report](experiments/preservation-verification-optimization/report.md)
 reconciles the 77,893/78,435/93,334-pin inventories and qualifies an isolated
 conditional NTFS journal prototype. The full-byte fallback misses the frozen

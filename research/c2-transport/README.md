@@ -1,5 +1,11 @@
 # C2 finite offline evidence aids
 
+The [Cargo archive-access continuation](../evidence-access/README.md) adds explicit
+disposable lease input and separate output options to the `pex.py` CLI. All five
+decoded member outputs and invalid-input controls reproduce after restoration.
+Acquisition and admission commands retain their external prerequisites and
+original scope; no retirement or preservation-policy activation is implied.
+
 [Authorized contract](../../docs/experiments/cargo-links/transport/contract.md),
 [result](../../docs/experiments/cargo-links/transport/report.md),
 [review](../../docs/experiments/cargo-links/transport/review.md).

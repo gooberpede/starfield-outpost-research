@@ -1,5 +1,7 @@
 # Experiments
 
+- [Cargo archived evidence access and proposed cutover](cargo-evidence-cutover/report.md): authenticated access, exact SWF/PEX reproduction and an inactive Cargo shadow baseline. The new 1,051-file retirement proposal projects positive net allocation recovery; no real deletion or policy activation.
+
 - [Preservation verification audit](preservation-verification-optimization/report.md): reconstructed historical audit accounting, disposable W1/W2 qualification and an inactive policy proposal. AC4 FAIL / REWORK; no workflow activation or live authority.
 
 - [RG2-D5G source predictability contrast](resource-predictability-contrast/report.md): ten native control associations, full linked Feynman record population, 25 source-domain rows and frozen mask alternatives. [Causal ledger](resource-predictability-contrast/causal-ledger.md), [methods](resource-predictability-contrast/methods.md) and [review](resource-predictability-contrast/review.md). Offline only; complete native reachable-query invariance remains unproved.

@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Archived evidence resolution and Cargo verification cutover](CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md): invoked 2026-10-26; [report](../experiments/cargo-evidence-cutover/report.md), [inactive policy](../experiments/cargo-evidence-cutover/policy-proposal.md), [recovery/decision card](../experiments/cargo-evidence-cutover/recovery.md). Offline implementation and precise proposal only; no deletion, activation, staging, commit or push.
+
 - [Preservation audit and optimization](CODEX_BRIEF_SOR_preservation_audit_optimization.md): invoked 2026-10-25 for offline reconstruction, isolated implementation, disposable qualification and independent review. [Report](../experiments/preservation-verification-optimization/report.md) retains AC4 FAIL / REWORK; no protection relaxation, activation, game operation or Git publication authority.
 
 - [RG2-D5G source predictability and reachable-query invariance](CODEX_BRIEF_SOR_RG2_D5G_source_predictability_and_reachable_query_invariance.md): invoked 2026-10-25 for bounded offline installed/native comparison, source matrices and independent review. [Report](../experiments/resource-predictability-contrast/report.md), [review](../experiments/resource-predictability-contrast/review.md). No retail, instrumentation, staging, commit, push or publication authority.

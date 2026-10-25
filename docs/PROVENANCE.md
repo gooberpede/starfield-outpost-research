@@ -1,5 +1,19 @@
 # Provenance and Environment Baseline
 
+## Cargo archive access and retirement proposal — 2026-10-26
+
+The [report](experiments/cargo-evidence-cutover/report.md) pins current HEAD/index,
+the independently expected Stage B archive/index/inventory, all 1,054 original
+sources and the exact 1,051-row proposed allowlist. Local `real04/` beneath
+`.local-work/cargo-evidence-cutover/` retains executed-method copies/hashes,
+dependency/reference records, complete consumer JSON comparisons, source equality,
+shadow rollback and conservative physical-allocation costs. Owned Stage A/B and
+review-export methods are reused under SOR-P-0002. Bethesda-derived restored bytes
+remain local-only; authored utilities/reports are review-required. Historical
+HEAD/index failures and unsupported allocation-query trials are preserved.
+No original deletion, policy activation, live operation, save/installed/database
+edit, external dependency/contact/disclosure, staging, commit or push occurred.
+
 ## B3 source identity / primary baseline — 2026-10-21
 
 [Manifest](audits/publication-readiness-b3/baseline-manifest.md) consolidates existing verified input pins under the single investigated Starfield.exe 1.16.244.0. B3 rehashes the selected protected LO1 scope and exact authored source; [historical reconciliation](audits/publication-readiness-b3/historical-source-reconciliation.md) preserves old pins and distinct current methods. [Contracts and synthetic qualification](audits/publication-readiness-b3/method-reproduction.md) state actual effects and limits. No new external implementation, tool execution, native baseline, save/database/configuration change or publication clearance.

@@ -1,5 +1,17 @@
 # Source Register
 
+## Cargo archived evidence resolution and cutover proposal
+
+2026-10-26. The [report](experiments/cargo-evidence-cutover/report.md) uses the
+owned Stage A strict path/tar decoder, Stage B Windows locked-handle/index checks
+and current review exporter under SOR-P-0002. The exact invoked brief, source
+inventories, current archive/index and executed methods are pinned in local
+`real04/sources.json` and `executed-methods.json` under
+`.local-work/cargo-evidence-cutover/`. Existing CPython 3.14/stdlib, Git and Windows
+file APIs supply offline execution and allocation measurements. Existing Bethesda
+SWF/PEX/native-derived evidence is restored locally and never incorporated into
+authored source or disclosed. No outside implementation or new permission basis.
+
 ## Preservation verification audit
 
 [Source ledger](experiments/preservation-verification-optimization/sources.csv) binds the maintainer's D5C/D5D/D5E/D5G audit methods and receipts, existing save-protection policy, editorial screen and exact review exporter under SOR-P-0002. Original stdlib/Windows/SQLite prototype code and synthetic fixtures introduce no third-party implementation. Microsoft Windows SDK/API documentation supplies interface facts; [provenance](experiments/preservation-verification-optimization/provenance.md) distinguishes consultation, actual unprivileged journal tests and the modeled corruption counterexample. Raw manifests and paths remain LOCAL-ONLY; no evidence redistribution or policy activation.

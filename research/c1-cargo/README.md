@@ -1,5 +1,11 @@
 # C1 finite evidence aids
 
+The [Cargo archive-access continuation](../evidence-access/README.md) adds explicit
+disposable lease input and separate output options to `menu_abc.py`. Its complete
+historical JSON output is reproduced after authenticated restoration. Original
+acquisition/admission commands retain their original prerequisites and authority;
+this does not activate retirement or a new preservation baseline.
+
 [Frozen contract](../../docs/experiments/cargo-links/configuration-ui/contract.md),
 [report](../../docs/experiments/cargo-links/configuration-ui/report.md),
 [review](../../docs/experiments/cargo-links/configuration-ui/review.md).

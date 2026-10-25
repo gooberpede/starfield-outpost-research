@@ -79,10 +79,13 @@ class P:
   return dict(header=hdr,objects=objs)
 if __name__ == '__main__':
  import argparse,hashlib
- ap=argparse.ArgumentParser();ap.add_argument('--run',required=True);a=ap.parse_args()
- assert a.run.isalnum()
  R=pathlib.Path(__file__).resolve().parents[2];W=R/'.local-work/c2-transport'
  import sys
+ sys.path.insert(0,str(R/'research/evidence-access'))
+ from access import consumer_paths
+ ap=argparse.ArgumentParser();ap.add_argument('--run',required=True)
+ a,W,OUTPUT=consumer_paths(ap,'c2-transport',W)
+ assert a.run.isalnum()
  sys.path.insert(0,str(R/'save-analysis/scripts'))
  from inventory_historical_saves import guard
  guard()
@@ -106,5 +109,5 @@ if __name__ == '__main__':
    except (AssertionError,IndexError,ValueError,struct.error,UnicodeDecodeError):failures+=1
    else:raise AssertionError('invalid input accepted')
  result['controls']=dict(invalid_inputs_rejected=failures,branch_targets_in_bounds=True)
- with (W/(a.run+'.json')).open('x',encoding='utf8',newline='\n') as f:json.dump(result,f,indent=2);f.write('\n')
+ with (OUTPUT/(a.run+'.json')).open('x',encoding='utf8',newline='\n') as f:json.dump(result,f,indent=2);f.write('\n')
  guard();print('PASS five closed members; 15 invalid inputs rejected; branch targets bounded')
