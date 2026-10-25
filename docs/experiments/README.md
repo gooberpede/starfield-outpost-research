@@ -1,5 +1,7 @@
 # Experiments
 
+- [D5C resource population lifecycle](resource-population-lifecycle/report.md): source-pointer retention/reuse, owned geometry, reset/teardown and bounded save/load unknowns; [review](resource-population-lifecycle/review.md), [unapproved follow-on design](resource-population-lifecycle/next-run-draft.md). Offline only; D5B history remains unknown.
+
 - [RG2-D5B combined acquisition](resource-combined-acquisition/report.md): actual synthetic Windows controller and fixed comparison; later authorized [Phase B](resource-combined-acquisition/phase-b.md) captures three current Feynman V resource geometries, with construction and native epoch unknown. [Phase B review](resource-combined-acquisition/phase-b-review.md); one-session approval consumed.
 
 - [D5A canonical construction-mask test selection](resource-construction-mask-selection/report.md): 13-source roster, finite conditional discrimination, second-V primary/VI-b fallback and a design-only Workshop-bound [run card](resource-construction-mask-selection/run-card.md); [review](resource-construction-mask-selection/review.md). No live authority; historical associations unchanged.

@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+[RG2-D5C population lifecycle](../experiments/resource-population-lifecycle/report.md) establishes scoped native retention/reuse and distinguishes source-pointer identity, visited keys and query-dependent construction. Save52 materialization timing, geometry serialization and D5B population ancestry remain unresolved. [Review](../experiments/resource-population-lifecycle/review.md) governs disposition; no live or publication authority follows.
+
 [RG2-D5B acquisition](../experiments/resource-combined-acquisition/report.md) captures exact-source construction and current Workshop consumption as distinct evidence classes. Its positive lifetime qualification is fixture-only. The later authorized [Phase B](../experiments/resource-combined-acquisition/phase-b.md) observes three current target-source regions matching mask-3 geometry; construction query, sampled mask and native epoch remain unknown. The one-session approval is consumed.
 
 [RG2-D5 Feynman reconciliation](../experiments/resource-feynman-d5/report.md) derives conditional alternate-descriptor precedence at Feynman III, adds Uranium/Vanadium correspondences and retains seven first-query mask gaps. All 19 Save52 cases, ten original geometry controls and 24 first-party images are accounted for. [Review](../experiments/resource-feynman-d5/review.md) controls acceptance; the prospective live card remains unexecuted and separately gated.

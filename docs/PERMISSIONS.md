@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## RG2-D5C offline population lifecycle — 2026-10-25
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5C_resource_source_population_lifecycle.md) authorizes bounded offline native/evidence inspection, existing-state read-only exports, authored research and independent review. [Per-use provenance](experiments/resource-population-lifecycle/sources.csv) preserves SOR-P-0002 methods. No retail session, target attachment, save loading, regeneration, save/content/configuration/analysis-content mutation, outside incorporation, contact/disclosure, staging, commit, push or publication is authorized or performed. The follow-on acquisition is a design-only draft and requires separate qualification and approval.
+
 ## RG2-D5B Phase A — 2026-10-25
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md) authorizes offline implementation, protected-input reads/copies, actual disposable Windows debugger qualification and independent review. [Lineage](experiments/resource-combined-acquisition/sources.csv) remains under SOR-P-0002. The proposed Phase B card is not execution authority. No retail launch/attachment, save/configuration/analysis mutation, outside incorporation, contact/disclosure, staging, commit, push, cleanup or publication is authorized or performed.

@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-D5C population lifecycle
+
+The [native register](experiments/resource-population-lifecycle/native.csv) and [source pins](experiments/resource-population-lifecycle/sources.csv) bind primary existing exports and three bounded read-only/no-analysis exports to the retail executable. The [report](experiments/resource-population-lifecycle/report.md) proves scoped retention/reuse while separating source-pointer keying, visited identity, generation context and save/load unknowns. Owned preservation/export methods retain SOR-P-0002 lineage; proprietary exports and raw evidence remain LOCAL-ONLY. No outside incorporation, licence acceptance, contact or disclosure occurred.
+
 ## RG2-D5B combined acquisition
 
 The [native contract](experiments/resource-combined-acquisition/native.md) composes pinned D4/D5 producer and C1E/C2B/D4A consumer evidence. [Per-use pins](experiments/resource-combined-acquisition/sources.csv) preserve owned adaptation and unchanged D5A alternatives under SOR-P-0002. Actual disposable Windows fixtures qualify acquisition and a fixture-specific lifetime proof. No synthetic epoch field is claimed native; no outside incorporation, licence acceptance, contact or disclosure occurred.

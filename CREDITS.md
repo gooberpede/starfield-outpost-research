@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-D5C population lifecycle
+
+Bethesda supplies the native executable/save-format evidence; the maintainer supplies Save52, prior captures and project research. The [per-use ledger](docs/experiments/resource-population-lifecycle/sources.csv) credits region-dependency and geometry-lifetime analysis, D5 mask lineage, D5A frozen controls, D5B acquisition and owned preservation/export methods under SOR-P-0002. Ghidra/Temurin, CPython, Windows and Git remain separately installed tools. No new outside implementation or raw payload redistribution is introduced.
+
 ## RG2-D5B combined acquisition
 
 Bethesda supplies existing native evidence; the maintainer supplies protected Save52, prior captures and owned research. D4 producer acquisition, C2B/D4A consumer ancestry, D4B teardown, D4D admission and D5A predictions retain [per-use provenance](docs/experiments/resource-combined-acquisition/sources.csv) under SOR-P-0002. Windows/MSVC, CPython and Git remain separate tools. No new outside implementation or raw payload redistribution is introduced.
