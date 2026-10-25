@@ -1297,3 +1297,12 @@ and final prototype qualification. [Provenance](experiments/evidence-archive-dis
 credits owned archive/export methods under SOR-P-0002 and distinguishes original
 Bethesda-derived local-only inputs from authored synthesis. No new dependency,
 external incorporation, contact, upload or publication clearance.
+
+## Consolidated evidence archival, Stage B cargo pilot
+
+[The pilot report](experiments/evidence-archive-stage-b/report.md) and local
+source ledger distinguish the exact Stage A candidate hashes, historical CSV
+expectations, additional editorial final-seal pins and current verified bytes.
+Owned Stage A archive methods and the current review exporter supply provenance
+under SOR-P-0002. Raw members, manifests, restores and qualification fixtures
+remain LOCAL-ONLY; authored methods and findings remain REVIEW-REQUIRED.

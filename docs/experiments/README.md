@@ -271,3 +271,5 @@ H1-H4 and proposed-only repeated-load validation. No new live authority.
 - [RG2-C1 coherent native observation feasibility](resource-geometry-observation/report.md): consumer-first capture contract, four cases, lifecycle discriminators and held C2 cards; [review](resource-geometry-observation/review.md). Offline only; no qualified live path.
 
 - [Consolidated evidence archive discovery, Stage A](evidence-archive-discovery/report.md): whole-namespace discovery, non-save archive/retention proposals and disposable integrity/restore measurements; [review](evidence-archive-discovery/review.md). No real migration or cleanup; saved files held separately.
+
+- [Consolidated evidence archival, Stage B cargo pilot](evidence-archive-stage-b/report.md): verified non-save archive and full disposable restoration; [conditional continuation](evidence-archive-stage-b/continuation.md). No real source retirement or completed migration.

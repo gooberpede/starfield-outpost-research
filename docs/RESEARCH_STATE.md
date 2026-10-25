@@ -845,3 +845,14 @@ Real migration, cleanup, policy activation and the 80% verification objective
 remain future work. [Review](experiments/evidence-archive-discovery/review.md) and
 [unexecuted Stage B plan](experiments/evidence-archive-discovery/stage-b-plan.md)
 preserve approval gates. The earlier preservation optimization remains REWORK.
+
+## Consolidated evidence archival, Stage B cargo pilot
+
+[The cargo pilot](experiments/evidence-archive-stage-b/report.md) qualifies local
+archiving and complete disposable restoration without deleting real sources.
+Fixed cargo-tool namespaces and three packager-version holds remain loose;
+only the retired editorial package enters the exact conditional deletion proposal.
+[The continuation card](experiments/evidence-archive-stage-b/continuation.md)
+requires separate exact-manifest approval. No completed storage recovery or
+80% verification improvement is claimed. Earlier preservation AC4 FAIL / REWORK,
+scientific findings, save protections and publication holds remain unchanged.

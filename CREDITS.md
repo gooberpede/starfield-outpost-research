@@ -824,3 +824,13 @@ local-only research inputs. [Provenance](docs/experiments/evidence-archive-disco
 and [source pins](docs/experiments/evidence-archive-discovery/sources.csv) distinguish
 executed historical methods from later prototype corrections. No new outside
 implementation, dependency, contact or disclosure.
+
+## Consolidated evidence archival, Stage B cargo pilot
+
+The maintainer supplied the bounded pilot brief. Project-owned Stage A tar/path
+validation and current review export methods are reused under SOR-P-0002.
+Installed CPython 3.14 standard-library Zstandard and Windows file APIs support
+local packaging, hashing and disposable fault tests. Existing Bethesda-derived
+evidence stays local. See the [pilot report](docs/experiments/evidence-archive-stage-b/report.md)
+for version provenance, preservation checks and review boundaries. No outside
+implementation, dependency download or external disclosure was introduced.
