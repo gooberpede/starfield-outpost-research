@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "D5E durable event envelope",
+  "type": "object",
+  "required": ["kind"],
+  "properties": {
+    "kind": {"enum": ["SESSION", "ARM_BARRIER", "THREAD_ARMED", "SAMPLE", "GAP", "STOP_COMMITTED", "TERMINAL_EVENT", "FAILURE_CLEANUP", "EXIT"]},
+    "capture": {"type": "integer", "minimum": 1},
+    "tid": {"type": "integer", "minimum": 1},
+    "thread_lifetime": {"type": "integer", "minimum": 1},
+    "site": {"type": "integer", "minimum": 0, "maximum": 3},
+    "rip": {"type": "integer", "minimum": 65536},
+    "native": {"type": "boolean"},
+    "native_read_complete": {"type": "boolean"},
+    "raw_context": {"type": "string", "pattern": "^[0-9a-f]+$"},
+    "raw_packet": {"type": "string", "pattern": "^[0-9a-f]*$"}
+  },
+  "allOf": [{"if": {"properties": {"kind": {"const": "SAMPLE"}}},
+    "then": {"required": ["capture", "tid", "thread_lifetime", "site", "rip", "raw_context", "native_read_complete"]}}],
+  "additionalProperties": true
+}

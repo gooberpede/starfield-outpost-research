@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-D5E continuous source decisions
+
+Bethesda supplies the existing native evidence; the maintainer supplies Save52, earlier captures and owned research. [Per-use provenance](docs/experiments/resource-source-decisions/sources.csv) retains D5B/D4 debugger utilities, C1 SRO1 transport, D4 independent decoding, D5B geographic association, D5C/D5D lifecycle/demand findings and D5A frozen alternatives under SOR-P-0002. MSVC/Windows SDK, CPython and Git remain separately installed tools. No new outside implementation or raw payload redistribution.
+
 ## RG2-D5C population lifecycle
 
 Bethesda supplies the native executable/save-format evidence; the maintainer supplies Save52, prior captures and project research. The [per-use ledger](docs/experiments/resource-population-lifecycle/sources.csv) credits region-dependency and geometry-lifetime analysis, D5 mask lineage, D5A frozen controls, D5B acquisition and owned preservation/export methods under SOR-P-0002. Ghidra/Temurin, CPython, Windows and Git remain separately installed tools. No new outside implementation or raw payload redistribution is introduced.

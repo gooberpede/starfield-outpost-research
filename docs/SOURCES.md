@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-D5E continuous source decisions
+
+The [native contract](experiments/resource-source-decisions/native.md) rereads pinned existing provider/generator/reset exports and preserves explicit lifecycle limits. [Per-use pins](experiments/resource-source-decisions/sources.csv) bind owned debugger, SRO1, independent decoder and geographic methods to the current baseline. Disposable fixtures qualify instrument behavior; their epoch witnesses are never asserted native. No outside incorporation, licence acceptance, contact or disclosure occurred.
+
 ## RG2-D5C population lifecycle
 
 The [native register](experiments/resource-population-lifecycle/native.csv) and [source pins](experiments/resource-population-lifecycle/sources.csv) bind primary existing exports and three bounded read-only/no-analysis exports to the retail executable. The [report](experiments/resource-population-lifecycle/report.md) proves scoped retention/reuse while separating source-pointer keying, visited identity, generation context and save/load unknowns. Owned preservation/export methods retain SOR-P-0002 lineage; proprietary exports and raw evidence remain LOCAL-ONLY. No outside incorporation, licence acceptance, contact or disclosure occurred.

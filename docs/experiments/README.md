@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D5E continuous source decisions](resource-source-decisions/report.md): four permanent probes, ordered conservative reduction and real disposable Windows qualification. [Native limits](resource-source-decisions/native.md), [review](resource-source-decisions/review.md) and [NOT AUTHORIZED Phase B card](resource-source-decisions/run-card.md). No new retail observation.
+
 - [RG2-D5D construction triggers and timing](resource-construction-demand/report.md) audits earlier acquisition coverage, follows coordinate/cell resource requests and ranks a source-qualified ordinary-demand observation. [Review](resource-construction-demand/review.md); offline only, no live GO.
 
 - [D5C resource population lifecycle](resource-population-lifecycle/report.md): source-pointer retention/reuse, owned geometry, reset/teardown and bounded save/load unknowns; [review](resource-population-lifecycle/review.md), [unapproved follow-on design](resource-population-lifecycle/next-run-draft.md). Offline only; D5B history remains unknown.
