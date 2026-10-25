@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-D5B combined acquisition
+
+The [native contract](experiments/resource-combined-acquisition/native.md) composes pinned D4/D5 producer and C1E/C2B/D4A consumer evidence. [Per-use pins](experiments/resource-combined-acquisition/sources.csv) preserve owned adaptation and unchanged D5A alternatives under SOR-P-0002. Actual disposable Windows fixtures qualify acquisition and a fixture-specific lifetime proof. No synthetic epoch field is claimed native; no outside incorporation, licence acceptance, contact or disclosure occurred.
+
 ## RG2-D5A construction-mask selection
 
 The [source ledger](experiments/resource-construction-mask-selection/sources.csv) pins D5 installed/source projections, saved multi-field identities, original screenshot ZIP and owned methods. [Conditional discrimination](experiments/resource-construction-mask-selection/discrimination.md) uses unchanged geometry with explicit finite masks, without extractor/image fitting. The prospective card cites D4 producer and D4A consumer native maps and D4B terminal repair; their combination remains unimplemented. SOR-P-0002 covers owned adaptation. No new outside incorporation, licence acceptance, contact or disclosure.

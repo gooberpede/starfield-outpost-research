@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+[RG2-D5B acquisition](../experiments/resource-combined-acquisition/report.md) captures exact-source construction and current Workshop consumption as distinct evidence classes. Its positive lifetime qualification is fixture-only; native epoch remains unknown. The [Phase B card](../experiments/resource-combined-acquisition/run-card.md) requires separate approval.
+
 [RG2-D5 Feynman reconciliation](../experiments/resource-feynman-d5/report.md) derives conditional alternate-descriptor precedence at Feynman III, adds Uranium/Vanadium correspondences and retains seven first-query mask gaps. All 19 Save52 cases, ten original geometry controls and 24 first-party images are accounted for. [Review](../experiments/resource-feynman-d5/review.md) controls acceptance; the prospective live card remains unexecuted and separately gated.
 
 [RG2-D4C owner-root map](../experiments/resource-owner-root/report.md) qualifies the displaced-array route from Lead to Chlorine under a frozen installed family-slot hypothesis. Two Water candidates and actual component ancestry remain unresolved; a separately corrected SFPT installation transpose resolves the Chlorine source-ID mismatch. No complete owner-root correction or historical epoch join is claimed. [Review](../experiments/resource-owner-root/review.md) controls disposition; the prospective acquisition remains unexecuted.

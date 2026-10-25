@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## RG2-D5B Phase A — 2026-10-25
+
+The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md) authorizes offline implementation, protected-input reads/copies, actual disposable Windows debugger qualification and independent review. [Lineage](experiments/resource-combined-acquisition/sources.csv) remains under SOR-P-0002. The proposed Phase B card is not execution authority. No retail launch/attachment, save/configuration/analysis mutation, outside incorporation, contact/disclosure, staging, commit, push, cleanup or publication is authorized or performed.
+
 ## RG2-D5A offline source selection — 2026-10-25
 
 The explicitly invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md) authorizes bounded offline analysis, authored outputs and independent review. [Per-use pins](experiments/resource-construction-mask-selection/sources.csv) preserve SOR-P-0002 method lineage. No live action, protected-input mutation, observer deployment, outside incorporation, licence acceptance, external contact/disclosure, staging, commit, push or publication is authorized or performed. The combined observer in the proposed card remains design-only and requires offline engineering qualification plus separate explicit live authority.

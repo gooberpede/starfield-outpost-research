@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sor-d5b-reduction/1",
+  "title": "D5B scientific receipt reduction",
+  "type": "object",
+  "required": [
+    "schema",
+    "status",
+    "constructions",
+    "consumptions",
+    "producer_consumer_link",
+    "historical_epoch",
+    "synthetic_links",
+    "session"
+  ],
+  "properties": {
+    "schema": {
+      "const": "sor-d5b-reduction/1"
+    },
+    "status": {
+      "enum": [
+        "NO_HIT",
+        "PARTIAL",
+        "UNBOUND",
+        "INVALID",
+        "LOSS",
+        "CONSTRUCTION_ONLY",
+        "CONSUMER_ONLY",
+        "CONSTRUCTION_AND_CONSUMPTION_UNLINKED"
+      ]
+    },
+    "producer_consumer_link": {
+      "type": "null"
+    },
+    "historical_epoch": {
+      "type": "null"
+    },
+    "constructions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "context",
+          "provider_token",
+          "source",
+          "first_query_xy_i32_le",
+          "mask",
+          "geographic_operand",
+          "source_bytes",
+          "calls",
+          "terminal_capture",
+          "acknowledged",
+          "population_epoch"
+        ],
+        "properties": {
+          "source": {
+            "const": "0:37536:20928:0029d20e"
+          },
+          "first_query_xy_i32_le": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{16}$"
+          },
+          "mask": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255
+          },
+          "source_bytes": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{224}$"
+          },
+          "acknowledged": {
+            "const": true
+          },
+          "population_epoch": {
+            "type": "null"
+          },
+          "provider_token": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "consumptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "accepted",
+          "transfer_capture",
+          "source",
+          "acknowledged",
+          "population_epoch"
+        ],
+        "properties": {
+          "acknowledged": {
+            "const": true
+          },
+          "population_epoch": {
+            "type": "null"
+          },
+          "accepted": {
+            "type": "object",
+            "required": [
+              "geometry",
+              "selected",
+              "source_context",
+              "query_raw",
+              "raw_closure",
+              "raw_descriptor",
+              "qb_retained_bits",
+              "updater_token",
+              "temporary_set",
+              "binding_reference",
+              "file_provenance"
+            ]
+          }
+        }
+      }
+    },
+    "synthetic_links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "classification",
+          "applicability",
+          "proof",
+          "lifetime",
+          "native_epoch"
+        ],
+        "properties": {
+          "classification": {
+            "const": "SYNTHETIC_ONLY_LINKED"
+          },
+          "native_epoch": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    "session": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Single raw SESSION envelope; PID and observer tokens are scoped to this receipt container, never native population epochs."
+    }
+  },
+  "$comment": "Raw SAMPLE frames retain inherited sor-d4-operands/1 fields for producer sites and inherited consumer byte groups. All addresses are runtime VAs; observer tokens are local, not engine epochs. SRO1 framing and ACK sidecars independently verify bytes; this schema never proves native semantics."
+}

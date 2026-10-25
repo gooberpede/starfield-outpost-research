@@ -1,0 +1,29 @@
+{
+  "schema": "sor-d5b-target/1",
+  "body": "0005e0de",
+  "workshop_bytes": "b0e207c2dee2c1b6",
+  "saved_beacon_token": "84e101",
+  "saved_frame": "2b",
+  "chart": 0,
+  "descriptor": [
+    37536,
+    20928
+  ],
+  "source_keys": [
+    "0:37536:20928:0029d20e"
+  ],
+  "sftr": "00168814",
+  "sfpt": "0023ddf3",
+  "sfbk": "0029d20e",
+  "biom": "00145440",
+  "ordinary_resource_order": [
+    "000057d4",
+    "000057d0",
+    "000057cf"
+  ],
+  "conditional_masks": [
+    0,
+    3
+  ],
+  "native_population_epoch": null
+}

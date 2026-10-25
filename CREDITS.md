@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-D5B combined acquisition
+
+Bethesda supplies existing native evidence; the maintainer supplies protected Save52, prior captures and owned research. D4 producer acquisition, C2B/D4A consumer ancestry, D4B teardown, D4D admission and D5A predictions retain [per-use provenance](docs/experiments/resource-combined-acquisition/sources.csv) under SOR-P-0002. Windows/MSVC, CPython and Git remain separate tools. No new outside implementation or raw payload redistribution is introduced.
+
 ## RG2-D5A construction-mask selection
 
 Bethesda supplies the native and installed-data evidence already recorded in D5. The maintainer supplies protected Save52, earlier research and the first-party screenshot inventory. D5 inputs/selection, D4E ordinary request assembly, unchanged RG1 geometry/context and D5 protection/regression/export methods retain [exact per-use provenance](docs/experiments/resource-construction-mask-selection/sources.csv) under SOR-P-0002. CPython and Git remain separate installed tools. No new outside implementation or raw payload redistribution is introduced.

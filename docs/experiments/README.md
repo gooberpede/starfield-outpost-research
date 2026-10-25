@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D5B combined acquisition](resource-combined-acquisition/report.md): actual synthetic Windows controller, fixed comparison and separately gated [run card](resource-combined-acquisition/run-card.md); [review](resource-combined-acquisition/review.md). Native epoch remains unknown.
+
 - [D5A canonical construction-mask test selection](resource-construction-mask-selection/report.md): 13-source roster, finite conditional discrimination, second-V primary/VI-b fallback and a design-only Workshop-bound [run card](resource-construction-mask-selection/run-card.md); [review](resource-construction-mask-selection/review.md). No live authority; historical associations unchanged.
 
 - [D5 Feynman construction masks and component precedence](resource-feynman-d5/report.md): conditional descriptor selection, two newly corroborated pairs, seven localized mask gaps, full cohort/geometry regression and 24 screenshot observations; [review](resource-feynman-d5/review.md). Offline only; prospective source-specific capture requires separate approval.
