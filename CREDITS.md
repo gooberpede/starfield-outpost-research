@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-D5A construction-mask selection
+
+Bethesda supplies the native and installed-data evidence already recorded in D5. The maintainer supplies protected Save52, earlier research and the first-party screenshot inventory. D5 inputs/selection, D4E ordinary request assembly, unchanged RG1 geometry/context and D5 protection/regression/export methods retain [exact per-use provenance](docs/experiments/resource-construction-mask-selection/sources.csv) under SOR-P-0002. CPython and Git remain separate installed tools. No new outside implementation or raw payload redistribution is introduced.
+
 ## RG2-D5 Feynman reconciliation
 
 Bethesda supplies the inspected native instructions and installed definitions; the maintainer supplies 24 Feynman screenshots and prior resource research. D1/D3 geometry/isolation, D4 selection acquisition, D4C key/layout analysis, D4E component/map preparation and protection/export tooling retain [per-use provenance](docs/experiments/resource-feynman-d5/sources.csv) under SOR-P-0002. Existing Ghidra/JDK, CPython and Git remain separate tools. No new outside code or raw payload redistribution is introduced.

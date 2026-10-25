@@ -1,5 +1,7 @@
 # Experiments
 
+- [D5A canonical construction-mask test selection](resource-construction-mask-selection/report.md): 13-source roster, finite conditional discrimination, second-V primary/VI-b fallback and a design-only Workshop-bound [run card](resource-construction-mask-selection/run-card.md); [review](resource-construction-mask-selection/review.md). No live authority; historical associations unchanged.
+
 - [D5 Feynman construction masks and component precedence](resource-feynman-d5/report.md): conditional descriptor selection, two newly corroborated pairs, seven localized mask gaps, full cohort/geometry regression and 24 screenshot observations; [review](resource-feynman-d5/review.md). Offline only; prospective source-specific capture requires separate approval.
 
 - [D4E component-slot provenance and predictive owner-root map](resource-slot-provenance/report.md): BIOM-local sixth-slot writer, frozen installed-input component/map prediction, versioned corpus and full regression accounting; [native ledger](resource-slot-provenance/native.md), [review](resource-slot-provenance/review.md). Historical epoch remains UNKNOWN; offline only.

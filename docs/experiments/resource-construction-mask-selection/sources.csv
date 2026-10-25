@@ -1,0 +1,19 @@
+path,bytes,sha256,use,eligibility
+.local-work\resource-save52\inventory-v2.json,221125,e42cc2969336c8eca36c837b860619647eed4461dc52d1679c67e0b9cda1b668,Owned prior method or protected local evidence; see report provenance,LOCAL-ONLY payload
+.local-work\resource-save52\build-v1\manifest.json,86322,9d2ff9012a573595227c8feda5345de35286b807103665486239ddbe8cbfa9de,Owned prior method or protected local evidence; see report provenance,LOCAL-ONLY payload
+.local-work\resource-feynman-d5\inputs-v2.json,48908,9dfaa67d8866e8370cbe788d98de1a4561ac180409de9ac9faf673409fa345b2,Owned prior method or protected local evidence; see report provenance,LOCAL-ONLY payload
+.local-work\resource-feynman-d5\build04\normalized.json,221583,97aa50e0eb6bc7a2d5157bffbb311942fd84e7c01e6bd2ef3ea28a4e9bd9e0f9,Owned prior method or protected local evidence; see report provenance,LOCAL-ONLY payload
+.local-work\resource-feynman-d5\build04\preparation.json,46191,2a47b01048e05c3a3064175b511949fc28eb6160df2f40666724876d2b84722f,Owned prior method or protected local evidence; see report provenance,LOCAL-ONLY payload
+.local-work\resource-feynman-d5\targets-v1.json,1119,cdfa97faf05f8000545c369a7ef152706445abbb9dea69fc5c2a20fad09e529f,Owned prior method or protected local evidence; see report provenance,LOCAL-ONLY payload
+.local-work\screengrabs\screengrabs-feynman.zip,12835893,3f65a31e279cbc412b01976e009b4087febd4c70f7026092b6eb253ea67748ea,Owned prior method or protected local evidence; see report provenance,LOCAL-ONLY payload
+research\resource-slot-provenance\predictor_d4e.py,14725,a63a9a290a1e97e1fe486c597bdde1de1fdc0daa7d2cb1e24a3940c28b2177b4,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source
+research\resource-geometry\geometry.py,26508,909dcf1c028a7c24bf698a9144fdd6478f01063717dee560f2214966b72a5eec,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source
+research\resource-feynman-d5\inputs.py,4255,c782d5c1cb8bcca711b95633ed15f4e9d3a2e5dbf43c1fd6cd81ef24f410bafb,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source
+research\resource-feynman-d5\source_gate.py,2632,1da47a2213407c733f0e36c2e8472985bd6f88796e5cc43c4f0331901ae8dd4a,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source
+research\resource-feynman-d5\collect.py,7911,e76c3302e9448739d13e29fcb02afe5c3d1e68e204502c8b202d1468bfcf3964,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source
+research\resource-feynman-d5\validate.py,7298,3c6f95b20f643d6773025db6766936fbef6b80fc1364b3dcb81805f3cd41ad92,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source
+research\resource-feynman-d5\audit.py,3061,b3fe541ec387ed15a37e4fc26c938041c1159eee238162427b2e69f61111b551,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source
+research\resource-feynman-d5\package.py,6416,ae2e3e698061fb3c37ab7c0aa1dd0f7e1edd403b537c95568351292a5f5363ce,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source
+research\resource-geometry\context.py,8792,371a2bc6127bbf429a586f01d3eae250dd787ae41cbe2bfa720169ca9c09e796,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source
+save-analysis\scripts\resource_spatial.py,7440,500de4a2304e02fda1566a996ce58a865de5adc9625d34eb61569548916294cb,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source
+save-analysis\scripts\resource_availability.py,21566,72b873efc340b6f0aaa6e46b6255c8c87f0e1c1d088efabd5a37a81d1177cc35,Owned prior method or protected local evidence; see report provenance,REVIEW-REQUIRED owned source

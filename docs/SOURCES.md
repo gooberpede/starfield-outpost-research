@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-D5A construction-mask selection
+
+The [source ledger](experiments/resource-construction-mask-selection/sources.csv) pins D5 installed/source projections, saved multi-field identities, original screenshot ZIP and owned methods. [Conditional discrimination](experiments/resource-construction-mask-selection/discrimination.md) uses unchanged geometry with explicit finite masks, without extractor/image fitting. The prospective card cites D4 producer and D4A consumer native maps and D4B terminal repair; their combination remains unimplemented. SOR-P-0002 covers owned adaptation. No new outside incorporation, licence acceptance, contact or disclosure.
+
 ## RG2-D5 construction and selection
 
 [Native lineage](experiments/resource-feynman-d5/native.md) uses pinned Bethesda executable/definitions, existing exports and two new read-only sampler/raster exports. The maintainer supplies 24 original JPEGs, with [individual hashes and annotations](experiments/resource-feynman-d5/screenshots.csv). D4 acquisition/transport, D4C key/layout research, D4E component/map/corpus preparation, D1/D3 geometry/isolation and protection/export tooling retain [SOR-P-0002 per-use provenance](experiments/resource-feynman-d5/sources.csv). Ghidra/JDK, CPython and Git remain separate installed tools. No new outside incorporation or disclosure.

@@ -1,5 +1,9 @@
 # Permission and Reuse Register
 
+## RG2-D5A offline source selection — 2026-10-25
+
+The explicitly invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md) authorizes bounded offline analysis, authored outputs and independent review. [Per-use pins](experiments/resource-construction-mask-selection/sources.csv) preserve SOR-P-0002 method lineage. No live action, protected-input mutation, observer deployment, outside incorporation, licence acceptance, external contact/disclosure, staging, commit, push or publication is authorized or performed. The combined observer in the proposed card remains design-only and requires offline engineering qualification plus separate explicit live authority.
+
 ## RG2-D5 offline Feynman reconciliation — 2026-10-25
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5_feynman_construction_mask_component_selection.md) authorizes offline reads, first-party screenshot intake, owned analytical adaptation and independent review. [Per-use provenance](experiments/resource-feynman-d5/sources.csv) retains SOR-P-0002 lineage. No new outside incorporation, licence acceptance, external contact/disclosure, live action, save/configuration/analysis-content mutation, staging, commit, push or publication is authorized or performed. The proposed live card requires separate approval; raw payloads stay LOCAL-ONLY and authored work REVIEW-REQUIRED.

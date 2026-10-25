@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-D5A canonical construction-mask selection](CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md): invoked 2026-10-25 for bounded offline comparison, proposed protocol and independent review; [report](../experiments/resource-construction-mask-selection/report.md), [review](../experiments/resource-construction-mask-selection/review.md). No live, staging, commit, push or publication authority.
+
 - [RG2-D5 Feynman construction-mask and component selection](CODEX_BRIEF_SOR_RG2_D5_feynman_construction_mask_component_selection.md): invoked 2026-10-25 for offline research, screenshot intake, analytical implementation and independent review; [report](../experiments/resource-feynman-d5/report.md), [review](../experiments/resource-feynman-d5/review.md). No live, commit, push or publication authority.
 
 - [RG2-D4E component-slot provenance and owner-root prediction](CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md): invoked 2026-10-25 for offline native/installed analysis, original reconstruction, regression and independent review; [report](../experiments/resource-slot-provenance/report.md), [review](../experiments/resource-slot-provenance/review.md). No live, staging, commit, push or publication authority.
