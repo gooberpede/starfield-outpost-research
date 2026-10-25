@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D5D construction triggers and timing](resource-construction-demand/report.md) audits earlier acquisition coverage, follows coordinate/cell resource requests and ranks a source-qualified ordinary-demand observation. [Review](resource-construction-demand/review.md); offline only, no live GO.
+
 - [D5C resource population lifecycle](resource-population-lifecycle/report.md): source-pointer retention/reuse, owned geometry, reset/teardown and bounded save/load unknowns; [review](resource-population-lifecycle/review.md), [unapproved follow-on design](resource-population-lifecycle/next-run-draft.md). Offline only; D5B history remains unknown.
 
 - [RG2-D5B combined acquisition](resource-combined-acquisition/report.md): actual synthetic Windows controller and fixed comparison; later authorized [Phase B](resource-combined-acquisition/phase-b.md) captures three current Feynman V resource geometries, with construction and native epoch unknown. [Phase B review](resource-combined-acquisition/phase-b-review.md); one-session approval consumed.

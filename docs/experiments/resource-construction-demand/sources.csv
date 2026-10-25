@@ -1,0 +1,406 @@
+path,sha256,role
+C:/Users/User/AppData/Local/Programs/Eclipse Adoptium/jdk-21.0.12.8-hotspot/bin/java.exe,a38d821efb69ef99c55d315b00d9e8b88f126743b8773e44154e1a3d193efd41,Installed tool identity; separately installed; no incorporation
+C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe,cce21c0e8710e304273e98ac4b2b0f5aceb639acbcd2343cbaa5c4e81619c45b,Installed tool identity; separately installed; no incorporation
+.local-work/recon/durable-center-05.tsv,eb2feb88ee930d8d81c31044d0c335174aa7790ad81740820cf417ea7180aec0,LOCAL-ONLY primary/export/receipt
+.local-work/recon/event-oracle-06.tsv,1187488d71980c649f0acab78b695bc3ebe0d3b39386f33782252f1e78772f9f,LOCAL-ONLY primary/export/receipt
+.local-work/recon/event-oracle-08.tsv,8c230f57025de038ceb768f99c6c4aaf739a0197d1b05d546192e9b3dfd511e9,LOCAL-ONLY primary/export/receipt
+.local-work/recon/geometry-lifetime-01.tsv,557352cc86542e43db0b3bb8d99762448d487013872f0c42a4232103c0c90065,LOCAL-ONLY primary/export/receipt
+.local-work/recon/geometry-lifetime-02.tsv,43cba33116a42dd0a054f46a8eab232c8a9d88bfd0442f89cad92633313f9471,LOCAL-ONLY primary/export/receipt
+.local-work/recon/geometry-lifetime-03.tsv,b21928641f37c00674cb5bd8a1ea258e99072d6438ffa7c838da065e8656cc99,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-availability-cont-01.tsv,c167add6f3e75f6a0ce2627f5813b4c0e04509e5b7d2974f57d3b8795d7602a3,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-availability-cont-02.tsv,175ac6e946706ce48ca50f2f50f1557c6368907c27e63f78c2ef56264387b3c8,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-availability-ui-15.tsv,08e3b170efd28e4e1f76d1935f723423c09a8e6673f5fe3f87a543458372ff56,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-availability-ui-16.tsv,3e29f0c813e9a49aa9c53eada6dee052056dfd659979aeea89868fe7c8447aca,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-availability-ui-28.tsv,1367f556f1f39aaad9b84197699996875c523320721d64af2f4842648251aa43,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-availability-ui-31.tsv,6d31b1b3f4c688841afc5c14d5584f863884e52905e4acd8e73ba44dd36aacc9,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-availability-ui-32.tsv,693302552f7b759b57608786fdbffaaa85a7d8733cde12100df8208f2b84dbf9,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-milestone-b-producers-01.tsv,bc5ae6b3e3b0f042e0c10d6ab73693b3f6d087821d24e120045ec2e3f206fff8,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-milestone-b-producers-02.tsv,8d962ff0cc0ab4e543feb311f21cd4e0bb6e70d2bbf720232734d9dd226de25b,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-region-dependencies-01.tsv,81556495770352b658a7a36ab68f74e7b27076b12de3237c525b06be14abe399,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-region-dependencies-02.tsv,e3ce37b2bc444f782a35d84de2bd5eaa75541368a24c9683bdba25bd3709f4cb,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-region-dependencies-03.tsv,2bbb3e5cda44385796448d45d24b5db70f5aaf50032fd245804cbd64be201b19,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-region-dependencies-04.tsv,d2aba5b8bed8c819fa2b56feb2e54d7f6dc836c37ef358dfb997a77fe3dbfe09,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-region-dependencies-05.tsv,5bbb09f55e492836ef212a857cbd733314c6d5b6e0359cfc85c4dbc438b53815,LOCAL-ONLY primary/export/receipt
+.local-work/recon/resource-region-dependencies-06.tsv,09370d778c16b230fe731f7a46ee3be93bb3e200fe560489210eb053a9735fa8,LOCAL-ONLY primary/export/receipt
+.local-work/recon/workshop-origin-08-retry.tsv,f2da2c249eba21280555c23f02a56caf8b13327bef75dce39ced5b3f010ee647,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/archive-attempt01.json,7b84a31f1da16f882b3d47674be6fbdc5d1f52930800fab4133b29ad49dfcabb,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/archive-attempt02.json,0ef91ec4655a8d78fe7193dcc598f51b98d647a502a7d261d2083db76ec9652a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/archives/attempt01-raw.zip,550391b1afffab4484fd551bd3ed2da04e8995abba5fac383dec6979883d46ca,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/archives/attempt02-raw.zip,c6e672e98b86154e8efd8e67459cb12a6da7887ea346ab4e7e6a7e02bec7898e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/audit-attempt01.json,5db57b38a89cb63b1b9aee5dd940eb3bafe2cd31f6a50237f7bf068acf07209d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/audit-attempt02.json,048b7b2ace2aadbebae0b013e91f163dcc2083c7ed4064de6877f7fbd75bbfec,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/audit_closed.py,911d57fbaa88534fed8dae96129264e9a26f09cd0cf524d3e0b325e683588699,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/build05/build.json,42ecda7762331206c80efb650db0c02511673c7baed9e90224d6aa4fe4c0a6fd,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/collector-dispatch01.json,b1c1cd91457bb9df6e08c055b29e3b3ae65001831222591a136b10d1a3247afb,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/collector-dispatch02.json,e69c6de47585dcdea30ddd68ebf9c561d5929fe84a57937aed8063c5869f7271,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/comparison-attempt02.json,7285c761fa241f871bcc021803b58aeebfb38fff14a696cfe6748fbc9bd8ed17,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/environment01.json,f580263c8da2d4dfe5be375d190fa6dafeb8b96288f7bf35244c31d3e7ce78df,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/launch-dispatch-diagnostic01.json,bb50ddf1e295a98e7accbf9b45c71607cc4601e479eb32059d46a97830f3c128,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/launch01.json,4d585f8ae7c28b902621a2f4ba40a23ac390dd6fa9a76528a939c7cb27924e3e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/launch02.json,6d6847a32f51b6c3881caf61bc5afe3f5bc584762b1ea7a2f4bc3ae4365fb573,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/operator-completion01.json,f0c65a12a5a9ec627592a118ea14e7391d523cb570e8b40e80ec0f366b44a143,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/operator-completion02.json,97f40c0ebecc2d56adda5c618629efdddb7d53fe2c21389b70084850ed8abf65,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/operator-correction01.json,1b6b887a4111a9c22d43669e05445f2a3d9551294fbc10e4b2dc8d978576464f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/phase-b-baseline.json,7c1cd9c331f236578140894153bfe4c04b0402649fd9a4982912add8d647a999,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/phase-b-protected-postflight01.json,210e400d68edaf378751d40dad9362fea17a3ec0128b6bd9073da0f163ff31b9,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/phase-b-protected-postflight02.json,5d221ba6ea747600f03f73d2e2e5d7fc47a44c57c424f23de7fe4a4f4b6ffc31,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/phase-b-protected-preflight.json,aec7aa78685c3141f727b412853bca24fc329133cb8bb6b2f1e785a3eba79831,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/phase-c-approval01.json,b64206456b5b5941a96ee27a9de1df6e42814c7cb70c40957e1a2014e6e9d890,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/pilot-approval01.consumed.json,589823adf51cb68465fa90fc30bc26319bfd2e0f24229c81737a0671c9f51409,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/pilot-approval01.json,31d2b62f9145ac64e8a0f261b88c1f28876472bc9f3dba029247d41a494570a0,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/pilot-approval02.consumed.json,e0d0aa6c6dedbc45ae0bfb39c0d079cef4372cae50c3658ae460e9c4d8da998c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/pilot-approval02.json,fd553810903cd5165dd80899afc731659355eaaa9a532bd2ef73510d024d825e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/pilot-preflight01/preflight.json,721f5d498c26a917d503e4ea547ab2381cfe22b375918f3c808e8818272a11e9,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/pilot-preflight02/preflight.json,6cf1235eda9b8837f5f10c97faf677e162b666ce7acf270200775af0504a78eb,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/pilot-qualification01/qualification.json,8f495fae88ada723b8a66337e50a23ba3c137bc1b9029beb9e4503dc40ff07dd,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/pilot-qualification02/qualification.json,30ae7ec5707601239e510dcad1b7a44c4e638f7c669184adfdb53d6699cbcb89,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/postflight-attempt01.json,ef97f6442b5983618ad9d61937a96866f1e41e4b545d3d36c001b14536718ba9,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/postflight-attempt02.json,94bf8c063f650836ded860505ecec01ac94eb5ec0c7a3e7ee2a2e6d1f5a83205,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/ready01.json,2edd77ca9865822d9fd8417658c0ed14a72a2f0bbdf9c8506ac02c73a9eaf0c1,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/ready02.json,24680b993c99eff4aab524d503e0d7eaa30c908fe46ce2b7b53e391c414a659b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt01/accounting.json,2021dce10f667d898c0a1750847b4b7e0268d77f550b1b53f7781471bbb8d259,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt01/events.jsonl,118ba09c4ce5d1174bca07d9391a3aff3089ce15ee0c2b7e077dc2b018bca89f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt01/stderr.txt,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/accounting.json,863d0ad6ec4fed600cdba21366ec62181987ec877d1ff218f96cc644d1f8e969,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/capture-01270.ack.json,7c10e4ea06414e1cd3048b892c52552e3823640e01f4db8ae3951bf22f18f7f2,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/capture-01270.bin,3fc3b69b0ba6bc85efee1a6ae34ebd89cb0d61d4e31dbdce3c3fd4cfa3387c51,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/capture-01280.ack.json,357d0fb8c3dab4dd4c9580c9f14f8cee2fade4fcd6bf37aee0f2badf6df0b1dc,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/capture-01280.bin,ac230a6063857b4e7e157a46a7764591e14c6b343b639523878b2bac608e3220,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/capture-01301.ack.json,9927e6927d94e4c2eb52f67cdd86e619a56d67178fd572cc4f4ddc6635319b33,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/capture-01301.bin,0fa04500d2dd0c78daa6829b69bd6b9f47f2afa8c1384e3559673b078b018b7b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/capture-02587.ack.json,a3b0f44dd43f96eddc468815f3178a5fae8a9fd619089c2e8f190b4fa2e6cc2c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/capture-02587.bin,bc74ed6deefb639e133ed4ef2ca30f478d63d21c71b08ffdec9866011a91a3c1,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/events.jsonl,c212f3cedfbfb6776e43d740dd8503c1735e0b1142092d7f0bf97282836ec8f8,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retail-attempt02/stderr.txt,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retry-manual01.json,9c99101e0f6d4b64ed482c84311740c341173f024786076966c4f0c080b99e8c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retry-review01.txt,94d841f7496fd6f64f4698ea22b51ad9ab1c7e5e2ccd7097e365b66b55af1930,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/retry-screen01.json,cd8a79fd49577bc449740a776d17265ad07666c39a3d19d6c3e4586362310f7d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/seal_attempt.py,635724bfc1f21d43d61342c8e06cc7c22d010e7a6cf55bf6ffbc5846fafc9f84,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/sync-paths-postflight01.json,7668f2d3fb5f2511bb6863a43e2966119a590ce62ff418f0090c13463ff1f4b7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/sync-paths-postflight02.json,7668f2d3fb5f2511bb6863a43e2966119a590ce62ff418f0090c13463ff1f4b7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/sync-paths-preflight.json,3f771d3a23b70131e8933eb65bd2c7872428092a1f2ca851285116d1c3d76a16,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae/sync-paths-preflight02.json,dd57bd2f7393a77a80b606d7f2bc0dad76ad29f6af032b50cebb374806ffa457,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization01/archive01.json,c3f97c9d558e225ea278e2980783b8542432ab96d71249c11ec83d755ad047d4,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization01/attempt01-partial.zip,a20e9517e03993cea4d45265a40a0efef9f7b2a3c010e6636f7acacfbcaacf8e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization01/retry-card-review01.json,2cfa6d8d6e9b229e76171476c60340363f37f36f2b98ea22bc8984beb038d2da,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization01/retry-editorial01.json,98a9319419063b6d4386bc624080ed58724846ecfeb66ba321332c9382f34aa1,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization01/seal01.json,8c4573b578228739b683af64b85ab1551b1104ff10b2a4e3896edcbd2206b29a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization01/seal_failed01.py,bb215299eb56385c1edcb2196afc7c843ec432af5da1e665520a22ea221e7000,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization02/analysis02.json,ec23f1eaede35607dcd0d95bc4aa7918c307cc76f1442478405338997e1a0d3a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization02/analyze_context02.py,8f661b7da282767c82f8363cfc01e309fccca4e58e0ace15a5d9dfbcadd3a604,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization02/archive01.json,b03d7c67fb56c48c81c06ad898fb04f82ea27b8b62ab118125512a001ab0c492,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization02/attempt02-raw.zip,6f3631f9d2f57afa76a0ed59f9d2e1c4373718adf476513544c530a62161a5f7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization02/audit-attempt02.json,90c542ec994dfe126d0c22e8371699dd0ba84e5a035f6f3dc7460485d3fd2b80,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization02/audit_closed02.py,6636165faa927b37a751b1668da5078e121f633a3ba96f6bff5d0fc52bcf8a46,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization02/seal01.json,1684feae7eaf3f1b5c2c8aace5180f9316d0b108252b81df86ac63a81ae0c8b5,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b-finalization02/seal_attempt02.py,66b35b3d92b731b661efb84d5afc818381156581ae03427d2ccf918d705d0fc4,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/after-exit01.json,821fe429f84329ae829879773da83dc0b983adae5d277c99a6ddc948746f0fd4,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/attempt-outcome01.json,dc8e3cbc32dbbf7d3bf8becd14564b2a50589ec1d413bae5c8b48732b768b92e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/authorization.txt,705826c156fa30c531100c10ecd1b12dbcf69d18772a7a60341bc8d6a72e7f1b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/baseline.json,cde8c7216312a9fe1e0be93e54c860e0426751e4d1c2e82e87a896319fae4a21,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/collector-return01.txt,71aa83c784683273aeb2e2965fc59765585c9d9adbf124f6b71ce92f4d5c08ee,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/commands.json,63c2bcc5fa707d2fb5db3ed8278640f17d625f284782b8224e4ec56f16e1411b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/dispatch.json,3352834317ff4b486ffab40fc3057fa169bb04bf89121ae2a9999136f8d0cda4,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/launch-utc-unrestricted.txt,d0c1506f948d25ee7ace87910b11700573c6725c213c42539000b480bfcf5514,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/launch-utc.txt,23357a5736225d8a722ee801fadd730f22baca79c204ee5dcc1e56fdd1f5e424,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/operator-main-menu.json,4f05a12eb63bd931dc9c99ac332733a0fbb26a70f0f499fad7f018c85efa599f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b01/process.json,c9a771e678f78c7913fd56ff1b5d21c5ba74391a7db5ebc0a5938476e1b044ec,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b02/after-exit02.json,0cd73bfc4420bceb7189084b0a92923b0fbbc41270aef5b3c14cd91792fbd2f5,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b02/authorization.txt,eeba727013e32616dd9053861f5e0d5ce80fff7c36cbc11864b53503b89c8d9f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b02/commands.json,8d6ae3a8d14f5b0d84e0a8ec8aedcc4affd557e4a79063ddeb23222650b55e2e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b02/dispatch.json,3ea34b8a6df077f88194d09e4ab36bfd8c55dfc754cce0d896049eb72b7c21c7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b02/health-observations.jsonl,3ca1eb03125a93a4243bccc0659da3f67a7f0090cd5f0be80c4de6fd732fd15c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b02/launch-utc.txt,204e592b0ada1dd74dee7c0e46a62917aac761df60d6c486e7dd0fa7309b55f6,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b02/operator-completion.json,ec1e4da318e33e7694adb0f806d32a52745c1154829577ee70a9e6b3545733bc,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b02/operator-main-menu.json,3561542b2d62725f5375c28acdea07da94dc855a01db4e9918558385c8020823,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b02/ready01.json,8e9d54e74db75fb588b7eff14f313d2a5f462d36f2550771228f73e9edf9c1f0,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/phase-b02/retry-review01.txt,7f2e11323f9846f0dc218794ca8fbc95ab46d4540c0b5598924e3a14361c1943,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/pilot-approval01.consumed.json,0245bf5079c5e23c2e633485f445f3e1de84698502605d7161e1dae248ce05ab,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/pilot-approval01.json,cc8749bddd8fb63e3c16b7ad5daa3d5bd56861dd345ccfa29e848ba89a848d37,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/pilot-approval02.consumed.json,73f008b29bac2345f608eeaea1732d5688fa3cdaf640032fa3d34d067a9439e8,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/pilot-approval02.json,9366d6a4f61f700c68120a62aa8bef7c5513b549d6e69a182edb532ed5908c7d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/pilot-preflight01/preflight.json,73bb91fa95010eaefef73dd50100928c4ccaa143e455b3cd0d78489ba51d35f0,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/pilot-preflight02/preflight.json,e09e291ec8bddb45e3f63991a570b7a81ed1770ca2a14e45b98881a2c821c879,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/pilot-qualification01/qualification.json,35663032b53f5de51b5ed7bd5b091725e81ed31ec8c2d870f6300dcfbd683df8,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/pilot-qualification02/qualification.json,4b584d0137b2f9dede0858bddcb8f3868eea342fb03eafd02477fca0eed34091,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/postflight-attempt01.json,66d5b34385d1fd84b6c151b6b2ffc5d2b35abdcddf59a3d00c84742c146a9a12,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/postflight-attempt02.json,01ecb6612851fcde00008e292e8da4e727c10465150c34ee8a462eda2e1b768e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/protected-before.json,1c0c17a92964c3e9600082b8605738dedec2d201aa622633d95e292546ced687,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/retail-attempt01/accounting.json,a95c2d2942a54a7f7025c84d28ba3fd3c7c0d4d205c4ba52aebcff442ad523dd,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/retail-attempt01/config.json,33bec76757c1f873ae252e7102678beb7d2df754790801973460c2a1264ce84c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/retail-attempt01/events.jsonl,0267392a1586851afc9da7eb414ada2e6d77989cfd9d17044a5e488cd1731d53,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/retail-attempt01/stderr.txt,4d4cdbe89c6ed3b2d9b55ddb9ded35dde47aec8269bbc6e857da51137fc6e19b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/retail-attempt02/accounting.json,863d0ad6ec4fed600cdba21366ec62181987ec877d1ff218f96cc644d1f8e969,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/retail-attempt02/config.json,212f21ebbfd319e60f3dfe16f044fd66bcbb28ae010bdc19b95255c48cfab885,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/retail-attempt02/events.jsonl,fd0c4cd39303d7bb76e34646c07dec3552f5f1538a2665518fbebe4bb7a5c72d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/retail-attempt02/stderr.txt,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,LOCAL-ONLY primary/export/receipt
+.local-work/resource-carinae-source-context/transient-build01/build.json,954badecaa09207dee129b0bced92e6339b63c36102b0f6b344ccb23026e6150,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/build15/build.json,584b7003712e953682e31b40473f90bb9bffdb36751d9fad8cc25c262eab8a2e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/phase-b-baseline01.json,863ea2f0301d4058b28fed459c1bc8b675c8bda9b11c7350fd713f5770c51223,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/phase-b-evidence-before01.json,d0097920165db8e88d5f0fba5510468a02fd1a42cb2b8756a3bc160a65608f45,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/phase-b-primary-review01.md,12db83ee762341413e6f6d132d18f59596fa6984ec5f9c14e40f3267d238e297,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-analysis01/receipts.json,700174909c11a300c624230111952cf646309ccff2125a3732036beeaebc88bd,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-analysis01/reduction.json,5c08c12be2f6b72f246b9ac7f4611046090544fed8c2cea6ec1449c2e6fcaaef,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-analysis01/summary.json,b933696b63b20eac68f0c2da6830f98ec6a2d21fa36a6c1892f8616cb3735abd,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-analyzer-controls01/summary.json,6463c7925342e050dfeca99a05ef0b723e9661bc9d9b781f1c3357b9bf1c8362,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-approval01.consumed.json,196279b416bf58ebff35a716b105eb0e35ab0ef8c04e00f0f4441879bc17fd9e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-approval01.json,bc8e0c42e40977ef520eb93b9a1cf796eaf391d926b0263589447281d7eb4fc2,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-archive-commands01.json,55f191592c3060861ff17fb42ccf81ae87b88f9c1c56d47cb3e3459cff51a8dc,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-archive-create01.json,1c4c1d61dc2a2198e2464c20d7ccad669dce0ebbacc3bf4e42172adb950b1324,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-archive-verify01.json,fc2d38d492eb2208ef5c7b1f7f48e9f07a00ceab0e0a223b7c6ca3c5d128f454,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-companion01/helper-snapshot/members.py,91731bf7646794201d6777e9e01ee2879e19cbcbbadc29f3a5717c15d43493cf,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-comparison01.json,6f8e4b81146f457b4f7e266e9cf65a70ceb1ace37e4aaa044f6fdc5c7ad6ec09,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-evidence01.zip,e3836d1e27c4cdc7e84c59ec8076b3fbeb52fae1c7025dea3acbd57110a618a4,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-launch01.json,c7ae93dfa9e683947dff8f71e4d8773a4bcc0f3fcc82a058eb0d4340cfc9aecc,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-member-controls01/summary.json,d1f93de0c84ce73132773546b3ba68186908081f329c27dd03af191b283f333b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-member-controls02/summary.json,e1dee5cf91ef5fcaa18740c7314f43f54497392fe05518711be4b33338495d7c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-members01.json,a76c3c20509e175230af217a6d9d80b3b3d6b1dae4601046d5a8b52f22c877c6,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-members02.json,a76c3c20509e175230af217a6d9d80b3b3d6b1dae4601046d5a8b52f22c877c6,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-members03.json,a76c3c20509e175230af217a6d9d80b3b3d6b1dae4601046d5a8b52f22c877c6,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-operator-completion01.json,9265dca3b3de8e6d3bb085b6685a79014f2a3b9af09a30b8c134860918d0fd5a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-operator-menu01.json,8230e51288a9f7e87e3363b20a8aca2918c32501e130e322681c27f73f58c89e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-operator-progress01.json,7fee54509128b0874e4d53f72ce894b8f00c796849f6cb715fb1babedd9e24fb,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-postflight-command01.json,787ee750dc5334d033b95a376b24499c88361833de69b849485d9c1d8748a506,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-postflight01.json,deda49cfe8c96696c2c329d7a0d0ab8a0a9f50c733e579b594efcc32331f830a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-preflight01/preflight.json,24c5d2b4d26189310bb2ad6c4119f1036b8112ca694589d75eb4141f64750fba,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-preservation01.json,3ba8329dd157fcebb60571210ec802f5356c5f3d2d44c4ea3c3cb2f91b0bc4a8,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-process-exit01.json,ffe1fc844d328f862bc50183c8bb73c0666ca3248ef39b4aea9df60b33ac29c1,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-process01.json,b47df3980c44af0ecd3fc973ad5a17ffbe884a5bc79b969741ae258a22edbca7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-qualification01/summary.json,427cdc063998744669c7b81960d36ad66894f30a4a55949b7913aac1612bbce9,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-ready01.json,bda381d356e96d2251496a7167e215f90086fd541795c3630ce1256ea78f9ada,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-seal01.json,2244740d8c888a1a15f50f90d19cca53b946f260421fe7c19b5d951a776a722d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-wrapper-command01.json,f9d3d87ecc860eabdd3a34c9bed8bac8fb1221536f44da3380f2f4ba639ef123,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/pilot-wrapper-exit01.json,86576e243e98d4ceedddab031043d65f40ed40ddbc228189ddb0f37845b97a5b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/accounting.json,bb1e472b661f2ec8e5ee45e4dc0bcbae2eea5bd6d70b564dc09a3bed7d37decd,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/capture-12205.ack.json,966b4e3af00676bc90a6fb9d9695793e448d5899ae4a6231396f03408e72a5a2,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/capture-12205.bin,db67fa6c20f9f72f3cc7b24f91e40ab3bd849480f5faf742af95ea125195f02a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/capture-12901.ack.json,e0eab249e146101bec06a61f2da58edc06c3ee8c7e2ce835ec94cba89f654cf3,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/capture-12901.bin,cb6619684a64aec4dadb1c123a2675db04537dca4433a8ba9968f9654809a662,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/capture-12906.ack.json,7fc96de48606d530463e31b3b5fe001fd66390f075a74412a726dbf7aaea296d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/capture-12906.bin,65a03b42b34664ed8fd9957f195d731fd9f0395642fd08bbb7586b7a844e4f74,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/capture-12907.ack.json,06c546a71dfe7e03100d01bf40697569085abff8894def38903cc127f24a9237,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/capture-12907.bin,686a17bc35e451e4f710450a4b684483b54ff870e9222a888f3eca759c19cd75,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/capture-15119.ack.json,97fbbc8adb486a4756b7ffa5f6bd242ff7abb7698e5357a6fae73a4ae37b72f8,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/capture-15119.bin,1d10e379a31eaf4eff25936b04889ca8113cda3d2133c7287d48a319ff1b13d2,LOCAL-ONLY primary/export/receipt
+.local-work/resource-combined-acquisition/retail-attempt01/events.jsonl,19dd7b956eacd74f3c38a3179f56f5bce2115f45033337e1ed5d3f005cc2f79b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-construction-mask-selection/conditional-results.json,1c7420c884d5260b6d67f9ffe3f7ccd2f36f903501431feba2f2f85abddf8644,LOCAL-ONLY primary/export/receipt
+.local-work/resource-construction-mask-selection/prediction-freeze.json,adacc2b15c1e047b9b792f088db33d01700d81e6d18b09f4038485155eb34f7a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-construction-mask-selection/regression01/native-comparison.json,9f4961d9a725fe69bece5e91b8519f234f27e781436ca1be7759de277fcd9c8f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-geometry/native/013.request.tsv,6fff5e9e6a1041e7efab01c7fe859b696d44473c4092d0864bd82a18fcf17ec9,LOCAL-ONLY primary/export/receipt
+.local-work/resource-geometry-mature-context/frame-discriminator02.json,ae0f9597aa44a30f961afeaaeedc67e3c8b6f8e8f54f231f522de4bd6adea36e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-geometry-mature-context/native/002.request.tsv,3f237ce1e6b63418f2967ebe9836badd863ad368ff8d378abe29ab7233f5939a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-geometry-mature-context/native/003.request.tsv,54d9a193392004bbe7d7694f44be0ba5d8e65b57a7e2af17b13eb7bc24225038,LOCAL-ONLY primary/export/receipt
+.local-work/resource-geometry-mature-context/site-carinae-initial02.json,0d019138d5ca5d058b0de6989e0534795896233257344e13299fd235a140ec6c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-geometry-mature-context/site-feynman-initial02.json,6f40b0d3166796bbdabb31dd8cd4a00dbfc9da144eb13ba3a336367d2f6c539b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-installed-settings/c2b-geometry01.json,bd4cf4d76c326ecfa88af253c6b50b1dd65e8ecc0aafe7c10367c8f1b9bbbbbb,LOCAL-ONLY primary/export/receipt
+.local-work/resource-installed-settings/geometry02.json,bd4cf4d76c326ecfa88af253c6b50b1dd65e8ecc0aafe7c10367c8f1b9bbbbbb,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/build15/build.json,aabc9d9939b586c43e9a62e1e8d9e576e2f8fd58cc0b3c28da874e1e5fab8872,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/build15/sor-d4d-controller.exe,7db8cc0488b02b52991048dd604127e9d1c2697d944a57924098625ebf42b18b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-analysis-method01.py,b702c667d6e595fafda4f1c437b225a5b114c919fe8ae53769da9f9cb5d6c731,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-analysis02/summary.json,e1c596cfb7c292d4e6dcdad1bd880e0747a997f8fd44a50af30c64d8db94ec4a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-analysis02/target-constructions.json,6152678f06376a536b859d558967e22c65f9bd4a38eb1d70bf360c803705a79d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-analysis02/verified-receipts.json,ac08ad1e1e21228f04d981feaf24827cf25310dc4a393b7d8834408e69f89cbf,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-approval01.consumed.json,65f318ae54aa013a1e4b4e5b64ed50170f1d89d437eaea962f8c84b5164f706e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-approval01.json,9f54df2ccab1f8303074f144ebe818e0872f87ad917fe036174f3af9c9b45a10,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-archive01/archive.json,54c77b336ed883af28b46c6c4d926673471b3a9a6dd213f121b67786a86820a3,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-archive01/capture.zip,4b8bd6d3739350bb043e8d13d85501acd0573af33a3f903dc94302b10ca10e49,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-archive01/seal.json,9756ce3bbbc416635273b167fb591e86c8434dcd081f639db2bed07c6b592887,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-archive01/verify.json,140c1d5e99df368215a69e220594c091d251dac1891235ce5f48a2b69923e9a7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-comparison-controls01/summary.json,400233b1ee31e680d5d1c3244924192f9bcf6515be7cda4d134ab4cf796927ce,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-dispatch-failure01.json,18276714024de653e42a45fa4bbb5ea3989f9fcd084632d15b3bb6b1684e1bb7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-launch01.json,b68f19dcad22ad1767298f02ab84abe595b50b3148104b1f0256db7dcf839b24,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-menu01.json,68f31acde838c560f355416968d5172b22c79e4e60e8558e5043a23a11377cce,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-operator01.json,93a2cbe1a78e95135d109361a4f5adf25ce47d3f8fdd10b141c05d51bfacb52d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-origin-controls01.json,ec8a3aeeb1cc156b8bb5caf3f44c922c66a2cfb26413c393e466f42757af8b8b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-postflight01.json,094d021364275b561820fbe3ac601bc4ff98e687a83d9fba2254c61ca50cf8b7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-preflight01/preflight.json,a53bf41b56ded622403a032fe5098fd7f58d6378b49709970dc5caf58a23a3e4,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-qualification01/summary.json,e502fa11012c7b733c4ef9f068ec509e3d213dbd590b3e13c2ede2b6fdfe2253,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-ready01.json,b1378f35b0958411d711af3c6be00e88e347c4c402bef73e53035cd9b617aa1e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-terminal01/summary.json,42f32fc6dfe7614e3c6f5537478935e2d1b2053311df84386f04a5e6ad4e3487,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/pilot-wrapper01.json,035a2b9deaebf2681edf0b26b30c72cb5abf94c7707fd06d5fd55506af860394,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/accounting.json,38a954b2e7e70df93418147a9f4d7c9b25e4301fe3a03b6b0e3fae32f6851dbb,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00358.ack.json,cca359ace8e14354fa6a5d61f73453fae8b951be9666045fe70ca5b3c5740dd5,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00358.bin,db47e30e20dcd5507ab70956e773e3e2a9e9cd97975f14e7abf94c0fe5c7b72f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00359.ack.json,1a52ff6cefe697cde857e149b72b9d97044075192c2333e3cf4cfcbd90cba57d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00359.bin,03561d693afaf2a56f8d154b1741f1b35789e02c1e19da734500a1f90a93eb3d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00360.ack.json,c91fb8dc0ca3ceaa53d1af4b115fdd1358208a25572782df9058a6ff73a169ea,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00360.bin,4a54178d8cabc21b90820d3845185b47456fa84e90bb69e4ac80144f02ed933f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00361.ack.json,2d1ddafba68b5ffc92b111653b3b90bdc2e3edb052c49278b7d1ff7a6722ff04,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00361.bin,ede68e6e96e2548bca3bd5d25b63bfb604f3b227434f5f483b8d665843dc856f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00362.ack.json,7d0324a391bf9c9fc03591e2d62dcc52811e6349adfb07ea1dfd72200e72ebc7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00362.bin,591fa4dbe73859352ecad1d175b8410cfdcacfd510b43975f743b6f0aff71255,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00363.ack.json,476d80e0c12205689eaf736b4c436e817909bac7c83f8cb8360494ba3fb0732a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00363.bin,13642605fd0796bc7de9119891e8e0c072498120cf4629b5a11080e7a4d0b806,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00364.ack.json,5c91b109e8d631e6f6354c62f5ce701058b237912b1464ddbe8e8ff3f7322622,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00364.bin,ca94f96ee5c4e73867d005d79dcc8c5929e718505f82db87e81a015fd5551156,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00365.ack.json,d0034b71cc52e26c888e3349f9399295c83dbebe888d65fad0e0bd784e46f2ac,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00365.bin,d8232ea2db2b79820c1121bb04cfcaad099530c213882d519809b51aa96c7a00,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00366.ack.json,bfb109f2aa17d86770472c0bcc87fa18bfadef82f07db0cffde41cf8a04d3332,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00366.bin,fab9a262aed81198c8449f3e786847c48fa7742cdf950c90ec42e7ac54678ff5,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00367.ack.json,dd75fe5552e624e10354c1f19acde94a57d1c46ad7fad381ad91efca9798d918,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00367.bin,c694a395f71510cb458c74f6868e2e14cabbb2575cadca1c57ad0a54c6b619e8,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00368.ack.json,a69f03d413c514b829c83527c588ed586f7f32247340efb3c8d66035f074a6e1,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00368.bin,f0d3814a0daa04ed365c54d3ab095f3c12a72b6fa9fb4405f12214c3f3df6319,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00369.ack.json,f10ae3165b378e6f83b1d59b42465e66aeecab9141e32de0e9f5a14ccc9461e7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00369.bin,b60ebdfdd06f8e40db0fad3a615e2d396fe3769df2f791a4b374359e403985a5,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00370.ack.json,45f9f64605a599e6d5c53e655fe4937ccec67335ffd5cbdf55b5129d1be70726,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00370.bin,5c78eee8defcc77fb643afa169c389e9b46d41af0ee0c290035c8c9a21637113,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00371.ack.json,2125693ad4e2128d656b4d9f8df6eab19e4038f1d20b57bade14b3fa76f228cc,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00371.bin,7a8219282422ef755df5beb3a7c70d15dcb9ec3f90518b6c0cb773a63de86f16,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00372.ack.json,de87359d21da9a35d12b83c72544d38cae653207ca3348eec89304d1451d7ee3,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00372.bin,0e122c76f529d89389c8fdda55c92e23ed2128bfe755f8ef3f0209def447912b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00373.ack.json,2b4d463ec132a79e417ce7877f1ea573dcf4ddd51ddf6faf954b7b73dc9072b9,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00373.bin,b97884622984179a3f63d1a8a3bf64e61c08baaabc3fac8b61d8414f7e64f20e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00374.ack.json,0d3f5ca878f9b020aec8b09830e1c3559a5fb362fe5ef259c69bb434c8b25430,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-00374.bin,8a16fa99dfdf6428f087b1a653470b6355645c1ec7bc4a4bf38c6b72d2d4ca61,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-01511.ack.json,876c3be6f06b60f379f3544625ce7885c2c819ba1169d13154d96044b01d6a0d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-01511.bin,da8c2a008d96e7f223c9a0bb068172bc4ab8d286ee74bcaa4fa5e986a2c65f7e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-02225.ack.json,70bd9679601fbd2645669d1f9b04794e828c99601fe834658df67984085bf939,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-02225.bin,fb056e197a371c470a76308e46919835b869f0b393b8f5b582633f34740538c2,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-02285.ack.json,cc6497d8495b44da392f1b4714692781263fc2d8b6a442127cbd27f7ad90e0cd,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-02285.bin,908cffaab042ffa00681a8e275b9cd21b769bcd6271f0d79e69b85bf54d7be11,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-03357.ack.json,e3e23c8d606a23d71609f58e9d185c720f44f4211d5488811529fe0e444302f4,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/capture-03357.bin,18c649844c56ebf2984c9c485f74c40bc15ad8d547901a09b84d171382b7a3c0,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-acquisition/retail-attempt01/events.jsonl,956417cead460c933a51f3d6f6ed53c224a599d138ff61433f5d21ceceb2ff0b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-owner-root/freeze01/inputs-v1.json,8ccb2cd36fbfc03862bfbe6198313cb92ad5bfc90d4e32e7d102efb6ac85b09d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/analysis-attempt01.json,2bb68b75e3abb8de7802f5eb9c959d1e05bf27c0e54e057b9757c4a36b6912d7,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/archive-verification01.json,36cee29044ebb896d3d453690ca4b9a5f56fd6e6a70481ed18958d53aff7c5c2,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/comparison-attempt01-v2.json,e259012eb41312d045f4f45158a399116ed37716d25e80c2e76ddd5eeda30b83,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/comparison-checks01.json,0cc2df6ace9a9a5d3b38afdb4372cc0de75585ad3b0a7869b516159cf0b16f20,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/phase-b-baseline.json,0f40f3184e29c4c587d4f960c4e96319817645b427962a1b6113210c040a6a2d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/phase-b-protected-final.json,c0bcb7fdef87722e7090ae765ac11a48f9855cff5d008c746dd367fecf3532bf,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/pilot-approval01.json,17d600d8febce36ff541ae20ec26494f446fe6a787e95630c1520e4875a0f4b4,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/pilot-metrics01.json,63db33e198aab0268071b3cdb5ef2df20f2716fefd38ceb46ed3c30819827276,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/pilot-preflight01/preflight.json,2b8acdcf52e2cd731b923cd16950c64011088b8cec3c9902f5e43d2c9cb5500f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/pilot-qualification01/qualification.json,6386ebf42abff2a16cc3ad298138ec4b3a8754218ee0de5cca0b4d7a8740af1b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/postflight-attempt01.json,ec50299fa670d4cfa161a2157b5b913caaca442c779cf885b168aa1592762f44,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/retail-attempt01/accounting.json,ddf2cb7a486a6d118b2d41ec6099d6bce47efab0a06f576dbc08af4284e7b7bf,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/retail-attempt01/capture-00299.bin,0575a3af8403ed2333bb2a3d0ab7f9543f5957e31d79af2758c30635786b806b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/retail-attempt01/capture-00325.bin,c6a217abbdf668129e2f9d2bdbc9aab6086c2a9e6e73a2fa135939e94c0d2e08,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/retail-attempt01/capture-00967.bin,aa8cef2407c09523218d68332f2882855b3ae3830db45a7a4155c39a0950243f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/retail-attempt01/config.json,bfaf74aa433088430e24b5a441d9725cd879b5d203b04d8b8da6b3fd1f8a16dd,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/retail-attempt01/events.jsonl,249ea01cf45c2e35f07287a1eb709007aa409442d088113d3d9c2d48b94919a8,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/secondary-save-paths01.json,7e49fa990e8bdbbbd18f336375cadd9d0ab2db726e6f66d05e99e94ebdfc744d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/secondary-save-postflight01.json,75987863f3e3de05c3e0f8c00a81c8be9766a8a0cc097765f209cdec881daa08,LOCAL-ONLY primary/export/receipt
+.local-work/resource-region-ancestry/steam-launch01.json,e4eaad9f2c61e9859d27ca3ebafa6d71bf2d18902101824bbdc396e750b1f9f5,LOCAL-ONLY primary/export/receipt
+.local-work/resource-save52-d3/build-v6/normalized.json,d6fe11c89656f5a928d30e49e99e1ad7fb18dedbedad65ba8b4ef3f626a3ee12,LOCAL-ONLY primary/export/receipt
+.local-work/resource-save52-d3/descriptor-ledger.json,be9d7fca2c56a45c0ae3e1e5ffd9c595802cfc69fc26933418018fe1558edaec,LOCAL-ONLY primary/export/receipt
+.local-work/resource-save52-d3/revision06/first-pass-v1/D2-81a75b-stdout.json,2a2476961b0c321a19f48a7b05295e59f81ae3a830bf26ab34ba673b4b518478,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/build05/build.json,3cd428c2515501b80ff28f084e58d943e27eb638ac849653a1ac413a1398805c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/operator-load-clearance01.json,4353d8e2f63d80ba67b82a1361222e30730215f41d2da6d837508962584b1a75,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/operator-main-menu01.json,c9fc136f40cf04d79c313f96e81168a91e79ab9a787b7832e9f970a103ed2505,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/operator-outcome01.json,56cabc1ce727c2a4dc23cca535f7aac1bad88a711e713c0dc2498b1fdffbdae3,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/phase-b-baseline.json,6cf6465e600c6a2106e0cad6763a4da256490c6c53604b620949698fb62e9a5f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/phase-b-protected-after.json,e9711b659375babedfbb67def6a64f47b7a44fe184feea0e7c32fa7e09cf3fc4,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/phase-b-protected-before.json,38516d37d3c4482f319ffc977d7fb8a5f7181213bbff9da4f0671fc5a61450ea,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/pilot-analysis01.json,d671e94e9dd02b0f5da536d256d9664d3cc5f1923f8f02951e22b2956118d37d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/pilot-approval01.consumed.json,7be514521231a936cc5b69bddd588155751fd7e83c5898d3209e42878373eb2e,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/pilot-approval01.json,ecb38ff7ce4ce81cc014bb39bfe394949f33636e3b111921e7a022043c131f0b,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/pilot-postflight01.json,ee89a56be6413c39ac47eab3828bbc212c896c28a37d8234d3715a114df631ac,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/pilot-preflight01/preflight.json,64cab9bf17f259faa89f1ad12d2547a47d3ec18fb90ba5ed0ba899e6065b7d7d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/pilot-qualification01/qualification.json,a61e884935e7b9271e9a4dfcf3bc1e63b7556ba9e89b944b9e13cf429cbce4ac,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/pilot-seal01.json,878b2d4629d1697ce234d2077d0f53bae10de6cdc069288d52b8d35f614ec85c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/pilot-secondary-postflight01.json,7e11740539d908244101d673e23fba670c1d3e748b61a5239261815d82c55d69,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/pilot-secondary-preflight01.json,9797fec9e877610cce9683bdeeeb72443ec9f4c8f9fe4ed3dccb85e362ec156a,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/prelaunch-path-check01.json,cfd68c58661e84eacf072a803b42a82aef75ece25d8ce56ff116145f23096861,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/provenance01.json,c30cac3eb0b3f986af10421170c9be25670f193c107c6a181ac305939a9706b0,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/accounting.json,8eb0d3e00847d10f49bc265cb3bddc3b9becd0d944ee07324cdb9cc3b026ff8c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01019.ack.json,426b73fcdb9dd6437928fd48e8d126d8b8bd27c9cf6139ca136526b8b03d41e5,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01019.bin,a785e7c305ba90926f288083eb9869d1fce2991393f1baf1a3137739f89da6d5,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01020.ack.json,e37aae5efc7d3539dcaa89196e1af818507478b602dc8445d8ce46273686d4f8,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01020.bin,c05fa2829744b28b8823cab53611980e506456a603c4af9d8f95a9964c2d19ee,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01129.ack.json,11ef09a97ada7e360ab8c7c3f666dd6d823d3052a6b12a1a2adcbffc77e5f2f4,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01129.bin,656e917496e2e596015a3f0f9c99cdb42ba7122b990db35b18ac4bd509b9d30d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01141.ack.json,552c54131cf2413de8facef570b53e8308eccccc16b98292689cf24e6697dc94,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01141.bin,6be87b01284d6294c85f6fffe168fb492b4bd387471cb00a88d696b6b3fe4e74,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01165.ack.json,9cc8a3440f8f3d1639c781a759da2c5ac83101900271869ac277aa27b24e75c3,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01165.bin,2ebfc6f80b51d35b3216ec9fdb4fb23c88cab1c157bc67afd467175e2f27df34,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01310.ack.json,df2d68e1ad24c1164fb15f5239e4f8556a60b0a2f3c8f22e3a6fbf5bd0e07efe,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01310.bin,ab224bbbfa53acd60226b2b29ed8e59a0da3517db6491f645fabbaedb67daafa,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01431.ack.json,00e2e4d0135d92a4817c8af75eaa3aa4ed360c2682ffdd811189f3473ca6fd15,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01431.bin,3b4002ef5ec01825a63f9b7bdb06d49e57f42a9b46008447dcf79f8ca7236d8d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01455.ack.json,1d6874c16975c4a979059ec00d919e0a1129ade435a1e035149e425336eb1d99,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/capture-01455.bin,308feb16588b49a55ee31745d143e28f573ac58983b3914a51ce69d15efd22c0,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/config.json,1cc3baa1d4cd208f860eb80dc12560bab19449094389b59644f8f555a228c9a6,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/events.jsonl,8211361a46341e55823ac7a5a3254c73ae394bca0ae79a23e6f779e48a673201,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/retail-attempt01/stderr.txt,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/steam-launch01.json,24830b31169d2b85a0e30facc33e7122e650c47fa9d0d2c37ea4b67fafc231df,LOCAL-ONLY primary/export/receipt
+.local-work/resource-selection-operands/timestamp-dispatch-correction01.json,4a6458c7f55b826195ac4de28a0959188f720632443b9557e8e25243c3a90ac8,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/build08/build.json,ed45297b1670887d1830f3ca8f5e9f1aae61795f48d253c2e1967279415c0c92,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/build08/sor-d4a-controller.exe,ddf98cc1e3a0d6cda78bb0d16b443c6164955fc4045bfac3399105182269bdfd,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/phase-b-finalization01/audit-closed01.json,45b33ac88aebae5b08e1da86b3682e36963a026e6d56385dd612370dfb3b8621,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/phase-b-finalization01/audit_closed01.py,d11e0b3007a53b56b6b08a88b37917e8e0cbb1bee7e116f10dd17371aa50eb68,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/phase-b-finalization01/operator-events.jsonl,782a8876cda090ce266964874bbd69be1bc239c107b8534ab31edabbab109705,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/phase-b-finalization01/preservation01.json,082e8fa0fe0b2592d56de210be718e7dda112c6b46c93c204fe730bc4a1c0cfb,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/phase-b-finalization01/steam-dispatch01.json,864b05207e4d46bf50fa460ca94f4b974492832266e59fdf55835d78374a991c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-approval01.consumed.json,95acb4888f76230bba8aba3a488c5e6cebeebf581571f27da930e27d41236e19,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-approval01.json,09cf869835f3b801c69e7e287ae72f9d28f73e41f824f6cd016770db6877e11c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-archive-create01.json,e0da050ff4b496fdc76e11ac15e82c9689868c5ec20d4071f727e2cac045cb68,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-archive-seal01.json,d2b1e88bf55b619d8218f5a9a6af2a7b23fd39799bb45ff9fdf70d28e119b212,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-archive-verify01.json,dceceac0d8ba1c77826728d23516ba79b7a961ea5c4683a13e04684f2ef9529f,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-comparison01.json,b26932e1219b8f7d2d948f7059ea391c3d9f6f42cba0f0d66c80b6ad02daee10,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-postflight01.json,edc861f9409e63c1e8a4a84f8b0bbf1ea3728ef82d586f916b97973bc154fe6d,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-preflight01/preflight.json,7ef6849efbc73136501a933bd68c5c14f514f6c325fbc93172aaa00a2b7a08c2,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-preflight01/protected-audit.json,9026e8340183c9afe57bf8ee9635056b9ed1350a25797be09c3ed19056d96e1c,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-preflight01/sync-audit.json,157d46abf51bb27bfe3cfe1df27aa991bfabb0698493743057149cf34d031202,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/pilot-qualification01/summary.json,abdd1d50f1989f3609ccdbee3925c8c5bc18423ca6faad6b370ba631f58737ed,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/retail-attempt01/accounting.json,c5d3ae268f947684694a93edf72261b922a5f51f9edbe899a6df6c56589530f8,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/retail-attempt01/capture-00829.bin,5d307e4a7f6df5e59169b62298b845ef56f1d68372c5772f8f25765f6b965c63,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/retail-attempt01/capture-02881.bin,f7e7f2c3cd8278f2a7eb3d954c7a4a2ec792acafa1911add29f9e916cd807028,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/retail-attempt01/capture-02941.bin,8f0ab381215aebde9a22349453f77346929cd108e2ebfda024e6d37ede29bd02,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/retail-attempt01/capture-03027.bin,066e582ab1c44028e39ca99330f026d284ca1680d868f403e53197cb8b42e516,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/retail-attempt01/events.jsonl,6656650027cb1f79f6f8fb3952c42780975e30eb9c60846c5dbb4825fa582bd1,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/retail-attempt01/stderr.txt,fddf7198ea2a5579afe7d40a69e98e836019da34370e3e5c86e88aa5fc788739,LOCAL-ONLY primary/export/receipt
+.local-work/resource-tungsten-acquisition/retail-attempt01.zip,584b400c28fa9cee646ce1969e90a0e3fd244d6b1c0d61a55d1a6da9e0b50d22,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5c-init03.log,44763dd6669f4b5f1818c3c3406f9c366d4e3a26fa604c61614ac1713a044daa,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5c-init03.tsv,aef0239bcd0366a61b2e4f8b6e750c20d20680474921871ddd558e43c503085e,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5c-lifecycle01.log,bd8272de469ddd35815c6f0b0588430ff7445cb854c669082b00fd1ee5b2446c,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5c-lifecycle01.tsv,ac83578e37f3028acd01e02996332da0e9c5039f670401eb02730c28eaeb09e2,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5c-load02.log,5ca20de10c4159bdf720b37dffb72d7a30102ebaff1bc8f1eab9ee96cb9970c6,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5c-load02.tsv,c1860b44fc331c162bf70223db1ed4e97b76f1677ffe772d45aa2a7b956ab95b,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5d-demand01.log,0e03d42c6ddd13a3d37074e0eb3d0b8a16e965629b56f9092afedde82f3d6e46,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5d-demand01.tsv,363b307b79cb29523136bb426e21dd1f9cda0993b137a21003ab97109588cc6c,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5d-demand02.log,f79867fdd6c353331c3d5403e30d18760e35557cecfe39fdca5b0158561a3acc,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5d-demand02.tsv,7d04700e3f8f7cc5ee31367fdf0ba7406b062aa335b839f6d9bc41cc4ead2cf9,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5d-demand03.log,175c0b324a220cfbe7367a45b9318e16af47615af66eeb2c28648c706a891be4,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5d-demand03.tsv,3da06af4a49839d953cb441f7f5303fa46c895b5fb4df83935d5c8b8dc70b6ec,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5d-demand04.log,bc8c9575dc5cfb50e9420a8cdb329593178ddf01b6a4509a0e8abd92d2be8218,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5d-demand04.tsv,5ac922fdd7cff5b1e51cbb22a28075b16fe49795c02df668265397b14670050e,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5d-demand05.log,b2ad20192dff5a18e3f2c120b9f5f694cdfcd684fe2d4e4819130f135c6bfb08,LOCAL-ONLY primary/export/receipt
+.local-work/workshop-population-rework/specialist/d5d-demand05.tsv,7d348cf306e42e2d71b53578bf17aafc715f6639b63db4545ba5d432bf35ac02,LOCAL-ONLY primary/export/receipt
+docs/experiments/native-availability-map/region-dependencies.md,150a79baaac319bd9795e2678b4726e0c10f3a3e1720ada45e197cc13b72c5b9,Existing project method or source ledger; baseline HEAD
+docs/experiments/native-availability-map/region-lifecycle.md,cd66ad922ba98e288488b497dace384703fe005bd0eecfc736780a91b40ca633,Existing project method or source ledger; baseline HEAD
+docs/experiments/native-availability-map/region-sources.csv,e1fec256ac16d2d1a2d9c5058bfe637a2bc3d35502e7a02b46cc202c7d505d26,Existing project method or source ledger; baseline HEAD
+docs/experiments/native-availability-map/sources.csv,ed453f555cfb57951df59779b85fbdad37fabd816abfd31f60315ef363568cc3,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-availability/native.md,9b1d03317e4136370f396cd288d0d7411df357f650092d470cc48dcbb610f911,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-carinae/phase-b-sources.csv,543329afc167624350aae68d471b4e0c692ca62202f14a30a25cab0dd44a1ebf,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-carinae-source-context/phase-b-sources.csv,f4a5922575e2077593127d5fba9a018b27a64f3285d5595365afd5bab1b595d4,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-combined-acquisition/native.md,befccf7b166e07c7ddcb561245a4bb062a47089cbf4c450097fa184d622d72d1,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-combined-acquisition/phase-b-review.md,229e6b46cc55ec67cea490288e17f5cd51ed17270a1972bbe412371c12c82fa8,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-combined-acquisition/phase-b-sources.csv,0a5c083c4d20009b4797f395697c08524b4f7ebf1cb2a689227d5b585e3c4227,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-combined-acquisition/phase-b.md,76c45ddad2c9f63244ebbc63cbeb304f899d29f9dfdb353fd51bb1091ff40118,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-combined-acquisition/report.md,67fc0087ffd9371136da37945da511ae308b31c39ef03c7032509999883efdb7,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-construction-mask-selection/report.md,73fffe670c98b40017c8d7a6e1dbca6080bb6eb778273098271ac25fa709d5d9,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-feynman-d5/native.md,2967551c289a9e6c76b402f7325d59ff6f34376f22be1c3202e98f0905747959,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-owner-acquisition/phase-b-sources.csv,e6d913af502a563e770911d2c3e9e2d8878581ee7647df55e290bd0306d10b94,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-population-lifecycle/sources.csv,bf63866b8fff936f62d487e2a859d0a9d811bbb55287fb6a46c369d275dc02b6,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-region-ancestry/phase-b-sources.csv,c3b46585e7559f529162af86b59c016c637a058c8a93e67ce458c52f45814cfc,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-selection-operands/phase-b-sources.csv,73fe818056cb146986bb2c4e9e99ddb21104353c56d114e6accdca8614938dd7,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-source-enumeration/native.md,7345bebeac3399d0393d944ed865b7e0ad9a21c94b6520096468f20d3ba20906,Existing project method or source ledger; baseline HEAD
+docs/experiments/resource-tungsten-acquisition/phase-b-sources.csv,45f870db6e85d45d9ea391d8500fa85699e0e2d3e253031a0a3031444bbaac11,Existing project method or source ledger; baseline HEAD
+docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/ownership.md,2ad77ba106b3696d4b63e7931df4164979e97aea661d659168cd6b37d6e14c1e,Existing project method or source ledger; baseline HEAD
+docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/sources.csv,c65926855d9a7123a79ec6d56e44af3bc7ddaefb8be4b87a9d1e87dd4f824b8c,Existing project method or source ledger; baseline HEAD
+research/editorial/screen.py,193d3e8e70f5665dd337ba4d1bbf33ff487cd260ca7073df5ab71c12d3706bde,Existing project method or source ledger; baseline HEAD
+research/resource-combined-acquisition/audit.py,e8b38b0f5b21314c4b73f74b0aa411c95f309683b02b4c343ff3e360ff4f3803,Existing project method or source ledger; baseline HEAD
+research/resource-combined-acquisition/controller.cpp,01657638005c392571954d16fdb883ac993f8c5a9857183de0a9ccb295e49d6a,Existing project method or source ledger; baseline HEAD
+research/resource-combined-live/package.py,87f202977062a930fc307b22b0e61a930ad5fcedd69bf8ff93cb06ba30e46174,Existing project method or source ledger; baseline HEAD
+research/resource-population-lifecycle/audit.py,e8369270e70833f0a253af9d49ad328cfd8a7cd8b925ff3fadcaa116d9232393,Existing project method or source ledger; baseline HEAD
+research/resource-population-lifecycle/package.py,315f9b08c4d58441578a62c527e25426e16c8d9662e3a0bbd88799fbf500a000,Existing project method or source ledger; baseline HEAD
+research/resource-tungsten-acquisition/protection.py,3b34fbf46f5b0c326ae6188775065a5acaf2eae96ead8c34fc85b694e30cbce4,Existing project method or source ledger; baseline HEAD
+research/resource-tungsten-acquisition/save_policy.json,9d7ad26f172884c4c69d05c1ccbf6128d75c8c38bba855224c57fd7abdbc97e6,Existing project method or source ledger; baseline HEAD
+research/resource-tungsten-acquisition/save_policy.py,0a22bf8b280051614007e1b7f80b2282674518ef39e90f6e7c8282383ac167cd,Existing project method or source ledger; baseline HEAD
+research/workshop-population/export.ps1,72fcd50e618efa9cffe8eb98e9ca6ba22ef904d96019900d77bba82724c5330d,Existing project method or source ledger; baseline HEAD
+research/workshop-population/ReadSpecialist.java,42183c01c9ab2418d0608b6e0156a9ee802a570219f2aaa9e5cfe3801641a35e,Existing project method or source ledger; baseline HEAD
+runtime/session-tools/common.py,1db4832de016f0c8003e35b515baa84a3d420bebd09d6e39abda3681e25e8e07,Existing project method or source ledger; baseline HEAD
+runtime/session-tools/export_review.py,7093a484febf19049c000076eaf835ddf3f24b181ffa2c01a1c6e316995ba128,Existing project method or source ledger; baseline HEAD
+D:/tools/ghidra_12.1.2_PUBLIC/Ghidra/application.properties,80890f309379ef60ecbb376a95448bd79e874145544ffcfabb5ba1835ac8a2cf,Installed tool identity; separately installed; no incorporation

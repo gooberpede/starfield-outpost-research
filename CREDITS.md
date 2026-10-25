@@ -797,3 +797,7 @@ RG2-D4A Phase B uses the project's owned C2B/D4A debugger/readers, durable trans
 ## RG2-D5B Phase B
 
 The maintainer supplied explicit one-session approval, protected Save52, Cloud/menu confirmations and the Build Mode/exit reports. Bethesda supplied local-only native/installed evidence. The project's D5B hardware-debugger selector/comparator, D4A SRO1 verification and save protection, and shared archival/export methods support the [three-resource consumer result](docs/experiments/resource-combined-acquisition/phase-b.md). [Exact provenance](docs/experiments/resource-combined-acquisition/phase-b-sources.csv) credits those sources; current geometry agreement does not establish the original construction mask or native epoch. No outside implementation or publication clearance is added.
+
+## RG2-D5D demand and acquisition audit
+
+Bethesda supplies the local-only native/installed inputs. The maintainer supplied historical Save52 and gameplay reports. The project's C1E/C1G, C2A/C2B, D4A/D4D/D4E and D5B/D5C research supplies the prior acquisition and lifecycle evidence, separately rechecked as described in the [D5D report](docs/experiments/resource-construction-demand/report.md). Project-owned D5C audit/package methods are adapted under SOR-P-0002; the unchanged native reader and exact exporter are reused with [content provenance](docs/experiments/resource-construction-demand/sources.csv). No new outside implementation or publication clearance.

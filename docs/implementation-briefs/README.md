@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-D5D construction triggers and demand timing](CODEX_BRIEF_SOR_RG2_D5D_construction_triggers_demand_timing.md): offline native and retrospective audit, frozen AC1–AC8; no live authority.
+
 - [RG2-D5C resource-source population lifecycle](CODEX_BRIEF_SOR_RG2_D5C_resource_source_population_lifecycle.md): invoked 2026-10-25 for bounded offline native/evidence investigation and independent review; [report](../experiments/resource-population-lifecycle/report.md), [review](../experiments/resource-population-lifecycle/review.md). No retail session, staging, commit, push or publication authority.
 
 - [RG2-D5B combined acquisition](CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md): invoked 2026-10-25 for Phase A implementation and actual disposable Windows debugger qualification; [report](../experiments/resource-combined-acquisition/report.md), [review](../experiments/resource-combined-acquisition/review.md). Later separate approval authorized one [Phase B session](../experiments/resource-combined-acquisition/phase-b.md); that authority is consumed. No staging, commit, push or publication authority.

@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+[RG2-D5D demand timing](../experiments/resource-construction-demand/report.md) separates construction witnesses, resident geometry and unobserved hits. Cell/coordinate preparation can reach construction before Workshop consumption; no bounded trace proves distant Save52 load-time construction. [Next observation](../experiments/resource-construction-demand/next-test.md) is an unapproved design.
+
 [RG2-D5C population lifecycle](../experiments/resource-population-lifecycle/report.md) establishes scoped native retention/reuse and distinguishes source-pointer identity, visited keys and query-dependent construction. Save52 materialization timing, geometry serialization and D5B population ancestry remain unresolved. [Review](../experiments/resource-population-lifecycle/review.md) governs disposition; no live or publication authority follows.
 
 [RG2-D5B acquisition](../experiments/resource-combined-acquisition/report.md) captures exact-source construction and current Workshop consumption as distinct evidence classes. Its positive lifetime qualification is fixture-only. The later authorized [Phase B](../experiments/resource-combined-acquisition/phase-b.md) observes three current target-source regions matching mask-3 geometry; construction query, sampled mask and native epoch remain unknown. The one-session approval is consumed.
