@@ -1,5 +1,7 @@
 # Outpost Subsystem Research Map
 
+[RG2-D5G source predictability](../experiments/resource-predictability-contrast/report.md) compares exact successful controls with mixed mask neighborhoods. The original Feynman biome boundary keeps measured mask 8, whereas second V has a 0/3 boundary within one selected BIOM. [Query domains](../experiments/resource-predictability-contrast/query-domains.csv) distinguish nominal stability from unproved complete native reachability; no historical association is reclassified.
+
 [RG2-D5D demand timing](../experiments/resource-construction-demand/report.md) separates construction witnesses, resident geometry and unobserved hits. Cell/coordinate preparation can reach construction before Workshop consumption; no bounded trace proves distant Save52 load-time construction. [Next observation](../experiments/resource-construction-demand/next-test.md) is an unapproved design.
 
 [RG2-D5C population lifecycle](../experiments/resource-population-lifecycle/report.md) establishes scoped native retention/reuse and distinguishes source-pointer identity, visited keys and query-dependent construction. Save52 materialization timing, geometry serialization and D5B population ancestry remain unresolved. [Review](../experiments/resource-population-lifecycle/review.md) governs disposition; no live or publication authority follows.

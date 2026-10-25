@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-D5G source predictability and reachable-query invariance](CODEX_BRIEF_SOR_RG2_D5G_source_predictability_and_reachable_query_invariance.md): invoked 2026-10-25 for bounded offline installed/native comparison, source matrices and independent review. [Report](../experiments/resource-predictability-contrast/report.md), [review](../experiments/resource-predictability-contrast/review.md). No retail, instrumentation, staging, commit, push or publication authority.
+
 - [RG2-D5E continuous source-decision acquisition](CODEX_BRIEF_SOR_RG2_D5E_continuous_source_decision_acquisition.md): invoked 2026-10-25 for Phase A native analysis, implementation and disposable Windows qualification; [report](../experiments/resource-source-decisions/report.md), [review](../experiments/resource-source-decisions/review.md). Phase B requires separate review and explicit GO; no commit/push/publication authority.
 
 - [RG2-D5D construction triggers and demand timing](CODEX_BRIEF_SOR_RG2_D5D_construction_triggers_demand_timing.md): offline native and retrospective audit, frozen AC1–AC8; no live authority.

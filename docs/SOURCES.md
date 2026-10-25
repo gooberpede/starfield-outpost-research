@@ -1,5 +1,9 @@
 # Source Register
 
+## RG2-D5G source predictability contrast
+
+[Content identities](experiments/resource-predictability-contrast/sources.csv) and [methods](experiments/resource-predictability-contrast/methods.md) record Bethesda's pinned installed main definitions/PlanetData and existing native exports, the maintainer's protected Save52 and prior observations, and the project's D1–D5E research. D5G independently enumerates installed Feynman lineage and measures source domains; exact geometry and D5A alternatives remain frozen prior results. Owned D5 audit/package and source-enumeration methods at HEAD `8e318e92620fb2da7455768c450e29df8087ea0f` are adapted under SOR-P-0002. No new outside implementation, dependency, licence acceptance, contact or disclosure. Raw payloads LOCAL-ONLY; authored synthesis REVIEW-REQUIRED.
+
 ## RG2-D5E continuous source decisions
 
 The [native contract](experiments/resource-source-decisions/native.md) rereads pinned existing provider/generator/reset exports and preserves explicit lifecycle limits. [Per-use pins](experiments/resource-source-decisions/sources.csv) bind owned debugger, SRO1, independent decoder and geographic methods to the current baseline. Disposable fixtures qualify instrument behavior; their epoch witnesses are never asserted native. No outside incorporation, licence acceptance, contact or disclosure occurred.

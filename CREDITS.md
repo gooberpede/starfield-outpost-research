@@ -1,5 +1,9 @@
 # Credits
 
+## RG2-D5G source predictability contrast
+
+Bethesda supplies the local-only installed/native evidence; the maintainer supplies protected Save52 and earlier gameplay observations. The project's D1 portable reconstruction, C2D installed selectors, D4C/D4E source/component corrections and D5–D5E mask/lifecycle/demand work provide the [comparison's](docs/experiments/resource-predictability-contrast/report.md) foundations. [Exact provenance](docs/experiments/resource-predictability-contrast/sources.csv) distinguishes fresh installed/domain measurements from inherited frozen geometry. Existing owned methods are adapted under SOR-P-0002; no new outside implementation or publication clearance.
+
 ## RG2-D5E continuous source decisions
 
 Bethesda supplies the existing native evidence; the maintainer supplies Save52, earlier captures and owned research. [Per-use provenance](docs/experiments/resource-source-decisions/sources.csv) retains D5B/D4 debugger utilities, C1 SRO1 transport, D4 independent decoding, D5B geographic association, D5C/D5D lifecycle/demand findings and D5A frozen alternatives under SOR-P-0002. MSVC/Windows SDK, CPython and Git remain separately installed tools. No new outside implementation or raw payload redistribution.

@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D5G source predictability contrast](resource-predictability-contrast/report.md): ten native control associations, full linked Feynman record population, 25 source-domain rows and frozen mask alternatives. [Causal ledger](resource-predictability-contrast/causal-ledger.md), [methods](resource-predictability-contrast/methods.md) and [review](resource-predictability-contrast/review.md). Offline only; complete native reachable-query invariance remains unproved.
+
 - [RG2-D5E continuous source decisions](resource-source-decisions/report.md): four permanent probes, ordered conservative reduction and real disposable Windows qualification. [Native limits](resource-source-decisions/native.md), [review](resource-source-decisions/review.md) and [NOT AUTHORIZED Phase B card](resource-source-decisions/run-card.md). No new retail observation.
 
 - [RG2-D5D construction triggers and timing](resource-construction-demand/report.md) audits earlier acquisition coverage, follows coordinate/cell resource requests and ranks a source-qualified ordinary-demand observation. [Review](resource-construction-demand/review.md); offline only, no live GO.

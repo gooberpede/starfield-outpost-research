@@ -1,0 +1,38 @@
+id,path,sha256,use
+D5G-S001,.local-work/recon/resource-availability-cont-01.tsv,c167add6f3e75f6a0ce2627f5813b4c0e04509e5b7d2974f57d3b8795d7602a3,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S002,.local-work/recon/resource-milestone-b-producers-01.tsv,bc5ae6b3e3b0f042e0c10d6ab73693b3f6d087821d24e120045ec2e3f206fff8,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S003,.local-work/recon/resource-region-dependencies-01.tsv,81556495770352b658a7a36ab68f74e7b27076b12de3237c525b06be14abe399,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S004,.local-work/resource-construction-mask-selection/conditional-results.json,1c7420c884d5260b6d67f9ffe3f7ccd2f36f903501431feba2f2f85abddf8644,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S005,.local-work/resource-feynman-d5/build04/normalized.json,97aa50e0eb6bc7a2d5157bffbb311942fd84e7c01e6bd2ef3ea28a4e9bd9e0f9,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S006,.local-work/resource-feynman-d5/build04/preparation.json,2a47b01048e05c3a3064175b511949fc28eb6160df2f40666724876d2b84722f,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S007,.local-work/resource-feynman-d5/inputs-v2.json,9dfaa67d8866e8370cbe788d98de1a4561ac180409de9ac9faf673409fa345b2,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S008,.local-work/resource-save52/build-v1/manifest.json,9d2ff9012a573595227c8feda5345de35286b807103665486239ddbe8cbfa9de,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S009,.local-work/resource-save52/inventory-v2.json,e42cc2969336c8eca36c837b860619647eed4461dc52d1679c67e0b9cda1b668,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S010,.local-work/resource-slot-provenance/build-controls02/normalized.json,8162cded8e6cb4117352703062242c42110738090383aba541c278210b6e53da,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S011,.local-work/resource-slot-provenance/build-controls02/preparation.json,827fd0712fb19b2e5fbd32214fd3d12d94ce81254c7ec4d85f7275fccd5c665b,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S012,.local-work/resource-slot-provenance/freeze01/prediction-v1.json,9e767ec3bbfd7f741be75dae271393b0f29550def1f188c09c4fcdde011f64d5,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S013,.local-work/workshop-population-rework/specialist/d5-mask01.tsv,bacbe8742ce465782016dcdc075173da373d65958dfebce5a085998965722051,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S014,.local-work/workshop-population-rework/specialist/d5-raster02.tsv,61db16bcd3fb9422689a82ac640bf0147f03db7cb3b9d4ca391f3001c412d383,Primary/frozen local evidence; payload LOCAL-ONLY
+D5G-S015,docs/experiments/resource-combined-acquisition/phase-b.md,76c45ddad2c9f63244ebbc63cbeb304f899d29f9dfdb353fd51bb1091ff40118,Owned method or prior first-party research
+D5G-S016,docs/experiments/resource-construction-demand/report.md,3da18cad4ff3f753e9fb95bda4a79fff2b40927d7d0b0afb5ff524afbe6afa3e,Owned method or prior first-party research
+D5G-S017,docs/experiments/resource-construction-mask-selection/report.md,73fffe670c98b40017c8d7a6e1dbca6080bb6eb778273098271ac25fa709d5d9,Owned method or prior first-party research
+D5G-S018,docs/experiments/resource-feynman-d5/report.md,6fbad97d94d1f535241e4b4d9c0d15d0661502af9cba2ab723e7f96183196f4f,Owned method or prior first-party research
+D5G-S019,docs/experiments/resource-owner-root/source-layout.md,3ca1c281f38e96315e3ce46c7f796155179c0bf8f00c692d15b7501f37306c1f,Owned method or prior first-party research
+D5G-S020,docs/experiments/resource-pattern-selection/native.md,2cad58dd7d8c526cdaa629b7e675cb444ce7b321a82390944c910449538824d5,Owned method or prior first-party research
+D5G-S021,docs/experiments/resource-population-lifecycle/report.md,18feb69097d4cfe700371a3c134764d36c8721f926e85f5470c230b7b2522ffe,Owned method or prior first-party research
+D5G-S022,docs/experiments/resource-save52/report.md,31f2c70b33dc83230f24c00f3b8888b13597b1fb73e26ef62f4d978b4fcf5a37,Owned method or prior first-party research
+D5G-S023,docs/experiments/resource-save52-d3/report.md,5b6625d9cad490cefa1e22bd6ad02aa02660509c439a824b52f9134def45b611,Owned method or prior first-party research
+D5G-S024,docs/experiments/resource-slot-provenance/report.md,80502947b48af4114a293695e988d47502c60e258296cd6e1a3c4a4b03a1c0f3,Owned method or prior first-party research
+D5G-S025,docs/experiments/resource-source-decisions/report.md,b6e175f059c4ae7282740a8dbe6bcc6c1685b2360a286a39389a46789e594bf9,Owned method or prior first-party research
+D5G-S026,docs/experiments/resource-standalone/report.md,39ed2d58eb5c1e66343f9f68d802c2227a3eff99dab3b3f00f4e617241965d92,Owned method or prior first-party research
+D5G-S027,research/resource-construction-mask-selection/analyze.py,56e8ac10d088a4885297e8990cac2e9e25b066a85c543d3bfd988b2133268da1,Owned method or prior first-party research
+D5G-S028,research/resource-feynman-d5/inputs.py,c782d5c1cb8bcca711b95633ed15f4e9d3a2e5dbf43c1fd6cd81ef24f410bafb,Owned method or prior first-party research
+D5G-S029,research/resource-owner-root/source_layout.py,46f1ec8867dcbc28ed3e002f747d4068bd7263e159b87d71dc822a4cda10c5b8,Owned method or prior first-party research
+D5G-S030,research/resource-pattern-selection/installed.py,a199bbf33e705fcac16ec7f83a5e43d0781d7cb67f37f6c64c9164c7b0cf125f,Owned method or prior first-party research
+D5G-S031,research/resource-predictability-contrast/analyze.py,b9e2a66b8a6ae09679c86653c63cfec0b7b0a887dc12ddae559e4e4648bdd23d,Owned method or prior first-party research
+D5G-S032,research/resource-predictability-contrast/audit.py,59b43ec6c920938cd8ec34f9f50075a50a81528b3bf37006818fc192c5122815,Owned method or prior first-party research
+D5G-S033,research/resource-slot-provenance/predictor_d4e.py,a63a9a290a1e97e1fe486c597bdde1de1fdc0daa7d2cb1e24a3940c28b2177b4,Owned method or prior first-party research
+D5G-S034,research/resource-standalone/builder.py,521b36ad78fae49e197faf122bf717b4c84d86952ddf0c261da78695f0da8da6,Owned method or prior first-party research
+installed-exe,installed-exe,7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28,Bethesda installed input; full local path withheld; payload LOCAL-ONLY
+installed-main,installed-main,1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7,Bethesda installed input; full local path withheld; payload LOCAL-ONLY
+installed-PlanetData,installed-PlanetData,2fb1fff5d8fc074718bf05022c099f3c87ef70e00050229b368ae7d680fbe5d5,Bethesda installed input; full local path withheld; payload LOCAL-ONLY
