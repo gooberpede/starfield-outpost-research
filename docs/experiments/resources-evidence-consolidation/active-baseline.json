@@ -1,0 +1,26 @@
+{
+  "archive_sha256": "2df3244872961232c87067ca60e2c59e54ab66d7c2c858031db2649cc86ed8a5",
+  "baseline_sha256": "e3327f5c53dbdde2534bbea4a7309c4c5e8e2f5dee72194a1b828a8b3d37742d",
+  "controls_sha256": "f18b4b2cac08edc7bf6b4ad42292d0f7e9fba838b76bf9f8ed1e96e49785bbb4",
+  "index": {
+    "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\research-archives\\index-resources-merged-proposed01.json",
+    "sha256": "268f8c2c188dc640091d0ddc041ee547db5f9fb9e1f592031e24452fcd2e1995"
+  },
+  "journal_sha256": "a408f665835ad18ab849b01aa8ed4eb449a97c487bf41bd54c772967e0631ad8",
+  "manifest_sha256": "de8b2aa5f2fe89878ef8d8a1f4708952302250f955cdddfab1b4e7eaf1c8d8d1",
+  "owner": "resources-production",
+  "resource_only_command": [
+    "C:\\Users\\User\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "-B",
+    "D:\\Projects\\starfield-outpost-research\\research\\resources-evidence-consolidation\\cutover.py",
+    "verify"
+  ],
+  "retired_members": 134131,
+  "routine_command": [
+    "C:\\Users\\User\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "-B",
+    "D:\\Projects\\starfield-outpost-research\\research\\resources-evidence-consolidation\\resources_preservation.py"
+  ],
+  "schema": "sor-resources-active-selection/1",
+  "state": "ACTIVE"
+}

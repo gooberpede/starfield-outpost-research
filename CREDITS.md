@@ -867,3 +867,10 @@ Existing Bethesda-derived evidence remains local. The
 [report](docs/experiments/resources-evidence-consolidation/report.md) separates
 actual byte-preservation proof, reconstructed early method provenance and the
 future migration authority. No outside implementation or dependency was added.
+
+The separately authorized [retirement and activation](docs/experiments/resources-evidence-consolidation/execution.md)
+reuse those exact qualified methods. Independent read-only postflight checks
+cover every original path, protected exclusion and restored payload. The bounded
+historical-roster path repair retains the original policy bytes and expected
+hash. Its verification and oracle diagnostics are local evidence; no new outside
+implementation or dependency was incorporated.

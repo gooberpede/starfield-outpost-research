@@ -1,5 +1,19 @@
 # Current Research State
 
+**2026-10-26 — Resources, production and power retirement executed:**
+[Execution and postflight](experiments/resources-evidence-consolidation/execution.md)
+record all 134,131 exact original paths absent, a COMMITTED baseline and
+[ACTIVE replacement selection](experiments/resources-evidence-consolidation/active-baseline.json).
+Nine holds and all 969 exclusions retain their hashes and identities, including
+independent full-byte checks. Full authenticated restoration and both complete
+scientific reader outputs pass. Historical loose hashes reduce from 93,334 to
+1,401, with 91,933 archive-backed pin comparisons; control, archive/index and
+protected-policy work remain additional. The historical roster is preserved as
+an exactly pinned metadata control outside the retired population. The execution
+report records temporary-copy cleanup, actual disk observations and independent
+final delivery review. Earlier pending-GO statements below are historical.
+Other research gates, optimization AC4 FAIL and publication/B6 holds are unchanged.
+
 **2026-10-26 — Resources, production and power archival preparation:**
 [Report](experiments/resources-evidence-consolidation/report.md) records the real
 134,131-member / 7,998,429,154-byte archive and independent complete physical

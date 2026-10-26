@@ -1,5 +1,9 @@
 # Resources, production and power evidence consolidation
 
+**Historical preparation checkpoint.** The separately authorized
+[execution and postflight](execution.md) supersede the pending-GO status below;
+original preparation measurements and limits remain unchanged.
+
 The real consolidated archive contains **134,131 files / 7,998,429,154 logical
 bytes**. Independent archive and physical-restore checks passed for every member.
 The exact original-retirement plan is prepared; **originals retired: 0; actual

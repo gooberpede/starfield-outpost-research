@@ -1343,3 +1343,12 @@ facilities. Local receipts preserve method reconstruction limits, independent
 member/physical verification, controlled staging and diagnostics. No new outside
 code, licence basis, dependency, contact, upload or publication is introduced.
 Raw evidence remains LOCAL-ONLY; authored work remains REVIEW-REQUIRED.
+
+The separately authorized [execution](experiments/resources-evidence-consolidation/execution.md)
+retains the same archive/member/index/allowlist roots and qualified transaction
+code at commit `0a4113631f15b5c67af0d33e8ca9ae339b41bbe8`. Current Git identity
+alone was rebound before execution. An original policy-roster read path required
+one bounded post-activation correction, retaining exact control bytes and digest.
+Independent original/exclusion and complete physical-restore verification,
+actual routine observations and preserved oracle failures supply the postflight
+basis. No new outside code, dependency, tool installation or disclosure.

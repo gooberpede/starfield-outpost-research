@@ -1,5 +1,14 @@
 # Resources, production and power archival preparation
 
+The [current execution record](../../docs/experiments/resources-evidence-consolidation/execution.md)
+records the separately authorized COMMITTED/ACTIVE migration. Use the selected
+full routine command for current preservation. Its historical pin roster is the
+exactly authenticated local control `.local-work/resources-evidence-consolidation/historical-pins.json`,
+retaining the original hardcoded digest; both original roster paths were retired.
+The one-line consumer correction occurred after unchanged qualified execution.
+The original preparation and future-execution authority boundaries below remain
+historical context, not permission to execute another batch.
+
 Use installed CPython 3.14 with `-B` from the repository root. The
 [governing brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_resources_production_power_evidence_consolidation.md)
 authorizes preparation and synthetic qualification. Real retirement and activation

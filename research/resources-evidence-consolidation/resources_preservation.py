@@ -34,7 +34,7 @@ def verify_historical():
     archived = protected.pop('_archive_pins')
     if protected['changes']:
         raise e.Error('Existing protected-input/save policy failed')
-    manifest = ROOT / '.local-work/resource-predictability-contrast/audit-after.json'
+    manifest = OUT / 'historical-pins.json'
     if e.pin(manifest) != 'a243c67c0e451aac21cbb5fcb671c9e94ad2b3806406d0fdec1b2626f153ab9b':
         raise e.Error('Historical pin roster changed')
     pins = json.loads(manifest.read_text())['pins']

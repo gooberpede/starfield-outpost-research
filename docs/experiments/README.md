@@ -1,6 +1,6 @@
 # Experiments
 
-- [Resources, production and power evidence consolidation](resources-evidence-consolidation/report.md): real 134,131-member archive, complete independent restore proof and exact inactive retirement card. Original retirement and replacement activation await separate GO.
+- [Resources, production and power retirement and activation](resources-evidence-consolidation/execution.md): all 134,131 approved originals retired; replacement baseline COMMITTED and ACTIVE, protected exclusions intact, full restoration and scientific replay verified. [Historical preparation](resources-evidence-consolidation/report.md) retains the earlier exact card and projections.
 
 - [Cargo archived evidence access and proposed cutover](cargo-evidence-cutover/report.md): authenticated access, exact SWF/PEX reproduction and an inactive Cargo shadow baseline. The new 1,051-file retirement proposal projects positive net allocation recovery; no real deletion or policy activation.
 
