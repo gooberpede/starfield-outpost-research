@@ -1,5 +1,14 @@
 # Current Research State
 
+**2026-10-26 — Cargo retirement executor:**
+[Qualification](experiments/cargo-evidence-cutover/executor.md) adds a journaled
+exact-allowlist executor and Cargo-specific baseline handover, exercised only on
+disposable replicas. The [future card](experiments/cargo-evidence-cutover/execution-card.md)
+requires separate approval of the unchanged 1,051-file proposal. Real originals
+and three packager holds remain intact; real deletion and activation are
+**NOT AUTHORIZED**. Exact independent final-snapshot review governs completion;
+global preservation policy and the 93,334-pin inventory remain unchanged.
+
 **2026-10-26 — Cargo archive access and proposed cutover:**
 [Report](experiments/cargo-evidence-cutover/report.md) qualifies authenticated
 locate/verify/restore and complete SWF/PEX replay. The exact proposal covers all

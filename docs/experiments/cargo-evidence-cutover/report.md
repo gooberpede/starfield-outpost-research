@@ -20,6 +20,13 @@ the local delivery package; it grants no deletion, integration or publication.
 
 ## Authority and current identities
 
+The later [executor qualification](executor.md) and
+[NOT AUTHORIZED execution card](execution-card.md) add separately reviewed
+disposable retirement/recovery and baseline handover. They retain this report's
+accepted consumer results and exact 1,051-file proposal. Real deletion and
+baseline activation remain unperformed; that report recalculates costs including
+the later qualification rather than reusing this task's earlier projection.
+
 The [invoked frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md)
 controls AC1–AC8. Baseline HEAD is
 `516d751e9fc8c0ccd68feef421e97adc211341e6`, branch `main`; index SHA-256 is

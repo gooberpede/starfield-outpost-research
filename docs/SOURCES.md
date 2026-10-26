@@ -1318,3 +1318,15 @@ expectations, additional editorial final-seal pins and current verified bytes.
 Owned Stage A archive methods and the current review exporter supply provenance
 under SOR-P-0002. Raw members, manifests, restores and qualification fixtures
 remain LOCAL-ONLY; authored methods and findings remain REVIEW-REQUIRED.
+
+## Cargo retirement executor and archive baseline — 2026-10-26
+
+[Qualification and provenance](experiments/cargo-evidence-cutover/executor.md)
+reuse the project-owned Cargo resolver/preparer, Stage A decoder/path guards,
+Stage B Windows handle/index utilities and review exporter under SOR-P-0002.
+The accepted consumer-cutover methods and frozen SWF/PEX outputs remain the
+reproduction baseline. Local executed-method snapshots pin exact versions,
+CPython 3.14.3 executable identity, Git state, real source ledgers and disposable
+test receipts. Bethesda-derived archival bytes remain LOCAL-ONLY; authored
+code/reports REVIEW-REQUIRED. No new outside implementation, dependency,
+permission basis, contact or disclosure is introduced.

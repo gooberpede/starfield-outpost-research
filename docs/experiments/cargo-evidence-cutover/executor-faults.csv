@@ -1,0 +1,36 @@
+case,implementer,independent
+exact normal retirement; before/after baseline; double activation,PASS,PASS
+restart/replay after intent,PASS,PASS
+restart/replay after deleted,PASS,PASS
+restart/replay after baseline-before,PASS,PASS
+restart/replay after baseline-after,PASS,PASS
+reject source,PASS,PASS
+reject inode,PASS,PASS
+reject extra,PASS,PASS
+reject missing,PASS,PASS
+reject hardlink,PASS,PASS
+reject plan,PASS,PASS
+reject recovery,PASS,PASS
+reject shadow,PASS,PASS
+reject index,PASS,PASS
+reject archive,PASS,PASS
+reject inventory,PASS,PASS
+reject approval,PASS,PASS
+reject stale,PASS,PASS
+reject protected,PASS,PASS
+reject unknown-cleanup,PASS,PASS
+reject missing-hold,PASS,PASS
+reject readonly,PASS,PASS
+reject empty-directory,PASS,PASS
+disk guard before journal or delete,PASS,PASS
+actual Windows concurrent write/delete/ancestor rename denied,PASS,PASS
+interrupted journal write blocks safe commitment,PASS,PASS
+baseline IO failure with unknown temporary file blocks,PASS,PASS
+genuine single-archive loss cannot restore or commit,PASS,PASS
+reparse namespace escape rejected,PASS,PASS
+abrupt process exit after delete and fresh process replay,PASS,PASS
+actual hardlink race cancels disposition and blocks,PASS,PASS
+actual link admission after disposition denied,PASS,PASS
+actual journal write/replace denied throughout execution,PASS,PASS
+transitive method change invalidates approval,PASS,PASS
+routine pinned baseline survives unrelated later HEAD/index,PASS,PASS

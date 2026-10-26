@@ -844,3 +844,14 @@ local packaging, hashing and disposable fault tests. Existing Bethesda-derived
 evidence stays local. See the [pilot report](docs/experiments/evidence-archive-stage-b/report.md)
 for version provenance, preservation checks and review boundaries. No outside
 implementation, dependency download or external disclosure was introduced.
+
+## Cargo retirement executor and baseline handover
+
+The maintainer supplied the bounded non-destructive implementation brief.
+Project-owned Cargo access/preparation, Stage A strict decoding, Stage B
+Windows handle/index methods and exact review export are reused under
+SOR-P-0002. Installed CPython 3.14.3 and Windows NTFS APIs support disposable
+qualification. Existing Bethesda-derived SWF/PEX evidence supplies the unchanged
+local-only consumer baselines. The [qualification report](docs/experiments/cargo-evidence-cutover/executor.md)
+preserves actual method versions, failures, independent review and the separate
+real-execution authority boundary. No outside code or new licence basis is used.
