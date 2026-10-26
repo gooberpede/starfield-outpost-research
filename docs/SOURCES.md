@@ -1330,3 +1330,16 @@ CPython 3.14.3 executable identity, Git state, real source ledgers and disposabl
 test receipts. Bethesda-derived archival bytes remain LOCAL-ONLY; authored
 code/reports REVIEW-REQUIRED. No new outside implementation, dependency,
 permission basis, contact or disclosure is introduced.
+
+## Resources, production and power consolidation — 2026-10-26
+
+[Report and provenance](experiments/resources-evidence-consolidation/report.md)
+use the committed Stage A scoped-owner/source ledgers, Stage B archive methods,
+Cargo resolver/lease/transaction and historical resource isolation reader under
+SOR-P-0002. Exact historical pin inventories and frozen complete stdout hashes
+supply the local reproduction baseline; current unpinned admissions remain
+separately identified. CPython 3.14.3 and Windows NTFS are existing execution
+facilities. Local receipts preserve method reconstruction limits, independent
+member/physical verification, controlled staging and diagnostics. No new outside
+code, licence basis, dependency, contact, upload or publication is introduced.
+Raw evidence remains LOCAL-ONLY; authored work remains REVIEW-REQUIRED.

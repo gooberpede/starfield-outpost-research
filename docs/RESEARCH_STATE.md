@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-10-26 — Resources, production and power archival preparation:**
+[Report](experiments/resources-evidence-consolidation/report.md) records the real
+134,131-member / 7,998,429,154-byte archive and independent complete physical
+restoration equality. Nine eligible holds and 969 protected exclusions remain
+loose. The actual 93,334-pin roster overlaps 91,933 archived originals; the
+replacement boundary is still inactive and actual pin reduction is zero.
+[The exact card](experiments/resources-evidence-consolidation/execution-card.md)
+requires separate maintainer GO. Original retirement and COMMITTED activation
+are NOT TESTED. [Review](experiments/resources-evidence-consolidation/review.md)
+governs preparation acceptance. Earlier optimization AC4 FAIL / REWORK, other
+research gates and publication holds remain unchanged.
+
 **2026-10-26 — Cargo retirement executed:**
 [Execution and postflight](experiments/cargo-evidence-cutover/execution.md) record
 the separately authorized retirement of all 1,051 archived loose originals and

@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Resources, production and power evidence consolidation](CODEX_BRIEF_SOR_resources_production_power_evidence_consolidation.md): invoked 2026-10-26 for real archival preparation, restoration, bounded adaptations and independent review; [report](../experiments/resources-evidence-consolidation/report.md) and [NOT AUTHORIZED execution card](../experiments/resources-evidence-consolidation/execution-card.md). Original deletion and activation require separate exact-batch GO; no staging, commit, push or publication.
+
 - [Archived evidence resolution and Cargo verification cutover](CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md): invoked 2026-10-26; [report](../experiments/cargo-evidence-cutover/report.md), [inactive policy](../experiments/cargo-evidence-cutover/policy-proposal.md), [recovery/decision card](../experiments/cargo-evidence-cutover/recovery.md). Offline implementation and precise proposal only; no deletion, activation, staging, commit or push.
 
 - [Preservation audit and optimization](CODEX_BRIEF_SOR_preservation_audit_optimization.md): invoked 2026-10-25 for offline reconstruction, isolated implementation, disposable qualification and independent review. [Report](../experiments/preservation-verification-optimization/report.md) retains AC4 FAIL / REWORK; no protection relaxation, activation, game operation or Git publication authority.

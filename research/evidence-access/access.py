@@ -3,7 +3,8 @@
 
 Reuses owned Stage B locked Windows handles and Stage A strict streaming decoder.
 Reads only caller-authenticated objects. Writes fresh disposable leases/control
-receipts beneath .local-work/cargo-evidence-cutover; no network or target effect.
+receipts beneath approved Cargo/resource workspaces, including temporary resource
+C: staging. Never removes research originals; no network or target effect.
 """
 import argparse
 import contextlib
@@ -21,6 +22,7 @@ sys.path.insert(0, str(ROOT / 'research/evidence-archive-stage-b'))
 import engine as e
 
 LOCAL = ROOT / '.local-work/cargo-evidence-cutover'
+RESOURCE_STAGING = Path('C:/Users/User/Downloads/sor-resources-evidence-staging')
 INDEX = e.ARCHIVES / 'index.json'
 INDEX_SHA = '5500892dbc247c642b83336ee619ca34d40fae8967ccfda95c5394e7ceff7e3b'
 ARCHIVE_SHA = 'ebda740f0092b93f1dc9f32120db365223f465a6d374ce8e98933e8041eb1da7'
@@ -29,12 +31,27 @@ Error = e.Error
 
 
 def output(path):
-    return e.canonical(path, LOCAL)
+    path = e.canonical(path)
+    if not any(path.is_relative_to(root) for root in (
+            LOCAL, ROOT / '.local-work/resources-evidence-consolidation', RESOURCE_STAGING)):
+        raise Error('Outside explicit evidence access workspaces')
+    return path
+
+
+def workspace_space(path, reserve=0):
+    """Apply the same floor and write reserve on the actual staging volume."""
+    path = output(path)
+    if path.is_relative_to(RESOURCE_STAGING):
+        values = e.space()
+        if values['C:/'] < 40_000_000_000 + reserve:
+            raise Error('C staging free-space/write-reservation guard')
+        return values
+    return e.space(reserve)
 
 
 def write(path, value):
     path = output(path)
-    e.space(len(e.encode(value)) * 2 + 1024 * 1024)
+    workspace_space(path, len(e.encode(value)) * 2 + 1024 * 1024)
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('xb') as stream:
         stream.write(e.encode(value))
@@ -45,16 +62,18 @@ def write(path, value):
 class Store:
     """Trust roots are supplied externally, never learned from an unknown index."""
     def __init__(self, index=INDEX, index_sha=INDEX_SHA,
-                 archive_sha=ARCHIVE_SHA, manifest_sha=MANIFEST_SHA):
+                 archive_sha=ARCHIVE_SHA, manifest_sha=MANIFEST_SHA,
+                 owner='cargo-transport-fuel'):
         self.index = Path(index)
         self.index_sha = index_sha
         self.archive_sha = archive_sha
         self.manifest_sha = manifest_sha
+        self.owner = owner
 
     @contextlib.contextmanager
     def authenticated(self, deep=False):
         with e.locked(self.index):
-            entry, archive, members = e.load(self.index, self.index_sha)
+            entry, archive, members = e.load(self.index, self.index_sha, self.owner)
             if (entry['archive_sha256'] != self.archive_sha or
                     entry['manifest_sha256'] != self.manifest_sha):
                 raise Error('Wrong externally pinned archive version')
@@ -97,6 +116,10 @@ class Store:
 
     def restore(self, destination, selected=None, experiment=None, fault=None):
         destination = output(destination)
+        if destination == RESOURCE_STAGING:
+            raise Error('Fresh child staging lease required')
+        if destination.is_relative_to(RESOURCE_STAGING) and self.owner != 'resources-production':
+            raise Error('C staging requires the explicit resources archive owner')
         if destination.exists():
             raise Error('Refuse restore overwrite')
         if selected is not None and experiment is not None:
@@ -112,7 +135,7 @@ class Store:
             if not selected or not set(selected) <= set(available):
                 raise Error('Empty selection or orphaned member')
             rows = [available[n] for n in sorted(selected)]
-            e.space(sum(r['bytes'] for r in rows) + len(rows) * 32768 + 32 * 1024 * 1024)
+            workspace_space(destination, sum(r['bytes'] for r in rows) + len(rows) * 32768 + 32 * 1024 * 1024)
             partial = destination.with_name(destination.name + '.partial-' + uuid.uuid4().hex)
             partial.mkdir(parents=True)
             class Sink:
@@ -131,7 +154,12 @@ class Store:
                 def close(self):
                     pass
             chosen = set(selected)
+            progress = [0]
             def sink(name):
+                progress[0] += 1
+                if self.owner != 'cargo-transport-fuel' and progress[0] % 5000 == 0:
+                    workspace_space(destination)
+                    print('Restoration stream:', progress[0], 'archive members visited', flush=True)
                 return Sink(output(partial / name)) if name in chosen else Discard()
             e.prototype.stream_members(archive, 'tar.zst', members, sink)
             e.inspect(partial, rows)
@@ -140,6 +168,8 @@ class Store:
                          index=str(self.index), manifest_sha256=self.manifest_sha,
                          destination=str(destination), rows=rows,
                          lifecycle='Disposable scientific working copy; never a permanent preservation pin')
+            if self.owner != 'cargo-transport-fuel':
+                lease['owner'] = self.owner
             write(partial / 'LEASE.json', lease)
             if fault == 'process-exit':
                 os._exit(73)
@@ -159,7 +189,8 @@ def lease_rows(destination, lease_sha):
             lease.get('destination') != str(destination)):
         raise Error('Invalid or interrupted lease')
     e.names_valid([r['path'] for r in lease['rows']])
-    store = Store(lease['index'], lease['index_sha256'], lease['archive_sha256'], lease['manifest_sha256'])
+    store = Store(lease['index'], lease['index_sha256'], lease['archive_sha256'], lease['manifest_sha256'],
+                  lease.get('owner', 'cargo-transport-fuel'))
     with store.authenticated(True) as (entry, archive, members):
         for row in lease['rows']:
             if row['path'] not in members or any(row[k] != members[row['path']][k] for k in ('sha256', 'bytes')):
@@ -236,7 +267,8 @@ def migrate(before, retired, store, expected_before):
                 raise Error('Baseline member mismatch')
         archive_path = archive.relative_to(ROOT).as_posix()
         index_path = store.index.relative_to(ROOT).as_posix()
-        kept = [r for r in before if r['path'] not in set(retired)]
+        retired_names = set(retired)
+        kept = [r for r in before if r['path'] not in retired_names]
         kept_names = {r['path'] for r in kept}
         # Existing archive/index rows are replaced exactly once, not appended twice.
         objects = [dict(path=archive_path, sha256=store.archive_sha, bytes=archive.stat().st_size),

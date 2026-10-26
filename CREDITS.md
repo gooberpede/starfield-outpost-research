@@ -855,3 +855,15 @@ qualification. Existing Bethesda-derived SWF/PEX evidence supplies the unchanged
 local-only consumer baselines. The [qualification report](docs/experiments/cargo-evidence-cutover/executor.md)
 preserves actual method versions, failures, independent review and the separate
 real-execution authority boundary. No outside code or new licence basis is used.
+
+## Resources, production and power evidence consolidation
+
+The maintainer supplied the bounded archival brief. Project-owned Stage A
+classification/source ledgers and space/path guards, Stage B packaging and locked
+handles, Cargo authenticated access/lease/transaction machinery, the resource
+isolation reader and exact review exporter are reused under SOR-P-0002.
+Installed CPython 3.14.3 and Windows NTFS APIs support local qualification.
+Existing Bethesda-derived evidence remains local. The
+[report](docs/experiments/resources-evidence-consolidation/report.md) separates
+actual byte-preservation proof, reconstructed early method provenance and the
+future migration authority. No outside implementation or dependency was added.

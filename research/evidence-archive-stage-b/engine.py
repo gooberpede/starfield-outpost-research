@@ -155,9 +155,9 @@ def record(path, value, replace=False):
     durable(path, encode(value), replace)
 
 
-def authenticate(path, expected):
+def authenticate(path, expected, limit=64 * 1024 * 1024):
     with locked(path) as (f, info):
-        if info.length > 64 * 1024 * 1024:
+        if info.length > limit:
             raise Error('Control document size bound')
         raw = f.read()
     if hashlib.sha256(raw).hexdigest() != expected:
@@ -189,18 +189,27 @@ def checkpoint(folder, state, **values):
     record(Path(folder) / 'journal.json', dict(state=state, **values), replace=True)
 
 
-def build(root, rows, folder, fault=None, index_path=None, cross_references=None):
+def build(root, rows, folder, fault=None, index_path=None, cross_references=None,
+          owner='cargo-transport-fuel'):
     """Fresh transaction only; interrupted artifacts are never implicitly trusted."""
     folder = output(folder)
     if folder.exists():
         raise Error('Fresh transaction required; use recovery inspection after interruption')
     total = sum(r['bytes'] for r in rows)
     capacity = space(total * 4 + len(rows) * 32768 + 32 * 1024 * 1024)
-    inspect(root, rows)
+    # Every included source is hashed under its own lock below. Preserve the
+    # Cargo prepass; the larger system uses its separately frozen admission.
+    if owner == 'cargo-transport-fuel':
+        inspect(root, rows)
+    else:
+        names_valid([r['path'] for r in rows])
     folder.mkdir(parents=True)
     checkpoint(folder, 'PREPARED', source_manifest_sha256=hashlib.sha256(encode(rows)).hexdigest())
     members, manifest = expected_members(rows)
-    partial = folder / 'cargo-transport-fuel.tar.zst.partial'
+    safe_name(owner)
+    if '/' in owner:
+        raise Error('Owner must be one path component')
+    partial = folder / (owner + '.tar.zst.partial')
     start = time.perf_counter()
     with partial.open('xb') as target:
         with tarfile.open(fileobj=target, mode='w:zst', format=tarfile.PAX_FORMAT, level=3) as tar:
@@ -220,6 +229,10 @@ def build(root, rows, folder, fault=None, index_path=None, cross_references=None
                     raise Error('Injected creation interruption')
                 if fault == 'process-exit' and ordinal == 0:
                     os._exit(73)
+                if owner != 'cargo-transport-fuel' and (ordinal + 1) % 5000 == 0:
+                    checkpoint(folder, 'PACKING', admitted=ordinal + 1,
+                               total=len(rows), free=space())
+                    print('Packed', ordinal + 1, 'of', len(rows), flush=True)
             item = tarfile.TarInfo(MANIFEST)
             item.size = len(manifest)
             item.mode = 0o600
@@ -237,11 +250,11 @@ def build(root, rows, folder, fault=None, index_path=None, cross_references=None
     if fault == 'after-publication':
         raise Error('Injected postpublication interruption')
     index_path = output(index_path or folder/'index.json')
-    index = dict(owner='cargo-transport-fuel', state='VERIFIED',
+    index = dict(owner=owner, state='VERIFIED',
                  archive=archive.relative_to(index_path.parent).as_posix(), archive_sha256=digest, archive_bytes=archive.stat().st_size,
                  manifest_sha256=hashlib.sha256(manifest).hexdigest(), rows=rows,
                  exclusions='See frozen retain-loose inventory and decision card')
-    central = dict(schema=2, archives={'cargo-transport-fuel':index}, cross_references=cross_references or [])
+    central = dict(schema=2, archives={owner:index}, cross_references=cross_references or [])
     record(index_path, central)
     anchor = pin(index_path)
     checkpoint(folder, 'VERIFIED', index_sha256=anchor)
@@ -252,24 +265,24 @@ def build(root, rows, folder, fault=None, index_path=None, cross_references=None
                 before_free=capacity, after_free=space())
 
 
-def load(index_path, anchor):
+def load(index_path, anchor, owner='cargo-transport-fuel'):
     index_path = output(index_path)
     central = authenticate(index_path, anchor)
     if central.get('schema') != 2 or set(central) != {'schema','archives','cross_references'}:
         raise Error('Unsupported central index schema')
     originals = []
-    for owner, entry in central['archives'].items():
-        if owner != entry['owner']:
+    for archive_owner, entry in central['archives'].items():
+        if archive_owner != entry['owner']:
             raise Error('Archive owner mismatch')
         for row in entry['rows']:
             originals.append(row['path'])
     names_valid(originals)
     for ref in central['cross_references']:
-        owner = central['archives'].get(ref['owner'])
-        if owner is None or ref['path'] not in {r['path'] for r in owner['rows']}:
+        referenced_owner = central['archives'].get(ref['owner'])
+        if referenced_owner is None or ref['path'] not in {r['path'] for r in referenced_owner['rows']}:
             raise Error('Unresolved cross-system reference')
-    j = central['archives']['cargo-transport-fuel']
-    if j.get('owner') != 'cargo-transport-fuel' or j.get('state') != 'VERIFIED':
+    j = central['archives'][owner]
+    if j.get('owner') != owner or j.get('state') != 'VERIFIED':
         raise Error('Unsupported index identity or state')
     rows = j['rows']
     if not rows or len(rows) > 300000:
@@ -287,10 +300,10 @@ def load(index_path, anchor):
 
 
 @contextlib.contextmanager
-def verified(index_path, anchor):
+def verified(index_path, anchor, owner='cargo-transport-fuel'):
     # Hold both objects against replacement for the complete operation.
     with locked(index_path):
-        j, archive, members = load(index_path, anchor)
+        j, archive, members = load(index_path, anchor, owner)
         with locked(archive) as (f, info):
             if info.length != j['archive_bytes'] or hashlib.file_digest(f, 'sha256').hexdigest() != j['archive_sha256']:
                 raise Error('Archive identity mismatch')
@@ -298,12 +311,12 @@ def verified(index_path, anchor):
             yield j, archive, members
 
 
-def restore(index_path, anchor, destination, fault=False):
+def restore(index_path, anchor, destination, fault=False, owner='cargo-transport-fuel'):
     start = time.perf_counter()
     destination = output(destination)
     if destination.exists():
         raise Error('Restore destination exists')
-    with verified(index_path, anchor) as (j, archive, members):
+    with verified(index_path, anchor, owner) as (j, archive, members):
         capacity = space(sum(r['bytes'] for r in members.values()) + len(members)*32768 + 32*1024*1024)
         partial = destination.with_name(destination.name + '.partial-' + uuid.uuid4().hex)
         partial.mkdir(parents=True)

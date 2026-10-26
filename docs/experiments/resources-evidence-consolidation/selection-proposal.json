@@ -1,0 +1,38 @@
+{
+  "authority": "NOT AUTHORIZED",
+  "controls": {
+    "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\resources-evidence-consolidation\\controls.json",
+    "sha256": "f18b4b2cac08edc7bf6b4ad42292d0f7e9fba838b76bf9f8ed1e96e49785bbb4"
+  },
+  "execution_binding_sha256": "5027dbc51917be462a481ff17a133000381fc42e1a99b68b883f0a708701c5d5",
+  "schema": "sor-resources-selection-proposal/1",
+  "selection": {
+    "archive_sha256": "2df3244872961232c87067ca60e2c59e54ab66d7c2c858031db2649cc86ed8a5",
+    "baseline_sha256": "09b06ac802d871f263dd2e1ff88cc54e790dcd4a3476c77c204f0a5c022dbc00",
+    "controls_sha256": "f18b4b2cac08edc7bf6b4ad42292d0f7e9fba838b76bf9f8ed1e96e49785bbb4",
+    "index": {
+      "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\research-archives\\index-resources-merged-proposed01.json",
+      "sha256": "268f8c2c188dc640091d0ddc041ee547db5f9fb9e1f592031e24452fcd2e1995"
+    },
+    "journal_sha256": "6a94bc65a02505ae02a19d756158ce65181cdd7f56663a115253f25f71ed5a32",
+    "manifest_sha256": "de8b2aa5f2fe89878ef8d8a1f4708952302250f955cdddfab1b4e7eaf1c8d8d1",
+    "owner": "resources-production",
+    "resource_only_command": [
+      "C:\\Users\\User\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "-B",
+      "D:\\Projects\\starfield-outpost-research\\research\\resources-evidence-consolidation\\cutover.py",
+      "verify"
+    ],
+    "retired_members": 134131,
+    "routine_command": [
+      "C:\\Users\\User\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "-B",
+      "D:\\Projects\\starfield-outpost-research\\research\\resources-evidence-consolidation\\resources_preservation.py"
+    ],
+    "schema": "sor-resources-active-selection/1",
+    "state": "ACTIVE"
+  },
+  "selection_sha256": "afaa0ab1661ac17861b84bc7e7a04b951b2db1eb10c2f60419ffdd13c2e981ef",
+  "source_root": "D:\\Projects\\starfield-outpost-research",
+  "transaction": "D:\\Projects\\starfield-outpost-research\\.local-work\\resources-evidence-consolidation\\real-transaction01"
+}

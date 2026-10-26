@@ -1,5 +1,7 @@
 # Experiments
 
+- [Resources, production and power evidence consolidation](resources-evidence-consolidation/report.md): real 134,131-member archive, complete independent restore proof and exact inactive retirement card. Original retirement and replacement activation await separate GO.
+
 - [Cargo archived evidence access and proposed cutover](cargo-evidence-cutover/report.md): authenticated access, exact SWF/PEX reproduction and an inactive Cargo shadow baseline. The new 1,051-file retirement proposal projects positive net allocation recovery; no real deletion or policy activation.
 
 - [Preservation verification audit](preservation-verification-optimization/report.md): reconstructed historical audit accounting, disposable W1/W2 qualification and an inactive policy proposal. AC4 FAIL / REWORK; no workflow activation or live authority.

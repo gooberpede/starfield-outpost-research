@@ -6,12 +6,16 @@ hash expectations are not replaced by observed values. Python stdlib only.
 """
 import hashlib
 import json
+import os
+import sys
 from pathlib import Path
 from save_policy import load_policy, classify, compare, snapshot, partition, changes
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST = ROOT / '.local-work/resource-carinae-source-context/protected-before.json'
 LIVE = Path('C:/Users/User/Documents/My Games/Starfield/Saves')
+sys.path.insert(0, str(ROOT / 'research/resources-evidence-consolidation'))
+from resources_preservation import archived_expectations
 
 
 def pin(path):
@@ -19,11 +23,12 @@ def pin(path):
         return hashlib.file_digest(stream, 'sha256').hexdigest()
 
 
-def audit_rows(rows, live_root, policy):
+def audit_rows(rows, live_root, policy, include_archive_pins=False):
     """Only the exact active namespace gets transient treatment; archives stay strict."""
     failures = []
     skipped = []
     expected_live = {}
+    archived = archived_expectations()
     for row in rows:
         p = Path(row['path'])
         if p.parent == live_root:
@@ -35,7 +40,8 @@ def audit_rows(rows, live_root, policy):
                 continue
             if kind['protection'] == 'UNCLASSIFIED':
                 failures.append(dict(path=str(p), reason='UNCLASSIFIED_SAVE'))
-        actual = pin(p) if p.is_file() else None
+        key = os.path.normcase(os.path.normpath(str(p)))
+        actual = archived[key] if key in archived else pin(p) if p.is_file() else None
         if actual != row['sha256']:
             failures.append(dict(path=str(p), expected=row['sha256'], actual=actual))
     current = snapshot(live_root, policy)
@@ -46,14 +52,18 @@ def audit_rows(rows, live_root, policy):
     delta = compare(expected_live, current, policy)
     if not delta['ok']:
         failures.append(dict(namespace=str(live_root), comparison=delta))
-    return dict(count=len(rows), changes=failures, excluded_live_transients=skipped,
+    result = dict(count=len(rows), changes=failures, excluded_live_transients=skipped,
                 live_classification=partition(current, policy), live_comparison=delta,
                 historical_discrepancies=[r for r in rows if not r['match']])
+    if include_archive_pins:
+        result['_archive_pins'] = archived
+    return result
 
 
-def audit(policy=None):
+def audit(policy=None, include_archive_pins=False):
     policy = load_policy() if policy is None else policy
-    result = audit_rows(json.loads(MANIFEST.read_text(encoding='utf8')), LIVE, policy)
+    result = audit_rows(json.loads(MANIFEST.read_text(encoding='utf8')), LIVE, policy,
+                        include_archive_pins=include_archive_pins)
     return dict(result, manifest_sha256=pin(MANIFEST))
 
 
