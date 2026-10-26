@@ -122,6 +122,15 @@ binary patch option or private remote clears publication or staging permission.
 
 ## Durable state and text
 
+Routine Cargo evidence preservation uses the
+[active archive baseline](docs/experiments/cargo-evidence-cutover/active-baseline.json)
+and its pinned `routine_command`, following the
+[authorized retirement](docs/experiments/cargo-evidence-cutover/execution.md).
+Authenticate the committed baseline, archive/index and three loose holds rather
+than hashing the 1,051 retired payloads. Scientific use restores and verifies
+members explicitly. This Cargo-only selection does not change save protection,
+other-system checks or historical inventory identities.
+
 Create disposable review-patch application/comparison trees under
 `.local-work/review-patches/`, creating the parent before allocating a unique
 child. Keep exported review diffs under `.local-work/diffs/`. Each

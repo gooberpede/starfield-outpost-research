@@ -1,8 +1,14 @@
 # Explicit archived evidence access
 
-The [Cargo continuation brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md)
-authorizes offline qualification and a proposal. **DELETION NOT AUTHORIZED.**
-The routine baseline remains unchanged. Use installed CPython 3.14 with `-B`
+Cargo retirement and baseline activation were separately authorized and
+[executed](../../docs/experiments/cargo-evidence-cutover/execution.md) on
+2026-10-26. Routine Cargo checks now use the
+[active selection](../../docs/experiments/cargo-evidence-cutover/active-baseline.json)
+and its pinned `routine_command`: archive/index plus three loose holds, with
+zero retired-member payload hashes. Historical proposals/preparers below remain
+available for inspection; they are not the current routine boundary. The
+[original continuation brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md)
+retains its earlier implementation-only authority. Use installed CPython 3.14 with `-B`
 from the repository root; no installation, network or game operation is needed.
 
 | Method | Reads and prerequisites | Writes and effects |

@@ -1,5 +1,12 @@
 # Cargo exact retirement transaction
 
+The separately authorized [real execution](../../docs/experiments/cargo-evidence-cutover/execution.md)
+has completed. Use the [active Cargo selection](../../docs/experiments/cargo-evidence-cutover/active-baseline.json)
+and its pinned routine verification command. The qualification commands below
+describe the earlier implementation phase; the real-source replica/preparer
+expects loose originals and is no longer the current preservation entrypoint.
+No repeat retirement or fresh execution approval follows from this document.
+
 Use installed CPython 3.14 on Windows NTFS from the repository root. Existing
 project-owned Stage A/B and access components supply the decoder, archive/index
 authentication, path checks, Windows handles and both-drive space guard. No

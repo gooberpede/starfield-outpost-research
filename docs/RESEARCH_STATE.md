@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-26 — Cargo retirement executed:**
+[Execution and postflight](experiments/cargo-evidence-cutover/execution.md) record
+the separately authorized retirement of all 1,051 archived loose originals and
+COMMITTED Cargo baseline activation. [Current selection](experiments/cargo-evidence-cutover/active-baseline.json)
+uses archive/index plus three unchanged loose packagers for routine protection;
+retired member payload hashes are zero. Full authenticated restoration and both
+consumer outputs pass, followed by lease cleanup. Observed D: free-space increase
+through postflight is 34,168,832 bytes, including unrelated/filesystem effects.
+Earlier NOT AUTHORIZED statements below are historical. Other preservation
+policies, the 93,334-pin inventory and publication holds remain unchanged.
+
 **2026-10-26 — Cargo retirement executor:**
 [Qualification](experiments/cargo-evidence-cutover/executor.md) adds a journaled
 exact-allowlist executor and Cargo-specific baseline handover, exercised only on

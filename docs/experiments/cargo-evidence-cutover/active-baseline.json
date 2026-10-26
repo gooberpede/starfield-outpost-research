@@ -1,0 +1,72 @@
+{
+  "allowlist_sha256": "b809a65f25560bec838873bfbb50c1e945a478a627129c24f837ec437b88e75d",
+  "archive": {
+    "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\research-archives\\cargo-transport-fuel-b02\\cargo-transport-fuel.tar.zst",
+    "sha256": "ebda740f0092b93f1dc9f32120db365223f465a6d374ce8e98933e8041eb1da7"
+  },
+  "baseline": {
+    "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\cargo-retirement\\real01\\baseline.json",
+    "sha256": "75b10f894d254414784b24408cef5b060ba437e44e6afbf304c1a83307944491"
+  },
+  "committed_head": "e4067bb1ff42a6c07fdec028f9c24aee19e9372e",
+  "effective_date": "2026-10-26",
+  "embedded_inventory_sha256": "f46605615abca2ff026f46aad6f51162a554c4383e89b79048899e4fb6e39a7a",
+  "execution_report": "execution.md",
+  "index": {
+    "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\research-archives\\index.json",
+    "sha256": "5500892dbc247c642b83336ee619ca34d40fae8967ccfda95c5394e7ceff7e3b"
+  },
+  "journal": {
+    "path": "D:\\Projects\\starfield-outpost-research\\.local-work\\cargo-retirement\\real01\\journal.jsonl",
+    "sha256": "cdfc48236d80406e3f682e7a71e30a870c9e906dc15dbae0b2567b6a4b576c20"
+  },
+  "loose_holds": [
+    {
+      "bytes": 6372,
+      "path": ".local-work/c2-transit/package.py",
+      "sha256": "21f6754b994523eebfa3dc0709e79a65876758d285fc7bc312ef9a96b0e141a5"
+    },
+    {
+      "bytes": 6473,
+      "path": ".local-work/c2-transport/package.py",
+      "sha256": "0ecbdfc0d26402c52d3335dc0f7de9d0741f66b7752f09292a4aa09f2b10998c"
+    },
+    {
+      "bytes": 6380,
+      "path": ".local-work/c3-fuel/package.py",
+      "sha256": "019ed90d3c12596b3fd7023e9d0215fd959e568947532aab389edb31e4e4ebae"
+    }
+  ],
+  "owner": "cargo-transport-fuel",
+  "retired_members": 1051,
+  "routine_command": [
+    "C:\\Users\\User\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "-B",
+    "D:\\Projects\\starfield-outpost-research\\research\\evidence-access\\executor.py",
+    "verify",
+    "--root",
+    "D:\\Projects\\starfield-outpost-research",
+    "--plan",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\cargo-evidence-cutover\\real04\\deletion-allowlist.json",
+    "--plan-sha256",
+    "b809a65f25560bec838873bfbb50c1e945a478a627129c24f837ec437b88e75d",
+    "--recovery",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\cargo-evidence-cutover\\real04\\recovery.json",
+    "--recovery-sha256",
+    "7d1ddeb5d169b35178d2632d3cdc54843e426c8a4ad159d0520967c12c194b63",
+    "--shadow",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\cargo-evidence-cutover\\real04\\shadow-baseline.json",
+    "--shadow-sha256",
+    "66f7c05b521a64008c6b419509bea5a5ecbcb71169681ae41271b6eab0e62169",
+    "--folder",
+    "D:\\Projects\\starfield-outpost-research\\.local-work\\cargo-retirement\\real01",
+    "--baseline-sha256",
+    "75b10f894d254414784b24408cef5b060ba437e44e6afbf304c1a83307944491"
+  ],
+  "routine_member_payload_hashes": 0,
+  "routine_protected_payload_rows": 5,
+  "schema": "sor-cargo-preservation-selection/1",
+  "scope": "Cargo archive/index and three loose holds only. Journal/control metadata authentication overhead remains. Method hashes are execution provenance, not enforced by routine verification. No D5G/global-save protection change.",
+  "source_root": "D:\\Projects\\starfield-outpost-research",
+  "state": "ACTIVE"
+}

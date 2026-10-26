@@ -1,4 +1,16 @@
-# Proposed Cargo routine verification cutover
+# Cargo routine verification cutover
+
+**ACTIVE for Cargo following separate execution approval, 2026-10-26.** The
+[execution report](execution.md) and [active selection](active-baseline.json)
+replace the loose 1,051-member routine boundary with archive/index plus three
+unchanged holds. Use the selection's pinned qualified `routine_command`; baseline
+and journal must agree on COMMITTED. No global or saved-file protection changes.
+
+## Historical proposal
+
+The original proposal below records its implementation-stage authority and
+remains preserved. Its inactive label was superseded only for the exact Cargo
+transaction documented above, not for another owner, archive version or operation.
 
 **PROPOSED / INACTIVE.** The [brief](../../implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md)
 authorizes a demonstration, not activation. Existing mandatory preservation rules,
