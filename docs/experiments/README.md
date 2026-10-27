@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D5I construction-query variability](resource-query-variability/report.md): all five D5H open sources have conditional native first-successful-miss pairs with different ordinary vectors. [Source proof](resource-query-variability/proofs.md), [validation](resource-query-variability/validation.md) and [independent review](resource-query-variability/review.md) preserve the common-state limits and frozen historical results. No live or publication authority.
+
 - [RG2-D5H native query reachability](resource-query-reachability/report.md): 19 conditional ordinary-mask invariants, one proved variable source and five unresolved first-miss domains across 25 projections. [Admitted native continuations](resource-query-reachability/feasibility.md) establish masks 0/3 for the selected second Feynman V source. [Validation](resource-query-reachability/validation.md) and [review](resource-query-reachability/review.md) control completion. Frozen associations and live/publication gates remain unchanged.
 
 - [Resources, production and power retirement and activation](resources-evidence-consolidation/execution.md): all 134,131 approved originals retired; replacement baseline COMMITTED and ACTIVE, protected exclusions intact, full restoration and scientific replay verified. [Historical preparation](resources-evidence-consolidation/report.md) retains the earlier exact card and projections.

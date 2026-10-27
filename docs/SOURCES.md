@@ -1,5 +1,18 @@
 # Source Register
 
+## RG2-D5I source-specific construction variability
+
+2026-10-27. [Exact source pins](experiments/resource-query-variability/sources.csv)
+and [methods](experiments/resource-query-variability/methods.md) bind the frozen
+D5H primary native/source registers, installed Bethesda EXE/ESM/BA2, owned
+D5/D4E corpora, D5A conditional comparisons and ten native controls. The new
+bounded replay adapts owned D5H arithmetic/occupancy methods at HEAD
+`9ef412a7923831f7ffe9b8b1369a142578a018b8` under SOR-P-0002. Active archive
+authentication, protected-input diagnostics and exact review export reuse owned
+methods. No new outside implementation, dependency, licence acceptance, contact
+or disclosure. Raw native/data evidence remains LOCAL-ONLY; authored conditional
+proof is REVIEW-REQUIRED. No live, integration or publication clearance follows.
+
 ## RG2-D5H native query reachability
 
 2026-10-26–27. [Source pins](experiments/resource-query-reachability/sources.csv)

@@ -1,5 +1,15 @@
 # Initial subsystem map — SOR-EXP-0001
 
+## Ordinary resource construction variability - RG2-D5I, 2026-10-27
+
+[Five-source native proof](../experiments/resource-query-variability/report.md)
+extends the frozen D5H reachability study with conditional first-successful-miss
+alternatives for the three VIII-b sources, second V and VI-b. Coherent frames,
+initialized matching owner components, readiness and one source lifetime remain
+explicit premises. [Review](../experiments/resource-query-variability/review.md)
+governs acceptance; historical masks, saved associations and publication/live
+gates remain unchanged.
+
 ## Construction components and dynamic configuration - BM1, 2026-10-20
 
 [Reviewed mechanism map](../experiments/construction-variants/report.md) separates initial PKIN construction, grouped manual STBH cycling, automatic ungrouped connection rules, generated foundations, material arrays, cargo animation and destruction stages. [Saved joins](../experiments/construction-variants/saves.md) connect chosen child PackIns, anchor backlinks, Workshop owners and DE node pairs. [Extension limits](../experiments/construction-variants/extensibility.md) distinguish demonstrated data relationships from unknown independent-side, decal and ship-context transfer. Prior Workshop/L1–L3/DA1/SD1 classifications are retained; no mod or live authority follows.

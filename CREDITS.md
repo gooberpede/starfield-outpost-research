@@ -1,5 +1,16 @@
 # Credits
 
+## RG2-D5I source-specific construction variability
+
+Bethesda's installed/native inputs supply the primary static evidence for the
+[five-source proof](docs/experiments/resource-query-variability/report.md).
+The maintainer supplied the bounded brief and prior protected research corpus.
+Owned D5H source-grid, arithmetic, initializer and worker research, D5A conditional
+comparisons, archive access/protection and exact review methods are reused under
+SOR-P-0002 with [provenance](docs/experiments/resource-query-variability/sources.csv).
+CPython, Git and the existing Windows CRT support offline analysis. No outside
+implementation was incorporated; proprietary evidence remains local-only.
+
 ## RG2-D5H native query reachability
 
 Bethesda's installed definitions and native executable supply the local evidence

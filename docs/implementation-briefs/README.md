@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-D5I construction-query reachability and variability](CODEX_BRIEF_SOR_RG2_D5I_construction_query_reachability_variability.md): invoked 2026-10-27 for bounded offline five-source native research and independent review. [Report](../experiments/resource-query-variability/report.md), [validation](../experiments/resource-query-variability/validation.md), [review](../experiments/resource-query-variability/review.md). No game, save/content, staging, commit, push or publication authority.
+
 - [RG2-D5H native source enumeration and query reachability](CODEX_BRIEF_SOR_RG2_D5H_native_source_enumeration_query_reachability.md): invoked 2026-10-26 for offline native/data research and independent review. [Report](../experiments/resource-query-reachability/report.md), [validation](../experiments/resource-query-reachability/validation.md), [review](../experiments/resource-query-reachability/review.md). No live, staging, commit, push or publication authority.
 
 - [Resources, production and power evidence consolidation](CODEX_BRIEF_SOR_resources_production_power_evidence_consolidation.md): invoked 2026-10-26 for real archival preparation, restoration, bounded adaptations and independent review; [report](../experiments/resources-evidence-consolidation/report.md) and [NOT AUTHORIZED execution card](../experiments/resources-evidence-consolidation/execution-card.md). Original deletion and activation require separate exact-batch GO; no staging, commit, push or publication.
