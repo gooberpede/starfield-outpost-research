@@ -1,5 +1,7 @@
 # Current Research State
 
+**2026-10-27 — RG2-D5H native first-query reachability:** [Report](experiments/resource-query-reachability/report.md) accounts for all 25 projections: 19 conditional ordinary-mask invariants, one proved variable source and five unresolved domains. Two [native admitted continuations](experiments/resource-query-reachability/feasibility.md) reach the selected second Feynman V source's first successful miss with masks 0/3 and different ordinary vectors. Its historical D5B first query remains unobserved. [Validation](experiments/resource-query-reachability/validation.md) and [independent review](experiments/resource-query-reachability/review.md) retain the final completion boundary. Frozen source/association classifications, ten exact controls, D5E restrictions and B6/publication holds are unchanged.
+
 **2026-10-26 — Resources, production and power retirement executed:**
 [Execution and postflight](experiments/resources-evidence-consolidation/execution.md)
 record all 134,131 exact original paths absent, a COMMITTED baseline and

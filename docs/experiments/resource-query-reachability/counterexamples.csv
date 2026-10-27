@@ -1,0 +1,34 @@
+case,source_key,geographic_pre_projection,source_relative_query,outside_nominal,raster_mask,ordinary_vector,insertion_attempt,actual_slot_occupancy,actual_first_miss,verdict
+original-V,0:25116:32436:0029d20d,25114;32434,-2;-2,True,8,"[0.0,0.20000000298023224,0.30000001192092896]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+original-V,0:25116:32448:0029d20e,25114;32446,-2;-2,True,8,"[0.05000000074505806,0.20000000298023224,0.30000001192092896]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+original-V,0:25128:32436:002c5879,25126;32434,-2;-2,True,8,"[0.0,0.20000000298023224,0.30000001192092896]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+original-V,0:25128:32448:0029d210,25126;32446,-2;-2,True,8,"[0.05000000074505806,0.20000000298023224,0.30000001192092896]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+Carinae,0:21372:15624:002493ea,21370;15622,-2;-2,True,4,"[1.0,1.0,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+Carinae,0:21384:15648:002493e7,21382;15646,-2;-2,True,4,"[1.0,1.0,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+Carinae,0:21396:15612:002493e8,21394;15610,-2;-2,True,4,"[1.0,1.0,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+Carinae,0:21396:15636:002493cf,21394;15634,-2;-2,True,4,"[1.0,1.0,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+Archimedes,0:27156:35988:0028be0d,27154;35986,-2;-2,True,0,"[0.0,0.0,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+Archimedes,0:27156:36000:002c17d5,27154;35998,-2;-2,True,0,"[0.0,0.0,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+Archimedes,0:27168:35988:002c17d3,27166;35986,-2;-2,True,0,"[0.0,0.0,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+Archimedes,0:27168:36000:002c17d1,27166;35998,-2;-2,True,0,"[0.0,0.0,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-81bf2a,0:29556:10932:0006ce55,29554;10930,-2;-2,True,8,"[0.30000001192092896,0.20000000298023224,0.30000001192092896]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-81bf2a,0:29556:10944:0029f329,29554;10942,-2;-2,True,8,"[0.30000001192092896,0.20000000298023224,0.30000001192092896]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-81bf2a,0:29568:10932:0006ce58,29566;10930,-2;-2,True,8,"[0.30000001192092896,0.20000000298023224,0.30000001192092896]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-81bf2a,0:29568:10944:0006ce56,29568;10944,0;0,False,0,"[0.30000001192092896,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-81bf2a,0:29568:10944:0006ce56,29566;10942,-2;-2,True,8,"[0.30000001192092896,0.20000000298023224,0.30000001192092896]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-825f95,1:32136:15156:0029d20e,32134;15154,-2;-2,True,0,"[0.30000001192092896,0.10000000149011612,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-825f95,1:32148:15156:0029d20f,32146;15154,-2;-2,True,0,"[0.30000001192092896,0.10000000149011612,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-844cc6,1:38100:960:002c17d5,38098;958,-2;-2,True,0,"[0.0,0.05000000074505806,0.10000000149011612,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-844cc6,1:38100:960:002c17d5,38098;960,-2;0,True,3,"[0.0,1.0,1.0,1.0,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-844cc6,1:38112:960:0029d211,38110;958,-2;-2,True,0,"[0.0,0.05000000074505806,0.10000000149011612,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-844cc6,1:38112:960:0029d211,38110;960,-2;0,True,3,"[0.0,1.0,1.0,1.0,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-844cc6,1:38124:960:002c17d3,38122;958,-2;-2,True,0,"[0.0,0.05000000074505806,0.10000000149011612,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-844cc6,1:38124:960:002c17d3,38122;960,-2;0,True,3,"[0.0,1.0,1.0,1.0,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-84e101,0:37524:20916:0029d211,37522;20914,-2;-2,True,0,"[0.05000000074505806,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-84e101,0:37524:20928:00257f37,37522;20926,-2;-2,True,0,"[0.05000000074505806,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-84e101,0:37524:20928:00257f37,37522;20928,-2;0,True,3,"[1.0,1.0,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-84e101,0:37536:20916:0029d20d,37534;20914,-2;-2,True,0,"[0.05000000074505806,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-84e101,0:37536:20928:0029d20e,37534;20926,-2;-2,True,0,"[0.05000000074505806,0.20000000298023224,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-84e101,0:37536:20928:0029d20e,37534;20928,-2;0,True,3,"[1.0,1.0,1.0]",True,UNKNOWN,NOT_PROVED,Candidate only; excluded as an admitted counterexample
+D2-84e101,0:37536:20928:0029d20e,37540;20927,4;-1,True,0,"[0.05000000074505806,0.20000000298023224,1.0]",True,PROVED_EMITTED_FIRST,PROVED_STATIC_FEASIBLE,"Admitted static witness L; original root A+(5,-2); qualified proof in feasibility.md; not a historical observation"
+D2-84e101,0:37536:20928:0029d20e,37540;20929,4;1,False,3,"[1.0,1.0,1.0]",True,PROVED_EMITTED_FIRST,PROVED_STATIC_FEASIBLE,"Admitted static witness H; original root A+(5,0); qualified proof in feasibility.md; not a historical observation"

@@ -1,5 +1,21 @@
 # Credits
 
+## RG2-D5H native query reachability
+
+Bethesda's installed definitions and native executable supply the local evidence
+for source-index and mask-sampling rules. The maintainer's D5/D5G research,
+frozen observations and owned archive/export/review methods supply the prior
+baseline. Existing Ghidra/JDK, CPython, Git and Microsoft's scalar CRT support
+the bounded offline analysis. [Methods and exact provenance](docs/experiments/resource-query-reachability/methods.md)
+distinguish native-derived explanation, original analysis and unchanged held-out
+controls. Raw proprietary material remains local; no endorsement is implied.
+
+The [CommonLibSF project](https://github.com/pjmagee/commonlibsf) supplied a
+source-reported form-type name used as a search lead during independent D5H
+review. The native table and dispatch were then checked independently. The
+[method record](docs/experiments/resource-query-reachability/methods.md) pins
+that consultation; no CommonLibSF code was copied, adapted or executed.
+
 ## Cargo archive access and proposed verification cutover
 
 The maintainer supplied the bounded continuation brief. Project-owned Stage A

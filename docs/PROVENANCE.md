@@ -1,5 +1,27 @@
 # Provenance and Environment Baseline
 
+## RG2-D5H native query reachability — 2026-10-26–27
+
+[Methods](experiments/resource-query-reachability/methods.md) and
+[source ledger](experiments/resource-query-reachability/sources.csv) bind starting
+HEAD/index, installed EXE/ESM/PlanetData, authenticated resource leases and bounded
+read-only/no-analysis exports. Pseudo-disassembly decodes an omitted wrapper
+window without changing analysis content. Current scalar CRT host and RN state
+qualify the finite instruction-arithmetic replay; historical module equality is
+not inferred. Owned D5G/native-export/review methods are reused under SOR-P-0002.
+Frozen controls are integrity-checked, not regenerated. Raw native/corpus/geometry
+payloads remain LOCAL-ONLY and authored synthesis REVIEW-REQUIRED. No target,
+save/configuration, archive, Git index/ref or publication mutation is authorized.
+
+The [admitted-pair proof](experiments/resource-query-reachability/feasibility.md)
+joins the source index, initialization, main-file placement/condition graph and
+actual native worker consumers. Candidate-only tables are retained locally;
+the independently accepted static proof adds one variable-source classification
+and two admitted witnesses to new task ledgers. Historical results remain frozen.
+The intentional external removal of four excluded legacy ZIPs is disclosed
+separately from the unchanged scientific/protected inputs; the strict guard's
+failure was not relabeled or bypassed by changing its baseline.
+
 ## Cargo archive access and retirement proposal — 2026-10-26
 
 The [report](experiments/cargo-evidence-cutover/report.md) pins current HEAD/index,

@@ -1,5 +1,24 @@
 # Source Register
 
+## RG2-D5H native query reachability
+
+2026-10-26–27. [Source pins](experiments/resource-query-reachability/sources.csv)
+and [methods](experiments/resource-query-reachability/methods.md) identify Bethesda
+installed/native evidence and prior maintainer-owned D5/D5G research. The new
+source-support and arithmetic explanations are derived from native instructions;
+the full native bytes, coefficient tables, corpora and geometry stay local.
+Existing Ghidra/JDK, CPython, Git and the pinned Microsoft scalar CRT support
+offline analysis. The two SIMD arithmetic paths are explanatory replay under
+explicit qualification, not native target execution. Project-owned archive,
+export, source-reading and review methods are reused under SOR-P-0002 at HEAD
+`3514ffed7684ca2d0b7ad5cc7e8a09458b5ce6ed`. No outside implementation,
+dependency installation, licence acceptance, contact or disclosure was introduced.
+
+Independent review also consulted CommonLibSF's existing local `FormTypes.h`
+for the source-reported `0xb7` PCMT name. [Methods](experiments/resource-query-reachability/methods.md)
+records the exact repository/file pins and native verification. Consultation
+does not authorize incorporation; no outside code was incorporated or executed.
+
 ## Cargo archived evidence resolution and cutover proposal
 
 2026-10-26. The [report](experiments/cargo-evidence-cutover/report.md) uses the
