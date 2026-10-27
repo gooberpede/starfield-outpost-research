@@ -1,5 +1,16 @@
 # Credits
 
+## RG2-D5K blinded validation tooling
+
+Bethesda's installed definitions and earlier native Workshop observations supply
+the evidence basis for the [Stage A readiness study](docs/experiments/blinded-outpost-validation/report.md).
+The maintainer supplied the protected save corpus and bounded brief. Existing
+owned saved-position, geometry, consumer, archive-access and exact-review methods
+are reused under SOR-P-0002 with [per-use provenance](docs/experiments/blinded-outpost-validation/sources.csv).
+Existing Windows/.NET and CPython runtimes support disposable offline isolation
+tests. No outside implementation, new dependency or redistribution of runtime,
+game or save payloads is introduced.
+
 ## RG2-D5J Terran Armada faction outpost reconnaissance
 
 Bethesda Game Studios' installed quest, beacon, worldspace, location, resource

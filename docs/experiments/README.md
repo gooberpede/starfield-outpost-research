@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D5K blinded validation Stage A](blinded-outpost-validation/report.md): actual Windows access separation, strict location transfer, conditional geometry and freeze/reveal controls with synthetic/historical rehearsal. Candidate location-to-source inference and complete ordinary native truth remain unqualified; Stage B NO-GO and engineering blockers are explicit. [Protocol](blinded-outpost-validation/protocol.md), [qualification](blinded-outpost-validation/qualification.md), [review](blinded-outpost-validation/review.md).
+
 - [RG2-D5J faction outpost reconnaissance](terran-armada-outpost-recon/report.md): all three quest/body leads have installed beacon templates and quest-location request graphs. None is ready for an exact planetary prediction freeze; placement/frame and ordinary Workshop execution remain unverified. [Candidate matrix](terran-armada-outpost-recon/candidates.csv), [methods](terran-armada-outpost-recon/methods.md) and [review](terran-armada-outpost-recon/review.md). Offline only; historical geometry and publication holds remain.
 
 - [RG2-D5I construction-query variability](resource-query-variability/report.md): all five D5H open sources have conditional native first-successful-miss pairs with different ordinary vectors. [Source proof](resource-query-variability/proofs.md), [validation](resource-query-variability/validation.md) and [independent review](resource-query-variability/review.md) preserve the common-state limits and frozen historical results. No live or publication authority.

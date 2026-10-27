@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-10-27 — RG2-D5K blinded validation Stage A:** [Readiness report](experiments/blinded-outpost-validation/report.md)
+supplies an enforced disposable Windows boundary, strict saved-location adapter,
+conditional source wrapper, positive-only truth reducer and freeze/reveal
+comparator. Synthetic qualification and historical rehearsal are separate.
+Engineering acceptance remains blocked by the missing qualified candidate
+location-to-source pipeline. Scoped task preservation passes; the pre-existing
+strict excluded-ZIP namespace failure remains separately unresolved.
+Kreet, Vectera and Jemison report UNSUPPORTED/UNKNOWN before site selection;
+complete ordinary native truth remains unqualified. [Review](experiments/blinded-outpost-validation/review.md)
+governs disposition. No fresh outpost, live acquisition, historical reclassification,
+Stage B, integration or publication authority is supplied.
+
 **2026-10-27 — RG2-D5J faction outpost reconnaissance:** [Report](experiments/terran-armada-outpost-recon/report.md) confirms all three quest/body leads and their authored beacon templates. Quest aliases bind location reference types through installed planet-content request graphs. Exact instantiated placement/frame and ordinary Workshop admission remain unverified, so all three are PROMISING_NEEDS_EXACT_OPERAND. X-Tech objectives and completion blocking are separate scripted mechanisms. [Review](experiments/terran-armada-outpost-recon/review.md) governs acceptance. No live run, new geometry prediction or historical classification change; B6 and publication remain on hold.
 
 **2026-10-27 — RG2-D5I five-source construction variability:** [Report](experiments/resource-query-variability/report.md) supplies source-specific conditional first-successful-miss pairs for all five D5H open sources: VIII-b's three sources and second V admit ordinary masks 0/3; VI-b admits 0/8. The [native proof](experiments/resource-query-variability/proofs.md) retains coherent frame, initialized owner/component, readiness and source-lifetime premises. Combined accounting is 19 conditional invariants and six conditional variable sources; D5H's original 19/1/5 ledger remains frozen. [Validation](experiments/resource-query-variability/validation.md) and [independent review](experiments/resource-query-variability/review.md) govern completion. Historical winning queries, D5B ambiguity, all seven saved associations and publication/live gates remain unchanged.

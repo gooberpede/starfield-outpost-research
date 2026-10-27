@@ -1,5 +1,17 @@
 # Source Register
 
+## RG2-D5K blinded validation tooling
+
+2026-10-27. [Source ledger](experiments/blinded-outpost-validation/sources.csv)
+pins the original brief, installed inputs, existing saved-position/geometry/native
+contracts, owned code reuse and local qualification receipts. [Report](experiments/blinded-outpost-validation/report.md)
+distinguishes actual Windows separation, synthetic comparator controls and
+historical positive-only rehearsal from unqualified prospective inference.
+Strict preservation failure is retained separately from authenticated current
+scientific/save diagnostics. No new outside source, dependency download, licence
+acceptance, external contact or disclosure occurred. Raw/native/save/runtime
+inputs remain LOCAL-ONLY; authored work remains REVIEW-REQUIRED.
+
 ## RG2-D5J Terran Armada faction outpost reconnaissance
 
 2026-10-27. Bethesda's installed SFBGS050, main-file definitions and selected

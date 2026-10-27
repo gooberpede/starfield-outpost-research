@@ -1,5 +1,18 @@
 # Provenance and Environment Baseline
 
+## RG2-D5K blinded validation Stage A — 2026-10-27
+
+[Qualification](experiments/blinded-outpost-validation/qualification.md) and
+[source ledger](experiments/blinded-outpost-validation/sources.csv) bind original
+brief/contract, starting HEAD/index, installed EXE/ESM/PlanetData, actual Windows
+token/ACL/access evidence, exact dependency manifests and selected authenticated
+historical leases. Owned saved-position, geometry, consumer, archive and review
+methods are reused under SOR-P-0002; frozen originals remain unchanged. The strict
+missing excluded-ZIP failure is not replaced by passing scientific/save diagnostics.
+No game, save/configuration, archive policy, analysis-project or Git index/ref
+mutation occurred. Prospective engine-effective coordinates and complete native
+truth are unqualified; raw/runtime/private receipts remain LOCAL-ONLY.
+
 ## RG2-D5J faction outpost reconnaissance — 2026-10-27
 
 [Methods](experiments/terran-armada-outpost-recon/methods.md) and

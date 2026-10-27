@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [RG2-D5K blinded outpost validation Stage A](CODEX_BRIEF_SOR_RG2_D5K_stage_a_blinded_validation_toolchain.md): invoked 2026-10-27 for offline tooling, synthetic qualification, historical rehearsal and independent review. [Readiness](../experiments/blinded-outpost-validation/report.md), [protocol](../experiments/blinded-outpost-validation/protocol.md), [review](../experiments/blinded-outpost-validation/review.md). No fresh outpost, live acquisition, staging, commit, push or publication authority; Stage B requires separate GO.
+
 - [RG2-D5J Terran Armada faction outpost reconnaissance](CODEX_BRIEF_SOR_RG2_D5J_terran_armada_faction_outpost_reconnaissance.md): invoked 2026-10-27 for bounded installed-content investigation and independent review. [Report](../experiments/terran-armada-outpost-recon/report.md), [candidate matrix](../experiments/terran-armada-outpost-recon/candidates.csv), [review](../experiments/terran-armada-outpost-recon/review.md). No game, save/content, archival, staging, commit, push or publication authority.
 
 - [RG2-D5I construction-query reachability and variability](CODEX_BRIEF_SOR_RG2_D5I_construction_query_reachability_variability.md): invoked 2026-10-27 for bounded offline five-source native research and independent review. [Report](../experiments/resource-query-variability/report.md), [validation](../experiments/resource-query-variability/validation.md), [review](../experiments/resource-query-variability/review.md). No game, save/content, staging, commit, push or publication authority.
