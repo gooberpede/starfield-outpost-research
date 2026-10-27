@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-28 — D5L Cloud metadata amendment:**
+[Policy and focused verification](experiments/resource-retained-population/cloud-metadata-amendment.md)
+classify `remotecache.vdf` as diagnostic synchronization metadata and remove its
+exact-hash gate and separate exception from the proposed D5L Phase B card.
+Protected local/remote saves, independent backups, installed inputs and Cloud
+state confirmation remain required. The observer and scientific classifications
+are unchanged; historical failures remain recorded. The current card awaits
+separate live GO. No Phase B execution is authorized by this amendment.
+This supersedes the exact Cloud metadata acceptance requirement in the dated
+Phase A entry below.
+
 **2026-10-27 — RG2-D5L Phase A:** [Report](experiments/resource-retained-population/report.md) maps false-success markers and implements a fourteen-site observer for witnessed region construction, final ownership and later same-region hit within an observed lifetime. Actual native-shaped Windows qualification supplies complete synthetic chains; no retail or persistence result follows. [Validation](experiments/resource-retained-population/validation.md) and [independent review](experiments/resource-retained-population/review.md) govern exact disposition. The [executable proposal](experiments/resource-retained-population/run-card.md) awaits separate live GO and exact acceptance of pre-existing Cloud metadata drift. Frozen D2–D5I results, B6 and publication holds remain unchanged.
 
 **2026-10-27 — RG2-D5K blinded validation Stage A:** [Readiness report](experiments/blinded-outpost-validation/report.md)

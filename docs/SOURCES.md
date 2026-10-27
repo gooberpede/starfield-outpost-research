@@ -1,5 +1,16 @@
 # Source Register
 
+## D5L diagnostic Cloud metadata amendment
+
+2026-10-28. The maintainer's offline amendment and its original requirements are
+recorded in the [amendment report](experiments/resource-retained-population/cloud-metadata-amendment.md).
+It reuses the existing maintainer-owned C2B save comparisons, D5L operational
+helpers and session-tools exact patch exporter under SOR-P-0002. Original source
+pins and qualification receipts remain historical. Focused synthetic controls
+and the unchanged native build are bound in the local amendment verification
+package; no new outside implementation, dependency or source-selection research
+is used. Authored changes are REVIEW-REQUIRED; scratch and receipts are LOCAL-ONLY.
+
 ## RG2-D5L first construction and retained population
 
 2026-10-27. The [source ledger](experiments/resource-retained-population/sources.csv)

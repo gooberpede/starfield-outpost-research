@@ -18,6 +18,7 @@ import sys
 import time
 from build import ROOT,LOCAL,pin
 from verify_native import sites
+from preservation_native import verify_build_files, PREFLIGHT_SCHEMA
 
 GAME=Path('C:/Program Files (x86)/Steam/steamapps/common/Starfield')
 LIVE=Path('C:/Users/User/Documents/My Games/Starfield/Saves')
@@ -57,11 +58,11 @@ def full_preservation(out):
         archive_guard={str(f):dict(bytes=f.stat().st_size,mtime_ns=f.stat().st_mtime_ns) for f in (archive,tx.store.index)}
     audit=json.loads((out/'remaining-inputs.json').read_text());policy=load_policy()
     sync=protection.sync_snapshot(policy);write(out/'sync-audit.json',sync)
-    assert not audit['protected_policy_differences'] and audit['live_comparison']['ok'] and sync['comparison']['ok'] and not sync['other']
+    assert not audit['protected_policy_differences'] and audit['live_comparison']['ok'] and sync['scientific_inputs_match'] and not sync['other']
     previous_sync=json.loads((ROOT/'.local-work/resource-carinae/sync-paths-preflight02.json').read_text())
     sync['historical_remotecache_sha256']=previous_sync['remotecache_sha256']
-    # Historical Cloud mismatch is an operational HOLD, never a passed integrity
-    # check. A future exact prospective-basis decision must be separately human.
+    # Preserve the historical failed comparison; metadata identity is diagnostic
+    # under the prospective amendment, never a new scientific input baseline.
     live=snapshot(LIVE,policy);protected=partition(live,policy)['protected']
     old=json.loads((ROOT/'.local-work/resource-carinae-source-context/protected-before.json').read_text())
     backups={}
@@ -104,13 +105,14 @@ def main():
     assert min(shutil.disk_usage(d).free for d in ('C:/','D:/'))>=40_000_000_000
     out=LOCAL/a.name;out.mkdir(exist_ok=False);build=a.build.resolve();assert build.is_relative_to(LOCAL)
     manifest=json.loads((build/'build.json').read_text());assert manifest['exit_code']==0
-    assert all(pin(f)==h for f,h in manifest['files'].items())
+    operational_sources=verify_build_files(manifest)
     q=json.loads((a.qualification/'results.json').read_text());assert len(q)>=26 and all(r['passed'] for r in q)
     assert len({r['mode'] for r in q})==len(q) and all(r['build_sha256']==pin(build/'build.json') for r in q)
     verified=sites(build,a.sites.resolve());write(out/'sites.json',verified)
     result=full_preservation(out)
-    result.update(schema='sor-d5l-preflight/1',status='OFFLINE_CHECKED_NOT_AUTHORIZED' if result['sync']['matches_historical'] else 'OFFLINE_CHECKED_CLOUD_HOLD',source=SOURCE,
-        code_pins={str(f):pin(f) for f in Path(__file__).parent.glob('*.py')},
+    result.update(schema=PREFLIGHT_SCHEMA,status='OFFLINE_CHECKED_NOT_AUTHORIZED',source=SOURCE,
+        operational_sources=operational_sources,
+        code_pins={str(f):pin(f) for folder in (Path(__file__).parent,ROOT/'research/resource-carinae-source-context') for f in folder.glob('*.py')},
         created_filetime_100ns=time.time_ns()//100+116444736000000000,
         build_manifest=dict(path=str(build/'build.json'),sha256=pin(build/'build.json')),
         qualification=dict(path=str(a.qualification.resolve()/'results.json'),sha256=pin(a.qualification/'results.json')),

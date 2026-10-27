@@ -20,6 +20,7 @@ import threading
 import importlib.util
 from build import ROOT, LOCAL, pin
 from prepare_native import SOURCE
+from preservation_native import verify_build_files, PREFLIGHT_SCHEMA
 
 
 def admission_checks(gate):
@@ -29,11 +30,7 @@ def admission_checks(gate):
     for field in ('run_card','preflight','build_manifest'):
         assert pin(gate[field]['path'])==gate[field]['sha256']
     pre=json.loads(Path(gate['preflight']['path']).read_text())
-    assert pre['status'] in ('OFFLINE_CHECKED_NOT_AUTHORIZED','OFFLINE_CHECKED_CLOUD_HOLD') and pre['source']==SOURCE and pre['run_card']==gate['run_card'] and pre['build_manifest']==gate['build_manifest']
-    if pre['status']=='OFFLINE_CHECKED_CLOUD_HOLD':
-        decision=gate['cloud_metadata_decision']
-        assert decision['authorization_reference'].strip() and decision['scope']=='D5L_ONE_PROCESS_ONLY'
-        assert decision['historical_sha256']==pre['sync']['historical_remotecache_sha256'] and decision['accepted_prospective_sha256']==pre['sync']['remotecache_sha256']
+    assert pre['schema']==PREFLIGHT_SCHEMA and pre['status']=='OFFLINE_CHECKED_NOT_AUTHORIZED' and pre['source']==SOURCE and pre['run_card']==gate['run_card'] and pre['build_manifest']==gate['build_manifest']
     assert all(pin(f)==h for f,h in pre['code_pins'].items())
     import sys
     sys.path.insert(0,str(ROOT/'research/resource-carinae-source-context'))
@@ -50,7 +47,7 @@ def admission_checks(gate):
         assert any(r['kind']=='AUTHENTICATED_ARCHIVE_MEMBER' or (Path(r['path']).is_file() and unchanged(r['path'],r['metadata'])) for r in candidates)
     remote=Path(pre['sync']['remote_path']);light(remote/'Saves',pre['sync']['remote'])
     other={p.relative_to(remote).as_posix():dict(bytes=p.stat().st_size,sha256=pin(p)) for p in remote.rglob('*') if p.is_file() and not p.is_relative_to(remote/'Saves')}
-    assert other==pre['sync']['other'] and pin(remote.parent/'remotecache.vdf')==pre['sync']['remotecache_sha256']
+    assert other==pre['sync']['other']
     for f,r in pre['installed'].items():
         st=Path(f).stat();assert st.st_size==r['bytes'] and st.st_mtime_ns==r['mtime_ns']
     for f,r in pre['file_guards'].items():
@@ -79,12 +76,11 @@ def main():
     admission, output = args.admission.resolve(), args.output.resolve()
     assert admission.is_relative_to(LOCAL) and output.is_relative_to(LOCAL)
     gate = json.loads(admission.read_text())
-    admission_checks(gate)
+    pre = admission_checks(gate)
     # This gate records an already explicit human GO; it never supplies authority.
     manifest = json.loads(Path(gate['build_manifest']['path']).read_text())
     assert manifest['exit_code'] == 0
-    for path, digest in manifest['files'].items():
-        assert pin(path) == digest, path
+    assert verify_build_files(manifest)==pre['operational_sources']
     controller = Path(gate['build_manifest']['path']).parent / 'sor-d5l-native-controller.exe'
     assert pin(controller) == manifest['files'][str(controller)]
     assert min(shutil.disk_usage(d).free for d in ('C:/', 'D:/')) >= 40_000_000_000

@@ -6,6 +6,10 @@ This executable proposal requires **separate explicit maintainer GO** for one
 fresh research process. Phase A acceptance, an offline preflight or a JSON flag
 never grants live authority. B6 and publication remain on hold.
 
+Prospectively amended 2026-10-28 under the
+[Cloud metadata amendment](cloud-metadata-amendment.md). The target, fourteen
+sites, observation method and gameplay procedure are unchanged.
+
 ## Target, input and exact observer
 
 Primary: chart-0 second Feynman V `0:37536:20928:0029d20e`, owner `0x0005e0de`.
@@ -49,23 +53,23 @@ $sites = '.local-work/resource-retained-population/native-sites04.tsv'
 
 Before launch, require fresh successful full active archive-backed preservation,
 installed definitions/configuration, protected-save/independent-backup checks,
-Save52 restoration rehearsal in scratch, Steam remote namespace/remotecache
+Save52 restoration rehearsal in scratch, protected Steam remote saves/namespace
 integrity and both C:/D: floors of 40,000,000,000 bytes. The known four excluded
 legacy ZIPs remain a separately reported strict FAIL; surviving scientific inputs
 must have zero unacknowledged differences. No baseline repair or automatic save
 restoration is permitted. Preserve offline preflight and exact policy identity.
-The existing Cloud metadata comparison is HOLD: historical remotecache hash
+The historical Cloud metadata comparison failed: historical remotecache hash
 `6aa04109a0f3b2eb73f9cf20cef75bb652a7521f7ea7eba9bfbe6188e4730886`
-differs from current `999aabbc12c48097d0a05f9cdbf329f0b26f6fb9ac9037e101ca80cfb2f12f4f`.
-The current mtime predates this task; protected remote saves match. This remains
-a failed historical check. **Proposed exception:** before launch, the maintainer
-must separately accept that exact current value as the prospective basis for
-this one process. This does not replace the historical baseline or weaken the
-standing [Cloud integrity rule](../../SAVE_PROTECTION.md). Without that decision,
-no launch/admission is allowed. Record it in `cloud_metadata_decision` with
-`authorization_reference`, `scope="D5L_ONE_PROCESS_ONLY"`, `historical_sha256`
-and `accepted_prospective_sha256`; the collector requires exact preflight values.
-A generic Cloud confirmation or generic live GO cannot waive this hold.
+differs from then-observed `999aabbc12c48097d0a05f9cdbf329f0b26f6fb9ac9037e101ca80cfb2f12f4f`.
+The recorded mtime predates Phase A; protected remote saves matched then. This
+remains a failed historical check. Under [save protection](../../SAVE_PROTECTION.md),
+`remotecache.vdf` is now diagnostic synchronization metadata. Preserve its
+diagnostics without comparing its hash as an execution gate. No separate
+maintainer exception or `cloud_metadata_decision` is required. Use a fresh
+`sor-d5l-preflight/2` receipt; older preflight receipts cannot be reused.
+The immutable build manifest remains unchanged: three amended operational Python
+sources are bound separately to their preserved build snapshots and current
+hashes. Native sources, binaries, tools and all other build pins stay exact.
 
 Cloud isolation/state must already be suitable and freshly confirmed by the
 operator; this card does not authorize a Cloud/configuration change.
@@ -90,7 +94,7 @@ Do not create this GO receipt during Phase A.
 ```
 
 The collector consumes a one-use sidecar before attachment, checks lightweight
-protected name/size guards, policy/Cloud metadata, installed metadata, build and
+protected local/remote name/size guards, policy, installed metadata, build and
 code pins. C++ independently checks exact image path/hash and PID creation time
 before admission to disposal, and again at the stopped process event. It measures
 module base, verifies original bytes against PE backing, patches fourteen sites
@@ -144,8 +148,14 @@ No claim of live instruction restoration or safe detach is made.
 
 After exit, repeat the same `prepare_native.py` command with a fresh name such
 as `phase-b-postflight01` and compare full active archive-backed/protected/config/
-Steam results with preflight, using the same policy and exact approved prospective
-Cloud value. Any new difference remains a failure. Do not
+Steam results with preflight, using the same policy. Run the explicit comparison:
+
+```powershell
+& $py -B research/resource-retained-population/preservation_native.py --preflight .local-work/resource-retained-population/phase-b-preflight01/preflight.json --postflight .local-work/resource-retained-population/phase-b-postflight01/preflight.json --output .local-work/resource-retained-population/phase-b-postflight-comparison01.json
+```
+
+Any protected scientific-input difference remains a failure. Changes to
+`remotecache.vdf` are recorded diagnostically and do not block postflight. Do not
 restore an original automatically. Stop and retain any unexpected protected
 corruption for maintainer recovery review. A post-capture crash does not erase
 complete persisted evidence; report evidence completeness and survival separately.

@@ -1,5 +1,11 @@
 # D5L first construction and retained population — Phase A
 
+2026-10-28 prospective correction: the
+[Cloud metadata amendment](cloud-metadata-amendment.md) removes metadata-hash
+admission holds and the proposed exact-hash exception. The Phase A observations,
+historical failed comparisons and scientific classifications below are preserved;
+the amended [run card](run-card.md) controls future operations.
+
 2026-10-27, Australia/Sydney. [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5L_first_construction_retained_population.md),
 [native contract](native.md), [qualification](validation.md), [independent disposition](review.md),
 [proposed Phase B card](run-card.md), [source pins](sources.csv).

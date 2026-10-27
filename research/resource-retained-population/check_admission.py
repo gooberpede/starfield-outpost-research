@@ -19,9 +19,8 @@ def main():
         synthetic=True,approval_reference='SYNTHETIC CONTROL ONLY; NO LIVE AUTHORITY',cloud_confirmed=True,used=False,pid=1,
         creation_filetime_100ns=pre['created_filetime_100ns']+1,run_card=pre['run_card'],build_manifest=pre['build_manifest'],
         preflight=dict(path=str(preflight),sha256=pin(preflight)),
-        allowed_interventions=['software_int3_14','all_stop_and_peer_suspend','owned_rip_tf_rearm','termination_teardown'],
-        cloud_metadata_decision=dict(authorization_reference='SYNTHETIC CONTROL ONLY',scope='D5L_ONE_PROCESS_ONLY',historical_sha256=pre['sync']['historical_remotecache_sha256'],accepted_prospective_sha256=pre['sync']['remotecache_sha256']))
-    admission_checks(gate);results=[dict(case='synthetic_exact_metadata',passed=True)]
+        allowed_interventions=['software_int3_14','all_stop_and_peer_suspend','owned_rip_tf_rearm','termination_teardown'])
+    admission_checks(gate);results=[dict(case='synthetic_no_metadata_exception',passed=True)]
     def refuse(name,change):
         g=copy.deepcopy(gate);change(g)
         try:admission_checks(g)
@@ -35,9 +34,6 @@ def main():
     refuse('preexisting_process',lambda g:g.update(creation_filetime_100ns=pre['created_filetime_100ns']-1))
     refuse('used_admission',lambda g:g.update(used=True))
     refuse('expanded_interventions',lambda g:g['allowed_interventions'].append('forced_reset'))
-    if pre['status']=='OFFLINE_CHECKED_CLOUD_HOLD':
-        refuse('cloud_mismatch_never_implicit',lambda g:g.pop('cloud_metadata_decision'))
-        refuse('wrong_cloud_prospective_pin',lambda g:g['cloud_metadata_decision'].update(accepted_prospective_sha256='0'*64))
     with output.open('x',encoding='utf8') as s:json.dump(dict(synthetic_only=True,no_target_operations=True,cases=results),s,indent=2);s.write('\n')
     print(len(results),'admission controls PASS; no target operations')
 

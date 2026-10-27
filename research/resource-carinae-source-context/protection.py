@@ -83,15 +83,24 @@ def sync_snapshot(policy=None):
     old_saves = {n[6:]: row for n, row in prior['remote'].items() if n.startswith('Saves/')}
     old_other = {n: row for n, row in prior['remote'].items() if not n.startswith('Saves/')}
     result = compare(old_saves, saves, policy)
+    metadata = metadata_diagnostic(remote.parent / 'remotecache.vdf')
     return dict(remote_path=str(remote), remote=saves, other=files,
-                remotecache_sha256=pin(remote.parent / 'remotecache.vdf'),
+                remotecache_sha256=metadata['sha256'], remotecache_diagnostic=metadata,
                 comparison=result,
+                scientific_inputs_match=(result['ok'] and files == old_other),
                 matches_historical=(result['ok'] and files == old_other and
-                    pin(remote.parent / 'remotecache.vdf') == prior['remotecache_sha256']))
+                    metadata['sha256'] == prior['remotecache_sha256']))
+
+
+def metadata_diagnostic(path):
+    """Synchronization metadata is diagnostic, including absence/read races."""
+    try:
+        return dict(sha256=pin(path), status='READ', protected=False)
+    except OSError as error:
+        return dict(sha256=None, status=type(error).__name__, protected=False)
 
 
 def sync_equal(before, after, policy):
-    """Keep Cloud metadata/non-save checks strict; save diagnostics may churn."""
+    """Compare protected remote saves and other inputs; metadata may churn."""
     return (before['remote_path'] == after['remote_path'] and before['other'] == after['other']
-            and before['remotecache_sha256'] == after['remotecache_sha256']
             and compare(before['remote'], after['remote'], policy)['ok'])

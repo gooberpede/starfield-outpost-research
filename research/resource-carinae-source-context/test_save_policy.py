@@ -152,6 +152,10 @@ class SaveProtection(unittest.TestCase):
         self.assertNotEqual(policy_hash(p), policy_hash(self.policy))
 
     def test_broad_audit_skips_only_active_transients(self):
+        # This is a disposable file-policy control, not a real archive audit.
+        archived = patch('protection.archived_expectations', return_value={})
+        archived.start()
+        self.addCleanup(archived.stop)
         root = Path(__file__).resolve().parents[2]/'.local-work/resource-carinae-transient-saves'
         with tempfile.TemporaryDirectory(prefix='policy-', dir=root) as temporary:
             base = Path(temporary)
@@ -198,11 +202,11 @@ class SaveProtection(unittest.TestCase):
             with self.assertRaises(AssertionError):
                 snapshot(Path('synthetic'), self.policy)
 
-    def test_steam_transient_diagnostics_do_not_relax_cloud_metadata(self):
+    def test_steam_metadata_is_diagnostic_remote_saves_stay_strict(self):
         before = dict(remote_path='root', remote=self.old, other={}, remotecache_sha256='fixed')
         after = dict(before, remote={n: r for n, r in self.old.items() if n != self.exit})
         self.assertTrue(sync_equal(before, after, self.policy))
-        self.assertFalse(sync_equal(before, dict(after, remotecache_sha256='changed'), self.policy))
+        self.assertTrue(sync_equal(before, dict(after, remotecache_sha256='changed'), self.policy))
         self.assertFalse(sync_equal(before, dict(after, remote={}), self.policy))
 
 

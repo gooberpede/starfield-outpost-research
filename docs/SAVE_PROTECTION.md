@@ -10,6 +10,7 @@ run, game save creation/modification/restoration, or changes to historical evide
 | Protected designated research and manual saves | Verify exact protected names/identities, byte lengths, hashes, independently verified backups and restoration readiness. Quicksaves are protected too; they are not automatically excluded. |
 | Reliably identified transient exitsaves/autosaves | Exclude active files from preservation/equality/absence/addition gates. Creation, replacement, rotation or removal is diagnostic information, never a reason to restore a transient or refuse an otherwise valid admission. |
 | Ambiguous or unclassified saves | Fail closed until qualified or explicitly classified/designated by the maintainer. A suggestive substring or a partially matching filename cannot justify exclusion. |
+| Steam `remotecache.vdf` | Diagnostic synchronization metadata, not a protected scientific input. Record its observed hash or read/absence diagnostic without requiring identity at preflight, admission or postflight. Ordinary metadata changes do not block experiments. |
 
 An explicit research designation takes precedence over nominal kind. A later
 designation of an exitsave/autosave protects it prospectively, with exact pins
@@ -55,11 +56,22 @@ Protected full hashes are checked before launch and after exit; launch admission
 uses the existing lightweight names/sizes checks. No full save scan is added
 during gameplay. Reparse/root/ancestor guards remain strict.
 
-Steam remote saves use the same classification. Steam Cloud operator
-confirmation, remote namespace identity, non-save files and remotecache bytes
-remain strict independent checks. Transient file diagnostics are not compared
-as a whole sync snapshot. A distinct Cloud metadata/configuration integrity
-failure is still a failure; exclusion of transient files does not waive it.
+Steam remote saves use the same classification. Steam Cloud state confirmation,
+remote namespace identity, protected remote save content and other explicitly
+protected inputs remain strict independent checks. `remotecache.vdf` is excluded
+from preservation/equality gates; its absence or an ordinary read race is also
+diagnostic. This exclusion does not cover remote saves, independently verified
+backups, installed binaries/definitions, configuration or other protected inputs.
+Transient file diagnostics are not compared as a whole sync snapshot.
+
+Prospective amendment, 2026-10-28, Australia/Sydney: the maintainer requested this
+classification for the accepted D5L implementation and proposed Phase B card.
+[Amendment and verification](experiments/resource-retained-population/cloud-metadata-amendment.md)
+record the exact scope. Historical `remotecache.vdf` discrepancies, original
+receipts and failed old-gate verdicts remain unchanged. No exact metadata-hash
+exception is required prospectively. A legacy helper which still gates on that
+hash needs amendment/review before reuse; this policy does not rerun it or grant
+live authority.
 
 The earlier C2B missing-old/present-new exitsave discrepancy is preserved as an
 accurate historical observation and failed old-gate result. Under this policy
