@@ -1,5 +1,19 @@
 # Provenance and Environment Baseline
 
+## RG2-D5J faction outpost reconnaissance — 2026-10-27
+
+[Methods](experiments/terran-armada-outpost-recon/methods.md) and
+[source ledger](experiments/terran-armada-outpost-recon/sources.csv) bind the
+starting HEAD/index, installed DLC/EXE/definition context, selected compiled
+members and active archive-backed preservation check. Owned ESM/BA2/PEX and
+review methods are reused under SOR-P-0002. Body, template and alias joins are
+static; effective runtime load order, instantiated planetary placement and
+ordinary Workshop callback execution remain unverified. Proprietary decoded
+content stays local. Read-only native exports inspect the alias request route
+and generic Workshop accessor; database-content mutation, game, save/configuration,
+archival and Git index/ref operations remain prohibited. Historical geometry
+remains frozen.
+
 ## RG2-D5H native query reachability — 2026-10-26–27
 
 [Methods](experiments/resource-query-reachability/methods.md) and

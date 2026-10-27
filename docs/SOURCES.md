@@ -1,5 +1,17 @@
 # Source Register
 
+## RG2-D5J Terran Armada faction outpost reconnaissance
+
+2026-10-27. Bethesda's installed SFBGS050, main-file definitions and selected
+compiled quest scripts supply the [primary source ledger](experiments/terran-armada-outpost-recon/sources.csv).
+The [report](experiments/terran-armada-outpost-recon/report.md) identifies exact
+record fields and decoded-member offsets. Existing owned ESM/BA2/PEX and review
+methods at the starting HEAD are reused under SOR-P-0002. No external code,
+dependency, source lookup, licence acceptance or disclosure was introduced.
+Prior native resource-gate findings are cited as inherited evidence, not fresh
+native execution. Raw definitions/scripts remain LOCAL-ONLY; authored synthesis
+remains REVIEW-REQUIRED. Runtime quest state and effective load order are unverified.
+
 ## RG2-D5I source-specific construction variability
 
 2026-10-27. [Exact source pins](experiments/resource-query-variability/sources.csv)

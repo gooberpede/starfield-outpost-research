@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D5J faction outpost reconnaissance](terran-armada-outpost-recon/report.md): all three quest/body leads have installed beacon templates and quest-location request graphs. None is ready for an exact planetary prediction freeze; placement/frame and ordinary Workshop execution remain unverified. [Candidate matrix](terran-armada-outpost-recon/candidates.csv), [methods](terran-armada-outpost-recon/methods.md) and [review](terran-armada-outpost-recon/review.md). Offline only; historical geometry and publication holds remain.
+
 - [RG2-D5I construction-query variability](resource-query-variability/report.md): all five D5H open sources have conditional native first-successful-miss pairs with different ordinary vectors. [Source proof](resource-query-variability/proofs.md), [validation](resource-query-variability/validation.md) and [independent review](resource-query-variability/review.md) preserve the common-state limits and frozen historical results. No live or publication authority.
 
 - [RG2-D5H native query reachability](resource-query-reachability/report.md): 19 conditional ordinary-mask invariants, one proved variable source and five unresolved first-miss domains across 25 projections. [Admitted native continuations](resource-query-reachability/feasibility.md) establish masks 0/3 for the selected second Feynman V source. [Validation](resource-query-reachability/validation.md) and [review](resource-query-reachability/review.md) control completion. Frozen associations and live/publication gates remain unchanged.

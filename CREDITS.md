@@ -1,5 +1,15 @@
 # Credits
 
+## RG2-D5J Terran Armada faction outpost reconnaissance
+
+Bethesda Game Studios' installed quest, beacon, worldspace, location, resource
+and compiled script content supplies the static evidence for the
+[faction outpost comparison](docs/experiments/terran-armada-outpost-recon/report.md).
+Existing project-owned ESM/BA2/PEX readers, archive-preservation and review
+methods are reused with provenance under SOR-P-0002. No proprietary scripts or
+bulk content are included in the authored delivery, and no new outside
+implementation, dependency or permission basis is introduced.
+
 ## RG2-D5I source-specific construction variability
 
 Bethesda's installed/native inputs supply the primary static evidence for the
