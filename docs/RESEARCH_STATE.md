@@ -1,5 +1,7 @@
 # Current Research State
 
+**2026-10-27 — RG2-D5L Phase A:** [Report](experiments/resource-retained-population/report.md) maps false-success markers and implements a fourteen-site observer for witnessed region construction, final ownership and later same-region hit within an observed lifetime. Actual native-shaped Windows qualification supplies complete synthetic chains; no retail or persistence result follows. [Validation](experiments/resource-retained-population/validation.md) and [independent review](experiments/resource-retained-population/review.md) govern exact disposition. The [executable proposal](experiments/resource-retained-population/run-card.md) awaits separate live GO and exact acceptance of pre-existing Cloud metadata drift. Frozen D2–D5I results, B6 and publication holds remain unchanged.
+
 **2026-10-27 — RG2-D5K blinded validation Stage A:** [Readiness report](experiments/blinded-outpost-validation/report.md)
 supplies an enforced disposable Windows boundary, strict saved-location adapter,
 conditional source wrapper, positive-only truth reducer and freeze/reveal

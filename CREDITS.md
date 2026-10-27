@@ -1,5 +1,20 @@
 # Credits
 
+## RG2-D5L first construction and retained population
+
+Bethesda Game Studios' installed/native outpost implementation supplies the
+primary evidence for the [bounded lifecycle study](docs/experiments/resource-retained-population/report.md).
+The maintainer supplied the protected corpus and authorized brief. Owned D5C
+lifecycle and D5D demand research, D5B controller/geographic/consumer methods,
+D5E monitoring/transport, C1B/C1D framing, Tungsten independent decoding, C2B save
+policy, D5H archive-backed diagnostics, D5J read-only export and exact-review
+methods are reused under SOR-P-0002 with [per-use pins](docs/experiments/resource-retained-population/sources.csv).
+Existing Ghidra/JDK, Windows, MSVC/MASM and CPython support offline exports and
+real disposable qualification. No Bethesda generation algorithm, new outside
+implementation/dependency, payload distribution, external contact or licence
+acceptance is introduced. The synthetic ABI scaffold is source-informed research;
+no clean-room claim is made.
+
 ## RG2-D5K blinded validation tooling
 
 Bethesda's installed definitions and earlier native Workshop observations supply

@@ -1,5 +1,19 @@
 # Source Register
 
+## RG2-D5L first construction and retained population
+
+2026-10-27. The [source ledger](experiments/resource-retained-population/sources.csv)
+pins installed scientific inputs, fresh read-only native exports, owned reused
+methods and decisive Windows qualification/preservation/review receipts.
+[Native boundaries](experiments/resource-retained-population/native.md) distinguish
+static VAs, relocated runtime operands and observer lifetime segments; the
+[report](experiments/resource-retained-population/report.md) limits completion to
+witnessed regions and preserves historical consumer/persistence uncertainty.
+Existing tools/code are credited under SOR-P-0002; no new outside implementation,
+dependency, external contact or disclosure occurred. Raw/native/save/build data
+remain LOCAL-ONLY, authored synthesis REVIEW-REQUIRED. The pre-existing strict
+ZIP and Cloud metadata failures remain explicit; no baseline is repaired.
+
 ## RG2-D5K blinded validation tooling
 
 2026-10-27. [Source ledger](experiments/blinded-outpost-validation/sources.csv)
