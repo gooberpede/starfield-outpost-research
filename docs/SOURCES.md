@@ -1,5 +1,20 @@
 # Source Register
 
+## D5N Phase B execution and failure analysis
+
+2026-10-28. [Authorization](experiments/resource-retained-population/d5n-phase-b-authorization.md),
+[execution report](experiments/resource-retained-population/d5n-phase-b.md) and
+[exact ledger](experiments/resource-retained-population/d5n-phase-b-sources.csv)
+bind the separate maintainer GO to one retail process and the unchanged accepted
+D5N build/46-case matrix. Existing owned observer, transport/decoder, protection,
+archive and D5M orchestration/review methods follow SOR-P-0002. The new offline
+diagnostic reducer checks this completed session without changing the observer.
+The ledger distinguishes original preflight, accepted timestamp derivative,
+postflight, operator reports, authenticated barrier and diagnostic conclusions.
+Bethesda-derived raw bytes and local receipts remain LOCAL-ONLY; authored work
+REVIEW-REQUIRED. No new outside source, code, dependency or permission basis,
+external contact, upload or publication is introduced.
+
 ## RG2-D5N alternative native observation
 
 2026-10-28. [Contract/comparison](experiments/resource-retained-population/d5n-contract.md),

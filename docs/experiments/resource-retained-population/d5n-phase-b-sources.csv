@@ -1,0 +1,51 @@
+record,role,path,sha256,classification
+D5N-B-001,Clean HEAD/index and initial inventory,.local-work/d5n-phase-b/start.json,a5ab09cef59f820839b3cfb92075af5a07e5e3a6269a7257cced0eb1a428ad96,LOCAL-ONLY
+D5N-B-002,Single Steam launch and ordinary caller,.local-work/d5n-phase-b/launch-request.json,e422f376298e3b90d5481c9e96156c8e9e354f14e05553a9ed2685ed9d4f5ea0,LOCAL-ONLY
+D5N-B-003,Exact target lifetime and ordinary tokens,.local-work/d5n-phase-b/target-identity.json,e528a3e78179d3ecddaabb85f29a05e346806a3f8120a705b0d6cadc9e39d05a,LOCAL-ONLY
+D5N-B-004,Operator report and capture limits,.local-work/d5n-phase-b/main-menu.json,170b7e007f19f4746bfd040b216bd9c2c939c127d22147c2b74e08332aaac131,LOCAL-ONLY
+D5N-B-005,Independent exact derivative acceptance,.local-work/d5n-phase-b/metadata-review.md,0846d6052f901d250d5f93e0b1230d13c6535b4eca02733907ac883d4dd4afc4,LOCAL-ONLY
+D5N-B-006,Independent pre-load barrier acceptance,.local-work/d5n-phase-b/barrier-review.md,00d44f5ee59af0a28c242651b7c0bfdd9d5d88e948524843b413ca9dec86d82e,LOCAL-ONLY
+D5N-B-007,Independent narrow failure assessment,.local-work/d5n-phase-b/failure-assessment-review.md,b1f8407424cf5acce9898df40cc589d88efcad18894c627b9ce33ebd0111271e,LOCAL-ONLY
+D5N-B-008,Decoded pre-load barrier,.local-work/d5n-phase-b/ready-verification.json,a1c90257616e2140501956b52a926d20019e372044f015a042b2fde143f392c9,LOCAL-ONLY
+D5N-B-009,Clearance and actual operator exit report,.local-work/d5n-phase-b/operator-reports.jsonl,5ebbce27a689ce6e437196092b08c5dfce98419f17b07ccfdb7bbea037ebfafa,LOCAL-ONLY
+D5N-B-010,Executed local orchestration,.local-work/d5n-phase-b/live_ops.py,721206ea3286c4f59b36e2c9b56d8f1245a6b5ef54c0f610259bcfa685772bb9,LOCAL-ONLY
+D5N-B-011,Light process/receipt/disk monitor,.local-work/d5n-phase-b/health.py,4bfb8282db21d2c5a1a9f13c982f780128d7e5f9853af9ebe89230ef6a6a058e,LOCAL-ONLY
+D5N-B-012,Barrier validation method,.local-work/d5n-phase-b/check_ready.py,93dbed17078af21788794c21f80b26bfe20e746291565bc04eaedcfa126458e2,LOCAL-ONLY
+D5N-B-013,Owned D5M archival adaptation,.local-work/d5n-phase-b/archive_run.py,47b5ddcccf739a7df165016adef6380e9a39967d51c6326bde6a1f8685eae520,LOCAL-ONLY
+D5N-B-014,Partial acquisition inventory seal,.local-work/d5n-phase-b/capture-seal.json,6917f1e260f5b7dbd3d5df2d84f75c80078a32feb4bc650c2deb06d56eda2d28,LOCAL-ONLY
+D5N-B-015,Archive creation and all-member/source checks,.local-work/d5n-phase-b/archive-create.json,8d0eeba753b4f31371e657cea79be26a6218db7c098b42a442d0f42fe97b9517,LOCAL-ONLY
+D5N-B-016,Separate streaming archive verification,.local-work/d5n-phase-b/archive-verify.json,f2a4827191bee4941d67bbc4a15109428e42327606ea0e12d24d9d3b6afc6d6d,LOCAL-ONLY
+D5N-B-017,Private lossless evidence archive,.local-work/d5n-phase-b/d5n-phase-b-evidence.zip,c99d0553545724add3ad85fce73cb9664ae52ca635032017c4a2f88f1c362624,LOCAL-ONLY
+D5N-B-018,Owned D5M exact exporter adaptation,.local-work/d5n-phase-b/package.py,811f362aa004d331b67ec22c4aa5e7cbb0c268e46ee0fe1477720208ec0cfe27,LOCAL-ONLY
+D5N-B-019,Ledger/exporter reconstruction method,.local-work/d5n-phase-b/prepare_delivery.py,8fdea79220c7ce629cf667be9bcf0296111e48bb56d6124d0386d1e05cdc7914,LOCAL-ONLY
+D5N-B-020,Original full preflight,.local-work/resource-retained-population/d5n-phase-b-preflight01/preflight.json,00bc04947eb61246b6a1f3f22d4f9e61a448737c35e12a212cb597f0b6da377e,LOCAL-ONLY
+D5N-B-021,Accepted timestamp-only derivative,.local-work/resource-retained-population/d5n-phase-b-preflight01-plugins-metadata.json,22b089c81fc28fb13ffd069245c787170fb6e2989348d32ea637d05d66070878,LOCAL-ONLY
+D5N-B-022,Fresh full postflight,.local-work/resource-retained-population/d5n-phase-b-postflight01/preflight.json,2aeea9cac3130b658c655896f666236d33fddbb86352e895e5b186b9752d5bb8,LOCAL-ONLY
+D5N-B-023,All sixteen protected comparisons,.local-work/resource-retained-population/d5n-phase-b-postflight-comparison01.json,af9d56c2aaf45f435de5654742acf7dda2b8dfb94a6b3e5c1d15e4deab5d86e2,LOCAL-ONLY
+D5N-B-024,Verbatim one-session GO and exact hybrid interventions,.local-work/resource-retained-population/d5n-phase-b-admission01.json,d948457b2885d4caef1aeeeec26a2b5c5b1e3034f1b20ecc0696bc0197a2a55e,LOCAL-ONLY
+D5N-B-025,One-use consumption,.local-work/resource-retained-population/d5n-phase-b-admission01.consumed.json,5417bd2f50100d020160f0cacb303f68773b18e2e5e168d27c6446f204f6bef2,LOCAL-ONLY
+D5N-B-026,Authenticated retail reduction,.local-work/resource-retained-population/d5n-phase-b-reviewed01.json,649289f7bd42f235b5f1ff9b9e13faa6519dc1684d20d57a042ed58547c63247,LOCAL-ONLY
+D5N-B-027,Offline diagnostic reduction,.local-work/resource-retained-population/d5n-phase-b-forensics01.json,be9f357b0183a12e13fb231a8dabc3daf503eb0a641fa01c5dde892a2db9df01,LOCAL-ONLY
+D5N-B-028,Unchanged accepted 64-pin manifest,.local-work/resource-retained-population/d5n-build11/build.json,b7d9db154ba2b166da96adc579f937fc3eb07f5f5343abc4e5183bfe2de1b2c3,LOCAL-ONLY
+D5N-B-029,Exact compiled controller source,.local-work/resource-retained-population/d5n-build11/controller.cpp,afd544830bf732837a36531afd0bbda05a4ceb89525e12da3e0d8401259c544d,LOCAL-ONLY
+D5N-B-030,Accepted 46-case matrix,.local-work/resource-retained-population/d5n-qualification11/results.json,cc19db1a17e2037084aec09cd0eee32bbde73c435d2ec6e9879e792f9f55a41f,LOCAL-ONLY
+D5N-B-031,Accepted independent qualification aggregate,.local-work/resource-retained-population/d5n-qualification11/aggregate.json,28f8d92a9d2e75f0af851602828918c71cee28f74e8012900079a399974abafb,LOCAL-ONLY
+D5N-B-032,Original quiescent capture member,.local-work/resource-retained-population/d5n-phase-b-capture01/admission.json,d948457b2885d4caef1aeeeec26a2b5c5b1e3034f1b20ecc0696bc0197a2a55e,LOCAL-ONLY
+D5N-B-033,Original quiescent capture member,.local-work/resource-retained-population/d5n-phase-b-capture01/capture-000001.ack.json,ca5150caf155a03ebdd410df1fe734f1d26da4305d76c94b05b103b250348ab8,LOCAL-ONLY
+D5N-B-034,Original quiescent capture member,.local-work/resource-retained-population/d5n-phase-b-capture01/capture-000001.bin,0fb72e1cf1bc1f211703249b2ed993a8f42ea38df7993d68185b70e82b2aac2b,LOCAL-ONLY
+D5N-B-035,Original quiescent capture member,.local-work/resource-retained-population/d5n-phase-b-capture01/control.jsonl,6aabbc612e8865c2ad063e9a475cd0e5b3addc56998cc86691e2919a6ecc7c10,LOCAL-ONLY
+D5N-B-036,Original quiescent capture member,.local-work/resource-retained-population/d5n-phase-b-capture01/controller-exit.json,18567959e8e7fbb48d000a04c031547e34401dae5eff30aeb5a3a2d874ef4fd1,LOCAL-ONLY
+D5N-B-037,Original quiescent capture member,.local-work/resource-retained-population/d5n-phase-b-capture01/events.jsonl,9b0c1af35acc9da74ccb037590aef967c092f492a1ede9e851dc8bb56b3a24f1,LOCAL-ONLY
+D5N-B-038,Original quiescent capture member,.local-work/resource-retained-population/d5n-phase-b-capture01/READY.json,21f94fbfab6d7a61cdf6a3726fd07a826cbd4750d0504194b0706343ffeb8edc,LOCAL-ONLY
+D5N-B-039,Original quiescent capture member,.local-work/resource-retained-population/d5n-phase-b-capture01/stderr.txt,b76223c755f9aa756a372717ec730105f51d91ce252b736f64019a4f08182e9b,LOCAL-ONLY
+D5N-B-040,Maintained owned method,research/resource-retained-population/postmortem_d5n.py,926826209a05f5940c7e9659f614350927a6d198d33ea66770ce58685ae3bb4c,REVIEW-REQUIRED
+D5N-B-041,Maintained owned method,research/resource-retained-population/review_hybrid.py,73822f15d76e01ba93b8f4e79440c5ee2a6be126546c16e43e41e76789ef22b3,REVIEW-REQUIRED
+D5N-B-042,Maintained owned method,research/resource-retained-population/operate_hybrid.py,ac90509d5fda1a59985a96b0799374affcb39ad63f60bd9de7249ddb72d61128,REVIEW-REQUIRED
+D5N-B-043,Maintained owned method,research/resource-retained-population/preservation_native.py,df269276d6efe0a49f27400ca27debdfba02348d17b3036560ec464b33e21d99,REVIEW-REQUIRED
+D5N-B-044,Maintained owned method,research/resource-retained-population/launch_metadata.py,bf877b5b837b5800480b367fb9b03e853157b48968f3fa64babf78af5049df74,REVIEW-REQUIRED
+D5N-B-045,Maintained owned method,research/resource-retained-population/hybrid.py,5d9311a3e3096a55128ad193105f8c0ca2ec94d69c8f6eec558fa7b0891e6f8d,REVIEW-REQUIRED
+D5N-B-046,Exact owned adaptation origin under SOR-P-0002,.local-work/d5m-phase-b/package.py,1972d3d20f9856daccadae8e1867e5aa0dc89a010cfd21099036abc716333115,LOCAL-ONLY
+D5N-B-047,Exact owned adaptation origin under SOR-P-0002,.local-work/d5m-phase-b/archive_run.py,6b98c43bf09479961c9a76b96abaf0a20c889e43a068f1273dec3c19109a50f5,LOCAL-ONLY
+D5N-B-048,Exact owned adaptation origin under SOR-P-0002,.local-work/d5m-phase-b/live_ops.py,b6a932e0a95211e24fa9c94d5f8c34c90b3f81350ed0c51a97bbdb881a6e6b8d,LOCAL-ONLY
+D5N-B-049,Shared owned phase-aware archive method,runtime/session-tools/archive.py,0b5961eb8e4a49a59981b9c771d87bb281e697146934d90d4247215b9622a3b8,REVIEW-REQUIRED
+D5N-B-050,Unchanged accepted run card,docs/experiments/resource-retained-population/run-card-d5n-v1.md,1473bde013099a045ca200e5f8591a176101474c2225cb36ae9b66d6e69d9777,REVIEW-REQUIRED

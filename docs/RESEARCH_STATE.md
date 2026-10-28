@@ -1,5 +1,19 @@
 # Current Research State
 
+**2026-10-28 — D5N Phase B hardware-coverage failure:**
+[The separately approved execution](experiments/resource-retained-population/d5n-phase-b.md)
+reached an independently accepted fourteen-site/91-thread pre-load barrier,
+then its first delivered software reset probe failed the continuous hardware
+coverage check during operator-reported Save52 loading. Authorized controller
+cleanup terminated/drained the game. One authenticated barrier and no scientific
+samples, decisions or chains survived; acquisition is INCOMPLETE and no outpost
+negative result follows. The failed peer/API/register state remains unknown.
+Full protected-input postflight and lossless archive verification pass with raw
+originals retained. [Completion review](experiments/resource-retained-population/d5n-phase-b-review.md)
+governs the exact failed-execution account. Retail use is NO-GO pending separate
+engineering work and fresh GO. There was no retry; B6 and publication stay on hold.
+Independent engineering and scientific review accept the failed-execution account.
+
 **2026-10-28 — D5N alternative native observation:**
 [Phase A study](experiments/resource-retained-population/d5n-report.md) compares
 hardware-first, hybrid and in-process routes against a minimal copied-region

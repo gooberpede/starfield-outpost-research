@@ -1,5 +1,17 @@
 # Credits
 
+## D5N Phase B execution
+
+The maintainer approved the bounded hybrid run, confirmed Cloud isolation and
+performed the menu/Save52 actions. The [execution account](docs/experiments/resource-retained-population/d5n-phase-b.md)
+uses the unchanged qualified project-owned observer, independent decoder and
+protection methods, adapting owned D5M orchestration/archive/review packaging
+under SOR-P-0002. Bethesda supplied the locally owned game/save inputs; installed
+Steam, Windows and CPython supplied execution facilities. Exact method and
+receipt provenance is in the D5N Phase B ledger. No new outside implementation,
+dependency, installation, contact or disclosure was introduced. Independent
+reviewers supplied the recorded engineering/scientific/editorial challenge.
+
 ## RG2-D5N alternative native observation
 
 The maintainer supplied the Phase A brief and protected scientific inputs.
