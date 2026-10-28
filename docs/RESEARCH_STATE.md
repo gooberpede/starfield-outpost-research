@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-10-28 — D5M Phase B breakpoint failure:**
+[The approved execution](experiments/resource-retained-population/d5m-phase-b.md)
+retained 493 verified receipts after a fourteen-site/89-thread pre-load barrier,
+but exited during reported fast-travel before any selected-source decision or
+construction–reuse chain. Full protected-input postflight passed and the lossless
+archive verifies with raw originals retained. [The post-mortem](experiments/resource-retained-population/d5m-phase-b-postmortem.md)
+finds no recorded exception delivery from the dump's faulting main thread at the
+armed Grid-clear site. Recorded continuations/rearm and handle ownership check
+out; the initiating delivery mechanism remains unknown. Retail observer use is
+NO-GO pending engineering work and separate authority; no retry, B6 or publication
+is authorized. Independent engineering and scientific review accept the failed-execution record.
+
 **2026-10-28 — D5M offline debugger repair:**
 [Phase A qualification](experiments/resource-retained-population/debugger-repair.md)
 passes all 42 real Windows cases on the final pinned build, with independent

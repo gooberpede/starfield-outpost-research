@@ -1,5 +1,15 @@
 # Credits
 
+## D5M Phase B execution
+
+The maintainer approved the bounded live run, confirmed Cloud isolation and
+performed the main-menu, Save52 and travel actions. Existing project-owned
+observer, independent decoder/reducer, protection and lossless archive methods
+were reused under SOR-P-0002; the [ledger](docs/experiments/resource-retained-population/d5m-phase-b-sources.csv)
+pins their exact provenance. Windows supplied the existing crash dump, WER report
+and Application records. The [post-mortem](docs/experiments/resource-retained-population/d5m-phase-b-postmortem.md)
+distinguishes those observations from the unproved delivery mechanism.
+
 ## RG2-D5M debugger reliability
 
 The maintainer supplied the bounded repair brief and protected D5L evidence.

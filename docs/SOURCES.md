@@ -1,5 +1,17 @@
 # Source Register
 
+## D5M Phase B execution and post-mortem
+
+2026-10-28. [Execution](experiments/resource-retained-population/d5m-phase-b.md),
+[post-mortem](experiments/resource-retained-population/d5m-phase-b-postmortem.md)
+and [bounded receipt ledger](experiments/resource-retained-population/d5m-phase-b-sources.csv)
+bind the accepted owned observer/transport/preservation/archive methods at HEAD
+`84ff4f758a2cd45496512d21a084c0b90df4ab8d`, the original retail capture and the
+existing PID-qualified dump/WER/Application records. Ordinary-user crash-evidence
+access was explicitly authorized. No outside implementation or new dependency
+was incorporated. Raw/private evidence remains LOCAL-ONLY; synthesis and the
+standalone postflight method remain REVIEW-REQUIRED.
+
 ## RG2-D5M debugger reliability repair
 
 2026-10-28. [The report](experiments/resource-retained-population/debugger-repair.md)

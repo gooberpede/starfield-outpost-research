@@ -1,5 +1,7 @@
 # Experiments
 
+- [D5M Phase B execution](resource-retained-population/d5m-phase-b.md): one approved ordinary-user process, 493 verified receipts and an unexpected Grid-clear breakpoint exit before target acquisition. [Post-mortem](resource-retained-population/d5m-phase-b-postmortem.md) narrows the missing fault-thread delivery; full protection and local archival pass. Further retail use is NO-GO.
+
 - [RG2-D5M debugger reliability repair](resource-retained-population/debugger-repair.md): borrowed-handle repair, qualified existing dump, durable continuation diagnostics and disposable Windows requalification. [Versioned Phase B proposal](resource-retained-population/run-card-d5m-v1.md) requires separate GO; no retail execution is authorized.
 
 - [RG2-D5L retained population](resource-retained-population/report.md): native false-success and lifecycle contract, fourteen-site observer and bounded Windows region→ownership→reuse qualification. [Native register](resource-retained-population/native.md), [validation](resource-retained-population/validation.md), [Phase A review](resource-retained-population/review.md), [executed proposal](resource-retained-population/run-card.md). [Phase B](resource-retained-population/phase-b.md) retained 493 verified receipts but no target decision before a probe-associated exit. [Post-mortem](resource-retained-population/phase-b-postmortem.md) recommends REWORK before reuse; further live authority is required. Cloud metadata is diagnostic under the prospective amendment.
