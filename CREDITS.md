@@ -1,5 +1,19 @@
 # Credits
 
+## D5L Phase B execution
+
+The maintainer operated the Steam launches, protected Save52 load and ordinary
+travel sequence, and supplied the Cloud-state confirmations and explicit retry
+authorization. Existing project-owned D5L observation/receipt methods, C2B save
+protection, D5H preservation checks and session-tools archival/review methods
+were reused unchanged under SOR-P-0002.
+[Microsoft's DebugActiveProcess documentation](https://learn.microsoft.com/windows/win32/api/debugapi/nf-debugapi-debugactiveprocess)
+informed the access-denial diagnosis; no third-party code was incorporated.
+Microsoft's debugging-event and continuation documentation also supplied the
+handle-ownership and exception-processing rules used in the post-mortem.
+The [Phase B record](docs/experiments/resource-retained-population/phase-b.md)
+separates operational observations from unresolved scientific questions.
+
 ## RG2-D5L first construction and retained population
 
 Bethesda Game Studios' installed/native outpost implementation supplies the

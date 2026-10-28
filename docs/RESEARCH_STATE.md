@@ -1,5 +1,19 @@
 # Current Research State
 
+**2026-10-28 — D5L Phase B and ordinary-user retry:**
+[The execution record](experiments/resource-retained-population/phase-b.md)
+preserves an initial sandbox access denial and a separately authorized retry
+which reached a verified fourteen-site/93-thread barrier. The retry retained
+493 bound receipts but exited before target decisions or a construction–reuse
+chain. Windows crash evidence identifies the exact armed Grid-clear probe;
+the precise mechanism remains unknown. Both full postflights protect all 98
+save names/backups and installed/configuration inputs. The
+[post-mortem](experiments/resource-retained-population/phase-b-postmortem.md)
+also identifies a separate handle-ownership defect and recommends engineering
+REWORK before reuse. Scientific acquisition remains incomplete; no further
+retail attempt, B6 or publication is authorized. This records the later execution
+of the previously proposed card without changing the dated Phase A results below.
+
 **2026-10-28 — D5L Cloud metadata amendment:**
 [Policy and focused verification](experiments/resource-retained-population/cloud-metadata-amendment.md)
 classify `remotecache.vdf` as diagnostic synchronization metadata and remove its

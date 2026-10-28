@@ -1,5 +1,25 @@
 # Source Register
 
+## D5L Phase B execution and ordinary-user retry
+
+2026-10-28. [Authorization](experiments/resource-retained-population/phase-b-authorization.md)
+records both direct maintainer instructions. The
+[Phase B report](experiments/resource-retained-population/phase-b.md) and its
+local receipt ledger bind the actual preflights, metadata-only incident reviews,
+ordinary-user caller identity, native barrier, capture, postflights and archive.
+The unchanged D5L build/source closure and prior qualification retain their
+original pins; no new instrumentation or external implementation is introduced.
+[Microsoft DebugActiveProcess](https://learn.microsoft.com/windows/win32/api/debugapi/nf-debugapi-debugactiveprocess)
+was consulted read-only for required target access. Its privilege/access
+description supports the sandbox diagnosis, not a reconstructed target DACL.
+[Debugging Events](https://learn.microsoft.com/en-us/windows/win32/debug/debugging-events),
+[ContinueDebugEvent](https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-continuedebugevent)
+and [exception handling](https://learn.microsoft.com/en-us/windows/win32/debug/debugger-exception-handling)
+support the separate handle-ownership finding and proposed control diagnostics.
+Raw captures, saves, receipts and archives remain LOCAL-ONLY; authored synthesis
+is REVIEW-REQUIRED. Historical Cloud/ZIP failures and scientific classifications
+are preserved.
+
 ## D5L diagnostic Cloud metadata amendment
 
 2026-10-28. The maintainer's offline amendment and its original requirements are

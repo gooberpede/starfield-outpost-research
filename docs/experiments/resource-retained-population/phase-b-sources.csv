@@ -1,0 +1,31 @@
+record,role,path,sha256,classification
+build,Unchanged accepted build,.local-work/resource-retained-population/native-build13/build.json,84af64adf824a659f39525e42a0975d90c9b72aaec56d862064475b29cca475d,LOCAL-ONLY
+qualification,Historical synthetic qualification; not rerun,.local-work/resource-retained-population/native-qualification09/results.json,6cbf77f475fc2c63f2e2f0f1d8ef0419b4d1557c57f6b0d60b3754c2532b964d,LOCAL-ONLY
+preflight-first,Original offline receipt,.local-work/resource-retained-population/phase-b-preflight01/preflight.json,c9b92b3e99843575df0c85db9e8e55943ece42e28b63e1d4a96cf377ff7a7543,LOCAL-ONLY
+refresh-first,Reviewed timestamp-only derivative,.local-work/resource-retained-population/phase-b-preflight01-refreshed.json,ce457857f887b5bb16f80daf28d2365c5d36d95b03d866127419b5a02c0fff1d,LOCAL-ONLY
+admission-first-failed,Stopped before consumption,.local-work/resource-retained-population/phase-b-admission01.json,99d173ab7f36ec879ff34301dfd26b9779089c9309808cea30f394cc54262978,LOCAL-ONLY
+admission-first-consumed,Sandbox attempt,.local-work/resource-retained-population/phase-b-admission02.json,583cc1ea8f528dd3ad9f7c9c7b3de4bb51755ef8631b1c1d6c21329bafb0714e,LOCAL-ONLY
+raw-first,Pre-evidence failure journal,.local-work/resource-retained-population/phase-b-capture01/events.jsonl,32779343d1a5cfe8277415101f4cffd80437b3b1452f96883b48bebf329b7cf4,LOCAL-ONLY
+postflight-first,Full after-exit receipt,.local-work/resource-retained-population/phase-b-postflight01/preflight.json,d353c773e035f7b05cb1a3c371aaeaa071b3c2c690985620515d2589db2befc3,LOCAL-ONLY
+comparison-first,Preservation PASS,.local-work/resource-retained-population/phase-b-postflight-comparison01.json,c056a56f0f4442177a041eb7011265871b66ec072ccccc0bbf6684c204654cd0,LOCAL-ONLY
+preflight-retry,Fresh original offline receipt,.local-work/resource-retained-population/phase-b-preflight02/preflight.json,4408b916272a5df91e57af2b8fe15ddb5902d2b47c610f14fa9fe83585d67fd6,LOCAL-ONLY
+refresh-retry,Reviewed timestamp-only derivative,.local-work/resource-retained-population/phase-b-preflight02-refreshed.json,f336638b521d13cc0bcbb93e3f6ee946c4203563b43126567f66ce7a6dc6c963,LOCAL-ONLY
+admission-retry,Ordinary-user retry,.local-work/resource-retained-population/phase-b-admission03.json,4b4c3331b1f6a3d77fe0bab28ded0247b445033197413b5f13148d9c867166d3,LOCAL-ONLY
+caller-retry,Measured ordinary-user context,.local-work/d5l-phase-b/ordinary-caller02.json,7f6d8b1325a9da17280bb4eb384b3b121a89246313d736c36da36640a693a9bc,LOCAL-ONLY
+barrier-retry,Durable arming barrier,.local-work/resource-retained-population/phase-b-capture02/capture-000001.bin,4386809b5a8c25229a52261f49ca947914f19124b51b49e088ee73187687c94a,LOCAL-ONLY
+ready-retry,Native session/barrier binding,.local-work/resource-retained-population/phase-b-capture02/READY.json,3b76f6cf2acbde610c6d9a204a11b9feb0eee549f4585f8b83d4823ba5677956,LOCAL-ONLY
+ready-check,Independent pre-load verification,.local-work/d5l-phase-b/ready02-check.json,8e1d209776398496468412ba782b7442a9cdee89638fd37b3724defbd0cf3b26,LOCAL-ONLY
+raw-retry,Complete retained event journal,.local-work/resource-retained-population/phase-b-capture02/events.jsonl,e39fddbd454b8f2d56960af7364378f67b75fe51d96bea55d5328faaa0ef2abb,LOCAL-ONLY
+reviewed-retry,493 bound receipts and reduction,.local-work/resource-retained-population/phase-b-reviewed02.json,a8bdced9ce44c3cca61f2f3d0d2b431ad7668d6a37971aafa661f6a03fd51cd9,LOCAL-ONLY
+windows-events,Local Windows messages/XML,.local-work/d5l-phase-b/windows-starfield-events.json,bab0b5182e0e2e0f99051eac7f8c727f666bd17868c6af4ea4bb7aa0a3d5da1e,LOCAL-ONLY
+crash-correlation,Same-process owned-site correlation,.local-work/d5l-phase-b/crash-correlation01.json,9e68bd7da5537be3b0192cc180f5fc7452da0b9ae17f33ab389c1d6bbff65ca8,LOCAL-ONLY
+postflight-retry,Full after-exit receipt,.local-work/resource-retained-population/phase-b-postflight02/preflight.json,9f8f625389fe2413053d466f0d35fff796b937409da291e5d742047d9f90ff87,LOCAL-ONLY
+comparison-retry,Preservation PASS,.local-work/resource-retained-population/phase-b-postflight-comparison02.json,1ca8b3dafa17ad23f96a1637f06fc6b8b7c7d240452646a4b26cdf7b38c3f80d,LOCAL-ONLY
+incident-review-first,Independent exact bridge acceptance,.local-work/d5l-phase-b/incident-review.md,1a0f88f7c40a8e7f567e6f1c5b8504b6aae71c641c32d16ad7f9a03e98cebe35,LOCAL-ONLY
+incident-review-retry,Independent exact bridge/wrapper acceptance,.local-work/d5l-phase-b/incident02-review.md,4507e9ca243319139db54f250c1db19faf1e105519575e6d7291aad00c736ea2,LOCAL-ONLY
+frozen-check,32 unchanged method/history files,.local-work/d5l-phase-b/final-verification.json,8bf6b32212acea4cc406958b7062b7cd10483ad7dd35737bf04086da5f77b48c,LOCAL-ONLY
+seal,PARTIAL source-content seal,.local-work/d5l-phase-b-archive/seal.json,05e3578d2df5cd7a80a0684f7510a2115d35b1262a24c2deb902100f58460b6d,LOCAL-ONLY
+archive,Lossless local archive; originals retained,.local-work/d5l-phase-b-archive/evidence.zip,609efea5642ec4d225ad2381abdf658abf8da9d986b98c5275a3472724548a0b,LOCAL-ONLY
+archive-verify,All 1065 members stream-verified,.local-work/d5l-phase-b-archive/verify.json,34f8b0ba80b84e83de97032a8bf3fe9ef3049910293486b207b93d62f9cfadd5,LOCAL-ONLY
+postmortem-review,SUPERSEDED chronology error; original technical return preserved,.local-work/d5l-phase-b-final/native-postmortem-review.md,e28ab13b724656d7638c9fc1f3cc1d9dcd3295589984eed0d55de51524444365,LOCAL-ONLY
+postmortem-correction,Corrected full ordering and scoped causal assessment,.local-work/d5l-phase-b-final/native-postmortem-correction.md,07de1b8cedf7b71c1fda482a5fa2b406d823ba06f284e4bc8e1f93cf1b65188c,LOCAL-ONLY
