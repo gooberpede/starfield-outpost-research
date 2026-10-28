@@ -1,5 +1,19 @@
 # Source Register
 
+## D5O Phase B execution and Grid-clear fault
+
+2026-10-29. [Exact source/evidence ledger](experiments/resource-retained-population/d5o-phase-b-sources.csv)
+binds accepted D5O build08/proof, approved card and fresh protection/admission,
+all native receipts through the lossless seal, existing identity-qualified
+OS dump/Windows records and local offline analysis. [Report](experiments/resource-retained-population/d5o-phase-b.md)
+preserves failed retail acquisition, successful observed coverage and unknown
+delivery mechanism. Owned D5O/D5N/D5M tools and shared session/archive/export
+methods are reused under SOR-P-0002 from task HEAD
+`ce456ec559a028947e0a67fec52ba38b3a47d7ce`; unchanged Phase A source provenance
+remains controlling. No new outside implementation, licence basis, dependency,
+contact, upload or publication. Raw evidence LOCAL-ONLY; authored synthesis
+REVIEW-REQUIRED.
+
 ## RG2-D5O coverage diagnosis and repair
 
 2026-10-28. The [report](experiments/resource-retained-population/d5o-report.md)

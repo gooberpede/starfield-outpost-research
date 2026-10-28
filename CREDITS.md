@@ -1,5 +1,18 @@
 # Credits
 
+## D5O Phase B execution and failure analysis
+
+The separately approved [execution](docs/experiments/resource-retained-population/d5o-phase-b.md)
+uses the accepted owned D5O/D5N hybrid controller, readiness proof and native
+reader/reducer, inherited D5M/D5N local orchestration and dump-analysis methods,
+and shared phase-aware archival/review export under SOR-P-0002. Maintainer
+Save52/operator reports and local Bethesda native/installed inputs supply primary
+evidence. Existing Windows crash records supply independently bound fault
+metadata. [Exact provenance](docs/experiments/resource-retained-population/d5o-phase-b-sources.csv)
+separates observed checks from missing exception delivery and unknown cause.
+No outside code, dependency, contact or disclosure was introduced; proprietary
+and private evidence remains local.
+
 ## RG2-D5O hardware coverage qualification
 
 The maintainer supplied the bounded repair brief and protected D5N evidence.

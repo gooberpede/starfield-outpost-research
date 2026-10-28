@@ -1,0 +1,140 @@
+record,role,path,sha256,classification
+D5O-B-001,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/analyze_control.py,0ae26b5976b8037656faab397f61d4f2f2dc3ea0d3b1ce92c023d0448e2857b4,LOCAL-ONLY
+D5O-B-002,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/archive-create.json,9cbe5d54739e888e301d1f88668dce80ffa8dc8a57a90cf414a4565a4af68689,LOCAL-ONLY
+D5O-B-003,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/archive-roots.json,5e6843f8ac0d65e3bfbf49b152e5638ee9321985be08b14c8a46a41177d8d84d,LOCAL-ONLY
+D5O-B-004,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/archive-verify.json,038f254970dbe3a3403331d7230222309390f024829e4173fb24f8786342638f,LOCAL-ONLY
+D5O-B-005,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/archive_run.py,4255605505fecbfaeb391e0df8131a4e992ce455bc81dcbdf47f6a8dfd1dc4f7,LOCAL-ONLY
+D5O-B-006,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/barrier-engineering-review.md,efd7399de6a14301a8cd95c7c42c3506b8088433a8d5b852c714cc01ee556626,LOCAL-ONLY
+D5O-B-007,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/barrier-scientific-review.md,8f3ec7d7e05de7be1daa7b92a268bf4b0e858764cb358bd240543b271058f013,LOCAL-ONLY
+D5O-B-008,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/begin.py,2da4386bbcb7ad2aefb6e8bc89dfc0e3a58d2039c8f10cc862ca9ffc30fe25ce,LOCAL-ONLY
+D5O-B-009,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/capture-seal.json,f64fbeed33cdbd5ee541288b823aab9c3ff12d80739e9128dd0266e7a4f2d62a,LOCAL-ONLY
+D5O-B-010,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/check_ready.py,8aed7d6690ef0c14a1d847684195e1248ad0f918caa2a0c1477c2fa1334d1773,LOCAL-ONLY
+D5O-B-011,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/d5o-phase-b-evidence.zip,cf72933f644d1f9ccc0d3fbeb950c368e2981b1400d6ae8c1a1b2566edcc3189,LOCAL-ONLY
+D5O-B-012,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/dump-context.json,51fdfb229ac7bd846dc1bca41f1537bce2eea0b04b87be085bfcb972efeb4b2d,LOCAL-ONLY
+D5O-B-013,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/dump.json,d0131157bcb0f237a1f62064d6a2599638b8ed3e7ef129450cf8daed8dd96efa,LOCAL-ONLY
+D5O-B-014,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/forensics.json,64fde29f88606fa5741bdf307cf61e60f72b60e9b47517e53b7827ec33006880,LOCAL-ONLY
+D5O-B-015,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/health.py,95e5a3551a9043dccd2be9e73806254b81fd46c6c32d3a7f9f99a11c033906a2,LOCAL-ONLY
+D5O-B-016,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/live_ops.py,b12d572a24f8d4a73954a9c1ec3c1f0faef57beb74ae3f9def5b6961160793c9,LOCAL-ONLY
+D5O-B-017,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/main-menu.json,0862120be78db974bc37f918fa3affb082d772ee40899f30d2dc360b9b0d0b7b,LOCAL-ONLY
+D5O-B-018,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/make_ledger.py,01ec1087de743578cc3949b166160a4693da1a2776413419a9e7e66c7bd9f6af,LOCAL-ONLY
+D5O-B-019,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/metadata-review.md,4b83ae5ac76e28812cf4325327a9d2e597bbfc7e6dae51623567a76517ba45af,LOCAL-ONLY
+D5O-B-020,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/operator-reports.jsonl,adc4b22c49226e787c99779171025f661abbfd0f09b81178491a5e462d13b083,LOCAL-ONLY
+D5O-B-021,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/package.py,d4ef98a871a7ddfeebaad60ed0e71eb8b2995569bf15620ff4d9915e5733dd36,LOCAL-ONLY
+D5O-B-022,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/preflight-engineering-review.md,4c42088d422c8d1873cf549f7d31bea6e02aa092aeb15591bcd6cdcc6d119e31,LOCAL-ONLY
+D5O-B-023,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/preflight-scientific-review.md,6acea6fcf3644660610597f753813b68c0aaabdc11cde0d17d99163ecfd3ae81,LOCAL-ONLY
+D5O-B-024,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/prepare_helpers.py,59e49d931d8ed4e6d297884d530901677a71e4e10542f59df08285ef87e7b852,LOCAL-ONLY
+D5O-B-025,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/ready-verification.json,fec4f1c6c34b7019f53afbe65f9cab9b3bc0a13942620dc9c877a995e8b4ea3d,LOCAL-ONLY
+D5O-B-026,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/record_clearance.py,124940b1a91f5d33ec7cc57bacbecc5776a0fc02fad21c97a8db84a7654955de,LOCAL-ONLY
+D5O-B-027,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/record_menu.py,8ff507e68d91762180d36a50761e9de00fbbd7732c3c9a745e11568d00a4a02f,LOCAL-ONLY
+D5O-B-028,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/start.json,c31bed4db91fbef3d569c9313515fd6554a2ea4a87845914fdef75c59192a019,LOCAL-ONLY
+D5O-B-029,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/target-identity.json,a0127d3f23be1ecc5fb322d42c8d6a713d9b9ec8332dd33dbd0fe7ddcdfe3e58,LOCAL-ONLY
+D5O-B-030,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/windows-evidence.json,6bfb44847a4aba17f40b28048fd3cc22ec55937e93a49eb4dbbe5f374f2d8947,LOCAL-ONLY
+D5O-B-031,"Selected task method, evidence, private archive or independent gate review",.local-work/d5o-phase-b/windows_evidence.ps1,96df6f8aa4f0fc233544b891489ad8ac3d0168e5e162439cee2d513d644d3377,LOCAL-ONLY
+D5O-B-032,Full offline protection/site audit receipt,.local-work/resource-retained-population/d5o-phase-b-preflight01/preflight.json,661a9cf8bba21b3c73822ddca574c4a30a3e7e20d3a21cf5fa8cc1e8e7a66a36,LOCAL-ONLY
+D5O-B-033,Full offline protection/site audit receipt,.local-work/resource-retained-population/d5o-phase-b-preflight01/remaining-inputs.json,332fa0af4cb1a9e8fa186401fc0aa9bbfb38236a8052bc6b2c69d3a2675457ec,LOCAL-ONLY
+D5O-B-034,Full offline protection/site audit receipt,.local-work/resource-retained-population/d5o-phase-b-preflight01/sites.json,7869f392204a119504eea5906a37faf7624f818c064956d2a15fb00666fdd8cc,LOCAL-ONLY
+D5O-B-035,Full offline protection/site audit receipt,.local-work/resource-retained-population/d5o-phase-b-preflight01/sync-audit.json,f300e847edfef2cf32865a935426dfb43c374603cad36ea69f75fee65540d980,LOCAL-ONLY
+D5O-B-036,Full offline protection/site audit receipt,.local-work/resource-retained-population/d5o-phase-b-preflight01/start.json,aebc17184f47b67cab5ba91735a5b03a3079461435301ab6ff9575a30cf56726,LOCAL-ONLY
+D5O-B-037,Full offline protection/site audit receipt,.local-work/resource-retained-population/d5o-phase-b-postflight01/preflight.json,ed8b015112298bcf562ee8cb3456736e79fb80c4a1a4b04f0866e1e346ef8522,LOCAL-ONLY
+D5O-B-038,Full offline protection/site audit receipt,.local-work/resource-retained-population/d5o-phase-b-postflight01/remaining-inputs.json,41b139576442fa0c158850464751ada020abf6fca4971613668c30753380e58e,LOCAL-ONLY
+D5O-B-039,Full offline protection/site audit receipt,.local-work/resource-retained-population/d5o-phase-b-postflight01/sites.json,7869f392204a119504eea5906a37faf7624f818c064956d2a15fb00666fdd8cc,LOCAL-ONLY
+D5O-B-040,Full offline protection/site audit receipt,.local-work/resource-retained-population/d5o-phase-b-postflight01/sync-audit.json,f300e847edfef2cf32865a935426dfb43c374603cad36ea69f75fee65540d980,LOCAL-ONLY
+D5O-B-041,Full offline protection/site audit receipt,.local-work/resource-retained-population/d5o-phase-b-postflight01/start.json,aebc17184f47b67cab5ba91735a5b03a3079461435301ab6ff9575a30cf56726,LOCAL-ONLY
+D5O-B-042,"Exact admission, checked reduction or protection comparison",.local-work/resource-retained-population/d5o-phase-b-preflight01-plugins-metadata.json,e2d8a71b78263a7a4235d42ea13eb13b957ee6257298b22062ca491a4260c080,LOCAL-ONLY
+D5O-B-043,"Exact admission, checked reduction or protection comparison",.local-work/resource-retained-population/d5o-phase-b-admission01.json,27cf0ed01c66e463ae5c642680ddf00b0fb9640c6568f740cdacaaee16010749,LOCAL-ONLY
+D5O-B-044,"Exact admission, checked reduction or protection comparison",.local-work/resource-retained-population/d5o-phase-b-admission01.consumed.json,cceee994190347cfea27ff51843200ffdb002a73de2713bf3afedf5994ded58f,LOCAL-ONLY
+D5O-B-045,"Exact admission, checked reduction or protection comparison",.local-work/resource-retained-population/d5o-phase-b-postflight-comparison01.json,506c74c1f7a6e4e2bcb9b393f5c09e84509fc450f8f30af930dad1ebc26d4509,LOCAL-ONLY
+D5O-B-046,"Exact admission, checked reduction or protection comparison",.local-work/resource-retained-population/d5o-phase-b-reviewed01.json,573b4b05daeffc43ef03e3f50c75fab743c240c90c1cd1c3d1b2ca8d7830a1be,LOCAL-ONLY
+D5O-B-047,Quiescent capture; every SRO1/ACK member is individually pinned by capture-seal.json,.local-work/resource-retained-population/d5o-phase-b-capture01/admission.json,27cf0ed01c66e463ae5c642680ddf00b0fb9640c6568f740cdacaaee16010749,LOCAL-ONLY
+D5O-B-048,Quiescent capture; every SRO1/ACK member is individually pinned by capture-seal.json,.local-work/resource-retained-population/d5o-phase-b-capture01/READY.json,08e5da1fc196e72da59b0342c431f589d6191e05076d4828b79b1790af0dbfb5,LOCAL-ONLY
+D5O-B-049,Quiescent capture; every SRO1/ACK member is individually pinned by capture-seal.json,.local-work/resource-retained-population/d5o-phase-b-capture01/capture-000001.bin,231bbc0f23a9263bfab3822f2da47a5ca419db4896125f766cc2ac0bd087c169,LOCAL-ONLY
+D5O-B-050,Quiescent capture; every SRO1/ACK member is individually pinned by capture-seal.json,.local-work/resource-retained-population/d5o-phase-b-capture01/capture-000001.ack.json,ba9f5898b2e7eb3a6f7c7d363e56163e42a19e32b95e865e1a3ffadc9889d35d,LOCAL-ONLY
+D5O-B-051,Quiescent capture; every SRO1/ACK member is individually pinned by capture-seal.json,.local-work/resource-retained-population/d5o-phase-b-capture01/events.jsonl,d19b3e8ae7d200b8e23b9ff900a3200f72b529b4d70972116067b3bb903b00fa,LOCAL-ONLY
+D5O-B-052,Quiescent capture; every SRO1/ACK member is individually pinned by capture-seal.json,.local-work/resource-retained-population/d5o-phase-b-capture01/control.jsonl,b50a7ff633c478f3a0739090b53865b81a8961cd3175153391d2518a520c2d16,LOCAL-ONLY
+D5O-B-053,Quiescent capture; every SRO1/ACK member is individually pinned by capture-seal.json,.local-work/resource-retained-population/d5o-phase-b-capture01/stderr.txt,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,LOCAL-ONLY
+D5O-B-054,Quiescent capture; every SRO1/ACK member is individually pinned by capture-seal.json,.local-work/resource-retained-population/d5o-phase-b-capture01/controller-exit.json,be502c863c4bd8b1f729ec33779f9c480eaa9b5feea2c27712cdd015dbc8c6b9,LOCAL-ONLY
+D5O-B-055,Fresh complete qualification proof,.local-work/resource-retained-population/d5o-phase-b-check01/qualification-proof.json,18a002cbb46d36eb25f2d7d8ad2630a5de11a29ebf7577876297e373e8ac8026,LOCAL-ONLY
+D5O-B-056,Accepted build/source/tool closure manifest,.local-work/resource-retained-population/d5o-build08/build.json,d645a6cb8ee2969813262a7679bfd1008054b3cfa0f7b5743ab1385244cb0c55,LOCAL-ONLY
+D5O-B-057,Exact accepted build/source/tool pin,C:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\Build\vcvars64.bat,6b516d8fcf543c14b2d861e1f45661e0029230fe0dc48e86ce78522801822209,LOCAL-ONLY
+D5O-B-058,Exact accepted build/source/tool pin,C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe,e6d57100c82ae0310c18b16abfe52bc0df8fbb272ca6c5fb287d485807cfce91,LOCAL-ONLY
+D5O-B-059,Exact accepted build/source/tool pin,C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\link.exe,3ef8fcf80d409fab22ddd89ee19249f31a26ad9914d3e3e48573c30998fa24de,LOCAL-ONLY
+D5O-B-060,Exact accepted build/source/tool pin,C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\ml64.exe,a0cdb011ab6dffe8282b14d195922654978626eb235fb9c52b814cfb48978a9f,LOCAL-ONLY
+D5O-B-061,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/build.cmd,257702d5ead80d82b2d3bfb3140d809707b1b92f19cd8051fdef89e5ac0e2243,LOCAL-ONLY
+D5O-B-062,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/build.log,a0c84a4a0cfb969a928c8f05784c3e2dbd91456e9dc79f2773c3bb53adc88a47,LOCAL-ONLY
+D5O-B-063,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/controller.cpp,53a052dde7a5f36e1c03ef573403df1aecf843c3cb484c9b5b2ef9ddc3380f4e,LOCAL-ONLY
+D5O-B-064,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/controller.obj,faf475896733453ebcced632e0cb538b12dc2444f5222edeabf27fb84f4e960d,LOCAL-ONLY
+D5O-B-065,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/native-asm.obj,a6c31dcebce664776179bd0831c5d5addd9105a9a7e7154aa2953de09181e3e9,LOCAL-ONLY
+D5O-B-066,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/native-fixture.cpp,e3961f61bc49c0ad7326c9096c367065ae78543e32bf64ebec7a3684da636e60,LOCAL-ONLY
+D5O-B-067,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/native-fixture.obj,d4ba4e6221ac5e31e997bb399c09d27f970c178e013ccbc28d7c8f629a91cf7d,LOCAL-ONLY
+D5O-B-068,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/sor-d5l-native-controller.exe,86474f1709ee4b14068b4f776e14d321cedc43b68f847df89e198e0e84c47e96,LOCAL-ONLY
+D5O-B-069,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/sor-d5l-native-fixture-controller.exe,7cb6a0056fde13219a855fcd0bb20df62b917257815d801a8d3cc79d8bade906,LOCAL-ONLY
+D5O-B-070,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/sor-d5l-native-fixture.exe,74f95e021dfe932b1881372d3b3cba8a131c72822e65692a13f9821226dcf8ab,LOCAL-ONLY
+D5O-B-071,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/sor-d5l-native-fixture.exp,22c8634bef15aae1ada84e44800bc8ed118688777a3779fe8b97017d4e492f6d,LOCAL-ONLY
+D5O-B-072,Exact accepted build/source/tool pin,.local-work/resource-retained-population/d5o-build08/sor-d5l-native-fixture.lib,2f524bd310eacba46dea0f67338be13a8d8005ea245637d018b6a60d9a7b529e,LOCAL-ONLY
+D5O-B-073,Exact accepted build/source/tool pin,research/resource-combined-acquisition/controller.cpp,01657638005c392571954d16fdb883ac993f8c5a9857183de0a9ccb295e49d6a,LOCAL-ONLY
+D5O-B-074,Exact accepted build/source/tool pin,research/resource-combined-acquisition/operands.h,93c7f3b1c1d6c690f90d273e4427d583d63386cbba13b38e3953856e01a883ec,LOCAL-ONLY
+D5O-B-075,Exact accepted build/source/tool pin,research/resource-retained-population/ExploreD5L.java,8292ca1017e8d00a24baef6d4a4d162771bead29c6c4ca600b3eda23e459e7a7,LOCAL-ONLY
+D5O-B-076,Exact accepted build/source/tool pin,research/resource-retained-population/ExportD5LSites.java,27348e090c3c8402b420f0dd46b58659360a39f12c53845b526a03b64528c483,LOCAL-ONLY
+D5O-B-077,Exact accepted build/source/tool pin,research/resource-retained-population/ReadD5LNative.java,bcec35d79867b9df0d3ba47db3babc1447f7657db8b167bde9b6c911c5a5643e,LOCAL-ONLY
+D5O-B-078,Exact accepted build/source/tool pin,research/resource-retained-population/admission_hybrid.py,4395cb4e2e3eef1b27de50e5d7799a701d7dc3401b8f0365db4520ad07f6b59d,LOCAL-ONLY
+D5O-B-079,Exact accepted build/source/tool pin,research/resource-retained-population/build.py,c85d22045c3a302315336616d6638fbe22cb4b20ce16adb7788846ae2291d97b,LOCAL-ONLY
+D5O-B-080,Exact accepted build/source/tool pin,research/resource-retained-population/build_coverage_hybrid.py,d3dac958d7cd77e93c96031b80b6d7b7f7de52b089426a647a53a026aafb5c89,LOCAL-ONLY
+D5O-B-081,Exact accepted build/source/tool pin,research/resource-retained-population/build_hybrid.py,7fdfe53b83d27b20ad2e0e3fbe082da985bd4b10ab79f62152ea9394598da2f8,LOCAL-ONLY
+D5O-B-082,Exact accepted build/source/tool pin,research/resource-retained-population/build_native.py,01bf2c2419ab9cccc5b6deeab2fedb50c42de153fb7f67a85c0313ae26c8389e,LOCAL-ONLY
+D5O-B-083,Exact accepted build/source/tool pin,research/resource-retained-population/check_admission.py,581dfc1b7876e0da5e8b8434aeac770d4536d7e249ba3482a204d0946322ecae,LOCAL-ONLY
+D5O-B-084,Exact accepted build/source/tool pin,research/resource-retained-population/check_coverage_hybrid.py,7d7687b1d0c101db3ff50a0e9f141ac4523cdc84c21533a7eb8bd3df69d2035f,LOCAL-ONLY
+D5O-B-085,Exact accepted build/source/tool pin,research/resource-retained-population/check_hybrid.py,dac0b051932cdb3e9eef06b8cf9ef3ed2489fccdda529af5a0ca2020da4e3f69,LOCAL-ONLY
+D5O-B-086,Exact accepted build/source/tool pin,research/resource-retained-population/check_native.py,ae27918875bb46a835dbaf8925560dbe49afa71e946d43ae22c5940f37ab74bb,LOCAL-ONLY
+D5O-B-087,Exact accepted build/source/tool pin,research/resource-retained-population/check_reduction.py,9769c2284da594b4685663a6611a1ffd4b86ca9daf49b67ed7f6dd6acf5aa459,LOCAL-ONLY
+D5O-B-088,Exact accepted build/source/tool pin,research/resource-retained-population/collect_native.py,838ffc054d4ee2283f39a32d7ad5fd28a94007ceaa54086a11eeaafbc1bf8512,LOCAL-ONLY
+D5O-B-089,Exact accepted build/source/tool pin,research/resource-retained-population/controller-tail.inc,756fffff94e4b6d78806616106db1a9f8a80a1b8f0f5530f0a156cde8accdff8,LOCAL-ONLY
+D5O-B-090,Exact accepted build/source/tool pin,research/resource-retained-population/coverage-hybrid.h,eb4c957b0bfb880d0138dff06889ffe7af827ad9be1f7e8f6998f0491bf0a550,LOCAL-ONLY
+D5O-B-091,Exact accepted build/source/tool pin,research/resource-retained-population/coverage_hybrid.py,370e5a29b21b34d7688b7b9e2ff61c86662925d614c1cf1e59ea5bda813c22bf,LOCAL-ONLY
+D5O-B-092,Exact accepted build/source/tool pin,research/resource-retained-population/debug-control.h,ef88127b7211e1a225e37b30095414c1484dc8891b11b119411ac251690b36b5,LOCAL-ONLY
+D5O-B-093,Exact accepted build/source/tool pin,research/resource-retained-population/fixture.cpp,6ab9980d7dd3b0d3a7c05c66c97e3b67e440a2faf1cc06651e06b5b6dfa162e1,LOCAL-ONLY
+D5O-B-094,Exact accepted build/source/tool pin,research/resource-retained-population/hybrid.py,5d9311a3e3096a55128ad193105f8c0ca2ec94d69c8f6eec558fa7b0891e6f8d,LOCAL-ONLY
+D5O-B-095,Exact accepted build/source/tool pin,research/resource-retained-population/identity.py,fd1873213ef219c38b2950d6758c9f2ce2089673e06ce3eb0d620925ca2c6c60,LOCAL-ONLY
+D5O-B-096,Exact accepted build/source/tool pin,research/resource-retained-population/inspect_dump.py,7ffe807fa02bd3094f8de50569acd2d0aaf3702d2e7c28c32b47bc229c8a6f3c,LOCAL-ONLY
+D5O-B-097,Exact accepted build/source/tool pin,research/resource-retained-population/launch_metadata.py,bf877b5b837b5800480b367fb9b03e853157b48968f3fa64babf78af5049df74,LOCAL-ONLY
+D5O-B-098,Exact accepted build/source/tool pin,research/resource-retained-population/matrix_hybrid.py,ff0a7ee308db1267ed16c873030d652fbe135039d0e2468183bcbf9e27ebbde4,LOCAL-ONLY
+D5O-B-099,Exact accepted build/source/tool pin,research/resource-retained-population/native-capture.h,7368334fc3d6c175f6151fe53f64ca77eb99713b2e023420b25c8325f185a96d,LOCAL-ONLY
+D5O-B-100,Exact accepted build/source/tool pin,research/resource-retained-population/native-fixture.asm,7725e0a2af89d26b6d7066e53f298c8589cdaedb8d74024a4bfe49ef171815ad,LOCAL-ONLY
+D5O-B-101,Exact accepted build/source/tool pin,research/resource-retained-population/native-fixture.cpp,65b41598221facf0c8aae8aa33fbbe43ccdf404c975e0c2d30bed6f0291a3ee3,LOCAL-ONLY
+D5O-B-102,Exact accepted build/source/tool pin,research/resource-retained-population/native_reduce.py,892a4a3c43b679b78af42139b0924470a68148ea0a610574b2fcca0bdf4199d7,LOCAL-ONLY
+D5O-B-103,Exact accepted build/source/tool pin,research/resource-retained-population/operate_coverage_hybrid.py,8ba386091690eb0c277a93d32309115599a416d5c2119250900fe4ce45b7dfb2,LOCAL-ONLY
+D5O-B-104,Exact accepted build/source/tool pin,research/resource-retained-population/operate_hybrid.py,ac90509d5fda1a59985a96b0799374affcb39ad63f60bd9de7249ddb72d61128,LOCAL-ONLY
+D5O-B-105,Exact accepted build/source/tool pin,research/resource-retained-population/postmortem_d5m.py,defdc894a5f5f9ca64d8199f1a7a5c0038c318e53b55fe94fce38000a8dd8559,LOCAL-ONLY
+D5O-B-106,Exact accepted build/source/tool pin,research/resource-retained-population/postmortem_d5n.py,926826209a05f5940c7e9659f614350927a6d198d33ea66770ce58685ae3bb4c,LOCAL-ONLY
+D5O-B-107,Exact accepted build/source/tool pin,research/resource-retained-population/prepare_native.py,92dde3b77ff3240725d292ccb300d85210c3a37644b5ad5b50bda05a2434f08f,LOCAL-ONLY
+D5O-B-108,Exact accepted build/source/tool pin,research/resource-retained-population/preservation_native.py,df269276d6efe0a49f27400ca27debdfba02348d17b3036560ec464b33e21d99,LOCAL-ONLY
+D5O-B-109,Exact accepted build/source/tool pin,research/resource-retained-population/protect_hybrid.py,670362071172f729b38403d451738d519ba4dcfc85f07c7f6e2d94c84f4bed60,LOCAL-ONLY
+D5O-B-110,Exact accepted build/source/tool pin,research/resource-retained-population/pump_hybrid.py,c18e2ed2004eaf18c85d8202f680a99ba371753570a0cc81c71870e1c099ffc8,LOCAL-ONLY
+D5O-B-111,Exact accepted build/source/tool pin,research/resource-retained-population/qualify.py,d2b0eb76765ed70e590252f387a21510d373e61dacfc00fe543346abb2a1b7dc,LOCAL-ONLY
+D5O-B-112,Exact accepted build/source/tool pin,research/resource-retained-population/qualify_coverage_hybrid.py,4ecdd06d9b25972a78f62b8fe170c5e1b34999ef334f92f87c9e83a7b72481f7,LOCAL-ONLY
+D5O-B-113,Exact accepted build/source/tool pin,research/resource-retained-population/qualify_hybrid.py,bbf6ba17edb63b8a8a042d1bc44ec45a0d759e7c25a4b391c67d29adc02528cd,LOCAL-ONLY
+D5O-B-114,Exact accepted build/source/tool pin,research/resource-retained-population/qualify_native.py,065afe944c59e1d155c0b4f4127f5d3fc9fdbd483771ddbfacda011aeafbaafb,LOCAL-ONLY
+D5O-B-115,Exact accepted build/source/tool pin,research/resource-retained-population/qualify_parallel.py,79ed0be07cc78174cd502714c90826139d22c00675ae56155c7f42477d086a80,LOCAL-ONLY
+D5O-B-116,Exact accepted build/source/tool pin,research/resource-retained-population/qualify_pump.py,fee62234c91d643c397a06c5fbaf2cee14b4d5348f6db42417f7ec0303ba6bfb,LOCAL-ONLY
+D5O-B-117,Exact accepted build/source/tool pin,research/resource-retained-population/ready_coverage_hybrid.py,5933e1c7f9a19d2ef00fc1c54eff88ce72a144609034d009da684aa03496b75f,LOCAL-ONLY
+D5O-B-118,Exact accepted build/source/tool pin,research/resource-retained-population/reduce.py,2e42fe43760d5aeaebd5c00798ff192dc901fd2f606f9c5068f6ce26078f068b,LOCAL-ONLY
+D5O-B-119,Exact accepted build/source/tool pin,research/resource-retained-population/reliability_contract.py,aeefaa52291ecb428678735d3acd9ccf11783a51d76298e6a7408e92e655a8c4,LOCAL-ONLY
+D5O-B-120,Exact accepted build/source/tool pin,research/resource-retained-population/review_capture.py,916ffd0ff3f83f4ba7210aa8484c48d867643b026106f464be9e28b5b230fe82,LOCAL-ONLY
+D5O-B-121,Exact accepted build/source/tool pin,research/resource-retained-population/review_hybrid.py,73822f15d76e01ba93b8f4e79440c5ee2a6be126546c16e43e41e76789ef22b3,LOCAL-ONLY
+D5O-B-122,Exact accepted build/source/tool pin,research/resource-retained-population/test_identity.py,a45aba7c60a61b95361e0a4168754cdf1a6d45684814be7c22f5e3d55a8706c0,LOCAL-ONLY
+D5O-B-123,Exact accepted build/source/tool pin,research/resource-retained-population/test_preservation.py,983d60fb90967ae61dd0de3f010997fc1fb193464a9ffe0260070925c6a5842a,LOCAL-ONLY
+D5O-B-124,Exact accepted build/source/tool pin,research/resource-retained-population/verify_native.py,06bee12781e6b79b30d0327046a4cd1e3034cb20852731c0ea6dd10eac183268,LOCAL-ONLY
+D5O-B-125,Exact accepted build/source/tool pin,research/resource-tungsten-acquisition/ancestry.h,a7f683cbde4b93ff40e07ff99ef6dc999ff68694b854e33b8bfc6b2de1160741,LOCAL-ONLY
+D5O-B-126,Exact accepted build/source/tool pin,research/resource-tungsten-acquisition/context.h,bf1d8601d6a3f1ca798b54db06d9b086daa94c8b679ccb98ecc4538c3a9e642c,LOCAL-ONLY
+D5O-B-127,Exact accepted build/source/tool pin,research/resource-tungsten-acquisition/decode.h,e8072f6b0cb7f9b04286205c59fbb16cddc0d18033d13b204037dbf1da234828,LOCAL-ONLY
+D5O-B-128,Exact accepted build/source/tool pin,research/resource-tungsten-acquisition/sourcefiles.h,c69b9c9343a73f09cb998e7c3fe5f9ca434eaae1211c06d1891e12c645994ebb,LOCAL-ONLY
+D5O-B-129,Authority or unchanged Phase A source boundary,docs/experiments/resource-retained-population/d5o-phase-b-authorization.md,6bf859a5f66f9dca3f753516e8b27f99506b4cb719ba611ced73cd694291d7de,REVIEW-REQUIRED
+D5O-B-130,Authority or unchanged Phase A source boundary,docs/experiments/resource-retained-population/run-card-d5o-v1.md,a84c055a700386adc113219d0d1c4592053944d0c2b791e45b0e100a40c8eb5b,REVIEW-REQUIRED
+D5O-B-131,Authority or unchanged Phase A source boundary,docs/experiments/resource-retained-population/d5o-sources.csv,82050c92d10d7ac59787eb8d6376e2bb19c77deb5d75bebc1b2f79aec7c6c784,REVIEW-REQUIRED
+D5O-B-132,Owned shared archive or review-export method,runtime/session-tools/archive.py,0b5961eb8e4a49a59981b9c771d87bb281e697146934d90d4247215b9622a3b8,LOCAL-ONLY
+D5O-B-133,Owned shared archive or review-export method,runtime/session-tools/common.py,1db4832de016f0c8003e35b515baa84a3d420bebd09d6e39abda3681e25e8e07,LOCAL-ONLY
+D5O-B-134,Owned shared archive or review-export method,runtime/session-tools/export_review.py,7093a484febf19049c000076eaf835ddf3f24b181ffa2c01a1c6e316995ba128,LOCAL-ONLY
+D5O-B-135,Maintainer-owned orchestration origin; adapted under SOR-P-0002,.local-work/d5n-phase-b/live_ops.py,721206ea3286c4f59b36e2c9b56d8f1245a6b5ef54c0f610259bcfa685772bb9,LOCAL-ONLY
+D5O-B-136,Maintainer-owned orchestration origin; adapted under SOR-P-0002,.local-work/d5n-phase-b/archive_run.py,47b5ddcccf739a7df165016adef6380e9a39967d51c6326bde6a1f8685eae520,LOCAL-ONLY
+D5O-B-137,Maintainer-owned orchestration origin; adapted under SOR-P-0002,.local-work/d5n-phase-b/package.py,811f362aa004d331b67ec22c4aa5e7cbb0c268e46ee0fe1477720208ec0cfe27,LOCAL-ONLY
+D5O-B-138,Existing OS-created dump; raw SHA differs from metadata receipt SHA,C:\Users\User\AppData\Local\CrashDumps\Starfield.exe.21876.dmp,4619bec0cd3abc2d4295d9cdc87de25bda9be2b8e0a7ee304020cfbbee7e7130,LOCAL-ONLY
+D5O-B-139,Unchanged protected-save policy,research/resource-carinae-source-context/save_policy.json,9d7ad26f172884c4c69d05c1ccbf6128d75c8c38bba855224c57fd7abdbc97e6,REVIEW-REQUIRED

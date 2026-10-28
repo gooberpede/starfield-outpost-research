@@ -1,5 +1,20 @@
 # Current Research State
 
+**2026-10-29 — D5O Phase B Grid-clear fault:**
+[The approved one-session execution](experiments/resource-retained-population/d5o-phase-b.md)
+passed its independently accepted fourteen-site/96-thread barrier and retained
+493 authenticated receipts. The repaired Reset coverage boundary succeeded;
+53 hardware Grid-clear samples were captured on a worker. During reported
+fast-travel initiation, the main thread faulted at armed hardware Grid-clear
+without corresponding recorded debugger exception delivery. Initiating mechanism
+remains UNKNOWN. Zero selected-source decisions/chains; acquisition INCOMPLETE,
+not a qualified non-hit. All sixteen protected comparisons and lossless archive
+verification pass. No retry occurred. Further retail use is NO-GO; frozen
+findings, B6 and publication remain unchanged. [Review](experiments/resource-retained-population/d5o-phase-b-review.md)
+governs final acceptance and delivery.
+Independent scientific and engineering reviewers accept the substantive
+failed-run record; final delivery also requires their exact closure acceptance.
+
 **2026-10-28 — D5O hybrid coverage qualification:**
 [The Phase A diagnosis](experiments/resource-retained-population/d5o-report.md)
 repairs coverage diagnostics and proven-exit membership while preserving all
