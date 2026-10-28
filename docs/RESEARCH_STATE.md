@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-28 — D5N alternative native observation:**
+[Phase A study](experiments/resource-retained-population/d5n-report.md) compares
+hardware-first, hybrid and in-process routes against a minimal copied-region
+causal contract. The implemented hybrid retains all fourteen witnesses, using
+DR0 for Grid-clear and thirteen software sites. [Qualification and review](experiments/resource-retained-population/d5n-review.md)
+govern the exact disposable result; no retail reliability or historical Save52
+construction is established. [The one-session proposal](experiments/resource-retained-population/run-card-d5n-v1.md)
+requires separate explicit GO. Earlier hardware and D5L/D5M failure evidence,
+frozen scientific conclusions, B6 and publication holds remain unchanged.
+No Starfield launch/attachment, installation, staging, commit or push occurred.
+
 **2026-10-28 — D5M Phase B breakpoint failure:**
 [The approved execution](experiments/resource-retained-population/d5m-phase-b.md)
 retained 493 verified receipts after a fourteen-site/89-thread pre-load barrier,

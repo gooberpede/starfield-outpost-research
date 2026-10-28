@@ -1,5 +1,7 @@
 # Experiments
 
+- [RG2-D5N alternative native observation](resource-retained-population/d5n-report.md): all fourteen witnesses retained with Grid-clear on DR0 and thirteen software sites. [Comparison/contract](resource-retained-population/d5n-contract.md), [review](resource-retained-population/d5n-review.md) and [one-session proposal](resource-retained-population/run-card-d5n-v1.md) keep disposable qualification, retail reliability and scientific acquisition separate. Phase B remains NOT AUTHORIZED.
+
 - [D5M Phase B execution](resource-retained-population/d5m-phase-b.md): one approved ordinary-user process, 493 verified receipts and an unexpected Grid-clear breakpoint exit before target acquisition. [Post-mortem](resource-retained-population/d5m-phase-b-postmortem.md) narrows the missing fault-thread delivery; full protection and local archival pass. Further retail use is NO-GO.
 
 - [RG2-D5M debugger reliability repair](resource-retained-population/debugger-repair.md): borrowed-handle repair, qualified existing dump, durable continuation diagnostics and disposable Windows requalification. [Versioned Phase B proposal](resource-retained-population/run-card-d5m-v1.md) requires separate GO; no retail execution is authorized.

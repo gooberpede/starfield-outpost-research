@@ -1,5 +1,20 @@
 # Credits
 
+## RG2-D5N alternative native observation
+
+The maintainer supplied the Phase A brief and protected scientific inputs.
+The [hybrid study](docs/experiments/resource-retained-population/d5n-report.md)
+adapts the existing project-owned D5M controller/fixture/reducer, D5B utilities,
+C1B/C1D transport, Tungsten independent decoder, C2B protection and archive-backed
+preservation under SOR-P-0002. The exact baseline, file hashes and generated
+source closure are retained in the D5N ledger/build. Historical hardware-failure,
+geometry-lifetime and x87 studies inform the method comparison.
+Microsoft Learn authors supplied debug-event and x64 CONTEXT/API facts
+(SOR-S-0117); installed MSVC/MASM/SDK and CPython support disposable qualification.
+No outside implementation, example, new dependency or proprietary export is
+incorporated into authored deliverables. Independent reviewers supplied
+engineering, scientific and editorial challenge, recorded with its exact scope.
+
 ## D5M Phase B execution
 
 The maintainer approved the bounded live run, confirmed Cloud isolation and

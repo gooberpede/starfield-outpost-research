@@ -1,5 +1,28 @@
 # Source Register
 
+## RG2-D5N alternative native observation
+
+2026-10-28. [Contract/comparison](experiments/resource-retained-population/d5n-contract.md),
+[report](experiments/resource-retained-population/d5n-report.md) and
+[ledger](experiments/resource-retained-population/d5n-sources.csv) distinguish
+inherited project-authored methods at HEAD
+`9740f0a3d35dc42d2651715bfeb23f718c9e1412` from current task adaptations.
+Controller/build/fixture/reducer adaptations and reused transport, independent
+decoder, protection and review packaging follow SOR-P-0002. Generated source
+and original snapshots remain local and hash-bound; historical scientific
+classifications are unchanged.
+
+SOR-S-0117 extension: Microsoft Learn
+[debugging events](https://learn.microsoft.com/en-us/windows/win32/debug/debugging-events),
+[SetThreadContext](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadcontext)
+and [x64 CONTEXT](https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-context),
+consulted 2026-10-28, support API/register facts. Documentation consultation only;
+no example implementation was copied. Installed compiler/SDK and Python versions
+are pinned separately. The comparison cites earlier retail DR0 failures and
+in-process geometry-lifetime/x87 limits rather than treating either method as
+intrinsically safe. Raw native exports/receipts remain LOCAL-ONLY; authored
+work remains REVIEW-REQUIRED. No installation, external contact or disclosure.
+
 ## D5M Phase B execution and post-mortem
 
 2026-10-28. [Execution](experiments/resource-retained-population/d5m-phase-b.md),

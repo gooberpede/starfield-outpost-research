@@ -1,5 +1,43 @@
 # D5L retained-population observer methods
 
+## D5N hybrid revision
+
+[Contract/comparison](../../docs/experiments/resource-retained-population/d5n-contract.md),
+[report](../../docs/experiments/resource-retained-population/d5n-report.md) and
+[proposed card](../../docs/experiments/resource-retained-population/run-card-d5n-v1.md)
+govern this separate alternative. Grid-clear uses DR0 on every admitted thread;
+thirteen software sites retain the other witnesses. Historical sources are not
+edited. The checked source adapter writes generated translation units only into
+fresh builds. No fixture qualification proves retail delivery or safe detach.
+
+| New method | Reads, writes and effects |
+|---|---|
+| hybrid.py | Reads owned D5M sources; returns adapted controller/fixture/reducer source or module in memory. No target or file writes. |
+| build_hybrid.py | Reuses installed MSVC/MASM and exact D5M build closure; writes fresh local source snapshots/binaries/logs/pins. No target execution. |
+| qualify_hybrid.py / matrix_hybrid.py | Runs the 42 inherited real-process cases plus early crash, hardware loss, foreign slot and mixed hardware/software queue controls. At most three batch targets run concurrently; receipts and lossless aggregate copies remain local. Debug attachment, thirteen code patches, DR0/RF/TF and fixture disposal are declared interventions. |
+| pump_hybrid.py | Exercises actual durable transport, pre-arm STOP and post-READY collector/pipe loss with disposable targets. The corrected fault injection waits for readiness. |
+| check_hybrid.py | Independently binds every completed synthetic receipt/ACK and reduction; corrupts only task-owned copies for four receipt controls; runs inherited adversarial replay with hybrid semantics. No process calls. |
+| protect_hybrid.py | Calls active archive-backed full preservation and independent backup/save/content checks; writes fresh local receipts and a scratch Save52 restoration copy. No originals modified. |
+| operate_hybrid.py prepare | Future offline readiness using the exact 46-case hybrid matrix/card and existing full protection. No launch/attachment authority. |
+| operate_hybrid.py collect | Future-only one-use admission transport. Requires separate explicit Phase B GO and actual ordinary-user identity; thirteen software probes plus hardware Grid-clear. STOP/loss may terminate the admitted target. Never executed on retail in Phase A. |
+| admission_hybrid.py | In-memory approval-shaped controls against the actual adapted admission checks, including old-fourteen/missing-hardware refusals; one fresh local result, no GO file or target. |
+| review_hybrid.py | Completed capture journal/SRO1/ACK authentication with the hybrid reducer. Synthetic requires explicit --synthetic; retail remains separately domain-checked. One fresh report, no target or original writes. |
+
+Use the installed Python with `-B`. Exact final build/test labels are in the
+report/ledger. All paths below, including CHECK_PATH and REVIEW_PATH, must be
+under `.local-work/resource-retained-population/`; choose fresh labels:
+
+```text
+PYTHON -B research/resource-retained-population/build_hybrid.py BUILD_LABEL
+PYTHON -B research/resource-retained-population/matrix_hybrid.py BUILD_PATH MATRIX_LABEL
+PYTHON -B research/resource-retained-population/pump_hybrid.py BUILD_PATH PUMP_PATH
+PYTHON -B research/resource-retained-population/check_hybrid.py MATRIX_PATH CHECK_PATH
+PYTHON -B research/resource-retained-population/review_hybrid.py --capture CASE_PATH --output REVIEW_PATH --synthetic
+```
+
+These reproduce disposable engineering evidence only. Do not invoke collect,
+create live admission, install instrumentation or start the game in Phase A.
+
 ## D5M reliability revision
 
 The [repair report](../../docs/experiments/resource-retained-population/debugger-repair.md)
