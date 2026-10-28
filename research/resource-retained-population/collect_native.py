@@ -21,6 +21,7 @@ import importlib.util
 from build import ROOT, LOCAL, pin
 from prepare_native import SOURCE
 from preservation_native import verify_build_files, PREFLIGHT_SCHEMA
+from identity import require_ordinary
 
 
 def admission_checks(gate):
@@ -84,7 +85,8 @@ def main():
     controller = Path(gate['build_manifest']['path']).parent / 'sor-d5l-native-controller.exe'
     assert pin(controller) == manifest['files'][str(controller)]
     assert min(shutil.disk_usage(d).free for d in ('C:/', 'D:/')) >= 40_000_000_000
-    transport.write(admission.with_suffix('.consumed.json'),dict(admission_sha256=pin(admission),pid=gate['pid'],creation_filetime_100ns=gate['creation_filetime_100ns'],output=str(output)))
+    identity = require_ordinary(gate['pid'])
+    transport.write(admission.with_suffix('.consumed.json'),dict(admission_sha256=pin(admission),pid=gate['pid'],creation_filetime_100ns=gate['creation_filetime_100ns'],output=str(output),identity=identity))
     return pump([str(controller), '--retail-pilot', str(gate['pid']),str(gate['creation_filetime_100ns'])], output, gate, pin(admission), False)
 
 
@@ -97,7 +99,8 @@ def pump(command, output, gate, admission_hash, synthetic, test_failure=None):
         (output / 'STOP').write_bytes(b'fixture cancellation\n')
     stderr = (output / 'stderr.txt').open('xb')
     process = subprocess.Popen(command,
-        stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=stderr, text=True)
+        stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=stderr, text=True,
+        env=dict(os.environ,SOR_D5M_CONTROL_PATH=str(output/'control.jsonl')))
     try:
         return _events(process, output, admission_hash, synthetic, test_failure)
     except BaseException as error:

@@ -1,5 +1,18 @@
 # Credits
 
+## RG2-D5M debugger reliability
+
+The maintainer supplied the bounded repair brief and protected D5L evidence.
+Existing project-owned D5L controller, fixture, native reader/reducer, transport,
+preservation and review-export methods are adapted under SOR-P-0002, with
+[exact source/receipt pins](docs/experiments/resource-retained-population/debugger-repair-sources.csv).
+Microsoft's Windows debugger and minidump documentation and installed SDK
+layouts informed API ownership, exception handling and dump interpretation.
+No external example implementation was copied. Installed Windows/MSVC/MASM,
+CPython and Git remain separate tools. Bethesda's existing dump/native evidence
+remains local. [The report](docs/experiments/resource-retained-population/debugger-repair.md)
+separates the confirmed defect, observed fault state and unknown historical cause.
+
 ## D5L Phase B execution
 
 The maintainer operated the Steam launches, protected Save52 load and ordinary

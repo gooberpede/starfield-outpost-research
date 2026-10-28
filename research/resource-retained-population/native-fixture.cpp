@@ -38,8 +38,10 @@ extern "C" __declspec(dllexport) uint64_t native_singleton=0;
 extern "C" __declspec(dllexport) uint64_t native_grid_table[9]{};
 extern "C" __declspec(dllexport) uint64_t native_procgen_table[6]{};
 extern "C" __declspec(dllexport) uint64_t fixture_reset_phase=0;
+extern "C" __declspec(dllexport) uint64_t fixture_queue_gate=0;
 extern "C" __declspec(dllexport) DWORD WINAPI fixture_thread_start(void*){return 0;}
 extern "C" void fixture_handled_exception(){__try{RaiseException(0xe0d51003,0,0,nullptr);}__except(EXCEPTION_EXECUTE_HANDLER){}}
+static void handled_breakpoint(){__try{DebugBreak();}__except(EXCEPTION_EXECUTE_HANDLER){}}
 struct Source :Raw<0x1a0>{};
 struct Bundle {
     Raw<0x40> wrapper;std::array<Slot,8> resource_slots;std::array<Region,4> regions{};Collection collection;
@@ -114,8 +116,37 @@ int wmain(int argc,wchar_t** argv){
     auto ready=OpenEventW(EVENT_MODIFY_STATE,FALSE,(std::wstring(argv[2])+L"-ready").c_str());
     if(!gate||!ready)return 4;SetEvent(ready);CloseHandle(ready);if(WaitForSingleObject(gate,15000)!=WAIT_OBJECT_0)return 5;CloseHandle(gate);
     if(std::wstring(argv[1])==L"idle"){Sleep(INFINITE);return 0;}
+    // These exits happen after ARM_ACK and before any instrumented native call.
+    // The fixed loop is fixture input, never a capture or healthy-session quota.
+    if(std::wstring(argv[1])==L"early-exit"||std::wstring(argv[1])==L"grid-stress"||std::wstring(argv[1])==L"close-failure"||std::wstring(argv[1])==L"close-diagnostic-failure"){
+        for(int batch=0;batch<32;++batch){std::vector<std::thread> workers;
+            for(int i=0;i<8;++i)workers.emplace_back([]{});
+            for(auto& worker:workers)worker.join();}
+    }
     State state;auto p=state.env();fixture_init(p.procgen);fixture_grid_init(p.grid);fixture_source_init(p.source,p.grid,state.definition.b.data());
     std::wstring mode=argv[1];
+    if(mode==L"queued-same"||mode==L"queued-different"){
+        HANDLE second=CreateEventW(nullptr,FALSE,FALSE,nullptr);if(!second)return 9;
+        fixture_queue_gate=reinterpret_cast<uint64_t>(second);
+        std::thread later([&]{WaitForSingleObject(second,INFINITE);
+            if(mode==L"queued-same")native_grid_clear(p.grid);
+            else fixture_source_init(p.source,p.grid,state.definition.b.data());});
+        std::thread first([&]{native_grid_clear(p.grid);});first.join();later.join();
+        CloseHandle(second);fixture_queue_gate=0;
+        fixture_grid_init(p.grid);fixture_source_init(p.source,p.grid,state.definition.b.data());
+    }
+    if(mode==L"foreign-first")handled_breakpoint();
+    if(mode==L"foreign-last"){DebugBreak();return 8;}
+    if(mode==L"grid-stress"){
+        std::vector<std::thread> workers;
+        for(int i=0;i<8;++i)workers.emplace_back([&]{
+            // Per-worker unrelated storage avoids artificial data races while
+            // forcing concurrent same/different-site instruction delivery.
+            Raw<0x70> grid;Source source;Raw<0x50> definition;
+            for(int n=0;n<32;++n){native_grid_clear(grid.b.data());fixture_source_init(source.b.data(),grid.b.data(),definition.b.data());}
+        });for(auto& w:workers)w.join();
+        for(int n=0;n<32;++n){native_grid_clear(p.grid);fixture_grid_init(p.grid);fixture_source_init(p.source,p.grid,state.definition.b.data());}
+    }
     if(mode==L"alternate-frame"){state.manager.b[0x20]=3;memcpy(state.manager.b.data()+0x1c0,state.manager.b.data()+0xc8,0x2c);p.descriptor=state.manager.b.data()+0x1c0;}
     if(mode==L"reset-window")fixture_reset_entry();
     if(mode==L"nested")p.nested=true;

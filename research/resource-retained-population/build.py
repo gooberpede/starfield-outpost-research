@@ -24,6 +24,24 @@ def pin(p):
         return hashlib.file_digest(f, 'sha256').hexdigest()
 
 
+def controller_source(inherited):
+    """Adapt owned D5B utilities only for D5M, preserving historical sources."""
+    text = inherited.read_text().split('struct Thread {')[0]
+    at = 'static DWORD pending_disposition=DBG_CONTINUE;'
+    text = text.replace(at, at+'\n#include "debug-control.h"')
+    start = text.index('static bool continue_pending(){')
+    end = text.index('static bool terminate_once', start)
+    text = text[:start]+'static bool continue_pending(){return d5m_continue();}\n'+text[end:]
+    text = text.replace('CloseHandle(ev.u.LoadDll.hFile)', 'close_file_handle(ev.u.LoadDll.hFile)')
+    text = text.replace('CloseHandle(ev.u.CreateProcessInfo.hFile)', 'close_file_handle(ev.u.CreateProcessInfo.hFile)')
+    text = text.replace('pending=ev;pending_owned=true;',
+                        'pending=ev;pending_owned=true;++control_event_sequence;control_lifetime=0;'
+                        'HANDLE drain_file=ev.dwDebugEventCode==CREATE_PROCESS_DEBUG_EVENT?ev.u.CreateProcessInfo.hFile:'
+                        'ev.dwDebugEventCode==LOAD_DLL_DEBUG_EVENT?ev.u.LoadDll.hFile:nullptr;'
+                        'if(drain_file)adopt_owned(drain_file);diagnostic("DRAIN_EVENT");')
+    return text+(SRC/'controller-tail.inc').read_text()
+
+
 def main():
     label = sys.argv[1]
     if not re.fullmatch('[a-z0-9-]+', label):
@@ -34,8 +52,7 @@ def main():
     out.mkdir(exist_ok=False)
     inherited = ROOT/'research/resource-combined-acquisition/controller.cpp'
     generated = out/'controller.cpp'
-    generated.write_text(inherited.read_text().split('struct Thread {')[0] +
-                         (SRC/'controller-tail.inc').read_text(), encoding='utf8', newline='\n')
+    generated.write_text(controller_source(inherited), encoding='utf8', newline='\n')
     names = ('owner_init source_init provider_entry visited lookup inserted query mask completed '
              'owner_reset owner_destroy provider_exit').split()
     exports = ' '.join('/EXPORT:'+n for n in names)
@@ -43,7 +60,7 @@ def main():
     commands = [f'call "{VC}"', 'if errorlevel 1 exit /b 1', 'where cl', 'where link',
                 f'cl {flags} "{SRC/"fixture.cpp"}" /Fe:sor-d5l-fixture.exe /link {exports} /INCREMENTAL:NO',
                 'if errorlevel 1 exit /b 1',
-                f'cl {flags} /DRETAIL_FIXTURE /I"{inherited.parent}" "{generated}" /Fe:sor-d5l-controller.exe /link /INCREMENTAL:NO',
+                f'cl {flags} /DRETAIL_FIXTURE /I"{inherited.parent}" /I"{SRC}" "{generated}" /Fe:sor-d5l-controller.exe /link /INCREMENTAL:NO',
                 'if errorlevel 1 exit /b 1']
     script = out/'build.cmd'
     script.write_text('@echo off\n'+'\n'.join(commands)+'\n', encoding='utf8', newline='\r\n')
@@ -58,7 +75,7 @@ def main():
             continue
         seen.add(p)
         for name in re.findall(r'#include\s+"([^"]+)"', p.read_text()):
-            found = next((q.resolve() for q in (p.parent/name, inherited.parent/name) if q.is_file()), None)
+            found = next((q.resolve() for q in (p.parent/name, inherited.parent/name, SRC/name) if q.is_file()), None)
             if found is None:
                 raise ValueError('Missing include: '+name)
             pending.append(found)

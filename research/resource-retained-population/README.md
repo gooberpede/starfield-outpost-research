@@ -1,5 +1,56 @@
 # D5L retained-population observer methods
 
+## D5M reliability revision
+
+The [repair report](../../docs/experiments/resource-retained-population/debugger-repair.md)
+and [versioned proposed card](../../docs/experiments/resource-retained-population/run-card-d5m-v1.md)
+govern the current repair. The original D5L description below is historical;
+its accepted fixture results did not establish retail debugger reliability.
+No further Starfield operation is authorized.
+
+`debug-control.h` adds explicit ownership and an exclusive control journal;
+`build.controller_source` adapts only the owned D5B utility prefix for this
+controller. It leaves the historical D5B source unchanged. Retained event-thread
+handles are duplicated; borrowed process/thread handles are never closed.
+The ordinary-user/session check in `identity.py` precedes live admission
+consumption and is repeated natively. `inspect_dump.py` reads an existing,
+identity-qualified dump; it never starts a debugger or downloads symbols.
+
+Every controller invocation requires `SOR_D5M_CONTROL_PATH` pointing to a fresh
+local file. The collector and qualification harness set it automatically. The
+controller flushes control intent before each continuation and its actual result
+afterward. Scientific SRO1 receipts and ACKs remain separate. Do not remove the
+Grid-clear fence or use control diagnostics as scientific samples.
+
+`qualify_native.py` defaults to all 42 real-process cases in
+`reliability_contract.py`; prospective preparation requires the complete exact
+set and build binding. `ordinary-user` is an additional focused fixture mode for
+the native admission guard. `test_identity.py` exercises real disposable query
+tokens and synthetic mismatch predicates in both sandbox and ordinary contexts.
+The exit-during-rearm fixture uses a synthetic peer termination and a temporary
+step-owner hold, compiled out of retail. Fixed fixture loops are test inputs,
+not healthy-session deadlines or scientific capture quotas.
+
+The required `queued-same` and `queued-different` fixtures use genuine Windows
+`DBG_REPLY_LATER` delivery to exercise the shared parked-trap path during another
+thread's rearm window. They supplement the traffic stress test and are compiled
+out of the retail controller. Their event-copy handle is independently owned;
+no debugger event or reducer input is fabricated.
+
+`qualify_parallel.py` runs that same complete set in three fixed batches using
+the existing runner, then makes a hash-verified lossless aggregate copy while
+preserving the original batch receipts. It launches only disposable targets.
+Receipt metadata retains its original batch paths; aggregate files are declared
+copies rather than rewritten captures.
+
+Build and qualification outputs remain ignored under
+`.local-work/resource-retained-population/`. Decisive failures, final receipts
+and review artifacts are pinned in the D5M ledger; replaceable scratch is not a
+new global protected inventory. Script headers describe reads, writes,
+dependencies and target effects. No installation or network step is required.
+
+## Original D5L method record
+
 GPL-3.0-or-later. [Scientific contract](../../docs/experiments/resource-retained-population/report.md),
 [native register](../../docs/experiments/resource-retained-population/native.md),
 [tests](../../docs/experiments/resource-retained-population/validation.md),

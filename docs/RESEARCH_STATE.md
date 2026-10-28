@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-28 — D5M offline debugger repair:**
+[Phase A qualification](experiments/resource-retained-population/debugger-repair.md)
+passes all 42 real Windows cases on the final pinned build, with independent
+engineering and scientific acceptance. Borrowed-handle ownership is repaired and diagnostics
+now retain event dispositions, API results and cleanup ownership. The existing
+dump confirms an armed Grid-clear fault with TF clear; the historical initiating
+cause remains unknown. Full postflight preserves protected inputs and both disk
+floors. The [versioned proposal](experiments/resource-retained-population/run-card-d5m-v1.md)
+retains the scientific boundary and awaits separate live GO. No Starfield launch
+or attachment occurred; no further retail execution, B6 or publication is authorized.
+
 **2026-10-28 — D5L Phase B and ordinary-user retry:**
 [The execution record](experiments/resource-retained-population/phase-b.md)
 preserves an initial sandbox access denial and a separately authorized retry

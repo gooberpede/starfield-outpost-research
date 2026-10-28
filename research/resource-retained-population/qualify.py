@@ -46,7 +46,8 @@ def main():
         rows, receipts = [], []
         with (dest/'stderr.txt').open('xb') as stderr, (dest/'events.jsonl').open('x', encoding='utf8', newline='\n') as journal:
             process = subprocess.Popen([str(build/'sor-d5l-controller.exe'), '--synthetic-fixture',
-                pin(build/'sor-d5l-fixture.exe'), mode], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=stderr, text=True)
+                pin(build/'sor-d5l-fixture.exe'), mode], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=stderr, text=True,
+                env=dict(os.environ,SOR_D5M_CONTROL_PATH=str(dest/'control.jsonl')))
             session = None
             for line in process.stdout:
                 r = json.loads(line)

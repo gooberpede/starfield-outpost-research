@@ -19,10 +19,11 @@ import time
 from build import ROOT,LOCAL,pin
 from verify_native import sites
 from preservation_native import verify_build_files, PREFLIGHT_SCHEMA
+from reliability_contract import MODES
 
 GAME=Path('C:/Program Files (x86)/Steam/steamapps/common/Starfield')
 LIVE=Path('C:/Users/User/Documents/My Games/Starfield/Saves')
-CARD=ROOT/'docs/experiments/resource-retained-population/run-card.md'
+CARD=ROOT/'docs/experiments/resource-retained-population/run-card-d5m-v1.md'
 SOURCE='0:37536:20928:0029d20e'
 EXE='7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28'
 ESM='1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7'
@@ -106,7 +107,8 @@ def main():
     out=LOCAL/a.name;out.mkdir(exist_ok=False);build=a.build.resolve();assert build.is_relative_to(LOCAL)
     manifest=json.loads((build/'build.json').read_text());assert manifest['exit_code']==0
     operational_sources=verify_build_files(manifest)
-    q=json.loads((a.qualification/'results.json').read_text());assert len(q)>=26 and all(r['passed'] for r in q)
+    q=json.loads((a.qualification/'results.json').read_text());assert len(q)==len(MODES) and all(r['passed'] for r in q)
+    assert {r['mode'] for r in q}==set(MODES), 'Complete D5M qualification required'
     assert len({r['mode'] for r in q})==len(q) and all(r['build_sha256']==pin(build/'build.json') for r in q)
     verified=sites(build,a.sites.resolve());write(out/'sites.json',verified)
     result=full_preservation(out)

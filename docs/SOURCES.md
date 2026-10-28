@@ -1,5 +1,21 @@
 # Source Register
 
+## RG2-D5M debugger reliability repair
+
+2026-10-28. [The report](experiments/resource-retained-population/debugger-repair.md)
+and [source ledger](experiments/resource-retained-population/debugger-repair-sources.csv)
+identify the qualified existing dump, original D5L failures and adapted owned
+methods at HEAD `fda182f25b6ff470540f2cdb90e54ef65a5ef9fc` (SOR-P-0002).
+[Microsoft debugging events](https://learn.microsoft.com/en-us/windows/win32/debug/debugging-events),
+[continuation](https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-continuedebugevent),
+[exception handling](https://learn.microsoft.com/en-us/windows/win32/debug/debugger-exception-handling)
+and [minidump process fields](https://learn.microsoft.com/en-us/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_misc_info)
+were consulted read-only on this date. Installed Windows SDK minidump layouts
+support the original bounded parser; no example/source implementation was copied.
+No new downloaded dependency, outside code reuse, rights waiver or disclosure is
+introduced. Raw dumps, contexts, proprietary bytes, builds and receipts remain
+LOCAL-ONLY; authored code and synthesis remain REVIEW-REQUIRED.
+
 ## D5L Phase B execution and ordinary-user retry
 
 2026-10-28. [Authorization](experiments/resource-retained-population/phase-b-authorization.md)

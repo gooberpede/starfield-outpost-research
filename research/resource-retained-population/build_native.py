@@ -11,7 +11,7 @@ import re
 import shutil
 import subprocess
 import sys
-from build import ROOT, SRC, LOCAL, VC, pin
+from build import ROOT, SRC, LOCAL, VC, pin, controller_source
 
 
 def main():
@@ -22,7 +22,7 @@ def main():
     out.mkdir(exist_ok=False)
     inherited = ROOT/'research/resource-combined-acquisition/controller.cpp'
     generated = out/'controller.cpp'
-    generated.write_text(inherited.read_text().split('struct Thread {')[0]+(SRC/'controller-tail.inc').read_text(), encoding='utf8', newline='\n')
+    generated.write_text(controller_source(inherited), encoding='utf8', newline='\n')
     names = ['native_'+n for n in 'visited lookup query mask append complete init reset destroy erase grid_clear source_init grid_init source_retire'.split()]
     exports = names+['after_'+n for n in names]+['native_inner_return','native_outer_return','native_outer_return2']
     flags = '/Bv /nologo /std:c++20 /EHsc /W4 /Od /MT'
