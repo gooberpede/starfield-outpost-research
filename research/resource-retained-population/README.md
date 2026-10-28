@@ -1,5 +1,49 @@
 # D5L retained-population observer methods
 
+## D5O coverage diagnosis revision
+
+The [brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5O_hybrid_coverage_diagnosis_repair.md)
+and [report](../../docs/experiments/resource-retained-population/d5o-report.md)
+govern this bounded continuation. No retail execution is authorized.
+`coverage_hybrid.py` adapts owned D5N generated source without editing historical
+methods; `coverage-hybrid.h` records exact coverage operands and checks proven
+thread termination. Live relevant register loss still stops. The native reader,
+scientific reducer, source and all fourteen sites remain unchanged.
+
+`build_coverage_hybrid.py` reads the existing owned build/source closure and
+installed MSVC/MASM/SDK, writing fresh ignored binaries, source snapshots and
+pins. It executes build tools only. `qualify_coverage_hybrid.py` reads a pinned
+build and executes only sibling disposable Windows targets. It writes durable
+journals, SRO1/ACKs, reductions and field-level coverage assertions. Its headers
+list interventions and fault effects. No downloads, installation, protected
+original changes, game/analysis operations or Git mutations are included.
+
+```text
+PYTHON -B research/resource-retained-population/build_coverage_hybrid.py BUILD_LABEL
+PYTHON -B research/resource-retained-population/qualify_coverage_hybrid.py BUILD_PATH OUTPUT_PATH
+```
+
+Use installed Python with `-B`; fresh build/output paths belong under
+`.local-work/resource-retained-population/`. Default qualification includes the
+inherited hybrid matrix and D5O controls. Optional mode arguments select focused
+development cases; a passing subset is not complete qualification. Both drive
+floors, protected-input checks and exact final review remain required. Native
+GD sanitization and the explicitly synthetic returned-GD fault are separate
+controls; neither is presented as a retail observation.
+
+`check_coverage_hybrid.py` is a separately pinned post-capture verifier. It reads
+the completed 55-case set, asserts actual exit/deferral ordering and exact
+coverage fields, and invokes inherited receipt/ACK corruption controls on
+disposable copies. It creates no target and never edits original journals.
+`operate_coverage_hybrid.py` selects the 55-case set and D5O card for inherited
+operations. The approved D5O entry is `ready_coverage_hybrid.py`: its `check`
+command authenticates full coverage/lifecycle/receipt results and seals their
+exact build, method and input identities; `prepare` verifies that seal before
+full archive/save/content protection; future `collect` checks the bound proof
+with lightweight metadata while retaining explicit approval, ordinary-user and
+one-use admission gates. Generic all-passed results alone are insufficient.
+Do not invoke collection during Phase A.
+
 ## D5N hybrid revision
 
 [Contract/comparison](../../docs/experiments/resource-retained-population/d5n-contract.md),

@@ -1,5 +1,25 @@
 # Source Register
 
+## RG2-D5O coverage diagnosis and repair
+
+2026-10-28. The [report](experiments/resource-retained-population/d5o-report.md)
+retains the historical D5N cause as UNKNOWN. Maintainer-owned D5N/D5M source,
+transport, decoder, preservation and review-export methods at HEAD
+`6d2526145870b97fc6e63e0ad8ee3e471af719c0` are reused or adapted under
+SOR-P-0002. The [117-record ledger](experiments/resource-retained-population/d5o-sources.csv)
+binds exact source/build/evidence identities and preserved failures. No new
+outside implementation or dependency is incorporated.
+
+SOR-S-0117 extension: Microsoft Learn
+[GetThreadContext](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getthreadcontext),
+[debugging events](https://learn.microsoft.com/en-us/windows/win32/debug/debugging-events),
+[GetExitCodeThread](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodethread)
+and [WaitForSingleObject](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject),
+consulted 2026-10-28, supply stopped-context, selective-register, handle and
+termination contracts. Documentation facts and actual Windows test results are
+separate; no Microsoft example implementation is copied. Raw evidence remains
+LOCAL-ONLY and authored work REVIEW-REQUIRED. No external contact or publication.
+
 ## D5N Phase B execution and failure analysis
 
 2026-10-28. [Authorization](experiments/resource-retained-population/d5n-phase-b-authorization.md),

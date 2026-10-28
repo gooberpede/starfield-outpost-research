@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-10-28 — D5O hybrid coverage qualification:**
+[The Phase A diagnosis](experiments/resource-retained-population/d5o-report.md)
+repairs coverage diagnostics and proven-exit membership while preserving all
+fourteen witnesses. Final build08 passes 55 real Windows cases, four pump
+controls and authentication of 1,524 receipts; strict Reset peer membership,
+actual losses and concurrent-exit deferrals are checked. D5N's historical
+cause remains unknown. Protected originals and installed inputs match full
+postflight; no retail process, staging, commit or push occurred. [Independent review](experiments/resource-retained-population/d5o-review.md)
+governs exact acceptance and delivery. The [Phase B proposal](experiments/resource-retained-population/run-card-d5o-v1.md)
+requires separate maintainer GO; B6, publication and frozen resource findings
+remain unchanged.
+
 **2026-10-28 — D5N Phase B hardware-coverage failure:**
 [The separately approved execution](experiments/resource-retained-population/d5n-phase-b.md)
 reached an independently accepted fourteen-site/91-thread pre-load barrier,

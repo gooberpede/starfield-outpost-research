@@ -1,5 +1,17 @@
 # Credits
 
+## RG2-D5O hardware coverage qualification
+
+The maintainer supplied the bounded repair brief and protected D5N evidence.
+The [study](docs/experiments/resource-retained-population/d5o-report.md) adapts
+project-owned D5N/D5M controller, build, fixture, transport, independent decoder
+and preservation methods under SOR-P-0002. Microsoft Learn authors supply Windows
+context/debug-event/thread-termination contracts (SOR-S-0117); installed
+MSVC/MASM/SDK and CPython support disposable execution. Independent reviewers
+challenge forensic causality, exact peer coverage, fault classification and
+scientific/editorial limits. No outside implementation, new dependency or
+proprietary payload is included in authored deliverables.
+
 ## D5N Phase B execution
 
 The maintainer approved the bounded hybrid run, confirmed Cloud isolation and
