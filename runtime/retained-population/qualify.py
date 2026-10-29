@@ -42,9 +42,29 @@ def main():
         if name=='worker-continuous':assert r['raw_records']>3072 and r['acquisition']=='RETIRED' and session_closed(root/name),r
         if name=='mixed-partial':assert r['complete_chains'][0]['population_partial'] and r['failed_observations'],r
     damage=root/'damaged';damage.mkdir(exist_ok=False)
+    resilience={}
+    for name in ('context-reasons','in-flight-loss','hook-stress','loss-cross','loss-fence','loss-rebuild','hook-timing','hook-bounds','late-disk-fault','late-write-fault','late-flush-fault','late-ack-fault','late-ack-write-fault','ack-write-fault','loss-one','loss-many','retry-one','retry-many','stress','disk-fault','write-fault','flush-fault','ack-fault'):
+        r=inspect(root/name,dll);resilience[name]=r
+        positive=name.startswith('late-') or name in ('hook-bounds','hook-stress','loss-rebuild','hook-timing','loss-one','loss-many','retry-one','retry-many','stress')
+        assert bool(r['complete_chains'])==positive,(name,r)
+        if name in ('loss-one','loss-many','retry-one','retry-many','stress','loss-cross','loss-fence','loss-rebuild'):
+            terminal=r['loss_diagnostics'];assert terminal['failed'] is False and terminal['drops']>0,(name,r)
+            assert terminal['drops']==terminal['queue_full']+terminal['contention_exhausted']
+            assert terminal['enqueued']==r['independently_verified_durable_records'] and not terminal['counter_overflow']
+        if name in ('loss-one','retry-one'):assert r['loss_diagnostics']['drops']==1
+        if name in ('loss-many','retry-many'):assert r['loss_diagnostics']['drops']==37
+        if name=='context-reasons':
+            reasons=r['context_first_failures'];assert set(map(int,reasons))=={0,5,7,8,12,14,15,16,19,21,22,23,24,26},reasons
+            assert r['failed_observations']==14,r
+        if name=='loss-many':assert r['construction_witnesses']==2,r
+        if name=='loss-one':assert r['hit_observations']==33,r
+        if name=='in-flight-loss':assert not r['construction_witnesses'] and r['hit_observations']==1 and r['known_ordinary_drops']==1,r
+        if name.endswith('-fault'):
+            terminal=r['loss_diagnostics'];assert terminal['failed'] and terminal['output_faults']>0 and bool(r['complete_chains'])==name.startswith('late-'),r
+            assert terminal['output_fault']=={'disk-fault':'disk_guard','write-fault':'write','flush-fault':'raw_flush','ack-fault':'ack_flush','ack-write-fault':'ack_write'}[name.removeprefix('late-')],r
     source=root/'normal'
     controls={}
-    for mode in ('torn-header','torn-payload','corrupt','torn-ack','wrong-identity','wrong-session','wrong-dll','wrong-terminal'):
+    for mode in ('torn-header','torn-payload','corrupt','torn-ack','wrong-identity','wrong-session','wrong-dll','wrong-terminal','negative-ack'):
         target=damage/('foreign' if mode=='wrong-session' else 'normal')
         target.mkdir()
         for n in ('events.bin','flush.jsonl','identity.json'):shutil.copyfile(source/n,target/n)
@@ -57,6 +77,9 @@ def main():
             p=target/'flush.jsonl';p.write_bytes(p.read_bytes()[:-2])
         if mode=='wrong-identity':
             p=target/'identity.json';p.write_text(p.read_text().replace('"pid":','"pid":1'),encoding='utf8')
+        if mode=='negative-ack':
+            terminal=json.loads((target/'identity.json').read_text());terminal.update(drops=0,failed=False,enqueued=9,flushed=9,acknowledged=-1)
+            (target/'terminal.json').write_text(json.dumps(terminal),encoding='utf8')
         if mode=='wrong-terminal':shutil.copyfile(root/'worker-stop/terminal.json',target/'terminal.json')
         try:
             r=inspect(target,'0'*64 if mode=='wrong-dll' else dll)
@@ -64,9 +87,24 @@ def main():
             controls[mode]='REFUSED_OR_QUALIFIED_PREFIX'
         except ValueError:controls[mode]='REFUSED'
         shutil.rmtree(target)
-    output=dict(schema='sor-d5p-qualification/1',dll_sha256=dll,results=results,damage_controls=controls)
+    # Offline lossless segmentation: each part is hash-bound and ordered, with
+    # the original identity/flush stream unchanged. No writer rotation is used.
+    segmented=damage/'normal';segmented.mkdir()
+    for n in ('identity.json','flush.jsonl'):shutil.copyfile(source/n,segmented/n)
+    raw=(source/'events.bin').read_bytes();parts=[];offset=0;previous=None
+    for index,data in enumerate((raw[:1000],raw[1000:5000],raw[5000:])):
+        name=f'part-{index}.bin';digest=hashlib.sha256(data).hexdigest();(segmented/name).write_bytes(data)
+        parts.append(dict(name=name,bytes=len(data),offset=offset,sha256=digest,previous_sha256=previous));offset+=len(data);previous=digest
+    manifest=dict(schema='sor-d5p-segments/1',identity_sha256=hashlib.sha256((segmented/'identity.json').read_bytes()).hexdigest(),segments=parts)
+    (segmented/'segments.json').write_text(json.dumps(manifest),encoding='utf8')
+    assert inspect(segmented,dll)['complete_chains']==results['normal']['complete_chains']
+    (segmented/'part-1.bin').write_bytes(b'corrupt')
+    segmented_result=inspect(segmented,dll)
+    assert segmented_result['errors'] and not segmented_result['complete_chains'] and segmented_result['recovered_after_damage']['records']>0
+    controls['segment-corrupt']='AUTHENTIC_LATER_ORPHANS_NO_JOINS'
+    output=dict(schema='sor-d5p-qualification/2',dll_sha256=dll,results=results,resilience=resilience,damage_controls=controls)
     (root/'qualification.json').write_text(json.dumps(output,indent=2)+'\n',encoding='utf8',newline='\n')
-    print('Independent native receipt oracles PASS:',len(results),'cases;',len(controls),'damage controls')
+    print('Independent native receipt oracles PASS:',len(results)+len(resilience),'cases;',len(controls),'damage controls')
 
 
 if __name__=='__main__':main()

@@ -10,7 +10,7 @@
 #include <source_location>
 #include <cstdio>
 #include <mutex>
-extern "C" {extern uint64_t visited_fall,visited_taken;void visited_bridge();
+extern "C" {uint64_t fixture_grid{};extern uint64_t visited_fall,visited_taken;void visited_bridge();
  uint64_t fixture_provider(uint64_t,uint64_t,uint64_t,uint64_t);
  uint64_t invoke_lookup(uint64_t,uint64_t,uint64_t,uint64_t);
  uint64_t invoke_query(uint64_t,uint64_t,uint64_t,uint64_t);
@@ -20,7 +20,7 @@ extern "C" {extern uint64_t visited_fall,visited_taken;void visited_bridge();
  void at_lookup(),at_query(),at_generate(),at_mask(),at_copy(),at_visited(),after_visited(),bypass();
  uint64_t fixture_reset(uint64_t,uint64_t,uint64_t,uint64_t),fixture_destroy(uint64_t,uint64_t,uint64_t,uint64_t),fixture_erase(uint64_t,uint64_t,uint64_t,uint64_t),fixture_clear(uint64_t,uint64_t,uint64_t,uint64_t),fixture_retire(uint64_t,uint64_t,uint64_t,uint64_t);
 }
-namespace retained {extern HANDLE raw,ack;extern std::filesystem::path session;extern std::string identity,identity_hash;extern Patch edits[11];extern std::atomic<U> flushed;bool drain();DWORD WINAPI worker(void*);}
+namespace retained {extern HANDLE raw,ack;extern std::filesystem::path session;extern std::string identity,identity_hash;extern Patch edits[11];extern std::atomic<U> flushed;extern unsigned fixture_fault;extern std::string metrics();bool drain();DWORD WINAPI worker(void*);}
 namespace {
 using namespace retained;
 inline thread_local struct Model* model{};
@@ -28,8 +28,8 @@ std::recursive_mutex owner_lock;
 struct Model {
  alignas(8) unsigned char manager[0x210]{},proc[0x138]{},source[0x1a0]{},wrapper[0x40]{},collection[0x18]{},geometry[0x30]{},temp[0x30]{},source_index[0x18]{},grid[0x20]{};
  U source_member{};
- U slots[3]{},resources[3]{};uint32_t points[8]{1,2,3,4,5,6,7,8},destination[8]{};int query[2]{37540,20929};
- bool hit{},partial{},failed_copy{},torn_copy{},nested{},did_nested{},raise{},descriptor_change{};U mask=3;
+ U slots[3]{},resources[3]{};uint32_t points[256]{1,2,3,4,5,6,7,8},destination[256]{};int query[2]{37540,20929};
+ bool in_flight_loss{},hit{},partial{},failed_copy{},torn_copy{},nested{},did_nested{},raise{},descriptor_change{};U mask=3,hit_index{};
  template<class T>void put(unsigned char* p,unsigned off,T v){memcpy(p+off,&v,sizeof v);}
  Model(){
   put(proc,0,base+0x4b3f3a8);put(grid,0,base+0x4b67f48);put(manager,0x120,U(source_index));put(source_index,0x10,U(grid));
@@ -43,14 +43,16 @@ struct Model {
  }
 };
 U singleton_slot{};
-void set_model(Model& m){model=&m;singleton_slot=U(m.manager);memcpy((void*)(base+0x5fd9c30),&singleton_slot,8);}
+void set_model(Model& m){model=&m;fixture_grid=U(m.grid);singleton_slot=U(m.manager);memcpy((void*)(base+0x5fd9c30),&singleton_slot,8);}
 void check(bool v,std::source_location where=std::source_location::current()){if(!v){fprintf(stderr,"fixture assertion at line %u\n",where.line());throw std::runtime_error("fixture assertion");}}
 }
-extern "C" uint64_t native_lookup(uint64_t,uint64_t,uint64_t,uint64_t){return model->hit?0:1;}
+extern "C" uint64_t native_lookup(uint64_t,uint64_t,uint64_t,uint64_t){U cap{};memcpy(&cap,model->proc+0x28,8);return model->hit?model->hit_index:cap;}
 extern "C" uint64_t native_query(uint64_t,uint64_t,uint64_t c,uint64_t d){if(model->descriptor_change)*(unsigned char*)c^=1;return d;}
 extern "C" uint64_t native_mask(uint64_t,uint64_t,uint64_t,uint64_t){return model->mask;}
 extern "C" uint64_t native_copy(uint64_t,uint64_t,uint64_t,uint64_t){
- auto& m=*model;if(m.failed_copy)return 0xffffffff;
+ auto& m=*model;
+ if(m.in_flight_loss){m.in_flight_loss=false;U n=enqueue.load();queue[n%capacity].ticket=n+1;Event lost{};lost.kind=Copy;check(!emit(lost));queue[n%capacity].ticket=n;}
+ if(m.failed_copy)return 0xffffffff;
  memcpy(m.geometry,m.temp,0x30);memcpy(m.destination,m.points,sizeof m.points);
  if(m.torn_copy)m.destination[3]^=1;
  m.put(m.geometry,0x20,U(m.destination));m.put(m.collection,8,uint32_t(1));return 0;
@@ -66,7 +68,7 @@ extern "C" void native_generate(uint64_t,uint64_t,uint64_t,uint32_t,uint64_t,uin
 extern "C" uint64_t fixture_driver(uint64_t w,uint64_t proc){
  std::lock_guard lock(owner_lock);
  auto& m=*model;auto result=invoke_lookup(proc+0x10,w+0x38,0,0);
- if(result==1){m.slots[2]=0;invoke_query(0,0,U(m.manager)+0xc8,U(m.query));invoke_generate(U(m.source),U(m.query),0,0x5e0de,0,U(m.wrapper));m.hit=true;}
+ U cap{};memcpy(&cap,m.proc+0x28,8);if(result==cap){m.slots[2]=0;invoke_query(0,0,U(m.manager)+0xc8,U(m.query));invoke_generate(U(m.source),U(m.query),0,0x5e0de,0,U(m.wrapper));m.hit=true;}
  return result;
 }
 extern "C" __declspec(dllexport) int D5P_Qualify(const wchar_t* folder,const char* scenario){
@@ -99,7 +101,7 @@ extern "C" __declspec(dllexport) int D5P_Qualify(const wchar_t* folder,const cha
   for(unsigned i=0;i<11;++i)edits[i]=patches[i];
   HMODULE self{};check(GetModuleHandleExW(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS|GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT,(LPCWSTR)&D5P_Qualify,&self)!=0);
   wchar_t dll[32768]{};check(GetModuleFileNameW(self,dll,32768)!=0);
-  identity="{\"schema\":\"sor-d5p/1\",\"fixture\":true,\"session_name\":"+sor::quote(session.filename().string())+",\"dll_sha256\":"+sor::quote(sor::sha_file(dll))+",\"pid\":"+std::to_string(GetCurrentProcessId());
+  identity="{\"schema\":\"sor-d5p/2\",\"fixture\":true,\"session_name\":"+sor::quote(session.filename().string())+",\"dll_sha256\":"+sor::quote(sor::sha_file(dll))+",\"pid\":"+std::to_string(GetCurrentProcessId());
   auto id_bytes=identity+"}\n";identity_hash=sor::sha_bytes(id_bytes.data(),id_bytes.size());check(sor::write_new(session/L"identity.json",id_bytes));
   raw=CreateFileW((session/L"events.bin").c_str(),GENERIC_WRITE,FILE_SHARE_READ,nullptr,CREATE_NEW,FILE_ATTRIBUTE_NORMAL,nullptr);
   ack=CreateFileW((session/L"flush.jsonl").c_str(),GENERIC_WRITE,FILE_SHARE_READ,nullptr,CREATE_NEW,FILE_ATTRIBUTE_NORMAL,nullptr);
@@ -130,11 +132,81 @@ extern "C" __declspec(dllexport) int D5P_Qualify(const wchar_t* folder,const cha
    check(WaitForSingleObject(thread,60000)==WAIT_OBJECT_0);CloseHandle(thread);check(std::filesystem::exists(session/L"terminal.json"));
    if(s=="worker-guard")check(!std::filesystem::exists(session/("ack-"+nonce+".json"))&&!std::filesystem::exists(session/L"ready.json"));return 0;
   }
+  if(s=="context-reasons"){
+   Model m;set_model(m);alignas(8) unsigned char frame[0x400]{};
+   auto sample=[&](U expected){Event e{};source_context(e,U(frame),U(m.proc));check(e.reason==expected);e.kind=Visited;emit(e);};
+   auto restore=[&](){m.put(frame,0x100,U(m.grid));m.put(frame,0x38,U(m.source));m.put(frame,0x3d8,U(m.query));m.put(m.manager,0x130,U(m.proc));m.put(m.proc,0,base+0x4b3f3a8);m.put(m.manager,0x120,U(m.source_index));m.put(m.source_index,0x10,U(m.grid));m.put(m.grid,0,base+0x4b67f48);m.put(m.grid,0x10,uint32_t(1));m.put(m.grid,0x14,uint32_t(1));m.put(m.grid,0x18,U(&m.source_member));m.source_member=U(m.source);};
+   restore();sample(ContextOK); // A valid ordinary context, with no target key filter.
+   m.put(m.manager,0x130,U(1));sample(ManagerProcMismatch);restore();
+   m.put(frame,0x38,U(1));sample(SourceBytesRead);restore();
+   m.put(frame,0x3d8,U(1));sample(QueryWordsRead);restore();
+   m.put(m.proc,0,U(1));sample(ProcTypeMismatch);restore();
+   m.put(m.manager,0x120,U(1));sample(GridPointerRead);restore();
+   m.put(m.source_index,0x10,U(1));sample(GridTypeRead);restore();
+   m.put(m.grid,0,U(1));sample(GridTypeMismatch);restore();
+   m.put(m.grid,0x10,uint32_t(2));sample(GridExtent);restore();
+   m.put(m.grid,0x18,U(1));sample(MemberRead);restore();
+   m.source_member=1;sample(NotMember);restore();
+   ++hazards;sample(ContextLifetime);--hazards;
+   m.put(frame,0x100,U(1));sample(GridChanged);restore();
+   std::vector<U> large(257,U(m.source));m.put(m.grid,0x10,uint32_t(257));m.put(m.grid,0x14,uint32_t(257));m.put(m.grid,0x18,U(large.data()));sample(GridCoverageLimit);restore();
+   m.put(m.source,0,uint32_t(0x123456));sample(ContextOK);
+   // A genuine cross-page partial read retains the returned byte count.
+   auto* partial=(unsigned char*)VirtualAlloc(nullptr,8192,MEM_RESERVE|MEM_COMMIT,PAGE_READWRITE);check(partial!=nullptr);DWORD previous{};check(VirtualProtect(partial+4096,4096,PAGE_NOACCESS,&previous)!=0);
+   Event e{};unsigned char copied[16]{};check(!context_read(e,U(partial+4090),copied,16,SourceBytesRead));check(e.reason==SourceBytesRead&&e.read_requested==16&&e.read_returned<16);e.kind=Visited;emit(e);VirtualFree(partial,0,MEM_RELEASE);
+   check(drain());enabled=false;CloseHandle(raw);CloseHandle(ack);return 0;
+  }
+  if(s=="in-flight-loss"||s=="loss-cross"||s=="loss-fence"||s=="loss-rebuild"||s=="hook-bounds"||s=="hook-timing"||s=="loss-one"||s=="loss-many"||s=="retry-one"||s=="retry-many"||s=="late-disk-fault"||s=="late-write-fault"||s=="late-flush-fault"||s=="late-ack-fault"||s=="late-ack-write-fault"||s=="ack-write-fault"||s=="hook-stress"||s=="stress"||s=="disk-fault"||s=="write-fault"||s=="flush-fault"||s=="ack-fault"){
+   auto force_retry=[&](){U n=enqueue.load();queue[n%capacity].ticket=n+1;Event e{};check(!emit(e));queue[n%capacity].ticket=n;};
+   if(s.starts_with("retry-")){for(unsigned i=0;i<(s=="retry-one"?1u:37u);++i)force_retry();check(enabled&&!broken&&full_losses==0);}
+   if(s=="loss-one"||s=="loss-many"){for(U i=0;i<capacity;++i){Event e{};e.kind=Ready;check(emit(e));}for(unsigned i=0;i<(s=="loss-one"?1u:37u);++i){Event e{};check(!emit(e));}check(enabled&&!broken&&contention_losses==0);check(drain());}
+   if(s=="stress"||s=="hook-stress"){
+    Event ready{};ready.kind=Ready;emit(ready);HANDLE thread=CreateThread(nullptr,0,worker,nullptr,0,nullptr);check(thread!=nullptr);
+    auto started=GetTickCount64();while(!std::filesystem::exists(session/L"ready.json")&&GetTickCount64()-started<60000)Sleep(1);check(std::filesystem::exists(session/L"ready.json"));
+    Model burst;set_model(burst);fixture_provider(U(burst.source),U(burst.proc),U(burst.query),0);
+    std::atomic<bool> produce{true};std::vector<std::thread> threads;
+    for(unsigned i=0;i<8;++i)threads.emplace_back([&](){model=&burst;while(produce){if(s=="hook-stress")fixture_provider(U(burst.source),U(burst.proc),U(burst.query),0);else {Event e{};e.kind=Mask;e.epoch=epoch;emit(e);}}});
+    Sleep(250);produce=false;for(auto& t:threads)t.join();
+    while(dequeue.load()!=enqueue.load())Sleep(1);
+    Model m;set_model(m);fixture_provider(U(m.source),U(m.proc),U(m.query),0);fixture_provider(U(m.source),U(m.proc),U(m.query),0);
+    check(enabled&&!broken);if(s=="stress")check(drops>0);check(sor::write_new(session/L"STOP","STOP\n"));check(WaitForSingleObject(thread,60000)==WAIT_OBJECT_0);CloseHandle(thread);return 0;
+   }
+   Model m;set_model(m);m.nested=s=="loss-many";m.in_flight_loss=s=="in-flight-loss";
+   std::vector<U> members(256,0);std::vector<std::array<U,3>> map_slots(256),resource_slots(256);
+   if(s=="hook-bounds"){
+    members.back()=U(m.source);m.put(m.grid,0x10,uint32_t(256));m.put(m.grid,0x14,uint32_t(256));m.put(m.grid,0x18,U(members.data()));
+    for(auto& row:map_slots)row[2]=0xffffffff;for(auto& row:resource_slots)row[2]=0xffffffff;
+    map_slots.back()={U(m.source),U(m.wrapper),0};resource_slots.back()={0x57cf,U(m.collection),0};
+    m.put(m.proc,0x20,U(map_slots.data()));m.put(m.proc,0x28,U(256));m.hit_index=255;m.put(m.wrapper,0x20,U(resource_slots.data()));m.put(m.wrapper,0x28,U(256));
+    m.put(m.temp,0x18,uint32_t(64));m.put(m.temp,0x1c,uint32_t(64));
+   }
+   fixture_provider(U(m.source),U(m.proc),U(m.query),0);
+   if(s=="loss-cross"||s=="loss-fence"||s=="loss-rebuild"){
+    check(drain());for(U i=0;i<capacity;++i){Event e{};e.kind=Ready;check(emit(e));}
+    if(s=="loss-fence")fixture_reset(U(m.proc),0,0,0);else {Event e{};check(!emit(e));}
+    check(drain());if(s=="loss-rebuild")m.hit=false;
+   }
+   fixture_provider(U(m.source),U(m.proc),U(m.query),0);
+   if(s=="loss-rebuild")fixture_provider(U(m.source),U(m.proc),U(m.query),0);
+   if(s=="loss-one"){
+    std::vector<std::thread> threads;for(unsigned i=0;i<8;++i)threads.emplace_back([&](){model=&m;for(unsigned j=0;j<4;++j)fixture_provider(U(m.source),U(m.proc),U(m.query),0);});for(auto& t:threads)t.join();
+   }
+   if(s=="hook-timing"||s=="hook-bounds"){
+    check(drain());LARGE_INTEGER frequency{},begin{},end{};QueryPerformanceFrequency(&frequency);
+    QueryPerformanceCounter(&begin);for(unsigned i=0;i<64;++i)fixture_provider(U(m.source),U(m.proc),U(m.query),0);QueryPerformanceCounter(&end);double observed=double(end.QuadPart-begin.QuadPart)*1000000/frequency.QuadPart/64;
+    check(drain());enabled=false;QueryPerformanceCounter(&begin);for(unsigned i=0;i<64;++i)fixture_provider(U(m.source),U(m.proc),U(m.query),0);QueryPerformanceCounter(&end);double bypassed=double(end.QuadPart-begin.QuadPart)*1000000/frequency.QuadPart/64;enabled=true;
+    check(sor::write_new(session/L"timing.json","{\"samples\":64,\"observed_mean_us\":"+std::to_string(observed)+",\"bypassed_mean_us\":"+std::to_string(bypassed)+"}\n"));
+   }
+   if(s.ends_with("-fault")){if(s.starts_with("late-")){check(drain());Event tail{};tail.kind=Ready;tail.epoch=epoch;check(emit(tail));}fixture_fault=s.find("disk")!=std::string::npos?1:s.find("ack-write")!=std::string::npos?5:s.find("write")!=std::string::npos?2:s.find("flush")!=std::string::npos?3:4;HANDLE thread=CreateThread(nullptr,0,worker,nullptr,0,nullptr);check(thread!=nullptr);check(WaitForSingleObject(thread,60000)==WAIT_OBJECT_0);CloseHandle(thread);return 0;}
+   check(drain());check(enabled&&!broken);
+   auto terminal=identity+",\"written\":"+std::to_string(enqueue.load())+",\"flushed\":"+std::to_string(flushed.load())+",\"enqueued\":"+std::to_string(enqueue.load())+metrics()+",\"failed\":false,\"resident_inert\":true}\n";
+   check(sor::write_new(session/L"terminal.json",terminal));enabled=false;CloseHandle(raw);CloseHandle(ack);return 0;
+  }
   Model m;set_model(m);m.partial=s=="partial"||s=="inserted-empty";m.failed_copy=s=="failed-copy";m.torn_copy=s=="contrary";m.nested=s=="nested";m.raise=s=="generation-exception";m.descriptor_change=s=="descriptor-change";if(s=="mask-zero")m.mask=0;if(s=="unexpected-mask")m.mask=127;if(s=="mixed-partial")m.mask=254;
   if(s=="owner-mismatch")m.put(m.manager,0x80,uint32_t(0x5e0df));
   if(s=="bad-read")m.source_member=1;
   if(s=="hit-only"){native_copy(0,0,0,0);m.hit=true;m.slots[2]=0;}
-  if(s=="overflow"){for(unsigned i=0;i<capacity+2;++i){Event e{};e.kind=Mask;emit(e);}check(drops>0&&broken&&!enabled);}
+  if(s=="overflow"){for(unsigned i=0;i<capacity+2;++i){Event e{};e.kind=Mask;emit(e);}check(drops==2&&!broken&&enabled);}
   else {
    if(s!="concurrent-miss"){
     bool threw=false;try{fixture_provider(U(m.source),U(m.proc),U(m.query),s=="bypass");}catch(const std::runtime_error&){threw=true;}

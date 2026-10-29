@@ -89,6 +89,10 @@ def main():
     sources = {str(p):sha(p) for p in SRC.iterdir() if p.is_file()}
     for name in ('core.h','win_support.h','third_party/sfse/PluginAPI.h','third_party/sfse/LICENSE.txt'):
         p=ROOT/'runtime/exp0002'/name;sources[str(p)]=sha(p)
+    (out/'source-inputs.json').write_text(json.dumps(sources,indent=2)+'\n',encoding='utf8',newline='\n')
+    source_copy=out/'source-snapshot';source_copy.mkdir()
+    for source in SRC.iterdir():
+        if source.is_file():shutil.copyfile(source,source_copy/source.name)
     def run(cmd, log, expected=0):
         guard()
         r=subprocess.run(cmd,cwd=out,capture_output=True)
@@ -104,19 +108,19 @@ def main():
         'where cl.exe','where ml64.exe','where link.exe',
         f'ml64 /nologo /c /Fo visited.obj "{SRC/"visited.asm"}"',
         f'ml64 /nologo /c /Fo native-fixture.obj "{SRC/"fixture.asm"}"',
-        f'cl /Bv /nologo /std:c++20 /EHa /W4 /O2 /MD /I"{out}" "{SRC/"plugin.cpp"}" "{SRC/"fixture.cpp"}" visited.obj native-fixture.obj /LD /Fe:SorRetainedPopulation.dll /link /INCREMENTAL:NO bcrypt.lib',
-        f'cl /nologo /std:c++20 /EHsc /W4 /O2 /MD "{SRC/"host.cpp"}" /Fe:sor-d5p-fixture.exe /link /INCREMENTAL:NO',
+        f'cl /Bv /nologo /std:c++20 /EHa /W4 /O2 /MD /I"{out}" "{SRC/"plugin.cpp"}" "{SRC/"fixture.cpp"}" visited.obj native-fixture.obj /LD /Fe:SorRetainedPopulation.dll /link /Brepro /INCREMENTAL:NO bcrypt.lib',
+        f'cl /nologo /std:c++20 /EHsc /W4 /O2 /MD "{SRC/"host.cpp"}" /Fe:sor-d5p-fixture.exe /link /Brepro /INCREMENTAL:NO',
         'dumpbin /DEPENDENTS SorRetainedPopulation.dll'])
     def qualify(scenario):
         code={'crash-before':71,'crash-after':72}.get(scenario,0)
         run([str(out/'sor-d5p-fixture.exe'),str(out/'SorRetainedPopulation.dll'),str(out/scenario),scenario],scenario+'.log',code)
         return dict(scenario=scenario,exit=code)
     with ThreadPoolExecutor(max_workers=8) as pool:
-        cases=list(pool.map(qualify,('normal','mask-zero','unexpected-mask','mixed-partial','owner-change','mode-change','owner-mismatch','descriptor-change','guard-reject','partial','inserted-empty','bad-read','generation-exception','failed-copy','contrary','nested','concurrent','concurrent-miss','hit-only','bypass','reset','aba','destroy','erase','clear','retire','overflow','output-failure','crash-before','crash-after','worker-stop','worker-failure','worker-guard','worker-continuous')))
+        cases=list(pool.map(qualify,('normal','mask-zero','unexpected-mask','mixed-partial','owner-change','mode-change','owner-mismatch','descriptor-change','guard-reject','partial','inserted-empty','bad-read','generation-exception','failed-copy','contrary','nested','concurrent','concurrent-miss','hit-only','bypass','reset','aba','destroy','erase','clear','retire','overflow','output-failure','crash-before','crash-after','worker-stop','worker-failure','worker-guard','worker-continuous','context-reasons','in-flight-loss','hook-stress','loss-cross','loss-fence','loss-rebuild','hook-timing','hook-bounds','late-disk-fault','late-write-fault','late-flush-fault','late-ack-fault','late-ack-write-fault','ack-write-fault','loss-one','loss-many','retry-one','retry-many','stress','disk-fault','write-fault','flush-fault','ack-fault')))
     run([sys.executable,'-B',str(SRC/'qualify.py'),str(out)],'reader-qualification.log')
     assert all(sha(p)==h for p,h in sources.items())
     assert all(sha(p)==h for p,h in pins.items())
-    result=dict(schema='sor-d5p-build/1',authority='PHASE_A_ONLY',initial_free=start,final_free=guard(),
+    result=dict(schema='sor-d5p-build/2',authority='R1_OFFLINE_ONLY',initial_free=start,final_free=guard(),
                 installed={str(p):h for p,h in pins.items()},sources=sources,sites=rows,vcvars_sha256=sha(VC),
                 dll_sha256=sha(out/'SorRetainedPopulation.dll'),host_sha256=sha(out/'sor-d5p-fixture.exe'),cases=cases)
     (out/'build.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf8',newline='\n')

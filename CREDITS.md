@@ -1049,3 +1049,14 @@ an attempted read-only Vortex inspection; its capture failures are disclosed,
 and no disabled-state proof is attributed to that attempt.
 [Per-use sources](docs/experiments/resource-retained-population/d5p-phase-b-sources.csv)
 retain identities and roles without introducing a new code dependency.
+
+## D5P-R1 offline resilience repair
+
+The existing D5P observer, owned D5L native evidence/readers and installed
+MSVC/MASM/Windows SDK/CPython support the
+[R1 diagnosis](docs/experiments/resource-retained-population/d5p-r1-diagnosis.md)
+and disposable qualification. The unchanged approved SFSE interface header and
+MIT notice retain the D5P permission basis above. Bethesda-derived native exports
+and original Phase B captures remain local-only evidence; they are not included
+as code or redistributed assets. No new outside dependency, contact or
+publication is introduced.

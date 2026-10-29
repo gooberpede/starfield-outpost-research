@@ -19,10 +19,19 @@ struct Event {
  U frame{},manager{},proc{},source{},wrapper{},collection{},index{},resource{};
  U args[6]{};uint32_t count{},owner{};
  unsigned char source_bytes[0x70]{},descriptor[0x2c]{},region[0x30]{},points[1024]{};
+ // Schema 2 suffix. Operands are diagnostic VAs/words, never stable identities.
+ U reason{},read_address{},read_requested{},read_returned{},read_error{};
+ U actual_proc{},proc_type{},source_index{},grid{},grid_type{},members{},grid_count{},grid_capacity{},retained_grid{};
 };
-static_assert(sizeof(Event)==1416);
+static_assert(sizeof(Event)==1528);
 inline std::atomic<U> epoch{1},hazards{},tokens{},drops{},active{};
 inline std::atomic<bool> enabled{},broken{};
+inline std::atomic<U> full_losses{},contention_losses{},retries{},high_water{},first_loss{},last_loss{},loss_generation{};
+inline std::atomic<bool> counter_overflow{};
+inline void increment(std::atomic<U>& counter) noexcept {
+ if(counter.fetch_add(1)==UINT64_MAX){counter_overflow=true;broken=true;enabled=false;}
+}
+inline U next_token() noexcept {U old=tokens.fetch_add(1);if(old==UINT64_MAX){counter_overflow=true;broken=true;enabled=false;return 0;}return old+1;}
 struct ActiveScope {ActiveScope(){++active;}~ActiveScope(){--active;}};
 inline U base{};
 inline Four lookup_original{},query_original{},mask_original{},copy_original{},fences[5]{};
@@ -33,23 +42,33 @@ inline bool read(U p,void* out,size_t n) noexcept {
 template<class T> bool field(U p,T& out) noexcept {return read(p,&out,sizeof out);}
 struct Cell {Event event{};std::atomic<U> ticket{};};
 // Reusable MPSC ring with per-cell publication. Producers never wait for space.
-// Reservation failure closes admission; no decisive record is overwritten.
+// Ordinary admission loss advances continuity but never disables acquisition.
 constexpr U capacity=1024;
 inline Cell queue[capacity];inline std::atomic<U> enqueue{},dequeue{};
 inline void initialize_queue(){for(U i=0;i<capacity;++i)queue[i].ticket=i;}
+inline void lose(bool full) noexcept {
+ increment(drops);increment(full?full_losses:contention_losses);increment(loss_generation);increment(epoch);
+ U boundary=enqueue.load()+1,zero=0;first_loss.compare_exchange_strong(zero,boundary);last_loss=boundary;
+}
 inline bool emit(Event e) noexcept {
  if(!enabled)return false;
  U n=enqueue.load();
+ if(n>U(INT64_MAX)-capacity){counter_overflow=true;broken=true;enabled=false;return false;}
  for(unsigned tries=0;tries<32;++tries){
+  if(n>U(INT64_MAX)-capacity){counter_overflow=true;broken=true;enabled=false;return false;}
   auto& c=queue[n%capacity];auto ticket=c.ticket.load(std::memory_order_acquire);
   auto difference=int64_t(ticket)-int64_t(n);
-  if(difference>0){n=enqueue.load();continue;}
-  if(difference<0){++drops;broken=true;enabled=false;return false;}
+  if(difference>0){increment(retries);n=enqueue.load();continue;}
+  if(difference<0){lose(true);return false;}
   if(enqueue.compare_exchange_weak(n,n+1)){
-   e.sequence=n+1;e.thread=GetCurrentThreadId();c.event=e;c.ticket.store(n+1,std::memory_order_release);return true;
+   e.sequence=n+1;e.thread=GetCurrentThreadId();c.event=e;c.ticket.store(n+1,std::memory_order_release);
+   U occupied=n+1-dequeue.load(),peak=high_water.load();
+   if(occupied<=capacity&&occupied>peak)high_water.compare_exchange_strong(peak,occupied);
+   return true;
   }
+  increment(retries);
  }
- ++drops;broken=true;enabled=false;return false;
+ lose(false);return false;
 }
 inline bool pop(Event& e) noexcept {
  U n=dequeue.load();auto& c=queue[n%capacity];if(c.ticket.load(std::memory_order_acquire)!=n+1)return false;
@@ -60,25 +79,41 @@ inline thread_local Context pending{};
 inline thread_local Context* generating{};
 inline Event current(Kind kind){Event e=generating?generating->e:pending.e;e.kind=kind;e.count=0;return e;}
 inline bool stable(const Event& e){return !hazards.load()&&e.epoch==epoch.load()&&!broken.load();}
+enum Reason:U {ContextOK=0,SingletonRead=1,SourcePointerRead,QueryPointerRead,ManagerProcRead,ManagerProcMismatch,
+ ModeRead,SourceBytesRead,QueryWordsRead,OwnerRead,DescriptorRead,ProcTypeRead,ProcTypeMismatch,
+ IndexRead,GridPointerRead,GridTypeRead,GridTypeMismatch,GridCountRead,GridCapacityRead,GridExtent,
+ GridDataRead,MemberRead,NotMember,ContextLifetime,GridCoverageLimit,RetainedGridRead,GridChanged};
+inline bool context_read(Event& e,U address,void* out,size_t size,Reason reason) noexcept {
+ SIZE_T got{};SetLastError(0);
+ bool ok=address>=0x10000&&address<0x7fffffffffffULL-size&&ReadProcessMemory(GetCurrentProcess(),(void*)address,out,size,&got)&&got==size;
+ if(!ok){e.reason=reason;e.status|=1;e.read_address=address;e.read_requested=size;e.read_returned=got;e.read_error=GetLastError();}
+ return ok;
+}
+template<class T> bool context_field(Event& e,U address,T& out,Reason reason) noexcept {return context_read(e,address,&out,sizeof out,reason);}
 inline void source_context(Event& e,U w,U proc) noexcept {
  e.frame=w;e.proc=proc;e.epoch=epoch;e.hazards=hazards;
  U singleton{},query{};uint8_t mode{};
- bool ok=field(base+0x5fd9c30,singleton)&&field(w+0x38,e.source)&&field(w+0x3d8,query);
+ bool ok=context_field(e,base+0x5fd9c30,singleton,SingletonRead)&&context_field(e,w+0x38,e.source,SourcePointerRead)&&context_field(e,w+0x3d8,query,QueryPointerRead);
  e.manager=singleton;
- U actual{};ok=ok&&field(singleton+0x130,actual)&&actual==proc&&field(singleton+0x20,mode);
- ok=ok&&read(e.source,e.source_bytes,sizeof e.source_bytes)&&read(query,e.args,8);
- ok=ok&&field(singleton+0x80,e.owner)&&read(singleton+(mode==3?0x1c0:0xc8),e.descriptor,sizeof e.descriptor);
+ auto predicate=[&](bool pass,Reason r){if(!pass){e.reason=r;e.status|=1;}return pass;};
+ ok=ok&&context_field(e,singleton+0x130,e.actual_proc,ManagerProcRead)&&predicate(e.actual_proc==proc,ManagerProcMismatch)&&context_field(e,singleton+0x20,mode,ModeRead);
+ ok=ok&&context_read(e,e.source,e.source_bytes,sizeof e.source_bytes,SourceBytesRead)&&context_read(e,query,e.args,8,QueryWordsRead);
+ ok=ok&&context_field(e,singleton+0x80,e.owner,OwnerRead)&&context_read(e,singleton+(mode==3?0x1c0:0xc8),e.descriptor,sizeof e.descriptor,DescriptorRead);
  e.args[4]=mode;
- U index{},grid{},data{},vtable{};uint32_t n{},grid_capacity{};bool member=false;
- ok=ok&&field(proc,vtable)&&vtable==base+0x4b3f3a8&&field(singleton+0x120,index)&&field(index+0x10,grid);
- ok=ok&&field(grid,vtable)&&vtable==base+0x4b67f48&&field(grid+0x10,n)&&field(grid+0x14,grid_capacity)&&n<=grid_capacity&&n<=256&&field(grid+0x18,data);
- for(uint32_t i=0;ok&&i<n;++i){U value{};ok=field(data+i*8,value);member|=value==e.source;}
- ok=ok&&member;
+ uint32_t n{},grid_capacity{};bool member=false;
+ ok=ok&&context_field(e,proc,e.proc_type,ProcTypeRead)&&predicate(e.proc_type==base+0x4b3f3a8,ProcTypeMismatch)&&context_field(e,singleton+0x120,e.source_index,IndexRead)&&context_field(e,e.source_index+0x10,e.grid,GridPointerRead);
+ ok=ok&&context_field(e,e.grid,e.grid_type,GridTypeRead)&&predicate(e.grid_type==base+0x4b67f48,GridTypeMismatch)&&context_field(e,e.grid+0x10,n,GridCountRead)&&context_field(e,e.grid+0x14,grid_capacity,GridCapacityRead);
+ e.grid_count=n;e.grid_capacity=grid_capacity;
+ ok=ok&&predicate(n<=grid_capacity,GridExtent)&&predicate(n<=256,GridCoverageLimit)&&context_field(e,e.grid+0x18,e.members,GridDataRead);
+ for(uint32_t i=0;ok&&i<n;++i){U value{};ok=context_field(e,e.members+i*8,value,MemberRead);member|=ok&&value==e.source;}
+ ok=ok&&predicate(member,NotMember);
+ ok=ok&&context_field(e,w+0x100,e.retained_grid,RetainedGridRead)&&predicate(e.retained_grid==e.grid,GridChanged);
+ ok=ok&&predicate(!e.hazards&&stable(e),ContextLifetime);
  if(!ok)e.status|=1;
 }
 inline void capture_visited(U w,U proc,U saved_rsi) noexcept {
  if(!enabled)return;
- ++active;Context c{};c.e.invocation=++tokens;c.e.parent=generating?generating->e.invocation:0;
+ ++active;Context c{};c.e.invocation=next_token();c.e.parent=generating?generating->e.invocation:0;
  source_context(c.e,w,proc);c.e.kind=Visited;c.e.args[1]=saved_rsi&255;c.valid=!c.e.status&&!c.e.hazards;
  pending=c;emit(c.e);--active;
 }
@@ -130,7 +165,7 @@ inline U mask_hook(U a,U b,U c,U d){
 }
 inline U copy_hook(U a,U b,U c,U d){
  if(!enabled)return copy_original(a,b,c,d);
- U copy_token=++tokens;Event before{};bool sampled=false;if(generating){before=current(Temporary);before.collection=a-8;before.args[3]=copy_token;sampled=region(before,b);if(!sampled)before.status|=16;emit(before);}
+ U copy_token=next_token();Event before{};bool sampled=false;if(generating){before=current(Temporary);before.collection=a-8;before.args[3]=copy_token;sampled=region(before,b);if(!sampled)before.status|=16;emit(before);}
  auto result=copy_original(a,b,c,d);
  if(generating){Event e=current(Copy);e.collection=a-8;e.index=uint32_t(result);e.args[2]=uint32_t(result);e.args[3]=copy_token;
   uint32_t n{};U data{};
@@ -140,20 +175,20 @@ inline U copy_hook(U a,U b,U c,U d){
   if(!stable(e))e.status|=8;emit(e);
  }return result;
 }
-inline void generate_hook(U a,U b,U c,uint32_t d,U grid,U out){
- if(!enabled){generate_original(a,b,c,d,grid,out);return;}
+inline void generate_hook(U a,U b,U c,uint32_t d,U definition,U out){
+ if(!enabled){generate_original(a,b,c,d,definition,out);return;}
  ++active;Context local=pending;auto* previous=generating;generating=&local;
  struct Restore {Context* p;Context old;int exceptions=std::uncaught_exceptions();~Restore(){if(std::uncaught_exceptions()>exceptions){auto e=current(Loss);e.status|=64;emit(e);}generating=p;pending=old;--active;}} restore{previous,pending};
  if(!local.valid||local.e.source!=a)local.e.status|=2;
- generate_original(a,b,c,d,grid,out);
- Event e=local.e;e.kind=Completed;e.args[2]=d;e.args[3]=grid;
+ generate_original(a,b,c,d,definition,out);
+ Event e=local.e;e.kind=Completed;e.args[2]=d;e.args[3]=definition;
  if(e.owner!=d)e.status|=128;
  if(!owned(e))e.status|=4;if(!stable(e))e.status|=8;emit(e);
 }
 template<unsigned N> U fence_hook(U a,U b,U c,U d){
  if(!enabled)return fences[N](a,b,c,d);
- ++hazards;++epoch;++active;Event e{};e.kind=Fence;e.epoch=epoch;e.args[0]=N;e.args[1]=a;emit(e);
- struct End {~End(){++epoch;--hazards;--active;}} end;
+ ++hazards;increment(epoch);++active;Event e{};e.kind=Fence;e.epoch=epoch;e.args[0]=N;e.args[1]=a;emit(e);
+ struct End {~End(){increment(epoch);--hazards;--active;}} end;
  return fences[N](a,b,c,d);
 }
 }

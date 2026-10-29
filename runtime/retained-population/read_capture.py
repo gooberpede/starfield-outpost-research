@@ -12,6 +12,7 @@ import struct
 import zlib
 
 SIZE = 1416
+SIZE_V2 = 1528
 HEADER = struct.Struct('<4I')
 NAMES = ('sequence kind invocation parent thread epoch hazards status frame manager proc source wrapper collection index resource').split()
 
@@ -26,6 +27,8 @@ def decode(raw):
     e['bounds'] = raw[340:361].hex()
     e['native_count'] = struct.unpack_from('<I',raw,364)[0]
     e['points'] = raw[388:388+min(e['count'],64)*16].hex()
+    if len(raw)==SIZE_V2:
+        e.update(zip(('reason read_address read_requested read_returned read_error actual_proc proc_type source_index grid grid_type members grid_count grid_capacity retained_grid').split(),struct.unpack_from('<14Q',raw,1416)))
     return e
 
 
@@ -37,13 +40,20 @@ def ownership(e):
     return tuple(e[n] for n in ('manager','proc','source','wrapper','collection','index','resource','epoch','owner'))+(e['args'][4],e['args'][5])
 
 
+def provisional(events):
+    result=reduce(events)
+    result['candidate_chains']=result.pop('complete_chains')
+    result['qualification']='NOT_QUALIFIED_UNACKNOWLEDGED_OR_DAMAGED_COVERAGE'
+    return result
+
+
 def reduce(events):
     invocations = {}
     constructions = []
     witnessed = []
     chains = []
     for e in events:
-        if e['kind'] == 7:
+        if e['kind'] in (7,8):
             constructions.clear()
         if e['invocation']:
             invocations.setdefault(e['invocation'],[]).append(e)
@@ -92,17 +102,50 @@ def inspect(folder, expected_dll=None):
     identity_bytes=(folder/'identity.json').read_bytes()
     identity=json.loads(identity_bytes)
     identity_hash=hashlib.sha256(identity_bytes).hexdigest()
-    if identity.get('schema')!='sor-d5p/1' or identity.get('session_name')!=folder.name:
+    if identity.get('schema') not in ('sor-d5p/1','sor-d5p/2') or identity.get('session_name')!=folder.name:
         raise ValueError('capture identity/session name')
     if expected_dll is not None and identity.get('dll_sha256')!=expected_dll:
         raise ValueError('unapproved DLL identity')
-    raw=(folder/'events.bin').read_bytes()
-    frames=[];at=0;errors=[]
+    size=SIZE_V2 if identity['schema']=='sor-d5p/2' else SIZE
+    segment_evidence=[];segment_errors=[];segment_orphans=[]
+    if (folder/'segments.json').exists():
+        manifest=json.loads((folder/'segments.json').read_text())
+        if manifest.get('schema')!='sor-d5p-segments/1' or manifest.get('identity_sha256')!=identity_hash:
+            raise ValueError('segment identity')
+        pieces=[];offset=0;previous=None;prefix=True
+        for segment in manifest['segments']:
+            name=segment['name']
+            if Path(name).name!=name or name in ('identity.json','segments.json','flush.jsonl'):
+                raise ValueError('segment path')
+            try:data=(folder/name).read_bytes()
+            except FileNotFoundError:data=b''
+            digest=hashlib.sha256(data).hexdigest()
+            continuity=segment['offset']==offset and segment['previous_sha256']==previous
+            authenticated=continuity and segment['bytes']==len(data) and segment['sha256']==digest
+            segment_evidence.append(dict(name=name,sha256=digest,bytes=len(data),authenticated=authenticated))
+            if authenticated and prefix:pieces.append(data)
+            else:
+                prefix=False
+                if not authenticated:segment_errors.append('segment continuity/hash: '+name)
+                else:
+                    # Recover only wholly contained, individually framed records.
+                    # No scientific join crosses a missing segment or boundary.
+                    first=(-segment['offset'])%(size+16)
+                    for at in range(first,len(data)-(size+16)+1,size+16):
+                        magic,n,seq,crc=HEADER.unpack_from(data,at);payload=data[at+16:at+16+size]
+                        if magic==0x31505253 and n==size and seq==((segment['offset']+at)//(size+16)+1)&0xffffffff and zlib.crc32(payload)==crc:
+                            event=decode(payload)
+                            if event['count']<=64 and event['sequence']==(segment['offset']+at)//(size+16)+1:segment_orphans.append(event)
+            offset+=segment['bytes'];previous=segment['sha256']
+        raw=b''.join(pieces)
+    else:
+        raw=(folder/'events.bin').read_bytes()
+    frames=[];at=0;errors=list(segment_errors)
     while at<len(raw):
         if len(raw)-at<16:
             errors.append('torn header');break
         magic,n,seq,crc=HEADER.unpack_from(raw,at)
-        if magic!=0x31505253 or n!=SIZE or seq!=len(frames)+1:
+        if magic!=0x31505253 or n!=size or seq!=(len(frames)+1)&0xffffffff:
             errors.append('frame identity/size/sequence');break
         if len(raw)-at-16<n:
             errors.append('torn payload');break
@@ -110,10 +153,10 @@ def inspect(folder, expected_dll=None):
         if zlib.crc32(payload)!=crc:
             errors.append('CRC mismatch');break
         e=decode(payload)
-        if e['sequence']!=seq or e['count']>64:
+        if e['sequence']!=len(frames)+1 or e['count']>64:
             errors.append('payload sequence/capacity');break
         frames.append(e);at+=16+n
-    ack=0;verified_bytes=0;prefix_crc=0
+    ack=0;verified_bytes=0;prefix_crc=0;last_receipt=None
     acknowledgments=(folder/'flush.jsonl').read_bytes()
     for line in acknowledgments.splitlines(keepends=True):
         if not line.endswith(b'\n'):
@@ -121,10 +164,10 @@ def inspect(folder, expected_dll=None):
         try:
             r=json.loads(line)
             next_crc=zlib.crc32(raw[verified_bytes:r['bytes']],prefix_crc)
-            if not (r['identity_sha256']==identity_hash and ack<r['records']<=len(frames) and r['bytes']==r['records']*(16+SIZE) and
+            if not (r['identity_sha256']==identity_hash and ack<r['records']<=len(frames) and r['bytes']==r['records']*(16+size) and
                     next_crc==r['prefix_crc32']):
                 raise ValueError('flush binding')
-            ack=r['records'];verified_bytes=r['bytes'];prefix_crc=next_crc
+            ack=r['records'];verified_bytes=r['bytes'];prefix_crc=next_crc;last_receipt=r
         except (ValueError,KeyError,TypeError):
             errors.append('invalid flush receipt');break
     terminal=None
@@ -132,6 +175,11 @@ def inspect(folder, expected_dll=None):
         terminal=json.loads((folder/'terminal.json').read_text())
         if any(terminal.get(k)!=v for k,v in identity.items()):
             raise ValueError('terminal identity mismatch')
+        confirmed=terminal.get('acknowledged',ack)
+        if type(confirmed) is not int or not 0<=confirmed<=len(frames):raise ValueError('invalid terminal ACK count')
+        if confirmed<ack:
+            errors.append('terminal reports unconfirmed ACK flush')
+            ack=terminal['acknowledged']
         if terminal['drops'] or terminal['failed'] or terminal['enqueued']!=ack or terminal['flushed']!=ack:
             errors.append('terminal loss/failure')
     result=reduce(frames[:ack])
@@ -139,6 +187,36 @@ def inspect(folder, expected_dll=None):
                   unacknowledged_records=len(frames)-ack,errors=errors,
                   acquisition='INCOMPLETE' if errors or ack<len(frames) or not terminal else 'RETIRED',
                   capture_sha256=hashlib.sha256(raw).hexdigest(),identity=identity)
+    result['segments']=segment_evidence
+    recovered=[]
+    if at<len(raw):
+        # Fixed-size framing allows later CRC-valid observations to be retained
+        # after damage. ACK qualification still stops at the intact prefix.
+        stride=size+16
+        for position in range(at+stride,len(raw)-stride+1,stride):
+            magic,n,seq,crc=HEADER.unpack_from(raw,position);payload=raw[position+16:position+stride]
+            if magic==0x31505253 and n==size and seq==(position//stride+1)&0xffffffff and zlib.crc32(payload)==crc:
+                event=decode(payload)
+                if event['count']<=64 and event['sequence']==position//stride+1:recovered.append(event)
+    orphans=recovered+segment_orphans
+    result['recovered_after_damage']=dict(records=len(orphans),qualification='ORPHANS_ONLY_NO_CAUSAL_JOINS',
+        stages={str(kind):sum(e['kind']==kind for e in orphans) for kind in sorted({e['kind'] for e in orphans})},
+        contradictory=sum(e['kind']==5 and bool(e['status']&32) for e in orphans))
+    result['record_authentication']='VALID_PREFIX' if frames else 'AUTHENTIC_ORPHANS_WITH_GAPS' if orphans else 'NO_VALID_RECORDS'
+    result['capture_sha256_domain']='recoverable_prefix' if segment_errors else 'whole_stream'
+    result['findings']={
+        'qualified':result['complete_chains'],
+        'candidate_incomplete':dict(construction_only=result['construction_only'],retention_only=result['retention_only'],hit_only=result['hit_only']),
+        'contradictory':result['contrary_geometry'],
+        'indeterminate':bool(result['failed_observations'] or errors or not terminal),
+    }
+    result['loss_diagnostics']=terminal if terminal and identity['schema']=='sor-d5p/2' else {'exact_later_losses':'UNKNOWN','last_ack_diagnostics':last_receipt}
+    result['known_ordinary_drops']=terminal['drops'] if terminal and not terminal.get('counter_overflow') else 'UNKNOWN'
+    result['unobserved_intervals_unquantifiable']=not terminal or bool(terminal.get('failed'))
+    result['session_health']=('FINISHED_LOSSY' if terminal['drops'] else 'FINISHED') if terminal and not terminal['failed'] and terminal['enqueued']==ack else 'INCOMPLETE_OR_FAILED'
+    result['unacknowledged_authenticated']=provisional(frames[ack:])
+    result['context_first_failures']={str(reason):sum(e.get('reason')==reason for e in frames[:ack] if e['kind']==1)
+                                     for reason in sorted({e.get('reason',0) for e in frames[:ack] if e['kind']==1})}
     # A verified prefix survives a torn later tail; it is never upgraded to
     # complete-session coverage or a qualified negative observation.
     return result

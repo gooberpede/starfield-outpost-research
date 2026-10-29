@@ -29,6 +29,7 @@ def write(path,value):
 
 def package(build):
     manifest=json.loads((build/'build.json').read_text())
+    assert manifest.get('schema')=='sor-d5p-build/1', 'Historical v1 operations do not authorize R1 schema 2'
     deployment=json.loads((build/'package.json').read_text())
     assert sha(build/'build.json')==deployment['build_sha256']
     assert sha(build/'qualification.json')==deployment['qualification_sha256']

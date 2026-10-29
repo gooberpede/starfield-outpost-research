@@ -1,5 +1,19 @@
 # Current Research State
 
+**2026-10-29 — D5P-R1 offline context and recorder repair:**
+[Pre-repair diagnosis](experiments/resource-retained-population/d5p-r1-diagnosis.md)
+narrows the original context failure to later type/Grid/extent/membership
+predicates without inventing the missing operand. The
+[schema-2 contract](experiments/resource-retained-population/d5p-r1-design.md)
+adds first-failure reasons, retained/current Grid distinction, cause-specific
+ordinary losses and conservative epoch contamination. Ordinary drops no longer
+retire acquisition. The [R1 result](experiments/resource-retained-population/d5p-r1-report.md)
+and independent review determine
+the supported engineering envelope; retail remains NO-GO. The
+[held operation plan](experiments/resource-retained-population/run-card-d5p-r1.md)
+is not an executable card or deployment package. Historical D5P Phase B remains
+FAILED / UNRESOLVED; frozen findings, B6 and publication are unchanged.
+
 **2026-10-29 — D5P Phase B incomplete acquisition:**
 [Approved execution](experiments/resource-retained-population/d5p-phase-b.md)
 reached original PID 3424's independently checked eleven-hook READY after an

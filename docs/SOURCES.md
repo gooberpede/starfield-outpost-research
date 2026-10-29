@@ -1576,3 +1576,17 @@ original evidence. Native context and producer-admission failures are recorded
 separately from byte integrity; no new selected-source or persistence finding
 is promoted. Raw captures, private protection receipts and controlled copies stay
 local. No new third-party source incorporation, contact or disclosure occurred.
+
+## D5P-R1 observer resilience and context diagnosis — 2026-10-29
+
+[Pre-repair diagnosis](experiments/resource-retained-population/d5p-r1-diagnosis.md)
+and [versioned contract](experiments/resource-retained-population/d5p-r1-design.md)
+separate the confirmed recorder retirement behavior from the unrecoverable
+historical first context predicate. The repair adapts maintainer-owned D5P source
+at HEAD `82f961712e397e4f60c0725205ce8215e1ad074c`, preserving the eleven-hook
+architecture and approved unchanged SFSE header/notice. Original Phase B raw
+receipts, prior native exports and the existing `exact-beacon-08.tsv` form-getter
+export supply point-of-use provenance. Installed MSVC/MASM/Windows SDK and
+CPython perform only offline compilation, disposable native tests and readers.
+Exact hashes and roles belong to the R1 source ledger and delivery manifest.
+No new third-party code, download, external communication or disclosure occurs.

@@ -1,6 +1,11 @@
-# Retained-population observer 0.1.0
+# Retained-population observer 0.2.0 (R1 offline only)
 
-Phase A research instrument for the [D5P brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md).
+The current [R1 design](../../docs/experiments/resource-retained-population/d5p-r1-design.md)
+and [pre-repair diagnosis](../../docs/experiments/resource-retained-population/d5p-r1-diagnosis.md)
+govern schema 2. Retail remains NO-GO. The historical v1 package and operation
+helpers explicitly refuse schema-2 builds; they are not a migrated retail gate.
+
+The original Phase A instrument followed the [D5P brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md).
 The [design](../../docs/experiments/resource-retained-population/d5p-design.md)
 records eleven selected observation boundaries. No helper installs a plugin,
 launches Starfield, attaches a debugger, changes gameplay, saves or configuration.
@@ -10,7 +15,7 @@ Build and run the real disposable Windows fixtures using installed CPython,
 MSVC, MASM and the Windows SDK:
 
 ```powershell
-& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B runtime/retained-population/build.py build-final
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B runtime/retained-population/build.py r1-reproduction
 ```
 
 The build writes an exclusive directory below `.local-work/d5p/`. It reads the
@@ -33,11 +38,12 @@ Only `Data/SFSE/Plugins/SorRetainedPopulation.dll` is runtime-essential. Keep th
 notices, source and build method with the review package; review Vortex's actual
 file preview before any separately authorized installation.
 
-The DLL uses a reusable 1,024-cell MPSC ring. Each event owns 1,416 bytes; native
+The DLL uses a reusable 1,024-cell MPSC ring. Each schema-2 event owns 1,528 bytes; native
 point words are copied immediately, never dereferenced later by the writer.
 At most 64 ordered points and 256 slots, members or regions are inspected per
-bounded traversal. Capacity, contention or unsupported reads close the affected
-claim; queue loss closes admission. There is no silent eviction, gameplay work
+bounded traversal. Capacity or retry-exhaustion loss advances a conservative global epoch and
+acquisition continues. Unsupported reads close the affected claim. The worker
+writes bounded batches of 64 records and preserves explicit output/disk failures. There is no silent eviction, gameplay work
 queue, forced generation or native-call replay. Hook timing is affected by
 bounded copying and Win32 reads. The worker performs file I/O and checks both
 40,000,000,000-byte free-space floors. STOP leaves resident wrappers that bypass
@@ -81,3 +87,11 @@ Startup waits for verified sole-thread admission using the earlier observer's
 pattern, while enforcing disk protection and operator STOP. It never patches
 around a peer thread. Waiting does not establish readiness or authorize a save
 load; the main-menu READY gate remains mandatory.
+
+R1 adds unpaced transport and actual-hook controls, exact single/multiple loss
+recovery, in-flight/cross-loss contamination, retained-Grid and coverage-bound
+reason tests, and early/late output failure controls. Test receipts remain
+local under the exclusive build directory. Ticket-state fault injection forces
+the bounded retry-exhaustion path; it is not reproduction of historical CAS
+contention. Timing describes the actual tested native-shaped layouts, not a
+retail latency guarantee. No test supplies missing original runtime operands.

@@ -1,5 +1,6 @@
 ; SPDX-License-Identifier: GPL-3.0-or-later
 EXTERN fixture_driver:PROC
+EXTERN fixture_grid:QWORD
 EXTERN native_lookup:PROC
 EXTERN native_query:PROC
 EXTERN native_generate:PROC
@@ -17,6 +18,8 @@ fixture_provider PROC FRAME
  mov [rsp+38h],rcx
  mov [rsp+3d0h],rdx
  mov [rsp+3d8h],r8
+ mov rax,fixture_grid
+ mov [rsp+100h],rax
  mov r13,rdx
  mov rsi,r9
 PUBLIC at_visited

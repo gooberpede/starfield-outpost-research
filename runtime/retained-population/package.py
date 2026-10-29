@@ -17,6 +17,7 @@ def main():
     assert build.is_relative_to(LOCAL)
     guard()
     manifest=json.loads((build/'build.json').read_text())
+    assert manifest.get('schema')=='sor-d5p-build/1', 'R1 schema 2 remains retail NO-GO; no reviewed deployment package exists'
     qualified=json.loads((build/'qualification.json').read_text())
     assert sha(build/'SorRetainedPopulation.dll')==manifest['dll_sha256']==qualified['dll_sha256']
     assert all(sha(p)==h for p,h in manifest['sources'].items())
