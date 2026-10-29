@@ -1,5 +1,18 @@
 # Source Register
 
+## D5R request scheduling and selection
+
+2026-10-29. [Claim/source ledger](experiments/resource-retained-population/d5r-sources.csv)
+binds Bethesda's pinned local EXE/ESM/PlanetData, fresh read-only Ghidra exports,
+inherited D5D/D5H/D5I/D5Q evidence and new bounded arithmetic/model controls.
+Owned D5Q exporter and D5H witness/arithmetic/occupancy/archive methods at HEAD
+`ab9e7f5816c0e3bfe0b5fa53fbb589711142e81c` are adapted under SOR-P-0002.
+Existing Ghidra/JDK/CPython/Git are separate installed tools; no new dependency,
+licence basis, external consultation/contact or disclosure. Raw native/static
+corpora remain LOCAL-ONLY; authored synthesis REVIEW-REQUIRED. The
+[report](experiments/resource-retained-population/d5r-report.md) distinguishes
+sample/vector variability from unknown complete-population equivalence.
+
 ## D5Q construction call and data-flow mapping
 
 2026-10-29. [Exact claim/source ledger](experiments/resource-retained-population/d5q-sources.csv)

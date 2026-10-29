@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-29 — D5R query scheduling and determinism:**
+[Offline findings](experiments/resource-retained-population/d5r-report.md) separate
+deterministic root-local enumeration from unresolved ingress/winner selection.
+Fresh qualified second Feynman V arithmetic retains masks 0/3 and unequal
+ordinary weights; complete geometry equivalence remains unresolved. The
+[map](experiments/resource-retained-population/d5r-query-scheduling-map.md)
+identifies low-word request keys, two worker routes and partial lifetime guards.
+[Review](experiments/resource-retained-population/d5r-review.md) controls delivery.
+Save inspection was not triggered. No live authority, historical promotion,
+observer change or publication clearance; D5P NO-GO and B6 holds remain.
+
 **2026-10-29 — D5Q offline call and data-flow map:**
 [The mapping](experiments/resource-retained-population/d5q-report.md) connects
 request/cell enumeration, the provider's selected source, original-query mask

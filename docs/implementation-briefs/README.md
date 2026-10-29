@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [D5R query scheduling and selection determinism](CODEX_BRIEF_SOR_RG2_D5R_query_scheduling_selection_determinism.md): invoked 2026-10-29 for bounded offline query/worker/lifetime research and conditional save discipline. [Report](../experiments/resource-retained-population/d5r-report.md) separates qualified ordinary-vector variability from unresolved complete-population prediction. No live, observer, save mutation, staging, commit, push or publication authority.
+
 - [D5Q resource construction call/data-flow mapping](CODEX_BRIEF_SOR_RG2_D5Q_resource_construction_call_dataflow_mapping.md): invoked 2026-10-29 for offline native mapping and independent review. [Report](../experiments/resource-retained-population/d5q-report.md) preserves source-lifetime and historical-chain gaps. No observer implementation, game, deployment, save, staging, commit, push or publication authority.
 
 - [RG2-D5P-R3 Grid membership/context validation](CODEX_BRIEF_SOR_RG2_D5P_R3_grid_membership_context_validation_repair.md): invoked 2026-10-29 for offline native investigation and disposable qualification. [Report](../experiments/resource-retained-population/d5p-r3-report.md), [review](../experiments/resource-retained-population/d5p-r3-review.md), [held proposal](../experiments/resource-retained-population/run-card-d5p-r3.md). No safe repaired-production candidate qualified; no retail, staging, commit, push or publication authority.

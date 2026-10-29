@@ -1,5 +1,16 @@
 # Credits
 
+## D5R query determinism research
+
+Bethesda supplies the local native/definition/raster evidence for the
+[scheduling account](docs/experiments/resource-retained-population/d5r-report.md).
+The maintainer supplies the bounded question and historical research context.
+Project D5D/D5G/D5H/D5I/D5Q research, D5Q read-only export methods and D5H
+arithmetic/occupancy methods are reused under SOR-P-0002; exact lineage is in
+the [ledger](docs/experiments/resource-retained-population/d5r-sources.csv).
+No proprietary listing, static corpus or outside implementation is incorporated
+into the authored deliverables; raw evidence remains local.
+
 ## D5Q offline construction mapping
 
 Bethesda supplies the local executable/native evidence used in the
