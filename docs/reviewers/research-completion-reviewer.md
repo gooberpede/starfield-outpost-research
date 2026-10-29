@@ -25,6 +25,33 @@ to the implementer. Never accept your own corrections.
 - Return exactly ACCEPT, REWORK or ESCALATE, with criterion-specific reasons,
   evidence references, tested versus merely reported checks and remaining limits.
 
+## Mandatory scientific completeness challenge
+
+Use the protocol's [question-level gate](../RESEARCH_EXECUTION_PROTOCOL.md#controlling-question-and-outcome-gate).
+Obtain the original questions/required generality, approved amendments, active
+ledger, primary evidence/negative controls, current tree and proposed claims.
+Missing mandatory review inputs require REWORK; an evidenced inaccessible essential
+input requires ESCALATE. Do not accept a final-report reformulation of the question.
+
+For each material dependency, record whether it is resolved, disproved,
+irrelevant with evidence, blocked with evidence, or open and tractable. Audit
+checked source paths, counterexamples and alternative methods directly. Name at
+least the highest-value omitted/untested avenue, or the evidence showing none
+remains. An accurate model, clean hashes and editorial ACCEPT do not establish
+scientific sufficiency. Verify that the ledger was maintained during work;
+a retrospective alone fails that requirement.
+
+Return REWORK for any tractable mandatory lead, silent narrowing or missing
+validation. Return ESCALATE only with the protocol's terminal proof and smallest
+request; preserve the unfinished question. ACCEPT requires completed mandatory
+contract outcomes, including adequately controlled scoped falsification; do not
+demand universal impossibility after decisive negative completion. A separately
+authorized bounded method NO-GO may be accepted only with visible parent ID/open
+status and engineering failures preserved. Viable alternatives in the same
+controlling assignment still require REWORK. Report question statuses, criterion
+matrix, claim coverage, engineering/evidence and editorial dispositions and a
+short unresolved-branch table separately. Never accept your own edits.
+
 ## Session tool procedure
 
 For substantive future deliveries, independently enforce

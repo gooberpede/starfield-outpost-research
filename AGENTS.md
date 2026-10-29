@@ -37,6 +37,17 @@ Record build/sample/tool provenance; stable record identifiers; exact supporting
 
 Track publication eligibility independently of scientific confidence. A runtime field is not automatically persisted. A saved value is not automatically authoritative after load. A discovered function or field is not automatically a safe mod integration point.
 
+## Research completion
+
+Follow the [completion protocol](docs/RESEARCH_EXECUTION_PROTOCOL.md#controlling-question-and-outcome-gate).
+Keep the frozen controlling question visible, pursue material authorized
+dependencies across subsystem boundaries, and maintain an active investigation
+ledger. Report COMPLETE, BLOCKED or INCOMPLETE for each controlling question;
+a bounded subtask or abandoned method leaves its parent question explicitly open.
+Independent review must challenge unresolved branches against the original
+contract. Accurate partial findings and polished deliverables cannot close an
+unanswered mandatory question. Safety STOP and permission gates always prevail.
+
 ## Tooling and experimental safety
 
 No game launch, debugger attachment, deployment, third-party tool execution, or save modification follows automatically from setup. Each experiment must state the allowed actions, inputs, outputs, risks, stop conditions, and cleanup.

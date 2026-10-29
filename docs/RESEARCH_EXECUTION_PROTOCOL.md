@@ -27,6 +27,80 @@ cost and safety reasons. Neither arbitrary test counts nor STRONG PARTIAL closes
 an assignment. An accepted scoped STRONG scientific claim remains distinct from
 engineering completion, under [the evidence standard](EVIDENCE_STANDARD.md).
 
+## Controlling question and outcome gate
+
+Prospective reinforcement, 2026-10-30, under the
+[authorized brief](implementation-briefs/CODEX_BRIEF_SOR_research_completion_governance_reinforcement.md)
+and [decision](DECISIONS.md#research-completion-governance-reinforcement---2026-10-30).
+This supplements the existing safeguards; historical criteria and verdicts stand.
+
+Every substantive research contract freezes stable IDs for its controlling
+questions, success/falsification conditions and required generality. Review the
+original question and recorded maintainer-approved amendments, never a narrower
+reformulation in the final report. Only explicit recorded maintainer approval
+can change a question, applicability, mandatory criterion or blocker definition.
+Intermediate models, diagrams, scoped findings and completed files do not change
+that contract. Claim confidence/coverage and assignment sufficiency are separate:
+a supported partial finding remains useful while the controlling question is open.
+
+| Question status | Required proof and reviewer mapping |
+|---|---|
+| COMPLETE | Positive answer or adequately controlled scoped negative meets the original question/criteria. ACCEPT requires all mandatory contract outcomes, including review. No universal impossibility proof is required after decisive scoped falsification. |
+| INCOMPLETE | Answer outstanding and material authorized work remains, or required validation is missing. REWORK; retain only as checkpoint/handoff, never accepted scientific completion. |
+| BLOCKED | Answer outstanding and a specific terminal barrier is evidenced under the proof below. ESCALATE the smallest missing authority/input/capability; this is not scientific completion. |
+
+An independently accepted, separately authorized bounded subtask or negative
+method-feasibility result must name its parent question ID and open status.
+Method abandonment does not falsify or close the parent scientific question;
+production engineering failures remain FAIL/NOT TESTED. If alternative methods
+remain viable within the same controlling assignment, continue them or return
+REWORK, even if one method has been decisively refuted. An unqualified ACCEPT
+is prohibited while any mandatory controlling question is INCOMPLETE or BLOCKED.
+A model with unresolved actual engine ordering cannot answer the real scheduling
+question merely by enumerating model permutations.
+
+## Dependency ledger and terminal-barrier proof
+
+Create an active investigation ledger near the start, using the existing
+experiment/durable-note and local scratch conventions. Update it as material
+branches are discovered or tested, not solely at final handoff. Record stable
+question/criterion IDs, hypotheses, native/data boundaries, evidence-backed
+results, counterexamples, source/investigation paths actually checked, discovered
+dependencies, viable untried leads and failed alternatives with reasons. Give
+each material branch a disposition: resolved, disproved, irrelevant with evidence,
+blocked with evidence, or open; include next concrete action and reproducibility
+pointers. Checkpoint/timestamp meaningful changes without fabricated chronology
+or routine log volume. Keep raw proprietary evidence local. Summaries and ledger
+entries do not replace primary evidence or independent verification.
+
+A material upstream caller, queue, scheduler, streaming ingress, input provenance,
+native writer or reasonable alternative observation method is work within the
+original question while authorized. Subsystem/document boundaries alone do not
+justify deferral. Prioritize by expected discrimination, avoid irrelevant
+combinations, and justify boundaries of any genuinely unbounded search, including
+why residual paths cannot change the conclusion. Do not demote an essential
+unresolved branch to an optional follow-up. Separate authority remains required
+for live launch, deployment, database edits, protected-save writes, disclosure
+and third-party reuse; continue independent authorized offline work.
+
+A terminal BLOCKED claim must supply all of:
+
+- The exact missing value/data, function/edge, access/safety boundary or
+  indispensable action and why it is necessary to answer the frozen question.
+- Attempts and verified observations with exact evidence; alternative routes
+  considered, why each fails or is unavailable, and residual avenues/impact.
+- Barrier class: intrinsic to the method, tool/session/resource limitation, or
+  unapproved action. A failed technique does not prove intrinsic impossibility.
+- The smallest permission, input, discriminating experiment or capability needed,
+  plus an evidence-preserving resume checkpoint and concrete next action.
+
+Unknown callers, failure to find something, further research, time pressure or
+reviewer agreement alone are not blocker proof. Tool/session exhaustion needs
+observed limits, attempted recovery and durable resume inputs; it is not a
+scientific result. A prohibition on live work blocks only the essential live
+action after independent offline routes are shown insufficient. Safe STOP always
+prevails; no proof requirement authorizes unsafe or prohibited work.
+
 ## Contract and proportional method selection
 
 Embed the [compact contract](templates/completion-contract.md) in every substantive
@@ -91,6 +165,18 @@ integration. Reviewer acceptance supplies none of these permissions.
 | REWORK | Return the same assignment to implementer with criterion-specific defects; fix and resubmit without a fresh user brief. |
 | ESCALATE | Specific authority or genuinely terminal evidenced blocker needed; state narrow request and preserved state. |
 
+The independent scientific/completeness reviewer receives the original contract,
+approved amendments, active ledger, primary evidence and negative controls,
+current tree and proposed claims. Challenge every material unresolved branch:
+is it irrelevant, disproved, proven blocked or still tractable within authority?
+Independently identify at least the highest-value omitted/untested avenue, or cite
+evidence that none remains. Inspect source coverage, counterexamples and
+alternative methods. Return REWORK for a tractable mandatory lead; ESCALATE for
+a demonstrated terminal authority/capability barrier, preserving the unanswered
+question. Accuracy or editorial acceptance cannot substitute for this challenge.
+Report engineering/evidence, scientific/completeness and editorial dispositions
+separately, with exact reviewed hashes and existing delta-review requirements.
+
 Use the [reviewer instruction and invocation procedure](reviewers/research-completion-reviewer.md).
 Check actual session support; policy prose is not an automated orchestrator.
 Where unavailable, use its separately initiated manual two-pass fallback. Record
@@ -111,6 +197,12 @@ for those changes and require relevant independent delta review. Minor
 self-describing review-record closure can use a delta review without restarting
 the investigation. This prospective requirement does not revise frozen criteria
 or historical verdicts and grants no integration authority.
+
+Every substantial delivery also states controlling-question IDs/statuses
+COMPLETE / BLOCKED / INCOMPLETE, scientific claim coverage, engineering/operational
+integrity, reviewer disposition, and a short unresolved-dependency disposition
+table. A bounded subtask shows parent ID/status visibly. Derive closure from the
+original mandatory contract, not from document quality or a narrower result.
 
 Every substantial review return includes every original mandatory criterion as
 PASS / FAIL / NOT TESTED, an exact evidence path/location and one-line reason.

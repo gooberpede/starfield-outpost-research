@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [Research completion governance reinforcement](CODEX_BRIEF_SOR_research_completion_governance_reinforcement.md): invoked 2026-10-30 for focused documentation and independent adversarial validation. [Gap analysis and cases](../audits/research-completion-governance-reinforcement.md). Historical verdicts preserved; no science, live action, staging, commit, push or publication authority.
+
 - [D5R query scheduling and selection determinism](CODEX_BRIEF_SOR_RG2_D5R_query_scheduling_selection_determinism.md): invoked 2026-10-29 for bounded offline query/worker/lifetime research and conditional save discipline. [Report](../experiments/resource-retained-population/d5r-report.md) separates qualified ordinary-vector variability from unresolved complete-population prediction. No live, observer, save mutation, staging, commit, push or publication authority.
 
 - [D5Q resource construction call/data-flow mapping](CODEX_BRIEF_SOR_RG2_D5Q_resource_construction_call_dataflow_mapping.md): invoked 2026-10-29 for offline native mapping and independent review. [Report](../experiments/resource-retained-population/d5q-report.md) preserves source-lifetime and historical-chain gaps. No observer implementation, game, deployment, save, staging, commit, push or publication authority.

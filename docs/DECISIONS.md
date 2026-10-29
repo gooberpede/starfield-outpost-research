@@ -1,5 +1,21 @@
 # Decision Register
 
+## Research completion governance reinforcement - 2026-10-30
+
+The maintainer explicitly invokes the
+[retained brief](implementation-briefs/CODEX_BRIEF_SOR_research_completion_governance_reinforcement.md)
+and requests a conventional commit suggestion without commit/push. Authorized:
+focused governance documentation, repeatable decision cases, deterministic checks
+and separate independent adversarial/completeness and editorial review contexts.
+GOV-AC1–GOV-AC9 are frozen. The [protocol](RESEARCH_EXECUTION_PROTOCOL.md#controlling-question-and-outcome-gate)
+adds original-question closure accounting, active branch tracking and evidenced
+terminal barriers; the [validation record](audits/research-completion-governance-reinforcement.md)
+diagnoses the existing enforcement gap and exercises prospective cases.
+Historical D5R and D5P-R3 contracts/acceptances and scientific classifications are
+unchanged. Integration requires maintainer review. No D5S/new science, operational
+or protected-save action, dependency, disclosure, publication, staging, commit
+or push is authorized.
+
 ## L2 execution and retained L3 boundary - 2026-10-19
 
 The maintainer invoked the retained [L2 brief](implementation-briefs/CODEX_BRIEF_SOR_L2_outpost_build_budget_native_accounting.md)

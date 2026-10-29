@@ -32,6 +32,17 @@ separate outcome dimensions and verified review patches under the rules below.
 See the [reviewer procedure](docs/reviewers/research-completion-reviewer.md) for
 session-specific invocation, access limits and the manual two-pass fallback.
 
+For substantive research, hand off the original controlling questions and approved
+amendments, active investigation ledger, primary evidence/negative controls,
+current tree and proposed claims. Apply the protocol's
+[question-level gate](docs/RESEARCH_EXECUTION_PROTOCOL.md#controlling-question-and-outcome-gate):
+COMPLETE can be accepted; INCOMPLETE returns REWORK; an evidenced terminal
+BLOCKED returns ESCALATE. A checkpoint or accepted bounded method result must
+show its parent question ID/status and cannot imply parent completion. Keep
+scientific/completeness, engineering/evidence and editorial dispositions separate.
+The [governance validation](docs/audits/research-completion-governance-reinforcement.md)
+exercises these rules prospectively; historical contracts remain unchanged.
+
 ## Question-led research loop
 
 Apply the [scoped-conclusion, coverage and reporting rules](docs/EVIDENCE_STANDARD.md#scoped-conclusions-and-coverage). Within the approved scope, select authorized offline tests by information gain; this does not waive experiment approval or the review required for durable promotion/reclassification. Answer substantive research questions before listing limitations.
