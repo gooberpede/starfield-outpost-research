@@ -1,5 +1,17 @@
 # Source Register
 
+## D5P-R3 Grid representation and bounded offline investigation
+
+2026-10-29. The [R3 ledger](experiments/resource-retained-population/d5p-r3-sources.csv)
+binds freshly verified installed pins, original D5P/R1/R2 receipts, read-only
+Ghidra exports, actual production/counterfactual native controls, unchanged-DLL
+regressions and reader replay/damage. Owned build, header, fixture, reader and
+export methods are reused/adapted from this repository at HEAD
+`513461a89a5e4958e9dc6f30f97f7e50be5141f0` under SOR-P-0002. Ghidra 12.1.2,
+installed Java, CPython and MSVC/Windows SDK are existing separate tools; no new
+third-party implementation or dependency is incorporated. Native bodies and
+binary/raw receipts stay LOCAL-ONLY. No external contact or publication occurred.
+
 ## D5O Phase B execution and Grid-clear fault
 
 2026-10-29. [Exact source/evidence ledger](experiments/resource-retained-population/d5o-phase-b-sources.csv)

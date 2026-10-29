@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-10-29 — D5P-R3 bounded offline Grid investigation:**
+[Native analysis and disposable controls](experiments/resource-retained-population/d5p-r3-report.md)
+support a dynamic eight-byte-pointer array, not a universal 512-member limit.
+Removing the old bound alone admits logical allocation aliases and can report a
+stale-array negative during an interposed reallocation. Production/DLL/schema
+remain unchanged; R3-AC3 FAIL and repaired-production R3-AC4 NOT TESTED keep
+retail NO-GO. [Independent review](experiments/resource-retained-population/d5p-r3-review.md)
+governs bounded-investigation closure. Writer-qualified traversal and consumer
+selection remain unresolved alternatives, not disproved methods. No R3 package,
+live run, B6 or publication is authorized; original D5P history and the larger
+retained-population hypothesis remain unresolved.
+
 **2026-10-29 — D5P-R2 authorized retail diagnosis:**
 [One conditional session](experiments/resource-retained-population/d5p-r2-retail.md)
 authenticates 9,736 admitted records. All 6,101 recorded demands first reject the
