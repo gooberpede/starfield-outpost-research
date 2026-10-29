@@ -1,0 +1,55 @@
+record_id,path,bytes,sha256,role,eligibility
+SOR-D5P-B-001,.local-work/d5p/live/session-3424-98377281/ack-0e3755ee09554080b19feb4c53ddbd59.json,461,c6a87d1d0aa8aab62a73eb177990b28a1c62c7a269dc15eb8fc986d618aafea2,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-002,.local-work/d5p/live/session-3424-98377281/ack-ff703d8ba96a4ed38612e03737ff7316.json,461,c85188307e6e72d1214fde09801c9bbbe16cd9e7386a77e573a4854b667141c5,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-003,.local-work/d5p/live/session-3424-98377281/events.bin,2279744,2b0fe700ed20bdf7acc5562ce80172b04a6e47c83c0ebd1314c6c8238146a5c1,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-004,.local-work/d5p/live/session-3424-98377281/flush.jsonl,1266,530bca9424b55688238c8dd8b1d6d70385e9841b08f2fa30c519f9f8cf7495cf,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-005,.local-work/d5p/live/session-3424-98377281/identity.json,354,a9429253969466847c6904689ab286846ba9f9bd9558df350ac3bb5300ecb14b,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-006,.local-work/d5p/live/session-3424-98377281/ready.json,405,6c30fed8f9e796217a59c05ad579d4e2ef9664248a24cc5d23e0355835a51e49,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-007,.local-work/d5p/live/session-3424-98377281/request.txt,32,96933d98b3cb1294c71168cd26fdf03b372eee3fad17b832a16667fb46066dcb,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-008,.local-work/d5p/live/session-3424-98377281/terminal.json,446,a8e1575e3954c7ba81539590d913875ad287e107c635880877386cebaaa2f94d,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-009,.local-work/d5p/live/session-3424-98377281/waiting-sole-thread.json,369,dd4ac379cd40f93a98a29f5dd6c456dcd85d8ae397797db3f2a8615f919b9458,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-010,.local-work/d5p/live/session-6460-98416593/events.bin,1432,36598d8fa2f043b4c1c11da403232f9449505fc422094a449c0bd6e2f202749d,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-011,.local-work/d5p/live/session-6460-98416593/flush.jsonl,137,7230bd5354d19399173c41c0cf0a01d41ce190d5fc1b62d6444c1f81fbd20fad,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-012,.local-work/d5p/live/session-6460-98416593/identity.json,354,c56ead8de9a1383b901801f0bdd6167929dd9e7d7c0e0ab9bea677daa282a2a5,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-013,.local-work/d5p/live/session-6460-98416593/ready.json,405,65387e9ccaf60ac68f281d44d27b794a671637e05c32b869018ff0e794bc5490,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-014,.local-work/d5p/live/session-6460-98416593/waiting-sole-thread.json,369,2898fd1e05ad47024e2cb544df122c9122bc4fa3087d48d691f03f2f0e29a650,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-015,.local-work/d5p/phase-b-authorization-v1-admitted.json,1643,143d403ff713aa2593436cc90495ebc604e3a719e44a14b5f066bd6afb6a50f6,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-016,.local-work/d5p/phase-b-authorization-v1-continuation.json,2420,9b78c812548df6ef1e0762e3eaa935b6a0b728570aa01cb67cb4d4f92788eb75,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-017,.local-work/d5p/phase-b-authorization-v1.json,1108,c90012c95c7462701348cbcb6a6fa974b7b6921ca9be98636c76b21bb9b9db98,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-018,.local-work/d5p/phase-b-postflight-v1-protection/protection.json,142424,08f6a4905e3428bcc213ccb9dc9395851495245cbd36b719d8a71bb9d4430cff,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-019,.local-work/d5p/phase-b-postflight-v1-protection/remaining-inputs.json,136652,aaccecad527462b1d300b01a3262083f03cde7953485a0f5974d5e7c6e1ebff3,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-020,.local-work/d5p/phase-b-postflight-v1-protection/start.json,143,3719a83a30976585bfeeadbffc80c54dbc33c17574b90226bf316e8606cec135,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-021,.local-work/d5p/phase-b-postflight-v1-protection/sync-audit.json,50006,f300e847edfef2cf32865a935426dfb43c374603cad36ea69f75fee65540d980,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-022,.local-work/d5p/phase-b-preflight-v1-protection/protection.json,142424,0a3ee545ab24fcc7297f3aab937c20542aba5a4eb97284892d98409d0c21fd76,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-023,.local-work/d5p/phase-b-preflight-v1-protection/remaining-inputs.json,136652,2f6b372b106dff5ae135946cfec377b0584bf732a4236a1304fd54a40e3c853f,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-024,.local-work/d5p/phase-b-preflight-v1-protection/start.json,143,3719a83a30976585bfeeadbffc80c54dbc33c17574b90226bf316e8606cec135,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-025,.local-work/d5p/phase-b-preflight-v1-protection/sync-audit.json,50006,f300e847edfef2cf32865a935426dfb43c374603cad36ea69f75fee65540d980,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-026,.local-work/d5p/phase-b-preflight-v1.json,150373,7d137609cb346649cd405243019e4dc087285fbd8609397c099432c1d98b665a,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-027,.local-work/d5p/phase-b-ready-v1.json,1701,bc97d5d77ce707f04bfb66f790851479d54caa9fae49a2956cca072b9729dd97,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-028,.local-work/d5p/phase-b-ready-v2.json,1701,e2fd875f8ca691989657e8633a56f36ea0c9efe49347e958057fc8c130a3515e,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-029,.local-work/d5p-phase-b/analysis.json,8775,95b4936204892c1ad71bfed1aa7b8f188c086baae5eee63b97b46a81e46f154c,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-030,.local-work/d5p-phase-b/arrival-health.json,477,94c313ae5b36de1760b719e93a8424f7e812609963a45cacbba35c50e11a204d,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-031,.local-work/d5p-phase-b/continuation-review.md,1107,474f7d1877635229ecdaa539258c162cceb234fd7c1a05c1e792797b086e8795,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-032,.local-work/d5p-phase-b/health.py,3433,63870eb2a75c939b8dae400ed88c88bb1f6839a5d26a7f254737934ee51b0335,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-033,.local-work/d5p-phase-b/postflight-comparison.json,1780,f73833427e6c4cc4f7db6562b9155129c991da8d83d88435e47327c06659f9ee,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-034,.local-work/d5p-phase-b/postflight-disabled-inventory.json,890,a7e616a715671f673a08d4c027d7342f048db96651e2ebbf110cbcef997689bb,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-035,.local-work/d5p-phase-b/preflight-review.md,1515,eb987ce34855cd43611a8fe5bec5a756071fc343307180382788aa908a9f090c,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-036,.local-work/d5p-phase-b/preload-light-guards.json,522,82dbb7237e25c79f4b40b60aa739b4210f04cbb182d946975b641432ac45e36d,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-037,.local-work/d5p-phase-b/preload-remote-guards.json,136,170234f358fd6c69264c82344c78c978a3cfb7f255c9e7dbdf0912befef45c24,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-038,.local-work/d5p-phase-b/ready-review.md,1209,15ca8b91d07796b7afdbe0418fd2316ff64cfc0e0b51aa6bd6a49abfb2d40f89,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-039,.local-work/d5p-phase-b/reduction-initial.json,983,f30d2dc15f45aeec86bf1a41f0975f25936cfee678f5b2537a329d3fcc18eb60,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-040,.local-work/d5p-phase-b/seal.py,3759,2bf73831034af01b81469d677573109599a5bb5e389686cbe06c5b4f34d52983,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-041,.local-work/d5p-phase-b/start.json,4006,9a6547b1687d7d601db30e8dacdaf62b5b0953939af004baf8666e9b5c628df5,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-042,.local-work/d5p-phase-b/startup-duplicate.json,5728,b90e609cea4bec34e368a3c594f6a1b47901f8e928d4d35f9da51433c708d309,Primary capture or private operational receipt/method,LOCAL-ONLY
+SOR-D5P-B-043,docs/experiments/resource-retained-population/d5p-phase-b-authorization.md,5855,ccc85811b3fd2f5ef207d6af76698ff70128a86194cb0a65007f712baaed3bd0,Owned method or authority; no new third-party incorporation,REVIEW-REQUIRED
+SOR-D5P-B-044,docs/experiments/resource-retained-population/run-card-d5p-v1.md,9078,fffe39713f2532e93830b59565288eb85ad1823619fd3b46105c11b15c6492e3,Owned method or authority; no new third-party incorporation,REVIEW-REQUIRED
+SOR-D5P-B-045,research/resource-retained-population/d5p_phase_b_analysis.py,5140,c4dc24d2f8276c84f03bb14cca6c51e19199dc9bcd0d9d42e65f69fada4cbfc3,Owned method or authority; no new third-party incorporation,REVIEW-REQUIRED
+SOR-D5P-B-046,research/resource-retained-population/d5p_phase_b_export.py,6428,e1f5340d8488bb8e22e31c84f8aa5898d1c96d9ad70d004bebad0483a9bc25fe,Owned method or authority; no new third-party incorporation,REVIEW-REQUIRED
+SOR-D5P-B-047,research/resource-retained-population/native_reduce.py,17429,892a4a3c43b679b78af42139b0924470a68148ea0a610574b2fcca0bdf4199d7,Owned method or authority; no new third-party incorporation,REVIEW-REQUIRED
+SOR-D5P-B-048,runtime/retained-population/observer.h,8903,fc94d3b438dbdebe9c445e1266cb46ce93762e8511d67a480f52fdd75233455c,Owned method or authority; no new third-party incorporation,REVIEW-REQUIRED
+SOR-D5P-B-049,runtime/retained-population/operate.py,7208,6ccff9e1c5b315b80600d4fa22adb3d6b134acc80113d35b10c4ea86b60d75ed,Owned method or authority; no new third-party incorporation,REVIEW-REQUIRED
+SOR-D5P-B-050,runtime/retained-population/plugin.cpp,9174,3a41e02550cc60bceac3a7dc6fc147850b5b8555dce97a927cfc9f3c6f82733d,Owned method or authority; no new third-party incorporation,REVIEW-REQUIRED
+SOR-D5P-B-051,runtime/retained-population/protect.py,1316,e873ed012474c29a923d67264b56beaf68beb1ddaca07527efb41ddef52b038a,Owned method or authority; no new third-party incorporation,REVIEW-REQUIRED
+SOR-D5P-B-052,runtime/retained-population/read_capture.py,8261,ebd6c4b5bc211147fc50cae4ab173e7ca79969d198eb1e49aee4b2059396d11e,Owned method or authority; no new third-party incorporation,REVIEW-REQUIRED
+SOR-D5P-B-ARCHIVE,.local-work/d5p-phase-b/retained-evidence.zip,313212,ee2d542baca13f1ab4b7de004aacb21dc53efbca234574682d4ac5aa26033a41,Lossless run archive; streamed member verification; originals retained,LOCAL-ONLY
+SOR-D5P-B-ARCHIVE-RECEIPT,.local-work/d5p-phase-b/archive.json,10363,261ad5ab28d33bae8eac327586b4961a6927f8d3ae2d06368611cf15bbe5123e,Member-level archive receipt,LOCAL-ONLY

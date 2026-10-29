@@ -1038,3 +1038,14 @@ CPython execute the offline build and disposable qualification.
 identify those tools, maintainer-owned observer methods and Bethesda-derived
 native evidence. Tool availability and synthetic success do not establish
 retail reliability or clear publication.
+
+## D5P Phase B operational methods
+
+The owned D5L/D5B chart-0 decoder and frozen D5P reader support the
+[failed-run account](docs/experiments/resource-retained-population/d5p-phase-b.md).
+Installed CPython standard-library tooling authenticates the retained records
+and preservation receipts. The bundled OpenAI computer-use/Sky runtime supported
+an attempted read-only Vortex inspection; its capture failures are disclosed,
+and no disabled-state proof is attributed to that attempt.
+[Per-use sources](docs/experiments/resource-retained-population/d5p-phase-b-sources.csv)
+retain identities and roles without introducing a new code dependency.

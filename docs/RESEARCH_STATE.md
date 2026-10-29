@@ -1,5 +1,18 @@
 # Current Research State
 
+**2026-10-29 — D5P Phase B incomplete acquisition:**
+[Approved execution](experiments/resource-retained-population/d5p-phase-b.md)
+reached original PID 3424's independently checked eleven-hook READY after an
+explicitly accepted duplicate pre-load startup. Capture then retired with one
+reported admission drop: 1,592 admitted records authenticate, but all 319 source
+demands fail context qualification and no selected-source chain survives. The
+individual guard/drop branch remains unknown. This is not a qualified non-hit
+or hypothesis falsification. Operator-reported arrival and exit, thirteen
+matching postflight comparisons and deployed-DLL absence are recorded; Vortex
+staging remains under operator-confirmed disablement. Further retail use is
+NO-GO. [Final review/delivery](experiments/resource-retained-population/d5p-phase-b-review.md)
+governs the failed-run account; frozen findings, B6 and publication stay unchanged.
+
 **2026-10-29 — D5P offline in-process observer:**
 [Phase A report](experiments/resource-retained-population/d5p-report.md) and
 [review ledger](experiments/resource-retained-population/d5p-review.md) record

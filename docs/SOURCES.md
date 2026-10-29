@@ -1563,3 +1563,16 @@ SFSE header, installed game/SFSE/tool identities and qualification receipts.
 reused maintainer-owned methods, synthetic native observations and untested
 retail integration. Raw native exports, binaries, saves and private protection
 receipts stay local. No external contact, new dependency or publication occurred.
+
+## D5P approved Phase B attempt — 2026-10-29
+
+[Execution and failed acquisition](experiments/resource-retained-population/d5p-phase-b.md),
+[authority and accepted startup deviation](experiments/resource-retained-population/d5p-phase-b-authorization.md),
+[source/receipt ledger](experiments/resource-retained-population/d5p-phase-b-sources.csv)
+and [review](experiments/resource-retained-population/d5p-phase-b-review.md) retain
+the exact frozen DLL/card and two observed startup identities. The offline method
+uses the owned D5L/D5B chart-0 decoder and frozen D5P reader without changing
+original evidence. Native context and producer-admission failures are recorded
+separately from byte integrity; no new selected-source or persistence finding
+is promoted. Raw captures, private protection receipts and controlled copies stay
+local. No new third-party source incorporation, contact or disclosure occurred.

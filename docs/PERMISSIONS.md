@@ -197,3 +197,17 @@ that header and retain its existing notice. No SFSE runtime source or CommonLibS
 incorporation, installation, live operation or publication follows. The
 [invoked brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md)
 authorizes offline implementation and disposable native qualification.
+
+## D5P Phase B — approved attempt and consumed continuation
+
+2026-10-29. The maintainer approved the exact plugin/card subject to successful
+preflight, confirmed Vortex profile Starfield - SFSE and disabled Steam Cloud
+saves, and retained sole control of launch/gameplay/disablement. The
+[authority record](experiments/resource-retained-population/d5p-phase-b-authorization.md)
+retains the verbatim instruction and explicit acceptance of duplicate pre-load
+startup, limited to original PID 3424 with no further launch/retry.
+[Execution](experiments/resource-retained-population/d5p-phase-b.md) records
+failed acquisition, operator-reported arrival/exit/disablement, full matching
+protection and deployed-DLL absence. Approval is consumed; no additional live
+session, new plugin, source/population mutation, staging, commit, push, B6 or
+publication follows. Existing header/owned-method permissions remain unchanged.
