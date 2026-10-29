@@ -185,3 +185,15 @@ The maintainer explicitly approved the exact revised Tungsten-bound card upon su
 ## RG2-D5B one-session Phase B — 2026-10-25
 
 The maintainer approved the exact card subject to successful fresh preflight and confirmed Steam Cloud disabled. [Verbatim authorization](experiments/resource-combined-acquisition/phase-b-authorization.md) governs the one ordinary-user Steam/debugger session and declared controlled disposal. [Outcome](experiments/resource-combined-acquisition/phase-b.md) records consumer-only evidence, successful strict postflight and the consumed gate. Hardware breakpoints/all-stop/RF affected execution; no intervention-free claim is made. Finalization includes read-only analysis, local archival, independent review and exact diffs. No second session, fallback, save/configuration change or restore, outside incorporation/disclosure, B6/publication, staging, commit or push is authorized. SOR-P-0002 reuse and local-only Bethesda/save evidence retain their existing conditions.
+
+## D5P pinned SFSE header extension — 2026-10-29
+
+The maintainer explicitly answered “Approve the same pinned header and MIT notices
+for D5P” when asked to extend SOR-P-0001 beyond EXP0002. The approved material
+is the unchanged SFSE `sfse/PluginAPI.h`, upstream commit
+`48535cc4306ab345252bf740c20a1c6194929b0e`. The stated basis remains its MIT
+grant, retaining copyright, permission and disclaimer. D5P may compile against
+that header and retain its existing notice. No SFSE runtime source or CommonLibSF
+incorporation, installation, live operation or publication follows. The
+[invoked brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md)
+authorizes offline implementation and disposable native qualification.

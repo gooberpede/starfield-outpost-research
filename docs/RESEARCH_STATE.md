@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-10-29 — D5P offline in-process observer:**
+[Phase A report](experiments/resource-retained-population/d5p-report.md) and
+[review ledger](experiments/resource-retained-population/d5p-review.md) record
+the version-pinned SFSE candidate, native disposable qualification and exact
+remaining boundaries. The method uses targeted natural-call wrappers and a
+visited branch witness, with conservative lifetime invalidation. No game, Vortex
+or save/configuration mutation is authorized or performed. Synthetic chains
+do not establish the selected source's retail construction, reuse or persistence.
+The [proposed card](experiments/resource-retained-population/run-card-d5p-v1.md)
+remains NOT AUTHORIZED; independent disposition and exact delivery bind readiness.
+B6, publication and frozen resource findings remain unchanged.
+
 **2026-10-29 — D5O Phase B Grid-clear fault:**
 [The approved one-session execution](experiments/resource-retained-population/d5o-phase-b.md)
 passed its independently accepted fourteen-site/96-thread barrier and retained

@@ -1553,3 +1553,13 @@ one bounded post-activation correction, retaining exact control bytes and digest
 Independent original/exclusion and complete physical-restore verification,
 actual routine observations and preserved oracle failures supply the postflight
 basis. No new outside code, dependency, tool installation or disclosure.
+
+## RG2-D5P SFSE retained-population observer — 2026-10-29
+
+[Source ledger](experiments/resource-retained-population/d5p-sources.csv) pins
+the actual project and sibling observer source, native D5C–D5O records, approved
+SFSE header, installed game/SFSE/tool identities and qualification receipts.
+[Report](experiments/resource-retained-population/d5p-report.md) distinguishes
+reused maintainer-owned methods, synthetic native observations and untested
+retail integration. Raw native exports, binaries, saves and private protection
+receipts stay local. No external contact, new dependency or publication occurred.

@@ -1026,3 +1026,15 @@ cover every original path, protected exclusion and restored payload. The bounded
 historical-roster path repair retains the original policy bytes and expected
 hash. Its verification and oracle diagnostics are local evidence; no new outside
 implementation or dependency was incorporated.
+
+## D5P retained-population observer
+
+Ian Patterson / SFSE supplies the unchanged public plugin interface header and
+its MIT notice at commit `48535cc4306ab345252bf740c20a1c6194929b0e`. The
+maintainer separately approved its D5P use; SFSE runtime source and CommonLibSF
+are not incorporated. Existing installed Microsoft MSVC/MASM/Windows SDK and
+CPython execute the offline build and disposable qualification.
+[Per-use provenance and limits](docs/experiments/resource-retained-population/d5p-sources.csv)
+identify those tools, maintainer-owned observer methods and Bethesda-derived
+native evidence. Tool availability and synthetic success do not establish
+retail reliability or clear publication.
