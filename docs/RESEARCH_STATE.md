@@ -1,5 +1,15 @@
 # Current Research State
 
+**2026-10-29 — D5Q offline call and data-flow map:**
+[The mapping](experiments/resource-retained-population/d5q-report.md) connects
+request/cell enumeration, the provider's selected source, original-query mask
+sampling, copy attempts and retained ownership. Caller-owned chunks contain raw
+source pointers; their lifetime and later reuse still require qualification.
+The ordinary low nibble is compared numerically with rarity, without an
+established per-resource bit mapping. [Review](experiments/resource-retained-population/d5q-review.md)
+governs the scoped account. No observer or schema changed; historical Save52
+construction/reuse remains unresolved, retail NO-GO and B6/publication holds remain.
+
 **2026-10-29 — D5P-R3 bounded offline Grid investigation:**
 [Native analysis and disposable controls](experiments/resource-retained-population/d5p-r3-report.md)
 support a dynamic eight-byte-pointer array, not a universal 512-member limit.

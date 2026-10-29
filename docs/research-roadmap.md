@@ -81,6 +81,12 @@ approve the final surface. See [publication](PUBLICATION.md).
 
 [Effective area/resource distinction](experiments/outpost-biomes/effective-and-resources.md), [native region lifecycle](experiments/native-availability-map/region-dependencies.md), [region review](experiments/native-availability-map/region-review.md), [availability contract](experiments/native-availability-map/output-contract.md), [review](experiments/native-availability-map/output-review.md), [deposit incident hypotheses](experiments/disappearing-deposits/hypotheses.md) and [review](experiments/disappearing-deposits/review.md).
 
+[D5Q construction call/data-flow map](experiments/resource-retained-population/d5q-call-dataflow-map.md)
+connects invocation-selected source provenance to mask sampling and retained
+geometry, with source lifetime and historical construction/reuse still unresolved.
+[Its review](experiments/resource-retained-population/d5q-review.md) controls the
+offline account; it supplies no retail observer qualification.
+
 ## Inorganic production and nominal rates
 
 **Current best-supported:** Resource definitions, producer registration, separate power/halt/reason gates and elapsed scheduling are mapped. Later arithmetic work explains resource intervals, per-actor timer composition and installed rate formatting.

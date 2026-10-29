@@ -1,5 +1,17 @@
 # Provenance and Environment Baseline
 
+## RG2-D5Q offline construction mapping — 2026-10-29
+
+[The claim ledger](experiments/resource-retained-population/d5q-sources.csv)
+binds native windows, inherited D5D/D5H/D5I/D5L/R3 context, current installed pins
+and a fresh 22-function readOnly/noanalysis export. Fifteen database files match
+before/after; installed PE backing checks verify 190 direct calls and four emitter
+vtable pointers. Task-local scripts adapt owned ExploreD5L/R3 methods at HEAD
+`7c8a184dd2aeb2f065969880b0d3209c7921c69e` under SOR-P-0002. Proprietary exports
+and exact receipts remain local. No game, save, production observer, analysis
+content, external dependency/contact/disclosure or Git index/ref mutation occurred.
+Historical native invocation and continuous population ownership remain unproved.
+
 ## RG2-D5K blinded validation Stage A — 2026-10-27
 
 [Qualification](experiments/blinded-outpost-validation/qualification.md) and

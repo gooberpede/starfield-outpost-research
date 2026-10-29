@@ -1,5 +1,18 @@
 # Source Register
 
+## D5Q construction call and data-flow mapping
+
+2026-10-29. [Exact claim/source ledger](experiments/resource-retained-population/d5q-sources.csv)
+records Bethesda's pinned local executable/native evidence and inherited project
+D5D/D5H/D5I/D5L/R3 analyses. The fresh Ghidra readOnly/noanalysis reader and local
+verification/export methods adapt maintainer-owned project methods at HEAD
+`7c8a184dd2aeb2f065969880b0d3209c7921c69e` under SOR-P-0002. Existing Ghidra,
+JDK, CPython and Git are separate installed tools; no new code dependency or
+licence basis was introduced. The [report](experiments/resource-retained-population/d5q-report.md)
+separates static relationships from historical execution and future observer
+assumptions. Proprietary/native/private payloads remain LOCAL-ONLY; authored
+synthesis REVIEW-REQUIRED. No external consultation, contact or disclosure.
+
 ## D5P-R3 Grid representation and bounded offline investigation
 
 2026-10-29. The [R3 ledger](experiments/resource-retained-population/d5p-r3-sources.csv)

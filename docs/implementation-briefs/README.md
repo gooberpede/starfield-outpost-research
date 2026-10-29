@@ -1,5 +1,7 @@
 # Implementation and Audit Briefs
 
+- [D5Q resource construction call/data-flow mapping](CODEX_BRIEF_SOR_RG2_D5Q_resource_construction_call_dataflow_mapping.md): invoked 2026-10-29 for offline native mapping and independent review. [Report](../experiments/resource-retained-population/d5q-report.md) preserves source-lifetime and historical-chain gaps. No observer implementation, game, deployment, save, staging, commit, push or publication authority.
+
 - [RG2-D5P-R3 Grid membership/context validation](CODEX_BRIEF_SOR_RG2_D5P_R3_grid_membership_context_validation_repair.md): invoked 2026-10-29 for offline native investigation and disposable qualification. [Report](../experiments/resource-retained-population/d5p-r3-report.md), [review](../experiments/resource-retained-population/d5p-r3-review.md), [held proposal](../experiments/resource-retained-population/run-card-d5p-r3.md). No safe repaired-production candidate qualified; no retail, staging, commit, push or publication authority.
 
 - [RG2-D5N alternative native observation](CODEX_BRIEF_SOR_RG2_D5N_alternative_native_observation.md): invoked 2026-10-28 for Phase A native feasibility comparison, minimal causal contract, disposable Windows hybrid qualification and independent review. [Report](../experiments/resource-retained-population/d5n-report.md), [proposed card](../experiments/resource-retained-population/run-card-d5n-v1.md). No Phase B, installation, staging, commit, push or publication authority.

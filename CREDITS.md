@@ -1,5 +1,16 @@
 # Credits
 
+## D5Q offline construction mapping
+
+Bethesda supplies the local executable/native evidence used in the
+[call and data-flow map](docs/experiments/resource-retained-population/d5q-call-dataflow-map.md).
+The maintainer supplies the research question and historical evidence context.
+Existing project D5D/D5H/D5I/D5L/R3 research and read-only export/review methods
+are reused under SOR-P-0002, with exact lineage in the
+[ledger](docs/experiments/resource-retained-population/d5q-sources.csv).
+No proprietary native dump or new outside implementation is incorporated into
+the authored account; underlying native evidence remains local.
+
 ## D5O Phase B execution and failure analysis
 
 The separately approved [execution](docs/experiments/resource-retained-population/d5o-phase-b.md)
