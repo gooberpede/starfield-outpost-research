@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-10-29 — D5P-R2 offline diagnostic preparation:**
+[Adequacy decision](experiments/resource-retained-population/d5p-r2-decision.md)
+reuses unchanged R1 for first-failure diagnosis. The
+[report](experiments/resource-retained-population/d5p-r2-report.md) separates
+native diagnostic controls from the unknown original retail cause. An explicit
+offline decoder, unchanged-DLL distribution wrapper and
+[proposed diagnostic card](experiments/resource-retained-population/run-card-d5p-r2.md)
+are submitted for [independent review](experiments/resource-retained-population/d5p-r2-review.md).
+Retail is NOT AUTHORIZED; no game, deployment, Vortex or save operation occurred.
+Historical D5P Phase B FAILED / UNRESOLVED, R1-AC3 UNVALIDATED and B6/publication
+holds remain unchanged. Diagnostic readiness grants no scientific confirmation.
+
 **2026-10-29 — D5P-R1 offline context and recorder repair:**
 [Pre-repair diagnosis](experiments/resource-retained-population/d5p-r1-diagnosis.md)
 narrows the original context failure to later type/Grid/extent/membership

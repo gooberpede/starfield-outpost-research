@@ -1590,3 +1590,16 @@ export supply point-of-use provenance. Installed MSVC/MASM/Windows SDK and
 CPython perform only offline compilation, disposable native tests and readers.
 Exact hashes and roles belong to the R1 source ledger and delivery manifest.
 No new third-party code, download, external communication or disclosure occurs.
+
+## D5P-R2 retail-context diagnostic preparation — 2026-10-29
+
+[Decision and discrimination matrix](experiments/resource-retained-population/d5p-r2-decision.md)
+inspect the actual R1 validator, schema/reader, native getter/ABI evidence and
+original Phase B chronology. The unchanged R1 build04 DLL is reused, not rebuilt.
+The new decoder and review exporter adapt project-owned reader/export conventions
+at HEAD `8bb992737eba06833a4080f9338f46dd634654b2`; the standalone harness includes
+the unchanged production validator. Existing approved SFSE header/notice and
+installed MSVC/SDK/CPython retain their original provenance. The
+[source ledger](experiments/resource-retained-population/d5p-r2-sources.csv)
+pins actual inspected evidence and qualification receipts. No new outside code,
+contact, disclosure or retail execution is introduced.

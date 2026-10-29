@@ -1060,3 +1060,15 @@ MIT notice retain the D5P permission basis above. Bethesda-derived native export
 and original Phase B captures remain local-only evidence; they are not included
 as code or redistributed assets. No new outside dependency, contact or
 publication is introduced.
+
+## D5P-R2 diagnostic preparation
+
+The unchanged R1 observer and independent reader, existing Bethesda-derived
+native exports and original Phase B receipts support the
+[adequacy assessment](docs/experiments/resource-retained-population/d5p-r2-decision.md).
+Installed Microsoft MSVC/Windows SDK and CPython support disposable native
+qualification and decoding. The new distribution wrapper preserves the existing
+approved SFSE interface notice; no SFSE/CommonLibSF implementation is added.
+[Per-use source pins](docs/experiments/resource-retained-population/d5p-r2-sources.csv)
+separate unchanged binary reuse, original project source adaptation and local
+primary evidence. Raw evidence and binaries remain local-only.
