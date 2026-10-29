@@ -1603,3 +1603,18 @@ installed MSVC/SDK/CPython retain their original provenance. The
 [source ledger](experiments/resource-retained-population/d5p-r2-sources.csv)
 pins actual inspected evidence and qualification receipts. No new outside code,
 contact, disclosure or retail execution is introduced.
+
+## D5P-R2 approved retail diagnostic session — 2026-10-29
+
+[Authorization](experiments/resource-retained-population/d5p-r2-retail-authorization.md)
+approves one conditional session under the unchanged reviewed card and package.
+The [result](experiments/resource-retained-population/d5p-r2-retail.md) identifies
+the first coverage predicate in this capture without reconstructing missing
+historical operands. The bounded analysis uses the unchanged R1 reader and R2
+decoder; its exporter adapts project-owned R2 export source at HEAD
+`25c3dcc503854aa2890dd12c0a512a24b7c5bbfa`. The local nonce helper adapts the
+retained owned Phase B health method with schema-2 metrics and recoverable drops.
+Current-policy preservation/archive helpers retain their existing provenance.
+[Source ledger](experiments/resource-retained-population/d5p-r2-retail-sources.csv)
+pins exact operational methods, raw receipts, package/tool identities and the
+lossless seal. No new third-party code, dependency, contact or disclosure occurs.

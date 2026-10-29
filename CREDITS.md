@@ -1072,3 +1072,11 @@ approved SFSE interface notice; no SFSE/CommonLibSF implementation is added.
 [Per-use source pins](docs/experiments/resource-retained-population/d5p-r2-sources.csv)
 separate unchanged binary reuse, original project source adaptation and local
 primary evidence. Raw evidence and binaries remain local-only.
+
+The separately authorized [R2 retail diagnosis](docs/experiments/resource-retained-population/d5p-r2-retail.md)
+uses those unchanged observer/reader methods and the reviewed predicate decoder.
+Current-policy project preservation and installed CPython standard-library
+hashing/framing/ZIP tools support the capture accounting and lossless seal.
+[Per-use evidence](docs/experiments/resource-retained-population/d5p-r2-retail-sources.csv)
+records original capture, operational methods and independent review separately.
+No new outside code or dependency is incorporated.

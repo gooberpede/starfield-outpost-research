@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-10-29 — D5P-R2 authorized retail diagnosis:**
+[One conditional session](experiments/resource-retained-population/d5p-r2-retail.md)
+authenticates 9,736 admitted records. All 6,101 recorded demands first reject the
+observer's 256-member inspection limit, with count 324/capacity 512; later
+membership/invocation-Grid/lifetime predicates are not reached. The recorder
+continues after 5,190 queue-full drops to the approved arrival STOP: byte integrity
+passes, acquisition remains lossy/incomplete and zero scientific chains qualify.
+Thirteen postflight comparisons pass; deployed DLL is absent and Vortex staging
+is operator-confirmed disabled. [Review](experiments/resource-retained-population/d5p-r2-retail-review.md)
+governs finalization. Original historical cause and retained-population hypothesis
+remain unresolved; no new bound/build/trial, B6 or publication is authorized.
+
 **2026-10-29 — D5P-R2 offline diagnostic preparation:**
 [Adequacy decision](experiments/resource-retained-population/d5p-r2-decision.md)
 reuses unchanged R1 for first-failure diagnosis. The
