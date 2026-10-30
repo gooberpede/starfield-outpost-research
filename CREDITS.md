@@ -1181,3 +1181,11 @@ Windows SDK and the existing Capstone decoder serve as local research tools;
 no decoder implementation is incorporated. [Exact provenance](docs/experiments/resource-retained-population/d5x-sources.csv)
 records inputs and scoped uses. Native excerpts, binaries, captures and private
 receipts remain local-only; no retail validation or publication is implied.
+
+The [D5X-B1 preauthorization audit](docs/experiments/resource-retained-population/d5x-b1-preauthorization-audit.md)
+uses the unchanged D5X native observations and owned decoder, R1 archive-backed
+protection method and D5X patch exporter. Its separate original offline coverage
+reporter uses installed CPython/SQLite only; no new third-party implementation
+is incorporated. Earlier D5P-R1/R2 failure diagnoses supply the readiness,
+travel-checkpoint and uncertainty counterexamples. Exact hashes and scoped uses
+are retained in the audit identity, test and delivery manifests.

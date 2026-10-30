@@ -1,6 +1,7 @@
 # D5X-B1 instrumentation validation — NOT AUTHORIZED
 
-2026-10-30, Australia/Sydney. This is a proposed single visit, not a retail GO.
+2026-10-30; proposed audit amendment 2026-10-31, Australia/Sydney.
+This is a proposed single visit, not a retail GO.
 Separate explicit authorization must bind this card, the final reviewed
 DLL/package/build/reader hashes and the exact actions below. B1 does not authorize
 B2, a scientific winner claim, another launch or an automatic retry.
@@ -24,6 +25,13 @@ The loader was rehashed offline in `identity03` and matched
 at the installed game-root path. Rehash it before approval and retain its exact
 actual path/hash. No address transfers to another build are allowed.
 
+The [preauthorization audit](d5x-b1-preauthorization-audit.md) and its exact
+audit manifest bind this amended card and the offline B1 reporter. The original
+D5X compatibility manifest remains immutable and pins the earlier card; its old
+card hash must not substitute for the separately reviewed amendment hash.
+DLL, retail ZIP, schema, fourteen sites and packaged scientific reader remain
+unchanged. Fresh revalidation is required before approval or deployment.
+
 The maintainer alone installs/enables/deploys the exact package through Vortex,
 launches once through `sfse_loader.exe`, performs gameplay, exits, and disables or
 removes the observer through Vortex. Codex verifies bytes, receipts and evidence,
@@ -44,6 +52,11 @@ saves, changes configuration, forces generation or terminates the game.
    overwritten. Use the current archive-backed preservation method, not obsolete
    loose Cargo/evidence requirements. Verify at least **40,000,000,000
    caller-available bytes on both C: and D:**; unavailable queries fail closed.
+   The adapter-independent owned `runtime/retained-population/protect.py` with
+   a fresh `d5x-b1-preflight-UNIQUE` label performs archive-backed preservation
+   and restoration-COPY checks without selecting a D5X live adapter. Recheck its
+   pinned inputs/current policy before future use. This audit hashed Save52 only
+   and is not that future full protection preflight.
 2. **Operator confirmation and install:** record fresh confirmation of Steam
    Cloud disabled where applicable, Vortex profile `Starfield - SFSE`, exact
    Save52 choice, no competing deployed SOR observer and no prior attempt.
@@ -66,12 +79,14 @@ saves, changes configuration, forces generation or terminates the game.
    loss counters and an authenticated flushed prefix. Do not reuse a prior ACK.
    The [schema](d5x-schema.md) defines the protocol. The 070/080 shared adapters
    do not support D5X; do not pass them a fabricated adapter ID.
-5. **Exact save-load gate:** exercising native construction boundaries may
-   require loading **Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs**
-   and ordinary travel to second Feynman V. That exact load/travel must be named
+5. **Exact save-load gate:** the intended stimulus is exactly one load of
+   **Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs**
+   and one ordinary travel to second Feynman V. That exact load/travel must be named
    in the separate B1 approval. After fresh READY/ACK, maintainer loads it,
-   records load-complete, travels ordinarily once to Feynman V Cu IL F and
-   records arrival. Loading is not proof of cold state. No resave, forced cache
+   records load-complete and a distinct pre-travel checkpoint, travels ordinarily
+   once to Feynman V Cu IL F and records first arrival. Record a fresh health ACK
+   before travel and after arrival. Loading establishes starting gameplay state,
+   not cold state or sufficient native execution. No resave, forced cache
    clear, sleep/wait experiment, repeated trip or automatic retry is included.
 6. **Boundary validation endpoint:** after that one arrival and a fresh health
    challenge, operator issues STOP and exits normally. B1 seeks native provider,
@@ -86,7 +101,8 @@ saves, changes configuration, forces generation or terminates the game.
    disposition separately, both disk floors, protected saves/backups/content and
    configuration against preflight, and fresh Cloud status where applicable.
    Preserve all original receipts, even failed trials. Reduce only offline with
-   the pinned reader, seal a lossless archive and stream-verify it while keeping
+   the pinned B1 reporter, keeping scientific-reader qualification separate.
+   Seal a lossless archive and stream-verify it while keeping
    raw originals. Obtain independent B1 review before considering B2.
 
 ## STOP, failure and recovery
@@ -103,3 +119,53 @@ backup automatically. Delayed operator action or a routine late poll alone is
 not failure and does not trigger termination.
 
 This card remains **NOT AUTHORIZED**, including its control-file writes.
+
+## Exact future controller and checkpoint boundary
+
+Separate B1 approval must authorize the following writes explicitly. After
+matching retail PID/creation/module base, identity, deployed DLL, startup nonce,
+all guards and READY, Codex may write only within that authenticated session
+under `D:/Projects/starfield-outpost-research/.local-work/d5x/live/session-NONCE/`:
+
+- For each fresh 32-character lowercase hexadecimal challenge, create a new
+  `request-CHALLENGE.pending`, write exactly those 32 ASCII bytes without newline,
+  flush and close, then atomically rename to `request.txt` using replace-existing
+  and write-through flags. Never edit an existing ACK or plugin output. Read
+  `ack-CHALLENGE.json` only after atomic publication. Require unchanged identity,
+  matching `request_nonce`, active/intact guards and no output failure. Validate
+  the identity-bound raw/flush prefix through the ACK's `flushed` watermark;
+  an enqueue snapshot may include records still in flight and need not equal it.
+- On the maintainer's STOP instruction or a proven safety failure, create new
+  `STOP` containing `operator STOP` and a newline, flush and close. Its existence
+  is the plugin's STOP signal. Never remove STOP, unpatch or kill the game.
+
+Use unique external annotation files below
+`.local-work/d5x-b1-audit/retail-notes/NONCE/`, separate from plugin outputs.
+Record main-menu, load-complete, pre-travel, first-arrival, STOP-requested and
+process-exit statements, collection UTC, same-host QPC/frequency when collected,
+session identity, fresh challenge and validated flushed watermark. These are
+operator/checkpoint observations, not authenticated native gameplay events or
+proof of exact travel causality. Admission sequence and QPC are distinct orders;
+file timestamps cannot supply missing causal timing. No live control or annotation
+file is written by this offline audit.
+
+## Frozen postflight grading
+
+The audit's fourteen-site matrix and independent B1 reporter govern coverage.
+READY-only is STARTUP-ONLY/PARTIAL. Hit/bypass or provider-only activity is PARTIAL
+NATIVE COVERAGE, even with thousands of records. Missing Descriptor cannot isolate
+converter site 4 from normalizer site 13. A missing sampler return may reflect a
+skipped prerequisite, failure before return, loss or unsupported context.
+
+Full B1 instrumentation PASS requires positively authenticated, correlated retail
+provider, cursor, visited, constructing map decision, primary consumed descriptor,
+generator and direct ordinary sample for the relevant target path, with valid
+context/order/coverage and completed operational/protection review. Cold reset or
+first-construction scientific qualification is not required. Lifecycle/reset
+sites may remain unexercised; report each separately as NOT OBSERVED, never as
+retail validated merely from installation or disposable proof. A local correlated
+prefix, including one surviving a crash, does not itself grant full B1 operational
+PASS. Protection, transport/termination, coverage, target survival and science
+are graded separately. Uncorrelatable exercised boundaries, guard/output failures
+and unresolved gaps require engineering uncertainty/failure review. Partial B1
+never authorizes B2, another launch, altered travel or an automatic retry.

@@ -1,5 +1,13 @@
 # Current Research State
 
+**2026-10-31 — D5X-B1 preauthorization audit:**
+[The offline audit](experiments/resource-retained-population/d5x-b1-preauthorization-audit.md)
+separates fourteen-site coverage and valid ordinary-path instrumentation from
+cold-winner science. A separate streamed reporter and adversarial controls retain
+the frozen DLL/package/schema/reader. The amended one-load/one-travel B1 card
+remains NOT AUTHORIZED; independent audit disposition governs readiness only.
+D5R remains OPEN and publication/B6 ON HOLD. No live or Git operation follows.
+
 **2026-10-31 — D5X construction-winner observer:**
 [Offline qualification](experiments/resource-retained-population/d5x-report.md)
 implements a narrow causal witness for original request, actual selected source,

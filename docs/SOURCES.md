@@ -1767,3 +1767,20 @@ Existing Capstone is a standalone read-only decoder for the late-terrain ownersh
 challenge, not an incorporated implementation/dependency of the observer.
 Raw native material, DLL/packages and captures remain LOCAL-ONLY. Scientific
 confidence, retail operation and publication eligibility remain separate.
+
+## D5X-B1 preauthorization audit sources
+
+The [audit](experiments/resource-retained-population/d5x-b1-preauthorization-audit.md)
+directly inspects unchanged `runtime/construction-winner/` source and frozen
+build24 native sessions, qualification05 damage copies and compatibility01.
+The new reporter reuses the owned reader's fixed decoder/source-key function;
+its streamed authentication and warm-path correlation are original offline work.
+The exporter adapts owned `d5x_export.py`, SHA-256
+`a9de9a5fdec37b4b0f50aaaa6a20627c11ede02d66b7aecfa32d1f16cf9dd9a0`.
+`runtime/retained-population/protect.py` and `prepare_native.full_preservation`
+are consulted as the existing adapter-independent future protection route,
+not executed by this audit. D5P-R1 diagnosis and the D5P-R2 retail report preserve
+false readiness/coverage and post-load/pre-travel/arrival evidence respectively.
+Audit receipts bind fresh installed/package/Save52/guard identities, methods,
+outputs and the proposed card. CPython/SQLite are standalone installed tools;
+no native/third-party dependency or scientific capture is repackaged or cleared.
