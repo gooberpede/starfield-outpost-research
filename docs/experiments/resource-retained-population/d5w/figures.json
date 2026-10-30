@@ -1,0 +1,107 @@
+{
+  "schema": "sor-d5w-figures/1",
+  "frame": "Absolute native descriptor-frame XY; prospective D5S descriptor [37536,20928], chart 0",
+  "sampling": {
+    "descriptor": [
+      37536,
+      20928
+    ],
+    "source_anchor": [
+      0,
+      0
+    ],
+    "nominal": [
+      0,
+      1000
+    ],
+    "support": [
+      -200,
+      1200
+    ],
+    "center": [
+      81.19074249267578,
+      90.27748107910156
+    ],
+    "radius": 150,
+    "native_units_per_cell": 100,
+    "viewport": [
+      -400,
+      1400,
+      -400,
+      1400
+    ],
+    "pixel_left": 100,
+    "pixel_top": 185,
+    "pixel_size": 630,
+    "pixels_per_native_unit": 0.35,
+    "markers": [
+      {
+        "label": "D5S owner winner",
+        "native_xy": [
+          1000,
+          1100
+        ],
+        "classification": "winner"
+      },
+      {
+        "label": "D5S peer winner",
+        "native_xy": [
+          -200,
+          -200
+        ],
+        "classification": "winner"
+      },
+      {
+        "label": "Earliest registration / incremental claim",
+        "native_xy": [
+          -200,
+          1100
+        ],
+        "classification": "claim"
+      },
+      {
+        "label": "Source anchor / quantized beacon candidate",
+        "native_xy": [
+          0,
+          0
+        ],
+        "classification": "hypothesis"
+      },
+      {
+        "label": "Nominal footprint centre",
+        "native_xy": [
+          500,
+          500
+        ],
+        "classification": "hypothesis"
+      },
+      {
+        "label": "Generator clipping centre",
+        "native_xy": [
+          300,
+          300
+        ],
+        "classification": "hypothesis"
+      },
+      {
+        "label": "Saved centre / beacon",
+        "native_xy": [
+          81.19074249267578,
+          90.27748107910156
+        ],
+        "classification": "reference"
+      }
+    ]
+  },
+  "inputs": {
+    "docs\\experiments\\resource-retained-population\\d5t\\candidates.csv": "bc75be1d26cc6c74ddc847a00031b6bea957fe05391fa12e04429da0bc17cc30",
+    "docs\\experiments\\resource-retained-population\\d5u\\outposts\\D2-84e101.json": "8db687f2364281505e93bbf86900ae59a25f053fa38ae1f198605773de32edb5",
+    "docs\\experiments\\resource-retained-population\\d5v\\spatial.json": "742f87991efdf66354accdb5cbe4cc20bac9c9b5af7e97d05877693c24a49a1e"
+  },
+  "reused_outpost_figures": {
+    "docs\\experiments\\resource-retained-population\\d5v\\D2-83388f.svg": "ad53482804ecb2226702cffaa8635953385110020bd064b3b90f47a6bd586dc9",
+    "docs\\experiments\\resource-retained-population\\d5v\\D2-84e101.svg": "b52540ec8097544b7f147e27cb04b9aad4aa9f14f2fe3a27ebdb22f6f5eb0927"
+  },
+  "limits": "Discrete query classification; canonical samples are hypotheses; conditional retained geometry and historical references, not retail overlays",
+  "renderer_sha256": "82838adf0b589edb349abb68bb7ee37af133fb7fe0a380520bbe0dca15a2b386"
+}

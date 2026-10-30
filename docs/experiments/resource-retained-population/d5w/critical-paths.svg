@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1190" viewBox="0 0 1280 1190">
+<title>Paired critical paths · first constructing miss</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#466a82"/></marker></defs>
+<rect width="1280" height="100%" fill="#f8fafc"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#182d3a">
+<text x="32" y="42" font-size="26" font-weight="600">Paired critical paths · first constructing miss</text>
+<text x="32" y="78" font-size="15" >Solid arrows: proved local prerequisites. Dashed arrows: selected scheduling continuation; no duration or probability scale.</text>
+<rect x="110" y="110" width="1060" height="94" rx="8" fill="#ffffff" stroke="#708da0"/>
+<text x="124" y="136" font-size="15" >Initialize descriptor / owner / empty ProcGen → complete source Grid → write valid terrain focus.</text>
+<text x="124" y="160" font-size="15" >RuntimeService AcquireHandles → placement/file preparation → inclusive [-16, 23]² registration.</text>
+<text x="124" y="184" font-size="15" >Coordinate → layer preparation + density neighbors → ready ProcGen service commands → actual worker queue.</text>
+<path d="M360 205L360 270" fill="none" stroke="#466a82" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M920 205L920 270" fill="none" stroke="#466a82" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="80" y="270" width="500" height="94" rx="8" fill="#ffffff" stroke="#708da0"/>
+<text x="94" y="296" font-size="15" >Owner continuation: activation batch complete.</text>
+<text x="94" y="320" font-size="15" >ProcGen pump returns; owner claims local back.</text>
+<text x="94" y="344" font-size="15" >Import rotation is included; no global FIFO.</text>
+<path d="M330 365L330 425" fill="none" stroke="#466a82" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="80" y="425" width="500" height="94" rx="8" fill="#ffffff" stroke="#708da0"/>
+<text x="94" y="451" font-size="15" >58 earlier density claims are outside target support.</text>
+<text x="94" y="475" font-size="15" >Index 845: original Int2 (10, 11), mask 3.</text>
+<text x="94" y="499" font-size="15" >Source selection; shared visited check false.</text>
+<path d="M330 520L330 585" fill="none" stroke="#466a82" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="80" y="585" width="500" height="94" rx="8" fill="#eaf2f6" stroke="#708da0"/>
+<text x="94" y="611" font-size="15" >Exclusive ProcGen +0x40 acquire → map lookup.</text>
+<text x="94" y="635" font-size="15" >First miss → insert wrapper → synchronous generation.</text>
+<text x="94" y="659" font-size="15" >Publish visited; later map hits retain the sample.</text>
+<rect x="700" y="270" width="500" height="94" rx="8" fill="#ffffff" stroke="#708da0"/>
+<text x="714" y="296" font-size="15" >Peer continuation: activation batch complete.</text>
+<text x="714" y="320" font-size="15" >ProcGen pump is preempted; peer claims front.</text>
+<text x="714" y="344" font-size="15" >Completion wakes do not add a second running pump.</text>
+<path d="M950 365L950 425" fill="none" stroke="#466a82" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="700" y="425" width="500" height="94" rx="8" fill="#ffffff" stroke="#708da0"/>
+<text x="714" y="451" font-size="15" >28 earlier density claims are outside target support.</text>
+<text x="714" y="475" font-size="15" >Index 874: original Int2 (-2, -2), mask 0.</text>
+<text x="714" y="499" font-size="15" >Source selection; shared visited check false.</text>
+<path d="M950 520L950 585" fill="none" stroke="#466a82" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="700" y="585" width="500" height="94" rx="8" fill="#eaf2f6" stroke="#708da0"/>
+<text x="714" y="611" font-size="15" >Exclusive ProcGen +0x40 acquire → map lookup.</text>
+<text x="714" y="635" font-size="15" >First miss → insert wrapper → synchronous generation.</text>
+<text x="714" y="659" font-size="15" >Publish visited; later map hits retain the sample.</text>
+<rect x="80" y="760" width="1120" height="118" rx="8" fill="#ffffff" stroke="#708da0"/>
+<text x="94" y="786" font-size="15" >Both D5S witnesses keep ContentManager layer preparation pending and delay competing cell/terrain routes.</text>
+<text x="94" y="810" font-size="15" >These are permitted native scheduling choices, not measured ordinary arrival frequencies or exceptional-state tests.</text>
+<text x="94" y="834" font-size="15" >Layer (-2, 11) has no target-capable density neighbor: releasing preparation adds a real competing path.</text>
+<text x="94" y="858" font-size="15" >Other ordinary ingress: cell singleton; admitted bounded-LOD 3×3; terrain file/height work; warm key/aggregate reuse.</text>
+<rect x="80" y="935" width="1120" height="118" rx="8" fill="#fff6e7" stroke="#708da0"/>
+<text x="94" y="961" font-size="15" >Incremental opportunity: target query (-2, 11) registers at 419; first mask-0 density query registers at 833.</text>
+<text x="94" y="985" font-size="15" >If early target work runs to the miss before overtaking work, mask 3 has a causal head start of 414 registrations.</text>
+<text x="94" y="1009" font-size="15" >No latency bound enforces this. Batch 875 gives owner mask 0; whole-batch owner/peer can give opposite masks.</text>
+<text x="94" y="1033" font-size="15" >Native claims are token-queue controls. Full ordinary ingress and source-map arbitration remain separate evidence.</text>
+</g></svg>

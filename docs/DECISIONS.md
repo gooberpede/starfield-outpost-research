@@ -1,5 +1,22 @@
 # Decision Register
 
+## D5W offline operating-contract investigation — 2026-10-30
+
+The maintainer invokes the [retained D5W brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md),
+requests its execution and a conventional commit suggestion, and prohibits
+commit/push. Q1–Q4 and AC1–AC11 are frozen unchanged. Authority covers existing
+native/data/evidence inspection, bounded disposable native execution, original
+authored analysis/figures and separate scientific, engineering and editorial
+review. Raw protected-save inspection is conditional on an indispensable-input
+trigger; that trigger was not met. Read-only official Bethesda guidance is
+credited without implementation/image incorporation or external contact.
+[Report](experiments/resource-retained-population/d5w-report.md) and
+[review package](experiments/resource-retained-population/d5w-review.md) govern
+the proposed scoped operating account. No retail experiment, D5P observer
+repair, bug remediation, database/configuration mutation, repository integration
+or publication is authorized. Prior D5Q–V/C1 findings and historical failures
+remain unchanged; D5P NO-GO and B6/publication holds stand.
+
 ## Research completion governance reinforcement - 2026-10-30
 
 The maintainer explicitly invokes the

@@ -1,5 +1,9 @@
 # Documentation Index
 
+- [D5W resource-generation operating contract](experiments/resource-retained-population/d5w-report.md):
+  ordinary request/scheduler paths, query-dependent retained authority,
+  competing design hypotheses and [native sampling/point comparisons](experiments/resource-retained-population/d5w/README.md).
+
 - [D5V population lifecycle, stability and consumers](experiments/resource-retained-population/d5v-report.md):
   native construction/reset/retirement and separate Workshop/extractor queries,
   with [native-frame figures and backing data](experiments/resource-retained-population/d5v/README.md).

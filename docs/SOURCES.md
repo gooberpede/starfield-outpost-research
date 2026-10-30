@@ -1,5 +1,28 @@
 # Source Register
 
+## SOR-S-0153 — D5W native operating contract and official guidance
+
+2026-10-30, Australia/Sydney. [D5W report](experiments/resource-retained-population/d5w-report.md)
+and [per-use hashes/ranges](experiments/resource-retained-population/d5w-sources.csv)
+combine pinned Bethesda native/data evidence with the project's preserved
+D5Q–V/C1 methods and receipts under SOR-P-0002. D5W extends the owned D5S
+queue setup and D5V point-predicate setup in separate disposable processes;
+the original methods/receipts are unchanged. Existing Ghidra/JDK, CPython,
+Microsoft CRT and bundled sharp/libvips are standalone tools, not newly
+incorporated implementations. Raw exports, executable pages, archive members,
+native receipts and PNG previews remain local-only.
+
+Read-only external consultation on that date used Bethesda Support pages
+[61060, planetary resource distribution](https://help.bethesda.net/app/answers/detail/a_id/61060/~/how-are-planetary-resources-distributed%3F)
+and [61082, gathering guidance](https://help.bethesda.net/app/answers/detail/a_id/61082/~/resource-gathering---tips-%2526-tricks---starfield).
+They supply broad player-facing procedural-distribution and extractor-field
+guidance, not a source-level canonical sample, scheduling rule or reload
+invariant for 1.16.244.0. Revision/build applicability is UNKNOWN. Their images,
+implementation and substantial text were not copied. No author contact,
+external research upload or new dependency was used. Protected-save parsing
+was not triggered; existing authored coordinate tables and the authenticated
+C1 lease supply historical reference inputs.
+
 ## D5U-C1 historical coordinate and composite correction
 
 2026-10-30. [Exact per-use ledger](experiments/resource-retained-population/d5u-c1-sources.csv)

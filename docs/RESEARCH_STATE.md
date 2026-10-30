@@ -1,5 +1,19 @@
 # Current Research State
 
+**2026-10-30 — D5W resource-generation operating contract:**
+[The offline account](experiments/resource-retained-population/d5w-report.md)
+connects ordinary locality/readiness and competing native paths to query-dependent
+first-miss authority and conditional retention. Incremental queue controls expose
+an early mask-3 opportunity without establishing a general retail preference;
+whole-batch and intermediate controls preserve contrary claims. A new original
+native point test distinguishes Ionic Liquids admission at the same in-disk point
+while both supplied U25 area resource sets remain equal.
+[Question/acceptance disposition and exact review](experiments/resource-retained-population/d5w-review.md)
+govern proposed completion. New sampling/path/stability/point figures reuse
+unchanged qualified D5V-C1 absolute outpost views. No intended-mask or bug-cause
+claim, protected-save parsing, game launch, observer repair, staging, commit,
+push or publication. D5P remains NO-GO; B6/publication remains ON HOLD.
+
 **2026-10-30 — D5V-C1 native-axis correction:**
 [The correction](experiments/resource-retained-population/d5v-c1-report.md)
 reworks D5V-AC6/AC7: both Feynman V figures now use absolute historical native

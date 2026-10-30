@@ -1,0 +1,397 @@
+{
+  "query": [
+    -20.388092041015625,
+    -6.49578857421875,
+    0.0
+  ],
+  "resource": "000057d4",
+  "scope": "Point-resource predicate only; produced-resource intersection and other placement gates are conditional",
+  "source_geometry_sha256": "8db687f2364281505e93bbf86900ae59a25f053fa38ae1f198605773de32edb5",
+  "native_receipt_sha256": "92cbd977edc7aa0e6ecacc6733f65d14cb7e112327562a77684cf91e16325e48",
+  "results": [
+    {
+      "mask": 0,
+      "accepted": false,
+      "regions": [
+        {
+          "accepted": false,
+          "geometry_sha256": "1c2645638b02341fb0719325a2d9609a0df4d9462bf78a42968e03d1e700856b"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "7992b3f4348ae97348510907e869e190767fffddb777eadb685fbd48d5ceda04"
+        }
+      ]
+    },
+    {
+      "mask": 3,
+      "accepted": true,
+      "regions": [
+        {
+          "accepted": true,
+          "geometry_sha256": "64ac4087e3cd5d9389e90df5b5bf8f6fe3d075ec23a3ac262198974036434c09"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "ff1e263f96d61011982c7a69253185390ae2885ba4c6cd4299a63e50d3e81b59"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "1c2645638b02341fb0719325a2d9609a0df4d9462bf78a42968e03d1e700856b"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "b09f1f8a7858ac00ce680760bc09bcdbcf52364a77c4d1f3d00c126c82738284"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "649800c4cdc3e842ef634673e1f08f1aae2000474d37c11b01c88e8b017811da"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "690ee393c3bb056d83b61f2bb8445f165af5780b380557ac29c090e57186e99b"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "8d8a953414bbefdd52dc1fec1915ed2463cb19c84382f17c4fa318bf86057923"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "ec717b11b8fa5ecdc6f3bbabd7ed3a2ddeb921b779ae491f4ab84f976b534b6e"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "20e108ef0a86af83ab4ef0e92314a3726220d2dd9699a0c7de70c7c868b31538"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "32addde9222be9ee71c2c7d3aec72d1b1b258d49f9b1a94dd42b1c8d3b5cc166"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "72855c9170901dea37afc302a72a8200fa98897bcf1ddf2719005c9c4a0ac56f"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "a9bc963821bafb7e19064cd96958b160be1af6924d45ddd5f657105ec3ea0abf"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "e55b6a998552a05b346aa0c30de99cbcc32d94d7aff2aee46ca4010f0b0866a1"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "a49d69f484475979b7208f929d1ceb3e93ed2d77800c21f954ca2d767696930a"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "7992b3f4348ae97348510907e869e190767fffddb777eadb685fbd48d5ceda04"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "f873977fc6458971add7cacdbc70f74b593f2f9c2a6257d98afaae5276b91674"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "0004a0379dee4d53f5ddfbc33d6940fc2d9b51011d315ee2ffba74d256be2461"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "200248039fc40ff8f2a4996742ffc906572b462c7ac0f11f725b09bb1b228c2d"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "18a8cf8b0b5645bc7b5a5e43276494b8cd07e6644457cc2db7c3cf723b89f115"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "9308358b8a8dd8ee36afba315c28b0572bea3b3b8026dd15300cfcdd7c34164d"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "0d10e76778cc113b371e758c94e911bac661c46085cc3206d503c4d0a7025600"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "adb92a698cae3e52850f83efb2542f69e510786752942702e5623f864ec7010d"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "6d0eb91cda3562c07f2f45dad2bf127c028c1fc3020122e5302ebd87f928f960"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "a701c668604d37d38d4b52fcf33afdc7acd0f1403ec885e586e0dbc26870507e"
+        },
+        {
+          "accepted": false,
+          "geometry_sha256": "1204ed8ef05ebad1a9c760b98cf4f6f7e3a164f9703f174fee0364c2731b7f1f"
+        }
+      ]
+    }
+  ],
+  "context_rejections": [
+    {
+      "layer": "U22-M0",
+      "resource_regions": 0,
+      "minimum_outside_bound_native": null,
+      "classification": "DERIVED rejection by the native XY broadphase bound; not new execution"
+    },
+    {
+      "layer": "U23-M0",
+      "resource_regions": 1,
+      "minimum_outside_bound_native": 1448.9811443283788,
+      "classification": "DERIVED rejection by the native XY broadphase bound; not new execution"
+    },
+    {
+      "layer": "U23-M3",
+      "resource_regions": 27,
+      "minimum_outside_bound_native": 179.35482133997345,
+      "classification": "DERIVED rejection by the native XY broadphase bound; not new execution"
+    },
+    {
+      "layer": "U24-M0",
+      "resource_regions": 1,
+      "minimum_outside_bound_native": 1233.4969655118223,
+      "classification": "DERIVED rejection by the native XY broadphase bound; not new execution"
+    }
+  ],
+  "panels": [
+    {
+      "id": "point-0-0",
+      "left": 80,
+      "top": 225,
+      "size": 480,
+      "bounds_native": [
+        -158.80925750732422,
+        321.1907424926758,
+        -149.72251892089844,
+        330.27748107910156
+      ],
+      "scale": 1.0,
+      "coordinate_domain": "historical native descriptor-frame XY",
+      "center": [
+        81.19074249267578,
+        90.27748107910156
+      ],
+      "beacon": [
+        81.19074249267578,
+        90.27748107910156
+      ],
+      "center_pixels": [
+        320.0,
+        465.0
+      ],
+      "radius_native": 150,
+      "radius_pixels": 150.0,
+      "ticks_x": [
+        -100,
+        0,
+        100,
+        200,
+        300
+      ],
+      "ticks_y": [
+        -100,
+        0,
+        100,
+        200,
+        300
+      ],
+      "layer_ids": [
+        "U22-M0",
+        "U24-M0",
+        "U25-M0"
+      ],
+      "primitives": 991,
+      "deliberate_viewport_clip": true,
+      "geometry_drawn": true,
+      "fixed_point_native": [
+        -20.388092041015625,
+        -6.49578857421875
+      ],
+      "fixed_point_pixels": [
+        218.4211654663086,
+        561.7732696533203
+      ]
+    },
+    {
+      "id": "point-0-1",
+      "left": 700,
+      "top": 225,
+      "size": 480,
+      "bounds_native": [
+        -158.80925750732422,
+        321.1907424926758,
+        -149.72251892089844,
+        330.27748107910156
+      ],
+      "scale": 1.0,
+      "coordinate_domain": "historical native descriptor-frame XY",
+      "center": [
+        81.19074249267578,
+        90.27748107910156
+      ],
+      "beacon": [
+        81.19074249267578,
+        90.27748107910156
+      ],
+      "center_pixels": [
+        940.0,
+        465.0
+      ],
+      "radius_native": 150,
+      "radius_pixels": 150.0,
+      "ticks_x": [
+        -100,
+        0,
+        100,
+        200,
+        300
+      ],
+      "ticks_y": [
+        -100,
+        0,
+        100,
+        200,
+        300
+      ],
+      "layer_ids": [
+        "U22-M0",
+        "U24-M0",
+        "U25-M3"
+      ],
+      "primitives": 961,
+      "deliberate_viewport_clip": true,
+      "geometry_drawn": true,
+      "fixed_point_native": [
+        -20.388092041015625,
+        -6.49578857421875
+      ],
+      "fixed_point_pixels": [
+        838.4211654663086,
+        561.7732696533203
+      ]
+    },
+    {
+      "id": "point-1-0",
+      "left": 80,
+      "top": 925,
+      "size": 480,
+      "bounds_native": [
+        -1390.8751583099365,
+        1131.9180717468262,
+        -1431.43994140625,
+        1091.3532886505127
+      ],
+      "scale": 0.19026529573697962,
+      "coordinate_domain": "historical native descriptor-frame XY",
+      "center": [
+        81.19074249267578,
+        90.27748107910156
+      ],
+      "beacon": [
+        81.19074249267578,
+        90.27748107910156
+      ],
+      "center_pixels": [
+        360.0830539605323,
+        1115.4699845827101
+      ],
+      "radius_native": 150,
+      "radius_pixels": 28.539794360546942,
+      "ticks_x": [
+        -1200,
+        -800,
+        -400,
+        0,
+        400,
+        800
+      ],
+      "ticks_y": [
+        -1200,
+        -800,
+        -400,
+        0,
+        400,
+        800
+      ],
+      "layer_ids": [
+        "U22-M0",
+        "U24-M0",
+        "U25-M0"
+      ],
+      "primitives": 991,
+      "deliberate_viewport_clip": true,
+      "geometry_drawn": true,
+      "fixed_point_native": [
+        -20.388092041015625,
+        -6.49578857421875
+      ],
+      "fixed_point_pixels": [
+        340.7561269673618,
+        1133.8825793527337
+      ]
+    },
+    {
+      "id": "point-1-1",
+      "left": 700,
+      "top": 925,
+      "size": 480,
+      "bounds_native": [
+        -1390.8751583099365,
+        1131.9180717468262,
+        -1431.43994140625,
+        1091.3532886505127
+      ],
+      "scale": 0.19026529573697962,
+      "coordinate_domain": "historical native descriptor-frame XY",
+      "center": [
+        81.19074249267578,
+        90.27748107910156
+      ],
+      "beacon": [
+        81.19074249267578,
+        90.27748107910156
+      ],
+      "center_pixels": [
+        980.0830539605323,
+        1115.4699845827101
+      ],
+      "radius_native": 150,
+      "radius_pixels": 28.539794360546942,
+      "ticks_x": [
+        -1200,
+        -800,
+        -400,
+        0,
+        400,
+        800
+      ],
+      "ticks_y": [
+        -1200,
+        -800,
+        -400,
+        0,
+        400,
+        800
+      ],
+      "layer_ids": [
+        "U22-M0",
+        "U24-M0",
+        "U25-M3"
+      ],
+      "primitives": 961,
+      "deliberate_viewport_clip": true,
+      "geometry_drawn": true,
+      "fixed_point_native": [
+        -20.388092041015625,
+        -6.49578857421875
+      ],
+      "fixed_point_pixels": [
+        960.7561269673618,
+        1133.8825793527337
+      ]
+    }
+  ]
+}

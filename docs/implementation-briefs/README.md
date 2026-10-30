@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [D5W normal resource-generation operating contract](CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md):
+  invoked 2026-10-30 for offline ordinary-path, authority and three-level stability
+  research, with conditional save gates and independent completeness review.
+  [Report](../experiments/resource-retained-population/d5w-report.md),
+  [ledger](../experiments/resource-retained-population/d5w-investigation-ledger.md)
+  and [review](../experiments/resource-retained-population/d5w-review.md).
+  No retail game, observer repair, save mutation, integration or publication authority.
+
 - [D5V-C1 native-coordinate plot correction](CODEX_BRIEF_SOR_RG2_D5V_C1_native_coordinate_plot_correction.md):
   invoked 2026-10-30 to replace centre-relative axes with absolute native
   descriptor-frame coordinates and independently review rendered output.

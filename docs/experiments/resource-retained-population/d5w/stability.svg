@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="840" viewBox="0 0 1280 840">
+<title>Three stability targets across population transitions</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#466a82"/></marker></defs>
+<rect width="1280" height="100%" fill="#f8fafc"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#182d3a">
+<text x="32" y="42" font-size="26" font-weight="600">Three stability targets across population transitions</text>
+<rect x="50" y="120" width="370" height="94" rx="8" fill="#eaf2f6" stroke="#708da0"/>
+<text x="64" y="146" font-size="15" >Same retained episode</text>
+<text x="64" y="170" font-size="15" >No reset, erasure or invalid lifetime.</text>
+<text x="64" y="194" font-size="15" >Successful copied regions remain owned.</text>
+<rect x="455" y="120" width="370" height="94" rx="8" fill="#fff6e7" stroke="#708da0"/>
+<text x="469" y="146" font-size="15" >Qualified broad reset</text>
+<text x="469" y="170" font-size="15" >Map and visited state cleared.</text>
+<text x="469" y="194" font-size="15" >New successful demand may construct.</text>
+<rect x="860" y="120" width="370" height="94" rx="8" fill="#fff6e7" stroke="#708da0"/>
+<text x="874" y="146" font-size="15" >Fresh loading / new manager</text>
+<text x="874" y="170" font-size="15" >Taken reset or fresh stores.</text>
+<text x="874" y="194" font-size="15" >Old pointers do not persist as identity.</text>
+<path d="M420 165L455 165" fill="none" stroke="#466a82" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M825 165L860 165" fill="none" stroke="#466a82" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="70" y="300" width="1130" height="94" rx="8" fill="#ffffff" stroke="#708da0"/>
+<text x="84" y="326" font-size="15" >Area resource identities</text>
+<text x="84" y="350" font-size="15" >Same admitted geometry and query → same set.</text>
+<text x="84" y="374" font-size="15" >Different shapes can still return the same names.</text>
+<rect x="70" y="445" width="1130" height="94" rx="8" fill="#ffffff" stroke="#708da0"/>
+<text x="84" y="471" font-size="15" >Exact deposit geometry</text>
+<text x="84" y="495" font-size="15" >Stable held geometry is a retention contract.</text>
+<text x="84" y="519" font-size="15" >Fresh equality needs complete inputs and winner class.</text>
+<rect x="70" y="590" width="1130" height="94" rx="8" fill="#ffffff" stroke="#708da0"/>
+<text x="84" y="616" font-size="15" >Fixed extractor availability</text>
+<text x="84" y="640" font-size="15" >Point predicate ∩ effective produced resources.</text>
+<text x="84" y="664" font-size="15" >Area equality does not imply point equality.</text>
+<text x="32" y="780" font-size="14" >Retirement alone can leave visited state and suppress reconstruction. None of these arrows asserts a retail variation rate or bug cause.</text>
+</g></svg>

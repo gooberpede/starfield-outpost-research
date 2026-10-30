@@ -1,5 +1,17 @@
 # Credits
 
+## D5W operational-contract research
+
+[D5W](docs/experiments/resource-retained-population/d5w-report.md) uses Bethesda's
+pinned native executable/definitions and existing local analysis. Bethesda
+Support's resource-distribution and gathering guidance is separately credited
+and bounded in [SOR-S-0153](docs/SOURCES.md#sor-s-0153--d5w-native-operating-contract-and-official-guidance).
+The maintainer-owned D5S queue and D5V point/plot methods are reused with exact
+provenance under SOR-P-0002. Ghidra, Adoptium Java, CPython, the Microsoft CRT
+and bundled sharp/libvips remain standalone research/rendering tools. No
+third-party implementation or external image is incorporated; primary native
+exports, fixtures and private evidence remain local-only.
+
 ## D5U-C1 outpost composite correction
 
 Bethesda supplies the local saved/native/definition evidence. The maintainer
