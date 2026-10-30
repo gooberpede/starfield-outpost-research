@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-31 — D5X construction-winner observer:**
+[Offline qualification](experiments/resource-retained-population/d5x-report.md)
+implements a narrow causal witness for original request, actual selected source,
+protected map decision, consumed descriptor and direct ordinary sample. Its
+[ledger](experiments/resource-retained-population/d5x-investigation-ledger.md) and
+[review](experiments/resource-retained-population/d5x-review.md) govern completion.
+Disposable native controls do not establish a historical or retail winner.
+The B1 instrumentation and B2 science cards are separate NOT AUTHORIZED proposals;
+D5R remains OPEN and B6/publication ON HOLD. No game, deployment, protected-save
+mutation, staging, commit or push is authorized by this result.
+
 **2026-10-30 — D5W resource-generation operating contract:**
 [The offline account](experiments/resource-retained-population/d5w-report.md)
 connects ordinary locality/readiness and competing native paths to query-dependent

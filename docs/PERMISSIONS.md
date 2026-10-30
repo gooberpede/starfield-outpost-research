@@ -198,6 +198,16 @@ incorporation, installation, live operation or publication follows. The
 [invoked brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md)
 authorizes offline implementation and disposable native qualification.
 
+## D5X pinned SFSE header extension — 2026-10-30
+
+The maintainer answered **“Approve the same header and MIT notices for D5X”**
+to the exact-use question in the D5X execution chat. The approved material is
+the same unmodified `sfse/PluginAPI.h`, upstream commit
+`48535cc4306ab345252bf740c20a1c6194929b0e`, retaining its existing copyright,
+permission and disclaimer notices. This extends the recorded MIT permission
+basis to offline compilation of the D5X observer. No other SFSE implementation,
+CommonLibSF dependency, retail operation, installation or publication is approved.
+
 ## D5P Phase B — approved attempt and consumed continuation
 
 2026-10-29. The maintainer approved the exact plugin/card subject to successful

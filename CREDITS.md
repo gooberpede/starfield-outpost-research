@@ -1169,3 +1169,15 @@ The [D5V-C1 axis correction](docs/experiments/resource-retained-population/d5v-c
 reuses those owned geometry/plotting methods and the existing sharp/libvips
 renderer. It preserves canonical native geometry and corrects the public axis
 coordinates; no additional outside implementation or asset is incorporated.
+
+The [D5X observer qualification](docs/experiments/resource-retained-population/d5x-report.md)
+uses Bethesda's pinned executable/data and retained Ghidra exports for native
+boundaries and isolated emitter controls. Its narrow observer adapts this
+project's owned D5P-R1 transport, patch admission and EXP0002 support methods.
+The maintainer-owned reference-handles observer was consulted without importing
+its CommonLibSF dependencies. Ian Patterson's unchanged SFSE `PluginAPI.h`
+uses the explicitly approved MIT basis and retained notice. CPython, MSVC/MASM,
+Windows SDK and the existing Capstone decoder serve as local research tools;
+no decoder implementation is incorporated. [Exact provenance](docs/experiments/resource-retained-population/d5x-sources.csv)
+records inputs and scoped uses. Native excerpts, binaries, captures and private
+receipts remain local-only; no retail validation or publication is implied.

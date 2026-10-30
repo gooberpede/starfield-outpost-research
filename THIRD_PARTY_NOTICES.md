@@ -47,3 +47,13 @@ original names/hashes and requires byte-exact reconstruction checks. Character
 names alone do not disqualify a candidate. Donor originals remain excluded under
 existing permissions. This narrow [policy integration](docs/PUBLICATION.md#conditional-first-party-original-save-evidence)
 clears no file and grants no rights in Bethesda content. Publication NOT CLEARED.
+
+## D5X interface use
+
+The construction-winner observer also compiles against the same unchanged SFSE
+`PluginAPI.h` covered by the Ian Patterson MIT notice above and the unchanged
+[full licence notice](runtime/exp0002/third_party/sfse/LICENSE.txt).
+The [D5X permission extension](docs/PERMISSIONS.md#d5x-pinned-sfse-header-extension--2026-10-30)
+authorizes that exact offline use; local packages retain the full original notice.
+No other SFSE/CommonLibSF implementation is incorporated. Proprietary native
+fixture excerpts remain local-only and are not covered by that MIT grant.

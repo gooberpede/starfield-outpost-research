@@ -51,6 +51,11 @@ Current [B3 method/source and baseline package](audits/publication-readiness-b3/
 
 ## Research records
 
+- [D5X construction-winner observer](experiments/resource-retained-population/d5x-report.md),
+  [schema and schematic](experiments/resource-retained-population/d5x-schema.md),
+  [review package](experiments/resource-retained-population/d5x-review.md): offline
+  native qualification and two separately gated retail proposals.
+
 - [Subsystem map](subsystems/README.md): connected runtime, persistence, and validation questions.
 - [Established findings](known-facts.md), [hypotheses/questions](hypotheses.md), [functions](function-register.md), and [state/representations](state-register.md).
 - [Experiments](experiments/README.md), [selected evidence](experiments/evidence/README.md), and [templates](templates/README.md).

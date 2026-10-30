@@ -1752,3 +1752,18 @@ C1 geometry, independent saved-centre tables and owned rendering methods.
 The correction's local baseline/verification manifests preserve exact input,
 scientific-output and renderer identities. No native regeneration or new source
 incorporation is involved.
+
+## D5X construction-winner observation
+
+[Report](experiments/resource-retained-population/d5x-report.md),
+[boundary/schema contract](experiments/resource-retained-population/d5x-schema.md)
+and [per-use source ledger](experiments/resource-retained-population/d5x-sources.csv)
+bind the owned R1/EXP0002 adaptations, historical D5Q–W evidence, freshly checked
+installed identities, original emitter instructions and compiled qualification.
+The sibling reference-handles observer was consulted, with no CommonLibSF reuse.
+The same pinned SFSE interface header has an explicit D5X MIT-use extension in
+[PERMISSIONS](PERMISSIONS.md#d5x-pinned-sfse-header-extension--2026-10-30).
+Existing Capstone is a standalone read-only decoder for the late-terrain ownership
+challenge, not an incorporated implementation/dependency of the observer.
+Raw native material, DLL/packages and captures remain LOCAL-ONLY. Scientific
+confidence, retail operation and publication eligibility remain separate.
