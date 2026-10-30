@@ -1669,3 +1669,17 @@ source-protection gap. [Review](experiments/resource-retained-population/d5s-rev
 separates scientific confidence, exact delivery and publication eligibility.
 Owned methods use the maintainer-owned exception; Bethesda raw evidence and
 installed tool/runtime binaries remain local. No save analysis was triggered.
+
+## D5T ordinary-outcome census and visual mapping
+
+[Report](experiments/resource-retained-population/d5t-report.md),
+[catalogue](experiments/resource-retained-population/d5t/catalogue.md) and
+[per-use source ledger](experiments/resource-retained-population/d5t-sources.csv)
+connect the complete 196-query support to two effective vectors and complete
+native ordinary populations. Owned D5S/RG1 methods provide lineage under
+SOR-P-0002. Fresh read-only exports qualify source support, query dependence,
+competition and tint-byte loading. Installed IRES TINC fields supply stable map
+colors; bundled sharp/libvips renders local QA previews without browser access.
+No third-party code is incorporated and no save investigation is triggered.
+The [review record](experiments/resource-retained-population/d5t-review.md)
+separates scoped scientific completion from integration/publication permission.

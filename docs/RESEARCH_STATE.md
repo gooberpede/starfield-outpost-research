@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-10-30 — D5T ordinary outcome census:**
+[The second Feynman V source](experiments/resource-retained-population/d5t-report.md)
+has exactly two ordinary geometry outcomes under D5S's fixed normal-arrival
+contract: native region counts 2/15/57 versus 25/35/18 for Ionic Liquids,
+Fluorine and Copper. All 196 support queries map conditionally to masks 0/3;
+two proven scheduling witnesses establish both outcomes. Individual feasibility
+of the other 194 queries is not asserted. [Canonical SVGs and geometry](experiments/resource-retained-population/d5t/geometry.md)
+show reconstructed generation-competition footprints, with native boundary-rounding
+limits explicit. [Independent exact review](experiments/resource-retained-population/d5t-review.md)
+governs acceptance. No game, saves, staging, commit, push or publication;
+D5R parent OPEN, D5P NO-GO and B6/publication ON HOLD remain.
+
 **2026-10-29 — D5R query scheduling and determinism:**
 [Offline findings](experiments/resource-retained-population/d5r-report.md) separate
 deterministic root-local enumeration from unresolved ingress/winner selection.

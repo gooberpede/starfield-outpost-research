@@ -1112,3 +1112,12 @@ patch exporter under SOR-P-0002. [Per-use sources](docs/experiments/resource-ret
 retain those identities and substantive research provenance. Proprietary bytes,
 decompilation and fixture outputs remain local-only. No new third-party code,
 dependency, upstream contact or disclosure is incorporated.
+
+The [D5T outcome census and maps](docs/experiments/resource-retained-population/d5t-report.md)
+extend those owned D5S fixtures, the RG1 geometry model and query-sampling methods
+under SOR-P-0002. Bethesda's installed executable/data provide native generation,
+retained geometry and IRES tint evidence. Ghidra, Adoptium Java, CPython and the
+Microsoft CRT remain standalone research tools; the bundled sharp/libvips stack
+renders SVG previews locally. [Exact sources](docs/experiments/resource-retained-population/d5t-sources.csv)
+record tool and input provenance. No outside implementation is incorporated;
+raw native exports and installed assets remain local-only.
