@@ -1,0 +1,633 @@
+{
+  "schema": "sor-d5v-spatial/2",
+  "classification": "Conditional historical-frame native model",
+  "inputs": {
+    "docs\\experiments\\resource-retained-population\\d5u\\outposts\\D2-83388f.json": "5cfb5b9a3af2bd33571197ca9855b749f58e38109d515ca59dae9c147e12c217",
+    "docs\\experiments\\resource-retained-population\\d5u\\outposts\\D2-84e101.json": "8db687f2364281505e93bbf86900ae59a25f053fa38ae1f198605773de32edb5"
+  },
+  "cases": {
+    "D2-83388f": {
+      "reference": {
+        "case": "D2-83388f",
+        "name": "Feynman V Cu Co Ni IL",
+        "body": "0005e0de",
+        "beacon_token": "83388f",
+        "workshop_bytes": "c3a5866f4cfcf585",
+        "record_offset": 4440430,
+        "offset_domain": "DECODED_LOGICAL_STREAM",
+        "frame": "0x2b",
+        "chart": 0,
+        "descriptor": [
+          25152,
+          32448
+        ],
+        "site_cell": [
+          25124,
+          32446
+        ],
+        "saved_local_center": [
+          83.460693359375,
+          67.88771057128906,
+          -0.153639554977417
+        ],
+        "center": [
+          -2716.539306640625,
+          -132.11228942871094,
+          -0.153639554977417
+        ],
+        "beacon": [
+          -2716.539306640625,
+          -132.11228942871094,
+          -0.153639554977417
+        ],
+        "beacon_basis": "Zero saved Workshop compensation; same saved representation only",
+        "radius": 150,
+        "upper": 99.84635925292969,
+        "angular_grid_residual": 0.00026759533648146316,
+        "qualification": "STATIC ordinary initialization; grid-centre residual <0.001 fine cells; historical rebase/epoch unknown",
+        "footprint": "Fixed 150-native-unit research disk; not recovered saved hardware boundary",
+        "historical_loaded_epoch": "UNKNOWN"
+      },
+      "source_geometry": "docs\\experiments\\resource-retained-population\\d5u\\outposts\\D2-83388f.json",
+      "source_geometry_sha256": "5cfb5b9a3af2bd33571197ca9855b749f58e38109d515ca59dae9c147e12c217",
+      "panels": [
+        {
+          "id": "D2-83388f-0",
+          "left": 80,
+          "top": 225,
+          "size": 480,
+          "bounds_native": [
+            -2956.539306640625,
+            -2476.539306640625,
+            -372.11228942871094,
+            107.88771057128906
+          ],
+          "scale": 1.0,
+          "coordinate_domain": "historical native descriptor-frame XY",
+          "center": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "beacon": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "center_pixels": [
+            320.0,
+            465.0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "ticks_x": [
+            -2900,
+            -2800,
+            -2700,
+            -2600,
+            -2500
+          ],
+          "ticks_y": [
+            -300,
+            -200,
+            -100,
+            0,
+            100
+          ],
+          "layer_ids": [
+            "U01-M8",
+            "U02-M8",
+            "U03-M8",
+            "U04-M8"
+          ],
+          "primitives": 445,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "D2-83388f-1",
+          "left": 700,
+          "top": 225,
+          "size": 480,
+          "bounds_native": [
+            -2956.539306640625,
+            -2476.539306640625,
+            -372.11228942871094,
+            107.88771057128906
+          ],
+          "scale": 1.0,
+          "coordinate_domain": "historical native descriptor-frame XY",
+          "center": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "beacon": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "center_pixels": [
+            940.0,
+            465.0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "ticks_x": [
+            -2900,
+            -2800,
+            -2700,
+            -2600,
+            -2500
+          ],
+          "ticks_y": [
+            -300,
+            -200,
+            -100,
+            0,
+            100
+          ],
+          "layer_ids": [
+            "U01-M8",
+            "U02-M8",
+            "U03-M8",
+            "U04-M8"
+          ],
+          "primitives": 14,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "D2-83388f-full-0",
+          "left": 80,
+          "top": 1110,
+          "size": 480,
+          "bounds_native": [
+            -3768.301839828491,
+            -1279.5053005218506,
+            -1369.8408813476562,
+            1118.9556579589844
+          ],
+          "scale": 0.192864299037367,
+          "coordinate_domain": "historical native descriptor-frame XY",
+          "center": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "beacon": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "center_pixels": [
+            282.84744371704323,
+            1351.2863427210455
+          ],
+          "radius_native": 150,
+          "radius_pixels": 28.929644855605048,
+          "ticks_x": [
+            -3600,
+            -3200,
+            -2800,
+            -2400,
+            -2000,
+            -1600
+          ],
+          "ticks_y": [
+            -1200,
+            -800,
+            -400,
+            0,
+            400,
+            800
+          ],
+          "layer_ids": [
+            "U01-M8",
+            "U02-M8",
+            "U03-M8",
+            "U04-M8"
+          ],
+          "primitives": 445,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "D2-83388f-full-1",
+          "left": 700,
+          "top": 1110,
+          "size": 480,
+          "bounds_native": [
+            -3768.301839828491,
+            -1279.5053005218506,
+            -1369.8408813476562,
+            1118.9556579589844
+          ],
+          "scale": 0.192864299037367,
+          "coordinate_domain": "historical native descriptor-frame XY",
+          "center": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "beacon": [
+            -2716.539306640625,
+            -132.11228942871094
+          ],
+          "center_pixels": [
+            902.8474437170432,
+            1351.2863427210455
+          ],
+          "radius_native": 150,
+          "radius_pixels": 28.929644855605048,
+          "ticks_x": [
+            -3600,
+            -3200,
+            -2800,
+            -2400,
+            -2000,
+            -1600
+          ],
+          "ticks_y": [
+            -1200,
+            -800,
+            -400,
+            0,
+            400,
+            800
+          ],
+          "layer_ids": [
+            "U01-M8",
+            "U02-M8",
+            "U03-M8",
+            "U04-M8"
+          ],
+          "primitives": 14,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        }
+      ],
+      "consumer": [
+        {
+          "panel": 0,
+          "layer_ids": [
+            "U01-M8",
+            "U02-M8",
+            "U03-M8",
+            "U04-M8"
+          ],
+          "accepted_region_counts": {
+            "000057cb": 1,
+            "000057ce": 1,
+            "000057cf": 1,
+            "000057d4": 1
+          },
+          "area_resources": [
+            "Nickel",
+            "Cobalt",
+            "Copper",
+            "Ionic Liquids"
+          ],
+          "query_native": [
+            -2716.539306640625,
+            -132.11228942871094,
+            -0.153639554977417
+          ],
+          "radius": 150,
+          "upper": 99.84635925292969
+        },
+        {
+          "panel": 1,
+          "layer_ids": [
+            "U01-M8",
+            "U02-M8",
+            "U03-M8",
+            "U04-M8"
+          ],
+          "accepted_region_counts": {
+            "000057cb": 1,
+            "000057ce": 1,
+            "000057cf": 1,
+            "000057d4": 1
+          },
+          "area_resources": [
+            "Nickel",
+            "Cobalt",
+            "Copper",
+            "Ionic Liquids"
+          ],
+          "query_native": [
+            -2716.539306640625,
+            -132.11228942871094,
+            -0.153639554977417
+          ],
+          "radius": 150,
+          "upper": 99.84635925292969
+        }
+      ]
+    },
+    "D2-84e101": {
+      "reference": {
+        "case": "D2-84e101",
+        "name": "Feynman V Cu IL F",
+        "body": "0005e0de",
+        "beacon_token": "84e101",
+        "workshop_bytes": "b0e207c2dee2c1b6",
+        "record_offset": 5712362,
+        "offset_domain": "DECODED_LOGICAL_STREAM",
+        "frame": "0x2b",
+        "chart": 0,
+        "descriptor": [
+          37536,
+          20928
+        ],
+        "site_cell": [
+          37536,
+          20928
+        ],
+        "saved_local_center": [
+          81.19074249267578,
+          90.27748107910156,
+          5.303274154663086
+        ],
+        "center": [
+          81.19074249267578,
+          90.27748107910156,
+          5.303274154663086
+        ],
+        "beacon": [
+          81.19074249267578,
+          90.27748107910156,
+          5.303274154663086
+        ],
+        "beacon_basis": "Zero saved Workshop compensation; same saved representation only",
+        "radius": 150,
+        "upper": 105.30327606201172,
+        "angular_grid_residual": 0.00019333374802954495,
+        "qualification": "STATIC ordinary initialization; grid-centre residual <0.001 fine cells; historical rebase/epoch unknown",
+        "footprint": "Fixed 150-native-unit research disk; not recovered saved hardware boundary",
+        "historical_loaded_epoch": "UNKNOWN"
+      },
+      "source_geometry": "docs\\experiments\\resource-retained-population\\d5u\\outposts\\D2-84e101.json",
+      "source_geometry_sha256": "8db687f2364281505e93bbf86900ae59a25f053fa38ae1f198605773de32edb5",
+      "panels": [
+        {
+          "id": "D2-84e101-0",
+          "left": 80,
+          "top": 225,
+          "size": 480,
+          "bounds_native": [
+            -158.80925750732422,
+            321.1907424926758,
+            -149.72251892089844,
+            330.27748107910156
+          ],
+          "scale": 1.0,
+          "coordinate_domain": "historical native descriptor-frame XY",
+          "center": [
+            81.19074249267578,
+            90.27748107910156
+          ],
+          "beacon": [
+            81.19074249267578,
+            90.27748107910156
+          ],
+          "center_pixels": [
+            320.0,
+            465.0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "ticks_x": [
+            -100,
+            0,
+            100,
+            200,
+            300
+          ],
+          "ticks_y": [
+            -100,
+            0,
+            100,
+            200,
+            300
+          ],
+          "layer_ids": [
+            "U22-M0",
+            "U24-M0",
+            "U25-M0"
+          ],
+          "primitives": 991,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "D2-84e101-1",
+          "left": 700,
+          "top": 225,
+          "size": 480,
+          "bounds_native": [
+            -158.80925750732422,
+            321.1907424926758,
+            -149.72251892089844,
+            330.27748107910156
+          ],
+          "scale": 1.0,
+          "coordinate_domain": "historical native descriptor-frame XY",
+          "center": [
+            81.19074249267578,
+            90.27748107910156
+          ],
+          "beacon": [
+            81.19074249267578,
+            90.27748107910156
+          ],
+          "center_pixels": [
+            940.0,
+            465.0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "ticks_x": [
+            -100,
+            0,
+            100,
+            200,
+            300
+          ],
+          "ticks_y": [
+            -100,
+            0,
+            100,
+            200,
+            300
+          ],
+          "layer_ids": [
+            "U22-M0",
+            "U24-M0",
+            "U25-M3"
+          ],
+          "primitives": 961,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "D2-84e101-full-0",
+          "left": 80,
+          "top": 1110,
+          "size": 480,
+          "bounds_native": [
+            -1390.8751583099365,
+            1131.9180717468262,
+            -1431.43994140625,
+            1091.3532886505127
+          ],
+          "scale": 0.19026529573697962,
+          "coordinate_domain": "historical native descriptor-frame XY",
+          "center": [
+            81.19074249267578,
+            90.27748107910156
+          ],
+          "beacon": [
+            81.19074249267578,
+            90.27748107910156
+          ],
+          "center_pixels": [
+            360.0830539605323,
+            1300.4699845827101
+          ],
+          "radius_native": 150,
+          "radius_pixels": 28.539794360546942,
+          "ticks_x": [
+            -1200,
+            -800,
+            -400,
+            0,
+            400,
+            800
+          ],
+          "ticks_y": [
+            -1200,
+            -800,
+            -400,
+            0,
+            400,
+            800
+          ],
+          "layer_ids": [
+            "U22-M0",
+            "U24-M0",
+            "U25-M0"
+          ],
+          "primitives": 991,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "D2-84e101-full-1",
+          "left": 700,
+          "top": 1110,
+          "size": 480,
+          "bounds_native": [
+            -1390.8751583099365,
+            1131.9180717468262,
+            -1431.43994140625,
+            1091.3532886505127
+          ],
+          "scale": 0.19026529573697962,
+          "coordinate_domain": "historical native descriptor-frame XY",
+          "center": [
+            81.19074249267578,
+            90.27748107910156
+          ],
+          "beacon": [
+            81.19074249267578,
+            90.27748107910156
+          ],
+          "center_pixels": [
+            980.0830539605323,
+            1300.4699845827101
+          ],
+          "radius_native": 150,
+          "radius_pixels": 28.539794360546942,
+          "ticks_x": [
+            -1200,
+            -800,
+            -400,
+            0,
+            400,
+            800
+          ],
+          "ticks_y": [
+            -1200,
+            -800,
+            -400,
+            0,
+            400,
+            800
+          ],
+          "layer_ids": [
+            "U22-M0",
+            "U24-M0",
+            "U25-M3"
+          ],
+          "primitives": 961,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        }
+      ],
+      "consumer": [
+        {
+          "panel": 0,
+          "layer_ids": [
+            "U22-M0",
+            "U24-M0",
+            "U25-M0"
+          ],
+          "accepted_region_counts": {
+            "000057cf": 3,
+            "000057d0": 2,
+            "000057d4": 1
+          },
+          "area_resources": [
+            "Copper",
+            "Fluorine",
+            "Ionic Liquids"
+          ],
+          "query_native": [
+            81.19074249267578,
+            90.27748107910156,
+            5.303274154663086
+          ],
+          "radius": 150,
+          "upper": 105.30327606201172
+        },
+        {
+          "panel": 1,
+          "layer_ids": [
+            "U22-M0",
+            "U24-M0",
+            "U25-M3"
+          ],
+          "accepted_region_counts": {
+            "000057cf": 2,
+            "000057d0": 3,
+            "000057d4": 4
+          },
+          "area_resources": [
+            "Copper",
+            "Fluorine",
+            "Ionic Liquids"
+          ],
+          "query_native": [
+            81.19074249267578,
+            90.27748107910156,
+            5.303274154663086
+          ],
+          "radius": 150,
+          "upper": 105.30327606201172
+        }
+      ]
+    }
+  },
+  "diagrams": {
+    "coordinates.svg": "f235294466faede72ce9486d9eee20bc2317fbb91acaed13141544c78f437f21",
+    "D2-83388f.svg": "ad53482804ecb2226702cffaa8635953385110020bd064b3b90f47a6bd586dc9",
+    "D2-84e101.svg": "b52540ec8097544b7f147e27cb04b9aad4aa9f14f2fe3a27ebdb22f6f5eb0927",
+    "lifecycle.svg": "5e7df43bbd4881363b910ebb44344b7714ce399b4afe365461f9d2700cc1422d"
+  },
+  "native_vs_display": "Public data and axes are absolute native descriptor-frame XY. Viewport translation, scale and SVG Y inversion affect pixels only."
+}

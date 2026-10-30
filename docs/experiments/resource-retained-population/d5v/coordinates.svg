@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="810" viewBox="0 0 1280 810">
+<title>Native coordinate domains and explicit display transform</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#466a82"/></marker></defs>
+<rect width="1280" height="100%" fill="#f8fafc"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#182d3a">
+<text x="32" y="42" font-size="26" font-weight="600">Native coordinate domains and explicit display transform</text>
+<rect x="32" y="95" width="360" height="115" rx="8" fill="white" stroke="#708da0"/>
+<text x="47" y="122" font-size="16" >Body-face cells: signed Int2</text>
+<text x="47" y="146" font-size="16" >Descriptor O, site S, source A</text>
+<text x="47" y="170" font-size="16" >Fine-cell scale: 100 native units</text>
+<rect x="470" y="95" width="730" height="115" rx="8" fill="white" stroke="#708da0"/>
+<text x="485" y="122" font-size="16" >Historical descriptor frame (binary32 XY / XYZ)</text>
+<text x="485" y="146" font-size="16" >C = f32(L + 100(S − O)); anchor = 100(A − O)</text>
+<text x="485" y="170" font-size="16" >Generator origin = anchor − (200,200), not centre</text>
+<rect x="32" y="320" width="520" height="115" rx="8" fill="white" stroke="#708da0"/>
+<text x="47" y="347" font-size="16" >Area query: indexed XYZ, index, domain</text>
+<text x="47" y="371" font-size="16" >Q = f32(XYZ + translation[index]) when in range</text>
+<text x="47" y="395" font-size="16" >Native geometry comparison requires matching frame</text>
+<rect x="680" y="320" width="520" height="115" rx="8" fill="white" stroke="#708da0"/>
+<text x="695" y="347" font-size="16" >Extractor candidate: reference +0x8c / +0x94</text>
+<text x="695" y="371" font-size="16" >Plain XYZ copied into point query; no index here</text>
+<text x="695" y="395" font-size="16" >No historical candidate position is asserted</text>
+<rect x="32" y="540" width="1168" height="100" rx="8" fill="white" stroke="#708da0"/>
+<text x="47" y="567" font-size="16" >Absolute native X/Y data and axes. Pixels only: u = left + (x − xmin) s; v = top + (ymax − y) s</text>
+<text x="47" y="591" font-size="16" >Inverse: native x = xmin + (u − left)/s; native y = ymax − (v − top)/s</text>
+<text x="47" y="615" font-size="16" >X/Y are native axes; north/east/metres and 3D handedness are not inferred.</text>
+<path d="M392 150L470 150" stroke="#466a82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="431.0" y="85" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#f8fafc" stroke-width="4">saved-frame join</text>
+<path d="M400 210L280 320" stroke="#466a82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="340.0" y="257.0" font-size="12" text-anchor="middle" paint-order="stroke" stroke="#f8fafc" stroke-width="4">conditional common frame</text>
+<path d="M950 210L950 320" stroke="#466a82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="962" y="257.0" font-size="12" text-anchor="start" paint-order="stroke" stroke="#f8fafc" stroke-width="4">conditional common frame</text>
+<path d="M290 435L290 540" stroke="#466a82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="302" y="479.5" font-size="12" text-anchor="start" paint-order="stroke" stroke="#f8fafc" stroke-width="4">native → display</text>
+<path d="M950 435L950 540" stroke="#466a82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="962" y="479.5" font-size="12" text-anchor="start" paint-order="stroke" stroke="#f8fafc" stroke-width="4">native → display</text>
+<text x="32" y="710" font-size="15" >Source geometry and query operands remain native values. Only the SVG viewport reverses Y.</text>
+<text x="32" y="735" font-size="15" >A current indexed translation is not recovered from a historical save. Unjoined live frames are not overlaid.</text>
+</g></svg>

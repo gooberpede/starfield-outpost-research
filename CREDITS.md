@@ -1143,3 +1143,17 @@ Microsoft CRT remain standalone research tools; the bundled sharp/libvips stack
 renders SVG previews locally. [Exact sources](docs/experiments/resource-retained-population/d5t-sources.csv)
 record tool and input provenance. No outside implementation is incorporated;
 raw native exports and installed assets remain local-only.
+
+The [D5V lifecycle and consumer study](docs/experiments/resource-retained-population/d5v-report.md)
+uses Bethesda's pinned executable/definitions and existing local Ghidra analysis.
+Its original fixtures, coordinate checks and SVG comparisons extend this project's
+D5S, C1 and spatial-transcription methods under SOR-P-0002. Ghidra, Adoptium Java,
+CPython, the Microsoft CRT and bundled sharp/libvips are existing standalone
+research/rendering tools. [Exact per-use provenance](docs/experiments/resource-retained-population/d5v-sources.csv)
+retains source/tool identities. No third-party implementation is incorporated;
+raw native bytes, decompilation and private receipts remain local-only.
+
+The [D5V-C1 axis correction](docs/experiments/resource-retained-population/d5v-c1-report.md)
+reuses those owned geometry/plotting methods and the existing sharp/libvips
+renderer. It preserves canonical native geometry and corrects the public axis
+coordinates; no additional outside implementation or asset is incorporated.

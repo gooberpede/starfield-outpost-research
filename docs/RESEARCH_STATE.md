@@ -1,5 +1,25 @@
 # Current Research State
 
+**2026-10-30 — D5V-C1 native-axis correction:**
+[The correction](experiments/resource-retained-population/d5v-c1-report.md)
+reworks D5V-AC6/AC7: both Feynman V figures now use absolute historical native
+descriptor-frame X/Y, with actual centre labels and 150-unit circles. The earlier
+relative-axis presentation and its visual acceptance are explicitly superseded.
+Canonical geometry, masks, colors, consumer results and lifecycle findings remain
+unchanged. Detailed/full-extent views, numerical controls and rendered review
+are governed by the correction record. No live, commit, push or publication authority.
+
+**2026-10-30 — D5V lifecycle and gameplay consumers:**
+[The offline account](experiments/resource-retained-population/d5v-report.md)
+connects source construction/retention, movement retirement and registered-module
+reset to distinct area, catalogue and extractor point consumers. Retirement
+does not itself clear visited state; broad reset clears both stores. Original
+native tests distinguish equal resource sets from equal geometry and outpost-wide
+availability from beacon-point admission. [Native-frame figures](experiments/resource-retained-population/d5v/README.md)
+preserve historical model/loaded-state distinctions. [Review and exact delivery](experiments/resource-retained-population/d5v-review.md)
+control proposed completion; no missing/swapped-resource bug cause is asserted.
+D5P remains NO-GO and B6/publication ON HOLD. No staging, commit or push.
+
 **2026-10-30 — D5U-C1 outpost composite correction:**
 [Seven composites](experiments/resource-retained-population/d5u/outposts/README.md)
 join authenticated saved native centres/beacons and 150-unit research disks to

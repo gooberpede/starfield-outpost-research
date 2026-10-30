@@ -1,5 +1,17 @@
 # Implementation and Audit Briefs
 
+- [D5V-C1 native-coordinate plot correction](CODEX_BRIEF_SOR_RG2_D5V_C1_native_coordinate_plot_correction.md):
+  invoked 2026-10-30 to replace centre-relative axes with absolute native
+  descriptor-frame coordinates and independently review rendered output.
+  [Correction report](../experiments/resource-retained-population/d5v-c1-report.md).
+  No scientific expansion, retail operation, staging, commit, push or publication.
+
+- [D5V population stability, consumption and native coordinates](CODEX_BRIEF_SOR_RG2_D5V_resource_population_stability_consumption_native_coordinates.md):
+  invoked 2026-10-30 for offline mechanism research, conditional save discipline
+  and native-frame comparisons. [Report](../experiments/resource-retained-population/d5v-report.md)
+  and [review](../experiments/resource-retained-population/d5v-review.md).
+  No live, save mutation, database edit, staging, commit, push or publication authority.
+
 - [D5U-C1 outpost composites and coordinate reconciliation](CODEX_BRIEF_SOR_RG2_D5U_C1_outpost_composite_maps_coordinate_join.md):
   invoked 2026-10-30 for qualified seven-outpost maps and primary four-resource
   reconciliation. [Report](../experiments/resource-retained-population/d5u-c1-report.md),

@@ -1709,3 +1709,23 @@ colors; bundled sharp/libvips renders local QA previews without browser access.
 No third-party code is incorporated and no save investigation is triggered.
 The [review record](experiments/resource-retained-population/d5t-review.md)
 separates scoped scientific completion from integration/publication permission.
+
+## D5V lifecycle, stability and gameplay consumers
+
+[Report](experiments/resource-retained-population/d5v-report.md),
+[native map](experiments/resource-retained-population/d5v-lifecycle-consumer-map.md),
+[coordinate contract](experiments/resource-retained-population/d5v-coordinate-contract.md)
+and [per-use source ledger](experiments/resource-retained-population/d5v-sources.csv)
+join fresh read-only native exports to original predicate controls and preserved
+C1 historical-frame geometry. Bethesda's installed data remain primary local
+evidence. Owned source/plot/export methods retain SOR-P-0002 provenance; existing
+standalone tools are hashed separately. Operator qualitative comparisons remain
+source-reported observations. No new dependency, external contact or disclosure
+is incorporated. Conditional save investigation was not triggered.
+
+[D5V-C1](experiments/resource-retained-population/d5v-c1-report.md) corrects the
+plotting source and coordinate-presentation acceptance using the same canonical
+C1 geometry, independent saved-centre tables and owned rendering methods.
+The correction's local baseline/verification manifests preserve exact input,
+scientific-output and renderer identities. No native regeneration or new source
+incorporation is involved.

@@ -1,5 +1,9 @@
 # Documentation Index
 
+- [D5V population lifecycle, stability and consumers](experiments/resource-retained-population/d5v-report.md):
+  native construction/reset/retirement and separate Workshop/extractor queries,
+  with [native-frame figures and backing data](experiments/resource-retained-population/d5v/README.md).
+
 New research maps follow the prospective [visualization convention](VISUALIZATION_STANDARD.md).
 
 - [D5U-C1 named outpost composites](experiments/resource-retained-population/d5u/outposts/README.md):

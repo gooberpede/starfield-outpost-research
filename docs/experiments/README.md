@@ -1,5 +1,10 @@
 # Experiments
 
+- [D5V population lifecycle and consumer stability](resource-retained-population/d5v-report.md):
+  strictly offline native tracing, original-predicate controls and two Feynman V
+  coordinate-qualified comparisons. [Review](resource-retained-population/d5v-review.md)
+  separates proposed scientific completion, engineering and publication limits.
+
 - [RG2-D5N alternative native observation](resource-retained-population/d5n-report.md): all fourteen witnesses retained with Grid-clear on DR0 and thirteen software sites. [Comparison/contract](resource-retained-population/d5n-contract.md), [review](resource-retained-population/d5n-review.md) and [one-session proposal](resource-retained-population/run-card-d5n-v1.md) keep disposable qualification, retail reliability and scientific acquisition separate. Phase B remains NOT AUTHORIZED.
 
 - [D5M Phase B execution](resource-retained-population/d5m-phase-b.md): one approved ordinary-user process, 493 verified receipts and an unexpected Grid-clear breakpoint exit before target acquisition. [Post-mortem](resource-retained-population/d5m-phase-b-postmortem.md) narrows the missing fault-thread delivery; full protection and local archival pass. Further retail use is NO-GO.
