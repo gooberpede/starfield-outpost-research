@@ -1,5 +1,31 @@
 # Source Register
 
+## D5U-C1 historical coordinate and composite correction
+
+2026-10-30. [Exact per-use ledger](experiments/resource-retained-population/d5u-c1-sources.csv)
+binds authenticated D2 saved-coordinate derivatives, corrected D5 frozen
+historical-frame populations, D5A conditional ordinary geometry and four framed
+native controls. Independent static-exhaustion/durable-centre/mature-context tables
+test the joins. Existing D5U IRES palette and D5T primitive methods are reused;
+owned project code falls under SOR-P-0002. [Report](experiments/resource-retained-population/d5u-c1-report.md)
+separates finite ordinary model coverage from unknown historical populations,
+terrain and final availability. No raw save or new native execution, dependency,
+contact or disclosure. Raw members/receipts LOCAL-ONLY; authored outputs
+REVIEW-REQUIRED; publication remains held.
+
+## D5U comparative variability
+
+2026-10-30. [Exact source/evidence register](experiments/resource-retained-population/d5u-sources.csv)
+binds Bethesda's installed executable/definitions/raster, unchanged Ghidra state,
+authenticated D5R static leases, D5G–D5I/Q/R/S/T proof and new disposable native
+controls. Owned D5H arithmetic/domain and D5T native/key/shape/export methods are
+adapted under SOR-P-0002 at HEAD `7af83b382c41e54784d192fe9337362288ff7d13`.
+Existing CPython/Windows CRT, Git and bundled sharp/libvips are separate tools;
+no outside implementation, new dependency, licence acceptance, contact or
+disclosure. [Methods](experiments/resource-retained-population/d5u-methods.md)
+state fixture substitutions, frame changes and rendering limits. Raw evidence
+LOCAL-ONLY; authored derivatives REVIEW-REQUIRED; publication remains held.
+
 ## D5R request scheduling and selection
 
 2026-10-29. [Claim/source ledger](experiments/resource-retained-population/d5r-sources.csv)

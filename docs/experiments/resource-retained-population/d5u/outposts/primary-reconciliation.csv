@@ -1,0 +1,5 @@
+resource,name,observed_historical,saved_extractor_token,contributing_sources,positive_area_paths,accepted_callbacks,native_capture,native_cell,native_points_bounds_exact,model_disk_intersection,historical_full_population_epoch,discrepancy
+000057cf,Copper,POSITIVE_CORRESPONDENCE,83836a,U02,1,1,325,11;1,True,POSITIVE_AREA,UNKNOWN,None within this conditional ordinary model
+000057ce,Cobalt,POSITIVE_CORRESPONDENCE,838360,U01,1,1,696,10;12,True,POSITIVE_AREA,UNKNOWN,None within this conditional ordinary model
+000057cb,Nickel,POSITIVE_CORRESPONDENCE,838366,U01,1,1,716,11;12,True,POSITIVE_AREA,UNKNOWN,None within this conditional ordinary model
+000057d4,Ionic Liquids,POSITIVE_CORRESPONDENCE,83836b,U02,1,1,299,10;1,True,POSITIVE_AREA,UNKNOWN,None within this conditional ordinary model

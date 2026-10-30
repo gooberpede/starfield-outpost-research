@@ -1,5 +1,14 @@
 # Implementation and Audit Briefs
 
+- [D5U-C1 outpost composites and coordinate reconciliation](CODEX_BRIEF_SOR_RG2_D5U_C1_outpost_composite_maps_coordinate_join.md):
+  invoked 2026-10-30 for qualified seven-outpost maps and primary four-resource
+  reconciliation. [Report](../experiments/resource-retained-population/d5u-c1-report.md),
+  [gallery](../experiments/resource-retained-population/d5u/outposts/README.md) and
+  [review](../experiments/resource-retained-population/d5u-c1-review.md).
+  No live, save mutation, integration, commit, push or publication authority.
+
+- [D5U comparative resource-source variability](CODEX_BRIEF_SOR_RG2_D5U_comparative_resource_source_variability_predictive_rules.md): invoked 2026-10-30 for offline comparative research, native qualification and reproducible maps. [Report](../experiments/resource-retained-population/d5u-report.md), [map gallery](../experiments/resource-retained-population/d5u/README.md) and [review](../experiments/resource-retained-population/d5u-review.md). No live, save mutation, deployment, Ghidra edit, staging, commit, push or publication authority.
+
 - [Research completion governance reinforcement](CODEX_BRIEF_SOR_research_completion_governance_reinforcement.md): invoked 2026-10-30 for focused documentation and independent adversarial validation. [Gap analysis and cases](../audits/research-completion-governance-reinforcement.md). Historical verdicts preserved; no science, live action, staging, commit, push or publication authority.
 
 - [D5R query scheduling and selection determinism](CODEX_BRIEF_SOR_RG2_D5R_query_scheduling_selection_determinism.md): invoked 2026-10-29 for bounded offline query/worker/lifetime research and conditional save discipline. [Report](../experiments/resource-retained-population/d5r-report.md) separates qualified ordinary-vector variability from unresolved complete-population prediction. No live, observer, save mutation, staging, commit, push or publication authority.

@@ -1,5 +1,27 @@
 # Credits
 
+## D5U-C1 outpost composite correction
+
+Bethesda supplies the local saved/native/definition evidence. The maintainer
+supplies the corrective question, names and historical observations. Existing
+project D2/D5/D5A/D5G saved-coordinate and source research, independent
+static-exhaustion/durable-centre controls, D5U palette and D5T primitive methods
+support [the composites](docs/experiments/resource-retained-population/d5u/outposts/README.md).
+[Per-use provenance](docs/experiments/resource-retained-population/d5u-c1-sources.csv)
+records owned method reuse under SOR-P-0002. Existing sharp/libvips supplies local
+raster previews; no new dependency or third-party implementation is incorporated.
+
+## D5U comparative resource-source research
+
+Bethesda supplies the local native, installed definition and raster evidence for
+the [comparative study](docs/experiments/resource-retained-population/d5u-report.md).
+The maintainer supplies the question and historical research context. Project
+D5G–D5I/Q/R/S/T research and owned D5H/D5T methods are reused with per-use
+[provenance](docs/experiments/resource-retained-population/d5u-sources.csv).
+The existing sharp/libvips renderer supplies local raster previews; it is not
+vendored or downloaded. Native/static raw evidence remains local, and authored
+numeric/map derivatives still require publication review.
+
 ## D5R query determinism research
 
 Bethesda supplies the local native/definition/raster evidence for the

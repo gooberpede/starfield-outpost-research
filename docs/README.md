@@ -1,5 +1,11 @@
 # Documentation Index
 
+New research maps follow the prospective [visualization convention](VISUALIZATION_STANDARD.md).
+
+- [D5U-C1 named outpost composites](experiments/resource-retained-population/d5u/outposts/README.md):
+  seven saved centres/150-unit disks, complete ordinary source halos and
+  [four-resource reconciliation](experiments/resource-retained-population/d5u-c1-report.md).
+
 - [B5-A housekeeping and retention proposal](audits/publication-readiness-b5/report.md):
   exact storage accounting, protected evidence and prospective scratch lifecycle.
   No deletion authorized; publication remains NOT CLEARED.

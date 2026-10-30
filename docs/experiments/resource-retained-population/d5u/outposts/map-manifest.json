@@ -1,0 +1,1011 @@
+{
+  "schema": "sor-d5u-c1-svg/1",
+  "files": {
+    "D2-83388f.svg": {
+      "sha256": "805a607f6d7292e8af6dda219479c227d889fbfb37ea2f9fc4997d50dd32bbdc",
+      "width": 1280,
+      "height": 990,
+      "data": "D2-83388f.json",
+      "panels": [
+        {
+          "id": "fixed",
+          "left": 90,
+          "top": 210,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            450.0
+          ],
+          "source_ids": [
+            "U01",
+            "U02",
+            "U03",
+            "U04"
+          ],
+          "layer_ids": [
+            "U01-M8",
+            "U02-M8",
+            "U03-M8",
+            "U04-M8"
+          ],
+          "primitives": 445,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "layout",
+          "left": 760,
+          "top": 210,
+          "size": 400,
+          "extent": [
+            -1400,
+            1600
+          ],
+          "scale": 0.13333333333333333,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 20.0,
+          "center_pixels": [
+            946.6666666666666,
+            423.33333333333337
+          ],
+          "source_ids": [
+            "U01",
+            "U02",
+            "U03",
+            "U04"
+          ],
+          "layer_ids": [
+            "U01-M8",
+            "U02-M8",
+            "U03-M8",
+            "U04-M8"
+          ],
+          "primitives": 0,
+          "deliberate_viewport_clip": false,
+          "geometry_drawn": false
+        }
+      ]
+    },
+    "D2-82be17.svg": {
+      "sha256": "a0fc41553e02f17f4be59864fc445d4d7be80bbaf1ac45401e89e2d9e7d73004",
+      "width": 1280,
+      "height": 990,
+      "data": "D2-82be17.json",
+      "panels": [
+        {
+          "id": "fixed",
+          "left": 90,
+          "top": 210,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            450.0
+          ],
+          "source_ids": [
+            "U05",
+            "U06",
+            "U07",
+            "U08"
+          ],
+          "layer_ids": [
+            "U05-M4",
+            "U06-M4",
+            "U07-M4",
+            "U08-M4"
+          ],
+          "primitives": 4372,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "layout",
+          "left": 760,
+          "top": 210,
+          "size": 400,
+          "extent": [
+            -3200,
+            3200
+          ],
+          "scale": 0.0625,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 9.375,
+          "center_pixels": [
+            960.0,
+            410.0
+          ],
+          "source_ids": [
+            "U05",
+            "U06",
+            "U07",
+            "U08"
+          ],
+          "layer_ids": [
+            "U05-M4",
+            "U06-M4",
+            "U07-M4",
+            "U08-M4"
+          ],
+          "primitives": 0,
+          "deliberate_viewport_clip": false,
+          "geometry_drawn": false
+        }
+      ]
+    },
+    "D2-81a75b.svg": {
+      "sha256": "1af4533f13cbc3ad11f72ae3452eccf490eb70867e977c5a8856b5dfdcd51011",
+      "width": 1280,
+      "height": 990,
+      "data": "D2-81a75b.json",
+      "panels": [
+        {
+          "id": "fixed",
+          "left": 90,
+          "top": 210,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            450.0
+          ],
+          "source_ids": [
+            "U09",
+            "U10",
+            "U11",
+            "U12"
+          ],
+          "layer_ids": [
+            "U09-M0",
+            "U10-M0",
+            "U11-M0",
+            "U12-M0"
+          ],
+          "primitives": 1346,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "layout",
+          "left": 760,
+          "top": 210,
+          "size": 400,
+          "extent": [
+            -1400,
+            1600
+          ],
+          "scale": 0.13333333333333333,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 20.0,
+          "center_pixels": [
+            946.6666666666666,
+            423.33333333333337
+          ],
+          "source_ids": [
+            "U09",
+            "U10",
+            "U11",
+            "U12"
+          ],
+          "layer_ids": [
+            "U09-M0",
+            "U10-M0",
+            "U11-M0",
+            "U12-M0"
+          ],
+          "primitives": 0,
+          "deliberate_viewport_clip": false,
+          "geometry_drawn": false
+        }
+      ]
+    },
+    "D2-81bf2a.svg": {
+      "sha256": "ca9fe1f9303fe14fcb71f188c00f0e2f5c8ebc9373f9f45916990d8fc1c43be6",
+      "width": 1280,
+      "height": 1640,
+      "data": "D2-81bf2a.json",
+      "panels": [
+        {
+          "id": "fixed",
+          "left": 90,
+          "top": 210,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            450.0
+          ],
+          "source_ids": [
+            "C1-X01",
+            "U13",
+            "U14",
+            "C1-X02",
+            "U15"
+          ],
+          "layer_ids": [
+            "C1-X01-M8",
+            "U13-M8",
+            "U14-M8",
+            "C1-X02-M8",
+            "U15-M8"
+          ],
+          "primitives": 493,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "layout",
+          "left": 760,
+          "top": 210,
+          "size": 400,
+          "extent": [
+            -2000,
+            2000
+          ],
+          "scale": 0.1,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 15.0,
+          "center_pixels": [
+            960.0,
+            410.0
+          ],
+          "source_ids": [
+            "C1-X01",
+            "U13",
+            "U14",
+            "C1-X02",
+            "U15",
+            "U16"
+          ],
+          "layer_ids": [
+            "C1-X01-M8",
+            "U13-M8",
+            "U14-M8",
+            "C1-X02-M8",
+            "U15-M8",
+            "U16-M0",
+            "U16-M8"
+          ],
+          "primitives": 0,
+          "deliberate_viewport_clip": false,
+          "geometry_drawn": false
+        },
+        {
+          "id": "U16-M0",
+          "left": 90,
+          "top": 1050,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            1290.0
+          ],
+          "source_ids": [
+            "U16"
+          ],
+          "layer_ids": [
+            "U16-M0"
+          ],
+          "primitives": 377,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "U16-M8",
+          "left": 730,
+          "top": 1050,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            970.0,
+            1290.0
+          ],
+          "source_ids": [
+            "U16"
+          ],
+          "layer_ids": [
+            "U16-M8"
+          ],
+          "primitives": 142,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        }
+      ]
+    },
+    "D2-825f95.svg": {
+      "sha256": "15344ef0413d3c9a886e07ca27bbe17bbead4166a9a23d39bf527bf854c03b5a",
+      "width": 1280,
+      "height": 990,
+      "data": "D2-825f95.json",
+      "panels": [
+        {
+          "id": "fixed",
+          "left": 90,
+          "top": 210,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            450.0
+          ],
+          "source_ids": [
+            "C1-X03",
+            "C1-X04",
+            "U17",
+            "C1-X05",
+            "C1-X06",
+            "U18"
+          ],
+          "layer_ids": [
+            "C1-X03-M0",
+            "C1-X04-M0",
+            "U17-M0",
+            "C1-X05-M0",
+            "C1-X06-M0",
+            "U18-M0"
+          ],
+          "primitives": 2076,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "layout",
+          "left": 760,
+          "top": 210,
+          "size": 400,
+          "extent": [
+            -2200,
+            1800
+          ],
+          "scale": 0.1,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 15.0,
+          "center_pixels": [
+            980.0,
+            390.0
+          ],
+          "source_ids": [
+            "C1-X03",
+            "C1-X04",
+            "U17",
+            "C1-X05",
+            "C1-X06",
+            "U18"
+          ],
+          "layer_ids": [
+            "C1-X03-M0",
+            "C1-X04-M0",
+            "U17-M0",
+            "C1-X05-M0",
+            "C1-X06-M0",
+            "U18-M0"
+          ],
+          "primitives": 0,
+          "deliberate_viewport_clip": false,
+          "geometry_drawn": false
+        }
+      ]
+    },
+    "D2-844cc6.svg": {
+      "sha256": "0fe81bef69963df386f974909106fffad65008e6d76da3d793af40b866cc198f",
+      "width": 1280,
+      "height": 2940,
+      "data": "D2-844cc6.json",
+      "panels": [
+        {
+          "id": "fixed",
+          "left": 90,
+          "top": 210,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            450.0
+          ],
+          "source_ids": [
+            "C1-X07",
+            "C1-X08",
+            "C1-X09"
+          ],
+          "layer_ids": [
+            "C1-X07-M3",
+            "C1-X08-M3",
+            "C1-X09-M3"
+          ],
+          "primitives": 894,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "layout",
+          "left": 760,
+          "top": 210,
+          "size": 400,
+          "extent": [
+            -2200,
+            1800
+          ],
+          "scale": 0.1,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 15.0,
+          "center_pixels": [
+            980.0,
+            390.0
+          ],
+          "source_ids": [
+            "U19",
+            "C1-X07",
+            "U20",
+            "C1-X08",
+            "U21",
+            "C1-X09"
+          ],
+          "layer_ids": [
+            "U19-M0",
+            "U19-M3",
+            "C1-X07-M3",
+            "U20-M0",
+            "U20-M3",
+            "C1-X08-M3",
+            "U21-M0",
+            "U21-M3",
+            "C1-X09-M3"
+          ],
+          "primitives": 0,
+          "deliberate_viewport_clip": false,
+          "geometry_drawn": false
+        },
+        {
+          "id": "U19-M0",
+          "left": 90,
+          "top": 1050,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            1290.0
+          ],
+          "source_ids": [
+            "U19"
+          ],
+          "layer_ids": [
+            "U19-M0"
+          ],
+          "primitives": 386,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "U19-M3",
+          "left": 730,
+          "top": 1050,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            970.0,
+            1290.0
+          ],
+          "source_ids": [
+            "U19"
+          ],
+          "layer_ids": [
+            "U19-M3"
+          ],
+          "primitives": 290,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "U20-M0",
+          "left": 90,
+          "top": 1700,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            1940.0
+          ],
+          "source_ids": [
+            "U20"
+          ],
+          "layer_ids": [
+            "U20-M0"
+          ],
+          "primitives": 375,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "U20-M3",
+          "left": 730,
+          "top": 1700,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            970.0,
+            1940.0
+          ],
+          "source_ids": [
+            "U20"
+          ],
+          "layer_ids": [
+            "U20-M3"
+          ],
+          "primitives": 301,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "U21-M0",
+          "left": 90,
+          "top": 2350,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            2590.0
+          ],
+          "source_ids": [
+            "U21"
+          ],
+          "layer_ids": [
+            "U21-M0"
+          ],
+          "primitives": 354,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "U21-M3",
+          "left": 730,
+          "top": 2350,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            970.0,
+            2590.0
+          ],
+          "source_ids": [
+            "U21"
+          ],
+          "layer_ids": [
+            "U21-M3"
+          ],
+          "primitives": 294,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        }
+      ]
+    },
+    "D2-84e101.svg": {
+      "sha256": "64d3fe42fd923e06cbd0663733dc86d0129744c8d358f0dc5955b3d834b81305",
+      "width": 1280,
+      "height": 2290,
+      "data": "D2-84e101.json",
+      "panels": [
+        {
+          "id": "fixed",
+          "left": 90,
+          "top": 210,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            450.0
+          ],
+          "source_ids": [
+            "U22",
+            "U24"
+          ],
+          "layer_ids": [
+            "U22-M0",
+            "U24-M0"
+          ],
+          "primitives": 679,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "layout",
+          "left": 760,
+          "top": 210,
+          "size": 400,
+          "extent": [
+            -1600,
+            1200
+          ],
+          "scale": 0.14285714285714285,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 21.428571428571427,
+          "center_pixels": [
+            988.5714285714286,
+            381.42857142857144
+          ],
+          "source_ids": [
+            "U22",
+            "U23",
+            "U24",
+            "U25"
+          ],
+          "layer_ids": [
+            "U22-M0",
+            "U23-M0",
+            "U23-M3",
+            "U24-M0",
+            "U25-M0",
+            "U25-M3"
+          ],
+          "primitives": 0,
+          "deliberate_viewport_clip": false,
+          "geometry_drawn": false
+        },
+        {
+          "id": "U23-M0",
+          "left": 90,
+          "top": 1050,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            1290.0
+          ],
+          "source_ids": [
+            "U23"
+          ],
+          "layer_ids": [
+            "U23-M0"
+          ],
+          "primitives": 335,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "U23-M3",
+          "left": 730,
+          "top": 1050,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            970.0,
+            1290.0
+          ],
+          "source_ids": [
+            "U23"
+          ],
+          "layer_ids": [
+            "U23-M3"
+          ],
+          "primitives": 306,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "U25-M0",
+          "left": 90,
+          "top": 1700,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            330.0,
+            1940.0
+          ],
+          "source_ids": [
+            "U25"
+          ],
+          "layer_ids": [
+            "U25-M0"
+          ],
+          "primitives": 312,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "U25-M3",
+          "left": 730,
+          "top": 1700,
+          "size": 480,
+          "extent": [
+            -240,
+            240
+          ],
+          "scale": 1.0,
+          "center": [
+            0,
+            0
+          ],
+          "radius_native": 150,
+          "radius_pixels": 150.0,
+          "center_pixels": [
+            970.0,
+            1940.0
+          ],
+          "source_ids": [
+            "U25"
+          ],
+          "layer_ids": [
+            "U25-M3"
+          ],
+          "primitives": 282,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        }
+      ]
+    },
+    "coordinate-join.svg": {
+      "sha256": "6e3aa055fde202d656ae4491c43770cd7deff73e9192d2d020e367f9d22389a8",
+      "width": 1280,
+      "height": 1060,
+      "data": "D2-83388f.json + ../geometry.json",
+      "panels": [
+        {
+          "id": "diagnostic-0",
+          "left": 80,
+          "top": 205,
+          "size": 500,
+          "extent": [
+            -500,
+            1450
+          ],
+          "scale": 0.2564102564102564,
+          "center": [
+            883.460693359375,
+            1067.887710571289
+          ],
+          "radius_native": 150,
+          "radius_pixels": 38.46153846153846,
+          "center_pixels": [
+            434.73351111778845,
+            302.9775101099259
+          ],
+          "source_ids": [
+            "U01"
+          ],
+          "layer_ids": [
+            "U01-M8"
+          ],
+          "primitives": 132,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        },
+        {
+          "id": "diagnostic-1",
+          "left": 720,
+          "top": 205,
+          "size": 500,
+          "extent": [
+            -500,
+            1450
+          ],
+          "scale": 0.2564102564102564,
+          "center": [
+            883.460693359375,
+            1067.887710571289
+          ],
+          "radius_native": 150,
+          "radius_pixels": 38.46153846153846,
+          "center_pixels": [
+            1074.7335111177886,
+            302.9775101099259
+          ],
+          "source_ids": [
+            "U01"
+          ],
+          "layer_ids": [
+            "U01-prospective-M8"
+          ],
+          "primitives": 116,
+          "deliberate_viewport_clip": true,
+          "geometry_drawn": true
+        }
+      ]
+    }
+  }
+}

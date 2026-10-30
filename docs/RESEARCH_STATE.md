@@ -1,5 +1,34 @@
 # Current Research State
 
+**2026-10-30 — D5U-C1 outpost composite correction:**
+[Seven composites](experiments/resource-retained-population/d5u/outposts/README.md)
+join authenticated saved native centres/beacons and 150-unit research disks to
+conditional historical-frame geometry. The primary Feynman V map reconciles
+Cobalt/Nickel from U01 and Copper/Ionic Liquids from U02; four native control
+paths match exact points/bounds. Complete finite-halo coverage requires 34
+sources, including nine outside D5U's comparative census. Forty separate ordinary
+layers preserve unresolved joint winners. [Report and limits](experiments/resource-retained-population/d5u-c1-report.md)
+and [exact review](experiments/resource-retained-population/d5u-c1-review.md)
+control acceptance. Original D5U science/38 source figures remain unchanged;
+historical loaded epoch, Special/Water/atmosphere and terrain/UI remain separate.
+D5R parent OPEN, D5P NO-GO and B6/publication holds stand. No commit/push.
+
+**2026-10-30 — D5U comparative resource-source variability:**
+[The comparative study](experiments/resource-retained-population/d5u-report.md)
+qualifies three reachable ordinary masks and three different native populations
+for added Feynman V source `0:37440:20928:0029d211` under QS1: 69/77/75 regions
+at masks 0/1/3. This refutes a universal two-outcome bound in that conditional
+domain. All 25 historical source supports retain 19 conditional invariant and
+six variable classifications, with full native discrimination for the latter.
+[Maps and machine data](experiments/resource-retained-population/d5u/README.md)
+separate support, admissibility, weights and geometry. Equal weights suffice
+under fixed complete inputs; unequal weights alone do not prove different
+geometry. Original source-only prospective frames omitted actual outpost/beacon
+alignment; C1 above supplies separately qualified historical references/composites.
+[Independent review](experiments/resource-retained-population/d5u-review.md)
+governs acceptance. D5T's exact two-outcome result stands; D5R parent OPEN,
+D5P NO-GO and B6/publication holds remain. No live/save/integration authority.
+
 **2026-10-30 — D5T ordinary outcome census:**
 [The second Feynman V source](experiments/resource-retained-population/d5t-report.md)
 has exactly two ordinary geometry outcomes under D5S's fixed normal-arrival

@@ -1,0 +1,354 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1080" viewBox="0 0 1120 1080">
+<title>D5U cross-source comparison</title>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#162b38">
+<text x="30" y="34" font-size="25" >D5U · 25 historical sources and one corner discriminator</text>
+<text x="30" y="64" font-size="14" >Separate quantities; numbered circles encode counts, not spatial probabilities.</text>
+<text x="30" y="90" font-size="14" >* Conditional on a successful fixed-input construction. Q = QS1 feasible witness classes. E = executed native geometry.</text>
+<text x="35" y="130" font-size="15" >Source / case</text>
+<text x="530" y="130" font-size="15" >Raster masks</text>
+<text x="680" y="130" font-size="15" >Reachable masks</text>
+<text x="830" y="130" font-size="15" >Weight classes</text>
+<text x="980" y="130" font-size="15" >Geometry</text>
+<text x="35" y="165" font-size="12" >U01  Feynman V Cu Co Ni IL  0:25116:32436:0029d20d</text>
+<circle cx="565" cy="160" r="11" fill="#cddce8"/>
+<text x="565" y="165" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="165" font-size="12" ></text>
+<circle cx="715" cy="160" r="11" fill="#dae9da"/>
+<text x="715" y="165" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="165" font-size="12" > *</text>
+<circle cx="865" cy="160" r="11" fill="#f3dfb6"/>
+<text x="865" y="165" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="165" font-size="12" ></text>
+<circle cx="1015" cy="160" r="11" fill="#ddcff0"/>
+<text x="1015" y="165" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="165" font-size="12" > *</text>
+<text x="35" y="196" font-size="12" >U02  Feynman V Cu Co Ni IL  0:25116:32448:0029d20e</text>
+<circle cx="565" cy="191" r="11" fill="#cddce8"/>
+<text x="565" y="196" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="196" font-size="12" ></text>
+<circle cx="715" cy="191" r="11" fill="#dae9da"/>
+<text x="715" y="196" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="196" font-size="12" > *</text>
+<circle cx="865" cy="191" r="11" fill="#f3dfb6"/>
+<text x="865" y="196" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="196" font-size="12" ></text>
+<circle cx="1015" cy="191" r="11" fill="#ddcff0"/>
+<text x="1015" y="196" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="196" font-size="12" > *</text>
+<text x="35" y="227" font-size="12" >U03  Feynman V Cu Co Ni IL  0:25128:32436:002c5879</text>
+<circle cx="565" cy="222" r="11" fill="#cddce8"/>
+<text x="565" y="227" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="227" font-size="12" ></text>
+<circle cx="715" cy="222" r="11" fill="#dae9da"/>
+<text x="715" y="227" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="227" font-size="12" > *</text>
+<circle cx="865" cy="222" r="11" fill="#f3dfb6"/>
+<text x="865" y="227" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="227" font-size="12" ></text>
+<circle cx="1015" cy="222" r="11" fill="#ddcff0"/>
+<text x="1015" y="227" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="227" font-size="12" > *</text>
+<text x="35" y="258" font-size="12" >U04  Feynman V Cu Co Ni IL  0:25128:32448:0029d210</text>
+<circle cx="565" cy="253" r="11" fill="#cddce8"/>
+<text x="565" y="258" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="258" font-size="12" ></text>
+<circle cx="715" cy="253" r="11" fill="#dae9da"/>
+<text x="715" y="258" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="258" font-size="12" > *</text>
+<circle cx="865" cy="253" r="11" fill="#f3dfb6"/>
+<text x="865" y="258" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="258" font-size="12" ></text>
+<circle cx="1015" cy="253" r="11" fill="#ddcff0"/>
+<text x="1015" y="258" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="258" font-size="12" > *</text>
+<text x="35" y="289" font-size="12" >U05  Carinae III-a Rc Fe  0:21372:15624:002493ea</text>
+<circle cx="565" cy="284" r="11" fill="#cddce8"/>
+<text x="565" y="289" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="289" font-size="12" ></text>
+<circle cx="715" cy="284" r="11" fill="#dae9da"/>
+<text x="715" y="289" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="289" font-size="12" > *</text>
+<circle cx="865" cy="284" r="11" fill="#f3dfb6"/>
+<text x="865" y="289" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="289" font-size="12" ></text>
+<circle cx="1015" cy="284" r="11" fill="#ddcff0"/>
+<text x="1015" y="289" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="289" font-size="12" > *</text>
+<text x="35" y="320" font-size="12" >U06  Carinae III-a Rc Fe  0:21384:15648:002493e7</text>
+<circle cx="565" cy="315" r="11" fill="#cddce8"/>
+<text x="565" y="320" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="320" font-size="12" ></text>
+<circle cx="715" cy="315" r="11" fill="#dae9da"/>
+<text x="715" y="320" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="320" font-size="12" > *</text>
+<circle cx="865" cy="315" r="11" fill="#f3dfb6"/>
+<text x="865" y="320" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="320" font-size="12" ></text>
+<circle cx="1015" cy="315" r="11" fill="#ddcff0"/>
+<text x="1015" y="320" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="320" font-size="12" > *</text>
+<text x="35" y="351" font-size="12" >U07  Carinae III-a Rc Fe  0:21396:15612:002493e8</text>
+<circle cx="565" cy="346" r="11" fill="#cddce8"/>
+<text x="565" y="351" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="351" font-size="12" ></text>
+<circle cx="715" cy="346" r="11" fill="#dae9da"/>
+<text x="715" y="351" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="351" font-size="12" > *</text>
+<circle cx="865" cy="346" r="11" fill="#f3dfb6"/>
+<text x="865" y="351" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="351" font-size="12" ></text>
+<circle cx="1015" cy="346" r="11" fill="#ddcff0"/>
+<text x="1015" y="351" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="351" font-size="12" > *</text>
+<text x="35" y="382" font-size="12" >U08  Carinae III-a Rc Fe  0:21396:15636:002493cf</text>
+<circle cx="565" cy="377" r="11" fill="#cddce8"/>
+<text x="565" y="382" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="382" font-size="12" ></text>
+<circle cx="715" cy="377" r="11" fill="#dae9da"/>
+<text x="715" y="382" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="382" font-size="12" > *</text>
+<circle cx="865" cy="377" r="11" fill="#f3dfb6"/>
+<text x="865" y="382" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="382" font-size="12" ></text>
+<circle cx="1015" cy="377" r="11" fill="#ddcff0"/>
+<text x="1015" y="382" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="382" font-size="12" > *</text>
+<text x="35" y="413" font-size="12" >U09  Arch III W H2O Lub  0:27156:35988:0028be0d</text>
+<circle cx="565" cy="408" r="11" fill="#cddce8"/>
+<text x="565" y="413" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="413" font-size="12" ></text>
+<circle cx="715" cy="408" r="11" fill="#dae9da"/>
+<text x="715" y="413" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="413" font-size="12" > *</text>
+<circle cx="865" cy="408" r="11" fill="#f3dfb6"/>
+<text x="865" y="413" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="413" font-size="12" ></text>
+<circle cx="1015" cy="408" r="11" fill="#ddcff0"/>
+<text x="1015" y="413" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="413" font-size="12" > *</text>
+<text x="35" y="444" font-size="12" >U10  Arch III W H2O Lub  0:27156:36000:002c17d5</text>
+<circle cx="565" cy="439" r="11" fill="#cddce8"/>
+<text x="565" y="444" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="444" font-size="12" ></text>
+<circle cx="715" cy="439" r="11" fill="#dae9da"/>
+<text x="715" y="444" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="444" font-size="12" > *</text>
+<circle cx="865" cy="439" r="11" fill="#f3dfb6"/>
+<text x="865" y="444" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="444" font-size="12" ></text>
+<circle cx="1015" cy="439" r="11" fill="#ddcff0"/>
+<text x="1015" y="444" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="444" font-size="12" > *</text>
+<text x="35" y="475" font-size="12" >U11  Arch III W H2O Lub  0:27168:35988:002c17d3</text>
+<circle cx="565" cy="470" r="11" fill="#cddce8"/>
+<text x="565" y="475" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="475" font-size="12" ></text>
+<circle cx="715" cy="470" r="11" fill="#dae9da"/>
+<text x="715" y="475" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="475" font-size="12" > *</text>
+<circle cx="865" cy="470" r="11" fill="#f3dfb6"/>
+<text x="865" y="475" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="475" font-size="12" ></text>
+<circle cx="1015" cy="470" r="11" fill="#ddcff0"/>
+<text x="1015" y="475" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="475" font-size="12" > *</text>
+<text x="35" y="506" font-size="12" >U12  Arch III W H2O Lub  0:27168:36000:002c17d1</text>
+<circle cx="565" cy="501" r="11" fill="#cddce8"/>
+<text x="565" y="506" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="506" font-size="12" ></text>
+<circle cx="715" cy="501" r="11" fill="#dae9da"/>
+<text x="715" y="506" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="506" font-size="12" > *</text>
+<circle cx="865" cy="501" r="11" fill="#f3dfb6"/>
+<text x="865" y="506" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="506" font-size="12" ></text>
+<circle cx="1015" cy="501" r="11" fill="#ddcff0"/>
+<text x="1015" y="506" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="506" font-size="12" > *</text>
+<text x="35" y="537" font-size="12" >U13  Feynman VI-b Al Be He3  0:29556:10932:0006ce55</text>
+<circle cx="565" cy="532" r="11" fill="#cddce8"/>
+<text x="565" y="537" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="537" font-size="12" ></text>
+<circle cx="715" cy="532" r="11" fill="#dae9da"/>
+<text x="715" y="537" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="537" font-size="12" > *</text>
+<circle cx="865" cy="532" r="11" fill="#f3dfb6"/>
+<text x="865" y="537" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="537" font-size="12" ></text>
+<circle cx="1015" cy="532" r="11" fill="#ddcff0"/>
+<text x="1015" y="537" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="537" font-size="12" > *</text>
+<text x="35" y="568" font-size="12" >U14  Feynman VI-b Al Be He3  0:29556:10944:0029f329</text>
+<circle cx="565" cy="563" r="11" fill="#cddce8"/>
+<text x="565" y="568" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="568" font-size="12" ></text>
+<circle cx="715" cy="563" r="11" fill="#dae9da"/>
+<text x="715" y="568" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="568" font-size="12" > *</text>
+<circle cx="865" cy="563" r="11" fill="#f3dfb6"/>
+<text x="865" y="568" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="568" font-size="12" ></text>
+<circle cx="1015" cy="563" r="11" fill="#ddcff0"/>
+<text x="1015" y="568" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="568" font-size="12" > *</text>
+<text x="35" y="599" font-size="12" >U15  Feynman VI-b Al Be He3  0:29568:10932:0006ce58</text>
+<circle cx="565" cy="594" r="11" fill="#cddce8"/>
+<text x="565" y="599" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="599" font-size="12" ></text>
+<circle cx="715" cy="594" r="11" fill="#dae9da"/>
+<text x="715" y="599" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="599" font-size="12" > *</text>
+<circle cx="865" cy="594" r="11" fill="#f3dfb6"/>
+<text x="865" y="599" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="599" font-size="12" ></text>
+<circle cx="1015" cy="594" r="11" fill="#ddcff0"/>
+<text x="1015" y="599" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="599" font-size="12" > *</text>
+<text x="35" y="630" font-size="12" >U16  Feynman VI-b Al Be He3  0:29568:10944:0006ce56</text>
+<circle cx="565" cy="625" r="11" fill="#cddce8"/>
+<text x="565" y="630" font-size="13" text-anchor="middle">2</text>
+<text x="582" y="630" font-size="12" ></text>
+<circle cx="715" cy="625" r="11" fill="#dae9da"/>
+<text x="715" y="630" font-size="13" text-anchor="middle">2</text>
+<text x="732" y="630" font-size="12" > Q</text>
+<circle cx="865" cy="625" r="11" fill="#f3dfb6"/>
+<text x="865" y="630" font-size="13" text-anchor="middle">2</text>
+<text x="882" y="630" font-size="12" ></text>
+<circle cx="1015" cy="625" r="11" fill="#ddcff0"/>
+<text x="1015" y="630" font-size="13" text-anchor="middle">2</text>
+<text x="1032" y="630" font-size="12" > E</text>
+<text x="35" y="661" font-size="12" >U17  Feynman VII-b Nd Al He3  1:32136:15156:0029d20e</text>
+<circle cx="565" cy="656" r="11" fill="#cddce8"/>
+<text x="565" y="661" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="661" font-size="12" ></text>
+<circle cx="715" cy="656" r="11" fill="#dae9da"/>
+<text x="715" y="661" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="661" font-size="12" > *</text>
+<circle cx="865" cy="656" r="11" fill="#f3dfb6"/>
+<text x="865" y="661" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="661" font-size="12" ></text>
+<circle cx="1015" cy="656" r="11" fill="#ddcff0"/>
+<text x="1015" y="661" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="661" font-size="12" > *</text>
+<text x="35" y="692" font-size="12" >U18  Feynman VII-b Nd Al He3  1:32148:15156:0029d20f</text>
+<circle cx="565" cy="687" r="11" fill="#cddce8"/>
+<text x="565" y="692" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="692" font-size="12" ></text>
+<circle cx="715" cy="687" r="11" fill="#dae9da"/>
+<text x="715" y="692" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="692" font-size="12" > *</text>
+<circle cx="865" cy="687" r="11" fill="#f3dfb6"/>
+<text x="865" y="692" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="692" font-size="12" ></text>
+<circle cx="1015" cy="687" r="11" fill="#ddcff0"/>
+<text x="1015" y="692" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="692" font-size="12" > *</text>
+<text x="35" y="723" font-size="12" >U19  Feynman VIII-b Au Sb  1:38100:960:002c17d5</text>
+<circle cx="565" cy="718" r="11" fill="#cddce8"/>
+<text x="565" y="723" font-size="13" text-anchor="middle">2</text>
+<text x="582" y="723" font-size="12" ></text>
+<circle cx="715" cy="718" r="11" fill="#dae9da"/>
+<text x="715" y="723" font-size="13" text-anchor="middle">2</text>
+<text x="732" y="723" font-size="12" > Q</text>
+<circle cx="865" cy="718" r="11" fill="#f3dfb6"/>
+<text x="865" y="723" font-size="13" text-anchor="middle">2</text>
+<text x="882" y="723" font-size="12" ></text>
+<circle cx="1015" cy="718" r="11" fill="#ddcff0"/>
+<text x="1015" y="723" font-size="13" text-anchor="middle">2</text>
+<text x="1032" y="723" font-size="12" > E</text>
+<text x="35" y="754" font-size="12" >U20  Feynman VIII-b Au Sb  1:38112:960:0029d211</text>
+<circle cx="565" cy="749" r="11" fill="#cddce8"/>
+<text x="565" y="754" font-size="13" text-anchor="middle">2</text>
+<text x="582" y="754" font-size="12" ></text>
+<circle cx="715" cy="749" r="11" fill="#dae9da"/>
+<text x="715" y="754" font-size="13" text-anchor="middle">2</text>
+<text x="732" y="754" font-size="12" > Q</text>
+<circle cx="865" cy="749" r="11" fill="#f3dfb6"/>
+<text x="865" y="754" font-size="13" text-anchor="middle">2</text>
+<text x="882" y="754" font-size="12" ></text>
+<circle cx="1015" cy="749" r="11" fill="#ddcff0"/>
+<text x="1015" y="754" font-size="13" text-anchor="middle">2</text>
+<text x="1032" y="754" font-size="12" > E</text>
+<text x="35" y="785" font-size="12" >U21  Feynman VIII-b Au Sb  1:38124:960:002c17d3</text>
+<circle cx="565" cy="780" r="11" fill="#cddce8"/>
+<text x="565" y="785" font-size="13" text-anchor="middle">2</text>
+<text x="582" y="785" font-size="12" ></text>
+<circle cx="715" cy="780" r="11" fill="#dae9da"/>
+<text x="715" y="785" font-size="13" text-anchor="middle">2</text>
+<text x="732" y="785" font-size="12" > Q</text>
+<circle cx="865" cy="780" r="11" fill="#f3dfb6"/>
+<text x="865" y="785" font-size="13" text-anchor="middle">2</text>
+<text x="882" y="785" font-size="12" ></text>
+<circle cx="1015" cy="780" r="11" fill="#ddcff0"/>
+<text x="1015" y="785" font-size="13" text-anchor="middle">2</text>
+<text x="1032" y="785" font-size="12" > E</text>
+<text x="35" y="816" font-size="12" >U22  Feynman V Cu IL F  0:37524:20916:0029d211</text>
+<circle cx="565" cy="811" r="11" fill="#cddce8"/>
+<text x="565" y="816" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="816" font-size="12" ></text>
+<circle cx="715" cy="811" r="11" fill="#dae9da"/>
+<text x="715" y="816" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="816" font-size="12" > *</text>
+<circle cx="865" cy="811" r="11" fill="#f3dfb6"/>
+<text x="865" y="816" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="816" font-size="12" ></text>
+<circle cx="1015" cy="811" r="11" fill="#ddcff0"/>
+<text x="1015" y="816" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="816" font-size="12" > *</text>
+<text x="35" y="847" font-size="12" >U23  Feynman V Cu IL F  0:37524:20928:00257f37</text>
+<circle cx="565" cy="842" r="11" fill="#cddce8"/>
+<text x="565" y="847" font-size="13" text-anchor="middle">2</text>
+<text x="582" y="847" font-size="12" ></text>
+<circle cx="715" cy="842" r="11" fill="#dae9da"/>
+<text x="715" y="847" font-size="13" text-anchor="middle">2</text>
+<text x="732" y="847" font-size="12" > Q</text>
+<circle cx="865" cy="842" r="11" fill="#f3dfb6"/>
+<text x="865" y="847" font-size="13" text-anchor="middle">2</text>
+<text x="882" y="847" font-size="12" ></text>
+<circle cx="1015" cy="842" r="11" fill="#ddcff0"/>
+<text x="1015" y="847" font-size="13" text-anchor="middle">2</text>
+<text x="1032" y="847" font-size="12" > E</text>
+<text x="35" y="878" font-size="12" >U24  Feynman V Cu IL F  0:37536:20916:0029d20d</text>
+<circle cx="565" cy="873" r="11" fill="#cddce8"/>
+<text x="565" y="878" font-size="13" text-anchor="middle">1</text>
+<text x="582" y="878" font-size="12" ></text>
+<circle cx="715" cy="873" r="11" fill="#dae9da"/>
+<text x="715" y="878" font-size="13" text-anchor="middle">1</text>
+<text x="732" y="878" font-size="12" > *</text>
+<circle cx="865" cy="873" r="11" fill="#f3dfb6"/>
+<text x="865" y="878" font-size="13" text-anchor="middle">1</text>
+<text x="882" y="878" font-size="12" ></text>
+<circle cx="1015" cy="873" r="11" fill="#ddcff0"/>
+<text x="1015" y="878" font-size="13" text-anchor="middle">1</text>
+<text x="1032" y="878" font-size="12" > *</text>
+<text x="35" y="909" font-size="12" >U25  Feynman V Cu IL F  0:37536:20928:0029d20e</text>
+<circle cx="565" cy="904" r="11" fill="#cddce8"/>
+<text x="565" y="909" font-size="13" text-anchor="middle">2</text>
+<text x="582" y="909" font-size="12" ></text>
+<circle cx="715" cy="904" r="11" fill="#dae9da"/>
+<text x="715" y="909" font-size="13" text-anchor="middle">2</text>
+<text x="732" y="909" font-size="12" > Q</text>
+<circle cx="865" cy="904" r="11" fill="#f3dfb6"/>
+<text x="865" y="909" font-size="13" text-anchor="middle">2</text>
+<text x="882" y="909" font-size="12" ></text>
+<circle cx="1015" cy="904" r="11" fill="#ddcff0"/>
+<text x="1015" y="909" font-size="13" text-anchor="middle">2</text>
+<text x="1032" y="909" font-size="12" > E</text>
+<text x="35" y="940" font-size="12" >U26  No associated outpost (Feynman V discriminator)  0:37440:20928:0029d211</text>
+<circle cx="565" cy="935" r="11" fill="#cddce8"/>
+<text x="565" y="940" font-size="13" text-anchor="middle">3</text>
+<text x="582" y="940" font-size="12" ></text>
+<circle cx="715" cy="935" r="11" fill="#dae9da"/>
+<text x="715" y="940" font-size="13" text-anchor="middle">3</text>
+<text x="732" y="940" font-size="12" > Q</text>
+<circle cx="865" cy="935" r="11" fill="#f3dfb6"/>
+<text x="865" y="940" font-size="13" text-anchor="middle">3</text>
+<text x="882" y="940" font-size="12" ></text>
+<circle cx="1015" cy="935" r="11" fill="#ddcff0"/>
+<text x="1015" y="940" font-size="13" text-anchor="middle">3</text>
+<text x="1032" y="940" font-size="12" > E</text>
+<text x="35" y="1010" font-size="14" >Singleton geometry follows complete fixed-input equivalence; individual winner membership remains UNKNOWN except marked witnesses.</text>
+<text x="35" y="1035" font-size="13" >Unknown overlays, definitions, frame, failed allocations or nonordinary routes fall outside this conditional classification.</text>
+<text x="35" y="1060" font-size="13" >U26 is added, not part of the historical 25. Counterfactual Nickel mask controls are excluded from these counts.</text>
+</g></svg>

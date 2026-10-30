@@ -1,0 +1,8 @@
+case,name,d5u_sources,additional_sources,total_sources,conditional_layers,frozen_successful_sources,recovered_failed_sources,halo_complete,special_water_atmosphere,historical_joint_winner
+D2-83388f,Feynman V Cu Co Ni IL,4,0,4,4,4,0,True,EXCLUDED: separate routes,UNKNOWN
+D2-82be17,Carinae III-a Rc Fe,4,0,4,4,4,0,True,EXCLUDED: separate routes,UNKNOWN
+D2-81a75b,Arch III W H2O Lub,4,0,4,4,4,0,True,EXCLUDED: separate routes,UNKNOWN
+D2-81bf2a,Feynman VI-b Al Be He3,4,2,6,7,2,4,True,EXCLUDED: separate routes,UNKNOWN
+D2-825f95,Feynman VII-b Nd Al He3,2,4,6,6,4,2,True,EXCLUDED: separate routes,UNKNOWN
+D2-844cc6,Feynman VIII-b Au Sb,3,3,6,9,3,3,True,EXCLUDED: separate routes,UNKNOWN
+D2-84e101,Feynman V Cu IL F,4,0,4,6,0,4,True,EXCLUDED: separate routes,UNKNOWN
