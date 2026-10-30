@@ -1189,3 +1189,10 @@ reporter uses installed CPython/SQLite only; no new third-party implementation
 is incorporated. Earlier D5P-R1/R2 failure diagnoses supply the readiness,
 travel-checkpoint and uncertainty counterexamples. Exact hashes and scoped uses
 are retained in the audit identity, test and delivery manifests.
+
+The [approved D5X-B1 retail trial](docs/experiments/resource-retained-population/d5x-b1-live-report.md)
+credits the maintainer's launch/gameplay/exit/Vortex actions, the unchanged owned
+D5X observer and offline B1 reporter, and R1's archive-backed protection methods.
+Its direct runtime witnesses remain distinct from operator milestones and from
+unproved target construction. Installed CPython/Windows APIs supply bounded
+control/authentication/archive operations; no new external implementation is reused.

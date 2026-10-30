@@ -1784,3 +1784,19 @@ false readiness/coverage and post-load/pre-travel/arrival evidence respectively.
 Audit receipts bind fresh installed/package/Save52/guard identities, methods,
 outputs and the proposed card. CPython/SQLite are standalone installed tools;
 no native/third-party dependency or scientific capture is repackaged or cleared.
+
+## D5X-B1 approved retail observation
+
+[Trial report](experiments/resource-retained-population/d5x-b1-live-report.md)
+and [approval/ledger](experiments/resource-retained-population/d5x-b1-live-authorization.md)
+bind one maintainer-operated Save52 load/travel and the unchanged approved D5X
+binary/reader. The existing owned archive-backed preservation helper and B1
+streaming reporter are executed without modification. One-off stdlib/Windows
+control and exact-prefix verification methods are retained privately with their
+inputs/effects/hashes. Live session-control writes are limited to approved
+request/STOP; annotations remain external. Protection copies/receipts, offline
+analysis and archives are separately retained under the approved workflow.
+Actual retail session/flush/ACK/terminal and protection receipts are primary
+evidence; operator statements are separate source-reported gameplay milestones.
+The lossless archive preserves raw originals, all LOCAL-ONLY. No decoder/native
+implementation, new dependency or publication clearance is introduced.

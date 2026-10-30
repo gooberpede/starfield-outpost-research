@@ -1,5 +1,14 @@
 # Current Research State
 
+**2026-10-31 — D5X-B1 approved retail trial:**
+[The one-visit result](experiments/resource-retained-population/d5x-b1-live-report.md)
+is PARTIAL NATIVE COVERAGE: 19 authenticated ordinary paths on other source keys,
+zero proven target paths and 9,957 queue-full losses. All 19,780 admitted records
+finalize without output fault; protected postflight passes and the operator exits/
+disables. No full B1 PASS, target absence, cold winner or B2 authority follows.
+[Approval/ledger](experiments/resource-retained-population/d5x-b1-live-authorization.md)
+preserves the consumed single-attempt scope. D5R remains OPEN; publication ON HOLD.
+
 **2026-10-31 — D5X-B1 preauthorization audit:**
 [The offline audit](experiments/resource-retained-population/d5x-b1-preauthorization-audit.md)
 separates fourteen-site coverage and valid ordinary-path instrumentation from
