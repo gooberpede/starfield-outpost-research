@@ -1656,3 +1656,16 @@ Current-policy preservation/archive helpers retain their existing provenance.
 [Source ledger](experiments/resource-retained-population/d5p-r2-retail-sources.csv)
 pins exact operational methods, raw receipts, package/tool identities and the
 lossless seal. No new third-party code, dependency, contact or disclosure occurs.
+
+## D5S construction-query winner and invocation lifetime
+
+[Report](experiments/resource-retained-population/d5s-report.md),
+[causal model](experiments/resource-retained-population/d5s-query-winner-model.md),
+[input/tests](experiments/resource-retained-population/d5s-inputs-and-tests.csv)
+and [primary pins](experiments/resource-retained-population/d5s-sources.csv)
+extend D5R prospectively. Two native-feasible continuations distinguish ordinary
+surviving geometry; a separate fringe/shift witness establishes a within-invocation
+source-protection gap. [Review](experiments/resource-retained-population/d5s-review.md)
+separates scientific confidence, exact delivery and publication eligibility.
+Owned methods use the maintainer-owned exception; Bethesda raw evidence and
+installed tool/runtime binaries remain local. No save analysis was triggered.

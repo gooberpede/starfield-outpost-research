@@ -1128,3 +1128,18 @@ only the retired editorial package enters the exact conditional deletion proposa
 requires separate exact-manifest approval. No completed storage recovery or
 80% verification improvement is claimed. Earlier preservation AC4 FAIL / REWORK,
 scientific findings, save protections and publication holds remain unchanged.
+
+## D5S construction-query determinism and source ownership
+
+[D5S](experiments/resource-retained-population/d5s-report.md) answers its three
+questions at an explicit normal-arrival/gameplay scope: two native-feasible
+constructing queries can yield different surviving ordinary geometry, and the
+detached density path has a within-invocation source-retirement gap. Original
+local Int2 values and converted body-face labels are now explicitly distinguished.
+The [active ledger](experiments/resource-retained-population/d5s-investigation-ledger.md)
+preserves failed ordering, context-handle and dependency shortcuts.
+[Exact review](experiments/resource-retained-population/d5s-review.md) governs
+delivery acceptance. D5R remains a historical accepted milestone; its broader
+parent remains OPEN. D5P retail/plugin NO-GO and B6/publication ON HOLD remain.
+No retail capture, whole-population/save prediction or integration permission
+is inferred from this offline result.

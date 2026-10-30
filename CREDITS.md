@@ -1102,3 +1102,13 @@ hashing/framing/ZIP tools support the capture accounting and lossless seal.
 [Per-use evidence](docs/experiments/resource-retained-population/d5p-r2-retail-sources.csv)
 records original capture, operational methods and independent review separately.
 No new outside code or dependency is incorporated.
+
+The [D5S construction-query investigation](docs/experiments/resource-retained-population/d5s-report.md)
+uses Bethesda's pinned installed executable/data and retained local static
+exports, with Ghidra, Adoptium Java, CPython and the Microsoft host CRT as
+installed research tools. Its owned fixtures adapt the project's D5Q exporter,
+RG1 geometry/context, D4E predictor, D5H sampling/content evidence and exact
+patch exporter under SOR-P-0002. [Per-use sources](docs/experiments/resource-retained-population/d5s-sources.csv)
+retain those identities and substantive research provenance. Proprietary bytes,
+decompilation and fixture outputs remain local-only. No new third-party code,
+dependency, upstream contact or disclosure is incorporated.
