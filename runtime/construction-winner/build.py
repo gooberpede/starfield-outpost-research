@@ -7,6 +7,7 @@ command logs and raw synthetic receipts. No dependency downloads, game, saves,
 deployment, configuration, analysis-database or Git mutations. Native fixtures
 may terminate only their own disposable process in declared crash controls.
 """
+import os
 import hashlib
 import json
 from pathlib import Path
@@ -26,7 +27,7 @@ CASES = ('normal mask-zero conflicting-mask unexpected-mask descriptor-change te
          'visited map-hit skip-sample nested interrupt in-flight-loss missing-lookup missing-descriptor '
          'missing-generator missing-sample prior-unknown ready-only descriptor-collision reused-pointer '
          'reset clear destroy erase concurrent competing loss-one loss-many saturation timing stop-under-production '
-         'write-fault flush-fault ack-fault disk-fault ack-write-fault crash-before crash-after crash-sample sequence-wrap guard-mismatch').split()
+         'representative burst reserve-fail unknown-birth later-bypass write-fault flush-fault ack-fault disk-fault ack-write-fault crash-before crash-after crash-sample sequence-wrap guard-mismatch').split()
 
 
 def sha(path):
@@ -41,6 +42,8 @@ def guard():
 
 
 def main():
+    queue_capacity=int(os.environ.get("SOR_QUEUE_CAPACITY","32768"))
+    assert queue_capacity in (1024,8192,32768)
     label = sys.argv[1]
     selected_cases = sys.argv[2:] or CASES
     assert set(selected_cases) <= set(CASES)
@@ -65,7 +68,7 @@ def main():
     generated.write_text('#pragma once\ninline constexpr char emitter_expected_hash[]="' + hashlib.sha256(emitter_page).hexdigest() + '";\n', encoding='utf8', newline='\n')
     (out / 'emitter-input.bin').write_bytes(emitter_page)
     sites = [(0x79f860,7),(0x79fa90,8),(0x79fca3,9),(0x79fccb,5),(0x79feaf,5),(0x79ff18,5),(0x79b8e8,5),
-             (0x79ddf0,5),(0x79d910,5),(0x975030,8),(0x9829b0,5),(0x982b70,5),(0x79dec4,5),(0x78d6f4,5)]
+             (0x79ddf0,5),(0x79d910,5),(0x975030,8),(0x9829b0,5),(0x982b70,5),(0x79dec4,5),(0x78d6f4,5),(0x9830cd,12),(0x983177,11),(0x79ff3e,5),(0x79ff59,11)]
     header = '#pragma once\nnamespace winner {\ninline constexpr uint32_t game_version=(1u<<24)|(16u<<16)|(244u<<4);\n'
     for key, value in [('game',pe.GAME_HASH),('sfse',pe.SFSE_HASH),('esm',identity['installed'][str(pe.GAME / 'Data/Starfield.esm')]),('planet',identity['installed'][str(pe.GAME / 'Data/Starfield - PlanetData.ba2')])]:
         header += f'inline constexpr char {key}_hash[]="{value}";\n'
@@ -74,12 +77,12 @@ def main():
     for index, (rva, size) in enumerate(sites):
         window = pe.pe_read(image, rva, 32)
         digest = hashlib.sha256(window).hexdigest()
-        assert digest == identity['sites'][f'0x{rva:x}']['raw_sha256']
+        if index<14: assert digest == identity['sites'][f'0x{rva:x}']['raw_sha256']
         header += f'{{{rva},{size},"{digest}"}},\n'
-        if index in (3,4,5,6,12,13):
+        if index in (3,4,5,6,12,13,16):
             assert window[0] == 0xe8
             targets.append(rva + 5 + struct.unpack_from('<i',window,1)[0])
-    assert targets == [0x3499f0,0x78d660,0x79b520,0x2339340,0x2c45a0,0x96f5c0]
+    assert targets == [0x3499f0,0x78d660,0x79b520,0x2339340,0x2c45a0,0x96f5c0,0x22cc0d0]
     header += '};struct Target {uint64_t rva;const char* hash;};inline Target target_guards[]={\n'
     for rva in targets:
         header += f'{{{rva},"{hashlib.sha256(pe.pe_read(image,rva,32)).hexdigest()}"}},\n'
@@ -98,7 +101,7 @@ def main():
     commands = [f'call "{VC}"', 'if errorlevel 1 exit /b 1', 'where cl', 'where link', 'where ml64',
                 f'ml64 /nologo /c /Fobridges.obj "{SRC / "bridges.asm"}"',
                 f'ml64 /nologo /c /Fofixture-asm.obj "{SRC / "fixture.asm"}"',
-                f'cl /Bv /nologo /std:c++20 /EHsc /W4 /O2 /MD /I"{out}" "{SRC / "transport.cpp"}" "{SRC / "fixture.cpp"}" "{SRC / "plugin.cpp"}" bridges.obj fixture-asm.obj /LD /Fe:SorConstructionWinner.dll /link /Brepro /INCREMENTAL:NO bcrypt.lib',
+                f'cl /Bv /nologo /std:c++20 /EHsc /W4 /O2 /MD /DSOR_QUEUE_CAPACITY={queue_capacity} /I"{out}" "{SRC / "transport.cpp"}" "{SRC / "fixture.cpp"}" "{SRC / "plugin.cpp"}" bridges.obj fixture-asm.obj /LD /Fe:SorConstructionWinner.dll /link /Brepro /INCREMENTAL:NO bcrypt.lib',
                 f'cl /nologo /std:c++20 /EHsc /W4 /O2 /MD "{SRC / "host.cpp"}" /Fe:sor-d5x-fixture.exe /link /Brepro /INCREMENTAL:NO',
                 'dumpbin /DEPENDENTS SorConstructionWinner.dll']
     script = out / 'build.cmd'
@@ -116,6 +119,8 @@ def main():
             for name in ('SorConstructionWinner.dll', 'sor-d5x-fixture.exe'):
                 archive.write(out / name, name)
             archive.write(SRC / 'read_capture.py', 'read_capture.py')
+            archive.write(SRC / 'reduce_v3.py', 'reduce_v3.py')
+            archive.write(SRC / 'worker_health.py', 'worker_health.py')
             archive.write(out / 'emitter-input.bin', 'emitter-input.bin')
             archive.write(ROOT / 'runtime/exp0002/third_party/sfse/LICENSE.txt', 'SFSE-PluginAPI-MIT.txt')
             archive.write(ROOT / 'LICENSE', 'COPYING')
@@ -134,7 +139,7 @@ def main():
             return dict(case=case, **result)
         with ThreadPoolExecutor(max_workers=8) as pool:
             results = list(pool.map(qualify, selected_cases))
-    result = dict(schema='sor-d5x-disposable-build/1', authority='OFFLINE_ONLY', sfse_entry=True,
+    result = dict(schema='sor-d5x-disposable-build/1', authority='OFFLINE_ONLY', sfse_entry=True, queue_capacity=queue_capacity,
                   inputs=inputs, installed=identity['installed'], emitter_pins=emitter_pins, initial_free=free, final_free=guard(), compilation=compilation, cases=results,
                   source_unchanged=all(sha(name) == digest for name, digest in inputs.items()),
                   outputs={str(p.relative_to(out)): sha(p) for p in out.rglob('*') if p.is_file()})

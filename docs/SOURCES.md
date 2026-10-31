@@ -1,5 +1,18 @@
 # Source Register
 
+## D5AB observer remediation
+
+2026-10-31, Australia/Sydney. [Report](experiments/resource-retained-population/d5ab-report.md),
+[native map](experiments/resource-retained-population/d5ab-native-map.md) and
+[per-use pins](experiments/resource-retained-population/d5ab-sources.csv) record
+the owned D5X adaptation and D5S/Z/Y/AA evidence under SOR-P-0002. Original
+observer sources are pinned in `.local-work/d5ab/initial.json`. Existing exports and installed bytes are read locally. A further Ghidra
+read-only/no-analysis census checks source lifetime exits with database hashes
+preserved before and after; no symbols, types or comments are changed. The approved unchanged SFSE header retains its notices and
+existing D5X scope. No new third-party implementation/dependency, upstream contact
+or disclosure occurs. Synthetic/native-shaped fixtures remain distinct from B1
+and from future retail validation.
+
 ## D5AA retained B1 chronology and native transitions
 
 2026-10-31, Australia/Sydney. [Report](experiments/resource-retained-population/d5aa-report.md)

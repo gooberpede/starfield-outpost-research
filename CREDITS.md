@@ -1,5 +1,17 @@
 # Credits
 
+## D5AB observer remediation
+
+[D5AB](docs/experiments/resource-retained-population/d5ab-report.md) extends the
+maintainer-owned D5X observer, D5Z native reserve controls and current protection
+and review methods under SOR-P-0002. Bethesda's pinned native executable and
+existing local exports supply the instruction/ownership evidence. The unchanged
+approved SFSE PluginAPI header retains its MIT notices and existing D5X scope;
+no additional SFSE/CommonLib implementation is incorporated. CPython, installed
+MSVC/MASM/Windows SDK and Git are separate local tools. [Per-use provenance](docs/experiments/resource-retained-population/d5ab-sources.csv)
+and the local starting-source receipt preserve exact origins. Proprietary bytes,
+original saves, private captures and disposable binaries remain local-only.
+
 ## D5AA chronology and native causality
 
 [D5AA](docs/experiments/resource-retained-population/d5aa-report.md) uses Bethesda's

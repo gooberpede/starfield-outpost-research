@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [D5AB observer remediation and B2 readiness](CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md):
+  invoked 2026-10-31 for offline implementation, native boundary research,
+  concurrent/fault qualification and independent review. [Report](../experiments/resource-retained-population/d5ab-report.md),
+  [ledger](../experiments/resource-retained-population/d5ab-investigation-ledger.md)
+  and [review](../experiments/resource-retained-population/d5ab-review.md)
+  retain the frozen contract. B2 is NOT AUTHORIZED; no retail, deployment,
+  save modification or Git integration follows.
+
 - [D5AA resource-generation chronology](CODEX_BRIEF_SOR_RG2_D5AA_resource_generation_chronology.md):
   invoked 2026-10-31 for offline retained B1 chronology and native load/interior/
   travel-to-demand mapping. [Report](../experiments/resource-retained-population/d5aa-report.md),

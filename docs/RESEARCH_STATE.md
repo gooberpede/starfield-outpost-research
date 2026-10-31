@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-10-31 — D5AB bounded handoff, INCOMPLETE / REWORK:**
+[The active ledger](experiments/resource-retained-population/d5ab-investigation-ledger.md)
+tracks constructor/publication and consumed-token identity, actual reserve/store,
+and measured transport changes. [Report](experiments/resource-retained-population/d5ab-report.md)
+and [review](experiments/resource-retained-population/d5ab-review.md) control
+qualification. The maintainer stopped further code, native analysis and
+instrumentation and requested this checkpoint. Final review/readiness remains
+unfinished. Offline fixtures do not establish a retail winner. B1 remains
+PARTIAL, D5AA ESCALATE and D5R OPEN. [Proposed B2](experiments/resource-retained-population/run-card-d5x-b2.md)
+is NOT AUTHORIZED. No deployment, game operation, staging, commit or push occurs.
+
 **2026-10-31 — D5AA retained chronology and native travel causality:**
 [The chronology](experiments/resource-retained-population/d5aa-report.md)
 audits all 24 copied source-map decisions, nineteen ordinary sampler paths,

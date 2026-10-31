@@ -8,6 +8,7 @@ EXTERN native_normalizer:PROC
 EXTERN native_generate:PROC
 EXTERN native_sample:PROC
 EXTERN native_cold:PROC
+EXTERN native_reserve:PROC
 EXTERN fixture_bridge_check:PROC
 seed MACRO
  mov rax,0101010101010101h
@@ -65,12 +66,17 @@ fixture_provider PROC FRAME
  mov [rax+8],rcx
  push rsi
  .pushreg rsi
+ push rdi
+ .pushreg rdi
+ push r12
+ .pushreg r12
  push r13
  .pushreg r13
  sub rsp,3d8h
  .allocstack 3d8h
  .endprolog
  mov r13,rcx
+ lea r12,[rcx+48h]
  mov rsi,r9
 next_source:
  call fixture_cursor
@@ -88,6 +94,15 @@ at_selected::
  je finish
  mov rdx,[rsp+38h]
  seed
+ ; The bad-source control tests observer refusal, not an engine dereference.
+ cmp rdx,10000h
+ jb substituted_token
+ mov rdi,[rdx+68h]
+ jmp token_ready
+substituted_token:
+ xor edi,edi
+token_ready:
+ seed
 PUBLIC at_visited
 at_visited::
  test sil,sil
@@ -96,6 +111,13 @@ at_visited::
  mov rcx,rsp
  mov rdx,r13
  call fixture_driver
+ cmp eax,-1
+ je next_source
+PUBLIC at_stored
+at_stored::
+ mov ecx,eax
+ mov rax,[r12+8]
+ mov [rax+rcx*8],rdi
  jmp next_source
 bypass_check:
  capture 1
@@ -103,6 +125,8 @@ finish:
  mov eax,12345h
  add rsp,3d8h
  pop r13
+ pop r12
+ pop rdi
  pop rsi
  ret
 fixture_provider ENDP
@@ -123,6 +147,7 @@ stub invoke_descriptor,at_descriptor,native_descriptor
 stub invoke_normalizer,at_normalizer,native_normalizer
 stub invoke_sample,at_sample,native_sample
 stub invoke_cold,at_cold,native_cold
+stub invoke_reserve,at_reserve,native_reserve
 invoke_generate PROC FRAME
  sub rsp,38h
  .allocstack 38h
@@ -177,4 +202,34 @@ fixture_erase PROC FRAME
 fixture_erase ENDP
 fence fixture_clear
 fence fixture_retire
+fixture_birth PROC FRAME
+ push rdi
+ .pushreg rdi
+ push r12
+ .pushreg r12
+ push r14
+ .pushreg r14
+ sub rsp,0b0h
+ .allocstack 0b0h
+ .endprolog
+ mov r14,rcx
+ lea r12,[rdx+10h]
+ mov rdi,r8
+PUBLIC at_birth
+at_birth::
+ lea rcx,[r14+70h]
+ lea rdx,[rsp+90h]
+ ; Fixture publication has one preallocated cell. EAX is the native index.
+ xor eax,eax
+PUBLIC at_published
+at_published::
+ mov ecx,eax
+ mov rax,[r12+8]
+ mov [rax+rcx*8],r14
+ add rsp,0b0h
+ pop r14
+ pop r12
+ pop rdi
+ ret
+fixture_birth ENDP
 END

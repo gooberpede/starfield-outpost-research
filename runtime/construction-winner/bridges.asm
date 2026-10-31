@@ -1,9 +1,15 @@
 ; SPDX-License-Identifier: GPL-3.0-or-later
-; Adapted from owned R1 visited bridge. Upper YMM lanes are not live at these
-; two checked sites. Later miss allocation uses YMM0 then VZEROUPPER before the
+; Adapted from owned R1 visited bridge. Upper YMM lanes are not live at the
+; checked provider and constructor sites. Later miss allocation uses YMM0 then VZEROUPPER before the
 ; next selected-source iteration. General vector/unwind compatibility is unproven.
 EXTERN visited_capture:PROC
 EXTERN selected_capture:PROC
+EXTERN birth_capture:PROC
+EXTERN published_capture:PROC
+EXTERN stored_capture:PROC
+EXTERN birth_fall:QWORD
+EXTERN published_fall:QWORD
+EXTERN stored_fall:QWORD
 EXTERN visited_fall:QWORD
 EXTERN visited_taken:QWORD
 EXTERN selected_fall:QWORD
@@ -58,6 +64,7 @@ visited_bridge PROC
  lea rcx,[rsp+192]
  mov rdx,r13
  mov r8,rsi
+ mov r9,rdi
  call visited_capture
  restore
  test sil,sil
@@ -66,4 +73,41 @@ visited_bridge PROC
 taken:
  jmp QWORD PTR [visited_taken]
 visited_bridge ENDP
+birth_bridge PROC
+ save
+ mov rcx,r14
+ lea rdx,[r12-10h]
+ mov r8,rdi
+ call birth_capture
+ restore
+ lea rcx,[r14+70h]
+ lea rdx,[rsp+90h]
+ jmp QWORD PTR [birth_fall]
+birth_bridge ENDP
+published_bridge PROC
+ mov ecx,eax
+ mov rax,[r12+8]
+ mov [rax+rcx*8],r14
+ save
+ mov r9,rcx
+ lea r8,[rax+rcx*8]
+ mov rcx,r14
+ lea rdx,[r12-10h]
+ call published_capture
+ restore
+ jmp QWORD PTR [published_fall]
+published_bridge ENDP
+stored_bridge PROC
+ mov ecx,eax
+ mov rax,[r12+8]
+ mov [rax+rcx*8],rdi
+ save
+ mov r9,rdi
+ lea r8,[rax+rcx*8]
+ mov rdx,r13
+ lea rcx,[rsp+192]
+ call stored_capture
+ restore
+ jmp QWORD PTR [stored_fall]
+stored_bridge ENDP
 END

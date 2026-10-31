@@ -14,7 +14,7 @@ import struct
 import zlib
 
 NAMES = 'sequence kind invocation parent thread ticks epoch hazards status proc source frame holder a b c d selection'.split()
-KINDS = 'unused entry selected visited lookup descriptor generating sample generated returned fence_begin fence_end cold ready'.split()
+KINDS = 'unused entry selected visited lookup descriptor generating sample generated returned fence_begin fence_end cold ready birth published reserve stored'.split()
 SIZE = 312
 TARGET = '0:37536:20928:0029d20e'
 
@@ -159,10 +159,12 @@ def inspect(folder, dll_sha256):
     folder = Path(folder)
     identity_bytes = (folder / 'identity.json').read_bytes()
     identity = json.loads(identity_bytes)
-    assert identity['schema'] == 'sor-d5x/2' and identity['dll_sha256'] == dll_sha256
-    assert len(identity['nonce']) == 64 and len(identity['sites']) == 14
+    assert identity['schema'] in ('sor-d5x/2','sor-d5x/3') and identity['dll_sha256'] == dll_sha256
+    version3=identity['schema']=='sor-d5x/3'
+    hooks=18 if version3 else 14
+    assert len(identity['nonce']) == 64 and len(identity['sites']) == hooks
     assert all(ch in '0123456789abcdef' for ch in identity['nonce'])
-    assert [site['index'] for site in identity['sites']] == list(range(14))
+    assert [site['index'] for site in identity['sites']] == list(range(hooks))
     origin=identity.get('sequence_origin',0)
     assert isinstance(origin,int) and 0<=origin<2**63
     assert not identity['retail'] or origin==0
@@ -188,12 +190,14 @@ def inspect(folder, dll_sha256):
         if magic != 0x31505253 or size != SIZE or sequence != (expected & 0xffffffff) or event['sequence'] != expected or zlib.crc32(payload) != crc:
             damage.append('FRAME_INTEGRITY_OR_SEQUENCE')
             break
-        if event['kind'] not in range(1, 14):
+        if event['kind'] not in range(1, 18 if version3 else 14):
             damage.append('UNKNOWN_KIND')
             break
         events.append(event)
         valid_bytes = offset + len(frame)
     durable = 0
+    loss_first=loss_last=0
+    uncertain_loss_bounds=False
     id_hash = hashlib.sha256(identity_bytes).hexdigest()
     for line in acknowledgments.splitlines(keepends=True):
         if not line.endswith(b'\n'):
@@ -208,13 +212,27 @@ def inspect(folder, dll_sha256):
             if terminal and ack['records'] > terminal['acknowledged']:
                 continue
             durable = max(durable, ack['records'])
+            uncertain_loss_bounds|=ack.get('loss_bounds_uncertain',False)
+            first=ack.get('first_loss_sampled_admission',0)
+            if first:loss_first=min(loss_first or first,first)
+            loss_last=max(loss_last,ack.get('last_loss_sampled_admission',0))
         except (ValueError, AssertionError, KeyError):
             damage.append('ACK_INTEGRITY_OR_PREFIX')
             break
     if ready:
-        assert ready['nonce'] == identity['nonce'] and ready['dll_sha256'] == dll_sha256 and ready['hooks'] == 14 and ready['ready'] is True
-    result = reduce(events[:durable])
-    result.update(schema='sor-d5x-reduction/1', retail=identity['retail'], ready_installed=bool(ready),
+        assert ready['nonce'] == identity['nonce'] and ready['dll_sha256'] == dll_sha256 and ready['hooks'] == hooks and ready['ready'] is True
+    if version3:
+        import importlib.util
+        spec=importlib.util.spec_from_file_location('sor_reduce_v3',Path(__file__).with_name('reduce_v3.py'))
+        reducer=importlib.util.module_from_spec(spec);spec.loader.exec_module(reducer)
+        first_loss=terminal.get('first_loss_sampled_admission',loss_first) if terminal else loss_first
+        last_loss=terminal.get('last_loss_sampled_admission',loss_last) if terminal else loss_last
+        if uncertain_loss_bounds or (terminal and terminal.get('loss_bounds_uncertain',False)):
+            first_loss,last_loss=1,2**64-1
+        result=reducer.reduce(events[:durable],reduce,source_key,first_loss,last_loss)
+    else:
+        result = reduce(events[:durable])
+    result.update(schema='sor-d5x-reduction/2' if version3 else 'sor-d5x-reduction/1', retail=identity['retail'], ready_installed=bool(ready),
                   durable_records=durable, parsed_records=len(events), raw_bytes=len(raw), damage=damage,
                   terminal_success=bool(terminal and not terminal['failed']),
                   complete_session=bool(terminal and not terminal['failed'] and not damage and

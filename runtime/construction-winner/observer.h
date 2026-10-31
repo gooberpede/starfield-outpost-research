@@ -10,7 +10,7 @@ namespace winner {
 using U=uint64_t;
 using Four=U(*)(U,U,U,U);
 using Generate=void(*)(U,U,U,uint32_t,U,U);
-enum Kind:U {Entry=1,Selected,Visited,Lookup,Descriptor,Generating,Sample,Generated,Returned,FenceBegin,FenceEnd,Cold,Ready};
+enum Kind:U {Entry=1,Selected,Visited,Lookup,Descriptor,Generating,Sample,Generated,Returned,FenceBegin,FenceEnd,Cold,Ready,Birth,Published,Reserve,Stored};
 enum Status:U {ReadFailure=1,NoInvocation=2,ContextMismatch=4,LifetimeInvalid=8,Exception=16,MapOperandsUnavailable=32};
 // All addresses are runtime VAs. request contains the original signed Int2.
 struct Event {
@@ -21,16 +21,22 @@ struct Event {
  uint32_t reserved{};
 };
 static_assert(sizeof(Event)==312);
-constexpr U capacity=1024;
+#ifndef SOR_QUEUE_CAPACITY
+#define SOR_QUEUE_CAPACITY 32768
+#endif
+constexpr U capacity=SOR_QUEUE_CAPACITY;
+static_assert(capacity>=2 && (capacity&(capacity-1))==0);
 struct Cell {Event event{};std::atomic<U> ticket{};};
 inline Cell queue[capacity];
-inline std::atomic<U> enqueue{},dequeue{},epoch{1},hazards{},tokens{},active{},drops{},full_losses{},contention_losses{},retries{},high_water{},first_loss{},last_loss{},loss_generation{};
-inline std::atomic<bool> enabled{},broken{},counter_overflow{};
+inline std::atomic<U> enqueue{},dequeue{},epoch{1},hazards{},tokens{},active{},drops{},full_losses{},contention_losses{},reentrant_losses{},retries{},high_water{},first_loss{},last_loss{},loss_generation{};
+inline std::atomic<bool> enabled{},broken{},counter_overflow{},loss_bounds_uncertain{};
 // Set only by the host-checked disposable entry. Never for retail acquisition.
 inline thread_local unsigned fixture_retry_failures{};
+inline thread_local bool fixture_bounds_failure{},recorder_busy{};
+inline thread_local HANDLE fixture_reserved{},fixture_publish{};
 inline U base{};
 struct PreserveError {DWORD value=GetLastError();~PreserveError(){SetLastError(value);}};
-inline Four provider_original{},lookup_original{},descriptor_original{},normalizer_original{},sample_original{},cold_original{},fences[5]{};
+inline Four provider_original{},lookup_original{},descriptor_original{},normalizer_original{},sample_original{},cold_original{},reserve_original{},fences[5]{};
 inline Generate generate_original{};
 inline bool read(U p,void* out,size_t n) noexcept {
  PreserveError preserve;
@@ -40,15 +46,22 @@ template<class T> bool field(U p,T& out) noexcept {return read(p,&out,sizeof out
 inline void increment(std::atomic<U>& n) noexcept {if(n.fetch_add(1)==UINT64_MAX){counter_overflow=true;broken=true;enabled=false;}}
 inline U token() noexcept {U n=tokens.fetch_add(1);if(n==UINT64_MAX){counter_overflow=true;broken=true;enabled=false;return 0;}return n+1;}
 inline void initialize_queue(U origin=0){enqueue=origin;dequeue=origin;for(U i=0;i<capacity;++i)queue[(origin+i)%capacity].ticket=origin+i;}
-inline void lose(bool full) noexcept {
- increment(drops);increment(full?full_losses:contention_losses);increment(loss_generation);increment(epoch);
- U boundary=enqueue.load()+1,zero=0;first_loss.compare_exchange_strong(zero,boundary);last_loss=boundary;
+inline void lose(bool full,bool recursive=false) noexcept {
+ increment(drops);increment(recursive?reentrant_losses:full?full_losses:contention_losses);increment(loss_generation);increment(epoch);
+ U boundary=enqueue.load()+1,first=first_loss.load(),last=last_loss.load();
+ bool first_done=false,last_done=false;
+ for(unsigned i=0;i<32&&!fixture_bounds_failure;++i){if(first&&first<=boundary){first_done=true;break;}if(first_loss.compare_exchange_strong(first,boundary)){first_done=true;break;}}
+ for(unsigned i=0;i<32&&!fixture_bounds_failure;++i){if(last>=boundary){last_done=true;break;}if(last_loss.compare_exchange_strong(last,boundary)){last_done=true;break;}}
+ if(!first_done||!last_done)loss_bounds_uncertain=true;
+
 }
 inline bool emit(Event e) noexcept {
  PreserveError preserve;
  // Include orphan/diagnostic producers in STOP's publication handshake.
  struct Producer {Producer(){++active;}~Producer(){--active;}} producer;
  if(!enabled)return false;
+ if(recorder_busy){lose(false,true);return false;}
+ recorder_busy=true;struct ResetRecording {~ResetRecording(){recorder_busy=false;}} reset_recording;
  if(fixture_retry_failures){--fixture_retry_failures;for(unsigned i=0;i<32;++i)increment(retries);lose(false);return false;}
  e.thread=GetCurrentThreadId();LARGE_INTEGER t{};QueryPerformanceCounter(&t);e.ticks=U(t.QuadPart);
  U n=enqueue.load();
@@ -58,6 +71,7 @@ inline bool emit(Event e) noexcept {
   if(difference>0){increment(retries);n=enqueue.load();continue;}
   if(difference<0){lose(true);return false;}
   if(enqueue.compare_exchange_weak(n,n+1)){
+   if(fixture_reserved){SetEvent(fixture_reserved);WaitForSingleObject(fixture_publish,INFINITE);}
    e.sequence=n+1;cell.event=e;cell.ticket.store(n+1,std::memory_order_release);
    U used=n+1-dequeue.load(),peak=high_water.load();if(used<=capacity&&used>peak)high_water.compare_exchange_strong(peak,used);
    return true;
@@ -80,7 +94,7 @@ struct Active {Active(){++active;}~Active(){--active;}};
 inline U provider_hook(U proc,U query,U holder,U extra){
  if(!enabled)return provider_original(proc,query,holder,extra);
  Active activity;Scope scope{};scope.previous=current;scope.e.invocation=token();scope.e.parent=current?current->e.invocation:0;
- scope.e.proc=proc;scope.e.holder=holder;scope.e.epoch=epoch;scope.e.hazards=hazards;
+ scope.e.proc=proc;scope.e.holder=holder;scope.e.epoch=epoch;scope.e.hazards=hazards;scope.e.c=loss_generation;
  if(!read(query,scope.e.request,8))scope.e.status|=ReadFailure;
  scope.original=scope.e;
  current=&scope;auto e=event(Entry);e.a=query;emit(e);
@@ -94,8 +108,37 @@ inline void selected_capture(U frame,U proc,U source) noexcept {
  // The pointer has just been selected by native code; do not dereference it here.
  if(current){current->e=e;current->e.kind=0;}emit(e);
 }
-inline void visited_capture(U frame,U proc,U visited) noexcept {
- if(!enabled)return;auto e=event(Visited);e.a=visited&255;
+inline void visited_capture(U frame,U proc,U visited,U consumed_token) noexcept {
+ if(!enabled)return;auto e=event(Visited);e.a=visited&255;e.b=consumed_token;e.c=loss_generation;
+ if(e.frame!=frame||e.proc!=proc)e.status|=ContextMismatch;
+ if(!stable(e))e.status|=LifetimeInvalid;emit(e);
+}
+// Constructor-private source: this bounded read precedes publication. No lookup
+// of source memory is performed at a later selection or visited decision.
+inline void birth_capture(U source,U grid,U consumed_token) noexcept {
+ if(!enabled)return;Event e{};e.kind=Birth;e.source=source;e.holder=grid;
+ e.selection=token();e.a=consumed_token;e.d=loss_generation;e.epoch=epoch;e.hazards=hazards;
+ if(!read(source,e.source_bytes,sizeof e.source_bytes))e.status|=ReadFailure;
+ emit(e);
+}
+inline void published_capture(U source,U grid,U destination,U index) noexcept {
+ if(!enabled)return;Event e{};e.kind=Published;e.source=source;e.holder=grid;
+ e.a=destination;e.b=index;e.epoch=epoch;e.hazards=hazards;emit(e);
+}
+inline U reserve_hook(U a,U b,U c,U d){
+ if(!enabled)return reserve_original(a,b,c,d);
+ Active activity;auto e=event(Reserve);U before{};
+ if(a!=e.proc+0x48)e.status|=ContextMismatch;
+ if(!field(a,before))e.status|=ReadFailure;
+ U result{};try{result=reserve_original(a,b,c,d);}catch(...){e.status|=Exception;emit(e);throw;}
+ PreserveError preserve;
+ if(d!=8||c!=uint32_t(before>>32))e.status|=ContextMismatch;
+ e.a=uint32_t(result);e.b=before;
+ if(!field(a,e.c)||!field(a+8,e.d))e.status|=ReadFailure;
+ if(!stable(e))e.status|=LifetimeInvalid;emit(e);return result;
+}
+inline void stored_capture(U frame,U proc,U destination,U consumed_token) noexcept {
+ if(!enabled)return;auto e=event(Stored);e.a=destination;e.b=consumed_token;e.c=loss_generation;
  if(e.frame!=frame||e.proc!=proc)e.status|=ContextMismatch;
  if(!stable(e))e.status|=LifetimeInvalid;emit(e);
 }
@@ -149,7 +192,7 @@ template<unsigned N> U fence_hook(U a,U b,U c,U d){
  return fences[N](a,b,c,d);
 }
 inline U cold_hook(U a,U b,U c,U d){
- if(enabled){Event e{};e.kind=Cold;e.proc=a-0x40;e.epoch=epoch;e.hazards=hazards;
+ if(enabled){Event e{};e.kind=Cold;e.proc=a-0x40;e.epoch=epoch;e.hazards=hazards;e.c=loss_generation;
   // Exact checked native site follows both clears while exclusive ownership holds.
   // Record the direct visited fields; map emptiness follows the pinned reset CFG.
   if(reset_depth!=1||hazards.load()!=1)e.status|=LifetimeInvalid;

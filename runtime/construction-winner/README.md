@@ -1,66 +1,69 @@
-# D5X construction-winner observer
+# Construction-winner observer: D5AB candidate
 
-Offline research candidate, version 0.2.0, schema `sor-d5x/2`.
-[Report](../../docs/experiments/resource-retained-population/d5x-report.md),
-[architecture](../../docs/experiments/resource-retained-population/d5x-architecture.md)
-and [schema/boundary diagram](../../docs/experiments/resource-retained-population/d5x-schema.md)
-govern its scientific contract. **No retail operation is authorized.**
+Offline candidate 0.3.0, schema `sor-d5x/3`. [D5AB report](../../docs/experiments/resource-retained-population/d5ab-report.md),
+[native map](../../docs/experiments/resource-retained-population/d5ab-native-map.md)
+and [schema delta](../../docs/experiments/resource-retained-population/d5ab-architecture-schema.md)
+govern qualification. **No retail operation or deployment is authorized.**
+Historical D5X 0.2.0/schema 2 and B1 receipts remain preserved. The reader keeps
+schema 2's original interpretation; B1 does not acquire an append observation.
 
-Build and run the integrated disposable Windows qualification with installed
-CPython, MSVC, MASM and Windows SDK:
+Build and exercise only disposable Windows hosts with installed CPython,
+MSVC/MASM and Windows SDK:
 
 ```powershell
-& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B runtime/construction-winner/build.py reproduction01
-& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5x_qualify.py .local-work/d5x/reproduction01 .local-work/d5x/reproduction01-checks
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B runtime/construction-winner/build.py NEW-LABEL
 ```
 
-Both output names must be fresh. `build.py` reads pinned installed EXE/data/SFSE,
-the authorized unmodified SFSE interface header and owned sources. It writes only
-its exclusive ignored directory: source snapshots, generated guards, proprietary
-emitter excerpts, compiler commands/logs, DLL/host/packages and synthetic raw
-receipts. Optional case names after the build label select a **development subset**;
-they do not satisfy the mandatory full suite. The test host never launches,
-attaches to or terminates Starfield. Three crash controls intentionally terminate
-only their own disposable process. Sole-thread and fixture wait bounds are
-engineering test limits, not retail scientific cutoffs.
+Use a fresh lowercase/digit/hyphen label. Optional case names select a development
+subset and do not qualify the full contract. `SOR_QUEUE_CAPACITY` may explicitly
+select 1024, 8192 or 32768; the default is 32768. Builds read pinned installed
+EXE/data/SFSE, the approved unchanged SFSE PluginAPI header and owned source.
+They write only exclusive `.local-work/d5x/LABEL` outputs, source snapshots,
+guards, compiler logs, disposable binaries/packages and synthetic receipts.
+The host never launches, attaches to or terminates Starfield. Declared crash
+controls terminate only their own host. A bad-source observer control substitutes
+a consumed operand instead of intentionally dereferencing invalid native memory.
 
-The native host loads the actual packaged SFSE DLL, checks null/wrong-runtime/
-wrong-host refusal, installs the exact production hook code at native-shaped
-sites, verifies fresh READY/challenge ACK, induces events, stops/finalizes and
-leaves evidence for the independently implemented Python reader. Original native
-fill/edge/corner/append instructions execute in an isolated RX page with one
-preallocated chunk. Native source selection is observed; allocation, ProcGen map,
-locks, reset, manager context and sampler data are deliberately supplied fixtures,
-not an entire emulated game. No downloaded implementation is used.
+Qualify the exact completed build and separately measured queue with:
 
-`d5x_qualify.py` verifies original build/package hashes and native oracles, then
-creates separately labelled damaged and semantic adversarial derivatives. It
-never repairs originals. `read_capture.py SESSION --dll-sha256 HASH --out NEW`
-authenticates durable prefixes and reduces causal chains offline. It does not
-grant live admission or prove native absence from missing records.
+```powershell
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5ab_qualify.py .local-work/d5x/BUILD .local-work/d5ab/NEW-CONTROLS
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5ab_queue.py .local-work/d5ab/NEW-QUEUE 8000
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B runtime/construction-winner/worker_health.py --qualify .local-work/d5ab/NEW-WORKER
+```
 
-The DLL uses fourteen narrow sites, 312-byte records and a 1,024-cell queue.
-There are no source-Grid membership scans or geometry arrays. Ordinary capacity/
-retry losses preserve acquisition and invalidate affected continuity; a new cold
-certificate is needed for a later first-construction claim. Worker I/O checks
-both 40,000,000,000-byte disk floors. Output failures stop capture honestly.
-STOP leaves resident wrappers calling their originals; no hot unload is supported.
-General asynchronous unwinding through emitted trampolines is unqualified.
+The queue driver compiles the production queue at all three capacities, retains
+its generated source and runs independent offered-ID/count/sequence oracles.
+The 8000 argument gives four producers and a 32,000-record held-consumer burst;
+3000 gives the earlier 12,000-record control. These are constructed workloads,
+not a universal retail throughput guarantee. The native representative case
+also emits all seventeen categories through actual observer callbacks under an
+injected three-second raw-flush pause, with honest overload/fault controls.
 
-Transport, patch admission and SFSE startup are adaptations of this project's
-maintainer-owned `runtime/retained-population/` R1 methods, with owned
-`runtime/exp0002/` hashing/file helpers. The sibling
-`starfield-reference-handles/plugin/reference-observer/src/` implementation was
-consulted for context; no CommonLibSF or sibling dependency is incorporated.
-Exact origin hashes and native/source references are in the D5X source ledger.
-The same pinned SFSE `PluginAPI.h` has explicit D5X MIT-use approval in
-[PERMISSIONS](../../docs/PERMISSIONS.md#d5x-pinned-sfse-header-extension--2026-10-30).
-Existing copyright, permission and disclaimer notices accompany local packages.
+The reader authenticates framed raw/ACK prefixes and reduces only qualified
+source/request/epoch chains. Constructors and actual source publication provide
+allocation witnesses. Visited records carry an already consumed token without
+following the selected pointer. Reserve result and actual store are separate.
+There are eighteen guarded sites, fixed 312-byte records and no Grid membership
+scan, geometry-array capture or target filtering. STOP leaves resident wrappers
+forwarding originals; hot unloading/unpatching is unsupported. General asynchronous
+unwinding through generated trampolines remains unqualified.
 
-Packages and generated/native/raw evidence are **LOCAL-ONLY**. Proprietary native
-emitter excerpts are a separately hashed fixture input in the disposable package,
-excluded from the proposed retail DLL/package. Private packaging does not clear
-redistribution. Authored source remains
-GPL-3.0-or-later with third-party material governed separately. Nothing here
-installs through Vortex, changes configuration, loads a save, stages, commits,
-pushes or publishes. B1 and B2 require separate explicit approvals and reviews.
+`worker_health.py --watch` is a future live control operation, **NOT AUTHORIZED**
+by this task. It binds READY's worker TID/creation time to a retained query/
+synchronization handle and detects actual exit without a deadline. It does not
+attach a debugger, pause, inject, modify, terminate or send STOP. A separately
+approved B2 controller must keep its watcher process handle and verify fresh ACK
+identity using the published tuple; watcher failure makes health unknown.
+
+The owned D5X/R1 transport, patch admission, existing native/export controls and
+protection methods are reused under SOR-P-0002 with [provenance](../../docs/experiments/resource-retained-population/d5ab-sources.csv).
+The existing D5X approval covers the same unchanged pinned SFSE PluginAPI header;
+its MIT notices remain in local packages. No additional SFSE/CommonLib or outside
+implementation is incorporated. All authored code is GPL-3.0-or-later.
+
+Disposable native bytes, captures, saves, DLLs, generated guards and packages are
+LOCAL-ONLY. The fixture emitter excerpt is excluded from retail ZIPs. Private
+packaging grants no redistribution, installation, live, Git or publication
+permission. B1 remains PARTIAL, D5AA ESCALATE and parent D5R OPEN. The proposed
+B2 card requires a distinct explicit maintainer GO after independent review.

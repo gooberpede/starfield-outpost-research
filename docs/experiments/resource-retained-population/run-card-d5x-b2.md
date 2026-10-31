@@ -1,83 +1,154 @@
-# D5X-B2 first-construction acquisition — NOT AUTHORIZED
+# D5AB proposed B2 run card - NOT AUTHORIZED
 
-2026-10-30, Australia/Sydney. Separate future approval is required after an
-independently reviewed B1 result. [B1](run-card-d5x-b1.md) authorizes nothing
-by itself; neither disposable green tests nor a main-menu READY supplies a GO.
+**Unfinished working plan; B2 is NO-GO.** The [bounded handoff](d5ab-report.md)
+leaves native lifetime proof, worker/controller integration and final identity-bound
+review incomplete. This card must not be executed or treated as accepted readiness.
 
-## Frozen scientific purpose and admission
+2026-10-31, Australia/Sydney. This replaces the earlier prospective B2 plan,
+without changing historical [B1](d5x-b1-live-report.md) or its consumed approval.
+[Original D5AB contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md),
+[readiness report](d5ab-report.md), [native map](d5ab-native-map.md) and
+[schema](d5ab-architecture-schema.md) govern the proposed candidate.
+**Every live action below is NOT AUTHORIZED.** Offline review grants no retail GO.
 
-Observe the first qualifying constructing miss and direct ordinary mask for
-Feynman V Cu IL F / second Feynman V: analytical source
-`0:37536:20928:0029d20e`, body FormID `0x0005e0de`. Both Mask 0 and Mask 3
-are acceptable. Prior visual correspondence must not select a query or outcome.
-The result concerns one qualified cold episode, not preference or frequency.
+## Exact one-process episode and ownership
 
-Approval must bind the exact final compatibility manifest/DLL/package, reader,
-card, freshly checked loader and installed EXE/ESM/PlanetData/SFSE pins from B1.
-If B1 required any code/package correction, repeat its affected validation and
-review before B2. No installation, launch or save load is approved here.
+The proposed stimulus is one future retail process, one load of protected
+**Save52 at the Lodge**, then **one direct fast-travel to Feynman V Cu IL F**.
+The scientific target is source `0:37536:20928:0029d20e`, body FormID
+`0x0005e0de`. The source key is not a menu destination or a runtime pointer.
+The operator owns installation, enablement, launch, save load, direct travel,
+normal exit and disablement. Codex would only perform separately authorized
+checks, checkpoint receipts and exact session request/STOP file writes.
+No process launch, attachment, termination, resave, artificial reset, forced
+construction, additional travel or retry is included.
 
-Carry forward B1's exact operator/Codex ownership, full offline protected-save,
-backup/restoration, remote-save, content/configuration checks, fresh Cloud/profile
-confirmation, both **40,000,000,000-byte caller-available disk floors**, effective
-DLL/conflict checks, fresh retail PID/creation/startup identity, fourteen site and
-target/relay guards, READY and fresh challenge ACK before Save52. Unknown saves
-fail closed; correctly classified active autosave/exitsave and Cloud metadata
-changes remain diagnostic. Do not use a historical operator confirmation.
+The exact save basename is
+`Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs`,
+16,411,136 bytes, SHA-256
+`6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8`.
+Identify its menu label offline from protected mapping, never a guessed menu
+ordinal. Confirm the Lodge starting location against that mapping and operator
+knowledge before a separate GO. The future approval must bind the final DLL,
+retail ZIP, reader/reducer, native-site receipt, operational tools, card and
+complete reviewed qualification manifest. Pending review or a mismatch is NO-GO.
 
-## Exact episode proposal requiring approval
+## Preflight and deployment - NOT AUTHORIZED
 
-1. Maintainer installs/enables through Vortex, launches once using the pinned
-   `sfse_loader.exe` and stays at the main menu. Codex verifies the fresh
-   identity/READY/ACK and phase-aware health as in B1. No scientific claim follows.
-2. Only after separate approval expressly names the exact protected Save52
-   from B1 may the maintainer load it and make one ordinary trip to second
-   Feynman V. Record external load-complete, travel-start and first-arrival
-   checkpoints. No resave, configuration change, forced generation, artificial
-   cache clearing or automatic retry is included. The prospective approval must
-   specify the actual ordinary travel destination and route with the operator;
-   the analytical source key alone is not a navigable gameplay destination.
-3. The evidence must independently establish a protected native cold anchor for
-   the actual ProcGen and unchanged epoch: observed broad reset, map and visited
-   clear under exclusive protection before release, normal reset closeout, then
-   original request/selected source/unvisited decision/first pointer-map miss,
-   actual descriptor/generator/direct sample. Save52 loading alone is insufficient.
-   Account for every earlier observed miss, loss, overlap, retirement or reused
-   pointer. If the cold certificate is absent, the episode is unqualified even
-   when a later sample is authentic. Preserve the weaker result and do not retry.
-4. The predetermined operator endpoint is **first ordinary arrival followed by
-   one fresh health ACK and operator STOP**. No outcome-dependent repetition,
-   waiting for a desired mask, quota or automatic time limit is allowed. No later
-   cache-hit continuity, complete population, extractor action or frequency
-   estimate is required. Codex records lightweight health/checkpoints during play;
-   full save audits and raw reduction remain offline.
-5. Maintainer exits normally and alone disables/removes through Vortex. Codex
-   verifies original PID gone, effective deployed-DLL absence, staging status,
-   disk floors, exact protected-save/backup/content/configuration equality and
-   current Cloud status where applicable. Preserve and authenticate all prefixes,
-   losses, failures and tails; seal/stream-verify a lossless local archive while
-   retaining originals. Independent review decides scientific qualification.
+Before any future launch, repeat full offline protection with the reviewed
+`runtime/retained-population/protect.py` and a fresh `d5ab-b2-preflight-UNIQUE`
+label. Apply [current save policy](../../SAVE_PROTECTION.md): exact protected
+research/manual/quick saves, independent backups, protected remote saves,
+configuration, definitions, scientific archives and a verified Save52 restoration
+COPY. Never overwrite an original. Unknown saves fail closed. Reliably classified
+active autosave/exitsave changes and Cloud metadata remain diagnostic.
+D5AB's completed offline rehearsal is evidence about its audit, not a reusable
+future launch receipt or evidence that Cloud will remain disabled.
 
-If the ordinary trip cannot supply a demonstrably cold episode, record the exact
-missing condition. A later proposal for a different natural arrival/new process
-needs separate authorization; no forced reset, new save series or statistical
-programme follows automatically. Repeated visits to retained geometry are not
-independent construction trials.
+Record fresh operator confirmation of disabled Steam Cloud where applicable,
+Vortex profile `Starfield - SFSE`, exact save/destination, and no prior attempt.
+Operator deployment would follow separate GO only. Verify the effective
+`Data/SFSE/Plugins/SorConstructionWinner.dll` against the reviewed binary;
+record staging paths and absence of competing SOR observers. Verify actual
+EXE/ESM/PlanetData/SFSE/loader hashes, all eighteen sites, seven CALL targets,
+relay guards and both **40,000,000,000 caller-available byte floors on C: and D:**.
+An unavailable disk query fails closed. Do not replace a pin after a mismatch.
 
-## Incidents and outcome dimensions
+## Main menu and capture arming - NOT AUTHORIZED
 
-Use B1's STOP and recovery rules: operator STOP or actual disk/identity/guard,
-worker/output or protected-input failure supersedes capture. No Codex process
-termination, exception suppression, hot unpatch/unload, original-save write,
-restoration, plugin installation or removal. Slow operator response or routine
-late polling alone does not end a healthy run. Disclose debugger-free in-process
-hooks as instrumentation that changes timing and can fail.
+After separate GO, operator launches exactly once through the reviewed SFSE
+loader and remains at the main menu. Select only a newly created
+`.local-work/d5x/live/session-*` directory, excluding every preflight session.
+Verify actual retail PID, creation FILETIME, image path, module base, startup
+nonce, DLL/game/SFSE identities and schema `sor-d5x/3`. A fixture identity,
+restarted process, stale session or schema 2 receipt cannot pass admission.
+Require matching READY with eighteen hooks and no worker/output/guard failure.
+The observer must be armed **before Save52 is loaded**.
 
-After a crash, preserve durable evidence without relaunching. A complete causal
-prefix through the direct sample may answer this bounded question even without
-provider return; target survival, evidence integrity, scientific result, retail
-integration readiness and publication eligibility are reported separately.
-Unexpected corruption beyond the declared crash boundary requires a maintainer
-decision. B6/publication remains ON HOLD regardless of the mask observed.
+Use the D5X-specific protocol already exercised by the disposable host and
+[B1](run-card-d5x-b1.md#exact-future-controller-and-checkpoint-boundary). The 070/080 adapters
+in [session-tools](../../../runtime/session-tools/README.md) are incompatible;
+never invent an adapter identifier. Follow their phase separation: full checks
+offline, small identity/challenge/health checks in play, full postflight after exit.
 
-This card and all actions within it remain **NOT AUTHORIZED**.
+For each challenge, generate a new 32-character lowercase hexadecimal nonce.
+Write exactly those 32 ASCII bytes, without newline, to a new sibling pending
+file, flush and close, then atomically replace `request.txt`. Read only the
+completed `ack-NONCE.json`. Require that nonce, unchanged startup identity,
+`hooks_intact`, `capture_active`, no worker/output failure and an authenticated
+flushed prefix. Record loss generation, per-cause drops, acknowledged count and
+worker timing. A challenge does not prove scientific coldness. A slow response
+or missed poll is not itself failure; investigate and continue when safe.
+
+## Load, travel, arrival and STOP - NOT AUTHORIZED
+
+1. With successful main-menu READY/fresh ACK, operator loads the exact protected
+   Save52 once. Record external load-request and load-complete intervals. Do not
+   infer native reset, source identity or exterior demand from the menu label.
+2. While loaded at the Lodge, before travel, obtain a distinct fresh challenge
+   and health snapshot. Record a loaded-but-not-travelled checkpoint. Do not run
+   full save/content scans during play without a specific integrity incident.
+3. Operator requests one direct fast-travel to **Feynman V Cu IL F**. Record the
+   external travel-request interval and operator-reported ordinary arrival.
+   These are not engine-native loading-screen/arrival instants. No native
+   visual-arrival ordering claim is part of the proposed result.
+4. At first ordinary arrival, obtain one fresh health ACK and operator STOP.
+   Do not wait for a preferred mask, additional target event or quota. No extra
+   travel, second load, forced cache clear or outcome-dependent retry is allowed.
+5. On operator STOP or a proven safety failure, create this session's exclusive
+   `STOP` file containing `operator STOP` plus newline, flush and close. Check
+   terminal identity and resident-inert state. Never hot unpatch, unload or kill
+   Starfield. Operator exits normally, then disables/removes through Vortex.
+
+## Safety and failure response - NOT AUTHORIZED
+
+Actual identity/site/target/relay mismatch, disk query/floor failure, worker
+exit/failure, output corruption/fault, protected-input incident or explicit STOP
+precludes continued capture. Preserve the evidence, issue same-session STOP
+where possible, and ask the operator to exit under the separately approved
+recovery policy. Loss alone invalidates scientific continuity while safe
+acquisition may continue. No arbitrary time, record or byte cutoff is added.
+
+Hooks affect execution timing and can fail. A crash does not authorize relaunch.
+Preserve complete prefixes and uncertain tails; do not suppress exceptions or
+rewrite a failed criterion. Unexpected corruption outside the declared capture
+boundary requires a maintainer recovery decision. No original-save restoration
+or configuration change is authorized by this card.
+
+## Postflight and archive - NOT AUTHORIZED
+
+After confirmed original PID/creation exit, repeat full protection with a fresh
+postflight label and compare policy, protected saves/backups, remote inputs,
+configuration and content. Verify effective deployed-DLL absence and record
+operator disablement/staging status. Retain all deviations, losses, failures and
+incomplete tails. Run the exact reviewed schema-3 reader/reducer offline.
+
+Finish companion checkpoints and protection/scientific receipts, then seal
+quiescent raw and receipt roots with `runtime/session-tools/archive.py` using its
+hash-bound postflight contract. Keep seal/ZIP/verification outputs outside sealed
+roots; stream-verify every member and keep raw originals. A partial/crashed run
+uses explicit partial classification, never a repaired success. No deletion,
+upload, staging, commit, push or publication follows. Independent review evaluates
+scientific qualification separately from preservation and process survival.
+
+## Scientific gates for that future episode
+
+A positive target first-construction result requires a qualified protected empty
+ProcGen boundary; complete earlier observation coverage; safe constructor/
+publication/allocation lifetime and consumed visited token; original request and
+unvisited decision; first eligible protected map miss; actual consumed descriptor;
+generator and direct ordinary mask 0 or 3; successful native reserve and executed
+token store; and consistent source/ProcGen/thread/epoch/loss generation throughout.
+Earlier unknown candidate activity, collisions, unsafe source identity or relevant
+loss denies firstness. A later clean stretch needs a new qualified empty boundary
+and a complete source lifetime. An optional later bypass strengthens chronology;
+its absence does not defeat an already complete first-construction prefix.
+
+Legitimate negative/inconclusive outcomes include target never positively
+identified, bypass only, unvisited map hit, no constructing miss, failed reserve,
+no sampler because prerequisites failed, unknown/retired/reused source, missing
+birth/publication/reset, relevant loss, ambiguous chronology, damaged ACK or worker
+failure. None proves native absence from silence. Successful append does not prove
+nonempty/complete geometry. A non-target lifecycle does not answer target D5R.
+B1 remains historical PARTIAL, D5AA ESCALATE, D5R OPEN and B2 **NOT PERFORMED**.
+No additional attempt is authorized by any of these outcomes.

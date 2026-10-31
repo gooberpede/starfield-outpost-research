@@ -3,6 +3,7 @@
 #include <Windows.h>
 #include "../exp0002/third_party/sfse/PluginAPI.h"
 int wmain(int count,wchar_t** args){
+ SetErrorMode(SEM_FAILCRITICALERRORS|SEM_NOGPFAULTERRORBOX);
  if(count!=4)return 80;auto dll=LoadLibraryW(args[1]);if(!dll)return 81;
  auto load=(bool(*)(const SFSEInterface*))GetProcAddress(dll,"SFSEPlugin_Load");
  if(!load||load(nullptr))return 83;SFSEInterface api{};api.interfaceVersion=1;api.runtimeVersion=(1u<<24)|(16u<<16)|(244u<<4);
