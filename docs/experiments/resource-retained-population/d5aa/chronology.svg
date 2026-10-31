@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img"><title>B1 retained chronology: observations and checkpoint windows</title>
+<rect width="1280" height="800" fill="#f6f8fc"/>
+<text x="36" y="42" font-family="Arial, sans-serif" font-size="26" fill="#202b3d">B1 retained chronology: observations and checkpoint windows</text>
+<line x1="36" y1="80" x2="66" y2="80" stroke="#187b84" stroke-width="4"/>
+<text x="74" y="85" font-family="Arial, sans-serif" font-size="14" fill="#187b84">OBSERVED</text>
+<line x1="340" y1="80" x2="370" y2="80" stroke="#3f51a1" stroke-width="4"/>
+<text x="378" y="85" font-family="Arial, sans-serif" font-size="14" fill="#3f51a1">PROVEN STATIC</text>
+<line x1="644" y1="80" x2="674" y2="80" stroke="#9a6919" stroke-width="4" stroke-dasharray="6 4"/>
+<text x="682" y="85" font-family="Arial, sans-serif" font-size="14" fill="#9a6919">CONDITIONAL</text>
+<line x1="948" y1="80" x2="978" y2="80" stroke="#8b5367" stroke-width="4" stroke-dasharray="6 4"/>
+<text x="986" y="85" font-family="Arial, sans-serif" font-size="14" fill="#8b5367">UNKNOWN</text>
+<text x="36" y="118" font-family="Arial, sans-serif" font-size="16" fill="#202b3d">Seconds after first admitted QPC sample; no invented travel or target-first timestamp.</text>
+<text x="36" y="150" font-family="Arial, sans-serif" font-size="16" fill="#202b3d">Main-menu checkpoint</text>
+<rect x="309.529986175" y="160" width="18.600384675000015" height="20" fill="#d7e5f0" stroke="#187b84"/>
+<text x="84" y="196" font-family="Arial, sans-serif" font-size="13" fill="#202b3d">53.0658791–57.4424402 s; receipt collection interval</text>
+<text x="36" y="220" font-family="Arial, sans-serif" font-size="16" fill="#202b3d">Loaded / not-travelled checkpoint</text>
+<rect x="762.300000425" y="230" width="23.625029624999996" height="20" fill="#d7e5f0" stroke="#187b84"/>
+<text x="84" y="266" font-family="Arial, sans-serif" font-size="13" fill="#202b3d">159.6000001–165.1588306 s; receipt collection interval</text>
+<text x="36" y="290" font-family="Arial, sans-serif" font-size="16" fill="#202b3d">First-arrival checkpoint</text>
+<rect x="1125.478056275" y="300" width="20.84050612500001" height="20" fill="#d7e5f0" stroke="#187b84"/>
+<text x="84" y="336" font-family="Arial, sans-serif" font-size="13" fill="#202b3d">245.0536603–249.9573088 s; receipt collection interval</text>
+<line x1="84" y1="399" x2="1189.0" y2="399" stroke="#738099"/>
+<text x="76.0" y="423" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">0</text>
+<text x="288.5" y="423" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">50</text>
+<text x="501.0" y="423" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">100</text>
+<text x="713.5" y="423" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">150</text>
+<text x="926.0" y="423" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">200</text>
+<text x="1138.5" y="423" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">250</text>
+<rect x="1025.4985322" y="435" width="40.2514678" height="238" fill="#f6d8cd" opacity="0.65"/>
+<circle cx="84.0" cy="449" r="4" fill="#187b84"/>
+<text x="110" y="454" font-family="Arial, sans-serif" font-size="14" fill="#187b84">READY · seq 1 · 0.0000000 s</text>
+<circle cx="619.3845270749999" cy="476" r="4" fill="#187b84"/>
+<text x="36" y="481" font-family="Arial, sans-serif" font-size="14" fill="#187b84">First empty reset certificate · seq 3 · 125.9728299 s</text>
+<circle cx="629.8921" cy="503" r="4" fill="#187b84"/>
+<text x="36" y="508" font-family="Arial, sans-serif" font-size="14" fill="#187b84">Last pre-travel prefix event · seq 110 · 128.4452000 s</text>
+<circle cx="1023.7737972" cy="530" r="4" fill="#187b84"/>
+<text x="36" y="535" font-family="Arial, sans-serif" font-size="14" fill="#187b84">Second empty reset certificate · seq 116 · 221.1232464 s</text>
+<circle cx="1025.216458425" cy="557" r="4" fill="#187b84"/>
+<text x="36" y="562" font-family="Arial, sans-serif" font-size="14" fill="#187b84">First copied non-target map miss · seq 215 · 221.4626961 s</text>
+<circle cx="1025.4985322" cy="584" r="4" fill="#187b84"/>
+<text x="36" y="589" font-family="Arial, sans-serif" font-size="14" fill="#187b84">Admission at first sampled loss boundary · seq 1236 · 221.5290664 s</text>
+<circle cx="1026.177270375" cy="611" r="4" fill="#9a6919"/>
+<text x="36" y="616" font-family="Arial, sans-serif" font-size="14" fill="#9a6919">First conditional target selection · seq 3297 · 221.6887695 s</text>
+<circle cx="1032.9160367999998" cy="638" r="4" fill="#9a6919"/>
+<text x="36" y="643" font-family="Arial, sans-serif" font-size="14" fill="#9a6919">Last conditional target selection · seq 10445 · 223.2743616 s</text>
+<circle cx="1065.698404575" cy="665" r="4" fill="#187b84"/>
+<text x="36" y="670" font-family="Arial, sans-serif" font-size="14" fill="#187b84">Last retained admission · seq 19780 · 230.9878599 s</text>
+<text x="36" y="710" font-family="Arial, sans-serif" font-size="15" fill="#8b5367">Shading: retained events after the first sampled loss boundary; lost events have no known individual times.</text>
+<text x="36" y="739" font-family="Arial, sans-serif" font-size="16" fill="#8b5367">UNKNOWN: actual travel confirmation, target first query/mask, append and visual arrival instants.</text>
+<text x="36" y="768" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">9,957 queue-full losses; 13 QPC/admission inversions. A checkpoint is not a native transition.</text>
+</svg>

@@ -1,5 +1,17 @@
 # Credits
 
+## D5AA chronology and native causality
+
+[D5AA](docs/experiments/resource-retained-population/d5aa-report.md) uses Bethesda's
+pinned native executable and retained B1 evidence, with the maintainer's Lodge/
+travel account kept distinct from native observations. Existing owned D5Y
+authentication/forensic methods, D5Z reset analysis, D5S read-only exporter and
+D5Z review-patch method are reused under SOR-P-0002 with exact provenance in
+[the source ledger](docs/experiments/resource-retained-population/d5aa-sources.csv).
+Ghidra, Adoptium Java, CPython, Git and installed sharp/libvips are standalone
+research/rendering tools; no new third-party code or external image is included.
+Proprietary exports, original captures and saves remain local-only.
+
 ## D5W operational-contract research
 
 [D5W](docs/experiments/resource-retained-population/d5w-report.md) uses Bethesda's

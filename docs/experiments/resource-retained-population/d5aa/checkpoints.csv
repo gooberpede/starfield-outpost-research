@@ -1,0 +1,10 @@
+name,phase,action,second,utc
+checkpoints/first-arrival-ack-0e2c89de49594b4f.json,first-arrival,ack,249.9573088,2026-10-30T23:09:13.580323+00:00
+checkpoints/first-arrival-request-9a8020196e107198.json,first-arrival,request,245.0536603,2026-10-30T23:09:08.676683+00:00
+checkpoints/main-menu-ack-1a73dcf1e1aad259.json,main-menu,ack,57.4424402,2026-10-30T23:06:01.065463+00:00
+checkpoints/main-menu-request-3a46d34c69cd309d.json,main-menu,request,53.0658791,2026-10-30T23:05:56.688902+00:00
+checkpoints/pre-travel-ack-c4e22e4b9c72dbcf.json,pre-travel,ack,165.1588306,2026-10-30T23:07:48.781840+00:00
+checkpoints/pre-travel-request-1fbcc95af71033ce.json,pre-travel,request,159.6000001,2026-10-30T23:07:43.223020+00:00
+checkpoints/startup-check-ack-b5a8e581abb5d9e7.json,startup-check,ack,30.5656604,2026-10-30T23:05:34.188679+00:00
+checkpoints/startup-check-request-09e50c0bf34d6915.json,startup-check,request,23.3750899,2026-10-30T23:05:26.998112+00:00
+checkpoints/stop-requested-stop-cc6e93281d118a71.json,stop-requested,stop,250.1425311,2026-10-30T23:09:13.765549+00:00

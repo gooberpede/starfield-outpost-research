@@ -1,0 +1,25 @@
+{
+  "schema": "sor-d5aa/1",
+  "raw_sha256": "cd4762095a422fb537844546e923fff667e894a63b082b0205f3107786f49a5c",
+  "reader_sha256": "1251527e82e39ff597c9921bcc4dfd9c9211575856cc08f64a2490c024ee978a",
+  "analysis_sha256": "7566e1e03cadf7e052e1a103af523e209db91b777b19089cce17642c2a21288f",
+  "records": 19780,
+  "map_decisions": 24,
+  "ordinary_paths": 19,
+  "conditional_bypasses": 119,
+  "first_loss_sampled_admission": 1236,
+  "drops": 9957,
+  "qpc_admission_inversions": 13,
+  "pretravel_kinds": {
+    "ready": 1,
+    "fence_begin": 54,
+    "cold": 1,
+    "fence_end": 54
+  },
+  "copied_target_records": 0,
+  "append_success_witnesses": 0,
+  "complete_source_chains": 0,
+  "clock_note": "Absolute QPC values are observed; UTC event instants are not captured. Checkpoint UTC/QPC pairs permit approximate calibration only.",
+  "raw_reference": "session/events.bin; offsets are original raw-file byte offsets",
+  "loss_note": "First sampled loss admission is a counter boundary, not the exact lost event time."
+}

@@ -1,0 +1,143 @@
+{
+  "windows": [
+    {
+      "label": "Main-menu checkpoint",
+      "start": 53.0658791,
+      "end": 57.4424402
+    },
+    {
+      "label": "Loaded / not-travelled checkpoint",
+      "start": 159.6000001,
+      "end": 165.1588306
+    },
+    {
+      "label": "First-arrival checkpoint",
+      "start": 245.0536603,
+      "end": 249.9573088
+    }
+  ],
+  "causality": [
+    {
+      "from": "Full load",
+      "to": "ProcGen clear",
+      "basis": "PROVEN STATIC",
+      "qualification": "Complementary revert/type-3 reset routes; B1 callers and exact stage are unknown."
+    },
+    {
+      "from": "Lodge interior",
+      "to": "Linked context / existing terrain",
+      "basis": "CONDITIONAL",
+      "qualification": "Interior attached context or TES interior update; actual Lodge/Jemison binding is unknown."
+    },
+    {
+      "from": "Accepted travel confirmation",
+      "to": "Pending player payload +0xa08",
+      "basis": "PROVEN STATIC",
+      "qualification": "Named callback; zero response, valid destination, guards; payload swap is not a FIFO queue."
+    },
+    {
+      "from": "Transition processor",
+      "to": "Context / owner / descriptor setup",
+      "basis": "PROVEN STATIC",
+      "qualification": "141a20380 \u2192 1417df210; branch-specific resets and initialization."
+    },
+    {
+      "from": "Exterior preparation",
+      "to": "Valid focus / source Grid / service command",
+      "basis": "PROVEN STATIC",
+      "qualification": "141a278a0 prepares terrain before final placement; execution still needs valid prerequisites."
+    },
+    {
+      "from": "Eligible service or cell demand",
+      "to": "Ready layer / density task",
+      "basis": "CONDITIONAL",
+      "qualification": "Region, key, file and dependency guards; other tasks can execute while registration continues."
+    },
+    {
+      "from": "Worker provider request",
+      "to": "Selected source / visited / map decision",
+      "basis": "OBSERVED",
+      "qualification": "Nineteen non-target sampler paths; 24 copied map decisions; no copied target identity."
+    },
+    {
+      "from": "Target first processing",
+      "to": "Append / later target bypass",
+      "basis": "UNKNOWN",
+      "qualification": "Historical query, mask, positive bypass identity and direct append success are missing."
+    },
+    {
+      "from": "Final placement / visual arrival",
+      "to": "Later movement / consumer refresh",
+      "basis": "CONDITIONAL",
+      "qualification": "Native preparation can precede final placement; no B1 visual-arrival or Workshop ordering fence."
+    }
+  ],
+  "state": [
+    {
+      "from": "Construction or qualifying reset",
+      "to": "Unvisited / empty map",
+      "basis": "PROVEN STATIC",
+      "qualification": "Two B1 reset certificates are observed; they do not establish an uninterrupted target history."
+    },
+    {
+      "from": "Original query selects source",
+      "to": "Shared visited comparison",
+      "basis": "PROVEN STATIC",
+      "qualification": "Source token +0x68 compared under ProcGen +0x40; source identity must remain valid."
+    },
+    {
+      "from": "Visited token matches",
+      "to": "Bypass before map lookup",
+      "basis": "OBSERVED",
+      "qualification": "5,675 valid bypass outcomes; 119 conditional target-compatible pairs lack copied identity."
+    },
+    {
+      "from": "Unvisited; release shared lock",
+      "to": "Acquire exclusive; map hit",
+      "basis": "OBSERVED",
+      "qualification": "Five copied non-target hits; concurrent checks can pass before an earlier append."
+    },
+    {
+      "from": "Exclusive map miss",
+      "to": "Insert holder / generation / ordinary sampler",
+      "basis": "OBSERVED",
+      "qualification": "Nineteen non-target sampler paths; generation success and complete geometry are separate."
+    },
+    {
+      "from": "Generation returns",
+      "to": "Reserve visited slot",
+      "basis": "PROVEN STATIC",
+      "qualification": "No geometry-success test; failure sentinel 0xffffffff skips token store."
+    },
+    {
+      "from": "Reservation succeeds",
+      "to": "Token store",
+      "basis": "PROVEN STATIC",
+      "qualification": "Successful reserve writes the token; B1 occurrence is not observed."
+    },
+    {
+      "from": "B1 append occurrence",
+      "to": "Authenticated later source bypass",
+      "basis": "UNKNOWN",
+      "qualification": "Successful append was not instrumented; pointer-compatible later bypasses are conditional joins."
+    },
+    {
+      "from": "Reservation fails",
+      "to": "No token write",
+      "basis": "PROVEN STATIC",
+      "qualification": "Existing map holder may remain; map reuse is independent of visited membership."
+    },
+    {
+      "from": "Source retirement",
+      "to": "Map erasure; visited retained",
+      "basis": "PROVEN STATIC",
+      "qualification": "No B1 retirement witness; pointer equality cannot establish lifetime continuity."
+    },
+    {
+      "from": "Broad reset / destruction",
+      "to": "Clear map and visited / end lifetime",
+      "basis": "PROVEN STATIC",
+      "qualification": "Observer epochs include loss and other fences; they are not native visited epochs."
+    }
+  ]
+}

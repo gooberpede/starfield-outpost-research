@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [D5AA resource-generation chronology](CODEX_BRIEF_SOR_RG2_D5AA_resource_generation_chronology.md):
+  invoked 2026-10-31 for offline retained B1 chronology and native load/interior/
+  travel-to-demand mapping. [Report](../experiments/resource-retained-population/d5aa-report.md),
+  [ledger](../experiments/resource-retained-population/d5aa-investigation-ledger.md)
+  and [review](../experiments/resource-retained-population/d5aa-review.md).
+  Target historical chronology remains blocked by missing observations; no live,
+  observer modification, deployment, save write or Git integration authority.
+
 - [D5Z visited-state provenance, persistence, reset and capacity](CODEX_BRIEF_SOR_RG2_D5Z_visited_state_persistence_reset_capacity.md):
   invoked 2026-10-31 for offline native and justified read-only controlled-save
   research, plus correction/incorporation of the supplied gameplay checklist.

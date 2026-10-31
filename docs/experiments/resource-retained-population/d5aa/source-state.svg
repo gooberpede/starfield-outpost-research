@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1160" viewBox="0 0 1280 1160" role="img"><title>One source: visited and source-map state machine</title>
+<rect width="1280" height="1160" fill="#f6f8fc"/>
+<text x="36" y="42" font-family="Arial, sans-serif" font-size="26" fill="#202b3d">One source: visited and source-map state machine</text>
+<line x1="36" y1="80" x2="66" y2="80" stroke="#187b84" stroke-width="4"/>
+<text x="74" y="85" font-family="Arial, sans-serif" font-size="14" fill="#187b84">OBSERVED</text>
+<line x1="340" y1="80" x2="370" y2="80" stroke="#3f51a1" stroke-width="4"/>
+<text x="378" y="85" font-family="Arial, sans-serif" font-size="14" fill="#3f51a1">PROVEN STATIC</text>
+<line x1="644" y1="80" x2="674" y2="80" stroke="#9a6919" stroke-width="4" stroke-dasharray="6 4"/>
+<text x="682" y="85" font-family="Arial, sans-serif" font-size="14" fill="#9a6919">CONDITIONAL</text>
+<line x1="948" y1="80" x2="978" y2="80" stroke="#8b5367" stroke-width="4" stroke-dasharray="6 4"/>
+<text x="986" y="85" font-family="Arial, sans-serif" font-size="14" fill="#8b5367">UNKNOWN</text>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#59667b"/></marker></defs>
+<rect x="44" y="150" width="320" height="64" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="56" y="186" font-family="Arial, sans-serif" font-size="17" fill="#3f51a1">Unvisited after clear</text>
+<rect x="900" y="150" width="320" height="64" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="912" y="186" font-family="Arial, sans-serif" font-size="17" fill="#3f51a1">Broad reset (live owner)</text>
+<rect x="44" y="290" width="320" height="64" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="56" y="326" font-family="Arial, sans-serif" font-size="17" fill="#3f51a1">Select source; compare token</text>
+<rect x="900" y="290" width="320" height="64" rx="8" fill="white" stroke="#187b84" stroke-width="2"/>
+<text x="912" y="326" font-family="Arial, sans-serif" font-size="17" fill="#187b84">Visited hit: bypass map</text>
+<rect x="44" y="430" width="320" height="64" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="56" y="466" font-family="Arial, sans-serif" font-size="17" fill="#3f51a1">Unvisited: exclusive lookup</text>
+<rect x="460" y="430" width="320" height="64" rx="8" fill="white" stroke="#187b84" stroke-width="2"/>
+<text x="472" y="466" font-family="Arial, sans-serif" font-size="17" fill="#187b84">Map hit: reuse, no append</text>
+<rect x="44" y="570" width="320" height="64" rx="8" fill="white" stroke="#187b84" stroke-width="2"/>
+<text x="56" y="606" font-family="Arial, sans-serif" font-size="17" fill="#187b84">Map miss: insert / generate</text>
+<rect x="460" y="570" width="320" height="64" rx="8" fill="white" stroke="#187b84" stroke-width="2"/>
+<text x="472" y="606" font-family="Arial, sans-serif" font-size="17" fill="#187b84">Ordinary sample, if eligible</text>
+<rect x="44" y="710" width="320" height="64" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="56" y="746" font-family="Arial, sans-serif" font-size="17" fill="#3f51a1">After return: reserve visit</text>
+<rect x="460" y="710" width="320" height="64" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="472" y="746" font-family="Arial, sans-serif" font-size="17" fill="#3f51a1">Success: store token (static)</text>
+<rect x="44" y="850" width="320" height="64" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="56" y="886" font-family="Arial, sans-serif" font-size="17" fill="#3f51a1">Failure: no token store</text>
+<rect x="900" y="710" width="320" height="64" rx="8" fill="white" stroke="#9a6919" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="912" y="746" font-family="Arial, sans-serif" font-size="17" fill="#9a6919">Later matching-token bypass</text>
+<rect x="460" y="850" width="320" height="64" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="472" y="886" font-family="Arial, sans-serif" font-size="17" fill="#3f51a1">Retire: erase map only</text>
+<polyline points="204,214 204,290" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="218" y="252" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">next demand</text>
+<polyline points="364,322 900,322" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="560" y="311" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">token matches</text>
+<polyline points="204,354 204,430" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="218" y="398" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">no match; release shared lock</text>
+<polyline points="364,462 460,462" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="398" y="451" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">hit</text>
+<polyline points="204,494 204,570" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="218" y="538" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">miss</text>
+<polyline points="364,602 460,602" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="381" y="592" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">eligible</text>
+<polyline points="204,634 204,710" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="218" y="678" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">returned attempt</text>
+<polyline points="364,742 460,742" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="379" y="732" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">reserved</text>
+<polyline points="204,774 204,850" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="218" y="816" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">0xffffffff</text>
+<polyline points="780,742 900,742" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="6 4"/>
+<text x="795" y="732" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">next query</text>
+<polyline points="620,774 620,850" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="6 4"/>
+<text x="635" y="816" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">lifecycle</text>
+<polyline points="364,882 460,882" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="6 4"/>
+<text x="377" y="871" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">may retire</text>
+<polyline points="900,182 410,182 410,125 204,125 204,150" fill="none" stroke="#59667b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="493" y="169" font-family="Arial, sans-serif" font-size="14" fill="#202b3d">clear both stores</text>
+<text x="44" y="962" font-family="Arial, sans-serif" font-size="17" fill="#202b3d">Reset is a guarded lifecycle transition from relevant states; source retirement leaves visited membership intact.</text>
+<text x="44" y="994" font-family="Arial, sans-serif" font-size="16" fill="#8b5367">No B1 append-success witness. Later bypass identity is conditional; no complete first-to-bypass chain is authenticated.</text>
+<text x="44" y="1026" font-family="Arial, sans-serif" font-size="16" fill="#202b3d">Map hits can follow an earlier unvisited check while another thread generates. No second visited scan occurs under exclusive lock.</text>
+<text x="44" y="1058" font-family="Arial, sans-serif" font-size="16" fill="#202b3d">Arrows show scoped state transitions, not elapsed time. Sampler success does not prove complete geometry or successful marking.</text>
+<text x="44" y="1090" font-family="Arial, sans-serif" font-size="16" fill="#202b3d">Direct B1 observations apply to non-target paths; target first processing, append and lifetime remain unknown.</text>
+<text x="44" y="1124" font-family="Arial, sans-serif" font-size="16" fill="#202b3d">Destruction ends the owner lifetime; a new owner starts through construction.</text>
+</svg>

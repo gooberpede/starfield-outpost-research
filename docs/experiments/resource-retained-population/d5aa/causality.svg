@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="942" viewBox="0 0 1280 942" role="img"><title>Load / Lodge → travel → resource demand / arrival</title>
+<rect width="1280" height="942" fill="#f6f8fc"/>
+<text x="36" y="42" font-family="Arial, sans-serif" font-size="26" fill="#202b3d">Load / Lodge → travel → resource demand / arrival</text>
+<line x1="36" y1="80" x2="66" y2="80" stroke="#187b84" stroke-width="4"/>
+<text x="74" y="85" font-family="Arial, sans-serif" font-size="14" fill="#187b84">OBSERVED</text>
+<line x1="340" y1="80" x2="370" y2="80" stroke="#3f51a1" stroke-width="4"/>
+<text x="378" y="85" font-family="Arial, sans-serif" font-size="14" fill="#3f51a1">PROVEN STATIC</text>
+<line x1="644" y1="80" x2="674" y2="80" stroke="#9a6919" stroke-width="4" stroke-dasharray="6 4"/>
+<text x="682" y="85" font-family="Arial, sans-serif" font-size="14" fill="#9a6919">CONDITIONAL</text>
+<line x1="948" y1="80" x2="978" y2="80" stroke="#8b5367" stroke-width="4" stroke-dasharray="6 4"/>
+<text x="986" y="85" font-family="Arial, sans-serif" font-size="14" fill="#8b5367">UNKNOWN</text>
+<text x="36" y="114" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">Schematic causal edges; row order is not an event timestamp.</text>
+<rect x="36" y="140" width="1208" height="74" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="52" y="165" font-family="Arial, sans-serif" font-size="18" fill="#3f51a1">Full load → ProcGen clear</text>
+<text x="52" y="192" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">Complementary revert/type-3 reset routes; B1 callers and exact stage are unknown.</text>
+<rect x="36" y="228" width="1208" height="74" rx="8" fill="white" stroke="#9a6919" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="52" y="253" font-family="Arial, sans-serif" font-size="18" fill="#9a6919">Lodge interior → Linked context / existing terrain</text>
+<text x="52" y="280" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">Interior attached context or TES interior update; actual Lodge/Jemison binding is unknown.</text>
+<rect x="36" y="316" width="1208" height="74" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="52" y="341" font-family="Arial, sans-serif" font-size="18" fill="#3f51a1">Accepted travel confirmation → Pending player payload +0xa08</text>
+<text x="52" y="368" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">Named callback; zero response, valid destination, guards; payload swap is not a FIFO queue.</text>
+<rect x="36" y="404" width="1208" height="74" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="52" y="429" font-family="Arial, sans-serif" font-size="18" fill="#3f51a1">Transition processor → Context / owner / descriptor setup</text>
+<text x="52" y="456" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">141a20380 → 1417df210; branch-specific resets and initialization.</text>
+<rect x="36" y="492" width="1208" height="74" rx="8" fill="white" stroke="#3f51a1" stroke-width="2"/>
+<text x="52" y="517" font-family="Arial, sans-serif" font-size="18" fill="#3f51a1">Exterior preparation → Valid focus / source Grid / service command</text>
+<text x="52" y="544" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">141a278a0 prepares terrain before final placement; execution still needs valid prerequisites.</text>
+<rect x="36" y="580" width="1208" height="74" rx="8" fill="white" stroke="#9a6919" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="52" y="605" font-family="Arial, sans-serif" font-size="18" fill="#9a6919">Eligible service or cell demand → Ready layer / density task</text>
+<text x="52" y="632" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">Region, key, file and dependency guards; other tasks can execute while registration continues.</text>
+<rect x="36" y="668" width="1208" height="74" rx="8" fill="white" stroke="#187b84" stroke-width="2"/>
+<text x="52" y="693" font-family="Arial, sans-serif" font-size="18" fill="#187b84">Worker provider request → Selected source / visited / map decision</text>
+<text x="52" y="720" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">Nineteen non-target sampler paths; 24 copied map decisions; no copied target identity.</text>
+<rect x="36" y="756" width="1208" height="74" rx="8" fill="white" stroke="#8b5367" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="52" y="781" font-family="Arial, sans-serif" font-size="18" fill="#8b5367">Target first processing → Append / later target bypass</text>
+<text x="52" y="808" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">Historical query, mask, positive bypass identity and direct append success are missing.</text>
+<rect x="36" y="844" width="1208" height="74" rx="8" fill="white" stroke="#9a6919" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="52" y="869" font-family="Arial, sans-serif" font-size="18" fill="#9a6919">Final placement / visual arrival → Later movement / consumer refresh</text>
+<text x="52" y="896" font-family="Arial, sans-serif" font-size="15" fill="#202b3d">Native preparation can precede final placement; no B1 visual-arrival or Workshop ordering fence.</text>
+</svg>

@@ -1,0 +1,12 @@
+id,from,to,basis,qualification
+AA-S01,Construction or qualifying reset,Unvisited / empty map,PROVEN STATIC,Two B1 reset certificates are observed; they do not establish an uninterrupted target history.
+AA-S02,Original query selects source,Shared visited comparison,PROVEN STATIC,Source token +0x68 compared under ProcGen +0x40; source identity must remain valid.
+AA-S03,Visited token matches,Bypass before map lookup,OBSERVED,"5,675 valid bypass outcomes; 119 conditional target-compatible pairs lack copied identity."
+AA-S04,Unvisited; release shared lock,Acquire exclusive; map hit,OBSERVED,Five copied non-target hits; concurrent checks can pass before an earlier append.
+AA-S05,Exclusive map miss,Insert holder / generation / ordinary sampler,OBSERVED,Nineteen non-target sampler paths; generation success and complete geometry are separate.
+AA-S06,Generation returns,Reserve visited slot,PROVEN STATIC,No geometry-success test; failure sentinel 0xffffffff skips token store.
+AA-S07,Reservation succeeds,Token store,PROVEN STATIC,Successful reserve writes the token; B1 occurrence is not observed.
+AA-S08,B1 append occurrence,Authenticated later source bypass,UNKNOWN,Successful append was not instrumented; pointer-compatible later bypasses are conditional joins.
+AA-S09,Reservation fails,No token write,PROVEN STATIC,Existing map holder may remain; map reuse is independent of visited membership.
+AA-S10,Source retirement,Map erasure; visited retained,PROVEN STATIC,No B1 retirement witness; pointer equality cannot establish lifetime continuity.
+AA-S11,Broad reset / destruction,Clear map and visited / end lifetime,PROVEN STATIC,Observer epochs include loss and other fences; they are not native visited epochs.

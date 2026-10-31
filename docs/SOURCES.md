@@ -1,5 +1,19 @@
 # Source Register
 
+## D5AA retained B1 chronology and native transitions
+
+2026-10-31, Australia/Sydney. [Report](experiments/resource-retained-population/d5aa-report.md)
+and [per-use source windows/hashes](experiments/resource-retained-population/d5aa-sources.csv)
+record Bethesda native primary evidence, the original authenticated B1 archive
+and the operator's Lodge/direct-travel account as separate evidence classes.
+Seven read-only Ghidra exports follow confirmation callbacks, pending transition,
+load/context/interior/terrain/cell and resource-demand paths. Existing owned
+D5Q–Z research, D5Y authenticator, D5Z reset reducer, D5S exporter and D5Z patch
+verification method are reused under SOR-P-0002. Original methods/evidence remain
+unchanged; adaptations retain their origin. Installed Ghidra/JDK, CPython, Git
+and sharp/libvips are separate local tools. No external consultation, new
+dependency incorporation, author contact or evidence disclosure occurs.
+
 ## SOR-S-0153 — D5W native operating contract and official guidance
 
 2026-10-30, Australia/Sydney. [D5W report](experiments/resource-retained-population/d5w-report.md)

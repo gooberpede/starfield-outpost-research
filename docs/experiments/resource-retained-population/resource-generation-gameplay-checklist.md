@@ -6,6 +6,12 @@ Desktop checklist, SHA-256
 The source file is preserved. [D5Z report](d5z-report.md) and
 [investigation ledger](d5z-investigation-ledger.md) govern current completeness.
 
+[D5AA chronology](d5aa-b1-chronology.md) and the
+[native transition map](d5aa-gameplay-transition-map.md) supplement these entries
+with exact retained-event intervals, conditional interior/travel ingress and
+individual non-target controls. All 31 entries, five groups and checkbox states
+are preserved. No new tick claims a B1 gameplay event or target firstness.
+
 A tick means **native mechanism mapped** at the stated conditional scope.
 It does not mean the corresponding player action or specific B1 event was
 observed. Each item separates these claims. Open items retain unresolved
@@ -22,7 +28,7 @@ Addresses in linked maps are preferred static VAs for Starfield 1.16.244.0.
 
 ## 2. Fast-travel initiation
 
-- [ ] Establish the complete path from the player's travel action to destination streaming demands. Native mechanism partly mapped: [ordinary ingress](d5w-normal-path-model.md#ordinary-initialization-and-ingress). Specific B1 event observed: operator travel/arrival milestones, without full causal action-to-demand correlation.
+- [ ] Establish the complete path from the player's travel action to destination streaming demands. Native mechanism now includes [D5AA confirmation, pending transition and guarded demand paths](d5aa-gameplay-transition-map.md), supplementing [ordinary ingress](d5w-normal-path-model.md#ordinary-initialization-and-ingress). Specific B1 event observed: operator travel/arrival milestones, without full causal action-to-demand correlation. The complete historical gameplay item remains open.
 - [x] Convert a valid focus into geographic cell coordinates and bounded request regions. Native mechanism mapped under the fixed descriptor/settings contract: [focus and bounds](d5w-normal-path-model.md#ordinary-initialization-and-ingress). Specific B1 event observed: focus conversion was not directly recorded.
 - [x] Enumerate request cells and register density/layer tasks with dependencies. Native mechanism mapped: [dependencies and claims](d5w-normal-path-model.md#dependencies-services-and-claims). Specific B1 event observed: registration was not directly recorded.
 - [x] Submit eligible ready tasks to the native worker system, permitting asynchronous execution. Native mechanism mapped with controlled queue witnesses: [D5W Q1](d5w-report.md#q1--what-ordinary-execution-selects-or-favours). Specific B1 event observed: downstream worker activity, without a complete readiness/claim trace.

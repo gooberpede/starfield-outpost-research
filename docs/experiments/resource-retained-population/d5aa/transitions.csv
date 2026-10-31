@@ -1,0 +1,10 @@
+id,from,to,basis,qualification
+AA-T01,Full load,ProcGen clear,PROVEN STATIC,Complementary revert/type-3 reset routes; B1 callers and exact stage are unknown.
+AA-T02,Lodge interior,Linked context / existing terrain,CONDITIONAL,Interior attached context or TES interior update; actual Lodge/Jemison binding is unknown.
+AA-T03,Accepted travel confirmation,Pending player payload +0xa08,PROVEN STATIC,"Named callback; zero response, valid destination, guards; payload swap is not a FIFO queue."
+AA-T04,Transition processor,Context / owner / descriptor setup,PROVEN STATIC,141a20380 → 1417df210; branch-specific resets and initialization.
+AA-T05,Exterior preparation,Valid focus / source Grid / service command,PROVEN STATIC,141a278a0 prepares terrain before final placement; execution still needs valid prerequisites.
+AA-T06,Eligible service or cell demand,Ready layer / density task,CONDITIONAL,"Region, key, file and dependency guards; other tasks can execute while registration continues."
+AA-T07,Worker provider request,Selected source / visited / map decision,OBSERVED,Nineteen non-target sampler paths; 24 copied map decisions; no copied target identity.
+AA-T08,Target first processing,Append / later target bypass,UNKNOWN,"Historical query, mask, positive bypass identity and direct append success are missing."
+AA-T09,Final placement / visual arrival,Later movement / consumer refresh,CONDITIONAL,Native preparation can precede final placement; no B1 visual-arrival or Workshop ordering fence.

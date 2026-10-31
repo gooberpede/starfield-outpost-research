@@ -1,0 +1,10 @@
+sequence,label,second,qpc,basis
+1,READY,0.0000000,2619875036404,OBSERVED
+3,First empty reset certificate,125.9728299,2621134764703,OBSERVED
+110,Last pre-travel prefix event,128.4452000,2621159488404,OBSERVED
+116,Second empty reset certificate,221.1232464,2622086268868,OBSERVED
+215,First copied non-target map miss,221.4626961,2622089663365,OBSERVED
+1236,Admission at first sampled loss boundary,221.5290664,2622090327068,OBSERVED
+3297,First conditional target selection,221.6887695,2622091924099,CONDITIONAL
+10445,Last conditional target selection,223.2743616,2622107780020,CONDITIONAL
+19780,Last retained admission,230.9878599,2622184915003,OBSERVED

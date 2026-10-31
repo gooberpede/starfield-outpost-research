@@ -1,5 +1,18 @@
 # Current Research State
 
+**2026-10-31 — D5AA retained chronology and native travel causality:**
+[The chronology](experiments/resource-retained-population/d5aa-report.md)
+audits all 24 copied source-map decisions, nineteen ordinary sampler paths,
+119 conditional target-compatible pairs and both empty reset certificates.
+[The native map](experiments/resource-retained-population/d5aa-gameplay-transition-map.md)
+connects concrete confirmation callbacks, pending transition consumption,
+conditional interior/exterior context and asynchronous demand. Actual Lodge/
+Jemison requests and the target's historical query/mask/append remain unknown;
+D5AA-CQ historical target chronology is BLOCKED and D5R stays OPEN.
+[Review and exact delivery](experiments/resource-retained-population/d5aa-review.md)
+govern offline sufficiency separately. No new live action, observer change,
+protected-save write, staging, commit, push or publication.
+
 **2026-10-31 — D5Z visited-state origin, reset and capacity:**
 [The ordinary native/save model](experiments/resource-retained-population/d5z-report.md)
 establishes transient visited membership, complementary full-load clears and
