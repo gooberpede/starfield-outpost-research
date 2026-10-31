@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1140" viewBox="0 0 1280 1140">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="context-stroke"/></marker></defs>
+<rect width="100%" height="100%" fill="#f7f8fa"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="32" y="42" font-size="26" font-weight="700" fill="#192b38">Save load → streaming: order and evidence</text>
+<text x="32" y="72" font-size="15" fill="#374e60">Two separate lanes: compiled conditional dependencies (left) and observed B1 checkpoint windows (right).</text>
+<text x="32" y="100" font-size="13" fill="#374e60">Solid blue: static conditional path | Green: B1 witness | Dashed amber: inference | Dashed rose: historical gap | Brown: contradicted scoped claim</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>code-path stages</title><polyline points="255,266 255,350" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="267" y="310" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">code-path stages</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>conditional transition</title><polyline points="255,466 255,550" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="267" y="510" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">conditional transition</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>readiness prerequisites</title><polyline points="255,666 255,750" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="267" y="709" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">readiness prerequisites</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>operator/checkpoint sequence</title><polyline points="975,266 975,350" fill="none" stroke="#28643b" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="650" y="310" font-size="13" fill="#28643b" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">operator/checkpoint sequence</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>admission order</title><polyline points="975,466 975,550" fill="none" stroke="#28643b" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="988" y="510" font-size="13" fill="#28643b" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">admission order</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>loss / invalidator gap</title><polyline points="975,666 975,750" fill="none" stroke="#9a3d65" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#arrow)"/></a>
+<text x="988" y="710" font-size="13" fill="#9a3d65" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">loss / invalidator gap</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>not an observed join</title><polyline points="255,866 255,892 540,892 540,920" fill="none" stroke="#9a3d65" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#arrow)"/></a>
+<text x="270" y="883" font-size="13" fill="#9a3d65" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">not an observed join</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>origin unresolved</title><polyline points="975,866 975,892 690,892 690,920" fill="none" stroke="#9a3d65" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#arrow)"/></a>
+<text x="790" y="883" font-size="13" fill="#9a3d65" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">origin unresolved</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Native bootstrap; Create manager if singleton absent; Global init type 3 is no-op</title><rect x="80" y="150" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="96" y="179" font-size="17" font-weight="700" fill="#192b38">Native bootstrap</text>
+<text x="96" y="203" font-size="15" font-weight="400" fill="#192b38">Create manager if singleton absent</text>
+<text x="96" y="227" font-size="15" font-weight="400" fill="#192b38">Global init type 3 is no-op</text>
+</a>
+<a href="../d5z-state-transition-map.md#b1-checkpoint-and-reset-evidence"><title>B1: main menu window; Operator: no save loaded; ACK authenticates READY prefix</title><rect x="800" y="150" width="350" height="116" rx="10" fill="white" stroke="#28643b" stroke-width="2"/>
+<text x="816" y="179" font-size="17" font-weight="700" fill="#192b38">B1: main menu window</text>
+<text x="816" y="203" font-size="15" font-weight="400" fill="#192b38">Operator: no save loaded</text>
+<text x="816" y="227" font-size="15" font-weight="400" fill="#192b38">ACK authenticates READY prefix</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Load reset / saved context; Type-3 saved prefix → comparison; Reset flag, not direct list restore</title><rect x="80" y="350" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="96" y="379" font-size="17" font-weight="700" fill="#192b38">Load reset / saved context</text>
+<text x="96" y="403" font-size="15" font-weight="400" fill="#192b38">Type-3 saved prefix → comparison</text>
+<text x="96" y="427" font-size="15" font-weight="400" fill="#192b38">Reset flag, not direct list restore</text>
+</a>
+<a href="../d5z-state-transition-map.md#b1-checkpoint-and-reset-evidence"><title>B1: pre-travel window; 110 records; zero counted loss; Includes reset triple 2 / 3 / 4</title><rect x="800" y="350" width="350" height="116" rx="10" fill="white" stroke="#28643b" stroke-width="2"/>
+<text x="816" y="379" font-size="17" font-weight="700" fill="#192b38">B1: pre-travel window</text>
+<text x="816" y="403" font-size="15" font-weight="400" fill="#192b38">110 records; zero counted loss</text>
+<text x="816" y="427" font-size="15" font-weight="400" fill="#192b38">Includes reset triple 2 / 3 / 4</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Context / landscape readiness; Install owner and descriptor; Prerequisites permit demand</title><rect x="80" y="550" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="96" y="579" font-size="17" font-weight="700" fill="#192b38">Context / landscape readiness</text>
+<text x="96" y="603" font-size="15" font-weight="400" fill="#192b38">Install owner and descriptor</text>
+<text x="96" y="627" font-size="15" font-weight="400" fill="#192b38">Prerequisites permit demand</text>
+</a>
+<a href="../d5z-state-transition-map.md#b1-checkpoint-and-reset-evidence"><title>B1: later reset boundary; Triple 115 / 116 / 117; Empty-state certificate, epoch 113</title><rect x="800" y="550" width="350" height="116" rx="10" fill="white" stroke="#28643b" stroke-width="2"/>
+<text x="816" y="579" font-size="17" font-weight="700" fill="#192b38">B1: later reset boundary</text>
+<text x="816" y="603" font-size="15" font-weight="400" fill="#192b38">Triple 115 / 116 / 117</text>
+<text x="816" y="627" font-size="15" font-weight="400" fill="#192b38">Empty-state certificate, epoch 113</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Demand → visited / map gate; Eligible density or layer request; Bypass or constructing miss</title><rect x="80" y="750" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="96" y="779" font-size="17" font-weight="700" fill="#192b38">Demand → visited / map gate</text>
+<text x="96" y="803" font-size="15" font-weight="400" fill="#192b38">Eligible density or layer request</text>
+<text x="96" y="827" font-size="15" font-weight="400" fill="#192b38">Bypass or constructing miss</text>
+</a>
+<a href="../d5z-state-transition-map.md#b1-checkpoint-and-reset-evidence"><title>B1: conditional target bypass; 119 pairs beyond first loss boundary; No copied target / append / mask</title><rect x="800" y="750" width="350" height="116" rx="10" fill="white" stroke="#28643b" stroke-width="2"/>
+<text x="816" y="779" font-size="17" font-weight="700" fill="#192b38">B1: conditional target bypass</text>
+<text x="816" y="803" font-size="15" font-weight="400" fill="#192b38">119 pairs beyond first loss boundary</text>
+<text x="816" y="827" font-size="15" font-weight="400" fill="#192b38">No copied target / append / mask</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Missing historical connection; No complete captured access history; Native order ≠ B1 chronology</title><rect x="440" y="920" width="350" height="116" rx="10" fill="white" stroke="#9a3d65" stroke-width="2"/>
+<text x="456" y="949" font-size="17" font-weight="700" fill="#192b38">Missing historical connection</text>
+<text x="456" y="973" font-size="15" font-weight="400" fill="#192b38">No complete captured access history</text>
+<text x="456" y="997" font-size="15" font-weight="400" fill="#192b38">Native order ≠ B1 chronology</text>
+</a>
+<text x="32" y="1090" font-size="14" fill="#374e60">No duration scale, worker ordering or travel-caused reset is inferred. Layout is non-spatial.</text>
+<text x="32" y="1112" font-size="14" fill="#374e60">Ordinary native persistence is resolved; B1 firstness and its lost historical writer remain unqualified.</text>
+</g></svg>

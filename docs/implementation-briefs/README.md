@@ -1,5 +1,14 @@
 # Implementation and Audit Briefs
 
+- [D5Z visited-state provenance, persistence, reset and capacity](CODEX_BRIEF_SOR_RG2_D5Z_visited_state_persistence_reset_capacity.md):
+  invoked 2026-10-31 for offline native and justified read-only controlled-save
+  research, plus correction/incorporation of the supplied gameplay checklist.
+  [Report](../experiments/resource-retained-population/d5z-report.md),
+  [active ledger](../experiments/resource-retained-population/d5z-investigation-ledger.md),
+  [checklist](../experiments/resource-retained-population/resource-generation-gameplay-checklist.md)
+  and [review](../experiments/resource-retained-population/d5z-review.md).
+  No retail, deployment, protected-save write, staging, commit, push or publication authority.
+
 - [D5Y B1 capture forensics and recorder performance](CODEX_BRIEF_SOR_RG2_D5Y_B1_capture_forensics_recorder_performance.md):
   invoked 2026-10-31 for offline all-stage target attribution, pressure diagnosis
   and evidence-driven remedy selection. [Report](../experiments/resource-retained-population/d5y-report.md),

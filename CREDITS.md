@@ -1205,3 +1205,22 @@ operator milestones remain separate from authenticated record semantics.
 Installed CPython/Node and existing sharp/libvips supply analysis and rendered
 visual QA only. [Exact sources](docs/experiments/resource-retained-population/d5y-sources.csv)
 retain hashes and use boundaries; no new outside implementation is incorporated.
+
+The [D5Z visited-state study](docs/experiments/resource-retained-population/d5z-report.md)
+credits Bethesda's pinned native/content evidence, the maintainer's protected
+Save52 copy and supplied gameplay checklist, preserved B1 capture/operator
+milestones, D5Q–Y research and the project's owned streaming/framing/world-key
+methods. Prior source-informed mature-save/EXP0020 research retains SOR-S-0124/0132
+provenance; this is not clean-room reconstruction. Existing Ghidra/JDK, CPython
+and Node/sharp/libvips are standalone research/rendering tools. The
+[D5Z ledger](docs/experiments/resource-retained-population/d5z-sources.csv)
+pins exact sources and use boundaries. No new outside implementation is
+incorporated, and native/save/private artifacts remain local-only.
+
+Microsoft's installed Windows SDK/MSVC ABI declarations support the distinction
+between chained unwind records and callable pointers; no header text or
+implementation is incorporated.
+
+The bounded D5Z reserve-helper control executes pinned original instructions
+only in its disposable process, with synthetic recording callbacks. It uses
+the owned PE reader and does not exercise the game allocator or retail process.

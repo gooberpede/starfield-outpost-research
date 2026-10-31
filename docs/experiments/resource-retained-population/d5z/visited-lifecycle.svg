@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="context-stroke"/></marker></defs>
+<rect width="100%" height="100%" fill="#f7f8fa"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="32" y="42" font-size="26" font-weight="700" fill="#192b38">Visited-source lifecycle</text>
+<text x="32" y="72" font-size="15" fill="#374e60">Conditional native mechanisms; saved-state routes and B1 history remain separately qualified.</text>
+<text x="32" y="100" font-size="13" fill="#374e60">Solid blue: static conditional path | Green: B1 witness | Dashed amber: inference | Dashed rose: historical gap | Brown: contradicted scoped claim</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>source token</title><polyline points="382,208 416,208 416,408 450,408" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="298" y="300" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">source token</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>initial contents</title><polyline points="625,266 625,350" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="636" y="309" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">initial contents</text>
+<a href="../d5z-report.md#persistence-and-load"><title>load reset</title><polyline points="868,208 800,208" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="805" y="195" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">load reset</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>hit</title><polyline points="800,408 868,408" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="818" y="395" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">hit</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>miss</title><polyline points="625,466 625,550" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="636" y="509" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">miss</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>miss</title><polyline points="800,608 868,608" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="809" y="593" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">miss</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>attempt returns</title><polyline points="1043,666 1043,750" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="1055" y="709" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">attempt returns</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>reserve</title><polyline points="800,808 868,808" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="802" y="794" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">reserve</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>later lookup</title><polyline points="1218,808 1244,808 1244,314 730,314 730,350" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="1070" y="302" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">later lookup</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>erase</title><polyline points="382,608 450,608" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="398" y="593" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">erase</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>reset to empty</title><polyline points="32,808 18,808 18,128 625,128 625,150" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Selected source; Derived token at source +0x68; Pointer and token are distinct</title><rect x="32" y="150" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="48" y="179" font-size="17" font-weight="700" fill="#192b38">Selected source</text>
+<text x="48" y="203" font-size="15" font-weight="400" fill="#192b38">Derived token at source +0x68</text>
+<text x="48" y="227" font-size="15" font-weight="400" fill="#192b38">Pointer and token are distinct</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Empty visited store; Constructor establishes zero state; Reset clears same existing object</title><rect x="450" y="150" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="466" y="179" font-size="17" font-weight="700" fill="#192b38">Empty visited store</text>
+<text x="466" y="203" font-size="15" font-weight="400" fill="#192b38">Constructor establishes zero state</text>
+<text x="466" y="227" font-size="15" font-weight="400" fill="#192b38">Reset clears same existing object</text>
+</a>
+<a href="../d5z-report.md#persistence-and-load"><title>Saved context / world inputs; Restored separately from visited; Full load clears transient visits</title><rect x="868" y="150" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="884" y="179" font-size="17" font-weight="700" fill="#192b38">Saved context / world inputs</text>
+<text x="884" y="203" font-size="15" font-weight="400" fill="#192b38">Restored separately from visited</text>
+<text x="884" y="227" font-size="15" font-weight="400" fill="#192b38">Full load clears transient visits</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Shared visited lookup; Compare 8-byte source token; Hit bypasses before map lookup</title><rect x="450" y="350" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="466" y="379" font-size="17" font-weight="700" fill="#192b38">Shared visited lookup</text>
+<text x="466" y="403" font-size="15" font-weight="400" fill="#192b38">Compare 8-byte source token</text>
+<text x="466" y="427" font-size="15" font-weight="400" fill="#192b38">Hit bypasses before map lookup</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Visited hit: bypass; No source-map lookup or sample; No successful geometry implied</title><rect x="868" y="350" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="884" y="379" font-size="17" font-weight="700" fill="#192b38">Visited hit: bypass</text>
+<text x="884" y="403" font-size="15" font-weight="400" fill="#192b38">No source-map lookup or sample</text>
+<text x="884" y="427" font-size="15" font-weight="400" fill="#192b38">No successful geometry implied</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Source retirement; Erase pointer-map entry; Visited token survives this path</title><rect x="32" y="550" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="48" y="579" font-size="17" font-weight="700" fill="#192b38">Source retirement</text>
+<text x="48" y="603" font-size="15" font-weight="400" fill="#192b38">Erase pointer-map entry</text>
+<text x="48" y="627" font-size="15" font-weight="400" fill="#192b38">Visited token survives this path</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Unvisited: exclusive map; Full source pointer is the key; Hit skips generation and append</title><rect x="450" y="550" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="466" y="579" font-size="17" font-weight="700" fill="#192b38">Unvisited: exclusive map</text>
+<text x="466" y="603" font-size="15" font-weight="400" fill="#192b38">Full source pointer is the key</text>
+<text x="466" y="627" font-size="15" font-weight="400" fill="#192b38">Hit skips generation and append</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Pointer-map miss; Insert holder; attempt generation; Original query selects mask</title><rect x="868" y="550" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="884" y="579" font-size="17" font-weight="700" fill="#192b38">Pointer-map miss</text>
+<text x="884" y="603" font-size="15" font-weight="400" fill="#192b38">Insert holder; attempt generation</text>
+<text x="884" y="627" font-size="15" font-weight="400" fill="#192b38">Original query selects mask</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Qualifying broad reset; Release map and visited storage; Valid native state contract</title><rect x="32" y="750" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="48" y="779" font-size="17" font-weight="700" fill="#192b38">Qualifying broad reset</text>
+<text x="48" y="803" font-size="15" font-weight="400" fill="#192b38">Release map and visited storage</text>
+<text x="48" y="827" font-size="15" font-weight="400" fill="#192b38">Valid native state contract</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Dynamic array growth; 8 bytes/member; min capacity 4; Failure may skip visited write</title><rect x="450" y="750" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="466" y="779" font-size="17" font-weight="700" fill="#192b38">Dynamic array growth</text>
+<text x="466" y="803" font-size="15" font-weight="400" fill="#192b38">8 bytes/member; min capacity 4</text>
+<text x="466" y="827" font-size="15" font-weight="400" fill="#192b38">Failure may skip visited write</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Post-attempt append; Count reserve; token write; No full-geometry-success gate</title><rect x="868" y="750" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="884" y="779" font-size="17" font-weight="700" fill="#192b38">Post-attempt append</text>
+<text x="884" y="803" font-size="15" font-weight="400" fill="#192b38">Count reserve; token write</text>
+<text x="884" y="827" font-size="15" font-weight="400" fill="#192b38">No full-geometry-success gate</text>
+</a>
+<text x="32" y="950" font-size="14" fill="#374e60">Solid edges are compiled conditional operations, not a reconstructed historical arrival.</text>
+<text x="32" y="972" font-size="14" fill="#374e60">The visited reader is released before the exclusive map lock. No second visited test is established there.</text>
+</g></svg>

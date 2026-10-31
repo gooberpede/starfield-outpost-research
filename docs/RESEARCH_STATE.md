@@ -1,5 +1,19 @@
 # Current Research State
 
+**2026-10-31 — D5Z visited-state origin, reset and capacity:**
+[The ordinary native/save model](experiments/resource-retained-population/d5z-report.md)
+establishes transient visited membership, complementary full-load clears and
+separately restored context/world inputs. Dynamic storage and allocator recovery
+do not supply a dedicated visited-size/pressure reset policy in the audited
+route; arithmetic wrap is not a safe maximum. B1 has two matched empty-state
+certificates but no identified historical target append/query/mask.
+[The audited gameplay checklist](experiments/resource-retained-population/resource-generation-gameplay-checklist.md)
+preserves all 31 supplied items and corrects the complete-loading tick.
+[Causal figures](experiments/resource-retained-population/d5z/README.md) and
+[exact review](experiments/resource-retained-population/d5z-review.md) govern
+scope and acceptance. D5R stays OPEN and publication ON HOLD; no new retail,
+deployment, protected-save write, staging, commit or push.
+
 **2026-10-31 — D5Y offline B1 forensics:**
 [The retained-evidence analysis](experiments/resource-retained-population/d5y-report.md)
 finds conditional target selection/visited bypass at 119 singleton-support

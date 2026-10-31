@@ -1,0 +1,1254 @@
+{
+  "schema": "sor-d5z-causal-graphs/1",
+  "graphs": [
+    {
+      "file": "visited-lifecycle.svg",
+      "size": [
+        1280,
+        1000
+      ],
+      "title": "Visited-source lifecycle",
+      "subtitle": "Conditional native mechanisms; saved-state routes and B1 history remain separately qualified.",
+      "nodes": [
+        {
+          "id": "demand",
+          "box": [
+            32,
+            150,
+            350,
+            116
+          ],
+          "lines": [
+            "Selected source",
+            "Derived token at source +0x68",
+            "Pointer and token are distinct"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Selected source; Derived token at source +0x68; Pointer and token are distinct"
+        },
+        {
+          "id": "empty",
+          "box": [
+            450,
+            150,
+            350,
+            116
+          ],
+          "lines": [
+            "Empty visited store",
+            "Constructor establishes zero state",
+            "Reset clears same existing object"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Empty visited store; Constructor establishes zero state; Reset clears same existing object"
+        },
+        {
+          "id": "persistent",
+          "box": [
+            868,
+            150,
+            350,
+            116
+          ],
+          "lines": [
+            "Saved context / world inputs",
+            "Restored separately from visited",
+            "Full load clears transient visits"
+          ],
+          "class": "static",
+          "evidence": "../d5z-report.md#persistence-and-load",
+          "claim": "Saved context / world inputs; Restored separately from visited; Full load clears transient visits"
+        },
+        {
+          "id": "visit",
+          "box": [
+            450,
+            350,
+            350,
+            116
+          ],
+          "lines": [
+            "Shared visited lookup",
+            "Compare 8-byte source token",
+            "Hit bypasses before map lookup"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Shared visited lookup; Compare 8-byte source token; Hit bypasses before map lookup"
+        },
+        {
+          "id": "bypass",
+          "box": [
+            868,
+            350,
+            350,
+            116
+          ],
+          "lines": [
+            "Visited hit: bypass",
+            "No source-map lookup or sample",
+            "No successful geometry implied"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Visited hit: bypass; No source-map lookup or sample; No successful geometry implied"
+        },
+        {
+          "id": "retire",
+          "box": [
+            32,
+            550,
+            350,
+            116
+          ],
+          "lines": [
+            "Source retirement",
+            "Erase pointer-map entry",
+            "Visited token survives this path"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Source retirement; Erase pointer-map entry; Visited token survives this path"
+        },
+        {
+          "id": "map",
+          "box": [
+            450,
+            550,
+            350,
+            116
+          ],
+          "lines": [
+            "Unvisited: exclusive map",
+            "Full source pointer is the key",
+            "Hit skips generation and append"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Unvisited: exclusive map; Full source pointer is the key; Hit skips generation and append"
+        },
+        {
+          "id": "generate",
+          "box": [
+            868,
+            550,
+            350,
+            116
+          ],
+          "lines": [
+            "Pointer-map miss",
+            "Insert holder; attempt generation",
+            "Original query selects mask"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Pointer-map miss; Insert holder; attempt generation; Original query selects mask"
+        },
+        {
+          "id": "reset",
+          "box": [
+            32,
+            750,
+            350,
+            116
+          ],
+          "lines": [
+            "Qualifying broad reset",
+            "Release map and visited storage",
+            "Valid native state contract"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Qualifying broad reset; Release map and visited storage; Valid native state contract"
+        },
+        {
+          "id": "capacity",
+          "box": [
+            450,
+            750,
+            350,
+            116
+          ],
+          "lines": [
+            "Dynamic array growth",
+            "8 bytes/member; min capacity 4",
+            "Failure may skip visited write"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Dynamic array growth; 8 bytes/member; min capacity 4; Failure may skip visited write"
+        },
+        {
+          "id": "append",
+          "box": [
+            868,
+            750,
+            350,
+            116
+          ],
+          "lines": [
+            "Post-attempt append",
+            "Count reserve; token write",
+            "No full-geometry-success gate"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Post-attempt append; Count reserve; token write; No full-geometry-success gate"
+        }
+      ],
+      "edges": [
+        {
+          "source": "demand",
+          "target": "visit",
+          "points": [
+            [
+              382,
+              208
+            ],
+            [
+              416,
+              208
+            ],
+            [
+              416,
+              408
+            ],
+            [
+              450,
+              408
+            ]
+          ],
+          "label": "source token",
+          "label_at": [
+            298,
+            300
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "source token"
+        },
+        {
+          "source": "empty",
+          "target": "visit",
+          "points": [
+            [
+              625,
+              266
+            ],
+            [
+              625,
+              350
+            ]
+          ],
+          "label": "initial contents",
+          "label_at": [
+            636,
+            309
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "initial contents"
+        },
+        {
+          "source": "persistent",
+          "target": "empty",
+          "points": [
+            [
+              868,
+              208
+            ],
+            [
+              800,
+              208
+            ]
+          ],
+          "label": "load reset",
+          "label_at": [
+            805,
+            195
+          ],
+          "class": "static",
+          "evidence": "../d5z-report.md#persistence-and-load",
+          "claim": "load reset"
+        },
+        {
+          "source": "visit",
+          "target": "bypass",
+          "points": [
+            [
+              800,
+              408
+            ],
+            [
+              868,
+              408
+            ]
+          ],
+          "label": "hit",
+          "label_at": [
+            818,
+            395
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "hit"
+        },
+        {
+          "source": "visit",
+          "target": "map",
+          "points": [
+            [
+              625,
+              466
+            ],
+            [
+              625,
+              550
+            ]
+          ],
+          "label": "miss",
+          "label_at": [
+            636,
+            509
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "miss"
+        },
+        {
+          "source": "map",
+          "target": "generate",
+          "points": [
+            [
+              800,
+              608
+            ],
+            [
+              868,
+              608
+            ]
+          ],
+          "label": "miss",
+          "label_at": [
+            809,
+            593
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "miss"
+        },
+        {
+          "source": "generate",
+          "target": "append",
+          "points": [
+            [
+              1043,
+              666
+            ],
+            [
+              1043,
+              750
+            ]
+          ],
+          "label": "attempt returns",
+          "label_at": [
+            1055,
+            709
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "attempt returns"
+        },
+        {
+          "source": "capacity",
+          "target": "append",
+          "points": [
+            [
+              800,
+              808
+            ],
+            [
+              868,
+              808
+            ]
+          ],
+          "label": "reserve",
+          "label_at": [
+            802,
+            794
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "reserve"
+        },
+        {
+          "source": "append",
+          "target": "visit",
+          "points": [
+            [
+              1218,
+              808
+            ],
+            [
+              1244,
+              808
+            ],
+            [
+              1244,
+              314
+            ],
+            [
+              730,
+              314
+            ],
+            [
+              730,
+              350
+            ]
+          ],
+          "label": "later lookup",
+          "label_at": [
+            1070,
+            302
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "later lookup"
+        },
+        {
+          "source": "retire",
+          "target": "map",
+          "points": [
+            [
+              382,
+              608
+            ],
+            [
+              450,
+              608
+            ]
+          ],
+          "label": "erase",
+          "label_at": [
+            398,
+            593
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "erase"
+        },
+        {
+          "source": "reset",
+          "target": "empty",
+          "points": [
+            [
+              32,
+              808
+            ],
+            [
+              18,
+              808
+            ],
+            [
+              18,
+              128
+            ],
+            [
+              625,
+              128
+            ],
+            [
+              625,
+              150
+            ]
+          ],
+          "label": "",
+          "label_at": [
+            32,
+            808
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "reset to empty"
+        }
+      ],
+      "notes": [
+        "Solid edges are compiled conditional operations, not a reconstructed historical arrival.",
+        "The visited reader is released before the exclusive map lock. No second visited test is established there."
+      ]
+    },
+    {
+      "file": "reset-causes.svg",
+      "size": [
+        1280,
+        1000
+      ],
+      "title": "Broad reset: causes and effects",
+      "subtitle": "Verified lifecycle predicates; generic recovery is separate from a dedicated count-based reset policy.",
+      "nodes": [
+        {
+          "id": "context",
+          "box": [
+            32,
+            150,
+            350,
+            116
+          ],
+          "lines": [
+            "Context / owner transitions",
+            "Zero, changed or same-context",
+            "Branches choose full/false reset"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Context / owner transitions; Zero, changed or same-context; Branches choose full/false reset"
+        },
+        {
+          "id": "load",
+          "box": [
+            450,
+            150,
+            350,
+            116
+          ],
+          "lines": [
+            "Load / global type 3",
+            "Phase guard and saved comparison",
+            "Drain alone is not reset"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Load / global type 3; Phase guard and saved comparison; Drain alone is not reset"
+        },
+        {
+          "id": "world",
+          "box": [
+            868,
+            150,
+            350,
+            116
+          ],
+          "lines": [
+            "World / teardown routes",
+            "Component mismatch, game reset",
+            "Additional direct callers traced"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "World / teardown routes; Component mismatch, game reset; Additional direct callers traced"
+        },
+        {
+          "id": "manager",
+          "box": [
+            450,
+            350,
+            350,
+            116
+          ],
+          "lines": [
+            "Manager reset orchestration",
+            "Drain; acquire manager exclusive",
+            "Module +0x10 then +0x18"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Manager reset orchestration; Drain; acquire manager exclusive; Module +0x10 then +0x18"
+        },
+        {
+          "id": "purpose",
+          "box": [
+            32,
+            350,
+            350,
+            116
+          ],
+          "lines": [
+            "Compatibility / lifecycle",
+            "Coherent context replacement",
+            "Purpose inferred from predicates"
+          ],
+          "class": "inferred",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Compatibility / lifecycle; Coherent context replacement; Purpose inferred from predicates"
+        },
+        {
+          "id": "pressure",
+          "box": [
+            868,
+            350,
+            350,
+            116
+          ],
+          "lines": [
+            "Dedicated size / pressure policy",
+            "No dedicated reset guard in route",
+            "Recovery reclaims cells and heaps"
+          ],
+          "class": "contradicted",
+          "evidence": "../d5z-report.md#reset-causality-and-lifecycle-purpose",
+          "claim": "Dedicated size / pressure policy; No dedicated reset guard in route; Recovery reclaims cells and heaps"
+        },
+        {
+          "id": "landscape",
+          "box": [
+            32,
+            550,
+            350,
+            116
+          ],
+          "lines": [
+            "Landscape reset callback",
+            "Release ordinary/overlay Grids",
+            "Source retirement can erase map"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Landscape reset callback; Release ordinary/overlay Grids; Source retirement can erase map"
+        },
+        {
+          "id": "procgen",
+          "box": [
+            450,
+            550,
+            350,
+            116
+          ],
+          "lines": [
+            "ProcGen +0x18 callback",
+            "0x14079df60 \u2192 0x14079ddf0",
+            "Exclusive map + visited cleanup"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "ProcGen +0x18 callback; 0x14079df60 \u2192 0x14079ddf0; Exclusive map + visited cleanup"
+        },
+        {
+          "id": "retire",
+          "box": [
+            868,
+            550,
+            350,
+            116
+          ],
+          "lines": [
+            "Retirement is a reset?",
+            "Contradicted for visited clearing",
+            "Retirement leaves visited intact"
+          ],
+          "class": "contradicted",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Retirement is a reset?; Contradicted for visited clearing; Retirement leaves visited intact"
+        },
+        {
+          "id": "rebuild",
+          "box": [
+            450,
+            750,
+            350,
+            116
+          ],
+          "lines": [
+            "Later qualified demands",
+            "Rebuild sources / attempt geometry",
+            "Reset does not itself construct"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Later qualified demands; Rebuild sources / attempt geometry; Reset does not itself construct"
+        }
+      ],
+      "edges": [
+        {
+          "source": "context",
+          "target": "manager",
+          "points": [
+            [
+              207,
+              266
+            ],
+            [
+              207,
+              302
+            ],
+            [
+              550,
+              302
+            ],
+            [
+              550,
+              350
+            ]
+          ],
+          "label": "conditional branch",
+          "label_at": [
+            250,
+            290
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "conditional branch"
+        },
+        {
+          "source": "load",
+          "target": "manager",
+          "points": [
+            [
+              625,
+              266
+            ],
+            [
+              625,
+              350
+            ]
+          ],
+          "label": "taken reset route",
+          "label_at": [
+            636,
+            309
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "taken reset route"
+        },
+        {
+          "source": "world",
+          "target": "manager",
+          "points": [
+            [
+              1043,
+              266
+            ],
+            [
+              1043,
+              302
+            ],
+            [
+              730,
+              302
+            ],
+            [
+              730,
+              350
+            ]
+          ],
+          "label": "predicate holds",
+          "label_at": [
+            845,
+            290
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "predicate holds"
+        },
+        {
+          "source": "purpose",
+          "target": "manager",
+          "points": [
+            [
+              382,
+              408
+            ],
+            [
+              450,
+              408
+            ]
+          ],
+          "label": "why?",
+          "label_at": [
+            395,
+            394
+          ],
+          "class": "inferred",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "why?"
+        },
+        {
+          "source": "pressure",
+          "target": "manager",
+          "points": [
+            [
+              868,
+              408
+            ],
+            [
+              800,
+              408
+            ]
+          ],
+          "label": "\u2260",
+          "label_at": [
+            826,
+            394
+          ],
+          "class": "contradicted",
+          "evidence": "../d5z-report.md#reset-causality-and-lifecycle-purpose",
+          "claim": "\u2260"
+        },
+        {
+          "source": "manager",
+          "target": "landscape",
+          "points": [
+            [
+              530,
+              466
+            ],
+            [
+              530,
+              508
+            ],
+            [
+              207,
+              508
+            ],
+            [
+              207,
+              550
+            ]
+          ],
+          "label": "registered landscape first",
+          "label_at": [
+            233,
+            494
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "registered landscape first"
+        },
+        {
+          "source": "manager",
+          "target": "procgen",
+          "points": [
+            [
+              625,
+              466
+            ],
+            [
+              625,
+              550
+            ]
+          ],
+          "label": "registered ProcGen",
+          "label_at": [
+            638,
+            510
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "registered ProcGen"
+        },
+        {
+          "source": "procgen",
+          "target": "rebuild",
+          "points": [
+            [
+              625,
+              666
+            ],
+            [
+              625,
+              750
+            ]
+          ],
+          "label": "enables; not guarantees",
+          "label_at": [
+            637,
+            712
+          ],
+          "class": "inferred",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "enables; not guarantees"
+        },
+        {
+          "source": "retire",
+          "target": "procgen",
+          "points": [
+            [
+              868,
+              608
+            ],
+            [
+              800,
+              608
+            ]
+          ],
+          "label": "\u2260",
+          "label_at": [
+            826,
+            594
+          ],
+          "class": "contradicted",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "\u2260"
+        }
+      ],
+      "notes": [
+        "Starfield 1.16.244.0; base 0x140000000. Module +0x20 is a ProcGen no-op; +0x18 clears its stores.",
+        "Independently eligible lifecycle work can still reset during recovery; no universal OOM/reset exclusion."
+      ]
+    },
+    {
+      "file": "load-streaming.svg",
+      "size": [
+        1280,
+        1140
+      ],
+      "title": "Save load \u2192 streaming: order and evidence",
+      "subtitle": "Two separate lanes: compiled conditional dependencies (left) and observed B1 checkpoint windows (right).",
+      "nodes": [
+        {
+          "id": "boot",
+          "box": [
+            80,
+            150,
+            350,
+            116
+          ],
+          "lines": [
+            "Native bootstrap",
+            "Create manager if singleton absent",
+            "Global init type 3 is no-op"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Native bootstrap; Create manager if singleton absent; Global init type 3 is no-op"
+        },
+        {
+          "id": "menu",
+          "box": [
+            800,
+            150,
+            350,
+            116
+          ],
+          "lines": [
+            "B1: main menu window",
+            "Operator: no save loaded",
+            "ACK authenticates READY prefix"
+          ],
+          "class": "observed",
+          "evidence": "../d5z-state-transition-map.md#b1-checkpoint-and-reset-evidence",
+          "claim": "B1: main menu window; Operator: no save loaded; ACK authenticates READY prefix"
+        },
+        {
+          "id": "global",
+          "box": [
+            80,
+            350,
+            350,
+            116
+          ],
+          "lines": [
+            "Load reset / saved context",
+            "Type-3 saved prefix \u2192 comparison",
+            "Reset flag, not direct list restore"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Load reset / saved context; Type-3 saved prefix \u2192 comparison; Reset flag, not direct list restore"
+        },
+        {
+          "id": "pre",
+          "box": [
+            800,
+            350,
+            350,
+            116
+          ],
+          "lines": [
+            "B1: pre-travel window",
+            "110 records; zero counted loss",
+            "Includes reset triple 2 / 3 / 4"
+          ],
+          "class": "observed",
+          "evidence": "../d5z-state-transition-map.md#b1-checkpoint-and-reset-evidence",
+          "claim": "B1: pre-travel window; 110 records; zero counted loss; Includes reset triple 2 / 3 / 4"
+        },
+        {
+          "id": "ready",
+          "box": [
+            80,
+            550,
+            350,
+            116
+          ],
+          "lines": [
+            "Context / landscape readiness",
+            "Install owner and descriptor",
+            "Prerequisites permit demand"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Context / landscape readiness; Install owner and descriptor; Prerequisites permit demand"
+        },
+        {
+          "id": "second",
+          "box": [
+            800,
+            550,
+            350,
+            116
+          ],
+          "lines": [
+            "B1: later reset boundary",
+            "Triple 115 / 116 / 117",
+            "Empty-state certificate, epoch 113"
+          ],
+          "class": "observed",
+          "evidence": "../d5z-state-transition-map.md#b1-checkpoint-and-reset-evidence",
+          "claim": "B1: later reset boundary; Triple 115 / 116 / 117; Empty-state certificate, epoch 113"
+        },
+        {
+          "id": "demand",
+          "box": [
+            80,
+            750,
+            350,
+            116
+          ],
+          "lines": [
+            "Demand \u2192 visited / map gate",
+            "Eligible density or layer request",
+            "Bypass or constructing miss"
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Demand \u2192 visited / map gate; Eligible density or layer request; Bypass or constructing miss"
+        },
+        {
+          "id": "target",
+          "box": [
+            800,
+            750,
+            350,
+            116
+          ],
+          "lines": [
+            "B1: conditional target bypass",
+            "119 pairs beyond first loss boundary",
+            "No copied target / append / mask"
+          ],
+          "class": "observed",
+          "evidence": "../d5z-state-transition-map.md#b1-checkpoint-and-reset-evidence",
+          "claim": "B1: conditional target bypass; 119 pairs beyond first loss boundary; No copied target / append / mask"
+        },
+        {
+          "id": "unknown",
+          "box": [
+            440,
+            920,
+            350,
+            116
+          ],
+          "lines": [
+            "Missing historical connection",
+            "No complete captured access history",
+            "Native order \u2260 B1 chronology"
+          ],
+          "class": "open",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "Missing historical connection; No complete captured access history; Native order \u2260 B1 chronology"
+        }
+      ],
+      "edges": [
+        {
+          "source": "boot",
+          "target": "global",
+          "points": [
+            [
+              255,
+              266
+            ],
+            [
+              255,
+              350
+            ]
+          ],
+          "label": "code-path stages",
+          "label_at": [
+            267,
+            310
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "code-path stages"
+        },
+        {
+          "source": "global",
+          "target": "ready",
+          "points": [
+            [
+              255,
+              466
+            ],
+            [
+              255,
+              550
+            ]
+          ],
+          "label": "conditional transition",
+          "label_at": [
+            267,
+            510
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "conditional transition"
+        },
+        {
+          "source": "ready",
+          "target": "demand",
+          "points": [
+            [
+              255,
+              666
+            ],
+            [
+              255,
+              750
+            ]
+          ],
+          "label": "readiness prerequisites",
+          "label_at": [
+            267,
+            709
+          ],
+          "class": "static",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "readiness prerequisites"
+        },
+        {
+          "source": "menu",
+          "target": "pre",
+          "points": [
+            [
+              975,
+              266
+            ],
+            [
+              975,
+              350
+            ]
+          ],
+          "label": "operator/checkpoint sequence",
+          "label_at": [
+            650,
+            310
+          ],
+          "class": "observed",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "operator/checkpoint sequence"
+        },
+        {
+          "source": "pre",
+          "target": "second",
+          "points": [
+            [
+              975,
+              466
+            ],
+            [
+              975,
+              550
+            ]
+          ],
+          "label": "admission order",
+          "label_at": [
+            988,
+            510
+          ],
+          "class": "observed",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "admission order"
+        },
+        {
+          "source": "second",
+          "target": "target",
+          "points": [
+            [
+              975,
+              666
+            ],
+            [
+              975,
+              750
+            ]
+          ],
+          "label": "loss / invalidator gap",
+          "label_at": [
+            988,
+            710
+          ],
+          "class": "open",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "loss / invalidator gap"
+        },
+        {
+          "source": "demand",
+          "target": "unknown",
+          "points": [
+            [
+              255,
+              866
+            ],
+            [
+              255,
+              892
+            ],
+            [
+              540,
+              892
+            ],
+            [
+              540,
+              920
+            ]
+          ],
+          "label": "not an observed join",
+          "label_at": [
+            270,
+            883
+          ],
+          "class": "open",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "not an observed join"
+        },
+        {
+          "source": "target",
+          "target": "unknown",
+          "points": [
+            [
+              975,
+              866
+            ],
+            [
+              975,
+              892
+            ],
+            [
+              690,
+              892
+            ],
+            [
+              690,
+              920
+            ]
+          ],
+          "label": "origin unresolved",
+          "label_at": [
+            790,
+            883
+          ],
+          "class": "open",
+          "evidence": "../d5z-state-transition-map.md#conditional-native-sequence",
+          "claim": "origin unresolved"
+        }
+      ],
+      "notes": [
+        "No duration scale, worker ordering or travel-caused reset is inferred. Layout is non-spatial.",
+        "Ordinary native persistence is resolved; B1 firstness and its lost historical writer remain unqualified."
+      ]
+    }
+  ]
+}

@@ -1814,3 +1814,28 @@ locations remain in the source/analysis/delivery receipts. CPython, Node and
 bundled sharp/libvips are standalone analysis/rendering tools; no third-party
 implementation is incorporated. Raw/native/private evidence remains LOCAL-ONLY;
 authored aggregates and figures remain REVIEW-REQUIRED. No publication clearance.
+
+## D5Z visited state, persistence, reset and capacity
+
+[The D5Z report](experiments/resource-retained-population/d5z-report.md) and
+[exact source ledger](experiments/resource-retained-population/d5z-sources.csv)
+credit the maintainer-supplied checklist and protected controlled Save52 copy,
+Bethesda installed native/content evidence, preserved B1 observations and prior
+D5Q–Y research. Existing owned Ghidra export readers, B1 decoder/forensics,
+BCPS streaming decoder, mature-save directory and EXP0020 world-key/framing
+methods are reused with their source-informed SOR-S-0124/0132 provenance and
+standing SOR-P-0002 authority. The D5Z exporter adapts the owned D5Y exporter;
+original task scripts perform bounded read-only saved-field/capture checks and
+reproducible causal SVG generation. Ghidra/JDK, CPython/stdlib, Node and existing
+sharp/libvips execute as separate tools. No third-party implementation, new
+dependency or licence basis is incorporated. Authored metadata/interpretation
+remains REVIEW-REQUIRED; proprietary exports, saves, decoded temporary contents,
+raw captures, private receipts and analysis databases remain LOCAL-ONLY.
+Installed Microsoft Windows SDK `winnt.h` and MSVC `ehdata.h` are consulted
+read-only for runtime-function and chained-unwind field semantics. Exact versions,
+hashes and line ranges are in the D5Z source ledger and local PE verification
+receipt; no header text, implementation or new dependency is incorporated.
+The task's reserve-helper control uses the owned PE reader and one pinned
+native function in a disposable process. Synthetic allocation callbacks test
+count/index/failure control flow only; the receipt is distinct from real
+allocator recovery, full array correctness and retail behavior.

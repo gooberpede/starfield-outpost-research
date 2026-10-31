@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="context-stroke"/></marker></defs>
+<rect width="100%" height="100%" fill="#f7f8fa"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="32" y="42" font-size="26" font-weight="700" fill="#192b38">Broad reset: causes and effects</text>
+<text x="32" y="72" font-size="15" fill="#374e60">Verified lifecycle predicates; generic recovery is separate from a dedicated count-based reset policy.</text>
+<text x="32" y="100" font-size="13" fill="#374e60">Solid blue: static conditional path | Green: B1 witness | Dashed amber: inference | Dashed rose: historical gap | Brown: contradicted scoped claim</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>conditional branch</title><polyline points="207,266 207,302 550,302 550,350" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="250" y="290" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">conditional branch</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>taken reset route</title><polyline points="625,266 625,350" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="636" y="309" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">taken reset route</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>predicate holds</title><polyline points="1043,266 1043,302 730,302 730,350" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="845" y="290" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">predicate holds</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>why?</title><polyline points="382,408 450,408" fill="none" stroke="#926000" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#arrow)"/></a>
+<text x="395" y="394" font-size="13" fill="#926000" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">why?</text>
+<a href="../d5z-report.md#reset-causality-and-lifecycle-purpose"><title>≠</title><polyline points="868,408 800,408" fill="none" stroke="#7f4b40" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="826" y="394" font-size="13" fill="#7f4b40" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">≠</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>registered landscape first</title><polyline points="530,466 530,508 207,508 207,550" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="233" y="494" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">registered landscape first</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>registered ProcGen</title><polyline points="625,466 625,550" fill="none" stroke="#125c70" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="638" y="510" font-size="13" fill="#125c70" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">registered ProcGen</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>enables; not guarantees</title><polyline points="625,666 625,750" fill="none" stroke="#926000" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#arrow)"/></a>
+<text x="637" y="712" font-size="13" fill="#926000" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">enables; not guarantees</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>≠</title><polyline points="868,608 800,608" fill="none" stroke="#7f4b40" stroke-width="2.5" marker-end="url(#arrow)"/></a>
+<text x="826" y="594" font-size="13" fill="#7f4b40" paint-order="stroke" stroke="#f7f8fa" stroke-width="5" stroke-linejoin="round">≠</text>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Context / owner transitions; Zero, changed or same-context; Branches choose full/false reset</title><rect x="32" y="150" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="48" y="179" font-size="17" font-weight="700" fill="#192b38">Context / owner transitions</text>
+<text x="48" y="203" font-size="15" font-weight="400" fill="#192b38">Zero, changed or same-context</text>
+<text x="48" y="227" font-size="15" font-weight="400" fill="#192b38">Branches choose full/false reset</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Load / global type 3; Phase guard and saved comparison; Drain alone is not reset</title><rect x="450" y="150" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="466" y="179" font-size="17" font-weight="700" fill="#192b38">Load / global type 3</text>
+<text x="466" y="203" font-size="15" font-weight="400" fill="#192b38">Phase guard and saved comparison</text>
+<text x="466" y="227" font-size="15" font-weight="400" fill="#192b38">Drain alone is not reset</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>World / teardown routes; Component mismatch, game reset; Additional direct callers traced</title><rect x="868" y="150" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="884" y="179" font-size="17" font-weight="700" fill="#192b38">World / teardown routes</text>
+<text x="884" y="203" font-size="15" font-weight="400" fill="#192b38">Component mismatch, game reset</text>
+<text x="884" y="227" font-size="15" font-weight="400" fill="#192b38">Additional direct callers traced</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Manager reset orchestration; Drain; acquire manager exclusive; Module +0x10 then +0x18</title><rect x="450" y="350" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="466" y="379" font-size="17" font-weight="700" fill="#192b38">Manager reset orchestration</text>
+<text x="466" y="403" font-size="15" font-weight="400" fill="#192b38">Drain; acquire manager exclusive</text>
+<text x="466" y="427" font-size="15" font-weight="400" fill="#192b38">Module +0x10 then +0x18</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Compatibility / lifecycle; Coherent context replacement; Purpose inferred from predicates</title><rect x="32" y="350" width="350" height="116" rx="10" fill="white" stroke="#926000" stroke-width="2"/>
+<text x="48" y="379" font-size="17" font-weight="700" fill="#192b38">Compatibility / lifecycle</text>
+<text x="48" y="403" font-size="15" font-weight="400" fill="#192b38">Coherent context replacement</text>
+<text x="48" y="427" font-size="15" font-weight="400" fill="#192b38">Purpose inferred from predicates</text>
+</a>
+<a href="../d5z-report.md#reset-causality-and-lifecycle-purpose"><title>Dedicated size / pressure policy; No dedicated reset guard in route; Recovery reclaims cells and heaps</title><rect x="868" y="350" width="350" height="116" rx="10" fill="white" stroke="#7f4b40" stroke-width="2"/>
+<text x="884" y="379" font-size="17" font-weight="700" fill="#192b38">Dedicated size / pressure policy</text>
+<text x="884" y="403" font-size="15" font-weight="400" fill="#192b38">No dedicated reset guard in route</text>
+<text x="884" y="427" font-size="15" font-weight="400" fill="#192b38">Recovery reclaims cells and heaps</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Landscape reset callback; Release ordinary/overlay Grids; Source retirement can erase map</title><rect x="32" y="550" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="48" y="579" font-size="17" font-weight="700" fill="#192b38">Landscape reset callback</text>
+<text x="48" y="603" font-size="15" font-weight="400" fill="#192b38">Release ordinary/overlay Grids</text>
+<text x="48" y="627" font-size="15" font-weight="400" fill="#192b38">Source retirement can erase map</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>ProcGen +0x18 callback; 0x14079df60 → 0x14079ddf0; Exclusive map + visited cleanup</title><rect x="450" y="550" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="466" y="579" font-size="17" font-weight="700" fill="#192b38">ProcGen +0x18 callback</text>
+<text x="466" y="603" font-size="15" font-weight="400" fill="#192b38">0x14079df60 → 0x14079ddf0</text>
+<text x="466" y="627" font-size="15" font-weight="400" fill="#192b38">Exclusive map + visited cleanup</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Retirement is a reset?; Contradicted for visited clearing; Retirement leaves visited intact</title><rect x="868" y="550" width="350" height="116" rx="10" fill="white" stroke="#7f4b40" stroke-width="2"/>
+<text x="884" y="579" font-size="17" font-weight="700" fill="#192b38">Retirement is a reset?</text>
+<text x="884" y="603" font-size="15" font-weight="400" fill="#192b38">Contradicted for visited clearing</text>
+<text x="884" y="627" font-size="15" font-weight="400" fill="#192b38">Retirement leaves visited intact</text>
+</a>
+<a href="../d5z-state-transition-map.md#conditional-native-sequence"><title>Later qualified demands; Rebuild sources / attempt geometry; Reset does not itself construct</title><rect x="450" y="750" width="350" height="116" rx="10" fill="white" stroke="#125c70" stroke-width="2"/>
+<text x="466" y="779" font-size="17" font-weight="700" fill="#192b38">Later qualified demands</text>
+<text x="466" y="803" font-size="15" font-weight="400" fill="#192b38">Rebuild sources / attempt geometry</text>
+<text x="466" y="827" font-size="15" font-weight="400" fill="#192b38">Reset does not itself construct</text>
+</a>
+<text x="32" y="950" font-size="14" fill="#374e60">Starfield 1.16.244.0; base 0x140000000. Module +0x20 is a ProcGen no-op; +0x18 clears its stores.</text>
+<text x="32" y="972" font-size="14" fill="#374e60">Independently eligible lifecycle work can still reset during recovery; no universal OOM/reset exclusion.</text>
+</g></svg>
