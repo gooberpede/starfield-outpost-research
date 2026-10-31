@@ -1,0 +1,65 @@
+[
+  {
+    "name": "checkpoints/first-arrival-ack-0e2c89de49594b4f.json",
+    "phase": "first-arrival",
+    "action": "ack",
+    "second": 249.9573088,
+    "utc": "2026-10-30T23:09:13.580323+00:00"
+  },
+  {
+    "name": "checkpoints/first-arrival-request-9a8020196e107198.json",
+    "phase": "first-arrival",
+    "action": "request",
+    "second": 245.0536603,
+    "utc": "2026-10-30T23:09:08.676683+00:00"
+  },
+  {
+    "name": "checkpoints/main-menu-ack-1a73dcf1e1aad259.json",
+    "phase": "main-menu",
+    "action": "ack",
+    "second": 57.4424402,
+    "utc": "2026-10-30T23:06:01.065463+00:00"
+  },
+  {
+    "name": "checkpoints/main-menu-request-3a46d34c69cd309d.json",
+    "phase": "main-menu",
+    "action": "request",
+    "second": 53.0658791,
+    "utc": "2026-10-30T23:05:56.688902+00:00"
+  },
+  {
+    "name": "checkpoints/pre-travel-ack-c4e22e4b9c72dbcf.json",
+    "phase": "pre-travel",
+    "action": "ack",
+    "second": 165.1588306,
+    "utc": "2026-10-30T23:07:48.781840+00:00"
+  },
+  {
+    "name": "checkpoints/pre-travel-request-1fbcc95af71033ce.json",
+    "phase": "pre-travel",
+    "action": "request",
+    "second": 159.6000001,
+    "utc": "2026-10-30T23:07:43.223020+00:00"
+  },
+  {
+    "name": "checkpoints/startup-check-ack-b5a8e581abb5d9e7.json",
+    "phase": "startup-check",
+    "action": "ack",
+    "second": 30.5656604,
+    "utc": "2026-10-30T23:05:34.188679+00:00"
+  },
+  {
+    "name": "checkpoints/startup-check-request-09e50c0bf34d6915.json",
+    "phase": "startup-check",
+    "action": "request",
+    "second": 23.3750899,
+    "utc": "2026-10-30T23:05:26.998112+00:00"
+  },
+  {
+    "name": "checkpoints/stop-requested-stop-cc6e93281d118a71.json",
+    "phase": "stop-requested",
+    "action": "stop",
+    "second": 250.1425311,
+    "utc": "2026-10-30T23:09:13.765549+00:00"
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "gap_ms": 0,
+    "phase_fraction": 0,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 1,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 1,
+    "phase_fraction": 0,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 109,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 1,
+    "phase_fraction": 0.25,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 111,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 1,
+    "phase_fraction": 0.5,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 108,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 1,
+    "phase_fraction": 0.75,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 109,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 5,
+    "phase_fraction": 0,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 385,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 5,
+    "phase_fraction": 0.25,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 360,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 5,
+    "phase_fraction": 0.5,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 403,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 5,
+    "phase_fraction": 0.75,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 416,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 20,
+    "phase_fraction": 0,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 175,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 20,
+    "phase_fraction": 0.25,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 1021,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 20,
+    "phase_fraction": 0.5,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 0,
+    "simulated_peak": 935,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 20,
+    "phase_fraction": 0.75,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 7,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 50,
+    "phase_fraction": 0,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 175,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 50,
+    "phase_fraction": 0.25,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 546,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 50,
+    "phase_fraction": 0.5,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 875,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 50,
+    "phase_fraction": 0.75,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 206,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 100,
+    "phase_fraction": 0,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 2441,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 100,
+    "phase_fraction": 0.25,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 2503,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 100,
+    "phase_fraction": 0.5,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 2008,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 100,
+    "phase_fraction": 0.75,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 2547,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 500,
+    "phase_fraction": 0,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 10979,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 500,
+    "phase_fraction": 0.25,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 10883,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 500,
+    "phase_fraction": 0.5,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 11847,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 500,
+    "phase_fraction": 0.75,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 11179,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 1206.5674,
+    "phase_fraction": 0,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 13512,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 1206.5674,
+    "phase_fraction": 0.25,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 14532,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 1206.5674,
+    "phase_fraction": 0.5,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 14257,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  },
+  {
+    "gap_ms": 1206.5674,
+    "phase_fraction": 0.75,
+    "admitted_input_records": 19780,
+    "simulated_refusals": 13330,
+    "simulated_peak": 1024,
+    "actual_dropped_attempts_included": false,
+    "assumption": "serial reservations; instantaneous snapshot drain at periodic ticks"
+  }
+]

@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<title>B1 admitted chronology: dense travel-period bursts</title>
+<style>text{font-family:Arial,sans-serif;fill:#223247;font-size:15px}.small{font-size:13px}.title{font-size:26px;font-weight:bold}.sub{font-size:16px}.axis{stroke:#8b97a5;stroke-width:1}</style>
+<rect width="1200" height="760" fill="#f8fafc"/>
+<text x="32" y="40" class="title" >B1 admitted chronology: dense travel-period bursts</text>
+<text x="32" y="70" class="sub" >Retail primary evidence; 1-second QPC buckets. Empty admitted bins do not establish native inactivity.</text>
+<rect x="36.000" y="93.000" width="15.000" height="15.000" fill="#316c9b" opacity="1"/>
+<text x="57" y="106" class="small" >Provider</text>
+<rect x="261.000" y="93.000" width="15.000" height="15.000" fill="#21a08b" opacity="1"/>
+<text x="282" y="106" class="small" >Selected</text>
+<rect x="486.000" y="93.000" width="15.000" height="15.000" fill="#e7ae3b" opacity="1"/>
+<text x="507" y="106" class="small" >Visited</text>
+<rect x="711.000" y="93.000" width="15.000" height="15.000" fill="#8555a1" opacity="1"/>
+<text x="732" y="106" class="small" >Construction</text>
+<rect x="936.000" y="93.000" width="15.000" height="15.000" fill="#a96d46" opacity="1"/>
+<text x="957" y="106" class="small" >Lifecycle / READY</text>
+<text x="80" y="162" class="sub" >Full session and external checkpoint bounds</text>
+<rect x="983.442" y="174.000" width="27.497" height="150.000" fill="#e78a8a" opacity="0.18"/>
+<line x1="80.000" y1="324.000" x2="1120.000" y2="324.000" stroke="#d9e0e7" stroke-dasharray=""/>
+<text x="72" y="328.0" class="small" text-anchor="end">0</text>
+<line x1="80.000" y1="249.000" x2="1120.000" y2="249.000" stroke="#d9e0e7" stroke-dasharray=""/>
+<text x="72" y="253.0" class="small" text-anchor="end">3000</text>
+<line x1="80.000" y1="174.000" x2="1120.000" y2="174.000" stroke="#d9e0e7" stroke-dasharray=""/>
+<text x="72" y="178.0" class="small" text-anchor="end">6000</text>
+<rect x="80.000" y="324.000" width="3.467" height="0.000" fill="#316c9b" opacity="1"/>
+<rect x="80.000" y="324.000" width="3.467" height="0.000" fill="#21a08b" opacity="1"/>
+<rect x="80.000" y="324.000" width="3.467" height="0.000" fill="#e7ae3b" opacity="1"/>
+<rect x="80.000" y="324.000" width="3.467" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="80.000" y="323.975" width="3.467" height="0.025" fill="#a96d46" opacity="1"/>
+<rect x="589.804" y="324.000" width="3.467" height="0.000" fill="#316c9b" opacity="1"/>
+<rect x="589.804" y="324.000" width="3.467" height="0.000" fill="#21a08b" opacity="1"/>
+<rect x="589.804" y="324.000" width="3.467" height="0.000" fill="#e7ae3b" opacity="1"/>
+<rect x="589.804" y="324.000" width="3.467" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="589.804" y="323.925" width="3.467" height="0.075" fill="#a96d46" opacity="1"/>
+<rect x="602.039" y="324.000" width="3.467" height="0.000" fill="#316c9b" opacity="1"/>
+<rect x="602.039" y="324.000" width="3.467" height="0.000" fill="#21a08b" opacity="1"/>
+<rect x="602.039" y="324.000" width="3.467" height="0.000" fill="#e7ae3b" opacity="1"/>
+<rect x="602.039" y="324.000" width="3.467" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="602.039" y="321.350" width="3.467" height="2.650" fill="#a96d46" opacity="1"/>
+<rect x="981.333" y="280.850" width="3.467" height="43.150" fill="#316c9b" opacity="1"/>
+<rect x="981.333" y="252.000" width="3.467" height="28.850" fill="#21a08b" opacity="1"/>
+<rect x="981.333" y="223.250" width="3.467" height="28.750" fill="#e7ae3b" opacity="1"/>
+<rect x="981.333" y="221.600" width="3.467" height="1.650" fill="#8555a1" opacity="1"/>
+<rect x="981.333" y="219.075" width="3.467" height="2.525" fill="#a96d46" opacity="1"/>
+<rect x="985.412" y="289.625" width="3.467" height="34.375" fill="#316c9b" opacity="1"/>
+<rect x="985.412" y="265.825" width="3.467" height="23.800" fill="#21a08b" opacity="1"/>
+<rect x="985.412" y="242.075" width="3.467" height="23.750" fill="#e7ae3b" opacity="1"/>
+<rect x="985.412" y="242.075" width="3.467" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="985.412" y="242.075" width="3.467" height="0.000" fill="#a96d46" opacity="1"/>
+<rect x="989.490" y="267.575" width="3.467" height="56.425" fill="#316c9b" opacity="1"/>
+<rect x="989.490" y="227.725" width="3.467" height="39.850" fill="#21a08b" opacity="1"/>
+<rect x="989.490" y="187.875" width="3.467" height="39.850" fill="#e7ae3b" opacity="1"/>
+<rect x="989.490" y="187.875" width="3.467" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="989.490" y="187.875" width="3.467" height="0.000" fill="#a96d46" opacity="1"/>
+<rect x="1001.725" y="308.025" width="3.467" height="15.975" fill="#316c9b" opacity="1"/>
+<rect x="1001.725" y="297.425" width="3.467" height="10.600" fill="#21a08b" opacity="1"/>
+<rect x="1001.725" y="286.825" width="3.467" height="10.600" fill="#e7ae3b" opacity="1"/>
+<rect x="1001.725" y="286.700" width="3.467" height="0.125" fill="#8555a1" opacity="1"/>
+<rect x="1001.725" y="286.700" width="3.467" height="0.000" fill="#a96d46" opacity="1"/>
+<rect x="1005.804" y="297.550" width="3.467" height="26.450" fill="#316c9b" opacity="1"/>
+<rect x="1005.804" y="279.250" width="3.467" height="18.300" fill="#21a08b" opacity="1"/>
+<rect x="1005.804" y="260.950" width="3.467" height="18.300" fill="#e7ae3b" opacity="1"/>
+<rect x="1005.804" y="260.375" width="3.467" height="0.575" fill="#8555a1" opacity="1"/>
+<rect x="1005.804" y="260.375" width="3.467" height="0.000" fill="#a96d46" opacity="1"/>
+<rect x="1009.882" y="301.050" width="3.467" height="22.950" fill="#316c9b" opacity="1"/>
+<rect x="1009.882" y="281.125" width="3.467" height="19.925" fill="#21a08b" opacity="1"/>
+<rect x="1009.882" y="261.225" width="3.467" height="19.900" fill="#e7ae3b" opacity="1"/>
+<rect x="1009.882" y="261.100" width="3.467" height="0.125" fill="#8555a1" opacity="1"/>
+<rect x="1009.882" y="261.000" width="3.467" height="0.100" fill="#a96d46" opacity="1"/>
+<rect x="1013.961" y="322.300" width="3.467" height="1.700" fill="#316c9b" opacity="1"/>
+<rect x="1013.961" y="320.900" width="3.467" height="1.400" fill="#21a08b" opacity="1"/>
+<rect x="1013.961" y="319.500" width="3.467" height="1.400" fill="#e7ae3b" opacity="1"/>
+<rect x="1013.961" y="319.500" width="3.467" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="1013.961" y="319.500" width="3.467" height="0.000" fill="#a96d46" opacity="1"/>
+<rect x="1018.039" y="324.000" width="3.467" height="0.000" fill="#316c9b" opacity="1"/>
+<rect x="1018.039" y="324.000" width="3.467" height="0.000" fill="#21a08b" opacity="1"/>
+<rect x="1018.039" y="324.000" width="3.467" height="0.000" fill="#e7ae3b" opacity="1"/>
+<rect x="1018.039" y="324.000" width="3.467" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="1018.039" y="323.650" width="3.467" height="0.350" fill="#a96d46" opacity="1"/>
+<text x="80.0" y="344" class="small" text-anchor="middle">0</text>
+<text x="283.92156862745094" y="344" class="small" text-anchor="middle">50</text>
+<text x="487.84313725490193" y="344" class="small" text-anchor="middle">100</text>
+<text x="691.7647058823529" y="344" class="small" text-anchor="middle">150</text>
+<text x="895.6862745098039" y="344" class="small" text-anchor="middle">200</text>
+<text x="1099.6078431372548" y="344" class="small" text-anchor="middle">250</text>
+<line x1="80.000" y1="324.000" x2="1120.000" y2="324.000" stroke="#8b97a5" stroke-dasharray=""/>
+<text x="600.0" y="367" class="small" text-anchor="middle">Seconds from first admitted event (QPC)</text>
+<text x="80" y="143" class="small" >Admitted records per 1-second bin</text>
+<rect x="296.426" y="174.000" width="17.849" height="150.000" fill="#536980" opacity="0.1"/>
+<text x="305.35025882352943" y="193" class="small" text-anchor="middle">main menu</text>
+<rect x="730.918" y="174.000" width="22.671" height="150.000" fill="#536980" opacity="0.1"/>
+<text x="742.2532392156862" y="193" class="small" text-anchor="middle">loaded / pre-travel</text>
+<rect x="1079.435" y="174.000" width="19.999" height="150.000" fill="#536980" opacity="0.1"/>
+<text x="1089.4341960784313" y="193" class="small" text-anchor="middle">arrival</text>
+<line x1="1100.189" y1="174.000" x2="1100.189" y2="324.000" stroke="#b53838" stroke-dasharray="4 3"/>
+<text x="1100" y="391" class="small" text-anchor="end">STOP at 250.14 s</text>
+<text x="80" y="440" class="sub" >Travel-period detail; peak bin contains 5,445 admitted records</text>
+<rect x="211.473" y="452.000" width="584.307" height="160.000" fill="#e78a8a" opacity="0.18"/>
+<line x1="80.000" y1="612.000" x2="1120.000" y2="612.000" stroke="#d9e0e7" stroke-dasharray=""/>
+<text x="72" y="616.0" class="small" text-anchor="end">0</text>
+<line x1="80.000" y1="532.000" x2="1120.000" y2="532.000" stroke="#d9e0e7" stroke-dasharray=""/>
+<text x="72" y="536.0" class="small" text-anchor="end">3000</text>
+<line x1="80.000" y1="452.000" x2="1120.000" y2="452.000" stroke="#d9e0e7" stroke-dasharray=""/>
+<text x="72" y="456.0" class="small" text-anchor="end">6000</text>
+<rect x="166.667" y="565.973" width="73.667" height="46.027" fill="#316c9b" opacity="1"/>
+<rect x="166.667" y="535.200" width="73.667" height="30.773" fill="#21a08b" opacity="1"/>
+<rect x="166.667" y="504.533" width="73.667" height="30.667" fill="#e7ae3b" opacity="1"/>
+<rect x="166.667" y="502.773" width="73.667" height="1.760" fill="#8555a1" opacity="1"/>
+<rect x="166.667" y="500.080" width="73.667" height="2.693" fill="#a96d46" opacity="1"/>
+<rect x="253.333" y="575.333" width="73.667" height="36.667" fill="#316c9b" opacity="1"/>
+<rect x="253.333" y="549.947" width="73.667" height="25.387" fill="#21a08b" opacity="1"/>
+<rect x="253.333" y="524.613" width="73.667" height="25.333" fill="#e7ae3b" opacity="1"/>
+<rect x="253.333" y="524.613" width="73.667" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="253.333" y="524.613" width="73.667" height="0.000" fill="#a96d46" opacity="1"/>
+<rect x="340.000" y="551.813" width="73.667" height="60.187" fill="#316c9b" opacity="1"/>
+<rect x="340.000" y="509.307" width="73.667" height="42.507" fill="#21a08b" opacity="1"/>
+<rect x="340.000" y="466.800" width="73.667" height="42.507" fill="#e7ae3b" opacity="1"/>
+<rect x="340.000" y="466.800" width="73.667" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="340.000" y="466.800" width="73.667" height="0.000" fill="#a96d46" opacity="1"/>
+<rect x="600.000" y="594.960" width="73.667" height="17.040" fill="#316c9b" opacity="1"/>
+<rect x="600.000" y="583.653" width="73.667" height="11.307" fill="#21a08b" opacity="1"/>
+<rect x="600.000" y="572.347" width="73.667" height="11.307" fill="#e7ae3b" opacity="1"/>
+<rect x="600.000" y="572.213" width="73.667" height="0.133" fill="#8555a1" opacity="1"/>
+<rect x="600.000" y="572.213" width="73.667" height="0.000" fill="#a96d46" opacity="1"/>
+<rect x="686.667" y="583.787" width="73.667" height="28.213" fill="#316c9b" opacity="1"/>
+<rect x="686.667" y="564.267" width="73.667" height="19.520" fill="#21a08b" opacity="1"/>
+<rect x="686.667" y="544.747" width="73.667" height="19.520" fill="#e7ae3b" opacity="1"/>
+<rect x="686.667" y="544.133" width="73.667" height="0.613" fill="#8555a1" opacity="1"/>
+<rect x="686.667" y="544.133" width="73.667" height="0.000" fill="#a96d46" opacity="1"/>
+<rect x="773.333" y="587.520" width="73.667" height="24.480" fill="#316c9b" opacity="1"/>
+<rect x="773.333" y="566.267" width="73.667" height="21.253" fill="#21a08b" opacity="1"/>
+<rect x="773.333" y="545.040" width="73.667" height="21.227" fill="#e7ae3b" opacity="1"/>
+<rect x="773.333" y="544.907" width="73.667" height="0.133" fill="#8555a1" opacity="1"/>
+<rect x="773.333" y="544.800" width="73.667" height="0.107" fill="#a96d46" opacity="1"/>
+<rect x="860.000" y="610.187" width="73.667" height="1.813" fill="#316c9b" opacity="1"/>
+<rect x="860.000" y="608.693" width="73.667" height="1.493" fill="#21a08b" opacity="1"/>
+<rect x="860.000" y="607.200" width="73.667" height="1.493" fill="#e7ae3b" opacity="1"/>
+<rect x="860.000" y="607.200" width="73.667" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="860.000" y="607.200" width="73.667" height="0.000" fill="#a96d46" opacity="1"/>
+<rect x="946.667" y="612.000" width="73.667" height="0.000" fill="#316c9b" opacity="1"/>
+<rect x="946.667" y="612.000" width="73.667" height="0.000" fill="#21a08b" opacity="1"/>
+<rect x="946.667" y="612.000" width="73.667" height="0.000" fill="#e7ae3b" opacity="1"/>
+<rect x="946.667" y="612.000" width="73.667" height="0.000" fill="#8555a1" opacity="1"/>
+<rect x="946.667" y="611.627" width="73.667" height="0.373" fill="#a96d46" opacity="1"/>
+<text x="80.0" y="632" class="small" text-anchor="middle">220</text>
+<text x="253.33333333333331" y="632" class="small" text-anchor="middle">222</text>
+<text x="426.66666666666663" y="632" class="small" text-anchor="middle">224</text>
+<text x="600.0" y="632" class="small" text-anchor="middle">226</text>
+<text x="773.3333333333333" y="632" class="small" text-anchor="middle">228</text>
+<text x="946.6666666666667" y="632" class="small" text-anchor="middle">230</text>
+<text x="1120.0" y="632" class="small" text-anchor="middle">232</text>
+<line x1="80.000" y1="612.000" x2="1120.000" y2="612.000" stroke="#8b97a5" stroke-dasharray=""/>
+<text x="600.0" y="655" class="small" text-anchor="middle">Seconds from first admitted event (QPC)</text>
+<text x="80" y="421" class="small" >Admitted records per 1-second bin</text>
+<text x="32" y="685" class="small" >Red band: admission-boundary proxy for the lossy portion, not exact loss-time bounds; drop times and types are unknown.</text>
+<text x="32" y="711" class="small" >Load and travel transitions are operator reports bounded by checks. No exact transition timestamp is inferred.</text>
+<text x="32" y="737" class="small" >Source: capture01.zip / events.bin + authenticated external checkpoints; 19,780 admitted records, 9,957 reported losses.</text>
+</svg>

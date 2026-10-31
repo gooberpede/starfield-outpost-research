@@ -1,0 +1,98 @@
+[
+  {
+    "start_ticks": 2619875036404,
+    "duration_ms": 20,
+    "admitted_inputs_during_pause": 1,
+    "simulated_refusals": 0,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2619875036404,
+    "duration_ms": 287.5799,
+    "admitted_inputs_during_pause": 1,
+    "simulated_refusals": 0,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2619875036404,
+    "duration_ms": 1206.5674,
+    "admitted_inputs_during_pause": 1,
+    "simulated_refusals": 0,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2622105036404,
+    "duration_ms": 20,
+    "admitted_inputs_during_pause": 262,
+    "simulated_refusals": 0,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2622105036404,
+    "duration_ms": 287.5799,
+    "admitted_inputs_during_pause": 3010,
+    "simulated_refusals": 1986,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2622105036404,
+    "duration_ms": 1206.5674,
+    "admitted_inputs_during_pause": 5445,
+    "simulated_refusals": 4421,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2622095036404,
+    "duration_ms": 20,
+    "admitted_inputs_during_pause": 0,
+    "simulated_refusals": 0,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2622095036404,
+    "duration_ms": 287.5799,
+    "admitted_inputs_during_pause": 0,
+    "simulated_refusals": 0,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2622095036404,
+    "duration_ms": 1206.5674,
+    "admitted_inputs_during_pause": 5487,
+    "simulated_refusals": 4463,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2622086022219,
+    "duration_ms": 20,
+    "admitted_inputs_during_pause": 4,
+    "simulated_refusals": 0,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2622086022219,
+    "duration_ms": 287.5799,
+    "admitted_inputs_during_pause": 101,
+    "simulated_refusals": 0,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  },
+  {
+    "start_ticks": 2622086022219,
+    "duration_ms": 1206.5674,
+    "admitted_inputs_during_pause": 4197,
+    "simulated_refusals": 3173,
+    "initial_backlog": 0,
+    "assumption": "one pause; otherwise instantaneous per-record drain; serial reservations"
+  }
+]

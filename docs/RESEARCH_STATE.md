@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-10-31 — D5Y offline B1 forensics:**
+[The retained-evidence analysis](experiments/resource-retained-population/d5y-report.md)
+finds conditional target selection/visited bypass at 119 singleton-support
+observations, without copied target identity or historical first-construction
+proof. Capacity loss, bursty admissions and long flush latency are supported;
+untimed cumulative telemetry cannot identify a unique drain bottleneck.
+[The remedy decision](experiments/resource-retained-population/d5y-decision.md)
+retains unchanged native/readers and proposes specific future diagnostics.
+[Exact review](experiments/resource-retained-population/d5y-review.md) governs
+acceptance. Frozen B1 PARTIAL NATIVE COVERAGE, D5R OPEN and publication ON HOLD
+remain; no new retail action is authorized.
+
 **2026-10-31 — D5X-B1 approved retail trial:**
 [The one-visit result](experiments/resource-retained-population/d5x-b1-live-report.md)
 is PARTIAL NATIVE COVERAGE: 19 authenticated ordinary paths on other source keys,

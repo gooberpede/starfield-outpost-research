@@ -1196,3 +1196,12 @@ D5X observer and offline B1 reporter, and R1's archive-backed protection methods
 Its direct runtime witnesses remain distinct from operator milestones and from
 unproved target construction. Installed CPython/Windows APIs supply bounded
 control/authentication/archive operations; no new external implementation is reused.
+
+The [D5Y B1 forensic analysis](docs/experiments/resource-retained-population/d5y-report.md)
+credits the maintainer's B1 observations and the existing D5X observer/readers,
+D5Q–W native studies, installed-corpus provenance and owned occupancy/export
+methods. Bethesda's executable/content supplies the pinned native evidence;
+operator milestones remain separate from authenticated record semantics.
+Installed CPython/Node and existing sharp/libvips supply analysis and rendered
+visual QA only. [Exact sources](docs/experiments/resource-retained-population/d5y-sources.csv)
+retain hashes and use boundaries; no new outside implementation is incorporated.

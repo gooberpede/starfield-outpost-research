@@ -1,0 +1,24 @@
+{
+  "schema": "sor-d5y-figures/1",
+  "classification": "REVIEW-REQUIRED; publication ON HOLD",
+  "analysis_sha256": "21fd85a95453bbb51e14c1e84929f2ed00020af9bada346cd01527a1af25ff9a",
+  "renderer_sha256": "1e66fe4088982dd16f7e7e56584031997729e2685895532685c37181b6e6b583",
+  "inputs": {
+    "checkpoints.json": "e6b76fd215d6a95635d5bd018c7bb88cc29badd496ba298089f48253aebb6d53",
+    "chronology.csv": "0f86b10f98410b4f1a60aec87b4024af94ab16357eb561b2c33ecc6f899473fd",
+    "chronology.svg": "eee09fb7312ee6c5331ca7e79215fa77edbb3608839b6bd6e0686ced1f20211b",
+    "conditional-target.csv": "a9e3db3e0faf65db2fe6a4736e9153fb4ed42e34796f97c42d1ef7a19345cab4",
+    "isolated-pauses.json": "86275955b0dc2deb2c20565c73d31849d0e0e7b052d7c03a08195fc45e19b9aa",
+    "pointer-envelopes.csv": "6cfd8177fc2b013538cf792a9d5aff58a53274b26c35457abf9205e4aa63ef30",
+    "replay.json": "7a9455ef83b0f9cb161e3dc13fdab7b13214a9963a5f34bf32e665f5f1456c0d",
+    "requests.csv": "184b2a60684a0697f4d84ca237e18617f7120de29c20f8962ad0b709145a05bb",
+    "source-depth.csv": "8fcfffdfff7b55cb46a53eb8f5a8a17512cecf410ba5b311c1dd6d25562dc49b",
+    "spatial-controls.json": "3ea409c4bd1ce129cc898e05781c9daac8597daaef6c7ee178cf84ff6ec77088",
+    "summary.json": "9362fcd593a3209527450dc0f14f9da92915e82fe838ace723271fc7e8ce9f87",
+    "target-depth.svg": "8d90d187db515498e38b74365ccc185fcee2a3a53219046bc850d9902193ac7c",
+    "writer-progress.csv": "e9a907443b6a363828ae72c743d23408950be6b06e46e08e58f8ee5136cb8c78",
+    "writer-progress.svg": "235e89fd5c67f67ea50f2519727fae0fb046d137c6c9d141b92a611f3514f78d"
+  },
+  "replay": "Run the same figure command into a fresh ignored directory and compare bytes.",
+  "geographic_overlay": "Omitted: bypass-only invocations lack direct frame/Grid witnesses; historical outpost centre is not a fresh runtime join."
+}

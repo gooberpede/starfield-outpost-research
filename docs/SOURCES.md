@@ -1800,3 +1800,17 @@ Actual retail session/flush/ACK/terminal and protection receipts are primary
 evidence; operator statements are separate source-reported gameplay milestones.
 The lossless archive preserves raw originals, all LOCAL-ONLY. No decoder/native
 implementation, new dependency or publication clearance is introduced.
+
+## D5Y B1 capture forensics
+
+[The D5Y report](experiments/resource-retained-population/d5y-report.md) and
+[exact source ledger](experiments/resource-retained-population/d5y-sources.csv)
+credit the maintainer-operated B1 trial, unchanged D5X observer/readers, D5Q–W
+native/source studies and the API-restored D5R installed corpus. The new offline
+analysis calls the owned fixed decoder and B1 path checker without changing them;
+its installed-anchor search adapts owned `resource-query-reachability/occupancy.py`.
+The patch exporter adapts owned `d5x_export.py`. Exact hashes and scoped claim
+locations remain in the source/analysis/delivery receipts. CPython, Node and
+bundled sharp/libvips are standalone analysis/rendering tools; no third-party
+implementation is incorporated. Raw/native/private evidence remains LOCAL-ONLY;
+authored aggregates and figures remain REVIEW-REQUIRED. No publication clearance.

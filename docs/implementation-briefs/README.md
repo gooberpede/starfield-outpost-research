@@ -1,5 +1,12 @@
 # Implementation and Audit Briefs
 
+- [D5Y B1 capture forensics and recorder performance](CODEX_BRIEF_SOR_RG2_D5Y_B1_capture_forensics_recorder_performance.md):
+  invoked 2026-10-31 for offline all-stage target attribution, pressure diagnosis
+  and evidence-driven remedy selection. [Report](../experiments/resource-retained-population/d5y-report.md),
+  [ledger](../experiments/resource-retained-population/d5y-investigation-ledger.md)
+  and [review](../experiments/resource-retained-population/d5y-review.md).
+  No live, deployment, save, staging, commit, push or publication authority.
+
 - [D5W normal resource-generation operating contract](CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md):
   invoked 2026-10-30 for offline ordinary-path, authority and three-level stability
   research, with conditional save gates and independent completeness review.

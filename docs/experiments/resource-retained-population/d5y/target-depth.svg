@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<title>B1 target observation depth and conditional spatial control</title>
+<style>text{font-family:Arial,sans-serif;fill:#223247;font-size:15px}.small{font-size:13px}.title{font-size:26px;font-weight:bold}.sub{font-size:16px}.axis{stroke:#8b97a5;stroke-width:1}</style>
+<rect width="1200" height="720" fill="#f8fafc"/>
+<text x="32" y="40" class="title" >B1 target observation depth and conditional spatial control</text>
+<text x="32" y="70" class="sub" >Direct copied identity, conditional attribution and known non-target paths have different evidence strength.</text>
+<rect x="32.000" y="125.000" width="1136.000" height="135.000" fill="#e9edf2" opacity="1"/>
+<text x="50" y="152" class="sub" >Exact target key: 0:37536:20928:0029d20e</text>
+<text x="50" y="180" class="small" >No copied target identity in any of the 116 valid source-bearing records.</text>
+<text x="50" y="205" class="small" >First / last positive: unavailable. Selection, bypass, lookup and sample identity remain unqualified.</text>
+<text x="50" y="230" class="small" >This does not establish zero native executions or zero target selections.</text>
+<rect x="32.000" y="285.000" width="1136.000" height="163.000" fill="#fff2d5" opacity="1"/>
+<text x="50" y="312" class="sub" >P20: conditional target candidate; no copied geographic identity</text>
+<text x="50" y="340" class="small" >228 selections → 228 visited bypasses; 227 status/hazard-valid paired observations.</text>
+<text x="50" y="365" class="small" >119 valid singleton-support selections / 97 distinct cells → 119 valid paired bypasses.</text>
+<text x="50" y="390" class="small" >First / last singleton selection: 3297 / 10445. No lookup, descriptor or sample for this pointer.</text>
+<text x="50" y="415" class="small" >Requires the frozen frame/content/current-Grid premises; losses precede this candidate.</text>
+<rect x="32.000" y="475.000" width="1136.000" height="135.000" fill="#e1f1eb" opacity="1"/>
+<text x="50" y="502" class="sub" >Byte-identified same-owner non-target controls</text>
+<text x="50" y="530" class="small" >24 protected map decisions → 19 misses + 5 hits → 19 consumed descriptors → 19 samples.</text>
+<text x="50" y="555" class="small" >19 complete ordinary paths, all owner FormID 0x0005e0de; none has the target source key.</text>
+<text x="50" y="580" class="small" >Across 36 selected pointer values, 17 have no source-byte copy; no cross-loss lifetime claim.</text>
+<text x="32" y="658" class="small" >119 singleton paths provide conditional visited-depth evidence, not an authenticated map decision or historical winner.</text>
+<text x="32" y="687" class="small" >Frozen B1 outcome remains PARTIAL NATIVE COVERAGE; D5R OPEN. No retry, B2, deployment or publication authority.</text>
+</svg>

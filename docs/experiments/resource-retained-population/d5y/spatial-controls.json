@@ -1,0 +1,22 @@
+{
+  "lookups": 24,
+  "compatible": 24,
+  "singleton_controls": 7,
+  "conditional_singleton_selections": 119,
+  "conditional_singleton_bypasses": 119,
+  "first_conditional_selection": 3297,
+  "last_conditional_selection": 10445,
+  "target_block_dimensions": [
+    14,
+    14
+  ],
+  "target_pattern_entry": [
+    "0029d20e",
+    136
+  ],
+  "necessary_unobserved_premises": [
+    "same effective descriptor at bypass invocation",
+    "current ordinary Grid and installed content binding",
+    "no hidden rebase/retirement/allocation substitution across loss"
+  ]
+}
