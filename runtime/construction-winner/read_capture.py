@@ -199,28 +199,57 @@ def inspect(folder, dll_sha256):
     loss_first=loss_last=0
     uncertain_loss_bounds=False
     id_hash = hashlib.sha256(identity_bytes).hexdigest()
+    prior_ack_records = -1
+    ack_drops = 0
     for line in acknowledgments.splitlines(keepends=True):
         if not line.endswith(b'\n'):
             damage.append('TORN_ACK')
             break
         try:
             ack = json.loads(line)
+            if version3:
+                assert isinstance(ack, dict)
+                assert all(type(ack[k]) is int and ack[k] >= 0 for k in ('records', 'bytes', 'prefix_crc32'))
+                assert ack['records'] > prior_ack_records
+                assert 0 <= ack['prefix_crc32'] <= 0xffffffff
+                assert all(type(ack[k]) is int and ack[k] >= 0 for k in (
+                    'drops', 'queue_full', 'contention_exhausted', 'reentrant_losses',
+                    'first_loss_sampled_admission', 'last_loss_sampled_admission',
+                    'loss_generation') if k in ack)
+                assert 'loss_bounds_uncertain' not in ack or type(ack['loss_bounds_uncertain']) is bool
+                assert ack.get('drops', 0) >= ack_drops
+                if all(k in ack for k in ('drops','queue_full','contention_exhausted','reentrant_losses')):
+                    assert ack['drops'] == sum(ack[k] for k in ('queue_full','contention_exhausted','reentrant_losses'))
             assert ack['identity_sha256'] == id_hash
             assert ack['bytes'] == ack['records'] * (SIZE + 16)
             assert ack['bytes'] <= valid_bytes
             assert zlib.crc32(raw[:ack['bytes']]) == ack['prefix_crc32']
+            prior_ack_records = ack['records']
             if terminal and ack['records'] > terminal['acknowledged']:
                 continue
             durable = max(durable, ack['records'])
+            if version3:
+                ack_drops = max(ack_drops, ack.get('drops', 0))
             uncertain_loss_bounds|=ack.get('loss_bounds_uncertain',False)
             first=ack.get('first_loss_sampled_admission',0)
             if first:loss_first=min(loss_first or first,first)
             loss_last=max(loss_last,ack.get('last_loss_sampled_admission',0))
-        except (ValueError, AssertionError, KeyError):
+        except (ValueError, AssertionError, KeyError, TypeError):
             damage.append('ACK_INTEGRITY_OR_PREFIX')
             break
     if ready:
         assert ready['nonce'] == identity['nonce'] and ready['dll_sha256'] == dll_sha256 and ready['hooks'] == hooks and ready['ready'] is True
+    if version3 and terminal:
+        counts = ('written', 'flushed', 'acknowledged', 'enqueued', 'drops',
+                  'queue_full', 'contention_exhausted', 'reentrant_losses')
+        accounting_valid = all(type(terminal.get(k)) is int and terminal[k] >= 0 for k in counts)
+        if accounting_valid:
+            accounting_valid = (terminal['drops'] == sum(terminal[k] for k in counts[-3:]) and
+                                terminal['drops'] >= ack_drops and
+                                terminal['acknowledged'] <= terminal['flushed'] <= terminal['written'] <= len(events) and
+                                terminal['enqueued'] >= origin + terminal['written'])
+        if not accounting_valid or type(terminal.get('failed')) is not bool:
+            damage.append('TERMINAL_ACCOUNTING_INVALID')
     if version3:
         import importlib.util
         spec=importlib.util.spec_from_file_location('sor_reduce_v3',Path(__file__).with_name('reduce_v3.py'))
@@ -232,15 +261,38 @@ def inspect(folder, dll_sha256):
         result=reducer.reduce(events[:durable],reduce,source_key,first_loss,last_loss)
     else:
         result = reduce(events[:durable])
+    terminal_ok = bool(terminal and not terminal['failed'])
+    if version3:
+        terminal_ok = bool(terminal_ok and type(terminal.get('output_faults')) is int and
+                           terminal['output_faults'] == 0 and terminal.get('output_fault') == 'none')
     result.update(schema='sor-d5x-reduction/2' if version3 else 'sor-d5x-reduction/1', retail=identity['retail'], ready_installed=bool(ready),
                   durable_records=durable, parsed_records=len(events), raw_bytes=len(raw), damage=damage,
-                  terminal_success=bool(terminal and not terminal['failed']),
-                  complete_session=bool(terminal and not terminal['failed'] and not damage and
+                  terminal_success=terminal_ok,
+                  complete_session=bool(terminal_ok and (not version3 or ready) and not damage and
                       durable==terminal['flushed']==terminal['written']==terminal['acknowledged'] and
                       terminal['enqueued']==origin+durable and len(raw)==durable*(SIZE+16)),
                   terminal=terminal, identity_sha256=id_hash,
                   raw_sha256=hashlib.sha256(raw).hexdigest(), flush_sha256=hashlib.sha256(acknowledgments).hexdigest(),
                   native_activity_absence_proven=False)
+    if version3:
+        # A valid prefix remains useful when finalization or framing fails. It
+        # does not meet P2's stronger finalized-session firstness contract.
+        candidates = result['chains']
+        refusals = []
+        if damage:
+            refusals.append('SESSION_INTEGRITY_DAMAGE')
+        if not result['complete_session']:
+            refusals.append('SESSION_FINALIZATION_INCOMPLETE')
+        losses = terminal.get('drops', 0) if terminal else 0
+        if first_loss or last_loss or loss_first or loss_last or uncertain_loss_bounds or losses or ack_drops:
+            refusals.append('SESSION_NATIVE_EVENT_LOSS')
+        result.update(candidate_chains=candidates, firstness_refusals=refusals,
+                      native_source_lifetime_qualified=False,
+                      scientific_firstness_qualified=False,
+                      qualification_scope='Offline witness logic only; native source lifetime requires P1/P3.')
+        if refusals:
+            result['chains'] = []
+            result['diagnostics'].extend(dict(outcome=reason) for reason in refusals)
     return result
 
 

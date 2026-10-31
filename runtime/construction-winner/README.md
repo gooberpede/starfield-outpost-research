@@ -1,6 +1,9 @@
 # Construction-winner observer: D5AB candidate
 
-Offline candidate 0.3.0, schema `sor-d5x/3`. [D5AB report](../../docs/experiments/resource-retained-population/d5ab-report.md),
+Offline candidate 0.3.0, schema `sor-d5x/3`, with P2 controller/consumer qualification.
+[P2 ledger](../../docs/experiments/resource-retained-population/d5ab-p2-investigation-ledger.md)
+records the active work; final qualification is governed by its report and review.
+[D5AB report](../../docs/experiments/resource-retained-population/d5ab-report.md),
 [native map](../../docs/experiments/resource-retained-population/d5ab-native-map.md)
 and [schema delta](../../docs/experiments/resource-retained-population/d5ab-architecture-schema.md)
 govern qualification. **No retail operation or deployment is authorized.**
@@ -49,12 +52,30 @@ scan, geometry-array capture or target filtering. STOP leaves resident wrappers
 forwarding originals; hot unloading/unpatching is unsupported. General asynchronous
 unwinding through generated trampolines remains unqualified.
 
-`worker_health.py --watch` is a future live control operation, **NOT AUTHORIZED**
-by this task. It binds READY's worker TID/creation time to a retained query/
-synchronization handle and detects actual exit without a deadline. It does not
-attach a debugger, pause, inject, modify, terminate or send STOP. A separately
-approved B2 controller must keep its watcher process handle and verify fresh ACK
-identity using the published tuple; watcher failure makes health unknown.
+`controller.py` binds the actual worker query/synchronization handle, process birth,
+session identity, fresh challenge ACK and durable raw/ACK prefix. It holds an
+exclusive controller lock, authenticates its own STOP bytes and reconciles closed
+evidence before declaring admitted-record completion. Delayed ACKs remain alive
+and pending without a retirement deadline. Disconnect and controller-process death
+release the lock; reconnect requires a fresh worker lease and challenge.
+It deliberately accepts disposable sessions only. No live use is authorized.
+`worker_health.py --watch` is an older unqualified helper; its STOP-file-based exit
+label is not the P2 controller or proof of authenticated finalization.
+
+Run the actual-worker controls against a completed build:
+
+```powershell
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5ab_p2_controller.py --parallel .local-work/d5x/BUILD p2-controller-UNIQUE
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5ab_p2_reader.py .local-work/d5x/BUILD .local-work/d5ab/p2-reader-UNIQUE
+```
+
+The controller tests create synthetic impairment commands only in their own
+disposable hosts. They preserve intentional writer/flush/ACK/guard faults,
+unexpected worker exit, missing terminal and damaged closed-evidence derivatives.
+Finite engineering waits do not define live monitoring policy. The final schema-3
+reader separates authenticated prefix candidates from finalized chain claims,
+refuses damaged/incomplete/loss-contaminated sessions, and labels native source
+lifetime unqualified. Schema-2 B1 interpretation remains separately tested.
 
 The owned D5X/R1 transport, patch admission, existing native/export controls and
 protection methods are reused under SOR-P-0002 with [provenance](../../docs/experiments/resource-retained-population/d5ab-sources.csv).

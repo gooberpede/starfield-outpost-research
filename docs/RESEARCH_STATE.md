@@ -1,5 +1,14 @@
 # Current Research State
 
+**2026-11-01 — D5AB P2 offline qualification:**
+[The P2 report](experiments/resource-retained-population/d5ab-p2-report.md)
+and [active ledger](experiments/resource-retained-population/d5ab-p2-investigation-ledger.md)
+track actual recorder/controller integration, explicit compiled queue envelopes
+and stricter finalized-session consumer claims. [Independent review](experiments/resource-retained-population/d5ab-p2-review.md)
+accepts P2 COMPLETE within its offline engineering scope. Source ownership/lifetime remains unqualified for
+P1/P3; parent D5AB remains INCOMPLETE / REWORK, D5R OPEN and B2 NOT AUTHORIZED.
+No new gameplay fact, protected-save change, retail run or publication follows.
+
 **2026-10-31 — D5AB bounded handoff, INCOMPLETE / REWORK:**
 [The active ledger](experiments/resource-retained-population/d5ab-investigation-ledger.md)
 tracks constructor/publication and consumed-token identity, actual reserve/store,

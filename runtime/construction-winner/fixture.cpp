@@ -165,7 +165,10 @@ extern "C" __declspec(dllexport) int D5X_Qualify(const wchar_t* output,const wch
   unsigned char nonce[16]{};check(BCryptGenRandom(nullptr,nonce,16,BCRYPT_USE_SYSTEM_PREFERRED_RNG)>=0);
   HMODULE self{};wchar_t path[32768]{};check(GetModuleHandleExW(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS|GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT,(LPCWSTR)&D5X_Qualify,&self));check(GetModuleFileNameW(self,path,32768));
   LARGE_INTEGER frequency{};QueryPerformanceFrequency(&frequency);
+  FILETIME process_created{},process_exited{},process_kernel{},process_user{};
+  check(GetProcessTimes(GetCurrentProcess(),&process_created,&process_exited,&process_kernel,&process_user));
   identity="{\"schema\":\"sor-d5x/3\",\"retail\":false,\"sequence_origin\":"+std::to_string(sequence_origin)+",\"nonce\":"+sor::quote(sor::sha_bytes(nonce,16))+",\"pid\":"+std::to_string(GetCurrentProcessId())+",\"dll_sha256\":"+sor::quote(sor::sha_file(path))+",\"host_sha256\":"+sor::quote(sor::sha_file(host))+",\"qpc_frequency\":"+std::to_string(frequency.QuadPart)+",\"sites\":"+sites;
+  identity+=",\"creation_filetime\":"+std::to_string((U(process_created.dwHighDateTime)<<32)|process_created.dwLowDateTime);
   auto id=identity+"}\n";identity_hash=sor::sha_bytes(id.data(),id.size());check(sor::write_new(session/L"identity.json",id));
   raw=CreateFileW((session/L"events.bin").c_str(),GENERIC_WRITE,FILE_SHARE_READ,nullptr,CREATE_NEW,FILE_ATTRIBUTE_NORMAL,nullptr);
   ack=CreateFileW((session/L"flush.jsonl").c_str(),GENERIC_WRITE,FILE_SHARE_READ,nullptr,CREATE_NEW,FILE_ATTRIBUTE_NORMAL,nullptr);check(raw!=INVALID_HANDLE_VALUE&&ack!=INVALID_HANDLE_VALUE);
@@ -182,6 +185,43 @@ extern "C" __declspec(dllexport) int D5X_Qualify(const wchar_t* output,const wch
   check(sor::write_new(session/L"request-reader-diagnostic.json","{\"inherited_stream_ok\":"+std::string(probe_ok?"true":"false")+",\"bytes\":"+std::to_string(probe.size())+"}\n"));
   for(unsigned i=0;i<60000&&!std::filesystem::exists(session/L"ack-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.json")&&!broken.load();++i)Sleep(1);
   check(std::filesystem::exists(session/L"ack-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.json"));
+  if(s==L"controller-host"){
+   // Commands affect this disposable host only. No new native hook semantics.
+   check(sor::write_new(session/L"host-online.json","{\"disposable\":true}\n"));
+   while(enabled.load()){
+    auto command=session/L"fixture-command.txt";
+    if(std::filesystem::exists(command)){
+     HANDLE command_file=INVALID_HANDLE_VALUE;
+     // Atomic publication can overlap a transient rename/scan handle. Match the
+     // recorder request reader's sharing policy; never retry other error classes.
+     for(unsigned attempt=0;attempt<200;++attempt){
+      command_file=CreateFileW(command.c_str(),GENERIC_READ,FILE_SHARE_READ|FILE_SHARE_WRITE|FILE_SHARE_DELETE,nullptr,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,nullptr);
+      if(command_file!=INVALID_HANDLE_VALUE)break;
+      DWORD error=GetLastError();fprintf(stderr,"fixture command open error %lu attempt %u\n",error,attempt);
+      if(error!=ERROR_SHARING_VIOLATION&&error!=ERROR_LOCK_VIOLATION)break;
+      Sleep(5);
+     }
+     check(command_file!=INVALID_HANDLE_VALUE);LARGE_INTEGER command_size{};char command_bytes[128]{};DWORD command_read{};
+     bool command_ok=GetFileSizeEx(command_file,&command_size)&&command_size.QuadPart>0&&command_size.QuadPart<=128&&ReadFile(command_file,command_bytes,DWORD(command_size.QuadPart),&command_read,nullptr)&&command_read==command_size.QuadPart;
+     CloseHandle(command_file);check(command_ok);std::string action(command_bytes,command_read);
+     check(std::filesystem::remove(command));
+     if(action=="pause")fixture_flush_pause_ms=3000;
+     else if(action=="write")fixture_fault=2;
+     else if(action=="raw-flush")fixture_fault=3;
+     else if(action=="ack-flush")fixture_fault=4;
+     else if(action=="ack-write")fixture_fault=5;
+     else if(action=="disk")fixture_fault=1;
+     else if(action=="exit")fixture_fault=6;
+     else if(action=="guard")fixture_fault=7;
+     else if(action=="missing-terminal")fixture_fault=8;
+     else if(action=="loss")forced_retry();
+     else check(false);
+     check(sor::write_new(session/(L"command-"+std::wstring(action.begin(),action.end())+L".json"),"{\"accepted\":true}\n"));
+    }
+    Event event{};event.kind=Ready;event.epoch=epoch;emit(event);Sleep(2);
+   }
+   check(WaitForSingleObject(thread,60000)==WAIT_OBJECT_0);CloseHandle(thread);return 0;
+  }
   Model m;model=&m;
   if(s!=L"prior-unknown"&&s!=L"ready-only")fixture_reset(m.proc_identity,0,0,0);
   std::vector<U> timing;

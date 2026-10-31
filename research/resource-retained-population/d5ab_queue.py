@@ -32,10 +32,15 @@ def main():
     assert per_producer in (3000,8000)
     run_src=out/'queue_stress.generated.cpp'
     text=src.read_text().replace('i<3000','i<'+str(per_producer)).replace('U(p)*3000','U(p)*'+str(per_producer))
+    text=text.replace('burst_per_producer=3000','burst_per_producer='+str(per_producer))
     text=text.replace('sequence+drops==12000','sequence+drops=='+str(4*per_producer)).replace('capacity<12000','capacity<'+str(4*per_producer))
     text=text.replace('burst_offered\\\":12000','burst_offered\\\":'+str(4*per_producer))
     run_src.write_text(text,encoding='utf8',newline='\n')
-    inputs = {str(p): sha(p) for p in (src, src.with_name('observer.h'), VC,run_src)}
+    inputs = {str(p): sha(p) for p in (src, src.with_name('observer.h'), VC,run_src,Path(__file__))}
+    snapshot = out / 'sources'
+    snapshot.mkdir()
+    for p in (src, src.with_name('observer.h'), Path(__file__)):
+        (snapshot / p.name).write_bytes(p.read_bytes())
     commands = [f'call "{VC}"', 'if errorlevel 1 exit /b 1']
     for capacity in (1024, 8192, 32768):
         commands += [f'cl /nologo /std:c++20 /EHsc /W4 /O2 /MD /DSOR_QUEUE_CAPACITY={capacity} /I"{src.parent}" "{run_src}" /Fe:queue-{capacity}.exe /Fo:queue-{capacity}.obj /link /Brepro /INCREMENTAL:NO',
@@ -52,10 +57,18 @@ def main():
             run = subprocess.run([str(exe)], cwd=out, capture_output=True)
             (out / f'{capacity}-{repeat}.stdout').write_bytes(run.stdout)
             (out / f'{capacity}-{repeat}.stderr').write_bytes(run.stderr)
+            (out / f'{capacity}-{repeat}.exit.json').write_text(json.dumps(dict(
+                returncode=run.returncode, capacity=capacity, repeat=repeat,
+                executable_sha256=sha(exe), inputs=inputs), indent=2)+'\n',
+                encoding='utf8', newline='\n')
             assert run.returncode == 0, (capacity, repeat, run.stderr)
             result = json.loads(run.stdout)
             assert result['capacity'] == capacity and result['passed']
             assert result['burst_offered']==4*per_producer
+            assert result['cell_bytes'] * capacity == result['queue_bytes']
+            assert result['lossless_offered'] == 16000 and result['lossless_losses'] == 0
+            assert result['lossless_ticks'] > 0
+            result['lossless_records_per_second'] = result['lossless_offered'] * result['qpc_frequency'] / result['lossless_ticks']
             results.append(dict(result, repeat=repeat, executable_sha256=sha(exe)))
     assert all(sha(p) == h for p, h in inputs.items())
     receipt = dict(schema='sor-d5ab-queue-tests/1', inputs=inputs, initial_free=free,

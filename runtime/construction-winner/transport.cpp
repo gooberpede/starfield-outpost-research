@@ -73,7 +73,7 @@ bool drain(){Measure measure{Drain};Event e{};bool changed=false;U limit=enqueue
   if(!flush(ack,true))return false;acknowledged=flushed.load();
  }return true;
 }
-bool guards(){Measure measure{Guard};for(auto& p:edits)if(!match(p,true)){output_fault="hook_guard";return false;}
+bool guards(){Measure measure{Guard};if(fixture_fault==7){output_fault="fixture_guard";return false;}for(auto& p:edits)if(!match(p,true)){output_fault="hook_guard";return false;}
  if(!relay_page||sor::sha_bytes(relay_page,4096)!=relay_sha256){output_fault="relay_guard";return false;}
  for(unsigned i=0;i<7;++i){unsigned char bytes[32]{};if(!read(guarded_targets[i],bytes,32)||sor::sha_bytes(bytes,32)!=guarded_hashes[i]){output_fault="target_guard";return false;}}
  return true;}
@@ -93,6 +93,8 @@ DWORD worker_body(){
  while(ok&&enabled){
   U now=clock_ticks();if(last_wake){auto elapsed=now-last_wake;auto& t=timing[Wake];++t.count;t.total+=elapsed;t.maximum=std::max(t.maximum,elapsed);}last_wake=now;
   ok=disk()&&guards()&&(fixture_pause.load()||drain());
+  // Disposable worker-exit control: no terminal receipt can be inferred from it.
+  if(fixture_fault==6){enabled=false;broken=true;return 90;}
   std::error_code error;if(fs::exists(session/L"STOP",error))enabled=false;if(error)ok=false;
   std::error_code request_error;
   if(ok&&enabled&&fs::exists(session/L"request.txt",request_error)){
@@ -110,7 +112,7 @@ DWORD worker_body(){
  {Measure shutdown{Shutdown};while(active.load())Sleep(10);
  if(!drain())broken=true;}
  auto terminal=identity+",\"written\":"+std::to_string(written)+",\"flushed\":"+std::to_string(flushed)+",\"enqueued\":"+std::to_string(enqueue.load())+metrics()+",\"failed\":"+(broken?"true":"false")+",\"resident_inert\":true}\n";
- sor::write_new(session/L"terminal.json",terminal);CloseHandle(raw);CloseHandle(ack);return 0;
+ if(fixture_fault!=8)sor::write_new(session/L"terminal.json",terminal);CloseHandle(raw);CloseHandle(ack);return 0;
 }
 DWORD WINAPI worker(void*){
  FILETIME created{},exited{},kernel{},user{};worker_tid=GetCurrentThreadId();

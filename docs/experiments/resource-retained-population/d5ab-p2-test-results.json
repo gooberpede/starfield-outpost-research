@@ -1,0 +1,860 @@
+{
+  "schema": "sor-d5ab-p2-qualified-components/1",
+  "scope": "Offline engineering only; source lifetime unqualified; B2 NOT AUTHORIZED",
+  "receipts": {
+    ".local-work\\d5x\\p2-native06\\build.json": "e7eb4971c3c618e95fee32d55f537a00f06c4b0ea13ddbbb8add43ce6e649549",
+    ".local-work\\d5ab\\p2-controller07\\receipt.json": "dfc04afa64fdd90a2b6024783aaa638398bc3481141d06fe896296efd724183f",
+    ".local-work\\d5ab\\p2-queue06\\receipt.json": "52cb5d7ab9c152b40419e355a9df338dc20c95b42ba09a1b6a7337d644037b58",
+    ".local-work\\d5ab\\p2-reader-final02\\receipt.json": "71c717beac1c5955310a927d8c4f0f0b246c742fc32d68ea579d911f58bec453",
+    ".local-work\\d5ab\\p2-sharing01\\receipt.json": "a82ce3904c1d46f115608884abb71cec66a1f89071d37802a4621e174821fe38",
+    ".local-work\\d5ab\\p2-legacy-semantics01\\receipt.json": "f079fded7a4595dcdbb01026e01f4f6efb56fa45e86fd1cc9c0e2b37385bf744"
+  },
+  "components": {
+    "runtime\\construction-winner\\bridges.asm": "146dea4b35b7fda3794333ee0230374fcfdc4769b5efe03f18a356ddd2037ffc",
+    "runtime\\construction-winner\\build.py": "591b95012b62cdf3c31d98fed08a7e437890f244fca7e201cdb9a460d7d958e9",
+    "runtime\\construction-winner\\controller.py": "7e616f0c723d1ad6d40a53ea10d474c9183b825c4c8e4365871d2804f6691c60",
+    "runtime\\construction-winner\\fixture.asm": "b0c5c3e21a2e76865e71050b70b8541357d804646a3cdf84f1e1e0ae251aa166",
+    "runtime\\construction-winner\\fixture.cpp": "e9f86f02e24afe351fe833c423dc51aa664964da81dfc7a9489398b14675b82a",
+    "runtime\\construction-winner\\host.cpp": "c3e35e2cb40c04f2cd997081d97ced7bc959e8b79b1d7733e09163c4ae85a1ac",
+    "runtime\\construction-winner\\observer.h": "ec2d731e861ede71a5159f1aae1c0cacb39d04a73c7da7b6771a184233801e81",
+    "runtime\\construction-winner\\patch.h": "d7e476af9a7bcf3b434c7444134e7c11bc3e583c526334e3f2d78afdd49a2c23",
+    "runtime\\construction-winner\\plugin.cpp": "387c2bad2239da8459534c0788f0af30c2255a165f62f9977f9c3330015caed0",
+    "runtime\\construction-winner\\queue_stress.cpp": "51de4ff8853b6d04c8b0e5484e5542612fdfece113e1d40bf56b0c57e0521899",
+    "runtime\\construction-winner\\README.md": "b939edae0f8cdd7229a9f2a9e8b80f2604aa19041aa9f10bdda8949d39c85e45",
+    "runtime\\construction-winner\\read_capture.py": "e3dd554f39f236ffff41dbd8a4ed427ed02f6836e08ef6cce2b377f85860211f",
+    "runtime\\construction-winner\\reduce_v3.py": "d99f8f940e5d2212f8e75f9b1bc2fb743fd0deca7fec2dc9b8ae9281803a7624",
+    "runtime\\construction-winner\\transport.cpp": "b0af448303b28e7eb0e983733b07a130504d3e65737f159fe01b45b0006d6f4b",
+    "runtime\\construction-winner\\transport.h": "445cd01f9cb0faa41f5c9e197efd59e5f22dc358b3e538ca72b822f13f5c8c16",
+    "runtime\\construction-winner\\worker_health.py": "1b6b64e70dde16a57eab65e3d05e76c998b1973ee419897fb291c8ed414b42bb",
+    "runtime\\exp0002\\core.h": "23e652812c32c72664f90edfe4103158aed0b7735563438ce324f44116a990f9",
+    "runtime\\exp0002\\win_support.h": "8448738cea1cd1133a0716ef6eddc8e739741c3e83ee5e760bce4b681f888d57",
+    "runtime\\exp0002\\third_party\\sfse\\PluginAPI.h": "7b0bccaa54d7c65de4ee428b17c1fda9adb7b0bc8a880a432d0d848fff3ce4ab",
+    "runtime\\exp0002\\third_party\\sfse\\LICENSE.txt": "7795510c3ee9970b5843639d79b7ab6d87d1a14a1e110e92fd0b09ff0e7628da"
+  },
+  "dll_sha256": "a47e5204b03f0590628c636f2fb1382227ba34569205420f110a9929656b01a1",
+  "unchanged_native_boundaries": {
+    "runtime/construction-winner/observer.h": "ec2d731e861ede71a5159f1aae1c0cacb39d04a73c7da7b6771a184233801e81",
+    "runtime/construction-winner/bridges.asm": "146dea4b35b7fda3794333ee0230374fcfdc4769b5efe03f18a356ddd2037ffc",
+    "runtime/construction-winner/fixture.asm": "b0c5c3e21a2e76865e71050b70b8541357d804646a3cdf84f1e1e0ae251aa166",
+    "runtime/construction-winner/patch.h": "d7e476af9a7bcf3b434c7444134e7c11bc3e583c526334e3f2d78afdd49a2c23",
+    "runtime/construction-winner/plugin.cpp": "387c2bad2239da8459534c0788f0af30c2255a165f62f9977f9c3330015caed0"
+  },
+  "repeated_dll_build": {
+    "prior": ".local-work\\d5x\\p2-repro01",
+    "identical_sha256": true,
+    "build_receipt_sha256": "08e675e7016fa7994e390e2b3c6b5743f899f7ef696096c2e3675d2b4b44f7e5",
+    "control_cases": 2,
+    "limit": "Identical final inputs and DLL bytes in a separate build; two reproduction controls do not replace the full 61-case suite."
+  },
+  "native_cases": 61,
+  "consumer_checks": 202,
+  "controller_cases": [
+    {
+      "case": "normal",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 103,
+        "parsed_records": 103,
+        "raw_bytes": 33784,
+        "damage": []
+      }
+    },
+    {
+      "case": "delay",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "ALIVE_ACK_PENDING",
+        "ALIVE_ACK_PENDING",
+        "HEALTHY",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 306,
+        "parsed_records": 306,
+        "raw_bytes": 100368,
+        "damage": []
+      }
+    },
+    {
+      "case": "disconnect",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "DUPLICATE_CONTROLLER_REJECTED",
+        "RECONNECTED_HEALTHY",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 136,
+        "parsed_records": 136,
+        "raw_bytes": 44608,
+        "damage": []
+      }
+    },
+    {
+      "case": "controller-death",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "ACTIVE_CHILD_OWNER_REJECTED",
+        "CONTROLLER_CRASH_RESTART_HEALTHY",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 161,
+        "parsed_records": 161,
+        "raw_bytes": 52808,
+        "damage": []
+      }
+    },
+    {
+      "case": "identity",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "REJECTED_nonce",
+        "REJECTED_creation_filetime",
+        "REJECTED_pid",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 45,
+        "parsed_records": 45,
+        "raw_bytes": 14760,
+        "damage": []
+      }
+    },
+    {
+      "case": "write",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "EXIT_FAULT"
+      ],
+      "readback": {
+        "complete_session": false,
+        "durable_records": 51,
+        "parsed_records": 51,
+        "raw_bytes": 16728,
+        "damage": []
+      }
+    },
+    {
+      "case": "raw-flush",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "EXIT_FAULT"
+      ],
+      "readback": {
+        "complete_session": false,
+        "durable_records": 39,
+        "parsed_records": 44,
+        "raw_bytes": 14432,
+        "damage": []
+      }
+    },
+    {
+      "case": "ack-flush",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "EXIT_FAULT"
+      ],
+      "readback": {
+        "complete_session": false,
+        "durable_records": 25,
+        "parsed_records": 30,
+        "raw_bytes": 9840,
+        "damage": []
+      }
+    },
+    {
+      "case": "ack-write",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "EXIT_FAULT"
+      ],
+      "readback": {
+        "complete_session": false,
+        "durable_records": 21,
+        "parsed_records": 24,
+        "raw_bytes": 7872,
+        "damage": []
+      }
+    },
+    {
+      "case": "disk",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "EXIT_FAULT"
+      ],
+      "readback": {
+        "complete_session": false,
+        "durable_records": 49,
+        "parsed_records": 49,
+        "raw_bytes": 16072,
+        "damage": []
+      }
+    },
+    {
+      "case": "exit",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "EXIT_INCOMPLETE"
+      ],
+      "readback": {
+        "complete_session": false,
+        "durable_records": 45,
+        "parsed_records": 45,
+        "raw_bytes": 14760,
+        "damage": []
+      }
+    },
+    {
+      "case": "guard",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "EXIT_FAULT"
+      ],
+      "readback": {
+        "complete_session": false,
+        "durable_records": 28,
+        "parsed_records": 28,
+        "raw_bytes": 9184,
+        "damage": []
+      }
+    },
+    {
+      "case": "missing-terminal",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "EXIT_INCOMPLETE"
+      ],
+      "readback": {
+        "complete_session": false,
+        "durable_records": 102,
+        "parsed_records": 102,
+        "raw_bytes": 33456,
+        "damage": []
+      }
+    },
+    {
+      "case": "loss",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "ALIVE_LOSS",
+        "STOPPED_LOSS"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 152,
+        "parsed_records": 152,
+        "raw_bytes": 49856,
+        "damage": []
+      }
+    },
+    {
+      "case": "unowned-stop",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "EXIT_UNOWNED_STOP"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 85,
+        "parsed_records": 85,
+        "raw_bytes": 27880,
+        "damage": []
+      }
+    },
+    {
+      "case": "damaged-ack",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "ACK_REJECTED",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 170,
+        "parsed_records": 170,
+        "raw_bytes": 55760,
+        "damage": []
+      }
+    },
+    {
+      "case": "stale-ack",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "ACK_REJECTED",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 59,
+        "parsed_records": 59,
+        "raw_bytes": 19352,
+        "damage": []
+      }
+    },
+    {
+      "case": "closed-raw-tail",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "STOPPED_COMPLETE",
+        "CLOSED_DAMAGE_REJECTED"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 45,
+        "parsed_records": 45,
+        "raw_bytes": 14760,
+        "damage": []
+      }
+    },
+    {
+      "case": "closed-ack-tail",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "STOPPED_COMPLETE",
+        "CLOSED_DAMAGE_REJECTED"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 49,
+        "parsed_records": 49,
+        "raw_bytes": 16072,
+        "damage": []
+      }
+    },
+    {
+      "case": "closed-duplicate-ack",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "STOPPED_COMPLETE",
+        "CLOSED_DAMAGE_REJECTED"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 42,
+        "parsed_records": 42,
+        "raw_bytes": 13776,
+        "damage": []
+      }
+    },
+    {
+      "case": "loss-denial",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "ACK_REJECTED",
+        "STOPPED_LOSS"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 104,
+        "parsed_records": 104,
+        "raw_bytes": 34112,
+        "damage": []
+      }
+    },
+    {
+      "case": "negative-loss",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "ACK_REJECTED",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 82,
+        "parsed_records": 82,
+        "raw_bytes": 26896,
+        "damage": []
+      }
+    },
+    {
+      "case": "string-loss",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "ACK_REJECTED",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 80,
+        "parsed_records": 80,
+        "raw_bytes": 26240,
+        "damage": []
+      }
+    },
+    {
+      "case": "boolean-loss",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "ACK_REJECTED",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 94,
+        "parsed_records": 94,
+        "raw_bytes": 30832,
+        "damage": []
+      }
+    },
+    {
+      "case": "loss-cause-mismatch",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "ACK_REJECTED",
+        "STOPPED_COMPLETE"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 68,
+        "parsed_records": 68,
+        "raw_bytes": 22304,
+        "damage": []
+      }
+    },
+    {
+      "case": "regressing-loss",
+      "pass_test": true,
+      "states": [
+        "HEALTHY",
+        "MODELED_PRIOR_LOSS_MAXIMUM",
+        "ACK_REJECTED",
+        "STOPPED_LOSS"
+      ],
+      "readback": {
+        "complete_session": true,
+        "durable_records": 73,
+        "parsed_records": 73,
+        "raw_bytes": 23944,
+        "damage": []
+      }
+    }
+  ],
+  "legacy_semantic_regressions": 54,
+  "file_sharing_control": {
+    "passed": true,
+    "old_policy_open_error": 32,
+    "final_state": "STOPPED_LOSS"
+  },
+  "queue_runs": [
+    {
+      "passed": true,
+      "capacity": 1024,
+      "event_bytes": 312,
+      "cell_bytes": 320,
+      "queue_bytes": 327680,
+      "concurrent_admitted": 42357,
+      "concurrent_losses": 53643,
+      "concurrent_full_losses": 53643,
+      "concurrent_contention_losses": 0,
+      "concurrent_retries": 50510,
+      "concurrent_high_water": 1024,
+      "hot_offered": 76800,
+      "hot_losses": 41,
+      "hot_retries": 153012,
+      "hot_high_water": 384,
+      "lossless_offered": 16000,
+      "lossless_losses": 0,
+      "lossless_ticks": 125433093,
+      "lossless_high_water": 16,
+      "lossless_retries": 550,
+      "burst_offered": 32000,
+      "burst_losses": 30976,
+      "burst_full_losses": 30976,
+      "burst_contention_losses": 0,
+      "burst_high_water": 1024,
+      "peak_working_set_bytes": 10297344,
+      "peak_pagefile_bytes": 7602176,
+      "measured_burst_and_closeout_ticks": 163842890,
+      "qpc_frequency": 10000000,
+      "lossless_records_per_second": 1275.580440322874,
+      "repeat": 0,
+      "executable_sha256": "3cd01d4530b1353777fbe37d0cf45a9db9042645863f1efe06499e54801ce945"
+    },
+    {
+      "passed": true,
+      "capacity": 1024,
+      "event_bytes": 312,
+      "cell_bytes": 320,
+      "queue_bytes": 327680,
+      "concurrent_admitted": 42683,
+      "concurrent_losses": 53317,
+      "concurrent_full_losses": 53317,
+      "concurrent_contention_losses": 0,
+      "concurrent_retries": 37442,
+      "concurrent_high_water": 1024,
+      "hot_offered": 76800,
+      "hot_losses": 32,
+      "hot_retries": 153448,
+      "hot_high_water": 384,
+      "lossless_offered": 16000,
+      "lossless_losses": 0,
+      "lossless_ticks": 123003157,
+      "lossless_high_water": 16,
+      "lossless_retries": 538,
+      "burst_offered": 32000,
+      "burst_losses": 30976,
+      "burst_full_losses": 30976,
+      "burst_contention_losses": 0,
+      "burst_high_water": 1024,
+      "peak_working_set_bytes": 10485760,
+      "peak_pagefile_bytes": 8069120,
+      "measured_burst_and_closeout_ticks": 164041696,
+      "qpc_frequency": 10000000,
+      "lossless_records_per_second": 1300.7796214531306,
+      "repeat": 1,
+      "executable_sha256": "3cd01d4530b1353777fbe37d0cf45a9db9042645863f1efe06499e54801ce945"
+    },
+    {
+      "passed": true,
+      "capacity": 1024,
+      "event_bytes": 312,
+      "cell_bytes": 320,
+      "queue_bytes": 327680,
+      "concurrent_admitted": 47712,
+      "concurrent_losses": 48288,
+      "concurrent_full_losses": 48288,
+      "concurrent_contention_losses": 0,
+      "concurrent_retries": 37179,
+      "concurrent_high_water": 1024,
+      "hot_offered": 76800,
+      "hot_losses": 20,
+      "hot_retries": 151163,
+      "hot_high_water": 381,
+      "lossless_offered": 16000,
+      "lossless_losses": 0,
+      "lossless_ticks": 125184922,
+      "lossless_high_water": 16,
+      "lossless_retries": 850,
+      "burst_offered": 32000,
+      "burst_losses": 30976,
+      "burst_full_losses": 30976,
+      "burst_contention_losses": 0,
+      "burst_high_water": 1024,
+      "peak_working_set_bytes": 10088448,
+      "peak_pagefile_bytes": 7602176,
+      "measured_burst_and_closeout_ticks": 168581533,
+      "qpc_frequency": 10000000,
+      "lossless_records_per_second": 1278.1091959301616,
+      "repeat": 2,
+      "executable_sha256": "3cd01d4530b1353777fbe37d0cf45a9db9042645863f1efe06499e54801ce945"
+    },
+    {
+      "passed": true,
+      "capacity": 8192,
+      "event_bytes": 312,
+      "cell_bytes": 320,
+      "queue_bytes": 2621440,
+      "concurrent_admitted": 86449,
+      "concurrent_losses": 9551,
+      "concurrent_full_losses": 9551,
+      "concurrent_contention_losses": 0,
+      "concurrent_retries": 10570,
+      "concurrent_high_water": 8192,
+      "hot_offered": 76800,
+      "hot_losses": 56,
+      "hot_retries": 156889,
+      "hot_high_water": 384,
+      "lossless_offered": 16000,
+      "lossless_losses": 0,
+      "lossless_ticks": 155074686,
+      "lossless_high_water": 28,
+      "lossless_retries": 254,
+      "burst_offered": 32000,
+      "burst_losses": 23808,
+      "burst_full_losses": 23808,
+      "burst_contention_losses": 0,
+      "burst_high_water": 8192,
+      "peak_working_set_bytes": 13467648,
+      "peak_pagefile_bytes": 10641408,
+      "measured_burst_and_closeout_ticks": 173923278,
+      "qpc_frequency": 10000000,
+      "lossless_records_per_second": 1031.7609155113814,
+      "repeat": 0,
+      "executable_sha256": "c2ac46803a8bb8e9dc309feeff766e5519e1b13206be9803a016b7fcd215dc8d"
+    },
+    {
+      "passed": true,
+      "capacity": 8192,
+      "event_bytes": 312,
+      "cell_bytes": 320,
+      "queue_bytes": 2621440,
+      "concurrent_admitted": 40382,
+      "concurrent_losses": 55618,
+      "concurrent_full_losses": 55618,
+      "concurrent_contention_losses": 0,
+      "concurrent_retries": 0,
+      "concurrent_high_water": 8192,
+      "hot_offered": 76800,
+      "hot_losses": 43,
+      "hot_retries": 145230,
+      "hot_high_water": 384,
+      "lossless_offered": 16000,
+      "lossless_losses": 0,
+      "lossless_ticks": 192671460,
+      "lossless_high_water": 32,
+      "lossless_retries": 96,
+      "burst_offered": 32000,
+      "burst_losses": 23808,
+      "burst_full_losses": 23808,
+      "burst_contention_losses": 0,
+      "burst_high_water": 8192,
+      "peak_working_set_bytes": 12513280,
+      "peak_pagefile_bytes": 10170368,
+      "measured_burst_and_closeout_ticks": 165355907,
+      "qpc_frequency": 10000000,
+      "lossless_records_per_second": 830.429166831455,
+      "repeat": 1,
+      "executable_sha256": "c2ac46803a8bb8e9dc309feeff766e5519e1b13206be9803a016b7fcd215dc8d"
+    },
+    {
+      "passed": true,
+      "capacity": 8192,
+      "event_bytes": 312,
+      "cell_bytes": 320,
+      "queue_bytes": 2621440,
+      "concurrent_admitted": 72633,
+      "concurrent_losses": 23367,
+      "concurrent_full_losses": 23367,
+      "concurrent_contention_losses": 0,
+      "concurrent_retries": 10291,
+      "concurrent_high_water": 8192,
+      "hot_offered": 76800,
+      "hot_losses": 17,
+      "hot_retries": 122683,
+      "hot_high_water": 384,
+      "lossless_offered": 16000,
+      "lossless_losses": 0,
+      "lossless_ticks": 152285784,
+      "lossless_high_water": 28,
+      "lossless_retries": 290,
+      "burst_offered": 32000,
+      "burst_losses": 23808,
+      "burst_full_losses": 23808,
+      "burst_contention_losses": 0,
+      "burst_high_water": 8192,
+      "peak_working_set_bytes": 12222464,
+      "peak_pagefile_bytes": 10072064,
+      "measured_burst_and_closeout_ticks": 188955546,
+      "qpc_frequency": 10000000,
+      "lossless_records_per_second": 1050.656179436946,
+      "repeat": 2,
+      "executable_sha256": "c2ac46803a8bb8e9dc309feeff766e5519e1b13206be9803a016b7fcd215dc8d"
+    },
+    {
+      "passed": true,
+      "capacity": 32768,
+      "event_bytes": 312,
+      "cell_bytes": 320,
+      "queue_bytes": 10485760,
+      "concurrent_admitted": 85387,
+      "concurrent_losses": 10613,
+      "concurrent_full_losses": 10603,
+      "concurrent_contention_losses": 10,
+      "concurrent_retries": 92457,
+      "concurrent_high_water": 32768,
+      "hot_offered": 76800,
+      "hot_losses": 32,
+      "hot_retries": 130626,
+      "hot_high_water": 384,
+      "lossless_offered": 16000,
+      "lossless_losses": 0,
+      "lossless_ticks": 149559230,
+      "lossless_high_water": 36,
+      "lossless_retries": 338,
+      "burst_offered": 32000,
+      "burst_losses": 0,
+      "burst_full_losses": 0,
+      "burst_contention_losses": 0,
+      "burst_high_water": 32000,
+      "peak_working_set_bytes": 21000192,
+      "peak_pagefile_bytes": 18169856,
+      "measured_burst_and_closeout_ticks": 166219966,
+      "qpc_frequency": 10000000,
+      "lossless_records_per_second": 1069.8102684802536,
+      "repeat": 0,
+      "executable_sha256": "bde38d85418f164be25dce68079ea1d69710acc1f919050eec02d3ef8a436840"
+    },
+    {
+      "passed": true,
+      "capacity": 32768,
+      "event_bytes": 312,
+      "cell_bytes": 320,
+      "queue_bytes": 10485760,
+      "concurrent_admitted": 72365,
+      "concurrent_losses": 23635,
+      "concurrent_full_losses": 23629,
+      "concurrent_contention_losses": 6,
+      "concurrent_retries": 116706,
+      "concurrent_high_water": 32768,
+      "hot_offered": 76800,
+      "hot_losses": 71,
+      "hot_retries": 178739,
+      "hot_high_water": 384,
+      "lossless_offered": 16000,
+      "lossless_losses": 0,
+      "lossless_ticks": 123786607,
+      "lossless_high_water": 16,
+      "lossless_retries": 930,
+      "burst_offered": 32000,
+      "burst_losses": 0,
+      "burst_full_losses": 0,
+      "burst_contention_losses": 0,
+      "burst_high_water": 32000,
+      "peak_working_set_bytes": 20377600,
+      "peak_pagefile_bytes": 18243584,
+      "measured_burst_and_closeout_ticks": 164406115,
+      "qpc_frequency": 10000000,
+      "lossless_records_per_second": 1292.5469392662164,
+      "repeat": 1,
+      "executable_sha256": "bde38d85418f164be25dce68079ea1d69710acc1f919050eec02d3ef8a436840"
+    },
+    {
+      "passed": true,
+      "capacity": 32768,
+      "event_bytes": 312,
+      "cell_bytes": 320,
+      "queue_bytes": 10485760,
+      "concurrent_admitted": 86505,
+      "concurrent_losses": 9495,
+      "concurrent_full_losses": 9495,
+      "concurrent_contention_losses": 0,
+      "concurrent_retries": 58794,
+      "concurrent_high_water": 32768,
+      "hot_offered": 76800,
+      "hot_losses": 71,
+      "hot_retries": 170392,
+      "hot_high_water": 384,
+      "lossless_offered": 16000,
+      "lossless_losses": 0,
+      "lossless_ticks": 122727562,
+      "lossless_high_water": 16,
+      "lossless_retries": 842,
+      "burst_offered": 32000,
+      "burst_losses": 0,
+      "burst_full_losses": 0,
+      "burst_contention_losses": 0,
+      "burst_high_water": 32000,
+      "peak_working_set_bytes": 21000192,
+      "peak_pagefile_bytes": 18608128,
+      "measured_burst_and_closeout_ticks": 163991933,
+      "qpc_frequency": 10000000,
+      "lossless_records_per_second": 1303.7006308330317,
+      "repeat": 2,
+      "executable_sha256": "bde38d85418f164be25dce68079ea1d69710acc1f919050eec02d3ef8a436840"
+    }
+  ],
+  "representative": {
+    "enqueued": 21061,
+    "written": 21061,
+    "flushed": 21061,
+    "acknowledged": 21061,
+    "drops": 0,
+    "cell_bytes": 320,
+    "capacity": 32768,
+    "queue_high_water_lower_bound": 11338,
+    "output_faults": 0,
+    "max_flush_ticks": 2976425,
+    "qpc_frequency": 10000000,
+    "worker_timing_ticks": [
+      {
+        "count": 28,
+        "total": 79526969,
+        "max": 32453025
+      },
+      {
+        "count": 32,
+        "total": 69919180,
+        "max": 32237111
+      },
+      {
+        "count": 352,
+        "total": 2070405,
+        "max": 1751612
+      },
+      {
+        "count": 16,
+        "total": 49540024,
+        "max": 31150391
+      },
+      {
+        "count": 16,
+        "total": 17276359,
+        "max": 2976427
+      },
+      {
+        "count": 31,
+        "total": 41100,
+        "max": 2497
+      },
+      {
+        "count": 64,
+        "total": 95307,
+        "max": 4774
+      },
+      {
+        "count": 1,
+        "total": 3282,
+        "max": 3282
+      }
+    ]
+  },
+  "representative_host": {
+    "scenario": "representative",
+    "peak_working_set_bytes": 15294464,
+    "peak_pagefile_bytes": 12099584,
+    "p50_ticks": 0,
+    "p95_ticks": 0,
+    "p99_ticks": 0,
+    "max_ticks": 0,
+    "baseline_p50_ticks": 0,
+    "baseline_p95_ticks": 0,
+    "baseline_p99_ticks": 0,
+    "baseline_max_ticks": 0,
+    "timing_count": 0,
+    "abi_checks": true,
+    "grid_traversals": 0
+  },
+  "preserved_historical_files": 826,
+  "initial_free": {
+    "C:/": 91394875392,
+    "D:/": 83576688640
+  },
+  "final_free": {
+    "C:/": 91394875392,
+    "D:/": 83576688640
+  }
+}

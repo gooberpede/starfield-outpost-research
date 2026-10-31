@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [D5AB P2 controller, reducer and transport qualification](CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md):
+  invoked 2026-11-01 for offline changes, compiled disposable qualification and
+  independent review. [Report](../experiments/resource-retained-population/d5ab-p2-report.md),
+  [ledger](../experiments/resource-retained-population/d5ab-p2-investigation-ledger.md)
+  and [parent mapping](../experiments/resource-retained-population/d5ab-p2-parent-mapping.md)
+  retain the bounded P2 contract. Native lifetime remains unqualified for P1/P3;
+  B2 is NOT AUTHORIZED. No commit, push, deployment or publication follows.
+
 - [D5AB observer remediation and B2 readiness](CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md):
   invoked 2026-10-31 for offline implementation, native boundary research,
   concurrent/fault qualification and independent review. [Report](../experiments/resource-retained-population/d5ab-report.md),

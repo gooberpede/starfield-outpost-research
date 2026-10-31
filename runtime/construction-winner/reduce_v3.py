@@ -16,6 +16,8 @@ def reduce(events, legacy_reduce, source_key, first_loss=0, last_loss=0):
     if len(set(sequences)) != len(sequences) or any(b != a + 1 for a, b in zip(sequences, sequences[1:])):
         return dict(chains=[], diagnostics=[dict(outcome='SEQUENCE_GAP_OR_DUPLICATE')], identities=[])
     legacy = legacy_reduce(events)
+    entry_counts = Counter(e['invocation'] for e in events if e['kind'] == 1)
+    selection_counts = Counter((e['invocation'], e['selection']) for e in events if e['kind'] == 2)
     births = [e for e in events if e['kind'] == 14]
     publications = [e for e in events if e['kind'] == 15]
     allocation_counts=Counter(e['selection'] for e in births)
@@ -104,7 +106,9 @@ def reduce(events, legacy_reduce, source_key, first_loss=0, last_loss=0):
         stores = [e for e in parts if e['kind'] == 17]
         generated = [e for e in parts if e['kind'] == 8]
         reason = None
-        if len(reserves)==1 and reserves[0]['a']==0xffffffff and not stores:
+        if entry_counts[chain['invocation']] != 1 or selection_counts[key] != 1:
+            reason = 'AMBIGUOUS_INVOCATION_OR_SELECTION'
+        elif len(reserves)==1 and reserves[0]['a']==0xffffffff and not stores:
             reason='RESERVE_FAILED'
         elif not joined or joined['source_key'] != chain['source_key']:
             reason = 'UNQUALIFIED_SOURCE_LIFETIME'
@@ -118,11 +122,15 @@ def reduce(events, legacy_reduce, source_key, first_loss=0, last_loss=0):
                 reason = 'RESERVE_FAILED'
             elif not chain['sample_sequence'] < generated[0]['sequence'] < reserve['sequence'] < store['sequence']:
                 reason = 'APPEND_ORDER_INVALID'
-            elif reserve['status'] or store['status'] or reserve['hazards'] or store['hazards']:
+            elif any(not before(a,b) for a,b in zip(
+                    [e for e in parts if e['kind'] in (2,3,4,5,6,7,8,16,17)],
+                    [e for e in parts if e['kind'] in (2,3,4,5,6,7,8,16,17)][1:])):
+                reason = 'NATIVE_CAUSAL_ORDER_INVALID'
+            elif any(e['status'] or e['hazards'] for e in (generated[0], reserve, store)):
                 reason = 'APPEND_CONTEXT_INVALID'
             elif any(e['epoch'] != chain['epoch'] or e['proc'] != chain['proc'] or
                      e['source'] != chain['source'] or e['thread'] != chain['thread'] or e['request']!=chain['request']
-                     or e['frame']!=parts[0]['frame'] or e['parent']!=parts[0]['parent'] for e in (reserve, store)):
+                     or e['frame']!=parts[0]['frame'] or e['parent']!=parts[0]['parent'] for e in (generated[0], reserve, store)):
                 reason = 'APPEND_EPOCH_OR_SOURCE_MISMATCH'
             elif reserve['a'] >= (reserve['c']&0xffffffff) or (reserve['c']&0xffffffff) > (reserve['c']>>32):
                 reason='RESERVE_COUNT_OR_CAPACITY_INVALID'
@@ -132,6 +140,12 @@ def reduce(events, legacy_reduce, source_key, first_loss=0, last_loss=0):
                 reason = 'LOSS_BEFORE_APPEND'
             elif bisect_left(fence_sequences,store['sequence'])>bisect_right(fence_sequences,joined['birth_sequence']):
                 reason = 'RETIREMENT_BEFORE_APPEND'
+            elif any((start is None or not before(store,start)) and
+                     (end is None or not before(end,birth_by_sequence[joined['birth_sequence']]))
+                     for start,end in spans):
+                # Admission can lag a different thread's native timestamp.
+                # An unordered tie cannot establish lifetime through the store.
+                reason = 'RETIREMENT_NATIVE_ORDER_AMBIGUOUS_THROUGH_APPEND'
             elif any(other['epoch'] == joined['epoch'] and other['token'] == joined['token']
                      and (other['source_key'], other['allocation']) != (joined['source_key'], joined['allocation'])
                      for other in token_groups[(joined['proc'],joined['epoch'],joined['token'])]):

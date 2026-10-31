@@ -121,6 +121,7 @@ def main():
             archive.write(SRC / 'read_capture.py', 'read_capture.py')
             archive.write(SRC / 'reduce_v3.py', 'reduce_v3.py')
             archive.write(SRC / 'worker_health.py', 'worker_health.py')
+            archive.write(SRC / 'controller.py', 'controller.py')
             archive.write(out / 'emitter-input.bin', 'emitter-input.bin')
             archive.write(ROOT / 'runtime/exp0002/third_party/sfse/LICENSE.txt', 'SFSE-PluginAPI-MIT.txt')
             archive.write(ROOT / 'LICENSE', 'COPYING')
