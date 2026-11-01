@@ -1,0 +1,155 @@
+{
+  "schema": "sor-d5ab-p3-qualified-components/1",
+  "scope": "Offline P3; independent final review separate; P4/B2 NOT AUTHORIZED.",
+  "head": "1578d69baf7a1b2d047629b1fba162c8ae505b13",
+  "index_sha256": "a2cee965e6ec8e0bca03d46441438a1ec7016560ef0d70269697b6f794f44976",
+  "method_sha256": "090bd915e99d0b0ef9533c553f8cb8fd33d235eb9ca7c4466d6176a18ad5f2b8",
+  "plan_sha256": "832d6a99b281b0bfdd12e81e958d445c7aaca707862d98f072ad0dc90a5c1416",
+  "build": "D:\\Projects\\starfield-outpost-research\\.local-work\\d5x\\p3-native-final04",
+  "build_sha256": "b5d4945603e739d35ac2fbcb8a62882c0b4d6e7bd53aa11a8eadb732c1dcaed3",
+  "reproduction_build_sha256": "075321400625518e0084ca8a926c8d72802aac5741ed8e3b3b38afff9b95b933",
+  "dll_sha256": "9d2f0bab159f3ec23186426fb4833eb645578d2a43612bb2e8def6b1af455dcc",
+  "components": {
+    "runtime/construction-winner/bridges.asm": "295b4cf55be30b24e7312783d2492a7a2d1b33475ce42301c72e1b50c896a474",
+    "runtime/construction-winner/build.py": "484d5e0828742cb24768bd85a6250210caec7b8e5a8ffd12cb6f2927164fca81",
+    "runtime/construction-winner/controller.py": "7e616f0c723d1ad6d40a53ea10d474c9183b825c4c8e4365871d2804f6691c60",
+    "runtime/construction-winner/fixture.asm": "431c5d804137249526b627ce9f0034790644fc8f6c53d9fc5a5f5fde53af41c9",
+    "runtime/construction-winner/fixture.cpp": "6401ac1878a6aebf4ef7bbc1b8f7c2a7f4f26e77fc9ac388af5fc9be5af9803c",
+    "runtime/construction-winner/host.cpp": "c3e35e2cb40c04f2cd997081d97ced7bc959e8b79b1d7733e09163c4ae85a1ac",
+    "runtime/construction-winner/observer.h": "bb5cccce9bd6fd390ee8a892f3403dc854d5ed0e7c9d89e31bd6592fb5dc8cd5",
+    "runtime/construction-winner/patch.h": "d7e476af9a7bcf3b434c7444134e7c11bc3e583c526334e3f2d78afdd49a2c23",
+    "runtime/construction-winner/plugin.cpp": "d257220076942722e5a26435b41173e60f0bb3c2046fb95623bda75b5761ff61",
+    "runtime/construction-winner/queue_stress.cpp": "51de4ff8853b6d04c8b0e5484e5542612fdfece113e1d40bf56b0c57e0521899",
+    "runtime/construction-winner/README.md": "84bb17334c6232b0ea84087485090bf14acd38165f743067fc90695a6555d562",
+    "runtime/construction-winner/read_capture.py": "140353ae1f0d8d571f91df86a2cb94b9078d30d82c62839aa6be844c018f89cb",
+    "runtime/construction-winner/reduce_v3.py": "d99f8f940e5d2212f8e75f9b1bc2fb743fd0deca7fec2dc9b8ae9281803a7624",
+    "runtime/construction-winner/reduce_v4.py": "9d11d2da19d086f3052000bd7d996abf24113b2205e7154df9cd8464c3c01665",
+    "runtime/construction-winner/transport.cpp": "b0af448303b28e7eb0e983733b07a130504d3e65737f159fe01b45b0006d6f4b",
+    "runtime/construction-winner/transport.h": "deaf3ca0a70247c32efcd4644dbc4b1521a58e15b18985a0928605e94bea9f92",
+    "runtime/construction-winner/worker_health.py": "983ae9aee507734d863424cd4a5c6c31c1f8162b05c37689ce3bbf7288342bbe",
+    "runtime/exp0002/core.h": "23e652812c32c72664f90edfe4103158aed0b7735563438ce324f44116a990f9",
+    "runtime/exp0002/win_support.h": "8448738cea1cd1133a0716ef6eddc8e739741c3e83ee5e760bce4b681f888d57",
+    "runtime/exp0002/third_party/sfse/PluginAPI.h": "7b0bccaa54d7c65de4ee428b17c1fda9adb7b0bc8a880a432d0d848fff3ce4ab",
+    "runtime/exp0002/third_party/sfse/LICENSE.txt": "7795510c3ee9970b5843639d79b7ab6d87d1a14a1e110e92fd0b09ff0e7628da"
+  },
+  "receipts": {
+    "native": {
+      "path": ".local-work/d5ab/p3-native-controls-final02/receipt.json",
+      "sha256": "27fc228e90451006d501c18fb58aff74aa5a6f56a595a9ca86e4845317f17359",
+      "count": 257,
+      "unit": "native checks"
+    },
+    "bridge-abi": {
+      "path": ".local-work/d5ab/p3-bridge-abi03/receipt.json",
+      "sha256": "6116caf39993c31dfbe22f3f2c6361b79d9637693a79d18e25ab7415d85a1801",
+      "count": 13,
+      "unit": "object ABI checks"
+    },
+    "original-reader": {
+      "path": ".local-work/d5ab/p3-reader-legacy-final02/receipt.json",
+      "sha256": "803ff401e5112c515fb145f2763dcb383111f0ce8a437037692fd567c7e4cdbd",
+      "count": 316,
+      "unit": "consumer checks"
+    },
+    "p3-reader": {
+      "path": ".local-work/d5ab/p3-reader-final02/receipt.json",
+      "sha256": "e6352e6a6805fbb70edf7550189dfeaac946843317d3bd6ea192d250562f0f4b",
+      "count": 133,
+      "unit": "consumer checks"
+    },
+    "controller": {
+      "path": ".local-work/d5ab/p3-controller-final02/receipt.json",
+      "sha256": "c210e850ebd62da6a479776128349f140570cfed0f36d4238d7580df94ec414c",
+      "count": 26,
+      "unit": "worker/controller scenarios"
+    },
+    "sharing": {
+      "path": ".local-work/d5ab/p3-sharing-final02/receipt.json",
+      "sha256": "1aee8bbbe53cd882a37b129d9e689dc0179dc9c728d53b26222a869db2f00512",
+      "count": 1,
+      "unit": "sharing control"
+    },
+    "capacity": {
+      "path": ".local-work/d5ab/p3-capacity-final02/receipt.json",
+      "sha256": "e6b9a42d7df5f8149f896ed916dafa4fb7f31c5233dd58b7c87f4727fea6dd51",
+      "count": 9,
+      "unit": "scenario/capacity combinations"
+    },
+    "queue": {
+      "path": ".local-work/d5ab/p3-queue01/receipt.json",
+      "sha256": "783df5ca24031f158b70161437daa4ebccd7c403b9cf6f1a46e6bfe6c4816adf",
+      "count": 9,
+      "unit": "compiled queue runs"
+    },
+    "protection": {
+      "path": ".local-work/d5ab/p3-protection03/receipt.json",
+      "sha256": "c6d608c25daf0ed0b509119e7ff458aadc3cad841615840a8909820ba6298d69",
+      "count": 16,
+      "unit": "disposable guard controls"
+    },
+    "query-join": {
+      "path": ".local-work/d5ab/p3-query-join02/receipt.json",
+      "sha256": "8ebcc1f15d5cc92e501aca9a5c0aca6b11beb0e9b6d5c856f6ecabb53a298e4e",
+      "count": 23,
+      "unit": "static instruction facts"
+    },
+    "legacy": {
+      "path": ".local-work/d5ab/p3-legacy-semantics02/receipt.json",
+      "sha256": "4fe0a0e8376c2d28818dcdbdbc5859d145461fee9c636e625b626b70c964e3a7",
+      "count": 54,
+      "unit": "semantic checks"
+    },
+    "worker": {
+      "path": ".local-work/d5ab/p3-worker-legacy01/receipt.json",
+      "sha256": "d8469b7143f9a421370ce9f3ec34051390405b3747773fd4f2a441ba9baa669e",
+      "count": 9,
+      "unit": "own-thread controls"
+    },
+    "original-instructions": {
+      "path": ".local-work/d5ab/p3-original-instructions01/receipt.json",
+      "sha256": "a92bd8c02ce593fe5505a41a40f52a689e804fec8cb552d33b30ad6153137102",
+      "count": 11,
+      "unit": "original-instruction controls"
+    },
+    "transport-audit": {
+      "path": ".local-work/d5ab/p3-transport-audit02/receipt.json",
+      "sha256": "add50b219a0ba405cb5a0a4b99523bcbd910a3a1096fc1b4cc6c4780447237d1",
+      "count": 88,
+      "unit": "native sessions audited"
+    },
+    "erase-proof": {
+      "path": ".local-work/d5ab/p3/erase-tail-proof.json",
+      "sha256": "ed65bcc000b4e91d69a5c3974ee0eb3138469d763da0a64663547e3c721d62d5",
+      "count": null,
+      "unit": "static guard/def-use proof"
+    }
+  },
+  "native_cases": 90,
+  "reproduction_cases": 4,
+  "platform_receipt_sha256": "3bad29b550e5e7de0fb5724046bd3372d5625da929898bbe46a714c680583008",
+  "host_os": {
+    "ProductName": "Windows 10 Home",
+    "DisplayVersion": "22H2",
+    "CurrentBuildNumber": "19045",
+    "UBR": 6466
+  },
+  "ntdll_file_sha256": "36b1a62e4bf6bf7d68458fff6e8a33b39f6527ec6a46e55ecdd12cde83894c8d",
+  "unchanged_components": {
+    "runtime/construction-winner/controller.py": true,
+    "runtime/construction-winner/observer.h": true,
+    "runtime/construction-winner/queue_stress.cpp": true,
+    "runtime/construction-winner/reduce_v3.py": true,
+    "runtime/construction-winner/transport.cpp": true,
+    "runtime/construction-winner/worker_health.py": true
+  },
+  "preserved_historical_records": 826,
+  "preserved_p1_exports": 17,
+  "initial_free": {
+    "C:/": 91179253760,
+    "D:/": 83027906560
+  },
+  "final_free": {
+    "C:/": 91179253760,
+    "D:/": 83027906560
+  }
+}

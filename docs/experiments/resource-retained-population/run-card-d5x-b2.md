@@ -1,8 +1,10 @@
 # D5AB proposed B2 run card - NOT AUTHORIZED
 
 **Unfinished working plan; B2 is NO-GO.** The [bounded handoff](d5ab-report.md)
-leaves native lifetime proof, worker/controller integration and final identity-bound
-review incomplete. This card must not be executed or treated as accepted readiness.
+records historical unfinished engineering. Accepted P1/P2 results and the
+[P3 investigation](d5ab-p3-investigation-ledger.md) supply later offline work;
+P4 operational adaptation and final identity-bound readiness review remain open.
+This card must not be executed or treated as accepted readiness.
 
 2026-10-31, Australia/Sydney. This replaces the earlier prospective B2 plan,
 without changing historical [B1](d5x-b1-live-report.md) or its consumed approval.
@@ -60,7 +62,7 @@ After separate GO, operator launches exactly once through the reviewed SFSE
 loader and remains at the main menu. Select only a newly created
 `.local-work/d5x/live/session-*` directory, excluding every preflight session.
 Verify actual retail PID, creation FILETIME, image path, module base, startup
-nonce, DLL/game/SFSE identities and schema `sor-d5x/3`. A fixture identity,
+nonce, DLL/game/SFSE identities and schema `sor-d5x/4`. A fixture identity,
 restarted process, stale session or schema 2 receipt cannot pass admission.
 Require matching READY with eighteen hooks and no worker/output/guard failure.
 The observer must be armed **before Save52 is loaded**.
@@ -70,6 +72,13 @@ Use the D5X-specific protocol already exercised by the disposable host and
 in [session-tools](../../../runtime/session-tools/README.md) are incompatible;
 never invent an adapter identifier. Follow their phase separation: full checks
 offline, small identity/challenge/health checks in play, full postflight after exit.
+
+P3 draft correction, 2026-11-01: the qualified P2 controller is deliberately
+restricted to disposable sessions and refuses retail identities. P3 does not
+remove that restriction. P4 must qualify an explicitly scoped operational
+adapter and bind its identity/ownership/STOP rules to the final reviewed bundle
+before any separate B2 decision. The steps below describe required behavior;
+they are not executable instructions for the current disposable controller.
 
 For each challenge, generate a new 32-character lowercase hexadecimal nonce.
 Write exactly those 32 ASCII bytes, without newline, to a new sibling pending
@@ -95,8 +104,11 @@ or missed poll is not itself failure; investigate and continue when safe.
 4. At first ordinary arrival, obtain one fresh health ACK and operator STOP.
    Do not wait for a preferred mask, additional target event or quota. No extra
    travel, second load, forced cache clear or outcome-dependent retry is allowed.
-5. On operator STOP or a proven safety failure, create this session's exclusive
-   `STOP` file containing `operator STOP` plus newline, flush and close. Check
+5. On operator STOP or a proven safety failure, the future reviewed adapter
+   creates this session's exclusive `STOP` containing authenticated identity,
+   controller owner, unique STOP nonce and reason, then flushes and closes it.
+   Match those exact owned bytes during finalization, rather than treating
+   any existing STOP file as operator authorization. Check
    terminal identity and resident-inert state. Never hot unpatch, unload or kill
    Starfield. Operator exits normally, then disables/removes through Vortex.
 
@@ -121,7 +133,7 @@ After confirmed original PID/creation exit, repeat full protection with a fresh
 postflight label and compare policy, protected saves/backups, remote inputs,
 configuration and content. Verify effective deployed-DLL absence and record
 operator disablement/staging status. Retain all deviations, losses, failures and
-incomplete tails. Run the exact reviewed schema-3 reader/reducer offline.
+incomplete tails. Run the exact reviewed schema-4 reader/reducer offline.
 
 Finish companion checkpoints and protection/scientific receipts, then seal
 quiescent raw and receipt roots with `runtime/session-tools/archive.py` using its

@@ -12,6 +12,8 @@ EXTERN native_reserve:PROC
 EXTERN fixture_bridge_check:PROC
 EXTERN fixture_after_token:PROC
 EXTERN fixture_publication_decision:PROC
+EXTERN fixture_publication_oracle:PROC
+EXTERN fixture_store_oracle:PROC
 seed MACRO
  mov rax,0101010101010101h
  movq xmm0,rax
@@ -74,8 +76,12 @@ fixture_provider PROC FRAME
  .pushreg r12
  push r13
  .pushreg r13
- sub rsp,3d8h
- .allocstack 3d8h
+ push rbp
+ .pushreg rbp
+ sub rsp,3d0h
+ .allocstack 3d0h
+ mov rbp,rsp
+ .setframe rbp,0
  .endprolog
  mov r13,rcx
  lea r12,[rcx+48h]
@@ -112,6 +118,7 @@ PUBLIC at_visited
 at_visited::
  test sil,sil
  jnz NEAR PTR bypass_check
+ mov [rbp+10h],rbx
  capture 1
  mov rcx,rsp
  mov rdx,r13
@@ -123,12 +130,16 @@ at_stored::
  mov ecx,eax
  mov rax,[r12+8]
  mov [rax+rcx*8],rdi
+ lea rcx,[rax+rcx*8]
+ mov rdx,rdi
+ call fixture_store_oracle
  jmp next_source
 bypass_check:
  capture 1
 finish:
  mov eax,12345h
- add rsp,3d8h
+ add rsp,3d0h
+ pop rbp
  pop r13
  pop r12
  pop rdi
@@ -237,6 +248,8 @@ at_published::
  mov ecx,eax
  mov rax,[r12+8]
  mov [rax+rcx*8],r14
+ mov rcx,r14
+ call fixture_publication_oracle
 unpublished:
  add rsp,0b0h
  pop r14

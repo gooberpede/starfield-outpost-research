@@ -49,6 +49,14 @@ def main():
                          for name in ('read_capture.py','reduce_v3.py','reduce_v4.py'))
     development = '--development' in sys.argv[3:]
     assert development or consumer_match, 'Final qualification requires the exact packaged consumers'
+    native_cases=manifest['cases']
+    if '--original-case-regressions' in sys.argv[3:]:
+        # P3 runs its new cases with an independent native-state oracle driver.
+        # Reuse this full historical suite without guessing new case verdicts.
+        original_build=ROOT/'.local-work/d5x/p1-native03/build.json'
+        original_names={row['case'] for row in json.loads(original_build.read_bytes())['cases']}
+        assert original_names <= {row['case'] for row in native_cases}
+        native_cases=[row for row in native_cases if row['case'] in original_names]
     rows = []
 
     def record(case, passed, **details):
@@ -62,7 +70,7 @@ def main():
     positives = {'p1-noaccess-lookup', 'normal', 'mask-zero', 'descriptor-change', 'schedule-fresh-first',
                  'nested', 'reused-pointer', 'reset', 'clear', 'destroy', 'erase',
                  'representative', 'later-bypass', 'sequence-wrap', 'burst'}
-    for native in manifest['cases']:
+    for native in native_cases:
         name = native['case']
         assert native['pass_exit']
         if name == 'guard-mismatch':
@@ -330,6 +338,7 @@ def main():
     receipt=dict(schema='sor-d5ab-p1-reader/1',passed=True,build=str(build),
                  build_sha256=sha(build/'build.json'),dll_sha256=dll,inputs=inputs,
                  rows=rows,tests=len(rows),native_source_lifetime_qualified=False,
+                 native_case_inventory=[row['case'] for row in native_cases],
                  development_only=development,final_build_consumer_match=consumer_match)
     (out/'receipt.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf8',newline='\n')
     print(json.dumps(dict(tests=len(rows),passed=True,out=str(out),final_build_consumer_match=receipt['final_build_consumer_match'])))

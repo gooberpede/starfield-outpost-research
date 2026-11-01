@@ -27,7 +27,8 @@ CASES = ('normal mask-zero conflicting-mask unexpected-mask descriptor-change te
          'visited map-hit skip-sample nested interrupt in-flight-loss missing-lookup missing-descriptor '
          'missing-generator missing-sample prior-unknown ready-only descriptor-collision reused-pointer '
          'reset clear destroy erase concurrent competing loss-one loss-many saturation timing stop-under-production '
-         'representative burst reserve-fail unknown-birth later-bypass write-fault flush-fault ack-fault disk-fault ack-write-fault crash-before crash-after crash-sample sequence-wrap guard-mismatch p1-noaccess-lookup p1-retire-lookup p1-reset-lookup p1-unpublished p1-constructor-exception').split()
+         'representative burst reserve-fail unknown-birth later-bypass write-fault flush-fault ack-fault disk-fault ack-write-fault crash-before crash-after crash-sample sequence-wrap guard-mismatch p1-noaccess-lookup p1-retire-lookup p1-reset-lookup p1-unpublished p1-constructor-exception '
+         'p3-positive-no-bypass p3-positive-bypass p3-empty-output p3-partial-output p3-generator-throw p3-reserve-throw p3-reserve-fail p3-skipped-store p3-retire-before-store p3-reset-before-generate p3-prerequisite-failure p3-map-hit p3-density-reuse p3-real-reuse p3-competing-map p3-detached-retirement p3-loss-recovery p3-loss-after-reset p3-loss-unknown-bounds p3-unwind-probe p3-store-access-fault p3-token-collision p3-same-geography-other-owner p3-owner-replacement-selected').split()
 
 
 def sha(path):
@@ -67,7 +68,7 @@ def main():
     generated = out / 'emitters.generated.h'
     generated.write_text('#pragma once\ninline constexpr char emitter_expected_hash[]="' + hashlib.sha256(emitter_page).hexdigest() + '";\n', encoding='utf8', newline='\n')
     (out / 'emitter-input.bin').write_bytes(emitter_page)
-    sites = [(0x79f860,7),(0x79fa90,8),(0x79fca3,9),(0x79fccb,5),(0x79feaf,5),(0x79ff18,5),(0x79b8e8,5),
+    sites = [(0x79f860,7),(0x79fa90,8),(0x79fca3,13),(0x79fccb,5),(0x79feaf,5),(0x79ff18,5),(0x79b8e8,5),
              (0x79ddf0,5),(0x79d910,5),(0x975030,8),(0x9829b0,5),(0x982b70,5),(0x79dec4,5),(0x78d6f4,5),(0x9830cd,12),(0x983177,11),(0x79ff3e,5),(0x79ff59,11)]
     header = '#pragma once\nnamespace winner {\ninline constexpr uint32_t game_version=(1u<<24)|(16u<<16)|(244u<<4);\n'
     for key, value in [('game',pe.GAME_HASH),('sfse',pe.SFSE_HASH),('esm',identity['installed'][str(pe.GAME / 'Data/Starfield.esm')]),('planet',identity['installed'][str(pe.GAME / 'Data/Starfield - PlanetData.ba2')])]:
@@ -136,7 +137,8 @@ def main():
             archive.extractall(extracted)
         assert all(sha(extracted / name) == sha(out / name) for name in ('SorConstructionWinner.dll', 'sor-d5x-fixture.exe','emitter-input.bin'))
         def qualify(case):
-            expected = {'crash-before': 71, 'crash-after': 72, 'crash-sample': 73}.get(case, 0)
+            expected = {'crash-before': 71, 'crash-after': 72, 'crash-sample': 73,
+                        'p3-store-access-fault': 0xc0000005}.get(case, 0)
             result = run([str(extracted / 'sor-d5x-fixture.exe'), str(extracted / 'SorConstructionWinner.dll'), str(out / case), case], case, expected)
             return dict(case=case, **result)
         with ThreadPoolExecutor(max_workers=8) as pool:

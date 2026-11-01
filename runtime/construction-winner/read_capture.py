@@ -202,6 +202,7 @@ def inspect(folder, dll_sha256):
     id_hash = hashlib.sha256(identity_bytes).hexdigest()
     prior_ack_records = -1
     ack_drops = 0
+    loss_telemetry = []
     for line in acknowledgments.splitlines(keepends=True):
         if not line.endswith(b'\n'):
             damage.append('TORN_ACK')
@@ -213,14 +214,15 @@ def inspect(folder, dll_sha256):
                 assert all(type(ack[k]) is int and ack[k] >= 0 for k in ('records', 'bytes', 'prefix_crc32'))
                 assert ack['records'] > prior_ack_records
                 assert 0 <= ack['prefix_crc32'] <= 0xffffffff
-                assert all(type(ack[k]) is int and ack[k] >= 0 for k in (
-                    'drops', 'queue_full', 'contention_exhausted', 'reentrant_losses',
-                    'first_loss_sampled_admission', 'last_loss_sampled_admission',
-                    'loss_generation') if k in ack)
-                assert 'loss_bounds_uncertain' not in ack or type(ack['loss_bounds_uncertain']) is bool
-                assert ack.get('drops', 0) >= ack_drops
-                if all(k in ack for k in ('drops','queue_full','contention_exhausted','reentrant_losses')):
-                    assert ack['drops'] == sum(ack[k] for k in ('queue_full','contention_exhausted','reentrant_losses'))
+                if not version4:
+                    assert all(type(ack[k]) is int and ack[k] >= 0 for k in (
+                        'drops', 'queue_full', 'contention_exhausted', 'reentrant_losses',
+                        'first_loss_sampled_admission', 'last_loss_sampled_admission',
+                        'loss_generation') if k in ack)
+                    assert 'loss_bounds_uncertain' not in ack or type(ack['loss_bounds_uncertain']) is bool
+                    assert ack.get('drops', 0) >= ack_drops
+                    if all(k in ack for k in ('drops','queue_full','contention_exhausted','reentrant_losses')):
+                        assert ack['drops'] == sum(ack[k] for k in ('queue_full','contention_exhausted','reentrant_losses'))
             assert ack['identity_sha256'] == id_hash
             assert ack['bytes'] == ack['records'] * (SIZE + 16)
             assert ack['bytes'] <= valid_bytes
@@ -229,12 +231,18 @@ def inspect(folder, dll_sha256):
             if terminal and ack['records'] > terminal['acknowledged']:
                 continue
             durable = max(durable, ack['records'])
-            if version3:
+            if version3 and type(ack.get('drops',0)) is int and ack.get('drops',0)>=0:
                 ack_drops = max(ack_drops, ack.get('drops', 0))
-            uncertain_loss_bounds|=ack.get('loss_bounds_uncertain',False)
+            if version4:
+                loss_telemetry.append(ack)
+            # Schema 4 authenticates bytes separately from sampled loss tuples.
+            # A bad tuple must not discard later authenticated durable bytes;
+            # the metadata validation below still refuses scientific promotion.
+            uncertain_loss_bounds|=ack.get('loss_bounds_uncertain',False) is True
             first=ack.get('first_loss_sampled_admission',0)
-            if first:loss_first=min(loss_first or first,first)
-            loss_last=max(loss_last,ack.get('last_loss_sampled_admission',0))
+            if type(first) is int and first>0:loss_first=min(loss_first or first,first)
+            last=ack.get('last_loss_sampled_admission',0)
+            if type(last) is int and last>=0:loss_last=max(loss_last,last)
         except (ValueError, AssertionError, KeyError, TypeError):
             damage.append('ACK_INTEGRITY_OR_PREFIX')
             break
@@ -251,6 +259,38 @@ def inspect(folder, dll_sha256):
                                 terminal['enqueued'] >= origin + terminal['written'])
         if not accounting_valid or type(terminal.get('failed')) is not bool:
             damage.append('TERMINAL_ACCOUNTING_INVALID')
+    if version4:
+        if terminal:
+            loss_telemetry.append(terminal)
+        previous = None
+        for receipt in loss_telemetry:
+            keys=('drops','queue_full','contention_exhausted','reentrant_losses','loss_generation',
+                  'first_loss_sampled_admission','last_loss_sampled_admission')
+            valid=all(type(receipt.get(k)) is int and 0<=receipt[k]<2**64 for k in keys)
+            valid=valid and type(receipt.get('loss_bounds_uncertain')) is bool
+            if valid:
+                count=receipt['drops']
+                first,last=(receipt[k] for k in keys[-2:])
+                valid=(receipt['loss_generation']==count and
+                       count==sum(receipt[k] for k in keys[1:4]))
+                if count:
+                    valid=valid and (receipt['loss_bounds_uncertain'] or 0<first<=last)
+                    if terminal and type(terminal.get('enqueued')) is int:
+                        valid=valid and last<=terminal['enqueued']+1
+                else:
+                    valid=valid and first==last==0 and not receipt['loss_bounds_uncertain']
+            if valid and previous:
+                valid=all(receipt[k]>=previous[k] for k in keys[:5])
+                valid=valid and (not previous['loss_bounds_uncertain'] or receipt['loss_bounds_uncertain'])
+                # Known bounds can widen under concurrent observations, never
+                # disappear behind a later zero or shrink a retained interval.
+                if previous['first_loss_sampled_admission']:
+                    valid=valid and 0<receipt['first_loss_sampled_admission']<=previous['first_loss_sampled_admission']
+                valid=valid and receipt['last_loss_sampled_admission']>=previous['last_loss_sampled_admission']
+            if not valid:
+                damage.append('LOSS_TELEMETRY_INCOMPLETE_OR_CONTRADICTORY')
+                break
+            previous=receipt
     if version3:
         import importlib.util
         module_name='reduce_v4' if version4 else 'reduce_v3'
@@ -258,6 +298,8 @@ def inspect(folder, dll_sha256):
         reducer=importlib.util.module_from_spec(spec);spec.loader.exec_module(reducer)
         first_loss=terminal.get('first_loss_sampled_admission',loss_first) if terminal else loss_first
         last_loss=terminal.get('last_loss_sampled_admission',loss_last) if terminal else loss_last
+        if version4 and (type(first_loss) is not int or type(last_loss) is not int):
+            first_loss,last_loss=1,2**64-1
         if uncertain_loss_bounds or (terminal and terminal.get('loss_bounds_uncertain',False)):
             first_loss,last_loss=1,2**64-1
         result=reducer.reduce(events[:durable],reduce,source_key,first_loss,last_loss)
@@ -292,6 +334,24 @@ def inspect(folder, dll_sha256):
                       native_source_lifetime_qualified=False,
                       scientific_firstness_qualified=False,
                       qualification_scope='Offline witness logic only; native source lifetime requires P1/P3.')
+        if version4:
+            # Whole-session lossless qualification remains strict. A separately
+            # complete reset epoch can retain its positive witness conclusion
+            # after an earlier bounded loss; the reducer checks the cold-to-store
+            # loss interval and birth/epoch continuity independently.
+            scoped=candidates if result['complete_session'] and not damage else []
+            result.update(reset_scoped_chains=scoped,
+                          reset_scoped_witness_qualified=bool(scoped),
+                          evidence_states=dict(
+                              observed=dict(durable_records=durable,
+                                            source_identities=len(result['identities'])),
+                              conditional=dict(reset_scoped_first_processing=len(scoped),
+                                               premise='Pinned native coverage and host-oracle qualification are external to this reader.'),
+                              unsupported=['Retail occurrence', 'Nonempty or complete generated geometry'],
+                              disproven=dict(claim='Proposed witness join; not the unobserved native outcome.',
+                                             reasons=[d['outcome'] for d in result['diagnostics'] if d['outcome'] in (
+                                                 'TOKEN_COLLISION_OR_ALLOCATION_REUSE', 'NATIVE_CAUSAL_ORDER_INVALID',
+                                                 'STORE_TOKEN_OR_DESTINATION_INVALID', 'APPEND_EPOCH_OR_SOURCE_MISMATCH')])))
         if refusals:
             result['chains'] = []
             result['diagnostics'].extend(dict(outcome=reason) for reason in refusals)

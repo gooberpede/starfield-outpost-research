@@ -1255,3 +1255,12 @@ metadata-format documentation. The [provenance ledger](docs/experiments/resource
 pins exact material, owned prior methods, tools and use boundaries. No Microsoft
 header text/decoder implementation or new third-party dependency is incorporated.
 Raw executable-derived exports remain local-only; publication is not cleared.
+
+The [D5AB P3 integration ledger](docs/experiments/resource-retained-population/d5ab-p3-investigation-ledger.md)
+credits Bethesda's pinned native evidence, the project's accepted P1/P2 and
+D5Q/S/V/Z/X research and owned qualification/protection methods. Microsoft's
+x64 unwind and shadow-stack documentation supplied factual ABI constraints
+for independent challenge. [Source records](docs/SOURCES.md#d5ab-p3-native-integration-qualification)
+identify those consultations and their use boundaries. Installed MSVC/MASM,
+Windows SDK and CPython are separate tools. No outside implementation, new
+dependency or publication clearance follows.

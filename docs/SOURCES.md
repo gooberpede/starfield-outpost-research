@@ -1880,3 +1880,21 @@ decoder implementation is incorporated. Existing Ghidra/JDK, MSVC/MASM, Windows
 SDK and CPython are separate tools; no new dependency/licence basis is accepted.
 Native/raw/private artifacts remain LOCAL-ONLY; authored code and synthesis
 REVIEW-REQUIRED. This is source-informed research, not clean-room reconstruction.
+
+## D5AB P3 native integration qualification
+
+The [P3 ledger](experiments/resource-retained-population/d5ab-p3-investigation-ledger.md)
+credits accepted P1/P2 and D5Q/S/V/Z/X evidence, Bethesda's pinned native
+executable, owned observer/fixture/queue/consumer/controller/protection/export
+methods under SOR-P-0002, and installed MSVC/MASM/SDK and CPython tools.
+Exact source, build, test and input identities belong to the final P3 manifest;
+raw original instructions, captures, DLLs and bulk receipts remain LOCAL-ONLY.
+
+Microsoft's [x64 exception handling](https://learn.microsoft.com/en-us/cpp/build/exception-handling-x64),
+[prologue and epilogue rules](https://learn.microsoft.com/en-us/cpp/build/prolog-and-epilog)
+and [user shadow-stack policy](https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-process_mitigation_user_shadow_stack_policy)
+were consulted read-only on 2026-11-01 to challenge unwind and return-address
+assumptions. No Microsoft prose, sample implementation or new dependency is
+incorporated. Source-informed ABI research is not described as clean-room work.
+The unchanged approved SFSE PluginAPI header and its MIT notices retain the
+existing D5X permission basis; no other SFSE implementation is incorporated.

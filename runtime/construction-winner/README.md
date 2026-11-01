@@ -1,9 +1,13 @@
 # Construction-winner observer: D5AB candidate
 
-Offline P1 candidate, schema `sor-d5x/4`, following the accepted schema-3 P2
-controller/consumer qualification. The [P1 ledger](../../docs/experiments/resource-retained-population/d5ab-p1-investigation-ledger.md)
+Offline P3 integration candidate, schema `sor-d5x/4`, following accepted P1
+source/lifetime and schema-3 P2 controller/consumer qualification.
+The [P3 ledger](../../docs/experiments/resource-retained-population/d5ab-p3-investigation-ledger.md)
+tracks the integrated native and consumer qualification; its report and exact
+independent review govern the final disposition. P4/B2 remain separately gated.
+The [P1 ledger](../../docs/experiments/resource-retained-population/d5ab-p1-investigation-ledger.md)
 tracks source identity and lifetime closure; its final report/review controls
-qualification. P3/P4 and B2 remain separately gated.
+qualification. P4 and B2 remain separately gated.
 [P2 ledger](../../docs/experiments/resource-retained-population/d5ab-p2-investigation-ledger.md)
 records the active work; final qualification is governed by its report and review.
 [D5AB report](../../docs/experiments/resource-retained-population/d5ab-report.md),
@@ -61,9 +65,15 @@ source/request/epoch chains. Constructors and actual source publication provide
 allocation witnesses. Visited records carry an already consumed token without
 following the selected pointer. Reserve result and actual store are separate.
 There are eighteen guarded sites, fixed 312-byte records and no Grid membership
-scan, geometry-array capture or target filtering. STOP leaves resident wrappers
-forwarding originals; hot unloading/unpatching is unsupported. General asynchronous
-unwinding through generated trampolines remains unqualified.
+scan, geometry-array capture or target filtering. P3 changes the five inline
+bridges to CALL-entered framed helpers and widens the visited window to thirteen
+bytes, retaining the conditional branch in the original image. The erase
+trampoline has registered partial-prologue unwind metadata and a guarded
+register tail transfer. P3's native controls test instruction-boundary context
+recovery, synchronous exceptions and an actual unhandled store fault in an owned
+host. These finite controls do not establish arbitrary corruption tolerance or
+retail behavior. STOP leaves resident wrappers forwarding originals; hot
+unloading/unpatching is unsupported.
 
 `controller.py` binds the actual worker query/synchronization handle, process birth,
 session identity, fresh challenge ACK and durable raw/ACK prefix. It holds an
@@ -87,9 +97,17 @@ disposable hosts. They preserve intentional writer/flush/ACK/guard faults,
 unexpected worker exit, missing terminal and damaged closed-evidence derivatives.
 Finite engineering waits do not define live monitoring policy. The current
 reader separates authenticated prefix candidates from finalized chain claims,
-refuses damaged/incomplete/loss-contaminated sessions, and labels native source
-lifetime and scientific firstness unqualified pending final native integration.
+refuses damaged/incomplete/loss-contaminated whole-session claims, and keeps
+retail source lifetime and scientific firstness explicitly unqualified. The P3
+report and independent host oracles qualify the tested offline witness scope.
 Schema-2 B1 and accepted schema-3 session interpretations remain separately tested.
+Schema 4 also reports `reset_scoped_chains`: complete reset-to-store witness
+histories can survive an earlier bounded loss when a new authenticated empty
+reset and fresh source lifetime establish a complete later scope. Whole-session
+lossless and retail qualification remain separate. `candidate_chains` preserves
+useful partial evidence on incomplete closeout; it is not finalized qualification.
+`evidence_states` distinguishes observed records, conditional witness conclusions,
+unsupported retail/geometry claims and explicit contradictory evidence.
 The schema-4 fixture additionally tests inaccessible source memory at lookup,
 retirement/reset there, unpublished construction and modeled constructor unwind.
 These are controlled host schedules, not a retail constructor or allocator test.

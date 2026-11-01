@@ -18,6 +18,9 @@ def reduce(events, legacy_reduce, source_key, first_loss=0, last_loss=0):
     if len(set(sequences)) != len(sequences) or any(b != a + 1 for a, b in zip(sequences, sequences[1:])):
         return dict(chains=[], diagnostics=[dict(outcome='SEQUENCE_GAP_OR_DUPLICATE')], identities=[])
     entry_counts = Counter(e['invocation'] for e in events if e['kind'] == 1)
+    returns_by_invocation=defaultdict(list)
+    for e in events:
+        if e['kind']==9:returns_by_invocation[e['invocation']].append(e)
     selection_counts = Counter((e['invocation'], e['selection']) for e in events if e['kind'] == 2)
     births = [e for e in events if e['kind'] == 14]
     publications = [e for e in events if e['kind'] == 15]
@@ -52,6 +55,26 @@ def reduce(events, legacy_reduce, source_key, first_loss=0, last_loss=0):
         # Same-thread callback order disambiguates a QPC tick tie. Across threads
         # a tie is deliberately unordered, rather than guessed by admission.
         return a['ticks']<b['ticks'] or (a['ticks']==b['ticks'] and a['thread']==b['thread'] and a['sequence']<b['sequence'])
+
+    # A producer reset epoch has one begin, one protected empty witness and one
+    # normal end on the same thread. A later admitted end cannot retrospectively
+    # certify an entry that executed before the reset actually completed.
+    reset_parts=defaultdict(list)
+    for e in events:
+        if e['kind']==12 or (e['kind'] in (10,11) and e['a']==0):
+            reset_parts[(e['proc'],e['epoch'])].append(e)
+    certificates={}
+    for key,rows in reset_parts.items():
+        if sorted(e['kind'] for e in rows)!=[10,11,12]:continue
+        begin,cold,end=(next(e for e in rows if e['kind']==kind) for kind in (10,12,11))
+        if (any(e['status'] for e in rows) or
+                len({e['thread'] for e in rows})!=1 or
+                [begin['hazards'],cold['hazards'],end['hazards']]!=[1,1,0] or
+                cold['a'] or cold['b'] or
+                not begin['sequence']<cold['sequence']<end['sequence'] or
+                not before(begin,cold) or not before(cold,end)):
+            continue
+        certificates[cold['sequence']]=end
 
     def identity(visited, boundary=None):
         observed=visited
@@ -94,10 +117,12 @@ def reduce(events, legacy_reduce, source_key, first_loss=0, last_loss=0):
         # cross-epoch allocation joins, including sources surviving a reset.
         if birth['epoch']!=entry['epoch'] or birth['epoch']!=visited['epoch']:
             return None
-        pubs = [p for p in published_by_source[source] if p['source'] == birth['source'] and p['holder'] == birth['holder']
-                and p['thread'] == birth['thread'] and before(birth,p) and before(p,entry)
-                and not p['status'] and not p['hazards'] and p['a'] and p['epoch']==birth['epoch']]
-        if len(pubs) != 1:
+        pubs = [p for p in published_by_source[source] if p['epoch']==birth['epoch']
+                and before(birth,p)]
+        if (len(pubs)!=1 or pubs[0]['holder']!=birth['holder'] or
+                pubs[0]['thread']!=birth['thread'] or not before(pubs[0],entry) or
+                pubs[0]['status'] or pubs[0]['hazards'] or pubs[0]['a']<0x10000 or
+                pubs[0]['selection']!=0):
             return None
         # A global clear is deliberately conservative. Reset alone does not free
         # geographic sources; every other lifecycle fence rejects this join.
@@ -160,12 +185,19 @@ def reduce(events, legacy_reduce, source_key, first_loss=0, last_loss=0):
         reason = None
         if entry_counts[chain['invocation']] != 1 or selection_counts[key] != 1:
             reason = 'AMBIGUOUS_INVOCATION_OR_SELECTION'
+        elif any(sum(e['kind']==kind for e in parts)!=1 for kind in (2,3,4,5,6,7,8)):
+            reason = 'MISSING_OR_DUPLICATED_COMPLETE_SELECTION_BOUNDARY'
+        elif chain['cold_sequence'] not in certificates or not before(certificates[chain['cold_sequence']],entries[chain['invocation']]):
+            reason = 'EMPTY_RESET_CERTIFICATE_NATIVE_ORDER_INVALID'
         elif len(reserves)==1 and reserves[0]['a']==0xffffffff and not stores:
             reason='RESERVE_FAILED'
         elif not joined or joined['source_key'] != chain['source_key']:
             reason = 'UNQUALIFIED_SOURCE_LIFETIME'
         elif len(reserves) != 1 or len(stores) != 1 or len(generated) != 1:
             reason = 'MISSING_OR_AMBIGUOUS_APPEND_OUTCOME'
+        elif (len(returns_by_invocation[chain['invocation']])>1 or
+              any(not before(stores[0],returned) for returned in returns_by_invocation[chain['invocation']])):
+            reason = 'CONTRADICTORY_NATIVE_RETURN'
         else:
             reserve, store = reserves[0], stores[0]
             if reserve['a'] == 0xffffffff:

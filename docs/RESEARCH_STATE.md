@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-11-01 — D5AB P3 native integration COMPLETE / ACCEPT:**
+[Report](experiments/resource-retained-population/d5ab-p3-report.md),
+[active ledger](experiments/resource-retained-population/d5ab-p3-investigation-ledger.md)
+and [review record](experiments/resource-retained-population/d5ab-p3-review.md)
+record the final compiled schema-4 lifecycle/ABI, actual-worker/controller,
+capacity and consumer qualification. Independent exact-snapshot review accepts
+all five P3 questions and eight criteria within the offline scope. Native host actions
+and static engine evidence remain distinct from retail observation. D5AB
+INCOMPLETE / REWORK, D5R OPEN and P4/B2 NOT AUTHORIZED. Historical B1/D5AA,
+protected-save, gameplay-checklist and publication states remain unchanged.
+
 **2026-11-01 — D5AB P1 source identity/lifetime closure:**
 [Report](experiments/resource-retained-population/d5ab-p1-report.md),
 [native matrix](experiments/resource-retained-population/d5ab-p1-source-identity-lifetime.md)

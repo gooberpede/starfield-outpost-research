@@ -1,5 +1,15 @@
 # Implementation and Audit Briefs
 
+- [D5AB P3 native integration qualification](CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md):
+  invoked 2026-11-01 for offline native integration, actual compiled disposable
+  scenarios, independent oracles, transport/controller/consumer qualification
+  and exact-snapshot review. [Report](../experiments/resource-retained-population/d5ab-p3-report.md),
+  [ledger](../experiments/resource-retained-population/d5ab-p3-investigation-ledger.md)
+  and [review](../experiments/resource-retained-population/d5ab-p3-review.md)
+  retain all five questions/eight criteria and the original parent obligations.
+  Independent review accepts P3 COMPLETE within its offline scope. P4/B2 NOT AUTHORIZED;
+  no retail, deployment, save mutation, staging, commit, push or publication.
+
 - [D5AB P1 source identity and lifetime closure](CODEX_BRIEF_SOR_RG2_D5AB_P1_native_source_identity_lifetime_closure.md):
   invoked 2026-11-01 for bounded offline native research, schema/consumer changes,
   disposable qualification and independent review. [Report](../experiments/resource-retained-population/d5ab-p1-report.md),
