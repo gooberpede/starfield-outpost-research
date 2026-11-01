@@ -1,5 +1,21 @@
 # Current Research State
 
+**2026-11-01 - B2 direct target mask 0x3 OBSERVED; cold-first processing unproved.**
+The [report](experiments/resource-retained-population/d5ab-b2-report.md) and
+[live ledger](experiments/resource-retained-population/d5ab-b2-live-ledger.md)
+record a retained timestamp-only admission refusal, then one explicitly approved
+retry with Save52 at the Lodge and one direct travel to Feynman V Cu IL F.
+The retry captures the exact target sample 0x3, matching token store and later
+bypasses in 32,141 complete lossless records. Missing target-epoch cold certification
+and an earlier eligible target decision prevent qualified firstness; D5R stays OPEN.
+The [explicit retry amendment](experiments/resource-retained-population/d5ab-b2-timestamp-amendment.md)
+authorizes a content-based configuration guard and one fresh attempt after
+requalification. Corrected source and 59/218/28/28 controls are independently
+accepted; retry preflight, phase checks, owned STOP, protected postflight and
+85-file archive verification pass. Final independent evidence/editorial/delivery
+review ACCEPT closes this bounded B2 outcome; source/raw/card/package are frozen.
+No complete geometry, persistence or retail-frequency claim is made.
+
 **2026-11-01 - P4 optimization correction COMPLETE / ACCEPT; READY for maintainer review.**
 The [optimization correction](experiments/resource-retained-population/d5ab-p4-optimization-correction.md)
 supersedes the original READY recommendation because inherited Python optimization

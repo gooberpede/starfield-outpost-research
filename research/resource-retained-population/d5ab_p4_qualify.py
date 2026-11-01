@@ -15,8 +15,10 @@ if not __debug__ or sys.flags.optimize != 0:
 import copy
 import importlib.util
 import json
+import os
 from pathlib import Path
 import shutil
+import subprocess
 from unittest.mock import patch
 import zipfile
 
@@ -99,13 +101,18 @@ def main():
     (saves / name).write_bytes(b'disposable; not a game save')
     policy = module.load_policy()
     config = out / 'test.ini'; config.write_bytes(b'fixture')
+    definition = out / 'definition.esm'; definition.write_bytes(b'definition fixture')
+    installed = out / 'installed.asset'; installed.write_bytes(b'A' * (1024 * 1024))
     sfse = out / 'sfse.dll'; sfse.write_bytes(b'fixture')
     plugins = out / 'Plugins'; plugins.mkdir()
     deployed = plugins / 'SorConstructionWinner.dll'; deployed.write_bytes(b'fixture')
     protection = dict(save_policy_sha256=module.policy_hash(policy),
         protected_live=module.snapshot(saves, policy), live_path=str(saves),
-        file_guards={str(config):dict(bytes=config.stat().st_size, mtime_ns=config.stat().st_mtime_ns)},
-        installed={})
+        config={str(config):sha(config)}, definitions={str(definition):sha(definition)},
+        file_guards={str(p):dict(bytes=p.stat().st_size, mtime_ns=p.stat().st_mtime_ns)
+                     for p in (config, definition)},
+        installed={str(installed):dict(bytes=installed.stat().st_size,
+                   mtime_ns=installed.stat().st_mtime_ns, sha256=sha(installed))})
     preflight = dict(protection=protection, remote_protected_sizes={str(remote):{}})
     plan = dict(sfse_path=str(sfse), sfse_sha256=sha(sfse), deployed_dll=str(deployed), dll_sha256=sha(deployed))
     plan['phase_pins'] = {str(ROOT / name):sha(ROOT / name) for name in (
@@ -113,6 +120,100 @@ def main():
         'research/resource-carinae-source-context/save_policy.py',
         'research/resource-retained-population/d5ab_p4_operations.py')}
     check('lightweight-native-grammar-positive', ops.lightweight(plan, preflight)['state'] == 'PASS_LIGHTWEIGHT')
+    # Configuration content is checked even when all metadata still matches.
+    # Existing tool/DLL pin checks remain; save and installed-asset payloads must
+    # not join this small configuration-content read path.
+    hash_reads = []
+    real_sha = ops.sha
+    def observe_hash(path):
+        path = Path(path).resolve()
+        assert not path.is_relative_to(saves.resolve())
+        assert not path.is_relative_to(remote.resolve())
+        assert path != installed.resolve()
+        assert path != definition.resolve()
+        hash_reads.append(dict(path=str(path), bytes=path.stat().st_size))
+        return real_sha(path)
+    with patch.object(ops, 'sha', side_effect=observe_hash):
+        normal = ops.lightweight(plan, preflight)
+    check('configuration-always-hashed-with-unchanged-metadata',
+          normal['configuration_content_rehashed'] is True and
+          normal['configuration_timestamp_changes'] == [] and
+          sum(row['path'] == str(config.resolve()) for row in hash_reads) == 1)
+    check('lightweight-hashes-no-save-or-installed-asset-payload',
+          all(row['path'] != str(installed.resolve()) and
+              row['path'] != str(definition.resolve()) and
+              not Path(row['path']).is_relative_to(saves.resolve()) and
+              not Path(row['path']).is_relative_to(remote.resolve()) for row in hash_reads))
+    config_stat = config.stat()
+    os.utime(config, ns=(config_stat.st_atime_ns, config_stat.st_mtime_ns + 1_000_000_000))
+    timestamp_only = ops.lightweight(plan, preflight)
+    check('configuration-timestamp-only-change-accepted',
+          timestamp_only['state'] == 'PASS_LIGHTWEIGHT' and
+          timestamp_only['configuration_timestamp_changes'] == [str(config)] and
+          sha(config) == protection['config'][str(config)])
+    config.write_bytes(b'changed')
+    os.utime(config, ns=(config_stat.st_atime_ns, config_stat.st_mtime_ns))
+    check('changed-config-retains-original-size-and-mtime',
+          config.stat().st_size == config_stat.st_size and
+          config.stat().st_mtime_ns == config_stat.st_mtime_ns)
+    rejects('configuration-same-size-restored-mtime-content-change-refused',
+            lambda: ops.lightweight(plan, preflight))
+    config.write_bytes(b'fixture')
+    os.utime(config, ns=(config_stat.st_atime_ns, config_stat.st_mtime_ns))
+    config.unlink()
+    rejects('missing-configuration-file-refused', lambda: ops.lightweight(plan, preflight))
+    config.write_bytes(b'fixture')
+    os.utime(config, ns=(config_stat.st_atime_ns, config_stat.st_mtime_ns))
+    for label, digest in (('absent', None), ('empty', ''), ('wrong', '0' * 64)):
+        missing_pin = copy.deepcopy(preflight)
+        if label == 'absent':
+            missing_pin['protection']['config'].pop(str(config))
+        else:
+            missing_pin['protection']['config'][str(config)] = digest
+        rejects('configuration-' + label + '-pin-refused',
+                lambda value=missing_pin: ops.lightweight(plan, value))
+    null_pin = copy.deepcopy(preflight)
+    null_pin['protection']['config'][str(config)] = None
+    rejects('configuration-null-pin-refused', lambda: ops.lightweight(plan, null_pin))
+    ambiguous = copy.deepcopy(preflight)
+    ambiguous['protection']['definitions'][str(config)] = sha(config)
+    rejects('ambiguous-config-definition-roster-refused', lambda: ops.lightweight(plan, ambiguous))
+    incomplete = copy.deepcopy(preflight)
+    incomplete['protection']['file_guards'].pop(str(config))
+    rejects('configuration-missing-size-guard-refused', lambda: ops.lightweight(plan, incomplete))
+    definition_stat = definition.stat()
+    os.utime(definition, ns=(definition_stat.st_atime_ns, definition_stat.st_mtime_ns + 1_000_000_000))
+    rejects('definition-timestamp-change-still-refused', lambda: ops.lightweight(plan, preflight))
+    os.utime(definition, ns=(definition_stat.st_atime_ns, definition_stat.st_mtime_ns))
+    installed_stat = installed.stat()
+    os.utime(installed, ns=(installed_stat.st_atime_ns, installed_stat.st_mtime_ns + 1_000_000_000))
+    rejects('installed-asset-timestamp-change-still-refused', lambda: ops.lightweight(plan, preflight))
+    os.utime(installed, ns=(installed_stat.st_atime_ns, installed_stat.st_mtime_ns))
+    # A real disposable directory junction tests ancestor rejection without
+    # requiring file-symlink privileges. Remove only the junction entry afterward.
+    real_config = out / 'real-config'; real_config.mkdir()
+    (real_config / config.name).write_bytes(b'fixture')
+    junction = out / 'linked-config'
+    made = subprocess.run(['cmd', '/d', '/c', 'mklink', '/J', str(junction), str(real_config)],
+                          capture_output=True)
+    (out / 'junction.stdout').write_bytes(made.stdout)
+    (out / 'junction.stderr').write_bytes(made.stderr)
+    check('disposable-configuration-junction-created', made.returncode == 0 and junction.is_junction())
+    try:
+        linked = junction / config.name
+        reparse = copy.deepcopy(preflight)
+        reparse['protection']['config'] = {str(linked):sha(real_config / config.name)}
+        reparse['protection']['file_guards'].pop(str(config))
+        reparse['protection']['file_guards'][str(linked)] = dict(
+            bytes=linked.stat().st_size, mtime_ns=linked.stat().st_mtime_ns)
+        rejects('configuration-junction-ancestor-refused', lambda: ops.lightweight(plan, reparse))
+    finally:
+        assert junction.resolve().is_relative_to(out) and junction.is_relative_to(out)
+        os.rmdir(junction)
+    check('junction-removal-preserves-target', not junction.exists() and (real_config / config.name).is_file())
+    real_is_symlink = Path.is_symlink
+    with patch.object(Path, 'is_symlink', lambda path: path == config or real_is_symlink(path)):
+        rejects('configuration-file-symlink-refused-modeled', lambda: ops.lightweight(plan, preflight))
     bad = copy.deepcopy(plan)
     bad['phase_pins'][str(ROOT / 'runtime/session-tools/common.py')] = '0' * 64
     rejects('lightweight-helper-drift-refused', lambda: ops.lightweight(bad, preflight))
@@ -175,7 +276,6 @@ def main():
         state['telemetry_fault'] = True
         (session / 'p4-state.json').write_text(json.dumps(state), encoding='utf8')
         rejects('postflight-telemetry-fault-refused', lambda: ops.finalization(synthetic_plan, admission, session, approval))
-    import subprocess
     bad_plan = out / 'bad-plan.json'; fresh(bad_plan, {})
     command = [sys.executable, '-E', '-B', str(Path(ops.__file__)), 'preflight',
                '--plan', str(bad_plan), '--plan-sha256', '0' * 64,
@@ -197,6 +297,7 @@ def main():
     receipt = dict(schema='sor-d5ab-p4-procedure-tests/1', passed=all(r['passed'] for r in rows),
         rows=rows, driver_sha256=sha(__file__), operations_sha256=sha(ops.__file__),
         archive_sha256=sha(archive.__file__), raw_source=str(source), original_hashes=originals,
+        lightweight_hash_reads=hash_reads,
         seal_sha256=sha(seal), zip_sha256=sha(zipped),
         scope='Offline disposable controls; synthetic approval fields test validators only and authorize no retail operation')
     fresh(out / 'receipt.json', receipt)

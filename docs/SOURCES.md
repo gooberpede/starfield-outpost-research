@@ -1927,3 +1927,17 @@ is incorporated. No new third-party code, licence basis, dependency, contact or
 disclosure occurs. Existing SFSE header/notices retain their approved scope.
 The superseded READY verdict is retained verbatim with a dated correction;
 raw/native/private/binary evidence stays LOCAL-ONLY and authored work REVIEW-REQUIRED.
+
+## D5AB B2 retail sample and configuration timestamp correction
+
+The [B2 report](experiments/resource-retained-population/d5ab-b2-report.md)
+records direct retail observations under the maintainer's explicit card approval
+and subsequent timestamp/retry instruction. Owned P4 operations, tests, decoder,
+source-lifetime joins and archive methods are reused under SOR-P-0002. The new
+bounded analysis helper re-authenticates raw frames and existing reader results;
+its exact source hash and private outputs are retained with the capture.
+Independent raw decoding corroborates the target mask 0x3 and token store while
+preserving the missing-cold-state refusal. No external source, dependency, licence
+acceptance, contact or disclosure is introduced. Existing approved SFSE notices
+remain unchanged. Raw/private/native evidence remains LOCAL-ONLY, authored
+synthesis REVIEW-REQUIRED, publication ON HOLD.

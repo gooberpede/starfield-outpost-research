@@ -113,6 +113,10 @@ small checks and do not add full protected-save scans.
 
 ## Exact corrected package and preservation
 
+The operator-facing ZIP is now [SorConstructionWinner-0.4.0.zip](d5ab-p4-package-naming.md),
+a byte-identical versioned copy of the qualified install archive. The original
+staging paths and plan/source pins below remain unchanged.
+
 The offline candidate is `.local-work/d5ab/p4-opt-package02/`. Its manifest lists
 100 staged members, 99 plan package pins, all 29 measured protection dependencies,
 current interpreter/source versions, exact build inputs and native compiler inputs

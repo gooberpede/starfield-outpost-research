@@ -87,9 +87,21 @@ def lightweight(plan, preflight):
     for folder, names in preflight['remote_protected_sizes'].items():
         remote = module.partition(module.sizes(folder, policy), policy)
         assert not remote['unclassified'] and remote['protected'] == names
+    configurations = previous['config']
+    definitions = previous['definitions']
+    assert not set(configurations) & set(definitions), 'Ambiguous configuration/definition roster'
+    assert set(previous['file_guards']) == set(configurations) | set(definitions), 'Incomplete file guard roster'
+    timestamp_changes = []
     for path, row in previous['file_guards'].items():
         stat = regular(path).stat()
-        assert (stat.st_size, stat.st_mtime_ns) == (row['bytes'], row['mtime_ns']), path
+        if path in configurations:
+            # Configuration timestamps may change without a content change.
+            # Always hash these small files, including unchanged metadata.
+            assert stat.st_size == row['bytes'] and sha(path) == configurations[path], path
+            if stat.st_mtime_ns != row['mtime_ns']:
+                timestamp_changes.append(path)
+        else:
+            assert (stat.st_size, stat.st_mtime_ns) == (row['bytes'], row['mtime_ns']), path
     for path, row in previous['installed'].items():
         stat = regular(path).stat()
         assert (stat.st_size, stat.st_mtime_ns) == (row['bytes'], row['mtime_ns']), path
@@ -99,7 +111,9 @@ def lightweight(plan, preflight):
     competing = [p.name for p in deployed.parent.glob('Sor*.dll') if p != deployed]
     assert not competing, competing
     return dict(state='PASS_LIGHTWEIGHT', raw_verified=False,
-                save_content_rehashed=False, transient_names=sorted(current['transient']))
+                save_content_rehashed=False, transient_names=sorted(current['transient']),
+                configuration_content_rehashed=True,
+                configuration_timestamp_changes=timestamp_changes)
 
 
 def remote_sizes(protection):

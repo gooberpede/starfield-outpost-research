@@ -1,18 +1,27 @@
-> **2026-11-01 optimization correction qualified: P4 COMPLETE / ACCEPT, READY for maintainer review. B2 NOT AUTHORIZED. Do not execute this card.** See [correction](d5ab-p4-optimization-correction.md). The corrected package below has independent offline acceptance; the original Package04 is superseded.
+> **2026-11-01 current authority: one explicit B2 retry, subject to corrected qualification and fresh preflight.** See the [live ledger](d5ab-b2-live-ledger.md) and [timestamp amendment](d5ab-b2-timestamp-amendment.md). No automatic further retry.
 
 # D5AB proposed B2 operator run card
 
-2026-11-01, Australia/Sydney. **B2 NOT AUTHORIZED.** P4 prepares a candidate for
-separate maintainer review. This card authorizes no installation, launch, game
-load, travel, live control-file write, exit/disablement or retry. Final readiness
-is recorded in the [optimization correction](d5ab-p4-optimization-correction.md);
-exact corrected identities are in its package table. The [original P4 decision](d5ab-p4-decision.md)
-and [manifest](d5ab-p4-package-manifest.md) remain historical.
+2026-11-01, Australia/Sydney. The maintainer approves the observer/card and
+explicitly authorizes one retry after a configuration timestamp-only refusal.
+Current attempt is `B2-APPROVED-002`; every phase still requires its preceding
+checks. The maintainer owns Vortex enablement, launch, load/travel, STOP and normal
+exit/disablement. P4 readiness alone grants no live authority. Original preparation
+and failed-attempt records remain historical in the [live ledger](d5ab-b2-live-ledger.md).
 
-## Proposed episode and responsibilities
+The native archive remains `SorConstructionWinner-0.4.0.zip`, byte-identical to
+the qualified original. The current helper bundle is
+`.local-work/d5ab/p4-b2-content-package01/`; use its exact plan below. Configuration
+contents must match preflight size and SHA-256 on every lightweight check;
+timestamp-only changes are diagnostic. Installed binary and definition metadata
+guards remain strict. The [timestamp amendment](d5ab-b2-timestamp-amendment.md)
+records correction and independent qualification; no guard pin is replaced to
+force admission.
+
+## Approved episode and responsibilities
 
 Exactly one new Starfield process, one load of **Save52 at the Lodge**, and one
-ordinary direct fast travel to **Feynman V Cu IL F** are proposed. The maintainer
+ordinary direct fast travel to **Feynman V Cu IL F** are approved for this retry. The maintainer
 owns install/enablement through Vortex, launch through the pinned SFSE loader,
 save choice/load, travel, STOP instruction, normal exit and disablement. A session
 operator runs only separately approved checks and request/STOP writes. No forced
@@ -31,13 +40,13 @@ guess an ordinal. The Lodge starting state must be confirmed before travel.
 | Step | Responsible person and action | Required result before proceeding |
 |---|---|---|
 | 1. Offline preparation | Session operator verifies final package/tool/card pins, no Starfield process, full protection and restoration COPY using the command below. | Fresh `PASS_OFFLINE_PREFLIGHT`; 40,000,000,000 caller-available bytes on both C: and D:; all protected inputs/backups/remote saves/configs/definitions match. This is not GO. |
-| 2. Separate authorization | Maintainer reviews final accepted package/card and gives explicit scoped GO, if desired. Record the actual instruction locally. | No GO exists under P4. Approval must bind plan/card/package hashes, one episode, control-file writes, install/enable/launch, exit/recovery, and no automatic retry. |
-| 3. Install and launch: NOT AUTHORIZED | Maintainer confirms Cloud disabled where applicable, Vortex profile `Starfield - SFSE`, no prior attempt and no competing SOR observers; installs/enables exact candidate and launches once via the pinned SFSE loader. | Effective deployed DLL and SFSE hashes checked; remain at main menu with no save loaded. A Vortex checkbox alone is insufficient. |
-| 4. READY and arming: NOT AUTHORIZED | Operator selects only the newly created live session, binds actual process image/PID/creation, DLL/game/SFSE, startup nonce, eighteen site guards and worker identity; starts controller and obtains a fresh request/ACK. | `BOUND_READY`, then `HEALTHY_ACK` with no prior loss/fault before load. Identity-bound approval receipt records the earlier actual GO plus this newly known session. A slow ACK means wait/investigate, not permission to load. |
-| 5. Save load: NOT AUTHORIZED | Maintainer loads exact Save52 once and reports loaded at the Lodge, not travelled. Operator records load-request/load-complete observation intervals and obtains another fresh challenge. | Distinct nonce, same process/session, healthy worker and coverage counters. No full content/save/archive scan during play. |
-| 6. Direct travel: NOT AUTHORIZED | Maintainer initiates one direct fast travel to Feynman V Cu IL F. Operator records the travel-request interval. | No alternate destination, forcing, reset or second travel. Native events recorded only at the eighteen actual instrumented boundaries. |
-| 7. Arrival and STOP: NOT AUTHORIZED | Maintainer reports ordinary arrival. Operator records the observation interval and obtains fresh health/coverage. Maintainer directs STOP; operator issues owned same-session STOP. | Preserve losses/faults and all evidence. Do not wait for a preferred mask or target event. `RETIRED_PENDING_POSTFLIGHT` is metadata only, never scientific success. |
-| 8. Exit/disablement: NOT AUTHORIZED | Maintainer exits normally and disables/removes effective observer through Vortex, retaining the reviewed offline package. | Original process creation identity gone; effective DLL absent. No hot unload, unpatch, process kill, exception suppression or automatic relaunch. |
+| 2. Separate authorization | Maintainer reviews final accepted package/card and gives explicit scoped GO, if desired. Record the actual instruction locally. | The actual maintainer approval is retained separately from P4. Approval must bind plan/card/package hashes, one episode, control-file writes, install/enable/launch, exit/recovery, and no automatic retry. |
+| 3. Install and launch: requires phase clearance | Maintainer confirms Cloud disabled where applicable, Vortex profile `Starfield - SFSE`, no prior launch for attempt 002 and no competing SOR observers; enables the exact candidate and launches once via the pinned SFSE loader. Attempt 001 remains preserved. | Effective deployed DLL and SFSE hashes checked; remain at main menu with no save loaded. A Vortex checkbox alone is insufficient. |
+| 4. READY and arming: requires phase clearance | Operator selects only the newly created live session, binds actual process image/PID/creation, DLL/game/SFSE, startup nonce, eighteen site guards and worker identity; starts controller and obtains a fresh request/ACK. | `BOUND_READY`, then `HEALTHY_ACK` with no prior loss/fault before load. Identity-bound approval receipt records the earlier actual GO plus this newly known session. A slow ACK means wait/investigate, not permission to load. |
+| 5. Save load: requires phase clearance | Maintainer loads exact Save52 once and reports loaded at the Lodge, not travelled. Operator records load-request/load-complete observation intervals and obtains another fresh challenge. | Distinct nonce, same process/session, healthy worker and coverage counters. No full content/save/archive scan during play. |
+| 6. Direct travel: requires phase clearance | Maintainer initiates one direct fast travel to Feynman V Cu IL F. Operator records the travel-request interval. | No alternate destination, forcing, reset or second travel. Native events recorded only at the eighteen actual instrumented boundaries. |
+| 7. Arrival and STOP: requires phase clearance | Maintainer reports ordinary arrival. Operator records the observation interval and obtains fresh health/coverage. Maintainer directs STOP; operator issues owned same-session STOP. | Preserve losses/faults and all evidence. Do not wait for a preferred mask or target event. `RETIRED_PENDING_POSTFLIGHT` is metadata only, never scientific success. |
+| 8. Exit/disablement: requires phase clearance | Maintainer exits normally and disables/removes effective observer through Vortex, retaining the reviewed offline package. | Original process creation identity gone; effective DLL absent. No hot unload, unpatch, process kill, exception suppression or automatic relaunch. |
 | 9. Offline postflight | Operator repeats full protected audit and checks exact session identity/owned STOP, raw frames, CRCs, ACKs, terminal and final reader/reducer. | Protection and admitted-byte integrity stated separately from target science. Partial/faulted evidence stays partial. |
 | 10. Archive and review | Operator finishes companion receipts, seals quiescent roots, creates ZIP, stream-verifies every member and independently reconstructs required members. | Original raw tree retained; no upload, deletion or publication. Independent scientific review decides the observed result. |
 
@@ -82,13 +91,14 @@ recovery decision; never restore over protected originals.
 | Faulted or ambiguous history | Loss, missing reset/retirement, ABA/collision, contradictory telemetry, worker/controller/guard/ACK/raw fault or partial finalization. Preserve useful authenticated prefixes while refusing precisely unsupported firstness; never fill gaps with pointer equality, proximity or simulations. |
 
 Successful append or sampled mask does not prove complete/nonempty geometry.
-One future process cannot establish retail frequency or universal reliability.
+One approved process cannot establish retail frequency or universal reliability.
 D5R stays OPEN until separately observed evidence answers its question. B1 remains
 PARTIAL NATIVE COVERAGE and D5AA's historical gap remains unchanged.
 
 ## Technical appendix: pinned commands and receipts
 
-These commands describe a future procedure. **Do not run live actions under P4.**
+These commands implement only the explicitly approved attempt and phase sequence.
+P4 review by itself grants no live authority.
 Use installed CPython 3.14 with `-E -B`, never `-O` or `-OO`. Run canonical repository scripts;
 `review-tools` in staging are source snapshots, not a relocated installation.
 Use a new output path for each receipt and the exact hashes in the final manifest.
@@ -100,8 +110,8 @@ The corrected plan pins the interpreter binary and records `-E -B`.
 
 ```powershell
 $py = 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe'
-$plan = '.local-work/d5ab/p4-opt-package02/plan.json'
-$planHash = '2de7f60692af850c34cafa46de4fefb4679c33ac77f3944eeecf94f175dddc70'
+$plan = '.local-work/d5ab/p4-b2-content-package01/plan.json'
+$planHash = '5dc416b48dac92903bc8fa2a006adc562a407dec79236c26e92fabae2639f1c9'
 & $py -E -B research/resource-retained-population/d5ab_p4_operations.py preflight --plan $plan --plan-sha256 $planHash --out .local-work/d5ab/B2-NEW-PREFLIGHT
 ```
 
@@ -115,7 +125,7 @@ identity cannot exist before launch, so this binding follows the separately
 approved launch and precedes any save load. No approval is generated by P4.
 
 ```powershell
-# Every command in this block is a FUTURE LIVE ACTION, NOT AUTHORIZED.
+# Approved attempt only: run each command at its cleared phase.
 $control = @('--session', $session, '--plan', $plan, '--plan-sha256', $planHash,
   '--preflight', $preflight, '--preflight-sha256', $preflightHash,
   '--approval', $approval, '--approval-sha256', $approvalHash)
@@ -149,19 +159,19 @@ evidence or retry gameplay. Future live approval must name final plan/card/packa
 hashes and the actual retained operational/scientific limitations.
 
 
-## Operator setup template for a separately approved attempt
+## Operator setup for the explicitly approved attempt
 
-The following is a **future procedure, NOT AUTHORIZED by P4**. It makes the
-appendix variables concrete; use the single approved attempt label. If a label
+The following makes the appendix variables concrete. Use the explicit attempt
+label and preceding phase clearances; never restart these blocks mid-attempt. If a label
 already exists, stop and resolve it rather than incrementing an attempt or retrying
 launch. Receipt GUIDs distinguish observations within the same approved attempt.
 
 ```powershell
 Set-Location 'D:/Projects/starfield-outpost-research'
 $py = 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe'
-$plan = (Resolve-Path '.local-work/d5ab/p4-opt-package02/plan.json').Path
-$planHash = '2de7f60692af850c34cafa46de4fefb4679c33ac77f3944eeecf94f175dddc70'
-$attempt = 'B2-APPROVED-001'
+$plan = (Resolve-Path '.local-work/d5ab/p4-b2-content-package01/plan.json').Path
+$planHash = '5dc416b48dac92903bc8fa2a006adc562a407dec79236c26e92fabae2639f1c9'
+$attempt = 'B2-APPROVED-002'
 $preDir = Join-Path $PWD ".local-work/d5ab/$attempt-preflight"
 $notes = Join-Path $PWD ".local-work/d5ab/$attempt-notes"
 if (Test-Path $notes) { throw 'Existing attempt notes; do not reuse' }
@@ -183,7 +193,7 @@ hashes in the notes directory. Then select the newly created session, refusing
 multiple or absent candidates:
 
 ```powershell
-# FUTURE main-menu read/binding, NOT AUTHORIZED now.
+# Main-menu binding only after launch and maintainer menu confirmation.
 $liveRoot = Join-Path $PWD '.local-work/d5x/live'
 $newSessions = @(Get-ChildItem -LiteralPath $liveRoot -Directory -Filter 'session-*' |
   Where-Object { $_.Name -notin $pre.existing_sessions })
@@ -228,7 +238,7 @@ not permit a save load or travel. A successful challenge clears its nonce so the
 next phase gets a fresh one.
 
 ```powershell
-# FUTURE LIVE checks, NOT AUTHORIZED now.
+# Live checks only at the named approved checkpoint.
 $phase = 'main-menu' # Later: 'loaded-Lodge' or 'arrival'; no new travel implied.
 $newRequestReceipt = ReceiptPath ($phase + '-request')
 & $py -E -B runtime/construction-winner/p4_controller.py request @control --out $newRequestReceipt
@@ -241,7 +251,7 @@ the actual maintainer STOP at arrival, or the separately approved proven-fault
 response. Never issue it as part of the main-menu or Lodge checkpoint.
 
 ```powershell
-# FUTURE LIVE STOP, NOT AUTHORIZED now.
+# STOP only on actual maintainer instruction or approved safety-fault response.
 $actualReason = 'RECORD THE ACTUAL STOP INSTRUCTION OR SAFETY INCIDENT'
 $newStopReceipt = ReceiptPath 'stop'
 & $py -E -B runtime/construction-winner/p4_controller.py stop @control --reason $actualReason --out $newStopReceipt
