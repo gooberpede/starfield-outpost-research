@@ -1,5 +1,13 @@
 # Current Research State
 
+**2026-11-01 - P4 optimization correction COMPLETE / ACCEPT; READY for maintainer review.**
+The [optimization correction](experiments/resource-retained-population/d5ab-p4-optimization-correction.md)
+supersedes the original READY recommendation because inherited Python optimization
+can disable operational safety assertions. Original verdict/evidence are preserved.
+The corrected source/package/procedures pass affected requalification and independent
+exact-snapshot review. The original READY remains superseded history.
+B2 remains NOT AUTHORIZED; D5R OPEN and publication ON HOLD.
+
 **2026-11-01 - D5AB P4 final offline readiness COMPLETE / ACCEPT:**
 [Report](experiments/resource-retained-population/d5ab-p4-report.md),
 [original-contract matrix](experiments/resource-retained-population/d5ab-p4-compliance-matrix.md)

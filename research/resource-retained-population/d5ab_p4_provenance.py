@@ -11,13 +11,18 @@ No game/process/save/database/Git mutation, network or new dependency. Owned
 P1 provenance/receipt methods adapted under SOR-P-0002; hashes prove identity,
 not semantics, test coverage or review acceptance.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import csv
 import hashlib
 import json
 from pathlib import Path
 import shutil
 import subprocess
-import sys
 
 ROOT=Path(__file__).resolve().parents[2]
 

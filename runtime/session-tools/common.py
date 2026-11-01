@@ -1,5 +1,11 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 """Shared offline file/receipt primitives. Stdlib only; never alters inputs."""
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import ctypes
 import datetime
 import hashlib

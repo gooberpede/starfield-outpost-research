@@ -452,3 +452,6 @@ Current correction: [adapter 0.1.1 fixed population and capture-first recovery](
 
 
 - [D5AB P4 final readiness and B2 preparation](CODEX_BRIEF_SOR_RG2_D5AB_P4_final_readiness_B2_preparation.md): invoked 2026-11-01 for offline final-contract qualification, corrections, package/card and independent review. [Report](../experiments/resource-retained-population/d5ab-p4-report.md), [ledger](../experiments/resource-retained-population/d5ab-p4-investigation-ledger.md) and [decision](../experiments/resource-retained-population/d5ab-p4-decision.md) retain all original questions and criteria. B2, deployment, game, publication, staging, commit and push remain unauthorized.
+
+
+- [P4 optimization correction and requalification](../experiments/resource-retained-population/d5ab-p4-optimization-correction.md): explicit maintainer chat instruction on 2026-11-01 reopens the existing P4 correction authority. Original READY is retained historically and superseded by the fully qualified correction, COMPLETE / ACCEPT and READY for maintainer review; no new live, deployment, save-original, staging, commit or push authority.

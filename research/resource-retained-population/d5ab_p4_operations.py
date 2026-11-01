@@ -7,13 +7,18 @@ Lightweight checks read names/sizes and small pins, never raw events or save byt
 No launch, deployment, process intervention, original write or network activity.
 Owned prepare_native.py/common.py methods are reused under SOR-P-0002.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import argparse
 import ctypes as C
 from ctypes import wintypes as W
 import importlib.util
 import json
 from pathlib import Path
-import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'runtime/session-tools'))
@@ -32,7 +37,6 @@ def policy_module():
 
 
 def verify_plan(plan):
-    assert sys.flags.optimize == 0
     assert plan['schema'] == 'sor-d5ab-p4-plan/1'
     for path, digest in plan['package_pins'].items():
         assert sha(regular(path)) == digest, path
@@ -140,11 +144,13 @@ def original_process_gone(identity):
         return 'GONE'
     try:
         times = [W.FILETIME() for _ in range(4)]
-        assert kernel.GetProcessTimes(handle, *(C.byref(v) for v in times))
+        if not kernel.GetProcessTimes(handle, *(C.byref(v) for v in times)):
+            raise AssertionError('GetProcessTimes failed')
         birth = times[0].dwLowDateTime | times[0].dwHighDateTime << 32
         if birth != identity['creation_filetime']:
             return 'ORIGINAL_GONE_PID_REUSED'
-        assert kernel.WaitForSingleObject(handle, 0) == 0, 'Original process still active'
+        if kernel.WaitForSingleObject(handle, 0) != 0:
+            raise AssertionError('Original process still active')
         return 'EXITED'
     finally:
         kernel.CloseHandle(handle)

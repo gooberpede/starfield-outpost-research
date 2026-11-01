@@ -403,7 +403,7 @@ class Controls(unittest.TestCase):
         out = self.root/'failure-receipt.json'
         import subprocess
         import sys
-        result = subprocess.run([sys.executable, '-B', str(Path(session.__file__)), 'prelaunch', '--input', str(plan),
+        result = subprocess.run([sys.executable, '-E', '-B', str(Path(session.__file__)), 'prelaunch', '--input', str(plan),
                                  '--sha256', '0'*64, '--out', str(out)], capture_output=True)
         self.assertEqual(result.returncode, 1)
         self.assertEqual(common.read(out)['status'], 'CHECK_ERROR')

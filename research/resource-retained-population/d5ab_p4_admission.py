@@ -5,10 +5,15 @@ Reads owned code and a retained P3 synthetic capture. Writes one fresh ignored
 receipt. No live process, control files, protected saves or native execution.
 Modeled retail identities test validation only; they are never installed/run.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import copy
 import json
 from pathlib import Path
-import sys
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -109,7 +114,7 @@ def main():
     assert pinned_json(large, sha(large))['state'] == 'NOT_AUTHORIZED'
     tests.append('static-pinned-input-over-64k-supported')
     receipt = out / 'initial-cli-error.json'
-    command = [sys.executable, '-B', str(ROOT / 'runtime/construction-winner/p4_controller.py'),
+    command = [sys.executable, '-E', '-B', str(ROOT / 'runtime/construction-winner/p4_controller.py'),
                'start', '--session', str(out / 'nonexistent-session'),
                '--plan', str(large), '--plan-sha256', '0' * 64,
                '--preflight', str(large), '--preflight-sha256', sha(large),

@@ -6,12 +6,17 @@ Writes fresh ignored copies, mutated negative controls, ZIPs and test receipts.
 No protected original write, game, deployment, network or dependency download.
 Actual archive disk guards run; protection adverse cases use synthetic inputs.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import copy
 import importlib.util
 import json
 from pathlib import Path
 import shutil
-import sys
 from unittest.mock import patch
 import zipfile
 
@@ -172,7 +177,7 @@ def main():
         rejects('postflight-telemetry-fault-refused', lambda: ops.finalization(synthetic_plan, admission, session, approval))
     import subprocess
     bad_plan = out / 'bad-plan.json'; fresh(bad_plan, {})
-    command = [sys.executable, '-B', str(Path(ops.__file__)), 'preflight',
+    command = [sys.executable, '-E', '-B', str(Path(ops.__file__)), 'preflight',
                '--plan', str(bad_plan), '--plan-sha256', '0' * 64,
                '--out', str(out / 'failed-preflight')]
     failed = subprocess.run(command, capture_output=True)

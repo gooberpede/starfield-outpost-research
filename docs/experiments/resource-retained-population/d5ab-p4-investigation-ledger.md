@@ -124,3 +124,21 @@ screen/coverage and complete/task-only exports are regenerated and the exact
 closing delta independently verified. Source, native DLL, plan, card, fixtures,
 test receipts and protection evidence remain unchanged. READY means prepared
 for maintainer review, never live B2 authority or integration permission.
+
+
+## 2026-11-01 optimization reopening
+
+The maintainer reopens P4 after a verified optimization bypass. Original READY is
+superseded, preserved in the dated decision snapshot; current questions are
+INCOMPLETE / REWORK. The active correction branches, actual authorization and
+baseline are in [the correction ledger](d5ab-p4-optimization-correction.md).
+
+
+### Corrected closure, 2026-11-01
+
+OPT-L01 through OPT-L04 are resolved by current source/dependency audit, optimizer
+controls, full requalification/protection, exact package and independent acceptance.
+All original AB/P4 questions are COMPLETE within offline readiness; all criteria
+PASS. The [correction](d5ab-p4-optimization-correction.md) retains the superseded
+verdict and actual evidence. Corrected READY is for maintainer review only.
+B2 remains NOT AUTHORIZED, D5R OPEN and publication ON HOLD.

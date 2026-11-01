@@ -5,6 +5,12 @@ Pure offline computation. Reads event dictionaries, writes no files, and never
 reads a native pointer. Allocation identity comes from a constructor witness,
 not token equality. Missing publication or lifecycle coverage refuses a claim.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import struct
 from bisect import bisect_left, bisect_right
 from collections import defaultdict, Counter

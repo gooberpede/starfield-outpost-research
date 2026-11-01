@@ -7,6 +7,12 @@ only in that session. Uses installed Windows query/synchronization APIs and stdl
 No launch, attachment, memory access, injection, unload, kill or automatic recovery.
 The caller owns finite offline test stimuli; polling delay never retires capture.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import hashlib
 import json
 import msvcrt
@@ -51,10 +57,12 @@ class Controller:
         try:
             values = [W.FILETIME() for _ in range(4)]
             import ctypes
-            assert K.GetProcessTimes(process, *(ctypes.byref(v) for v in values))
+            if not K.GetProcessTimes(process, *(ctypes.byref(v) for v in values)):
+                raise AssertionError('GetProcessTimes failed')
             birth = values[0].dwLowDateTime | values[0].dwHighDateTime << 32
             assert birth == identity['creation_filetime']
-            assert K.WaitForSingleObject(process, 0) == 258
+            if K.WaitForSingleObject(process, 0) != 258:
+                raise AssertionError('Expected live disposable process')
         finally:
             K.CloseHandle(process)
         try:

@@ -6,6 +6,12 @@ Steam metadata, installed inputs, build and qualification. Writes fresh ignored
 receipts and one Save52 restoration rehearsal COPY. Stdlib and owned helpers.
 No game, original, configuration, analysis-project, network or Git mutations.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import argparse
 import importlib.util
 import json
@@ -14,7 +20,6 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
-import sys
 import time
 from build import ROOT,LOCAL,pin
 from verify_native import sites

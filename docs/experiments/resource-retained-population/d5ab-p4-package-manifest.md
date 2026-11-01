@@ -1,3 +1,5 @@
+> **2026-11-01 correction: original READY superseded; corrected P4 readiness is COMPLETE / ACCEPT, READY for maintainer review.** See [optimization correction](d5ab-p4-optimization-correction.md). The original verdict and evidence below are historical. B2 remains NOT AUTHORIZED.
+
 # P4 exact offline candidate and receipt inventory
 
 2026-11-01, Australia/Sydney. **LOCAL-ONLY staging; B2 NOT AUTHORIZED.**

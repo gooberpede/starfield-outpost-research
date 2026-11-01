@@ -1913,3 +1913,17 @@ third-party implementation, licence acceptance, consultation, download or extern
 disclosure occurs. Source-informed native research remains credited to its original
 records; no clean-room claim is made. Private native/raw/binary/save receipts stay
 LOCAL-ONLY; authored code/synthesis remains REVIEW-REQUIRED.
+
+
+## D5AB P4 Python optimization correction
+
+The [dated correction](experiments/resource-retained-population/d5ab-p4-optimization-correction.md)
+records reuse of owned P4/native/consumer/protection/archive/export methods under
+SOR-P-0002, current compiled input separation, exact dependency-source pins and
+an original optimizer test harness. The legacy adapter credits its exact owned
+source hash and preserves original AST oracles/captures. Python flag behavior is
+tested on the installed interpreter; no external implementation or documentation
+is incorporated. No new third-party code, licence basis, dependency, contact or
+disclosure occurs. Existing SFSE header/notices retain their approved scope.
+The superseded READY verdict is retained verbatim with a dated correction;
+raw/native/private/binary evidence stays LOCAL-ONLY and authored work REVIEW-REQUIRED.

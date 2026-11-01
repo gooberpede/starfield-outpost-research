@@ -7,13 +7,18 @@ candidate ZIP, plan, manifest and exact source/receipt inventories. No game,
 save/configuration/database/Git mutation, network or new dependency.
 Owned build/export/provenance methods are reused under SOR-P-0002.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import hashlib
 import importlib.util
 import json
 from pathlib import Path
 import re
 import shutil
-import sys
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -26,7 +31,10 @@ def main():
     assert out.is_relative_to(ROOT / '.local-work/d5ab')
     out.mkdir(parents=True, exist_ok=False)
     guard()
-    build = ROOT / '.local-work/d5x/p3-native-final04'
+    build = (ROOT / sys.argv[2]).resolve() if len(sys.argv) > 2 else ROOT / '.local-work/d5x/p3-native-final04'
+    reproduction = (ROOT / sys.argv[3]).resolve() if len(sys.argv) > 3 else ROOT / '.local-work/d5x/p3-repro02'
+    assert build.is_relative_to(ROOT / '.local-work/d5x')
+    assert reproduction.is_relative_to(ROOT / '.local-work/d5x')
     native = read(build / 'build.json')
     assert native['source_unchanged'] and native['compilation']['pass_exit']
     assert all(row['pass_exit'] for row in native['cases'])
@@ -35,7 +43,8 @@ def main():
     for path, digest in native['outputs'].items():
         assert sha(build / path) == digest, path
     dll = build / 'package-runtime/SorConstructionWinner.dll'
-    assert sha(dll) == sha(ROOT / '.local-work/d5x/p3-repro02/package-runtime/SorConstructionWinner.dll')
+    assert sha(dll) == sha(reproduction / 'package-runtime/SorConstructionWinner.dll')
+    assert sha(dll) == sha(ROOT / '.local-work/d5x/p3-native-final04/package-runtime/SorConstructionWinner.dll')
     header = (build / 'identity.generated.h').read_text(encoding='utf8')
     site_block = header.split('inline Site sites[]={')[1].split('};')[0]
     sites = [dict(index=i, rva=int(rva), length=int(length), guard_sha256=digest)
@@ -69,6 +78,7 @@ def main():
     support = tool_paths + list((ROOT / 'runtime/session-tools').glob('*.py')) + [operations]
     support += list((ROOT / 'research/resource-retained-population').glob('d5ab_p4_*.py'))
     support += [ROOT / 'runtime/retained-population/protect.py',
+                ROOT / 'runtime/retained-population/build.py',
                 ROOT / 'research/resource-retained-population/prepare_native.py']
     support += list((ROOT / 'research/resource-carinae-source-context').glob('*.py'))
     support += [ROOT / 'research/resource-carinae-source-context/save_policy.json']
@@ -76,14 +86,28 @@ def main():
                    'evidence-access', 'evidence-archive-discovery',
                    'evidence-archive', 'evidence-archive-stage-b', 'cargo-evidence-cutover'):
         support += list((ROOT / 'research' / folder).glob('*.py'))
+    closure = None
+    if len(sys.argv) > 4:
+        closure_path = (ROOT / sys.argv[4]).resolve()
+        assert closure_path.is_relative_to(ROOT / '.local-work/d5ab')
+        closure = read(closure_path)
+        assert closure['passed'] and closure['executed_modules']
+        for name, digest in closure['executed_modules'].items():
+            path = (ROOT / name).resolve()
+            assert path.is_relative_to(ROOT) and path.suffix == '.py'
+            assert sha(path) == digest
+            support.append(path)
     support = sorted(set(support))
     source_pins = {str(path): sha(path) for path in support}
     for path in support:
         dest = out / 'review-tools' / path.relative_to(ROOT)
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(path, dest)
-    package_pins = source_pins | {str(candidate / dll.name):sha(dll), str(zip_path):sha(zip_path)}
+    package_pins = source_pins | {str(candidate / dll.name):sha(dll), str(zip_path):sha(zip_path),
+                                  str(Path(sys.executable)):sha(sys.executable)}
     plan = dict(schema='sor-d5ab-p4-plan/1', state='PREPARED_NOT_AUTHORIZED',
+        python_executable=sys.executable, python_sha256=sha(sys.executable),
+        python_flags=['-E','-B'], optimization='REFUSE_BEFORE_OPERATIONAL_IMPORTS',
         process_image=str(pe.GAME / 'Starfield.exe'), game_sha256=pins['game'],
         sfse_path=str(pe.GAME / 'sfse_1_16_244.dll'), sfse_sha256=pins['sfse'],
         dll_sha256=sha(dll), deployed_dll=str(pe.GAME / 'Data/SFSE/Plugins' / dll.name),
@@ -103,8 +127,12 @@ def main():
     manifest = dict(schema='sor-d5ab-p4-offline-package/1', authority='NOT_AUTHORIZED_FOR_B2',
         execution_root=str(ROOT), execution_rule='Run canonical repository tools only after pin checks; review-tools are frozen snapshots.',
         native_build=str(build / 'build.json'), native_build_sha256=sha(build / 'build.json'),
-        reproduction_sha256=sha(ROOT / '.local-work/d5x/p3-repro02/build.json'),
-        compiled_source_pins=native['inputs'], source_pins=source_pins,
+        reproduction_sha256=sha(reproduction / 'build.json'),
+        build_input_pins=native['inputs'],
+        compiled_source_pins={path:digest for path,digest in native['inputs'].items()
+                             if Path(path).suffix.lower() in ('.h','.cpp','.asm')},
+        source_pins=source_pins,
+        dependency_closure=None if closure is None else dict(path=str(closure_path),sha256=sha(closure_path)),
         executable='Starfield 1.16.244.0', sfse='0.2.21', schema_version='sor-d5x/4',
         plan_sha256=sha(out / 'plan.json'), dll_sha256=sha(dll), zip_sha256=sha(zip_path),
         files={p.relative_to(out).as_posix():dict(bytes=p.stat().st_size,sha256=sha(p))

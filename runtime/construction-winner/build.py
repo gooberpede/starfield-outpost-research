@@ -7,6 +7,12 @@ command logs and raw synthetic receipts. No dependency downloads, game, saves,
 deployment, configuration, analysis-database or Git mutations. Native fixtures
 may terminate only their own disposable process in declared crash controls.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import os
 import hashlib
 import json
@@ -14,7 +20,6 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
-import sys
 from concurrent.futures import ThreadPoolExecutor
 import importlib.util
 import zipfile

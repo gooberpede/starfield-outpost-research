@@ -6,11 +6,16 @@ fresh ignored P4 fixture sessions and receipts. Deliberate faults affect the
 self-created host only. No retail process, deployment, saves or network access.
 Synthetic receipt damage is labeled and original bytes retained separately.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import json
 import os
 from pathlib import Path
 import subprocess
-import sys
 import time
 from unittest.mock import patch
 
@@ -276,7 +281,7 @@ if __name__ == '__main__':
                  'telemetry-generation telemetry-causes telemetry-regression telemetry-retained bad-ack bad-ack-bool bad-ack-count '
                  'stop-disk-failure foreign-stop write raw-flush ack-flush ack-write disk guard exit missing-terminal loss').split()
         def run(case):
-            result = subprocess.run([sys.executable, '-B', str(Path(__file__)), build, label + '-' + case, case], capture_output=True)
+            result = subprocess.run([sys.executable, '-E', '-B', str(Path(__file__)), build, label + '-' + case, case], capture_output=True)
             (out / (case + '.stdout')).write_bytes(result.stdout)
             (out / (case + '.stderr')).write_bytes(result.stderr)
             receipt = ROOT / '.local-work/d5ab' / (label + '-' + case) / 'receipt.json'

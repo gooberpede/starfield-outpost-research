@@ -6,6 +6,12 @@ Reads a stopped/crashed local session and externally pinned DLL hash. Optional
 CPython stdlib only. CRC detects transport damage; external SHA-256 manifests
 bind identity and original capture bytes. Neither mechanism proves semantics.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import argparse
 import hashlib
 import json

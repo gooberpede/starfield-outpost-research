@@ -80,7 +80,7 @@ def main():
     start = time.perf_counter()
     adapter070.full(build, pin)
     full_seconds = time.perf_counter()-start
-    tests = subprocess.run([sys.executable, '-B', '-m', 'unittest', 'discover', '-s',
+    tests = subprocess.run([sys.executable, '-E', '-B', '-m', 'unittest', 'discover', '-s',
                             str(Path(__file__).parent), '-p', 'test_session_tools.py', '-v'], capture_output=True)
     (a.out/'tests.txt').write_bytes(tests.stdout+tests.stderr)
     if tests.returncode:
@@ -109,7 +109,7 @@ def main():
     root_path = a.out/'roots.json'
     fresh(root_path, roots)
     def cli(*args):
-        p = subprocess.run([sys.executable, '-B', str(Path(__file__).with_name('archive.py')), *map(str, args)], capture_output=True)
+        p = subprocess.run([sys.executable, '-E', '-B', str(Path(__file__).with_name('archive.py')), *map(str, args)], capture_output=True)
         if p.returncode:
             raise RuntimeError(p.stdout.decode(errors='replace')+p.stderr.decode(errors='replace'))
     seal = a.out/'sample-seal.json'

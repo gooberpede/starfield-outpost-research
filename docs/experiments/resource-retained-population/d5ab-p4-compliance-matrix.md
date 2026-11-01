@@ -1,3 +1,5 @@
+> **2026-11-01 correction: original READY superseded; corrected P4 readiness is COMPLETE / ACCEPT, READY for maintainer review.** See [optimization correction](d5ab-p4-optimization-correction.md). The original verdict and evidence below are historical. B2 remains NOT AUTHORIZED.
+
 # P4 audit of the unchanged D5AB contract
 
 2026-11-01, Australia/Sydney. All five AB questions COMPLETE and all twelve

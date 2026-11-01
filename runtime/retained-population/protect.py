@@ -6,11 +6,16 @@ and protected saves/backups. Writes a new ignored receipt directory and a Save52
 rehearsal COPY there. No game, original save, Vortex or Git mutation. Requires
 installed CPython and the retained owned D5L preservation sources and evidence.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import importlib.util
 import json
 from pathlib import Path
 import re
-import sys
 
 ROOT=Path(__file__).resolve().parents[2]
 

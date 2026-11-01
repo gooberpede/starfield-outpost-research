@@ -4,6 +4,12 @@
 Reads names, optional explicit classifications and immutable inventory rows.
 No header save-kind claim, target operation, restoration or source write.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import datetime
 import hashlib
 import json

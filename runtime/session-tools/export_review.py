@@ -74,7 +74,7 @@ def main():
                     assert target in (before[n] or b'').decode('utf8'), (n, target)
                 link_checks += 1
     git('diff', '--check')
-    tests = subprocess.run([sys.executable, '-B', '-m', 'unittest', 'discover', '-s', str(Path(__file__).parent),
+    tests = subprocess.run([sys.executable, '-E', '-B', '-m', 'unittest', 'discover', '-s', str(Path(__file__).parent),
                             '-p', 'test_session_tools.py', '-v'], capture_output=True)
     (BASE/'tests.txt').write_bytes(tests.stdout+tests.stderr)
     assert tests.returncode == 0

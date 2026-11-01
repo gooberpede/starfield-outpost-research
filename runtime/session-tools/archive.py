@@ -3,13 +3,18 @@
 Reads quiescent evidence and hash-bound postflight/seals; writes new receipts and
 archives only. Never deletes, extracts over originals, repairs, or uploads data.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import argparse
 import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import re
 import stat
-import sys
 import time
 import zipfile
 from common import fresh, guard, inventory, now, read, regular, sha

@@ -13,7 +13,7 @@ Use only after review and the next experiment's explicit authorization. Observer
 0.5.0 and 0.6.0 remain historical implementations; their protocols are not
 interchangeable with 0.7.0. A different observer needs a reviewed small adapter.
 
-Use installed CPython 3.14, standard library only, with `-B` and without `-O`.
+Use installed CPython 3.14, standard library only, with `-E -B` and without `-O`/`-OO`.
 No downloads, packages, shell subprocesses or native builds are used by the
 operational commands. Paths and JSON receipts are private and remain untracked.
 All outputs are exclusive; choose a new filename for every observation. Pin each
@@ -169,8 +169,8 @@ separate deletion decision. No automatic retirement, moving or deletion exists.
 
 ```powershell
 $py = 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe'
-& $py -B -m unittest discover -s runtime/session-tools -p test_session_tools.py -v
-& $py -B runtime/session-tools/qualify.py --out .local-work/session-tools/NEW_QUALIFICATION
+& $py -E -B -m unittest discover -s runtime/session-tools -p test_session_tools.py -v
+& $py -E -B runtime/session-tools/qualify.py --out .local-work/session-tools/NEW_QUALIFICATION
 ```
 
 The tests use disposable files and mocked process/deployment contacts.

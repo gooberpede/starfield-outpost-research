@@ -7,6 +7,12 @@ Reads HEAD/index, tracked/untracked task text and evidence links. Writes only
 ignored diffs/manifests and disposable application trees below .local-work.
 No staging, game, network, target, save or analysis-database effects.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import difflib
 import hashlib
 import json
@@ -14,7 +20,6 @@ import os
 from pathlib import Path
 import re
 import subprocess
-import sys
 import tempfile
 
 ROOT=Path(__file__).resolve().parents[2]

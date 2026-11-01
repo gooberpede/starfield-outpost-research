@@ -8,6 +8,12 @@ not attach a debugger, pause/inject/modify/terminate a process, send STOP, read 
 memory, scan saves, install anything or use the network. The retained handle
 prevents TID reuse from silently selecting another worker.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import argparse
 import ctypes as C
 from ctypes import wintypes as W
@@ -51,7 +57,8 @@ class WorkerLease:
         if not handle:
             raise OSError(C.get_last_error(), 'Cannot acquire worker query/synchronization handle')
         try:
-            assert K.GetProcessIdOfThread(handle) == ready['pid']
+            if K.GetProcessIdOfThread(handle) != ready['pid']:
+                raise AssertionError('Worker belongs to another process')
             assert created(handle) == self.creation
             self.handle = handle
             assert self.alive(), 'Worker already exited before admission'
@@ -79,7 +86,8 @@ class WorkerLease:
 
     def close(self):
         if self.handle:
-            assert K.CloseHandle(self.handle)
+            if not K.CloseHandle(self.handle):
+                raise AssertionError('CloseHandle failed')
             self.handle = None
 
 

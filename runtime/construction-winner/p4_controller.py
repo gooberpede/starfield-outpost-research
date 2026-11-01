@@ -7,6 +7,12 @@ No launch, injection, memory read, deployment, unload, process kill or save acce
 Live health checks metadata only; full raw authentication belongs to postflight.
 Owned P2 controller/worker methods are adapted under SOR-P-0002.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import argparse
 import ctypes as C
 from ctypes import wintypes as W
@@ -16,7 +22,6 @@ import msvcrt
 import os
 from pathlib import Path
 import secrets
-import sys
 
 from worker_health import K, WorkerLease, disk_guard, read_json
 from controller import loss_counts
@@ -89,7 +94,8 @@ def process_identity(identity, image, allow_exited=False):
         raise OSError(C.get_last_error(), 'Cannot bind process query/synchronization handle')
     try:
         values = [W.FILETIME() for _ in range(4)]
-        assert K.GetProcessTimes(handle, *(C.byref(v) for v in values))
+        if not K.GetProcessTimes(handle, *(C.byref(v) for v in values)):
+            raise AssertionError('GetProcessTimes failed')
         birth = values[0].dwLowDateTime | values[0].dwHighDateTime << 32
         assert birth == identity['creation_filetime']
         running = K.WaitForSingleObject(handle, 0) == 258
@@ -98,7 +104,8 @@ def process_identity(identity, image, allow_exited=False):
             return 'PROCESS_EXITED'
         buffer = C.create_unicode_buffer(32768)
         size = W.DWORD(len(buffer))
-        assert K.QueryFullProcessImageNameW(handle, 0, buffer, C.byref(size))
+        if not K.QueryFullProcessImageNameW(handle, 0, buffer, C.byref(size)):
+            raise AssertionError('Process image query failed')
         assert Path(buffer.value).resolve() == Path(image).resolve(), 'Wrong process image path'
         return 'PROCESS_ALIVE' if running else 'PROCESS_EXITED'
     finally:
@@ -112,7 +119,6 @@ class SessionController:
     a test subclass with a fixture-only validator; the CLI exposes retail only.
     """
     def __init__(self, session, expected, plan, admission, approval, action):
-        assert sys.flags.optimize == 0, 'Assertions are required'
         self.session = clean_path(session)
         self.expected, self.plan = dict(expected), dict(plan)
         self.lock = self.lease = None

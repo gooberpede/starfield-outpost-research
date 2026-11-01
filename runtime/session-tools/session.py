@@ -4,11 +4,16 @@ Reads pinned plans, protected files and session evidence; writes exclusive priva
 receipts and, only for request/stop, existing observer control protocol files.
 Live actions require separate experiment authority. See README.md.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import argparse
 import json
 from pathlib import Path
 import re
-import sys
 import uuid
 from common import fresh, guard, inventory, now, read, sha, tool_pins, verify_pins
 import adapter070 as adapter

@@ -7,6 +7,12 @@ not token equality. Missing publication or observed invalidation refuses a condi
 Native path completeness remains a separately reviewed premise. Adapted from the
 owned schema-3 reducer, whose historical semantics remain unchanged.
 """
+
+import sys
+
+# Safety checks below require assertions, including when imported as a helper.
+if not __debug__ or sys.flags.optimize != 0:
+    raise RuntimeError('Python optimization is forbidden; invoke with -E -B and no -O/-OO')
 import struct
 from bisect import bisect_left, bisect_right
 from collections import defaultdict, Counter
