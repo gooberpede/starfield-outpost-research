@@ -150,9 +150,11 @@ inline U lookup_hook(U a,U b,U c,U d){
  e.b=capacity_word;e.c=source;
  if(expected_proc!=e.proc||source!=e.source)e.status|=ContextMismatch;
  if(!stable(e))e.status|=LifetimeInvalid;
- // Native caller holds ProcGen exclusive protection here. No observer lock/scan.
- if(!e.status&&!read(source,e.source_bytes,sizeof e.source_bytes))e.status|=ReadFailure;
- if(current){current->e.status|=e.status;memcpy(current->e.source_bytes,e.source_bytes,sizeof e.source_bytes);}
+ // Schema 4 records only engine-owned stack/map operands here. The map lock
+ // does not lease the selected source. Offline joins use the private birth
+ // witness, and must independently qualify its allocation through this event.
+ memset(e.source_bytes,0,sizeof e.source_bytes);
+ if(current)current->e.status|=e.status;
  emit(e);return result;
 }
 inline U descriptor_hook(U a,U b,U c,U d){

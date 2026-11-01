@@ -1248,3 +1248,10 @@ implementation is incorporated.
 The bounded D5Z reserve-helper control executes pinned original instructions
 only in its disposable process, with synthetic recording callbacks. It uses
 the owned PE reader and does not exercise the game allocator or retail process.
+
+The [D5AB P1 study](docs/experiments/resource-retained-population/d5ab-p1-report.md)
+credits Bethesda's pinned native evidence and Microsoft's installed MSVC FH4
+metadata-format documentation. The [provenance ledger](docs/experiments/resource-retained-population/d5ab-p1-provenance.md)
+pins exact material, owned prior methods, tools and use boundaries. No Microsoft
+header text/decoder implementation or new third-party dependency is incorporated.
+Raw executable-derived exports remain local-only; publication is not cleared.

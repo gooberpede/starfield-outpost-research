@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-11-01 — D5AB P1 source identity/lifetime closure:**
+[Report](experiments/resource-retained-population/d5ab-p1-report.md),
+[native matrix](experiments/resource-retained-population/d5ab-p1-source-identity-lifetime.md)
+and [active ledger](experiments/resource-retained-population/d5ab-p1-investigation-ledger.md)
+record schema 4's removal of the lookup source dereference, private semantic
+identity, native alias/cleanup/owner proof and exact offline qualification.
+The [review](experiments/resource-retained-population/d5ab-p1-review.md) accepts
+P1 COMPLETE within its offline scope. Native/consumer/controller/queue regressions pass; retail native
+integration remains P3/P4. D5AB INCOMPLETE / REWORK, D5R OPEN and B2 NOT AUTHORIZED.
+No gameplay checklist, B1 interpretation, protected save or publication state changes.
+
 **2026-11-01 — D5AB P2 offline qualification:**
 [The P2 report](experiments/resource-retained-population/d5ab-p2-report.md)
 and [active ledger](experiments/resource-retained-population/d5ab-p2-investigation-ledger.md)

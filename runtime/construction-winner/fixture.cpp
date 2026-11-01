@@ -22,7 +22,7 @@ uint64_t invoke_cold(uint64_t,uint64_t,uint64_t,uint64_t);
 void invoke_generate(uint64_t,uint64_t,uint64_t,uint32_t,uint64_t,uint64_t);
 uint64_t fixture_reset(uint64_t,uint64_t,uint64_t,uint64_t),fixture_destroy(uint64_t,uint64_t,uint64_t,uint64_t),fixture_erase(uint64_t,uint64_t,uint64_t,uint64_t),fixture_clear(uint64_t,uint64_t,uint64_t,uint64_t),fixture_retire(uint64_t,uint64_t,uint64_t,uint64_t);
 uint64_t invoke_reserve(uint64_t,uint64_t,uint64_t,uint64_t);
-void fixture_birth(uint64_t,uint64_t,uint64_t);
+void fixture_birth(uint64_t,uint64_t,uint64_t,uint64_t);
 void at_birth(),at_published(),at_reserve(),at_stored();
 void at_selected(),at_visited(),at_lookup(),at_descriptor(),at_generate(),at_sample(),at_cold(),at_normalizer();
 }
@@ -36,6 +36,7 @@ struct Model {
  U proc_identity=U(proc);U source=U(source_bytes);int32_t query[2]{10,11};
  unsigned cursor_count=1;
  U mask=3;bool hit{},skip{},absent{},bad_read{},nested{},did_nested{},interrupted{},loss_inside{},bad_descriptor{};
+ unsigned birth_behavior{};bool noaccess{},retire_lookup{},reset_lookup{};
  bool* shared_hit=&hit;
  bool omit_lookup{},omit_descriptor{},omit_generate{},omit_sample{};
  bool crash_sample{},double_sample{},reset_overlap{},descriptor_change{},reset_before_lookup{},temporary_descriptor{};
@@ -57,7 +58,7 @@ std::thread overlap_worker;
 U fixture_origin{};
 std::atomic<U> bridge_checks{};
 void check(bool ok,std::source_location location=std::source_location::current()){if(!ok){fprintf(stderr,"fixture assertion line %u\n",location.line());throw std::runtime_error("native fixture assertion");}}
-U call(Model& m){if(!m.born&&m.source>=0x10000){fixture_birth(m.source,U(m.grid),*(U*)(m.source+0x68));for(unsigned i=1;i<m.cursor_count;++i){memcpy(m.additional_sources[i-1],m.source_bytes,0x70);m.put(m.additional_sources[i-1],0,uint32_t(0x29d20e+i));fixture_birth(U(m.additional_sources[i-1]),U(m.grid),*(U*)(m.additional_sources[i-1]+0x68));}m.born=true;}auto* saved=model;unsigned saved_index=cursor_index;Cursor saved_cursor=cursor;model=&m;cursor_index=0;cursor={};U result=fixture_provider(m.proc_identity,m.bad_read?1:U(m.query),U(&m),m.visited);model=saved;cursor_index=saved_index;cursor=saved_cursor;check(result==0x12345);return result;}
+U call(Model& m){if(!m.born&&m.source>=0x10000){fixture_birth(m.source,U(m.grid),*(U*)(m.source+0x68),m.birth_behavior);for(unsigned i=1;i<m.cursor_count;++i){memcpy(m.additional_sources[i-1],m.source_bytes,0x70);m.put(m.additional_sources[i-1],0,uint32_t(0x29d20e+i));fixture_birth(U(m.additional_sources[i-1]),U(m.grid),*(U*)(m.additional_sources[i-1]+0x68),0);}m.born=true;}auto* saved=model;unsigned saved_index=cursor_index;Cursor saved_cursor=cursor;model=&m;cursor_index=0;cursor={};U result=fixture_provider(m.proc_identity,m.bad_read?1:U(m.query),U(&m),m.visited);model=saved;cursor_index=saved_index;cursor=saved_cursor;check(result==0x12345);return result;}
 void forced_retry(){fixture_retry_failures=1;Event e{};e.kind=Ready;check(!emit(e));}
 void wait_durable(){U limit=enqueue.load()-fixture_origin;for(unsigned i=0;i<60000&&acknowledged.load()<limit&&!broken.load();++i)Sleep(1);check(acknowledged.load()>=limit);}
 }
@@ -91,7 +92,19 @@ extern "C" uint64_t native_reserve(uint64_t a,uint64_t,uint64_t,uint64_t){
  *(U*)(a+8)=U(m.visits);((uint32_t*)a)[1]=256;
  return (*count)++;
 }
-extern "C" uint64_t native_lookup(uint64_t a,uint64_t b,uint64_t,uint64_t){check(a==model->proc_identity+0x10&&*(U*)b==model->source);SetLastError(0x1234);return *model->shared_hit?2:8;}
+extern "C" uint64_t fixture_publication_decision(uint64_t behavior){
+ if(behavior==2)throw std::runtime_error("modeled constructor exception");
+ return behavior;
+}
+extern "C" void fixture_after_token(uint64_t source){
+ if(model->noaccess){DWORD old{};check(VirtualProtect((void*)source,4096,PAGE_NOACCESS,&old));}
+}
+extern "C" uint64_t native_lookup(uint64_t a,uint64_t b,uint64_t,uint64_t){
+ check(a==model->proc_identity+0x10&&*(U*)b==model->source);
+ if(model->retire_lookup)fixture_retire(model->source,0,0,0);
+ if(model->reset_lookup)fixture_reset(model->proc_identity,0,0,0);
+ SetLastError(0x1234);return *model->shared_hit?2:8;
+}
 extern "C" uint64_t native_normalizer(uint64_t,uint64_t b,uint64_t,uint64_t){SetLastError(0x3456);return b;}
 extern "C" uint64_t native_descriptor(uint64_t a,uint64_t b,uint64_t c,uint64_t d){
  unsigned char copied[0x2c]{};int32_t request[2]{};
@@ -167,7 +180,7 @@ extern "C" __declspec(dllexport) int D5X_Qualify(const wchar_t* output,const wch
   LARGE_INTEGER frequency{};QueryPerformanceFrequency(&frequency);
   FILETIME process_created{},process_exited{},process_kernel{},process_user{};
   check(GetProcessTimes(GetCurrentProcess(),&process_created,&process_exited,&process_kernel,&process_user));
-  identity="{\"schema\":\"sor-d5x/3\",\"retail\":false,\"sequence_origin\":"+std::to_string(sequence_origin)+",\"nonce\":"+sor::quote(sor::sha_bytes(nonce,16))+",\"pid\":"+std::to_string(GetCurrentProcessId())+",\"dll_sha256\":"+sor::quote(sor::sha_file(path))+",\"host_sha256\":"+sor::quote(sor::sha_file(host))+",\"qpc_frequency\":"+std::to_string(frequency.QuadPart)+",\"sites\":"+sites;
+  identity="{\"schema\":\"sor-d5x/4\",\"retail\":false,\"sequence_origin\":"+std::to_string(sequence_origin)+",\"nonce\":"+sor::quote(sor::sha_bytes(nonce,16))+",\"pid\":"+std::to_string(GetCurrentProcessId())+",\"dll_sha256\":"+sor::quote(sor::sha_file(path))+",\"host_sha256\":"+sor::quote(sor::sha_file(host))+",\"qpc_frequency\":"+std::to_string(frequency.QuadPart)+",\"sites\":"+sites;
   identity+=",\"creation_filetime\":"+std::to_string((U(process_created.dwHighDateTime)<<32)|process_created.dwLowDateTime);
   auto id=identity+"}\n";identity_hash=sor::sha_bytes(id.data(),id.size());check(sor::write_new(session/L"identity.json",id));
   raw=CreateFileW((session/L"events.bin").c_str(),GENERIC_WRITE,FILE_SHARE_READ,nullptr,CREATE_NEW,FILE_ATTRIBUTE_NORMAL,nullptr);
@@ -225,6 +238,14 @@ extern "C" __declspec(dllexport) int D5X_Qualify(const wchar_t* output,const wch
   Model m;model=&m;
   if(s!=L"prior-unknown"&&s!=L"ready-only")fixture_reset(m.proc_identity,0,0,0);
   std::vector<U> timing;
+  void* protected_source{};
+  if(s==L"p1-noaccess-lookup"||s==L"p1-retire-lookup"||s==L"p1-reset-lookup"){
+   protected_source=VirtualAlloc(nullptr,4096,MEM_COMMIT|MEM_RESERVE,PAGE_READWRITE);check(protected_source!=nullptr);
+   memcpy(protected_source,m.source_bytes,0x70);m.source=U(protected_source);m.noaccess=true;
+   m.retire_lookup=s==L"p1-retire-lookup";m.reset_lookup=s==L"p1-reset-lookup";
+  }
+  if(s==L"p1-unpublished")m.birth_behavior=1;
+  if(s==L"p1-constructor-exception")m.birth_behavior=2;
   if(s==L"reserve-fail")m.reserve_fail=true;
   if(s==L"unknown-birth")m.born=true;
   if(s==L"mask-zero")m.mask=0;
@@ -257,7 +278,11 @@ extern "C" __declspec(dllexport) int D5X_Qualify(const wchar_t* output,const wch
   if(s==L"crash-before")TerminateProcess(GetCurrentProcess(),71);
   if(s==L"unrelated-conversion")native_descriptor(0x10000,0x20000,U(m.descriptor),U(m.query));
   else if(s==L"orphan-sample")invoke_sample(0x10000,U(m.query),0x3333,0x4444);
+  else if(s==L"p1-constructor-exception"){
+   bool caught=false;try{call(m);}catch(const std::runtime_error&){caught=true;}check(caught&&!m.publication);
+  }
   else if(s!=L"ready-only"&&s!=L"schedule-old-first"&&s!=L"schedule-fresh-first"&&s!=L"reset-closeout")call(m);
+  if(protected_source){check(VirtualFree(protected_source,0,MEM_RELEASE));protected_source=nullptr;}
   if(s==L"later-bypass"){m.visited=1;call(m);}
   if(overlap_worker.joinable())overlap_worker.join();
   if(s==L"post-reset-old-provider"){Model other;other.proc_identity=m.proc_identity;call(other);}

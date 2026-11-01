@@ -43,7 +43,7 @@ class WorkerLease:
     def __init__(self, ready, expected):
         self.handle = None
         assert all(ready.get(k) == expected[k] for k in SESSION_KEYS)
-        assert ready['schema'] == 'sor-d5x/3' and ready['ready'] is True and ready['hooks'] == 18
+        assert ready['schema'] in ('sor-d5x/3', 'sor-d5x/4') and ready['ready'] is True and ready['hooks'] == 18
         self.expected = dict(expected)
         self.tid, self.creation = ready['worker_thread_id'], ready['worker_creation_filetime']
         assert isinstance(self.tid, int) and self.tid > 0 and isinstance(self.creation, int) and self.creation > 0

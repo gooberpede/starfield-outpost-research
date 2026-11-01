@@ -27,7 +27,7 @@ CASES = ('normal mask-zero conflicting-mask unexpected-mask descriptor-change te
          'visited map-hit skip-sample nested interrupt in-flight-loss missing-lookup missing-descriptor '
          'missing-generator missing-sample prior-unknown ready-only descriptor-collision reused-pointer '
          'reset clear destroy erase concurrent competing loss-one loss-many saturation timing stop-under-production '
-         'representative burst reserve-fail unknown-birth later-bypass write-fault flush-fault ack-fault disk-fault ack-write-fault crash-before crash-after crash-sample sequence-wrap guard-mismatch').split()
+         'representative burst reserve-fail unknown-birth later-bypass write-fault flush-fault ack-fault disk-fault ack-write-fault crash-before crash-after crash-sample sequence-wrap guard-mismatch p1-noaccess-lookup p1-retire-lookup p1-reset-lookup p1-unpublished p1-constructor-exception').split()
 
 
 def sha(path):
@@ -120,6 +120,7 @@ def main():
                 archive.write(out / name, name)
             archive.write(SRC / 'read_capture.py', 'read_capture.py')
             archive.write(SRC / 'reduce_v3.py', 'reduce_v3.py')
+            archive.write(SRC / 'reduce_v4.py', 'reduce_v4.py')
             archive.write(SRC / 'worker_health.py', 'worker_health.py')
             archive.write(SRC / 'controller.py', 'controller.py')
             archive.write(out / 'emitter-input.bin', 'emitter-input.bin')

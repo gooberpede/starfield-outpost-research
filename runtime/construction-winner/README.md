@@ -1,6 +1,9 @@
 # Construction-winner observer: D5AB candidate
 
-Offline candidate 0.3.0, schema `sor-d5x/3`, with P2 controller/consumer qualification.
+Offline P1 candidate, schema `sor-d5x/4`, following the accepted schema-3 P2
+controller/consumer qualification. The [P1 ledger](../../docs/experiments/resource-retained-population/d5ab-p1-investigation-ledger.md)
+tracks source identity and lifetime closure; its final report/review controls
+qualification. P3/P4 and B2 remain separately gated.
 [P2 ledger](../../docs/experiments/resource-retained-population/d5ab-p2-investigation-ledger.md)
 records the active work; final qualification is governed by its report and review.
 [D5AB report](../../docs/experiments/resource-retained-population/d5ab-report.md),
@@ -9,6 +12,16 @@ and [schema delta](../../docs/experiments/resource-retained-population/d5ab-arch
 govern qualification. **No retail operation or deployment is authorized.**
 Historical D5X 0.2.0/schema 2 and B1 receipts remain preserved. The reader keeps
 schema 2's original interpretation; B1 does not acquire an append observation.
+Schema 3 retains its original reducer. Schema 4 leaves native lookup source bytes
+zero and reconstructs semantic identity offline from a qualified birth witness.
+It does not reread the selected source under the ProcGen map lock. The identity
+uses terrain FormID, face and coordinate components, and the consumed visited
+token; padding and other unused bytes do not enter semantic comparisons.
+Allocation IDs, pointers, geography and visited tokens remain separate.
+Missing publication, changed epoch, invalidation, loss or contradictory native
+order refuses a join. This includes surviving sources across a reset without a
+new birth witness. Native immutability is a static proof premise, not a comparison
+between two independently observed source copies.
 
 Build and exercise only disposable Windows hosts with installed CPython,
 MSVC/MASM and Windows SDK:
@@ -30,7 +43,7 @@ a consumed operand instead of intentionally dereferencing invalid native memory.
 Qualify the exact completed build and separately measured queue with:
 
 ```powershell
-& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5ab_qualify.py .local-work/d5x/BUILD .local-work/d5ab/NEW-CONTROLS
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5ab_p1_qualify.py .local-work/d5x/BUILD .local-work/d5ab/NEW-CONTROLS
 & 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5ab_queue.py .local-work/d5ab/NEW-QUEUE 8000
 & 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B runtime/construction-winner/worker_health.py --qualify .local-work/d5ab/NEW-WORKER
 ```
@@ -66,16 +79,20 @@ Run the actual-worker controls against a completed build:
 
 ```powershell
 & 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5ab_p2_controller.py --parallel .local-work/d5x/BUILD p2-controller-UNIQUE
-& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5ab_p2_reader.py .local-work/d5x/BUILD .local-work/d5ab/p2-reader-UNIQUE
+& 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe' -B research/resource-retained-population/d5ab_p1_qualify.py .local-work/d5x/BUILD .local-work/d5ab/p1-reader-UNIQUE
 ```
 
 The controller tests create synthetic impairment commands only in their own
 disposable hosts. They preserve intentional writer/flush/ACK/guard faults,
 unexpected worker exit, missing terminal and damaged closed-evidence derivatives.
-Finite engineering waits do not define live monitoring policy. The final schema-3
+Finite engineering waits do not define live monitoring policy. The current
 reader separates authenticated prefix candidates from finalized chain claims,
 refuses damaged/incomplete/loss-contaminated sessions, and labels native source
-lifetime unqualified. Schema-2 B1 interpretation remains separately tested.
+lifetime and scientific firstness unqualified pending final native integration.
+Schema-2 B1 and accepted schema-3 session interpretations remain separately tested.
+The schema-4 fixture additionally tests inaccessible source memory at lookup,
+retirement/reset there, unpublished construction and modeled constructor unwind.
+These are controlled host schedules, not a retail constructor or allocator test.
 
 The owned D5X/R1 transport, patch admission, existing native/export controls and
 protection methods are reused under SOR-P-0002 with [provenance](../../docs/experiments/resource-retained-population/d5ab-sources.csv).

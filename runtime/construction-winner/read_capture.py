@@ -159,8 +159,9 @@ def inspect(folder, dll_sha256):
     folder = Path(folder)
     identity_bytes = (folder / 'identity.json').read_bytes()
     identity = json.loads(identity_bytes)
-    assert identity['schema'] in ('sor-d5x/2','sor-d5x/3') and identity['dll_sha256'] == dll_sha256
-    version3=identity['schema']=='sor-d5x/3'
+    assert identity['schema'] in ('sor-d5x/2','sor-d5x/3','sor-d5x/4') and identity['dll_sha256'] == dll_sha256
+    version4=identity['schema']=='sor-d5x/4'
+    version3=identity['schema'] in ('sor-d5x/3','sor-d5x/4')
     hooks=18 if version3 else 14
     assert len(identity['nonce']) == 64 and len(identity['sites']) == hooks
     assert all(ch in '0123456789abcdef' for ch in identity['nonce'])
@@ -252,7 +253,8 @@ def inspect(folder, dll_sha256):
             damage.append('TERMINAL_ACCOUNTING_INVALID')
     if version3:
         import importlib.util
-        spec=importlib.util.spec_from_file_location('sor_reduce_v3',Path(__file__).with_name('reduce_v3.py'))
+        module_name='reduce_v4' if version4 else 'reduce_v3'
+        spec=importlib.util.spec_from_file_location(module_name,Path(__file__).with_name(module_name+'.py'))
         reducer=importlib.util.module_from_spec(spec);spec.loader.exec_module(reducer)
         first_loss=terminal.get('first_loss_sampled_admission',loss_first) if terminal else loss_first
         last_loss=terminal.get('last_loss_sampled_admission',loss_last) if terminal else loss_last
@@ -265,7 +267,7 @@ def inspect(folder, dll_sha256):
     if version3:
         terminal_ok = bool(terminal_ok and type(terminal.get('output_faults')) is int and
                            terminal['output_faults'] == 0 and terminal.get('output_fault') == 'none')
-    result.update(schema='sor-d5x-reduction/2' if version3 else 'sor-d5x-reduction/1', retail=identity['retail'], ready_installed=bool(ready),
+    result.update(schema='sor-d5x-reduction/3' if version4 else 'sor-d5x-reduction/2' if version3 else 'sor-d5x-reduction/1', retail=identity['retail'], ready_installed=bool(ready),
                   durable_records=durable, parsed_records=len(events), raw_bytes=len(raw), damage=damage,
                   terminal_success=terminal_ok,
                   complete_session=bool(terminal_ok and (not version3 or ready) and not damage and

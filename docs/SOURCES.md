@@ -1866,3 +1866,17 @@ The task's reserve-helper control uses the owned PE reader and one pinned
 native function in a disposable process. Synthetic allocation callbacks test
 count/index/failure control flow only; the receipt is distinct from real
 allocator recovery, full array correctness and retail behavior.
+
+## D5AB P1 source identity and lifetime closure
+
+The [P1 source/provenance ledger](experiments/resource-retained-population/d5ab-p1-provenance.md)
+credits Bethesda's pinned 1.16.244.0 executable, prior D5S/V/Z and C2/P2 evidence,
+and owned D5AB/P2/D5S export, PE-reader, bridge, consumer and qualification methods
+under SOR-P-0002. Seventeen new read-only exports preserve exact native function
+spans and hashes. Microsoft's installed MSVC 14.51.36231 `ehdata4_export.h`,
+SHA-256 `b997c3f00192bb8c138532795d24b64c9b0f2ae4c4ee46af214b22bc7d88f447`,
+is consulted for factual FH4 metadata semantics. No Microsoft header text or
+decoder implementation is incorporated. Existing Ghidra/JDK, MSVC/MASM, Windows
+SDK and CPython are separate tools; no new dependency/licence basis is accepted.
+Native/raw/private artifacts remain LOCAL-ONLY; authored code and synthesis
+REVIEW-REQUIRED. This is source-informed research, not clean-room reconstruction.

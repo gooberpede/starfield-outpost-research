@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [D5AB P1 source identity and lifetime closure](CODEX_BRIEF_SOR_RG2_D5AB_P1_native_source_identity_lifetime_closure.md):
+  invoked 2026-11-01 for bounded offline native research, schema/consumer changes,
+  disposable qualification and independent review. [Report](../experiments/resource-retained-population/d5ab-p1-report.md),
+  [ledger](../experiments/resource-retained-population/d5ab-p1-investigation-ledger.md)
+  and [review](../experiments/resource-retained-population/d5ab-p1-review.md) preserve
+  all frozen P1 questions and the original D5AB contract. P3/P4 remain OPEN;
+  B2 NOT AUTHORIZED. No staging, commit, push, deployment or publication.
+
 - [D5AB P2 controller, reducer and transport qualification](CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md):
   invoked 2026-11-01 for offline changes, compiled disposable qualification and
   independent review. [Report](../experiments/resource-retained-population/d5ab-p2-report.md),

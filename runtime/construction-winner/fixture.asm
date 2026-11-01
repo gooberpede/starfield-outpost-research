@@ -10,6 +10,8 @@ EXTERN native_sample:PROC
 EXTERN native_cold:PROC
 EXTERN native_reserve:PROC
 EXTERN fixture_bridge_check:PROC
+EXTERN fixture_after_token:PROC
+EXTERN fixture_publication_decision:PROC
 seed MACRO
  mov rax,0101010101010101h
  movq xmm0,rax
@@ -102,6 +104,9 @@ at_selected::
 substituted_token:
  xor edi,edi
 token_ready:
+ mov rcx,[rsp+38h]
+ call fixture_after_token
+ mov rdx,[rsp+38h]
  seed
 PUBLIC at_visited
 at_visited::
@@ -215,10 +220,16 @@ fixture_birth PROC FRAME
  mov r14,rcx
  lea r12,[rdx+10h]
  mov rdi,r8
+ mov [rsp+80h],r9
 PUBLIC at_birth
 at_birth::
  lea rcx,[r14+70h]
  lea rdx,[rsp+90h]
+ ; Controlled host outcomes; the actual constructor cleanup is proved separately.
+ mov rcx,[rsp+80h]
+ call fixture_publication_decision
+ test eax,eax
+ jnz unpublished
  ; Fixture publication has one preallocated cell. EAX is the native index.
  xor eax,eax
 PUBLIC at_published
@@ -226,6 +237,7 @@ at_published::
  mov ecx,eax
  mov rax,[r12+8]
  mov [rax+rcx*8],r14
+unpublished:
  add rsp,0b0h
  pop r14
  pop r12
