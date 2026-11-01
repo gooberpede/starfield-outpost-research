@@ -1,166 +1,277 @@
-# D5AB proposed B2 run card - NOT AUTHORIZED
+# D5AB proposed B2 operator run card
 
-**Unfinished working plan; B2 is NO-GO.** The [bounded handoff](d5ab-report.md)
-records historical unfinished engineering. Accepted P1/P2 results and the
-[P3 investigation](d5ab-p3-investigation-ledger.md) supply later offline work;
-P4 operational adaptation and final identity-bound readiness review remain open.
-This card must not be executed or treated as accepted readiness.
+2026-11-01, Australia/Sydney. **B2 NOT AUTHORIZED.** P4 prepares a candidate for
+separate maintainer review. This card authorizes no installation, launch, game
+load, travel, live control-file write, exit/disablement or retry. Final readiness
+is recorded in [P4 decision](d5ab-p4-decision.md); exact candidate/tool identities
+are in [P4 manifest](d5ab-p4-package-manifest.md).
 
-2026-10-31, Australia/Sydney. This replaces the earlier prospective B2 plan,
-without changing historical [B1](d5x-b1-live-report.md) or its consumed approval.
-[Original D5AB contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md),
-[readiness report](d5ab-report.md), [native map](d5ab-native-map.md) and
-[schema](d5ab-architecture-schema.md) govern the proposed candidate.
-**Every live action below is NOT AUTHORIZED.** Offline review grants no retail GO.
+## Proposed episode and responsibilities
 
-## Exact one-process episode and ownership
+Exactly one new Starfield process, one load of **Save52 at the Lodge**, and one
+ordinary direct fast travel to **Feynman V Cu IL F** are proposed. The maintainer
+owns install/enablement through Vortex, launch through the pinned SFSE loader,
+save choice/load, travel, STOP instruction, normal exit and disablement. A session
+operator runs only separately approved checks and request/STOP writes. No forced
+source path, artificial reset, resave, second load, second visit or retry follows.
 
-The proposed stimulus is one future retail process, one load of protected
-**Save52 at the Lodge**, then **one direct fast-travel to Feynman V Cu IL F**.
-The scientific target is source `0:37536:20928:0029d20e`, body FormID
-`0x0005e0de`. The source key is not a menu destination or a runtime pointer.
-The operator owns installation, enablement, launch, save load, direct travel,
-normal exit and disablement. Codex would only perform separately authorized
-checks, checkpoint receipts and exact session request/STOP file writes.
-No process launch, attachment, termination, resave, artificial reset, forced
-construction, additional travel or retry is included.
-
-The exact save basename is
+The analytical target is `0:37536:20928:0029d20e`, body FormID `0x0005e0de`.
+It is not a menu destination identifier or memory address. Exact protected input:
 `Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs`,
 16,411,136 bytes, SHA-256
 `6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8`.
-Identify its menu label offline from protected mapping, never a guessed menu
-ordinal. Confirm the Lodge starting location against that mapping and operator
-knowledge before a separate GO. The future approval must bind the final DLL,
-retail ZIP, reader/reducer, native-site receipt, operational tools, card and
-complete reviewed qualification manifest. Pending review or a mismatch is NO-GO.
+Use the protected menu mapping and maintainer knowledge to identify it; do not
+guess an ordinal. The Lodge starting state must be confirmed before travel.
 
-## Preflight and deployment - NOT AUTHORIZED
+## Ordered checkpoints
 
-Before any future launch, repeat full offline protection with the reviewed
-`runtime/retained-population/protect.py` and a fresh `d5ab-b2-preflight-UNIQUE`
-label. Apply [current save policy](../../SAVE_PROTECTION.md): exact protected
-research/manual/quick saves, independent backups, protected remote saves,
-configuration, definitions, scientific archives and a verified Save52 restoration
-COPY. Never overwrite an original. Unknown saves fail closed. Reliably classified
-active autosave/exitsave changes and Cloud metadata remain diagnostic.
-D5AB's completed offline rehearsal is evidence about its audit, not a reusable
-future launch receipt or evidence that Cloud will remain disabled.
+| Step | Responsible person and action | Required result before proceeding |
+|---|---|---|
+| 1. Offline preparation | Session operator verifies final package/tool/card pins, no Starfield process, full protection and restoration COPY using the command below. | Fresh `PASS_OFFLINE_PREFLIGHT`; 40,000,000,000 caller-available bytes on both C: and D:; all protected inputs/backups/remote saves/configs/definitions match. This is not GO. |
+| 2. Separate authorization | Maintainer reviews final accepted package/card and gives explicit scoped GO, if desired. Record the actual instruction locally. | No GO exists under P4. Approval must bind plan/card/package hashes, one episode, control-file writes, install/enable/launch, exit/recovery, and no automatic retry. |
+| 3. Install and launch: NOT AUTHORIZED | Maintainer confirms Cloud disabled where applicable, Vortex profile `Starfield - SFSE`, no prior attempt and no competing SOR observers; installs/enables exact candidate and launches once via the pinned SFSE loader. | Effective deployed DLL and SFSE hashes checked; remain at main menu with no save loaded. A Vortex checkbox alone is insufficient. |
+| 4. READY and arming: NOT AUTHORIZED | Operator selects only the newly created live session, binds actual process image/PID/creation, DLL/game/SFSE, startup nonce, eighteen site guards and worker identity; starts controller and obtains a fresh request/ACK. | `BOUND_READY`, then `HEALTHY_ACK` with no prior loss/fault before load. Identity-bound approval receipt records the earlier actual GO plus this newly known session. A slow ACK means wait/investigate, not permission to load. |
+| 5. Save load: NOT AUTHORIZED | Maintainer loads exact Save52 once and reports loaded at the Lodge, not travelled. Operator records load-request/load-complete observation intervals and obtains another fresh challenge. | Distinct nonce, same process/session, healthy worker and coverage counters. No full content/save/archive scan during play. |
+| 6. Direct travel: NOT AUTHORIZED | Maintainer initiates one direct fast travel to Feynman V Cu IL F. Operator records the travel-request interval. | No alternate destination, forcing, reset or second travel. Native events recorded only at the eighteen actual instrumented boundaries. |
+| 7. Arrival and STOP: NOT AUTHORIZED | Maintainer reports ordinary arrival. Operator records the observation interval and obtains fresh health/coverage. Maintainer directs STOP; operator issues owned same-session STOP. | Preserve losses/faults and all evidence. Do not wait for a preferred mask or target event. `RETIRED_PENDING_POSTFLIGHT` is metadata only, never scientific success. |
+| 8. Exit/disablement: NOT AUTHORIZED | Maintainer exits normally and disables/removes effective observer through Vortex, retaining the reviewed offline package. | Original process creation identity gone; effective DLL absent. No hot unload, unpatch, process kill, exception suppression or automatic relaunch. |
+| 9. Offline postflight | Operator repeats full protected audit and checks exact session identity/owned STOP, raw frames, CRCs, ACKs, terminal and final reader/reducer. | Protection and admitted-byte integrity stated separately from target science. Partial/faulted evidence stays partial. |
+| 10. Archive and review | Operator finishes companion receipts, seals quiescent roots, creates ZIP, stream-verifies every member and independently reconstructs required members. | Original raw tree retained; no upload, deletion or publication. Independent scientific review decides the observed result. |
 
-Record fresh operator confirmation of disabled Steam Cloud where applicable,
-Vortex profile `Starfield - SFSE`, exact save/destination, and no prior attempt.
-Operator deployment would follow separate GO only. Verify the effective
-`Data/SFSE/Plugins/SorConstructionWinner.dll` against the reviewed binary;
-record staging paths and absence of competing SOR observers. Verify actual
-EXE/ESM/PlanetData/SFSE/loader hashes, all eighteen sites, seven CALL targets,
-relay guards and both **40,000,000,000 caller-available byte floors on C: and D:**.
-An unavailable disk query fails closed. Do not replace a pin after a mismatch.
+Operator-reported moments are observation intervals. This candidate does not add
+an exact native visual-arrival/loading-screen hook. A source query near an arrival
+note is not the arrival instant, nor proof that that travel caused it.
 
-## Main menu and capture arming - NOT AUTHORIZED
+## Failure and STOP decisions
 
-After separate GO, operator launches exactly once through the reviewed SFSE
-loader and remains at the main menu. Select only a newly created
-`.local-work/d5x/live/session-*` directory, excluding every preflight session.
-Verify actual retail PID, creation FILETIME, image path, module base, startup
-nonce, DLL/game/SFSE identities and schema `sor-d5x/4`. A fixture identity,
-restarted process, stale session or schema 2 receipt cannot pass admission.
-Require matching READY with eighteen hooks and no worker/output/guard failure.
-The observer must be armed **before Save52 is loaded**.
+Actual identity/site/relay/guard mismatch, worker death, disk-query/floor failure,
+output fault/corruption, protected-input incident or explicit maintainer STOP
+precludes continued capture. Preserve receipts, issue owned STOP where possible
+and follow the separately approved normal-exit/recovery policy. Never replace a
+pin with a newly observed hash to bypass a failure. STOP remains available after
+disk/deployment/protection failures, with trusted control tools and session owner.
+If STOP/state/receipt writes fail, retain the error and ask the maintainer to exit
+under that policy; no clean finalization is inferred.
 
-Use the D5X-specific protocol already exercised by the disposable host and
-[B1](run-card-d5x-b1.md#exact-future-controller-and-checkpoint-boundary). The 070/080 adapters
-in [session-tools](../../../runtime/session-tools/README.md) are incompatible;
-never invent an adapter identifier. Follow their phase separation: full checks
-offline, small identity/challenge/health checks in play, full postflight after exit.
+`ALIVE_ACK_PENDING` and `REQUEST_PUBLICATION_PENDING` mean the worker may still be
+healthy. Reissue the pending challenge with the same nonce and investigate progress
+without arbitrary age, event, size or monitoring-cadence limits. Reconnect retains
+owned state under an exclusive lock. A new successful phase challenge uses a new
+nonce. A conflicting controller, stale session or foreign STOP never passes.
 
-P3 draft correction, 2026-11-01: the qualified P2 controller is deliberately
-restricted to disposable sessions and refuses retail identities. P3 does not
-remove that restriction. P4 must qualify an explicitly scoped operational
-adapter and bind its identity/ownership/STOP rules to the final reviewed bundle
-before any separate B2 decision. The steps below describe required behavior;
-they are not executable instructions for the current disposable controller.
+Ordinary counted loss may coexist with safe acquisition, but invalidates precisely
+the affected scientific history. `TELEMETRY_INCONSISTENT` means contradictory
+counters; preserve the incident, deny affected integrity/firstness and use the
+approved fault/STOP response. Health checks read metadata, not the complete raw
+stream, and therefore cannot guarantee byte integrity or detect a contradiction
+recorded only in another flush receipt. Postflight must authenticate every frame.
+A healthy worker delay alone is not failure. No new attempt follows a crash.
+Unexpected corruption outside the declared evidence boundary requires a maintainer
+recovery decision; never restore over protected originals.
 
-For each challenge, generate a new 32-character lowercase hexadecimal nonce.
-Write exactly those 32 ASCII bytes, without newline, to a new sibling pending
-file, flush and close, then atomically replace `request.txt`. Read only the
-completed `ack-NONCE.json`. Require that nonce, unchanged startup identity,
-`hooks_intact`, `capture_active`, no worker/output failure and an authenticated
-flushed prefix. Record loss generation, per-cause drops, acknowledged count and
-worker timing. A challenge does not prove scientific coldness. A slow response
-or missed poll is not itself failure; investigate and continue when safe.
+## Outcome definitions
 
-## Load, travel, arrival and STOP - NOT AUTHORIZED
+| Outcome | Evidence required; allowed conclusion |
+|---|---|
+| Qualified target first processing | Positively identified target birth/publication after qualified empty reset/cold epoch; complete relevant earlier history; unvisited decision; constructing map miss; original query and consumed descriptor; direct low-nibble sample; required real reserve and executed token store; consistent owner/allocation/epoch/native causal order. Report sample, construction, append and geometry separately. Later bypass corroborates but is not mandatory. |
+| Already visited | Positive same-identity bypass plus earlier authenticated same-allocation/owner/epoch insertion. Without the insertion, report a positively identified bypass with unproven earlier insertion history. It is distinct from a map hit or aggregate reuse. |
+| Narrower negative or inconclusive | No positively identified target, missing sample/generator, prerequisite skip, failed/omitted append, map hit, pre-arming birth or incomplete owner history. Report observed boundaries and unavailable evidence. Silence is not native absence and supplies no mask. |
+| Faulted or ambiguous history | Loss, missing reset/retirement, ABA/collision, contradictory telemetry, worker/controller/guard/ACK/raw fault or partial finalization. Preserve useful authenticated prefixes while refusing precisely unsupported firstness; never fill gaps with pointer equality, proximity or simulations. |
 
-1. With successful main-menu READY/fresh ACK, operator loads the exact protected
-   Save52 once. Record external load-request and load-complete intervals. Do not
-   infer native reset, source identity or exterior demand from the menu label.
-2. While loaded at the Lodge, before travel, obtain a distinct fresh challenge
-   and health snapshot. Record a loaded-but-not-travelled checkpoint. Do not run
-   full save/content scans during play without a specific integrity incident.
-3. Operator requests one direct fast-travel to **Feynman V Cu IL F**. Record the
-   external travel-request interval and operator-reported ordinary arrival.
-   These are not engine-native loading-screen/arrival instants. No native
-   visual-arrival ordering claim is part of the proposed result.
-4. At first ordinary arrival, obtain one fresh health ACK and operator STOP.
-   Do not wait for a preferred mask, additional target event or quota. No extra
-   travel, second load, forced cache clear or outcome-dependent retry is allowed.
-5. On operator STOP or a proven safety failure, the future reviewed adapter
-   creates this session's exclusive `STOP` containing authenticated identity,
-   controller owner, unique STOP nonce and reason, then flushes and closes it.
-   Match those exact owned bytes during finalization, rather than treating
-   any existing STOP file as operator authorization. Check
-   terminal identity and resident-inert state. Never hot unpatch, unload or kill
-   Starfield. Operator exits normally, then disables/removes through Vortex.
+Successful append or sampled mask does not prove complete/nonempty geometry.
+One future process cannot establish retail frequency or universal reliability.
+D5R stays OPEN until separately observed evidence answers its question. B1 remains
+PARTIAL NATIVE COVERAGE and D5AA's historical gap remains unchanged.
 
-## Safety and failure response - NOT AUTHORIZED
+## Technical appendix: pinned commands and receipts
 
-Actual identity/site/target/relay mismatch, disk query/floor failure, worker
-exit/failure, output corruption/fault, protected-input incident or explicit STOP
-precludes continued capture. Preserve the evidence, issue same-session STOP
-where possible, and ask the operator to exit under the separately approved
-recovery policy. Loss alone invalidates scientific continuity while safe
-acquisition may continue. No arbitrary time, record or byte cutoff is added.
+These commands describe a future procedure. **Do not run live actions under P4.**
+Use installed CPython 3.14 with `-B`, never `-O`. Run canonical repository scripts;
+`review-tools` in staging are source snapshots, not a relocated installation.
+Use a new output path for each receipt and the exact hashes in the final manifest.
 
-Hooks affect execution timing and can fail. A crash does not authorize relaunch.
-Preserve complete prefixes and uncertain tails; do not suppress exceptions or
-rewrite a failed criterion. Unexpected corruption outside the declared capture
-boundary requires a maintainer recovery decision. No original-save restoration
-or configuration change is authorized by this card.
+```powershell
+$py = 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe'
+$plan = '.local-work/d5ab/p4-package04/plan.json'
+$planHash = '8bb356e6e5ce700d131b579bc40b4fb5c55f66788792da7487eaa38ac53a7e80'
+& $py -B research/resource-retained-population/d5ab_p4_operations.py preflight --plan $plan --plan-sha256 $planHash --out .local-work/d5ab/B2-NEW-PREFLIGHT
+```
 
-## Postflight and archive - NOT AUTHORIZED
+A preflight snapshots all pre-existing sessions. It does not confirm current
+Cloud settings or create permission. After a separate actual GO and main-menu
+identity, the operator records a local identity-bound approval JSON containing
+`authority: B2_EXPLICIT_MAINTAINER_GO`, plan/preflight hashes, absolute session,
+identity hash and `one_process_one_load_one_direct_travel: true`. Retain the actual
+maintainer instruction/initial GO as its provenance; JSON is not consent. Session
+identity cannot exist before launch, so this binding follows the separately
+approved launch and precedes any save load. No approval is generated by P4.
 
-After confirmed original PID/creation exit, repeat full protection with a fresh
-postflight label and compare policy, protected saves/backups, remote inputs,
-configuration and content. Verify effective deployed-DLL absence and record
-operator disablement/staging status. Retain all deviations, losses, failures and
-incomplete tails. Run the exact reviewed schema-4 reader/reducer offline.
+```powershell
+# Every command in this block is a FUTURE LIVE ACTION, NOT AUTHORIZED.
+$control = @('--session', $session, '--plan', $plan, '--plan-sha256', $planHash,
+  '--preflight', $preflight, '--preflight-sha256', $preflightHash,
+  '--approval', $approval, '--approval-sha256', $approvalHash)
+& $py -B runtime/construction-winner/p4_controller.py start @control --out $newStartReceipt
+& $py -B runtime/construction-winner/p4_controller.py request @control --out $newRequestReceipt
+& $py -B runtime/construction-winner/p4_controller.py poll @control --out $newPollReceipt
+# Only on the maintainer's STOP or approved proven safety-fault response:
+& $py -B runtime/construction-winner/p4_controller.py stop @control --reason $actualReason --out $newStopReceipt
+```
 
-Finish companion checkpoints and protection/scientific receipts, then seal
-quiescent raw and receipt roots with `runtime/session-tools/archive.py` using its
-hash-bound postflight contract. Keep seal/ZIP/verification outputs outside sealed
-roots; stream-verify every member and keep raw originals. A partial/crashed run
-uses explicit partial classification, never a repaired success. No deletion,
-upload, staging, commit, push or publication follows. Independent review evaluates
-scientific qualification separately from preservation and process survival.
+At main menu, loaded Lodge and arrival, request and poll a distinct fresh challenge.
+If publication/ACK remains pending, retry that pending request, preserving nonce.
+Each CLI exit releases its lock/handle, so a later invocation reconnects to the
+same persisted owner. No timed watchdog unloads or kills the process.
 
-## Scientific gates for that future episode
+After normal exit and disablement:
 
-A positive target first-construction result requires a qualified protected empty
-ProcGen boundary; complete earlier observation coverage; safe constructor/
-publication/allocation lifetime and consumed visited token; original request and
-unvisited decision; first eligible protected map miss; actual consumed descriptor;
-generator and direct ordinary mask 0 or 3; successful native reserve and executed
-token store; and consistent source/ProcGen/thread/epoch/loss generation throughout.
-Earlier unknown candidate activity, collisions, unsafe source identity or relevant
-loss denies firstness. A later clean stretch needs a new qualified empty boundary
-and a complete source lifetime. An optional later bypass strengthens chronology;
-its absence does not defeat an already complete first-construction prefix.
+```powershell
+& $py -B research/resource-retained-population/d5ab_p4_operations.py postflight --plan $plan --plan-sha256 $planHash --preflight $preflight --preflight-sha256 $preflightHash --approval $approval --approval-sha256 $approvalHash --session $session --out $newPostflightDirectory
+```
 
-Legitimate negative/inconclusive outcomes include target never positively
-identified, bypass only, unvisited map hit, no constructing miss, failed reserve,
-no sampler because prerequisites failed, unknown/retired/reused source, missing
-birth/publication/reset, relevant loss, ambiguous chronology, damaged ACK or worker
-failure. None proves native absence from silence. Successful append does not prove
-nonempty/complete geometry. A non-target lifecycle does not answer target D5R.
-B1 remains historical PARTIAL, D5AA ESCALATE, D5R OPEN and B2 **NOT PERFORMED**.
-No additional attempt is authorized by any of these outcomes.
+Use that directory's `receipt.json` as the hash-bound postflight for the existing
+[archive commands](../../../runtime/session-tools/README.md#archival-contract).
+Create roots JSON with this exact raw session and finished private companion
+receipts; seal/ZIP/verification outputs must be outside sealed roots. A failed or
+crashed capture uses `PARTIAL_POSTFLIGHT` plus an explicit partial reason. Preserve
+the original failure and every available byte. Stream verification is bounded;
+the scientific reader materializes events and may require additional memory for
+larger captures. A reduction failure is retained, not an authorization to trim raw
+evidence or retry gameplay. Future live approval must name final plan/card/package
+hashes and the actual retained operational/scientific limitations.
+
+
+## Operator setup template for a separately approved attempt
+
+The following is a **future procedure, NOT AUTHORIZED by P4**. It makes the
+appendix variables concrete; use the single approved attempt label. If a label
+already exists, stop and resolve it rather than incrementing an attempt or retrying
+launch. Receipt GUIDs distinguish observations within the same approved attempt.
+
+```powershell
+Set-Location 'D:/Projects/starfield-outpost-research'
+$py = 'C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe'
+$plan = (Resolve-Path '.local-work/d5ab/p4-package04/plan.json').Path
+$planHash = '8bb356e6e5ce700d131b579bc40b4fb5c55f66788792da7487eaa38ac53a7e80'
+$attempt = 'B2-APPROVED-001'
+$preDir = Join-Path $PWD ".local-work/d5ab/$attempt-preflight"
+$notes = Join-Path $PWD ".local-work/d5ab/$attempt-notes"
+if (Test-Path $notes) { throw 'Existing attempt notes; do not reuse' }
+New-Item -ItemType Directory -Path $notes | Out-Null
+function ReceiptPath([string]$phase) {
+  Join-Path $notes ($phase + '-' + [guid]::NewGuid().ToString('N') + '.json')
+}
+function Pin([string]$path) { (Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash.ToLowerInvariant() }
+& $py -B research/resource-retained-population/d5ab_p4_operations.py preflight --plan $plan --plan-sha256 $planHash --out $preDir
+if ($LASTEXITCODE -ne 0) { throw 'Failed offline preflight; no launch' }
+$preflight = Join-Path $preDir 'receipt.json'
+$preflightHash = Pin $preflight
+$pre = Get-Content -Raw -LiteralPath $preflight | ConvertFrom-Json
+```
+
+After a separate actual GO, the maintainer installs/enables/launches exactly once
+and stays at main menu. Record the actual approval text and its plan/card/package
+hashes in the notes directory. Then select the newly created session, refusing
+multiple or absent candidates:
+
+```powershell
+# FUTURE main-menu read/binding, NOT AUTHORIZED now.
+$liveRoot = Join-Path $PWD '.local-work/d5x/live'
+$newSessions = @(Get-ChildItem -LiteralPath $liveRoot -Directory -Filter 'session-*' |
+  Where-Object { $_.Name -notin $pre.existing_sessions })
+if ($newSessions.Count -ne 1) { throw 'Ambiguous or absent new session; do not load save' }
+$session = $newSessions[0].FullName
+$identityFile = Join-Path $session 'identity.json'
+$identityHash = Pin $identityFile
+$approval = Join-Path $notes 'identity-bound-approval.json'
+# This record transcribes the prior actual GO; it cannot create permission.
+$approvalValue = @{
+  authority = 'B2_EXPLICIT_MAINTAINER_GO'
+  plan_sha256 = $planHash
+  preflight_sha256 = $preflightHash
+  session = $session
+  identity_sha256 = $identityHash
+  one_process_one_load_one_direct_travel = $true
+  actual_maintainer_instruction = 'TRANSCRIBE THE ACTUAL SCOPED GO HERE'
+}
+if ($approvalValue.actual_maintainer_instruction -eq 'TRANSCRIBE THE ACTUAL SCOPED GO HERE') {
+  throw 'Actual maintainer GO must be recorded before creating approval'
+}
+$approvalText = ($approvalValue | ConvertTo-Json -Depth 5) + "`n"
+$stream = [IO.File]::Open($approval, [IO.FileMode]::CreateNew)
+try {
+  $bytes = [Text.UTF8Encoding]::new($false).GetBytes($approvalText)
+  $stream.Write($bytes, 0, $bytes.Length)
+  $stream.Flush($true)
+} finally { $stream.Dispose() }
+$approvalHash = Pin $approval
+$control = @('--session', $session, '--plan', $plan, '--plan-sha256', $planHash,
+  '--preflight', $preflight, '--preflight-sha256', $preflightHash,
+  '--approval', $approval, '--approval-sha256', $approvalHash)
+$newStartReceipt = ReceiptPath 'main-menu-start'
+& $py -B runtime/construction-winner/p4_controller.py start @control --out $newStartReceipt
+```
+
+At each main-menu, Lodge and arrival checkpoint, set `$phase` to that checkpoint,
+record the maintainer's statement and observation bounds in a companion note,
+then use the following. Read the returned state before proceeding. Pending
+publication/ACK uses the same command again with a new output receipt; it does
+not permit a save load or travel. A successful challenge clears its nonce so the
+next phase gets a fresh one.
+
+```powershell
+# FUTURE LIVE checks, NOT AUTHORIZED now.
+$phase = 'main-menu' # Later: 'loaded-Lodge' or 'arrival'; no new travel implied.
+$newRequestReceipt = ReceiptPath ($phase + '-request')
+& $py -B runtime/construction-winner/p4_controller.py request @control --out $newRequestReceipt
+$newPollReceipt = ReceiptPath ($phase + '-poll')
+& $py -B runtime/construction-winner/p4_controller.py poll @control --out $newPollReceipt
+```
+
+The following block is separate from ordinary phase checks. Use it only after
+the actual maintainer STOP at arrival, or the separately approved proven-fault
+response. Never issue it as part of the main-menu or Lodge checkpoint.
+
+```powershell
+# FUTURE LIVE STOP, NOT AUTHORIZED now.
+$actualReason = 'RECORD THE ACTUAL STOP INSTRUCTION OR SAFETY INCIDENT'
+$newStopReceipt = ReceiptPath 'stop'
+& $py -B runtime/construction-winner/p4_controller.py stop @control --reason $actualReason --out $newStopReceipt
+```
+
+STOP after arrival remains maintainer-directed. After confirmed normal exit and
+disablement, perform the exact postflight and archive procedure below. Only
+`PASS_POSTFLIGHT` can be sealed COMPLETE; for `PARTIAL_POSTFLIGHT` append
+`--partial-reason` with the real incident. A `CHECK_ERROR`, unknown process exit or
+nonquiescent source requires resolution before sealing, never a fabricated receipt.
+
+```powershell
+$postDir = Join-Path $PWD ".local-work/d5ab/$attempt-postflight"
+& $py -B research/resource-retained-population/d5ab_p4_operations.py postflight --plan $plan --plan-sha256 $planHash --preflight $preflight --preflight-sha256 $preflightHash --approval $approval --approval-sha256 $approvalHash --session $session --out $postDir
+$postflight = Join-Path $postDir 'receipt.json'
+$postflightHash = Pin $postflight
+$archiveDir = Join-Path $PWD ".local-work/d5ab/$attempt-archive"
+New-Item -ItemType Directory -Path $archiveDir -ErrorAction Stop | Out-Null
+$roots = Join-Path $archiveDir 'roots.json'
+$rootsValue = @{
+  raw = @{ path = $session; kind = 'raw-capture' }
+  notes = @{ path = $notes; kind = 'private-receipt' }
+  preflight = @{ path = $preDir; kind = 'private-receipt' }
+  postflight = @{ path = $postDir; kind = 'private-receipt' }
+}
+[IO.File]::WriteAllText($roots, ($rootsValue | ConvertTo-Json -Depth 5), [Text.UTF8Encoding]::new($false))
+$seal = Join-Path $archiveDir 'seal.json'
+$zip = Join-Path $archiveDir 'capture.zip'
+$created = Join-Path $archiveDir 'created.json'
+$verified = Join-Path $archiveDir 'verified.json'
+& $py -B runtime/session-tools/archive.py seal --input $roots --sha256 (Pin $roots) --postflight $postflight --postflight-sha256 $postflightHash --out $seal
+& $py -B runtime/session-tools/archive.py create --input $seal --sha256 (Pin $seal) --archive $zip --out $created
+& $py -B runtime/session-tools/archive.py verify --input $seal --sha256 (Pin $seal) --archive $zip --archive-sha256 (Pin $zip) --out $verified
+```
+
+Check each command's exit/result before the next. Finish all notes and scientific
+outputs before sealing; if notes change afterwards, retain the old seal and make
+a new seal/archive with new paths. Never add outputs inside sealed roots. Retain
+raw originals and independently reconstruct selected members using the shared
+archive contract and their exact sealed hashes. This procedure grants no upload,
+raw retirement, retry, publication or protected-original restoration authority.

@@ -1898,3 +1898,18 @@ assumptions. No Microsoft prose, sample implementation or new dependency is
 incorporated. Source-informed ABI research is not described as clean-room work.
 The unchanged approved SFSE PluginAPI header and its MIT notices retain the
 existing D5X permission basis; no other SFSE implementation is incorporated.
+
+
+## D5AB P4 offline readiness and operational preparation
+
+The [P4 package manifest](experiments/resource-retained-population/d5ab-p4-package-manifest.md)
+binds exact reused P1-P3 native/consumer/fixture/provenance methods and the owned
+protection, save-policy, session/archive and review-export tools under SOR-P-0002.
+P4 adds original operational adapter/procedure tests; the compiled native candidate
+and scientific consumers remain unchanged. Exact source hashes and the originating
+P3 exporter/provenance hashes are retained in code and local manifests. Existing
+SFSE PluginAPI/header notices retain the recorded D5X permission basis. No new
+third-party implementation, licence acceptance, consultation, download or external
+disclosure occurs. Source-informed native research remains credited to its original
+records; no clean-room claim is made. Private native/raw/binary/save receipts stay
+LOCAL-ONLY; authored code/synthesis remains REVIEW-REQUIRED.

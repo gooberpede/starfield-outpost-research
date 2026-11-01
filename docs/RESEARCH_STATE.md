@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-11-01 - D5AB P4 final offline readiness COMPLETE / ACCEPT:**
+[Report](experiments/resource-retained-population/d5ab-p4-report.md),
+[original-contract matrix](experiments/resource-retained-population/d5ab-p4-compliance-matrix.md)
+and [active ledger](experiments/resource-retained-population/d5ab-p4-investigation-ledger.md)
+record the unchanged compiled schema-4 candidate, new actual-worker/retail-control
+qualification, protected offline rehearsals and proposed one-episode card.
+Independent Review02 accepts all original AB and P4 questions/criteria; the
+recommendation is READY for maintainer review. B2 remains NOT AUTHORIZED. D5R
+OPEN, B1 PARTIAL NATIVE COVERAGE, historical D5AA gap, gameplay checklist and
+publication ON HOLD remain unchanged. No retail, deployment or Git integration
+occurs.
+
 **2026-11-01 — D5AB P3 native integration COMPLETE / ACCEPT:**
 [Report](experiments/resource-retained-population/d5ab-p3-report.md),
 [active ledger](experiments/resource-retained-population/d5ab-p3-investigation-ledger.md)
