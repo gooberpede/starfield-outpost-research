@@ -1264,3 +1264,11 @@ for independent challenge. [Source records](docs/SOURCES.md#d5ab-p3-native-integ
 identify those consultations and their use boundaries. Installed MSVC/MASM,
 Windows SDK and CPython are separate tools. No outside implementation, new
 dependency or publication clearance follows.
+
+## D5AC retained B2 reconstruction
+
+The [epoch and cold-state study](docs/experiments/resource-retained-population/d5ac-report.md)
+reuses maintainer-authored D5V/W/Z and D5AB P1/P3/B2 native tracing, semantic
+identity and capture-decoding methods under SOR-P-0002. Exact per-use provenance
+is recorded in its source locator. Existing third-party notices and permissions
+are unchanged; no new external implementation is incorporated.

@@ -1,5 +1,18 @@
 # Current Research State
 
+**2026-11-01 - D5AC offline B2 epoch reconstruction COMPLETE / ACCEPT.**
+The [reconstruction](experiments/resource-retained-population/d5ac-report.md)
+accounts for all 224 observer increments: two resets and 111 Grid clears with
+two increments each. From reset epoch 113 to 207, 47 Grid clears explain the
+missing same-epoch reset certificate. A separately derived native empty anchor
+carries to first demand under the audited ordinary mutation graph. The earlier
+target check reaches its map hit after the competing request constructs and
+stores. Production remains unchanged; mask `0x3` is retained, cold-first unproved,
+D5R OPEN and publication ON HOLD. The [checklist](experiments/resource-retained-population/resource-generation-gameplay-checklist.md)
+now distinguishes the observed ordinary-arrival query from firstness and tracks
+the epoch/native-state relationship. Independent review accepts all four original
+questions and eight criteria; the review record controls closing delivery.
+
 **2026-11-01 - B2 direct target mask 0x3 OBSERVED; cold-first processing unproved.**
 The [report](experiments/resource-retained-population/d5ab-b2-report.md) and
 [live ledger](experiments/resource-retained-population/d5ab-b2-live-ledger.md)

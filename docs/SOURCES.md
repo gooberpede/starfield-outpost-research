@@ -1941,3 +1941,12 @@ preserving the missing-cold-state refusal. No external source, dependency, licen
 acceptance, contact or disclosure is introduced. Existing approved SFSE notices
 remain unchanged. Raw/private/native evidence remains LOCAL-ONLY, authored
 synthesis REVIEW-REQUIRED, publication ON HOLD.
+
+## D5AC B2 epoch and cold-state reconstruction
+
+The [D5AC source locator](experiments/resource-retained-population/d5ac-sources.md)
+pins the owned D5V/W/Z, D5AB P1/P3 and B2 native/source/retained-evidence methods
+used under SOR-P-0002. Two new offline Python analyses independently decode B2
+and exercise unchanged predicate fixtures. No new outside implementation, licence
+acceptance or external consultation occurs; proprietary primary evidence remains
+LOCAL-ONLY and publication remains ON HOLD.
