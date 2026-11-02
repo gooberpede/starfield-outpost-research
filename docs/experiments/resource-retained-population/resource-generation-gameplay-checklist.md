@@ -112,3 +112,15 @@ No independent retail full-geometry or departure/return result follows.
 - [ ] <!-- GC-33 --> Correlate terrain block dependencies and persisted PCM placement preparation with resource-request readiness in the compared construction episodes. [D5AG map](d5ag-terrain-resource-map.md) traces the native dependencies; existing B1/B2 schemas do not record their complete effective operands or readiness history. This is distinct from source publication and does not imply a canonical resource query.
 
 - [ ] <!-- GC-34 --> Establish an existing placed extractor's restored resource association and production across a verified resource-geometry lifetime transition, independently of current point eligibility and complete deposit equality. [D5AH extractor evidence](d5ah-extractor-continuity.md) maps separate placement, producer and persistence paths; the [comparison design](d5ah-experiment-design.md) requires actual full geometry and producer measurements. No changed-deposit retail episode is observed. GC-25/30/31/10 and D5R remain OPEN; [dated decisions](d5ah-checklist-decisions.md) preserve all prior ticks.
+
+
+## D5AI offline observer readiness, 2026-11-02
+
+The [D5AI investigation](d5ai-report.md) develops complete resident-geometry
+capture, lifetime attribution and separate prospective ordinary-return/fresh-load
+cards. [Checklist decisions](d5ai-checklist-decisions.md) preserve every prior
+checkbox and stable meaning. GC-25/30/31/10 and D5R remain OPEN; no D5AI retail
+population or departure/return result is collected. The unverified retirement/
+visited anomaly is not an observed gameplay fault. Extractor continuity and
+physical deposit overlap remain separate excluded lines. Both proposed episodes
+are NOT AUTHORIZED; offline qualification does not grant gameplay permission.

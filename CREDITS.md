@@ -1,5 +1,18 @@
 # Credits
 
+## D5AI population lifecycle and geometry observer
+
+[D5AI](docs/experiments/resource-retained-population/d5ai-report.md) builds on
+maintainer-owned D5AB/P1-P4/B1/B2 observer, protection and transport methods;
+D5S/T/V/AC/AE/AF/AG/AH native geometry and ownership research; and existing
+review/export methods under SOR-P-0002. Prior geometry findings are corroborated,
+not claimed as new discoveries. Bethesda's pinned local executable/content and
+retained protected inputs supply native evidence. The unchanged approved SFSE
+PluginAPI header retains its existing scope and notices. Installed Ghidra/JDK,
+CPython, MSVC/MASM/Windows SDK/CRT and Git are separate local tools. No new
+third-party implementation, dependency, licence acceptance or external disclosure
+is introduced. Raw evidence and binaries remain local; publication is on hold.
+
 ## D5AH geometry persistence and extractor reconstruction
 
 [D5AH](docs/experiments/resource-retained-population/d5ah-report.md) uses

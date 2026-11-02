@@ -1,0 +1,24 @@
+id,path,sha256,static_va,first_line,last_line,eligibility,lineage
+D5AI-END-01,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x14079f860,2,1737,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-02,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407ab510,3474,3665,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-03,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407abaf0,3666,3874,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-04,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x140975030,3875,4099,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-05,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407ab6a0,4325,4400,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-06,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407aa8a0,4401,4490,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-07,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407a5790,4491,4790,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-08,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407a9690,4791,4844,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-09,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407affb0,4845,5093,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-10,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x14079a330,5094,6359,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-11,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407aab10,7626,7734,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-12,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407aabd0,7735,7817,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-13,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407ab730,7818,8009,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-14,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407abc90,8010,8242,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-15,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407af1a0,8243,8563,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-16,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407a54c0,8564,8865,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-17,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407a59f0,8866,9724,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-18,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407a98b0,9725,9778,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-19,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407ac2f0,9779,9872,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-20,.local-work/d5ai-ownership/ending01/native.tsv,5ed9442c69e239d6e98759250e1d72240106ea2ad8dbf303da6f8626a5843dc8,0x1407ac0d0,9873,10074,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-21,.local-work/d5s/export08/native.tsv,fd0cbc75eaf2575de30acb5068087da0dcfbb0b8fdc5b9fcf60c7287fe42b081,0x1407ac260,1899,1990,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-22,.local-work/d5s/export08/native.tsv,fd0cbc75eaf2575de30acb5068087da0dcfbb0b8fdc5b9fcf60c7287fe42b081,0x1407aa9b0,2113,2298,LOCAL-ONLY,Bethesda primary native; retained read-only export
+D5AI-END-23,.local-work/d5ah-extractor/export02/native.tsv,647a07d95df2f3301e0596dda4fecad148f3063ea35178f1610094fa79fc3911,0x1407aab10,317,425,LOCAL-ONLY,Bethesda primary native; retained read-only export

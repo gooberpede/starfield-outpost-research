@@ -1,5 +1,22 @@
 # Current Research State
 
+**2026-11-03 - D5AI offline instrument: technical COMPLETE; AC01 FAIL / ESCALATE.**
+The [report](experiments/resource-retained-population/d5ai-report.md) records
+independently reviewed lifecycle/content identity, complete geometry and consumer
+availability, including complete/partial external storage survival after map
+erasure. Candidate 0.7.0 passes 144 native expected exits and exact recipe
+reproduction. Current affected receiver/reducer, strict controller, shared-worker
+and adverse ABA/malformed-input controls pass their bounded contracts. Separate
+unapproved A/B cards and plans05 retain all safety gates; historical full audits
+are reconciled only for offline design, never reused as live admission. One
+LOW-confidence substantive forecast is independently reviewed and immutably
+frozen before any Stage B access. The exact final handoff review/manifests govern
+closure and delivery. The initial required-reading-order failure remains FAIL;
+technical success does not waive it. Neither gameplay episode is authorized or
+executed. GC-25/30/31/10 and D5R remain OPEN; extractor and physical-overlap lines
+stay separate. No staging, commit, push, retail deployment or protected-save
+modification is performed. Publication remains ON HOLD.
+
 **2026-11-02 - D5AH geometry persistence: actual return comparison BLOCKED.**
 The [connected report](experiments/resource-retained-population/d5ah-report.md)
 traces source/map/collection ownership, visited-only return, complementary

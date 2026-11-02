@@ -1,5 +1,22 @@
 # Source Register
 
+## D5AI population lifecycle and complete geometry
+
+2026-11-02. The [active report](experiments/resource-retained-population/d5ai-report.md),
+[authored method and receipt pins](experiments/resource-retained-population/d5ai-sources.csv),
+[native ownership pins](experiments/resource-retained-population/d5ai-ownership-sources.csv)
+and [owner-context pins](experiments/resource-retained-population/d5ai-owner-context-sources.csv)
+retain evidence lineage. Owned D5AB/P1-P4/B1/B2, D5S/T/V/AC/AE/AF/AG/AH,
+protected-input and review/export methods are reused under SOR-P-0002, with
+per-method provenance and local exact-source receipts. Existing complete native
+geometry findings are corroborated. Bethesda inputs and separate installed
+Ghidra/JDK/CPython/MSVC/MASM/Windows SDK/CRT/Git tools retain their rights
+boundaries. The approved unchanged SFSE header keeps its notices and prior scope.
+No new third-party incorporation, dependency, licence acceptance, contact or
+disclosure occurs. Raw sources/receipts remain LOCAL-ONLY; authored work remains
+REVIEW-REQUIRED, publication ON HOLD. Required-reading-order deviations and
+failed controls remain disclosed rather than cleared by later passing tests.
+
 ## D5AH geometry persistence and placed extractors
 
 2026-11-02. [Main identities](experiments/resource-retained-population/d5ah-sources.csv),
