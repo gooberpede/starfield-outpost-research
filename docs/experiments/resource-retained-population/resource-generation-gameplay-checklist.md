@@ -37,6 +37,21 @@ The B2 Lodge prefix contains 383 source births/publications and zero provider
 records; those facts alone do not certify all-input readiness or a Lodge
 exterior resource request.
 
+D5AE, 2026-11-02: the [integrated scheduling account](d5ae-report.md) and
+[decision matrix](d5ae-checklist-decisions.md) connect startup readiness, task
+dependencies/rank, actual queue claims and protected-map authority. GC-10 and
+GC-06 remain open at their original retail wording; no checkbox or stable ID
+changes. Native alternatives do not establish a usually selected retail mask.
+
+D5AF, 2026-11-02: the [pre-lock reconstruction](d5af-prelock-causality.md) adds
+non-ticket writer admission, incoming-reader behavior and the exact post-release
+observer interval. [Complete fixed-source geometry controls](d5af-geometric-reproducibility.md)
+corroborate D5T and exclude Special/Everywhere additions under the pinned
+main-file contract. The [decision matrix](d5af-checklist-decisions.md) retains
+every original checkbox and ID: normal-retail preference and independent retail
+full-geometry repetition remain unresolved. [Review](d5af-review.md) governs
+the exact disposition; D5R remains OPEN.
+
 ## 1. Game start / save load
 
 - [x] <!-- GC-01 --> Construct and initialize the manager on the missing-singleton branch. Native mechanism mapped: [manager/ProcGen construction](d5v-lifecycle-consumer-map.md#construction-and-ownership). Specific B1 event observed: manager creation was not captured.
@@ -53,7 +68,7 @@ exterior resource request.
 - [x] <!-- GC-07 --> Convert a valid focus into geographic cell coordinates and bounded request regions. Native mechanism mapped under the fixed descriptor/settings contract: [focus and bounds](d5w-normal-path-model.md#ordinary-initialization-and-ingress). Specific B1 event observed: focus conversion was not directly recorded.
 - [x] <!-- GC-08 --> Enumerate request cells and register density/layer tasks with dependencies. Native mechanism mapped: [dependencies and claims](d5w-normal-path-model.md#dependencies-services-and-claims). Specific B1 event observed: registration was not directly recorded.
 - [x] <!-- GC-09 --> Submit eligible ready tasks to the native worker system, permitting asynchronous execution. Native mechanism mapped with controlled queue witnesses: [D5W Q1](d5w-report.md#q1--what-ordinary-execution-selects-or-favours). Specific B1 event observed: downstream worker activity, without a complete readiness/claim trace.
-- [ ] <!-- GC-10 --> Determine which eligible request normally constructs first under retail readiness and scheduling. Native mechanism permits competing winners: [D5S result](d5s-report.md). Specific B1 event observed: no qualified target cold-first chain; retail frequency remains unknown.
+- [ ] <!-- GC-10 --> Determine which eligible request normally constructs first under retail readiness and scheduling. Native mechanism permits competing winners: [D5S result](d5s-report.md). D5AE adds the [native readiness/claim/lock model](d5ae-scheduler-causality.md) and [controlled predictability limit](d5ae-retail-predictability.md). Specific B2 event observed: later-checking `[5,0]` constructs before `[4,-1]` reaches its map hit; no usually selected retail request or frequency is established. Qualified target cold-first remains unproved.
 
 ## 3. Destination streaming / construction
 
