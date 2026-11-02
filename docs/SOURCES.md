@@ -1,5 +1,18 @@
 # Source Register
 
+## D5AF construction admission and fixed-source geometry
+
+2026-11-02. [Per-use ledger](experiments/resource-retained-population/d5af-sources.csv)
+pins inherited D5AE native/recording inputs and fresh disposable-project lock/math
+exports, B2 reconstruction and native controls. Owned D5AC/D5AE/D5S/RG1 and
+component-selection methods are reused/adapted under SOR-P-0002. D5T's existing
+complete two-outcome census and same-mask ordinary equivalence are prior findings,
+freshly corroborated here. Bethesda's installed native/content inputs, separate
+Ghidra/JDK/CPython/Windows/CRT/Git tools and original source lineage retain their
+rights boundaries. No outside implementation, dependency, licence basis, contact
+or disclosure is newly introduced. Raw native/session/save data and private
+receipts remain LOCAL-ONLY; authored synthesis REVIEW-REQUIRED, publication ON HOLD.
+
 ## D5AB observer remediation
 
 2026-10-31, Australia/Sydney. [Report](experiments/resource-retained-population/d5ab-report.md),
@@ -1966,3 +1979,15 @@ research tools. Native exports, saves, map/archive members, session data and
 private receipts remain LOCAL-ONLY. Authored synthesis/methods are REVIEW-REQUIRED;
 no new third-party code, licence basis, dependency, external consultation,
 contact or publication clearance is introduced.
+
+## D5AE construction scheduling and readiness
+
+The [D5AE source ledger](experiments/resource-retained-population/d5ae-sources.csv)
+pins Bethesda native/content inputs, retained B2 capture/reader operands and owned
+D5S/W/V/Z/AA/AC/AD research. Fresh native exports use a verified disposable
+analysis-project copy; existing source ledgers retain historical provenance.
+Offline native queue, entry-state and reserve controls are rerun separately from
+the new synthetic arbitration predicates. Methods are reused/adapted under
+SOR-P-0002; no new outside code, licence basis, dependency, contact or disclosure
+is introduced. Raw evidence remains LOCAL-ONLY, authored work REVIEW-REQUIRED
+and publication ON HOLD.

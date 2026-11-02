@@ -1,5 +1,33 @@
 # Current Research State
 
+**2026-11-02 - D5AF native admission mapped; primary stabilization BLOCKED.**
+The [D5AF report](experiments/resource-retained-population/d5af-report.md)
+identifies the exact historical callback-return/registration/ownership edge
+missing from B2. Fresh original-code controls establish non-ticket writer
+admission and incoming readers despite pending writers. Complete fixed-source
+geometry controls corroborate D5T, with positive Special/Everywhere exclusion
+under the fixed main-file contract. These findings do not establish normal-retail
+winner preference or independent complete-geometry repeatability. Q1/Q4 have
+scoped answers; Q2/Q3 and the primary hypothesis retain their missing empirical
+operands. The [review matrix](experiments/resource-retained-population/d5af-review.md)
+records independent disposition and a required-reading-order deviation. GC-10/31
+and D5R remain OPEN; publication ON HOLD. No live, protected-input, production
+observer or Git integration action occurred.
+
+**2026-11-02 - D5AE construction scheduling COMPLETE / independent ACCEPT.**
+The [integrated account](experiments/resource-retained-population/d5ae-report.md)
+joins startup and per-request readiness, native dependency/rank activation,
+service/worker queue rules and protected source-map authority. B2's earlier
+unvisited `[4,-1]` request reaches its hit after `[5,0]` constructs and stores.
+Native continuations and incremental queue controls support a scoped negative
+for a unique content-only winner under defined ordinary conditions; no usual
+retail winner or frequency is measured. The
+[question/criterion matrix](experiments/resource-retained-population/d5ae-review.md)
+and active ledger control completion and independent review. GC-10/06/31 retain
+their open retail qualifications; D5R OPEN, publication ON HOLD. No live game,
+observer deployment, protected-save modification or original-project Ghidra
+execution is performed. Work remains unstaged and uncommitted.
+
 **2026-11-02 - D5AD science COMPLETE; full-conformance ESCALATE.**
 The [initialization/save-load reconstruction](experiments/resource-retained-population/d5ad-report.md)
 joins ordinary definition loading/readiness, Save52's actual Lodge destination,

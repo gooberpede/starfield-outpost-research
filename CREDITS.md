@@ -1,5 +1,18 @@
 # Credits
 
+## D5AF construction admission and geometry requalification
+
+[D5AF](docs/experiments/resource-retained-population/d5af-report.md) uses
+Bethesda's pinned native/content inputs and retained B2 evidence. Owned
+D5AE/AC input, decoder, scheduler and review methods; D5S native fixtures;
+RG1 geometry; D5T's prior complete two-outcome census; and component-selection
+research are reused or adapted under SOR-P-0002 with
+[exact provenance](docs/experiments/resource-retained-population/d5af-sources.csv).
+Fresh controls corroborate the prior geometry finding rather than claiming
+its discovery. Installed Ghidra/JDK, CPython, Windows/CRT and Git are separate
+tools. No new third-party implementation, licence basis, dependency or disclosure
+is introduced; proprietary/raw inputs and private receipts remain local-only.
+
 ## D5AB observer remediation
 
 [D5AB](docs/experiments/resource-retained-population/d5ab-report.md) extends the
@@ -1282,3 +1295,12 @@ project's owned save/framing/native/observer methods. Exact origins and use
 boundaries are in the task source ledger. Ghidra/JDK and CPython support offline
 analysis; no new outside implementation is incorporated. Proprietary inputs
 and private receipts remain local, with publication still gated.
+
+## D5AE construction scheduling
+
+The [D5AE study](docs/experiments/resource-retained-population/d5ae-report.md)
+uses Bethesda's pinned native/content evidence and the maintainer's B1/B2
+observations. It reuses owned D5S/W native scheduling controls, D5AC raw-frame
+reconstruction, D5AD readiness and D5Z visited-reserve methods under SOR-P-0002.
+Ghidra/JDK and CPython support separate offline analysis. The task source ledger
+records exact use and provenance; no new third-party implementation is included.
