@@ -1,5 +1,21 @@
 # Current Research State
 
+**2026-11-02 - D5AG terrain/resource consistency: empirical conclusions BLOCKED.**
+The [report](experiments/resource-retained-population/d5ag-report.md) joins
+source metadata, original requests, terrain block dependencies, concrete file
+callbacks and saved content preparation. Cooperative terrain waits can execute
+queued work; an ambient manager reader conditionally protects a nested resource
+invocation from another thread's ordinary movement shift. These rules do not
+elect a canonical resource query or prove cross-reset complete geometry.
+Fresh complete fixed-stage comparisons reproduce 74/78 regions and 193/180
+points for masks 0/3. B2's missing admission clocks and independent retail
+return/reconstruction input/output pairs remain explicit barriers. The
+[question/criterion review](experiments/resource-retained-population/d5ag-review.md)
+governs proposed Q1/Q4 completion, Q2/Q3/CQ BLOCKED and procedural qualifications.
+All prior ticks remain; GC-33 adds preparation/readiness correlation OPEN.
+D5R OPEN and publication ON HOLD. No retail, observer, protected-input or Git
+integration action is performed by D5AG.
+
 **2026-11-02 - D5AF native admission mapped; primary stabilization BLOCKED.**
 The [D5AF report](experiments/resource-retained-population/d5af-report.md)
 identifies the exact historical callback-return/registration/ownership edge

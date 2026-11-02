@@ -1,5 +1,19 @@
 # Source Register
 
+## D5AG terrain and resource consistency
+
+2026-11-02. [Primary window pins](experiments/resource-retained-population/d5ag-sources.csv)
+and the [terrain dependency map](experiments/resource-retained-population/d5ag-terrain-resource-map.md)
+record inherited D5S/T/U/V/W/AD/AE/AF evidence, fresh disposable-project exports,
+direct PE table reads, B2 reconstruction and complete fixed-stage geometry
+comparisons. Owned methods are adapted under SOR-P-0002; exact lineage and
+substitutions are retained in scripts and local receipts. D5T/D5AF geometry is
+corroborated, not claimed as a new discovery. Installed Bethesda inputs and
+separate Ghidra/JDK/CPython/CRT/Git tools keep their existing rights boundaries.
+No new third-party incorporation, dependency, licence acceptance, external
+contact or disclosure occurs. Raw sources/receipts remain LOCAL-ONLY; authored
+work is REVIEW-REQUIRED and publication remains ON HOLD.
+
 ## D5AF construction admission and fixed-source geometry
 
 2026-11-02. [Per-use ledger](experiments/resource-retained-population/d5af-sources.csv)

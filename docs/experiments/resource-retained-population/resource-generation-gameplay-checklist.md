@@ -52,6 +52,15 @@ every original checkbox and ID: normal-retail preference and independent retail
 full-geometry repetition remain unresolved. [Review](d5af-review.md) governs
 the exact disposition; D5R remains OPEN.
 
+D5AG, 2026-11-02: the [terrain-resource dependency map](d5ag-terrain-resource-map.md)
+and [lifecycle model](d5ag-lifecycle-consistency.md) distinguish stable source
+metadata, actual terrain/preparation dependencies, retained geometry and fresh
+reconstruction. [Complete geometry controls](d5ag-geometry-controls.md) reproduce
+fixed-input equality and the mask-0/mask-3 counterexample. The
+[decision matrix](d5ag-checklist-decisions.md) preserves all existing ticks and
+adds only GC-33 for the newly explicit preparation/readiness correlation.
+No independent retail full-geometry or departure/return result follows.
+
 ## 1. Game start / save load
 
 - [x] <!-- GC-01 --> Construct and initialize the manager on the missing-singleton branch. Native mechanism mapped: [manager/ProcGen construction](d5v-lifecycle-consumer-map.md#construction-and-ownership). Specific B1 event observed: manager creation was not captured.
@@ -99,3 +108,5 @@ the exact disposition; D5R remains OPEN.
 - [x] <!-- GC-29 --> Clear retained populations and visited identities on a qualifying broad reset, permitting later reconstruction when demand prerequisites hold. Native mechanism mapped: [reset transitions](d5v-lifecycle-consumer-map.md#actionstate-transition-matrix). Specific B1 event observed: two empty-state certificates, without a qualified subsequent target first miss. B2 has two reset certificates and a separately derived carried-empty anchor; it still has no qualified target cold-first chain.
 - [ ] <!-- GC-30 --> Identify which retention, retirement or reset path executes on a particular departure/return. Native cases mapped: [D5V transition matrix](d5v-lifecycle-consumer-map.md#actionstate-transition-matrix). Specific B1 event observed: no controlled departure/return trial.
 - [ ] <!-- GC-31 --> Establish the retail repeatability of independent construction episodes and the conditions that change outcomes. Native fixed-input stability and counterexamples mapped: [three stability levels](d5w-report.md#q3--three-stability-levels). Specific B1 event observed: one arrival, without independent target construction repetitions.
+
+- [ ] <!-- GC-33 --> Correlate terrain block dependencies and persisted PCM placement preparation with resource-request readiness in the compared construction episodes. [D5AG map](d5ag-terrain-resource-map.md) traces the native dependencies; existing B1/B2 schemas do not record their complete effective operands or readiness history. This is distinct from source publication and does not imply a canonical resource query.

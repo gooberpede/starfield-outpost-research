@@ -1,0 +1,15 @@
+id,path,sha256,static_va,line_start,line_end,lineage,eligibility
+D5AG-V-S021,.local-work/d5v/export01/native.tsv,10b853e420d4aa5e97935bb5591bc16a23d15cfa1db2a692fee0ca00754f66e3,0x14079ddf0,1900,2059,d5v-sources.csv:V-S021,LOCAL-ONLY
+D5AG-V-S030,.local-work/d5v/export01/native.tsv,10b853e420d4aa5e97935bb5591bc16a23d15cfa1db2a692fee0ca00754f66e3,0x140982b70,4562,4654,d5v-sources.csv:V-S030,LOCAL-ONLY
+D5AG-D5S-T01,C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe,cce21c0e8710e304273e98ac4b2b0f5aceb639acbcd2343cbaa5c4e81619c45b,,,,d5s-sources.csv:D5S-T01,LOCAL-ONLY
+D5AG-D5S-T02,C:/Users/User/AppData/Local/Programs/Eclipse Adoptium/jdk-21.0.12.8-hotspot/bin/java.exe,a38d821efb69ef99c55d315b00d9e8b88f126743b8773e44154e1a3d193efd41,,,,d5s-sources.csv:D5S-T02,LOCAL-ONLY
+D5AG-D5S-T03,D:/tools/ghidra_12.1.2_PUBLIC/Ghidra/Framework/Utility/lib/Utility.jar,86e1a20f48427edbdb9e5b44d6598bd32c84e45b7c6373d14288dd357f618538,,,,d5s-sources.csv:D5S-T03,LOCAL-ONLY
+D5AG-D5S-T04,D:/tools/ghidra_12.1.2_PUBLIC/Ghidra/Features/Decompiler/lib/Decompiler.jar,b403cb014172b721bf1253014c87dae0a536ca39e67b935c2a5fb14da02ee9eb,,,,d5s-sources.csv:D5S-T04,LOCAL-ONLY
+D5AG-D5S-T05,D:/tools/ghidra_12.1.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar,1d4cdf6a8ce784fc48fef8dbdb15c663a8778445f8feca6f2969a34ed0b569b0,,,,d5s-sources.csv:D5S-T05,LOCAL-ONLY
+D5AG-D5S-T06,C:/Windows/System32/ucrtbase.dll,3c60056371f82e4744185b6f2fa0c69042b1e78804685944132974dd13f3b6d9,,,,d5s-sources.csv:D5S-T06,LOCAL-ONLY
+D5AG-D5AD-IN002,.local-work/d5ad-inputs/export03/native.tsv,a77f62bb43ab82cc4a7a81d3f8d3e9f32c3373306a45765d12e65d0f430ebe2d,0x14079b520,104,1634,d5ad-sources.csv:D5AD-IN002,LOCAL-ONLY
+D5AG-D5AD-SV134,.local-work/d5ad-save/swap-export15/native.tsv,bf6d59b0c8e5fc3fbf7edd01981071189c901ea931425f70e35f6e44804b5bd1,0x1418aa1c0,2818,4471,d5ad-sources.csv:D5AD-SV134,LOCAL-ONLY
+D5AG-D5AD-SV137,.local-work/d5ad-save/swap-export16/native.tsv,ed80bb4d5ce39570966d0d8518286a58986e7ad4401662cc71cf9efb3e7144f6,0x14079da80,2,337,d5ad-sources.csv:D5AD-SV137,LOCAL-ONLY
+D5AG-D5AD-SV146,.local-work/d5ad-save/swap-export18/native.tsv,929612d409a2b7780fe3c9f3e22794f19a018566d48c663f445f7468e9102924,0x1407b5bd0,14,237,d5ad-sources.csv:D5AD-SV146,LOCAL-ONLY
+D5AG-D5AD-SV27,.local-work/d5t/functions/14079a330.txt,5c53bf4340a761844c655238467c3f23904aa985d2aa15f6fb0d9a3c3767c4a4,0x14079a330,1,1266,d5ad-sources.csv:D5AD-SV27,LOCAL-ONLY
+D5AG-D5AD-SV97,.local-work/d5ad-save/swap-export07/native.tsv,d2917c95665f52a546dd4def29ea7f6ed7411f45e5f5a3e968e775409978c13a,0x1418b22c0,2,1202,d5ad-sources.csv:D5AD-SV97,LOCAL-ONLY
