@@ -27,13 +27,23 @@ Open items retain unresolved
 dependencies; this navigator does not close D5R or nominate a historical winner.
 Addresses in linked maps are preferred static VAs for Starfield 1.16.244.0.
 
+D5AD reconstruction, 2026-11-02: [load chronology](d5ad-load-chronology.md),
+[input provenance](d5ad-input-provenance.md) and [saved-state matrix](d5ad-save-state-matrix.md)
+support GC-02/04/05 within their original qualified contracts. Scientific ticks
+do not waive the procedural conformance failure or close D5R. The
+[decision matrix](d5ad-checklist-decisions.md) preserves superseded evidence
+annotations and explains native/save reconstruction versus live observations.
+The B2 Lodge prefix contains 383 source births/publications and zero provider
+records; those facts alone do not certify all-input readiness or a Lodge
+exterior resource request.
+
 ## 1. Game start / save load
 
 - [x] <!-- GC-01 --> Construct and initialize the manager on the missing-singleton branch. Native mechanism mapped: [manager/ProcGen construction](d5v-lifecycle-consumer-map.md#construction-and-ownership). Specific B1 event observed: manager creation was not captured.
-- [ ] <!-- GC-02 --> Establish complete definition, geographic-source and raster loading/readiness during game start or load. Native mechanism partly mapped: [source-index initialization and input binding](d5w-normal-path-model.md#ordinary-initialization-and-ingress) under the qualified ordinary resident-data contract; this does not explain all preceding file/definition loading. Specific B1 event observed: these loading operations were not directly recorded. The supplied tick is corrected because its full operation exceeds the evidence.
+- [x] <!-- GC-02 --> Establish complete definition, geographic-source and raster loading/readiness during game start or load. D5AD native mapping and protected-Save52 reconstruction, 2026-11-02: the [input provenance](d5ad-input-provenance.md) joins concrete plugin ingestion/postlink, component and PCM preparation, source construction and deferred raster readiness. Specific B1/B2 observations do not record every loader completion or effective input value.
 - [x] <!-- GC-03 --> Execute broad reset when its native predicates hold, clearing retained populations and visited identities. Native mechanism mapped: [reset transitions](d5v-lifecycle-consumer-map.md#actionstate-transition-matrix). Specific B1 event observed: [two matched empty-state certificates](d5z-state-transition-map.md#b1-checkpoint-and-reset-evidence), without the reset caller or complete save-load chronology. B2 also records complete reset triads 2/3/4 and 881/882/883; [epoch chronology](d5ac-epoch-chronology.md).
-- [ ] <!-- GC-04 --> Establish the exact reset, initialization and reconstruction sequence during the particular Save52 load. Native mechanism mapped only in conditional stages: [D5Z state model](d5z-state-transition-map.md). Specific B1 event observed: checkpoint windows and selected reset boundaries, without complete chronology.
-- [ ] <!-- GC-05 --> Establish the complete resource-related restored/reconstructed state for the particular Save52 load. Native mechanism mapped for the visited subquestion: [D5Z persistence result](d5z-report.md#persistence-and-load) establishes transient membership and separately restored context/world inputs; the broader resource-state inventory and actual historical mapping remain open. Specific B1 event observed: no direct serialization/restoration trace.
+- [x] <!-- GC-04 --> Establish the exact reset, initialization and reconstruction sequence during the particular Save52 load. D5AD native/save reconstruction, 2026-11-02: the [Save52 partial order](d5ad-load-chronology.md) connects startup admission, complementary clears, type-3/type-7 restoration and the actual Lodge destination operands. Specific B1/B2 observations supply authenticated reset/source/checkpoint boundaries; reset callers and deferred completion clocks remain explicitly unrecorded.
+- [x] <!-- GC-05 --> Establish the complete resource-related restored/reconstructed state for the particular Save52 load. D5AD native/read-only-save reconstruction, 2026-11-02: the [state matrix](d5ad-save-state-matrix.md) classifies PCM seed/content/placements, descriptors/components, source/landscape state, seed classes and transient ProcGen stores. Specific B1/B2 observations constrain source and empty-state boundaries; they do not provide a direct deserialization trace or complete Lodge memory snapshot.
 
 - [x] <!-- GC-32 --> Explain the relationship between observer epoch increments and native ProcGen cold transitions during the observed episode. [D5AC epoch reconstruction](d5ac-epoch-chronology.md) accounts for every B2 increment and separates reset, Grid clear and carried native emptiness. This is a mapped and observed relationship for B2, not proof of target cold-first or a general retail reset frequency.
 

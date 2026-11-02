@@ -1,5 +1,25 @@
 # Current Research State
 
+**2026-11-02 - D5AD science COMPLETE; full-conformance ESCALATE.**
+The [initialization/save-load reconstruction](experiments/resource-retained-population/d5ad-report.md)
+joins ordinary definition loading/readiness, Save52's actual Lodge destination,
+native restoration order and the B1/B2 checkpoints. It classifies separate
+persisted PCM seed/content/placements and reconstructed source/context inputs,
+while ordinary ProcGen visited/resource stores remain transient. Lodge prefix
+876 contains 383 source births/publications and no recorded provider demand;
+this does not certify all-input readiness. Independent review finds all four
+scientific questions complete; the exact snapshot binding is in the
+[review record](experiments/resource-retained-population/d5ad-review.md).
+
+The [checklist](experiments/resource-retained-population/resource-generation-gameplay-checklist.md)
+marks GC-02/04/05 on qualified native/save evidence, preserving six other open
+items, unknown historical callers/clocks, target cold-first refusal and D5R OPEN.
+Selected-input/core-copy/index preservation passes, but original-project Ghidra
+housekeeping/legacy use and a brief concurrency-limit breach prevent an
+unqualified AC01/full-contract acceptance. The concrete package awaits
+maintainer disposition of those procedural deviations; no new live capture is
+needed to answer the four questions. Publication remains ON HOLD.
+
 **2026-11-01 - D5AC offline B2 epoch reconstruction COMPLETE / ACCEPT.**
 The [reconstruction](experiments/resource-retained-population/d5ac-report.md)
 accounts for all 224 observer increments: two resets and 111 Grid clears with

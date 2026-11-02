@@ -1950,3 +1950,19 @@ used under SOR-P-0002. Two new offline Python analyses independently decode B2
 and exercise unchanged predicate fixtures. No new outside implementation, licence
 acceptance or external consultation occurs; proprietary primary evidence remains
 LOCAL-ONLY and publication remains ON HOLD.
+
+## D5AD initialization and Save52 reconstruction
+
+The [D5AD source ledger](experiments/resource-retained-population/d5ad-sources.csv)
+records Bethesda's pinned installed executable/definitions/PlanetData and existing
+native analysis, the maintainer's protected Save52 copy, B1/B2 captures/operator
+checkpoints and owned D5V/W/Z/AA/AC, D4C/D4E and biome/terrain research. Methods
+are reused or adapted under SOR-P-0002, with exact per-use hashes and local
+locators. New offline methods audit checkpoint chronology, native instruction
+sites, saved tail/body representation and finite readiness-state controls.
+Existing streaming/framing research keeps its original source-informed lineage;
+this is not clean-room work. Ghidra/JDK and CPython remain separate installed
+research tools. Native exports, saves, map/archive members, session data and
+private receipts remain LOCAL-ONLY. Authored synthesis/methods are REVIEW-REQUIRED;
+no new third-party code, licence basis, dependency, external consultation,
+contact or publication clearance is introduced.

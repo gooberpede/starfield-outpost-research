@@ -1272,3 +1272,13 @@ reuses maintainer-authored D5V/W/Z and D5AB P1/P3/B2 native tracing, semantic
 identity and capture-decoding methods under SOR-P-0002. Exact per-use provenance
 is recorded in its source locator. Existing third-party notices and permissions
 are unchanged; no new external implementation is incorporated.
+
+## D5AD initialization and persistence
+
+The [D5AD study](docs/experiments/resource-retained-population/d5ad-report.md)
+credits Bethesda's native/content evidence, the maintainer's protected Save52
+and B1/B2 observations, existing component/slot/biome/terrain research and the
+project's owned save/framing/native/observer methods. Exact origins and use
+boundaries are in the task source ledger. Ghidra/JDK and CPython support offline
+analysis; no new outside implementation is incorporated. Proprietary inputs
+and private receipts remain local, with publication still gated.
