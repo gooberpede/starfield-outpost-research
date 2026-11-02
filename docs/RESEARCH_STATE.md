@@ -1,5 +1,21 @@
 # Current Research State
 
+**2026-11-02 - D5AH geometry persistence: actual return comparison BLOCKED.**
+The [connected report](experiments/resource-retained-population/d5ah-report.md)
+traces source/map/collection ownership, visited-only return, complementary
+full-load clearing and separate extractor resource/producer restoration.
+Fresh native erase/clear/copy controls qualify final-reference survival and
+empty/partial copy failures; complete fixed-input geometry reproduces equal
+mask-3 populations and the different mask-0 population. These do not establish
+an actual complete retail departure/return comparison or unchanged deposits
+from continued production. Q1/Q3/Q4 have proposed scoped mechanism/design
+answers; Q2/CQ remain BLOCKED. The
+[independent review](experiments/resource-retained-population/d5ah-review.md)
+governs final dispositions. GC-25/30/31/10 and D5R remain OPEN; GC-34 adds the
+joint established-producer comparison OPEN. The future design grants no B3 GO.
+No retail, observer deployment/change, protected-save write, original database
+opening, Git integration or publication is performed.
+
 **2026-11-02 - D5AG terrain/resource consistency: empirical conclusions BLOCKED.**
 The [report](experiments/resource-retained-population/d5ag-report.md) joins
 source metadata, original requests, terrain block dependencies, concrete file

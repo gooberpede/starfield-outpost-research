@@ -1,5 +1,18 @@
 # Credits
 
+## D5AH geometry persistence and extractor reconstruction
+
+[D5AH](docs/experiments/resource-retained-population/d5ah-report.md) uses
+Bethesda's pinned native/content inputs and existing protected-save and B1/B2
+evidence. Owned D5S/T/U/V/Z/AC/AD/AF/AG, EXP0029 and extractor research and
+methods are reused or adapted under SOR-P-0002, with
+[per-use identities](docs/experiments/resource-retained-population/d5ah-sources.csv)
+and separate lifecycle/extractor/Workshop-owner ledgers. Fresh geometry controls corroborate
+prior findings; the actual native copy-failure contrasts add their stated scope.
+Installed Ghidra/JDK, CPython, Windows/CRT and Git are separate tools. No outside
+implementation, dependency, licence basis or disclosure is newly introduced.
+Proprietary exports, save/session payloads and private receipts remain local.
+
 ## D5AF construction admission and geometry requalification
 
 [D5AF](docs/experiments/resource-retained-population/d5af-report.md) uses

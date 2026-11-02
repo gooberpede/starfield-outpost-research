@@ -1,5 +1,21 @@
 # Source Register
 
+## D5AH geometry persistence and placed extractors
+
+2026-11-02. [Main identities](experiments/resource-retained-population/d5ah-sources.csv),
+[native lifecycle windows](experiments/resource-retained-population/d5ah-lifecycle-sources.csv)
+and [extractor provenance](experiments/resource-retained-population/d5ah-extractor-sources.csv),
+with the [saved-owner join](experiments/resource-retained-population/d5ah-extractor-owner-sources.csv),
+bind the offline study. Owned prior research, native fixtures, planar model,
+protected-input checks, archive lease and review methods retain SOR-P-0002
+lineage. Direct installed definition reads and verified disposable-project
+exports supplement retained primary sources. Existing D5T/D5AF/AG geometry
+results are corroborated, not claimed as new discoveries. Bethesda inputs and
+separate installed Ghidra/JDK/CPython/CRT/Git tools retain their rights boundaries.
+No new third-party incorporation, licence acceptance, contact or disclosure
+occurs. Raw evidence is LOCAL-ONLY; authored work is REVIEW-REQUIRED and
+publication remains ON HOLD.
+
 ## D5AG terrain and resource consistency
 
 2026-11-02. [Primary window pins](experiments/resource-retained-population/d5ag-sources.csv)
