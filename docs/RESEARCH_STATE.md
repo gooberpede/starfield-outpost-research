@@ -1,5 +1,25 @@
 # Current Research State
 
+**2026-11-03 - D5AK Episode A COMPLETE / independent ACCEPT.**
+The [live report](experiments/resource-retained-population/d5ak-a-report.md)
+compares actual A0/A1 around Feynman V Cu IL F → Lodge exterior fast-travel
+marker → Feynman return. The operator confirms no intermediate interior-cell entry.
+Complete target geometry is equal at three resources, 78 regions and 180 points,
+while old holder/all three collection-content lifetimes end and new source
+birth/construction establish REBUILT_IDENTICAL. Native installer/true-reset,
+owning Grid clear and exact map-erasure/ending witnesses support this scoped
+path; the initiating caller and exact branch operands remain unknown. Both
+complete resident-map scans identify 36 holders. Fresh preflight, owned inert
+STOP, actual process exit/effective disablement, protected postflight and exact
+164-payload lossless archive pass. [Independent final review](experiments/resource-retained-population/d5ak-a-review.md)
+accepts both original live questions and all seven criteria at this scoped result;
+closing records receive a narrow delta check. [Checklist decisions](experiments/resource-retained-population/d5ak-a-checklist-decisions.md)
+support scoped GC-25/30 ticks; GC-31/10/06/24/33/34 and D5R remain OPEN.
+Historical D5AI Episode A REWORK and D5AK offline AC01 FAIL remain unchanged.
+PRED-01 remains frozen/NOT TESTED; Episode B is NOT AUTHORIZED. No staging,
+commit, push, automatic integration or publication.
+
+
 **2026-11-03 - D5AK technical qualification accepted; full-contract ESCALATE.**
 The [offline report](experiments/resource-retained-population/d5ak-report.md)
 records separate source-locked operational adapters, a collision-free native

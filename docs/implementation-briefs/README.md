@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [D5AK Episode A live authorization](CODEX_AMENDMENT_SOR_D5AK_EPISODE_A_live_2026-11-03.md):
+  explicit 2026-11-03 approval of the exact D5AK card/package, conditional on fresh
+  preflight, with operator-owned launch/load/travel/exit and complete independent
+  finalization. [Actual report](../experiments/resource-retained-population/d5ak-a-report.md)
+  preserves the exterior-Lodge route, identical reconstruction and original
+  historical failures. No Episode B, retry, Git integration or publication follows.
+
+
 - [D5AK Episode A operational requalification](CODEX_BRIEF_SOR_RG2_D5AK_episode_A_requalification_operational_package.md):
   invoked 2026-11-03 for offline integration, source-locked qualification,
   unchanged-native packaging and independent readiness review. The
