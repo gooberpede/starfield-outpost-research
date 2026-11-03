@@ -1,5 +1,28 @@
 # Current Research State
 
+**2026-11-03 - D5AI Episode A: A0 unqualified, comparison INCOMPLETE/INCONCLUSIVE.**
+The approved 0.7.0 one-process attempt passed fresh preflight and prelaunch review.
+Authenticated READY/ACK preceded the single Save52 load and direct Feynman visit.
+One armed A0 capture completed; the frozen source-epoch join rejected all occupied
+holders (birth 215 versus snapshot 233 across nine fence pairs). No departure,
+return, A1, retry or Episode B followed. The [live report](experiments/resource-retained-population/d5ai-a-report.md)
+and [ledger](experiments/resource-retained-population/d5ai-a-live-ledger.md) preserve
+exact insufficiency, safe STOP and operator chronology. Core/lifetime/geometry
+transport completed without loss; no resource absence or persistence conclusion
+is supported. The user's equal-content timestamp policy accepted a verified
+Plugins.txt metadata-only change. Owned STOP is inert; the operator reports normal
+exit and plugin disablement/deployment, independently observed PID/DLL absent.
+Actual protected postflight PASS confirms original process EXITED and unchanged
+protected contents; a second equal-content timestamp change in StarfieldCustom.ini
+is accepted. Lossless archive seal/create/full verification PASS. Independent review ACCEPTS scoped finalization/editorial delivery and returns
+REWORK for original science. Q2 COMPLETE is an operational assessment with the
+mandatory acquisition failure explicit. Exact complete/task-only diffs pass
+byte-level checks; the [review record](experiments/resource-retained-population/d5ai-a-review.md)
+preserves original Q1 and criterion failures. Final closure deltas are separately
+checked before handoff; maintainer critical review remains required.
+Q1 remains open; GC-25/30/31/10 and D5R remain OPEN; frozen PRED-01 B NOT TESTED.
+No staging, commit, push, reader relaxation or new live authorization.
+
 **2026-11-03 - D5AI offline instrument: technical COMPLETE; AC01 FAIL / ESCALATE.**
 The [report](experiments/resource-retained-population/d5ai-report.md) records
 independently reviewed lifecycle/content identity, complete geometry and consumer

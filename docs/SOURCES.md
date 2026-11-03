@@ -1,5 +1,16 @@
 # Source Register
 
+## D5AI approved Episode A attempt
+
+2026-11-03. The [report](experiments/resource-retained-population/d5ai-a-report.md),
+[ledger](experiments/resource-retained-population/d5ai-a-live-ledger.md) and
+[authorization](implementation-briefs/CODEX_AMENDMENT_SOR_D5AI_EPISODE_A_live_2026-11-03.md)
+bind the one-process attempt. Owned D5AI/P4/B2/protection, archive and review/export
+methods are reused under SOR-P-0002; the new A-only adapters are separately pinned.
+Exact source, raw and receipt hashes remain in the local handoff. Raw transport
+completeness does not establish source attribution. Bethesda evidence stays local;
+no new third-party incorporation/contact/disclosure occurs. Publication ON HOLD.
+
 ## D5AI population lifecycle and complete geometry
 
 2026-11-02. The [active report](experiments/resource-retained-population/d5ai-report.md),

@@ -1,5 +1,14 @@
 # Credits
 
+## D5AI approved Episode A attempt
+
+The [live attempt](docs/experiments/resource-retained-population/d5ai-a-report.md)
+uses maintainer-owned D5AI/P4/B2/protection, archive and review/export methods
+under SOR-P-0002. The separate timestamp adapters retain this lineage and frozen
+native/reader semantics. Bethesda inputs and protected samples remain local;
+CPython and Git are separate tools. No new outside implementation, dependency,
+licence acceptance or disclosure occurs. Existing SFSE notices/scope remain.
+
 ## D5AI population lifecycle and geometry observer
 
 [D5AI](docs/experiments/resource-retained-population/d5ai-report.md) builds on
