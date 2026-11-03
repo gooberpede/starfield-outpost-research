@@ -1,5 +1,20 @@
 # Current Research State
 
+**2026-11-03 - D5AL offline B engineering COMPLETE / independent ACCEPT.**
+The [report](experiments/resource-retained-population/d5al-report.md) authenticates
+completed D5AK-A initial snapshot 1 as the sole B comparator, with complete
+5,090-byte target normalization and all 36 holder attributions. New B-only
+controller/checkpoint/comparison, content-first guards, trusted STOP, guarded
+archive and exact source-locked unchanged-native bundle pass final03 controls
+and actual full protected preflight. [Independent review](experiments/resource-retained-population/d5al-review.md)
+accepts original Q1–Q4 COMPLETE and all eight criteria PASS; self-describing
+closure records receive narrow delta review before handoff. The
+prospective AC01 rule requires complete applied reading by final acceptance,
+without a reading-order criterion; historical failures remain unchanged.
+Episode B is NOT AUTHORIZED and frozen PRED-01 v1 remains NOT TESTED. GC-31/10
+and D5R remain OPEN, existing checklist ticks unchanged, publication ON HOLD.
+No live, installation, protected-original change, staging, commit or push occurs.
+
 **2026-11-03 - D5AK Episode A COMPLETE / independent ACCEPT.**
 The [live report](experiments/resource-retained-population/d5ak-a-report.md)
 compares actual A0/A1 around Feynman V Cu IL F → Lodge exterior fast-travel

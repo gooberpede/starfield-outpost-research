@@ -4,7 +4,17 @@ These orders apply to all agents working on this repository. Narrower instructio
 
 ## Required reading
 
-Before substantive work read [README.md](README.md), [WORKFLOW.md](WORKFLOW.md), [THIRD_PARTY_POLICY.md](THIRD_PARTY_POLICY.md), [the charter](docs/CHARTER.md), [research state](docs/RESEARCH_STATE.md), [evidence standard](docs/EVIDENCE_STANDARD.md), the active authorized brief, and relevant subsystem/source/evidence records.
+Read [README.md](README.md), [WORKFLOW.md](WORKFLOW.md), [THIRD_PARTY_POLICY.md](THIRD_PARTY_POLICY.md), [the charter](docs/CHARTER.md), [research state](docs/RESEARCH_STATE.md), [evidence standard](docs/EVIDENCE_STANDARD.md), the active authorized brief, and relevant subsystem/source/evidence records.
+
+For D5AL and future newly issued briefs, complete relevant required reading must
+be recovered and understood by final substantive acceptance. Continue truncated
+outputs, record coverage and its concrete influence on implementation and
+safeguards, and have an independent reviewer verify applied understanding.
+Prefer early reading; its chronological order is not a pass/fail criterion.
+Missing critical content, material misunderstanding or unverifiable coverage
+still fails AC01. The maintainer explicitly authorizes this prospective amendment
+in [D5AL section 3](docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md).
+Earlier frozen contracts, reading-order breaches and verdicts remain unchanged.
 
 ## Purpose and scope
 

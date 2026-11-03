@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [D5AL Episode B operational adaptation](CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md):
+  invoked 2026-11-03 for offline B-only adaptation, completed D5AK initial A0
+  binding, unchanged native packaging and prospective required-reading policy.
+  [Report](../experiments/resource-retained-population/d5al-report.md),
+  [ledger](../experiments/resource-retained-population/d5al-ledger.md) and
+  [review](../experiments/resource-retained-population/d5al-review.md) control
+  final qualification. No Episode B launch, deployment or gameplay is authorized.
+
 - [D5AK Episode A live authorization](CODEX_AMENDMENT_SOR_D5AK_EPISODE_A_live_2026-11-03.md):
   explicit 2026-11-03 approval of the exact D5AK card/package, conditional on fresh
   preflight, with operator-owned launch/load/travel/exit and complete independent

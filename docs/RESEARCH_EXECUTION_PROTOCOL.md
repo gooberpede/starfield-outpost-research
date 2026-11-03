@@ -103,6 +103,14 @@ prevails; no proof requirement authorizes unsafe or prohibited work.
 
 ## Contract and proportional method selection
 
+For D5AL and future newly issued briefs, required-reading acceptance follows the
+[prospective workflow rule](../WORKFLOW.md#required-reading-for-d5al-and-future-briefs).
+Complete relevant content and truncated continuations must be read by final
+substantive acceptance, with recorded application and independent verification
+of understanding. Reading order alone cannot fail AC01; missing critical content,
+material misunderstanding and unverifiable coverage still can. Historical
+reading-order breaches and frozen contracts remain unchanged.
+
 Embed the [compact contract](templates/completion-contract.md) in every substantive
 future brief. Identify task type, concrete question/deliverable, scope and bounds,
 mandatory versus optional criteria and evidence, negative-result criteria,

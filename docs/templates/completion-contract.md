@@ -15,6 +15,11 @@ Do not allocate IDs or claim approval from this blank template.
   operations; live/external permissions; applicable disk/output/exit guards>.
 - Mandatory acceptance: <numbered observable criteria and primary evidence;
   independent oracle where actually required; required independent review>.
+  For D5AL and future newly issued briefs, required reading is complete relevant
+  coverage by final substantive acceptance, with recorded application and
+  independent verification; reading order is not an AC01 criterion. Missing
+  critical content, material misunderstanding or unverifiable coverage fails.
+  Historical contracts and breaches remain unchanged.
 - Optional acceptance: <clearly separate improvements>.
 - Negative-result closure: <adequate scoped falsification/absence evidence;
   controls and limitations; engineering abandonment review if applicable>.

@@ -8,6 +8,15 @@ agent profile or configuration change.
 
 ## Access and checklist
 
+For D5AL and future newly issued briefs, independently assess complete relevant
+required-reading coverage and applied understanding by final substantive
+acceptance. Inspect how references affected controls and interpretation; do not
+accept a file-name checklist alone. Reading chronology is not an AC01 criterion.
+Missing critical sections, material misunderstanding or unverifiable coverage
+still fails. Preserve historical reading-order breaches and frozen verdicts.
+The [D5AL prospective amendment](../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md)
+is the maintainer authority for this rule.
+
 Remain read-only: no file edits, staging, commits, pushes, worktree creation,
 game/process operations, dependency installs or external disclosure. Do not run
 experimental scripts without their explicit scope authority. Read local receipts

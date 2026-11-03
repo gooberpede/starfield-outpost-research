@@ -12,6 +12,19 @@ Reading a brief does not authorize every action it mentions. Identify permitted 
 
 ## Execution and completion contract
 
+### Required reading for D5AL and future briefs
+
+The maintainer's [D5AL amendment](docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md)
+removes reading chronology as an acceptance criterion for D5AL and future newly
+issued briefs. Identify all mandatory references and recover/read complete
+relevant content, including truncated output continuations, by final substantive
+acceptance. Record where the content influenced implementation and safeguards;
+independent review must verify substantive coverage and applied understanding.
+A file-name checklist alone is insufficient. Missing critical content, material
+misunderstanding or unverifiable reading still fails AC01. Early reading remains
+preferred practice. Earlier frozen criteria, failures and acceptance decisions
+are unchanged; this is neither a retroactive waiver nor live authority.
+
 The [Research Execution and Completion Protocol](docs/RESEARCH_EXECUTION_PROTOCOL.md)
 controls assignment completion, continuation, escalation and independent review.
 Embed its compact [contract](docs/templates/completion-contract.md) in every

@@ -1,5 +1,25 @@
 # Decision Register
 
+## D5AL prospective required-reading acceptance - 2026-11-03
+
+The maintainer explicitly invokes the [D5AL brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md).
+Section 3 authorizes removing reading chronology as a pass/fail criterion for
+D5AL and future newly issued briefs. Required reading remains mandatory: identify
+references, recover complete relevant content and truncated continuations by
+final substantive acceptance, record its influence on implementation/safeguards,
+and obtain independent verification of sufficient coverage and understanding.
+Missing critical sections, material misunderstanding or unverifiable reading
+still fails AC01. Prefer early reading without enforcing its order. The canonical
+AGENTS, workflow, completion protocol, contract template and reviewer procedure
+carry this rule. Earlier frozen contracts, AC01 breaches and historical acceptance
+decisions remain unchanged; no retroactive PASS or waiver is granted.
+
+The same brief authorizes offline B operational adaptation and isolated controls,
+with unchanged native 0.7.0 and completed D5AK initial A0 as comparator. No launch,
+deployment, recording, gameplay, protected-original change, staging, commit, push
+or publication is authorized. All scientific prediction and parent statuses stay
+unchanged until separately approved and qualified retail evidence exists.
+
 ## D5W offline operating-contract investigation — 2026-10-30
 
 The maintainer invokes the [retained D5W brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md),
