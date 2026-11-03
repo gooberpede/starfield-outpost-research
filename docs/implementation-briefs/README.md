@@ -1,5 +1,12 @@
 # Implementation and Audit Briefs
 
+- [D5AL Episode B live authorization](CODEX_AMENDMENT_SOR_D5AL_EPISODE_B_live_2026-11-03.md):
+  explicit approval of the final card/package, conditional on fresh preflight.
+  The [actual report](../experiments/resource-retained-population/d5al-b-report.md)
+  records identical independent reconstruction and scoped PRED-01 confirmation.
+  [Review](../experiments/resource-retained-population/d5al-b-review.md) controls
+  final delivery; no further gameplay, integration or publication follows.
+
 - [D5AL Episode B operational adaptation](CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md):
   invoked 2026-11-03 for offline B-only adaptation, completed D5AK initial A0
   binding, unchanged native packaging and prospective required-reading policy.

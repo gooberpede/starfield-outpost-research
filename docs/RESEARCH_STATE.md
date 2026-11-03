@@ -1,5 +1,21 @@
 # Current Research State
 
+**2026-11-03 - D5AL live Episode B: REBUILT_IDENTICAL / scoped forecast CONFIRMED.**
+The [report](experiments/resource-retained-population/d5al-b-report.md) records
+one independently constructed fresh-process B0 compared with completed D5AK
+initial A0: three resources, 78 regions, 180 points, all 5,090 normalized bytes
+equal. Actual pinned starting inputs and successful full protected postflight
+qualify unchanged PRED-01 v1; full effective runtime-input equality is not claimed.
+Owned inert STOP, actual exit/disablement and a lossless 107-payload archive pass.
+[Independent scientific and archive review](experiments/resource-retained-population/d5al-b-review.md)
+accepts both live questions COMPLETE and all seven criteria PASS after one
+report clarification. Scientific, engineering and editorial dispositions ACCEPT;
+closing records receive narrow independent delta review before handoff.
+GC-31 outcome-changing conditions, GC-10/06/24/33/34 and D5R remain OPEN.
+No checklist tick changes, staging, commit, push, automatic integration,
+publication or additional live authority follow. Earlier entries retain their
+historical authorization and forecast status.
+
 **2026-11-03 - D5AL offline B engineering COMPLETE / independent ACCEPT.**
 The [report](experiments/resource-retained-population/d5al-report.md) authenticates
 completed D5AK-A initial snapshot 1 as the sole B comparator, with complete

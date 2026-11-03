@@ -1,5 +1,12 @@
 # Resource generation gameplay checklist
 
+
+D5AL Episode B adds one qualified independent A0/B0 pair: complete target geometry
+is identical and frozen PRED-01 v1 is CONFIRMED for that pair. See the
+[report](d5al-b-report.md) and [decisions](d5al-b-checklist-decisions.md).
+GC-31 remains OPEN because outcome-changing conditions were not varied; no
+checkbox changes follow. Existing GC-25/30 ticks retain their original scope.
+
 D5AK live Episode A, 2026-11-03: [REBUILT_IDENTICAL](d5ak-a-report.md) and
 [criterion-specific decisions](d5ak-a-checklist-decisions.md) support scoped
 GC-25/30 ticks below. The intermediate Lodge destination was the exterior
@@ -136,7 +143,7 @@ stable ID changes; no additional gameplay gap is invented from reader refusal.
 - [x] <!-- GC-28 --> Remove a retired source-pointer map entry while leaving the separate visited identity intact on this path. Native mechanism mapped: [source retirement](d5v-lifecycle-consumer-map.md#actionstate-transition-matrix). Specific B1 event observed: retirement/erase were not observed; absence is not proved.
 - [x] <!-- GC-29 --> Clear retained populations and visited identities on a qualifying broad reset, permitting later reconstruction when demand prerequisites hold. Native mechanism mapped: [reset transitions](d5v-lifecycle-consumer-map.md#actionstate-transition-matrix). Specific B1 event observed: two empty-state certificates, without a qualified subsequent target first miss. B2 has two reset certificates and a separately derived carried-empty anchor; it still has no qualified target cold-first chain.
 - [x] <!-- GC-30 --> Identify which retention, retirement or reset path executes on a particular departure/return. Native cases mapped: [D5V transition matrix](d5v-lifecycle-consumer-map.md#actionstate-transition-matrix). Specific B1 event observed: no controlled departure/return trial. D5AK Episode A, 2026-11-03: [actual exterior-Lodge departure/return](d5ak-a-report.md#which-native-path-actually-executed) witnesses installer/true reset, owning Grid clear, target map erasure and old content ending, then new source birth/generation with complete identical geometry. No interior entry, exact initiating caller or universal travel rule is claimed.
-- [ ] <!-- GC-31 --> Establish the retail repeatability of independent construction episodes and the conditions that change outcomes. Native fixed-input stability and counterexamples mapped: [three stability levels](d5w-report.md#q3--three-stability-levels). Specific B1 event observed: one arrival, without independent target construction repetitions.
+- [ ] <!-- GC-31 --> Establish the retail repeatability of independent construction episodes and the conditions that change outcomes. Native fixed-input stability and counterexamples mapped: [three stability levels](d5w-report.md#q3--three-stability-levels). Specific B1 event observed: one arrival, without independent target construction repetitions. Later [D5AL A0/B0](d5al-b-report.md) establishes identical complete geometry across one qualified independent-process pair; outcome-changing conditions remain unmeasured and this item remains OPEN.
 
 - [ ] <!-- GC-33 --> Correlate terrain block dependencies and persisted PCM placement preparation with resource-request readiness in the compared construction episodes. [D5AG map](d5ag-terrain-resource-map.md) traces the native dependencies; existing B1/B2 schemas do not record their complete effective operands or readiness history. This is distinct from source publication and does not imply a canonical resource query.
 
