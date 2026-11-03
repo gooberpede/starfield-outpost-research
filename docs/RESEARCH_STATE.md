@@ -1,5 +1,22 @@
 # Current Research State
 
+**2026-11-03 - D5AJ source-scoped A0 recovery COMPLETE / independent ACCEPT.**
+The [offline report](experiments/resource-retained-population/d5aj-report.md)
+and [complete holder audit](experiments/resource-retained-population/d5aj-a0-recovery.md)
+qualify the immutable A0 under `sor-d5aj-source-grid/1`: all 36 resident holders
+are identified, with one target containing three resources, 78 regions and
+180 points. The [native matrix](experiments/resource-retained-population/d5aj-invalidation-matrix.md)
+corrects the fence domain: reason-3 `proc` is Grid, not ProcGen. The nine clears
+can affect the same ProcGen map, but their owning source vectors are disjoint
+from the captured sources' Grid. Original refusal, raw evidence, card and
+prediction stay unchanged. The [gate proposal](experiments/resource-retained-population/d5aj-gate-audit.md)
+separates protective STOP from scientific holds and grants no live authority.
+Independent [review and delivery](experiments/resource-retained-population/d5aj-review.md)
+accept all four offline questions and eight criteria; closing records receive
+a narrow delta check. No departure, A1 or independent-process comparison
+exists; GC-25/30/31/10 and D5R remain OPEN, PRED-01 B NOT TESTED. No staging,
+commit, push, deployment or publication.
+
 **2026-11-03 - D5AI Episode A: A0 unqualified, comparison INCOMPLETE/INCONCLUSIVE.**
 The approved 0.7.0 one-process attempt passed fresh preflight and prelaunch review.
 Authenticated READY/ACK preceded the single Save52 load and direct Feynman visit.

@@ -61,6 +61,19 @@ fixed-input equality and the mask-0/mask-3 counterexample. The
 adds only GC-33 for the newly explicit preparation/readiness correlation.
 No independent retail full-geometry or departure/return result follows.
 
+D5AJ, 2026-11-03: the [source-scoped A0 audit](d5aj-a0-recovery.md) identifies
+the single retained target population under the versioned source-Grid method.
+The [native invalidation matrix](d5aj-invalidation-matrix.md) corrects the
+reason-3 receiver domain: recorded `proc` is Grid, and disjoint owning Grids can
+still clear keys from the same ProcGen map. All 36 occupied holders are
+identified; the target has three resources, 78 regions and 180 points. This
+new analysis leaves the original refusal/card/prediction immutable. Under the
+explicit D5AJ restriction, GC-25/30/31/10 and D5R remain OPEN: no departure,
+A1 or independent-process comparison exists. The [gate audit](d5aj-gate-audit.md)
+and [review](d5aj-review.md) preserve scientific versus safety/integrity gates.
+Extractor continuity and physical overlap remain separate. No checkbox or
+stable ID changes; no additional gameplay gap is invented from reader refusal.
+
 ## 1. Game start / save load
 
 - [x] <!-- GC-01 --> Construct and initialize the manager on the missing-singleton branch. Native mechanism mapped: [manager/ProcGen construction](d5v-lifecycle-consumer-map.md#construction-and-ownership). Specific B1 event observed: manager creation was not captured.
