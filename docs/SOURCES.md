@@ -1,5 +1,24 @@
 # Source Register
 
+## D5AM construction-winner chronology and coverage
+
+2026-11-03. [Report](experiments/resource-retained-population/d5am-report.md),
+[chronology](experiments/resource-retained-population/d5am-retail-chronology.md)
+and [native audit](experiments/resource-retained-population/d5am-native-winner-causality.md)
+bind the new offline analysis. Original B2 and completed D5AK-A/D5AL-B raw
+sessions and sealed archives are authenticated with exact original/ZIP-byte
+comparison; prior reports are context rather than substitutes for execution
+traces. Owned D5AI readers, D5AE/AF native methods, queue/bridge and D5AL review
+export methods are reused or adapted under SOR-P-0002. The receiver-rooted
+[owner-lock census](experiments/resource-retained-population/d5am-owner-lock-census.md),
+backed by copied-core identity and byte audits, identifies five additional ordinary release edges;
+these are STATIC findings, not new retail outcomes. Exact source hashes,
+original instruction domains, declared fixture substitutions and before/after protection
+checks stay in fresh `.local-work/d5am/` receipts. No new third-party code,
+dependency, permission basis, contact or upload occurs. Proprietary evidence and
+binaries remain LOCAL-ONLY; authored synthesis REVIEW-REQUIRED. Independent
+technical acceptance is bounded by AC01 FAIL / ESCALATE; no deployment or publication is cleared.
+
 ## D5AI approved Episode A attempt
 
 2026-11-03. The [report](experiments/resource-retained-population/d5ai-a-report.md),

@@ -1,5 +1,14 @@
 # Resource generation gameplay checklist
 
+D5AM, 2026-11-03: [fresh raw chronology](d5am-retail-chronology.md) identifies
+different winning requests in B2, completed A0/A1 and B0, each directly sampling
+mask `0x3`. Three complete-geometry observations retain their prior equality;
+request identity is not constant in these records. The
+[report](d5am-report.md) separates offline instrumentation/readiness from retail outcomes, with
+GC-10 and D5R OPEN. No checkbox, original wording, prior verdict, GC-31,
+extractor-continuity or physical-overlap status changes. No further gameplay or
+deployment is authorized.
+
 
 D5AL Episode B adds one qualified independent A0/B0 pair: complete target geometry
 is identical and frozen PRED-01 v1 is CONFIRMED for that pair. See the

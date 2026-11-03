@@ -1,5 +1,17 @@
 # Credits
 
+## D5AM construction-winner observation readiness
+
+[D5AM](docs/experiments/resource-retained-population/d5am-report.md) uses
+maintainer-owned D5AB/B2, D5AE/AF, D5AI/AJ/AK/AL, reader, queue and review-export
+methods under SOR-P-0002. New methods retain exact source hashes and adaptation
+lineage in local receipts. Bethesda's pinned executable and retained recordings
+supply local native/runtime evidence. Installed CPython, Git, MSVC/MASM,
+Windows SDK and Ghidra/JDK are separate tools; no new third-party implementation, dependency,
+licence acceptance, external contact or disclosure is introduced. Raw native
+bytes, original sessions and compiled test components stay local. This
+offline work grants no deployment, publication or scientific acceptance.
+
 ## D5AI approved Episode A attempt
 
 The [live attempt](docs/experiments/resource-retained-population/d5ai-a-report.md)

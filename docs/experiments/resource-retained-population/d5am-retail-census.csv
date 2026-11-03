@@ -1,0 +1,5 @@
+episode,all_target_contenders,unvisited_contenders,visited_bypasses,owner_recorded_activity,contested_begin,contested_end,contested_owner_records,contested_invocations,contested_sources,whole_context_invocations,whole_context_records,left_sequence_crossings,right_sequence_crossings,left_qpc_crossings,right_qpc_crossings,unknown_endpoints
+B2,392,2,390,11911,8004,8339,336,54,18,54,366,5,8,5,8,0
+A0,392,1,391,11834,8094,8097,4,1,1,3,29,2,3,2,3,0
+A1,392,3,389,11339,68553,68734,182,30,13,30,199,0,10,0,10,0
+B0,392,2,390,12593,7287,7398,112,14,12,14,139,0,9,0,9,0

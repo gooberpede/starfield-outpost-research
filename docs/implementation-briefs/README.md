@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [D5AM normal construction-winner observation readiness](CODEX_BRIEF_SOR_RG2_D5AM_GC10_normal_construction_winner_observation_readiness.md):
+  invoked 2026-11-03 for offline raw chronology, native causality, conditional
+  targeted instrumentation and prospective normal-play design. The
+  [report](../experiments/resource-retained-population/d5am-report.md) and
+  [active ledger](../experiments/resource-retained-population/d5am-investigation-ledger.md)
+  retain the original contract and exact engineering/review disposition. No live action, deployment,
+  protected-original change, staging, commit, push or publication is authorized.
+
 - [D5AL Episode B live authorization](CODEX_AMENDMENT_SOR_D5AL_EPISODE_B_live_2026-11-03.md):
   explicit approval of the final card/package, conditional on fresh preflight.
   The [actual report](../experiments/resource-retained-population/d5al-b-report.md)

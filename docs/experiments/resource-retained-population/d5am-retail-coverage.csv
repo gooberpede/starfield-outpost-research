@@ -1,0 +1,33 @@
+episode,stage,availability,event_kinds
+B2,registration/eligibility/readiness/dispatch/worker_claim,NOT INSTRUMENTED,
+B2,provider_entry/return,OBSERVED CALLBACK; return event precedes wrapper return,entry | returned
+B2,source_selection/visited_decision,OBSERVED CALLBACK; shared unlock timing UNKNOWN,selected | visited
+B2,visited_callback_return/shared_release,NOT INSTRUMENTED,
+B2,exclusive_pending/acquired/released,NOT INSTRUMENTED; lookup inside held interval only,
+B2,protected_lookup/generation/sample/store,OBSERVED; insertion native-implied,lookup | descriptor | generating | sample | generated | reserve | stored
+B2,owner-wide_readers/writers,PARTIAL provider boundary coverage only; other lock calls UNKNOWN,
+B2,complete_geometry,NOT INSTRUMENTED,
+A0,registration/eligibility/readiness/dispatch/worker_claim,NOT INSTRUMENTED,
+A0,provider_entry/return,OBSERVED CALLBACK; return event precedes wrapper return,entry | returned
+A0,source_selection/visited_decision,OBSERVED CALLBACK; shared unlock timing UNKNOWN,selected | visited
+A0,visited_callback_return/shared_release,NOT INSTRUMENTED,
+A0,exclusive_pending/acquired/released,NOT INSTRUMENTED; lookup inside held interval only,
+A0,protected_lookup/generation/sample/store,OBSERVED; insertion native-implied,lookup | descriptor | generating | sample | generated | reserve | stored
+A0,owner-wide_readers/writers,PARTIAL provider boundary coverage only; other lock calls UNKNOWN,
+A0,complete_geometry,AUTHENTICATED Raw2; frame/lifetime qualification separate,
+A1,registration/eligibility/readiness/dispatch/worker_claim,NOT INSTRUMENTED,
+A1,provider_entry/return,OBSERVED CALLBACK; return event precedes wrapper return,entry | returned
+A1,source_selection/visited_decision,OBSERVED CALLBACK; shared unlock timing UNKNOWN,selected | visited
+A1,visited_callback_return/shared_release,NOT INSTRUMENTED,
+A1,exclusive_pending/acquired/released,NOT INSTRUMENTED; lookup inside held interval only,
+A1,protected_lookup/generation/sample/store,OBSERVED; insertion native-implied,lookup | descriptor | generating | sample | generated | reserve | stored
+A1,owner-wide_readers/writers,PARTIAL provider boundary coverage only; other lock calls UNKNOWN,
+A1,complete_geometry,AUTHENTICATED Raw2; frame/lifetime qualification separate,
+B0,registration/eligibility/readiness/dispatch/worker_claim,NOT INSTRUMENTED,
+B0,provider_entry/return,OBSERVED CALLBACK; return event precedes wrapper return,entry | returned
+B0,source_selection/visited_decision,OBSERVED CALLBACK; shared unlock timing UNKNOWN,selected | visited
+B0,visited_callback_return/shared_release,NOT INSTRUMENTED,
+B0,exclusive_pending/acquired/released,NOT INSTRUMENTED; lookup inside held interval only,
+B0,protected_lookup/generation/sample/store,OBSERVED; insertion native-implied,lookup | descriptor | generating | sample | generated | reserve | stored
+B0,owner-wide_readers/writers,PARTIAL provider boundary coverage only; other lock calls UNKNOWN,
+B0,complete_geometry,AUTHENTICATED Raw2; frame/lifetime qualification separate,

@@ -1,5 +1,22 @@
 # Current Research State
 
+**2026-11-03 - D5AM technical readiness accepted; full contract ESCALATE_AC01.**
+The [report](experiments/resource-retained-population/d5am-report.md) and
+[active ledger](experiments/resource-retained-population/d5am-investigation-ledger.md)
+retain the original Q1–Q4/AC01–09. Fresh raw analysis identifies four different
+constructing requests in B2, completed D5AK A0/A1 and D5AL B0, each directly
+sampling mask `0x3`; the latter three retain their prior complete-geometry
+equality. This does not establish a usual mask or cause of admission. The
+coverage audit and fresh owner census require sixteen causal sites plus thirteen
+task sites. Candidate23 passes 151 expected exits and exact native/ABI controls;
+the owned operational pipeline passes 146 checks. Q1–Q4 are independently complete at their bounded offline scopes and AC02–09
+pass technical review. The prediction is FROZEN / NOT TESTED; AC01 FAIL for the
+cap breach remains unwaived, so whole-contract disposition is ESCALATE_AC01.
+GC-10 and D5R remain OPEN; GC-31,
+extractor continuity and physical overlap stay separate. Historical outcomes
+and frozen predictions are unchanged. No live/deployment, protected-original
+write, staging, commit, push, automatic integration or publication is authorized.
+
 **2026-11-03 - D5AL live Episode B: REBUILT_IDENTICAL / scoped forecast CONFIRMED.**
 The [report](experiments/resource-retained-population/d5al-b-report.md) records
 one independently constructed fresh-process B0 compared with completed D5AK
