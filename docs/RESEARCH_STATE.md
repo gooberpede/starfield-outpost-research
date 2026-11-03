@@ -1,5 +1,18 @@
 # Current Research State
 
+**2026-11-03 - D5AK technical qualification accepted; full-contract ESCALATE.**
+The [offline report](experiments/resource-retained-population/d5ak-report.md)
+records separate source-locked operational adapters, a collision-free native
+0.7.0 archive alias and a [new card](experiments/resource-retained-population/run-card-d5ak-episode-a.md).
+Historical 36-holder A0 recovery and original refusal reproduce; actual owned
+native integration is distinguished from retail observations. AC01 required-reading chronology FAIL blocks full-contract READY. The narrow
+maintainer procedural disposition is separate from technical acceptance and all
+live authority, as recorded by the [decision](experiments/resource-retained-population/d5ak-decision.md)
+and [independent review](experiments/resource-retained-population/d5ak-review.md).
+Parent D5AI Episode A remains INCOMPLETE / REWORK; GC-25/30/31/10 and D5R
+remain OPEN. No new live operation, staging, commit, push or publication.
+Episode B remains NOT AUTHORIZED and PRED-01 NOT TESTED.
+
 **2026-11-03 - D5AJ source-scoped A0 recovery COMPLETE / independent ACCEPT.**
 The [offline report](experiments/resource-retained-population/d5aj-report.md)
 and [complete holder audit](experiments/resource-retained-population/d5aj-a0-recovery.md)

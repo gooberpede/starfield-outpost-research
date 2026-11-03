@@ -1,5 +1,13 @@
 # Resource generation gameplay checklist
 
+D5AK, 2026-11-03: [operational requalification](d5ak-report.md) integrates the
+accepted source-Grid method into a new prospective Episode A plan/card while
+preserving the native 0.7.0 recorder and historical failures. Offline native
+fixtures and recovered A0 do not satisfy GC-25/30/31/10 or D5R. Every checkbox
+and stable ID remains unchanged; no newly demonstrated gameplay gap is added.
+No new live run or Episode B is authorized. See the [decision](d5ak-decision.md).
+
+
 2026-10-31, Australia/Sydney. Corrected incorporation of the maintainer-supplied
 Desktop checklist, SHA-256
 `7f6ea2191ad405c4839841d7c6f031ea40f2fae8e70ca4aa5ffd36585cd63434`.

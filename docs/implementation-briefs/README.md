@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [D5AK Episode A operational requalification](CODEX_BRIEF_SOR_RG2_D5AK_episode_A_requalification_operational_package.md):
+  invoked 2026-11-03 for offline integration, source-locked qualification,
+  unchanged-native packaging and independent readiness review. The
+  [report](../experiments/resource-retained-population/d5ak-report.md),
+  [ledger](../experiments/resource-retained-population/d5ak-investigation-ledger.md)
+  and [new card](../experiments/resource-retained-population/run-card-d5ak-episode-a.md)
+  preserve the original contract. No live retry or Episode B is authorized.
+
 - [D5AB P3 native integration qualification](CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md):
   invoked 2026-11-01 for offline native integration, actual compiled disposable
   scenarios, independent oracles, transport/controller/consumer qualification
