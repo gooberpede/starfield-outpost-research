@@ -1,5 +1,13 @@
 # Implementation and Audit Briefs
 
+- [D5AM offline guard repair](CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md):
+  explicit correction/requalification authority after N0 startup failure. Preserve
+  the failed candidate/evidence; no further live run, commit or push.
+- [D5AM N0 live authorization](CODEX_AMENDMENT_SOR_D5AM_N0_live_2026-11-04.md):
+  one approved process under the reviewed 0.9.0 card. The observer fails before
+  external READY or load; the [report](../experiments/resource-retained-population/d5am-n0-report.md)
+  preserves acquisition failure, protected cleanup and partial archival.
+
 - [D5AM normal construction-winner observation readiness](CODEX_BRIEF_SOR_RG2_D5AM_GC10_normal_construction_winner_observation_readiness.md):
   invoked 2026-11-03 for offline raw chronology, native causality, conditional
   targeted instrumentation and prospective normal-play design. The

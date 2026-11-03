@@ -1,5 +1,11 @@
 # Resource generation gameplay checklist
 
+D5AM N0, 2026-11-04: [startup fails before external READY](d5am-n0-report.md),
+with no target construction/sample. Protected cleanup and exact partial archival
+pass; capture remains failed and the forecast INCONCLUSIVE. No checkbox or parent
+status changes. GC-10/D5R remain OPEN. Offline package repair is separately
+authorized; another live run is explicitly prohibited for now.
+
 D5AM, 2026-11-03: [fresh raw chronology](d5am-retail-chronology.md) identifies
 different winning requests in B2, completed A0/A1 and B0, each directly sampling
 mask `0x3`. Three complete-geometry observations retain their prior equality;

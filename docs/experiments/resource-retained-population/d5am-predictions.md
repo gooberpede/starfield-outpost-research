@@ -1,5 +1,13 @@
 # D5AM prospective prediction register
 
+2026-11-04: authorized N0 launches but fails `geometry_guard` before external
+READY or any Save52 load/target sample. The [N0 report](d5am-n0-report.md) and
+independently reviewed oracle inputs record **INCONCLUSIVE** for this attempted
+trial. The substantive mask forecast has no observed sample. Frozen v1 text and
+its original measurement manifest remain unchanged. A corrected package cannot
+silently inherit that binding or reuse this failed N0 authorization; no automatic
+replacement or selected later-trial reapplication follows.
+
 2026-11-03, Australia/Sydney. **FROZEN / NOT TESTED.**
 No D5AM retail observation or deployment is authorized.
 

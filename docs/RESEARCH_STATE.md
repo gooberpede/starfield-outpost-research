@@ -1,5 +1,25 @@
 # Current Research State
 
+**2026-11-04 - D5AM N0 startup FAILED; offline correction authorized.**
+The [N0 report](experiments/resource-retained-population/d5am-n0-report.md) records
+one approved process whose observer fails `geometry_guard` before external READY,
+Save52 load, travel or capture. New causal site 3 modifies the original shared
+helper bytes still required by the geometry guard. The retained fixtures used
+separate targets and missed this retail alias. Candidate23 future-use readiness
+is REWORK_REQUIRED; prior exact-source PASS receipts/acceptances remain historical.
+No target request or mask was recorded; N0's forecast disposition is INCONCLUSIVE.
+Operator-confirmed exit, effective DLL removal, all protected comparisons and the
+32-payload lossless partial archive pass. The capture remains failed/partial.
+The accepted historical AC01 exception is separate from this new engineering
+defect. The maintainer authorizes [offline correction/requalification](implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md),
+explicitly prohibiting another live run. The separate corrected 0.9.1 package
+now passes 157 native expected exits, exact ABI, 111 replay controls and byte-identical
+reproduction; independent scoped repair acceptance is recorded in the
+[repair qualification](experiments/resource-retained-population/d5am-guard-fix-qualification.md).
+Retail startup of 0.9.1 is NOT TESTED and the old measurement/approval binding
+does not transfer. GC-10/D5R and all unrelated statuses remain OPEN/unchanged;
+no commit, push or publication is authorized.
+
 **2026-11-03 - D5AM technical readiness accepted; full contract ESCALATE_AC01.**
 The [report](experiments/resource-retained-population/d5am-report.md) and
 [active ledger](experiments/resource-retained-population/d5am-investigation-ledger.md)

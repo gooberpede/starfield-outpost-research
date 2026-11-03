@@ -1,5 +1,18 @@
 # Source Register
 
+## D5AM N0 guard-composition failure and offline repair
+
+2026-11-04. The [N0 report](experiments/resource-retained-population/d5am-n0-report.md)
+binds exact current runtime identity, failed terminal, preflight/postflight and
+lossless partial archive. Direct pinned-PE/source inspection identifies the
+shared-helper geometry target and causal patch overlap; independent byte review
+confirms it and the earlier fixture's missing alias. These local primary inputs
+supersede candidate23's future-use readiness without rewriting historical test
+receipts. The separately authorized offline repair uses maintainer-owned frozen
+D5AM sources and methods under SOR-P-0002, with new versioned provenance. No new
+external code, dependency, permission basis, contact or disclosure is introduced.
+Raw/native/binary artifacts remain LOCAL-ONLY; no publication is cleared.
+
 ## D5AM construction-winner chronology and coverage
 
 2026-11-03. [Report](experiments/resource-retained-population/d5am-report.md),
