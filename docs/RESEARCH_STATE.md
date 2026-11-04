@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-11-04 - D5AN offline counter investigation COMPLETE / ACCEPT.**
+The [D5AN investigation](experiments/resource-retained-population/d5an-report.md)
+authenticates N1's aggregate refusal while preserving its unknown exact producer.
+New shared-state native controls reproduce the old bounded-attempt failure.
+Final 0.9.2 passes 180 native expected exits, exact ABI/scheduler, diagnostics/
+replay, byte reproduction and 173 owned operational controls. Original Q1–Q4
+are COMPLETE at the offline scope; independent substantive and editorial
+acceptance satisfies AC01–AC09. N0/N1 failures and PRED-02 INCONCLUSIVE remain historical;
+GC-10/D5R remain OPEN. No game, deployment, save/configuration write, staging,
+commit, push or publication is authorized.
+
 **2026-11-04 - D5AM N1 reaches READY, then counter refusal; no sample.**
 The [N1 report](experiments/resource-retained-population/d5am-n1-report.md) records
 the newly bound 0.9.1 plan, independent readiness/freeze review, successful fresh

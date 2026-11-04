@@ -1,5 +1,20 @@
 # Source Register
 
+## D5AN counter-admission investigation and repair
+
+2026-11-04. The [report](experiments/resource-retained-population/d5an-report.md),
+[producer census](experiments/resource-retained-population/d5an-counter-census.md)
+and [lineage/application record](experiments/resource-retained-population/d5an-reading-provenance.md)
+separate authenticated N1 bytes from new native fixture evidence. Immediate
+sources are the preserved D5AM 0.9.1 guard builder/package, counter/bridge/worker
+sources, exact native objects, original N1 proof/recording, owned ABI/replay and
+N1 admission/content/archive methods. Initial hashes are retained in
+`.local-work/d5an/baseline.json`; operational predecessor pins are additionally
+in `operations-lineage.json`. Adaptation is under SOR-P-0002, with unchanged
+approved SFSE header/notices under SOR-P-0001 and its D5X extension. This adds no
+third-party implementation or publication clearance. N1's exact producer remains
+unknown; fixture reproduction does not rewrite its failed acquisition.
+
 ## D5AM N0 guard-composition failure and offline repair
 
 2026-11-04. The [N0 report](experiments/resource-retained-population/d5am-n0-report.md)

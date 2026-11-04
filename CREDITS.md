@@ -1,5 +1,16 @@
 # Credits
 
+## D5AN counter-admission repair
+
+[D5AN](docs/experiments/resource-retained-population/d5an-report.md) adapts the
+maintainer-owned D5AM guard/native, ABI, reader, N1 operational and review-export
+methods under SOR-P-0002. [Immediate lineage and applied reading](docs/experiments/resource-retained-population/d5an-reading-provenance.md)
+identify the actual methods and retained origin pins. Installed MSVC/MASM and
+dumpbin provide compilation and native inspection; exact tool hashes stay in
+local receipts. The same already approved Ian Patterson SFSE interface header
+and full MIT notice remain unchanged. No new outside implementation, runtime,
+dependency or permission basis is introduced; raw/native evidence stays local.
+
 ## D5AM construction-winner observation readiness
 
 [D5AM](docs/experiments/resource-retained-population/d5am-report.md) uses

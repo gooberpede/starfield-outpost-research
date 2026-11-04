@@ -1,5 +1,11 @@
 # Resource generation gameplay checklist
 
+D5AN, 2026-11-04: [offline counter-admission investigation](d5an-report.md)
+preserves N1's READY-then-refusal failure, absent sample and PRED-02 INCONCLUSIVE.
+New native mechanism/repair checks and independent substantive/editorial
+acceptance pass at the offline scope. No checkbox or legacy ID changes. GC-10/D5R
+remain OPEN, and no replacement gameplay attempt or deployment is authorized.
+
 D5AM N0, 2026-11-04: [startup fails before external READY](d5am-n0-report.md),
 with no target construction/sample. Protected cleanup and exact partial archival
 pass; capture remains failed and the forecast INCONCLUSIVE. No checkbox or parent

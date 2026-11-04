@@ -1,5 +1,12 @@
 # Implementation and Audit Briefs
 
+- [D5AN counter-admission investigation and repair](CODEX_BRIEF_SOR_RG2_D5AN_counter_admission_failure_investigation_repair.md):
+  offline attribution, mechanism tests, narrow counter/provenance repair and
+  exact integrated qualification after N1. No deployment, game, protected-save
+  modification, new trial, staging, commit or push. The
+  [report](../experiments/resource-retained-population/d5an-report.md) records
+  actual question/criterion and independent-review dispositions.
+
 - [D5AM N1 live authorization](CODEX_AMENDMENT_SOR_D5AM_N1_live_2026-11-04.md):
   new 0.9.1 plan/card/source/forecast binding and fresh successful preflight.
   The [actual report](../experiments/resource-retained-population/d5am-n1-report.md)
