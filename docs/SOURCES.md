@@ -1,5 +1,20 @@
 # Source Register
 
+## D5AP N2 competitor analysis (2026-11-04)
+
+The [report](experiments/resource-retained-population/d5ap-report.md) and
+[reading/provenance](experiments/resource-retained-population/d5ap-reading.md)
+reuse owned D5AE/D5AF scheduling and lock semantics, D5AM receiver census,
+D5AO measurement validity and N2 source-locked readers, D5AI lifetime/geometry
+and D5AJ attribution under SOR-P-0002. The index adapts the owned D5AM
+conditional witness method; the bounded exhaustive and packed-state oracles
+are independently implemented semantic checks. D5S registration transcription
+is compared against the full actual target subsequence, with its different
+normalized ingress scope explicit. Bethesda native evidence remains local;
+CPython/Git are existing tools. All 174 N2 payloads and 484 source pins are
+reverified. No new third-party implementation, dependency, permission basis,
+external contact or publication clearance is introduced.
+
 ## D5AO observer perturbation and measurement validity
 
 2026-11-04. The [report](experiments/resource-retained-population/d5ao-report.md),

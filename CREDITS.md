@@ -1,5 +1,18 @@
 # Credits
 
+## D5AP N2 competitor analysis (2026-11-04)
+
+Bethesda's pinned native evidence and the maintainer's retained N2 capture
+support the [competitor analysis](docs/experiments/resource-retained-population/d5ap-report.md).
+Owned D5AE/D5AF/D5AM/D5AO methods supply scheduling, lock, coverage and
+measurement constraints; D5AI/D5AJ methods supply content/source attribution.
+The new index adapts the owned conditional witness method under SOR-P-0002;
+independent exhaustive and packed-state oracles challenge it. D5S supplies the
+versioned registration transcription used for the target-frontier comparison.
+Independent review contributes fresh raw/archive/source authentication, exact
+task/owner checks and completeness/editorial challenges. CPython and Git support
+local analysis and review exports. Raw/proprietary evidence remains local.
+
 ## D5AO observer perturbation and measurement validity
 
 [D5AO](docs/experiments/resource-retained-population/d5ao-report.md) uses the

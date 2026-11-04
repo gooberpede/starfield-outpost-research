@@ -1,5 +1,18 @@
 # Current Research State
 
+**2026-11-04 - D5AP N2 competitor analysis COMPLETE / independent ACCEPT.**
+The [full recorded competition](experiments/resource-retained-population/d5ap-report.md)
+joins 392 target tasks and all owner-wide reader/writer triples. Request
+(-2, 11) is the density publication frontier and earliest at the compared
+scheduler boundaries; two executing peers remain on preceding sources when it
+constructs. All 391 target competitors later bypass visited state. The new
+offline index completes the interrupted enrichment with explicit uncertainty;
+independent raw/oracle/operand and exact-final review accept Q1–Q4 COMPLETE
+and AC01–09 PASS.
+No general request priority, uninstrumented winner or retail frequency follows.
+GC-10/D5R remain OPEN; N0/N1 and PRED-03 remain unchanged. No live action,
+native observer change, staging, commit, push or publication is authorized.
+
 **2026-11-04 - D5AO N2 COMPLETE / independent ACCEPT.**
 The separately [authorized 0.9.3 trial](implementation-briefs/CODEX_AMENDMENT_SOR_D5AO_N2_live_2026-11-04.md)
 identifies original request (-2, 11) and direct mask 0x3. The

@@ -1,5 +1,13 @@
 # Resource generation gameplay checklist
 
+D5AP, 2026-11-04: [full N2 competitor analysis](d5ap-report.md) attributes the
+recorded (-2, 11) lead across publication/readiness/service and source traversal,
+with a qualified foreign reader/writer episode and all 391 later target bypasses.
+The scalable offline index replaces previously UNCOMPUTED enrichment; exact
+queue/OS/observer-delay attribution remains qualified. Independent final review
+controls acceptance. GC-10/D5R remain OPEN; no checkbox, historical forecast,
+unrelated finding or live authority changes.
+
 D5AO N2, 2026-11-04: the separately authorized
 [ordinary observation](d5ao-n2-report.md) identifies original request (-2, 11)
 and direct mask 0x3, with qualified source/task/owner evidence. PRED-03 is
