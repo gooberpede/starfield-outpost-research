@@ -1387,3 +1387,16 @@ Independent review contributes source/identity/frame checks, protected-save
 rehashing, counter-failure and forecast-input challenges, and every-member
 archive comparison. Primary implementation and file-only finalization preserve
 the failed attempt; neither contribution supplies an absent target observation.
+
+## D5AO N2 (2026-11-04)
+
+The maintainer supplies explicit 0.9.3 live authority, protected Save52 and the
+one-load/direct-route/one-consumer gameplay, STOP, normal exit and Vortex reports.
+Bethesda's pinned native/game evidence and the project's owned D5AE/D5AF/D5AM
+scheduling/owner methods, D5AI geometry/lifetime and D5AJ source-Grid predicates
+support the [N2 report](docs/experiments/resource-retained-population/d5ao-n2-report.md).
+New forecast, plan, delivery and offline analysis adapters reuse maintainer-owned
+methods under SOR-P-0002; exact source/receipt pins remain local. Independent
+review contributes direct frame/operand/task/lifetime checks and protected-content
+rehashing. CPython supports local execution. No new third-party implementation,
+dependency, external contact or disclosure is introduced.

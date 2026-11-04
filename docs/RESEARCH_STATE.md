@@ -1,5 +1,21 @@
 # Current Research State
 
+**2026-11-04 - D5AO N2 COMPLETE / independent ACCEPT.**
+The separately [authorized 0.9.3 trial](implementation-briefs/CODEX_AMENDMENT_SOR_D5AO_N2_live_2026-11-04.md)
+identifies original request (-2, 11) and direct mask 0x3. The
+[report](experiments/resource-retained-population/d5ao-n2-report.md) binds positive
+source/frame/lifetime evidence, 392 typed target task allocations and qualified
+owner-lock operands. PRED-03 is CONFIRMED after independent six-fact adjudication;
+this is one instrumented result, not a usual-winner or uninstrumented claim.
+Protected preflight/postflight, owned STOP, normal exit/effective disablement and
+174-member archival verification pass. An interrupted all-pairs offline analysis
+is preserved; a separately reviewed omission-only adapter retains all validation
+and accounting, with focused causal evidence reviewed independently. Independent
+science, engineering/archive and corrected editorial/diff review accept N2-Q1/Q2
+COMPLETE and AC01–05 PASS. N0/PRED-01 and N1/PRED-02 remain INCONCLUSIVE.
+GC-10/D5R remain OPEN; no staging, commit, push, publication or additional trial
+is authorized.
+
 **2026-11-04 - D5AO offline measurement-validity investigation COMPLETE / ACCEPT.**
 The [active ledger](experiments/resource-retained-population/d5ao-investigation-ledger.md)
 freezes Q1–Q4 and AC01–AC09. The source census identifies counter sleeps under

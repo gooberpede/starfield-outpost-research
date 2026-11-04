@@ -1,5 +1,16 @@
 # Resource generation gameplay checklist
 
+D5AO N2, 2026-11-04: the separately authorized
+[ordinary observation](d5ao-n2-report.md) identifies original request (-2, 11)
+and direct mask 0x3, with qualified source/task/owner evidence. PRED-03 is
+CONFIRMED for this instrumented trial after independent six-fact adjudication;
+protected postflight and 174-member archival verification pass. Independent
+scientific, engineering and corrected editorial/diff review accept N2-Q1/Q2
+COMPLETE and AC01–05 PASS.
+No checkbox or legacy ID changes follow. GC-10/D5R remain OPEN: this one result
+does not establish usual preference or an uninstrumented winner. No additional
+gameplay, deployment, commit or push is authorized.
+
 D5AO, 2026-11-04: [offline qualification](d5ao-report.md) passes exact native,
 reader, sensitivity, byte-reproduction and owned operational controls. Counter
 Sleep positively reverses close native lock races in controlled fixtures;

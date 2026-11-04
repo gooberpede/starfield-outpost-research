@@ -2127,3 +2127,19 @@ No new third-party implementation/dependency or permission basis is introduced.
 Independent review contributes exact-source, frame/hash, preservation, archive
 and forecast-input challenges; it does not rerun native suites or supply a sample.
 Raw evidence, native artifacts and review receipts remain local/untracked.
+
+## D5AO N2 ordinary observation (2026-11-04)
+
+The [N2 report](experiments/resource-retained-population/d5ao-n2-report.md) and
+[applied-reading record](experiments/resource-retained-population/d5ao-n2-reading-and-methods.md)
+distinguish maintainer authority/operator milestones, authenticated producer
+observations and qualified interpretation. The new session binds unchanged
+0.9.3, exact build/SFSE/site/source pins and prospective PRED-03. Source-informed
+plan/oracle/delivery adapters and stopped-analysis tooling derive from owned
+D5AO/D5AM methods under SOR-P-0002. D5AI/D5AJ geometry, lifetime and source-Grid
+predicates support surviving-content attribution; D5AE/D5AF/D5AM native maps
+constrain task/owner interpretation. The interrupted eager all-pairs analysis
+and explicitly omitted enrichment remain preserved, with separate focused
+evidence. Independent review directly checks raw frames, task/owner operands,
+all six forecast facts and protected contents. Raw recordings, saves, binaries,
+receipts and archives remain LOCAL-ONLY; publication remains gated.

@@ -1,5 +1,11 @@
 # Implementation and Audit Briefs
 
+- [D5AO N2 conditional live authorization](CODEX_AMENDMENT_SOR_D5AO_N2_live_2026-11-04.md):
+  explicit approval of unchanged 0.9.3/card for one protected ordinary N2 trial,
+  subject to fresh preflight, independent forecast/readiness/prelaunch review and
+  READY/owned health before loading. Operator controls gameplay and exit; final
+  independent review/diffs are required. No commit, push or automatic retry.
+
 - [D5AO observer perturbation and measurement validity](CODEX_BRIEF_SOR_RG2_D5AO_GC10_observer_perturbation_measurement_validity.md):
   offline counter/lock census, corrective native candidate, controlled
   winner-sensitivity comparisons and proposed N2 interpretation/admission rules.
