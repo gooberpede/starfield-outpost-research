@@ -1,5 +1,12 @@
 # Implementation and Audit Briefs
 
+- [D5AO observer perturbation and measurement validity](CODEX_BRIEF_SOR_RG2_D5AO_GC10_observer_perturbation_measurement_validity.md):
+  offline counter/lock census, corrective native candidate, controlled
+  winner-sensitivity comparisons and proposed N2 interpretation/admission rules.
+  No deployment or live trial is authorized; GC-10/D5R remain OPEN. The
+  [active ledger](../experiments/resource-retained-population/d5ao-investigation-ledger.md)
+  retains the frozen questions and current investigation state.
+
 - [D5AN counter-admission investigation and repair](CODEX_BRIEF_SOR_RG2_D5AN_counter_admission_failure_investigation_repair.md):
   offline attribution, mechanism tests, narrow counter/provenance repair and
   exact integrated qualification after N1. No deployment, game, protected-save

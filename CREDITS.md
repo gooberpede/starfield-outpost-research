@@ -1,5 +1,18 @@
 # Credits
 
+## D5AO observer perturbation and measurement validity
+
+[D5AO](docs/experiments/resource-retained-population/d5ao-report.md) uses the
+maintainer-owned D5AN counter/ABI/reader/operational methods and D5AM/D5AE/D5AF
+native lock and scheduler research under SOR-P-0002, with
+[per-use provenance](docs/experiments/resource-retained-population/d5ao-reading-provenance.md).
+Bethesda's pinned executable supplies the original native instructions. Installed
+Microsoft MSVC/MASM, dumpbin and Windows SDK synchronization imports support
+owned offline controls; CPython and Git support verification and review export.
+The already approved Ian Patterson SFSE interface header and MIT notice are
+unchanged. No new third-party implementation, download or external disclosure
+is introduced; proprietary/raw inputs and compiled fixtures remain local.
+
 ## D5AN counter-admission repair
 
 [D5AN](docs/experiments/resource-retained-population/d5an-report.md) adapts the

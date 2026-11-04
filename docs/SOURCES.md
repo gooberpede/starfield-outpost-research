@@ -1,5 +1,21 @@
 # Source Register
 
+## D5AO observer perturbation and measurement validity
+
+2026-11-04. The [report](experiments/resource-retained-population/d5ao-report.md),
+[counter/caller census](experiments/resource-retained-population/d5ao-counter-critical-path-matrix.md)
+and [reading/lineage record](experiments/resource-retained-population/d5ao-reading-provenance.md)
+separate original native instructions, historical recordings, rebuilt algorithm
+comparators and new owned sensitivity evidence. Immediate inputs are the frozen
+D5AN 0.9.2 helper/build/qualification/package sources, D5AM shared-target and
+receiver census, D5AE scheduler and D5AF prelock work, and owned N2 protection/
+controller/archive/export methods. New local source/evidence manifests retain
+exact parent hashes under SOR-P-0002. The new real-wait fixture links the existing
+Windows SDK 10.0.26100.0 synchronization import library, independently pinned in
+the package manifest; no dependency is installed or downloaded. Existing SFSE
+permission/notices remain unchanged. No raw/proprietary redistribution,
+publication clearance, retail frequency or unchanged-scheduling claim follows.
+
 ## D5AN counter-admission investigation and repair
 
 2026-11-04. The [report](experiments/resource-retained-population/d5an-report.md),

@@ -1,5 +1,21 @@
 # Current Research State
 
+**2026-11-04 - D5AO offline measurement-validity investigation COMPLETE / ACCEPT.**
+The [active ledger](experiments/resource-retained-population/d5ao-investigation-ledger.md)
+freezes Q1–Q4 and AC01–AC09. The source census identifies counter sleeps under
+native/observer-held synchronization; a separate 0.9.3 candidate removes those
+voluntary sleeps while preserving checked counters and diagnostic provenance.
+The [report](experiments/resource-retained-population/d5ao-report.md) records
+181 expected native exits, exact ABI/reader/replay checks, byte reproduction and
+173 owned operational controls. Three-envelope native sensitivity detects twelve
+induced close-race reversals with 0.9.2 and none with the new/bounded helpers;
+separated controls retain the reference winner. This is no retail-frequency or
+zero-effect claim. Independent exact-final review accepts Q1–Q4 COMPLETE and
+AC01–AC09 PASS at the offline scope. Historical
+failed fixtures are retained. GC-10/D5R remain OPEN;
+N0/N1 failures and forecast outcomes are unchanged. No live/deployment,
+protected-original write, staging, commit, push or publication is authorized.
+
 **2026-11-04 - D5AN offline counter investigation COMPLETE / ACCEPT.**
 The [D5AN investigation](experiments/resource-retained-population/d5an-report.md)
 authenticates N1's aggregate refusal while preserving its unknown exact producer.

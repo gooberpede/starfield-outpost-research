@@ -1,5 +1,13 @@
 # Resource generation gameplay checklist
 
+D5AO, 2026-11-04: [offline qualification](d5ao-report.md) passes exact native,
+reader, sensitivity, byte-reproduction and owned operational controls. Counter
+Sleep positively reverses close native lock races in controlled fixtures;
+the separate 0.9.3 candidate removes that backoff. This establishes no ordinary
+winner, usual preference or zero observer effect. Independent final review
+accepts the original offline questions/criteria. No checkbox or legacy ID changes;
+GC-10/D5R remain OPEN and no new gameplay or deployment is authorized.
+
 D5AN, 2026-11-04: [offline counter-admission investigation](d5an-report.md)
 preserves N1's READY-then-refusal failure, absent sample and PRED-02 INCONCLUSIVE.
 New native mechanism/repair checks and independent substantive/editorial
