@@ -1,5 +1,20 @@
 # Current Research State
 
+**2026-11-04 - D5AQ COMPLETE / independent ACCEPT at native-feasibility scope.**
+The [offline investigation](experiments/resource-retained-population/d5aq-report.md)
+establishes outcome B: one qualified ordinary startup prefix permits a mask-0
+first constructor under the real native peer-front continuation. Full native
+conversion/projection/raster evaluation and a separate oracle cover all 196
+actual N2 density coordinates: 28 mask 0 and 168 mask 3 under fixed C1 inputs.
+The numeric initialization preimage, source/readiness/layer exclusion and
+receiver-indexed dependency inventory support native feasibility; they do not
+establish that every coordinate can win or that mask 0 occurred in retail.
+Five direct mask-3 constructions across four sessions remain unchanged;
+prevalence is unknown. [Independent review](experiments/resource-retained-population/d5aq-review.md)
+accepts Q1–Q4 COMPLETE and AC01–09 PASS within that scope. GC-10/D5R and GC-31
+remain OPEN; publication ON HOLD.
+No live operation, observer change, staging, commit or push is performed.
+
 **2026-11-04 - D5AP N2 competitor analysis COMPLETE / independent ACCEPT.**
 The [full recorded competition](experiments/resource-retained-population/d5ap-report.md)
 joins 392 target tasks and all owner-wide reader/writer triples. Request

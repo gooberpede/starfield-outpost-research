@@ -2158,3 +2158,17 @@ and explicitly omitted enrichment remain preserved, with separate focused
 evidence. Independent review directly checks raw frames, task/owner operands,
 all six forecast facts and protected contents. Raw recordings, saves, binaries,
 receipts and archives remain LOCAL-ONLY; publication remains gated.
+
+## D5AQ ordinary mask invariance and reachability (2026-11-04)
+
+The [D5AQ report](experiments/resource-retained-population/d5aq-report.md),
+[effective-input method](experiments/resource-retained-population/d5aq-mask-method.md)
+and [source ledger](experiments/resource-retained-population/d5aq-sources.csv)
+separate Bethesda's installed native/raster inputs, maintainer-owned methods,
+historical retail observations, new independent arithmetic and new original-code
+numeric controls. Source/file/line locators in D5S/T/AE/AF/AG and D5AM's actual
+receiver census retain discovery credit. D5AP's original extraction authenticates
+the unchanged N2 archive and typed task cohort. The D5AQ adapters preserve their
+SOR-P-0002 origin rather than claiming clean-room work. No external code, service,
+dependency, contact or new reuse permission is added. Authored derivatives remain
+REVIEW-REQUIRED; proprietary payloads stay local and publication remains gated.

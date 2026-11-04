@@ -1413,3 +1413,18 @@ methods under SOR-P-0002; exact source/receipt pins remain local. Independent
 review contributes direct frame/operand/task/lifetime checks and protected-content
 rehashing. CPython supports local execution. No new third-party implementation,
 dependency, external contact or disclosure is introduced.
+
+## D5AQ ordinary mask reachability (2026-11-04)
+
+Bethesda's pinned executable, definitions and PlanetData supply the proprietary
+native/static evidence. The maintainer's protected Save52 and historical retail
+recordings supply existing observation context; no new game or save is created.
+[D5AQ](docs/experiments/resource-retained-population/d5aq-report.md) reuses owned
+D5S/T/U/H, D5AE/AF/AG and D5AM/AO/AP methods under SOR-P-0002, with immediate
+lineage in each adapter and exact identities in its source ledger. The new
+independent numerical oracle and native initializer preimage are identified as
+new controls rather than new discovery of the earlier two fixed outcomes.
+CPython and the installed Windows CRT support local offline execution.
+Independent review contributes primary-byte, task, initialization/readiness and
+counterexample challenges. No new third-party implementation or permission
+basis is introduced; raw native/raster evidence remains LOCAL-ONLY.

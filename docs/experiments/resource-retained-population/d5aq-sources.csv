@@ -1,0 +1,38 @@
+id,path,sha256,use,eligibility
+D5AQ-S001,.local-work/d5aq/census04/census.json,704e106a9698491dc37fc408bd38dec374bea2a8316bf874243fb2591eb35b8c,All 196 independent conversion and conditional mask comparisons,LOCAL-ONLY
+D5AQ-S002,.local-work/d5aq/startup-native05/receipt.json,c54d27f5a0ad29319e6090b5577470ae0c051551bfc3d6f7d14e7e222cb0e8a6,392 original native samples and two numeric startup preimages,LOCAL-ONLY
+D5AQ-S003,.local-work/d5aq/verification03.json,29efa9ae3aa4979c1cec38a0bb7d0c84abd8edb08d36f24ac8e650e441434f6d,Cross-source native/oracle/CSV/geometry and optimization checks,LOCAL-ONLY
+D5AQ-S004,.local-work/d5ap/d5aq-auth01/summary.json,70a09cb1e5994b5d2134e6b96f230483dec12c51f8cff6cd83475c33ce2f12de,Fresh original N2 extraction and authenticated result identities,LOCAL-ONLY
+D5AQ-S005,.local-work/d5ap/d5aq-auth01/authentication.json,9bab826e09761f8a26d83f307dd36ba8f0c248a43b8eaaa843304c446bc63b8b,All 174 retained payloads/archive members and 484 source pins,LOCAL-ONLY
+D5AQ-S006,.local-work/d5aq/geometry01/control.json,37b28604f49bb6ff9889c946622f77465f56cdea55951710d68ca39602583864,First fresh complete native ordinary-stage process,LOCAL-ONLY
+D5AQ-S007,.local-work/d5aq/geometry02/control.json,543610e9f980b0479e559cf2e4362ed51754e0a23dfb5307ffd007d0f1d4c5bf,Second independent complete native ordinary-stage process,LOCAL-ONLY
+D5AQ-S008,.local-work/d5aq/extra-inputs01.json,f3f96f48da316704c6e3319c57fbf2eb6771f29dcd5b9b14e546ff4d11fbc9c2,Fixed main-file Special and Everywhere applicability,LOCAL-ONLY
+D5AQ-S009,.local-work/d5aq/preservation01.json,10e37cc162c4b3f3e38fd68b04d7fb11808e4461f83f179a8ee4b78a2b13f5c1,Selected protected originals and installed-input comparison,LOCAL-ONLY
+D5AQ-S010,.local-work/d5aq/native-replay04/replay.json,55d1dffaecf910be3bfe7f94ae935e74b973e5efa2d586ece0c80b979dea326e,Fresh eleven-method ordinary native transition replay,LOCAL-ONLY
+D5AQ-S011,.local-work/d5aq/native-replay04/d5aq-invocation.json,c2c35338f1c4357400ed90584384cf5d93169e26e994f5610afc1cc238cdfb1c,Exact guarded native-replay method and result identities,LOCAL-ONLY
+D5AQ-S012,.local-work/d5aq/owner-native04/d5aq-invocation.json,470c2e6b8d6af61683665567af3683eebe1ebf6be2e0280fd8b682d0cd44be41,Exact guarded owner-audit method and result identities,LOCAL-ONLY
+D5AQ-S013,.local-work/d5aq/source-baseline02.json,8e9a8a5cd74169a7fc6c7198b7536f2396f784f1123b005094623b165f9b0835,Initial HEAD/index and tracked-source preservation baseline,LOCAL-ONLY
+D5AQ-S014,.local-work/d5aq/owner-native04/owner-census02.json,cf1ce157e2cb6a21f7e7e61842baabcdba156fdb4e4438b1ecb2b1ef1da74394,Receiver/alias census original-instruction byte audit,LOCAL-ONLY
+D5AQ-S015,.local-work/d5aq/owner-native04/owner-census03.json,ff495be074894186096b0e634bc04fa3683c27fddbe61fc0832129b69197b753,Receiver/alias census original-instruction byte audit,LOCAL-ONLY
+D5AQ-S016,.local-work/d5aq/owner-native04/owner-census04.json,3e8ce3c5a4f6ddd293624e6d4c3dccf283c32033069c79a4ac89ea91e2176e3a,Receiver/alias census original-instruction byte audit,LOCAL-ONLY
+D5AQ-S017,.local-work/d5aq/owner-native04/owner-census05.json,f3e0ecf9d7e5eb20d82611621b19d6d31882f37ec6a9900347bec65b01b5f53b,Receiver/alias census original-instruction byte audit,LOCAL-ONLY
+D5AQ-S018,.local-work/d5aq/owner-native04/owner-census06.json,7247ed8d1d0a73040a4478fc86fe741b0132faa409f7bc282c0db8f84e5d1f2c,Receiver/alias census original-instruction byte audit,LOCAL-ONLY
+D5AQ-S019,.local-work/d5aq/owner-native04/owner-census07.json,a3013c96057f7e9fffa4274a805b5e8967c44e9424a5351c9906dd915bc9628c,Receiver/alias census original-instruction byte audit,LOCAL-ONLY
+D5AQ-S020,.local-work/d5aq/owner-native04/owner-census08.json,0713fb601d76a900b85ebafd20248867188c424442412cce22e824c0d764d80b,Receiver/alias census original-instruction byte audit,LOCAL-ONLY
+D5AQ-S021,.local-work/d5aq/owner-native04/owner-census09.json,98a21a21150e736bc29e913e42c1e9b4f9376465cff9afbf8a375d2d7452ef7b,Receiver/alias census original-instruction byte audit,LOCAL-ONLY
+D5AQ-S022,.local-work/d5aq/owner-native04/owner-census10.json,ac3aadad2e46b493d93b4f4cfdbcacc3709b314ca2a55579849f6bdaf1852530,Receiver/alias census original-instruction byte audit,LOCAL-ONLY
+D5AQ-S023,docs/experiments/resource-retained-population/d5s-sources.csv,c8ed2286ddf03e64079d1dea3eeafa68571b781f8c1c7a83b4b57ac06081bce3,Inherited exact primary native/file/line source locators,REVIEW-REQUIRED
+D5AQ-S024,docs/experiments/resource-retained-population/d5t-sources.csv,5c82fce83193e2e57b8a51f35b458d55b5eee209e851853d9e1657d24b809e22,Inherited exact primary native/file/line source locators,REVIEW-REQUIRED
+D5AQ-S025,docs/experiments/resource-retained-population/d5ae-sources.csv,0a4e966a713a403075fcd5fe7399c9fca7b83637083ce0e2c536ccd190e8abec,Inherited exact primary native/file/line source locators,REVIEW-REQUIRED
+D5AQ-S026,docs/experiments/resource-retained-population/d5af-sources.csv,04230ab59aa6e2f790f1059f020717c1770c1b58f1766ffb8e4acd0ae5ea063e,Inherited exact primary native/file/line source locators,REVIEW-REQUIRED
+D5AQ-S027,docs/experiments/resource-retained-population/d5ag-sources.csv,db5d905070dc1ea65d311bd0d144ef087ff71a5d1b0d1e426701e95a560a9d1f,Inherited exact primary native/file/line source locators,REVIEW-REQUIRED
+D5AQ-S028,research/resource-retained-population/d5aq_census.py,6b93da86285f0e3fbf108a77f0b8a25ef7e0fd812be5c3c5dcfefc72c240e606,D5AQ owned reproducible method; SOR-P-0002 lineage stated in source,REVIEW-REQUIRED
+D5AQ-S029,research/resource-retained-population/d5aq_delivery.py,d28b54b878fdbb74beb1e88c099db3a501413037019cb9540e55f06320d1fb38,D5AQ owned reproducible method; SOR-P-0002 lineage stated in source,REVIEW-REQUIRED
+D5AQ-S030,research/resource-retained-population/d5aq_extra_inputs.py,0edf67dea3672bc4e6e6e0770bafe1a9221675071758e5ecabf049ff60e13778,D5AQ owned reproducible method; SOR-P-0002 lineage stated in source,REVIEW-REQUIRED
+D5AQ-S031,research/resource-retained-population/d5aq_geometry.py,3f10013757bcaf2485475150bcac00cb361eb2709d6a7fd0a445a41f98406ee3,D5AQ owned reproducible method; SOR-P-0002 lineage stated in source,REVIEW-REQUIRED
+D5AQ-S032,research/resource-retained-population/d5aq_native_audit.py,c1ad747e8650979a04bb70365409e1c9d2618122c0179fe24d3ce4116ff2b0a5,D5AQ owned reproducible method; SOR-P-0002 lineage stated in source,REVIEW-REQUIRED
+D5AQ-S033,research/resource-retained-population/d5aq_oracle.py,48e2c6dc6804c5b1d9ac4d9ceef01261aab2d62fc7667c6d7649a9921829d2ad,D5AQ owned reproducible method; SOR-P-0002 lineage stated in source,REVIEW-REQUIRED
+D5AQ-S034,research/resource-retained-population/d5aq_preserve.py,4a30f3704c2f70b39a924d558c83adbaf31a8538b816c5895f8b5760ca0a65fd,D5AQ owned reproducible method; SOR-P-0002 lineage stated in source,REVIEW-REQUIRED
+D5AQ-S035,research/resource-retained-population/d5aq_sources.py,4033e2161c0e70a414034aa9df467b36a45b353bc83b3ec85be4bf0a2f80a99e,D5AQ owned reproducible method; SOR-P-0002 lineage stated in source,REVIEW-REQUIRED
+D5AQ-S036,research/resource-retained-population/d5aq_startup.py,997a7bcd8a8f8833a72bfd9128b3fc4eb341cc94fcc24be24ca3ee6ae85a0e99,D5AQ owned reproducible method; SOR-P-0002 lineage stated in source,REVIEW-REQUIRED
+D5AQ-S037,research/resource-retained-population/d5aq_verify.py,ef5e5655fb4b54c69db55c4116b6f5c8a887de149a0c9cc20239cfed9b34f6b0,D5AQ owned reproducible method; SOR-P-0002 lineage stated in source,REVIEW-REQUIRED

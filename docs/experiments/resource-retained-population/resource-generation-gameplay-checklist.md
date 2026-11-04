@@ -1,5 +1,12 @@
 # Resource generation gameplay checklist
 
+D5AQ, 2026-11-04: the [offline mask investigation](d5aq-report.md) establishes one
+complete native-feasible mask-0 construction continuation and the all-196
+conditional mask census. Native possibility is distinct from observed retail
+occurrence and prevalence. Independent review ACCEPTS the scoped result; GC-10/D5R
+and GC-31 remain OPEN. No checkbox, original wording, prior forecast or live
+authority changes.
+
 D5AP, 2026-11-04: [full N2 competitor analysis](d5ap-report.md) attributes the
 recorded (-2, 11) lead across publication/readiness/service and source traversal,
 with a qualified foreign reader/writer episode and all 391 later target bypasses.
