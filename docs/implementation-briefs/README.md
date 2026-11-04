@@ -1,5 +1,12 @@
 # Implementation and Audit Briefs
 
+- [D5AM N1 live authorization](CODEX_AMENDMENT_SOR_D5AM_N1_live_2026-11-04.md):
+  new 0.9.1 plan/card/source/forecast binding and fresh successful preflight.
+  The [actual report](../experiments/resource-retained-population/d5am-n1-report.md)
+  records READY then counter refusal before ownership/load, no sample, protected
+  cleanup and lossless partial archival. No replacement attempt or native repair
+  is authorized by that consumed single-attempt scope.
+
 - [D5AM offline guard repair](CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md):
   explicit correction/requalification authority after N0 startup failure. Preserve
   the failed candidate/evidence; no further live run, commit or push.

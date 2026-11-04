@@ -1,5 +1,20 @@
 # Current Research State
 
+**2026-11-04 - D5AM N1 reaches READY, then counter refusal; no sample.**
+The [N1 report](experiments/resource-retained-population/d5am-n1-report.md) records
+the newly bound 0.9.1 plan, independent readiness/freeze review, successful fresh
+preflight and one authorized operator launch. Genuine external READY verifies
+the corrected geometry guard composition on its first retail worker pass.
+Sticky bounded scheduler-counter contention then makes the observer inert before
+ownership/health, Save52 load or construction observation. The exact originating
+counter/site/thread is UNKNOWN. Future-use readiness is REWORK_REQUIRED; no
+native fix or retry occurs. N1-Q1 is BLOCKED / ESCALATE without a winning request
+or mask; Q2 is COMPLETE as a negative operational assessment. PRED-02 is
+INCONCLUSIVE. Normal exit/disablement, equal protected content and independent
+35-payload partial-archive verification pass; overall postflight remains PARTIAL
+with no owned STOP. Earlier N0/repair results below remain historical.
+GC-10/D5R remain OPEN. No staging, commit, push or publication is authorized.
+
 **2026-11-04 - D5AM N0 startup FAILED; offline correction authorized.**
 The [N0 report](experiments/resource-retained-population/d5am-n0-report.md) records
 one approved process whose observer fails `geometry_guard` before external READY,

@@ -2081,3 +2081,18 @@ the new synthetic arbitration predicates. Methods are reused/adapted under
 SOR-P-0002; no new outside code, licence basis, dependency, contact or disclosure
 is introduced. Raw evidence remains LOCAL-ONLY, authored work REVIEW-REQUIRED
 and publication ON HOLD.
+
+## D5AM N1 operational rebinding and failed retail attempt (2026-11-04)
+
+The maintainer's current 0.9.1 approval and operator main-menu/exit/disablement
+reports supply explicit authority and USER-REPORTED state. Actual producer files,
+source-bound preflight/postflight and protected hashes supply direct observations.
+The [N1 report](experiments/resource-retained-population/d5am-n1-report.md) separates
+genuine READY, counter-refusal interpretation, unknown origin and absent sample.
+Nine separate N1 adapters derive from maintainer-owned D5AM methods under
+SOR-P-0002; immediate source hashes are retained in the
+[readiness record](experiments/resource-retained-population/d5am-n1-readiness.md).
+No new third-party implementation/dependency or permission basis is introduced.
+Independent review contributes exact-source, frame/hash, preservation, archive
+and forecast-input challenges; it does not rerun native suites or supply a sample.
+Raw evidence, native artifacts and review receipts remain local/untracked.

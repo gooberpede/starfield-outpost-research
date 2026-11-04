@@ -175,3 +175,12 @@ population or departure/return result is collected. The unverified retirement/
 visited anomaly is not an observed gameplay fault. Extractor continuity and
 physical deposit overlap remain separate excluded lines. Both proposed episodes
 are NOT AUTHORIZED; offline qualification does not grant gameplay permission.
+
+## D5AM N1 evidence addition (2026-11-04)
+
+The [N1 report](d5am-n1-report.md) records genuine corrected-guard READY followed
+by sticky bounded-counter refusal before ownership/health/load. There is no new
+constructing sample or mask. Protected cleanup and partial archival pass;
+acquisition/owned STOP do not. GC-10/D5R remain OPEN with no gameplay checkbox
+promoted by package qualification or preservation. Future-use readiness requires
+rework; no retry or native change is performed in this single-attempt scope.

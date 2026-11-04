@@ -1351,3 +1351,15 @@ observations. It reuses owned D5S/W native scheduling controls, D5AC raw-frame
 reconstruction, D5AD readiness and D5Z visited-reserve methods under SOR-P-0002.
 Ghidra/JDK and CPython support separate offline analysis. The task source ledger
 records exact use and provenance; no new third-party implementation is included.
+
+## D5AM N1 (2026-11-04)
+
+The maintainer supplies the exact 0.9.1 deployment/Cloud confirmations, explicit
+conditional N1 authority and live operator state/exit/disablement reports.
+The N1 adapters adapt this repository's maintainer-owned D5AM methods under
+SOR-P-0002; immediate provenance and limits are in the
+[readiness record](docs/experiments/resource-retained-population/d5am-n1-readiness.md).
+Independent review contributes source/identity/frame checks, protected-save
+rehashing, counter-failure and forecast-input challenges, and every-member
+archive comparison. Primary implementation and file-only finalization preserve
+the failed attempt; neither contribution supplies an absent target observation.
