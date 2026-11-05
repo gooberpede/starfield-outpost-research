@@ -1,5 +1,12 @@
 # Third-Party Notices
 
+## D5AR exact header permission
+
+The [D5AR permission extension](docs/PERMISSIONS.md#d5ar-pinned-sfse-header-extension--2026-11-05)
+permits offline compilation and local review packaging against the same unchanged
+Ian Patterson header and complete MIT notice identified below. Other SFSE source
+consulted for command-interface research is not incorporated or relicensed.
+
 This is an independent, unofficial research project. It is not affiliated with, endorsed by, or sponsored by Bethesda Game Studios, Bethesda Softworks, ZeniMax, Microsoft, or the authors of any tools or research it references. Names and marks remain with their respective rights holders.
 
 The [project GPL grant](LICENSING.md) is limited to material the relevant project contributors have authority to license. It does not relicense Starfield/game-derived material, other people's implementations, private communications, or third-party software and marks.

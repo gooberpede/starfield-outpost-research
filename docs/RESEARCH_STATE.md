@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-11-05 - D5AR offline instrument reproduced; original comparison and
+study readiness remain INCOMPLETE.** The [D5AR report](experiments/resource-retained-population/d5ar-report.md)
+documents an SFSE command that arms one protected resident geometry copy at a
+natural established-operation consumer. Exact offline builds and controls
+qualify its represented resident census and lease-time selected-reference
+identity. Physical area association remains UNKNOWN. Full represented-content
+comparison is separate from unqualified historical non-mask input equivalence.
+The [independent review](experiments/resource-retained-population/d5ar-review.md)
+records the separate governance breach and acceptance limits. No pilot or
+statistical sampling was authorized or performed. GC-10, GC-31 and D5R remain
+OPEN; publication ON HOLD.
+
 **2026-11-04 - D5AQ COMPLETE / independent ACCEPT at native-feasibility scope.**
 The [offline investigation](experiments/resource-retained-population/d5aq-report.md)
 establishes outcome B: one qualified ordinary startup prefix permits a mask-0

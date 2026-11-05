@@ -2172,3 +2172,87 @@ the unchanged N2 archive and typed task cohort. The D5AQ adapters preserve their
 SOR-P-0002 origin rather than claiming clean-room work. No external code, service,
 dependency, contact or new reuse permission is added. Authored derivatives remain
 REVIEW-REQUIRED; proprietary payloads stay local and publication remains gated.
+
+## D5AR on-demand resident geometry investigation (2026-11-05)
+
+The [native investigation](experiments/resource-retained-population/d5ar-native-investigation.md)
+records Bethesda's exact installed instructions and independent owned controls,
+with all raw bytes/exports remaining LOCAL-ONLY. Ian Patterson and SFSE
+contributors supplied read-only interface and command-initialization leads through
+[PluginAPI.h](https://raw.githubusercontent.com/ianpatt/sfse/master/sfse/PluginAPI.h),
+[Hooks_Script.cpp](https://raw.githubusercontent.com/ianpatt/sfse/master/sfse/Hooks_Script.cpp)
+and pinned [GameScript.h](https://raw.githubusercontent.com/ianpatt/sfse/48535cc4306ab345252bf740c20a1c6194929b0e/sfse/GameScript.h).
+Moving master revision is UNKNOWN; original build-specific instructions control
+the actual table layout. No other SFSE implementation or declaration is copied
+or adapted. The exact D5AR header-only MIT extension is separately recorded in
+[permissions](PERMISSIONS.md#d5ar-pinned-sfse-header-extension--2026-11-05).
+
+The offline representation/references reuse owned D5AI normalizer, D5AL wire
+oracle/source reducer, D5AQ fixed-native outputs and D5AO N2 review exporter
+under SOR-P-0002. Immediate lineage is identified in source docstrings and native
+locators; local source locks retain exact hashes. CPython/standard library,
+Windows APIs and existing Ghidra/JDK are separate tools, with no new package
+installation or incorporated implementation. The factual exact interval method
+was consulted in [NIST handbook section 7.2.4.1](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm),
+especially its equal-tail binomial inversion equations. The original calculator
+incorporates no NIST code or example text. This is design-only model analysis,
+not a qualified series or evidence of IID scheduling. No external contact,
+upload, publication, staging or commit is performed.
+
+Microsoft's [NtQueryInformationThread](https://learn.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntqueryinformationthread)
+documentation informed owned-process thread start-address diagnostics;
+[RegisterWaitForSingleObject](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject)
+informed one-shot service-exit notification and cleanup. No example implementation
+was copied. The [source-planar proof](experiments/resource-retained-population/d5ar-source-frame-proof.md)
+credits the existing source/ownership discoveries and preserves the nonzero-rebase
+counterexample, exact original-instruction locators and archived A0 provenance.
+
+The startup ancestor check follows Microsoft's API contracts for
+[RtlCaptureContext](https://learn.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-rtlcapturecontext),
+[RtlLookupFunctionEntry](https://learn.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-rtllookupfunctionentry),
+[RtlVirtualUnwind](https://learn.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-rtlvirtualunwind)
+and [GetCurrentThreadStackLimits](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadstacklimits).
+It is an original conservative implementation, with missing metadata refused
+rather than guessed leaf frames. No Microsoft sample implementation is reused.
+
+The source-ending recorder follows Microsoft's
+[SRW lock contract](https://learn.microsoft.com/en-us/windows/win32/sync/slim-reader-writer--srw--locks),
+[shared acquisition](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-acquiresrwlockshared)
+and [exclusive acquisition](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-acquiresrwlockexclusive).
+The original gate uses shared/exclusive exclusion without recursion or upgrade;
+no sample implementation is copied. Source-ending call sites and the absence
+of an independent source lease retain the project's P1/D5AI primary provenance.
+Microsoft's [x64 prolog/epilog](https://learn.microsoft.com/en-us/cpp/build/prolog-and-epilog?view=msvc-170)
+and [unwind metadata](https://learn.microsoft.com/en-us/cpp/build/exception-handling-x64?view=msvc-170)
+contracts also informed the original relay corrections and OS unwind controls.
+Microsoft's [shared try-acquire](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-tryacquiresrwlockshared)
+and [exclusive try-acquire](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-tryacquiresrwlockexclusive)
+contracts describe the final nonblocking owner-read and command admission gates.
+
+The separate [preload-history proof](experiments/resource-retained-population/d5ar-preload-history.md)
+credits read-only consultation of SFSE's pinned startup and plugin-manager source
+and independently examines the actual installed DLL as data. Microsoft dumpbin
+is an installed analysis tool; no SFSE implementation is incorporated. Its exact
+tool/image/output hashes remain local, distinct from the approved header reuse.
+
+Restricted secondary lead: the local xEdit script
+`D:/tools/xEdit.4.1.5p/Edit Scripts/Starfield - Export Planet Atmospheric Resources.pas`,
+version 9, whole-file SHA-256
+`00c83f544dd8af22e6a782425130a2912a3178b0f9f090d394f9a253c5d78cdb`.
+Only header lines 1–70 were consulted. Author, origin and reuse rights remain
+UNKNOWN; no author/licence notice was established from that header. It was not
+executed, copied, adapted or used as scientific evidence for empty atmospheric
+occupancy. Its provisional heuristic and an older CSV omission do not qualify
+the actual runtime AtmosphereModifier. Native/record reconstruction is independent
+of that rejected shortcut. Any implementation reuse would require the separate
+permission and exact-use authorization gates.
+
+Bethesda's pinned PlanetData/definition archives, original typed loaders and
+controlled Save52 evidence support the
+[packed-key and source BIOM](experiments/resource-retained-population/d5ar-key-input-proof.md),
+[atmosphere](experiments/resource-retained-population/d5ar-atmosphere-native-proof.md)
+and [saved-component](experiments/resource-retained-population/d5ar-saved-components-proof.md)
+proofs. The new offline controls build on the maintainer's B1/RG1 map methods,
+D5S/U native key controls and D5AD/D3 save/definition research under SOR-P-0002.
+No source or raw game member is disclosed. The actual historical raster choice
+and resource slot state remain unobserved.

@@ -1428,3 +1428,37 @@ CPython and the installed Windows CRT support local offline execution.
 Independent review contributes primary-byte, task, initialization/readiness and
 counterexample challenges. No new third-party implementation or permission
 basis is introduced; raw native/raster evidence remains LOCAL-ONLY.
+
+## D5AR resident geometry instrument research (2026-11-05)
+
+Bethesda's installed executable supplies the proprietary native evidence. Ian
+Patterson and SFSE contributors supplied read-only command/interface research
+leads, credited at the [native point of use](docs/experiments/resource-retained-population/d5ar-native-investigation.md)
+and in [sources](docs/SOURCES.md#d5ar-on-demand-resident-geometry-investigation-2026-11-05).
+Only the exact pinned public interface header has a D5AR MIT reuse approval;
+other consulted SFSE implementation is excluded. Existing owned D5AI/D5AL/D5AQ
+and D5AO methods retain their source-informed provenance under SOR-P-0002.
+CPython contributors, Microsoft Windows facilities and the existing Ghidra/JDK
+toolchain support separate offline execution. NIST handbook authors supplied
+the factual equal-tail interval method; no outside statistical implementation
+was reused. Independent review contributes adversarial refusal/schema/coverage
+checks, with failed counterexamples retained. No endorsement or publication
+clearance is implied.
+
+Microsoft's API documentation informed the D5AR thread-start diagnostics and
+one-shot thread-signaled startup completion, as linked at the native point of
+use and in the source register. No Microsoft sample code was incorporated.
+The source-planar comparison proof retains Bethesda's original writer evidence
+and the project's prior P1/D5AI/D5AJ ownership discoveries and actual A0 archive.
+Microsoft's documented SRW exclusion and x64 unwind contracts informed the
+source-ending gate and bridge repairs, with links in the source register. No
+Microsoft sample implementation was reused.
+An atmospheric-exporter header of unknown authorship was inspected as a
+restricted secondary lead, recorded with its exact hash in the source register.
+No code or heuristic from it was incorporated, executed or relied on scientifically.
+Bethesda's typed loaders, pinned PlanetData and definition archives, and the
+maintainer's B1/RG1, D5S/U, D5AD and D3 methods support the conditional input
+reconstructions credited at the
+[point of use](docs/experiments/resource-retained-population/d5ar-effective-input-gate.md).
+The controlled historical A0 and Save52 evidence remains local. Independent
+review challenged lifetime admission, exact key/raster inputs and scope.

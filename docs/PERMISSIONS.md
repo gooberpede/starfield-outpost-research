@@ -1,5 +1,16 @@
 # Permission and Reuse Register
 
+## D5AR pinned SFSE header extension — 2026-11-05
+
+The maintainer explicitly answered **“Approve the exact header and MIT notices
+for D5AR”** to the exact-use question in this execution chat. This approves the
+same unchanged Ian Patterson `sfse/PluginAPI.h`, SFSE commit
+`48535cc4306ab345252bf740c20a1c6194929b0e`, for D5AR offline compilation and its
+local review package under the header-only MIT grant. Retain the full copyright,
+permission and disclaimer notice. No SFSE runtime, other SDK source, framework,
+deployment or publication authority is included. Native command integration and
+safe acquisition still require independent proof; this grant supplies no such proof.
+
 ## RG2-D5C offline population lifecycle — 2026-10-25
 
 The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5C_resource_source_population_lifecycle.md) authorizes bounded offline native/evidence inspection, existing-state read-only exports, authored research and independent review. [Per-use provenance](experiments/resource-population-lifecycle/sources.csv) preserves SOR-P-0002 methods. No retail session, target attachment, save loading, regeneration, save/content/configuration/analysis-content mutation, outside incorporation, contact/disclosure, staging, commit, push or publication is authorized or performed. The follow-on acquisition is a design-only draft and requires separate qualification and approval.
