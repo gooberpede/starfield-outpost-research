@@ -359,9 +359,16 @@ def main():
     elif args.feynman:
         result = feynman_diagnostic(left)
     else:
+        represented = [source['geometry']['capture'] for source in left['sources']
+                       if source['geometry'] is not None]
         result = dict(schema=SCHEMA, status='REPRESENTATION_VALID_UNQUALIFIED', capture_id=left['capture_id'],
                       capture_status=left['status'], copy_status=left['capture_diagnostics']['copy_status'],
-                      outpost_status=left['outpost']['status'], represented_entries=len(left['sources']))
+                      outpost_status=left['outpost']['status'], represented_entries=len(left['sources']),
+                      geometry_entries=len(represented),
+                      represented_regions=sum(row['region_total'] for row in represented),
+                      represented_points=sum(row['point_total'] for row in represented),
+                      session_id=left['session_id'], process=left['process'], build=left['build'],
+                      evidence_basis=left['evidence_basis'])
     result['input_sha256'] = inputs
     result['decoder_sha256'] = digest(Path(__file__).read_bytes())
     guard()

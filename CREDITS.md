@@ -1462,3 +1462,9 @@ reconstructions credited at the
 [point of use](docs/experiments/resource-retained-population/d5ar-effective-input-gate.md).
 The controlled historical A0 and Save52 evidence remains local. Independent
 review challenged lifetime admission, exact key/raster inputs and scope.
+
+For the Pilot04 worker, Bethesda's pinned original synchronization paths and
+the maintainer's D5AR ownership, writer and Vortex verification methods support
+the [trigger follow-up](docs/experiments/resource-retained-population/d5ar-pilot03-trigger-followup.md).
+Microsoft's wake and timer documentation informed API use. The package
+preserves the separate Ian Patterson MIT notice for the approved SFSE header.

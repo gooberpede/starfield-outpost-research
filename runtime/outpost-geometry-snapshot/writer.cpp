@@ -125,9 +125,10 @@ std::string sha_file(const std::filesystem::path& path) {
     if(state)BCryptDestroyHash(state);BCryptCloseAlgorithmProvider(algorithm,0);
     return ok?bytes_hex(digest.data(),digest.size()):std::string{};
 }
+constexpr std::uint64_t disk_floor_bytes=40000000000ULL;
 bool disk_floors() {
     for(const wchar_t* drive:{L"C:/",L"D:/"}) {ULARGE_INTEGER available{};
-        if(!GetDiskFreeSpaceExW(drive,&available,nullptr,nullptr)||available.QuadPart<40000000000ULL)return false;
+        if(!GetDiskFreeSpaceExW(drive,&available,nullptr,nullptr)||available.QuadPart<disk_floor_bytes)return false;
     }
     return true;
 }
@@ -261,9 +262,18 @@ std::string snapshot_json(const Capture& capture,const Metadata& meta) {
     envelope["payload_sha256"]=quote(hash(object(envelope)));
     return object(envelope)+'\n';
 }
-Publication publish_snapshot(const Capture& capture,const Metadata& meta,const std::filesystem::path& root) {
+Publication publish_snapshot(const Capture& capture,const Metadata& meta,const std::filesystem::path& root,PublicationCheck check_control) {
     Publication result{false,"NOT_STARTED",{}};
     try {
+        auto check_stop=[&](bool before_rename=false){
+            if(check_control)if(auto reason=check_control(before_rename))throw std::runtime_error(reason);
+        };
+        auto check_space=[&](std::size_t remaining){
+            ULARGE_INTEGER available{};
+            require(GetDiskFreeSpaceExW(root.c_str(),&available,nullptr,nullptr)&&available.QuadPart>=disk_floor_bytes&&
+                    remaining<=available.QuadPart-disk_floor_bytes,"OUTPUT_SPACE_FLOOR_FAILED");
+        };
+        check_stop();
         require(disk_floors(),"DISK_QUERY_OR_FLOOR_FAILED");
         require(plain_directory(root),"OUTPUT_DIRECTORY_INVALID");
         auto stamp=meta.utc;stamp.erase(std::remove(stamp.begin(),stamp.end(),'-'),stamp.end());
@@ -272,11 +282,15 @@ Publication publish_snapshot(const Capture& capture,const Metadata& meta,const s
         auto partial=root/(stem+".partial"),final=root/(stem+".snapshot.json");
         require(!std::filesystem::exists(final),"FINAL_ALREADY_EXISTS");
         auto data=snapshot_json(capture,meta);
+        check_stop();
+        check_space(data.size());
         Handle file;file.value=CreateFileW(partial.c_str(),GENERIC_WRITE,FILE_SHARE_READ,nullptr,CREATE_NEW,
                                          FILE_ATTRIBUTE_NORMAL|FILE_FLAG_WRITE_THROUGH,nullptr);
         require(file.value!=INVALID_HANDLE_VALUE,"PARTIAL_CREATE_FAILED");result.path=partial;
         std::size_t at=0;
         while(at<data.size()) {DWORD wrote{};auto count=static_cast<DWORD>((std::min)(data.size()-at,std::size_t(1024*1024)));
+            check_stop();
+            check_space(data.size()-at);
             require(WriteFile(file.value,data.data()+at,count,&wrote,nullptr)&&wrote==count,"WRITE_FAILED");at+=wrote;
         }
         require(FlushFileBuffers(file.value)!=0,"FLUSH_FAILED");
@@ -284,11 +298,12 @@ Publication publish_snapshot(const Capture& capture,const Metadata& meta,const s
         require(sha_file(partial)==hash(data),"VERIFY_FAILED");
         // Exact readback compares bytes as well as the integrity digest.
         std::ifstream check(partial,std::ios::binary);std::array<char,65536> buffer{};at=0;
-        while(check) {check.read(buffer.data(),buffer.size());auto count=std::size_t(check.gcount());
+        while(check) {check_stop();check.read(buffer.data(),buffer.size());auto count=std::size_t(check.gcount());
             require(at+count<=data.size()&&data.compare(at,count,buffer.data(),count)==0,"READBACK_FAILED");at+=count;
         }
         require(check.eof()&&at==data.size(),"READBACK_LENGTH_FAILED");check.close();
         require(disk_floors(),"DISK_QUERY_OR_FLOOR_FAILED");
+        check_stop(true);
         require(MoveFileExW(partial.c_str(),final.c_str(),MOVEFILE_WRITE_THROUGH)!=0,"ATOMIC_PUBLICATION_FAILED");
         result={true,capture.status=="COPIED_UNQUALIFIED"?"COPIED_UNQUALIFIED":"REFUSED",final};
     } catch(const std::exception& error) {result.status=error.what();}

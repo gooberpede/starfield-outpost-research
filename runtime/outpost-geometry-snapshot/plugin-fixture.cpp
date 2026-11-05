@@ -30,6 +30,18 @@ int wmain(int argc,wchar_t** argv){
  auto mode=std::wcstoul(argv[3],nullptr,10);
  if(mode==11){std::ofstream stop(std::filesystem::path(argv[2])/L"STOP",std::ios::binary);stop<<"Owned startup STOP control\n";if(!stop)return 7;}
  auto image=VirtualAlloc(nullptr,0x6230000,MEM_COMMIT|MEM_RESERVE,PAGE_READWRITE);if(!image)return 3;
+ if(mode==76||mode==77){
+  // Only mode 77 executes the two original lock helpers in the owned image.
+  std::ifstream spans(mode==76?"owned-site-spans.bin":"owned-writer-spans.bin",std::ios::binary);
+  for(unsigned i=0;i<(mode==76?12u:2u);++i){
+   uint32_t rva{},size{};
+   if(!spans.read(reinterpret_cast<char*>(&rva),sizeof rva)||
+      !spans.read(reinterpret_cast<char*>(&size),sizeof size)||
+      !size||size>216||rva>0x6230000-size||
+      !spans.read(static_cast<char*>(image)+rva,size))return 15;
+  }
+  if(spans.peek()!=std::char_traits<char>::eof())return 15;
+ }
  thread_inventory("before-dll-load");
  auto dll=LoadLibraryW(argv[1]);if(!dll)return 4;
  thread_inventory("after-dll-load");
@@ -71,6 +83,19 @@ int wmain(int argc,wchar_t** argv){
   if(mode==54)std::memset(static_cast<uint8_t*>(image)+0x5fd9c30,0,8);
  }
  if(mode==56||mode==57){auto owned=VirtualAlloc(nullptr,4096,MEM_COMMIT|MEM_RESERVE,PAGE_READWRITE);if(!owned)return 14;std::memcpy(owned,proc.data(),proc.size());proc_pointer=reinterpret_cast<uint64_t>(owned);put(manager,0x130,proc_pointer);}
+ if(mode>=62){
+  put(proc,0x44,uint32_t(mode==63?0x1000:0));
+  if(mode==64)std::memset(static_cast<uint8_t*>(image)+0x5fd9c30,0,8);
+  if(mode==65)put(manager,0x130,uint64_t(0));
+  if(mode==66)put(proc,0x28,uint64_t(0));
+  if(mode==74)put(region,24,uint32_t(2));
+  if(mode==80)put(holder,0x28,uint64_t(0));
+  if(mode==72||mode==73){
+   auto owned=VirtualAlloc(nullptr,4096,MEM_COMMIT|MEM_RESERVE,mode==73?PAGE_NOACCESS:PAGE_READWRITE);if(!owned)return 14;
+   if(mode==72)std::memcpy(owned,proc.data(),proc.size());
+   proc_pointer=reinterpret_cast<uint64_t>(owned);put(manager,0x130,proc_pointer);
+  }
+ }
  auto operation_state_pointer=ptr(operation_state);
  if(mode==42){auto inaccessible=VirtualAlloc(nullptr,4096,MEM_COMMIT|MEM_RESERVE,PAGE_NOACCESS);if(!inaccessible)return 11;operation_state_pointer=reinterpret_cast<uint64_t>(inaccessible);}
  d5ar::OfflineInput input{reinterpret_cast<uint64_t>(image),proc_pointer,ptr(holder),argv[2],unsigned(mode),operation_reference,ptr(area_query),operation_state_pointer};

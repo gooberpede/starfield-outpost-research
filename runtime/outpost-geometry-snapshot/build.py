@@ -88,21 +88,31 @@ def main():
                 return image[offset + rva - start:offset + rva - start + size]
         raise ValueError('Native range missing')
 
-    guards = [(rva, hashlib.sha256(native(rva, 32)).hexdigest()) for rva in
-              (0x79d910, 0x1eaa950,0x21e07d0,0x21e0f50,0x21e0a46,0x1881660,0x789ce0,0x788e70,0x788bc0,0x21b2570,0xf3e0c2,0x384600,0xf3df70,0x982af8,0x982c32,0x365cdb0)]
+    guard_ranges = [(rva, 32) for rva in
+                    (0x79d910, 0x1eaa950, 0x1881660, 0x789ce0, 0x788e70, 0x788bc0, 0x982af8, 0x982c32, 0x365cdb0)]
+    guard_ranges += [(0x22cc350, 0x7e), (0x22cc3d0, 0xd8), (0x21e0a82, 0x23)]
+    guards = [(rva, size, hashlib.sha256(native(rva, size)).hexdigest()) for rva, size in guard_ranges]
+    # Local fixture input only. These native bytes are excluded from both ZIPs.
+    (output / 'owned-site-spans.bin').write_bytes(b''.join(
+        struct.pack('<II', rva, size) + native(rva, size) for rva, size in guard_ranges))
+    (output / 'owned-writer-spans.bin').write_bytes(b''.join(
+        struct.pack('<II', rva, size) + native(rva, size)
+        for rva, size in ((0x22cc3d0, 0xd8), (0x2c45a0, 0x51))))
     header = '#pragma once\nnamespace d5ar {\ninline constexpr unsigned game_version=(1u<<24)|(16u<<16)|(244u<<4);\n'
     for key, value in (('expected_game', GAME_HASH), ('expected_sfse', SFSE_HASH), ('source_lock_hash', lock_hash),
-                       ('expected_fixture_host',sha(output / 'd5ar-plugin-fixture.exe'))):
+                       ('expected_fixture_host',sha(output / 'd5ar-plugin-fixture.exe')),
+                       ('offline_writer_lock_hash',hashlib.sha256(native(0x22cc3d0, 0xd8)).hexdigest()),
+                       ('offline_writer_release_hash',hashlib.sha256(native(0x2c45a0, 0x51)).hexdigest())):
         header += f'inline constexpr char {key}[]="{value}";\n'
     for name, rva, size in (('destroy_bytes',0x79d910,5),
                             ('area_bytes',0x21e07d0,7),('area_callback_bytes',0x21e0f50,7),('initializer_bytes',0x1881660,5),('installer_bytes',0x789ce0,5),('reset_bytes',0x788e70,5),('manager_destructor_bytes',0x788bc0,5),('operation_bytes',0x21b2570,5),('selection_release_bytes',0xf3e0c2,5),('source_clear_free_bytes',0x982af8,5),('source_retire_free_bytes',0x982c32,5)):
         header += f'inline constexpr uint8_t {name}[]={{' + ','.join(str(byte) for byte in native(rva,size)) + '};\n'
-    header += 'struct SiteGuard {unsigned long long rva;const char* hash;};\ninline constexpr SiteGuard site_guards[]={\n'
-    header += ''.join(f'{{{rva},"{digest}"}},\n' for rva, digest in guards) + '};\n}\n'
+    header += 'struct SiteGuard {unsigned long long rva;unsigned size;const char* hash;};\ninline constexpr SiteGuard site_guards[]={\n'
+    header += ''.join(f'{{{rva},{size},"{digest}"}},\n' for rva, size, digest in guards) + '};\n}\n'
     (output / 'identity.generated.h').write_text(header, encoding='utf8', newline='\n')
     commands = [f'call "{VC}"', 'if errorlevel 1 exit /b 1', 'where cl', 'where link', 'where ml64',
                 f'ml64 /nologo /c /Fobridges.obj "{local_source / "bridges.asm"}"',
-                f'cl /Bv /nologo /std:c++20 /EHsc /W4 /WX /O2 /MD /I"{output}" "{local_source / "plugin.cpp"}" "{local_source / "writer.cpp"}" bridges.obj /LD /Fe:SorOutpostGeometrySnapshot.dll /link /Brepro /INCREMENTAL:NO bcrypt.lib',
+                f'cl /Bv /nologo /std:c++20 /EHsc /W4 /WX /O2 /MD /I"{output}" "{local_source / "plugin.cpp"}" "{local_source / "writer.cpp"}" bridges.obj /LD /Fe:SorOutpostGeometrySnapshot.dll /link /Brepro /INCREMENTAL:NO bcrypt.lib Synchronization.lib',
                 f'ml64 /nologo /c /Fobridge-probe-asm.obj "{local_source / "bridge-fixture.asm"}"',
                 f'cl /nologo /std:c++20 /EHsc /W4 /WX /O2 /MD "{local_source / "bridge-fixture.cpp"}" bridges.obj bridge-probe-asm.obj /Fe:d5ar-bridge-fixture.exe /link /Brepro /INCREMENTAL:NO',
                 'dumpbin /HEADERS SorOutpostGeometrySnapshot.dll', 'dumpbin /DEPENDENTS SorOutpostGeometrySnapshot.dll']
@@ -127,13 +137,13 @@ def main():
         (output / 'build.json').write_text(json.dumps(receipt, indent=2) + '\n', encoding='utf8', newline='\n')
         raise RuntimeError('Bridge ABI qualification failed; retained fixture logs')
     modes=[]
-    for mode in range(62):
+    for mode in range(81):
         destination=output/(f'exact-dll-{mode}' if mode!=7 else 'exact-dll-7-\u7814\u7a76-\u0394')
         destination.mkdir()
-        if mode==7:(output/"SorOutpostGeometrySnapshot.output-path").write_bytes((str(destination)+"\n").encode("utf8"))
+        if mode in (7,76):(output/"SorOutpostGeometrySnapshot.output-path").write_bytes((str(destination)+"\n").encode("utf8"))
         try:
             run=subprocess.run([str(output / 'd5ar-plugin-fixture.exe'),str(dll),str(destination),str(mode)],
-                               cwd=output,capture_output=True,timeout=90 if mode==4 else 30)
+                               cwd=output,capture_output=True,timeout=90 if mode in (4,76) else 30)
         except subprocess.TimeoutExpired as error:
             (destination/'stdout.log').write_bytes(error.stdout or b'')
             (destination/'stderr.log').write_bytes(error.stderr or b'')
@@ -167,14 +177,71 @@ def main():
         value,_=read_snapshot(artifact)
         decoded.append(dict(path=str(artifact.relative_to(output)),status=value['snapshot']['status'] if 'snapshot' in value else value.get('status'),sha256=sha(artifact)))
     receipt['independent_decoder']=dict(sha256=sha(ROOT/'research/resource-retained-population/d5ar_snapshot.py'),artifacts=decoded)
+    expected_direct = {
+        62: 'COPIED_UNQUALIFIED', 63: 'NATIVE_READER_BUSY', 64: 'NO_CURRENT_OWNER',
+        65: 'NO_ATTACHED_PROCGEN', 66: 'NO_RESIDENT_HOLDERS', 67: 'CURRENT_BINDING_NOT_ADMITTED',
+        68: 'LIFECYCLE_COPY_NOT_ADMITTED', 69: 'COPY_EXCEPTION', 70: 'DIRECT_OBSERVER_EXCEPTION',
+        71: 'OPERATOR_STOP', 72: 'COPIED_UNQUALIFIED', 73: 'NATIVE_READER_UNAVAILABLE',
+        74: 'MALFORMED_POINT_COUNT_OR_FORM', 75: 'COPIED_UNQUALIFIED', 76: 'COPIED_UNQUALIFIED',
+        77: 'COPIED_UNQUALIFIED', 78: 'OPERATOR_STOP_DURING_PUBLICATION',
+        79: 'DIRECT_OBSERVER_EXCEPTION', 80: 'COPIED_UNQUALIFIED',
+    }
+    direct_results = {}
+    for mode, expected in expected_direct.items():
+        folder = output / f'exact-dll-{mode}'
+        paths = list(folder.glob('*.snapshot.json'))
+        if mode == 78:
+            partials = list(folder.glob('*.partial'))
+            if paths or len(partials) != 1 or not (folder / 'STOP').is_file():
+                raise ValueError('Late STOP did not preserve only a partial')
+            value = json.loads(partials[0].read_bytes())
+            if value['status'] != 'COPIED_UNQUALIFIED' or value['build']['plugin_sha256'] != receipt['dll_sha256']:
+                raise ValueError('Late STOP partial identity mismatch')
+            direct_results[mode] = dict(copy_status=expected, sha256=sha(partials[0]))
+            continue
+        if len(paths) != 1 or list(folder.glob('*.partial')):
+            raise ValueError(f'Direct mode {mode} lacks one finalized output')
+        value, digest = read_snapshot(paths[0])
+        copied = expected == 'COPIED_UNQUALIFIED'
+        if (value['capture_diagnostics']['copy_status'] != expected or
+            value['status'] != ('COPIED_UNQUALIFIED' if copied else 'REFUSED') or
+            value['outpost']['status'] != 'UNKNOWN' or value['outpost']['reference'] is not None or
+            value['build']['plugin_sha256'] != receipt['dll_sha256'] or
+            value['build']['source_lock_sha256'] != lock_hash or
+            len(value['sources']) != int(copied)):
+            raise ValueError(f'Direct mode {mode} unexpected terminal result')
+        if mode == 80:
+            if value['sources'][0]['geometry'] is not None:
+                raise ValueError('Empty holder unexpectedly supplied represented geometry')
+        elif copied:
+            entry = value['sources'][0]
+            region = entry['geometry']['population'][0]['regions'][0]
+            if (region['points'] != struct.pack('<4f', -150, -150, 0, 1).hex() or
+                not value['owner_context']['before']['complete'] or
+                value['owner_context']['before'] != value['owner_context']['after']):
+                raise ValueError(f'Direct mode {mode} owned geometry mismatch')
+        direct_results[mode] = dict(copy_status=expected, sha256=digest)
+    receipt['direct_worker_controls'] = direct_results
+    for mode in (14, 15, 76):
+        folder = output / f'exact-dll-{mode}'
+        ready = [p for p in folder.glob('*.startup.json')
+                 if json.loads(p.read_bytes())['status'] == 'COMMAND_READY']
+        if len(ready) != 1 or list(folder.glob('*.partial')):
+            raise ValueError(f'Owned registration mode {mode} lacks finalized COMMAND_READY')
+        value = json.loads(ready[0].read_bytes())
+        if (value['evidence_basis'] != 'SYNTHETIC' or value['plugin_sha256'] != receipt['dll_sha256']
+            or value['source_lock_sha256'] != lock_hash):
+            raise ValueError(f'Owned registration mode {mode} receipt identity mismatch')
+        if mode == 76 and value['config_sha256'] != sha(output / 'SorOutpostGeometrySnapshot.output-path'):
+            raise ValueError('Direct mode sidecar receipt identity mismatch')
     tool=Path('C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64')
     receipt['toolchain']={name:sha(tool/name) for name in ('cl.exe','link.exe','ml64.exe','c1xx.dll','c2.dll')}
     sdk=Path('C:/Program Files (x86)/Windows Kits/10')
     receipt['windows_sdk_version']='10.0.26100.0'
-    receipt['windows_sdk_files']={name:sha(sdk/name) for name in ('Include/10.0.26100.0/um/Windows.h','Lib/10.0.26100.0/um/x64/bcrypt.lib','Lib/10.0.26100.0/um/x64/kernel32.lib')}
+    receipt['windows_sdk_files']={name:sha(sdk/name) for name in ('Include/10.0.26100.0/um/Windows.h','Lib/10.0.26100.0/um/x64/bcrypt.lib','Lib/10.0.26100.0/um/x64/kernel32.lib','Lib/10.0.26100.0/um/x64/Synchronization.lib')}
     # Local review package only, never installed or uploaded. ZIP timestamps/order
     # are fixed; source snapshot rebuilds generated guards from the pinned PE.
-    package=output/'SorOutpostGeometrySnapshot-0.1.0-NOT-AUTHORIZED.zip'
+    package=output/'SorOutpostGeometrySnapshot-0.2.0-NOT-AUTHORIZED.zip'
     entries={'SorOutpostGeometrySnapshot.dll':dll,'source-lock.json':output/'source-lock.json'}
     entries.update({str(p.relative_to(snapshot)).replace('\\','/'):p for p in snapshot.rglob('*') if p.is_file()})
     with zipfile.ZipFile(package,'x',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:

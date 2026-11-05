@@ -26,5 +26,6 @@ std::string sha_bytes(const void*, std::size_t);
 std::string sha_file(const std::filesystem::path&);
 bool disk_floors();
 std::string snapshot_json(const Capture&, const Metadata&);
-Publication publish_snapshot(const Capture&, const Metadata&, const std::filesystem::path&);
+using PublicationCheck = const char*(*)(bool before_rename);
+Publication publish_snapshot(const Capture&, const Metadata&, const std::filesystem::path&, PublicationCheck = nullptr);
 }

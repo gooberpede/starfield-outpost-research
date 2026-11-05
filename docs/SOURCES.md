@@ -2256,3 +2256,16 @@ proofs. The new offline controls build on the maintainer's B1/RG1 map methods,
 D5S/U native key controls and D5AD/D3 save/definition research under SOR-P-0002.
 No source or raw game member is disclosed. The actual historical raster choice
 and resource slot state remain unobserved.
+
+### D5AR Pilot04 worker follow-up
+
+The [trigger record](experiments/resource-retained-population/d5ar-pilot03-trigger-followup.md)
+locates Bethesda's reader, writer and release preimages in the pinned
+Starfield executable. The maintainer's D5AR worker, owned fixtures and Pilot03
+packaging methods are adapted under SOR-P-0002. The exact SFSE header reuse
+and notice remain within the recorded D5AR approval. SOR-S-0117 extends to
+Microsoft's [WakeByAddressSingle](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-wakebyaddresssingle)
+and [timer callback drain](https://learn.microsoft.com/en-us/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpooltimercallbacks)
+API documentation. Documentation informed the API calls. No sample
+implementation was incorporated. Native preimages used by the owned fixture
+remain local.

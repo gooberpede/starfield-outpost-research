@@ -1,5 +1,26 @@
 # Current Research State
 
+**2026-11-05 - Pilot04 worker integrated offline. Retail capture remains
+INCOMPLETE.** D5AR 0.2.0 queues one bounded resident-map attempt after the
+registered command, using lifecycle admission and a nonblocking native reader.
+The [trigger follow-up](experiments/resource-retained-population/d5ar-pilot03-trigger-followup.md)
+records integration and limits. The [Pilot04 operator card](experiments/resource-retained-population/run-card-d5ar-pilot04-proposal.md)
+proposes one separate technical smoke test. The first package received REWORK.
+The replacement addresses parsed sidecar identity, STOP through publication
+and the positive geometry gate, and tests the exact DLL's queued-writer wake.
+Outpost/area identity and
+effective-input comparability remain open. GC-10, GC-31 and D5R remain OPEN.
+
+**2026-11-05 - Pilot03 startup and cancellation verified. Geometry capture
+remains INCOMPLETE.** The admitted process registered and armed the command.
+One reported Build Mode entry produced no capture before STOP, which finalized
+an authenticated refusal without geometry. Protected postflight and local
+archive verification passed. The [trigger follow-up](experiments/resource-retained-population/d5ar-pilot03-trigger-followup.md)
+proposes a single worker attempt after ordinary arrival. Eleven offline
+controls support the nonblocking reader primitive. Detached worker lifetime,
+integrated capture and retail admission remain open. The pilot contributes no
+series observation. GC-10, GC-31 and D5R remain OPEN.
+
 **2026-11-05 - D5AR offline instrument reproduced; original comparison and
 study readiness remain INCOMPLETE.** The [D5AR report](experiments/resource-retained-population/d5ar-report.md)
 documents an SFSE command that arms one protected resident geometry copy at a
@@ -8,8 +29,8 @@ qualify its represented resident census and lease-time selected-reference
 identity. Physical area association remains UNKNOWN. Full represented-content
 comparison is separate from unqualified historical non-mask input equivalence.
 The [independent review](experiments/resource-retained-population/d5ar-review.md)
-records the separate governance breach and acceptance limits. No pilot or
-statistical sampling was authorized or performed. GC-10, GC-31 and D5R remain
+records the separate governance breach and acceptance limits. At this offline
+checkpoint, no pilot or statistical sampling had occurred. GC-10, GC-31 and D5R remain
 OPEN; publication ON HOLD.
 
 **2026-11-04 - D5AQ COMPLETE / independent ACCEPT at native-feasibility scope.**

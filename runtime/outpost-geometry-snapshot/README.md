@@ -1,4 +1,4 @@
-# SOR Outpost Geometry Snapshot 0.1.0
+# SOR Outpost Geometry Snapshot 0.2.0
 
 Offline research candidate — NOT AUTHORIZED for live execution in this task.
 This workflow status adds no condition to GPL-3.0-or-later rights. The unchanged
@@ -14,6 +14,41 @@ Optimization/inherited PYTHONOPTIMIZE refuse before output; existing output and
 reparse directories refuse. /MD imports installed CRT/STL services; no runtime
 DLL, SDK or STL source is separately vendored. Compiler-produced code is present.
 
+## Pilot04 worker
+
+After normal arrival, one `SORSnapshot` queues one worker attempt against the
+currently attached ProcGen. There is no Build Mode step or retry loop. The
+worker takes the observer lifetime lease, attempts one native reader admission
+from an idle lock word, rechecks the binding, copies the bounded resident maps
+and rechecks again before releasing both leases. It publishes one raw copy or
+refusal outside the leases, subject to publication and disk guards. The timer
+checks STOP and free space separately from the protected copy. Publication
+checks STOP around serialization, during output and readback, and immediately
+before rename. STOP after that last check can race finalization. The writer
+checks current output space for the remaining encoded bytes above the floor.
+Other processes can consume disk concurrently. A copied
+artifact has UNKNOWN outpost and area association and remains unqualified.
+
+Production 0.2.0 installs the five lifecycle entries and two pre-free CALLs
+(35 bytes and 28 KiB of relays). The native reader acquisition, decrement and
+conditional wake touch the live synchronization word and can briefly delay a
+writer. The legacy area, placement and reference detours below are absent from
+this production topology. The exact DLL tests retain the historical controls
+and add modes 62–80 for the worker. Mode 76 uses a private copy of the guarded
+native spans to test the seven-site patch set, pre-receipt refusal, UTF-8
+sidecar, finalized receipt and registered command through raw publication.
+Mode 77 queues the original native writer behind the compiled DLL reader and
+checks its wake and release. Modes 78–80 cover STOP immediately before
+rename, an injected access violation and an empty holder. The raw schema and
+encoding remain common with 0.1.0. A positive point count is a separate pilot
+success gate.
+
+See the [Pilot04 operator card](../../docs/experiments/resource-retained-population/run-card-d5ar-pilot04-proposal.md)
+for the separate retail proposal. The older startup, observation and safety
+records below describe the inherited gates and the 0.1.0 implementation.
+
+## Inherited startup and 0.1.0 qualification
+
 A separately approved pilot needs a private DLL-adjacent
 `SorOutpostGeometrySnapshot.output-path`: one UTF-8 absolute existing plain local
 output directory with final LF. Unicode paths are tested. No installation or
@@ -27,7 +62,7 @@ COMMAND_READY. Do not use a console/script, load a save or construct an outpost
 before that receipt. SORSnapshot explicitly replaces GameComment, preserving
 BetaComment. The DLL stays resident; no hot unpatch/unload is offered.
 
-There are eleven installed sites, 59 replaced native bytes and 44 KiB relay pages:
+The 0.1.0 topology had eleven installed sites, 59 replaced native bytes and 44 KiB relay pages:
 five lifecycle phases, whole area consumer and its callback, whole placement
 operation, one pre-release reference CALL and two pre-free source CALLs. No production point-query detour, generator,
 visited-key, scheduler, request or lock-admission hook is installed. These guards
