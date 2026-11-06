@@ -1,7 +1,8 @@
 # Resource generation gameplay checklist
 
 D5AT, 2026-11-06. The [offline survey](d5at-report.md) reproduces the Feynman V
-control and identifies Feynman VI-b as a conditional sampling candidate.
+control and ranks VII-b and VI-b as prospective candidates under the
+[amended active scope](d5at-active-associations.md).
 Its [saved-angle trace](d5at-activation-trace.md) recovers distinct Grid,
 density and layer denominators and the runtime evidence needed to bind a visit.
 The modeled coordinate fractions leave actual cohort coverage and winner

@@ -1,5 +1,14 @@
 # Decision Register
 
+## D5AT active-outpost scope — 2026-11-06
+
+The [maintainer amendment](implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D5AT_active_outpost_scope_2026-11-06.md)
+sets the 17 active ordinary Save52 outposts as the controlling population.
+Verified saved-site, body, descriptor and installed ordinary Grid relationships
+can qualify prospective candidates. Physical area intersection and disabled
+geographic mapping are outside the amended completion gate. Earlier verdicts
+and authority boundaries remain in their original scope.
+
 ## D5AT prospective sub-agent concurrency — 2026-11-06
 
 The invoked [D5AT brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AT_Save52_outpost_mask_inventory_distribution_survey.md#1-authority-and-governance)

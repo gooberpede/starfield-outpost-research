@@ -1,5 +1,13 @@
 # Credits
 
+## D5AT active-outpost survey
+
+The maintainer's Save52 and Bethesda's pinned definitions, raster archive and
+native code support the [amended census](docs/experiments/resource-retained-population/d5at-active-associations.md).
+The survey reuses the project's D5H, D5R, D5U, D5AQ and D5AT evidence and
+owned methods. The independent planar model and native fixture compare the
+new VII-b candidate with separate implementations.
+
 ## D5AS Feynman series preparation
 
 Bethesda's pinned game inputs and the maintainer's retained Pilot04 and Save52

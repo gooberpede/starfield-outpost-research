@@ -2,6 +2,13 @@
 
 ## D5AT Save52 mask survey
 
+The [amended census](experiments/resource-retained-population/d5at-active-associations.md)
+reuses the reviewed D5AT activation, D5H installed corpus and atlas checks,
+D5R window model and owned D5U fixture under SOR-P-0002. The supplemental
+VII-b comparison uses the pinned Bethesda executable and installed ordinary
+recipe with an independent project-owned complete-geometry model. The
+source lock preserves the installed definitions and receipt identities.
+
 The [D5AT ledger](experiments/resource-retained-population/d5at-investigation-ledger.md)
 records use of the owned D2/D3 save and route methods, D5H atlas/domain readers,
 D5I source witnesses, D5AQ projection and D5U geometry controls under SOR-P-0002.

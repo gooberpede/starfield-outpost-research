@@ -1,5 +1,57 @@
 # D5AT investigation ledger
 
+## Active-outpost amendment continuation
+
+The [maintainer amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D5AT_active_outpost_scope_2026-11-06.md)
+sets 17 active ordinary Save52 sites as the controlling population. The
+previous BLOCKED result and evidence remain historical. This pass uses the
+reviewed saved-world and Grid traces, D5H installed corpus, D5R request model,
+D5AQ mask controls and D5AS capture scope. The old halo contains installed
+sources at all 17 sites. A wider search found other selected sources within
+the already modeled preparation windows. Their inclusion changes the density
+ranking, so the added keys receive the existing two arithmetic checks, an
+integer atlas oracle and independently indexed Grid slot checks. Only new
+keys are sampled. The two disabled records and quest diagnostic stay in the
+historical inventory and are outside this pass.
+
+The scope permits read-only pins, ESM/BA2 reads, owned numerical checks and
+authored derived tables. The top supplemental density source on VII-b has an
+installed ordinary recipe and distinct weights at masks 0 and 2. This is a
+specific reason for one new complete-geometry comparison. The owned D5U
+fixture will compare that source in two fixed-input variants with its
+independent geometry model. It reads the pinned native image and recipes,
+allocates private child mappings, and writes only fresh ignored receipts.
+Input drift, native fault or either drive below its floor stops the work.
+The child exits normally and its disposable evidence stays ignored. The
+authority excludes game launch, attachment, configuration or protected-save
+writes, physical intersection and cache analysis.
+
+The query-to-anchor oracle and independent slot index close the saved
+indexed and preparation domains. All 17 sites have an emitted source at
+the occupied index. The earlier 65 alternatives are excluded from the
+installed-main rank for a different selected block or missing anchor. Their
+retention in the association table preserves the evidence conflict without
+leaving an active site unaccounted for. The 258 supplemental relationships
+add 58,248 retained coordinate rows. The established 77 relationships and
+their mask checks are reused. The two arithmetic branches and integer atlas
+lookup agree for the supplemental samples.
+
+The first VII-b geometry trial reached the native fixture's repeat check
+without a duplicate final variant and stopped. The corrected driver supplied
+a mask-2 repeat, leaving the fixed inputs and original fixture unchanged.
+All points and bounds agree with the independent model. The two mask
+variants differ and the repeat matches. Raw model and native receipts are
+ignored. The result applies to the supplied source-relative basis.
+
+| Gate | Amended assessment submitted for independent review |
+| --- | --- |
+| Q1 and AC02 | All 17 active saved identities join to indexed installed sources. The alternate-route effect is bounded to the qualified installed ranking. Disabled source work and physical overlap are outside the amended scope. |
+| Q2 and AC03–AC05 | Prior actual C1 and conditional native checks are preserved. New coordinates have independent atlas and Grid checks, with separate conditional cohorts. |
+| Q3 and AC06 | 335 retained Grid relationships and 356 rows per request family. All 65 alternate routes have a separate disposition. Empty windows, single masks and all observed classes remain visible. |
+| Q4 and AC07 | The prior geometry controls and retail comparison remain scoped. The new VII-b density lead has a complete fixed-input native and independent model comparison. |
+| AC01 and AC08 | The original required reading governs safety and interpretation. This pass applies the amendment, confirms the saved body/frame and native bounds before joining, and preserves prior dispositions and checklist states. |
+| AC09 | Independent review must cover the exact amendment snapshot, provenance, checks and verified patches. |
+
 ## Saved-world activation continuation
 
 The maintainer directs the VI-b and VIII-b U20 activation trace through

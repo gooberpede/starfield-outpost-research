@@ -1,5 +1,10 @@
 # D5AT source distributions
 
+The [amended source census](d5at-active-associations.md) adds the installed
+sources reachable within the saved-angle windows. Its [family rankings](d5at/active-rankings.csv)
+cover 335 installed relationships. The earlier halo and preparation studies
+below remain evidence for their original domains.
+
 The [fixed Grid registration trace](d5at-grid-trace.md) is a separate input
 contract. Its [table](d5at/grid-registration.csv) separates source support,
 density and layer registrations. VI-b's leading split is unchanged within

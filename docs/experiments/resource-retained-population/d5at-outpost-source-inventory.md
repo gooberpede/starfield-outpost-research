@@ -1,5 +1,9 @@
 # D5AT Save52 outpost and source inventory
 
+The [amended active inventory](d5at-active-associations.md) uses the 17 active
+ordinary rows from the historical roster below. The two disabled records
+remain documented here, and the quest diagnostic remains separate.
+
 Fresh read-only framing of the pinned Save52 matched 205,557 R3 records, all
 20 beacon-candidate token and offset pairs, and every ordinary saved
 disabled flag and registration membership from the archived D2 inventory.

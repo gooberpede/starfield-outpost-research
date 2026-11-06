@@ -1,5 +1,12 @@
 # Current Research State
 
+**2026-11-06 — D5AT active-outpost scope.** The [amended census](experiments/resource-retained-population/d5at-active-associations.md)
+joins all 17 active Save52 sites to indexed installed ordinary Grid sources.
+VII-b leads conditional density balance after the wider window scan, and
+VI-b leads retained Grid and conditional layer balance. The VII-b fixed-input
+geometry classes differ. Future visits require positive resident attribution.
+GC-10, GC-31 and D5R remain OPEN.
+
 **2026-11-06 — D5AT saved-world activation.** The [activation trace](experiments/resource-retained-population/d5at-activation-trace.md)
 matches saved and native-snapped descriptors for 17 sites. Under saved-angle
 prewarm, VI-b contributes 154 density and 140 layer candidates. U20 contributes

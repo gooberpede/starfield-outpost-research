@@ -16,6 +16,10 @@ occupy separate domains.
 | grid-registration.csv | outpost, source_id | Exact installed-main comparison, scenario descriptor anchor, and separate retained Grid, density and layer counts and mask histograms under `D5AT-GRID-PREWARM-0`. |
 | activation-requests.csv | outpost, source, trigger, x, y | Retained Grid pairs under `D5AT-SAVED-ANGLE-PREWARM`, with original signed XY, decimal mask, hexadecimal packed coordinate word and density/layer candidacy. Trigger is `both` when manager and focus bounds agree, otherwise each preparation window has its own rows. |
 | activation-distributions.csv | family, outpost, source, trigger | Rank within the density or layer family, inclusive window bounds, retained Grid and family candidate counts, mask shares, balance and qualification. Actual completion is unknown. |
+| active-sites.csv | outpost | The 17 active identities with saved descriptor, occupied and saved-pair indices, direct indexed sources and separate resident attribution. |
+| active-source-relations.csv | outpost, source | Installed slot and retention checks, association qualification and alternate-route ranking effect. |
+| active-rankings.csv | family, outpost, source, trigger | Scoped retained Grid, density and layer counts, shares and ranks across the active census. Each row declares its cohort. |
+| supplemental-masks.csv | outpost, source, x, y | Signed local retained Grid coordinates, atlas byte and mask, with separate manager and focus registration flags for the newly traced sources. |
 | mask-grids.json | source_id | First X and Y, plus ascending-Y mask rows. Each character is one hexadecimal mask or `?`. |
 
 Atlas coordinates are zero-based. Counts use decimal. Shares range from zero

@@ -1,5 +1,31 @@
 # D5AT Save52 resource-mask survey
 
+## Amended active-outpost result
+
+**All 17 active ordinary Save52 outposts have a verified indexed relationship
+to an installed ordinary Grid source.** The expanded census has 335 exact
+installed relationships and retains 65 historical alternatives separately.
+Feynman VII-b now leads conditional density balance at 18 mask-0 and nine
+mask-2 coordinates. Feynman VI-b leads retained Grid and conditional layer
+balance. Feynman V supplies the authenticated C1 cohort and the retail
+geometry comparison. [Active associations](d5at-active-associations.md).
+
+| Question | Disposition under the maintainer amendment |
+| --- | --- |
+| D5AT-Q1 | COMPLETE. All 17 active sites have a saved identity, body, descriptor and indexed ordinary Grid association. The separately retained alternate routes do not change the installed-main result. |
+| D5AT-Q2 | COMPLETE under the conditional provision. Established controls are retained and supplemental coordinates pass the same arithmetic checks and an integer atlas oracle. Actual visit completion outside C1 remains unknown. |
+| D5AT-Q3 | COMPLETE. The candidate survey ranks retained Grid support, conditional density and conditional layer separately, and retains the historical alternatives. |
+| D5AT-Q4 | COMPLETE for forward evaluation. VI-b and VIII-b U20 retain their prior controls. The new VII-b density lead has a distinct full-geometry result under fixed inputs. Future visits require their own resident source and compatible frame evidence. |
+
+[Maintainer amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D5AT_active_outpost_scope_2026-11-06.md) ·
+[Active ranking](d5at/active-rankings.csv) · [Candidate assessment](d5at-candidate-assessment.md).
+
+## Historical result under the original contract
+
+The [original independent review](../../../.local-work/d5at-activation-final-review.md)
+confirmed BLOCKED under the earlier requirements. The amended disposition
+above applies prospectively.
+
 2026-11-06, Australia/Sydney. **Feynman VI-b has 108 mask-0 and 46 mask-8 density candidates under saved-angle prewarm.** Its retained Grid support still has 144 mask-0 and 52 mask-8 coordinates, the closest support split in the survey. VIII-b U20 keeps 28 mask-0 and 168 mask-3 candidates in either family. The [activation trace](d5at-activation-trace.md) binds the saved and snapped descriptor inputs and reconstructs the key layout. Actual visit generation and completed keys remain unknown. Feynman V Cu IL F
 is the strongest empirical control. All 196 D5AQ-C1 rows reproduced, with 28
 at mask `0x0` and 168 at `0x3`. No surveyed split reached 60:40. These
