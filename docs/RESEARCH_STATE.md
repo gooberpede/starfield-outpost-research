@@ -1,5 +1,14 @@
 # Current Research State
 
+**2026-11-06 - D5AS Feynman series closed out.** Of 30 eligible cold-start
+observations, two complete target-source bodies match the fixed mask-0
+reference and 28 match fixed mask 3. One source-lifetime refusal was excluded
+before classification and replaced under the prespecified procedure.
+Protected postflight passed and the reviewed roster and evidence were sealed.
+The [series closeout](experiments/resource-retained-population/d5as-series-closeout.md)
+reports exact conditional statistics and their scope. Mask-class equivalence
+is a proxy. GC-10, GC-31 and D5R remain OPEN.
+
 **2026-11-06 - D5AS offline Feynman series preparation.** The scoped target
 source profile reproduces Pilot04's complete canonical equality with A0 and
 fixed mask 3, and its difference from fixed mask 0. The original D5AR strict
