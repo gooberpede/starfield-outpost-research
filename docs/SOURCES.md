@@ -1,5 +1,15 @@
 # Source Register
 
+## D5AS Feynman series preparation
+
+The [source-profile report](experiments/resource-retained-population/d5as-producer-profile.md)
+pins Pilot04, D5AK-A A0, the D5AG/D5AQ fixed geometry evidence and the D5AQ
+request-to-mask map. Owned D5AR decoding and D5AL protection methods retain
+SOR-P-0002 provenance. The [handoff](experiments/resource-retained-population/d5as-handoff.md)
+records the unchanged D5AR prebuilt DLL, exact package and Ian Patterson MIT
+notice, with the existing [D5AR permission record](PERMISSIONS.md#d5ar-pinned-sfse-header-extension--2026-11-05).
+The local series package and raw game evidence remain local.
+
 ## D5AP N2 competitor analysis (2026-11-04)
 
 The [report](experiments/resource-retained-population/d5ap-report.md) and

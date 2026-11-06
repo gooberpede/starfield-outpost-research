@@ -1,5 +1,14 @@
 # Credits
 
+## D5AS Feynman series preparation
+
+Bethesda's pinned game inputs and the maintainer's retained Pilot04 and Save52
+evidence support the [offline comparison and preparation](docs/experiments/resource-retained-population/d5as-handoff.md).
+The unchanged prebuilt D5AR DLL retains Ian Patterson's SFSE PluginAPI credit
+and full MIT notice. Installed CPython, Git and Windows facilities support
+offline validation. Independent review reconstructs the reference bodies and
+checks the study protocol against the local evidence.
+
 ## D5AP N2 competitor analysis (2026-11-04)
 
 Bethesda's pinned native evidence and the maintainer's retained N2 capture

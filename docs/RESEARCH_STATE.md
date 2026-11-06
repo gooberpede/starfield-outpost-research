@@ -1,5 +1,14 @@
 # Current Research State
 
+**2026-11-06 - D5AS offline Feynman series preparation.** The scoped target
+source profile reproduces Pilot04's complete canonical equality with A0 and
+fixed mask 3, and its difference from fixed mask 0. The original D5AR strict
+refusal remains in force for its original profile. The
+[handoff](experiments/resource-retained-population/d5as-handoff.md) binds the
+separate output sidecar, unchanged DLL, protected baseline and prespecified
+aggregate analysis. The full series awaits separate maintainer authorization.
+No D5AS trials or post-series result exist. GC-10, GC-31 and D5R remain OPEN.
+
 **2026-11-05 - Pilot04 worker integrated offline. Retail capture remains
 INCOMPLETE.** D5AR 0.2.0 queues one bounded resident-map attempt after the
 registered command, using lifecycle admission and a nonblocking native reader.
