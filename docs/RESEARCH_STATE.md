@@ -1,5 +1,19 @@
 # Current Research State
 
+**2026-11-06 — D5AU resource-generation dispositions.** The proposed
+[decision matrix](experiments/resource-retained-population/d5au-gap-closure-decisions.md)
+answers GC-31 for qualified retail repeatability and variation, and GC-10 for
+first-miss authority with usual-winner frequency retired. GC-06/24/33 are
+retired from the current range objective. GC-34 is answered conditionally for
+the native/save mechanism. Its original matched changed-geometry retail
+production observation remains untested and optional. Legacy boxes and
+historical verdicts are preserved, including D5R's frozen open dependencies.
+The [checklist](experiments/resource-retained-population/resource-generation-gameplay-checklist.md#6-cache-behaviour-across-gameplay-transitions)
+adds GC-35–37 as open operational cache questions. The
+[deterministic-generation backlog](BACKLOG.md#deterministic-resource-generation-via-canonical-source-sampling)
+is optional and post-publication. The proposal is subject to independent
+review and maintainer integration.
+
 **2026-11-06 — D5AT active-outpost scope.** The [amended census](experiments/resource-retained-population/d5at-active-associations.md)
 joins all 17 active Save52 sites to indexed installed ordinary Grid sources.
 VII-b leads conditional density balance after the wider window scan, and

@@ -1,5 +1,23 @@
 # Resource generation gameplay checklist
 
+## D5AU disposition navigator
+
+2026-11-06 (Australia/Sydney). The [proposed decision matrix](d5au-gap-closure-decisions.md)
+applies the maintainer's current resource-range objective. Historical notes
+below retain their dated meanings. The legacy boxes preserve their original
+evidence contract. Of 34 legacy items, 28 remain checked and six remain
+unchecked. The six annotated items account for two ANSWERED, one
+ANSWERED_CONDITIONALLY and three RETIRED. GC-10's quantitative subquestion is
+retired within its ANSWERED disposition. The three new cache items are OPEN
+and counted separately.
+
+ANSWERED means the current scoped question has supporting evidence.
+ANSWERED_CONDITIONALLY identifies a mechanism with stated prerequisites and
+an untested original empirical condition. RETIRED records a prospective
+scope decision. OPEN marks an unresolved operational question. See the
+[range conditions](d5au-gap-closure-decisions.md#materiality-for-a-range-and-for-one-realization)
+and [cache questions](#6-cache-behaviour-across-gameplay-transitions).
+
 D5AT, 2026-11-06. The [offline survey](d5at-report.md) reproduces the Feynman V
 control and ranks VII-b and VI-b as prospective candidates under the
 [amended active scope](d5at-active-associations.md).
@@ -173,10 +191,12 @@ stable ID changes; no additional gameplay gap is invented from reader refusal.
 ## 2. Fast-travel initiation
 
 - [ ] <!-- GC-06 --> Establish the complete path from the player's travel action to destination streaming demands. Native mechanism now includes [D5AA confirmation, pending transition and guarded demand paths](d5aa-gameplay-transition-map.md), supplementing [ordinary ingress](d5w-normal-path-model.md#ordinary-initialization-and-ingress). Specific B1 event observed: operator travel/arrival milestones, without full causal action-to-demand correlation. The complete historical gameplay item remains open.
+  **D5AU — RETIRED.** The original action-to-demand chronology remains incomplete. [Decision matrix](d5au-gap-closure-decisions.md#decision-matrix).
 - [x] <!-- GC-07 --> Convert a valid focus into geographic cell coordinates and bounded request regions. Native mechanism mapped under the fixed descriptor/settings contract: [focus and bounds](d5w-normal-path-model.md#ordinary-initialization-and-ingress). Specific B1 event observed: focus conversion was not directly recorded.
 - [x] <!-- GC-08 --> Enumerate request cells and register density/layer tasks with dependencies. Native mechanism mapped: [dependencies and claims](d5w-normal-path-model.md#dependencies-services-and-claims). Specific B1 event observed: registration was not directly recorded.
 - [x] <!-- GC-09 --> Submit eligible ready tasks to the native worker system, permitting asynchronous execution. Native mechanism mapped with controlled queue witnesses: [D5W Q1](d5w-report.md#q1--what-ordinary-execution-selects-or-favours). Specific B1 event observed: downstream worker activity, without a complete readiness/claim trace.
 - [ ] <!-- GC-10 --> Determine which eligible request normally constructs first under retail readiness and scheduling. Native mechanism permits competing winners: [D5S result](d5s-report.md). D5AE adds the [native readiness/claim/lock model](d5ae-scheduler-causality.md) and [controlled predictability limit](d5ae-retail-predictability.md). Specific B2 event observed: later-checking `[5,0]` constructs before `[4,-1]` reaches its map hit; no usually selected retail request or frequency is established. Qualified target cold-first remains unproved.
+  **D5AU — ANSWERED for first-miss authority.** The unmeasured usual-winner identity/frequency subquestion is RETIRED. [Decision matrix](d5au-gap-closure-decisions.md#decision-matrix).
 
 ## 3. Destination streaming / construction
 
@@ -197,6 +217,7 @@ stable ID changes; no additional gameplay gap is invented from reader refusal.
 - [x] <!-- GC-22 --> Apply the mapped resource identity, availability-list and catalogue predicates to resource rows/eligibility. Native mechanism mapped at those consumer boundaries: [UI and catalogue rules](d5v-lifecycle-consumer-map.md#native-geometry--area-catalogue-and-extractor-decisions). Specific B1 event observed: no correlated Workshop consumer trace. Further recipe/category conditions remain separate.
 - [x] <!-- GC-23 --> Test the extractor candidate point against geometry and intersect admitted resources with its effective produced-resource definitions. Native mechanism mapped at the resource-admission boundary: [placement/AVIF paths](d5v-lifecycle-consumer-map.md#native-geometry--area-catalogue-and-extractor-decisions). Specific B1 event observed: no extractor placement trace; full placement needs additional predicates.
 - [ ] <!-- GC-24 --> Establish construction ordering relative to the Workshop's first availability refresh during the observed arrival. Native consumer and constructor paths mapped separately: [stability contracts](d5v-lifecycle-consumer-map.md#stability-contracts-and-discriminating-controls). Specific B1 event observed: no joint ordering trace.
+  **D5AU — RETIRED.** No joint constructor/first-refresh observation. [Decision matrix](d5au-gap-closure-decisions.md#decision-matrix).
 - [x] <!-- GC-25 --> Establish the actual retained outpost population in a particular retail session independently of visual resemblance. Native alternatives and consumers mapped: [D5V report](d5v-report.md). Specific B1 event observed: no authenticated complete target geometry. D5AK Episode A, 2026-11-03: [two complete authenticated resident-map scans](d5ak-a-report.md) identify all 36 occupied holders and the unique 3-resource / 78-region / 180-point target. This closes the particular retail target-population gap, not an exhaustive beacon-specific geographical census or complete UI intersection set.
 
 ## 5. Departure / return / reset
@@ -207,11 +228,79 @@ stable ID changes; no additional gameplay gap is invented from reader refusal.
 - [x] <!-- GC-29 --> Clear retained populations and visited identities on a qualifying broad reset, permitting later reconstruction when demand prerequisites hold. Native mechanism mapped: [reset transitions](d5v-lifecycle-consumer-map.md#actionstate-transition-matrix). Specific B1 event observed: two empty-state certificates, without a qualified subsequent target first miss. B2 has two reset certificates and a separately derived carried-empty anchor; it still has no qualified target cold-first chain.
 - [x] <!-- GC-30 --> Identify which retention, retirement or reset path executes on a particular departure/return. Native cases mapped: [D5V transition matrix](d5v-lifecycle-consumer-map.md#actionstate-transition-matrix). Specific B1 event observed: no controlled departure/return trial. D5AK Episode A, 2026-11-03: [actual exterior-Lodge departure/return](d5ak-a-report.md#which-native-path-actually-executed) witnesses installer/true reset, owning Grid clear, target map erasure and old content ending, then new source birth/generation with complete identical geometry. No interior entry, exact initiating caller or universal travel rule is claimed.
 - [ ] <!-- GC-31 --> Establish the retail repeatability of independent construction episodes and the conditions that change outcomes. Native fixed-input stability and counterexamples mapped: [three stability levels](d5w-report.md#q3--three-stability-levels). Specific B1 event observed: one arrival, without independent target construction repetitions. Later [D5AL A0/B0](d5al-b-report.md) establishes identical complete geometry across one qualified independent-process pair; outcome-changing conditions remain unmeasured and this item remains OPEN.
+  **D5AU — ANSWERED for scoped retail repeatability and variation.** Historical causal conditions remain unmeasured. [Decision matrix](d5au-gap-closure-decisions.md#decision-matrix).
 
 - [ ] <!-- GC-33 --> Correlate terrain block dependencies and persisted PCM placement preparation with resource-request readiness in the compared construction episodes. [D5AG map](d5ag-terrain-resource-map.md) traces the native dependencies; existing B1/B2 schemas do not record their complete effective operands or readiness history. This is distinct from source publication and does not imply a canonical resource query.
+  **D5AU — RETIRED for historical correlation.** Mask and geometry ranges remain conditional on qualified inputs and preparation. [Decision matrix](d5au-gap-closure-decisions.md#decision-matrix).
 
 - [ ] <!-- GC-34 --> Establish an existing placed extractor's restored resource association and production across a verified resource-geometry lifetime transition, independently of current point eligibility and complete deposit equality. [D5AH extractor evidence](d5ah-extractor-continuity.md) maps separate placement, producer and persistence paths; the [comparison design](d5ah-experiment-design.md) requires actual full geometry and producer measurements. No changed-deposit production episode is observed. D5AH left GC-25/30/31/10 and D5R OPEN; its [dated decisions](d5ah-checklist-decisions.md) preserve that historical scope. The separately approved D5AK episode closes scoped GC-25/30 geometry obligations above, while GC-31/10/34 and D5R remain OPEN.
+  **D5AU — ANSWERED_CONDITIONALLY for the native/save mechanism.** The original matched retail changed-geometry production observation remains untested and optional. [Decision matrix](d5au-gap-closure-decisions.md#decision-matrix).
 
+## 6. Cache behaviour across gameplay transitions
+
+GC-26–30 already map native mechanisms and identify one actual
+departure/return. These new obligations concern which paths specific
+ordinary actions select and what happens to the resident population.
+
+- [ ] <!-- GC-35 --> Under which qualified ordinary gameplay transitions does the same complete source population remain resident and get reused without another raster sample or generation?
+  **OPEN.** B2 lookup 8339 is a true map hit after a competing constructor. The native
+  graph permits retention during movement and overlap-preserving shifts. Those results
+  leave actual warm departure/return reuse open. Distinguish an unvisited pointer-map
+  hit or direct consumer use of the retained population from a visited-token or
+  density-aggregate bypass, a copied Workshop list, a source/Grid alias, and a
+  rebuilt-identical population.
+
+  A separately scoped same-context return with before/after complete geometry,
+  continuous source/holder identity and authenticated provider/consumer decisions
+  would distinguish these cases.
+
+  [D5AC target lookup](d5ac-target-lookup-chronology.md) ·
+  [D5AH ownership](d5ah-lifecycle-matrix.md#transition-matrix).
+- [ ] <!-- GC-36 --> Which qualified ordinary transitions erase or retire the source holder or clear ProcGen map and visited state, and which are followed by a new eligible construction?
+  **OPEN beyond the observed Episode A path.** D5AK records actual exterior-Lodge
+  departure and return in one process. Installer/true reset includes the owning Grid
+  clear, map erasure and old content ending. Return supplies a new source and
+  generation with identical complete geometry. A cold process start is one
+  demonstrated reconstruction route alongside this return. Native source retirement
+  and Grid clear erase map ownership without locally clearing visited. A surviving
+  matching token can suppress generation despite holder loss. Broad reset clears both
+  stores. An ordinary full load uses complementary clearing branches. Manager
+  replacement ends the old owner. The action-to-path mapping remains open beyond the
+  observed case.
+
+  A separately scoped contrast with one overlap-losing shift or an ordinary in-process
+  reload would trace owner/receiver, map and visited changes, then check the first
+  eligible request for actual construction or bypass.
+
+  [D5AK reset evidence](d5ak-a-report.md#which-native-path-actually-executed) ·
+  [D5AH predicates](d5ah-lifecycle-matrix.md#reset-and-return-predicates).
+- [ ] <!-- GC-37 --> Under which qualified ordinary return or load conditions does fresh sampling offer a new mask selection and potentially change complete resident geometry, and what persists across visits and saves?
+  **OPEN.** D5AK's observed return created a new selection opportunity. The
+  original request `[8,3]` sampled mask 3 at A0, and `[-1,11]` sampled mask 3
+  anew at A1. Complete geometry was identical. D5AS shows two complete geometry
+  classes across qualified fresh starts without direct historical mask telemetry.
+  Audited ordinary save paths restore PCM/context and
+  separate extractor records. Generated contour arrays are transient under those
+  paths. Which within-process return or load procedures reliably create another
+  selection opportunity, and when such an opportunity produces different geometry,
+  remain open. A cleared map without eligible demand or with failed generation need
+  not produce a complete population. Reuse preserves resident bytes during a
+  continuous qualified lifetime.
+
+  A separately scoped series for one specific return or in-process load could bind
+  source/frame, lifecycle, actual sample and complete output against a warm control.
+  Record failed or partial attempts separately. A new opportunity can select the same
+  mask and geometry.
+
+  [D5AK return](d5ak-a-report.md) ·
+  [Direct A0/A1 samples](d5am-retail-chronology.md#four-actual-constructing-paths) ·
+  [D5AS series](d5as-series-closeout.md) ·
+  [D5AH save/load](d5ah-lifecycle-matrix.md#transition-matrix) ·
+  [D5AH extractor restoration](d5ah-extractor-continuity.md#what-is-serialized-and-reconstructed).
+
+These discriminators require separate authorization. The questions target
+named transition classes with distinct outcomes, including retained complete,
+rebuilt identical, rebuilt different, absent and partial geometry.
 
 ## D5AI offline observer readiness, 2026-11-02
 

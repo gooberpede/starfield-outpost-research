@@ -1,5 +1,42 @@
 # Separately scoped research backlog
 
+## Deterministic resource generation via canonical source sampling
+
+2026-11-06. **Optional post-publication modding investigation.** This item
+is independent of current research closure and publication. The hypothesis
+is to preserve first-miss locking and holder ownership while replacing the
+winner's incidental original-query sample with a stable, valid source-derived
+sampling input. First investigate whether there is a narrow safe
+interception point between selected-source identification and raster sampling.
+This could avoid changing the worker scheduler. Equivalent consequential
+inputs are the target scope for repeatable complete geometry. A stable
+ordinary mask alone cannot guarantee that geometry across contexts.
+[D5AQ operand flow](experiments/resource-retained-population/d5aq-native-dependency-inventory.md) ·
+[D5AU decisions](experiments/resource-retained-population/d5au-gap-closure-decisions.md).
+
+| Candidate to evaluate | Feasibility question |
+|---|---|
+| Canonical coordinate | Derive a stable source identity across allocations and reloads. Verify chart, face and frame conversion, seams and admissible support for the representative coordinate. An unqualified source anchor supplies no validity proof. |
+| Source-hash selection from valid mask classes | Establish the admissible classes for the effective source and raster, specify stable identity and version inputs, and determine how a selected class binds to a valid sample and other applicable query-dependent passes. |
+| Persist a chosen result | Compare storing a versioned selection with storing full geometry. Resolve ownership, validity and migration across reloads, cache invalidation, DLC and overrides before considering a persistence design. |
+
+Separate sampling coordinates from generation origin, seeds and cell keys,
+resource order, DNAM, effective components and PCM preparation, clipping and
+Special/Everywhere sampling. Identify any remaining winner-dependent inputs
+and nondeterministic allocation failures. Check compatibility with already
+placed extractors, built outposts and previously generated saves, plus cache
+invalidation, performance, lock and lifetime safety, and interaction with
+other mods. Preserve the distinction between placement eligibility and
+established extractor output. [D5AG complete controls](experiments/resource-retained-population/d5ag-geometry-controls.md) ·
+[D5AH extractor continuity](experiments/resource-retained-population/d5ah-extractor-continuity.md).
+
+A future brief could compare complete outputs from opposing admissible
+winners, valid seam/frame cases, equivalent reloads and changed effective
+inputs. Failure cases should include partial allocation and stale saved
+selections. Any experiment or implementation requires separate authorization.
+No code, hook, patch, SFSE deployment, save edit, retail trial or publication
+hold is authorized by this entry.
+
 ## LO1 Locations field map - 2026-10-20
 
 [Report and field inventory](experiments/locations-outpost/report.md) complete the bounded source-to-screen investigation subject to [independent review](experiments/locations-outpost/review.md). New edges distinguish entryCount/base capability, decorate-keyword exclusion, location-owner faction/level and generated map/schematic assets. Retain exceptional registry/control, actual historical epochs, owner-override lifecycle and unsupported emblem variants as narrower limitations. None authorizes a live refresh test, importer, mod or catalogue expansion; earlier audit/backlog entries remain historical.

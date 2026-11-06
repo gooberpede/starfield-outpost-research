@@ -1,5 +1,17 @@
 # Decision Register
 
+## D5AU resource-generation objective — 2026-11-06
+
+The [invoked brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AU_Gameplay_Gap_Closure_Cache_Questions_and_Determinism_Backlog.md)
+prospectively separates the qualified mask/geometry range objective from
+historical ingress, first Workshop refresh and terrain/PCM readiness
+correlations. It makes GC-10's usual-winner measurement and GC-34's matched
+retail changed-geometry production check optional. The
+[proposed dispositions](experiments/resource-retained-population/d5au-gap-closure-decisions.md)
+retain original wording and checkbox evidence, and leave D5R's frozen
+contract and historical verdict intact. Cache questions and the optional
+post-publication modding hypothesis require separate execution authority.
+
 ## D5AT active-outpost scope — 2026-11-06
 
 The [maintainer amendment](implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D5AT_active_outpost_scope_2026-11-06.md)
