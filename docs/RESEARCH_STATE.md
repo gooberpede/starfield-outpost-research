@@ -1,5 +1,17 @@
 # Current Research State
 
+**2026-11-06 — D5AV player-action persistence proposal.** The
+[action matrix](experiments/resource-retained-population/d5av-player-action-matrix.md)
+distinguishes resident reads, true map reuse, bypass and reconstruction.
+The D5AK exterior Lodge return rebuilt identical complete target geometry.
+D5AL establishes a matching fresh-process rebuild, and D5AS shows two
+complete cold-start geometry classes. Qualified movement can preserve live
+geometry. Ordinary full load clears ProcGen through complementary native
+branches, and eligible demand governs subsequent construction. Actual
+same-area warm-return behavior remains unmeasured. The
+[GC-35–37 proposals](experiments/resource-retained-population/d5av-cache-decision-matrix.md)
+are conditional and subject to review and maintainer integration.
+
 **2026-11-06 — D5AU resource-generation dispositions.** The proposed
 [decision matrix](experiments/resource-retained-population/d5au-gap-closure-decisions.md)
 answers GC-31 for qualified retail repeatability and variation, and GC-10 for

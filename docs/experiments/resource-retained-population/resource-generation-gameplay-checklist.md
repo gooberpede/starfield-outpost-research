@@ -302,6 +302,16 @@ These discriminators require separate authorization. The questions target
 named transition classes with distinct outcomes, including retained complete,
 rebuilt identical, rebuilt different, absent and partial geometry.
 
+**D5AV proposal · 2026-11-06.** GC-35, GC-36 and GC-37 each support
+`ANSWERED_CONDITIONALLY` at the qualified native and observed episode scope.
+The [decision matrix](d5av-cache-decision-matrix.md) preserves the original
+questions and records the separate limits. Actual warm same-area return
+retention, exact route-to-reset attribution for unmeasured trips, and
+same-process changed geometry remain unresolved. The
+[player-action matrix](d5av-player-action-matrix.md) gives the available
+practical distinctions. The historical annotations above retain their dates
+and verdicts. Any adoption of the proposal requires review and integration.
+
 ## D5AI offline observer readiness, 2026-11-02
 
 The [D5AI investigation](d5ai-report.md) develops complete resident-geometry
