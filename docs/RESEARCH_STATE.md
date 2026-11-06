@@ -1,5 +1,25 @@
 # Current Research State
 
+**2026-11-06 — D5AT saved-world activation.** The [activation trace](experiments/resource-retained-population/d5at-activation-trace.md)
+matches saved and native-snapped descriptors for 17 sites. Under saved-angle
+prewarm, VI-b contributes 154 density and 140 layer candidates. U20 contributes
+196 to both. The retained inputs leave actual target generation and completed
+keys unknown. GC-10, GC-31 and D5R remain OPEN.
+
+**2026-11-06 — D5AT Grid rework checkpoint.** The [offline trace](experiments/resource-retained-population/d5at-grid-trace.md)
+separates 77 installed-main matches from 65 alternative modeled relations.
+Under the fixed prewarm inputs, the leading VI-b and three VIII-b keys each
+retain and register 196 coordinates per family. Twenty other source density
+cohorts are narrower than their Grid support. Actual visit and source coverage
+remain INCOMPLETE. GC-10, GC-31 and D5R remain OPEN.
+
+**2026-11-06 — D5AT offline survey checkpoint.** The [survey](experiments/resource-retained-population/d5at-report.md)
+reconciles 19 ordinary saved beacon records and one quest-reference diagnostic.
+It computes 142 source-level distributions across a union of modeled selection
+paths and reproduces the exact D5AQ-C1 cohort. Feynman VI-b is the closest
+modeled split at 144/52. The physical inventory, actual cohorts outside C1 and
+new-location qualification remain INCOMPLETE. GC-10, GC-31 and D5R remain OPEN.
+
 **2026-11-06 - D5AS Feynman series closed out.** Of 30 eligible cold-start
 observations, two complete target-source bodies match the fixed mask-0
 reference and 28 match fixed mask 3. One source-lifetime refusal was excluded

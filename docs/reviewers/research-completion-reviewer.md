@@ -63,6 +63,10 @@ short unresolved-branch table separately. Never accept your own edits.
 
 ## Session tool procedure
 
+For D5AT and future briefs, confirm that no other sub-agent is active before
+starting review. If a specialist served, confirm termination first. Assess any
+reported overage under the [protocol](../RESEARCH_EXECUTION_PROTOCOL.md#roles-and-independent-review).
+
 For substantive future deliveries, independently enforce
 [EDITORIAL_STANDARD](../EDITORIAL_STANDARD.md), separately from scientific tests:
 

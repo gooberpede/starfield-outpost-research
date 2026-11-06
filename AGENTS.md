@@ -16,6 +16,14 @@ still fails AC01. The maintainer explicitly authorizes this prospective amendmen
 in [D5AL section 3](docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md).
 Earlier frozen contracts, reading-order breaches and verdicts remain unchanged.
 
+For D5AT and future briefs, at most one sub-agent may be active at a time. An
+authorized specialist and an independent reviewer may serve sequentially after
+the preceding session is confirmed terminated. Disclose breaches with duration,
+operations and effects. A minor promptly corrected breach without material
+consequences does not automatically fail a criterion. Evaluate material effects
+on evidence, independence, safety, authorization and budget. See [the D5AT
+amendment](docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AT_Save52_outpost_mask_inventory_distribution_survey.md#1-authority-and-governance).
+
 ## Purpose and scope
 
 Research the live outpost system and its persistence as connected, equally valuable subjects. Follow bounded questions across static data, scripts, native code, runtime observations, and save files. Keep findings organized by subsystem. Do not start a tracker importer, production dump tool, or gameplay mod without a separate decision and brief.

@@ -1,5 +1,12 @@
 # Resource generation gameplay checklist
 
+D5AT, 2026-11-06. The [offline survey](d5at-report.md) reproduces the Feynman V
+control and identifies Feynman VI-b as a conditional sampling candidate.
+Its [saved-angle trace](d5at-activation-trace.md) recovers distinct Grid,
+density and layer denominators and the runtime evidence needed to bind a visit.
+The modeled coordinate fractions leave actual cohort coverage and winner
+prevalence open. GC-10, GC-31 and D5R retain their current status.
+
 D5AQ, 2026-11-04: the [offline mask investigation](d5aq-report.md) establishes one
 complete native-feasible mask-0 construction continuation and the all-196
 conditional mask census. Native possibility is distinct from observed retail

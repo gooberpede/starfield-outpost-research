@@ -1,5 +1,14 @@
 # Decision Register
 
+## D5AT prospective sub-agent concurrency — 2026-11-06
+
+The invoked [D5AT brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AT_Save52_outpost_mask_inventory_distribution_survey.md#1-authority-and-governance)
+sets a maximum of one active sub-agent. A specialist and an independent reviewer
+may serve sequentially after confirmed termination. Disclose any breach and
+assess material effects under the affected criteria. A minor promptly corrected
+overage without material consequences does not automatically fail acceptance.
+Earlier contracts and verdicts retain their original treatment.
+
 ## D5AL prospective required-reading acceptance - 2026-11-03
 
 The maintainer explicitly invokes the [D5AL brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md).

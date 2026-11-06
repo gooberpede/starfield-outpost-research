@@ -1,0 +1,148 @@
+outpost,source_id,qualification,provenance,related_saved_identity
+D2-81a75b,0005de4c/0:27156:35988:0028be0d,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-81a75b,0005de4c/0:27156:36000:002c17d3,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-81a75b,0005de4c/0:27156:36000:002c17d5,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-81a75b,0005de4c/0:27168:35988:002c17d3,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-81a75b,0005de4c/0:27168:35988:002c17d5,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-81a75b,0005de4c/0:27168:36000:002c17d1,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-81b58f,UNKNOWN,UNRESOLVED_HISTORICAL_HAB_OWNERSHIP,Typed Workshop clone location and historical beacon context,DYNAMIC:ff01b59b
+D2-81bf2a,0005e0e3/0:29556:10920:0006ce57,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-81bf2a,0005e0e3/0:29556:10920:0006ce58,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5U-C1 saved-frame composite,UNKNOWN
+D2-81bf2a,0005e0e3/0:29556:10932:0006ce55,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-81bf2a,0005e0e3/0:29556:10944:0006ce55,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-81bf2a,0005e0e3/0:29556:10944:0029f329,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-81bf2a,0005e0e3/0:29568:10920:0006ce57,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-81bf2a,0005e0e3/0:29568:10920:0006ce58,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5U-C1 saved-frame composite,UNKNOWN
+D2-81bf2a,0005e0e3/0:29568:10932:0006ce58,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-81bf2a,0005e0e3/0:29568:10932:0006ce59,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-81bf2a,0005e0e3/0:29568:10944:0006ce56,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-825f95,0005e0e7/1:32136:15132:00298a3d,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-825f95,0005e0e7/1:32136:15132:00298a44,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5U-C1 saved-frame composite,UNKNOWN
+D2-825f95,0005e0e7/1:32136:15144:00298a3c,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5U-C1 saved-frame composite,UNKNOWN
+D2-825f95,0005e0e7/1:32136:15144:00298a42,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-825f95,0005e0e7/1:32136:15156:0029d20e,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-825f95,0005e0e7/1:32136:15156:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-825f95,0005e0e7/1:32148:15132:002c2520,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5U-C1 saved-frame composite,UNKNOWN
+D2-825f95,0005e0e7/1:32148:15132:002c5879,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-825f95,0005e0e7/1:32148:15144:002c2518,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-825f95,0005e0e7/1:32148:15144:002c5875,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5U-C1 saved-frame composite,UNKNOWN
+D2-825f95,0005e0e7/1:32148:15156:0029d20f,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-828ee2,0005dee9/0:2196:41460:0028bdba,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2196:41460:002c17bf,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2196:41472:0028bdc7,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2196:41472:002c17c2,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2208:41460:0028bdb0,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2208:41460:002c17bd,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2208:41472:002c17bd,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2208:41472:002c17c0,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2220:41448:0028bdc2,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2220:41460:002c17d5,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2220:41472:002c17c1,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-828ee2,0005dee9/0:2220:41472:002c17c6,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25704:3552:002c2524,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25716:3528:0029d20e,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25716:3528:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25716:3540:0029d20f,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25716:3552:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25728:3528:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25728:3528:002c5876,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25728:3540:00298a3b,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25728:3540:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25728:3552:00298a44,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-82a0c0,0005e0ef/0:25728:3552:002c5877,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-82be17,0005e4da/0:21372:15624:002493da,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-82be17,0005e4da/0:21372:15624:002493ea,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-82be17,0005e4da/0:21372:15636:002493e8,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-82be17,0005e4da/0:21384:15612:002493ea,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-82be17,0005e4da/0:21384:15624:002493ea,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-82be17,0005e4da/0:21384:15648:002493e7,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-82be17,0005e4da/0:21396:15612:002493e8,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-82be17,0005e4da/0:21396:15636:002493cf,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-82be17,0005e4da/0:21396:15648:002493de,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-830a80,0005e0da/0:8616:32448:0021fd14,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-830a80,0005e0da/0:8628:32436:002c17d3,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes,UNKNOWN
+D2-830a80,0005e0da/0:8628:32448:0021fd23,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-830a80,0005e0da/0:8640:32436:0006ce58,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-830a80,0005e0da/0:8640:32436:002493cf,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-830a80,0005e0da/0:8640:32448:002493f1,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes,UNKNOWN
+D2-832210,0005e0dc/0:17556:22836:0029d20f,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-832210,0005e0dc/0:17556:22836:002c17d1,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-832210,0005e0dc/0:17556:22848:0029d210,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-832210,0005e0dc/0:17556:22848:002c17d5,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-832210,0005e0dc/0:17568:22836:0029d20d,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-832210,0005e0dc/0:17568:22836:002c17d5,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-832210,0005e0dc/0:17568:22848:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-832210,0005e0dc/0:17568:22848:002c17d4,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-832512,0005e4e1/0:42312:39336:002493e9,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-832512,0005e4e1/0:42324:39348:002493ed,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-832512,0005e4e1/0:42324:39360:002493d2,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-832512,0005e4e1/0:42324:39360:002493d3,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-832512,0005e4e1/0:42336:39348:0006ce56,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-832512,0005e4e1/0:42336:39348:002493df,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-832512,0005e4e1/0:42336:39360:0006ce57,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-832512,0005e4e1/0:42336:39360:002493df,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-83388f,0005e0de/0:25116:32436:0029d20d,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-83388f,0005e0de/0:25116:32436:0029d20d,VERIFIED_RESEARCH_DISK_INTERSECTION,D5U-C1 fixed 150-unit modeled disk with exact native point/bound controls,UNKNOWN
+D2-83388f,0005e0de/0:25116:32436:002c5878,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-83388f,0005e0de/0:25116:32448:0029d20e,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-83388f,0005e0de/0:25116:32448:0029d20e,VERIFIED_RESEARCH_DISK_INTERSECTION,D5U-C1 fixed 150-unit modeled disk with exact native point/bound controls,UNKNOWN
+D2-83388f,0005e0de/0:25128:32436:0029d210,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-83388f,0005e0de/0:25128:32436:002c5879,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-83388f,0005e0de/0:25128:32448:0029d210,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-83388f,0005e0de/0:25128:32448:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-844cc6,0005e0ee/1:38100:960:0029d210,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-844cc6,0005e0ee/1:38100:960:002c17d5,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-844cc6,0005e0ee/1:38100:972:002c17d3,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5U-C1 saved-frame composite,UNKNOWN
+D2-844cc6,0005e0ee/1:38100:972:002d0132,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-844cc6,0005e0ee/1:38112:960:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-844cc6,0005e0ee/1:38112:960:002c17d4,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-844cc6,0005e0ee/1:38112:972:0029d20e,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5U-C1 saved-frame composite,UNKNOWN
+D2-844cc6,0005e0ee/1:38112:972:002c17d2,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-844cc6,0005e0ee/1:38124:960:002c17d3,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-844cc6,0005e0ee/1:38124:972:0006ca49,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-844cc6,0005e0ee/1:38124:972:002c17d1,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5U-C1 saved-frame composite,UNKNOWN
+D2-8483f2,UNKNOWN,UNRESOLVED_HISTORICAL_HAB_OWNERSHIP,Typed Workshop clone location and historical beacon context,DYNAMIC:ff05d48a
+D2-84b8fb,0005e51b/0:45876:47124:0029d20f,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-84b8fb,0005e51b/0:45876:47124:002c17d1,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84b8fb,0005e51b/0:45876:47136:0029d20d,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-84b8fb,0005e51b/0:45876:47136:002c17d5,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84b8fb,0005e51b/0:45888:47124:0029d210,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-84b8fb,0005e51b/0:45888:47124:002c17d5,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84b8fb,0005e51b/0:45888:47136:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84b8fb,0005e51b/0:45888:47136:002c17d4,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-84e101,0005e0de/0:37524:20916:00257f33,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84e101,0005e0de/0:37524:20916:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-84e101,0005e0de/0:37524:20928:00257f37,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-84e101,0005e0de/0:37536:20916:0024ef55,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84e101,0005e0de/0:37536:20916:0029d20d,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-84e101,0005e0de/0:37536:20928:0024ef55,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84e101,0005e0de/0:37536:20928:0029d20e,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes; D5H source-domain table; D5U-C1 saved-frame composite,UNKNOWN
+D2-84e101,0005e0de/0:37536:20928:0029d20e,RESIDENT_ONLY,D5AS direct-visit resident target; area intersection unverified,UNKNOWN
+D2-84ede9,0005e0db/0:13128:45096:002c5590,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84ede9,0005e0db/0:13140:45108:002c5599,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-84ede9,0005e0db/0:13140:45120:002c5597,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-84ede9,0005e0db/0:13140:45120:002c559c,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84ede9,0005e0db/0:13152:45108:002c559a,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84ede9,0005e0db/0:13152:45108:002c55a4,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-84ede9,0005e0db/0:13152:45120:002c558e,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84ff81,0005e0b5/1:31476:3348:00257f37,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-84ff81,0005e0b5/1:31476:3348:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84ff81,0005e0b5/1:31476:3360:0024ef57,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84ff81,0005e0b5/1:31476:3360:0029d20e,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-84ff81,0005e0b5/1:31488:3348:0024ef55,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84ff81,0005e0b5/1:31488:3348:00257f37,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-84ff81,0005e0b5/1:31488:3360:0024ef53,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-84ff81,0005e0b5/1:31488:3360:0029d211,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-855619,0005e2b9/0:20916:18036:001ef05f,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes,UNKNOWN
+D2-855619,0005e2b9/0:20916:18048:00218935,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-855619,0005e2b9/0:20916:18048:00295a45,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-855619,0005e2b9/0:20928:18036:001ef05b,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-855619,0005e2b9/0:20928:18036:001ef05e,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-855619,0005e2b9/0:20928:18048:001ef05b,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes,UNKNOWN
+D2-859e53,0005e4e3/0:18420:46656:0029d210,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-859e53,0005e4e3/0:18420:46656:002c17d5,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-859e53,0005e4e3/0:18420:46668:002c17d2,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN
+D2-859e53,0005e4e3/0:18420:46668:002c17d4,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-859e53,0005e4e3/0:18432:46656:002c17d5,PLAUSIBLE_SOURCE_CANDIDATE,D3; D5 saved-frame installed halo routes,UNKNOWN
+D2-859e53,0005e4e3/0:18432:46668:0029d20f,PLAUSIBLE_SOURCE_CANDIDATE,D3 saved-frame installed halo routes,UNKNOWN
+D2-859e53,0005e4e3/0:18432:46668:002c17d1,PLAUSIBLE_SOURCE_CANDIDATE,D5 saved-frame installed halo routes,UNKNOWN

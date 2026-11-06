@@ -25,6 +25,10 @@ misunderstanding or unverifiable reading still fails AC01. Early reading remains
 preferred practice. Earlier frozen criteria, failures and acceptance decisions
 are unchanged; this is neither a retroactive waiver nor live authority.
 
+Apply the [D5AT one-active-sub-agent rule](AGENTS.md#required-reading)
+prospectively. Confirm a specialist has terminated before starting independent
+review. Record any overage and assess its effect under the completion protocol.
+
 The [Research Execution and Completion Protocol](docs/RESEARCH_EXECUTION_PROTOCOL.md)
 controls assignment completion, continuation, escalation and independent review.
 Embed its compact [contract](docs/templates/completion-contract.md) in every

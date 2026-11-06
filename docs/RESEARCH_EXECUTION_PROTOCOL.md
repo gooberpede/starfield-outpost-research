@@ -157,6 +157,12 @@ authorized work. Never risk protected inputs to avoid reporting unfinished work.
 
 ## Roles and independent review
 
+The prospective D5AT rule permits one active sub-agent at a time. A specialist
+and an independent reviewer require separate, sequential sessions. Disclose any
+overage with its duration, operations and effects. Assess material impacts on
+evidence, review independence, safety, authorization and budget under the
+affected criteria. Historical contracts and verdicts retain their original rules.
+
 The **Implementer** owns investigation, implementation, tests, evidence, packaging
 and reviewer defect remediation. The **Independent Reviewer** inspects the original
 contract, primary logs/tests, diff and actual tree; challenges shifted criteria,

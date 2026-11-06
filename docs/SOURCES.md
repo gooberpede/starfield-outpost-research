@@ -1,5 +1,18 @@
 # Source Register
 
+## D5AT Save52 mask survey
+
+The [D5AT ledger](experiments/resource-retained-population/d5at-investigation-ledger.md)
+records use of the owned D2/D3 save and route methods, D5H atlas/domain readers,
+D5I source witnesses, D5AQ projection and D5U geometry controls under SOR-P-0002.
+The archived member and installed Bethesda input hashes are retained in the
+local source lock. Proprietary save, raster and native payloads remain local.
+The [activation replay](experiments/resource-retained-population/d5at-activation-trace.md)
+reuses the pinned owned D5AQ private native host and the D5AD/D5R/D5H retained
+exports. It verifies all 31 D5AS published snapshot owners against their pinned
+ledger to delimit archived coverage. The Workshop historical and location
+censuses supply the inactive ownership alternatives.
+
 ## D5AS Feynman series preparation
 
 The [source-profile report](experiments/resource-retained-population/d5as-producer-profile.md)
