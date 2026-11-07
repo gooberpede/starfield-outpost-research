@@ -20,7 +20,9 @@ own provenance and are not all revalidated on that build. The
 [proposed claim/build scope](docs/audits/publication-readiness-b1/claim-build-matrix.md)
 labels exclusions, unknowns and remaining approval gates.
 
-- **Understand a subsystem:** [roadmap](docs/research-roadmap.md) → primary report and limitations.
+- **Understand a subsystem:** [subsystem guides](docs/guides/README.md) include the
+  [resource-generation pilot](docs/guides/resource-generation.md). The
+  [roadmap](docs/research-roadmap.md) covers the wider programme.
 - **Find implementation detail:** [capability/access matrix](docs/audits/outpost-rc1-2026-10/capability-access.md), [Papyrus interfaces](docs/audits/outpost-rc1-2026-10/papyrus-interfaces.md), [function register](docs/function-register.md) and [state register](docs/state-register.md).
 - **Challenge the evidence:** [history/supersession register](docs/research-history.md), [experiment index](docs/experiments/README.md), [selected evidence index](docs/experiments/evidence/README.md) and each report's review/source ledger. Raw saves, native exports and many receipts are local-only, not promised public downloads.
 
