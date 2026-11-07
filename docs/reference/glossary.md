@@ -92,11 +92,12 @@ class. The Special path can use different bits.
 
 ### Nominal biome
 
-The project's label for a biome identity assigned through a specified
-site/definition traversal. It characterizes that assignment rather than
-all source biomes, all terrain within the outpost area or the resources
-shown in the UI. State which field or coordinate supplied a biome.
-[Biome assignment](../experiments/outpost-biomes/report.md).
+A research term for a base BIOM FormID whose lookup cells overlap the
+qualified nominal outpost disk with positive area. The raster and selected
+frame supply the assignment. A resource source's BIOM input, blended terrain,
+usable territory and UI resource list represent separate consumers.
+[Biome coverage](nominal-biomes.md) ·
+[Original assignment proof](../experiments/outpost-biomes/nominal.md).
 
 ### Coordinate frame
 
@@ -108,6 +109,31 @@ frame, distinct from the source anchor and packed generator seed-cell
 key.
 [Source coordinate contract](../experiments/resource-retained-population/d5v-coordinate-contract.md) ·
 [Original query conversion](../experiments/resource-retained-population/d5aq-mask-method.md#compiled-conversion-and-sampling).
+
+### Saved site anchor
+
+A saved angular pair associated with the typed site world. It describes site
+geography and can supply a discrete base for a qualified site-based frame.
+The occupied cell can differ, and the stored angles do not establish the
+beacon's continuous coordinates.
+[Position reference](position.md) ·
+[Saved numerical controls](../experiments/coordinate-sufficiency/saves.md).
+
+### Compensated Workshop centre
+
+A local position computed from the ordinary reference XYZ and its Workshop
+compensation vector, with a bit-preserving copy for the all-zero vector.
+It can remain stable across a beacon move in qualified saved comparisons.
+A current loaded centre requires the invocation and effective frame.
+[Position specification](../position-model/specification.md#ordered-transformations).
+
+### Terrain lookup cell
+
+A discrete indexed address on a body chart. Its local preimage consists of
+coordinates that quantize to the same integer offsets in a selected frame.
+A biome raster pixel can label many such cells.
+[Position conversion](position.md#qualified-conversion) ·
+[Biome traversal](nominal-biomes.md#quantizer-cells-and-raster-lookup).
 
 ### PlanetContentManager
 
@@ -239,11 +265,10 @@ concept and has separate lifetime rules.
 
 ### Workshop owner
 
-Project shorthand for the reference identified through the outpost
-Workshop ownership relationship in the audited ordinary joins. It is
-the target of an ownership association. A beacon base definition, UI
-entry or other active-registration record supplies different evidence.
-Exceptional and retained relationships need their own proof.
+A placed reference that serves as the owner target for Workshop members.
+In the audited ordinary saves, the unique mode-0 WorkshopItem link targets
+the beacon reference. Loaded metadata can affect native resolution.
+Registration and a beacon's base form are separate evidence.
 [Workshop ownership and membership](../experiments/workshop-membership/report.md) ·
 [Active population limits](../experiments/workshop-population/report.md).
 
@@ -256,6 +281,64 @@ audited framing. Its presence alone cannot certify active membership or
 that its position equals the native outpost centre.
 [Beacon evidence](../experiments/active-outpost-identification.md) ·
 [Position model](../position-model/specification.md).
+
+### Construction root
+
+A representative placed reference for one physical Workshop construction
+in the project's qualified projection of the native item model. A direct
+item can represent itself. A compound PackIn uses a qualifying dummy.
+Generated members and foundations do not each add a root.
+[Root selection and correction](identity.md#counting-physical-roots).
+
+### Canonical assembly
+
+A research grouping of references deduplicated by qualified source,
+replacement and group relationships. It can identify retained structure
+without proving ordinary Workshop ownership or how the structure was built.
+[Retained Hab challenge](../experiments/workshop-population/report.md#completed-location-context-challenge).
+
+### Workshop registry and Almanac entry
+
+The registry is a runtime collection of Workshop handles. An Almanac entry
+is a UI record produced after handle resolution and filtering. A saved owner
+edge and active player control require separate evidence.
+[Native enumeration](../experiments/active-outpost-identification.md#independent-native-membership-route-and-exact-obstruction).
+
+## Construction decisions and state
+
+### Recipe quota
+
+An admission predicate that compares the selected Workshop's matching
+construction representatives with the effective shared limit global.
+An ordinary COBJ JNAM supplies the group key. The player's deployment
+allowance and the scalar build budget are separate decisions.
+[Numerical limits](../experiments/limits/report.md).
+
+### Build budget
+
+A scalar construction allowance used when the budget gate is enabled.
+A valid positive effective Workshop allowance takes precedence over the
+configured fallback. Admission compares the allowance with current
+effective usage plus candidate charge. Assemblies can sum charges from
+eligible members. The meter uses a cached ratio. The serialized base
+usage is one input to restored state and is not a census of objects.
+[Accounting and saved controls](construction.md#scalar-budget).
+
+### Snap Behavior
+
+A CK STBH form containing rules for a component's snap context. Grouped
+condition-eligible entries can supply manual CHANGE choices. Ungrouped
+rules can respond to connections. These are separate from pre-placement
+recipe variants.
+[Hab and automatic rule trace](../experiments/construction-variants/report.md).
+
+### Workshop bulldozed state
+
+A reference state used for confirmed scenery suppression in the mapped
+construction path. The live reference bit and saved change mask have
+different domains. Load or cleanup can restore or clear suppression.
+Preview clearing has a separate transient state.
+[Writer, loader and cleanup](../experiments/spatial-placement/persistence.md).
 
 ## State origin and authority
 
