@@ -40,7 +40,8 @@ through incoming local links, including paths through a storage buffer. A
 path back to a producer can establish how stock might reach the input check.
 It cannot tell you the quantity there now or where existing buffer contents
 came from. A cargo incoming container is a local stock boundary for this
-walk. A future logistics reference will cover movement and cargo.
+walk. See [local output links](storage-and-output-links.md) and
+[cargo](cargo.md) for how stock reaches the bay.
 
 At a due check the engine can reduce the batch to what every ingredient
 supports. For a recipe that needs two units of an ingredient per cycle, five

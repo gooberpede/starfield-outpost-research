@@ -14,6 +14,10 @@
   registration changes and the reachable ingredient graph.
 - [Power and generator fuel](power.md) maps effective supply, typed
   connections, allocation and the qualified Save29 load result.
+- [Storage and local output links](storage-and-output-links.md) maps effective gates, redistribution, production and save channels.
+- [Cargo links and fuel](cargo.md) maps endpoints, hold, stage clocks, travel and fuel consumption.
+- [Shared Outpost Storage](shared-storage.md) maps backing ownership, source vectors, spending and player persistence.
+- [Locations Stored Resources](stored-resources.md) maps collection, item identity and asynchronous UI delivery.
 - [Project technical glossary](glossary.md) defines shared research terms
   and identifies historical aliases and context-specific meanings.
 

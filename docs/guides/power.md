@@ -29,7 +29,7 @@ charge transitions can suppress or restore contribution and trigger a
 network refresh. The cited work traced removal requests and charge changes
 in the native path. Actual stock changes and the delay from adding fuel
 to delivered power were unobserved. Cargo-link Helium-3 accounting belongs
-to the future cargo documentation. [Generator fuel and charge](../experiments/power/fuel.md) ·
+to the [cargo guide](cargo.md). [Generator fuel and charge](../experiments/power/fuel.md) ·
 [Cargo transport evidence](../experiments/cargo-links/transport/report.md).
 
 ## Why a small device can stay off during a shortage

@@ -80,7 +80,7 @@ with 1 substituted for nonpositive values. The loaded AV can differ from its
 definition-only default-plus-property value. Neither the raw PRPS delta nor
 COBJ NNAM alone gives an accepted output count. Separate local stock movement
 and production insertion have different capacity rules. See the local
-output-link study pending a dedicated logistics reference.
+output-link study and [technical reference](storage-and-output-links.md).
 [Native reasons and row offsets](../experiments/inorganic-extractors/native.md) ·
 [Time inputs](../experiments/inorganic-extractors/arithmetic-clocks.md) ·
 [Arithmetic and insertion](../experiments/inorganic-extractors/arithmetic-production.md#requested-versus-realized-items) ·

@@ -374,8 +374,37 @@ and effective consumer when claiming authority.
 | Production reason | A numeric result of native evaluator `0x140f7d120` on the mapped build. Zero marks current eligibility. Reasons include applicable missing power, insufficient ingredient stock on the input branch and production halt. The row's cached eligibility is separate. [Current state](inorganic-production.md#scheduling-current-state-and-delivery). |
 | Domesticability knowledge | A scanner category stored by planet and species in the native knowledge manager. The organic selector reads it to classify a supported candidate as known or unknown. It differs from the species' domesticability condition and from ingredient supply. [Knowledge writer and reader](organic-production.md#facility-species-and-knowledge). |
 | Due cycle | A scheduler-derived opportunity to request work from a producer row. The count depends on engine elapsed time, interval and countdown. Current eligibility, ingredient caps and receiver acceptance can prevent a due cycle from becoming delivered inventory. [Timing path](inorganic-production.md#scheduling-current-state-and-delivery). |
-| Local transfer link | A directed source-to-destination relationship. The runtime transfer registry indexes each destination handle by its incoming source set. Production can use it to find a downstream receiver or count upstream ingredients. Electrical connections and Workshop ownership use other stores. [Input graph](fabrication.md#reconfiguration-input-graph-and-delivery). |
+| Local transfer link (output link) | A directed source-to-destination relationship. The runtime transfer registry indexes each destination handle by its incoming source set. Production can use it to find a downstream receiver or count upstream ingredients. Electrical connections and Workshop ownership use other stores. [Input graph](fabrication.md#reconfiguration-input-graph-and-delivery). |
 | Realized output | An actual produced quantity delivered through the applicable output/inventory path. A nominal rate, due tick, pending count or registered resource describes a different stage. Current eligibility and destination fit matter. [Output path](../experiments/resource-retained-population/d5ah-extractor-continuity.md#unload-return-and-production). |
+
+## Inventory and local links
+
+| Term | Entity and behavior |
+| --- | --- |
+| Item stack | A quantity of one item form grouped in a single inventory entry. Separate stacks of that item can carry different per-stack extras. The reference inventory writer can persist those extras and quantities. [Wire fields](storage-and-output-links.md#persistence-and-remote-update). |
+| Effective capacity | The current weight value read by an applicable fit or fullness check. For an ordinary non-actor store it comes from effective CarryWeight and can differ from the base fallback through reference overrides or modifiers. [Capacity and admission](storage-and-output-links.md#definition-effective-capacity-and-pair-gates). |
+| Producer output buffer | The inventory on a producer reference that can keep its products. A downstream receiver can instead receive fresh output, and builder ingredients can be withdrawn from separate upstream inventories. [Creation path](storage-and-output-links.md#graph-movement-and-creation). |
+| Source inventory and target inventory | Roles in one transfer operation. The source supplies the stock being removed and the target receives it. An intermediate graph node need not act in either role for that call. ContainerMenu can also substitute another reference for the selected target. [Movement](storage-and-output-links.md#graph-movement-and-creation) · [Shared target](shared-storage.md#fixture-admission-and-backing-ownership). |
+| Transfer Container | An ordinary placeable local store whose installed special keyword supports ship access. Its local output links use ordinary pair gates and its stock belongs to the placed reference. [Storage roles](../guides/storage-and-output-links.md#choose-a-store-for-the-item-and-the-operation). |
+
+## Cargo and time
+
+| Term | Entity and behavior |
+| --- | --- |
+| Cargo incoming and outgoing children | Two placed inventory references in a pad assembly. Freight unloading targets the incoming child and loading draws from the outgoing child. Local graph permissions and cross-outpost shipment have separate gates. [Cargo stages](cargo.md#endpoint-and-stage-ownership). |
+| Cargo ship hold | The inventory on the route's ship reference. It can retain stock that failed to fit at the last dock, and the next leg can add stock from that dock's outgoing child. [Return model](cargo.md#repeat-the-worked-round-trip). |
+| Fuel marker | The inter-system pad reference registered as a recipe consumer. Its due work requests He-3 removals on reachable upstream sources. Its charge and halt state are separate from those inventories. [Fuel cycle](cargo.md#fuel-readiness-and-accepted-cycles). |
+| Cargo timer | A native VM game-time heap entry keyed by a bound ship script and ID. Due dispatch queues a load, departure or retry callback. Its saved remaining time and pause state have their own channel. [Clocks](cargo.md#clocks-and-native-completion). |
+
+## Ingredient providers and reporting
+
+| Term | Entity and behavior |
+| --- | --- |
+| Shared backing inventory | The stock on the player-held reference that recognized Shared Outpost Storage fixtures expose. The player save channel carries its inventory, while fixture placement and membership use separate channels. [Backing ownership](shared-storage.md#fixture-admission-and-backing-ownership). |
+| Provider source vector | An ordered temporary list of references whose inventories a particular ingredient operation can consider. Crafting and construction build different lists, and spending walks each actual list forward. [Source order](shared-storage.md#providers-counts-and-removal). |
+| Virtual removal | An inventory-removal request dispatched through the source reference's native virtual interface, such as slot `0x458` on the mapped build. A request or its planned count cannot establish a completed mutation by itself. [Removal path](shared-storage.md#providers-counts-and-removal). |
+| Resource aggregation | The Locations collector's per-outpost sum of admitted stack units keyed by associated resource FormID. The physical items and the UI's resource definitions can have different identities. [Aggregation](stored-resources.md#item-identity-units-and-presentation). |
+| Refresh epoch | The collection and delivery context of a UI snapshot. For Locations, entering the state collects inventory, queued delivery replaces the provider arrays, and a later selection can repaint those same arrays. [Lifetime](stored-resources.md#collection-delivery-and-saved-boundaries). |
 
 ## Electrical state
 

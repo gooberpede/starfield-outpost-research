@@ -17,6 +17,10 @@ behavior, its saved-state boundary and known exceptions.
   and the local supply of ingredients.
 - [Power and generator fuel](power.md) explains ratings, fuel, wiring,
   switches and which devices can be powered during a shortage.
+- [Storage and local output links](storage-and-output-links.md) follows physical stock, capacity and directed movement.
+- [Cargo links and fuel](cargo.md) follows the shared hold, return freight and inter-system readiness.
+- [Shared Outpost Storage](shared-storage.md) explains fixture access, ingredient sources and spending.
+- [Locations Stored Resources](stored-resources.md) explains eligible inventories, unit totals and refresh.
 
 Use the [technical reference index](../reference/README.md) and
 [project glossary](../reference/glossary.md) for implementation detail.

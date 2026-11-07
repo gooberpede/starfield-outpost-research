@@ -52,7 +52,7 @@ in slot 2, refreshes the graph and changes to Uncharged. Other nonzero
 reasons do not establish the same transition. Charge writes use the
 persisted AV setter, while reevaluation depends on current time and inputs.
 This bounds the ordinary generator path. Cargo-link Helium-3 and voyages
-belong to the future cargo reference.
+belong to the [cargo reference](cargo.md#fuel-readiness-and-accepted-cycles).
 [Fuel and charge](../experiments/power/fuel.md) ·
 [One-unit threshold](../experiments/power/followup.md#c-bounded-fuel-threshold) ·
 [Cargo transport study](../experiments/cargo-links/transport/report.md).

@@ -32,7 +32,7 @@ destination are distinct reasons a machine may fail to operate. A qualified
 request can create the product directly at a selected connected store or in
 the extractor's own buffer. If you inspect only the extractor, an empty buffer
 can therefore coexist with successful production. Local transfer of existing
-stock is a separate operation covered by the planned logistics reference.
+stock is a separate [local output-link operation](storage-and-output-links.md).
 [Native production and reasons](../experiments/inorganic-extractors/native.md) ·
 [Local output link study](../experiments/local-output-links/report.md) ·
 [Independent link review](../experiments/local-output-links/review.md) ·
