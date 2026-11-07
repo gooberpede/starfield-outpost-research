@@ -9,6 +9,14 @@ behavior, its saved-state boundary and known exceptions.
 - [Construction and placement](construction.md) follows catalogue choices through placement and persistence.
 - [Resource generation](resource-generation.md) explains why deposits can
   repeat or change and how the result affects building and extractors.
+- [Inorganic extraction](inorganic-production.md) follows placement, the
+  registered resource and the path to a receiving inventory.
+- [Organic production](organic-production.md) explains planetary species,
+  menu knowledge and greenhouse and husbandry inputs.
+- [Fabrication](fabrication.md) follows product presets, recipe changes
+  and the local supply of ingredients.
+- [Power and generator fuel](power.md) explains ratings, fuel, wiring,
+  switches and which devices can be powered during a shortage.
 
 Use the [technical reference index](../reference/README.md) and
 [project glossary](../reference/glossary.md) for implementation detail.

@@ -6,6 +6,14 @@
 - [Construction and placement](construction.md) maps admission, accounting, scenery and variants.
 - [Resource generation](resource-generation.md) covers native decisions,
   input contracts, state ownership, save boundaries and evidence access.
+- [Inorganic extraction](inorganic-production.md) maps point admission,
+  resource rows, interval arithmetic and output.
+- [Organic production](organic-production.md) maps species, scanner
+  knowledge, resource selection and consumption.
+- [Fabrication](fabrication.md) maps construction and recipe identities,
+  registration changes and the reachable ingredient graph.
+- [Power and generator fuel](power.md) maps effective supply, typed
+  connections, allocation and the qualified Save29 load result.
 - [Project technical glossary](glossary.md) defines shared research terms
   and identifies historical aliases and context-specific meanings.
 
