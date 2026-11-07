@@ -404,7 +404,28 @@ and effective consumer when claiming authority.
 | Provider source vector | An ordered temporary list of references whose inventories a particular ingredient operation can consider. Crafting and construction build different lists, and spending walks each actual list forward. [Source order](shared-storage.md#providers-counts-and-removal). |
 | Virtual removal | An inventory-removal request dispatched through the source reference's native virtual interface, such as slot `0x458` on the mapped build. A request or its planned count cannot establish a completed mutation by itself. [Removal path](shared-storage.md#providers-counts-and-removal). |
 | Resource aggregation | The Locations collector's per-outpost sum of admitted stack units keyed by associated resource FormID. The physical items and the UI's resource definitions can have different identities. [Aggregation](stored-resources.md#item-identity-units-and-presentation). |
-| Refresh epoch | The collection and delivery context of a UI snapshot. For Locations, entering the state collects inventory, queued delivery replaces the provider arrays, and a later selection can repaint those same arrays. [Lifetime](stored-resources.md#collection-delivery-and-saved-boundaries). |
+| Refresh epoch | The collection and delivery context of a UI snapshot. For Locations, entry collection includes inventory, queued delivery replaces provider arrays, and selection can repaint copied values while requesting body metadata separately. [Inventory lifetime](stored-resources.md#collection-delivery-and-saved-boundaries) · [Locations providers](locations-ui.md#collector-and-refresh-lanes). |
+| Locations entry | A copied row for a Workshop reference admitted by the Locations collector. It carries reference, body and system identities and sampled summary lanes for selection and display. The row's Crew badge uses assignment-list length. [Collector and fields](locations-ui.md#collector-and-refresh-lanes). |
+
+## Assignments and defenses
+
+| Term | Entity and behavior |
+| --- | --- |
+| CrewExtraData (ExtraE2) | Data on a destination reference that holds its crew assignment handles. Its save writer records actor identities for load-time resolution. CrewAssignment on the actor supplies a separate destination relationship. [Membership](crew-and-robots.md#admission-ownership-and-roster). |
+| Possessed perk rank and active perk entry | A rank selects a perk's effects. Registration can create active entries in the actor's process storage for particular engine queries. The roster can report possession while those entries are unavailable or fail a query's conditions. [Dispatch](crew-and-robots.md#from-rank-to-a-consumer). |
+| Robot construction quota | A threshold shared by recipes that point to the same robot limit global. The selected Workshop's qualifying representatives consume it. Crew slot costs and active robot effects are evaluated elsewhere. [Quota](crew-and-robots.md#admission-ownership-and-roster). |
+| Attack opportunity timer | A one-shot beacon-script timer armed by load or qualifying placement. Its callback attempts the eligibility and encounter checks. A timer callback can finish without an attack. [Script branches](defense.md#opportunity-eligibility-and-quest-lifecycle). |
+| Integrity | Build Mode's selected-object Health ratio, computed from effective current over permanent Health on the qualified paths. The card hides the invalid-denominator sentinel. The destroyed flag and Health damage have separate writers. [Indicator](defense.md#health-state-flags-and-repair). |
+
+## Display and access
+
+| Term | Entity and behavior |
+| --- | --- |
+| Display slot and displayed item reference | A slot rule admits a compatible item under filter and count conditions. The fixture's runtime display component records the handle of the represented world item in that rule's list. A saved list instead uses item identities. [Residence and fixup](containers-and-displays.md#runtime-residence-and-ownership). |
+| Mannequin equipment | Instance and slot selection owned by the mannequin actor. Equipping updates the actor's equipment state using inventory rows. It uses a different mechanism from mounting an item on a display case. [Equipment and save channels](containers-and-displays.md#serialized-joins-and-fixup). |
+| Saved record framing | The byte grammar that determines a record's boundaries and divides optional header fields, queues and body. It gives a safe region to decode. Record type, identity and payload meaning still require supported interpretation. [Framing](access-and-save-framing.md#frame-the-sample-before-interpreting-a-field). |
+| Capability surface | The specific definition, script or configuration route checked for an action. Its status describes the evidence for that route and action, including a declaration or an established consumer where applicable. [Capability matrix](access-and-save-framing.md#capability-and-access-matrix). |
+| Native Papyrus declaration | A script signature marked native that describes an engine-bound operation. The declaration gives the callable name and argument/return contract in that script context. Native registration, installed use and validated external integration each need separate evidence. [Declarations](../audits/outpost-rc1-2026-10/papyrus-interfaces.md). |
 
 ## Electrical state
 

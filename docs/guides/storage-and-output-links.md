@@ -1,5 +1,8 @@
 # Storage and local output links
 
+For display-mounted items and mannequin equipment, see
+[containers and displays](containers-and-displays.md).
+
 Stock belongs to individual object inventories. A Solid, Liquid, Gas or
 Warehouse store can hold several matching item types. A producer can keep its
 output in its own small buffer or create it directly in a downstream store.

@@ -7,6 +7,7 @@ The network and its traversal order then determine which devices fit. This
 account covers the mapped Starfield 1.16.244.0 paths and the qualified Save29
 case. [Power report](../experiments/power/report.md) ·
 [Allocation and switch review](../experiments/power/review.md#focused-allocation-orderswitch-follow-up).
+See [crew and robots](crew-and-robots.md) for generator perk eligibility.
 
 ## Why the same generator can have a different rating
 

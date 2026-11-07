@@ -18,6 +18,11 @@
 - [Cargo links and fuel](cargo.md) maps endpoints, hold, stage clocks, travel and fuel consumption.
 - [Shared Outpost Storage](shared-storage.md) maps backing ownership, source vectors, spending and player persistence.
 - [Locations Stored Resources](stored-resources.md) maps collection, item identity and asynchronous UI delivery.
+- [Crew and robots](crew-and-robots.md) maps quota, charged slots, active entries and load reconstruction.
+- [Outpost defense](defense.md) maps script eligibility, Health channels and repair dispatch.
+- [Containers and displays](containers-and-displays.md) maps item residence, ownership, serialization and fixup.
+- [The Locations outpost panel](locations-ui.md) maps registry admission and independent field providers.
+- [Access and save framing](access-and-save-framing.md) maps capability status, byte domains and reconstruction limits.
 - [Project technical glossary](glossary.md) defines shared research terms
   and identifies historical aliases and context-specific meanings.
 

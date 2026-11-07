@@ -56,4 +56,6 @@ To reproduce the **tracked owner-table total**, or challenge the retained-hab
 interpretation, start with the [identity reference](../reference/identity.md).
 For the beacon's saved site, see [position](position.md). For why one
 construction can consume several units of budget, see [construction](construction.md).
-An extractor's owner link alone does not establish its [production state](resource-generation.md).
+An extractor's owner link alone does not establish its [production state](inorganic-production.md).
+The same Workshop can have separate [crew assignments](crew-and-robots.md)
+and [Locations entries](locations-ui.md).

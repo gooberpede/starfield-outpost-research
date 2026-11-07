@@ -27,6 +27,8 @@ The Kreet beacon-only checkpoint has **one root and seven usage units**.
 Placing a new beacon also has its own player deployment allowance and
 environment gate. [Numerical limits](../experiments/limits/report.md) ·
 [Budget and saved counterexample](../experiments/build-budget/saves.md).
+See [crew and robots](crew-and-robots.md) for robot quota and human slot
+cost, and [defense](defense.md) for turret condition and repair.
 
 ## Why moving the preview can change the result
 

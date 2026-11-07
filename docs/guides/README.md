@@ -21,6 +21,11 @@ behavior, its saved-state boundary and known exceptions.
 - [Cargo links and fuel](cargo.md) follows the shared hold, return freight and inter-system readiness.
 - [Shared Outpost Storage](shared-storage.md) explains fixture access, ingredient sources and spending.
 - [Locations Stored Resources](stored-resources.md) explains eligible inventories, unit totals and refresh.
+- [Crew and robots](crew-and-robots.md) explains assignment, capacity and when skills contribute.
+- [Outpost defense](defense.md) follows attack checks, combat, damage and repair.
+- [Containers and displays](containers-and-displays.md) explains stacks, displayed references and mannequin equipment.
+- [The Locations outpost panel](locations-ui.md) explains badges, system imagery and refresh.
+- [Access and save framing](access-and-save-framing.md) explains where facts come from and what the established interfaces support.
 
 Use the [technical reference index](../reference/README.md) and
 [project glossary](../reference/glossary.md) for implementation detail.

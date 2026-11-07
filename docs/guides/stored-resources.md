@@ -8,6 +8,8 @@ Shared Outpost Storage fixture exposes it.
 
 [Guide index](README.md) · [Technical reference](../reference/stored-resources.md) · [Glossary](../reference/glossary.md#ingredient-providers-and-reporting)
 
+For the other badges and map imagery, see the [Locations panel guide](locations-ui.md).
+
 ## From Workshop member to displayed resource
 
 In the mapped retail 1.16.244.0 path, the collector resolves the registered
