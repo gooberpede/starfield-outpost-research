@@ -205,6 +205,11 @@ offline account; it supplies no retail observer qualification.
 
 ## Remaining decisions and review
 
+The [D5AW proposed disposition register](audits/deferred-work-d5aw/README.md)
+reconciles earlier gaps and later findings against the proposed first release.
+The [preparation sequence](audits/deferred-work-d5aw/publication-plan-amendment.md)
+awaits maintainer review and places inventory and design before any migration.
+
 [RC1 gaps](audits/outpost-rc1-2026-10/gap-reconciliation.md) retain exhaustive
 membership, effective clipping, realized production/freshness and exceptional
 historical questions. Source-scoped static explanations do not need a new live
