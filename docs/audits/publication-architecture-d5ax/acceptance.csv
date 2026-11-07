@@ -1,0 +1,10 @@
+criterion,evidence,review01,review02,review03,correction_or_verification
+AC01,ledger.md,FAIL,FAIL,PASS,Scope and preservation established and recovered required reading verified through applied controls
+AC02,tracked-inventory.csv,PASS,PASS,PASS,Exact frozen path and SHA-256 checks repeated
+AC03,link-analysis.md,FAIL,PASS,PASS,Nine positive and two known-miss fixtures and 200 specific navigation routes
+AC04,claim-evidence-dependencies.csv,FAIL,FAIL,PASS,547 joined edges with claim-specific method inputs and exact C19 and resource witness routes
+AC05,link-analysis.md and evidence-access.md,PASS,PASS,PASS,RR1 and B4 ancestry and current delta including touched-path check and exact F1 candidates
+AC06,architecture.md,FAIL,FAIL,PASS,D5AS denominator and reported procedure separated from comparison and causal coverage
+AC07,archive-plan.md and archive-members.csv,FAIL,PASS,PASS,Seven live governing source exceptions and verified 188 proposed members
+AC08,migration-plan.md,FAIL,PASS,PASS,Actual hosted asset verification and specific derived-data rights choice
+AC09,review.md,NOT TESTED,FAIL,PASS,Exact patch integrity and independent substantive and editorial acceptance for review04

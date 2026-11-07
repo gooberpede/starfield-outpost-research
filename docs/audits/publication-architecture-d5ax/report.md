@@ -1,0 +1,19 @@
+# D5AX publication-tree findings and proposal
+
+**2026-11-07 · Australia/Sydney · Publication NOT READY / NOT CLEARED.**
+
+1. **Q1.** The frozen index and HEAD agree on **3,799 paths**. All tracked worktree files decoded as UTF-8 without NUL and matched their indexed content exactly or after CRLF normalization. They total 70,279,099 worktree bytes. The supplied brief is the single pre-existing untracked exception. The scan found 148,704 reference signals across 70,003 grouped rows, including provenance, previously inventoried references and non-link text. One technical Markdown fragment is demonstrably stale. The selected entry-navigation files had no unresolved detected links. See [detection limits and history](link-analysis.md).
+2. **Q2.** The 26 B1/F1 rows and nine resource-generation deltas have proposed evidence routes. Narrow static claims, reproducible arithmetic, original-save witnesses and historical runtime events need different routes. D5AS's two observed geometry classes require a durable qualification and complete-body comparison route. D5AK/AL and selected live chronology also require bounded historical evidence if cited as independently checkable observations. B4-F1 cannot supply those event epochs. See [evidence access](evidence-access.md).
+3. **Q3.** Put short subsystem guides and a technical reference index ahead of history. Keep experiment reports and their decisive reviews at stable paths. The proposed historical ZIP membership is 188 source documents. Keep 136 eligible sources loose, including the separately identified supplied brief if integrated. Archive citations lead to an index with exact member paths. See [reader architecture](architecture.md) and [archive accounting](archive-plan.md).
+4. **Q4.** Approve claims and structure, synthesize guides, qualify access, then migrate approved material. Test the candidate from an isolated checkout without access to existing private evidence. B6 must separately review the exact release tree, reachable history and asset set. The current delta gives no specific reason to replace ordinary main history. See [decision and execution gates](migration-plan.md).
+
+| Dimension | Current disposition |
+| --- | --- |
+| Scientific adequacy | Existing scoped findings and historical negative results retain their dispositions. D5AW identifies no indispensable new experiment for its proposed bounded science. Selecting broader runtime or persistence claims would require its own evidence decision. |
+| Evidence accessibility | Candidate routes exist for representative witness and source inspection tiers. Exact runtime derivatives, selected portable method chains and some stronger whole-corpus historical statements remain unresolved. |
+| Rights and privacy | Exact excerpts, derived payload, author/contributor wording and eventual asset selection remain reviewable decisions. Prior local-use approval and current marker scans confer no publication authority. |
+| Repository usability | Reader-first layout and archive/member mappings are proposals. Some route targets require current-facing replacements. Reader tests apply after guide and migration implementation. |
+
+Question closure and acceptance status are recorded separately in the [review record](review.md). The default evidence policy remains that the maintainer can discard all local working material after release. Active protected inputs retain the existing operational safeguards.
+
+The tracked census by role is 1,761 experiment reports or derived evidence files, 1,514 research methods or support files, 229 assignments or amendments, 138 audit and review records, 113 directory guides, 34 other research documentation paths and 10 root governance or configuration paths. Last-touch commit and author date are recorded per path. A later editorial touch does not make a historical verdict current.
