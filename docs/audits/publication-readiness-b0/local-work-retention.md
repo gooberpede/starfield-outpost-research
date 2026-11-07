@@ -1,5 +1,14 @@
 # B0 local-work retention and later cleanup
 
+**Prospective boundary, 2026-11-07.** This is the historical B0 procedure.
+The [D5AW maintainer decision](../../DECISIONS.md#d5aw-local-working-evidence-and-publication-independence--2026-11-07)
+supersedes any permanent retention expectation for `.local-work/`. The
+maintainer may discard the whole directory after publication. Active
+investigations and any future agent-executed cleanup retain their applicable
+operational safeguards and scoped authority requirements. External roots
+remain outside this decision. See the
+[publication independence gate](../../PUBLICATION.md#publication-independence).
+
 2026-10-21. **No cleanup authorized.** [WORKFLOW](../../../WORKFLOW.md) and
 [RR1 external-material ledger](../publication-readiness-rr1/external-material.md)
 govern evidence and scratch lifecycles. The brief's approximately 30 GB

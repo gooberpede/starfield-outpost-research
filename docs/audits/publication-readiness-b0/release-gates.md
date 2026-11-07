@@ -1,5 +1,16 @@
 # B0 proposed release gates
 
+**Prospective D5AW requirement, 2026-11-07.** The
+[publication independence gate](../../PUBLICATION.md#publication-independence)
+applies to the historical matrix below. B1 binds selected claims to indispensable
+evidence and transitive dependencies. B3 qualifies independent reproduction and
+B4 confirms exact approved evidence routes. RR1-011's historical local-only
+exception applies prospectively only to nonessential support or provenance.
+B6 verifies procedures, public references and supplementary evidence from a clean
+checkout without access to the existing `.local-work/`. Unresolved indispensable
+dependencies hold the affected claim for explicit maintainer resolution.
+This requirement does not authorize verification or change past verdicts.
+
 2026-10-21. These are acceptance gates for later approved briefs, not execution
 authority. [PUBLICATION](../../PUBLICATION.md) still controls release. Severity
 and one accountable primary disposition for each RR1 finding are in the

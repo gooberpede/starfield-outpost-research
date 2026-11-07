@@ -4,6 +4,45 @@
 
 The project begins privately and must publish completed, reviewed research under `GPL-3.0-or-later`. The first publication scope/build matrix must be explicitly agreed and contain runtime and persistence objectives. The continuing programme may remain broader, but unresolved required topics cannot be silently dropped to declare completion.
 
+The [D5AW proposed preparation sequence](audits/deferred-work-d5aw/publication-plan-amendment.md)
+integrates B0–B6 with a prior tree and reader-architecture inventory, evidence
+access review and historical archive design. See the
+[deferred-work disposition register](audits/deferred-work-d5aw/README.md).
+The sequence remains a proposal. The maintainer's
+[D5AW retention amendment](DECISIONS.md#d5aw-local-working-evidence-and-publication-independence--2026-11-07)
+sets the following prospective publication requirement.
+
+## Publication independence
+
+`.local-work/` is disposable working storage. After publication the maintainer
+may delete the entire directory without notice or any obligation to retain its
+contents. During authorized investigations, existing protected-save and
+experiment-integrity safeguards continue to apply to active inputs and evidence.
+Permanent publication preservation is a separate responsibility.
+
+Trace every selected claim to its indispensable evidence and transitive
+dependencies. Each indispensable artifact needs one verified route before
+publication:
+
+- Inclusion in the tracked public repository.
+- Inclusion in an approved GitHub Release asset.
+- Independent reproduction using publicly available inputs and documented methods.
+
+Classify dependencies by materiality and reproducibility. An indispensable
+artifact may itself be reproducible. Supporting but nonessential historical
+evidence can carry a private provenance locator with explicit access limits.
+A local path, checksum or LOCAL-ONLY label alone does not support an
+indispensable claim dependency. If a required route is unavailable, hold the
+affected claim for explicit maintainer resolution, including narrowing or
+exclusion where needed. Apply all existing rights and privacy requirements.
+
+The future B6 gate requires a clean checkout with no access to the existing
+`.local-work/`. Verify documented reproduction procedures, public references
+and approved supplementary evidence within the stated scope. Separate
+reproducible methods and calculations from documented historical observations
+when exact runtime events cannot be replayed. Give indispensable historical
+evidence an approved durable route. Execution requires a separate release brief.
+
 ## Scientific review
 
 - [ ] Agreed scope/build matrix is recorded, with required questions, exclusions, and acceptance criteria.
@@ -12,7 +51,7 @@ The project begins privately and must publish completed, reviewed research under
 - [ ] Findings link decisive evidence; outside reports, original observations, interpretations, and counterexamples remain distinguishable.
 - [ ] Validation extends beyond discovery examples; actual coverage and untested versions/conditions are clear.
 - [ ] Proposed mod integrations are not presented as tested/safe without their own evidence.
-- [ ] Reproduction instructions work from a clean checkout with authorized prerequisites; unavailable private evidence and consequent limits are disclosed.
+- [ ] Selected claims and transitive dependencies meet the publication-independence gate. Verify the advertised reproduction procedures and supplementary evidence from a clean checkout with no access to the existing `.local-work/`.
 - [ ] Research helpers have source, usage, tests appropriate to their role, and explicit side effects; no unreviewed production promises are implied.
 
 ## Rights, attribution, and privacy review

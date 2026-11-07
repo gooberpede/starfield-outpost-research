@@ -1,5 +1,31 @@
 # Decision Register
 
+## D5AW local working evidence and publication independence — 2026-11-07
+
+The maintainer's follow-up to D5AW prospectively defines `.local-work/` as
+disposable working storage. After publication the maintainer may delete the
+entire directory without notice or a retention obligation. During authorized
+work, existing protected-save and experiment-integrity safeguards continue to
+apply. Those safeguards protect active inputs and evidence from interference.
+They impose no permanent archive obligation on the directory. This decision
+grants no agent cleanup authority and does not extend to external roots.
+
+For each selected public claim, trace indispensable evidence and transitive
+dependencies. Give each indispensable artifact a durable route in the public
+tree, an approved GitHub Release asset or independent reproduction from
+publicly available inputs and documented methods. Missing routes are
+claim-specific publication blockers for explicit maintainer resolution.
+Private provenance, hashes and a LOCAL-ONLY label alone do not satisfy the
+gate. Apply the existing file-specific B4-F1 policy and provisional selection
+through claim-led delta review.
+
+The next inventory starts with selected claims and tracked references.
+The future B6 verification must use a clean checkout with no access to the
+existing `.local-work/`. Earlier findings, dispositions and acceptance
+decisions retain their original scope. This amendment authorizes documentation
+and independent review. See the [publication policy](PUBLICATION.md#publication-independence)
+and [D5AW sequence v2](audits/deferred-work-d5aw/publication-plan-amendment.md).
+
 ## D5AU resource-generation objective — 2026-11-06
 
 The [invoked brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AU_Gameplay_Gap_Closure_Cache_Questions_and_Determinism_Backlog.md)
