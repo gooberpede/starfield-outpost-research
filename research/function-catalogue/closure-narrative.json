@@ -1,0 +1,1108 @@
+[
+  {
+    "va": "0x140b36310",
+    "path": "docs/experiments/active-outpost-identification.md",
+    "line": 52,
+    "label": "Check membership in the reference form-type family"
+  },
+  {
+    "va": "0x141803ba0",
+    "path": "docs/experiments/active-outpost-identification.md",
+    "line": 82,
+    "label": "Name the promoted-reference change flag"
+  },
+  {
+    "va": "0x140f3b300",
+    "path": "docs/experiments/active-outpost-identification.md",
+    "line": 94,
+    "label": "Insert an eligible Workshop handle"
+  },
+  {
+    "va": "0x140f3b500",
+    "path": "docs/experiments/active-outpost-identification.md",
+    "line": 94,
+    "label": "Remove a Workshop handle from the registry"
+  },
+  {
+    "va": "0x140a23de0",
+    "path": "docs/experiments/active-outpost-membership-completion.md",
+    "line": 69,
+    "label": "Read the version-gated ExtraDA fields"
+  },
+  {
+    "path": "docs/experiments/build-budget/ui.md",
+    "line": 43,
+    "va": "0x14143f450",
+    "label": "Publish the Workshop status provider",
+    "detail": "Publishes WorkshopStatusData and subscribes to the summary event.",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/experiments/build-budget/ui.md",
+    "line": 44,
+    "va": "0x14143fa60",
+    "label": "Receive the Workshop summary event",
+    "detail": "The receiver invokes 0x14143f690 on this status data path.",
+    "group": "interfaces"
+  },
+  {
+    "va": "0x1415791a0",
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 12,
+    "label": "Bind the build-category preview icons"
+  },
+  {
+    "va": "0x141581060",
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 12,
+    "label": "Bind build-category variant fields"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 40,
+    "va": "0x141739c50",
+    "label": "Prepare item-card operational data",
+    "detail": "One of the two verified helpers used to obtain inputs and produced resources through temporary form-backed references, including PackIn members. The report describes their shared preparation path.",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 40,
+    "va": "0x14173a9f0",
+    "label": "Prepare item-card operational data",
+    "detail": "One of the two verified helpers used to obtain inputs and produced resources through temporary form-backed references, including PackIn members. The report describes their shared preparation path.",
+    "group": "interfaces"
+  },
+  {
+    "va": "0x1427321d0",
+    "path": "docs/experiments/cargo-links/transport/lifecycle.md",
+    "line": 62,
+    "label": "Accept and retain a flight path",
+    "end_line": 64
+  },
+  {
+    "va": "0x140a32780",
+    "path": "docs/experiments/construction-variants/extensibility.md",
+    "line": 21,
+    "label": "Dispatch replace, remove and add snap operations"
+  },
+  {
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 108,
+    "va": "0x140a1d4c0",
+    "label": "Materialize the PackIn replacement target",
+    "detail": "The inspected replacement route passes the target through this materialization step before linking its generated references to the anchor and Workshop.",
+    "group": "workshop"
+  },
+  {
+    "va": "0x140511680",
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 119,
+    "label": "Store the first original base for later reversion"
+  },
+  {
+    "va": "0x140904d60",
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 134,
+    "label": "Commit both snap endpoint relations"
+  },
+  {
+    "va": "0x140a31400",
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 136,
+    "label": "Resolve and apply automatic snap behavior",
+    "end_line": 138
+  },
+  {
+    "va": "0x140e46d70",
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 142,
+    "label": "Evaluate snap-behavior conditions for the resolved context"
+  },
+  {
+    "va": "0x140f66220",
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 153,
+    "label": "Commit a PackIn snap connection"
+  },
+  {
+    "va": "0x140904560",
+    "path": "docs/experiments/construction-variants/saves.md",
+    "line": 77,
+    "label": "Read the ExtraDE snap relation"
+  },
+  {
+    "va": "0x140511950",
+    "path": "docs/experiments/construction-variants/saves.md",
+    "line": 78,
+    "label": "Resolve the original base on the saved override route"
+  },
+  {
+    "va": "0x140a21d10",
+    "path": "docs/experiments/construction-variants/saves.md",
+    "line": 81,
+    "label": "Copy or merge material-swap metadata"
+  },
+  {
+    "va": "0x1405c2e10",
+    "path": "docs/experiments/construction-variants/saves.md",
+    "line": 82,
+    "label": "Derive the current damage-stage model"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 57,
+    "end_line": 58,
+    "va": "0x141eadb50",
+    "label": "Assign the display menu predicate",
+    "detail": "Configures the bound inventory-menu predicate on the inspected display setup path."
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 155,
+    "end_line": 156,
+    "va": "0x140b67a30",
+    "label": "Continue the inventory transfer visitor chain",
+    "detail": "The independently mapped storage and cargo transfer paths reach this helper between the transfer entry and inventory mutation."
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 201,
+    "end_line": 202,
+    "va": "0x1419aa500",
+    "label": "Unequip and clear the saved row nibble",
+    "detail": "Clears the low nibble of inventory row member +0x20 in the observed unequip route. The live equipment collection is separate."
+  },
+  {
+    "va": "0x1412b6eb0",
+    "path": "docs/experiments/crew-lifecycle/persistence.md",
+    "line": 40,
+    "label": "Read the actor owned-perk rank list",
+    "end_line": 42
+  },
+  {
+    "va": "0x141916b30",
+    "path": "docs/experiments/crew-lifecycle/persistence.md",
+    "line": 40,
+    "label": "Write the Actor private owned-perk channel"
+  },
+  {
+    "va": "0x1412b7020",
+    "path": "docs/experiments/crew-skills/lifecycle.md",
+    "line": 21,
+    "label": "Read the other actor perk-state representation"
+  },
+  {
+    "va": "0x140acc660",
+    "path": "docs/experiments/crew-skills/lifecycle.md",
+    "line": 45,
+    "label": "Read a component of the Actor native suffix"
+  },
+  {
+    "va": "0x141a154d0",
+    "path": "docs/experiments/crew-skills/lifecycle.md",
+    "line": 45,
+    "label": "Read a companion Actor suffix field"
+  },
+  {
+    "va": "0x1405d2d90",
+    "path": "docs/experiments/crew-skills/population.md",
+    "line": 19,
+    "label": "Resolve enabled NPC template parts"
+  },
+  {
+    "va": "0x140306db0",
+    "path": "docs/experiments/crew/current-assignments.md",
+    "line": 110,
+    "label": "Encode a saved reference identity"
+  },
+  {
+    "va": "0x14130fba0",
+    "path": "docs/experiments/crew/current-assignments.md",
+    "line": 116,
+    "label": "Enumerate ship management components for registry serialization",
+    "end_line": 118
+  },
+  {
+    "va": "0x14153e4f0",
+    "path": "docs/experiments/crew/current-assignments.md",
+    "line": 119,
+    "label": "Fill an assigned or unassigned Crew row",
+    "end_line": 121
+  },
+  {
+    "va": "0x14144e220",
+    "path": "docs/experiments/crew/screen.md",
+    "line": 37,
+    "label": "Find or update an existing Crew row"
+  },
+  {
+    "va": "0x14144f510",
+    "path": "docs/experiments/crew/screen.md",
+    "line": 37,
+    "label": "Insert a Crew row in sorted order"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/arithmetic-clocks.md",
+    "line": 38,
+    "va": "0x1417cc1d0",
+    "label": "Schedule the frame update callback",
+    "detail": "The frame loop schedules 0x1417cbbe0 through task and dependency machinery. This scoped edge supplies no general threading or pause contract.",
+    "group": "production"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/arithmetic-clocks.md",
+    "line": 57,
+    "va": "0x141a38840",
+    "label": "Finish the mapped wait-loop tail",
+    "detail": "The inspected tail clears player +0xdd4 and performs cleanup and event work. The complete instruction window shows no additional calendar or production-elapsed call in this tail.",
+    "group": "production"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/arithmetic-review.md",
+    "line": 81,
+    "va": "0x140f329d0",
+    "status": "excluded",
+    "domain": "unrelated-function",
+    "reason": "The original offset-scan review rejects this candidate as unrelated to the cache writer."
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/arithmetic-review.md",
+    "line": 81,
+    "va": "0x140f6f340",
+    "status": "excluded",
+    "domain": "unrelated-function",
+    "reason": "The original offset-scan review rejects this candidate as unrelated to the cache writer."
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 104,
+    "end_line": 105,
+    "va": "0x14078abc0",
+    "label": "Resolve an environmental override before biome fallback",
+    "detail": "This consumer can use atmosphere, world or encounter overrides before the biome fallback."
+  },
+  {
+    "va": "0x1419ce030",
+    "path": "docs/experiments/outpost-defense/attacks.md",
+    "line": 64,
+    "label": "Process an admitted defense target",
+    "end_line": 66
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 26,
+    "va": "0x140b6cee0",
+    "label": "Read the permanent reference actor value",
+    "detail": "The scoped Health route distinguishes this reference vtable method at byte displacement +0x10 from current and base value paths. It adds modifier section zero to base.",
+    "group": "population"
+  },
+  {
+    "va": "0x1405bf6d0",
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 33,
+    "label": "Register BGSDestructibleObject_Component",
+    "end_line": 35
+  },
+  {
+    "va": "0x142065260",
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 74,
+    "label": "Execute the damage object functor"
+  },
+  {
+    "va": "0x14206b1b0",
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 74,
+    "label": "Dispatch the damage-object operation"
+  },
+  {
+    "path": "docs/experiments/power/followup.md",
+    "line": 129,
+    "va": "0x14065be30",
+    "status": "cross-reference",
+    "domain": "export-selection",
+    "alias": "o012",
+    "alias_kind": "export shorthand",
+    "reason": "Original follow-up names the inherited native-r2 export exception at this function."
+  },
+  {
+    "path": "docs/experiments/power/followup.md",
+    "line": 192,
+    "va": "0x1405ccd00",
+    "status": "cross-reference",
+    "domain": "export-selection",
+    "alias": "o012",
+    "alias_kind": "export shorthand",
+    "reason": "Original follow-up names the inherited native-r2 export exception at this function."
+  },
+  {
+    "path": "docs/experiments/power/followup.md",
+    "line": 254,
+    "va": "0x140f7f6f0",
+    "status": "cross-reference",
+    "domain": "export-selection",
+    "alias": "o012",
+    "alias_kind": "export shorthand",
+    "reason": "Original follow-up names the inherited native-r2 export exception at this function."
+  },
+  {
+    "va": "0x140774e00",
+    "path": "docs/experiments/resource-owner-root/validation.md",
+    "line": 58,
+    "status": "excluded",
+    "domain": "roster-only",
+    "reason": "This line records an export selector and recovery from a failed export. It does not document the selected function's research role."
+  },
+  {
+    "va": "0x142340990",
+    "path": "docs/experiments/resource-owner-root/validation.md",
+    "line": 58,
+    "status": "excluded",
+    "domain": "roster-only",
+    "reason": "This line records an xref selector rather than an individually documented research role."
+  },
+  {
+    "va": "0x1409884e0",
+    "path": "docs/experiments/resource-query-reachability/feasibility.md",
+    "line": 61,
+    "label": "Store the raw source pointer in the initial Grid cell slot",
+    "end_line": 63
+  },
+  {
+    "va": "0x14041e7f0",
+    "path": "docs/experiments/resource-query-reachability/feasibility.md",
+    "line": 152,
+    "label": "Initialize the missing readiness entry"
+  },
+  {
+    "va": "0x1409a7ca0",
+    "path": "docs/experiments/resource-query-reachability/feasibility.md",
+    "line": 184,
+    "label": "Reset terrain clip and subscriber state"
+  },
+  {
+    "va": "0x140bf45f0",
+    "path": "docs/experiments/resource-query-reachability/feasibility.md",
+    "line": 235,
+    "label": "Handle CellLoad class 865 source demand"
+  },
+  {
+    "va": "0x1428d1650",
+    "path": "docs/experiments/resource-query-reachability/feasibility.md",
+    "line": 253,
+    "label": "Construct the Jobs2Adaptor and embedded pool"
+  },
+  {
+    "va": "0x1428d2fc0",
+    "path": "docs/experiments/resource-query-reachability/feasibility.md",
+    "line": 253,
+    "label": "Initialize the embedded pool's worker context state"
+  },
+  {
+    "va": "0x1428d3530",
+    "path": "docs/experiments/resource-query-reachability/feasibility.md",
+    "line": 253,
+    "label": "Prepare the embedded pool's worker context allocation"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ab-c2-evidence-matrix.md",
+    "line": 81,
+    "va": "0x1407b1a19",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Preparation-reader destructor witness inside the cleanup path."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ab-c2-evidence-matrix.md",
+    "line": 101,
+    "va": "0x141c8eb10",
+    "status": "excluded",
+    "domain": "unrelated-function",
+    "reason": "CombatPath family identified as a different ownership route."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ab-c2-evidence-matrix.md",
+    "line": 105,
+    "va": "0x142d5d760",
+    "status": "excluded",
+    "domain": "unrelated-function",
+    "reason": "Separate multi-subobject teardown without a geographic-source association."
+  },
+  {
+    "va": "0x140988670",
+    "path": "docs/experiments/resource-retained-population/d5ab-c2-evidence-matrix.md",
+    "line": 123,
+    "label": "Store source slots for fill, edge or corner cells"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ab-c2-evidence-matrix.md",
+    "line": 158,
+    "va": "0x14138d830",
+    "status": "unresolved",
+    "domain": "source-relevance",
+    "reason": "Candidate constructor. Original investigation did not establish its association with the geographic source."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ab-c2-evidence-matrix.md",
+    "line": 180,
+    "va": "0x142c09240",
+    "status": "unresolved",
+    "domain": "source-relevance",
+    "reason": "Candidate constructor. Original investigation did not establish its association with the geographic source."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ab-p1-source-identity-lifetime.md",
+    "line": 138,
+    "end_line": 139,
+    "va": "0x1409868f0",
+    "label": "Return a Grid file-holder value",
+    "detail": "One of the traced helpers that returns a holder value rather than the address of its source field."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ab-p1-source-identity-lifetime.md",
+    "line": 138,
+    "end_line": 139,
+    "va": "0x1409869a0",
+    "label": "Return a paired Grid file-holder value",
+    "detail": "One of the traced helpers that returns a holder value rather than the address of its source field."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ab-p1-source-identity-lifetime.md",
+    "line": 138,
+    "end_line": 139,
+    "va": "0x140986a50",
+    "label": "Return the alternate Grid file-holder value",
+    "detail": "One of the traced helpers that returns a holder value rather than the address of its source field."
+  },
+  {
+    "va": "0x1409518b0",
+    "path": "docs/experiments/resource-retained-population/d5ad-input-provenance.md",
+    "line": 156,
+    "label": "Initialize the relevant terrain module state",
+    "end_line": 158
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ad-load-chronology.md",
+    "line": 25,
+    "va": "0x141881f51",
+    "status": "excluded",
+    "domain": "call-site",
+    "reason": "Bootstrap call to the manager constructor."
+  },
+  {
+    "va": "0x1403a69e0",
+    "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+    "line": 33,
+    "label": "Return the stored game-day value"
+  },
+  {
+    "va": "0x1403a6dd0",
+    "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+    "line": 33,
+    "label": "Copy PlanetWorldSpaceData game-day fields"
+  },
+  {
+    "va": "0x1403a70a0",
+    "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+    "line": 33,
+    "label": "Write the typed world component rows"
+  },
+  {
+    "va": "0x1403a75e0",
+    "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+    "line": 33,
+    "label": "Apply the queued game-day value"
+  },
+  {
+    "va": "0x1403a7910",
+    "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+    "line": 33,
+    "label": "Initialize a world component with a zero-value branch"
+  },
+  {
+    "va": "0x1403a7ee0",
+    "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+    "line": 33,
+    "label": "Queue a current game-day component update"
+  },
+  {
+    "va": "0x14077d960",
+    "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+    "line": 33,
+    "label": "Filter and sort linked worlds"
+  },
+  {
+    "va": "0x140ad80d0",
+    "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+    "line": 33,
+    "label": "Append selected world identities to the auxiliary list"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ae-eligibility-readiness-map.md",
+    "line": 25,
+    "va": "0x14079b770",
+    "status": "excluded",
+    "domain": "call-site",
+    "reason": "Raster loader call inside the generator."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ae-eligibility-readiness-map.md",
+    "line": 33,
+    "end_line": 34,
+    "va": "0x142404230",
+    "label": "Read storage phase consistency",
+    "detail": "The storage reader qualifies phase consistency. Separate readiness predicates govern actual input admission."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-lifecycle-consistency.md",
+    "line": 63,
+    "va": "0x1407b5c78",
+    "status": "excluded",
+    "domain": "call-site",
+    "reason": "Call from the preparation routine to its helper."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 46,
+    "end_line": 47,
+    "va": "0x140995d20",
+    "label": "Release PageTransform preparation state",
+    "detail": "Releases buffers, file references and entry handles in the identified destructor family."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 88,
+    "end_line": 89,
+    "va": "0x1409783c0",
+    "label": "Dispatch the paired inherited GridFile method",
+    "detail": "Installed concrete File tables share this inherited method. Its role is confined to the mapped File family."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 88,
+    "end_line": 89,
+    "va": "0x140978760",
+    "label": "Dispatch the inherited GridFile preparation method",
+    "detail": "Installed concrete File tables share this inherited method. Do not substitute the MultiFiles Grid table."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 94,
+    "end_line": 95,
+    "va": "0x1402d4ce0",
+    "label": "Return the GridFillFile dependency result",
+    "detail": "The installed GridFillFile slot +0x88 binds this target and the documented return is one."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 96,
+    "end_line": 97,
+    "va": "0x14097d080",
+    "label": "Enumerate GridCornerFile dependencies",
+    "detail": "The installed GridCornerFile slot +0x88 identifies this concrete dependency callback."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 96,
+    "end_line": 97,
+    "va": "0x14097d190",
+    "label": "Combine corner terrain ROI payloads",
+    "detail": "The installed GridCornerFile slot +0x90 identifies this concrete numeric callback."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 99,
+    "end_line": 100,
+    "va": "0x140978280",
+    "label": "Protect and publish one prepared GridFile block",
+    "detail": "Uses compare-exchange for this block and invokes its numeric callback before publishing the level bit. This protection has a different owner from the resource population map."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 126,
+    "end_line": 127,
+    "va": "0x1407ac3d0",
+    "label": "Append an accepted PCM preparation record",
+    "detail": "Copies 0x60 bytes of definition, position and identity record into the caller's output blocks."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 142,
+    "end_line": 143,
+    "va": "0x14079ebe0",
+    "label": "Supply geographic phase to prepared density selection",
+    "detail": "Uses the current surface transform and a distinct no-surface fallback."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-resource-map.md",
+    "line": 51,
+    "va": "0x140770114",
+    "status": "excluded",
+    "domain": "instruction-window",
+    "reason": "PNDT seed store inside the loader."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-owner-context-rework.md",
+    "line": 53,
+    "end_line": 54,
+    "va": "0x140477bd0",
+    "label": "Initialize without retaining the incidental owner-field argument",
+    "detail": "Overwrites incoming RCX before any read or call on the mapped path."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-owner-context-rework.md",
+    "line": 106,
+    "va": "0x140787f05",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Landscape table installation site inside the manager construction path."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-population-ending-proof.md",
+    "line": 56,
+    "end_line": 57,
+    "va": "0x1407ab510",
+    "label": "Handle displaced outer-map holder ownership",
+    "detail": "Teardown precedes freeing the displaced holder on final reference release."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-population-ending-proof.md",
+    "line": 57,
+    "end_line": 58,
+    "va": "0x1407abaf0",
+    "label": "Rehash the outer source-pointer map",
+    "detail": "The mapped displaced-holder path can release its final reference. Moving a still-owned pointer is separate."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-population-ending-proof.md",
+    "line": 61,
+    "end_line": 62,
+    "va": "0x1407a5790",
+    "label": "Consume and release a retained population holder",
+    "detail": "The atomic final decrement leads to teardown of the holder payload before outer free."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-population-ending-proof.md",
+    "line": 62,
+    "end_line": 63,
+    "va": "0x1407a9690",
+    "label": "Release a holder reference on cleanup",
+    "detail": "When the atomic old count is one, holder payload teardown precedes freeing the allocation."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-population-ending-proof.md",
+    "line": 65,
+    "va": "0x1407b0145",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Final-reference cleanup in the point consumer."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-source-lifecycle-map.md",
+    "line": 67,
+    "end_line": 68,
+    "va": "0x1407aa9b0",
+    "label": "Reserve a slot for the resource collection",
+    "detail": "The inspected direct caller is the per-cell generator. Reservation and collection-pointer assignment are separate."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-source-lifecycle-map.md",
+    "line": 69,
+    "end_line": 70,
+    "va": "0x1407aabd0",
+    "label": "Assign a reference-counted collection pointer",
+    "detail": "Collection lookup calls this assignment. It replaces a pointer with reference-count changes and does not rewrite surviving region scalars."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-source-lifecycle-map.md",
+    "line": 72,
+    "end_line": 73,
+    "va": "0x1407abc90",
+    "label": "Rehash resource collection entries",
+    "detail": "Moves the FormID and collection pointer and clears the old slot. It does not copy nested contour geometry."
+  },
+  {
+    "va": "0x1409871d0",
+    "path": "docs/experiments/resource-retained-population/d5aj-invalidation-matrix.md",
+    "line": 106,
+    "label": "Read parent Grid cells through the derived Grid"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5am-observer-coverage.md",
+    "line": 45,
+    "va": "0x14079fca3",
+    "status": "excluded",
+    "domain": "instrumentation-site",
+    "reason": "Visited observer checkpoint inside the provider."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5am-observer-coverage.md",
+    "line": 47,
+    "va": "0x1422cc410",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Atomic writer-registration transition, distinct from the containing routine."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md",
+    "line": 73,
+    "va": "0x14079df9b",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Point consumer instruction inside 0x14079df70."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md",
+    "line": 73,
+    "va": "0x1421e09ed",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Area consumer lock call inside 0x1421e07d0."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-atmosphere-native-proof.md",
+    "line": 27,
+    "end_line": 28,
+    "va": "0x1427be8e0",
+    "label": "Dispatch reflected DIFF data",
+    "detail": "Selects the DIFF branch before consuming the root value and binding TypeInfo."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-atmosphere-native-proof.md",
+    "line": 27,
+    "end_line": 28,
+    "va": "0x1427becd0",
+    "label": "Read the reflected DIFF root value",
+    "detail": "Consumes the root u32 and reaches the TypeInfo binding path."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-atmosphere-native-proof.md",
+    "line": 31,
+    "end_line": 32,
+    "va": "0x1408e2df0",
+    "label": "Clear and reserve the bound atmosphere list",
+    "detail": "The concrete TypeInfo slot +0x50 clears the bound count before reserve. A zero count alone does not establish field identity."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-atmosphere-native-proof.md",
+    "line": 31,
+    "end_line": 32,
+    "va": "0x1427c2f90",
+    "label": "Read the reflected LIST count",
+    "detail": "Consumes the LIST prefix and passes its upper u32 count to the concrete TypeInfo method."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-atmosphere-native-proof.md",
+    "line": 71,
+    "end_line": 72,
+    "va": "0x1427bdbd0",
+    "label": "Read the reflection class schema",
+    "detail": "Dispatches CLAS and inserts the parsed object in the exact class-ID map."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-atmosphere-native-proof.md",
+    "line": 82,
+    "end_line": 83,
+    "va": "0x1427c5c70",
+    "label": "Read the reflected enum operand",
+    "detail": "Consumes a checked u16 length and advances by that length."
+  },
+  {
+    "va": "0x1402c5be0",
+    "path": "docs/experiments/resource-retained-population/d5ar-atmosphere-native-proof.md",
+    "line": 113,
+    "label": "Support the executed atmosphere-list allocation control"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-effective-input-gate.md",
+    "line": 68,
+    "va": "0x1406842bd",
+    "status": "excluded",
+    "domain": "call-site",
+    "reason": "Call in the DATA setting reader."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-effective-input-gate.md",
+    "line": 201,
+    "va": "0x140849bf2",
+    "status": "excluded",
+    "domain": "call-site",
+    "reason": "File constructor call in the verified branch."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-identity-investigation.md",
+    "line": 107,
+    "va": "0x14076b4f4",
+    "status": "excluded",
+    "domain": "call-site",
+    "reason": "Virtual destructor invocation inside shutdown."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-identity-investigation.md",
+    "line": 131,
+    "va": "0x14079dff2",
+    "status": "excluded",
+    "domain": "call-site",
+    "reason": "Call to the collection callback inside the point consumer."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-native-investigation.md",
+    "line": 61,
+    "va": "0x1400b2160",
+    "status": "excluded",
+    "domain": "unrelated-function",
+    "reason": "Command-table reconnaissance for a rejected command-reuse approach."
+  },
+  {
+    "va": "0x140c169d0",
+    "path": "docs/experiments/resource-retained-population/d5ar-native-investigation.md",
+    "line": 64,
+    "status": "excluded",
+    "domain": "roster-only",
+    "reason": "Command-table name reconnaissance does not establish a geographic source or outpost mechanism."
+  },
+  {
+    "va": "0x14130fa20",
+    "path": "docs/experiments/resource-retained-population/d5ar-saved-components-proof.md",
+    "line": 28,
+    "label": "Access a unit-6 typed component row"
+  },
+  {
+    "va": "0x14231de80",
+    "path": "docs/experiments/resource-retained-population/d5ar-saved-components-proof.md",
+    "line": 29,
+    "label": "Read existing typed components for reconstruction"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-source-ending-proof.md",
+    "line": 77,
+    "va": "0x140788f1d",
+    "status": "excluded",
+    "domain": "call-site",
+    "reason": "Virtual reset callback invocation inside the reset path."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-source-ending-proof.md",
+    "line": 82,
+    "va": "0x1407898fd",
+    "status": "excluded",
+    "domain": "call-site",
+    "reason": "Virtual module callback invocation inside descriptor cleanup."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5av-investigation-ledger.md",
+    "line": 30,
+    "va": "0x1421e0a46",
+    "status": "excluded",
+    "domain": "call-site",
+    "reason": "Area-update callback invocation within the updater."
+  },
+  {
+    "va": "0x1407b3cd0",
+    "path": "docs/experiments/resource-retained-population/d5s-investigation-ledger.md",
+    "line": 36,
+    "label": "Find existing rectangular resource entries"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-investigation-ledger.md",
+    "line": 61,
+    "va": "0x142426a50",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Original export failed at the missing analyzed function. Later evidence treats the span as an instruction-only window."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5t-investigation-ledger.md",
+    "line": 73,
+    "va": "0x1409e7c65",
+    "status": "excluded",
+    "domain": "instruction-window",
+    "reason": "TINC field reader locator is inside the native instruction interval."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5t/geometry.md",
+    "line": 48,
+    "va": "0x1409e7c65",
+    "status": "excluded",
+    "domain": "instruction-window",
+    "reason": "TINC field reader locator is inside the native instruction interval."
+  },
+  {
+    "va": "0x1409a2380",
+    "path": "docs/experiments/resource-retained-population/d5w-normal-path-model.md",
+    "line": 70,
+    "label": "Dispatch the admitted terrain task",
+    "end_line": 72
+  },
+  {
+    "va": "0x1409a89e0",
+    "path": "docs/experiments/resource-retained-population/d5w-normal-path-model.md",
+    "line": 70,
+    "label": "Process the material stage of the terrain task",
+    "end_line": 72
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5w-normal-path-model.md",
+    "line": 75,
+    "end_line": 76,
+    "va": "0x140991db0",
+    "label": "Construct the PageStitch preparation object",
+    "detail": "One of the paired constructors for the PageStitch and PageTransform preparation objects."
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5w-normal-path-model.md",
+    "line": 75,
+    "end_line": 76,
+    "va": "0x140995630",
+    "label": "Construct the PageTransform preparation object",
+    "detail": "One of the paired constructors for the PageStitch and PageTransform preparation objects."
+  },
+  {
+    "va": "0x14141bc70",
+    "path": "docs/experiments/resource-retained-population/d5w-normal-path-model.md",
+    "line": 90,
+    "label": "Call the bounded terrain query preparation",
+    "end_line": 92
+  },
+  {
+    "va": "0x141422810",
+    "path": "docs/experiments/resource-retained-population/d5w-normal-path-model.md",
+    "line": 90,
+    "label": "Gather current or fallback grid-centre inputs",
+    "end_line": 92
+  },
+  {
+    "va": "0x140596dd0",
+    "path": "docs/experiments/resource-retained-population/d5z-investigation-ledger.md",
+    "line": 58,
+    "label": "Unload the LoadedCellDB entry"
+  },
+  {
+    "va": "0x140bbe250",
+    "path": "docs/experiments/resource-retained-population/d5z-investigation-ledger.md",
+    "line": 58,
+    "label": "Remove cell membership through the worldspace path"
+  },
+  {
+    "va": "0x140bbe590",
+    "path": "docs/experiments/resource-retained-population/d5z-investigation-ledger.md",
+    "line": 58,
+    "label": "Begin removal of the worldspace cell membership"
+  },
+  {
+    "va": "0x1421f6dc0",
+    "path": "docs/experiments/resource-ui-oracle/dataflow.md",
+    "line": 52,
+    "label": "Check category-level entry eligibility"
+  },
+  {
+    "va": "0x1417f8f70",
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 14,
+    "label": "Dispatch the ordinary crafting event job",
+    "end_line": 16
+  },
+  {
+    "va": "0x1414462c0",
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 15,
+    "label": "Refresh the crafting menu ingredient sources",
+    "end_line": 17
+  },
+  {
+    "va": "0x141446bb0",
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 15,
+    "label": "Refresh the paired crafting menu source path",
+    "end_line": 17
+  },
+  {
+    "va": "0x1417faca0",
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 15,
+    "label": "Continue the ordinary crafting job",
+    "end_line": 17
+  },
+  {
+    "va": "0x141613410",
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 21,
+    "label": "Dispatch the Research ingredient evaluation",
+    "end_line": 23
+  },
+  {
+    "va": "0x140b631b0",
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 106,
+    "label": "Copy or sum ingredient source rows"
+  },
+  {
+    "va": "0x1417f8db0",
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 137,
+    "label": "Complete the crafting job",
+    "end_line": 139
+  },
+  {
+    "va": "0x1421f66c0",
+    "path": "docs/experiments/shared-outpost-storage/prerequisites.md",
+    "line": 35,
+    "label": "Evaluate the configured availability nodes",
+    "end_line": 37
+  },
+  {
+    "va": "0x1421f6f00",
+    "path": "docs/experiments/shared-outpost-storage/prerequisites.md",
+    "line": 35,
+    "label": "Evaluate the paired configured node path",
+    "end_line": 37
+  },
+  {
+    "va": "0x140b24da0",
+    "path": "docs/experiments/shared-outpost-storage/shared-inventory.md",
+    "line": 42,
+    "label": "Initialize and retain the player backing store",
+    "end_line": 44
+  },
+  {
+    "va": "0x1407a98b0",
+    "path": "docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/ownership.md",
+    "line": 40,
+    "detail": "The original ownership table gives the function as RVA 0x007a98b0 and associates it with releasing the reference-counted region collection.",
+    "label": "Release the resource collection reference",
+    "group": "geography"
+  },
+  {
+    "va": "0x14079dd50",
+    "path": "docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/review.md",
+    "line": 47,
+    "status": "excluded",
+    "domain": "roster-only",
+    "reason": "This line documents an export request without an individually identified function role."
+  },
+  {
+    "va": "0x1407a9650",
+    "path": "docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/review.md",
+    "line": 47,
+    "status": "excluded",
+    "domain": "roster-only",
+    "reason": "This line documents an export request without an individually identified function role."
+  },
+  {
+    "va": "0x1407a54c0",
+    "path": "docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/review.md",
+    "line": 48,
+    "status": "excluded",
+    "domain": "roster-only",
+    "reason": "This line documents an export request without an individually identified function role."
+  },
+  {
+    "path": "docs/experiments/stored-resources/aggregation.md",
+    "line": 56,
+    "va": "0x14063e4e0",
+    "label": "Receive the prepared default inventory count",
+    "detail": "The caller prepares one for a zero base-entry count before passing it here. The inspected evidence does not establish the constructor's complete default and leveled realization.",
+    "group": "interfaces"
+  }
+]

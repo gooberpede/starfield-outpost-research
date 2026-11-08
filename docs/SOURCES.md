@@ -1,5 +1,13 @@
 # Source Register
 
+## D5BD native function catalogue
+
+The catalogue consolidates existing project-authored function tables and
+original reports. Each retained source row records its exact location.
+Underlying Bethesda code and historical Ghidra rendering retain their
+original access classifications. CPython's standard library and Git support
+local verification. [Original source census and reconciliation](audits/native-function-catalogue-d5bd/README.md).
+
 ## D5AT Save52 mask survey
 
 The [amended census](experiments/resource-retained-population/d5at-active-associations.md)

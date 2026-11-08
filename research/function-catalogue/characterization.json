@@ -1,0 +1,1763 @@
+{
+  "0x1402cb870": {
+    "label": "Find an interned name in the SFTR factory map",
+    "level": "B",
+    "purpose": "Looks up the exact name through the matching key and hash namespace.",
+    "detail": "The lookup uses the interned character pointer and interned-object key. It shares the key namespace with 0x1402d26d0, while the type-number registry follows a different route. A failed name lookup does not qualify other registry namespaces.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 280
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 281
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 283
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-sources.csv",
+        "line": 92,
+        "alias": "D5AD-SV91"
+      }
+    ]
+  },
+  "0x1402cb9f0": {
+    "label": "Release keys and clear the name registry",
+    "level": "B",
+    "purpose": "Clears backing storage on the mapped shutdown path.",
+    "detail": "The known shutdown caller is the forwarding stub at 0x14388f200. The target releases keys and clears backing storage. The original direct-graph trace found no factory insertion in this path. The function remains distinct from the forwarding stub.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 287
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 288
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 289
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 290
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-sources.csv",
+        "line": 150,
+        "alias": "D5AD-SV149"
+      }
+    ]
+  },
+  "0x1402d26d0": {
+    "label": "Insert an interned name and factory in the map",
+    "level": "B",
+    "purpose": "Hashes and compares the name in the exact-name namespace.",
+    "detail": "The mapped insertion hashes the interned character pointer and compares the same interned-object key used by 0x1402cb870. Registration stores the supplied key and factory. Full map layout and safe mutation prerequisites remain open.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 280
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 281
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 282
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-sources.csv",
+        "line": 124,
+        "alias": "D5AD-SV123"
+      }
+    ]
+  },
+  "0x1402d65e0": {
+    "label": "Initialize the native float-setting object",
+    "level": "B",
+    "purpose": "Writes the initial setting and its shadow value.",
+    "detail": "The inspected constructor writes the live float at object byte offset +0x08 and the initializer shadow at +0x10. The authored settings report distinguishes these operands from the loaded setting that the generation path consumes. Neither the constructor nor the loader proves an effective value in a historical session.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 48
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 49
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 50
+      }
+    ]
+  },
+  "0x14039ff30": {
+    "label": "Free the provider's temporary source-list chunks",
+    "purpose": "Releases the caller-owned list storage on the mapped provider cleanup path.",
+    "detail": "At call site 0x1407a0791 the cleanup consumes C and frees chunks through allocator 0x1422cb6b0. The Grid reference release follows separately at 0x1407a079c. List cleanup does not release or retain a raw selected source on its own. Full return convention remains unknown.",
+    "level": "B",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 83
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-sources.csv",
+        "line": 12,
+        "alias": "D5Q-Q05"
+      }
+    ]
+  },
+  "0x140404a10": {
+    "label": "Read the Extra33 mod-instance list",
+    "level": "B",
+    "purpose": "Reads a mod-instance list from ExtraData loader case 0x33.",
+    "detail": "The case dispatch reaches this reader and `0x140406e80`/`0x1418650d0`. The qualified Save52 sample reconciles two queued identities, optional-field masks and the following ExtraData boundary. Full flag coverage, declaration and return remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/configuration-ui/save52.md",
+        "line": 56
+      }
+    ],
+    "theme": "interfaces"
+  },
+  "0x140404cf0": {
+    "label": "Write the Extra33 mod-instance list",
+    "level": "B",
+    "purpose": "Writes the mod-instance list selected by ExtraData writer case 0x33.",
+    "detail": "The paired writer and reader corroborate list framing with optional fields and queued identity operands. In the examined Save52 case, flag `0x02` leads to a compact count of two and zero three-bit masks. That witnesses two queued identities with no optional per-mod bytes for this case. Other flags and the complete writer ABI remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/configuration-ui/save52.md",
+        "line": 56
+      }
+    ],
+    "theme": "interfaces"
+  },
+  "0x1404074a0": {
+    "label": "Clamp destination crew capacity by player command slots",
+    "level": "B",
+    "purpose": "Takes the lesser of effective destination capacity and player command capacity.",
+    "detail": "It calls destination-capacity helper `0x1404073c0` and applies the player's effective `SpaceshipCrewCommandSlots`, with no outpost exemption in the mapped clamp. The Crew menu worker compares occupied plus candidate cost against the result. This is a capacity input to admission, not a roster count or a remaining global pool. General native declaration and return register are unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/crew/capacity.md",
+        "line": 7
+      },
+      {
+        "path": "docs/experiments/crew/capacity.md",
+        "line": 29
+      },
+      {
+        "path": "docs/experiments/crew/functions.csv",
+        "line": 29
+      }
+    ]
+  },
+  "0x1404074f0": {
+    "label": "Check ordinary crew admission",
+    "level": "A",
+    "purpose": "Evaluates destination slots and assignment restrictions before ordinary insertion.",
+    "detail": "Ordinary insertion uses the player-clamped option, while the Crew picker can ask for raw destination capacity. In ordinary nonnegative cases, outpost capacity is the lesser of effective destination slots and effective player command slots. Admission charges the candidate and existing actor costs. The insertion predicate's unsigned subtraction is distinct from the menu worker's positive sum test, so overcapacity behavior cannot be assumed safe. `CrewReassignDisabled` can block reassignment, and the outpost branch omits the final ship-location restriction. General prototype, return register and anomalous input behavior remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/crew/capacity.md",
+        "line": 29
+      },
+      {
+        "path": "docs/experiments/crew/lifecycle.md",
+        "line": 29
+      }
+    ]
+  },
+  "0x1404076b0": {
+    "label": "Insert an actor into Workshop crew membership",
+    "level": "A",
+    "purpose": "Transfers crew membership and writes the actor's keyed assignment.",
+    "detail": "The routine deduplicates the actor handle, applies admission through `0x1404074f0` unless bypassed, resolves the owner and removes membership from a different owner. It appends to destination E2, writes actor CrewAssignment `0x26beac` via `0x140ba0d40`, marks owner change flag `0x80000000` and then notifies. Assignment can precede physical movement or a contributing active perk. The robot's WorkshopItem construction relationship has a separate key. The exact declaration and atomicity across consumers are unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/crew/lifecycle.md",
+        "line": 15
+      },
+      {
+        "path": "docs/experiments/crew/current-assignments.md",
+        "line": 109
+      },
+      {
+        "path": "docs/experiments/robots/lifecycle.md",
+        "line": 35
+      }
+    ],
+    "pseudocode": "Abstraction of the ordinary membership path. Failure, notification and transfer races are omitted.\n\nqualify actor and destination\nif not bypassed, apply admission predicate\nremove old owner membership when different\nappend the actor handle to destination E2\nwrite the actor's keyed assignment and mark the owner changed\nnotify downstream consumers"
+  },
+  "0x1404613d0": {
+    "label": "Register an SFTR factory by interned name",
+    "level": "B",
+    "purpose": "Stores a name key and supplied factory in the name registry.",
+    "detail": "The inspected registration obtains the registry through 0x1404639f0 and inserts through 0x1402d26d0. The direct-caller census distinguishes insertion from consumers that only obtain and operate a factory. Arbitrary indirect installation and runtime registry contents remain outside that census.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 279
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 280
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 282
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 286
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-sources.csv",
+        "line": 94,
+        "alias": "D5AD-SV93"
+      }
+    ]
+  },
+  "0x1404628b0": {
+    "label": "Look up an SFTR factory by interned name",
+    "level": "B",
+    "purpose": "Returns a matching factory or null in the qualified lookup.",
+    "detail": "The mapped loader uses the same name registry that registration populates. It obtains the registry through 0x1404639f0 and reaches 0x1402cb870. The distinct type-number registry does not substitute for this exact-name lookup. The full ABI remains unqualified.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 278
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 279
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 283
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-sources.csv",
+        "line": 90,
+        "alias": "D5AD-SV89"
+      }
+    ]
+  },
+  "0x1404639f0": {
+    "label": "Obtain the SFTR name-factory registry",
+    "level": "B",
+    "purpose": "Supplies the shared registry to registration and loader lookup.",
+    "detail": "The pinned registry is at preferred static VA 0x14620e240. Its mapped lifecycle distinguishes initialization, registration, lookup and shutdown. A registry address does not establish which factories are present at a particular point in load.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 279
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 280
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 285
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 287
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-sources.csv",
+        "line": 91,
+        "alias": "D5AD-SV90"
+      }
+    ]
+  },
+  "0x140463ed0": {
+    "label": "Dispatch a component block by exact name",
+    "level": "B",
+    "purpose": "Routes the named component lookup into the factory registry.",
+    "detail": "The SFTR BFCB path reaches 0x1404628b0 through this dispatch. An unresolved factory name can prevent a component loader from being selected. The full native declaration and indirect registry mutation are unqualified.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 39
+      }
+    ]
+  },
+  "0x140517d60": {
+    "label": "Resolve a keyed reference",
+    "level": "B",
+    "theme": "workshop",
+    "purpose": "Looks up a keyed reference on the path reached by the GetWorkshop callback.",
+    "detail": "The inspected helper checks Extra80 before Extra4C and uses a separate FormID or handle resolution path. The original analysis observed synchronization, and cache effects remain possible. A saved direct edge can differ from the loaded getter result when aliases or defaults intervene. The full declaration and all caller semantics remain unqualified.",
+    "sources": [
+      {
+        "path": "docs/experiments/initial-outpost-system-reconnaissance.md",
+        "line": 90
+      },
+      {
+        "path": "docs/experiments/workshop-membership/dependencies.md",
+        "line": 32
+      }
+    ]
+  },
+  "0x14051ea30": {
+    "label": "Serialize typed ExtraData cases",
+    "level": "A",
+    "purpose": "Dispatches type-specific saved framing for native ExtraData lists.",
+    "detail": "The saver emits linked-list order and uses a type bitset. On mapped E2 it prunes unresolved handles via `0x14040a0d0`, writes a compact count through `0x141868770`, and emits resolving actor FormIDs through saved-identity encoder `0x140306db0`. Case `0x33` calls mod-list writer `0x140404cf0`. Case `0x81` copies the cached pair with its identifiers. These are scoped case descriptions. A runtime handle, a compact saved identity and a physical file offset are separate domains. Outer change/presence flags and type-dependent layouts govern whether these bytes are written. Full dispatch and declaration remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/crew/current-assignments.md",
+        "line": 110
+      },
+      {
+        "path": "docs/experiments/cargo-links/configuration-ui/save52.md",
+        "line": 58
+      },
+      {
+        "path": "docs/experiments/workshop-membership/dependencies.md",
+        "line": 33
+      },
+      {
+        "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+        "line": 48
+      }
+    ],
+    "theme": "interfaces"
+  },
+  "0x140521620": {
+    "label": "Load typed ExtraData cases",
+    "level": "B",
+    "purpose": "Dispatches type-specific ExtraData readers under the containing load framing.",
+    "detail": "Case `0x33` reaches `0x140404a10`, then `0x140406e80` and `0x1418650d0` for the bounded mod-list representation. Case `0x4c` reaches `0x140547c90` and `0x140562ef0` for linked-reference identities whose framing depends on mode. These case locators identify branches of this dispatcher. Full declaration, return and all load cases remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/configuration-ui/save52.md",
+        "line": 58
+      },
+      {
+        "path": "docs/experiments/crew/current-assignments.md",
+        "line": 114
+      }
+    ],
+    "theme": "interfaces"
+  },
+  "0x14053dd30": {
+    "label": "Allocate Workshop ExtraData storage",
+    "level": "B",
+    "theme": "workshop",
+    "purpose": "Requests the documented 0xa0-byte object allocation.",
+    "detail": "The source distinguishes this allocator from the typed constructor at 0x140f4ffc0 and from the reference accessor at 0x140f51350. The allocator's full declaration and all failure branches remain unqualified.",
+    "sources": [
+      {
+        "path": "docs/experiments/workshop-origin-beacon-relocation-persistence.md",
+        "line": 50
+      }
+    ]
+  },
+  "0x1405b9750": {
+    "label": "Construct the packed plugin-file object",
+    "level": "B",
+    "purpose": "Installs the TESPackedFile table after base construction.",
+    "detail": "The constructor calls the TESFile base constructor 0x1405b6340 and installs TESPackedFile table 0x144b29b80. Plugin enumeration uses that dynamic type for the handler file list at byte offset +0x1570. The mapped startup connection precedes the definition and postlink phases. This establishes the file class on the traced route while historical winning overrides remain unqualified.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-input-provenance.md",
+        "line": 69
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-input-provenance.md",
+        "line": 70
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-input-provenance.md",
+        "line": 71
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-input-provenance.md",
+        "line": 72
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-input-provenance.md",
+        "line": 73
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-input-provenance.md",
+        "line": 74
+      }
+    ]
+  },
+  "0x1405e0930": {
+    "label": "Load an SFTR BFCB component block",
+    "level": "B",
+    "purpose": "Resolves a named factory and skips bounded data if none exists.",
+    "detail": "The mapped component block uses exact-name dispatch 0x140463ed0 to 0x1404628b0. If the factory is missing, the loop skips DAT2 through BFCE. The direct registration-name census does not establish the contents of an arbitrary live registry.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 39
+      }
+    ]
+  },
+  "0x140677c50": {
+    "label": "Handle pending and unseen electrical neighbor identities",
+    "level": "B",
+    "purpose": "Promotes an already queued neighbor or evaluates an unseen neighbor's edge.",
+    "detail": "The earlier static contract identified visited, queued and edge checks. The follow-up resolves the intervening branch. An already pending identity moves to the front before the unseen-neighbor edge gate. An earlier queue insertion therefore does not imply FIFO discovery order. Effective connection predicates, actual restored component state and current runtime ordering remain source-scoped.",
+    "sources": [
+      {
+        "path": "docs/experiments/power/followup.md",
+        "line": 75
+      },
+      {
+        "path": "docs/experiments/power/followup.md",
+        "line": 85
+      }
+    ],
+    "theme": "power"
+  },
+  "0x140684160": {
+    "label": "Read the float setting from loaded DATA",
+    "level": "B",
+    "purpose": "Passes the mapped float from the definition record to the native setter.",
+    "detail": "This reader calls 0x140684b30. The definition value is a separate source from the native initializer and the effective loaded value in an unknown session.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 48
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 51
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 52
+      }
+    ]
+  },
+  "0x1406843d0": {
+    "label": "Dispatch loaded setting data",
+    "level": "B",
+    "purpose": "Feeds the typed DATA reader on the mapped setting-load path.",
+    "detail": "The setting lookup feeds this dispatch and the mapped DATA reader 0x140684160. Other record types and the full ABI remain unqualified.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 48
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 50
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 51
+      }
+    ]
+  },
+  "0x1406846f0": {
+    "label": "Resolve the setting by collection and name",
+    "level": "B",
+    "purpose": "Supplies the setting to the native loaded-data dispatch.",
+    "detail": "The pinned collection/name lookup feeds the dispatcher at 0x1406843d0. The traced record and setting objects remain distinct. Full key type, return channel and lifetime requirements remain unqualified.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 48
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 50
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 51
+      }
+    ]
+  },
+  "0x140684b30": {
+    "label": "Write the current float-setting value",
+    "level": "B",
+    "purpose": "Can replace the value supplied by the initializer.",
+    "detail": "The mapped setter has its decisive write at interior instruction 0x140684b43. The generator later consumes the effective setting, subject to its mask and rarity predicates. That does not prove which value won in a historical session. The full native calling declaration remains open.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 48
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 51
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 52
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 55
+      }
+    ]
+  },
+  "0x1406db950": {
+    "label": "Compare ready-tree keys in the paired bound helper",
+    "level": "B",
+    "purpose": "Orders ready keys using unsigned rank followed by unsigned insertion serial.",
+    "detail": "The paired helper 0x1406dd4f0 uses the same ordering. Readiness, registration and actual dispatch have separate decision points. The full native ABI remains unknown.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 88
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 89
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 90
+      }
+    ]
+  },
+  "0x1406dd4f0": {
+    "label": "Compare ready-tree keys in the mapped bound helper",
+    "level": "B",
+    "purpose": "Orders ready keys using unsigned rank followed by unsigned insertion serial.",
+    "detail": "The paired helper 0x1406db950 uses the same rank-then-serial key ordering. Node +0x88 stores the insertion serial. This is a tree-order observation rather than a universal dispatch rule.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 88
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 89
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 90
+      }
+    ]
+  },
+  "0x14077fc20": {
+    "label": "Split local placement into indexed pair and residual",
+    "level": "A",
+    "purpose": "Combines the indexed displacement with reference XYZ and retains the fractional residual separately.",
+    "detail": "In the mapped existing-reference branch, the integer pair difference is scaled by 100 engine position units per fine step and combined with local reference XYZ. The placement state retains the residual at byte offsets +0x20, +0x24 and +0x28. The returned pair is requantized. The later residual consumer traverses and selects integer cells. Continuous spherical embedding and metre units remain unqualified.",
+    "sources": [
+      {
+        "path": "docs/experiments/static-exhaustion/residual-map.md",
+        "line": 29
+      },
+      {
+        "path": "docs/experiments/exact-beacon-planetary-coordinates.md",
+        "line": 63
+      },
+      {
+        "path": "docs/experiments/durable-outpost-center-and-object-transforms.md",
+        "line": 70
+      }
+    ],
+    "pseudocode": "local = 100 * integer_pair_difference + reference_position\nindexed_part, residual = split_into_floor_and_residual(local)\nplacement_state.keep_residual(residual)\nreturn requantized_pair(indexed_part)",
+    "theme": "workshop"
+  },
+  "0x140784730": {
+    "label": "Release the Landscape Grid reference",
+    "level": "B",
+    "purpose": "Decrements the retained Grid reference and dispatches destruction on final release.",
+    "detail": "The provider retains Grid +0x08 for the invocation. This Landscape release and the paired destructor 0x14078faa0 decrement the count. A valid retained Grid reference prevents the mapped final-release destruction while held. Individual source retirement through a separate path has different lifetime conditions.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5r-query-scheduling-map.md",
+        "line": 123
+      }
+    ]
+  },
+  "0x140787830": {
+    "label": "Construct and register the manager's ProcGen owner",
+    "level": "B",
+    "purpose": "Stores the manager's ProcGen pointer and registers it for module dispatch.",
+    "detail": "The mapped constructor writes the pointer at manager `+0x130` and appends that same object to the module vector at `+0x170/+0x178`. This grounds the runtime population owner and reset-dispatch relation. It does not identify a generated region's geographic source or extend its lifetime. The full constructor declaration and every registration prerequisite remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5v-lifecycle-consumer-map.md",
+        "line": 13
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5v-lifecycle-consumer-map.md",
+        "line": 35
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5v-sources.csv",
+        "line": 96
+      }
+    ]
+  },
+  "0x140789ce0": {
+    "label": "Install a runtime manager owner and descriptor",
+    "level": "B",
+    "purpose": "Selects reset or reinitialization behavior from actual owner and component inputs.",
+    "detail": "The mapped owner-install path resets on zero owner, resets an existing nonzero context when owner changes, and tests current versus incoming descriptor component for equal owner. Initialization through `0x14078b030` rebuilds landscape. This context controls the runtime owner, separate from the geographic source fields and per-allocation lifetime. Exact calling contract and all callers remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5v-lifecycle-consumer-map.md",
+        "line": 40
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5v-sources.csv",
+        "line": 107
+      }
+    ]
+  },
+  "0x14079a330": {
+    "label": "Attempt a per-cell generated resource region",
+    "level": "B",
+    "purpose": "Performs a bounded resource-region attempt and can append into the holder's resource collection.",
+    "detail": "Traversal `0x14079c470` reaches this per-cell attempt. The mapped resource key is stored at `0x14079a615`, followed by holder resource lookup and possible insertion. Region append `0x1407ac2f0` returns a collection index or `0xffffffff`. The observed `R12B` marker can be set even after an append failure, so the marker does not establish retained nonempty geometry. The historical register scopes its CRC/MT interpretation to a conditional first gate. General native declaration and complete generation arithmetic remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 154
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 162
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ai-population-ending-proof.md",
+        "line": 84
+      }
+    ]
+  },
+  "0x14079b520": {
+    "label": "Generate regions into a source holder",
+    "level": "A",
+    "purpose": "Uses source-local and geographic query inputs to populate a resource holder.",
+    "detail": "Observed generator operands are `RCX` source, `RDX` source-origin `Int2` pointer, `R8` geographic query pointer, `R9D` owner value, then BIOM and output holder-context pointers at entry `RSP+0x28` and `+0x30`. It resolves the owner's component using the source BIOM key and checks body/raster readiness. Ordinary sample `0x142339340` returns the low nibble in `AL`. That nibble affects an ordinary numeric rarity comparison, with `8` selecting the inactive multiplier. Special generation has a distinct high-nibble path. Successful lookup, sampling and generation-return are weaker observations than retained valid region data. The public function declaration and general return meaning remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 125
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 133
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 148
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ai-population-ending-proof.md",
+        "line": 84
+      }
+    ]
+  },
+  "0x14079f860": {
+    "label": "Provide source population for a terrain query",
+    "level": "A",
+    "purpose": "Selects source contributors and conditionally reuses or constructs a ProcGen population.",
+    "detail": "The observed entry takes ProcGen in `RCX`, the original signed `Int2` pointer in `RDX`, and a caller aggregate output-holder address in `R8`. Density builder `0x1407a1940` and layer worker `0x1407b5160` are qualified callers. The provider retains the Grid, selects a cell and enumerates raw source pointers. A token read from source `+0x68` is checked against the ProcGen visited collection under shared protection, then the unvisited path looks up the full source pointer in the map under exclusive protection. Visited hit and map hit are different outcomes. On map miss a holder is inserted before calling generator `0x14079b520`, and a later visited reserve can fail independently. A retained Grid, map insertion, visited token or provider return alone does not establish the source lifetime or complete nonempty geometry. `RAX` has no validated population-success interpretation.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 59
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 73
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 148
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ah-lifecycle-matrix.md",
+        "line": 38
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ab-native-map.md",
+        "line": 66
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ab-native-map.md",
+        "line": 83
+      }
+    ],
+    "pseudocode": "Abstraction of the ordinary source-population decision. Query preparation, output aggregation and cleanup are omitted.\n\nretain Grid and enumerate the requested cell's sources\nfor each eligible source:\n    if shared_visited_scan(source.token) finds a match:\n        bypass pointer-map lookup for this source\n    else under exclusive ProcGen protection:\n        holder = lookup_by_full_source_pointer(source)\n        if holder is absent:\n            insert holder\n            attempt generation into holder\n            if visited reserve succeeds:\n                store consumed source token"
+  },
+  "0x1407bc3d0": {
+    "label": "Collect a runtime owner's supplemental resource lists",
+    "level": "A",
+    "purpose": "Traverses owner/type components and exchanges ordered supplemental arrays into a root-keyed map.",
+    "detail": "The caller supplies the explicit owner, retained store reader context and its own output map. The range uses owner in the high key bits and the live registered type word. Six nonzero payload words are appended in field order as allocation allows. A nonzero root exchanges the staging array with that root's destination, so repeated root entries can replace the destination and carry the previous array forward. Zero root keeps staging and final cleanup releases leftovers. The resulting component/root order is native container order. It establishes neither historical winning load order nor source-allocation lifetime. Full native declaration and general return are unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-owner-root/native.md",
+        "line": 3
+      },
+      {
+        "path": "docs/experiments/resource-owner-root/native.md",
+        "line": 12
+      }
+    ]
+  },
+  "0x140970830": {
+    "label": "Load SFTR definition data",
+    "level": "B",
+    "purpose": "Dispatches the BFCB block to the component loader.",
+    "detail": "This pinned ESM loader routes BFCB to 0x1405e0930. The separately inspected SFTR changeform slots use base framing with identity and generic flags. The installed ESM route and saved-state route have different inputs and coverage.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 39
+      }
+    ]
+  },
+  "0x140975030": {
+    "label": "Erase a source entry from the ProcGen source map",
+    "level": "B",
+    "theme": "geography",
+    "purpose": "Removes the mapped source-pointer entry for Grid clear or standalone retirement.",
+    "detail": "The receiver is the map at ProcGen +0x10. Grid clear and standalone retirement reach this erase entry. The map mutation and release path do not establish that every separate reference to the source or holder has ended.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 173,
+        "end_line": 186
+      }
+    ]
+  },
+  "0x140982d90": {
+    "label": "Find or allocate a Grid source",
+    "level": "A",
+    "purpose": "Deduplicates or constructs a source object and attempts to publish it to the Grid.",
+    "detail": "In the qualified new-source branch, the allocation is `0x1a0` bytes. Grid `+0x5c` protection surrounds construction. SFBK `+0x00..+0x03`, geographic ancestry `+0x38..+0x63`, and token `+0x68..+0x6f` are initialized before vector publication. These fields and the source pointer are distinct from the ProcGen wrapper identity. A reused object is possible on the dedup path. Allocation failure precedes birth, and a nonnull result need not indicate vector publication after reserve failure. Full declaration, source reachability across all writers, and universal lifetime guarantees remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ab-native-map.md",
+        "line": 42
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ab-native-map.md",
+        "line": 58
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ab-p1-source-identity-lifetime.md",
+        "line": 144
+      }
+    ]
+  },
+  "0x140988ab0": {
+    "label": "Append a raw source pointer to the caller list",
+    "purpose": "Copies one source-pointer value into the caller's temporary chunk list.",
+    "detail": "RCX carries caller list C. RDX points to the source-pointer value, of which the routine copies eight bytes. It allocates a 0x108-byte chunk through C's allocator or uses a spare chunk. EAX reports the prior unsigned 32-bit count. This mutates temporary list storage without acquiring a source reference.",
+    "level": "B",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 81
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-sources.csv",
+        "line": 11,
+        "alias": "D5Q-Q05"
+      }
+    ]
+  },
+  "0x140a23de0": {
+    "label": "Read the version-gated ExtraDA representation",
+    "level": "B",
+    "theme": "interfaces",
+    "purpose": "Consumes the qualified queued identities and conditional fields.",
+    "detail": "The original native-backed membership completion distinguishes ExtraDA's version-dependent grammar from a fixed-size skip. Its queued identities use separate framing from the body fields. Full version and variant coverage remains unqualified.",
+    "sources": [
+      {
+        "path": "docs/experiments/active-outpost-membership-completion.md",
+        "line": 69
+      }
+    ]
+  },
+  "0x140a31400": {
+    "label": "Resolve and apply automatic snap behavior",
+    "level": "B",
+    "theme": "workshop",
+    "purpose": "Dispatches configured snap operations for the connected endpoints.",
+    "detail": "Committed snap connections reach this wrapper on both sides when the action argument permits. It resolves behavior, calls 0x140a31050 with category zero and propagates configured linked children. The entry iterator and action executor remain separate.",
+    "sources": [
+      {
+        "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+        "line": 134,
+        "end_line": 143
+      }
+    ]
+  },
+  "0x140a32780": {
+    "label": "Dispatch an admitted snap variant action",
+    "level": "B",
+    "theme": "workshop",
+    "purpose": "Executes the selected replace, remove or add operation.",
+    "detail": "The inspected dispatcher reads the ENAM action at byte offset +0x30 in the selected entry. ENAM 0 replaces through the type-checked branch, 1 removes the represented object, and 2 adds a node-relative target and links the new representation. ENAM 3 is handled by a separate foundation route. These actions can alter references and their relationships.",
+    "sources": [
+      {
+        "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+        "line": 98,
+        "end_line": 106
+      }
+    ]
+  },
+  "0x140b04ad0": {
+    "label": "Supply elapsed time to the reference movement update",
+    "level": "B",
+    "purpose": "Routes the engine frame delta into the qualified reference movement path.",
+    "detail": "The branch supplies XMM1 to 0x1412aeb90 when the separate Extra9D route has not handled the reference. The delta can incorporate a relative factor for the player's current controlled reference. Calendar ticks and cargo category do not supply this factor.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 99
+      },
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 115
+      }
+    ]
+  },
+  "0x140bbb170": {
+    "label": "Request exterior single-cell preparation",
+    "level": "B",
+    "purpose": "Calls the placement preparation path for one admitted cell.",
+    "detail": "The mapped call site is 0x140bbc380. It reaches 0x140aed020, which passes the cell's Int2 at member +0x58 as both rectangle endpoints. The original exterior, state, owner and placement gates apply. This is one input to regional demand and does not establish an outpost-wide canonical query.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5w-normal-path-model.md",
+        "line": 46
+      }
+    ]
+  },
+  "0x140c228a0": {
+    "label": "Route the separate text-command setting change",
+    "level": "B",
+    "purpose": "Provides a distinct mutation route for the setting.",
+    "detail": "The static command route demonstrates mutability separate from ordinary DATA loading. The experiment did not execute it or determine whether it ran in the historical session.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 48
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 53
+      },
+      {
+        "path": "docs/experiments/resource-installed-settings/settings.md",
+        "line": 54
+      }
+    ]
+  },
+  "0x140f3bfc0": {
+    "label": "Test the resolved Locations exclusion keyword",
+    "level": "B",
+    "purpose": "Tests a reference for the resolved WorkshopUseDecorateTextKeyword default object.",
+    "detail": "The inspected path reaches the reference's keyword interface at +0x68 and dispatches through virtual byte displacement +0x08 with the object from global 0x145f0c6d0. The later LO1 constructor and definition join identify the default object and confirm DFOB 0x003e4f4a to KYWD 0x003e4f4b. This resolves the original register's keyword uncertainty for the mapped build and qualifies the exclusion when the default resolves as KYWD. Global membership or player-control authority remains open.",
+    "sources": [
+      {
+        "path": "docs/experiments/locations-outpost/native-and-ui.md",
+        "line": 32
+      },
+      {
+        "path": "docs/experiments/locations-outpost/native-and-ui.md",
+        "line": 38
+      }
+    ],
+    "theme": "interfaces"
+  },
+  "0x140f3dd50": {
+    "label": "Fold eligible crew power additions per generator",
+    "level": "A",
+    "purpose": "Dispatches DB entries for eligible assigned actors and can invalidate failed E2 handle slots.",
+    "detail": "Caller `0x140669880` applies a preliminary base-plus-modifiers power gate. The fold visits E2 actors under the mapped state gates and accumulates DB additions per generator, with no separate player dispatch in this path. For a failed actor resolution it overwrites the actual E2 slot with invalid handle from `DAT_1461fae94`, unlike A1's local lookup. For the checked robot definition, rating bands use generator base rating. Neither an assignment nor a positive computed rating alone proves active entries, fuel, delivered power or a consumer allocation. Full declaration remains unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/robots/effects.md",
+        "line": 53
+      },
+      {
+        "path": "docs/experiments/robots/effects.md",
+        "line": 58
+      },
+      {
+        "path": "docs/experiments/robots/lifecycle.md",
+        "line": 66
+      }
+    ]
+  },
+  "0x140f3f9a0": {
+    "label": "Fold final placement admission into candidate status",
+    "level": "B",
+    "theme": "workshop",
+    "purpose": "Updates the selected candidate status after spatial, resource and quota checks.",
+    "detail": "The final route folds support, collision, resource, territory and L1/L2 checks into frame +0x193. Restricted location or disagreeing location/encounter contexts can produce 0x16. The budget gate supplies 0x1e, and category full supplies 0x1f. Later assignments can override earlier statuses. A specific historical candidate's operands remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/spatial-placement/native.md",
+        "line": 69,
+        "end_line": 75
+      },
+      {
+        "path": "docs/experiments/spatial-placement/native.md",
+        "line": 92,
+        "end_line": 109
+      },
+      {
+        "path": "docs/experiments/build-budget/native.md",
+        "line": 104,
+        "end_line": 110
+      },
+      {
+        "path": "docs/experiments/limits/native.md",
+        "line": 36,
+        "end_line": 40
+      }
+    ]
+  },
+  "0x140f4ffc0": {
+    "label": "Construct typed Workshop ExtraData",
+    "level": "B",
+    "theme": "workshop",
+    "purpose": "Initializes the concrete type and its compensation fields.",
+    "detail": "The constructor writes type byte 0xbc at +0x12, installs the Workshop ExtraData vtable and initializes +0x60/+0x68 from the verified zero constant. Allocation and guarded access are distinct functions.",
+    "sources": [
+      {
+        "path": "docs/experiments/workshop-origin-beacon-relocation-persistence.md",
+        "line": 50
+      }
+    ]
+  },
+  "0x140f51350": {
+    "label": "Get typed Workshop ExtraData from a qualified reference",
+    "level": "B",
+    "theme": "workshop",
+    "purpose": "Checks the reference and obtains Workshop ExtraData through the reference's extra list.",
+    "detail": "The inspected accessor checks activator type and keyword and reads the extra list at reference +0xc8. The source qualifies the create-enabled path separately. A successful lookup alone does not establish player ownership.",
+    "sources": [
+      {
+        "path": "docs/experiments/workshop-origin-beacon-relocation-persistence.md",
+        "line": 50
+      },
+      {
+        "path": "docs/experiments/terran-armada-outpost-recon/native.md",
+        "line": 45,
+        "end_line": 52
+      }
+    ]
+  },
+  "0x140f7bd20": {
+    "label": "Fold assigned actor and player production-timer modifiers",
+    "level": "A",
+    "purpose": "Applies eligible A1 entries to the current producer interval.",
+    "detail": "The timer enumerates the supplied Workshop E2 actors. It resolves each actor and gates by life state and Health, then dispatches `0x140c94060` and `0x140c93cf0` with active storage, assignment environment 2, selected-rank and producer context checks. Operation 3 `0x140c94430` multiplies the accumulating duration. Player dispatch follows the actor fold. Failed actor resolution retains the E2 slot on this path, unlike DB. Its interval is consumed at scheduler reset and does not itself create inventory. Full declaration and general caller population remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/robots/effects.md",
+        "line": 44
+      },
+      {
+        "path": "docs/experiments/robots/lifecycle.md",
+        "line": 66
+      },
+      {
+        "path": "docs/experiments/inorganic-extractors/production-native.md",
+        "line": 73
+      }
+    ]
+  },
+  "0x140f7d120": {
+    "label": "Evaluate current producer eligibility reason",
+    "level": "A",
+    "purpose": "Selects a current production reason, with a charged-pad exception in mode 0.",
+    "detail": "The mapped routine checks activation/invalid state, halt, applicable power and other producer reasons. For a pad outside builder/extractor/generator categories, mode 0 with charge 2 bypasses the ingredient cap. Otherwise the admission-only cap `0x140f7f6f0` with null output vector and one requested cycle must find a cycle or reason 7 results. The Papyrus bridge `0x14206ab30` tests mode 0 reason against zero, whereas `0x140f7f1e0` passes mode 1 to force an ingredient recheck on its qualified path. The evaluator is distinct from the later stock-removal request. Exact declaration and unqualified reason semantics remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/fuel/native.md",
+        "line": 40
+      },
+      {
+        "path": "docs/experiments/cargo-links/fuel/native.md",
+        "line": 49
+      },
+      {
+        "path": "docs/experiments/inorganic-extractors/production-native.md",
+        "line": 140
+      }
+    ]
+  },
+  "0x140f7d6a0": {
+    "label": "Request due producer work and ingredient removal",
+    "level": "A",
+    "purpose": "Caps production to available ingredients and issues removal requests for a fueled cargo pad.",
+    "detail": "For a configured fueled pad, classification `0x140f7d030` and cap `0x140f7f6f0` produce removal rows. Each row is stride `0x10` with source handle `+0x00`, quantity `+0x04`, ingredient pointer `+0x08`. After ingredient-to-product resolution, source virtual displacement `+0x458` issues removal. The ordinary pinned recipe consumes five He-3 per accepted cycle on successful removal. A null product suppresses receiving output without canceling this withdrawal. Qualified callers are the shared scheduler and load-event pending replay `0x140f8c580`. The reviewed ship timer paths did not directly call it. Concurrent changes, removal failure behavior and a complete declaration remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/fuel/native.md",
+        "line": 49
+      },
+      {
+        "path": "docs/experiments/cargo-links/fuel/native.md",
+        "line": 120
+      }
+    ]
+  },
+  "0x140f7ef20": {
+    "label": "Update registered Workshop producers",
+    "level": "A",
+    "purpose": "Passes caller-supplied elapsed time to producer rows for resolvable registered Workshops.",
+    "detail": "The mapped elapsed scalar arrives in `XMM1`. The function snapshots Workshop handles at `0x145916528`/`0x145916530`, resolves ExtraBC and obtains ExtraE2 before dispatching the producer updater `0x140f7f1e0`. The frame, wait/sleep and travel callers supply distinct conversions. A registered and resolvable owner is required in the mapped traversal. The general return meaning, full declaration and exact behavior for every unloaded object are unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/inorganic-extractors/arithmetic-clocks.md",
+        "line": 8
+      },
+      {
+        "path": "docs/experiments/inorganic-extractors/arithmetic-clocks.md",
+        "line": 16
+      },
+      {
+        "path": "docs/experiments/inorganic-extractors/production-native.md",
+        "line": 81
+      }
+    ]
+  },
+  "0x140f7f1e0": {
+    "label": "Advance one shared Workshop production schedule",
+    "level": "A",
+    "purpose": "Computes due cycles and conditionally dispatches production before refreshing interval state.",
+    "detail": "A row has stride `0x1c` with handle `+0x00`, base `+0x04`, integer pending bookkeeping `+0x08`, registration quantity `+0x0c`, binary32 remaining and interval at `+0x10/+0x14`, and cached eligibility `+0x18`. For positive interval with elapsed at least the interval, it uses truncated elapsed divided by interval without first subtracting remaining. Otherwise it subtracts elapsed from remaining and schedules one due cycle when nonpositive. The resolved-producer loop rechecks mode 1 reason `0x140f7d120` and only reason zero reaches `0x140f7d6a0`. A due-path reset refreshes both timer fields with effective modifiers and does not carry arbitrary phase or debt. An unresolved handle follows separate sentinel and integer-bookkeeping logic. Extractors, fabricators and fueled cargo markers share this scheduler in the cited paths. Full native declaration, universal timebase and extreme-float behavior remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/inorganic-extractors/arithmetic-clocks.md",
+        "line": 79
+      },
+      {
+        "path": "docs/experiments/inorganic-extractors/arithmetic-clocks.md",
+        "line": 113
+      },
+      {
+        "path": "docs/experiments/inorganic-extractors/production-native.md",
+        "line": 117
+      },
+      {
+        "path": "docs/experiments/fabricators/reuse.md",
+        "line": 15
+      },
+      {
+        "path": "docs/experiments/cargo-links/fuel/native.md",
+        "line": 36
+      }
+    ],
+    "pseudocode": "Abstraction of ordinary row timing. Omitted cases include unresolved bases, nonzero reason bookkeeping and invalid floating-point inputs.\n\nif interval > 0 and elapsed >= interval:\n    due = truncate(elapsed / interval)\nelse:\n    remaining = remaining - elapsed\n    due = 1 if remaining <= 0 else 0\nif due and producer resolves:\n    for each registered iteration:\n        if current_reason(mode = 1) == 0:\n            request_production(due)\n    refresh remaining and interval from current timer"
+  },
+  "0x140f8c580": {
+    "label": "Replay eligible pending production on object load",
+    "level": "B",
+    "purpose": "Conditionally dispatches pending production for the matching producer row.",
+    "detail": "In the mapped true object-loaded branch, the routine matches the current producer handle and refreshes cached eligibility. It sends a nonzero pending batch to 0x140f7d6a0 only when eligible, then clears the pending count either way. A missing row can lead to registration. Recovery of a stale sentinel row remains unqualified. For cargo, this is the other mapped direct caller of the production boundary, alongside the elapsed scheduler. Its admission does not represent a voyage debit.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/fuel/native.md",
+        "line": 124
+      },
+      {
+        "path": "docs/experiments/local-output-links/lifecycle.md",
+        "line": 61
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ah-extractor-continuity.md",
+        "line": 83
+      }
+    ],
+    "theme": "production"
+  },
+  "0x1412aeb90": {
+    "label": "Resolve and dispatch a reference movement controller",
+    "level": "B",
+    "purpose": "Checks the reference and resolves an Actor or component controller before update dispatch.",
+    "detail": "The mapped gates involve reference member +0x730 and 0x1412ac500. At the virtual reference dispatch, R8 holds the controller and XMM1 the saved delta. The primary-table resolution leads to 0x1412aee90. Return semantics and other receivers are unqualified.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 100
+      }
+    ]
+  },
+  "0x1412aee90": {
+    "label": "Forward elapsed time through the reference movement wrapper",
+    "level": "B",
+    "purpose": "Retains a floating elapsed input through preliminary state work.",
+    "detail": "The mapped wrapper retains XMM1 in XMM6, then supplies the elapsed scalar in XMM2 to 0x1412af0e0. This operand observation does not establish the complete wrapper ABI.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 101
+      }
+    ]
+  },
+  "0x1412af0e0": {
+    "label": "Pass frame delta to the controller update slot",
+    "level": "B",
+    "purpose": "Moves the floating elapsed operand into the virtual controller update.",
+    "detail": "The call path preserves XMM2 in XMM7 and puts it in XMM1 before the indirect call through controller vtable byte displacement +0x18. The admitted common consumer is 0x1427342e0. Other vtables and return behavior remain unqualified.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 98
+      },
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 103
+      }
+    ]
+  },
+  "0x141360e80": {
+    "label": "Build the Locations outpost aggregate and displayed maximum",
+    "level": "A",
+    "purpose": "Filters registered Workshop references and copies live summary lanes into Locations rows.",
+    "detail": "The adapter reads handle storage `0x145f0ba80` and count `0x145f0ba78`. Row admission resolves the handle, rejects positive `0x140f3bfc0`, and requires ACTI `0x1e`, the Workshop keyword and ExtraBC. It requests type 5 refresh and pumps `0x1421ba960`, then copies summary lanes from ExtraBC `+0x7c..+0x93` and the name at `+0x70` into a 72-byte aggregate. For a valid AVIF in `0x145f0c570`, the displayed maximum uses truncated player base `0x141976dc0` output. Missing/wrong-type default leaves zero. Queued receiver `0x141361c10` moves the maximum and vector onward. This has no general active-player ownership guarantee, and the refresh does not certify settled inventories. Full prototype and return meaning are unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/locations-outpost/native-and-ui.md",
+        "line": 17
+      },
+      {
+        "path": "docs/experiments/locations-outpost/native-and-ui.md",
+        "line": 32
+      },
+      {
+        "path": "docs/experiments/locations-outpost/native-and-ui.md",
+        "line": 41
+      },
+      {
+        "path": "docs/experiments/locations-outpost/native-and-ui.md",
+        "line": 69
+      }
+    ],
+    "pseudocode": "Abstraction of row admission and maximum calculation. Queue and cache internals are omitted.\n\nfor each handle in the Locations registry:\n    resolve reference\n    when valid, not excluded, and ACTI with Workshop keyword and ExtraBC:\n        request summary refresh and pump its service\n        append copied summary lanes and name\nmaximum = 0\nif the default maximum actor value is a valid AVIF:\n    maximum = truncate(player_base_value(default_maximum))\nqueue rows and maximum",
+    "theme": "interfaces"
+  },
+  "0x141361c10": {
+    "label": "Receive queued Locations outpost rows",
+    "level": "B",
+    "purpose": "Rebuilds the outpost entry list and forwards its stored maximum to the provider.",
+    "detail": "The receiver rebuilds entries and transfers aggregate `+0x18` to `iMaxOutposts`. `0x141364550` binds the list and maximum, and the mapped UI numerator is its entry count. ExtraBC source computations remain separate from this adapter. Native queue ABI, return and exceptional branches remain unknown. The Stored Resources route also rebuilds resource entries, sorts them by name through 0x14136a980 and inserts each count at the same index through 0x141369750. The shared receiver therefore preserves alignment of the parallel resource and count arrays.",
+    "sources": [
+      {
+        "path": "docs/experiments/locations-outpost/native-and-ui.md",
+        "line": 52
+      },
+      {
+        "path": "docs/experiments/locations-outpost/native-and-ui.md",
+        "line": 69
+      },
+      {
+        "path": "docs/experiments/stored-resources/provider.md",
+        "line": 58,
+        "end_line": 66
+      }
+    ],
+    "theme": "interfaces"
+  },
+  "0x141578500": {
+    "label": "Build AreaResources UI rows",
+    "level": "B",
+    "purpose": "Reads three shared area ranges, then constructs typed resource rows.",
+    "detail": "The mapped UI consumer reads three shared ranges, makes a local identity list and builds typed rows. This is downstream of the Workshop area update and distinct from the selected harvester's population gate at `0x1421f68f0`. The output contract provides read and union windows. Full parameter types, return meaning and retail reachability across other UI paths remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/native-availability-map/output-contract.md",
+        "line": 58
+      }
+    ]
+  },
+  "0x141809400": {
+    "label": "Read the compact change-record count",
+    "level": "B",
+    "theme": "interfaces",
+    "purpose": "Supplies the count grammar used by the native framing walker.",
+    "detail": "The original R3 framing follows the installed compact-count reader and validates record boundaries independently of the outpost membership classifier. The full native declaration remains unqualified.",
+    "sources": [
+      {
+        "path": "docs/experiments/active-outpost-identification.md",
+        "line": 38,
+        "end_line": 48
+      }
+    ]
+  },
+  "0x141814220": {
+    "label": "Serialize the native save payload",
+    "level": "B",
+    "purpose": "Uses a caller-held context and file/storage object in the mapped serializer path.",
+    "detail": "The observed caller uses `RCX` pointing to a stored object pointer, `RDX` service reference, `R8` original file/storage object and `R9` generated name buffer. The entry dereferences `RCX` and atomically ORs bit `4` into object `+0x3a8`. The diagnostic and observed edge support the serialization role. The body is incompletely characterized, and the diagnostic's apparent completion precedes additional storage activity. Return, complete ABI and durability remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+        "line": 41
+      },
+      {
+        "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+        "line": 48
+      },
+      {
+        "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+        "line": 104
+      }
+    ]
+  },
+  "0x1418286f0": {
+    "label": "Write the type-9 saved-destination frame",
+    "level": "B",
+    "purpose": "Pairs with the type-9 global-data reader.",
+    "detail": "The writer corroborates the destination framing selected by case 9 of 0x141825e00. The inspected offline Save52 reconstruction qualifies a 60-byte prefix and leaves the later tail opaque. No universal round-trip or native callable declaration is established.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-destination.md",
+        "line": 20
+      }
+    ]
+  },
+  "0x141829ec0": {
+    "label": "Load the type-9 saved-destination frame",
+    "level": "B",
+    "purpose": "Receives native global-data dispatch case 9.",
+    "detail": "The loader handles the world/destination prefix, local position and conditional planetary or alternate-reference data in the cited path. A common buffer operation handles later data. The qualified Save52 prefix is distinct from the complete native body and from case 7 PCM state.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-destination.md",
+        "line": 18
+      }
+    ]
+  },
+  "0x14182d350": {
+    "label": "Read the type-9 saved-destination world prefix",
+    "level": "B",
+    "purpose": "Resolves the initial saved world token through legacy identity and type checks.",
+    "detail": "The inspected prefix reads a saved world token and checks TESWorldSpace. The qualified Save52 token is null. The complete type-9 loader and its later buffer processing are distinct. Other sample or buffer-version paths remain unqualified.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-destination.md",
+        "line": 41
+      }
+    ]
+  },
+  "0x14183c590": {
+    "label": "Request a save through the ordinary native UI path",
+    "level": "B",
+    "purpose": "Handles a build-pinned save request candidate and invokes save preparation.",
+    "detail": "The ordinary new-slot UI edge calls with manager in `RCX`, zero in `RDX`, slot candidate `-1` in `R8D`, zero in `R9D`. Additional mapped paths suggest optional name data in `RDX`, with the option in `R9D` unresolved. The entry checks manager state, calls preparation `0x14183c830`, and participates in serialization/finalization. `AL` is bool-like on the mapped path and does not establish disk durability. The source has an independently checked direct call site `0x14166c1be`, distinct from the entry. General threading, storage and invocation contracts remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+        "line": 37
+      },
+      {
+        "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+        "line": 48
+      },
+      {
+        "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+        "line": 104
+      }
+    ]
+  },
+  "0x14185e180": {
+    "label": "Read the change-record framing header",
+    "level": "B",
+    "theme": "interfaces",
+    "purpose": "Reads the native header used by the R3 framing model.",
+    "detail": "The optional header byte is a buffer-version override. Later original analysis corrected the prior type interpretation and follows propagation into LoadBuffer. This does not establish form or membership semantics for the framed record.",
+    "sources": [
+      {
+        "path": "docs/experiments/active-outpost-identification.md",
+        "line": 38,
+        "end_line": 48
+      },
+      {
+        "path": "docs/experiments/workshop-population/routes.md",
+        "line": 18
+      }
+    ]
+  },
+  "0x1418b1eb0": {
+    "label": "Write global type-7 PlanetContentManager state",
+    "level": "B",
+    "purpose": "Serializes the PCM seed, maps and subsequent type-7 fields.",
+    "detail": "The writer serializes the PCM seed at byte offset +0x420 and distinct PNDT and world-keyed maps at +0x360 and +0x3e0, with two triples and a version-gated final ID list. The mapped global type-7 frame is separate from type-9 saved destination and from resident ProcGen contours.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 40
+      }
+    ]
+  },
+  "0x1418b22c0": {
+    "label": "Restore global type-7 PlanetContentManager state",
+    "level": "B",
+    "purpose": "Restores saved PCM fields and reconstructs typed references under version and resolution gates.",
+    "detail": "The loader restores the seed, PNDT map, world map, two triples and version-gated ID list. Mapped nested readers apply remapping and type checks and can filter failed resolutions. The exact offline Save52 frame corroborates the wire fields without establishing live resolution or demand order.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 40
+      }
+    ]
+  },
+  "0x1418bab90": {
+    "label": "Write PNDT-keyed PCM content map",
+    "level": "B",
+    "purpose": "Serializes the type-7 map of planetary content blocks.",
+    "detail": "The verified function window identifies the PNDT-keyed content-map writer. It is separate from the map keyed by world tokens. Global type 7 writes both in the scoped PCM contract.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-sources.csv",
+        "line": 100
+      }
+    ]
+  },
+  "0x1418bad70": {
+    "label": "Write world-token-keyed PCM placement map",
+    "level": "B",
+    "purpose": "Serializes the type-7 map of world placements.",
+    "detail": "The verified function window identifies the world-token-keyed placement-map writer. The global type-7 contract keeps this map separate from PNDT content blocks. The recorded save layout does not establish live world resolution.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-sources.csv",
+        "line": 101
+      }
+    ]
+  },
+  "0x141eb01a0": {
+    "label": "Check display-specific transfer eligibility",
+    "level": "B",
+    "purpose": "Distinguishes store and take routes before display inventory movement.",
+    "detail": "Store direction 0 recognizes the target through 0x1412fe780. Unless the carousel predicate applies, 0x1412fea50 simulates reservations on a copy of the component lists and repeatedly calls 0x1404321f0. That bounds quantity, with zero compatible slots selecting cannot-store feedback. Take direction 1 selects owner and crime mode and may update selected stack extras. Earlier menu mode, callable and capacity checks have separate gates. The full prototype and status enumeration remain unqualified.",
+    "sources": [
+      {
+        "path": "docs/experiments/containers-displays/native.md",
+        "line": 62
+      },
+      {
+        "path": "docs/experiments/containers-displays/native.md",
+        "line": 143
+      }
+    ]
+  },
+  "0x141fb3710": {
+    "label": "Service VM game-time timer delivery",
+    "level": "A",
+    "purpose": "Suppresses delivery during the mapped wait/sleep flag and resumes dispatch of pending deadlines.",
+    "detail": "The game-time path checks the player wait/sleep field `+0xdd4`. Calendar and Workshop production can advance through their own callers while delivery is suppressed. Afterwards each due one-shot can enqueue once. The cargo scripts rearm later stages from then-current time, so the reviewed freight chain does not replay every missed voyage. This distinguishes the VM service from the producer scheduler and fuel withdrawal. Exact interface and ordering across all travel and concurrent states remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/transport/lifecycle.md",
+        "line": 104
+      },
+      {
+        "path": "docs/experiments/cargo-links/transport/report.md",
+        "line": 20
+      }
+    ]
+  },
+  "0x142008540": {
+    "label": "Add an unassigned actor to availability",
+    "level": "B",
+    "purpose": "Admits a nonnull actor without current assignment to the available roster.",
+    "detail": "The crew report maps this routine to available actor registration and describes the null and currently-assigned rejection conditions. It is separate from transfer into a destination E2. Its historic crew-table ID `SOR-FN-0062` collides with the Workshop region callback's register ID. The native declaration, return and all add/remove symmetry remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/crew/report.md",
+        "line": 67
+      },
+      {
+        "path": "docs/experiments/crew/functions.csv",
+        "line": 66
+      }
+    ]
+  },
+  "0x142068d70": {
+    "label": "Bridge script AssignCrew with admission bypass",
+    "level": "B",
+    "purpose": "Obtains the owner's E2 and calls shared membership insertion with its bypass option.",
+    "detail": "This script bridge is exercised by the mapped robot placement path. It creates or obtains the owner's E2, then calls `0x1404076b0` with bypass. The documented void return cannot establish ordinary UI admission. Construction owner and crew membership remain separate, and membership alone does not confer active A1 or DB entries. Full ABI details remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/robots/lifecycle.md",
+        "line": 35
+      },
+      {
+        "path": "docs/experiments/crew/capacity.md",
+        "line": 43
+      },
+      {
+        "path": "docs/experiments/robots/effects.md",
+        "line": 39
+      }
+    ]
+  },
+  "0x14206ab30": {
+    "label": "Bridge cargo readiness to producer eligibility",
+    "level": "B",
+    "purpose": "Checks whether the mapped pad passes mode 0 producer eligibility for ship script use.",
+    "detail": "The native bridge passes mode 0 to `0x140f7d120` and reports reason zero as readiness. In that mode the charged-pad exception can skip the cap after earlier gates. A readiness result does not debit the recipe or establish an in-flight charge. Full bridge argument types and native return register have not been independently qualified here.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/fuel/native.md",
+        "line": 43
+      },
+      {
+        "path": "docs/experiments/cargo-links/transport/lifecycle.md",
+        "line": 93
+      }
+    ]
+  },
+  "0x142073cf0": {
+    "label": "Forward the registered GetWorkshop callback",
+    "level": "B",
+    "theme": "workshop",
+    "purpose": "Supplies a registered Workshop key and forwards into the keyed reference lookup.",
+    "detail": "The bound entry reads the source member at R8 plus 0xc8, takes the key for RDX from global 0x145f0b3d8, clears R8 and tail-jumps to 0x140517d60. The pinned registration and byte window establish the stub boundary. The original analysis records an instruction label at that address. The native lifetime and external invocation contract remain unqualified.",
+    "sources": [
+      {
+        "path": "runtime/exp0002/STATIC-CONTRACT.md",
+        "line": 16
+      },
+      {
+        "path": "docs/experiments/initial-outpost-system-reconnaissance.md",
+        "line": 90
+      },
+      {
+        "path": "docs/experiments/workshop-membership/dependencies.md",
+        "line": 29
+      }
+    ]
+  },
+  "0x1420fa390": {
+    "label": "Save pending VM game-time timers",
+    "level": "B",
+    "purpose": "Preserves pending timer identity, pause fields and the remaining time rather than heap identity.",
+    "detail": "Mapped save path `0x1420fa390` through `0x1420fa920` and `0x1420f8970` writes a bound script identity, timer ID, due-minus-current remainder and pause fields. Loader `0x1420fa9a0` remaps identity and restores against current time. This provides a remaining deadline rather than a missed-voyage counter. It does not identify any specific Save52 timer. Full ABI and exceptional cases remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/transport/saves.md",
+        "line": 57
+      },
+      {
+        "path": "docs/experiments/cargo-links/transport/lifecycle.md",
+        "line": 116
+      }
+    ]
+  },
+  "0x1421b44b0": {
+    "label": "Call the accumulating Workshop compensation writer",
+    "level": "B",
+    "theme": "workshop",
+    "purpose": "Supplies one of the endpoint-ordered call paths into the writer.",
+    "detail": "The inspected call reaches 0x1421b11a0 and can swap operation endpoints. The callee performs the subtraction and accumulates the three float components. The separate reset belongs to the creation/finalization path.",
+    "sources": [
+      {
+        "path": "docs/experiments/workshop-origin-beacon-relocation-persistence.md",
+        "line": 51,
+        "end_line": 52
+      }
+    ]
+  },
+  "0x1421e07d0": {
+    "label": "Refresh Workshop area resource identities",
+    "level": "A",
+    "purpose": "Reads resident ProcGen geometry into Workshop area lists when refresh predicates require it.",
+    "detail": "The preview and established setup paths feed this updater with position/domain and radius/upper context. The local guard checks domain and translated displacement, with no separate radius or upper-scalar comparison. The qualified scan takes ProcGen shared protection at `+0x40`, traverses occupied source slots and calls `0x1421e0f50`. The scan has no provider call and does not imply a raster sample or a write to source ownership/visited state. Cache/list reuse can outlive or differ from geometry state. Existing executed consumer witnesses are scoped to their recorded setups. Complete callable prototype and return semantics remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 160
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5v-lifecycle-consumer-map.md",
+        "line": 57
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ah-lifecycle-matrix.md",
+        "line": 41
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5av-player-action-matrix.md",
+        "line": 34
+      }
+    ],
+    "pseudocode": "Abstraction of the qualified consumer path. Translation arithmetic, conditions and cleanup are omitted.\n\nwhen the established refresh guards require a scan:\n    under ProcGen shared protection:\n        for each occupied resident source slot:\n            evaluate its regions against the Workshop query\n            retain admitted resource identities"
+  },
+  "0x1421e0f50": {
+    "label": "Filter a resident source's regions for Workshop",
+    "level": "A",
+    "purpose": "Resolves resource keys and inserts qualifying Workshop area identities.",
+    "detail": "The updater calls this callback while holding its native reader. The callback resolves a typed IRES, transforms/tests regions against query context, and inserts qualifying identities with pointer deduplication. It skips invalid resource resolution. Broadphase, point-count, strip, vertex and edge branches differ. Multiple resources can pass this path. Full callback ABI and return meaning remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5v-lifecycle-consumer-map.md",
+        "line": 59
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ah-lifecycle-matrix.md",
+        "line": 41
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 160
+      }
+    ]
+  },
+  "0x1421f68f0": {
+    "label": "Gate a selected harvester resource",
+    "level": "B",
+    "purpose": "Reads population data for the selected harvester's resource predicate.",
+    "detail": "This separate output-contract consumer reads populations for a particular selected harvester. The qualified selectors allow PlaceAnywhere bypass, choose a biome list for SkipVein, choose the atmosphere list for that category, and otherwise select spatial data. Its result does not establish whole-area resource availability or overall placement fit. The native window is `0x1421f6b3a..0x1421f6b5c` in the cited investigation. Full inputs, return convention and general placement caller set remain unknown.",
+    "sources": [
+      {
+        "path": "docs/experiments/native-availability-map/output-contract.md",
+        "line": 59
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5v-lifecycle-consumer-map.md",
+        "line": 62
+      }
+    ]
+  },
+  "0x1422cc0d0": {
+    "label": "Reserve storage in the mapped native array path",
+    "level": "B",
+    "theme": "geography",
+    "purpose": "Provides reserve behavior used by the provider before its visited append.",
+    "detail": "The provider reaches this helper from its visited append after generator return. The original ownership traces also map the allocator/reserve helper in region storage, with a different receiver and stride. The call is neither a complete-population witness nor a general allocator contract.",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+        "line": 158
+      },
+      {
+        "path": "docs/experiments/spatial-equivalence-feasibility/geometry-lifetime/ownership.md",
+        "line": 41
+      }
+    ]
+  },
+  "0x14271e190": {
+    "label": "Advance full flight motion for the supplied elapsed time",
+    "level": "B",
+    "purpose": "Uses nested elapsed context in physical path-following work.",
+    "detail": "The full stage reads motion context +0x48 and scales the motion calculation by that scalar. The stage state +0x38 read is current speed. Path-state completion is separate from fuel admission and the VM clock. No universal ship mode or historical duration is established.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 105
+      },
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 161
+      }
+    ]
+  },
+  "0x142731f50": {
+    "label": "Update the detached flight elapsed accumulator",
+    "level": "B",
+    "purpose": "Consumes the supplied elapsed scalar on the detached movement route.",
+    "detail": "The detached stage adds admitted engine elapsed. On a fresh path and positive deltas, crossing the first threshold strictly publishes the first payload. Crossing the sum of the first and second thresholds strictly publishes remaining payloads and releases the retained request/path. The inspected mutable settings have defaults 2 and 4 engine seconds. Path failure or cancellation can also clear state. There is no historical per-reference mode or elapsed sequence for the sampled cargo links.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 104
+      },
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 136
+      },
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 140
+      }
+    ]
+  },
+  "0x1427342e0": {
+    "label": "Dispatch elapsed context to active movement arbiters",
+    "level": "B",
+    "purpose": "Stores the actual frame delta and calls each admitted arbiter update.",
+    "detail": "The observed entry copies XMM1 into XMM6 and stores the scalar in its frame context. Active arbiters use virtual byte displacement +0x48. Detached and full movement then have distinct paths. This route has no historical Save52 execution trace.",
+    "sources": [
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 103
+      },
+      {
+        "path": "docs/experiments/cargo-links/transport/transit.md",
+        "line": 105
+      }
+    ]
+  },
+  "0x1427e5a00": {
+    "label": "Publish native task completion",
+    "level": "B",
+    "purpose": "Posts a TargetBatchPage command for the completion path.",
+    "detail": "The inspected publisher hands completion work to a separate callback. The callback and dependency-edge removal run at their own boundaries. Publication does not timestamp a decrement or prove that a worker has started.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 79
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 80
+      }
+    ]
+  },
+  "0x1427e5e80": {
+    "label": "Remove task dependency edges after completion",
+    "level": "B",
+    "purpose": "Applies dependency-category-specific removal and last-edge evaluation.",
+    "detail": "The category-zero path decrements node +0x90 at interior site 0x1427e61a4. The last dependency can evaluate a node in state 1 or 2 through virtual +0x08. Category one releases prerequisite references and may cancel an unneeded node that has yet to execute. Ready scan and worker dispatch are later boundaries.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 80
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 81
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 82
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 83
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 84
+      }
+    ]
+  },
+  "0x1427e6d10": {
+    "label": "Scan the ready task tree before dispatch",
+    "level": "B",
+    "purpose": "Passes eligible ready work to 0x1427e6a00 and 0x1427e56d0.",
+    "detail": "The scan is separate from completion and dependency decrement. The cited dispatcher distinguishes retained readiness, dispatched or pending work, completion and cancellation. This does not establish a universal worker order or a runtime event in a historical session.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 84
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 85
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 86
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 87
+      }
+    ]
+  },
+  "0x1427eecf0": {
+    "label": "Dispatch published task completion to edge removal",
+    "level": "B",
+    "purpose": "Routes the published TargetBatchPage command to 0x1427e5e80.",
+    "detail": "The completion callback reaches the edge-removal routine, which branches by dependency category. Callback entry alone does not establish readiness, queue order or worker dispatch.",
+    "theme": "geography",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 79
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 80
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+        "line": 81
+      }
+    ]
+  },
+  "0x14388f200": {
+    "label": "Forward SFTR name-registry shutdown",
+    "level": "B",
+    "purpose": "Computes the registry subobject and jumps to the clear routine.",
+    "detail": "The verified entry computes the registry plus byte offset 0x08 and tail-jumps to 0x1402cb9f0. An earlier Ghidra selector reported no function object at this address. The bounded byte replay establishes the stub boundary and its forwarding relation without changing the analysis project.",
+    "theme": "interfaces",
+    "sources": [
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 288
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 289
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 292
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "line": 293
+      },
+      {
+        "path": "docs/experiments/resource-retained-population/d5ad-sources.csv",
+        "line": 149,
+        "alias": "D5AD-SV148"
+      }
+    ]
+  }
+}

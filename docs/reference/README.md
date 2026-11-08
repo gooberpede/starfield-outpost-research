@@ -1,5 +1,7 @@
 # Technical references
 
+Find an observed native function by [RVA or subject](../functions/README.md).
+
 - [Outpost identity and membership](identity.md) maps saved links, native roots and registration.
 - [Planetary location and position](position.md) defines the qualified coordinate conversion.
 - [Nominal biomes](nominal-biomes.md) defines the quantizer and raster traversal.
@@ -28,6 +30,6 @@
 
 Start with the [guides](../guides/README.md) for ordinary behavior or the
 [research history](../research-history.md) for superseded interpretations
-and negative results. The [function register](../function-register.md),
+and negative results. See the [historical function register](../function-register.md),
 [state register](../state-register.md) and [build provenance](../PROVENANCE.md)
-remain the canonical locator indexes.
+for original identifiers, state locators and input pins.

@@ -1,0 +1,730 @@
+[
+  {
+    "path": "docs/experiments/cargo-links/transport/inventory.md",
+    "line": 16,
+    "va": "0x140b61610",
+    "label": "Capacity-aware bulk inventory transfer"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/timing.md",
+    "line": 29,
+    "va": "0x1420fb880",
+    "label": "Start a game-time timer"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/timing.md",
+    "line": 50,
+    "va": "0x1420f9f90",
+    "label": "Dispatch due game-time timer"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/timing.md",
+    "line": 140,
+    "va": "0x14211b700",
+    "label": "Effective ship cargo capacity"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/catalogue.md",
+    "line": 21,
+    "va": "0x140f4d630",
+    "label": "Loaded COBJ discovery walk"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/catalogue.md",
+    "line": 21,
+    "va": "0x1421ad290",
+    "label": "Build menu catalogue rebuild"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/catalogue.md",
+    "line": 21,
+    "va": "0x140f35940",
+    "label": "Workshop catalogue map builder"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 276,
+    "va": "0x1412fd300",
+    "label": "Display component row writer"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 280,
+    "va": "0x1412fd450",
+    "label": "Display component row reader"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 282,
+    "va": "0x1412fd650",
+    "label": "Display item identity fixup"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 280,
+    "va": "0x1412fe810",
+    "label": "Display component loader"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 290,
+    "va": "0x141304f40",
+    "label": "Remove displayed reference from slot lists"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 28,
+    "va": "0x1419198a0",
+    "label": "Actor finalization and perk-bucket reset"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 20,
+    "va": "0x141955400",
+    "label": "Replay base and added actor perk ranks"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 20,
+    "va": "0x141955350",
+    "label": "Read the active actor perk bucket"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 20,
+    "va": "0x141935370",
+    "label": "Copy active actor perk entries"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 15,
+    "va": "0x14158a6e0",
+    "label": "Produce the selected reference integrity indicator"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 115,
+    "va": "0x1421e3f50",
+    "label": "Ordinary outpost repair service"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 115,
+    "va": "0x1421b03c0",
+    "label": "Build-mode repair wrapper"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 120,
+    "va": "0x1421e9b50",
+    "label": "Repair service continuation"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 121,
+    "va": "0x140f36310",
+    "label": "Restore existing-reference Health and destruction state"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ah-extractor-ledger.md",
+    "line": 19,
+    "va": "0x1409e9150",
+    "label": "Enumerate effective properties for resource registration"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ah-extractor-ledger.md",
+    "line": 19,
+    "va": "0x1409ea440",
+    "label": "Resource-registration callback"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ah-extractor-ledger.md",
+    "line": 19,
+    "va": "0x1409e9360",
+    "label": "Resource-registration property iterator"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5v-lifecycle-consumer-map.md",
+    "line": 64,
+    "va": "0x140f7c290",
+    "label": "Query resources for a selected candidate"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5v-lifecycle-consumer-map.md",
+    "line": 63,
+    "va": "0x140f7c9f0",
+    "label": "Test the harvester category"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5v-lifecycle-consumer-map.md",
+    "line": 65,
+    "va": "0x142346b30",
+    "label": "Test candidate XY against a resident region"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-query-winner-model.md",
+    "line": 100,
+    "va": "0x14078c5f0",
+    "label": "Evaluate the focus movement and shift threshold"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-query-winner-model.md",
+    "line": 100,
+    "va": "0x14078ce00",
+    "label": "Run the manager-exclusive terrain shift"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-query-winner-model.md",
+    "line": 114,
+    "va": "0x140987080",
+    "label": "Select a source for retirement by overlap"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/shared-inventory.md",
+    "line": 23,
+    "va": "0x140b64da0",
+    "label": "Test the resolved shared-storage keyword"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/shared-inventory.md",
+    "line": 40,
+    "va": "0x1405a3cc0",
+    "label": "Create the player backing reference"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/shared-inventory.md",
+    "line": 33,
+    "va": "0x1414681d0",
+    "label": "Resolve the inventory shown by the container menu"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/shared-inventory.md",
+    "line": 90,
+    "va": "0x140b2dbd0",
+    "label": "Write backing inventory rows"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/shared-inventory.md",
+    "line": 88,
+    "va": "0x141a46940",
+    "label": "Player writer carrying the shared inventory"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/shared-inventory.md",
+    "line": 91,
+    "va": "0x141a48f50",
+    "label": "Player loader carrying the shared inventory"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 16,
+    "va": "0x1417f6fa0",
+    "label": "Build a temporary ingredient aggregation reference"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 115,
+    "va": "0x1417fb210",
+    "label": "Spend reachable crafting components"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 59,
+    "va": "0x1421a7060",
+    "label": "Construction ingredient availability"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 59,
+    "va": "0x1421a7950",
+    "label": "Construction ingredient spending"
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 113,
+    "va": "0x140f85760",
+    "label": "Validate and add an output edge before redistribution"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 20,
+    "va": "0x14135e120",
+    "label": "Collect Locations body and outpost data"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 18,
+    "va": "0x14135dcb0",
+    "label": "Register the Locations data providers"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 33,
+    "va": "0x1401595f0",
+    "label": "Construct the outpost panel exclusion default object"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 42,
+    "va": "0x141976dc0",
+    "label": "Read the base value for the outpost panel maximum"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 52,
+    "va": "0x141363960",
+    "label": "Queue the outpost vector"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 52,
+    "va": "0x14136ac90",
+    "label": "Queue the outpost maximum"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 53,
+    "va": "0x141364550",
+    "label": "Bind list and maximum to Locations data"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5q-call-dataflow-map.md",
+    "line": 154,
+    "va": "0x14079c470",
+    "label": "Traverse resource cells for an admitted resource"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 196,
+    "va": "0x142073cf0",
+    "label": "GetWorkshop registration callback stub",
+    "detail": "The original registration and PE check establish the callback start and tail-jump boundary. The historical Ghidra listing identifies a LAB and has no function object there.",
+    "symbol": "LAB_142073cf0",
+    "alias": "SOR-FN-0001",
+    "group": "workshop"
+  },
+  {
+    "path": "runtime/exp0002/STATIC-CONTRACT.md",
+    "line": 16,
+    "va": "0x142073cf0",
+    "label": "GetWorkshop registration callback stub",
+    "detail": "Observed R8 source, source member +0xc8, key in RDX and zeroed third argument before the tail jump.",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+    "line": 41,
+    "va": "0x1423ff430",
+    "label": "Save name and serialization command helper"
+  },
+  {
+    "path": "docs/experiments/active-outpost-identification.md",
+    "line": 56,
+    "va": "0x14208bab0",
+    "label": "Read the disabled runtime form flag"
+  },
+  {
+    "path": "docs/experiments/active-outpost-identification.md",
+    "line": 56,
+    "va": "0x14208ba90",
+    "label": "Read the deleted runtime form flag"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/transit.md",
+    "line": 100,
+    "va": "0x140b21e70",
+    "label": "Install the reference movement dispatch table"
+  },
+  {
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 85,
+    "va": "0x1421e48e0",
+    "label": "Dispatch immediate or queued item refresh"
+  },
+  {
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 160,
+    "va": "0x140a31210",
+    "label": "Reverse the automatic-wall pairing behavior"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 248,
+    "va": "0x1421cbc20",
+    "label": "Display placement helper"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 15,
+    "va": "0x1420188d0",
+    "label": "Construct the GetPlayer Papyrus native binding"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 17,
+    "va": "0x14209ec60",
+    "label": "Construct the GetCurrentLocation Papyrus native binding"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/repeatability.md",
+    "line": 18,
+    "va": "0x14096b9c0",
+    "label": "Filter the candidate pattern by style identity"
+  },
+  {
+    "path": "docs/experiments/crew-skills/native.md",
+    "line": 33,
+    "va": "0x140be3fb0",
+    "label": "Condition callback for the base actor value"
+  },
+  {
+    "path": "docs/experiments/event-oracle/preview-state.md",
+    "line": 11,
+    "va": "0x14158e410",
+    "label": "Destroy the Workshop state data model"
+  },
+  {
+    "path": "docs/experiments/event-oracle/preview-state.md",
+    "line": 46,
+    "va": "0x1421b62c0",
+    "label": "Initialize placement reference creation"
+  },
+  {
+    "path": "docs/experiments/event-oracle/preview-state.md",
+    "line": 49,
+    "va": "0x1421b5720",
+    "label": "Initialize Wait3D timers and latch",
+    "alias": "SOR-FN-0057",
+    "group": "interfaces",
+    "detail": "Vtable-selected callback boundary from existing instructions. A Ghidra function object was not required for this entry evidence."
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 150,
+    "va": "0x1401366a0",
+    "label": "Initialize the Freestar faction default object"
+  },
+  {
+    "path": "docs/experiments/native-availability-map/output-contract.md",
+    "line": 120,
+    "va": "0x1412ed2a0",
+    "label": "Install retained resource output storage"
+  },
+  {
+    "path": "docs/experiments/power/definitions.md",
+    "line": 87,
+    "va": "0x140c4a810",
+    "label": "Resolve the command-side power actor value"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 110,
+    "va": "0x140b11780",
+    "label": "Process the cell-attach callback"
+  },
+  {
+    "path": "docs/experiments/resource-population-lifecycle/native.md",
+    "line": 134,
+    "va": "0x140788b60",
+    "label": "Delete the ProcGen manager owner"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ad-input-provenance.md",
+    "line": 186,
+    "va": "0x140982390",
+    "label": "Construct Grid input and modifier storage"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ad-input-provenance.md",
+    "line": 193,
+    "va": "0x140972f00",
+    "label": "Consume Grid corner index for alignment"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ad-input-provenance.md",
+    "line": 196,
+    "va": "0x140989170",
+    "label": "Update the world-height context"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ad-investigation-ledger.md",
+    "line": 55,
+    "va": "0x142417130",
+    "label": "Execute the queued component command callback"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+    "line": 35,
+    "va": "0x1407846d0",
+    "label": "Release landscape Grid owners on reset"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+    "line": 38,
+    "va": "0x140970d50",
+    "label": "Fold the surface hierarchy seed inputs"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ae-eligibility-readiness-map.md",
+    "line": 17,
+    "va": "0x141898210",
+    "label": "Gate pending load on startup readiness"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md",
+    "line": 115,
+    "va": "0x140422e10",
+    "label": "Dispatch the Reschedule command updater"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 46,
+    "va": "0x1409921f0",
+    "label": "Destroy the PageStitch task object"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ag-terrain-findings.md",
+    "line": 186,
+    "va": "0x140976950",
+    "label": "Construct the File-derived terrain object"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ah-extractor-ledger.md",
+    "line": 24,
+    "va": "0x1407ab6a0",
+    "label": "Destroy the erased collection and point storage"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ah-lifecycle-matrix.md",
+    "line": 40,
+    "va": "0x1407affb0",
+    "label": "Inspect retained resource regions for the point query"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ai-source-lifecycle-map.md",
+    "line": 72,
+    "va": "0x1407ab730",
+    "label": "Resolve source-table collisions during relocation"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5aj-invalidation-matrix.md",
+    "line": 105,
+    "va": "0x140987190",
+    "label": "Destroy the derived Grid through its base"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5aj-invalidation-matrix.md",
+    "line": 105,
+    "va": "0x140982930",
+    "label": "Destroy and clear the Grid base"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5am-scheduler-component.md",
+    "line": 122,
+    "va": "0x1427e4ab0",
+    "label": "Destroy the completed task record"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-atmosphere-native-proof.md",
+    "line": 25,
+    "va": "0x1408bda70",
+    "label": "Register atmosphere resource field metadata"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-effective-input-gate.md",
+    "line": 144,
+    "va": "0x1438b5f40",
+    "label": "Destroy the scoped setting on exit"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5ar-identity-investigation.md",
+    "line": 351,
+    "va": "0x1428caea0",
+    "label": "Release the captured allocation identity"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5p-r3-report.md",
+    "line": 36,
+    "va": "0x1402c5bd0",
+    "label": "Wrap heap-array growth for source storage"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5p-r3-report.md",
+    "line": 52,
+    "va": "0x1422c8d10",
+    "label": "Acquire the Grid source deduplication lock"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5r-query-scheduling-map.md",
+    "line": 123,
+    "va": "0x14078faa0",
+    "label": "Release the retained Grid reference"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-investigation-ledger.md",
+    "line": 49,
+    "va": "0x1407b1b10",
+    "label": "Destroy the detached continuation"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-investigation-ledger.md",
+    "line": 57,
+    "va": "0x14079ce00",
+    "label": "Admit and transfer a manager reader to nested work"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-investigation-ledger.md",
+    "line": 57,
+    "va": "0x1407b19f0",
+    "label": "Release the nested node's manager reader"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-query-winner-model.md",
+    "line": 49,
+    "va": "0x1418a8b80",
+    "label": "Construct the ContentManager JobSite"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-query-winner-model.md",
+    "line": 49,
+    "va": "0x1427eedb0",
+    "label": "Construct the ProcGen Resources JobSite"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-query-winner-model.md",
+    "line": 51,
+    "va": "0x1428d9560",
+    "label": "Enter the queued JobSite pump"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-query-winner-model.md",
+    "line": 55,
+    "va": "0x140362510",
+    "label": "Forward the task-completion callback"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-query-winner-model.md",
+    "line": 102,
+    "va": "0x1417ced70",
+    "label": "Wrap the main-update task graph"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-query-winner-model.md",
+    "line": 106,
+    "va": "0x140360310",
+    "label": "Register the playable center-cell key"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5s-query-winner-model.md",
+    "line": 106,
+    "va": "0x1403605e0",
+    "label": "Register the neighboring cell key"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5u-methods.md",
+    "line": 115,
+    "va": "0x140982090",
+    "label": "Fold the source key for Grid lookup"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5v-report.md",
+    "line": 96,
+    "va": "0x141815620",
+    "label": "Drain generation during loading"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5w-investigation-ledger.md",
+    "line": 107,
+    "va": "0x140992ab0",
+    "label": "Preserve the MultiFiles Grid table during height binding"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5w-normal-path-model.md",
+    "line": 93,
+    "va": "0x140364980",
+    "label": "Acquire the scoped manager reader"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5z-report.md",
+    "line": 58,
+    "va": "0x14079a310",
+    "label": "Forward into the nonlocal ProcGen route"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5z-report.md",
+    "line": 179,
+    "va": "0x14057fc40",
+    "label": "Clear the separate TES runtime member"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5z-report.md",
+    "line": 210,
+    "va": "0x1407895a0",
+    "label": "Wrap the ordinary full-load ProcGen reset"
+  },
+  {
+    "path": "docs/experiments/resource-retained-population/d5z-report.md",
+    "line": 215,
+    "va": "0x1418278c0",
+    "label": "Dispatch the global revert type range"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 15,
+    "va": "0x141445660",
+    "label": "Prepare bench and ingredient provider inputs"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/review.md",
+    "line": 22,
+    "va": "0x140f30380",
+    "label": "Restore the mapped reference placement state"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/review.md",
+    "line": 22,
+    "va": "0x140f30820",
+    "label": "Commit the mapped reference placement state"
+  },
+  {
+    "path": "docs/experiments/terran-armada-outpost-recon/native.md",
+    "line": 66,
+    "va": "0x140c5b1d0",
+    "label": "HasKeyword native condition callback"
+  },
+  {
+    "path": "docs/experiments/terran-armada-outpost-recon/native.md",
+    "line": 82,
+    "va": "0x140d049b0",
+    "label": "Resolve the qualified quest alias fill"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 38,
+    "va": "0x140f5b8f0",
+    "label": "Initialize the item root identity"
+  },
+  {
+    "path": "docs/experiments/event-oracle/preview-state.md",
+    "line": 70,
+    "va": "0x1421b5750",
+    "label": "Request spinner-off on Wait3D exit",
+    "alias": "SOR-FN-0057",
+    "group": "interfaces",
+    "detail": "Vtable-selected exit stub zeroes ECX and tail-jumps to the spinner request."
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 35,
+    "va": "0x14001e340",
+    "label": "Initialize biome extension or path string",
+    "detail": "The original report identifies both entries in the path and extension initialization pair. It does not assign each string to a specific member of the pair."
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 35,
+    "va": "0x14001e370",
+    "label": "Initialize paired biome extension or path string",
+    "detail": "The original report identifies both entries in the path and extension initialization pair. It does not assign each string to a specific member of the pair."
+  }
+]

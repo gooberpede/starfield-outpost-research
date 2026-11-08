@@ -1,5 +1,12 @@
 # Credits
 
+## D5BD native function catalogue
+
+The catalogue credits the original project investigations at each entry.
+Bethesda's pinned Starfield executable and the original Ghidra analysis
+records underlie the native evidence. CPython and Git support the documentary
+rebuild and verification. [Source and coverage audit](docs/audits/native-function-catalogue-d5bd/README.md).
+
 ## D5AT active-outpost survey
 
 The maintainer's Save52 and Bethesda's pinned definitions, raster archive and

@@ -1,0 +1,4799 @@
+[
+  {
+    "path": "docs/audits/publication-readiness-b2/focused-rework.md",
+    "line": 34,
+    "va": "0x141eaf0ac",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/audits/publication-readiness-b2/focused-rework.md",
+    "line": 34,
+    "va": "0x141eaf0af",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/audits/publication-readiness-b2/focused-rework.md",
+    "line": 35,
+    "va": "0x141eaf09f",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Register retention instruction inside the existing SD1 function"
+  },
+  {
+    "path": "docs/audits/publication-readiness-b2/focused-rework.md",
+    "line": 35,
+    "va": "0x141eaf0b5",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/audits/publication-readiness-b2/focused-rework.md",
+    "line": 36,
+    "va": "0x141eae357",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/audits/publication-readiness-b2/native-export-ids.md",
+    "line": 25,
+    "va": "0x1419a41d0",
+    "status": "excluded",
+    "domain": "roster-only",
+    "reason": "Original alias audit establishes two export occurrences but no individually documented role"
+  },
+  {
+    "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+    "line": 29,
+    "va": "0x142551f1b",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Original source rejects the alleged call as an instruction start"
+  },
+  {
+    "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+    "line": 29,
+    "va": "0x142554fd0",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Original source explicitly rejects a defined function entry"
+  },
+  {
+    "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+    "line": 38,
+    "va": "0x14166c1c3",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Return site in the save-selection handler"
+  },
+  {
+    "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+    "line": 44,
+    "va": "0x14183b850",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+    "line": 48,
+    "va": "0x14166c1be",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Independent E8 call site inside the save-selection handler"
+  },
+  {
+    "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+    "line": 48,
+    "va": "0x141821ba8",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Independent E8 call site in the save route"
+  },
+  {
+    "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+    "line": 48,
+    "va": "0x14183ac25",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Independent E8 call site in the save route"
+  },
+  {
+    "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+    "line": 48,
+    "va": "0x14183c65d",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Independent E8 call site in save request handling"
+  },
+  {
+    "path": "docs/experiments/SOR-EXP-0002A-native-save-thread-mapping.md",
+    "line": 48,
+    "va": "0x14183c9a0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Independent E8 call site in save request handling"
+  },
+  {
+    "path": "docs/experiments/activated-overlay-and-grid-geometry.md",
+    "line": 117,
+    "va": "0x140add2e0",
+    "label": "Dispatch deferred overlay registration"
+  },
+  {
+    "path": "docs/experiments/activated-overlay-and-grid-geometry.md",
+    "line": 119,
+    "va": "0x140ad4fa0",
+    "label": "Update selected overlay edge context"
+  },
+  {
+    "path": "docs/experiments/activated-overlay-and-grid-geometry.md",
+    "line": 124,
+    "va": "0x14077fbc0",
+    "label": "Dispatch residual frame handling to the integer-grid route"
+  },
+  {
+    "path": "docs/experiments/build-budget/native.md",
+    "line": 27,
+    "va": "0x14015a0d0",
+    "label": "Initialize the native budget base cost"
+  },
+  {
+    "path": "docs/experiments/build-budget/native.md",
+    "line": 28,
+    "va": "0x14015a100",
+    "label": "Initialize the native budget baseline fallback"
+  },
+  {
+    "path": "docs/experiments/build-budget/native.md",
+    "line": 28,
+    "va": "0x140306090",
+    "label": "Register or store the Workshop budget INI setting"
+  },
+  {
+    "path": "docs/experiments/build-budget/native.md",
+    "line": 53,
+    "va": "0x140158670",
+    "label": "Initialize a budget actor-value default object"
+  },
+  {
+    "path": "docs/experiments/build-budget/native.md",
+    "line": 57,
+    "va": "0x1405ddbd0",
+    "label": "Resolve the object component for budget properties"
+  },
+  {
+    "path": "docs/experiments/build-budget/native.md",
+    "line": 67,
+    "va": "0x1405daca0",
+    "label": "Select budget fallback by form type"
+  },
+  {
+    "path": "docs/experiments/build-budget/native.md",
+    "line": 80,
+    "va": "0x140f33500",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/build-budget/native.md",
+    "line": 91,
+    "va": "0x1401586b0",
+    "label": "Initialize the WorkshopBudgetBaseline default object"
+  },
+  {
+    "path": "docs/experiments/build-budget/report.md",
+    "line": 52,
+    "va": "0x1421dcc80",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/build-budget/report.md",
+    "line": 54,
+    "va": "0x140f4ca70",
+    "label": "Account for budget usage on deletion"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/catalogue.md",
+    "line": 24,
+    "va": "0x1421f6e40",
+    "label": "Supply qualifying tab categories"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/catalogue.md",
+    "line": 25,
+    "va": "0x141579fc0",
+    "label": "Build selected category preview rows"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/catalogue.md",
+    "line": 48,
+    "va": "0x140f4cf60",
+    "label": "Allocate a conditional builder catalogue entry"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/eligibility.md",
+    "line": 38,
+    "va": "0x140f86060",
+    "label": "Check organic construction capability"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/methods.md",
+    "line": 125,
+    "va": "0x1421f3839",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "VADDSS instruction inside the budget route"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/methods.md",
+    "line": 125,
+    "va": "0x1421f383e",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "VMOVSS store paired with the preceding VADDSS"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 63,
+    "va": "0x14171a290",
+    "label": "Forward category and current-node changes"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 63,
+    "va": "0x1421a6680",
+    "label": "Apply category and current-node changes"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 65,
+    "va": "0x14171a140",
+    "label": "Forward the concrete selected variant ID"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 65,
+    "va": "0x1421a6b60",
+    "label": "Consume the concrete selected variant ID"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 68,
+    "va": "0x14171a3e0",
+    "label": "Advance or decrement the selected variant index"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 92,
+    "va": "0x14157ad10",
+    "label": "Update the selected item card"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 92,
+    "va": "0x14157f0f0",
+    "label": "Dispatch the selected item card update"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 110,
+    "va": "0x14158eb10",
+    "label": "Choose and publish the outpost display name"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 111,
+    "va": "0x14158f860",
+    "label": "Participate in planet and system caption publication"
+  },
+  {
+    "path": "docs/experiments/build-catalogue/ui.md",
+    "line": 111,
+    "va": "0x141590320",
+    "label": "Participate in the queued planet and system caption path"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 65,
+    "va": "0x141724a00",
+    "label": "Store the selected cargo endpoint handle"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 83,
+    "va": "0x140f82c30",
+    "label": "Select transitive local storage"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 96,
+    "va": "0x141724330",
+    "label": "Visit one cargo inventory entry"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 97,
+    "va": "0x1417283e0",
+    "label": "Read base-container content for UI inventory"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 108,
+    "va": "0x141720ef0",
+    "label": "Register cargo link UI data"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 142,
+    "va": "0x142334600",
+    "label": "Calculate system displacement for link distance"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 147,
+    "va": "0x1417227b0",
+    "label": "Apply initial cargo link source metadata"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 149,
+    "va": "0x141724be0",
+    "label": "Handle cargo link hover context"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 149,
+    "va": "0x141724cd0",
+    "label": "Apply queued cargo link hover details"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 149,
+    "va": "0x141729010",
+    "label": "Dispatch the queued cargo link hover path"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 182,
+    "va": "0x140404d20",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Original native study explicitly records that this selected address was not a function entry"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 182,
+    "va": "0x1405630a0",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Original native study explicitly records that this selected address was not a function entry"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 182,
+    "va": "0x1409e6d90",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Original native study explicitly records that this selected address was not a function entry"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/native.md",
+    "line": 182,
+    "va": "0x141725cc0",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Original native study explicitly records that this selected address was not a function entry"
+  },
+  {
+    "path": "docs/experiments/cargo-links/configuration-ui/report.md",
+    "line": 15,
+    "va": "0x140f7fd50",
+    "label": "Collect ingredients for qualifying immediate destinations"
+  },
+  {
+    "path": "docs/experiments/cargo-links/fuel/native.md",
+    "line": 48,
+    "va": "0x140c01fe0",
+    "label": "Wrap the native fuel-readiness condition"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/inventory.md",
+    "line": 14,
+    "va": "0x142092b00",
+    "label": "Register the cargo inventory transfer native function",
+    "detail": "The native registration and implementation are separate entries in the original transport analysis."
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/inventory.md",
+    "line": 59,
+    "va": "0x140b67a30",
+    "label": "Participate in the ordered cargo stack subtraction path"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/inventory.md",
+    "line": 59,
+    "va": "0x140b89690",
+    "label": "Dispatch cargo stack subtraction to the inventory route"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/inventory.md",
+    "line": 59,
+    "va": "0x140b8f540",
+    "label": "Participate in cargo inventory row subtraction"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/lifecycle.md",
+    "line": 31,
+    "va": "0x141924af0",
+    "label": "Forward submission to the path state handler"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/lifecycle.md",
+    "line": 31,
+    "va": "0x141a9e680",
+    "label": "Handle path submission in the registered FlyLand route"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/lifecycle.md",
+    "line": 72,
+    "va": "0x140eb0340",
+    "label": "Build a FlyLand path"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/saves.md",
+    "line": 57,
+    "va": "0x1420f8970",
+    "label": "Write the pending timer deadline and script identity"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/saves.md",
+    "line": 57,
+    "va": "0x1420f8d00",
+    "label": "Restore the pending timer record"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/saves.md",
+    "line": 57,
+    "va": "0x1420fa920",
+    "label": "Dispatch pending game-time timer serialization"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/saves.md",
+    "line": 57,
+    "va": "0x1420fcc70",
+    "label": "Dispatch pending game-time timer restoration"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/transit.md",
+    "line": 84,
+    "va": "0x142738d90",
+    "label": "Rebuild the selected travel mode state"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/transit.md",
+    "line": 100,
+    "va": "0x1412aa710",
+    "label": "Resolve the Actor or component movement controller"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/transit.md",
+    "line": 104,
+    "va": "0x1427076d0",
+    "label": "Invoke the detached-stage agent update interface"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/transit.md",
+    "line": 189,
+    "va": "0x142682e60",
+    "label": "Participate in transit path geometry modification"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/transit.md",
+    "line": 189,
+    "va": "0x1426830e0",
+    "label": "Participate in transit line-of-sight modification"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/transit.md",
+    "line": 189,
+    "va": "0x142685190",
+    "label": "Receive the transit path modification route"
+  },
+  {
+    "path": "docs/experiments/cargo-links/transport/transit.md",
+    "line": 199,
+    "va": "0x14271fd10",
+    "label": "Compute transit steering and avoidance corrections"
+  },
+  {
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 136,
+    "va": "0x140a31050",
+    "label": "Apply automatic-wall pair behavior"
+  },
+  {
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 142,
+    "va": "0x140e466f0",
+    "label": "Dispatch generic behavior evaluation"
+  },
+  {
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 160,
+    "va": "0x140a314c0",
+    "label": "Apply the enabled automatic-wall pair path"
+  },
+  {
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 189,
+    "va": "0x1405c1a40",
+    "label": "Resolve a model variant for a damage stage"
+  },
+  {
+    "path": "docs/experiments/construction-variants/manual-and-automatic.md",
+    "line": 190,
+    "va": "0x140528450",
+    "label": "Install ExtraModelSwap for the selected stage"
+  },
+  {
+    "path": "docs/experiments/construction-variants/mechanisms.md",
+    "line": 12,
+    "va": "0x140904f30",
+    "label": "Revert automatic behavior on snap disconnect"
+  },
+  {
+    "path": "docs/experiments/construction-variants/mechanisms.md",
+    "line": 13,
+    "va": "0x140b4d430",
+    "label": "Replace the existing reference base in the non-PackIn branch"
+  },
+  {
+    "path": "docs/experiments/construction-variants/mechanisms.md",
+    "line": 13,
+    "va": "0x140b4dc20",
+    "label": "Participate in non-PackIn base replacement"
+  },
+  {
+    "path": "docs/experiments/construction-variants/mechanisms.md",
+    "line": 13,
+    "va": "0x1418c1f10",
+    "label": "Dispatch the existing-reference base replacement service"
+  },
+  {
+    "path": "docs/experiments/construction-variants/mechanisms.md",
+    "line": 15,
+    "va": "0x140f5a800",
+    "label": "Dispatch generated foundation or stair support"
+  },
+  {
+    "path": "docs/experiments/construction-variants/mechanisms.md",
+    "line": 15,
+    "va": "0x140f5b130",
+    "label": "Dispatch the paired generated support or stair operation"
+  },
+  {
+    "path": "docs/experiments/construction-variants/mechanisms.md",
+    "line": 15,
+    "va": "0x140f5bb30",
+    "label": "Resolve the target for generated foundation or stair support"
+  },
+  {
+    "path": "docs/experiments/construction-variants/report.md",
+    "line": 30,
+    "va": "0x1421f4f30",
+    "label": "Queue the manual snap behavior change"
+  },
+  {
+    "path": "docs/experiments/construction-variants/report.md",
+    "line": 31,
+    "va": "0x1421aec70",
+    "label": "Handle the snap behavior change event"
+  },
+  {
+    "path": "docs/experiments/construction-variants/report.md",
+    "line": 32,
+    "va": "0x1421f0e80",
+    "label": "Participate in variant discovery and validation"
+  },
+  {
+    "path": "docs/experiments/construction-variants/report.md",
+    "line": 33,
+    "va": "0x140a316c0",
+    "label": "Participate in variant discovery and validation"
+  },
+  {
+    "path": "docs/experiments/construction-variants/report.md",
+    "line": 33,
+    "va": "0x1421f09a0",
+    "label": "Participate in variant discovery and validation"
+  },
+  {
+    "path": "docs/experiments/construction-variants/report.md",
+    "line": 33,
+    "va": "0x1421f0fc0",
+    "label": "Participate in variant discovery and validation"
+  },
+  {
+    "path": "docs/experiments/construction-variants/report.md",
+    "line": 38,
+    "va": "0x140b4d650",
+    "label": "Enter PackIn replacement for the hab-wall rule"
+  },
+  {
+    "path": "docs/experiments/construction-variants/report.md",
+    "line": 46,
+    "va": "0x1418cafc0",
+    "label": "Dispatch the reference base setter route"
+  },
+  {
+    "path": "docs/experiments/construction-variants/report.md",
+    "line": 72,
+    "va": "0x140f5bd50",
+    "label": "Participate in support and generated-child construction"
+  },
+  {
+    "path": "docs/experiments/construction-variants/saves.md",
+    "line": 81,
+    "va": "0x1405335c0",
+    "label": "Merge the ExtraMaterialSwap material array"
+  },
+  {
+    "path": "docs/experiments/construction-variants/saves.md",
+    "line": 81,
+    "va": "0x140b43f80",
+    "label": "Supply material swap data to the merge path"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 29,
+    "va": "0x1400183b0",
+    "label": "Install display-case defaults"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 29,
+    "va": "0x140431a00",
+    "label": "Register the display-case native form type"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 31,
+    "va": "0x141303ce0",
+    "label": "Look up the display-case component"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 34,
+    "va": "0x1413026e0",
+    "label": "Register loaded and unloaded display components"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 47,
+    "va": "0x140640c90",
+    "label": "Visit item data for display admission"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 50,
+    "va": "0x140018340",
+    "label": "Initialize the maximum display slot item limit"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 75,
+    "va": "0x141ee7440",
+    "label": "Handle the single-form mannequin inventory branch"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 83,
+    "va": "0x14190bee0",
+    "label": "Resolve effective carry weight for the inventory path"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 90,
+    "va": "0x1406425a0",
+    "label": "Remove the represented display inventory quantity"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 96,
+    "va": "0x1412ff2d0",
+    "label": "Compose the selected display rule and item data"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 101,
+    "va": "0x140504b40",
+    "label": "Handle the materialized display reference"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 110,
+    "va": "0x14050ced0",
+    "label": "Apply ownership to the copied item"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 121,
+    "va": "0x140515090",
+    "label": "Resolve the ExtraItemDropper relation"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 121,
+    "va": "0x140515ee0",
+    "label": "Resolve extra data for display attachment"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 122,
+    "va": "0x140f34be0",
+    "label": "Handle Workshop context for the display attachment"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 122,
+    "va": "0x141304dd0",
+    "label": "Update the selected display rule's component list"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 155,
+    "va": "0x140b7c560",
+    "label": "Dispatch inventory row visits"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 156,
+    "va": "0x140b8a8c0",
+    "label": "Dispatch the quantity-removal route"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 157,
+    "va": "0x140b7bd20",
+    "label": "Invoke the selected stack update path"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 167,
+    "va": "0x141eadb50",
+    "label": "Select inventory interaction mode from the event"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 174,
+    "va": "0x140b4c620",
+    "label": "Apply the item pickup or transfer branch"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 175,
+    "va": "0x141a44770",
+    "label": "Remove the dropper and slot relationship"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 195,
+    "va": "0x1419d0690",
+    "label": "Refresh equipment and 3D after the mannequin inventory change"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 199,
+    "va": "0x1419a9040",
+    "label": "Resolve instance equipment data in the restore route"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 201,
+    "va": "0x1419aa500",
+    "label": "Unequip and clear the saved equipment nibble"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 202,
+    "va": "0x1418f53e0",
+    "label": "Resolve the exact inventory form and instance row"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 203,
+    "va": "0x1418f56d0",
+    "label": "Check the selected inventory row bit"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 209,
+    "va": "0x140b79750",
+    "label": "Dispatch equipped armor restoration"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 209,
+    "va": "0x140b79970",
+    "label": "Dispatch equipped weapon restoration"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 212,
+    "va": "0x1406416f0",
+    "label": "Normalize inventory extras before state inspection"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 241,
+    "va": "0x141305190",
+    "label": "Update the display component after clearing stock"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 247,
+    "va": "0x1421cbf40",
+    "label": "Run stock clearing checks for the assembly preview"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 256,
+    "va": "0x140644210",
+    "label": "Destroy existing stack extras on inventory reset"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 257,
+    "va": "0x1406450e0",
+    "label": "Clear the inventory row array"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 259,
+    "va": "0x140b24af0",
+    "label": "Initialize stock when the source inventory field is null"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 275,
+    "va": "0x141303d30",
+    "label": "Serialize unloaded display components"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 275,
+    "va": "0x141303fa0",
+    "label": "Serialize loaded display components"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 281,
+    "va": "0x141302bb0",
+    "label": "Handle the display-component load callback"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 281,
+    "va": "0x141302bc0",
+    "label": "Handle the display-component load callback"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 281,
+    "va": "0x1418234e0",
+    "label": "Resolve each display component owner for fixup"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 284,
+    "va": "0x1412fd980",
+    "label": "Restore dropped-reference attachment context"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 286,
+    "va": "0x1412fdfb0",
+    "label": "Reconcile qualified display inventories after load"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 292,
+    "va": "0x140f3a6e0",
+    "label": "Remove display roots and child references"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 316,
+    "va": "0x140b65df0",
+    "label": "Handle inventory attachment reconciliation and cleanup"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 325,
+    "va": "0x1414410f0",
+    "label": "Receive reference context for property handling"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 325,
+    "va": "0x141441f70",
+    "label": "Dispatch reference context into the property route"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 326,
+    "va": "0x141441730",
+    "label": "Register the mannequin display property"
+  },
+  {
+    "path": "docs/experiments/containers-displays/native.md",
+    "line": 330,
+    "va": "0x14038a050",
+    "label": "Return the bound member at receiver offset 0x28"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 15,
+    "va": "0x142010740",
+    "label": "Register the GetPlayer native function",
+    "detail": "The native registration binds a dedicated callback and uses the VM registration dispatch."
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 15,
+    "va": "0x1420188d0",
+    "label": "Construct the GetPlayer native function binding"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 17,
+    "va": "0x142085050",
+    "label": "Register inherited GetCurrentLocation native function",
+    "detail": "The inspected registration binds the inherited ObjectReference callback and declares a location result category."
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 17,
+    "va": "0x14209ec60",
+    "label": "Construct the GetCurrentLocation native function binding"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 25,
+    "va": "0x14051b2b0",
+    "label": "Support native current-location resolution"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 25,
+    "va": "0x140af4c50",
+    "label": "Resolve the eligible cell or world location"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 25,
+    "va": "0x140b4eb40",
+    "label": "Support world-position location lookup without a parent cell"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 25,
+    "va": "0x140bc17b0",
+    "label": "Support world-position lookup before ExtraLocation fallback"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 25,
+    "va": "0x1421190b0",
+    "label": "Resolve the containing reference location context"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 27,
+    "va": "0x140911600",
+    "label": "Participate in the null-result location fallback"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 27,
+    "va": "0x140b58d50",
+    "label": "Participate in the special reference location branch"
+  },
+  {
+    "path": "docs/experiments/coordinate-sufficiency/papyrus-current-location.md",
+    "line": 27,
+    "va": "0x142116840",
+    "label": "Participate in space-reference component lookup"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 16,
+    "va": "0x1404094b0",
+    "label": "Reverse the destination ability path during assignment removal"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 30,
+    "va": "0x1405366a0",
+    "label": "Participate in native selected-template restoration"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 30,
+    "va": "0x140543370",
+    "label": "Participate in native selected-template restoration"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 30,
+    "va": "0x140cdf140",
+    "label": "Participate in effective NPC template assembly"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 30,
+    "va": "0x140cdfde0",
+    "label": "Participate in effective NPC template assembly"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 44,
+    "va": "0x140be51a0",
+    "label": "Apply the native GetDead condition predicate"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 44,
+    "va": "0x141fc7f50",
+    "label": "Handle the IsBleedingOut native callback"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 44,
+    "va": "0x141fc7fb0",
+    "label": "Return the script-facing actor death predicate"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 44,
+    "va": "0x141fd1470",
+    "label": "Handle the IsUnconscious native callback"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/native.md",
+    "line": 58,
+    "va": "0x14040a0d0",
+    "label": "Prune unresolved entries during E2 serialization"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/persistence.md",
+    "line": 40,
+    "va": "0x1412b60a0",
+    "label": "Write additional selected actor perk ranks"
+  },
+  {
+    "path": "docs/experiments/crew-lifecycle/persistence.md",
+    "line": 40,
+    "va": "0x141917e40",
+    "label": "Read additional selected actor perk ranks"
+  },
+  {
+    "path": "docs/experiments/crew-skills/native.md",
+    "line": 12,
+    "va": "0x14153e290",
+    "label": "Inspect possessed perks for screen display admission"
+  },
+  {
+    "path": "docs/experiments/crew-skills/native.md",
+    "line": 47,
+    "va": "0x14212d230",
+    "label": "Resolve the ship-associated actor"
+  },
+  {
+    "path": "docs/experiments/crew-skills/population.md",
+    "line": 19,
+    "va": "0x1405d2590",
+    "label": "Load the NPC template parts array"
+  },
+  {
+    "path": "docs/experiments/crew-skills/population.md",
+    "line": 19,
+    "va": "0x1405d3ad0",
+    "label": "Resolve enabled NPC template parts"
+  },
+  {
+    "path": "docs/experiments/crew/current-assignments.md",
+    "line": 114,
+    "va": "0x140547c90",
+    "label": "Dispatch saved linked-reference restoration"
+  },
+  {
+    "path": "docs/experiments/crew/current-assignments.md",
+    "line": 116,
+    "va": "0x14130ce90",
+    "label": "Serialize the unassigned registry"
+  },
+  {
+    "path": "docs/experiments/crew/report.md",
+    "line": 68,
+    "va": "0x14130caa0",
+    "label": "Deduplicate available crew registration"
+  },
+  {
+    "path": "docs/experiments/crew/report.md",
+    "line": 70,
+    "va": "0x14130cd20",
+    "label": "Remove old crew assignments before insertion"
+  },
+  {
+    "path": "docs/experiments/crew/report.md",
+    "line": 70,
+    "va": "0x14200f5a0",
+    "label": "Continue available and assigned crew bookkeeping"
+  },
+  {
+    "path": "docs/experiments/crew/screen.md",
+    "line": 43,
+    "va": "0x14153f4d0",
+    "label": "Populate the crew assignment picker"
+  },
+  {
+    "path": "docs/experiments/cross-session-center/dependencies-and-acquisition.md",
+    "line": 12,
+    "va": "0x1405a14d3",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/durable-outpost-center-and-object-transforms.md",
+    "line": 64,
+    "va": "0x140b4e260",
+    "label": "Restore reference rotation members"
+  },
+  {
+    "path": "docs/experiments/engine-oracle/dependency-ledger.md",
+    "line": 14,
+    "va": "0x1407a6500",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Original dependency ledger rejects this entry guess and verifies 0x1407a6540"
+  },
+  {
+    "path": "docs/experiments/event-oracle/dependency-ledger.md",
+    "line": 13,
+    "va": "0x1421b2ca0",
+    "label": "Exit and reset the placement publisher"
+  },
+  {
+    "path": "docs/experiments/event-oracle/dependency-ledger.md",
+    "line": 13,
+    "va": "0x1421b5e70",
+    "label": "Dispatch indirect placement update"
+  },
+  {
+    "path": "docs/experiments/event-oracle/dependency-ledger.md",
+    "line": 13,
+    "va": "0x1421be130",
+    "label": "Dispatch the placement-state publisher"
+  },
+  {
+    "path": "docs/experiments/event-oracle/dependency-ledger.md",
+    "line": 15,
+    "va": "0x1415f6710",
+    "label": "Perform the broader placement cleanup route"
+  },
+  {
+    "path": "docs/experiments/event-oracle/dependency-ledger.md",
+    "line": 15,
+    "va": "0x1421ba1b0",
+    "label": "Disable the publisher from a separate placement state"
+  },
+  {
+    "path": "docs/experiments/event-oracle/dependency-ledger.md",
+    "line": 22,
+    "va": "0x140ad0c3b",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Intra-function center-helper caller instruction"
+  },
+  {
+    "path": "docs/experiments/event-oracle/dependency-ledger.md",
+    "line": 22,
+    "va": "0x140ad0d3b",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Intra-function callback observation site"
+  },
+  {
+    "path": "docs/experiments/event-oracle/native-map.md",
+    "line": 39,
+    "va": "0x14079e100",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/event-oracle/native-map.md",
+    "line": 57,
+    "va": "0x140f3df70",
+    "label": "Resolve Workshop through the operation interface"
+  },
+  {
+    "path": "docs/experiments/event-oracle/native-map.md",
+    "line": 73,
+    "va": "0x1421b28fc",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/event-oracle/native-map.md",
+    "line": 73,
+    "va": "0x1421b2901",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/event-oracle/native-map.md",
+    "line": 74,
+    "va": "0x1421b2930",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/event-oracle/native-map.md",
+    "line": 75,
+    "va": "0x1421b2948",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/event-oracle/native-map.md",
+    "line": 78,
+    "va": "0x1421ba2e0",
+    "label": "Call the native geometry clear and radius reset"
+  },
+  {
+    "path": "docs/experiments/event-oracle/native-map.md",
+    "line": 80,
+    "va": "0x140f4a5b0",
+    "label": "Clean up the placement descriptor"
+  },
+  {
+    "path": "docs/experiments/event-oracle/native-map.md",
+    "line": 109,
+    "va": "0x141884350",
+    "label": "Supply streaming context or player fallback"
+  },
+  {
+    "path": "docs/experiments/event-oracle/preview-state.md",
+    "line": 35,
+    "va": "0x14158e570",
+    "label": "Write and queue the preview model state"
+  },
+  {
+    "path": "docs/experiments/event-oracle/preview-state.md",
+    "line": 35,
+    "va": "0x141590400",
+    "label": "Dispatch the queued current-state update"
+  },
+  {
+    "path": "docs/experiments/event-oracle/preview-state.md",
+    "line": 54,
+    "va": "0x1421bb4a0",
+    "label": "Handle the second preview timer crossing"
+  },
+  {
+    "path": "docs/experiments/exact-beacon-planetary-coordinates.md",
+    "line": 67,
+    "va": "0x1407be780",
+    "label": "Derive a snapped or indexed world point"
+  },
+  {
+    "path": "docs/experiments/exact-beacon-planetary-coordinates.md",
+    "line": 67,
+    "va": "0x1407bea00",
+    "label": "Derive the paired snapped or indexed world point"
+  },
+  {
+    "path": "docs/experiments/fallback-grid-provenance.md",
+    "line": 46,
+    "va": "0x14078b877",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/fallback-grid-provenance.md",
+    "line": 48,
+    "va": "0x14078008e",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/fallback-grid-provenance.md",
+    "line": 52,
+    "va": "0x1407801be",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/fallback-grid-provenance.md",
+    "line": 52,
+    "va": "0x140780264",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/fallback-grid-provenance.md",
+    "line": 55,
+    "va": "0x14077fe91",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/fallback-grid-provenance.md",
+    "line": 56,
+    "va": "0x14077fec0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/initial-outpost-system-reconnaissance.md",
+    "line": 86,
+    "va": "0x14209be00",
+    "label": "Bind the GetWorkshop native callback",
+    "detail": "The native registration writes the callback address into the binding object. Registration is static evidence of association.",
+    "symbol": "FUN_14209be00"
+  },
+  {
+    "path": "docs/experiments/initial-outpost-system-reconnaissance.md",
+    "line": 92,
+    "va": "0x140c05220",
+    "label": "Call the workshop activator diagnostic helper",
+    "detail": "This caller contains workshop activator validation and resource damage diagnostics.",
+    "symbol": "FUN_140c05220"
+  },
+  {
+    "path": "docs/experiments/initial-outpost-system-reconnaissance.md",
+    "line": 92,
+    "va": "0x140c7af90",
+    "label": "Call the outpost beacon validation lead",
+    "detail": "The caller emits an outpost beacon diagnostic on failure. The diagnostic alone does not establish destructor behavior.",
+    "symbol": "FUN_140c7af90"
+  },
+  {
+    "path": "docs/experiments/initial-outpost-system-reconnaissance.md",
+    "line": 92,
+    "va": "0x140f35870",
+    "label": "Receive the workshop activator diagnostic call",
+    "detail": "The native report locates a call from the workshop activator diagnostic path. Internal behavior and ABI remain unresolved.",
+    "symbol": "FUN_140f35870"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/links.md",
+    "line": 17,
+    "va": "0x14208a00a",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/links.md",
+    "line": 18,
+    "va": "0x142068b48",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/links.md",
+    "line": 19,
+    "va": "0x140f8165a",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/links.md",
+    "line": 20,
+    "va": "0x140f80d6f",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/links.md",
+    "line": 21,
+    "va": "0x140f81cbc",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/links.md",
+    "line": 23,
+    "va": "0x140f7ee31",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 39,
+    "va": "0x140531bb6",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 40,
+    "va": "0x140f7d43b",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 41,
+    "va": "0x140157280",
+    "label": "Initialize the production halt keyword default"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 42,
+    "va": "0x140c01ff0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 42,
+    "va": "0x140c0200e",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 44,
+    "va": "0x140f7f1df",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 46,
+    "va": "0x140092260",
+    "label": "Read the resource's base production interval"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 46,
+    "va": "0x14009228e",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 47,
+    "va": "0x1400a97a0",
+    "label": "Participate in effective harvester interval multiplier lookup"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 48,
+    "va": "0x140f7f3d3",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 80,
+    "va": "0x140f7f2c3",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/native.md",
+    "line": 88,
+    "va": "0x140157480",
+    "label": "Initialize the Workshop production interval override"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/production-native.md",
+    "line": 56,
+    "va": "0x1409e7770",
+    "label": "Reset the native IRES definition state"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/production-native.md",
+    "line": 107,
+    "va": "0x140b97bd0",
+    "label": "Perform bookkeeping on the production path"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/production-native.md",
+    "line": 133,
+    "va": "0x143a40540",
+    "status": "excluded",
+    "domain": "external-import-locator",
+    "reason": "Original source identifies a standard-library arithmetic call and does not qualify a distinct research-relevant retail body"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/production-native.md",
+    "line": 148,
+    "va": "0x1405f7280",
+    "label": "Participate in a production event branch"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 18,
+    "va": "0x14051c5d0",
+    "label": "Participate in CrewExtraData E2 access"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 18,
+    "va": "0x14051c800",
+    "label": "Participate in CrewExtraData E2 access"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 35,
+    "va": "0x140407cb0",
+    "label": "Migrate selected groups of crew handles"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 41,
+    "va": "0x14209ff50",
+    "label": "Register the crew-members callback",
+    "detail": "The original registration binds the native callback for GetAllCrewMembers."
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 42,
+    "va": "0x1417eb150",
+    "label": "Resolve crew actors in the inspected E2 callback"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 56,
+    "va": "0x140409f10",
+    "label": "Participate in selected-actor perk entry dispatch"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 79,
+    "va": "0x141fcc740",
+    "label": "Bind Actor AddPerk to its native path"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 97,
+    "va": "0x140ca3670",
+    "label": "Compare entries during perk cache insertion"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 105,
+    "va": "0x141954f20",
+    "label": "Handle cache and state follow-up after a perk transition"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 105,
+    "va": "0x141958550",
+    "label": "Update dependent state after the perk transition"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-native.md",
+    "line": 107,
+    "va": "0x1413da8f0",
+    "label": "Call the producer power-upgrade transition"
+  },
+  {
+    "path": "docs/experiments/inorganic-extractors/stacking-review.md",
+    "line": 53,
+    "va": "0x140bfd6a0",
+    "status": "excluded",
+    "domain": "not-relevant",
+    "reason": "Original investigation identifies the condition registration as unrelated"
+  },
+  {
+    "path": "docs/experiments/limits/native.md",
+    "line": 126,
+    "va": "0x1401594f0",
+    "label": "Construct the deployment limit default-object registration",
+    "detail": "The native registration supplies the default-object slot for OutpostMaxDeployed."
+  },
+  {
+    "path": "docs/experiments/limits/native.md",
+    "line": 158,
+    "va": "0x1421b7200",
+    "label": "Handle ordinary beacon removal"
+  },
+  {
+    "path": "docs/experiments/limits/native.md",
+    "line": 174,
+    "va": "0x1401571c0",
+    "label": "Construct the quest quota default-object registration",
+    "detail": "The original registration creates the quota lookup object and initializes its value slot."
+  },
+  {
+    "path": "docs/experiments/limits/native.md",
+    "line": 194,
+    "va": "0x140bee630",
+    "label": "Read the perk rank for a native condition"
+  },
+  {
+    "path": "docs/experiments/limits/native.md",
+    "line": 194,
+    "va": "0x140c06e00",
+    "label": "Evaluate a nested condition form"
+  },
+  {
+    "path": "docs/experiments/limits/native.md",
+    "line": 195,
+    "va": "0x1409e5a00",
+    "label": "Dispatch nested condition evaluation"
+  },
+  {
+    "path": "docs/experiments/limits/native.md",
+    "line": 201,
+    "va": "0x140c0b1e0",
+    "label": "Test associated body keyword sources"
+  },
+  {
+    "path": "docs/experiments/limits/native.md",
+    "line": 217,
+    "va": "0x1402cd1b0",
+    "label": "Participate in current-cell and location eligibility"
+  },
+  {
+    "path": "docs/experiments/limits/native.md",
+    "line": 219,
+    "va": "0x14219bb40",
+    "label": "Qualify vehicle state for beacon placement"
+  },
+  {
+    "path": "docs/experiments/limits/native.md",
+    "line": 222,
+    "va": "0x140f3c7e0",
+    "label": "Participate in existing-beacon availability"
+  },
+  {
+    "path": "docs/experiments/limits/review.md",
+    "line": 51,
+    "va": "0x140e47350",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Original review rejects the guessed non-entry"
+  },
+  {
+    "path": "docs/experiments/local-output-links/lifecycle.md",
+    "line": 11,
+    "va": "0x140b9a340",
+    "label": "Reach the object-loaded notification route"
+  },
+  {
+    "path": "docs/experiments/local-output-links/lifecycle.md",
+    "line": 12,
+    "va": "0x1421ad290",
+    "label": "Subscribe the Workshop object-loaded event sink"
+  },
+  {
+    "path": "docs/experiments/local-output-links/lifecycle.md",
+    "line": 14,
+    "va": "0x140b994d0",
+    "label": "Reach the separate notification registration route"
+  },
+  {
+    "path": "docs/experiments/local-output-links/lifecycle.md",
+    "line": 14,
+    "va": "0x1421ad550",
+    "label": "Unregister the Workshop object-loaded event sink"
+  },
+  {
+    "path": "docs/experiments/local-output-links/lifecycle.md",
+    "line": 16,
+    "va": "0x140f7e530",
+    "label": "Handle the container-changed event callback"
+  },
+  {
+    "path": "docs/experiments/local-output-links/lifecycle.md",
+    "line": 19,
+    "va": "0x1405de3b0",
+    "label": "Resolve the FormID for the object-loaded event"
+  },
+  {
+    "path": "docs/experiments/local-output-links/lifecycle.md",
+    "line": 33,
+    "va": "0x140f836e0",
+    "label": "Perform the UI deletion update"
+  },
+  {
+    "path": "docs/experiments/local-output-links/lifecycle.md",
+    "line": 35,
+    "va": "0x140f82f30",
+    "label": "Clear the producer registry and caches on global reset"
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 50,
+    "va": "0x140f8ccf0",
+    "label": "Build the base-container inventory view"
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 54,
+    "va": "0x140f85580",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 55,
+    "va": "0x140f89d00",
+    "label": "Filter inventory items before local transfer"
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 87,
+    "va": "0x140f7d0b0",
+    "label": "Check whether to admit the destination container"
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 113,
+    "va": "0x140f858ae",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Call instruction in the link-add validation and movement path"
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 114,
+    "va": "0x142077b58",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Call instruction in the script-facing operation"
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 115,
+    "va": "0x140c1f400",
+    "label": "Dispatch the native local redistribution command",
+    "detail": "The wrapper requires TESContainer capability before dispatching the mover. It does not establish a periodic tick."
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 115,
+    "va": "0x140c1f44e",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Call instruction inside command wrapper 0x140c1f400"
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 142,
+    "va": "0x140f87f00",
+    "label": "Queue loaded output-link cache reconstruction"
+  },
+  {
+    "path": "docs/experiments/local-output-links/native.md",
+    "line": 142,
+    "va": "0x140f8b570",
+    "label": "Dispatch loaded output-link cache reconstruction"
+  },
+  {
+    "path": "docs/experiments/local-output-links/saves.md",
+    "line": 41,
+    "va": "0x140f84020",
+    "label": "Participate in capacity and filter evaluation"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/field-lineage.md",
+    "line": 13,
+    "va": "0x141369b80",
+    "label": "Handle the Locations system-body data route"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/field-lineage.md",
+    "line": 13,
+    "va": "0x14136dc40",
+    "label": "Dispatch the queued system-body data update"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/field-lineage.md",
+    "line": 21,
+    "va": "0x1405e3fb0",
+    "label": "Look up the planet subtitle name"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/field-lineage.md",
+    "line": 22,
+    "va": "0x1416cf8f0",
+    "label": "Supply the Locations system designation name"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/field-lineage.md",
+    "line": 35,
+    "va": "0x14135d890",
+    "label": "Supply the Locations faction caption"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 95,
+    "va": "0x1405e40a0",
+    "label": "Resolve a name for the outpost body context"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 96,
+    "va": "0x140461f10",
+    "label": "Look up the current body-name component"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 109,
+    "va": "0x14135f0e0",
+    "label": "Build the selected Locations body data"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 110,
+    "va": "0x1416cd320",
+    "label": "Participate in selected body data construction"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 110,
+    "va": "0x1416cf0f0",
+    "label": "Participate in selected body data construction"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 111,
+    "va": "0x14231f860",
+    "label": "Validate the containing root body"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 115,
+    "va": "0x14135d570",
+    "label": "Bind the Locations body and system names"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 115,
+    "va": "0x1416b6310",
+    "label": "Receive the Locations body and system name data"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 121,
+    "va": "0x140786690",
+    "label": "Look up the primary Locations body context"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 121,
+    "va": "0x140910af0",
+    "label": "Supply the fallback Locations body context"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 128,
+    "va": "0x140aba950",
+    "label": "Select the first available owner context"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 134,
+    "va": "0x14172bc70",
+    "label": "Resolve faction-type keyword for Locations display"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 139,
+    "va": "0x140aab770",
+    "label": "Decode the location DATA record fields"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 139,
+    "va": "0x140ab8030",
+    "label": "Dispatch location DATA decoding"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 140,
+    "va": "0x1402b9480",
+    "label": "Resolve the location link field in fixup"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 140,
+    "va": "0x140ab9f80",
+    "label": "Fix up the location DATA link"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 158,
+    "va": "0x1400255c0",
+    "label": "Initialize the easy StarMap level threshold"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 159,
+    "va": "0x1402d66a0",
+    "label": "Set the StarMap level thresholds"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 161,
+    "va": "0x141364930",
+    "label": "Bind the Locations body data fields"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 180,
+    "va": "0x141362bc0",
+    "label": "Resolve display context for the Locations upper map"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 181,
+    "va": "0x1413630c0",
+    "label": "Project system component positions for the upper map"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 182,
+    "va": "0x142be45c0",
+    "label": "Project system positions into Locations display coordinates"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 184,
+    "va": "0x141364300",
+    "label": "Bind the Locations marker array"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 185,
+    "va": "0x14136cf60",
+    "label": "Bind body identity and coordinates for the upper map"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 193,
+    "va": "0x1416aac10",
+    "label": "Participate in the Locations system-root diagram route"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 193,
+    "va": "0x1416aacd0",
+    "label": "Participate in the Locations system-root diagram route"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 195,
+    "va": "0x1416aa920",
+    "label": "Supply body type and scan state for the diagram"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 196,
+    "va": "0x1416ceb20",
+    "label": "Supply color from the relevant body component"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 197,
+    "va": "0x1416ceb90",
+    "label": "Participate in normalized Locations body sizing"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 197,
+    "va": "0x142333270",
+    "label": "Read body size component data for the display path"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 198,
+    "va": "0x1416d1c50",
+    "label": "Accumulate display size ranges by body type"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 203,
+    "va": "0x14135fcc0",
+    "label": "Dispatch Locations system-body data replacement"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 203,
+    "va": "0x1416aab70",
+    "label": "Bind the Locations system-body diagram payload"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 203,
+    "va": "0x1416ab670",
+    "label": "Replace the Locations system-body data"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 205,
+    "va": "0x1416aa880",
+    "label": "Bind system-body diagram identity and display fields"
+  },
+  {
+    "path": "docs/experiments/locations-outpost/native-and-ui.md",
+    "line": 233,
+    "va": "0x14135eb10",
+    "label": "Supply separate Locations body data"
+  },
+  {
+    "path": "docs/experiments/native-availability-map/output-contract.md",
+    "line": 124,
+    "va": "0x1421b6b50",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/native-availability-map/region-dependencies.md",
+    "line": 75,
+    "va": "0x14079b750",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/native-availability-map/region-lifecycle.md",
+    "line": 55,
+    "va": "0x14079c3e0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/native-availability-map/region-lifecycle.md",
+    "line": 71,
+    "va": "0x140362140",
+    "label": "Register resource task dependency edges"
+  },
+  {
+    "path": "docs/experiments/native-availability-map/region-lifecycle.md",
+    "line": 71,
+    "va": "0x140362300",
+    "label": "Register the paired resource task dependency path"
+  },
+  {
+    "path": "docs/experiments/native-oracle/continuation-020-native-review.md",
+    "line": 27,
+    "va": "0x140ad93ff",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Continuation after the full direct query call"
+  },
+  {
+    "path": "docs/experiments/native-oracle/continuation-020-native-review.md",
+    "line": 29,
+    "va": "0x140ad0ab5",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Call instruction targeting 0x140b1e190"
+  },
+  {
+    "path": "docs/experiments/native-oracle/continuation-020-native-review.md",
+    "line": 29,
+    "va": "0x140b1e370",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Epilogue of the function at 0x140b1e190"
+  },
+  {
+    "path": "docs/experiments/native-oracle/continuation-020-native-review.md",
+    "line": 31,
+    "va": "0x140b1e2c0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/native-oracle/continuation-020-native-review.md",
+    "line": 33,
+    "va": "0x140ad0c36",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Nested center CALL observation address"
+  },
+  {
+    "path": "docs/experiments/organic-facilities/native.md",
+    "line": 45,
+    "va": "0x1423ff640",
+    "label": "Obtain manager context for candidate resource reads"
+  },
+  {
+    "path": "docs/experiments/organic-facilities/native.md",
+    "line": 74,
+    "va": "0x1400d1477",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Beginning of the cited registration instruction window"
+  },
+  {
+    "path": "docs/experiments/organic-facilities/native.md",
+    "line": 188,
+    "va": "0x140156a40",
+    "label": "Initialize the organic facility input default object"
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 30,
+    "va": "0x142332f70",
+    "label": "Retrieve the body-keyed name component"
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 30,
+    "va": "0x142333000",
+    "label": "Retrieve the body-keyed name component"
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 31,
+    "va": "0x142403520",
+    "label": "Expose the body-name component type"
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 79,
+    "va": "0x1423391d0",
+    "label": "Convert chart inputs in the biome sampling path"
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 79,
+    "va": "0x142339250",
+    "label": "Convert angular inputs in the biome sampling path"
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 101,
+    "va": "0x140975e00",
+    "label": "Search water neighbors for biome evaluation"
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 104,
+    "va": "0x14078abc0",
+    "label": "Select biome input with world or encounter overrides"
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 106,
+    "va": "0x140aef010",
+    "label": "Participate in cell-based biome state selection"
+  },
+  {
+    "path": "docs/experiments/outpost-biomes/native.md",
+    "line": 106,
+    "va": "0x140aef1e0",
+    "label": "Participate in world-based biome state selection"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 75,
+    "va": "0x1418be6e0",
+    "label": "Dispatch actor versus destructible reference handling"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 81,
+    "va": "0x140f2fc50",
+    "label": "Dispatch the reference damage route"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 81,
+    "va": "0x1418be3e0",
+    "label": "Handle the inspected damage path call"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 87,
+    "va": "0x1419ae970",
+    "label": "Apply a reference actor-value modifier"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/integrity.md",
+    "line": 131,
+    "va": "0x1405c42d0",
+    "label": "Restore Health damage through modifier index 2"
+  },
+  {
+    "path": "docs/experiments/outpost-defense/persistence.md",
+    "line": 68,
+    "va": "0x140554bd0",
+    "label": "Load the ExtraData E6 counted representation"
+  },
+  {
+    "path": "docs/experiments/planetary-surface-anchor-semantics.md",
+    "line": 32,
+    "va": "0x1404a7da0",
+    "label": "Build the inverse matrix for body-oriented map selection"
+  },
+  {
+    "path": "docs/experiments/planetary-surface-anchor-semantics.md",
+    "line": 33,
+    "va": "0x142104ff0",
+    "label": "Receive the selected-site state update"
+  },
+  {
+    "path": "docs/experiments/planetary-surface-anchor-semantics.md",
+    "line": 77,
+    "va": "0x1407b6360",
+    "label": "Participate in body-world naming during overlay construction"
+  },
+  {
+    "path": "docs/experiments/planetary-surface-anchor/README.md",
+    "line": 14,
+    "va": "0x140756700",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Original study found no defined function at this guess"
+  },
+  {
+    "path": "docs/experiments/position-resumption/algorithm.md",
+    "line": 70,
+    "va": "0x14374dcc0",
+    "label": "Dispatch the native SIMD angular helper by CPU state"
+  },
+  {
+    "path": "docs/experiments/position-resumption/dependencies.md",
+    "line": 12,
+    "va": "0x141832fd0",
+    "label": "Dispatch saved initial position and frame writing"
+  },
+  {
+    "path": "docs/experiments/position-resumption/dependencies.md",
+    "line": 16,
+    "va": "0x140f505a0",
+    "status": "unresolved",
+    "domain": "ambiguous-entry",
+    "reason": "Earlier dependency shorthand groups save and load locators without a distinct entry role for this value. Later exact Workshop framing rows identify the writer and reader separately"
+  },
+  {
+    "path": "docs/experiments/position-resumption/dependencies.md",
+    "line": 16,
+    "va": "0x140f50a50",
+    "status": "unresolved",
+    "domain": "ambiguous-entry",
+    "reason": "Earlier dependency shorthand groups save and load locators without a distinct entry role for this value. Later exact Workshop framing rows identify the writer and reader separately"
+  },
+  {
+    "path": "docs/experiments/position-resumption/dependencies.md",
+    "line": 20,
+    "va": "0x1434ca960",
+    "status": "excluded",
+    "domain": "external-import-locator",
+    "reason": "Original source identifies a standard-library arithmetic call and does not qualify a distinct research-relevant retail body"
+  },
+  {
+    "path": "docs/experiments/position-resumption/dependencies.md",
+    "line": 23,
+    "va": "0x140798030",
+    "label": "Select active or requested frame before overlay activation"
+  },
+  {
+    "path": "docs/experiments/position-write-history/static-audit.md",
+    "line": 59,
+    "va": "0x1405a14da",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/position-write-history/static-audit.md",
+    "line": 61,
+    "va": "0x140b7351a",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/position-write-history/static-audit.md",
+    "line": 63,
+    "va": "0x140b4a294",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/position-write-history/static-audit.md",
+    "line": 81,
+    "va": "0x140acd2c0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/position-write-history/static-audit.md",
+    "line": 82,
+    "va": "0x140acd2d8",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/position-write-history/static-audit.md",
+    "line": 86,
+    "va": "0x1418c2982",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/position-write-history/static-audit.md",
+    "line": 93,
+    "va": "0x1418ce315",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/power/followup.md",
+    "line": 56,
+    "va": "0x14066c4f0",
+    "label": "Participate in the power AV modifier caller set"
+  },
+  {
+    "path": "docs/experiments/power/followup.md",
+    "line": 56,
+    "va": "0x14066ccd0",
+    "label": "Participate in the power AV modifier caller set"
+  },
+  {
+    "path": "docs/experiments/power/followup.md",
+    "line": 56,
+    "va": "0x14066d890",
+    "label": "Participate in the power AV modifier caller set"
+  },
+  {
+    "path": "docs/experiments/power/followup.md",
+    "line": 58,
+    "va": "0x140f35090",
+    "label": "Invoke the follow-up for a changed power reference"
+  },
+  {
+    "path": "docs/experiments/power/followup.md",
+    "line": 118,
+    "va": "0x140922b30",
+    "label": "Resolve the child handle in open-state follow-up"
+  },
+  {
+    "path": "docs/experiments/power/fuel.md",
+    "line": 111,
+    "va": "0x140f7f3b0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 72,
+    "va": "0x1405315c0",
+    "label": "Enter the alternate association insertion route"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 72,
+    "va": "0x1405407b0",
+    "label": "Dispatch direct or queued association insertion"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 72,
+    "va": "0x140540a90",
+    "label": "Forward the alternate association route"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 72,
+    "va": "0x140543c80",
+    "label": "Process queued association insertion"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 72,
+    "va": "0x1405a0520",
+    "label": "Enter a forward-derived reconstruction path"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 72,
+    "va": "0x1405afea0",
+    "label": "Process association during reconstruction"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 72,
+    "va": "0x140afe0d0",
+    "label": "Continue initialization association"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 72,
+    "va": "0x140b0fd40",
+    "label": "Process reference attach association"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 72,
+    "va": "0x140b19a60",
+    "label": "Initialize the reference association path"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 111,
+    "va": "0x140b02630",
+    "label": "Conditionally emit the loaded reference event"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 112,
+    "va": "0x140b40660",
+    "label": "Check whether to admit the loaded reference"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 112,
+    "va": "0x140b97ac0",
+    "label": "Participate in dispatch for an admitted loaded reference"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 113,
+    "va": "0x140b40430",
+    "label": "Emit the loaded-reference event from a move or 3D path"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 113,
+    "va": "0x1418dba40",
+    "label": "Emit the loaded-reference event from a move or 3D path"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 149,
+    "va": "0x1418c7270",
+    "label": "Participate in the designated-thread power update route"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 149,
+    "va": "0x1418c7550",
+    "label": "Participate in the designated-thread power update route"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 152,
+    "va": "0x1421efb30",
+    "label": "React to a PowerGenerated value change"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 152,
+    "va": "0x1421f01f0",
+    "label": "Route reference power and open-close state changes"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 153,
+    "va": "0x1421eff10",
+    "label": "Route reference power and open-close state changes"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 261,
+    "va": "0x1405893c0",
+    "label": "Visit the cell-finish notification path"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 261,
+    "va": "0x140b5c350",
+    "label": "Check reference flags during the cell-finish notification"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 262,
+    "va": "0x140b58cf0",
+    "label": "Apply the cell-finish visitor predicate"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 263,
+    "va": "0x140b90250",
+    "label": "Dispatch deferred cell-finish event work"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 263,
+    "va": "0x140b979c0",
+    "label": "Dispatch the distinct reference-bearing cell-finish event"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 264,
+    "va": "0x140b9a110",
+    "label": "Reach the source for the reference-bearing cell-finish event"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 270,
+    "va": "0x14187bb60",
+    "label": "Handle unresolved-owner cleanup"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 271,
+    "va": "0x14187b5a0",
+    "label": "Perform relationship cleanup for the unresolved owner"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 271,
+    "va": "0x14187d800",
+    "label": "Continue conditional unresolved-owner cleanup"
+  },
+  {
+    "path": "docs/experiments/power/load-determinism.md",
+    "line": 273,
+    "va": "0x1428cce50",
+    "label": "Receive the unresolved-owner reference-manager operation"
+  },
+  {
+    "path": "docs/experiments/power/native.md",
+    "line": 49,
+    "va": "0x14003e570",
+    "label": "Initialize a Workshop power default object"
+  },
+  {
+    "path": "docs/experiments/power/native.md",
+    "line": 135,
+    "va": "0x14003e540",
+    "label": "Initialize the queue-selection default"
+  },
+  {
+    "path": "docs/experiments/power/native.md",
+    "line": 221,
+    "va": "0x14009bc60",
+    "label": "Initialize the power route keyword default object"
+  },
+  {
+    "path": "docs/experiments/power/saved.md",
+    "line": 151,
+    "va": "0x14065be8f",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/power/saved.md",
+    "line": 153,
+    "va": "0x14065bed8",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/q-branch-030/trigger-justification.md",
+    "line": 10,
+    "va": "0x140ad93fa",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Direct query call instruction within the iterator caller"
+  },
+  {
+    "path": "docs/experiments/q-branch-030/trigger-justification.md",
+    "line": 19,
+    "va": "0x1407801b3",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-availability-milestone-b/native-provenance.md",
+    "line": 28,
+    "va": "0x1421e1180",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-availability-milestone-b/native-provenance.md",
+    "line": 69,
+    "va": "0x140ad36d0",
+    "label": "Resolve loaded spatial location context"
+  },
+  {
+    "path": "docs/experiments/resource-availability-milestone-b/native-provenance.md",
+    "line": 70,
+    "va": "0x14079ff18",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 18,
+    "va": "0x14157827f",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Payload constructor call instruction inside the UI model constructor"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 22,
+    "va": "0x14042e250",
+    "label": "Append a resource identity on the special path",
+    "detail": "The special append is separate from the first-population pointer-deduplication helper.",
+    "symbol": "FUN_14042e250"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 27,
+    "va": "0x140f4af20",
+    "label": "Support multipoint descriptor geometry tests",
+    "detail": "The original trace places this geometry helper in the multipoint branch. The caller must supply separately qualified geometry operands.",
+    "symbol": "FUN_140f4af20"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 32,
+    "va": "0x1409df850",
+    "label": "Load biome RNAM identities",
+    "detail": "The BIOM definition loader appends raw RNAM IDs to the member list.",
+    "symbol": "FUN_1409df850"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 32,
+    "va": "0x1409e1640",
+    "label": "Resolve biome RNAM identities",
+    "detail": "The native fixup resolves the raw list values. This is a definition edge, with no saved CELL payload inference.",
+    "symbol": "FUN_1409e1640"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 32,
+    "va": "0x1409e4690",
+    "label": "Participate in the biome RNAM load and fixup route",
+    "detail": "The native source pins this function in the RNAM definition route. Its individual operand contract remains unqualified.",
+    "symbol": "FUN_1409e4690"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 33,
+    "va": "0x1409efc60",
+    "label": "Resolve resource-generation descriptor references",
+    "detail": "The paired RSGD loader and fixup use structured descriptor entries. The fixup removes unresolved entries.",
+    "symbol": "FUN_1409efc60"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 34,
+    "va": "0x140852f20",
+    "label": "Support reflected atmosphere source loading",
+    "detail": "The source identifies this entry on generic reflection loading for atmosphere definitions. The full schema and function ABI remain unresolved.",
+    "symbol": "FUN_140852f20"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 34,
+    "va": "0x1409dd250",
+    "label": "Rebuild typed atmosphere resource list",
+    "detail": "The loader rebuilds the resource list by casting reflected forms to the resource type.",
+    "symbol": "FUN_1409dd250"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 37,
+    "va": "0x1409e6c20",
+    "label": "Initialize resolved default-object storage",
+    "detail": "The BGSDefaultObject path initializes the resolved-value slot at object byte offset 0x48.",
+    "symbol": "FUN_1409e6c20"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 37,
+    "va": "0x1409e6ed0",
+    "label": "Load default-object definition data",
+    "detail": "This entry participates in the native default-object definition route for independently joined DFOB records.",
+    "symbol": "FUN_1409e6ed0"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 61,
+    "va": "0x1421b6a10",
+    "label": "Clear resource population range ends"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 80,
+    "va": "0x1421a0000",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 80,
+    "va": "0x142200000",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 120,
+    "va": "0x140760000",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 120,
+    "va": "0x1407d0000",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 165,
+    "va": "0x140773180",
+    "label": "Queue typed resource component creation"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 165,
+    "va": "0x140773be0",
+    "label": "Participate in typed resource component creation and copy"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 165,
+    "va": "0x140774970",
+    "label": "Remove a typed resource component edge"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 166,
+    "va": "0x14077bce0",
+    "label": "Enumerate resource runtime pointers into scratch storage"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 166,
+    "va": "0x14077d090",
+    "label": "Participate in the PlanetData resource input route"
+  },
+  {
+    "path": "docs/experiments/resource-availability/native.md",
+    "line": 168,
+    "va": "0x14231da10",
+    "label": "Participate in resource component registration"
+  },
+  {
+    "path": "docs/experiments/resource-carinae-source-context/native.md",
+    "line": 17,
+    "va": "0x14079fc37",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-construction-demand/native.md",
+    "line": 19,
+    "va": "0x14079fcd4",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Cache-result branch instruction inside the source provider"
+  },
+  {
+    "path": "docs/experiments/resource-construction-demand/native.md",
+    "line": 20,
+    "va": "0x14079fd02",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Cache-miss branch target inside the source provider"
+  },
+  {
+    "path": "docs/experiments/resource-construction-demand/native.md",
+    "line": 27,
+    "va": "0x140bbc380",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-construction-demand/native.md",
+    "line": 28,
+    "va": "0x140363b80",
+    "label": "Dispatch neighbor coordinate demand"
+  },
+  {
+    "path": "docs/experiments/resource-construction-demand/native.md",
+    "line": 29,
+    "va": "0x1407af9d0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-construction-demand/native.md",
+    "line": 30,
+    "va": "0x1407a1050",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-construction-mask-selection/run-card.md",
+    "line": 79,
+    "va": "0x14079fb1b",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-construction-mask-selection/run-card.md",
+    "line": 80,
+    "va": "0x14079feaf",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-construction-mask-selection/run-card.md",
+    "line": 82,
+    "va": "0x14079b6a5",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-construction-mask-selection/run-card.md",
+    "line": 83,
+    "va": "0x14079b8ed",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-construction-mask-selection/run-card.md",
+    "line": 84,
+    "va": "0x14079c674",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-construction-mask-selection/run-card.md",
+    "line": 86,
+    "va": "0x14079ff1d",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-feynman-d5/native.md",
+    "line": 21,
+    "va": "0x1407b526a",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-feynman-d5/native.md",
+    "line": 22,
+    "va": "0x14079fa90",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-feynman-d5/native.md",
+    "line": 22,
+    "va": "0x14079fb1e",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-feynman-d5/native.md",
+    "line": 25,
+    "va": "0x14096f935",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-feynman-d5/native.md",
+    "line": 26,
+    "va": "0x14233256d",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-feynman-d5/native.md",
+    "line": 29,
+    "va": "0x14233942f",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-feynman-d5/native.md",
+    "line": 30,
+    "va": "0x1423391ce",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-generation-ancestry/ancestry.md",
+    "line": 34,
+    "va": "0x1421b6931",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-generation-ancestry/ancestry.md",
+    "line": 34,
+    "va": "0x1421e1772",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/f1-reconciliation.md",
+    "line": 68,
+    "va": "0x1421e1146",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 28,
+    "va": "0x1431ef760",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "CreationKit.exe selected-PlanetData getter"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 30,
+    "va": "0x1431d4ea0",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "CreationKit.exe widget body lookup"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 33,
+    "va": "0x1431f0fe0",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "CreationKit.exe Apply Random callback"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 33,
+    "va": "0x1431f10b0",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "CreationKit.exe Apply callback"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 34,
+    "va": "0x1431fabe0",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "CreationKit.exe signed field setter"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 35,
+    "va": "0x14158dbe0",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "CreationKit.exe field-apply path"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 36,
+    "va": "0x1431ef1f0",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "CreationKit.exe random field initializer"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 40,
+    "va": "0x14152cbc0",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "CreationKit.exe allocation path"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 40,
+    "va": "0x14158dbe0",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "CreationKit.exe field-apply path"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 42,
+    "va": "0x1415dcfb0",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "CreationKit.exe biome work-list operation"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 46,
+    "va": "0x1431bc320",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "Superseded CreationKit.exe allocator lead"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 60,
+    "va": "0x140475740",
+    "label": "Queue satellite metadata by body identity",
+    "detail": "The PlanetData GNAM loader supplies system, parent and body context. The metadata command is keyed by body identity.",
+    "symbol": "FUN_140475740"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 61,
+    "va": "0x140475810",
+    "label": "Queue body-index metadata by body identity",
+    "detail": "The PlanetData GNAM loader queues a separately typed body-index component command.",
+    "symbol": "FUN_140475810"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 62,
+    "va": "0x142332d90",
+    "label": "Resolve a planet owner through system and body index",
+    "detail": "The native lookup first probes a cache keyed by system and body index, then resolves and traverses the system's bodies on a miss.",
+    "symbol": "FUN_142332d90"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 64,
+    "va": "0x1423353a0",
+    "label": "Match the indexed body and obtain its owner ID",
+    "detail": "The original callback compares indexed-body component data before returning the owner identity.",
+    "symbol": "FUN_1423353a0"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-mature-context/seed-lineage.md",
+    "line": 69,
+    "va": "0x1417dfdf0",
+    "label": "Pass planet owner context to manager initialization",
+    "detail": "The retail relocation branch passes the resolved context through the manager initialization path. This does not prove which historical branch executed.",
+    "symbol": "FUN_1417dfdf0"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-observation/native-contract.md",
+    "line": 19,
+    "va": "0x1421e1060",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-observation/native-contract.md",
+    "line": 23,
+    "va": "0x14079fed3",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-geometry-observation/native-contract.md",
+    "line": 24,
+    "va": "0x14079c4f7",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-geometry/native.md",
+    "line": 15,
+    "va": "0x1407af470",
+    "label": "Order candidate resources by descending rarity",
+    "detail": "The native sort compares IRES rarity at byte offset 0x110. Preserve actual input ordering and equal-rarity behavior.",
+    "symbol": "FUN_1407af470"
+  },
+  {
+    "path": "docs/experiments/resource-geometry/native.md",
+    "line": 16,
+    "va": "0x14079c538",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-geometry/native.md",
+    "line": 17,
+    "va": "0x14079aab6",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-geometry/native.md",
+    "line": 21,
+    "va": "0x142346f80",
+    "label": "Interpolate a binary32 range from one MT draw",
+    "detail": "The native range helper makes one canonical MT draw in the inspected trace.",
+    "symbol": "FUN_142346f80"
+  },
+  {
+    "path": "docs/experiments/resource-geometry/native.md",
+    "line": 21,
+    "va": "0x142346fd7",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-geometry/native.md",
+    "line": 22,
+    "va": "0x142bf49e7",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-geometry/native.md",
+    "line": 114,
+    "va": "0x14096bf00",
+    "label": "Load surface-pattern style and source-slot fields"
+  },
+  {
+    "path": "docs/experiments/resource-geometry/native.md",
+    "line": 116,
+    "va": "0x140055360",
+    "label": "Initialize the native block orientation default"
+  },
+  {
+    "path": "docs/experiments/resource-geometry/native.md",
+    "line": 116,
+    "va": "0x14008d130",
+    "label": "Participate in surface-pattern default initialization"
+  },
+  {
+    "path": "docs/experiments/resource-geometry/native.md",
+    "line": 116,
+    "va": "0x14008d160",
+    "label": "Participate in surface-pattern default initialization"
+  },
+  {
+    "path": "docs/experiments/resource-installed-settings/settings.md",
+    "line": 17,
+    "va": "0x140051240",
+    "label": "Initialize the inactive common-resource chance setting"
+  },
+  {
+    "path": "docs/experiments/resource-installed-settings/settings.md",
+    "line": 18,
+    "va": "0x140051270",
+    "label": "Initialize the inactive uncommon-resource chance setting"
+  },
+  {
+    "path": "docs/experiments/resource-installed-settings/settings.md",
+    "line": 19,
+    "va": "0x1400512a0",
+    "label": "Initialize the inactive rare-resource chance setting"
+  },
+  {
+    "path": "docs/experiments/resource-installed-settings/settings.md",
+    "line": 20,
+    "va": "0x1400512d0",
+    "label": "Initialize the inactive exotic-resource chance setting"
+  },
+  {
+    "path": "docs/experiments/resource-installed-settings/settings.md",
+    "line": 21,
+    "va": "0x140051300",
+    "label": "Initialize the inactive unique-resource chance setting"
+  },
+  {
+    "path": "docs/experiments/resource-installed-settings/settings.md",
+    "line": 22,
+    "va": "0x140051330",
+    "label": "Initialize the inactive special-resource chance setting"
+  },
+  {
+    "path": "docs/experiments/resource-oracle-retail/implementation.md",
+    "line": 100,
+    "va": "0x1402b6c70",
+    "label": "Remap TESFile form identities by namespace"
+  },
+  {
+    "path": "docs/experiments/resource-owner-acquisition/native.md",
+    "line": 22,
+    "va": "0x1407bc745",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-acquisition/native.md",
+    "line": 23,
+    "va": "0x14079b925",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-acquisition/native.md",
+    "line": 24,
+    "va": "0x14079bd71",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 7,
+    "va": "0x1407bc36f",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 8,
+    "va": "0x1405f7aec",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 9,
+    "va": "0x1403a4250",
+    "label": "Traverse the owner store in native key order"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 9,
+    "va": "0x1403a42cf",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 10,
+    "va": "0x14234103a",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 11,
+    "va": "0x14076e7f2",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 12,
+    "va": "0x1407bc404",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 13,
+    "va": "0x1407bc480",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 13,
+    "va": "0x1407bc666",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 14,
+    "va": "0x1422cc150",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 15,
+    "va": "0x1405ed1b0",
+    "label": "Look up or insert a selected-root map entry"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 16,
+    "va": "0x1407bc9eb",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 17,
+    "va": "0x14079bd17",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 18,
+    "va": "0x14079bb75",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/native.md",
+    "line": 36,
+    "va": "0x14079bc50",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/review.md",
+    "line": 32,
+    "va": "0x14076e6a0",
+    "status": "excluded",
+    "domain": "failed-entry-lookup",
+    "reason": "Source explicitly records a nonexistent Ghidra entry"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/run-card.md",
+    "line": 11,
+    "va": "0x14079be20",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Ordinary generation call instruction"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/run-card.md",
+    "line": 25,
+    "va": "0x1407bc470",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Loop entry selected for a diagnostic breakpoint"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/source-layout.md",
+    "line": 14,
+    "va": "0x14096bae0",
+    "label": "Apply resolved surface-block slot definitions"
+  },
+  {
+    "path": "docs/experiments/resource-owner-root/source-layout.md",
+    "line": 15,
+    "va": "0x14096bb20",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-pattern-selection/native.md",
+    "line": 18,
+    "va": "0x140770eb0",
+    "label": "Resolve typed surface-tree reference",
+    "detail": "Pinned native resolution requires the surface tree form type before installing the reference on PlanetData.",
+    "symbol": "FUN_140770eb0"
+  },
+  {
+    "path": "docs/experiments/resource-pattern-selection/native.md",
+    "line": 18,
+    "va": "0x140773d80",
+    "label": "Initialize surface-tree owner fields",
+    "detail": "Pinned native owner initialization copies the owner identity and derives system and body fields.",
+    "symbol": "FUN_140773d80"
+  },
+  {
+    "path": "docs/experiments/resource-pattern-selection/native.md",
+    "line": 18,
+    "va": "0x14077400e",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-pattern-selection/native.md",
+    "line": 21,
+    "va": "0x14096df80",
+    "label": "Calculate native lowest-level hierarchy index",
+    "detail": "The native hierarchy and face-slot selection is distinct from FNAM-local and BIOM raster indexing.",
+    "symbol": "FUN_14096df80"
+  },
+  {
+    "path": "docs/experiments/resource-pattern-selection/native.md",
+    "line": 22,
+    "va": "0x140591d40",
+    "label": "Append an SFPT entry to the typed registry",
+    "detail": "The captured insertion appends at the prior count under lock. Historical registration order remains unknown.",
+    "symbol": "FUN_140591d40"
+  },
+  {
+    "path": "docs/experiments/resource-pattern-selection/native.md",
+    "line": 22,
+    "va": "0x140594ad0",
+    "label": "Select the typed surface-pattern registry",
+    "detail": "For SFPT form type 0xb5, native registration uses the DataHandler lock and array associated with that type.",
+    "symbol": "FUN_140594ad0"
+  },
+  {
+    "path": "docs/experiments/resource-pattern-selection/native.md",
+    "line": 24,
+    "va": "0x1405afc70",
+    "label": "Append a style-matched surface-pattern candidate",
+    "detail": "The candidate callback appends a selected form identity to temporary storage in encounter order.",
+    "symbol": "FUN_1405afc70"
+  },
+  {
+    "path": "docs/experiments/resource-pattern-selection/native.md",
+    "line": 27,
+    "va": "0x140784fcd",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-pattern-selection/native.md",
+    "line": 57,
+    "va": "0x14008d1c0",
+    "label": "Initialize the surface-tree generation save setting",
+    "detail": "The initializer defaults the setting to false. The name alone provides no save persistence proof.",
+    "symbol": "FUN_14008d1c0"
+  },
+  {
+    "path": "docs/experiments/resource-population-lifecycle/native.md",
+    "line": 37,
+    "va": "0x1407886e4",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-population-lifecycle/native.md",
+    "line": 39,
+    "va": "0x1407ac260",
+    "label": "Destroy a region collection after final release"
+  },
+  {
+    "path": "docs/experiments/resource-population-lifecycle/native.md",
+    "line": 47,
+    "va": "0x1407aabd0",
+    "label": "Assign the reference-counted caller output holder"
+  },
+  {
+    "path": "docs/experiments/resource-population-lifecycle/native.md",
+    "line": 67,
+    "va": "0x14079ff60",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-predictability-contrast/native.md",
+    "line": 50,
+    "va": "0x14078c53a",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-predictability-contrast/native.md",
+    "line": 51,
+    "va": "0x1409858cc",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-query-reachability/feasibility.md",
+    "line": 152,
+    "va": "0x1427d42c0",
+    "label": "Acquire the fresh CellRefDB entry",
+    "detail": "The original preparation path acquires the fresh database entry independently of resource prewarm."
+  },
+  {
+    "path": "docs/experiments/resource-query-reachability/feasibility.md",
+    "line": 231,
+    "va": "0x140582d60",
+    "label": "Read native condition command descriptors"
+  },
+  {
+    "path": "docs/experiments/resource-query-reachability/native.md",
+    "line": 22,
+    "va": "0x14098353c",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-query-reachability/native.md",
+    "line": 82,
+    "va": "0x14374e650",
+    "label": "Execute the qualified FMA angular path"
+  },
+  {
+    "path": "docs/experiments/resource-query-reachability/native.md",
+    "line": 110,
+    "va": "0x1427e590b",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Interior instruction invoking the node callback"
+  },
+  {
+    "path": "docs/experiments/resource-query-variability/proofs.md",
+    "line": 62,
+    "va": "0x14078d6f4",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-region-ancestry/contract.md",
+    "line": 16,
+    "va": "0x1421b6936",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-region-ancestry/run-card.md",
+    "line": 107,
+    "va": "0x1421e174e",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-region-ancestry/run-card.md",
+    "line": 108,
+    "va": "0x1421e0bf4",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-selection-context/native.md",
+    "line": 45,
+    "va": "0x14079bb73",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-selection-operands/native.md",
+    "line": 67,
+    "va": "0x1402faea0",
+    "label": "Construct the game setting collection"
+  },
+  {
+    "path": "docs/experiments/resource-selection-operands/native.md",
+    "line": 72,
+    "va": "0x1428cd500",
+    "label": "Classify the setting's name-derived type"
+  },
+  {
+    "path": "docs/experiments/resource-selection-operands/native.md",
+    "line": 76,
+    "va": "0x140684380",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-selection-operands/native.md",
+    "line": 84,
+    "va": "0x140c22a60",
+    "label": "Convert and apply a text-driven float setting"
+  },
+  {
+    "path": "docs/experiments/resource-selection-operands/run-card.md",
+    "line": 140,
+    "va": "0x14079a59e",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-slot-provenance/native.md",
+    "line": 18,
+    "va": "0x140779b2e",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-slot-provenance/native.md",
+    "line": 19,
+    "va": "0x140779b48",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-slot-provenance/native.md",
+    "line": 20,
+    "va": "0x140779b85",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-slot-provenance/native.md",
+    "line": 21,
+    "va": "0x140779b90",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-slot-provenance/native.md",
+    "line": 21,
+    "va": "0x140779bb8",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-slot-provenance/native.md",
+    "line": 22,
+    "va": "0x140779bde",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-slot-provenance/native.md",
+    "line": 23,
+    "va": "0x140779c30",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-slot-provenance/native.md",
+    "line": 23,
+    "va": "0x140779c86",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-slot-provenance/native.md",
+    "line": 45,
+    "va": "0x140777a5d",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-slot-provenance/native.md",
+    "line": 92,
+    "va": "0x1407af590",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-source-decisions/native.md",
+    "line": 20,
+    "va": "0x14079ffaa",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-source-decisions/native.md",
+    "line": 21,
+    "va": "0x14079fcd0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-source-decisions/native.md",
+    "line": 52,
+    "va": "0x14079fdf9",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-source-enumeration/native.md",
+    "line": 11,
+    "va": "0x14096e744",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-source-enumeration/native.md",
+    "line": 12,
+    "va": "0x14096bef9",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-source-enumeration/native.md",
+    "line": 13,
+    "va": "0x14096be65",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-source-enumeration/native.md",
+    "line": 17,
+    "va": "0x14079ffa5",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-tungsten-repair/native.md",
+    "line": 12,
+    "va": "0x14079b920",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-tungsten-repair/native.md",
+    "line": 12,
+    "va": "0x1407bc374",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/resource-tungsten-repair/native.md",
+    "line": 14,
+    "va": "0x1407bc6fa",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Root-keyed exchange range endpoint"
+  },
+  {
+    "path": "docs/experiments/resource-tungsten-repair/native.md",
+    "line": 14,
+    "va": "0x1407bc6fd",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Iterator advancement range inside owner-map traversal"
+  },
+  {
+    "path": "docs/experiments/resource-tungsten-repair/native.md",
+    "line": 16,
+    "va": "0x14079bd6c",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Call range endpoint for the rarity sort"
+  },
+  {
+    "path": "docs/experiments/resource-tungsten-repair/native.md",
+    "line": 17,
+    "va": "0x14079bda0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/resource-ui-oracle/capture-contract.md",
+    "line": 19,
+    "va": "0x1415796fc",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Post-call location for reading the callee result"
+  },
+  {
+    "path": "docs/experiments/resource-ui-oracle/dataflow.md",
+    "line": 45,
+    "va": "0x1421e0a46",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Region callback call instruction inside the spatial writer"
+  },
+  {
+    "path": "docs/experiments/resource-ui-oracle/dataflow.md",
+    "line": 51,
+    "va": "0x141579707",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Catalogue instruction that calls the organic filter"
+  },
+  {
+    "path": "docs/experiments/resource-ui-oracle/methods.md",
+    "line": 44,
+    "va": "0x1421b26bc",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Established updater call site distinguished from preview context"
+  },
+  {
+    "path": "docs/experiments/resource-ui-oracle/methods.md",
+    "line": 66,
+    "va": "0x1415796f7",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Catalogue call instruction chosen for a before-call stop"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 14,
+    "va": "0x1417f9a20",
+    "label": "Dispatch the ordinary crafting job"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/consumers.md",
+    "line": 25,
+    "va": "0x1417fd940",
+    "label": "Create the temporary inventory reference"
+  },
+  {
+    "path": "docs/experiments/shared-outpost-storage/shared-inventory.md",
+    "line": 42,
+    "va": "0x1405df510",
+    "label": "Support retention of the shared-storage reference"
+  },
+  {
+    "path": "docs/experiments/ship-relocation/acquisition.md",
+    "line": 50,
+    "va": "0x1417dee5b",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/ship-relocation/acquisition.md",
+    "line": 50,
+    "va": "0x1417df168",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/ship-relocation/report.md",
+    "line": 139,
+    "va": "0x1421177b0",
+    "label": "Compare ship extents against destination size limits"
+  },
+  {
+    "path": "docs/experiments/spatial-equivalence-feasibility/boundary.md",
+    "line": 37,
+    "va": "0x1421e1119",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/spatial-equivalence-feasibility/boundary.md",
+    "line": 38,
+    "va": "0x1421e113c",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/spatial-equivalence-feasibility/boundary.md",
+    "line": 40,
+    "va": "0x1421e14ec",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/spatial-equivalence-feasibility/boundary.md",
+    "line": 41,
+    "va": "0x1411166e0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Last address of the cited distance-helper instruction range"
+  },
+  {
+    "path": "docs/experiments/spatial-equivalence-feasibility/boundary.md",
+    "line": 42,
+    "va": "0x1421e175c",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 50,
+    "va": "0x140b4e5f0",
+    "label": "Resolve the proposed reference's placement identity"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 61,
+    "va": "0x140156bc0",
+    "label": "Initialize the placement keyword default object"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 64,
+    "va": "0x140ad3610",
+    "label": "Resolve placement encounter and location context"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 96,
+    "va": "0x1421d74b0",
+    "label": "Refresh candidate transforms and nearby clearing"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 120,
+    "va": "0x1421eab70",
+    "label": "Check clearing at the proposed placement position"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 124,
+    "va": "0x140f2ffb0",
+    "label": "Transfer a reference handle into the clearing state"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 125,
+    "va": "0x1421d6100",
+    "label": "Follow limited clearing candidates"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 127,
+    "va": "0x1421d5ce0",
+    "label": "Refresh clearing during preview initialization"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 129,
+    "va": "0x140f2f0e0",
+    "label": "Classify candidate placement eligibility"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 144,
+    "va": "0x140f3a640",
+    "label": "Supply references to placement clearing"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 144,
+    "va": "0x140f412c0",
+    "label": "Reconcile old and new placement clearing sets"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 146,
+    "va": "0x140f3f680",
+    "label": "Continue the candidate placement physics route"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 146,
+    "va": "0x140f460c0",
+    "label": "Dispatch candidate placement physics checks"
+  },
+  {
+    "path": "docs/experiments/spatial-placement/native.md",
+    "line": 146,
+    "va": "0x140f46370",
+    "label": "Continue candidate placement physics checks"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/call-and-dataflow.md",
+    "line": 134,
+    "va": "0x140769e90",
+    "label": "Support coarse candidate enumeration before reference creation"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/call-and-dataflow.md",
+    "line": 136,
+    "va": "0x1409a02b0",
+    "label": "Support fractional local-height interpolation"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 29,
+    "va": "0x14050f750",
+    "label": "Select stored reference position for save framing"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 30,
+    "va": "0x141835060",
+    "label": "Dispatch the save-side allocation callback"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 31,
+    "va": "0x140ada760",
+    "label": "Resolve overlay validity independently of status"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 31,
+    "va": "0x140adab20",
+    "label": "Select an activated overlay payload"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 37,
+    "va": "0x1418abd60",
+    "label": "Call integer projection in the bounded content path"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 37,
+    "va": "0x1418b0920",
+    "label": "Call integer projection in the paired content path"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 51,
+    "va": "0x14035d380",
+    "label": "Append references during terrain relocation enumeration"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 64,
+    "va": "0x1418ab2d0",
+    "label": "Enumerate retained body content"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 75,
+    "va": "0x1424cb7d0",
+    "label": "Manipulate a reflected component collection"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 75,
+    "va": "0x1424d39c0",
+    "label": "Manipulate a reflected component collection"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 120,
+    "va": "0x1418237f0",
+    "label": "Dispatch global save work to typed serialization"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 121,
+    "va": "0x1402ba430",
+    "label": "Support the typed uint16 save wire route"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 121,
+    "va": "0x141413a80",
+    "label": "Iterate galaxy site edges for serialization"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 121,
+    "va": "0x141413dd0",
+    "label": "Iterate galaxy site edges for save framing"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 136,
+    "va": "0x14186bd40",
+    "label": "Write identity through the typed wire helper"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 157,
+    "va": "0x140ad5950",
+    "label": "Clear or invalidate selected terrain edges"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/dependency-ledger.md",
+    "line": 159,
+    "va": "0x14076a340",
+    "label": "Floor local offsets in the bounded candidate route"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 17,
+    "va": "0x14181b8e0",
+    "label": "Subtract selected translation in reference registration"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 41,
+    "va": "0x1407bcdc0",
+    "label": "Select active body ECS context"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 72,
+    "va": "0x140acc9f0",
+    "label": "Participate in the world setup wrapper route"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 72,
+    "va": "0x140add2a0",
+    "label": "Dispatch the world setup wrapper"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 72,
+    "va": "0x140add580",
+    "label": "Continue the world setup chain"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 74,
+    "va": "0x1402b7070",
+    "label": "Check identity and install a reference-counted value"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 77,
+    "va": "0x141832000",
+    "label": "Write case-5 initial wire state"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 78,
+    "va": "0x14050f5b0",
+    "label": "Support stored extra-location transform selection"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 137,
+    "va": "0x142404ef0",
+    "label": "Store optional metadata for a geometric candidate"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 168,
+    "va": "0x1418aefd0",
+    "label": "Queue a pending planet content request copy"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 169,
+    "va": "0x1418bb7e0",
+    "label": "Dispatch the queued planet content request"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 309,
+    "va": "0x1403a5130",
+    "label": "Serialize the generated-world descriptor array"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 312,
+    "va": "0x14132e880",
+    "label": "Create a DisposableInstancedFormDB resource entry"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 314,
+    "va": "0x1403a7cc0",
+    "label": "Restore a 32-bit descriptor field"
+  },
+  {
+    "path": "docs/experiments/static-exhaustion/trace-notes.md",
+    "line": 327,
+    "va": "0x14078d090",
+    "label": "Clear retained world handles during cleanup"
+  },
+  {
+    "path": "docs/experiments/storage/capacity-native.md",
+    "line": 41,
+    "va": "0x1405fc440",
+    "label": "Resolve item mass from the applicable provider"
+  },
+  {
+    "path": "docs/experiments/storage/capacity-native.md",
+    "line": 43,
+    "va": "0x140a94740",
+    "label": "Install the MISC item weight component"
+  },
+  {
+    "path": "docs/experiments/storage/capacity-native.md",
+    "line": 65,
+    "va": "0x1402b76b0",
+    "label": "Handle the MISC interface identity check"
+  },
+  {
+    "path": "docs/experiments/storage/capacity-native.md",
+    "line": 75,
+    "va": "0x140b69700",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/storage/capacity-native.md",
+    "line": 85,
+    "va": "0x140643240",
+    "label": "Dispatch inventory list insertion"
+  },
+  {
+    "path": "docs/experiments/storage/capacity-native.md",
+    "line": 99,
+    "va": "0x140b70b20",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/storage/capacity-native.md",
+    "line": 155,
+    "va": "0x140b64e10",
+    "label": "Dispatch the event after inventory transfer"
+  },
+  {
+    "path": "docs/experiments/storage/native.md",
+    "line": 62,
+    "va": "0x140156980",
+    "label": "Initialize the harvester transfer-link default object"
+  },
+  {
+    "path": "docs/experiments/storage/native.md",
+    "line": 63,
+    "va": "0x140157730",
+    "label": "Initialize the Workshop transfer-link default object"
+  },
+  {
+    "path": "docs/experiments/storage/native.md",
+    "line": 115,
+    "va": "0x141eb7950",
+    "label": "Forward the inventory item interaction"
+  },
+  {
+    "path": "docs/experiments/storage/native.md",
+    "line": 125,
+    "va": "0x14146ba60",
+    "label": "Construct the player ship inventory model"
+  },
+  {
+    "path": "docs/experiments/storage/native.md",
+    "line": 127,
+    "va": "0x141eac0e0",
+    "label": "Participate in player ship inventory display filtering"
+  },
+  {
+    "path": "docs/experiments/storage/native.md",
+    "line": 127,
+    "va": "0x141eaca10",
+    "label": "Participate in player ship inventory display filtering"
+  },
+  {
+    "path": "docs/experiments/storage/native.md",
+    "line": 142,
+    "va": "0x141ee7130",
+    "label": "Dispatch the spatially bounded storage path"
+  },
+  {
+    "path": "docs/experiments/storage/native.md",
+    "line": 142,
+    "va": "0x141ee80e0",
+    "label": "Continue spatially bounded storage selection"
+  },
+  {
+    "path": "docs/experiments/terran-armada-outpost-recon/native.md",
+    "line": 50,
+    "va": "0x140f51412",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/terran-armada-outpost-recon/native.md",
+    "line": 80,
+    "va": "0x140c9cfb0",
+    "label": "Decode the alias type-5 placement data"
+  },
+  {
+    "path": "docs/experiments/terran-armada-outpost-recon/native.md",
+    "line": 83,
+    "va": "0x1418b5ea0",
+    "label": "Receive candidate body identities for an alias request"
+  },
+  {
+    "path": "docs/experiments/terran-armada-outpost-recon/native.md",
+    "line": 84,
+    "va": "0x140d05a7b",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/terran-armada-outpost-recon/native.md",
+    "line": 86,
+    "va": "0x140d05a80",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/terran-armada-outpost-recon/native.md",
+    "line": 87,
+    "va": "0x1418b34e0",
+    "label": "Poll the resulting alias location"
+  },
+  {
+    "path": "docs/experiments/two-outpost-site-anchors-and-beacon-coordinates.md",
+    "line": 94,
+    "va": "0x140ad054a",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 29,
+    "va": "0x140157770",
+    "label": "Initialize the Workshop keyword default object"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 31,
+    "va": "0x1421dd641",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 32,
+    "va": "0x140547d80",
+    "label": "Resolve linked reference from FormID or handle"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 33,
+    "va": "0x140500fd0",
+    "label": "Insert ExtraData with type-specific ordering"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 36,
+    "va": "0x140f42df0",
+    "label": "Enumerate reverse Workshop membership edges"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 37,
+    "va": "0x1400977a0",
+    "label": "Initialize the grouped-item dummy base"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 38,
+    "va": "0x140f5b260",
+    "label": "Construct a native item representative"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 38,
+    "va": "0x140f60db0",
+    "label": "Read the native single-item root"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 38,
+    "va": "0x140f65fa0",
+    "label": "Read the native member range"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 38,
+    "va": "0x140f686f0",
+    "label": "Read the native PackIn root"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 39,
+    "va": "0x14054b1e0",
+    "label": "Read alternate extra identity and group object ID"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 39,
+    "va": "0x140cf72d0",
+    "label": "Resolve a group object ID through PackIn metadata"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 40,
+    "va": "0x14181cff0",
+    "label": "Dispatch the conditional saved component envelope"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 40,
+    "va": "0x1418663f0",
+    "label": "Process the saved component envelope before generic flags"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/dependencies.md",
+    "line": 40,
+    "va": "0x141867470",
+    "label": "Process the component envelope before generic self flags"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/report.md",
+    "line": 139,
+    "va": "0x141741660",
+    "label": "Participate in framing reference and string counts"
+  },
+  {
+    "path": "docs/experiments/workshop-membership/report.md",
+    "line": 139,
+    "va": "0x141867660",
+    "label": "Participate in framing reference and string counts"
+  },
+  {
+    "path": "docs/experiments/workshop-origin-beacon-relocation-persistence.md",
+    "line": 51,
+    "va": "0x1421b1421",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/workshop-origin-beacon-relocation-persistence.md",
+    "line": 52,
+    "va": "0x1421b3ee7",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/workshop-origin-beacon-relocation-persistence.md",
+    "line": 54,
+    "va": "0x140f51171",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/workshop-origin-beacon-relocation-persistence.md",
+    "line": 55,
+    "va": "0x140f4ac3f",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/workshop-origin-beacon-relocation-persistence.md",
+    "line": 60,
+    "va": "0x140ad0c48",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "docs/experiments/workshop-population/report.md",
+    "line": 149,
+    "va": "0x142121570",
+    "label": "Traverse cell location and special-reference data"
+  },
+  {
+    "path": "docs/experiments/workshop-population/report.md",
+    "line": 150,
+    "va": "0x14008a340",
+    "label": "Initialize the ship fast travel marker default object"
+  },
+  {
+    "path": "docs/experiments/workshop-population/report.md",
+    "line": 150,
+    "va": "0x142128f70",
+    "label": "Request the ship fast-travel marker type"
+  },
+  {
+    "path": "docs/experiments/workshop-population/report.md",
+    "line": 156,
+    "va": "0x140abf3f0",
+    "label": "Enumerate forced location-reference entries"
+  },
+  {
+    "path": "docs/experiments/workshop-population/report.md",
+    "line": 157,
+    "va": "0x140ac8b60",
+    "label": "Append a location-reference entry and identity"
+  },
+  {
+    "path": "docs/experiments/workshop-population/report.md",
+    "line": 157,
+    "va": "0x140ac9e90",
+    "label": "Append a location-reference entry and identity"
+  },
+  {
+    "path": "docs/experiments/workshop-population/routes.md",
+    "line": 12,
+    "va": "0x140517c00",
+    "label": "Resolve the quest alias target for linked references"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 16,
+    "va": "0x1418349a0",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 27,
+    "va": "0x141857080",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original context identifies an instruction, internal label or scan boundary rather than a function entry"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 49,
+    "va": "0x1421e3880",
+    "label": "Participate in conditional placement and context registration"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 50,
+    "va": "0x140b22630",
+    "label": "Write other reference flags while preserving the frame bit"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 51,
+    "va": "0x140585240",
+    "status": "excluded",
+    "domain": "not-relevant",
+    "reason": "Non-reference mode-switching control explicitly excluded from the typed producer graph"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 52,
+    "va": "0x140d180f0",
+    "status": "excluded",
+    "domain": "not-relevant",
+    "reason": "Original study distinguishes a derived actor layout from the ordinary beacon producer under test"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 52,
+    "va": "0x140d1b810",
+    "status": "excluded",
+    "domain": "not-relevant",
+    "reason": "Original study distinguishes a derived actor layout from the ordinary beacon producer under test"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 52,
+    "va": "0x1418dc860",
+    "status": "excluded",
+    "domain": "not-relevant",
+    "reason": "Original study distinguishes a derived actor layout from the ordinary beacon producer under test"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 52,
+    "va": "0x141b0f150",
+    "status": "excluded",
+    "domain": "not-relevant",
+    "reason": "Original study distinguishes a derived actor layout from the ordinary beacon producer under test"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 52,
+    "va": "0x141b24af0",
+    "status": "excluded",
+    "domain": "not-relevant",
+    "reason": "Original study distinguishes a derived actor layout from the ordinary beacon producer under test"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/dependencies.md",
+    "line": 52,
+    "va": "0x141b3bd50",
+    "status": "excluded",
+    "domain": "not-relevant",
+    "reason": "Derived actor layout was checked as a negative for the ordinary beacon producer graph"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/report.md",
+    "line": 57,
+    "va": "0x141835450",
+    "label": "Write the 12-byte initial position"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/report.md",
+    "line": 129,
+    "va": "0x140848660",
+    "label": "Supply terrain samples for height adjustment"
+  },
+  {
+    "path": "docs/experiments/workshop-z-restoration/report.md",
+    "line": 129,
+    "va": "0x140ace740",
+    "label": "Compute an adjustment using terrain samples"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 198,
+    "va": "0x14209bc00",
+    "label": "Bind the GetWorkshopOwnedObjects native callback",
+    "detail": "The registration contains the callback load at 0x14209bc4b.",
+    "symbol": "FUN_14209bc00"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 199,
+    "va": "0x14209ba00",
+    "label": "Bind the GetWorkshopResourceObjects native callback",
+    "detail": "The registration contains the callback load at 0x14209ba4c.",
+    "symbol": "FUN_14209ba00"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 203,
+    "va": "0x140470770",
+    "alias": "SOR-FN-0008",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "The historical register identifies CreationKit.exe as the source module"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 203,
+    "va": "0x140470810",
+    "alias": "SOR-FN-0008",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "The historical register identifies CreationKit.exe as the source module"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 204,
+    "va": "0x140470590",
+    "alias": "SOR-FN-0009",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "The historical register identifies CreationKit.exe as the source module"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 204,
+    "va": "0x140470900",
+    "alias": "SOR-FN-0009",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "The historical register identifies CreationKit.exe as the source module"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 214,
+    "va": "0x142b96190",
+    "alias": "SOR-FN-0012",
+    "status": "excluded",
+    "domain": "different-module",
+    "reason": "The historical register identifies CreationKit.exe as the source module"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 230,
+    "va": "0x140500ba0",
+    "label": "Consult cached quest alias and bound target metadata"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 230,
+    "va": "0x140b1e720",
+    "label": "Resolve the saved CalculatedPackinData reference"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 230,
+    "va": "0x14181ce30",
+    "label": "Gate the AddChange path"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 230,
+    "va": "0x1421661c0",
+    "label": "Select type-4 reconstruction for an existing owner"
+  },
+  {
+    "path": "runtime/exp0002/STATIC-CONTRACT.md",
+    "line": 10,
+    "va": "0x1420706b7",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  },
+  {
+    "path": "runtime/exp0002/STATIC-CONTRACT.md",
+    "line": 14,
+    "va": "0x140bbe019",
+    "status": "excluded",
+    "domain": "instruction-site",
+    "reason": "Original narrative describes a call, branch, observation or range endpoint within a function"
+  }
+]

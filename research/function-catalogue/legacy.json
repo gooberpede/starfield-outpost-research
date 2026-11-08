@@ -1,0 +1,2098 @@
+[
+  {
+    "path": "docs/function-register.md",
+    "line": 120,
+    "va": "0x140f4ffc0",
+    "label": "Type-0xbc constructor, allocation, guarded accessor",
+    "detail": "Type-0xbc constructor, allocation, guarded accessor; +0x60 initialization",
+    "alias": "SOR-FN-0040",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 120,
+    "va": "0x14053dd30",
+    "label": "Type-0xbc constructor, allocation, guarded accessor",
+    "detail": "Type-0xbc constructor, allocation, guarded accessor; +0x60 initialization",
+    "alias": "SOR-FN-0040",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 120,
+    "va": "0x140f51350",
+    "label": "Type-0xbc constructor, allocation, guarded accessor",
+    "detail": "Type-0xbc constructor, allocation, guarded accessor; +0x60 initialization",
+    "alias": "SOR-FN-0040",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 121,
+    "va": "0x1421b11a0",
+    "label": "Accumulating endpoint-subtraction writer, callers and separate reset",
+    "detail": "Accumulating endpoint-subtraction writer, callers and separate reset; endpoint labels inferred",
+    "alias": "SOR-FN-0041",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 121,
+    "va": "0x1421b1450",
+    "label": "Accumulating endpoint-subtraction writer, callers and separate reset",
+    "detail": "Accumulating endpoint-subtraction writer, callers and separate reset; endpoint labels inferred",
+    "alias": "SOR-FN-0041",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 121,
+    "va": "0x1421b44b0",
+    "label": "Accumulating endpoint-subtraction writer, callers and separate reset",
+    "detail": "Accumulating endpoint-subtraction writer, callers and separate reset; endpoint labels inferred",
+    "alias": "SOR-FN-0041",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 121,
+    "va": "0x1421b2e20",
+    "label": "Accumulating endpoint-subtraction writer, callers and separate reset",
+    "detail": "Accumulating endpoint-subtraction writer, callers and separate reset; endpoint labels inferred",
+    "alias": "SOR-FN-0041",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 122,
+    "va": "0x140f50660",
+    "label": "Explicit +0x60/+0x68 save/load",
+    "detail": "Explicit +0x60/+0x68 save/load; buffer-version and variable-prefix conditions",
+    "alias": "SOR-FN-0042",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 122,
+    "va": "0x140f50880",
+    "label": "Explicit +0x60/+0x68 save/load",
+    "detail": "Explicit +0x60/+0x68 save/load; buffer-version and variable-prefix conditions",
+    "alias": "SOR-FN-0042",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 122,
+    "va": "0x140521620",
+    "label": "Explicit +0x60/+0x68 save/load",
+    "detail": "Explicit +0x60/+0x68 save/load; buffer-version and variable-prefix conditions",
+    "alias": "SOR-FN-0042",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 123,
+    "va": "0x140f4ab80",
+    "label": "Current reference XYZ plus Workshop compensation",
+    "detail": "Current reference XYZ plus Workshop compensation; no planetary projection",
+    "alias": "SOR-FN-0043",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 124,
+    "va": "0x140f4a140",
+    "label": "Descriptor, drawing, predicates, clamp and loaded-state output",
+    "detail": "Descriptor, drawing, predicates, clamp and loaded-state output; full permission not established",
+    "alias": "SOR-FN-0044",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 124,
+    "va": "0x140f49440",
+    "label": "Descriptor, drawing, predicates, clamp and loaded-state output",
+    "detail": "Descriptor, drawing, predicates, clamp and loaded-state output; full permission not established",
+    "alias": "SOR-FN-0044",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 124,
+    "va": "0x140f49c50",
+    "label": "Descriptor, drawing, predicates, clamp and loaded-state output",
+    "detail": "Descriptor, drawing, predicates, clamp and loaded-state output; full permission not established",
+    "alias": "SOR-FN-0044",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 124,
+    "va": "0x140f4a910",
+    "label": "Descriptor, drawing, predicates, clamp and loaded-state output",
+    "detail": "Descriptor, drawing, predicates, clamp and loaded-state output; full permission not established",
+    "alias": "SOR-FN-0044",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 124,
+    "va": "0x140f4ac50",
+    "label": "Descriptor, drawing, predicates, clamp and loaded-state output",
+    "detail": "Descriptor, drawing, predicates, clamp and loaded-state output; full permission not established",
+    "alias": "SOR-FN-0044",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 124,
+    "va": "0x140f4aab0",
+    "label": "Descriptor, drawing, predicates, clamp and loaded-state output",
+    "detail": "Descriptor, drawing, predicates, clamp and loaded-state output; full permission not established",
+    "alias": "SOR-FN-0044",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 124,
+    "va": "0x1421bb860",
+    "label": "Descriptor, drawing, predicates, clamp and loaded-state output",
+    "detail": "Descriptor, drawing, predicates, clamp and loaded-state output; full permission not established",
+    "alias": "SOR-FN-0044",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 124,
+    "va": "0x1421b2570",
+    "label": "Descriptor, drawing, predicates, clamp and loaded-state output",
+    "detail": "Descriptor, drawing, predicates, clamp and loaded-state output; full permission not established",
+    "alias": "SOR-FN-0044",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 125,
+    "va": "0x140f38e30",
+    "label": "Property/binding/fallback radius",
+    "detail": "Property/binding/fallback radius; live overrides unresolved",
+    "alias": "SOR-FN-0045",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 125,
+    "va": "0x140157cc0",
+    "label": "Property/binding/fallback radius",
+    "detail": "Property/binding/fallback radius; live overrides unresolved",
+    "alias": "SOR-FN-0045",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 125,
+    "va": "0x140157700",
+    "label": "Property/binding/fallback radius",
+    "detail": "Property/binding/fallback radius; live overrides unresolved",
+    "alias": "SOR-FN-0045",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 125,
+    "va": "0x14044b670",
+    "label": "Property/binding/fallback radius",
+    "detail": "Property/binding/fallback radius; live overrides unresolved",
+    "alias": "SOR-FN-0045",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 126,
+    "va": "0x140ad0b90",
+    "label": "Compensated center/radius into terrain/overlay coverage",
+    "detail": "Compensated center/radius into terrain/overlay coverage; discrete, not continuous current-beacon coordinates",
+    "alias": "SOR-FN-0046",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 134,
+    "va": "0x14008cb90",
+    "label": "Defaults 10+2, ordinary R 256",
+    "detail": "Defaults 10+2, ordinary R 256; actual other configuration required",
+    "alias": "SOR-FN-0033",
+    "group": "workshop",
+    "symbol": "FUN_14008cb90"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 134,
+    "va": "0x14008cc50",
+    "label": "Defaults 10+2, ordinary R 256",
+    "detail": "Defaults 10+2, ordinary R 256; actual other configuration required",
+    "alias": "SOR-FN-0033",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 134,
+    "va": "0x14096e060",
+    "label": "Defaults 10+2, ordinary R 256",
+    "detail": "Defaults 10+2, ordinary R 256; actual other configuration required",
+    "alias": "SOR-FN-0033",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 134,
+    "va": "0x14096da90",
+    "label": "Defaults 10+2, ordinary R 256",
+    "detail": "Defaults 10+2, ordinary R 256; actual other configuration required",
+    "alias": "SOR-FN-0033",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 135,
+    "va": "0x14096ecb0",
+    "label": "Quantizer, centred indices, origin snap",
+    "detail": "Quantizer, centred indices, origin snap; no visible-tile dimensions",
+    "alias": "SOR-FN-0034",
+    "group": "workshop",
+    "symbol": "FUN_14096ecb0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 135,
+    "va": "0x14096f4d0",
+    "label": "Quantizer, centred indices, origin snap",
+    "detail": "Quantizer, centred indices, origin snap; no visible-tile dimensions",
+    "alias": "SOR-FN-0034",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 135,
+    "va": "0x14096efb0",
+    "label": "Quantizer, centred indices, origin snap",
+    "detail": "Quantizer, centred indices, origin snap; no visible-tile dimensions",
+    "alias": "SOR-FN-0034",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 136,
+    "va": "0x14078d1f0",
+    "label": "Local floorXY/origin displacement/projection",
+    "detail": "Local floorXY/origin displacement/projection; angle omits fractionalXY/Z",
+    "alias": "SOR-FN-0035",
+    "group": "workshop",
+    "symbol": "FUN_14078d1f0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 136,
+    "va": "0x14078d660",
+    "label": "Local floorXY/origin displacement/projection",
+    "detail": "Local floorXY/origin displacement/projection; angle omits fractionalXY/Z",
+    "alias": "SOR-FN-0035",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 136,
+    "va": "0x1423321f0",
+    "label": "Local floorXY/origin displacement/projection",
+    "detail": "Local floorXY/origin displacement/projection; angle omits fractionalXY/Z",
+    "alias": "SOR-FN-0035",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 136,
+    "va": "0x142332410",
+    "label": "Local floorXY/origin displacement/projection",
+    "detail": "Local floorXY/origin displacement/projection; angle omits fractionalXY/Z",
+    "alias": "SOR-FN-0035",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 137,
+    "va": "0x140ad7200",
+    "label": "Keyed activated-overlay integer XY*100/vertical translation",
+    "detail": "Keyed activated-overlay integer XY*100/vertical translation; restored map unqualified",
+    "alias": "SOR-FN-0036",
+    "group": "workshop",
+    "symbol": "FUN_140ad7200"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 137,
+    "va": "0x140ada960",
+    "label": "Keyed activated-overlay integer XY*100/vertical translation",
+    "detail": "Keyed activated-overlay integer XY*100/vertical translation; restored map unqualified",
+    "alias": "SOR-FN-0036",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 137,
+    "va": "0x140ad40c0",
+    "label": "Keyed activated-overlay integer XY*100/vertical translation",
+    "detail": "Keyed activated-overlay integer XY*100/vertical translation; restored map unqualified",
+    "alias": "SOR-FN-0036",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 138,
+    "va": "0x1418325a0",
+    "label": "World/initial flags/restoration/rebase",
+    "detail": "World/initial flags/restoration/rebase; final authority unknown",
+    "alias": "SOR-FN-0037",
+    "group": "workshop",
+    "symbol": "FUN_1418325a0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 138,
+    "va": "0x141833b20",
+    "label": "World/initial flags/restoration/rebase",
+    "detail": "World/initial flags/restoration/rebase; final authority unknown",
+    "alias": "SOR-FN-0037",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 138,
+    "va": "0x140b4e410",
+    "label": "World/initial flags/restoration/rebase",
+    "detail": "World/initial flags/restoration/rebase; final authority unknown",
+    "alias": "SOR-FN-0037",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 139,
+    "va": "0x140910690",
+    "label": "Cached/active-world/fallback",
+    "detail": "Cached/active-world/fallback; body-space consumer also quantizes; no subcell proof",
+    "alias": "SOR-FN-0038",
+    "group": "workshop",
+    "symbol": "FUN_140910690"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 139,
+    "va": "0x1407bcfb0",
+    "label": "Cached/active-world/fallback",
+    "detail": "Cached/active-world/fallback; body-space consumer also quantizes; no subcell proof",
+    "alias": "SOR-FN-0038",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 140,
+    "va": "0x140ad1660",
+    "label": "ActivatedOverlayProperty creation/registration",
+    "detail": "ActivatedOverlayProperty creation/registration; saved linkage unknown",
+    "alias": "SOR-FN-0039",
+    "group": "workshop",
+    "symbol": "FUN_140ad1660"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 140,
+    "va": "0x140ad47e0",
+    "label": "ActivatedOverlayProperty creation/registration",
+    "detail": "ActivatedOverlayProperty creation/registration; saved linkage unknown",
+    "alias": "SOR-FN-0039",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 140,
+    "va": "0x140ad4a00",
+    "label": "ActivatedOverlayProperty creation/registration",
+    "detail": "ActivatedOverlayProperty creation/registration; saved linkage unknown",
+    "alias": "SOR-FN-0039",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 140,
+    "va": "0x140add310",
+    "label": "ActivatedOverlayProperty creation/registration",
+    "detail": "ActivatedOverlayProperty creation/registration; saved linkage unknown",
+    "alias": "SOR-FN-0039",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 149,
+    "va": "0x140ad31a0",
+    "label": "Exterior cell/world selection with inclusive integer XY bounds",
+    "detail": "Exterior cell/world selection with inclusive integer XY bounds. Does not prove saved parent is a loaded cell or identify one universal overlay.",
+    "alias": "SOR-FN-0029",
+    "group": "workshop",
+    "symbol": "FUN_140ad31a0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 149,
+    "va": "0x140ad30a0",
+    "label": "Exterior cell/world selection with inclusive integer XY bounds",
+    "detail": "Exterior cell/world selection with inclusive integer XY bounds. Does not prove saved parent is a loaded cell or identify one universal overlay.",
+    "alias": "SOR-FN-0029",
+    "group": "workshop",
+    "symbol": "FUN_140ad30a0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 150,
+    "va": "0x140ad3b20",
+    "label": "Eligible world/component path resolves body and searches overlay by world ID, copying two doubles",
+    "detail": "Eligible world/component path resolves body and searches overlay by world ID, copying two doubles. Retrieves an anchor without adding reference XYZ.",
+    "alias": "SOR-FN-0030",
+    "group": "workshop",
+    "symbol": "FUN_140ad3b20"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 150,
+    "va": "0x140ad3c30",
+    "label": "Eligible world/component path resolves body and searches overlay by world ID, copying two doubles",
+    "detail": "Eligible world/component path resolves body and searches overlay by world ID, copying two doubles. Retrieves an anchor without adding reference XYZ.",
+    "alias": "SOR-FN-0030",
+    "group": "workshop",
+    "symbol": "FUN_140ad3c30"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 151,
+    "va": "0x14077fc20",
+    "label": "Branch combines terrain-index displacement and reference position, splits XY into grid offsets and residual with factor 100, and projects indexed point to angles",
+    "detail": "Branch combines terrain-index displacement and reference position, splits XY into grid offsets and residual with factor 100, and projects indexed point to angles. Manager origin/resolution and precise residual projection remain unresolved.",
+    "alias": "SOR-FN-0031",
+    "group": "workshop",
+    "symbol": "FUN_14077fc20"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 151,
+    "va": "0x14078d370",
+    "label": "Branch combines terrain-index displacement and reference position, splits XY into grid offsets and residual with factor 100, and projects indexed point to angles",
+    "detail": "Branch combines terrain-index displacement and reference position, splits XY into grid offsets and residual with factor 100, and projects indexed point to angles. Manager origin/resolution and precise residual projection remain unresolved.",
+    "alias": "SOR-FN-0031",
+    "group": "workshop",
+    "symbol": "FUN_14078d370"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 152,
+    "va": "0x1418ab8d0",
+    "label": "Conditional pair registration with existing world or generated-world construction",
+    "detail": "Conditional pair registration with existing world or generated-world construction. No proof of the branch actually used by Save25 or a universal one-overlay-per-outpost rule.",
+    "alias": "SOR-FN-0032",
+    "group": "workshop",
+    "symbol": "FUN_1418ab8d0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 152,
+    "va": "0x140ad0400",
+    "label": "Conditional pair registration with existing world or generated-world construction",
+    "detail": "Conditional pair registration with existing world or generated-world construction. No proof of the branch actually used by Save25 or a universal one-overlay-per-outpost rule.",
+    "alias": "SOR-FN-0032",
+    "group": "workshop",
+    "symbol": "FUN_140ad0400"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 160,
+    "va": "0x141686a00",
+    "label": "Ray/sphere hit in inverse body orientation",
+    "detail": "Ray/sphere hit in inverse body orientation; atan2(y, x), atan2(z, horizontal norm), two double stores. Float intermediate stages; geographic datum uncalibrated.",
+    "alias": "SOR-FN-0023",
+    "group": "workshop",
+    "symbol": "FUN_141686a00"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 161,
+    "va": "0x140ad0650",
+    "label": "Overlay path copies pair/world ID",
+    "detail": "Overlay path copies pair/world ID; named formatter uses second Lat, first Lon. Exact beacon position not supplied.",
+    "alias": "SOR-FN-0024",
+    "group": "workshop",
+    "symbol": "FUN_140ad0650"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 161,
+    "va": "0x140ad55b0",
+    "label": "Overlay path copies pair/world ID",
+    "detail": "Overlay path copies pair/world ID; named formatter uses second Lat, first Lon. Exact beacon position not supplied.",
+    "alias": "SOR-FN-0024",
+    "group": "workshop",
+    "symbol": "FUN_140ad55b0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 162,
+    "va": "0x140779300",
+    "label": "Supplies planet/body identity and two-double/world-ID tuple to CTPlanetOverlayData insertion command",
+    "detail": "Supplies planet/body identity and two-double/world-ID tuple to CTPlanetOverlayData insertion command. Full wire serializer not established.",
+    "alias": "SOR-FN-0025",
+    "group": "workshop",
+    "symbol": "FUN_140779300"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 162,
+    "va": "0x140771ac0",
+    "label": "Supplies planet/body identity and two-double/world-ID tuple to CTPlanetOverlayData insertion command",
+    "detail": "Supplies planet/body identity and two-double/world-ID tuple to CTPlanetOverlayData insertion command. Full wire serializer not established.",
+    "alias": "SOR-FN-0025",
+    "group": "workshop",
+    "symbol": "FUN_140771ac0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 163,
+    "va": "0x1407772c0",
+    "label": "Command callback, component-store comparison/copy at in-memory +20/+28/+30",
+    "detail": "Command callback, component-store comparison/copy at in-memory +20/+28/+30; those are not save offsets.",
+    "alias": "SOR-FN-0026",
+    "group": "workshop",
+    "symbol": "FUN_1407772c0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 163,
+    "va": "0x140774ee0",
+    "label": "Command callback, component-store comparison/copy at in-memory +20/+28/+30",
+    "detail": "Command callback, component-store comparison/copy at in-memory +20/+28/+30; those are not save offsets.",
+    "alias": "SOR-FN-0026",
+    "group": "workshop",
+    "symbol": "FUN_140774ee0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 163,
+    "va": "0x140777560",
+    "label": "Command callback, component-store comparison/copy at in-memory +20/+28/+30",
+    "detail": "Command callback, component-store comparison/copy at in-memory +20/+28/+30; those are not save offsets.",
+    "alias": "SOR-FN-0026",
+    "group": "workshop",
+    "symbol": "FUN_140777560"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 164,
+    "va": "0x14076ec00",
+    "label": "Pre-BDST CNAM 20-byte latitude/longitude/world records swapped into overlay tuple",
+    "detail": "Pre-BDST CNAM 20-byte latitude/longitude/world records swapped into overlay tuple. Main loader instruction cap; full decompilation plus fixed byte comparisons retained.",
+    "alias": "SOR-FN-0027",
+    "group": "workshop",
+    "symbol": "FUN_14076ec00"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 164,
+    "va": "0x140773090",
+    "label": "Pre-BDST CNAM 20-byte latitude/longitude/world records swapped into overlay tuple",
+    "detail": "Pre-BDST CNAM 20-byte latitude/longitude/world records swapped into overlay tuple. Main loader instruction cap; full decompilation plus fixed byte comparisons retained.",
+    "alias": "SOR-FN-0027",
+    "group": "workshop",
+    "symbol": "FUN_140773090"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 165,
+    "va": "0x1416874f0",
+    "label": "Selected pair can be adjusted through terrain indices/direction projection",
+    "detail": "Selected pair can be adjusted through terrain indices/direction projection. Exact local-beacon bridge is a follow-up, not a decoded global transform.",
+    "alias": "SOR-FN-0028",
+    "group": "workshop",
+    "symbol": "FUN_1416874f0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 165,
+    "va": "0x142332410",
+    "label": "Selected pair can be adjusted through terrain indices/direction projection",
+    "detail": "Selected pair can be adjusted through terrain indices/direction projection. Exact local-beacon bridge is a follow-up, not a decoded global transform.",
+    "alias": "SOR-FN-0028",
+    "group": "workshop",
+    "symbol": "FUN_142332410"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 165,
+    "va": "0x1423321f0",
+    "label": "Selected pair can be adjusted through terrain indices/direction projection",
+    "detail": "Selected pair can be adjusted through terrain indices/direction projection. Exact local-beacon bridge is a follow-up, not a decoded global transform.",
+    "alias": "SOR-FN-0028",
+    "group": "workshop",
+    "symbol": "FUN_1423321f0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 173,
+    "va": "0x141832f00",
+    "label": "Conditional REFR initial-case selector",
+    "detail": "Conditional REFR initial-case selector; flags 0x92018200 select6. Does not resolve inherited form type or ownership.",
+    "alias": "SOR-FN-0019",
+    "group": "interfaces",
+    "symbol": "FUN_141832f00"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 174,
+    "va": "0x141835610",
+    "label": "Paired initial readers and general form loader",
+    "detail": "Paired initial readers and general form loader; separate queue/body consumption, self ref and bit 0-gated saved flags. Omission preserves an unresolved inherited/default state.",
+    "alias": "SOR-FN-0020",
+    "group": "interfaces",
+    "symbol": "FUN_141835610"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 174,
+    "va": "0x141835c20",
+    "label": "Paired initial readers and general form loader",
+    "detail": "Paired initial readers and general form loader; separate queue/body consumption, self ref and bit 0-gated saved flags. Omission preserves an unresolved inherited/default state.",
+    "alias": "SOR-FN-0020",
+    "group": "interfaces",
+    "symbol": "FUN_141835c20"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 174,
+    "va": "0x1405dfa40",
+    "label": "Paired initial readers and general form loader",
+    "detail": "Paired initial readers and general form loader; separate queue/body consumption, self ref and bit 0-gated saved flags. Omission preserves an unresolved inherited/default state.",
+    "alias": "SOR-FN-0020",
+    "group": "interfaces",
+    "symbol": "FUN_1405dfa40"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 175,
+    "va": "0x14054c2f0",
+    "label": "ExtraPromotedRef0x84 counted ref/byte pairs versus ExtraOwnership0x1f",
+    "detail": "ExtraPromotedRef0x84 counted ref/byte pairs versus ExtraOwnership0x1f; player promotion ref is not an owner field. Inherited ownership and actual execution remain unvalidated.",
+    "alias": "SOR-FN-0021",
+    "group": "interfaces",
+    "symbol": "FUN_14054c2f0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 175,
+    "va": "0x14053a2d0",
+    "label": "ExtraPromotedRef0x84 counted ref/byte pairs versus ExtraOwnership0x1f",
+    "detail": "ExtraPromotedRef0x84 counted ref/byte pairs versus ExtraOwnership0x1f; player promotion ref is not an owner field. Inherited ownership and actual execution remain unvalidated.",
+    "alias": "SOR-FN-0021",
+    "group": "interfaces",
+    "symbol": "FUN_14053a2d0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 176,
+    "va": "0x140f3bfc0",
+    "label": "Exclusion-property query through reference+0x68 with global 145f0c6d0",
+    "detail": "Exclusion-property query through reference+0x68 with global 145f0c6d0. Resolved keyword/FormID and equivalence to BlockPlayerActivation unknown; no complete player-control proof.",
+    "alias": "SOR-FN-0022",
+    "group": "workshop",
+    "symbol": "FUN_140f3bfc0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 184,
+    "va": "0x14166c0a0",
+    "label": "UI dispatch/save selection",
+    "detail": "UI dispatch/save selection; direct or queued path, new-slot call passes manager/null/-1/0. Earliest UI thread UNKNOWN",
+    "alias": "SOR-FN-0014",
+    "group": "interfaces",
+    "symbol": "FUN_14166c0a0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 184,
+    "va": "0x14166c190",
+    "label": "UI dispatch/save selection",
+    "detail": "UI dispatch/save selection; direct or queued path, new-slot call passes manager/null/-1/0. Earliest UI thread UNKNOWN",
+    "alias": "SOR-FN-0014",
+    "group": "interfaces",
+    "symbol": "FUN_14166c190"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 185,
+    "va": "0x14183c590",
+    "label": "Higher-level request candidate",
+    "detail": "Higher-level request candidate; status/gates/name/file preparation. Live manager identity, option meaning and execution contract UNKNOWN",
+    "alias": "SOR-FN-0015",
+    "group": "interfaces",
+    "symbol": "FUN_14183c590"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 186,
+    "va": "0x14183c830",
+    "label": "File-object preparation and serialization wrapper",
+    "detail": "File-object preparation and serialization wrapper; storage context is not a bare name buffer; command/wait semantics incomplete",
+    "alias": "SOR-FN-0016",
+    "group": "interfaces",
+    "symbol": "FUN_14183c830"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 186,
+    "va": "0x141814050",
+    "label": "File-object preparation and serialization wrapper",
+    "detail": "File-object preparation and serialization wrapper; storage context is not a bare name buffer; command/wait semantics incomplete",
+    "alias": "SOR-FN-0016",
+    "group": "interfaces",
+    "symbol": "FUN_141814050"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 187,
+    "va": "0x141814220",
+    "label": "Serializer candidate, RCX indirection observed at caller",
+    "detail": "Serializer candidate, RCX indirection observed at caller; no old SFSE prototype transfer. Large body, not a safe integration point",
+    "alias": "SOR-FN-0017",
+    "group": "interfaces",
+    "symbol": "FUN_141814220"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 188,
+    "va": "0x14183aaf0",
+    "label": "Finalization scheduling, storage/rename/cache/status-clear/wake",
+    "detail": "Finalization scheduling, storage/rename/cache/status-clear/wake. Completion candidate, not disk/cloud durability proof",
+    "alias": "SOR-FN-0018",
+    "group": "interfaces",
+    "symbol": "FUN_14183aaf0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 188,
+    "va": "0x14183ac80",
+    "label": "Finalization scheduling, storage/rename/cache/status-clear/wake",
+    "detail": "Finalization scheduling, storage/rename/cache/status-clear/wake. Completion candidate, not disk/cloud durability proof",
+    "alias": "SOR-FN-0018",
+    "group": "interfaces",
+    "symbol": "FUN_14183ac80"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 197,
+    "va": "0x140517d60",
+    "label": "FUN_140517d60",
+    "detail": "Keyed reference lookup candidate",
+    "alias": "SOR-FN-0002",
+    "group": "workshop",
+    "symbol": "FUN_140517d60"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 198,
+    "va": "0x142073dc0",
+    "label": "FUN_142073dc0",
+    "detail": "GetWorkshopOwnedObjects callback",
+    "alias": "SOR-FN-0003",
+    "group": "workshop",
+    "symbol": "FUN_142073dc0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 199,
+    "va": "0x142074870",
+    "label": "FUN_142074870",
+    "detail": "GetWorkshopResourceObjects callback",
+    "alias": "SOR-FN-0004",
+    "group": "workshop",
+    "symbol": "FUN_142074870"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 200,
+    "va": "0x1421bb570",
+    "label": "FUN_1421bb570",
+    "detail": "Beacon removal/validation candidate",
+    "alias": "SOR-FN-0005",
+    "group": "workshop",
+    "symbol": "FUN_1421bb570"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 212,
+    "va": "0x14167f7e0",
+    "label": "Named property binding candidate",
+    "detail": "Named property binding candidate; +0x68/+0x88 addresses passed with latitude/longitude names at 0x14167f82f–854. Object/type/units unqualified; no invocation or saved-layout claim. OBSERVED-INTERNAL.",
+    "alias": "SOR-FN-0010",
+    "group": "workshop",
+    "symbol": "FUN_14167f7e0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 213,
+    "va": "0x14341c0a0",
+    "label": "Existing xrefs to both coordinate names at 0x14341c207/251",
+    "detail": "Existing xrefs to both coordinate names at 0x14341c207/251; bounded function export. Relationship to a selected outpost UNKNOWN; not a callable integration point.",
+    "alias": "SOR-FN-0011",
+    "group": "workshop",
+    "symbol": "FUN_14341c0a0"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 31,
+    "va": "0x141578500",
+    "label": "AreaResources event producer",
+    "detail": "",
+    "alias": "SOR-FN-0060",
+    "group": "geography"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 31,
+    "va": "0x141581290",
+    "label": "AreaResources row binder",
+    "detail": "",
+    "alias": "SOR-FN-0060",
+    "group": "geography"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 31,
+    "va": "0x1421e07d0",
+    "label": "Area population updater",
+    "detail": "Mapped preview and established callers supply the radius in XMM2.",
+    "alias": "SOR-FN-0061",
+    "group": "geography"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 31,
+    "va": "0x1421e0f50",
+    "label": "Resource-region callback",
+    "detail": "The register qualifies a partial binary32 path.",
+    "alias": "SOR-FN-0062",
+    "group": "geography"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 31,
+    "va": "0x1421f68f0",
+    "label": "Harvester resource consumer",
+    "detail": "This path covers resource selection within placement.",
+    "alias": "SOR-FN-0063",
+    "group": "geography"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 31,
+    "va": "0x14044b610",
+    "label": "Resource-property presence check",
+    "detail": "",
+    "alias": "SOR-FN-0063",
+    "group": "geography"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 31,
+    "va": "0x14079a330",
+    "label": "Resource generator",
+    "detail": "The register qualifies the conditional first CRC/MT gate.",
+    "alias": "SOR-FN-0064",
+    "group": "geography"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 46,
+    "va": "0x140787830",
+    "label": "ProcGen manager constructor",
+    "detail": "",
+    "alias": "SOR-FN-0056",
+    "group": "workshop",
+    "end_line": 47
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 47,
+    "va": "0x14079d660",
+    "label": "ProcGen allocation and construction",
+    "detail": "",
+    "alias": "SOR-FN-0056",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 47,
+    "va": "0x14079d910",
+    "label": "ProcGen destructor",
+    "detail": "",
+    "alias": "SOR-FN-0056",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 48,
+    "va": "0x1421b2570",
+    "label": "Workshop center and radius publisher",
+    "detail": "",
+    "alias": "SOR-FN-0054",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 48,
+    "va": "0x1407a6690",
+    "label": "ProcGen radius reset",
+    "detail": "",
+    "alias": "SOR-FN-0056",
+    "group": "workshop",
+    "end_line": 51
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 48,
+    "va": "0x1407a50d0",
+    "label": "ProcGen activation state change",
+    "detail": "",
+    "alias": "SOR-FN-0056",
+    "group": "workshop",
+    "end_line": 51
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 48,
+    "va": "0x1407a5210",
+    "label": "ProcGen active update",
+    "detail": "",
+    "alias": "SOR-FN-0056",
+    "group": "workshop",
+    "end_line": 51
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 48,
+    "va": "0x1407a6540",
+    "label": "Typed decal bounds predicate",
+    "detail": "",
+    "alias": "SOR-FN-0056",
+    "group": "workshop",
+    "end_line": 51
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 48,
+    "va": "0x140f4ab80",
+    "label": "Workshop center calculation",
+    "detail": "",
+    "alias": "SOR-FN-0056",
+    "group": "workshop",
+    "end_line": 51
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 57,
+    "va": "0x14158e280",
+    "label": "Preview spinner constructor",
+    "detail": "",
+    "alias": "SOR-FN-0057",
+    "group": "interfaces",
+    "end_line": 62
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 57,
+    "va": "0x14158f230",
+    "label": "Preview spinner input binding",
+    "detail": "",
+    "alias": "SOR-FN-0057",
+    "group": "interfaces",
+    "end_line": 62
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 57,
+    "va": "0x1421b5970",
+    "label": "Wait3D update",
+    "detail": "",
+    "alias": "SOR-FN-0057",
+    "group": "interfaces",
+    "end_line": 62
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 57,
+    "va": "0x14241e7f0",
+    "label": "Preview readiness test",
+    "detail": "",
+    "alias": "SOR-FN-0057",
+    "group": "interfaces",
+    "end_line": 62
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 57,
+    "va": "0x1421f6420",
+    "label": "Preview spinner request",
+    "detail": "",
+    "alias": "SOR-FN-0057",
+    "group": "interfaces",
+    "end_line": 62
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 57,
+    "va": "0x1415902a0",
+    "label": "Preview UI service",
+    "detail": "",
+    "alias": "SOR-FN-0057",
+    "group": "interfaces",
+    "end_line": 62
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 57,
+    "va": "0x14158fa50",
+    "label": "Selected preview UI data update",
+    "detail": "",
+    "alias": "SOR-FN-0057",
+    "group": "interfaces",
+    "end_line": 62
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 69,
+    "va": "0x1421b2570",
+    "label": "Workshop center publisher",
+    "detail": "",
+    "alias": "SOR-FN-0054",
+    "group": "workshop",
+    "end_line": 73
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 69,
+    "va": "0x140f4ab80",
+    "label": "Workshop center calculation",
+    "detail": "",
+    "alias": "SOR-FN-0054",
+    "group": "workshop",
+    "end_line": 73
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 69,
+    "va": "0x1407a6540",
+    "label": "Workshop bounds consumer",
+    "detail": "",
+    "alias": "SOR-FN-0054",
+    "group": "workshop",
+    "end_line": 73
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 69,
+    "va": "0x1407b0880",
+    "label": "Workshop bounds thunk",
+    "detail": "",
+    "alias": "SOR-FN-0054",
+    "group": "workshop",
+    "end_line": 73
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 69,
+    "va": "0x1407a6150",
+    "label": "Bounds consumer installer",
+    "detail": "",
+    "alias": "SOR-FN-0054",
+    "group": "workshop",
+    "end_line": 73
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 69,
+    "va": "0x1407a50d0",
+    "label": "ProcGen activation",
+    "detail": "",
+    "alias": "SOR-FN-0054",
+    "group": "workshop",
+    "end_line": 73
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 69,
+    "va": "0x1407a6690",
+    "label": "ProcGen radius reset",
+    "detail": "",
+    "alias": "SOR-FN-0054",
+    "group": "workshop",
+    "end_line": 73
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x140ad92e0",
+    "label": "Terrain coverage route entry",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x140ad08d0",
+    "label": "Terrain coverage route stage",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x140b1e190",
+    "label": "Terrain coverage route stage",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x140ad8ec0",
+    "label": "Terrain coverage route stage",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x140ad0b90",
+    "label": "Terrain selected-grid calculation",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x14096f5c0",
+    "label": "Signed terrain grid displacement",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x142332410",
+    "label": "Terrain coverage consumer",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x14096eb90",
+    "label": "Canonical terrain record lookup",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x14096f940",
+    "label": "Seam-aware terrain grid difference",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x140f4a140",
+    "label": "Workshop bounds descriptor",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 78,
+    "va": "0x140f4ac50",
+    "label": "Workshop circle and ceiling predicate",
+    "detail": "",
+    "alias": "SOR-FN-0055",
+    "group": "workshop",
+    "end_line": 83
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x141824a60",
+    "label": "Save unit 3 dispatch",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x141825e00",
+    "label": "Save unit 3 dispatch counterpart",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x14132d260",
+    "label": "Descriptor writer",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x14132d500",
+    "label": "Descriptor reader",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x1403a5560",
+    "label": "Saved-world restoration stage",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x1403a5e00",
+    "label": "Saved-world restoration stage",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x1403a53b0",
+    "label": "Saved-world restoration stage",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x14096fb40",
+    "label": "Packed grid-key decoder",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x14096fa90",
+    "label": "Packed grid-key encoder",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x141822570",
+    "label": "Save unit 6 dispatch",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x14182e280",
+    "label": "Typed component restoration",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x14140ff80",
+    "label": "Site tuple transfer",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x1414128c0",
+    "label": "Site tuple transfer counterpart",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x140ad5f20",
+    "label": "Saved world component transfer",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x140ad6150",
+    "label": "Saved world component transfer counterpart",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x1418599a0",
+    "label": "Saved typed-ID remapping",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x1418325a0",
+    "label": "Saved world frame restoration",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x141833b20",
+    "label": "Saved initial frame conversion",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 88,
+    "va": "0x140ad3ed0",
+    "label": "Saved integer translation",
+    "detail": "",
+    "alias": "SOR-FN-0052",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x14077f900",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x140780a50",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x140780aa0",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x140781390",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x14077e350",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x140780710",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x14077f6e0",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x14078d2c0",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x14141ccd0",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x14141dc70",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 92,
+    "va": "0x14078d370",
+    "label": "Residual-frame or local-height path",
+    "detail": "",
+    "alias": "SOR-FN-0053",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x1404597a0",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140459a30",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x1407986d0",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140ad1660",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140ad47e0",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140ad4a00",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140adcde0",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140adccf0",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140add310",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140ad30a0",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140ada3a0",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140797dc0",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x140ad9cd0",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 96,
+    "va": "0x141881660",
+    "label": "Activated overlay construction or rebase path",
+    "detail": "",
+    "alias": "SOR-FN-0050",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 100,
+    "va": "0x14096ecb0",
+    "label": "Hierarchical terrain-grid or footprint operation",
+    "detail": "",
+    "alias": "SOR-FN-0051",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 100,
+    "va": "0x14096f4d0",
+    "label": "Hierarchical terrain-grid or footprint operation",
+    "detail": "",
+    "alias": "SOR-FN-0051",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 100,
+    "va": "0x14078d660",
+    "label": "Hierarchical terrain-grid or footprint operation",
+    "detail": "",
+    "alias": "SOR-FN-0051",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 100,
+    "va": "0x14096efb0",
+    "label": "Hierarchical terrain-grid or footprint operation",
+    "detail": "",
+    "alias": "SOR-FN-0051",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 100,
+    "va": "0x14096f5c0",
+    "label": "Hierarchical terrain-grid or footprint operation",
+    "detail": "",
+    "alias": "SOR-FN-0051",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 100,
+    "va": "0x14096eb90",
+    "label": "Hierarchical terrain-grid or footprint operation",
+    "detail": "",
+    "alias": "SOR-FN-0051",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 100,
+    "va": "0x14096ae90",
+    "label": "Hierarchical terrain-grid or footprint operation",
+    "detail": "",
+    "alias": "SOR-FN-0051",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 100,
+    "va": "0x14096bba0",
+    "label": "Hierarchical terrain-grid or footprint operation",
+    "detail": "",
+    "alias": "SOR-FN-0051",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 100,
+    "va": "0x14096be70",
+    "label": "Hierarchical terrain-grid or footprint operation",
+    "detail": "",
+    "alias": "SOR-FN-0051",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 100,
+    "va": "0x140851d20",
+    "label": "Hierarchical terrain-grid or footprint operation",
+    "detail": "",
+    "alias": "SOR-FN-0051",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 104,
+    "va": "0x141856d10",
+    "label": "Save reference frame preparation",
+    "detail": "",
+    "alias": "SOR-FN-0047",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 104,
+    "va": "0x14181aa30",
+    "label": "Reference-frame caller",
+    "detail": "",
+    "alias": "SOR-FN-0047",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 104,
+    "va": "0x14181af40",
+    "label": "Reference-frame caller",
+    "detail": "",
+    "alias": "SOR-FN-0047",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 104,
+    "va": "0x140ada3a0",
+    "label": "Activated overlay translation read",
+    "detail": "",
+    "alias": "SOR-FN-0047",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 108,
+    "va": "0x140ad30a0",
+    "label": "Activated overlay selection, translation or lineage",
+    "detail": "",
+    "alias": "SOR-FN-0048",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 108,
+    "va": "0x140ada3a0",
+    "label": "Activated overlay selection, translation or lineage",
+    "detail": "",
+    "alias": "SOR-FN-0048",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 108,
+    "va": "0x140ad7b80",
+    "label": "Activated overlay selection, translation or lineage",
+    "detail": "",
+    "alias": "SOR-FN-0048",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 108,
+    "va": "0x140add310",
+    "label": "Activated overlay selection, translation or lineage",
+    "detail": "",
+    "alias": "SOR-FN-0048",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 108,
+    "va": "0x140adcfd0",
+    "label": "Activated overlay selection, translation or lineage",
+    "detail": "",
+    "alias": "SOR-FN-0048",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 108,
+    "va": "0x140adcf50",
+    "label": "Activated overlay selection, translation or lineage",
+    "detail": "",
+    "alias": "SOR-FN-0048",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 108,
+    "va": "0x140add850",
+    "label": "Activated overlay selection, translation or lineage",
+    "detail": "",
+    "alias": "SOR-FN-0048",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 112,
+    "va": "0x140f50880",
+    "label": "Workshop resource-prefix loading path",
+    "detail": "",
+    "alias": "SOR-FN-0049",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 112,
+    "va": "0x140f515a0",
+    "label": "Workshop resource-prefix family locator",
+    "detail": "Later original evidence identifies this iterator on the writer route.",
+    "alias": "SOR-FN-0049",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 112,
+    "va": "0x1402cef80",
+    "label": "Workshop resource-prefix loading path",
+    "detail": "",
+    "alias": "SOR-FN-0049",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 112,
+    "va": "0x1402cedd0",
+    "label": "Workshop resource-prefix loading path",
+    "detail": "",
+    "alias": "SOR-FN-0049",
+    "group": "interfaces"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x14177a1f0",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x142072580",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x142072590",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x1420725a0",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x1420702e0",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x142070300",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x142070320",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x14208b990",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x14208b9e0",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x14204d600",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x14208b8f0",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x140b4e650",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 222,
+    "va": "0x140bbdf70",
+    "label": "Observer native operand contract",
+    "detail": "",
+    "alias": "SOR-FN-0013",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x140517d60",
+    "label": "Saved owner or membership reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0058",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x140562ef0",
+    "label": "Saved owner or membership reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0058",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x1421dd600",
+    "label": "Saved owner or membership reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0058",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x140f3cf40",
+    "label": "Saved owner or membership reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0058",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x1421de660",
+    "label": "Saved owner or membership reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0058",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x1421c71b0",
+    "label": "Constructed item reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0059",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x140f5f2d0",
+    "label": "Constructed item reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0059",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x140f366c0",
+    "label": "Constructed item reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0059",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x140f44c00",
+    "label": "Constructed item reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0059",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x1421cbac0",
+    "label": "Constructed item reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0059",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x1421cb740",
+    "label": "Constructed item reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0059",
+    "group": "workshop"
+  },
+  {
+    "path": "docs/function-register.md",
+    "line": 226,
+    "va": "0x140f661e0",
+    "label": "Constructed item reconstruction path",
+    "detail": "",
+    "alias": "SOR-FN-0059",
+    "group": "workshop"
+  }
+]

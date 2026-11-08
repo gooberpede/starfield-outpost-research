@@ -24,6 +24,7 @@ labels exclusions, unknowns and remaining approval gates.
   [resource-generation pilot](docs/guides/resource-generation.md). The
   [roadmap](docs/research-roadmap.md) covers the wider programme.
 - **Find implementation detail:** [capability/access matrix](docs/audits/outpost-rc1-2026-10/capability-access.md), [Papyrus interfaces](docs/audits/outpost-rc1-2026-10/papyrus-interfaces.md), [function register](docs/function-register.md) and [state register](docs/state-register.md).
+- **Look up a native function:** [version-pinned catalogue and RVA index](docs/functions/README.md).
 - **Challenge the evidence:** [history/supersession register](docs/research-history.md), [experiment index](docs/experiments/README.md), [selected evidence index](docs/experiments/evidence/README.md) and each report's review/source ledger. Raw saves, native exports and many receipts are local-only, not promised public downloads.
 
 The [documentation index](docs/README.md), [research state](docs/RESEARCH_STATE.md),
