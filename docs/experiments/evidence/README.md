@@ -1,5 +1,9 @@
 # Selected Evidence
 
+**Historical runtime evidence:** [D5BE access index](../../audits/evidence-access-d5be/README.md)
+links the D5AS qualified geometry and C19 native UI comparison routes. Exact
+evidence assets remain pending.
+
 **Provisional release evidence, 2026-10-21:** [B4-F1 core and optional addendum index](../../audits/publication-readiness-b4/f1/README.md)
 provides proposed exact member/asset manifests and verified local packages.
 GitHub download URLs are **PENDING RELEASE**; membership and publication approval

@@ -190,3 +190,5 @@ have inspectable reports. Their decisive private chronology, geometry or
 UI operands need separate cleared access. The proposed Save52 release
 asset is unhosted. [Dependency graph](../audits/publication-architecture-d5ax/claim-evidence-dependencies.csv) ·
 [Evidence-access assessment](../audits/publication-architecture-d5ax/evidence-access.md).
+The [D5BE evidence index](../audits/evidence-access-d5be/README.md) tracks
+access to the D5AS full geometry comparisons and C19 native UI comparisons.

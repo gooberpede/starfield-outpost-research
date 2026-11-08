@@ -1,0 +1,353 @@
+{
+  "asset": {
+    "access": "LOCAL-ONLY",
+    "basename": "d5as-feynman-geometry-v1.zip",
+    "body_domain": "sor-d5as-feynman-source-geometry/1:canonical-body",
+    "bytes": 176733,
+    "classification": "PENDING SPECIFIC APPROVAL",
+    "codec": "ZIP_STORED",
+    "content": "One manifest, two complete reference bodies and 30 complete qualified sample bodies.",
+    "destination": "Candidate versioned GitHub Release asset subject to exact-byte rights, privacy and maintainer approval plus B6.",
+    "format": "sor-d5be-d5as-geometry/1",
+    "hosting": "PENDING RELEASE",
+    "member_count": 33,
+    "members": {
+      "manifest.json": {
+        "bytes": 17477,
+        "sha256": "d2b421c2ab5392e68014771675b6ab184a298d3113c6b3d10a6af8359eb4de59"
+      },
+      "references/mask0.bin": {
+        "bytes": 4966,
+        "sha256": "bba4c877bc14d8abd3cfe36313e4cd62fd98e510dbf18441b250eacb57b942c4"
+      },
+      "references/mask3.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/01.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/02.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/03.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/04.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/05.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/06.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/07.bin": {
+        "bytes": 4966,
+        "sha256": "bba4c877bc14d8abd3cfe36313e4cd62fd98e510dbf18441b250eacb57b942c4"
+      },
+      "samples/08.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/09.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/10.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/11.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/12.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/13.bin": {
+        "bytes": 4966,
+        "sha256": "bba4c877bc14d8abd3cfe36313e4cd62fd98e510dbf18441b250eacb57b942c4"
+      },
+      "samples/14.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/15.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/16.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/17.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/18.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/19.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/20.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/21.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/22.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/23.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/24.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/25.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/26.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/27.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/28.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/29.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      },
+      "samples/30.bin": {
+        "bytes": 4858,
+        "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653"
+      }
+    },
+    "privacy": "Body geometry and FormIDs with capture UUIDs and original snapshot pins. No private paths, timestamps, operator names, PID or pointer tokens.",
+    "provenance": "Canonical derivative of local game-derived geometry from recorded D5AS captures and fixed controls.",
+    "rights": "Game-derived geometry. Repository GPL applies to authored methods, with no claim of redistribution rights for this payload.",
+    "role": "Indispensable candidate for the selected complete-geometry claim and reproducible statistics.",
+    "sha256": "d0d35ed2193527dd8215a647178614a5403e814bf14c3f9d1f0a448c53a1043c",
+    "staging": ".local-work/d5be/d5as-build02/d5as-feynman-geometry-v1.zip"
+  },
+  "build": {
+    "esm_sha256": "1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7",
+    "exe_sha256": "7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28",
+    "game_version": "1.16.244.0"
+  },
+  "claims": [
+    "30 complete canonical-body comparisons in the qualified Feynman V series",
+    "Two mask-0-reference matches, 28 mask-3-reference matches, no third class",
+    "Prespecified conditional statistical results and the exclusion/replacement trace"
+  ],
+  "custody_receipt": {
+    "access": "LOCAL-ONLY",
+    "bytes": 121481,
+    "path": ".local-work/d5be/d5as-build02/d5as-custody.json",
+    "role": "Full original/member inventory, local source joins, guard, comparator and control evidence. Original names and private paths remain local.",
+    "sha256": "4d3bcc3bc9fb616a5dfc0e46c0112d4baf6261b65694f68c6517885ac90407cc"
+  },
+  "d5be_review": "D5BE review disposition is recorded separately in the exact snapshot handoff.",
+  "evidence_id": "D5BE-Q1-D5AS-GEOMETRY",
+  "historical_reports": {
+    "analysis_protocol": "../../experiments/resource-retained-population/d5as-analysis-protocol.md",
+    "closeout": "../../experiments/resource-retained-population/d5as-series-closeout.md",
+    "d5ag_original_controls": "../../experiments/resource-retained-population/d5ag-geometry-controls.md",
+    "fixed_source_ledger": "../../experiments/resource-retained-population/d5aq-sources.csv",
+    "reference_basis": "../../experiments/resource-retained-population/d5as-producer-profile.md"
+  },
+  "historical_review": "Independent pre-freeze and independent final closeout ACCEPT. Exact local receipts in source_anchors.",
+  "producing_command": "python -E -B research/evidence-access/d5be/d5as_build.py .local-work/d5be/d5as-rebuild",
+  "proposed_tracked_method_guide": {
+    "bytes": 10921,
+    "destination": "tracked repository",
+    "disposition": "TRACKABLE CANDIDATE",
+    "licence": "GPL-3.0-or-later",
+    "path": "docs/audits/evidence-access-d5be/d5as.md",
+    "privacy": "Authored documentation; exact sensitive original diagnostics remain local.",
+    "role": "Required reader method, source-to-claim explanation and access limits.",
+    "sha256": "b5c33c43ff3d797b69359daa88df142a8ef40d1462239b0f03df0e13163b93a1"
+  },
+  "proposed_tracked_methods": [
+    {
+      "bytes": 17902,
+      "destination": "tracked repository",
+      "disposition": "TRACKABLE CANDIDATE",
+      "licence": "GPL-3.0-or-later",
+      "path": "research/evidence-access/d5be/d5as_build.py",
+      "privacy": "Authored method only. No original capture records or private user paths.",
+      "role": "Offline source custody and deterministic construction",
+      "sha256": "70aa35246b5b7c411b06f2248f81df55d5b51327f8325e0dbfb04ecb780c678c"
+    },
+    {
+      "bytes": 11594,
+      "destination": "tracked repository",
+      "disposition": "TRACKABLE CANDIDATE",
+      "licence": "GPL-3.0-or-later",
+      "path": "research/evidence-access/d5be/d5as_verify.py",
+      "privacy": "Authored method only. No original capture records or private user paths.",
+      "role": "Standalone claim comparator and controls",
+      "sha256": "4242604881db67c045c225e9b92f2a6862addf672a1fa89f0024a88f47d8a4b7"
+    }
+  ],
+  "public_verification": "The complete reader comparison requires the explicit approved asset. Tracked method and index alone cannot supply historical geometry or confirm original source custody.",
+  "reader_method": "d5as_verify.py compares all bytes of each member to both pinned reference members and recomputes statistics.",
+  "schema": "sor-d5be-evidence-index/1",
+  "self_disposition": {
+    "destination": "tracked repository",
+    "disposition": "TRACKABLE CANDIDATE",
+    "licence": "GPL-3.0-or-later",
+    "privacy": "Authored index, relative archival locators and hashes only. Exact self pin is in the delivery manifest.",
+    "role": "Required safe source/asset pin and publication state index."
+  },
+  "source_anchors": [
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 5134958,
+      "path": ".local-work/d5as/d5as-closeout-evidence.zip",
+      "role": "original sealed D5AS closeout",
+      "sha256": "f0660067971738ba341562677efb0a3f0ca198f25478e09fea10880d0de90874"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 5002745,
+      "path": ".local-work/d5as/corpus.zip",
+      "role": "original capture ZIP with 31 snapshots and 99 startup receipts",
+      "sha256": "4d0dc101ed7bc8204ae29273bf1eb87feeb8cf0b9ac291988da177511f81966b"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 138279,
+      "path": ".local-work/d5as/attempts-01.json",
+      "role": "original initial eligibility ledger",
+      "sha256": "d467ad8e7d25674b76f076969f22a2d44a6019afbca3d2dd6b20d859e3231515"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 146194,
+      "path": ".local-work/d5as/attempts-02.json",
+      "role": "original final eligibility ledger",
+      "sha256": "f248c86e940accf2643f3f9d4a1778e0d9f84bc03a9d93ec8131e6cebd34eefa"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 360049,
+      "path": ".local-work/d5as/frozen-corpus.json",
+      "role": "historical frozen derivative and statistical oracle",
+      "sha256": "16784d4c772895ccad62415011014e2c6165906231498d203ed833f5a30dc598"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 160930,
+      "path": ".local-work/d5as/protection-before02/protection.json",
+      "role": "historical protected baseline receipt",
+      "sha256": "49b19aa5bd9043ad5486da1216b3475c1490a3787c05cd9ea21a31c94d2ae6d2"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 160929,
+      "path": ".local-work/d5as/protection-after01/protection.json",
+      "role": "historical protected closeout receipt",
+      "sha256": "0df32300a3564d21e7bea2b05f884ddcdc02f5798daaf4941a8f7e913b02c2f4"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 5403,
+      "path": ".local-work/d5as/series-authorization.json",
+      "role": "historical series authorization receipt",
+      "sha256": "f2ccb3a144578e2d8f50605719a7697cf4ceff2287b27dfb7e47a53b0b3c54e6"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 698,
+      "path": ".local-work/d5as/freeze-review.json",
+      "role": "historical independent pre-freeze receipt",
+      "sha256": "2e9318f4adc0d59aad9de4bb829c2be140d492ef04e5a3e212231cb5755d07e1"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 1511,
+      "path": ".local-work/d5as/independent-closeout-review.md",
+      "role": "historical independent closeout verdict",
+      "sha256": "6e4b07909477e5c56d5c08b004b4cfce16534a83a5b92cdaf1f0c59d2f9b7155"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 2528,
+      "path": ".local-work/d5as/package.json",
+      "role": "historical selected producer package receipt",
+      "sha256": "9aa1371ff1097f33f3128a6d05a96b3b154650a997d55504d94bf6186f66a53c"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 135603,
+      "path": ".local-work/d5as/SorOutpostGeometrySnapshot-0.2.0-D5AS-NOT-AUTHORIZED.zip",
+      "role": "historical producer archive",
+      "sha256": "a646848f13c475f6ef4bc3a046f70b4d84506c962a2da52daf02f3c91fa44c18"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 37432407,
+      "path": ".local-work/d5ak/a-live01-archive/episode-a.zip",
+      "role": "original sealed A0 archive",
+      "sha256": "fe4bdbcfda8b0689e39444afbef5e9094cd78739787cc4fe2dfc7fd777bd9509"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 158985,
+      "path": ".local-work/d5ag/geometry01/control.json",
+      "role": "fixed mask reference control 1",
+      "sha256": "b7f944d642e20e620de80799d52ebce441bcd038e8e3005b454ed8a555f9f893"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 158985,
+      "path": ".local-work/d5ag/geometry02/control.json",
+      "role": "fixed mask reference control 2",
+      "sha256": "4f09a261f4f5a6ee202fd416cfb65feac3b0ca094a62d57672b8a93e3b5df387"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 158985,
+      "path": ".local-work/d5aq/geometry01/control.json",
+      "role": "primary fixed mask host 1",
+      "sha256": "37b28604f49bb6ff9889c946622f77465f56cdea55951710d68ca39602583864"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 158985,
+      "path": ".local-work/d5aq/geometry02/control.json",
+      "role": "primary fixed mask host 2",
+      "sha256": "543610e9f980b0479e559cf2e4362ed51754e0a23dfb5307ffd007d0f1d4c5bf"
+    },
+    {
+      "access": "LOCAL-ONLY",
+      "bytes": 1322598,
+      "path": ".local-work/d5s/geometry.json",
+      "role": "fixed mask model inputs",
+      "sha256": "9594ab2aa34856bcc3b8ecb249b46b0063ef4b5d1af80d4e557542f2d6657ccf"
+    }
+  ]
+}

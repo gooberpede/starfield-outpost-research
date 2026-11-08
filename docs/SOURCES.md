@@ -1,5 +1,15 @@
 # Source Register
 
+## D5BE historical evidence access
+
+The [D5BE index](audits/evidence-access-d5be/README.md) links the retained D5AS
+captures, fixed references, original C19 WAL and native UI observations to
+their bounded derivatives. The builders reuse owned historical analysis and
+capture-decoding methods under SOR-P-0002. The family manifests record exact
+source and output identities. CPython 3.14.3 and Git 2.53.0.windows.1 support
+offline checks and text review export. Bethesda-derived payloads and private
+receipts stay local pending separate decisions.
+
 ## D5BD native function catalogue
 
 The catalogue consolidates existing project-authored function tables and

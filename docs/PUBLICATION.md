@@ -4,6 +4,10 @@
 
 The project begins privately and must publish completed, reviewed research under `GPL-3.0-or-later`. The first publication scope/build matrix must be explicitly agreed and contain runtime and persistence objectives. The continuing programme may remain broader, but unresolved required topics cannot be silently dropped to declare completion.
 
+Use the [publication run card](PUBLICATION_RUN_CARD.md) to record the exact
+candidate, evidence and asset checks, action approvals and release receipts
+under a separately authorized release brief.
+
 The [D5AW proposed preparation sequence](audits/deferred-work-d5aw/publication-plan-amendment.md)
 integrates B0–B6 with a prior tree and reader-architecture inventory, evidence
 access review and historical archive design. See the

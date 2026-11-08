@@ -262,6 +262,10 @@ remains untested.
 | Save52 reconstruction | B4-F040 / HIST-0267 is a [provisional B4-F1 member](../audits/publication-readiness-b4/f1/members.csv) without a hosted URL. Full regeneration needs pinned installed-main inputs and a qualified descriptor/grid method. Save bytes cannot supply a historical event epoch. |
 | Historical observations and controls | **PUBLICATION DEPENDENCY — EVIDENCE ACCESS PENDING.** RG-AK, RG-AL, RG-AO, RG-AQ, RG-AS and B4-C19 require historical chronology, complete geometry, native-control or UI operands outside the tracked reports. A digest or private locator cannot supply the underlying evidence. [Dependency graph](../audits/publication-architecture-d5ax/claim-evidence-dependencies.csv) · [Access assessment](../audits/publication-architecture-d5ax/evidence-access.md). |
 
+For the D5AS complete body comparisons and C19 native UI comparisons, see the
+[D5BE evidence index](../audits/evidence-access-d5be/README.md) for verification
+methods, original evidence and pending asset access.
+
 From the repository root, set PowerShell variable `$python` to your
 Python 3 executable. This reads
 one tracked CSV and prints counts without writing any files.

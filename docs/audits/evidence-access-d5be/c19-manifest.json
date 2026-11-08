@@ -1,0 +1,229 @@
+{
+  "schema": "sor-d5be-c19-manifest/1",
+  "evidence_id": "SOR-EV-0043",
+  "controlling_question": "D5BE-Q2",
+  "access": "PENDING SPECIFIC APPROVAL",
+  "references": {
+    "scientific_report": "docs/experiments/continuous-beacon-preview/live-scientific-report.md",
+    "original_independent_review": "docs/experiments/continuous-beacon-preview/review.md",
+    "original_source_ledger": "docs/experiments/continuous-beacon-preview/live-sources.csv",
+    "final_d5be_review": "D5BE package-level independent review of the exact candidate and methods"
+  },
+  "archive": {
+    "bytes": 351425006,
+    "sha256": "2df3244872961232c87067ca60e2c59e54ab66d7c2c858031db2649cc86ed8a5",
+    "path": ".local-work/research-archives/resources-production-preparation01/resources-production.tar.zst",
+    "format": "PAX tar plus Zstandard",
+    "disposition": "LOCAL-ONLY",
+    "lineage": "resources-production ACTIVE historical consolidation; original loose members retired"
+  },
+  "source_members": [
+    {
+      "bytes": 2036489728,
+      "member": ".local-work/continuous-beacon-preview/live/session-24552-88395531/events.bin",
+      "sha256": "33bc0ec5191184b8942f6b47db184465baf5f40ddac4184d428d5cf797ed59ee",
+      "source_id": null,
+      "role": "Original raw observer records",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 885,
+      "member": ".local-work/continuous-beacon-preview/live/session-24552-88395531/operator-03b17ebb8b8a48a6b68e4334dc0e6dc5.json",
+      "sha256": "eff47b61ad0078212ed8cda7fccc4349b8dc053a3053860b8e80b9b081605694",
+      "source_id": null,
+      "role": "Original phase A operator testimony receipt",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 885,
+      "member": ".local-work/continuous-beacon-preview/live/session-24552-88395531/operator-101297f44a7145129317a96cf5fbafc1.json",
+      "sha256": "9f77ea6f6f12d30591b60f26cbf2e1b93c534fea0b7a7041ba7fc05a897c99f6",
+      "source_id": null,
+      "role": "Original phase C operator testimony receipt",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 900,
+      "member": ".local-work/continuous-beacon-preview/live/session-24552-88395531/operator-935c45d4e47645ff94b85b33713cae7e.json",
+      "sha256": "55b0a3825136483ecc8ae46efad2bc83a734a2cbf79d6f1bc9ae1630340ad97b",
+      "source_id": null,
+      "role": "Original phase B operator testimony receipt",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 79105401,
+      "member": ".local-work/continuous-beacon-preview/live/session-24552-88395531/records.jsonl",
+      "sha256": "8112881390d1edded492da3212ac5c7629d95f051105ca077035636cb64bb677",
+      "source_id": null,
+      "role": "Original ordered WAL journal with per-record digests",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 691,
+      "member": ".local-work/continuous-beacon-preview/live/session-24552-88395531/retired.json",
+      "sha256": "5fb8416cb71a518ad21d5e733aec1aad73a9b0c7754e7e9339b2aee884f72dc7",
+      "source_id": null,
+      "role": "Original terminal census and transport state",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 474,
+      "member": ".local-work/continuous-beacon-preview/live/session-24552-88395531/session.json",
+      "sha256": "2565e6f9705f086c9b38726549313abfb3bf3ca959fd388d373ddfda9453c007",
+      "source_id": null,
+      "role": "Original build, format and clock receipt",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 1433,
+      "member": ".local-work/continuous-beacon-preview/run-20261014T233433728771Z/additional-resource-definitions01.json",
+      "sha256": "cfd97b9125435e5dbbedbcd4f67870d7a09f8979be1227dc7fce5d0fe15bd743",
+      "source_id": "SOR-S-0146-LIVE-012",
+      "role": "Original hash-bracketed ESM definition receipt",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 11020,
+      "member": ".local-work/continuous-beacon-preview/run-20261014T233433728771Z/phase-analysis01.json",
+      "sha256": "761507491171eba18bb535447b52d8680e8935cb837e17827c895bb8a0338a6e",
+      "source_id": "SOR-S-0146-LIVE-018",
+      "role": "Original local derivative for stable-run and operator receipt comparison",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 107380337,
+      "member": ".local-work/continuous-beacon-preview/run-20261014T233433728771Z/postflight.json",
+      "sha256": "5c6a3e25d9e30d8ded42219e762d551d5398c598914c546af81bc6dca40f061e",
+      "source_id": "SOR-S-0146-LIVE-014",
+      "role": "Original local decoded inspection and protected-input receipt",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 1695,
+      "member": ".local-work/continuous-beacon-preview/run-20261014T233433728771Z/preview-reference-definitions01.json",
+      "sha256": "dfce2516b10a265282e24d89dbc679f9279bd8738c7b27939b28be9ab10097d1",
+      "source_id": "SOR-S-0146-LIVE-011",
+      "role": "Original hash-bracketed ESM definition receipt",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 2991,
+      "member": ".local-work/continuous-beacon-preview/run-20261014T233433728771Z/reviewer-verbatim-live03.md",
+      "sha256": "d451cd7af1161be3fba50f781e1f6da3ce7b148e25d691e17b649a7421e4b7b1",
+      "source_id": "SOR-S-0146-LIVE-025",
+      "role": "Original independent reviewer return",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 28241987,
+      "member": ".local-work/continuous-beacon-preview/run-20261014T233433728771Z/scientific-summary01.json",
+      "sha256": "f9ea168c8966b795df438407898efeb99d8124a01e49f1e939e5d883c47e3a42",
+      "source_id": "SOR-S-0146-LIVE-017",
+      "role": "Original local derivative for all-callback cross-check",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 3480,
+      "member": ".local-work/continuous-beacon-preview/run-20261014T233433728771Z/seal.json",
+      "sha256": "5836da47413f5223f57116070652674dcd3a81de653d58a40d5670e839d7231b",
+      "source_id": "SOR-S-0146-LIVE-015",
+      "role": "Original archived session member seal",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "bytes": 32506313,
+      "member": "ARCHIVE-MEMBERS.json",
+      "sha256": "de8b2aa5f2fe89878ef8d8a1f4708952302250f955cdddfab1b4e7eaf1c8d8d1",
+      "source_id": null,
+      "role": "Archive inventory trust root",
+      "disposition": "LOCAL-ONLY"
+    }
+  ],
+  "protected_context": {
+    "starfield_version": "1.16.244.0",
+    "exe_sha256": "7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28",
+    "b3_main_esm_sha256": "1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7",
+    "original_save": {
+      "identity": "C19 protected Save3",
+      "bytes": 2096496,
+      "sha256": "d06123ee32bd5b3e244650852fac9714697a19fd6243384966414d1d1f4ffbfe",
+      "disposition": "LOCAL-ONLY"
+    },
+    "limit": "Historic capture controls and installed-definition context; neither original save creation build nor effective load order follows from these hashes."
+  },
+  "methods": [
+    {
+      "path": "research/evidence-access/d5be/c19-build.py",
+      "bytes": 20373,
+      "sha256": "7324dfadc5c63dfea92f743cf2d95566bf8504c64c80492a49b69a834426cacf",
+      "role": "CPython 3.14.3 offline archive and WAL reduction",
+      "licensing": "Project-authored GPL-3.0-or-later",
+      "disposition": "TRACKABLE CANDIDATE"
+    },
+    {
+      "path": "research/evidence-access/d5be/c19-verify.py",
+      "bytes": 11661,
+      "sha256": "13aa996b0b094b9190731a1b13e4f2a0e99148cbba7cd7964f13c8f592fb454b",
+      "role": "Python 3.10+ standard-library consumer fold, census and negative controls",
+      "licensing": "Project-authored GPL-3.0-or-later",
+      "disposition": "TRACKABLE CANDIDATE"
+    },
+    {
+      "path": "runtime/beacon-resource-070/inspect_resources.py",
+      "bytes": 13686,
+      "sha256": "f8d04369ded0ccc24cceba08443d6c9487cd93e9ebdc98a9f52cde78b7af5ce9",
+      "role": "Existing owned decoder reused unchanged for individual 070 record fields",
+      "licensing": "Project-authored GPL-3.0-or-later",
+      "disposition": "TRACKABLE CANDIDATE"
+    }
+  ],
+  "candidate": {
+    "path": ".local-work/d5be/c19/rebuild-1/c19-callbacks-v1.json",
+    "bytes": 189747,
+    "sha256": "d37476dd5b33fca44423c1c0aaf239b43e8a98d8cf2ed97b15beaa4225906ada",
+    "basename": "c19-callbacks-v1.json",
+    "format": "sor-d5be-c19-callbacks/1 canonical UTF-8 JSON",
+    "kind": "Selected claim-complete derivative",
+    "archive_member_count": null,
+    "production_command": "python -B research/evidence-access/d5be/c19-build.py .local-work/research-archives/resources-production-preparation01/resources-production.tar.zst .local-work/d5be/c19/rebuild-N",
+    "claim": "All 346 recorded complete ordered native UI input-to-row comparisons",
+    "necessity": "Indispensable for the exact callback-census claim if retained in the initial release scope",
+    "proposed_destination": "Versioned GitHub Release asset only if approved; exact release and tag TBD",
+    "hosted_url": null,
+    "disposition": "PENDING SPECIFIC APPROVAL",
+    "rights_and_privacy": "Game-derived runtime identities and equality aliases, native sequence metadata and attributed operator labels. Exact byte-specific distribution decision pending. No raw addresses, memory copies, file paths, save bytes or receipt clock values."
+  },
+  "local_receipts": [
+    {
+      "path": ".local-work/d5be/c19/rebuild-1/custody.json",
+      "bytes": 10585,
+      "sha256": "1ca4cccb0749bc66e6fa5039e67c6d596d8388d142a8187cc37dfd51dd64489b",
+      "format": "sor-d5be-c19-custody/1",
+      "kind": "Local custody derivative",
+      "role": "All exact source member paths and digests: 20 sealed session members, 25 historical live-source rows and the embedded inventory",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "path": ".local-work/d5be/c19/rebuild-2/custody.json",
+      "bytes": 10585,
+      "sha256": "1ca4cccb0749bc66e6fa5039e67c6d596d8388d142a8187cc37dfd51dd64489b",
+      "format": "sor-d5be-c19-custody/1",
+      "kind": "Deterministic local rebuild receipt",
+      "disposition": "LOCAL-ONLY"
+    },
+    {
+      "path": ".local-work/d5be/c19/historical-summary-crosscheck.json",
+      "bytes": 469,
+      "sha256": "94cd1e098f467d2c405b8c642dc8f22bdb850d3092ae4b8238e1d1f08fd0baad",
+      "kind": "Historical derived-source cross-check",
+      "disposition": "LOCAL-ONLY"
+    }
+  ],
+  "synthetic_controls": {
+    "implementation": "research/evidence-access/d5be/c19-verify.py",
+    "command": "python -I -S -B research/evidence-access/d5be/c19-verify.py --self-test",
+    "kind": "In-memory invented control, no historical inputs and no file payload",
+    "access": "TRACKABLE CANDIDATE"
+  },
+  "reader_check": "python -I -S -B research/evidence-access/d5be/c19-verify.py c19-callbacks-v1.json --sha256 d37476dd5b33fca44423c1c0aaf239b43e8a98d8cf2ed97b15beaa4225906ada --negative-controls"
+}

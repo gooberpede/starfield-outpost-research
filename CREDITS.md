@@ -1,5 +1,12 @@
 # Credits
 
+## D5BE historical evidence access
+
+The maintainer's D5AS and C19 captures and the original experiment methods and
+reviews support the [historical evidence routes](docs/audits/evidence-access-d5be/README.md).
+Bethesda's game supplies the observed native geometry and UI data. CPython
+and Git support local verification and review packaging.
+
 ## D5BD native function catalogue
 
 The catalogue credits the original project investigations at each entry.
