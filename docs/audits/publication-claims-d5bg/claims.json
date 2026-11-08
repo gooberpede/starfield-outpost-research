@@ -1,0 +1,2825 @@
+{
+  "schema": "sor-d5bg-claims/1",
+  "proposal": "PROPOSED",
+  "baseline": {
+    "executable_version": "1.16.244.0",
+    "executable_sha256": "7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28",
+    "reference": "docs/audits/publication-readiness-b3/baseline-manifest.md",
+    "preferred_image_base": "0x140000000",
+    "main_esm_sha256": "1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7",
+    "historical_origin": "H? unless separately established by the cited claim-specific sources"
+  },
+  "historical_labels": {
+    "B4-C01": "Identity, membership and Workshop ownership",
+    "B4-C02": "Planetary location and position",
+    "B4-C03": "Nominal biomes and resource regions",
+    "B4-C04": "Inorganic production and nominal rates",
+    "B4-C05": "Organic production",
+    "B4-C06": "Manufactured production",
+    "B4-C07": "Power and generator fuel",
+    "B4-C08": "Storage and local output links",
+    "B4-C09": "Cargo configuration, freight and inter-system fuel",
+    "B4-C10": "Crew, skills and robots",
+    "B4-C11": "Construction limits, placement, variants and catalogue",
+    "B4-C12": "Attacks, defenses and Integrity",
+    "B4-C13": "Chests, displays and mannequins",
+    "B4-C14": "Shared Outpost Storage and crafting sources",
+    "B4-C15": "Stored Resources",
+    "B4-C16": "Locations to Outpost information",
+    "B4-C17": "Identity",
+    "B4-C18": "Position",
+    "B4-C19": "Availability/deposits",
+    "B4-C20": "Rate arithmetic",
+    "B4-C21": "Power",
+    "B4-C22": "Local movement",
+    "B4-C23": "Cargo",
+    "B4-C24": "Crew/robots",
+    "B4-C25": "Construction",
+    "B4-C26": "Access and interfaces"
+  },
+  "counts": {
+    "claims": {
+      "READY — QUALIFIED": 38,
+      "ACTION REQUIRED": 12,
+      "MAINTAINER DECISION": 14,
+      "HISTORICAL ONLY": 4,
+      "READY": 3
+    },
+    "selected_indispensable": {
+      "READY": 41,
+      "HELD": 15,
+      "CONDITIONAL": 20
+    },
+    "all_indispensable": {
+      "HELD": 19,
+      "CONDITIONAL": 20,
+      "READY": 41
+    },
+    "historical_only_indispensable": {
+      "HELD": 4
+    }
+  },
+  "claims": [
+    {
+      "id": "B4-C01",
+      "historical": [
+        "B4-C01"
+      ],
+      "topics": [
+        "identity"
+      ],
+      "proposition": "Ordinary Workshop construction roots and explicit owner edges support positive membership where selectors agree.",
+      "basis": "STATIC and SAVE reconstruction",
+      "pins": "N244 per B3 baseline manifest; controlled S0–S7C and Save52 H? original executable and winning overrides remain claim-specific",
+      "confidence": "PROVEN scoped bytes/edges; proposed STRONG scoped construction-root interpretation.",
+      "coverage": "Ordinary extractor and non-extractor positives, deletion and retained Hab cases.",
+      "limits": "A disabled-clear beacon, UI registration or canonical assembly alone cannot certify ownership or complete active-player membership.",
+      "status": "READY — QUALIFIED",
+      "wording": "Use explicit, qualified owner associations and label unresolved roots separately.",
+      "sources": [
+        "docs/guides/identity.md",
+        "docs/reference/identity.md",
+        "docs/experiments/workshop-membership/report.md",
+        "docs/experiments/workshop-membership/review.md",
+        "docs/experiments/workshop-membership/sources.csv",
+        "docs/experiments/workshop-membership/owners.csv"
+      ],
+      "edges": [
+        "P-IDENTITY"
+      ],
+      "guides": [
+        "docs/guides/identity.md"
+      ],
+      "references": [
+        "docs/reference/identity.md"
+      ],
+      "b1_b4_correspondence": [
+        "Identity, membership and Workshop ownership"
+      ]
+    },
+    {
+      "id": "B4-C02",
+      "historical": [
+        "B4-C02"
+      ],
+      "topics": [
+        "position"
+      ],
+      "proposition": "Framed saved descriptors and typed body/world joins can place the sampled ordinary Kreet sites in a reproducible discrete cell frame.",
+      "basis": "STATIC and SAVE interpretation with derived arithmetic",
+      "pins": "N244 per B3 baseline manifest; controlled Save37–39/Save25/26 metadata and H? origin; fixed Lab and earlier controls",
+      "confidence": "PROVEN sampled bytes and arithmetic; proposed STRONG scoped STATIC/SAVE interpretation.",
+      "coverage": "Three ordinary Kreet beacons in two regions; published arithmetic and labeled original-byte tier.",
+      "limits": "Location object is not a coordinate; fresh-character recreation, precision, arbitrary frames and complete native XYZ are unestablished.",
+      "status": "READY — QUALIFIED",
+      "wording": "In these qualified frames the recorded operands support cell-level positioning and compensated local detail.",
+      "sources": [
+        "docs/guides/position.md",
+        "docs/reference/position.md",
+        "docs/experiments/coordinate-sufficiency/report.md",
+        "docs/experiments/coordinate-sufficiency/review.md",
+        "docs/experiments/coordinate-sufficiency/positions.csv",
+        "docs/experiments/coordinate-sufficiency/fixed-controls.csv",
+        "docs/experiments/coordinate-sufficiency/inputs.csv",
+        "docs/experiments/coordinate-sufficiency/sources.csv"
+      ],
+      "edges": [
+        "P-POSITION-MATH",
+        "P-POSITION-ADDENDUM"
+      ],
+      "guides": [
+        "docs/guides/position.md"
+      ],
+      "references": [
+        "docs/reference/position.md"
+      ],
+      "b1_b4_correspondence": [
+        "Planetary location and position"
+      ]
+    },
+    {
+      "id": "C02-ORIGINALS",
+      "historical": [
+        "B4-C02",
+        "B4-C18"
+      ],
+      "topics": [
+        "position"
+      ],
+      "proposition": "Selected coordinate saves let a reader check the named Kreet player, beacon and source-world record joins directly.",
+      "basis": "SAVE reconstruction",
+      "pins": "H? originating binary; N244 analysis; CS inputs and D5BF CORE member pins",
+      "confidence": "PROVEN selected sampled bytes; proposed STRONG scoped interpretation as reviewed.",
+      "coverage": "Save37/38/39 and Save25/26 only.",
+      "limits": "Same-name D1 historical Save37 is HIST-0249, not CS Save37. Screenshot context is separate.",
+      "status": "ACTION REQUIRED",
+      "wording": "Repeat the five selected saved comparisons from CORE, with each stream/domain qualified.",
+      "sources": [
+        "docs/guides/position.md",
+        "docs/reference/position.md",
+        "docs/experiments/coordinate-sufficiency/report.md",
+        "docs/experiments/coordinate-sufficiency/review.md",
+        "docs/experiments/coordinate-sufficiency/positions.csv",
+        "docs/experiments/coordinate-sufficiency/fixed-controls.csv",
+        "docs/experiments/coordinate-sufficiency/inputs.csv",
+        "docs/experiments/coordinate-sufficiency/sources.csv"
+      ],
+      "edges": [
+        "P-POSITION-CORE"
+      ],
+      "decision": "Retain after exact CORE hashes and CS read-only method qualify in isolated preflight and hosted checks.",
+      "guides": [
+        "docs/guides/position.md"
+      ],
+      "references": [
+        "docs/reference/position.md"
+      ],
+      "b1_b4_correspondence": [
+        "Planetary location and position",
+        "Position"
+      ]
+    },
+    {
+      "id": "B4-C03",
+      "historical": [
+        "B4-C03"
+      ],
+      "topics": [
+        "nominal-biomes"
+      ],
+      "proposition": "The qualified discrete nominal biome model can exhaustively traverse positive-area cells in its defined frame.",
+      "basis": "STATIC, SAVE and derived calculation",
+      "pins": "N244 per B3 baseline manifest main ESM plus source-pinned PlanetData.ba2; H? original executable and winning overrides remain claim-specific",
+      "confidence": "PROVEN sampled bytes and arithmetic; proposed STRONG scoped conditional STATIC/SAVE model.",
+      "coverage": "Three v5 maps and seven distinct sites in the original report; completeness for qualified nominal field only.",
+      "limits": "No POI clipping, terrain blend, seam-crossing live equivalence, deposit geometry or exact winning overrides.",
+      "status": "READY — QUALIFIED",
+      "wording": "State the nominal biome assignment separately from usable area and live deposits.",
+      "sources": [
+        "docs/guides/nominal-biomes.md",
+        "docs/reference/nominal-biomes.md",
+        "docs/experiments/outpost-biomes/report.md",
+        "docs/experiments/outpost-biomes/review.md",
+        "docs/experiments/outpost-biomes/sources.csv",
+        "docs/experiments/outpost-biomes/cases.csv",
+        "docs/experiments/outpost-biomes/cells.csv"
+      ],
+      "edges": [
+        "P-BIOME-MODEL"
+      ],
+      "guides": [
+        "docs/guides/nominal-biomes.md"
+      ],
+      "references": [
+        "docs/reference/nominal-biomes.md"
+      ],
+      "b1_b4_correspondence": [
+        "Nominal biomes and resource regions"
+      ]
+    },
+    {
+      "id": "C03-FRAME-CONTROL",
+      "historical": [
+        "B4-C03"
+      ],
+      "topics": [
+        "nominal-biomes"
+      ],
+      "proposition": "Save52, Kreet Save25 and held-out Save39 supply the selected CORE nominal-biome frame controls. HIST-0035 supplies a distinct saved-frame comparison in ADDENDUM.",
+      "basis": "SAVE and derived map-to-frame calculation",
+      "pins": "CORE B4-F040/F047/F003 and ADDENDUM B4-F049; pinned PlanetData.ba2 and main ESM. H? historical save origin.",
+      "confidence": "PROVEN scoped sampled bytes/arithmetic; proposed STRONG qualified frame interpretation.",
+      "coverage": "The named CORE controls and three matching mature sites in HIST-0035. Kreet Save31 and Save33 are separate ADDENDUM controls outside this exact comparison.",
+      "limits": "The scoped older-frame descriptor locator does not resolve uniquely for HIST-0035. This is not evidence the descriptor is absent. No claim of effective POI clipping, loaded frame equivalence or visual blend.",
+      "status": "ACTION REQUIRED",
+      "wording": "Reproduce the named original save/frame and cell checks. Independent inspection of HIST-0035 requires the optional ADDENDUM download.",
+      "sources": [
+        "docs/guides/nominal-biomes.md",
+        "docs/reference/nominal-biomes.md",
+        "docs/experiments/outpost-biomes/report.md",
+        "docs/experiments/outpost-biomes/review.md",
+        "docs/experiments/outpost-biomes/sources.csv",
+        "docs/experiments/outpost-biomes/cases.csv",
+        "docs/experiments/outpost-biomes/cells.csv"
+      ],
+      "edges": [
+        "P-BIOME-ORIGINALS"
+      ],
+      "decision": "Qualify the named B3 readers with the selected CORE and ADDENDUM members and lawful pinned map inputs before advertising this exact tier.",
+      "guides": [
+        "docs/guides/nominal-biomes.md"
+      ],
+      "references": [
+        "docs/reference/nominal-biomes.md"
+      ],
+      "b1_b4_correspondence": [
+        "Nominal biomes and resource regions"
+      ]
+    },
+    {
+      "id": "B4-C04",
+      "historical": [
+        "B4-C04"
+      ],
+      "topics": [
+        "inorganic-production"
+      ],
+      "proposition": "Ordinary inorganic placement intersects point-admitted resources with the candidate base. Registered production later uses the Workshop resource key and separately evaluates current reason and due work.",
+      "basis": "Native/static interpretation with saved corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; H? Save52/HIST-0267 (B4-F040); header reports 1.16.244.0; historical executable hash and effective configuration are unknown; controlled iron S-series carry their individual pins",
+      "confidence": "STRONG scoped STATIC in E1; PROVEN for scoped definition comparisons, with prior SAVE associations preserved",
+      "coverage": "E1 159 category-qualified bases and 63 Save52 joins; D5AH distinguishes ordinary placement from loader/producer continuity",
+      "limits": "Bypass properties and exceptional bases remain qualified. Cached eligibility, retained rows and a nominal rate cannot establish current deposits, realized output or all indirect geometry dependencies.",
+      "status": "READY — QUALIFIED",
+      "wording": "On the mapped ordinary path, placement and later production use distinct resource operations. A retained resource key alone says nothing about current deposit presence or output.",
+      "sources": [
+        "docs/experiments/inorganic-extractors/report.md",
+        "docs/experiments/inorganic-extractors/native.md",
+        "docs/experiments/inorganic-extractors/sources.csv",
+        "docs/experiments/inorganic-extractors/review.md",
+        "docs/experiments/resource-retained-population/d5ah-extractor-continuity.md",
+        "docs/experiments/resource-retained-population/d5ah-extractor-owner.md",
+        "docs/experiments/resource-retained-population/d5ah-review.md"
+      ],
+      "edges": [
+        "S-E1-NATIVE",
+        "S-E1-PRIMARY",
+        "S-E1-SAVES"
+      ],
+      "guides": [
+        "docs/guides/inorganic-production.md"
+      ],
+      "references": [
+        "docs/reference/inorganic-production.md"
+      ],
+      "b1_b4_correspondence": [
+        "Inorganic production and nominal rates"
+      ]
+    },
+    {
+      "id": "B4-C05",
+      "historical": [
+        "B4-C05"
+      ],
+      "topics": [
+        "organic-production"
+      ],
+      "proposition": "Ordinary greenhouse and husbandry candidates are planet-scoped domesticable resources. Known status, selected recipe and usable inputs govern different stages.",
+      "basis": "Native/static, definition-derived and sampled saved corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; installed UI source pins per E2; H? Save52/HIST-0267 (B4-F040); header reports 1.16.244.0; historical executable hash and effective configuration are unknown",
+      "confidence": "PROVEN scoped definition, byte equality and saved replay; proposed STRONG / STATIC native interpretation, independently accepted bounded reference",
+      "coverage": "Six defined facilities and six Save52 greenhouse paths; conditional incoming ingredient cap, scheduling and output attempts",
+      "limits": "Plant/animal choices are not a wild biome census. Saved husbandry, live knowledge/cache and accepted output were not established.",
+      "status": "READY — QUALIFIED",
+      "wording": "The installed ordinary facilities select a domesticable planetary recipe and use eligible incoming resources. Saved greenhouse examples corroborate this model; output remains unmeasured.",
+      "sources": [
+        "docs/experiments/organic-facilities/report.md",
+        "docs/experiments/organic-facilities/native.md",
+        "docs/experiments/organic-facilities/facilities.csv",
+        "docs/experiments/organic-facilities/sources.csv",
+        "docs/experiments/organic-facilities/review.md"
+      ],
+      "edges": [
+        "S-E2-NATIVE",
+        "S-E2-PRIMARY",
+        "S-E2-SAVE52"
+      ],
+      "guides": [
+        "docs/guides/organic-production.md"
+      ],
+      "references": [
+        "docs/reference/organic-production.md"
+      ],
+      "b1_b4_correspondence": [
+        "Organic production"
+      ]
+    },
+    {
+      "id": "B4-C06",
+      "historical": [
+        "B4-C06"
+      ],
+      "topics": [
+        "fabrication"
+      ],
+      "proposition": "The E3 installed-main definition set exposes 45 qualified bases and 30 ordinary recipes and a separate native producer/recipe path.",
+      "basis": "STATIC and derived definition calculation",
+      "pins": "N244 per B3 baseline manifest main ESM plus E3 source pins; historical SAVE corroboration has H? original executable and winning overrides remain claim-specific",
+      "confidence": "PROVEN scoped definition/table checks; proposed STRONG scoped STATIC interpretation.",
+      "coverage": "Installed main definitions and named ordinary branches; explicit exceptional definitions separate.",
+      "limits": "No winning override merge, actual inputs/power/actors or realized throughput.",
+      "status": "READY — QUALIFIED",
+      "wording": "Cite the main-file definition census and the conditional native contract.",
+      "sources": [
+        "docs/guides/fabrication.md",
+        "docs/reference/fabrication.md",
+        "docs/experiments/fabricators/report.md",
+        "docs/experiments/fabricators/review.md",
+        "docs/experiments/fabricators/sources.csv",
+        "docs/experiments/fabricators/definitions.md",
+        "docs/experiments/fabricators/native.md",
+        "docs/experiments/fabricators/saves.md",
+        "docs/experiments/fabricators/recipes.csv",
+        "docs/experiments/fabricators/facilities.csv"
+      ],
+      "edges": [
+        "P-FAB-STATIC"
+      ],
+      "guides": [
+        "docs/guides/fabrication.md"
+      ],
+      "references": [
+        "docs/reference/fabrication.md"
+      ],
+      "b1_b4_correspondence": [
+        "Manufactured production"
+      ]
+    },
+    {
+      "id": "C06-0036",
+      "historical": [
+        "B4-C06"
+      ],
+      "topics": [
+        "fabrication"
+      ],
+      "proposition": "HIST-0036 supplies the representative detailed fabrication joins, including 17 fabricators and 14 resource groups.",
+      "basis": "SAVE reconstruction",
+      "pins": "HIST-0036 B4-F064; N244 per B3 baseline manifest E3 definition context; H? original executable and winning overrides remain claim-specific",
+      "confidence": "PROVEN scoped sampled-byte and table checks; qualified SAVE associations.",
+      "coverage": "One exact representative; Save52 is a different witness.",
+      "limits": "Does not repeat the full 105-save/1,190-row census.",
+      "status": "ACTION REQUIRED",
+      "wording": "Use exact CORE B4-F064 and E3 selectors for original witness reanalysis.",
+      "sources": [
+        "docs/guides/fabrication.md",
+        "docs/reference/fabrication.md",
+        "docs/experiments/fabricators/report.md",
+        "docs/experiments/fabricators/review.md",
+        "docs/experiments/fabricators/sources.csv",
+        "docs/experiments/fabricators/definitions.md",
+        "docs/experiments/fabricators/native.md",
+        "docs/experiments/fabricators/saves.md",
+        "docs/experiments/fabricators/recipes.csv",
+        "docs/experiments/fabricators/facilities.csv"
+      ],
+      "edges": [
+        "P-FAB-0036"
+      ],
+      "decision": "Preflight then verify the hosted CORE member and repeat representative BF/base/producer joins.",
+      "guides": [
+        "docs/guides/fabrication.md"
+      ],
+      "references": [
+        "docs/reference/fabrication.md"
+      ],
+      "b1_b4_correspondence": [
+        "Manufactured production"
+      ]
+    },
+    {
+      "id": "C06-CENSUS",
+      "historical": [
+        "B4-C06"
+      ],
+      "topics": [
+        "fabrication"
+      ],
+      "proposition": "The E3 report records 105 positive saves and 1,190 historical rows.",
+      "basis": "Historical SAVE census",
+      "pins": "E3 sources and qualification cohorts; H? original executable and winning overrides remain claim-specific",
+      "confidence": "Historical sampled census, with its original review scope preserved.",
+      "coverage": "Original corpus-wide measured coverage, rather than a representative witness. The E3 census had 278 frozen inventory rows, 184 positive-beacon candidates, 122 parsed, 41 parser gaps and 21 unavailable sources. The 1,190 rows are observations, which may repeat machines across saves.",
+      "limits": "Candidate CORE lacks the original corpus. The named detailed 17-fabricator witness remains conditionally available separately.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Keep the 105/1,190 totals explicitly attributed and describe the available representative original.",
+      "sources": [
+        "docs/guides/fabrication.md",
+        "docs/reference/fabrication.md",
+        "docs/experiments/fabricators/report.md",
+        "docs/experiments/fabricators/review.md",
+        "docs/experiments/fabricators/sources.csv",
+        "docs/experiments/fabricators/definitions.md",
+        "docs/experiments/fabricators/native.md",
+        "docs/experiments/fabricators/saves.md",
+        "docs/experiments/fabricators/recipes.csv",
+        "docs/experiments/fabricators/facilities.csv"
+      ],
+      "edges": [
+        "P-FAB-CENSUS"
+      ],
+      "decision": "Agree report-attributed totals and the selected representative tier, or separately approve a minimal original-corpus route with independently inspectable row provenance and framing.",
+      "guides": [
+        "docs/guides/fabrication.md"
+      ],
+      "references": [
+        "docs/reference/fabrication.md"
+      ],
+      "b1_b4_correspondence": [
+        "Manufactured production"
+      ]
+    },
+    {
+      "id": "B4-C07",
+      "historical": [
+        "B4-C07"
+      ],
+      "topics": [
+        "power"
+      ],
+      "proposition": "Ordinary allocation sums eligible supply and accumulates consumer demand in typed traversal order. Saved powered bits restore, and qualified load paths can subsequently allocate.",
+      "basis": "Native/static and definition-derived interpretation; representative saved observations remain distinct",
+      "pins": "N244 pinned retail EXE and main ESM; six original power sample pins in P1 ledger; H? unless individually established",
+      "confidence": "PROVEN scoped bytes and definitions; proposed STRONG / STATIC ordinary native map, reviewed follow-up",
+      "coverage": "17 generator variants; ordered CB/Extra9C, explicit/simple link partition and one-He-3 generator fuel path",
+      "limits": "Earlier FIFO-like account was corrected. Rejected demand still counts. No weather/time operand on the mapped ordinary path, no guaranteed final global refresh, universal convergence or safe writer.",
+      "status": "READY — QUALIFIED",
+      "wording": "A qualified ordinary allocation can select from the current resolved electrical graph after flags restore. This source-level claim does not require replaying the three reported Save29 loads.",
+      "sources": [
+        "docs/experiments/power/report.md",
+        "docs/experiments/power/definitions.md",
+        "docs/experiments/power/fuel.md",
+        "docs/experiments/power/native.md",
+        "docs/experiments/power/followup.md",
+        "docs/experiments/power/load-determinism.md",
+        "docs/experiments/power/sources.csv",
+        "docs/experiments/power/review.md"
+      ],
+      "edges": [
+        "S-P1-NATIVE",
+        "S-P1-PRIMARY",
+        "S-P1-SAVES"
+      ],
+      "guides": [
+        "docs/guides/power.md"
+      ],
+      "references": [
+        "docs/reference/power.md"
+      ],
+      "b1_b4_correspondence": [
+        "Power and generator fuel"
+      ]
+    },
+    {
+      "id": "B4-C07-SAVE29-THREE-LOADS",
+      "historical": [
+        "B4-C07",
+        "B4-C21"
+      ],
+      "topics": [
+        "power"
+      ],
+      "proposition": "The maintainer reported the same powered/unpowered pair on three fresh-process Save29 loads.",
+      "basis": "User-reported historical event; separate saved-state and native comparison",
+      "pins": "Save29 B4-F054; actual loaded historical module/profile, trial timestamps and native event epochs unrecorded",
+      "confidence": "Historical controlled PASS as reported; no new RUNTIME confidence or independently reproduced trial",
+      "coverage": "Same selected save and two identified extractors, immediately and several seconds later; later XYZ transcription ties identities at displayed precision",
+      "limits": "Two images show setup/appearance, not all three loads. Restoration and recomputation fit the observation; native effective inputs and writes were unrecorded.",
+      "status": "HISTORICAL ONLY",
+      "wording": "Cite the documented maintainer report as historical context. It establishes neither a reproduced three-load event nor universal repeatability.",
+      "sources": [
+        "docs/experiments/power/save29-test-plan.md",
+        "docs/experiments/power/load-determinism.md",
+        "docs/experiments/power/save29-authority.md",
+        "docs/experiments/power/save29-authority-review.md"
+      ],
+      "edges": [
+        "S-P1-THREE-LOADS",
+        "S-P1-LOAD-SAVE"
+      ],
+      "decision": "Preserve the report and keep the event out of the independent-witness claim. Only reconsider if exact attributable historical observations for all three trials can be recovered, cleared and tied to the same baseline; a new experiment would answer a new question.",
+      "guides": [
+        "docs/guides/power.md"
+      ],
+      "references": [
+        "docs/reference/power.md"
+      ],
+      "b1_b4_correspondence": [
+        "Power and generator fuel",
+        "Power"
+      ]
+    },
+    {
+      "id": "B4-C08",
+      "historical": [
+        "B4-C08"
+      ],
+      "topics": [
+        "storage-and-output-links"
+      ],
+      "proposition": "Ordinary dedicated stores enforce effective category and weight gates. Item stacks and directed transfer relations occupy distinct channels.",
+      "basis": "Native/static, definition-derived and sampled saved corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; H? Save52/HIST-0267 (B4-F040); header reports 1.16.244.0; historical executable hash and effective configuration are unknown; H? HIST-0036 (B4-F064) and S/L-series source-specific",
+      "confidence": "Proposed STRONG / STATIC and scoped SAVE in S1; exact definition checks independently reviewed",
+      "coverage": "Dedicated Solid/Liquid/Gas/Warehouse 75/150/300, Transfer Container base 200 and ordinary cargo compartment base 300 under the stated definitions",
+      "limits": "Definitions do not determine effective capacity. A decorative chest can fail linking despite inventory capability; unsupported stack extras cannot establish emptiness. Recipe sources are not a second stock on the consumer.",
+      "status": "READY — QUALIFIED",
+      "wording": "Ordinary storage admission uses effective filters and weight. Link and stock ownership are separate, and base values must be qualified by class.",
+      "sources": [
+        "docs/experiments/storage/report.md",
+        "docs/experiments/storage/native.md",
+        "docs/experiments/storage/saves.md",
+        "docs/experiments/storage/capacity-examples.csv",
+        "docs/experiments/storage/sources.csv",
+        "docs/experiments/storage/review.md",
+        "docs/experiments/storage/capacity-review.md"
+      ],
+      "edges": [
+        "S-S1-NATIVE",
+        "S-S1-PRIMARY",
+        "S-S1-CORE"
+      ],
+      "guides": [
+        "docs/guides/storage-and-output-links.md"
+      ],
+      "references": [
+        "docs/reference/storage-and-output-links.md"
+      ],
+      "b1_b4_correspondence": [
+        "Storage and local output links"
+      ]
+    },
+    {
+      "id": "B4-C22",
+      "historical": [
+        "B4-C08",
+        "B4-C22"
+      ],
+      "topics": [
+        "storage-and-output-links"
+      ],
+      "proposition": "Existing stock can bypass intermediate stores and split across compatible destinations, whereas production attempts one whole batch in one receiver before its buffer fallback.",
+      "basis": "Native/static and derived examples, sampled saved corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; H? HIST-0036/B4-F064 and historical H77/H83 per S2",
+      "confidence": "Proposed STRONG / STATIC, scoped SAVE corroboration; S2 accepted bounded original review per D5BB",
+      "coverage": "Mapped graph/inventory paths can operate for registered, resolvable actors without a proximity or loaded-3D test",
+      "limits": "Mixed-item planned reservations can still lose at mutation. Missing reference/registration, eligibility, capacity and event order defeat universal remote catch-up.",
+      "status": "READY — QUALIFIED",
+      "wording": "The mapped ordinary static path can operate at a distance when its references and producer conditions are satisfied. This does not imply historical residency, delivery or stock throughput.",
+      "sources": [
+        "docs/experiments/local-output-links/report.md",
+        "docs/experiments/local-output-links/native.md",
+        "docs/experiments/local-output-links/lifecycle.md",
+        "docs/experiments/local-output-links/saves.md",
+        "docs/experiments/local-output-links/traces.md",
+        "docs/experiments/local-output-links/sources.csv",
+        "docs/experiments/local-output-links/review.md"
+      ],
+      "edges": [
+        "S-S2-NATIVE",
+        "S-S2-PRIMARY",
+        "S-S2-H36",
+        "S-S2-H77-H83"
+      ],
+      "guides": [
+        "docs/guides/storage-and-output-links.md"
+      ],
+      "references": [
+        "docs/reference/storage-and-output-links.md"
+      ],
+      "b1_b4_correspondence": [
+        "Storage and local output links",
+        "Local movement"
+      ]
+    },
+    {
+      "id": "B4-C22-L-SERIES-ORIGINAL",
+      "historical": [
+        "B4-C08",
+        "B4-C22"
+      ],
+      "topics": [
+        "storage-and-output-links"
+      ],
+      "proposition": "The controlled L-series records a 19→12→19 payload association across unlink/relink and its same-session no-action controls.",
+      "basis": "Saved-state reconstruction with scoped relationship interpretation",
+      "pins": "H? S4C=L0 (B4-F032); L0C/L1/L1C/L2/L2C B4-F055–F059",
+      "confidence": "PROVEN / SAVE scoped bytes; semantic association proposed STRONG pending its original review disposition",
+      "coverage": "Selected endpoint windows; anchored repeated controls",
+      "limits": "L0→L0C is cross-session churn and fails literal preservation; no universal direction, full grammar or reload authority.",
+      "status": "ACTION REQUIRED",
+      "wording": "The tracked report preserves the controlled payload association. Independent byte inspection requires both the CORE anchor and the optional ADDENDUM.",
+      "sources": [
+        "docs/experiments/output-link-validation-L0-L2C.md",
+        "docs/experiments/local-output-links/report.md",
+        "docs/experiments/local-output-links/native.md",
+        "docs/experiments/local-output-links/lifecycle.md",
+        "docs/experiments/local-output-links/saves.md",
+        "docs/experiments/local-output-links/traces.md",
+        "docs/experiments/local-output-links/sources.csv",
+        "docs/experiments/local-output-links/review.md"
+      ],
+      "edges": [
+        "S-S2-L0",
+        "S-S2-L-CONTROLS"
+      ],
+      "decision": "Preflight the named six originals and exact selected windows using qualified offline read-only decoding. Otherwise keep the report with an inspection-only evidence claim.",
+      "guides": [
+        "docs/guides/storage-and-output-links.md"
+      ],
+      "references": [
+        "docs/reference/storage-and-output-links.md"
+      ],
+      "b1_b4_correspondence": [
+        "Storage and local output links",
+        "Local movement"
+      ]
+    },
+    {
+      "id": "B4-C09",
+      "historical": [
+        "B4-C09",
+        "B4-C23"
+      ],
+      "topics": [
+        "cargo"
+      ],
+      "proposition": "Ordinary freight alternates endpoints through a shared hold. Dock deadlines, VM dispatch and native travel completion have distinct scheduling roles.",
+      "basis": "Native/static and installed PEX interpretation plus conditional calculations; sampled save corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; separately pinned shipped PEX/VMAD; H? Save52/HIST-0267 (B4-F040); header reports 1.16.244.0; historical executable hash and effective configuration are unknown",
+      "confidence": "STRONG / STATIC ordinary explanation; transit continuation independently accepted; scoped saved checks remain separate",
+      "coverage": "Qualified ordinary and inter-system scripts; stock can return to origin incoming, and timer waits are separate from movement completion and one-shot rearming",
+      "limits": "Opposite outgoing stock can mimic returned freight. A target field is not physical transit. Wait/sleep suppresses dispatch on the mapped path and does not enumerate missed voyages. Conditional ideal timing has no universal runtime guarantee.",
+      "status": "READY — QUALIFIED",
+      "wording": "The mapped link can move freight when references, script dispatch and AI/path completion permit. Quote timing examples only with their stated operands and branches.",
+      "sources": [
+        "docs/experiments/cargo-links/transport/report.md",
+        "docs/experiments/cargo-links/transport/review.md",
+        "docs/experiments/cargo-links/transport/cycle.md",
+        "docs/experiments/cargo-links/transport/inventory.md",
+        "docs/experiments/cargo-links/transport/timing.md",
+        "docs/experiments/cargo-links/transport/lifecycle.md",
+        "docs/experiments/cargo-links/transport/transit.md",
+        "docs/experiments/cargo-links/transport/transit-review.md",
+        "docs/experiments/cargo-links/transport/transit-sources.csv",
+        "docs/experiments/cargo-links/configuration-ui/report.md",
+        "docs/experiments/cargo-links/configuration-ui/review.md",
+        "docs/experiments/cargo-links/configuration-ui/sources.csv"
+      ],
+      "edges": [
+        "S-C2-NATIVE",
+        "S-C2-PRIMARY"
+      ],
+      "guides": [
+        "docs/guides/cargo.md"
+      ],
+      "references": [
+        "docs/reference/cargo.md"
+      ],
+      "b1_b4_correspondence": [
+        "Cargo configuration, freight and inter-system fuel",
+        "Cargo"
+      ]
+    },
+    {
+      "id": "B4-C23",
+      "historical": [
+        "B4-C09",
+        "B4-C23"
+      ],
+      "topics": [
+        "cargo"
+      ],
+      "proposition": "Ordinary inter-system pad fuel uses five He-3 per accepted producer cycle at a base interval of 108 engine scheduler seconds. Either eligible non-mission endpoint can permit the next stage.",
+      "basis": "Native/static, PEX and conditional arithmetic with named saved corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; five shipped PEX/source member pins in C3; H? Save52/HIST-0267 (B4-F040); header reports 1.16.244.0; historical executable hash and effective configuration are unknown",
+      "confidence": "STRONG / STATIC with scoped SAVE corroboration; historical C3 final ACCEPT authenticated against the archived review and exact package seal",
+      "coverage": "Ordinary inter-system recipe/source graph and four selected Save52 endpoints over two stocked links",
+      "limits": "Charged mode-0 can bypass the five-unit check; mode-1 producer work rechecks. A failed poll is not a debit. Fuel cycles do not supply a voyage clock, transfer rate or loaded travel guarantee.",
+      "status": "READY — QUALIFIED",
+      "wording": "Use five per accepted fuel cycle, never per voyage. The ordinary stage can proceed if either eligible endpoint passes current readiness.",
+      "sources": [
+        "docs/experiments/cargo-links/fuel/report.md",
+        "docs/experiments/cargo-links/fuel/review.md",
+        "docs/experiments/cargo-links/fuel/native.md",
+        "docs/experiments/cargo-links/fuel/stages.md",
+        "docs/experiments/cargo-links/fuel/sources.csv",
+        "docs/experiments/cargo-links/fuel/saves.md",
+        "docs/experiments/cargo-links/fuel/time.md",
+        "docs/experiments/cargo-evidence-cutover/active-baseline.json"
+      ],
+      "edges": [
+        "S-C3-NATIVE",
+        "S-C3-PRIMARY",
+        "S-C3-ACCEPT-RECEIPT"
+      ],
+      "guides": [
+        "docs/guides/cargo.md"
+      ],
+      "references": [
+        "docs/reference/cargo.md"
+      ],
+      "b1_b4_correspondence": [
+        "Cargo configuration, freight and inter-system fuel",
+        "Cargo"
+      ]
+    },
+    {
+      "id": "B4-C23-PRIVATE-COMPARATORS",
+      "historical": [
+        "B4-C09",
+        "B4-C23"
+      ],
+      "topics": [
+        "cargo"
+      ],
+      "proposition": "The original mature network comparison and historical VM context inform the research history but do not establish an independently inspectable exact freight epoch.",
+      "basis": "Historical comparison and scoped absence of a qualified event reconstruction",
+      "pins": "H? Save52 plus private manual network and historical VM provenance; originating session and timer identity unresolved",
+      "confidence": "Preserve prior saved topology comparison confidence; specific VM/timer instance and voyage unqualified",
+      "coverage": "Reported manual-network topology agreement and historical VM metadata remain distinct from the qualified saved endpoint parser",
+      "limits": "No confirmed precise flight time, runtime throughput or loaded transit guarantee. A saved link, conditional budget or table does not substitute for a matching historical event.",
+      "status": "HISTORICAL ONLY",
+      "wording": "Keep the original reports discoverable. Cite Save52 for saved topology, and native/PEX for the conditional scheduler, without claiming the private historical comparator can be independently inspected.",
+      "sources": [
+        "docs/experiments/mature-save-outpost-validation.md",
+        "docs/experiments/cargo-links/transport/saves.md",
+        "docs/experiments/cargo-links/transport/timing.md",
+        "docs/experiments/cargo-links/transport/transit.md",
+        "docs/experiments/cargo-links/transport/transit-review.md"
+      ],
+      "edges": [
+        "S-C23-VM-NETWORK"
+      ],
+      "decision": "Keep original comparisons as historical context. If exact comparator agreement is selected, recover and clear the precise independently produced network table and test its joins. Any measured timing question requires a separately authorized experiment.",
+      "guides": [
+        "docs/guides/cargo.md"
+      ],
+      "references": [
+        "docs/reference/cargo.md"
+      ],
+      "b1_b4_correspondence": [
+        "Cargo configuration, freight and inter-system fuel",
+        "Cargo"
+      ]
+    },
+    {
+      "id": "B4-C23-SAVE52-ORIGINAL",
+      "historical": [
+        "B4-C09",
+        "B4-C23"
+      ],
+      "topics": [
+        "cargo"
+      ],
+      "proposition": "Selected Save52 cargo relations identify reciprocal endpoint/child roles, a shared hold, decoded stock and qualified fuel-source paths.",
+      "basis": "Saved-state reconstruction",
+      "pins": "H? Save52/HIST-0267 (B4-F040); header reports 1.16.244.0; historical executable hash and effective configuration are unknown; exact source SHA-256 6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8",
+      "confidence": "Scoped SAVE positive observations and exact byte checks; native meaning remains separately qualified",
+      "coverage": "Four C2 named ship examples, principal empty hold/bays, other stocked examples and C3 four endpoint source/producer joins",
+      "limits": "Five of 24 selected ship inventories are unknown, not empty. Saved target/stock does not identify a past voyage, loaded state, dispatch time or VM instance.",
+      "status": "ACTION REQUIRED",
+      "wording": "Describe the named decoded relations and inventories as saved observations. Exact primary-witness reproduction requires the Save52 CORE member and a qualified reader.",
+      "sources": [
+        "docs/experiments/cargo-links/transport/saves.md",
+        "docs/experiments/cargo-links/transport/review.md",
+        "docs/experiments/cargo-links/transport/sources.csv",
+        "docs/experiments/cargo-links/configuration-ui/save52.md",
+        "docs/experiments/cargo-links/configuration-ui/review.md",
+        "docs/experiments/cargo-links/fuel/saves.md",
+        "docs/experiments/cargo-links/fuel/review.md"
+      ],
+      "edges": [
+        "S-C23-SAVE52"
+      ],
+      "decision": "Preflight the exact member and independently reproduce the selected pair, hold, explicit unknown inventory cases and four fuel-source joins from declared read-only scratch. Do not require a historical VM trace for these saved relationships.",
+      "guides": [
+        "docs/guides/cargo.md"
+      ],
+      "references": [
+        "docs/reference/cargo.md"
+      ],
+      "b1_b4_correspondence": [
+        "Cargo configuration, freight and inter-system fuel",
+        "Cargo"
+      ]
+    },
+    {
+      "id": "B4-C10",
+      "historical": [
+        "B4-C10",
+        "B4-C24"
+      ],
+      "topics": [
+        "crew-and-robots"
+      ],
+      "proposition": "Ordinary crew assignment and capacity are distinct from eligibility and realized contribution. Consumers use currently passing entries in active per-actor storage.",
+      "basis": "Native/static with sampled saved assignment and selected template corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; H? Save52/HIST-0267, HIST-0255 and CR3 selected buffer-153 actor cases",
+      "confidence": "STRONG scoped ordinary conditional CR3 mechanism with positive sampled SAVE reconstruction; reviewed exact subset",
+      "coverage": "Named actor and selected generic-template assignments; ordinary ExtraE2 membership and actor relation/active-entry reconstruction",
+      "limits": "Unsupported actor tails, default rank conflicts, actual remote retention/health and effective output remain qualified. Crew slot cost, physical capacity and roster length are different.",
+      "status": "READY — QUALIFIED",
+      "wording": "A saved assignment is an input to reconstruction. Only a resolved, eligible actor with a matching active entry can affect the particular consumer.",
+      "sources": [
+        "docs/experiments/crew-lifecycle/report.md",
+        "docs/experiments/crew-lifecycle/native.md",
+        "docs/experiments/crew-lifecycle/persistence.md",
+        "docs/experiments/crew-lifecycle/witnesses.csv",
+        "docs/experiments/crew-lifecycle/sources.csv",
+        "docs/experiments/crew-lifecycle/review.md",
+        "docs/experiments/crew/report.md",
+        "docs/experiments/crew/capacity.md",
+        "docs/experiments/crew/review.md",
+        "docs/experiments/crew/current-review.md"
+      ],
+      "edges": [
+        "S-CR3-NATIVE",
+        "S-CR3-PRIMARY",
+        "S-CR3-CORE"
+      ],
+      "guides": [
+        "docs/guides/crew-and-robots.md"
+      ],
+      "references": [
+        "docs/reference/crew-and-robots.md"
+      ],
+      "b1_b4_correspondence": [
+        "Crew, skills and robots",
+        "Crew/robots"
+      ]
+    },
+    {
+      "id": "B4-C24",
+      "historical": [
+        "B4-C10",
+        "B4-C24"
+      ],
+      "topics": [
+        "crew-and-robots"
+      ],
+      "proposition": "The ordinary mapped crew consumers select effects by the actor and consumer. Constructed robots use a separate construction count and can contribute to timing or power through eligible entries.",
+      "basis": "Native/static and definition-derived arithmetic with sampled saved corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; H? HIST-0255 (B4-F051), HIST-0024 (B4-F048) and R1 independently selected actors",
+      "confidence": "Proposed STRONG scoped CR2/R1 STATIC with sampled SAVE; independently accepted bounded studies",
+      "coverage": "Eight directly constructed robot bases, five potential process-perk sources, threshold 3 ordinarily rising to 6 under configured Management; distinct A1 timing, DB power and ship Payloads",
+      "limits": "Saved/default rank, roster and active process entries differ. Robot death can remove a contribution without releasing construction count. No universal remote participation or actual output.",
+      "status": "READY — QUALIFIED",
+      "wording": "Use the particular consumer and configured actor eligibility when citing effects. Robot construction quota and human crew slots are separate.",
+      "sources": [
+        "docs/experiments/crew-skills/report.md",
+        "docs/experiments/crew-skills/review.md",
+        "docs/experiments/crew-skills/sources.csv",
+        "docs/experiments/crew-skills/stacking.md",
+        "docs/experiments/robots/report.md",
+        "docs/experiments/robots/limits.md",
+        "docs/experiments/robots/effects.md",
+        "docs/experiments/robots/persistence.md",
+        "docs/experiments/robots/catalogue.csv",
+        "docs/experiments/robots/sources.csv",
+        "docs/experiments/robots/review.md"
+      ],
+      "edges": [
+        "S-CR2-R1-NATIVE",
+        "S-CR2-R1-PRIMARY",
+        "S-CR2-VASCO"
+      ],
+      "guides": [
+        "docs/guides/crew-and-robots.md"
+      ],
+      "references": [
+        "docs/reference/crew-and-robots.md"
+      ],
+      "b1_b4_correspondence": [
+        "Crew, skills and robots",
+        "Crew/robots"
+      ]
+    },
+    {
+      "id": "B4-C11",
+      "historical": [
+        "B4-C11"
+      ],
+      "topics": [
+        "construction"
+      ],
+      "proposition": "Installed construction discovery, quota and budget are distinct ordinary admission mechanisms.",
+      "basis": "STATIC with SAVE corroboration",
+      "pins": "N244 per B3 baseline manifest and installed source-specific definition pins; H? original executable and winning overrides remain claim-specific",
+      "confidence": "proposed STRONG scoped STATIC; sampled SAVE bytes and reported arithmetic retain their narrower confidence.",
+      "coverage": "Ordinary installed recipe catalog, outpost and category quotas, and scalar build-budget path.",
+      "limits": "Installed physical records do not establish a loaded menu or stress limit; effective overrides remain scoped.",
+      "status": "READY — QUALIFIED",
+      "wording": "Specify the actual quota, state and owner domain before quoting a construction cap.",
+      "sources": [
+        "docs/guides/construction.md",
+        "docs/reference/construction.md",
+        "docs/experiments/build-catalogue/report.md",
+        "docs/experiments/build-catalogue/review.md",
+        "docs/experiments/build-catalogue/sources.csv",
+        "docs/experiments/build-catalogue/definitions.csv",
+        "docs/experiments/build-catalogue/categories.csv",
+        "docs/experiments/limits/report.md",
+        "docs/experiments/limits/review.md",
+        "docs/experiments/limits/sources.csv",
+        "docs/experiments/build-budget/report.md",
+        "docs/experiments/build-budget/review.md",
+        "docs/experiments/build-budget/sources.csv"
+      ],
+      "edges": [
+        "P-BUILD-ADMISSION"
+      ],
+      "guides": [
+        "docs/guides/construction.md"
+      ],
+      "references": [
+        "docs/reference/construction.md"
+      ],
+      "b1_b4_correspondence": [
+        "Construction limits, placement, variants and catalogue"
+      ]
+    },
+    {
+      "id": "C25-ORIGINALS",
+      "historical": [
+        "B4-C11",
+        "B4-C25"
+      ],
+      "topics": [
+        "construction"
+      ],
+      "proposition": "Selected saves support exact accepted-root and bulldozed-reference comparisons; placement photographs support qualitative context.",
+      "basis": "SAVE reconstruction and distinct direct image observation",
+      "pins": "B4-F011–F016; CORE controls; H? original executable and winning overrides remain claim-specific; exact F1 member hashes",
+      "confidence": "PROVEN scoped positive saved checks; screenshot-path association PROVISIONAL.",
+      "coverage": "Six saved L3 placement/bulldozing controls plus supplementary images/CORE construction controls.",
+      "limits": "The optional ADDENDUM is required for the six named originals; no save/photo event identity follows.",
+      "status": "ACTION REQUIRED",
+      "wording": "Identify the optional download for the named original-byte comparison.",
+      "sources": [
+        "docs/guides/construction.md",
+        "docs/reference/construction.md",
+        "docs/experiments/spatial-placement/report.md",
+        "docs/experiments/spatial-placement/review.md",
+        "docs/experiments/spatial-placement/sources.csv",
+        "docs/experiments/spatial-placement/screenshots.csv",
+        "docs/experiments/spatial-placement/samples.csv",
+        "docs/experiments/spatial-placement/roots.csv",
+        "docs/experiments/construction-variants/report.md",
+        "docs/experiments/construction-variants/review.md",
+        "docs/experiments/construction-variants/sources.csv",
+        "docs/experiments/construction-variants/saved-replacements.csv",
+        "docs/experiments/construction-variants/mechanisms.md"
+      ],
+      "edges": [
+        "P-BUILD-SAVES"
+      ],
+      "decision": "Preflight the exact members and method, then verify hosted ADDENDUM. Retain images as separately attributed visual context.",
+      "guides": [
+        "docs/guides/construction.md"
+      ],
+      "references": [
+        "docs/reference/construction.md"
+      ],
+      "b1_b4_correspondence": [
+        "Construction limits, placement, variants and catalogue",
+        "Construction"
+      ]
+    },
+    {
+      "id": "B4-C12",
+      "historical": [
+        "B4-C12"
+      ],
+      "topics": [
+        "defense"
+      ],
+      "proposition": "The ordinary attack check is a gated one-shot opportunity, while device Integrity uses current/permanent Health and separate repair logic.",
+      "basis": "Native/static, shipped PEX and scoped saved corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; installed beacon/quest script/member pins; H? HIST-0255 (B4-F051)",
+      "confidence": "Proposed STRONG scoped STATIC; PROVEN scoped byte/identity checks and selected damaged device SAVE observations",
+      "coverage": "Ordinary eligibility and rearm, separate Armillary path, five positively damaged owned devices and same-base control",
+      "limits": "No periodic attack interval, attacker identity or encounter frequency follows. Unloaded destruction has separate surviving-attacker conditions; repair rendering and travel callback order unmeasured.",
+      "status": "READY — QUALIFIED",
+      "wording": "The one-shot timer gives a chance to check eligibility, while a saved Health override corroborates damage without identifying its cause.",
+      "sources": [
+        "docs/experiments/outpost-defense/report.md",
+        "docs/experiments/outpost-defense/attacks.md",
+        "docs/experiments/outpost-defense/defenses.md",
+        "docs/experiments/outpost-defense/integrity.md",
+        "docs/experiments/outpost-defense/persistence.md",
+        "docs/experiments/outpost-defense/scripts.csv",
+        "docs/experiments/outpost-defense/sources.csv",
+        "docs/experiments/outpost-defense/review.md"
+      ],
+      "edges": [
+        "S-DA1-NATIVE",
+        "S-DA1-PRIMARY",
+        "S-DA1-H255"
+      ],
+      "guides": [
+        "docs/guides/defense.md"
+      ],
+      "references": [
+        "docs/reference/defense.md"
+      ],
+      "b1_b4_correspondence": [
+        "Attacks, defenses and Integrity"
+      ]
+    },
+    {
+      "id": "B4-C13",
+      "historical": [
+        "B4-C13"
+      ],
+      "topics": [
+        "containers-and-displays"
+      ],
+      "proposition": "Ordinary chests retain stacks in fixture inventory. Native displays also retain separate item-reference slot lists. Mannequins use actor inventory and equipment.",
+      "basis": "Native/static and definition-derived with scoped saved corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; installed PEX members; H? Save52/HIST-0267 (B4-F040); header reports 1.16.244.0; historical executable hash and effective configuration are unknown; H? H36/H255/H21 and H256/H257",
+      "confidence": "Proposed STRONG / STATIC ordinary model with scoped sampled SAVE corroboration; SD1 review02 ACCEPT",
+      "coverage": "Qualified fixture classes and native display rules; ordinary stacks, equipped actors and separate displayed reference ownership",
+      "limits": "A fixture's zero inventory does not establish an empty display. World comparators do not prove player construction. Missing component receipts and unsupported actor tails limit full historical replay.",
+      "status": "READY — QUALIFIED",
+      "wording": "Distinguish ordinary chest stock, display rule/slot references and actor equipment. Save joins do not measure rendered restoration or inventory conservation.",
+      "sources": [
+        "docs/experiments/containers-displays/report.md",
+        "docs/experiments/containers-displays/native.md",
+        "docs/experiments/containers-displays/saves.md",
+        "docs/experiments/containers-displays/definitions.csv",
+        "docs/experiments/containers-displays/sources.csv",
+        "docs/experiments/containers-displays/review.md"
+      ],
+      "edges": [
+        "S-SD1-NATIVE",
+        "S-SD1-PRIMARY",
+        "S-SD1-CORE"
+      ],
+      "guides": [
+        "docs/guides/containers-and-displays.md"
+      ],
+      "references": [
+        "docs/reference/containers-and-displays.md"
+      ],
+      "b1_b4_correspondence": [
+        "Chests, displays and mannequins"
+      ]
+    },
+    {
+      "id": "B4-C13-H21-DISPLAY-ORIGINAL",
+      "historical": [
+        "B4-C13"
+      ],
+      "topics": [
+        "containers-and-displays"
+      ],
+      "proposition": "The HIST-0021 helmet fixture carries a zero inventory count and a positive separately serialized displayed item reference and backlink.",
+      "basis": "Saved-state reconstruction",
+      "pins": "H? HIST-0021 B4-F067; scoped to selected save grammar",
+      "confidence": "Positive scoped SAVE relation; original SD1 independent review retained",
+      "coverage": "Selected helmet fixture and item with independently parsed slot list and backlink",
+      "limits": "A static save cannot establish rendered reload. The broader original historical component and mannequin comparisons remain separate.",
+      "status": "ACTION REQUIRED",
+      "wording": "The report documents a positive helmet reference despite the fixture's zero stock. Original-byte verification requires the optional ADDENDUM.",
+      "sources": [
+        "docs/experiments/containers-displays/report.md",
+        "docs/experiments/containers-displays/native.md",
+        "docs/experiments/containers-displays/saves.md",
+        "docs/experiments/containers-displays/definitions.csv",
+        "docs/experiments/containers-displays/sources.csv",
+        "docs/experiments/containers-displays/review.md"
+      ],
+      "edges": [
+        "S-SD1-H21"
+      ],
+      "decision": "Verify the staged optional B4-F067, then repeat the slot list, zero count and backlink joins from exact selectors with the documented effects. If the missing component prerequisite prevents this isolated case, keep the report and drop the original-verification promise pending a focused reader qualification.",
+      "guides": [
+        "docs/guides/containers-and-displays.md"
+      ],
+      "references": [
+        "docs/reference/containers-and-displays.md"
+      ],
+      "b1_b4_correspondence": [
+        "Chests, displays and mannequins"
+      ]
+    },
+    {
+      "id": "B4-C14",
+      "historical": [
+        "B4-C14"
+      ],
+      "topics": [
+        "shared-storage"
+      ],
+      "proposition": "Ordinary Shared Outpost Storage fixtures expose one backing reference. Crafting consumers use a distinct conditional source vector.",
+      "basis": "STATIC with SAVE membership corroboration",
+      "pins": "N244 per B3 baseline manifest and SD2 pinned add-on/main definition context; H? original executable and winning overrides remain claim-specific",
+      "confidence": "STRONG scoped STATIC with positive SAVE membership.",
+      "coverage": "Named construction, interaction and count/spend predicates; three representative saved joins are a separate evidence route.",
+      "limits": "Fixture count does not establish contents, present ingredient eligibility, universal bench access or spending deltas.",
+      "status": "READY — QUALIFIED",
+      "wording": "Describe fixture access and source selection at the exact consumer predicates.",
+      "sources": [
+        "docs/guides/shared-storage.md",
+        "docs/reference/shared-storage.md",
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md"
+      ],
+      "edges": [
+        "P-SHARED-STATIC"
+      ],
+      "guides": [
+        "docs/guides/shared-storage.md"
+      ],
+      "references": [
+        "docs/reference/shared-storage.md"
+      ],
+      "b1_b4_correspondence": [
+        "Shared Outpost Storage and crafting sources"
+      ]
+    },
+    {
+      "id": "C14-CENSUS",
+      "historical": [
+        "B4-C14"
+      ],
+      "topics": [
+        "shared-storage"
+      ],
+      "proposition": "Repeating SD2's raw historical census requires the full qualified original population.",
+      "basis": "Historical SAVE extraction and coverage boundary",
+      "pins": "SD2 original source cohort and qualified reader; H? original executable and winning overrides remain claim-specific",
+      "confidence": "Original accepted census unchanged; no claim of independently replayable original scope.",
+      "coverage": "124 positive saves and 1,499 inline-base records in the tracked table.",
+      "limits": "The three CORE witnesses and published arithmetic cannot independently verify every original extraction.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Keep the complete historical extraction as reported and distinguish it from table recalculation.",
+      "sources": [
+        "docs/guides/shared-storage.md",
+        "docs/reference/shared-storage.md",
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md"
+      ],
+      "edges": [
+        "P-SHARED-CENSUS"
+      ],
+      "decision": "Agree derivative/representative original tier, or separately authorize an exact small provenance or corpus route if raw-census reanalysis is material.",
+      "guides": [
+        "docs/guides/shared-storage.md"
+      ],
+      "references": [
+        "docs/reference/shared-storage.md"
+      ],
+      "b1_b4_correspondence": [
+        "Shared Outpost Storage and crafting sources"
+      ]
+    },
+    {
+      "id": "C14-FRESH-TRIO",
+      "historical": [
+        "B4-C14"
+      ],
+      "topics": [
+        "shared-storage"
+      ],
+      "proposition": "The original SD2 fresh owner-join series checked 1, 17 and 19 fixtures and their separately identified beacon owners in HIST-0018, HIST-0036 and HIST-0257.",
+      "basis": "SAVE reconstruction as documented in the original report and independent review.",
+      "pins": "The three SHA-256 values and exact selected record coordinates appear in SD2 saves.md. Historical EXE origins H?.",
+      "confidence": "Retain the original scoped SD2 SAVE evidence and review without a new classification.",
+      "coverage": "Three first-party original saves; the WorkshopItem owner edge and ordinary beacon base are separately verified in the original analysis.",
+      "limits": "D5BF CORE includes HIST-0036 alone from this trio. Separate census rows for HIST-0255 and HIST-0267 do not reproduce the other fresh joins.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Retain the original result as attributed history and select the CORE tier, or clear a narrow route for the other two fresh cases.",
+      "sources": [
+        "docs/guides/shared-storage.md",
+        "docs/reference/shared-storage.md",
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md"
+      ],
+      "edges": [
+        "P-SHARED-TRIO"
+      ],
+      "guides": [
+        "docs/guides/shared-storage.md"
+      ],
+      "references": [
+        "docs/reference/shared-storage.md"
+      ],
+      "b1_b4_correspondence": [
+        "Shared Outpost Storage and crafting sources"
+      ]
+    },
+    {
+      "id": "C14-ORIGINALS",
+      "historical": [
+        "B4-C14"
+      ],
+      "topics": [
+        "shared-storage"
+      ],
+      "proposition": "HIST-0036 supplies the selected fresh fixture-to-beacon join. Two other CORE saves supply positive inline-base census controls.",
+      "basis": "SAVE reconstruction",
+      "pins": "HIST-0036/0255/0267 with SD2 main and add-on pins and claim-specific H? historical origin.",
+      "confidence": "Accepted scoped SAVE membership corroboration.",
+      "coverage": "HIST-0036 has 17 fresh fixture-to-beacon joins. HIST-0255 and Save52/HIST-0267 have 16 and 17 census rows respectively.",
+      "limits": "HIST-0255 and Save52 are separate census controls. The other fresh owner-join originals are HIST-0018 and HIST-0257, outside the proposed assets.",
+      "status": "ACTION REQUIRED",
+      "wording": "Use CORE for the exact HIST-0036 joins and the two named separate census controls.",
+      "sources": [
+        "docs/guides/shared-storage.md",
+        "docs/reference/shared-storage.md",
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md"
+      ],
+      "edges": [
+        "P-SHARED-ORIGINALS",
+        "P-SHARED-CORE-CENSUS"
+      ],
+      "decision": "Preflight CORE B4-F064/F051/F040 with the qualified SD2 reader. Check the 17 HIST-0036 owner joins separately from the other census detections.",
+      "guides": [
+        "docs/guides/shared-storage.md"
+      ],
+      "references": [
+        "docs/reference/shared-storage.md"
+      ],
+      "b1_b4_correspondence": [
+        "Shared Outpost Storage and crafting sources"
+      ]
+    },
+    {
+      "id": "C14-TABLE",
+      "historical": [
+        "B4-C14"
+      ],
+      "topics": [
+        "shared-storage"
+      ],
+      "proposition": "The tracked SD2 per-save table sums to 124 positive saves and 1,499 inline-base records.",
+      "basis": "Derived calculation on historical SAVE derivative",
+      "pins": "Tracked SD2 corpus.csv; source creation H? original executable and winning overrides remain claim-specific",
+      "confidence": "Preserves accepted SD2 survey; totals are arithmetic on the published derivative.",
+      "coverage": "All rows in the published table, with original byte reanalysis separate.",
+      "limits": "Counts fixture-base records under qualification, with no quantities or complete inventory inference.",
+      "status": "READY",
+      "wording": "Cite these as the tracked table totals, with exact original source scope qualified.",
+      "sources": [
+        "docs/guides/shared-storage.md",
+        "docs/reference/shared-storage.md",
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md"
+      ],
+      "edges": [
+        "P-SHARED-TABLE"
+      ],
+      "guides": [
+        "docs/guides/shared-storage.md"
+      ],
+      "references": [
+        "docs/reference/shared-storage.md"
+      ],
+      "b1_b4_correspondence": [
+        "Shared Outpost Storage and crafting sources"
+      ]
+    },
+    {
+      "id": "B4-C15",
+      "historical": [
+        "B4-C15"
+      ],
+      "topics": [
+        "stored-resources"
+      ],
+      "proposition": "Locations Stored Resources groups eligible item instances by resource and counts stack units for selected Workshop inventories. Collection and repaint are distinct.",
+      "basis": "Native/static and compiled UI interpretation plus sampled saved arithmetic",
+      "pins": "N244 pinned retail EXE and main ESM; exact Interface.ba2/SWF/ABC and icon member pins; H? HIST-0036 B4-F064",
+      "confidence": "Proposed STRONG ordinary STATIC with scoped SAVE; independently accepted SD3 review02",
+      "coverage": "Eligible inventory collection, shared substitution/deduplication, selected four icon joins and 27 saved item rows at three HIST-0036 beacon joins",
+      "limits": "Counts are not mass or every accessible item. Exceptional stack realization, remote/re-entry timing, racing updates and screenshot/save epoch joins remain unmeasured.",
+      "status": "READY — QUALIFIED",
+      "wording": "This is a grouped resource-unit snapshot from the mapped provider. A repaint does not establish a fresh inventory collection or a synchronized save.",
+      "sources": [
+        "docs/experiments/stored-resources/report.md",
+        "docs/experiments/stored-resources/provider.md",
+        "docs/experiments/stored-resources/membership.md",
+        "docs/experiments/stored-resources/aggregation.md",
+        "docs/experiments/stored-resources/icons.md",
+        "docs/experiments/stored-resources/cases.csv",
+        "docs/experiments/stored-resources/saves.md",
+        "docs/experiments/stored-resources/sources.csv",
+        "docs/experiments/stored-resources/review.md"
+      ],
+      "edges": [
+        "S-SD3-PROVIDER",
+        "S-SD3-PRIMARY",
+        "S-SD3-H36",
+        "S-SD3-APPEARANCE"
+      ],
+      "guides": [
+        "docs/guides/stored-resources.md"
+      ],
+      "references": [
+        "docs/reference/stored-resources.md"
+      ],
+      "b1_b4_correspondence": [
+        "Stored Resources"
+      ]
+    },
+    {
+      "id": "B4-C16",
+      "historical": [
+        "B4-C16"
+      ],
+      "topics": [
+        "locations-ui"
+      ],
+      "proposition": "Locations list admission, selected entry and body metadata use distinct providers. Cargo, Crew and Outposts Built counters have separate upstream operands.",
+      "basis": "Native/static and compiled UI interpretation; screenshot appearance is corroboration",
+      "pins": "N244 pinned retail EXE and main ESM; pinned Interface/Localization compiled member ledgers and two installed metadata controls",
+      "confidence": "Proposed STRONG / STATIC bounded LO1 lineage; independent review01 ACCEPT",
+      "coverage": "Ordinary registered-entry and cache consumers, selected body/system requests, separate allowance and display producers",
+      "limits": "Registry counts do not exhaust active membership. Default maximum differs from effective allowance, and list/body updates are not atomic; overrides, asset coverage and screenshot epochs remain qualified.",
+      "status": "READY — QUALIFIED",
+      "wording": "Read the counters as their own provider snapshots and eligibility counts, not as a joined universal outpost/crew or freight census.",
+      "sources": [
+        "docs/experiments/locations-outpost/report.md",
+        "docs/experiments/locations-outpost/native-and-ui.md",
+        "docs/experiments/locations-outpost/field-lineage.md",
+        "docs/experiments/locations-outpost/reuse-and-gaps.md",
+        "docs/experiments/locations-outpost/sources.csv",
+        "docs/experiments/locations-outpost/review.md"
+      ],
+      "edges": [
+        "S-LO1-LINEAGE",
+        "S-LO1-PRIMARY",
+        "S-LO1-APPEARANCE"
+      ],
+      "guides": [
+        "docs/guides/locations-ui.md"
+      ],
+      "references": [
+        "docs/reference/locations-ui.md"
+      ],
+      "b1_b4_correspondence": [
+        "Locations to Outpost information"
+      ]
+    },
+    {
+      "id": "B4-C17",
+      "historical": [
+        "B4-C17"
+      ],
+      "topics": [
+        "identity"
+      ],
+      "proposition": "Save52 contains 848 supported construction roots under the accepted sampled detector.",
+      "basis": "SAVE reconstruction and bounded negative",
+      "pins": "N244 per B3 baseline manifest decoder context; Save52 HIST-0267 H? original executable and winning overrides remain claim-specific",
+      "confidence": "Accepted bounded SAVE result; no confidence promotion to an exhaustive active census.",
+      "coverage": "One mature save with controlled comparisons and retained canonical Hab negative.",
+      "limits": "A matching root cannot prove original construction or current player ownership; unavailable private manual comparison is a distinct route.",
+      "status": "ACTION REQUIRED",
+      "wording": "Cite the 848 supported roots only as a Save52 detector population.",
+      "sources": [
+        "docs/guides/identity.md",
+        "docs/reference/identity.md",
+        "docs/experiments/workshop-population/report.md",
+        "docs/experiments/workshop-population/review.md",
+        "docs/experiments/workshop-population/sources.csv",
+        "docs/experiments/workshop-population/owners.csv",
+        "docs/experiments/workshop-population/candidates.csv"
+      ],
+      "edges": [
+        "P-ROOT-COUNTS"
+      ],
+      "decision": "Retain exact original-byte tier after CORE preflight and independently verified hosted bytes, or explicitly use reported census wording.",
+      "guides": [
+        "docs/guides/identity.md"
+      ],
+      "references": [
+        "docs/reference/identity.md"
+      ],
+      "b1_b4_correspondence": [
+        "Identity"
+      ]
+    },
+    {
+      "id": "C17-ROOT-TABLE",
+      "historical": [
+        "B4-C17"
+      ],
+      "topics": [
+        "identity"
+      ],
+      "proposition": "The original tracked Save52 owner table sums to 848 supported constructed roots and 8,627 direct-member records across 19 owner rows.",
+      "basis": "Derived arithmetic over the tracked SAVE result table.",
+      "pins": "HIST-0267/Save52 in the original Workshop population report, H? creation provenance. N244 where native source is invoked in the original report.",
+      "confidence": "Retain the original accepted bounded population result and distinguish the table arithmetic from fresh SAVE extraction.",
+      "coverage": "Exactly the 19 tracked rows and their supported-root/direct-member count columns.",
+      "limits": "A supported constructed root is distinct from a member record. All rows retain POPULATION_NOT_ESTABLISHED. No active-player count or general reader-completeness inference.",
+      "status": "READY",
+      "wording": "Cite the two column sums for the 19 tracked Save52 owner rows.",
+      "sources": [
+        "docs/experiments/workshop-population/owners.csv",
+        "docs/experiments/workshop-population/report.md",
+        "docs/experiments/workshop-population/review.md"
+      ],
+      "edges": [
+        "P-ROOT-TABLE"
+      ],
+      "guides": [
+        "docs/guides/identity.md"
+      ],
+      "references": [
+        "docs/reference/identity.md"
+      ],
+      "b1_b4_correspondence": [
+        "Identity"
+      ]
+    },
+    {
+      "id": "B4-C18",
+      "historical": [
+        "B4-C18"
+      ],
+      "topics": [
+        "position"
+      ],
+      "proposition": "Horizontal position reconstruction is a qualified component with explicit frame, phase and axis semantics.",
+      "basis": "STATIC and derived arithmetic; prior scoped SAVE/RUNTIME checks are provenance",
+      "pins": "N244 per B3 baseline manifest; H? origin for historical source rows",
+      "confidence": "Preserve the capability register's per-component PROVEN/STRONG and OPEN distinctions.",
+      "coverage": "The scoped arithmetic route is selected; the 23 frozen and 40 native comparisons remain distinct historical evidence tiers.",
+      "limits": "050/060 states differ and lack a historical causal join; zero compensation does not fix frame; no full XYZ, continuous geography or universal native coverage.",
+      "status": "READY — QUALIFIED",
+      "wording": "Use the horizontal component in qualified frames and cite the distinct unknowns for native restoration and Z.",
+      "sources": [
+        "docs/guides/position.md",
+        "docs/reference/position.md",
+        "docs/position-model/specification.md",
+        "docs/position-model/review.md",
+        "docs/position-model/capabilities.md",
+        "docs/position-model/self-check.md",
+        "docs/experiments/coordinate-sufficiency/report.md",
+        "docs/experiments/coordinate-sufficiency/review.md",
+        "docs/experiments/coordinate-sufficiency/positions.csv",
+        "docs/experiments/coordinate-sufficiency/fixed-controls.csv",
+        "docs/experiments/coordinate-sufficiency/inputs.csv",
+        "docs/experiments/coordinate-sufficiency/sources.csv"
+      ],
+      "edges": [
+        "P-POSITION-MATH"
+      ],
+      "guides": [
+        "docs/guides/position.md"
+      ],
+      "references": [
+        "docs/reference/position.md"
+      ],
+      "b1_b4_correspondence": [
+        "Position"
+      ]
+    },
+    {
+      "id": "C18-FULL-CONTROLS",
+      "historical": [
+        "B4-C18"
+      ],
+      "topics": [
+        "position"
+      ],
+      "proposition": "The archived v2 self-check reports 23 frozen inputs and 40 native comparisons across two Kreet horizontal geometries.",
+      "basis": "Historical SAVE/RUNTIME controls plus derived comparison",
+      "pins": "check-03 and EXP0031/EV0039 050; N244 per B3 baseline manifest; H? for older saved inputs",
+      "confidence": "PROVEN for the scoped comparisons recorded in the accepted review; no universal native equivalence.",
+      "coverage": "Historical full control-replay tier; distinct from selected coordinate originals and arithmetic.",
+      "limits": "40 calls are repetitions of two geometries on one body, not 40 independent geometries. Missing coarse/face/reflected native controls and 050/060 cause remain open.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Keep the historical validation count attributed. It is outside the selected original-byte replay claim unless the exact controls gain access.",
+      "sources": [
+        "docs/guides/position.md",
+        "docs/reference/position.md",
+        "docs/position-model/specification.md",
+        "docs/position-model/review.md",
+        "docs/position-model/capabilities.md",
+        "docs/position-model/self-check.md"
+      ],
+      "edges": [
+        "P-POSITION-ALL"
+      ],
+      "decision": "Choose attributed provenance with B4-C18's narrower public tier, or authorize a bounded old-control derivative with all 23 input comparators and the two actual native geometry witnesses.",
+      "guides": [
+        "docs/guides/position.md"
+      ],
+      "references": [
+        "docs/reference/position.md"
+      ],
+      "b1_b4_correspondence": [
+        "Position"
+      ]
+    },
+    {
+      "id": "B4-C19",
+      "historical": [
+        "B4-C19"
+      ],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The ordinary native availability path folds admitted area resources with atmospheric and selected biome-derived inputs; point placement is a separate test.",
+      "basis": "STATIC with sampled RUNTIME corroboration separately adjudicated",
+      "pins": "N244 per B3 baseline manifest and availability source pins",
+      "confidence": "PROVEN pinned locations/stores and sampled identities; proposed STRONG scoped semantic/owner interpretation.",
+      "coverage": "Named ordinary loaded provider/consumer boundaries, including selected Water branch as reconstructed.",
+      "limits": "No actual-site exhaustive deposit list, UI timestamp or point placement result follows from list membership.",
+      "status": "READY — QUALIFIED",
+      "wording": "Cite the qualified static consumer contract separately from any reported incident or callback census.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/native-availability-map/output-contract.md",
+        "docs/experiments/native-availability-map/output-review.md",
+        "docs/experiments/native-availability-map/sources.csv",
+        "docs/experiments/native-availability-map/region-dependencies.md",
+        "docs/experiments/native-availability-map/region-review.md"
+      ],
+      "edges": [
+        "P-AVAIL-NATIVE"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": [
+        "Availability/deposits"
+      ]
+    },
+    {
+      "id": "C19-CALLBACK",
+      "historical": [
+        "B4-C19"
+      ],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "In one Kreet preview session, all 346 complete native callback folds agreed with their final row associations.",
+      "basis": "Historical observed RUNTIME, bounded derivative comparison",
+      "pins": "N244 per B3 baseline manifest; Kreet observer 0.7.0 and exact C19 asset hash",
+      "confidence": "Original CROSS-VALIDATED native final-fold agreement for the sampled callbacks.",
+      "coverage": "346 complete comparisons, 339 three-row and seven two-row; 340 unchanged redeliveries; zero selected-water append calls.",
+      "limits": "No D1 incident, deterministic upstream generator replay, 35,573 evaluation reanalysis, unique asynchronous producer or exact Flash render time.",
+      "status": "ACTION REQUIRED",
+      "wording": "Use the separate C19 download to check operand-to-row agreement, including repeated updates.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/continuous-beacon-preview/live-scientific-report.md",
+        "docs/experiments/continuous-beacon-preview/review.md",
+        "docs/experiments/continuous-beacon-preview/live-sources.csv",
+        "docs/experiments/continuous-beacon-preview/native.md",
+        "docs/experiments/continuous-beacon-preview/validation.md",
+        "docs/audits/evidence-access-d5be/c19.md"
+      ],
+      "edges": [
+        "P-CALLBACK-FOLD"
+      ],
+      "decision": "Retain exact claim if D5BF-C19 staged bytes pass preflight, separately authorized hosting and independent exact digest, fold and negative-control checks.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": [
+        "Availability/deposits"
+      ]
+    },
+    {
+      "id": "C19-D1-INCIDENT",
+      "historical": [
+        "B4-C19"
+      ],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The older disappearance/substitution account remains source-reported and only partially discriminated offline.",
+      "basis": "Source-reported event, scoped SAVE negatives, STATIC hypotheses",
+      "pins": "N244 per B3 baseline manifest native paths and H? original executable and winning overrides remain claim-specific incident samples",
+      "confidence": "SOURCE-REPORTED symptoms; PROVISIONAL explanations; scoped original SAVE findings unchanged.",
+      "coverage": "Two candidate incident sites and one distinct Decaran II gas control; no matched failure epoch.",
+      "limits": "C19 callbacks and later D5AS geometry are different cases. Changed generation and retained operation lists remain distinct hypotheses; no proved root cause.",
+      "status": "HISTORICAL ONLY",
+      "wording": "Retain the historical report, hypotheses and counterexamples. Cite only the scoped offline discrimination.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/disappearing-deposits/report.md",
+        "docs/experiments/disappearing-deposits/review.md",
+        "docs/experiments/disappearing-deposits/saves.csv",
+        "docs/experiments/disappearing-deposits/sites.csv",
+        "docs/experiments/disappearing-deposits/extractors.csv",
+        "docs/experiments/disappearing-deposits/hypotheses.md",
+        "docs/experiments/disappearing-deposits/native.md"
+      ],
+      "edges": [
+        "P-D1-INCIDENT"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": [
+        "Availability/deposits"
+      ]
+    },
+    {
+      "id": "C19-D1-SAVED",
+      "historical": [
+        "B4-C19"
+      ],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The original D1 analysis identified selected Feynman and Decaran saved-site and equipment joins. This tier seeks independent original-byte reanalysis.",
+      "basis": "Historical SAVE reconstruction",
+      "pins": "N244 per B3 baseline manifest analysis; D1 mixed/header-rejected historical inputs with H? original executable and winning overrides remain claim-specific",
+      "confidence": "PROVEN sampled bytes/joins, STRONG pair-scoped correspondence.",
+      "coverage": "Feynman VIII-b and two distinct Decaran sites; 45 curated direct-owner rows. H249 is NOT TESTED for ordinary extractor absence.",
+      "limits": "No mature comparison replay from Save52 alone. No failure/recovery time, scene state, deposit geometry or actual output was measured.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Preserve the bounded PARTIALLY DISCRIMINATED report and its saved-state negative with explicit attribution.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/disappearing-deposits/report.md",
+        "docs/experiments/disappearing-deposits/review.md",
+        "docs/experiments/disappearing-deposits/saves.csv",
+        "docs/experiments/disappearing-deposits/sites.csv",
+        "docs/experiments/disappearing-deposits/extractors.csv",
+        "docs/experiments/disappearing-deposits/hypotheses.md",
+        "docs/experiments/disappearing-deposits/native.md"
+      ],
+      "edges": [
+        "P-D1-SAMPLES"
+      ],
+      "decision": "Agree attributed bounded saved-state scope, or separately clear a minimal operand or original route covering exact earlier/later joins and header qualification. Do not require impossible incident replay to retain the separate static contract.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": [
+        "Availability/deposits"
+      ]
+    },
+    {
+      "id": "C19-D1-SITE-TABLE",
+      "historical": [
+        "B4-C19"
+      ],
+      "topics": [
+        "resource-generation",
+        "position"
+      ],
+      "proposition": "D1's tracked saved-site table preserves matching Workshop ID, body, pair, center and delta fields across three named historical snapshot pairs.",
+      "basis": "Derived equality comparison over tracked transcribed SAVE fields.",
+      "pins": "HIST-0250/0251 and HIST-0266/0267. H? historical origin; consult D1 saves.csv for header and source qualifications.",
+      "confidence": "Retain D1's accepted sampled interpretation and source-reported incident distinction. This row compares the transcribed operands.",
+      "coverage": "Decaran VII-b and Decaran II across HIST-0250/0251, plus Feynman VIII-b across HIST-0266/0267. Equality is restricted to the five named fields.",
+      "limits": "The site join does not establish a timed disappearing-deposit occurrence, cause, or universal geography correspondence. H249 remains outside the qualified decode.",
+      "status": "READY",
+      "wording": "Cite equality of the transcribed site fields across the three pairs. Exact saved-byte reconstruction and incident evidence remain distinct.",
+      "sources": [
+        "docs/experiments/disappearing-deposits/sites.csv",
+        "docs/experiments/disappearing-deposits/report.md",
+        "docs/experiments/disappearing-deposits/review.md",
+        "docs/experiments/disappearing-deposits/saves.csv"
+      ],
+      "edges": [
+        "P-D1-SITE-TABLE"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md",
+        "docs/guides/position.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md",
+        "docs/reference/position.md"
+      ],
+      "b1_b4_correspondence": [
+        "Availability/deposits"
+      ]
+    },
+    {
+      "id": "C19-UPSTREAM",
+      "historical": [
+        "B4-C19"
+      ],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The original Kreet report records a broader preview evaluation and asynchronous provenance analysis than the bounded callback comparison.",
+      "basis": "Historical RUNTIME report",
+      "pins": "N244 per B3 baseline manifest and original observer 0.7.0 source ledger",
+      "confidence": "Preserve scoped original census/observations and unresolved ancestry.",
+      "coverage": "35,573 preview evaluations and one initialization; distinct raw record and callback grains.",
+      "limits": "No unique producer, exact screen-render clock or all-evaluation replay through D5BF candidate.",
+      "status": "HISTORICAL ONLY",
+      "wording": "Attribute the upstream counts to the original report. Use the candidate only for the complete callback subset.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/continuous-beacon-preview/live-scientific-report.md",
+        "docs/experiments/continuous-beacon-preview/review.md",
+        "docs/experiments/continuous-beacon-preview/live-sources.csv",
+        "docs/experiments/continuous-beacon-preview/native.md",
+        "docs/experiments/continuous-beacon-preview/validation.md",
+        "docs/audits/evidence-access-d5be/c19.md"
+      ],
+      "edges": [
+        "P-CALLBACK-UPSTREAM"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": [
+        "Availability/deposits"
+      ]
+    },
+    {
+      "id": "B4-C20",
+      "historical": [
+        "B4-C20"
+      ],
+      "topics": [
+        "inorganic-production"
+      ],
+      "proposition": "Published definition intervals and binary32 operation order reproduce nominal production examples and aggregates. Small solid and gas quantity factors can differ at the same interval.",
+      "basis": "Derived calculation and scoped definition/static interpretation",
+      "pins": "N244 pinned retail EXE and main ESM; E1 physical resource interval operands; compiled UI formatting source pins separate from old screenshot epoch",
+      "confidence": "Scoped finite arithmetic/physical identity observations; source-level interpretation follows reviewed E1 and BM2 without confidence promotion",
+      "coverage": "Selected finite nominal operands and build-menu binary32 summation; 45 linked resources with qualified IRES-only and small-tier exceptions",
+      "limits": "Modifiers, eligible producers, timing, stock and output can change realized rates. Images give appearance context without pinning a same-time baseline.",
+      "status": "READY — QUALIFIED",
+      "wording": "Use the tracked formula with its selected nominal operands. Treat actual delivered inventory as a separate measurement.",
+      "sources": [
+        "docs/experiments/inorganic-extractors/arithmetic-report.md",
+        "docs/experiments/inorganic-extractors/arithmetic-review.md",
+        "docs/experiments/inorganic-extractors/arithmetic-production.md",
+        "docs/experiments/inorganic-extractors/arithmetic-sources.csv",
+        "docs/experiments/inorganic-extractors/resource-intervals.md",
+        "docs/experiments/inorganic-extractors/resource-intervals.csv",
+        "docs/experiments/inorganic-extractors/resource-intervals-review.md",
+        "docs/experiments/build-catalogue/production.md",
+        "docs/experiments/build-catalogue/sources.csv",
+        "docs/experiments/build-catalogue/review.md"
+      ],
+      "edges": [
+        "S-E1-BM2-ARITHMETIC",
+        "S-E1-BM2-PRIMARY"
+      ],
+      "guides": [
+        "docs/guides/inorganic-production.md"
+      ],
+      "references": [
+        "docs/reference/inorganic-production.md"
+      ],
+      "b1_b4_correspondence": [
+        "Rate arithmetic"
+      ]
+    },
+    {
+      "id": "B4-C21",
+      "historical": [
+        "B4-C21"
+      ],
+      "topics": [
+        "power"
+      ],
+      "proposition": "Using the published Save29 graph and fixed ordinary operands, each admitted root reaches the same sole generator and the conditional allocation selects the first extractor.",
+      "basis": "Native/static interpretation with derived arithmetic from transcribed saved operands",
+      "pins": "N244 pinned retail EXE and main ESM; H? Save29 B4-F054 source/decoded hashes in save29-test-plan",
+      "confidence": "C / STRONG within ordinary Save29 conditions; exact observed bytes have their separate sampled scope",
+      "coverage": "Four qualified roots, a sole generator, supply 6 and two demands of 5, using the recorded CB order",
+      "limits": "Restored R matches the same set. The difference worker does not prove old-winner retention, actual historical writes or universal settled-load prediction. Writer NO-GO preserved.",
+      "status": "READY — QUALIFIED",
+      "wording": "The published Save29 operands and ordinary algorithm predict #1. Swap the two consumer positions and #2 wins. This is a conditional calculation from the report.",
+      "sources": [
+        "docs/experiments/power/save29-authority.md",
+        "docs/experiments/power/save29-authority-review.md",
+        "docs/experiments/power/catalogue.csv",
+        "docs/experiments/power/save29-test-plan.md"
+      ],
+      "edges": [
+        "S-P1-S29-CALC"
+      ],
+      "guides": [
+        "docs/guides/power.md"
+      ],
+      "references": [
+        "docs/reference/power.md"
+      ],
+      "b1_b4_correspondence": [
+        "Power"
+      ]
+    },
+    {
+      "id": "B4-C21-SAVE29-ORIGINAL",
+      "historical": [
+        "B4-C21"
+      ],
+      "topics": [
+        "power"
+      ],
+      "proposition": "The Save29 original preserves ordered beacon CB targets, reciprocal simple links and one powered extractor in the selected pair.",
+      "basis": "Saved-state reconstruction",
+      "pins": "H? B4-F054; SHA-256 ab28c98940b019320cda4d6a0db54c9d88b721a18fba4c6a701fbed0966b42fe; format scoped to the original reader",
+      "confidence": "Scoped saved graph and bits independently reread in historical authority review",
+      "coverage": "Selected beacon, generator and two extractor records; report states exact decoded-stream selectors",
+      "limits": "Exact reconstruction does not determine historical post-load authority; ranges are decoded offsets, not compressed offsets or native addresses.",
+      "status": "ACTION REQUIRED",
+      "wording": "The reviewed historical report shows an ordered saved graph. Advertise independent original-byte verification only after the CORE member and qualified read-only method pass preflight and hosting.",
+      "sources": [
+        "docs/experiments/power/save29-authority.md",
+        "docs/experiments/power/save29-authority-review.md",
+        "docs/experiments/power/catalogue.csv",
+        "docs/experiments/power/save29-test-plan.md"
+      ],
+      "edges": [
+        "S-P1-S29-CALC",
+        "S-P1-S29-ORIGINAL"
+      ],
+      "decision": "Preflight exact B4-F054 from the staged CORE against the ledger and reproduce all four ordered CB rows, flags and selector domains with a reader in isolated scratch. Verify hosted bytes later; otherwise restrict wording to the tracked graph and calculation.",
+      "guides": [
+        "docs/guides/power.md"
+      ],
+      "references": [
+        "docs/reference/power.md"
+      ],
+      "b1_b4_correspondence": [
+        "Power"
+      ]
+    },
+    {
+      "id": "B4-C25",
+      "historical": [
+        "B4-C25"
+      ],
+      "topics": [
+        "construction"
+      ],
+      "proposition": "Placement constraints and variant replacement use distinct ordinary paths with positive saved assembly corroboration.",
+      "basis": "STATIC/SAVE and separate original image observations",
+      "pins": "N244 per B3 baseline manifest and L3/BM1 installed sources; H? original executable and winning overrides remain claim-specific; screenshot epoch/build unknown",
+      "confidence": "proposed STRONG scoped STATIC with PROVEN sampled SAVE bytes; exact photographed branch association PROVISIONAL.",
+      "coverage": "Ordinary radius/border/obstruction/POI predicates and selected grouped/automatic replacement paths.",
+      "limits": "No universal buildable radius, exact photographed object identity, paired CHANGE/reload or extension safety.",
+      "status": "READY — QUALIFIED",
+      "wording": "Keep rejected placements and appearance separate from saved accepted reference identity.",
+      "sources": [
+        "docs/guides/construction.md",
+        "docs/reference/construction.md",
+        "docs/experiments/spatial-placement/report.md",
+        "docs/experiments/spatial-placement/review.md",
+        "docs/experiments/spatial-placement/sources.csv",
+        "docs/experiments/spatial-placement/screenshots.csv",
+        "docs/experiments/spatial-placement/samples.csv",
+        "docs/experiments/spatial-placement/roots.csv",
+        "docs/experiments/construction-variants/report.md",
+        "docs/experiments/construction-variants/review.md",
+        "docs/experiments/construction-variants/sources.csv",
+        "docs/experiments/construction-variants/saved-replacements.csv",
+        "docs/experiments/construction-variants/mechanisms.md",
+        "docs/experiments/build-catalogue/report.md",
+        "docs/experiments/build-catalogue/review.md",
+        "docs/experiments/build-catalogue/sources.csv",
+        "docs/experiments/build-catalogue/definitions.csv",
+        "docs/experiments/build-catalogue/categories.csv",
+        "docs/experiments/limits/report.md",
+        "docs/experiments/limits/review.md",
+        "docs/experiments/limits/sources.csv",
+        "docs/experiments/build-budget/report.md",
+        "docs/experiments/build-budget/review.md",
+        "docs/experiments/build-budget/sources.csv"
+      ],
+      "edges": [
+        "P-BUILD-PLACEMENT",
+        "P-BUILD-ADMISSION"
+      ],
+      "guides": [
+        "docs/guides/construction.md"
+      ],
+      "references": [
+        "docs/reference/construction.md"
+      ],
+      "b1_b4_correspondence": [
+        "Construction"
+      ]
+    },
+    {
+      "id": "B4-C26",
+      "historical": [
+        "B4-C26"
+      ],
+      "topics": [
+        "access-and-save-framing"
+      ],
+      "proposition": "RC1 establishes specific definition, Papyrus declaration or existing binding, and configuration routes for named actions.",
+      "basis": "STATIC and source-scoped SAVE correspondence where identified in RC1",
+      "pins": "N244 native baseline. Starfield.esm and compiled declarations have separate B3 input pins. H? applies to historical save witnesses.",
+      "confidence": "Retain RC1 SE/D/P/NE/NI per action and surface; independently accepted RC1 documentation. No new scientific confidence label.",
+      "coverage": "C01–C31 and P01–P22 on the inspected surfaces, with 60 historical questions and eight child gaps in the lineage.",
+      "limits": "The generic SetLinkedRef declaration supplies no complete output-link transaction. GetCurrentLocation supplies a Location identity. No new runtime use, delivery completeness or safe native invocation.",
+      "status": "READY — QUALIFIED",
+      "wording": "Cite the exact RC1 route and its per-surface status. A declaration establishes that interface in its own context.",
+      "sources": [
+        "docs/audits/outpost-rc1-2026-10/capability-access.md",
+        "docs/audits/outpost-rc1-2026-10/papyrus-interfaces.md",
+        "docs/audits/outpost-rc1-2026-10/sources.md",
+        "docs/audits/outpost-rc1-2026-10/review.md",
+        "docs/audits/outpost-rc1-2026-10/gap-reconciliation.md"
+      ],
+      "edges": [
+        "G-RC1-ROUTES"
+      ],
+      "guides": [
+        "docs/guides/access-and-save-framing.md"
+      ],
+      "references": [
+        "docs/reference/access-and-save-framing.md"
+      ],
+      "b1_b4_correspondence": [
+        "Access and interfaces"
+      ]
+    },
+    {
+      "id": "EXP0009-R3-FRAMING",
+      "historical": [
+        "B4-C26"
+      ],
+      "topics": [
+        "access-and-save-framing"
+      ],
+      "proposition": "The supported R3 record reader bounds tagged header counts, reference and string queues, and body bytes against directory count and end closure.",
+      "basis": "STATIC plus SAVE framing observations; tracked synthetic validation",
+      "pins": "N244 static reader VAs 0x14185e180 and 0x141809400. H? for originating historical EXE; format applicability follows version ledger and guard conditions.",
+      "confidence": "PROVEN sampled framing and field bytes in SOR-F-0014; native mapping within named branches. No membership promotion.",
+      "coverage": "Recognized grammar: optional explicit type, three-byte tokens, tagged 1/2/4-byte counts and strict closure.",
+      "limits": "Count tag 3, unsupported high bits and unsupported/inherited semantic context bound the reader. The original three size exclusions were indeterminate in EXP0009; later bounded decoding is separately reported.",
+      "status": "READY — QUALIFIED",
+      "wording": "Cite strict bounded framing for the supported record grammar. Keep record layout, identity and loaded authority separate.",
+      "sources": [
+        "docs/experiments/active-outpost-identification.md",
+        "docs/experiments/active-outpost-identification/versions.csv",
+        "docs/experiments/save-capacity-and-planetary-location.md",
+        "save-analysis/scripts/test_outpost_record_framing.py"
+      ],
+      "edges": [
+        "G-FRAMING"
+      ],
+      "guides": [
+        "docs/guides/access-and-save-framing.md"
+      ],
+      "references": [
+        "docs/reference/access-and-save-framing.md"
+      ],
+      "b1_b4_correspondence": [
+        "Access and interfaces"
+      ]
+    },
+    {
+      "id": "D5AC-B2-RETAIL",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "In the B2 capture an earlier unvisited contender later hit the map built by the later winning request.",
+      "basis": "Historical RUNTIME and native interpretation",
+      "pins": "N244 per B3 baseline manifest; exact B2 observer/source epoch, sequence and pointer domain",
+      "confidence": "PROVEN scoped recorded decisions and sample; earlier unrecorded mask/ambient timing remains unknown.",
+      "coverage": "One same-live-source event and one directly observed mask 0x3.",
+      "limits": "No B2 losing mask, all-history causal attribution, complete geometry on this hit, or warm-return rule.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Retain as an attributed B2 event separately from the selected native authority mechanism.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5ac-target-lookup-chronology.md",
+        "docs/experiments/resource-retained-population/d5ac-review.md",
+        "docs/experiments/resource-retained-population/d5r-report.md"
+      ],
+      "edges": [
+        "P-B2-RETAIL"
+      ],
+      "decision": "If asserting the event directly, separately clear exact matched sequence, key/lifetime and mask operands. Otherwise retain original report and use D5AU native wording.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AG-FIXED-GEOMETRY",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The original D5AG controls compared three fixed-input requests and recorded two complete ordinary geometry classes under the named fixture.",
+      "basis": "Controlled native fixture and independently checked geometry arithmetic. Historical B2 observations have separate evidence.",
+      "pins": "N244; D5AF fixed source/frame, ordered effective definitions, read-only raster and generation operands per D5AG source ledger.",
+      "confidence": "PROVEN within the original supplied ordinary-stage contract. D5AG Q4 COMPLETE and whole-contract ESCALATE retained.",
+      "coverage": "The queries (4,-1), (4,1) and (5,0) produce mask classes 0/3/3 and 74 regions / 193 points versus 78 / 180. The two mask-3 populations compare equal.",
+      "limits": "This fixture does not show that the B2 losing retail request sampled or that later ordinary visits reproduce these inputs. The D5AQ controls and D5AS series have separate provenance.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Cite the original fixed-input controls as attributed evidence. Select exact original D5AG fixture reproduction only if its three pinned inputs and whole-output comparison can be qualified.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5ag-geometry-controls.md",
+        "docs/experiments/resource-retained-population/d5ag-report.md",
+        "docs/experiments/resource-retained-population/d5ag-review.md",
+        "docs/experiments/resource-retained-population/d5ag-sources.csv"
+      ],
+      "edges": [
+        "P-AG-FIXTURE"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AK-EPISODE-A",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "One qualified Feynman V return via the Lodge exterior rebuilt an identical complete target after old source and collection lifetimes ended.",
+      "basis": "Historical RUNTIME with independent byte comparison and source-joined attribution",
+      "pins": "N244 per B3 baseline manifest and exact D5AK A0/A1 process/source, protected Save52 H? original executable and winning overrides remain claim-specific",
+      "confidence": "PROVEN / RUNTIME for recorded transitions/equality; STRONG / CROSS-VALIDATED qualified source attribution.",
+      "coverage": "One ordinary exterior itinerary, full 3-resource/78-region/180-point target.",
+      "limits": "No Lodge interior entry on this departure, universal retention/rebuild rule, unmeasured initiating installer operands, or actual extractor production.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Attribute this equal reconstruction and exact itinerary to D5AK pending a direct evidence route.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5ak-a-report.md",
+        "docs/experiments/resource-retained-population/d5ak-a-review.md",
+        "docs/experiments/resource-retained-population/d5ak-a-live-ledger.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md"
+      ],
+      "edges": [
+        "P-AK-EPISODE"
+      ],
+      "decision": "Clear a small lifecycle plus dual-body derivative with old/new lifetime identities and actual comparison, or preserve this accepted historical result with attributed provenance only.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AL-EPISODE-B",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "A distinct new process rebuilt complete Feynman V geometry equal to D5AK A0 and confirmed frozen prediction PRED-01 v1 for that pair.",
+      "basis": "Historical RUNTIME with independently compared normalization and attribution",
+      "pins": "N244 per B3 baseline manifest; D5AK A0/D5AL B0 process/frame, protected Save52 H? original executable and winning overrides remain claim-specific",
+      "confidence": "PROVEN / RUNTIME recorded construction and equality; STRONG / CROSS-VALIDATED qualified source attribution.",
+      "coverage": "One A0/B0 new-process pair; all 5,090 normalized bytes, pinned starting inputs.",
+      "limits": "No equivalence of all effective runtime inputs, usual winner, or all-process repeatability.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Attribute A0/B0 equal reconstruction to D5AL; D5AS separately tests a bounded cold-start body series.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5al-b-report.md",
+        "docs/experiments/resource-retained-population/d5al-b-review.md",
+        "docs/experiments/resource-retained-population/d5al-b-live-ledger.md",
+        "docs/experiments/resource-retained-population/d5al-b-prediction-evaluation.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md"
+      ],
+      "edges": [
+        "P-AL-EPISODE"
+      ],
+      "decision": "Clear minimum matched A0/B0 process/source/frame and complete normalization derivative, sharing exact A0 lineage with D5AK, or retain as historical report provenance.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AO-N2",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The instrumented N2 event directly observed (-2,11) construct and sample 0x3 with qualified task and owner bounds.",
+      "basis": "Historical instrumented RUNTIME and native interpretation",
+      "pins": "N244 per B3 baseline manifest; observer 0.9.3; one Save52 direct-route process",
+      "confidence": "PROVEN / RUNTIME authenticated instrumented operands; CROSS-VALIDATED within the original ordinary path scope.",
+      "coverage": "One instrumented trial and 392 target task allocations.",
+      "limits": "Exact claim-CAS time, selected queue route, observer perturbation and uninstrumented outcome remain unresolved; no usual-winner inference.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Attribute the N2 event to its original report and keep it separate from the fixed native class-witness proof.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-report.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-review.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
+        "docs/experiments/resource-retained-population/d5ao-measurement-validity.md"
+      ],
+      "edges": [
+        "P-AO-N2"
+      ],
+      "decision": "Clear a minimal source/lifetime/request/event derivative with qualified bounds, or retain as historical evidence without an independent original-event tier.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AP-N2-COMPETITION",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The N2 winner retained a recorded upstream lead and entered the target before peers completed earlier work.",
+      "basis": "Historical instrumented RUNTIME and STATIC causal interpretation",
+      "pins": "N244 per B3 baseline manifest; exact N2 observer 0.9.3 and D5AP owner/source receipt",
+      "confidence": "PROVEN authenticated scoped event fields; STRONG / CROSS-VALIDATED recorded progress explanation.",
+      "coverage": "All 392 recorded target tasks, including all 391 bypassing competitors; other source births and generic lock clients retained.",
+      "limits": "No exact successful claim-CAS time, queue route, unique delay cause, uninstrumented winner or ordinary frequency.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Attribute the scope to N2 and distinguish its lack of target writer overtake from B2's earlier-visit loser.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5ap-report.md",
+        "docs/experiments/resource-retained-population/d5ap-review.md",
+        "docs/experiments/resource-retained-population/d5ap-competitor-chronology.md",
+        "docs/experiments/resource-retained-population/d5ap-winner-causal-analysis.md",
+        "docs/experiments/resource-retained-population/d5ap-analysis-method.md"
+      ],
+      "edges": [
+        "P-AP-COMPETITION"
+      ],
+      "decision": "If directly asserting the historical competition, clear a bounded contender/owner trace plus equivalent-continuation controls. Otherwise preserve this independently accepted event explanation in its original report.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AQ-C1-TABLE",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The C1 fixed Feynman V table records 28 mask-0 and 168 mask-3 coordinates among 196.",
+      "basis": "Derived arithmetic on tracked fixed-input sampler table",
+      "pins": "N244 per B3 baseline manifest; fixed main-file C1 source and frame",
+      "confidence": "PROVEN executed numeric/native fixture results within original inputs; recount proves only table arithmetic.",
+      "coverage": "All 196 coordinates in the table, separated from 392 distinct typed task allocations in N2.",
+      "limits": "One N2 constructor sampled directly; other actual first-miss reachability, ordinary winner odds and general site distribution are unmeasured.",
+      "status": "READY — QUALIFIED",
+      "wording": "Use 28/196 and 168/196 as fixed coordinate counts, not retail frequencies.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5aq-report.md",
+        "docs/experiments/resource-retained-population/d5aq-review.md",
+        "docs/experiments/resource-retained-population/d5aq-mask-method.md",
+        "docs/experiments/resource-retained-population/d5aq-request-mask-map.csv",
+        "docs/experiments/resource-retained-population/d5aq-reachability.md",
+        "docs/experiments/resource-retained-population/d5aq-sources.csv",
+        "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md"
+      ],
+      "edges": [
+        "P-AQ-TABLE"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AQ-EXACT-FIXTURE",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The original D5AQ controlled runs independently reproduced full geometry under the two fixed masks and joined the N2 typed cohort.",
+      "basis": "Historical native fixture execution, RUNTIME-derived input and byte comparison",
+      "pins": "N244 per B3 baseline manifest; D5AQ geometry01/02, N2 archive and C1 source ledger",
+      "confidence": "PROVEN scoped executed and authenticated original checks; no full-game proof.",
+      "coverage": "Three represented resources, 74 regions/193 points versus 78/180; independent comparison and repeated mask-3 controls.",
+      "limits": "A D5AS comparison of the two reference bodies checks their represented data, not the input-to-output native run.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Preserve the original controlled result; distinguish inspection of complete reference bodies from rebuilding them from native inputs.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5aq-report.md",
+        "docs/experiments/resource-retained-population/d5aq-review.md",
+        "docs/experiments/resource-retained-population/d5aq-mask-method.md",
+        "docs/experiments/resource-retained-population/d5aq-request-mask-map.csv",
+        "docs/experiments/resource-retained-population/d5aq-reachability.md",
+        "docs/experiments/resource-retained-population/d5aq-sources.csv",
+        "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md"
+      ],
+      "edges": [
+        "P-AQ-FIXTURE"
+      ],
+      "decision": "Agree attributed fixture tier, or qualify the smallest lawful run with exact fixture inputs and successful native/independent geometry comparison.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AQ-REACHABILITY",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "With the fixed ready C1 startup premises, each mask class has a qualified native constructing continuation.",
+      "basis": "STATIC native composition supported by historical native fixtures",
+      "pins": "N244 per B3 baseline manifest; ready cold-target source/frame and initialized owner on exact C1 method",
+      "confidence": "PROVEN executed fixture checks as scoped in D5AQ; independently accepted native feasibility, no retail mask-0 observation.",
+      "coverage": "One complete class witness each; exact branch/receiver argument selected.",
+      "limits": "Not whole-game startup replay, not 196 demonstrated potential winners, and does not establish which request normally wins.",
+      "status": "READY — QUALIFIED",
+      "wording": "Explain native possibility with the published continuation and input conditions.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5aq-report.md",
+        "docs/experiments/resource-retained-population/d5aq-review.md",
+        "docs/experiments/resource-retained-population/d5aq-mask-method.md",
+        "docs/experiments/resource-retained-population/d5aq-request-mask-map.csv",
+        "docs/experiments/resource-retained-population/d5aq-reachability.md",
+        "docs/experiments/resource-retained-population/d5aq-sources.csv",
+        "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md"
+      ],
+      "edges": [
+        "P-AQ-PROOF"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AR-SNAPSHOT-SCHEMA",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "D5AR's authored format makes the normalized source geometry, eligibility and capture identity domains inspectable.",
+      "basis": "STATIC method and authored representation",
+      "pins": "N244 per B3 baseline manifest producer-profile and schema version",
+      "confidence": "Preserve original scoped format and safety claims; method inspection supplies no new capture result.",
+      "coverage": "Field and frame semantics needed for the D5AS normalized comparison.",
+      "limits": "A schema does not qualify a capture, guarantee lifetime, identify physical deposits or license instrumentation.",
+      "status": "READY — QUALIFIED",
+      "wording": "Use the schema to identify represented operands and normalization boundaries.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5ar-snapshot-schema.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md"
+      ],
+      "edges": [
+        "P-AR-SCHEMA"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AS-ACQUISITION",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The original closeout attributes the 30 compared bodies to qualified independent process starts under its acquisition procedure.",
+      "basis": "Historical RUNTIME capture custody and operator testimony",
+      "pins": "N244 per B3 baseline manifest and D5AS sealed original 31 snapshots/99 startup receipts; Save52 pinned input under operator-reported itinerary",
+      "confidence": "PROVEN sampled source/process associations as recorded; operator assertions remain USER-REPORTED.",
+      "coverage": "Original eligibility/order and raw-to-body proof versus the tracked public ordinal/exclusion projection.",
+      "limits": "No assurance of independently verified per-start deployment, saved load, effective inputs or itinerary. Separate starts do not establish IID.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Cite the accepted original qualification as provenance for the public comparison and identify the upstream custody boundary.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5as-series-closeout.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/experiments/resource-retained-population/d5as-analysis-protocol.md",
+        "docs/audits/evidence-access-d5be/d5as.md"
+      ],
+      "edges": [
+        "P-AS-CUSTODY"
+      ],
+      "decision": "Agree D5AS-BODY at bounded derivative tier with attributed roster/custody. If independently repeating original acquisition qualification is selected, separately clear a narrow admission and source-to-body witness.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AS-BODY",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "Among 30 qualified Feynman V bodies, positions 7 and 13 matched the complete mask-0 reference. The other 28 matched the mask-3 reference. Each body matched exactly one reference.",
+      "basis": "Historical observed RUNTIME canonical-body comparison; derived descriptive statistics",
+      "pins": "N244 per B3 baseline manifest; 0.2.0 producer, exact source/body/frame and D5AS asset SHA-256; operator-reported Save52 visit route",
+      "confidence": "PROVEN / RUNTIME for authenticated represented geometry comparisons at original scope.",
+      "coverage": "Complete canonical bytes for 30 accepted bodies and two fixed references; 31 attempted captures and one prespecified exclusion.",
+      "limits": "Generating mask, actual request, full effective input equality, physical membership and IID are unmeasured. Position 7 or 13 is a geometry match, not a mask observation.",
+      "status": "ACTION REQUIRED",
+      "wording": "State two reference-equivalent geometry classes for the qualified roster, with acquisition limits and conditional sample statistics.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5as-series-closeout.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/experiments/resource-retained-population/d5as-analysis-protocol.md",
+        "docs/audits/evidence-access-d5be/d5as.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md"
+      ],
+      "edges": [
+        "P-AS-BODIES"
+      ],
+      "decision": "Retain exact bounded comparison after D5BF preflight, separately authorized hosting, and independent exact verifier and negative controls.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AT-EXACT-REPLAY",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The original D5AT record reports complete fixed-input VII-b geometry controls and qualified source joins beyond the public table arithmetic.",
+      "basis": "Native fixture and exact SAVE/static source reanalysis",
+      "pins": "N244 per B3 baseline manifest; B4-F040, active methods and exact prior Grid/atlas input receipts",
+      "confidence": "Original scoped exact geometry/control and indexed interpretation retained.",
+      "coverage": "VII-b masks 0/2 compare 79/206 vs 82/197; repeated mask-2 identical. VI-b, VIII-b and Feynman V controls have distinct frames.",
+      "limits": "Complete original inputs are absent from proposed assets. A fixed native geometry control is not an observed resident VII-b source.",
+      "status": "MAINTAINER DECISION",
+      "wording": "Keep the exact geometry check attributed to its original method and publish the auditable indexed table at its own tier.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5at-report.md",
+        "docs/experiments/resource-retained-population/d5at-active-associations.md",
+        "docs/experiments/resource-retained-population/d5at-activation-trace.md",
+        "docs/experiments/resource-retained-population/d5at-grid-trace.md",
+        "docs/experiments/resource-retained-population/d5at/active-sites.csv",
+        "docs/experiments/resource-retained-population/d5at/active-source-relations.csv",
+        "docs/experiments/resource-retained-population/d5at/active-rankings.csv",
+        "docs/experiments/resource-retained-population/d5at-candidate-assessment.md"
+      ],
+      "edges": [
+        "P-AT-REPLAY"
+      ],
+      "decision": "Agree the table and attributed native-control tier, or qualify a lawful original method with exact Save52/main/atlas selectors and independently compare both VII-b output bodies.",
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AT-INDEXED",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The amended Save52 indexed survey documents a qualified installed-source relationship at all 17 active ordinary sites.",
+      "basis": "SAVE-derived indexed/static association, authored table calculation; one distinct observed resident witness",
+      "pins": "N244 per B3 baseline manifest main data; B4-F040 Save52 H? original executable and winning overrides remain claim-specific",
+      "confidence": "Amended scoped indexed result; original physical-coverage question remains blocked on its original terms.",
+      "coverage": "335 installed relationships and 65 separate alternatives; rankings apply separately to finite Grid/density/layer domains.",
+      "limits": "Other source visits, physical outpost footprint/deposit membership, completed requests outside the C1 cohort and actual winner probabilities are not established.",
+      "status": "READY — QUALIFIED",
+      "wording": "Cite the published indexed survey and separate its ranked conditional coordinates from the Feynman V observed cohort.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5at-report.md",
+        "docs/experiments/resource-retained-population/d5at-active-associations.md",
+        "docs/experiments/resource-retained-population/d5at-activation-trace.md",
+        "docs/experiments/resource-retained-population/d5at-grid-trace.md",
+        "docs/experiments/resource-retained-population/d5at/active-sites.csv",
+        "docs/experiments/resource-retained-population/d5at/active-source-relations.csv",
+        "docs/experiments/resource-retained-population/d5at/active-rankings.csv",
+        "docs/experiments/resource-retained-population/d5at-candidate-assessment.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md"
+      ],
+      "edges": [
+        "P-AT-TABLE"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AU-EXTRACTOR",
+      "historical": [],
+      "topics": [
+        "resource-generation",
+        "inorganic-production"
+      ],
+      "proposition": "An ordinary established extractor can restore its resource association and use that registered key at the qualified due-cycle gates.",
+      "basis": "STATIC and SAVE",
+      "pins": "N244 per B3 baseline manifest; ordinary D5AH/D5AD state and registered/placed identities",
+      "confidence": "STRONG / STATIC and SAVE for conditional continuity.",
+      "coverage": "GC-34 answered conditionally at remap, resolution and ordinary due-cycle scope.",
+      "limits": "Actual output after a measured changed-geometry transition remains untested and optional; no universal persistence or cadence claim.",
+      "status": "READY — QUALIFIED",
+      "wording": "State the mapped conditional registered resource continuity separately from placement eligibility and measured production.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/guides/inorganic-production.md",
+        "docs/reference/inorganic-production.md",
+        "docs/experiments/resource-retained-population/d5ah-extractor-continuity.md",
+        "docs/experiments/resource-retained-population/d5ah-review.md",
+        "docs/experiments/resource-retained-population/d5au-gap-closure-decisions.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md"
+      ],
+      "edges": [
+        "P-EXTRACTOR-REGISTER"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md",
+        "docs/guides/inorganic-production.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md",
+        "docs/reference/inorganic-production.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AU-FIRST-MISS",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The first eligible protected source-pointer map miss controls ordinary construction and supplies the original request for raster sampling.",
+      "basis": "STATIC with separate observed corroboration",
+      "pins": "N244 per B3 baseline manifest; exact branch selectors and ordinary initialized owner/source premises",
+      "confidence": "PROVEN / STATIC at the audited premises; historical observed cases remain separately scoped.",
+      "coverage": "GC-10 at amended authority scope, including visit match, true hit and allocation limits.",
+      "limits": "No usual-winner identity or frequency, arbitrary readiness/lock fairness, or successful geometry guarantee. GC-06/24/33 retired from current objective with historical gaps preserved.",
+      "status": "READY — QUALIFIED",
+      "wording": "Describe the actual protected deciding lookup and carry forward the unmeasured prevalence subquestion.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5au-gap-closure-decisions.md",
+        "docs/experiments/resource-retained-population/d5ae-winner-model.md",
+        "docs/experiments/resource-retained-population/d5ae-review.md",
+        "docs/experiments/resource-retained-population/d5af-report.md",
+        "docs/experiments/resource-retained-population/d5af-review.md",
+        "docs/experiments/resource-retained-population/d5w-normal-path-model.md",
+        "docs/experiments/resource-retained-population/d5w-review.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md"
+      ],
+      "edges": [
+        "P-FIRST-MISS"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5AV-CACHE",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "Audited ordinary movement/overlap can retain a resident population; narrow Grid removal can leave a visit; broader reset or process exit permits eligible reconstruction.",
+      "basis": "STATIC mechanism and SAVE interpretation; separate historical observed cases",
+      "pins": "N244 per B3 baseline manifest; exact owner/coverage/load preconditions, Save52 sampled reconstruction channels H? original executable and winning overrides remain claim-specific",
+      "confidence": "PROVEN / STATIC named branches under their premises; precise observed transitions independently separate.",
+      "coverage": "D5AV conditional GC-35–37 and original receiver/owner predicates; retained state, reset, ordinary save/full-load and restart.",
+      "limits": "No generic same-area warm return, exact isolated warm load-to-sample, Build Mode refresh or observed same-process changed-geometry result. Game action labels do not select a branch.",
+      "status": "READY — QUALIFIED",
+      "wording": "Describe the conditional native consequences and separate saved descriptors/PCM and registered producers from transient contours.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5av-report.md",
+        "docs/experiments/resource-retained-population/d5av-player-action-matrix.md",
+        "docs/experiments/resource-retained-population/d5av-cache-decision-matrix.md",
+        "docs/experiments/resource-retained-population/d5ah-lifecycle-matrix.md",
+        "docs/experiments/resource-retained-population/d5ah-review.md",
+        "docs/experiments/resource-retained-population/d5aj-invalidation-matrix.md",
+        "docs/experiments/resource-retained-population/d5aj-review.md",
+        "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "docs/experiments/resource-retained-population/d5ad-load-chronology.md",
+        "docs/experiments/resource-retained-population/d5ad-review.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md"
+      ],
+      "edges": [
+        "P-CACHE-LIFETIME"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5BD-LEVEL-A",
+      "historical": [],
+      "topics": [],
+      "proposition": "The version-pinned catalogue contains 18 Level A entries describing characterized mechanisms with cited operands, branch conditions and effects.",
+      "basis": "STATIC authored catalogue and source locator reconciliation",
+      "pins": "N244 Starfield.exe only; identity = EXE SHA-256 + module + verified entry RVA; preferred image base 0x140000000.",
+      "confidence": "D5BD characterization depth. Original per-entry scientific confidence and review control.",
+      "coverage": "Exactly 18 Level A rows in this 2,095-entry tracked catalogue snapshot.",
+      "limits": "A mapped miss path cannot establish that a historical request entered the path. Future build mapping and external invocation remain unvalidated. Original exports are local-only.",
+      "status": "READY — QUALIFIED",
+      "wording": "Use Level A for characterized mechanisms with cited operands, branch conditions and effects. Follow the exact original record for the claim and address domain.",
+      "sources": [
+        "docs/functions/README.md",
+        "docs/functions/catalogue.csv",
+        "docs/functions/evidence.csv",
+        "docs/audits/native-function-catalogue-d5bd/README.md",
+        "docs/audits/native-function-catalogue-d5bd/closure.md",
+        "docs/audits/native-function-catalogue-d5bd/crosswalk.md",
+        "docs/experiments/resource-population-lifecycle/native.csv",
+        "docs/experiments/resource-retained-population/d5ab-native-map.md"
+      ],
+      "edges": [
+        "G-CATALOGUE-A"
+      ],
+      "guides": [],
+      "references": [],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5BD-LEVEL-B",
+      "historical": [],
+      "topics": [],
+      "proposition": "The version-pinned catalogue contains 366 Level B entries describing partial contracts with named remaining behavior or ABI gaps.",
+      "basis": "STATIC authored catalogue and source locator reconciliation",
+      "pins": "N244 Starfield.exe only; identity = EXE SHA-256 + module + verified entry RVA; preferred image base 0x140000000.",
+      "confidence": "D5BD characterization depth. Original per-entry scientific confidence and review control.",
+      "coverage": "Exactly 366 Level B rows in this 2,095-entry tracked catalogue snapshot.",
+      "limits": "A dependency decrement is an interior site. A partial contract does not establish all callers, return channels or thread-safety. Future build mapping and external invocation remain unvalidated. Original exports are local-only.",
+      "status": "READY — QUALIFIED",
+      "wording": "Use Level B for partial contracts with named remaining behavior or ABI gaps. Follow the exact original record for the claim and address domain.",
+      "sources": [
+        "docs/functions/README.md",
+        "docs/functions/catalogue.csv",
+        "docs/functions/evidence.csv",
+        "docs/audits/native-function-catalogue-d5bd/README.md",
+        "docs/audits/native-function-catalogue-d5bd/closure.md",
+        "docs/audits/native-function-catalogue-d5bd/crosswalk.md",
+        "docs/experiments/power/followup.md",
+        "docs/experiments/power/followup-sources.csv",
+        "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md"
+      ],
+      "edges": [
+        "G-CATALOGUE-B"
+      ],
+      "guides": [],
+      "references": [],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5BD-LEVEL-C",
+      "historical": [],
+      "topics": [],
+      "proposition": "The version-pinned catalogue contains 1,711 Level C entries describing verified entry locators with source-qualified relevance and limited individual characterization.",
+      "basis": "STATIC authored catalogue and source locator reconciliation",
+      "pins": "N244 Starfield.exe only; identity = EXE SHA-256 + module + verified entry RVA; preferred image base 0x140000000.",
+      "confidence": "D5BD characterization depth. Original per-entry scientific confidence and review control.",
+      "coverage": "Exactly 1,711 Level C rows in this 2,095-entry tracked catalogue snapshot.",
+      "limits": "A group alias and an export selector cannot establish an individual behavior or entry. No exhaustive native function census is claimed. Future build mapping and external invocation remain unvalidated. Original exports are local-only.",
+      "status": "READY — QUALIFIED",
+      "wording": "Use Level C for verified entry locators with source-qualified relevance and limited individual characterization. Follow the exact original record for the claim and address domain.",
+      "sources": [
+        "docs/functions/README.md",
+        "docs/functions/catalogue.csv",
+        "docs/functions/evidence.csv",
+        "docs/audits/native-function-catalogue-d5bd/README.md",
+        "docs/audits/native-function-catalogue-d5bd/closure.md",
+        "docs/audits/native-function-catalogue-d5bd/crosswalk.md",
+        "docs/experiments/resource-population-lifecycle/native.csv",
+        "docs/experiments/build-budget/functions.csv",
+        "docs/experiments/resource-population-lifecycle/native.md"
+      ],
+      "edges": [
+        "G-CATALOGUE-C"
+      ],
+      "guides": [],
+      "references": [],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5U-U26-COUNTEREXAMPLE",
+      "historical": [],
+      "topics": [
+        "resource-generation"
+      ],
+      "proposition": "The separate Feynman V U26 source has three qualified ordinary QS1 mask classes and three distinct complete represented region populations.",
+      "basis": "STATIC conditional first-miss reachability and fixed-input native controls; tracked authored geometry comparison.",
+      "pins": "N244; chart 0 source 0:37440:20928:0029d211, ordered main-file definitions and the initialized QS1 contract in D5U.",
+      "confidence": "Retain D5U-Q1's independently accepted scoped counterexample and distinct native/control basis.",
+      "coverage": "Masks 0, 1 and 3 have 69, 77 and 75 retained regions. The 196 support coordinates have distribution 24/4/168. The compiled-path argument supplies a witness for each class.",
+      "limits": "The separate U26 source has no associated outpost. Candidate support counts do not measure realized winners or retail frequency. The original D5S/D5T U25 two-class scope remains valid.",
+      "status": "READY — QUALIFIED",
+      "wording": "Cite U26's fixed-input counterexample to a universal two-outcome bound, within its own qualified QS1 source contract.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5u-report.md",
+        "docs/experiments/resource-retained-population/d5u-review.md",
+        "docs/experiments/resource-retained-population/d5u-methods.md",
+        "docs/experiments/resource-retained-population/d5u-sources.csv",
+        "docs/experiments/resource-retained-population/d5u/catalogue.csv",
+        "docs/experiments/resource-retained-population/d5u/geometry.json"
+      ],
+      "edges": [
+        "P-U26-CONTROL"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md"
+      ],
+      "b1_b4_correspondence": []
+    },
+    {
+      "id": "D5W-AREA-POINT-CONTROL",
+      "historical": [],
+      "topics": [
+        "resource-generation",
+        "inorganic-production"
+      ],
+      "proposition": "In the documented U25 fixed-geometry contrast, both area results include Ionic Liquids but the same native point predicate admits Ionic Liquids only in the mask-3 geometry.",
+      "basis": "STATIC area/point consumer distinction and controlled native point evaluation with tracked derived results.",
+      "pins": "N244; second Feynman V site in the qualified historical descriptor frame, both supplied U25 alternatives. H? historical save origin.",
+      "confidence": "Retain D5W Q3 scoped independent ACCEPT and the original native/derived split.",
+      "coverage": "Fixed XYZ (-20.388092041015625, -6.49578857421875, 0); area radius 150 native units; 29 other supplied regions excluded by derived XY broadphase.",
+      "limits": "The point control covers the resource predicate and omits the other construction gates. Equal area names supply neither geometry equality nor a retail placement result.",
+      "status": "READY — QUALIFIED",
+      "wording": "Cite a supplied-geometry counterexample distinguishing area resource identity from point eligibility in its original frame.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5w-report.md",
+        "docs/experiments/resource-retained-population/d5w-review.md",
+        "docs/experiments/resource-retained-population/d5w-sources.csv",
+        "docs/experiments/resource-retained-population/d5w/point-comparison.json",
+        "docs/experiments/resource-retained-population/d5w/fixed-point.svg"
+      ],
+      "edges": [
+        "P-W-POINT-CONTRAST"
+      ],
+      "guides": [
+        "docs/guides/resource-generation.md",
+        "docs/guides/inorganic-production.md"
+      ],
+      "references": [
+        "docs/reference/resource-generation.md",
+        "docs/reference/inorganic-production.md"
+      ],
+      "b1_b4_correspondence": []
+    }
+  ]
+}

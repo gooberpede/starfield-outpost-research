@@ -6,6 +6,12 @@ Complete a release-specific copy and retain its receipts. The [publication polic
 [D5AW preparation sequence](audits/deferred-work-d5aw/publication-plan-amendment.md)
 govern the checks and scope.
 
+Use the [D5BG proposed claim and evidence reconciliation](audits/publication-claims-d5bg/README.md)
+to review claim wording, indispensable routes and remaining decisions before
+freezing a candidate. Resolve claim-specific holds and agree the evidence tiers,
+then coordinate archival of implementation briefs and administrative audits.
+Recheck affected links and the intended exposure before candidate freeze.
+
 | Order | Checkpoint | Status | Receipt / reviewer or approver / timestamp |
 | --- | --- | --- | --- |
 | A | Freeze the research candidate and planned exposure | PENDING | TBD |
@@ -30,7 +36,7 @@ hosting and verification are evidenced.
 | Executable SHA-256 | `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28` |
 | Main Starfield.esm SHA-256 | `1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7` |
 | Other pinned inputs and qualifiers | [B3 baseline and input manifest](audits/publication-readiness-b3/baseline-manifest.md) |
-| Approved claim/build matrix revision, selected claims, exclusions | TBD |
+| Approved claim/build matrix revision, selected claims, exclusions | [D5BG proposal](audits/publication-claims-d5bg/claims.json); approval and freeze receipt TBD |
 | Historical save creation and effective load/configuration qualifications, by claim | TBD |
 | Repository, candidate branch, frozen commit and tree OIDs | TBD |
 | Proposed public refs and reachable-history boundary | TBD |
@@ -57,6 +63,12 @@ and preserve historic address mappings.
 | B6 | Independent review binds the exact tree, reachable history/refs, claims, methods and packages to the clean-checkout receipt in F. | PENDING | TBD |
 
 Copy a row for every selected claim and its indispensable dependencies.
+Use the [proposed evidence graph](audits/publication-claims-d5bg/evidence-edges.json)
+and [decision ledger](audits/publication-claims-d5bg/actions.json) to populate this
+table after the maintainer agrees scope. Keep each exact original-witness tier
+separate from the corresponding authored mechanism or arithmetic tier. If a
+selected claim needs an ADDENDUM member, identify that required reader download
+in its verification instructions.
 
 | Claim / agreed scope and limit | Primary evidence / review / required negative cases | Dependency and transitive dependencies | Durable route, exact manifest and verification receipt | Status / reviewer |
 | --- | --- | --- | --- | --- |

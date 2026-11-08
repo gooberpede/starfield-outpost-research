@@ -66,9 +66,16 @@ Publication remains **NOT READY / NOT CLEARED**. [Publication gate](../PUBLICATI
   reference pairs. The [historical register](../function-register.md) retains its
   original groupings and identifiers.
 
-From the repository root, run `python -B research/function-catalogue/verify.py`.
-Pass `--write` to regenerate the CSVs and subject/index pages. The Python 3
-standard-library tool reads repository text and curated source joins and writes
-only its declared generated files when requested. It requires no game files,
-raw exports, packages or `.local-work/` data. Its checks cover deterministic
-content, address arithmetic, known alias collisions and generated relative links.
+For exact verification of the original catalogue and audit outputs, run
+`python -B research/function-catalogue/verify.py` from a checkout of the frozen
+D5BD source commit `6e799a428a765aa196a24d3c1de8ae133260aa08`. The verifier
+reads repository text and curated source joins using the Python 3 standard
+library. Its checks cover generated content, address arithmetic, known alias
+collisions and generated relative links.
+
+Later audit documents extend the scanner's inventory. D5BG verified the
+original source set and found that the newer tree changes the generated
+coverage and locator tables while preserving the catalogue, aliases, evidence,
+index and subject pages. Use the frozen source set for exact reproduction of
+the original audit outputs. See the
+[D5BG reproduction decision](../audits/publication-claims-d5bg/handoff.md#catalogue-reproduction).

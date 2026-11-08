@@ -1,0 +1,3211 @@
+{
+  "schema": "sor-d5bg-evidence-edges/1",
+  "edges": [
+    {
+      "id": "D5BF-ADDENDUM",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "D5BF local approved proposed asset; isolated local verification reported by D5BF; hosted availability PENDING RELEASE.",
+      "substantiates": "14 unchanged first-party saves and 13 original JPEGs. Optional reader download in general, required for claims that use a named ADDENDUM original as an indispensable witness.",
+      "selector": "B4-F1-ADDENDUM: sor-1.16.244.0-b4-f1-addendum-deflate-provisional.zip; SHA-256 d904b452fcfe1a82e6c4ceae5dfd1396b4fa088868587605ced7e2e57de278a3; exact member ledger.",
+      "safety_rights": "Offline, explicitly supplied read-only inputs at B6. Bounded file-specific approval for proposed release; distribution authorization pending. Bethesda/ZeniMax origin and file-specific review remain in the manifest.",
+      "sources": [
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py"
+      ],
+      "requires": [],
+      "consequence": "Exact member or derivative checks remain conditional. Supply and independently verify the approved exact bytes at B6 before separately authorized upload; verify the actual draft download afterward.",
+      "asset": "B4-F1-ADDENDUM",
+      "hosting": "PENDING RELEASE",
+      "sha256": "d904b452fcfe1a82e6c4ceae5dfd1396b4fa088868587605ced7e2e57de278a3"
+    },
+    {
+      "id": "D5BF-C19",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "D5BF local approved proposed asset; isolated local verification reported by D5BF; hosted availability PENDING RELEASE.",
+      "substantiates": "346 recorded native callback-to-row comparisons with original order and row identity. No D1 evidence, 35,573 upstream evaluations, full asynchronous provenance or screen timing.",
+      "selector": "C19: c19-callbacks-v1.json; SHA-256 d37476dd5b33fca44423c1c0aaf239b43e8a98d8cf2ed97b15beaa4225906ada; exact member ledger.",
+      "safety_rights": "Offline, explicitly supplied read-only inputs at B6. Bounded file-specific approval for proposed release; distribution authorization pending. Bethesda/ZeniMax origin and file-specific review remain in the manifest.",
+      "sources": [
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/evidence-access-d5be/c19-manifest.json",
+        "research/evidence-access/verify_release_assets.py"
+      ],
+      "requires": [],
+      "consequence": "Exact member or derivative checks remain conditional. Supply and independently verify the approved exact bytes at B6 before separately authorized upload; verify the actual draft download afterward.",
+      "asset": "C19",
+      "hosting": "PENDING RELEASE",
+      "sha256": "d37476dd5b33fca44423c1c0aaf239b43e8a98d8cf2ed97b15beaa4225906ada"
+    },
+    {
+      "id": "D5BF-CORE",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "D5BF local approved proposed asset; isolated local verification reported by D5BF; hosted availability PENDING RELEASE.",
+      "substantiates": "25 unchanged first-party save originals, only at the member-specific witness tier.",
+      "selector": "B4-F1-CORE: sor-1.16.244.0-b4-f1-core-stored-provisional.zip; SHA-256 b27bb842770d51499bec30042660789f1e539a3187d0d63f226fafcedd405105; exact member ledger.",
+      "safety_rights": "Offline, explicitly supplied read-only inputs at B6. Bounded file-specific approval for proposed release; distribution authorization pending. Bethesda/ZeniMax origin and file-specific review remain in the manifest.",
+      "sources": [
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py"
+      ],
+      "requires": [],
+      "consequence": "Exact member or derivative checks remain conditional. Supply and independently verify the approved exact bytes at B6 before separately authorized upload; verify the actual draft download afterward.",
+      "asset": "B4-F1-CORE",
+      "hosting": "PENDING RELEASE",
+      "sha256": "b27bb842770d51499bec30042660789f1e539a3187d0d63f226fafcedd405105"
+    },
+    {
+      "id": "D5BF-D5AS",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "D5BF local approved proposed asset; isolated local verification reported by D5BF; hosted availability PENDING RELEASE.",
+      "substantiates": "30 complete qualified canonical sample bodies, two fixed references and a manifest. No observed generating mask or winning request.",
+      "selector": "D5AS: d5as-feynman-geometry-v1.zip; SHA-256 d0d35ed2193527dd8215a647178614a5403e814bf14c3f9d1f0a448c53a1043c; exact member ledger.",
+      "safety_rights": "Offline, explicitly supplied read-only inputs at B6. Bounded file-specific approval for proposed release; distribution authorization pending. Bethesda/ZeniMax origin and file-specific review remain in the manifest.",
+      "sources": [
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/evidence-access-d5be/d5as-manifest.json",
+        "research/evidence-access/verify_release_assets.py"
+      ],
+      "requires": [],
+      "consequence": "Exact member or derivative checks remain conditional. Supply and independently verify the approved exact bytes at B6 before separately authorized upload; verify the actual draft download afterward.",
+      "asset": "D5AS",
+      "hosting": "PENDING RELEASE",
+      "sha256": "d0d35ed2193527dd8215a647178614a5403e814bf14c3f9d1f0a448c53a1043c"
+    },
+    {
+      "id": "G-CATALOGUE-A",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked original locators and authored explanations. The text-only rebuild passes at the frozen D5BD source commit. A newer tree broadens the legacy audit scan, so exact historical coverage and locator output need that frozen source set. Prior export boundary checks are reported.",
+      "substantiates": "Level A identity and advertised characterization, within the scope of each original source.",
+      "selector": "0x0079f860 source-population provider: visited shared guard and source-map hit/miss. Runtime Grid owner and source lease are separate.",
+      "safety_rights": "Tracked authored source route. Read text and selected metadata; raw proprietary binaries, scripts and exports remain external. Exact tree rights review pending.",
+      "sources": [
+        "docs/functions/evidence.csv",
+        "docs/audits/native-function-catalogue-d5bd/closure.md",
+        "research/function-catalogue/verify.py",
+        "docs/experiments/resource-population-lifecycle/native.csv",
+        "docs/experiments/resource-retained-population/d5ab-native-map.md"
+      ],
+      "requires": [],
+      "consequence": "The authored locator and characterization tier remains inspectable. The exact historic rebuild needs the original D5BD text source set. Complete raw export replay needs separately authorized lawful inputs and retained receipts."
+    },
+    {
+      "id": "G-CATALOGUE-B",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked original locators and authored explanations. The text-only rebuild passes at the frozen D5BD source commit. A newer tree broadens the legacy audit scan, so exact historical coverage and locator output need that frozen source set. Prior export boundary checks are reported.",
+      "substantiates": "Level B identity and advertised characterization, within the scope of each original source.",
+      "selector": "0x00677c50 power neighbor promotion versus unseen-edge handling; 0x027e5e80 scheduler edge removal versus interior instruction at preferred VA 0x1427e61a4.",
+      "safety_rights": "Tracked authored source route. Read text and selected metadata; raw proprietary binaries, scripts and exports remain external. Exact tree rights review pending.",
+      "sources": [
+        "docs/functions/evidence.csv",
+        "docs/audits/native-function-catalogue-d5bd/closure.md",
+        "research/function-catalogue/verify.py",
+        "docs/experiments/power/followup.md",
+        "docs/experiments/power/followup-sources.csv",
+        "docs/experiments/resource-retained-population/d5ae-scheduler-causality.md"
+      ],
+      "requires": [],
+      "consequence": "The authored locator and characterization tier remains inspectable. The exact historic rebuild needs the original D5BD text source set. Complete raw export replay needs separately authorized lawful inputs and retained receipts."
+    },
+    {
+      "id": "G-CATALOGUE-C",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked original locators and authored explanations. The text-only rebuild passes at the frozen D5BD source commit. A newer tree broadens the legacy audit scan, so exact historical coverage and locator output need that frozen source set. Prior export boundary checks are reported.",
+      "substantiates": "Level C identity and advertised characterization, within the scope of each original source.",
+      "selector": "0x00f50660 Workshop producer serialization, original N10 and build-budget roster row 74; loader 0x00f50880 is distinct.",
+      "safety_rights": "Tracked authored source route. Read text and selected metadata; raw proprietary binaries, scripts and exports remain external. Exact tree rights review pending.",
+      "sources": [
+        "docs/functions/evidence.csv",
+        "docs/audits/native-function-catalogue-d5bd/closure.md",
+        "research/function-catalogue/verify.py",
+        "docs/experiments/resource-population-lifecycle/native.csv",
+        "docs/experiments/build-budget/functions.csv",
+        "docs/experiments/resource-population-lifecycle/native.md"
+      ],
+      "requires": [],
+      "consequence": "The authored locator and characterization tier remains inspectable. The exact historic rebuild needs the original D5BD text source set. Complete raw export replay needs separately authorized lawful inputs and retained receipts."
+    },
+    {
+      "id": "G-FRAMING",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked parser, synthetic check and original authored instruction/dataflow analysis.",
+      "substantiates": "Supported header/queue/body grammar and strict rejection policy. Synthetic fixtures reproduce the boundary checks alone.",
+      "selector": "SOR-EXP-0009 New structural evidence; R3 framing tests; B3 source contract for outpost_record_framing.",
+      "safety_rights": "Tracked authored source route. Read text and selected metadata; raw proprietary binaries, scripts and exports remain external. Exact tree rights review pending.",
+      "sources": [
+        "docs/experiments/active-outpost-identification.md",
+        "save-analysis/scripts/outpost_record_framing.py",
+        "save-analysis/scripts/test_outpost_record_framing.py",
+        "docs/audits/publication-readiness-b3/method-contracts.csv"
+      ],
+      "requires": [],
+      "consequence": "Missing exact historical originals would hold a full source census claim; inspection of the bounded grammar is still possible from the selected tracked sources."
+    },
+    {
+      "id": "G-RC1-ROUTES",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored declaration/consumer documentation and independent review; prior declaration comparison, not a current raw replay.",
+      "substantiates": "The named action and route-specific status; a saved witness has separate evidentiary meaning.",
+      "selector": "RC1 C07/P14, C20/P18 and C31; installed declaration member pins in RC1 sources and B3 input manifest.",
+      "safety_rights": "Tracked authored source route. Read text and selected metadata; raw proprietary binaries, scripts and exports remain external. Exact tree rights review pending.",
+      "sources": [
+        "docs/audits/outpost-rc1-2026-10/capability-access.md",
+        "docs/audits/outpost-rc1-2026-10/papyrus-members.csv",
+        "docs/audits/outpost-rc1-2026-10/review.md",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "Without these joins, cite only the source-qualified surface actually documented. Exact raw declarations or native reanalysis require lawful pinned inputs.",
+      "predecessors": [
+        [
+          "B4-C26",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "P-AG-FIXTURE",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Tracked authored method and original review. The paired fresh-host fixture operands and verification receipts remain local-only for this exact tier.",
+      "substantiates": "Exact full-output distinction of the original D5AG mask-0 and mask-3 populations and equality of both mask-3 queries.",
+      "selector": "Original D5AG geometry01, geometry02 and verify03 control sets; three query operands and normalization/point and bounds checks in the original report.",
+      "safety_rights": "The historical method invokes native fixture code. Independent replay needs separately qualified lawful inputs, isolated effect review and explicit execution authority.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5ag-geometry-controls.md",
+        "docs/experiments/resource-retained-population/d5ag-review.md",
+        "docs/experiments/resource-retained-population/d5ag-sources.csv",
+        "research/resource-retained-population/d5ag_controls.py",
+        "research/resource-retained-population/d5ag_verify.py"
+      ],
+      "requires": [],
+      "consequence": "If exact original fixture reproduction is selected, qualify a lawful finite input/method route or compare an independently approved bounded fixture derivative. Keep the attributed report and current conditional mechanism if that tier is omitted.",
+      "predecessors": [
+        [
+          "RG-AU",
+          "range-controls"
+        ]
+      ]
+    },
+    {
+      "id": "P-AK-A0-BASELINE",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Original D5AK initial A0 envelope and source/lifetime join are local-only. D5BE documented the canonical body bridge to the proposed D5AS control.",
+      "substantiates": "The exact completed Episode A initial comparator, with its original frame and acquisition, independently of the later A1 return.",
+      "selector": "D5AK-A initial A0 snapshot 1. Complete 5,090-byte normalization SHA-256 0c05d4a4c458b533d1ec7ae3acc8b34698ac48b91ff2965224e5c37ca055da96. Body-only tail at offset 232 is 4,858 bytes and corresponds to D5AS references/mask3.bin.",
+      "safety_rights": "Use approved read-only authored records and file-specific derivative approval. A body-only match does not authorize redistribution of the original envelope or acquisition telemetry.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5ak-a-report.md",
+        "docs/experiments/resource-retained-population/d5ak-a-review.md",
+        "docs/experiments/resource-retained-population/d5al-b-report.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/audits/evidence-access-d5be/d5as.md"
+      ],
+      "requires": [],
+      "consequence": "For the original equality tier, recover and qualify the exact A0 envelope and source/lifetime witness. The D5AS control supports the bounded body-only comparison once hosted; it does not carry the missing A0 envelope or independently bind its historical event.",
+      "predecessors": [
+        [
+          "RG-AK",
+          "decisive"
+        ],
+        [
+          "RG-AL",
+          "prerequisites"
+        ]
+      ]
+    },
+    {
+      "id": "P-AK-EPISODE",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "D5AK-A accepted historical report and review; original episode archive and decisive content/lifetime telemetry LOCAL-ONLY.",
+      "substantiates": "One Feynman V → Lodge exterior marker → Feynman V trip ended prior source, holder and all three baseline content lifetimes, then reconstructed complete equal geometry.",
+      "selector": "D5AK a-live01 Episode A; old/new allocation 932/30579, two 291,032-byte Raw2 maps, equal 5,090-byte normalization, 3 resources/78 regions/180 points. Installer/reset/erase event joins in the original ledger.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5ak-a-report.md",
+        "docs/experiments/resource-retained-population/d5ak-a-review.md",
+        "docs/experiments/resource-retained-population/d5ak-a-live-ledger.md",
+        "docs/experiments/resource-retained-population/d5av-investigation-ledger.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ],
+      "requires": [
+        "P-FIRST-MISS",
+        "P-AK-A0-BASELINE"
+      ],
+      "consequence": "Neither D5AS mask-3 canonical body nor Save52 proves both episode boundaries, route or lifetime end. Small exact event and both normalized comparison witnesses would be needed.",
+      "predecessors": [
+        [
+          "RG-AK",
+          "episode-a-primary"
+        ]
+      ]
+    },
+    {
+      "id": "P-AL-EPISODE",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "D5AL-B accepted report, frozen prediction and archive review; original 107-member archive and paired chronology LOCAL-ONLY.",
+      "substantiates": "Authentically distinct process B0 and D5AK A0 agree over complete 5,090 bytes and qualified frame, with new construction and fixed PRED-01 v1 confirmation.",
+      "selector": "D5AL episode B, A0/B0 exact pair and reviewed source-bound process birth/geometry equality. Save52 load procedure is operator-reported.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5al-b-report.md",
+        "docs/experiments/resource-retained-population/d5al-b-review.md",
+        "docs/experiments/resource-retained-population/d5al-b-live-ledger.md",
+        "docs/experiments/resource-retained-population/d5al-b-prediction-evaluation.md",
+        "docs/experiments/resource-retained-population/d5ak-a-report.md",
+        "docs/experiments/resource-retained-population/d5ak-a-review.md",
+        "docs/experiments/resource-retained-population/d5ak-a-live-ledger.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ],
+      "requires": [
+        "P-FIRST-MISS",
+        "P-AK-A0-BASELINE"
+      ],
+      "consequence": "D5AS reference match does not establish the specific A0/B0 process, event or full envelope equality. Distinct acquisition and normalization witnesses are necessary.",
+      "predecessors": [
+        [
+          "RG-AL",
+          "episode-b-primary"
+        ]
+      ]
+    },
+    {
+      "id": "P-AO-N2",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Tracked accepted N2 report and review; 174-member authentic archive and complete task/owner receipts LOCAL-ONLY.",
+      "substantiates": "One instrumented (-2,11) constructor directly sampled 0x3; frozen PRED-03 confirmed at that scope.",
+      "selector": "Observer 0.9.3, core birth/publication 2082/2083, miss 3959, sample 3962, store 3972; scheduler provider 41257; 392 task allocations.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5ao-n2-report.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-review.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
+        "docs/experiments/resource-retained-population/d5ao-measurement-validity.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ],
+      "requires": [
+        "P-FIRST-MISS"
+      ],
+      "consequence": "No exact event or recorded admission bounds verified from D5AS bodies or arithmetic. A derivative must retain copied operands, identity, stage provenance and observer-effect limits.",
+      "predecessors": [
+        [
+          "RG-AO",
+          "n2-primary"
+        ]
+      ]
+    },
+    {
+      "id": "P-AP-COMPETITION",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Tracked D5AP report and original independent replay of local raw/archive/owner receipts; no public exact N2 contender projection.",
+      "substantiates": "Task 1211 earliest on seven recorded scheduler boundaries; two earlier providers still traversed earlier sources, 391 target competitors bypassed, no target writer overtake.",
+      "selector": "N2 observer 0.9.3, owner generation 1, allocation 932 of eight target births; 392 target tasks, 518 writer triples and 23,194 reader triples.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5ap-report.md",
+        "docs/experiments/resource-retained-population/d5ap-review.md",
+        "docs/experiments/resource-retained-population/d5ap-competitor-chronology.md",
+        "docs/experiments/resource-retained-population/d5ap-winner-causal-analysis.md",
+        "docs/experiments/resource-retained-population/d5ap-analysis-method.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ],
+      "requires": [
+        "P-AO-N2",
+        "P-FIRST-MISS"
+      ],
+      "consequence": "Native schedule rules do not authenticate the recorded N2 lead. A small approval-bound timeline must preserve all decisive contender/stage and owner joins plus equivalent delay continuations."
+    },
+    {
+      "id": "P-AQ-FIXTURE",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Reported independently repeated original native fixture; tracked methods plus indispensable private N2 witnesses and original input/fixture receipts. D5AS candidate carries fixed reference bodies only.",
+      "substantiates": "Exact native replay of the N2 typed cohort, two class continuations and paired controlled full geometry generation.",
+      "selector": "D5AQ source ledger, native replay and controls 01/02; C1 fixed main-file data and N2 copied readiness/task context. Fixed count contrast 74 regions/193 points vs 78/180.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5aq-report.md",
+        "docs/experiments/resource-retained-population/d5aq-review.md",
+        "docs/experiments/resource-retained-population/d5aq-mask-method.md",
+        "docs/experiments/resource-retained-population/d5aq-request-mask-map.csv",
+        "docs/experiments/resource-retained-population/d5aq-reachability.md",
+        "docs/experiments/resource-retained-population/d5aq-sources.csv",
+        "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-report.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-review.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
+        "docs/experiments/resource-retained-population/d5ao-measurement-validity.md",
+        "research/resource-retained-population/d5aq_geometry.py",
+        "docs/audits/evidence-access-d5be/d5as.md"
+      ],
+      "requires": [
+        "P-AQ-PROOF",
+        "P-AO-N2"
+      ],
+      "consequence": "No exact clean reproduction of source-to-output or 392 typed historical allocations from candidate references. Separate lawful minimal fixture prerequisite qualification or approved derivative if this exact tier is selected.",
+      "predecessors": [
+        [
+          "RG-AQ",
+          "geometry-method"
+        ]
+      ]
+    },
+    {
+      "id": "P-AQ-PROOF",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked original source-level reachability and receiver argument with exact native locators, input contract, negative branch and independent original review. Lawful byte reread conditional; exact original native fixture run remains a separate tier.",
+      "substantiates": "Under the qualified initialized startup contract, at least one native ordinary eligible continuation in each C1 mask class can construct first.",
+      "selector": "Cold maps and visits, ready file/raster, started workers, stable owner/descriptor/lifetime, actual task/queue prerequisites as specified. Owner back (10,11) and peer front (-2,-2); counterexample (-2,11) to density-only exclusion.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5aq-report.md",
+        "docs/experiments/resource-retained-population/d5aq-review.md",
+        "docs/experiments/resource-retained-population/d5aq-mask-method.md",
+        "docs/experiments/resource-retained-population/d5aq-request-mask-map.csv",
+        "docs/experiments/resource-retained-population/d5aq-reachability.md",
+        "docs/experiments/resource-retained-population/d5aq-sources.csv",
+        "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [
+        "P-FIRST-MISS",
+        "P-AQ-TABLE"
+      ],
+      "consequence": "C1 table alone cannot establish first-miss eligibility; without the qualified source-level composition the advertised class reachability is unsupported.",
+      "predecessors": [
+        [
+          "RG-AQ",
+          "decisive"
+        ]
+      ]
+    },
+    {
+      "id": "P-AQ-TABLE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked C1 request map and independent recount of authored table; no original runtime replay claimed.",
+      "substantiates": "196 signed original coordinates, masks 0/3 at 28/168, under the source/frame/readiness contract.",
+      "selector": "All x,y in [-2,11] at Feynman V 0:37536:20928:0029d20e; main file C1, actual effective inputs not generalized.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5aq-report.md",
+        "docs/experiments/resource-retained-population/d5aq-review.md",
+        "docs/experiments/resource-retained-population/d5aq-mask-method.md",
+        "docs/experiments/resource-retained-population/d5aq-request-mask-map.csv",
+        "docs/experiments/resource-retained-population/d5aq-reachability.md",
+        "docs/experiments/resource-retained-population/d5aq-sources.csv",
+        "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md"
+      ],
+      "requires": [],
+      "consequence": "Without the exact table the bounded coordinate census cannot be independently recounted. It never measures winners.",
+      "predecessors": [
+        [
+          "RG-AQ",
+          "request-table"
+        ]
+      ]
+    },
+    {
+      "id": "P-AR-SCHEMA",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored snapshot schema, producer profile and reference normalization; inspect the representation independently of a live snapshot run.",
+      "substantiates": "Protected snapshot evidence units and distinct source/frame/body/qualification domains used downstream in D5AS.",
+      "selector": "Raw source-planar capture schema versus D5AK envelope and D5BE canonical body; unqualified source/lifetime states retained.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5ar-snapshot-schema.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/audits/evidence-access-d5be/d5as.md"
+      ],
+      "requires": [],
+      "consequence": "Cannot safely interpret byte equality as a source/frame comparison if normalization or eligibility domains are lost.",
+      "predecessors": [
+        [
+          "RG-AR",
+          "schema"
+        ]
+      ]
+    },
+    {
+      "id": "P-AS-BODIES",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "D5BF D5AS approved exact candidate plus read-only verifier, previously replayed locally; PENDING RELEASE.",
+      "substantiates": "All 30 qualified complete canonical bodies compared with two complete reference bodies, plus prespecified table statistics.",
+      "selector": "d5as-feynman-geometry-v1.zip SHA-256 d0d35ed2193527dd8215a647178614a5403e814bf14c3f9d1f0a448c53a1043c; body 0x0005e0de, key 0:37536:20928:0029d20e, origin (-200,-200).",
+      "safety_rights": "D5BF APPROVED FOR PROPOSED RELEASE only; PENDING RELEASE. No hosting or distribution authorization. Read exact approved member with the project method; original file remains read-only.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5as-series-closeout.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/experiments/resource-retained-population/d5as-analysis-protocol.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/evidence-access-d5be/d5as.md",
+        "docs/audits/evidence-access-d5be/d5as-manifest.json",
+        "research/evidence-access/d5be/d5as_verify.py"
+      ],
+      "requires": [
+        "P-AS-ROSTER",
+        "D5BF-D5AS"
+      ],
+      "consequence": "Exact comparison cannot be independently rerun using report or digest alone. Candidate does not prove per-start sampled mask or method from raw source to body.",
+      "predecessors": [
+        [
+          "RG-AS",
+          "canonical-comparisons"
+        ]
+      ]
+    },
+    {
+      "id": "P-AS-CUSTODY",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Prior independently reviewed local capture, acquisition and custody replay; only roster projection and bodies are proposed for release.",
+      "substantiates": "Exact original startup/process/order, excluded source lifetime, producer/descriptor association and capture-to-body derivation.",
+      "selector": "31 original snapshot artifacts, 99 startup receipts/33 process sessions; 130 archive members; historical pinned corpus/ledger/protection in closeout. Upstream effective deployment, loaded save and itinerary not independently observed on each run.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5as-series-closeout.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/experiments/resource-retained-population/d5as-analysis-protocol.md",
+        "docs/audits/evidence-access-d5be/d5as.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ],
+      "requires": [
+        "P-AS-ROSTER"
+      ],
+      "consequence": "A hosted body ZIP still cannot independently authenticate original producer/capture custody. Use accepted qualification as explicitly attributed provenance, or separately approve a minimum source-admission derivative. Unmeasured operator effects cannot be manufactured.",
+      "predecessors": [
+        [
+          "RG-AS",
+          "eligibility-index"
+        ],
+        [
+          "RG-AS",
+          "qualification-primary"
+        ]
+      ]
+    },
+    {
+      "id": "P-AS-ROSTER",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked prespecified protocol, closeout, derivative manifest and prior review route; inspect declared exclusions/ordinals, not upstream process receipts.",
+      "substantiates": "Public audit of the declared 31-attempt roster, exclusion before classification, replacement, two startup-only sessions and declared source/frame.",
+      "selector": "Attempt 6 UUID 7edfc207-4f95-4cdc-9617-ce847107c49c: SOURCE_LIFETIME_RETIRED, map-entry-56. Replacement attempt 31; Pilot04 outside series.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5as-series-closeout.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/experiments/resource-retained-population/d5as-analysis-protocol.md",
+        "docs/audits/evidence-access-d5be/d5as.md",
+        "docs/audits/evidence-access-d5be/d5as-manifest.json"
+      ],
+      "requires": [
+        "P-AR-SCHEMA"
+      ],
+      "consequence": "If declared eligibility is absent, class count cannot be advertised as the comparison of the qualified roster. Full raw source qualification is separately held."
+    },
+    {
+      "id": "P-AT-REPLAY",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Exact original survey/native qualification conditional on proposed CORE plus lawful N244 inputs and original private Grid/atlas/task receipts. No clean exact original-method run is established.",
+      "substantiates": "Exact complete saved-to-installed association and distinct full fixed-input VII-b geometry control.",
+      "selector": "B4-F040 Save52; N244/main ESM, explicit installed atlas and source ordinals; D5AT scripts require established receipts and fresh ignored output.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5at-report.md",
+        "docs/experiments/resource-retained-population/d5at-active-associations.md",
+        "docs/experiments/resource-retained-population/d5at-activation-trace.md",
+        "docs/experiments/resource-retained-population/d5at-grid-trace.md",
+        "docs/experiments/resource-retained-population/d5at/active-sites.csv",
+        "docs/experiments/resource-retained-population/d5at/active-source-relations.csv",
+        "docs/experiments/resource-retained-population/d5at/active-rankings.csv",
+        "docs/experiments/resource-retained-population/d5at-candidate-assessment.md",
+        "research/resource-retained-population/d5at_active.py",
+        "research/resource-retained-population/d5at_active_geometry.py",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [
+        "P-AT-TABLE",
+        "D5BF-CORE"
+      ],
+      "consequence": "CORE does not supply historical residence/atlas controls or full VII-b geometry. Qualify a portable exact-input method or clear a minimal authored source/geometry derivative.",
+      "predecessors": [
+        [
+          "RG-AT",
+          "active-method"
+        ],
+        [
+          "RG-AT",
+          "indexed-save"
+        ],
+        [
+          "RG-AT",
+          "request-grid"
+        ]
+      ]
+    },
+    {
+      "id": "P-AT-TABLE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored source and site joins, separate candidate populations, and independently recountable ranking tables.",
+      "substantiates": "Amended D5AT finite indexed installed-main census: 17 active sites, 335 installed relations, 65 alternatives; Grid, density and layer rank separately.",
+      "selector": "Save52 B4-F040 SHA-256 6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8; installed main pins and named saved-coordinate frames. 1 observed resident, 21 exact indexed, 313 conditional.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5at-report.md",
+        "docs/experiments/resource-retained-population/d5at-active-associations.md",
+        "docs/experiments/resource-retained-population/d5at-activation-trace.md",
+        "docs/experiments/resource-retained-population/d5at-grid-trace.md",
+        "docs/experiments/resource-retained-population/d5at/active-sites.csv",
+        "docs/experiments/resource-retained-population/d5at/active-source-relations.csv",
+        "docs/experiments/resource-retained-population/d5at/active-rankings.csv",
+        "docs/experiments/resource-retained-population/d5at-candidate-assessment.md",
+        "research/resource-retained-population/d5at_active.py",
+        "research/resource-retained-population/d5at_active_geometry.py",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses the public comparison of declared indexed relations/ranks. A table inspection still cannot replay the historical resident witness or all upstream native operands.",
+      "predecessors": [
+        [
+          "RG-AT",
+          "active-ranking"
+        ],
+        [
+          "RG-AT",
+          "source-joins"
+        ]
+      ]
+    },
+    {
+      "id": "P-AVAIL-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored static path with original selectors and review; lawful exact EXE/main inputs required for native reread.",
+      "substantiates": "Area/atmosphere/selected Water producer populations, common deduplication and special append; point placement remains separate.",
+      "selector": "Native output-contract source/consumer VAs and selected controls on N244.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/native-availability-map/output-contract.md",
+        "docs/experiments/native-availability-map/output-review.md",
+        "docs/experiments/native-availability-map/sources.csv",
+        "docs/experiments/native-availability-map/region-dependencies.md",
+        "docs/experiments/native-availability-map/region-review.md",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [],
+      "consequence": "No basis for extrapolating a screenshot, nominal biome or occurrence list to actual point-admitted geometry.",
+      "predecessors": [
+        [
+          "B4-C19",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "P-B2-RETAIL",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Tracked original chronology and review, with original callback/owner trace LOCAL-ONLY.",
+      "substantiates": "One original B2 event: earlier unvisited request (4,-1) lost; (5,0) reached the protected miss and sampled 0x3; the former later hit the same live pointer map.",
+      "selector": "B2 miss 8091, sample 8093–8094 and hit 8339; same live source and ProcGen, separate ambient-lock evidence limit.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5ac-target-lookup-chronology.md",
+        "docs/experiments/resource-retained-population/d5ac-review.md",
+        "docs/experiments/resource-retained-population/d5r-report.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ],
+      "requires": [
+        "P-FIRST-MISS"
+      ],
+      "consequence": "Static ordering supports possibility only. Historical winner, earlier loser and actual map reuse need a bounded event chain and identity proof.",
+      "predecessors": [
+        [
+          "RG-AU",
+          "exact-b2-decision-order"
+        ],
+        [
+          "RG-AU",
+          "retail-b2"
+        ]
+      ]
+    },
+    {
+      "id": "P-BIOME-METHOD",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "B3 historical source available, full replay unqualified. Qualify a finite original-save and map-to-frame procedure.",
+      "substantiates": "The selected original descriptor/frame and nominal-map comparison, with the non-unique older-frame branch retained.",
+      "selector": "B3 b1-maps.py, b1-saves.py and b1-model.py. CPython 3.14.3, pinned PlanetData.ba2/main ESM, body catalog/survey, qualified extraction/definition receipts and projection module.",
+      "safety_rights": "Historical code uses a recreated layout and writes map derivatives, selected definitions/save joins and model JSON to scratch. Inspect outputs and inputs before any authorized reproduction.",
+      "sources": [
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/method-reproduction.md",
+        "research/historical-methods/b3/b1-maps.py",
+        "research/historical-methods/b3/b1-saves.py",
+        "research/historical-methods/b3/b1-model.py",
+        "docs/experiments/outpost-biomes/sources.csv"
+      ],
+      "requires": [],
+      "consequence": "Package bytes plus method text do not close original replay. Supply lawful pinned maps and qualify extraction receipts and bounded reader effects, or publish only the inspectable nominal-model tier.",
+      "predecessors": [
+        [
+          "B4-C03",
+          "methods"
+        ],
+        [
+          "B4-C03",
+          "domain-method"
+        ]
+      ]
+    },
+    {
+      "id": "P-BIOME-MODEL",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked qualified case table and discrete traversal arithmetic; documented source reconstruction is conditional.",
+      "substantiates": "Nominal frame/cell coverage with positive-area intersection and separate saved descriptors.",
+      "selector": "B1 source ledger: pinned PlanetData.ba2, main ESM and body catalog; named v5 maps and qualified saved frames.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/outpost-biomes/report.md",
+        "docs/experiments/outpost-biomes/review.md",
+        "docs/experiments/outpost-biomes/sources.csv",
+        "docs/experiments/outpost-biomes/cases.csv",
+        "docs/experiments/outpost-biomes/cells.csv",
+        "research/historical-methods/b3/b1-model.py",
+        "research/historical-methods/b3/b1-maps.py",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [],
+      "consequence": "Loss prevents inspection of the nominal model and named qualified table. This route does not reproduce the original map bytes.",
+      "predecessors": [
+        [
+          "B4-C03",
+          "b1-model"
+        ],
+        [
+          "B4-C03",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "P-BIOME-ORIGINALS",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "D5BF CORE and optional ADDENDUM plus lawfully installed pinned PlanetData.ba2 and main ESM; authored B3 method, not a public rebuild demonstration.",
+      "substantiates": "Selected original-frame comparisons. The scoped HIST-0035 locator does not return a unique later-style descriptor.",
+      "selector": "CORE B4-F040/F047/F003 are Save52, Kreet Save25 and held-out Kreet Save39. ADDENDUM B4-F049/HIST-0035 is indispensable to its exact comparison. F012/F013 are retained Kreet31/33 controls outside this tier. F050/HIST-0210 remains local-only.",
+      "safety_rights": "D5BF APPROVED FOR PROPOSED RELEASE only; PENDING RELEASE. No hosting or distribution authorization. Read exact approved member with the project method; original file remains read-only.",
+      "sources": [
+        "docs/experiments/outpost-biomes/report.md",
+        "docs/experiments/outpost-biomes/review.md",
+        "docs/experiments/outpost-biomes/sources.csv",
+        "docs/experiments/outpost-biomes/cases.csv",
+        "docs/experiments/outpost-biomes/cells.csv",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md",
+        "docs/experiments/outpost-biomes/saves.md"
+      ],
+      "requires": [
+        "P-BIOME-MODEL",
+        "D5BF-CORE",
+        "D5BF-ADDENDUM",
+        "P-BIOME-METHOD"
+      ],
+      "consequence": "Without ADDENDUM, exact HIST-0035 comparison is unavailable. Without the pinned lawful maps there is no exact map-to-save replay.",
+      "predecessors": [
+        [
+          "B4-C03",
+          "B4-F040"
+        ],
+        [
+          "B4-C03",
+          "B4-F049"
+        ]
+      ]
+    },
+    {
+      "id": "P-BUILD-ADMISSION",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked native/definition explanation and scoped authored tables; lawful exact installed inputs conditional.",
+      "substantiates": "Menu discovery differs from caps and scalar budget admission; ordinary recipes, state and adjustment mechanisms.",
+      "selector": "BM/L1/L2 source ledgers; N244/main, installed sources and qualification boundaries; global cargo limit and separate player AV.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/build-catalogue/report.md",
+        "docs/experiments/build-catalogue/review.md",
+        "docs/experiments/build-catalogue/sources.csv",
+        "docs/experiments/build-catalogue/definitions.csv",
+        "docs/experiments/build-catalogue/categories.csv",
+        "docs/experiments/limits/report.md",
+        "docs/experiments/limits/review.md",
+        "docs/experiments/limits/sources.csv",
+        "docs/experiments/build-budget/report.md",
+        "docs/experiments/build-budget/review.md",
+        "docs/experiments/build-budget/sources.csv",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [],
+      "consequence": "Neither effective menu contents nor limits can be derived from physical recipe counts alone.",
+      "predecessors": [
+        [
+          "B4-C11",
+          "claim"
+        ],
+        [
+          "B4-C25",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "P-BUILD-PLACEMENT",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked static mechanism, sample tables and original review; lawful exact installed inputs conditional.",
+      "substantiates": "Separate ordinary geometric/environmental gates, bulldozing/rebuild predicates and conditional variant selection.",
+      "selector": "L3/BM1 native and definition selectors; exact rejected XYZ/object identity and historical paired variant action not observed.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/spatial-placement/report.md",
+        "docs/experiments/spatial-placement/review.md",
+        "docs/experiments/spatial-placement/sources.csv",
+        "docs/experiments/spatial-placement/screenshots.csv",
+        "docs/experiments/spatial-placement/samples.csv",
+        "docs/experiments/spatial-placement/roots.csv",
+        "docs/experiments/construction-variants/report.md",
+        "docs/experiments/construction-variants/review.md",
+        "docs/experiments/construction-variants/sources.csv",
+        "docs/experiments/construction-variants/saved-replacements.csv",
+        "docs/experiments/construction-variants/mechanisms.md",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [],
+      "consequence": "Without these authored predicates the screenshots or surviving saved objects cannot independently establish the rejection mechanism.",
+      "predecessors": [
+        [
+          "B4-C25",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "P-BUILD-SAVES",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "D5BF CORE and optional ADDENDUM, distinct exact saved and image routes.",
+      "substantiates": "Exact original-byte construction/bulldozing contrasts and qualitative placement appearance, separately inspected.",
+      "selector": "ADDENDUM B4-F011–F016 for Save30/31/33/34/35/36. CORE B4-F029–F039, F041–F045 and F051 for qualified control and root witnesses. ADDENDUM F017–F021/F023/F025–F027 supply supporting visual context only.",
+      "safety_rights": "D5BF APPROVED FOR PROPOSED RELEASE only; PENDING RELEASE. No hosting or distribution authorization. Read exact approved member with the project method; original file remains read-only.",
+      "sources": [
+        "docs/experiments/spatial-placement/report.md",
+        "docs/experiments/spatial-placement/review.md",
+        "docs/experiments/spatial-placement/sources.csv",
+        "docs/experiments/spatial-placement/screenshots.csv",
+        "docs/experiments/spatial-placement/samples.csv",
+        "docs/experiments/spatial-placement/roots.csv",
+        "docs/experiments/construction-variants/report.md",
+        "docs/experiments/construction-variants/review.md",
+        "docs/experiments/construction-variants/sources.csv",
+        "docs/experiments/construction-variants/saved-replacements.csv",
+        "docs/experiments/construction-variants/mechanisms.md",
+        "docs/experiments/build-catalogue/report.md",
+        "docs/experiments/build-catalogue/review.md",
+        "docs/experiments/build-catalogue/sources.csv",
+        "docs/experiments/build-catalogue/definitions.csv",
+        "docs/experiments/build-catalogue/categories.csv",
+        "docs/experiments/limits/report.md",
+        "docs/experiments/limits/review.md",
+        "docs/experiments/limits/sources.csv",
+        "docs/experiments/build-budget/report.md",
+        "docs/experiments/build-budget/review.md",
+        "docs/experiments/build-budget/sources.csv",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ],
+      "requires": [
+        "P-BUILD-PLACEMENT",
+        "D5BF-CORE",
+        "D5BF-ADDENDUM"
+      ],
+      "consequence": "No exact six-save contrast without the optional ADDENDUM. Removing images loses original appearance context, never an exact save/photo/rejected-object join.",
+      "predecessors": [
+        [
+          "B4-C11",
+          "B4-F011"
+        ],
+        [
+          "B4-C11",
+          "B4-F029"
+        ],
+        [
+          "B4-C25",
+          "B4-F011"
+        ],
+        [
+          "B4-C25",
+          "B4-F029"
+        ]
+      ]
+    },
+    {
+      "id": "P-CACHE-LIFETIME",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored N244 native owners and predicates, conditional lawful static reread; bounded save-state review separate from live event replay.",
+      "substantiates": "GC-35–37: preserved overlap versus erase/visit survival versus broad reset; ordinary full-load reconstruction inputs and transient contour state.",
+      "selector": "Owning Grid, live source pointer, ProcGen map holder and separate visit token; mode-2 threshold, 0x14078ce00 shift, 0x1409829b0 clear, 0x140788e70/0x140789850 broad resets and ordinary bAvoidClearOnReload conditions.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5av-report.md",
+        "docs/experiments/resource-retained-population/d5av-player-action-matrix.md",
+        "docs/experiments/resource-retained-population/d5av-cache-decision-matrix.md",
+        "docs/experiments/resource-retained-population/d5ah-lifecycle-matrix.md",
+        "docs/experiments/resource-retained-population/d5ah-review.md",
+        "docs/experiments/resource-retained-population/d5aj-invalidation-matrix.md",
+        "docs/experiments/resource-retained-population/d5aj-review.md",
+        "docs/experiments/resource-retained-population/d5ad-save-state-matrix.md",
+        "docs/experiments/resource-retained-population/d5ad-load-chronology.md",
+        "docs/experiments/resource-retained-population/d5ad-review.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [
+        "P-FIRST-MISS"
+      ],
+      "consequence": "Without owner/receiver predicates, travel destination, menu reentry or unchanged contours cannot identify a cache state or full-load branch.",
+      "predecessors": [
+        [
+          "RG-AV",
+          "owner-and-reset"
+        ],
+        [
+          "RG-AV",
+          "owning-grid"
+        ],
+        [
+          "RG-AV",
+          "save-channels"
+        ],
+        [
+          "RG-AV",
+          "save-load-order"
+        ]
+      ]
+    },
+    {
+      "id": "P-CALLBACK-FOLD",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "D5BF C19 exact candidate plus standalone verifier and original accepted review; prior local derivative replay, PENDING RELEASE.",
+      "substantiates": "346 historical ordered callback comparisons, 339 three-row, seven two-row and 340 unchanged redeliveries; zero selected-water append calls.",
+      "selector": "c19-callbacks-v1.json SHA-256 d37476dd5b33fca44423c1c0aaf239b43e8a98d8cf2ed97b15beaa4225906ada; observer 0.7.0 one Kreet session; original SOR-S-0146-LIVE-017/021/025 and raw record domain.",
+      "safety_rights": "D5BF APPROVED FOR PROPOSED RELEASE only; PENDING RELEASE. No hosting or distribution authorization. Read exact approved member with the project method; original file remains read-only.",
+      "sources": [
+        "docs/experiments/continuous-beacon-preview/live-scientific-report.md",
+        "docs/experiments/continuous-beacon-preview/review.md",
+        "docs/experiments/continuous-beacon-preview/live-sources.csv",
+        "docs/experiments/continuous-beacon-preview/native.md",
+        "docs/experiments/continuous-beacon-preview/validation.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/evidence-access-d5be/c19-manifest.json",
+        "docs/audits/evidence-access-d5be/c19.md",
+        "research/evidence-access/d5be/c19-verify.py"
+      ],
+      "requires": [
+        "P-AVAIL-NATIVE",
+        "D5BF-C19"
+      ],
+      "consequence": "The tracked synthetic fold cannot independently establish the historical callbacks. Hosted exact candidate and a positive comparison/negative-controls run close the bounded route.",
+      "predecessors": [
+        [
+          "B4-C19",
+          "live-fold-analysis"
+        ],
+        [
+          "B4-C19",
+          "live-fold-pins"
+        ],
+        [
+          "B4-C19",
+          "live-fold-report"
+        ],
+        [
+          "B4-C19",
+          "live-fold-review"
+        ],
+        [
+          "B4-C19",
+          "live-fold-summary"
+        ]
+      ]
+    },
+    {
+      "id": "P-CALLBACK-UPSTREAM",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Tracked report and source ledger; raw historical WAL/chronology LOCAL-ONLY. D5BE read the archived source under prior authority.",
+      "substantiates": "35,573 preview evaluations, one initialization, 611,926 raw records, and upstream QPC/producer candidate lineage beyond derivative.",
+      "selector": "C19 original archive resources-production.tar.zst and scope/sequence authentication. Operator A/B/C testimony is separate from exact Flash timing.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/continuous-beacon-preview/live-scientific-report.md",
+        "docs/experiments/continuous-beacon-preview/review.md",
+        "docs/experiments/continuous-beacon-preview/live-sources.csv",
+        "docs/experiments/continuous-beacon-preview/native.md",
+        "docs/experiments/continuous-beacon-preview/validation.md",
+        "docs/audits/evidence-access-d5be/c19.md"
+      ],
+      "requires": [],
+      "consequence": "Cannot independently recount complete upstream events or establish exact screen timing or unique producer ancestry. Candidate omits the necessary raw snapshots/clock joins."
+    },
+    {
+      "id": "P-D1-INCIDENT",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Tracked source-reported account and independent offline PARTIALLY DISCRIMINATED review; no independently time-labelled incident operands identified.",
+      "substantiates": "Whether a past disappearance/substitution occurred at the candidate site and which mechanism produced it.",
+      "selector": "D1-H1–H4 and original tested intervals. No incident-labelled pre/post vein, scanner/placement or output data. C19 is separate.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/disappearing-deposits/report.md",
+        "docs/experiments/disappearing-deposits/review.md",
+        "docs/experiments/disappearing-deposits/saves.csv",
+        "docs/experiments/disappearing-deposits/sites.csv",
+        "docs/experiments/disappearing-deposits/extractors.csv",
+        "docs/experiments/disappearing-deposits/hypotheses.md",
+        "docs/experiments/disappearing-deposits/native.md"
+      ],
+      "requires": [],
+      "consequence": "No route to endorse incident occurrence, timed causality or verified remedy from those samples. A future measured contrast would test a mechanism prospectively, not authenticate the past event."
+    },
+    {
+      "id": "P-D1-SAMPLES",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Tracked accepted report/derived saved operands. Selected exact originals include a useful positive contrast, but most primary historical comparison bytes remain LOCAL-ONLY.",
+      "substantiates": "Feynman VIII-b and Decaran VII-b site correspondence, unchanged saved anchor/center/delta across tested pairs and mature extractor contrasts.",
+      "selector": "CORE B4-F040 HIST-0267 and controlled B4-F029/F030/F037; B4-F046 HIST-0265, F068 HIST-0249, F069/F070 HIST-0250/0251 and F071 HIST-0266 LOCAL-ONLY. F068 1.16.242.0 header rejected; report exact mixed-header diagnostic for HIST-0250/0251.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/disappearing-deposits/report.md",
+        "docs/experiments/disappearing-deposits/review.md",
+        "docs/experiments/disappearing-deposits/saves.csv",
+        "docs/experiments/disappearing-deposits/sites.csv",
+        "docs/experiments/disappearing-deposits/extractors.csv",
+        "docs/experiments/disappearing-deposits/hypotheses.md",
+        "docs/experiments/disappearing-deposits/native.md",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/publication-readiness-b4/f1/file-dispositions.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Cannot repeat exact mature pair/negative comparisons from Save52 alone. The rejected earlier file cannot be promoted to an absence control. A small cleared saved-state derivative could support bounded sample checks only.",
+      "predecessors": [
+        [
+          "B4-C19",
+          "B4-F029"
+        ],
+        [
+          "B4-C19",
+          "B4-F040"
+        ],
+        [
+          "B4-C19",
+          "B4-F046"
+        ],
+        [
+          "B4-C19",
+          "ui-fold-and-d1"
+        ]
+      ]
+    },
+    {
+      "id": "P-D1-SITE-TABLE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored sites.csv and original scoped SAVE interpretation. Read-only comparison of transcribed fields.",
+      "substantiates": "Equality of the selected Workshop identity, body, pair, compensated center and delta across the named pairs.",
+      "selector": "Group D1 sites.csv by workshop_identifier98_hex and compare body_formid, pair_hex, center_xyz and delta_hex over the named HIST pairs.",
+      "safety_rights": "Read tracked authored data. Separate file-specific clearance is required for a raw save or incident evidence route.",
+      "sources": [
+        "docs/experiments/disappearing-deposits/sites.csv",
+        "docs/experiments/disappearing-deposits/report.md",
+        "docs/experiments/disappearing-deposits/review.md"
+      ],
+      "requires": [],
+      "consequence": "Without the transcribed operands the equality can only be attributed to the original report. The table does not establish original record detection or event timing."
+    },
+    {
+      "id": "P-EXTRACTOR-REGISTER",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked source-level conditional resource-key registration, remap and due-cycle analysis and original review.",
+      "substantiates": "GC-34 placement test, saved association and established ordinary producer consume separate state.",
+      "selector": "Effective resource selection and natural point predicate, saved producer key/placed reference/base, handle resolution, power/eligibility/destination gate.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5ah-extractor-continuity.md",
+        "docs/experiments/resource-retained-population/d5ah-review.md",
+        "docs/experiments/resource-retained-population/d5au-gap-closure-decisions.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [
+        "P-CACHE-LIFETIME"
+      ],
+      "consequence": "Without qualified remap and cycle selectors, neither current point eligibility nor actual output follows from saved producer registration.",
+      "predecessors": [
+        [
+          "RG-AV",
+          "producer-serialization"
+        ]
+      ]
+    },
+    {
+      "id": "P-FAB-0036",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "D5BF CORE approved exact witness proposal. This supersedes the obsolete B4 LOCAL-ONLY classification for the member, not for the historical corpus.",
+      "substantiates": "17 fabricators, 14 resource groups and the named detailed BF/base/producer joins and 24 local producer-path checks.",
+      "selector": "B4-F064 HIST-0036, exact first-party SHA-256 in F1/D5BF manifest. Save52 is a separate qualified witness and cannot substitute.",
+      "safety_rights": "D5BF APPROVED FOR PROPOSED RELEASE only; PENDING RELEASE. No hosting or distribution authorization. Read exact approved member with the project method; original file remains read-only.",
+      "sources": [
+        "docs/experiments/fabricators/report.md",
+        "docs/experiments/fabricators/review.md",
+        "docs/experiments/fabricators/sources.csv",
+        "docs/experiments/fabricators/definitions.md",
+        "docs/experiments/fabricators/native.md",
+        "docs/experiments/fabricators/saves.md",
+        "docs/experiments/fabricators/recipes.csv",
+        "docs/experiments/fabricators/facilities.csv",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ],
+      "requires": [
+        "P-FAB-STATIC",
+        "D5BF-CORE"
+      ],
+      "consequence": "Without CORE, readers retain E3 tables and conditions but cannot inspect the detailed historical source joins from the original.",
+      "predecessors": [
+        [
+          "B4-C06",
+          "B4-F064"
+        ]
+      ]
+    },
+    {
+      "id": "P-FAB-CENSUS",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Tracked report and selected authored tables; unselected historical inputs LOCAL-ONLY.",
+      "substantiates": "Original corpus-wide 105 positive saves and 1,190 rows.",
+      "selector": "E3 exact corpus cohort and framing/definition predicates; D5BF B4-F064/B4-F040 are representatives only.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/fabricators/report.md",
+        "docs/experiments/fabricators/review.md",
+        "docs/experiments/fabricators/sources.csv",
+        "docs/experiments/fabricators/definitions.md",
+        "docs/experiments/fabricators/native.md",
+        "docs/experiments/fabricators/saves.md",
+        "docs/experiments/fabricators/recipes.csv",
+        "docs/experiments/fabricators/facilities.csv",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ],
+      "requires": [
+        "P-FAB-STATIC"
+      ],
+      "consequence": "Original corpus census cannot be independently replayed from the staged witnesses. Exact totals can remain attributed to the original report.",
+      "predecessors": [
+        [
+          "B4-C06",
+          "B4-F040"
+        ],
+        [
+          "B4-C06",
+          "B4-F064"
+        ]
+      ]
+    },
+    {
+      "id": "P-FAB-STATIC",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored definitions, recipes and native decision scope; qualified lawfully installed main ESM procedure.",
+      "substantiates": "45 qualified fabricator bases and 30 ordinary recipes; construct/producer selection distinct from effective native craft cycle.",
+      "selector": "E3 sources.csv main ESM and N244 native locators; ordinary recipe and exceptional branches separately.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/fabricators/report.md",
+        "docs/experiments/fabricators/review.md",
+        "docs/experiments/fabricators/sources.csv",
+        "docs/experiments/fabricators/definitions.md",
+        "docs/experiments/fabricators/native.md",
+        "docs/experiments/fabricators/saves.md",
+        "docs/experiments/fabricators/recipes.csv",
+        "docs/experiments/fabricators/facilities.csv",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [],
+      "consequence": "No remaining equivalent proof of definition predicates or counts if the authored inputs and selectors are lost.",
+      "predecessors": [
+        [
+          "B4-C06",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "P-FIRST-MISS",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked original authored native decision/owner explanation, locators and review; conditional lawful N244 static reread.",
+      "substantiates": "GC-10 ordinary request authority; original Int2 consumed after eligible protected full-pointer map miss; visit bypass and map hit differ.",
+      "selector": "0x14079f860 path, visit/shared 0x14079fc37..0x14079fcd4, lookup 0x14079fccb, generation 0x14079ff18; compare/exchange admission, not ticket ordering.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5au-gap-closure-decisions.md",
+        "docs/experiments/resource-retained-population/d5ae-winner-model.md",
+        "docs/experiments/resource-retained-population/d5ae-review.md",
+        "docs/experiments/resource-retained-population/d5af-report.md",
+        "docs/experiments/resource-retained-population/d5af-review.md",
+        "docs/experiments/resource-retained-population/d5w-normal-path-model.md",
+        "docs/experiments/resource-retained-population/d5w-review.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [],
+      "consequence": "Without the native ordering argument, the original query cannot be assigned authority from registration or earlier visit check.",
+      "predecessors": [
+        [
+          "RG-AU",
+          "winner-rule"
+        ],
+        [
+          "RG-AU",
+          "writer-admission"
+        ]
+      ]
+    },
+    {
+      "id": "P-IDENTITY",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked inspectable report, selectors and derived owner table; conditional independent native reread with lawful N244 EXE/main ESM.",
+      "substantiates": "Direct ordinary Workshop ownership and construction-root interpretation; exclude retained assemblies with unresolved origin.",
+      "selector": "Explicit 0x054ba6 mode-zero direct owner edges, S0–S7C, Save52, reviewed native scope.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/workshop-membership/report.md",
+        "docs/experiments/workshop-membership/review.md",
+        "docs/experiments/workshop-membership/sources.csv",
+        "docs/experiments/workshop-membership/owners.csv",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [],
+      "consequence": "Without reviewed identity and root selectors, neither a placed-object root nor a present owner can be inferred from mere beacon or child records.",
+      "predecessors": [
+        [
+          "B4-C01",
+          "claim"
+        ],
+        [
+          "B4-C01",
+          "outpost_record_framing"
+        ]
+      ]
+    },
+    {
+      "id": "P-POSITION-ADDENDUM",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "B4-F1-ADDENDUM optional context only; B4-F009/F010. The remaining F004–F008 are local-only.",
+      "substantiates": "Map/screenshot appearance, range and landmark context only.",
+      "selector": "F1 member hashes; screenshot epoch/build unknown.",
+      "safety_rights": "D5BF APPROVED FOR PROPOSED RELEASE only; PENDING RELEASE. No hosting or distribution authorization. Read exact approved member with the project method; original file remains read-only.",
+      "sources": [
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/experiments/coordinate-sufficiency/fixed-poi.md"
+      ],
+      "requires": [
+        "D5BF-ADDENDUM"
+      ],
+      "consequence": "Loses two images as original visual witnesses; does not invalidate the saved coordinate arithmetic.",
+      "predecessors": [
+        [
+          "B4-C02",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "P-POSITION-ALL",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Local-only original position corpus and raw runtime controls; tracked check method/capability register.",
+      "substantiates": "Exact repeat of 23 frozen input comparisons and 40 native calls covering two Kreet geometries.",
+      "selector": "Position self-check check-03; build 050 EV0039; 20 repeats per geometry on one body/session, with fine-to-middle Y carry and later 060/Z contrast.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/position-model/specification.md",
+        "docs/position-model/review.md",
+        "docs/position-model/capabilities.md",
+        "docs/position-model/self-check.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ],
+      "requires": [
+        "P-POSITION-MATH"
+      ],
+      "consequence": "Representative CORE saves do not repeat 23 original inputs or authenticate the older captured 050/060 epochs. Use a reviewed minimal corpus/control derivative if advertising original replay.",
+      "predecessors": [
+        [
+          "B4-C18",
+          "frozen-position"
+        ]
+      ]
+    },
+    {
+      "id": "P-POSITION-CORE",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "B4-F1-CORE exact saved-byte route proposed, unhosted.",
+      "substantiates": "Named Kreet triplet and Save25/26 source/world and moved-beacon controls.",
+      "selector": "B4-F001/F002/F003/F047/F053, distinct controlled Save37–39/Save25/Save26; H? origin; F1 checksums and exact CS framing.",
+      "safety_rights": "D5BF APPROVED FOR PROPOSED RELEASE only; PENDING RELEASE. No hosting or distribution authorization. Read exact approved member with the project method; original file remains read-only.",
+      "sources": [
+        "docs/experiments/coordinate-sufficiency/report.md",
+        "docs/experiments/coordinate-sufficiency/review.md",
+        "docs/experiments/coordinate-sufficiency/positions.csv",
+        "docs/experiments/coordinate-sufficiency/fixed-controls.csv",
+        "docs/experiments/coordinate-sufficiency/inputs.csv",
+        "docs/experiments/coordinate-sufficiency/sources.csv",
+        "research/historical-methods/b3/cs-saves.py",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ],
+      "requires": [
+        "P-POSITION-MATH",
+        "D5BF-CORE",
+        "P-POSITION-METHOD"
+      ],
+      "consequence": "Without CORE the published operands can still be inspected, but exact records cannot be redecoded.",
+      "predecessors": [
+        [
+          "B4-C02",
+          "B4-F001"
+        ],
+        [
+          "B4-C18",
+          "B4-F001"
+        ]
+      ]
+    },
+    {
+      "id": "P-POSITION-MATH",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked operands and arithmetic method; independent arithmetic review; read-only.",
+      "substantiates": "Qualified ordinary structural cell/terrain hierarchy and compensated center arithmetic.",
+      "selector": "CS published operand rows, fixed Lab/New Atlantis and negative-X checks; distinguish structural cells, binary32 residuals and serialized raw fields.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/coordinate-sufficiency/report.md",
+        "docs/experiments/coordinate-sufficiency/review.md",
+        "docs/experiments/coordinate-sufficiency/positions.csv",
+        "docs/experiments/coordinate-sufficiency/fixed-controls.csv",
+        "docs/experiments/coordinate-sufficiency/inputs.csv",
+        "docs/experiments/coordinate-sufficiency/sources.csv",
+        "docs/position-model/specification.md",
+        "docs/position-model/review.md",
+        "docs/position-model/capabilities.md",
+        "docs/position-model/self-check.md",
+        "research/historical-methods/b3/cs-numbers.py"
+      ],
+      "requires": [],
+      "consequence": "Loses auditable coordinate arithmetic and thus conditional sufficiency.",
+      "predecessors": [
+        [
+          "B4-C02",
+          "claim"
+        ],
+        [
+          "B4-C02",
+          "cs-saves"
+        ],
+        [
+          "B4-C18",
+          "claim"
+        ],
+        [
+          "B4-C18",
+          "cs-numbers"
+        ]
+      ]
+    },
+    {
+      "id": "P-POSITION-METHOD",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "B3 historical source available, full replay unqualified. Qualify a finite reader for the named selected original-save joins.",
+      "substantiates": "Safe recovery of the named descriptor, player, beacon and typed world operands from original save bytes.",
+      "selector": "B3 cs-saves.py and cs-more.py. CPython 3.14.3, repository framing modules, pinned main ESM/index and owned body catalog, plus the named fixed-anchor baseline and selected source manifest receipts.",
+      "safety_rights": "Historical source uses a recreated layout and writes exclusive Save*.json and decode scratch. Use disposable caller-owned output. No game, installed file or original save writes.",
+      "sources": [
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/method-reproduction.md",
+        "research/historical-methods/b3/cs-saves.py",
+        "research/historical-methods/b3/cs-more.py",
+        "docs/experiments/coordinate-sufficiency/sources.csv"
+      ],
+      "requires": [],
+      "consequence": "Reader source alone cannot reproduce the named joins. Qualify existing compatible inputs or an exact bounded replacement for the fixed-anchor manifest, ESM index and selected intermediate receipts before advertising raw-byte verification.",
+      "predecessors": [
+        [
+          "B4-C02",
+          "methods"
+        ],
+        [
+          "B4-C02",
+          "domain-method"
+        ]
+      ]
+    },
+    {
+      "id": "P-ROOT-COUNTS",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "B4-F1-CORE proposed original-byte route; prior reviewed reanalysis, not hosted.",
+      "substantiates": "Exact Save52 848 supported roots and the ordinary-member versus retained canonical Hab distinction.",
+      "selector": "B4-F040 HIST-0267; supplementary B4-F042/F043 controls; F1 member SHA-256s; pinned B3 save framing and Workshop-population selectors.",
+      "safety_rights": "D5BF APPROVED FOR PROPOSED RELEASE only; PENDING RELEASE. No hosting or distribution authorization. Read exact approved member with the project method; original file remains read-only.",
+      "sources": [
+        "docs/experiments/workshop-population/report.md",
+        "docs/experiments/workshop-population/review.md",
+        "docs/experiments/workshop-population/sources.csv",
+        "docs/experiments/workshop-population/owners.csv",
+        "docs/experiments/workshop-population/candidates.csv",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ],
+      "requires": [
+        "P-IDENTITY",
+        "D5BF-CORE"
+      ],
+      "consequence": "Without these bytes the case is inspectable as a reported positive count and membership counterexample only.",
+      "predecessors": [
+        [
+          "B4-C17",
+          "B4-F040"
+        ],
+        [
+          "B4-C17",
+          "B4-F042"
+        ],
+        [
+          "B4-C17",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "P-ROOT-TABLE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored owners.csv and original report/review. Read-only arithmetic on represented rows.",
+      "substantiates": "A recount of 848 supported roots and 8,627 direct-member records across the 19 tracked rows.",
+      "selector": "Workshop population owners.csv, columns supported_constructed_roots and direct_member_records.",
+      "safety_rights": "Read tracked authored aggregate data. No original bytes or proprietary exports are required for the sum.",
+      "sources": [
+        "docs/experiments/workshop-population/owners.csv",
+        "docs/experiments/workshop-population/report.md",
+        "docs/experiments/workshop-population/review.md"
+      ],
+      "requires": [],
+      "consequence": "Without the table, the totals would be attributable to the original report alone. The table cannot repeat the original record detections."
+    },
+    {
+      "id": "P-SHARED-CENSUS",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Original complete qualified source corpus is LOCAL-ONLY and unselected; tracked derivative does not supply original bytes.",
+      "substantiates": "Exact original-source replay of the SD2 corpus extraction, beyond three available candidate saves.",
+      "selector": "SD2 corpus.csv, source ledger and sd2-survey.py; original saves, qualified inline-base framing and pinned add-on/main inputs.",
+      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "sources": [
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md",
+        "research/historical-methods/b3/sd2-survey.py",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ],
+      "requires": [
+        "P-SHARED-TABLE"
+      ],
+      "consequence": "No corpus-wide original reanalysis from proposed release set; separate scoped action only if maintainer selects that stronger tier.",
+      "predecessors": [
+        [
+          "B4-C14",
+          "original-corpus"
+        ]
+      ]
+    },
+    {
+      "id": "P-SHARED-CORE-CENSUS",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "Proposed D5BF CORE and qualified SD2 inline-base reader. Exact original-byte replay pending release.",
+      "substantiates": "Positive inline-base census controls of 16 and 17 records in HIST-0255 and HIST-0267 respectively.",
+      "selector": "B4-F051/HIST-0255 and B4-F040/HIST-0267. Use SD2 corpus.csv and the pinned add-on/main and framing context.",
+      "safety_rights": "D5BF approval covers the proposed files and awaits distribution authorization. Read-only original input and disposable decoded scratch per the B3 contract.",
+      "sources": [
+        "docs/guides/shared-storage.md",
+        "docs/reference/shared-storage.md",
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ],
+      "requires": [
+        "P-SHARED-TABLE",
+        "D5BF-CORE"
+      ],
+      "consequence": "Omitting either member loses its own census control. This route is independent of the separate HIST-0036 fresh owner joins.",
+      "predecessors": [
+        [
+          "B4-C14",
+          "B4-F040"
+        ],
+        [
+          "B4-C14",
+          "B4-F051"
+        ]
+      ]
+    },
+    {
+      "id": "P-SHARED-ORIGINALS",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "D5BF CORE approved exact first-party representative witness proposal. Current CORE supersedes the B4-HIST-0036 local-only restriction for this exact member.",
+      "substantiates": "17 fresh HIST-0036 fixture-to-beacon joins.",
+      "selector": "B4-F064/HIST-0036 fresh joins; exact B3/SD2 add-on/main and framing.",
+      "safety_rights": "D5BF APPROVED FOR PROPOSED RELEASE only; PENDING RELEASE. No hosting or distribution authorization. Read exact approved member with the project method; original file remains read-only.",
+      "sources": [
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md",
+        "research/historical-methods/b3/sd2-survey.py",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ],
+      "requires": [
+        "P-SHARED-STATIC",
+        "D5BF-CORE"
+      ],
+      "consequence": "Omitting F064 loses the selected fresh owner-join witness. The checked owner joins do not establish exact backing quantities or actual spend.",
+      "predecessors": [
+        [
+          "B4-C14",
+          "B4-F064"
+        ]
+      ]
+    },
+    {
+      "id": "P-SHARED-STATIC",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored backing-reference, source and count/spend branch reconstruction with selectors; lawful N244/native reread conditional.",
+      "substantiates": "One player+0x1008 backing reference, ordinary fixture/owner boundaries and conditional bench/link/ship/Workshop/player vectors.",
+      "selector": "SD2 installed add-on SFBGS00D.esm/main ESM and native source ledger; exact ordinary fixture and recipe predicates.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ],
+      "requires": [],
+      "consequence": "Neither fixture membership nor actual craft-source behavior can be established from an unqualified saved fixture record.",
+      "predecessors": [
+        [
+          "B4-C14",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "P-SHARED-TABLE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked per-save derivative rows with accepted review; inspect/recount published table.",
+      "substantiates": "124 positive qualified saves and 1,499 inline-base records as arithmetic on the authored derivative.",
+      "selector": "SD2 corpus.csv and report case/counting definitions.",
+      "safety_rights": "Inspect tracked project-authored scoped reasoning and authored data. Independently obtained proprietary inputs stay local; no executable export, live call or permission to redistribute.",
+      "sources": [
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md"
+      ],
+      "requires": [],
+      "consequence": "Loses public table arithmetic if the per-save derivative is unavailable. Counting these rows cannot verify raw extraction."
+    },
+    {
+      "id": "P-SHARED-TRIO",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "Tracked original report and review; HIST-0018 and HIST-0257 absent from the proposed asset inventory.",
+      "substantiates": "The complete original fresh owner-join trio, independently of the historical positive-base census.",
+      "selector": "SD2 saves.md Fresh representative joins beyond Save52 and the original joins01.json witness. HIST-0018/0036/0257 have 1/17/19 owner joins.",
+      "safety_rights": "Read-only historical input interpretation. Any additional original or bounded derivative needs file-specific rights, privacy and sufficiency review.",
+      "sources": [
+        "docs/guides/shared-storage.md",
+        "docs/reference/shared-storage.md",
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ],
+      "requires": [
+        "P-SHARED-ORIGINALS"
+      ],
+      "consequence": "Prefer the selected exact HIST-0036 tier. If the full fresh trio is selected, recover and qualify the two absent original inputs or a narrowly approved representation of their exact owner joins."
+    },
+    {
+      "id": "P-U26-CONTROL",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored report, reachability proof, catalogue and complete represented geometry for the selected U26 outcomes. Prior native fixture replay is reported.",
+      "substantiates": "The three distinct qualified QS1 outcome classes and concrete native geometry discriminators.",
+      "selector": "U26 masks 0/1/3; original relative queries (11,-1), (-1,-1), (-1,11); D5U geometry.json source_id U26.",
+      "safety_rights": "Read tracked authored explanations and derived data. Native fixture repetition would require lawful pinned binaries, source data and qualified effects in separate scope.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5u-methods.md",
+        "docs/experiments/resource-retained-population/d5u-review.md",
+        "docs/experiments/resource-retained-population/d5u/catalogue.csv",
+        "docs/experiments/resource-retained-population/d5u/geometry.json",
+        "docs/experiments/resource-retained-population/d5u-sources.csv"
+      ],
+      "requires": [],
+      "consequence": "The selected documented control and derived geometry tier remains inspectable. Whole native fixture repetition and retail outcomes remain separate.",
+      "predecessors": [
+        [
+          "RG-AU",
+          "other-source-counterexample"
+        ]
+      ]
+    },
+    {
+      "id": "P-W-POINT-CONTRAST",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored reasoning and per-region native predicate results with point/frame, mask and selected geometry pins. Earlier native evaluation is recorded in the original report and review.",
+      "substantiates": "One concrete difference in Ionic Liquids point eligibility despite unchanged area inclusion under supplied alternatives.",
+      "selector": "D5W Q3; original preferred VA 0x142346b30; IRES 0x000057d4; point-comparison.json results for mask 0 and 3.",
+      "safety_rights": "Read tracked text and derived data. Exact native replay would need independently supplied pinned geometry and an authorized fixture environment.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5w-report.md",
+        "docs/experiments/resource-retained-population/d5w-review.md",
+        "docs/experiments/resource-retained-population/d5w/point-comparison.json",
+        "docs/experiments/resource-retained-population/d5w-normal-path-model.md"
+      ],
+      "requires": [],
+      "consequence": "Without the point/frame and per-region checks, area presence alone cannot support point eligibility. The derived comparison does not substitute for the raw fixture or actual placement."
+    },
+    {
+      "id": "S-C2-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Shared-hold movement, VM game-time one-shot stages and separate native travel completion",
+      "selector": "C2 timing/lifecycle/inventory; transit report fixed dock assumptions and native MotionStage providers; exact PEX/N244 pins",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/cargo-links/transport/report.md",
+        "docs/experiments/cargo-links/transport/review.md",
+        "docs/experiments/cargo-links/transport/cycle.md",
+        "docs/experiments/cargo-links/transport/inventory.md",
+        "docs/experiments/cargo-links/transport/timing.md",
+        "docs/experiments/cargo-links/transport/lifecycle.md",
+        "docs/experiments/cargo-links/transport/transit.md",
+        "docs/experiments/cargo-links/transport/transit-review.md",
+        "docs/experiments/cargo-links/transport/transit-sources.csv",
+        "docs/experiments/cargo-links/configuration-ui/report.md",
+        "docs/experiments/cargo-links/configuration-ui/review.md",
+        "docs/experiments/cargo-links/configuration-ui/sources.csv"
+      ],
+      "requires": [],
+      "consequence": "Loses causal explanation and timing boundary; Save52 alone cannot supply it.",
+      "predecessors": [
+        [
+          "B4-C09",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-C2-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Primary shipped script and native reproduction",
+      "selector": "Pinned Misc.ba2 PEX, ESM VMAD, N244 EXE and selected offline PEX/native methods; Ghidra/Temurin per B3 contract",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/cargo-links/transport/report.md",
+        "docs/experiments/cargo-links/transport/review.md",
+        "docs/experiments/cargo-links/transport/cycle.md",
+        "docs/experiments/cargo-links/transport/inventory.md",
+        "docs/experiments/cargo-links/transport/timing.md",
+        "docs/experiments/cargo-links/transport/lifecycle.md",
+        "docs/experiments/cargo-links/transport/transit.md",
+        "docs/experiments/cargo-links/transport/transit-review.md",
+        "docs/experiments/cargo-links/transport/transit-sources.csv",
+        "docs/experiments/cargo-links/configuration-ui/report.md",
+        "docs/experiments/cargo-links/configuration-ui/review.md",
+        "docs/experiments/cargo-links/configuration-ui/sources.csv",
+        "research/c2-transport/README.md",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "No exact historic VM/timer/route epoch replay.",
+      "predecessors": [
+        [
+          "B4-C09",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-C23-SAVE52",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Reciprocal pair and hold/stock/fuel-source verification from the original",
+      "selector": "B4-F040; C2 saves, C1 pair at ff02dc37 / decoded 2344136, C3 exact He-3 source/producer selectors",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/cargo-links/transport/saves.md",
+        "docs/experiments/cargo-links/transport/review.md",
+        "docs/experiments/cargo-links/transport/sources.csv",
+        "docs/experiments/cargo-links/configuration-ui/save52.md",
+        "docs/experiments/cargo-links/configuration-ui/review.md",
+        "docs/experiments/cargo-links/fuel/saves.md",
+        "docs/experiments/cargo-links/fuel/review.md",
+        "research/c2-transport/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Without this candidate and selector, exact saved-byte verification remains conditional.",
+      "predecessors": [
+        [
+          "B4-C09",
+          "B4-F040"
+        ],
+        [
+          "B4-C23",
+          "B4-F040"
+        ]
+      ]
+    },
+    {
+      "id": "S-C23-VM-NETWORK",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "LOCAL-ONLY original basis or capture absent; tracked report preserves historical context",
+      "substantiates": "Private original network comparator and actual historical VM/event context",
+      "selector": "D5AX C23 residual; C2 saves VM rows, specific Save52 timer unknown; original mature manual comparator outside CORE",
+      "safety_rights": "Historical locator and limitations only. Any recovered derivative, tool use or new capture requires its own applicable approvals.",
+      "sources": [
+        "docs/experiments/mature-save-outpost-validation.md",
+        "docs/experiments/cargo-links/transport/saves.md",
+        "docs/experiments/cargo-links/transport/timing.md",
+        "docs/experiments/cargo-links/transport/transit.md",
+        "docs/experiments/cargo-links/transport/transit-review.md",
+        "docs/audits/publication-architecture-d5ax/evidence-access.md"
+      ],
+      "requires": [],
+      "consequence": "The exact private-network agreement at original tier and historical timer/flight event remain unavailable. Static explanation and selected saved links survive."
+    },
+    {
+      "id": "S-C3-ACCEPT-RECEIPT",
+      "materiality": "SUPPORTING",
+      "state": "CONTEXT",
+      "route": "LOCAL-ONLY authenticated review provenance; not public scientific input",
+      "substantiates": "Historical C3 criterion 8 receipt-conditioned acceptance",
+      "selector": "Active cargo baseline archive/index SHA-256 verified. Three exact metadata members read in memory and member SHA-256 matched. Review 6248d295a67d892b27910579abfc6fb06bdffc8a77112506e3309e782c9ee1da; seal 813356ffe4d9dbbb0c38152de512ea91902d47fd81607b5066dc71fb4ae44be7; package 4e095899d7e6400f0778b4fda6424d168f713bccf909f019586ae150cf4081e5.",
+      "safety_rights": "Read-only Python standard-library Zstandard/tar stream; only three exact authored review members read, no extraction or copying, no native/game use. Preserve receipt access limits.",
+      "sources": [
+        "docs/experiments/cargo-evidence-cutover/active-baseline.json",
+        "docs/experiments/cargo-links/fuel/report.md",
+        "docs/experiments/cargo-links/fuel/review.md",
+        "docs/experiments/cargo-links/fuel/native.md",
+        "docs/experiments/cargo-links/fuel/stages.md",
+        "docs/experiments/cargo-links/fuel/sources.csv",
+        "docs/experiments/cargo-links/fuel/saves.md",
+        "docs/experiments/cargo-links/fuel/time.md"
+      ],
+      "requires": [],
+      "consequence": "Historical receipt custody would be lost; the tracked causal evidence remains independently inspectable.",
+      "predecessors": [
+        [
+          "B4-C23",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-C3-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Independent recipe withdrawal, stage readiness, retry and separate elapsed work",
+      "selector": "ACTI 0x219523; readiness preferred VA 0x140f7d120 mode 0/1; C3 stages and time examples",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/cargo-links/fuel/report.md",
+        "docs/experiments/cargo-links/fuel/review.md",
+        "docs/experiments/cargo-links/fuel/native.md",
+        "docs/experiments/cargo-links/fuel/stages.md",
+        "docs/experiments/cargo-links/fuel/sources.csv",
+        "docs/experiments/cargo-links/fuel/saves.md",
+        "docs/experiments/cargo-links/fuel/time.md"
+      ],
+      "requires": [],
+      "consequence": "Loses the source-derived distinction between fuel consumption and shipment admission.",
+      "predecessors": [
+        [
+          "B4-C23",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-C3-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Exact EXE/ESM/PEX member and fuel-sample comparison",
+      "selector": "Lawful N244 and C3 member pins; historical independent inputs in C3 sources, no required private timeline for the selected mechanism",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/cargo-links/fuel/report.md",
+        "docs/experiments/cargo-links/fuel/review.md",
+        "docs/experiments/cargo-links/fuel/native.md",
+        "docs/experiments/cargo-links/fuel/stages.md",
+        "docs/experiments/cargo-links/fuel/sources.csv",
+        "docs/experiments/cargo-links/fuel/saves.md",
+        "docs/experiments/cargo-links/fuel/time.md",
+        "research/c3-fuel/README.md",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "Primary comparison remains conditional; no historical consumption event is promised.",
+      "predecessors": [
+        [
+          "B4-C23",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-CR2-R1-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Consumer-specific crew effects and separate constructed robot count",
+      "selector": "CR2 stacking and R1 catalogue/effects/limits",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/crew-skills/report.md",
+        "docs/experiments/crew-skills/review.md",
+        "docs/experiments/crew-skills/sources.csv",
+        "docs/experiments/crew-skills/stacking.md",
+        "docs/experiments/robots/report.md",
+        "docs/experiments/robots/limits.md",
+        "docs/experiments/robots/effects.md",
+        "docs/experiments/robots/persistence.md",
+        "docs/experiments/robots/catalogue.csv",
+        "docs/experiments/robots/sources.csv",
+        "docs/experiments/robots/review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses the evidence separating charge counts, effects and consumer scopes.",
+      "predecessors": [
+        [
+          "B4-C24",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-CR2-R1-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Definitions and selected saved robot actor reread",
+      "selector": "Lawful pinned EXE/ESM, scoped actor reader and selector pins",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/crew-skills/report.md",
+        "docs/experiments/crew-skills/review.md",
+        "docs/experiments/crew-skills/sources.csv",
+        "docs/experiments/crew-skills/stacking.md",
+        "docs/experiments/robots/report.md",
+        "docs/experiments/robots/limits.md",
+        "docs/experiments/robots/effects.md",
+        "docs/experiments/robots/persistence.md",
+        "docs/experiments/robots/catalogue.csv",
+        "docs/experiments/robots/sources.csv",
+        "docs/experiments/robots/review.md",
+        "research/r1-robots/README.md",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "No complete original corpus replay.",
+      "predecessors": [
+        [
+          "B4-C24",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-CR2-VASCO",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF ADDENDUM member(s), PENDING RELEASE, plus qualified offline reader. Independent original-witness inspection requires the optional ADDENDUM download.",
+      "substantiates": "HIST-0024 Vasco ship-rank comparator",
+      "selector": "B4-F048; CR2 report and sources",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/crew-skills/report.md",
+        "docs/experiments/crew-skills/review.md",
+        "docs/experiments/crew-skills/sources.csv",
+        "docs/experiments/crew-skills/stacking.md",
+        "docs/experiments/robots/report.md",
+        "docs/experiments/robots/limits.md",
+        "docs/experiments/robots/effects.md",
+        "docs/experiments/robots/persistence.md",
+        "docs/experiments/robots/catalogue.csv",
+        "docs/experiments/robots/sources.csv",
+        "docs/experiments/robots/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-ADDENDUM"
+      ],
+      "consequence": "Without optional original, cite only reported saved comparator; no bearing on ordinary conditional mechanism.",
+      "predecessors": [
+        [
+          "B4-C10",
+          "B4-F048"
+        ],
+        [
+          "B4-C24",
+          "B4-F048"
+        ],
+        [
+          "B4-C24",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-CR3-CORE",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Named assignment/rank witnesses",
+      "selector": "B4-F040/F051; HIST-0255 Lin/Heller identities; compare CR3 saved channels",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/crew-lifecycle/report.md",
+        "docs/experiments/crew-lifecycle/native.md",
+        "docs/experiments/crew-lifecycle/persistence.md",
+        "docs/experiments/crew-lifecycle/witnesses.csv",
+        "docs/experiments/crew-lifecycle/sources.csv",
+        "docs/experiments/crew-lifecycle/review.md",
+        "docs/experiments/crew/report.md",
+        "docs/experiments/crew/capacity.md",
+        "docs/experiments/crew/review.md",
+        "docs/experiments/crew/current-review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Without these originals the specific saved joins are reported corroboration.",
+      "predecessors": [
+        [
+          "B4-C10",
+          "B4-F040"
+        ],
+        [
+          "B4-C10",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-CR3-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Assignment, slot limits, restore and eligible active entries",
+      "selector": "CR1 capacity; CR3 selected rank/process storage and consumer order",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/crew-lifecycle/report.md",
+        "docs/experiments/crew-lifecycle/native.md",
+        "docs/experiments/crew-lifecycle/persistence.md",
+        "docs/experiments/crew-lifecycle/witnesses.csv",
+        "docs/experiments/crew-lifecycle/sources.csv",
+        "docs/experiments/crew-lifecycle/review.md",
+        "docs/experiments/crew/report.md",
+        "docs/experiments/crew/capacity.md",
+        "docs/experiments/crew/review.md",
+        "docs/experiments/crew/current-review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses the native distinction between roster, eligibility and realized effects.",
+      "predecessors": [
+        [
+          "B4-C10",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-CR3-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Historical actor-template or definition review",
+      "selector": "Pinned EXE/ESM, exact R3 typed actor extras and historical source layout",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/crew-lifecycle/report.md",
+        "docs/experiments/crew-lifecycle/native.md",
+        "docs/experiments/crew-lifecycle/persistence.md",
+        "docs/experiments/crew-lifecycle/witnesses.csv",
+        "docs/experiments/crew-lifecycle/sources.csv",
+        "docs/experiments/crew-lifecycle/review.md",
+        "docs/experiments/crew/report.md",
+        "docs/experiments/crew/capacity.md",
+        "docs/experiments/crew/review.md",
+        "docs/experiments/crew/current-review.md",
+        "research/cr3-lifecycle/README.md",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "No universal actor-tail or load ordering replay.",
+      "predecessors": [
+        [
+          "B4-C10",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-DA1-H255",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Five damaged-device positive witnesses and controls",
+      "selector": "B4-F051 / HIST-0255, DA1 persistence table and ExtraBF branches",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/outpost-defense/report.md",
+        "docs/experiments/outpost-defense/attacks.md",
+        "docs/experiments/outpost-defense/defenses.md",
+        "docs/experiments/outpost-defense/integrity.md",
+        "docs/experiments/outpost-defense/persistence.md",
+        "docs/experiments/outpost-defense/scripts.csv",
+        "docs/experiments/outpost-defense/sources.csv",
+        "docs/experiments/outpost-defense/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Without this save do not claim exact original-byte replay; no save by itself identifies an attacker.",
+      "predecessors": [
+        [
+          "B4-C12",
+          "B4-F051"
+        ],
+        [
+          "B4-C12",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-DA1-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Attack-selection gates, narrow defense-score negative and Integrity/repair authority",
+      "selector": "DA1 complete selected PEX functions, VMAD and Integrity/Health sections",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/outpost-defense/report.md",
+        "docs/experiments/outpost-defense/attacks.md",
+        "docs/experiments/outpost-defense/defenses.md",
+        "docs/experiments/outpost-defense/integrity.md",
+        "docs/experiments/outpost-defense/persistence.md",
+        "docs/experiments/outpost-defense/scripts.csv",
+        "docs/experiments/outpost-defense/sources.csv",
+        "docs/experiments/outpost-defense/review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses the causal opportunity gate and distinction from already running attacks.",
+      "predecessors": [
+        [
+          "B4-C12",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-DA1-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Primary EXE/PEX and selected device comparison",
+      "selector": "N244, exact installed scripts and actor/REFR selectors",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/outpost-defense/report.md",
+        "docs/experiments/outpost-defense/attacks.md",
+        "docs/experiments/outpost-defense/defenses.md",
+        "docs/experiments/outpost-defense/integrity.md",
+        "docs/experiments/outpost-defense/persistence.md",
+        "docs/experiments/outpost-defense/scripts.csv",
+        "docs/experiments/outpost-defense/sources.csv",
+        "docs/experiments/outpost-defense/review.md",
+        "research/historical-methods/b3/da1-defense/pex_da1.py",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "Exact native/PEX replay and historical device checks require their inputs.",
+      "predecessors": [
+        [
+          "B4-C12",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-E1-BM2-ARITHMETIC",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored operands and calculation; recompute the finite example",
+      "substantiates": "Binary32 interval conversion and nominal summation",
+      "selector": "resource-intervals.csv, arithmetic-production and BM2 production; docs/reference/inorganic-production.md contains repeatable check",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/inorganic-extractors/arithmetic-report.md",
+        "docs/experiments/inorganic-extractors/arithmetic-review.md",
+        "docs/experiments/inorganic-extractors/arithmetic-production.md",
+        "docs/experiments/inorganic-extractors/arithmetic-sources.csv",
+        "docs/experiments/inorganic-extractors/resource-intervals.md",
+        "docs/experiments/inorganic-extractors/resource-intervals.csv",
+        "docs/experiments/inorganic-extractors/resource-intervals-review.md",
+        "docs/experiments/build-catalogue/production.md",
+        "docs/experiments/build-catalogue/sources.csv",
+        "docs/experiments/build-catalogue/review.md",
+        "docs/reference/inorganic-production.md"
+      ],
+      "requires": [],
+      "consequence": "Loss prevents the selected calculation from being independently recomputed.",
+      "predecessors": [
+        [
+          "B4-C20",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-E1-BM2-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Verify original definitions and rendering rule",
+      "selector": "Lawful pinned ESM and compiled UI member with exact selectors in arithmetic-sources and BM2",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/inorganic-extractors/arithmetic-report.md",
+        "docs/experiments/inorganic-extractors/arithmetic-review.md",
+        "docs/experiments/inorganic-extractors/arithmetic-production.md",
+        "docs/experiments/inorganic-extractors/arithmetic-sources.csv",
+        "docs/experiments/inorganic-extractors/resource-intervals.md",
+        "docs/experiments/inorganic-extractors/resource-intervals.csv",
+        "docs/experiments/inorganic-extractors/resource-intervals-review.md",
+        "docs/experiments/build-catalogue/production.md",
+        "docs/experiments/build-catalogue/sources.csv",
+        "docs/experiments/build-catalogue/review.md",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "No inference of actual stock or rate from nominal arithmetic.",
+      "predecessors": [
+        [
+          "B4-C20",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-E1-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Resource-keyed production, ordinary point placement, timer/reason/admission split",
+      "selector": "0x140f3f9a0 → 0x140f7c290; 0x140f7ef20 → 0x140f7f1e0; D5AH serializer/owner/return maps",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/inorganic-extractors/report.md",
+        "docs/experiments/inorganic-extractors/native.md",
+        "docs/experiments/inorganic-extractors/sources.csv",
+        "docs/experiments/inorganic-extractors/review.md",
+        "docs/experiments/resource-retained-population/d5ah-extractor-continuity.md",
+        "docs/experiments/resource-retained-population/d5ah-extractor-owner.md",
+        "docs/experiments/resource-retained-population/d5ah-review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses the causal placement-versus-producer distinction.",
+      "predecessors": [
+        [
+          "B4-C04",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-E1-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Primary definition/native checks",
+      "selector": "E1 ledgers select lawful N244 ESM, EXE and prior bounded export locators",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/inorganic-extractors/report.md",
+        "docs/experiments/inorganic-extractors/native.md",
+        "docs/experiments/inorganic-extractors/sources.csv",
+        "docs/experiments/inorganic-extractors/review.md",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "Exact original static tool replay cannot be advertised.",
+      "predecessors": [
+        [
+          "B4-C04",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-E1-SAVES",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Controlled iron transitions and mature positive producer joins",
+      "selector": "B4-F029/F030/F031/F032/F037/F038/F040; original E1 sources and controlled series",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/inorganic-extractors/report.md",
+        "docs/experiments/inorganic-extractors/native.md",
+        "docs/experiments/inorganic-extractors/sources.csv",
+        "docs/experiments/inorganic-extractors/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Loss limits independent reread of exact historical positive joins, not the selected source-level mechanism.",
+      "predecessors": [
+        [
+          "B4-C04",
+          "B4-F029"
+        ],
+        [
+          "B4-C04",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-E2-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Domesticability, recipe and knowledge selection, transitive input availability and persistence",
+      "selector": "E2 facilities table; native candidate, input-cap and persistence sections",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/organic-facilities/report.md",
+        "docs/experiments/organic-facilities/native.md",
+        "docs/experiments/organic-facilities/facilities.csv",
+        "docs/experiments/organic-facilities/sources.csv",
+        "docs/experiments/organic-facilities/review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses source-level explanation of menu choice and operating gates.",
+      "predecessors": [
+        [
+          "B4-C05",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-E2-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Physical definition and menu verification",
+      "selector": "E2 source-ledger ESM, compiled UI member and selected read-only methods",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/organic-facilities/report.md",
+        "docs/experiments/organic-facilities/native.md",
+        "docs/experiments/organic-facilities/facilities.csv",
+        "docs/experiments/organic-facilities/sources.csv",
+        "docs/experiments/organic-facilities/review.md",
+        "research/e2-organic/README.md",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "Tracked argument remains inspectable; exact native/UI replay remains conditional.",
+      "predecessors": [
+        [
+          "B4-C05",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-E2-SAVE52",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Six saved greenhouse rows and Water input relations",
+      "selector": "B4-F040 / HIST-0267, native persistence section and E2 exact selectors",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/organic-facilities/report.md",
+        "docs/experiments/organic-facilities/native.md",
+        "docs/experiments/organic-facilities/facilities.csv",
+        "docs/experiments/organic-facilities/sources.csv",
+        "docs/experiments/organic-facilities/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Loses independent verification of exact saved joins; the claim does not promote them to the only mechanism route.",
+      "predecessors": [
+        [
+          "B4-C05",
+          "B4-F040"
+        ],
+        [
+          "B4-C05",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-LO1-APPEARANCE",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF ADDENDUM member(s), PENDING RELEASE, plus qualified offline reader. Independent original-witness inspection requires the optional ADDENDUM download.",
+      "substantiates": "One/mature UI contrast",
+      "selector": "B4-F062/F063; LO1 reused screens",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/locations-outpost/report.md",
+        "docs/experiments/locations-outpost/native-and-ui.md",
+        "docs/experiments/locations-outpost/field-lineage.md",
+        "docs/experiments/locations-outpost/reuse-and-gaps.md",
+        "docs/experiments/locations-outpost/sources.csv",
+        "docs/experiments/locations-outpost/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-ADDENDUM"
+      ],
+      "consequence": "Loss affects visual context only; an image does not certify complete membership.",
+      "predecessors": [
+        [
+          "B4-C16",
+          "B4-F062"
+        ],
+        [
+          "B4-C16",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-LO1-LINEAGE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Field-level provider joins and separate selected body/system metadata",
+      "selector": "LO1 field-lineage rows and selected metadata/refresh sections",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/locations-outpost/report.md",
+        "docs/experiments/locations-outpost/native-and-ui.md",
+        "docs/experiments/locations-outpost/field-lineage.md",
+        "docs/experiments/locations-outpost/reuse-and-gaps.md",
+        "docs/experiments/locations-outpost/sources.csv",
+        "docs/experiments/locations-outpost/review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses the field-to-provider and authority distinctions.",
+      "predecessors": [
+        [
+          "B4-C16",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-LO1-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Primary compiled asset/native lineage",
+      "selector": "Pinned Interface/Localization members, N244 and exact body controls",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/locations-outpost/report.md",
+        "docs/experiments/locations-outpost/native-and-ui.md",
+        "docs/experiments/locations-outpost/field-lineage.md",
+        "docs/experiments/locations-outpost/reuse-and-gaps.md",
+        "docs/experiments/locations-outpost/sources.csv",
+        "docs/experiments/locations-outpost/review.md",
+        "research/historical-methods/b3/lo1-locations/menu_abc.py",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "No current provider execution or synchronized epoch replay.",
+      "predecessors": [
+        [
+          "B4-C16",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-P1-LOAD-SAVE",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Separate decoded Save29 bits and pair identity",
+      "selector": "B4-F054 / Save29, Extra9C mask 0x40 at three named decoded-stream ranges",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/power/save29-test-plan.md",
+        "docs/experiments/power/load-determinism.md",
+        "docs/experiments/power/save29-authority.md",
+        "docs/experiments/power/save29-authority-review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Exact saved bits are independently checkable only when hosted and reader-qualified; they cannot close the historical event.",
+      "predecessors": [
+        [
+          "B4-C07",
+          "B4-F054"
+        ],
+        [
+          "B4-C21",
+          "B4-F054"
+        ]
+      ]
+    },
+    {
+      "id": "S-P1-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Graph partition and allocation; separate restore and possible load recomputation; ordinary generator fuel",
+      "selector": "ExtraCB FormID + connection word; Extra9C mask 0x40; worker preferred VA 0x14066fa50; generator recipe 0x002b0639",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/power/report.md",
+        "docs/experiments/power/definitions.md",
+        "docs/experiments/power/fuel.md",
+        "docs/experiments/power/native.md",
+        "docs/experiments/power/followup.md",
+        "docs/experiments/power/load-determinism.md",
+        "docs/experiments/power/sources.csv",
+        "docs/experiments/power/review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses the ordinary authority and generator explanation; historical reports cannot substitute.",
+      "predecessors": [
+        [
+          "B4-C07",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-P1-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Primary EXE/ESM and native locator reread",
+      "selector": "B3 pinned EXE/ESM, P1 selected exports and historical tool contract",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/power/report.md",
+        "docs/experiments/power/definitions.md",
+        "docs/experiments/power/fuel.md",
+        "docs/experiments/power/native.md",
+        "docs/experiments/power/followup.md",
+        "docs/experiments/power/load-determinism.md",
+        "docs/experiments/power/sources.csv",
+        "docs/experiments/power/review.md",
+        "research/p1-power/README.md",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "No public promise of exact original native analysis replay.",
+      "predecessors": [
+        [
+          "B4-C07",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-P1-S29-CALC",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Conditional sole-generator pass, old-set independence and reverse-order counterexample",
+      "selector": "Save29 authority Grounded saved graph; supply 6, demand 5 then 5; guide reference PowerShell projection",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/power/save29-authority.md",
+        "docs/experiments/power/save29-authority-review.md",
+        "docs/experiments/power/catalogue.csv",
+        "docs/experiments/power/save29-test-plan.md",
+        "docs/reference/power.md"
+      ],
+      "requires": [],
+      "consequence": "Loss prevents the tracked small-integer projection and its order challenge.",
+      "predecessors": [
+        [
+          "B4-C21",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-P1-S29-ORIGINAL",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Exact original byte/order check",
+      "selector": "B4-F054; Grounded saved graph; Extra9C spans [1300167,1300172), [1300659,1300664), [1301324,1301329)",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/power/save29-authority.md",
+        "docs/experiments/power/save29-authority-review.md",
+        "docs/experiments/power/catalogue.csv",
+        "docs/experiments/power/save29-test-plan.md",
+        "research/p1-power/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Without member and reader, retain the published-operand projection and separate report only.",
+      "predecessors": [
+        [
+          "B4-C21",
+          "B4-F054"
+        ]
+      ]
+    },
+    {
+      "id": "S-P1-SAVES",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Sampled solar, extractor and historical flag state",
+      "selector": "B4-F029/F030 S3/S3C; B4-F054 Save29",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/power/report.md",
+        "docs/experiments/power/definitions.md",
+        "docs/experiments/power/fuel.md",
+        "docs/experiments/power/native.md",
+        "docs/experiments/power/followup.md",
+        "docs/experiments/power/load-determinism.md",
+        "docs/experiments/power/sources.csv",
+        "docs/experiments/power/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Source-level conclusion survives; exact named sample replay requires members.",
+      "predecessors": [
+        [
+          "B4-C07",
+          "B4-F029"
+        ],
+        [
+          "B4-C07",
+          "B4-F054"
+        ],
+        [
+          "B4-C07",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-P1-THREE-LOADS",
+      "materiality": "INDISPENSABLE",
+      "state": "HELD",
+      "route": "LOCAL-ONLY original basis or capture absent; tracked report preserves historical context",
+      "substantiates": "Exact three observed epochs and same setup",
+      "selector": "Save29 test plan evidence section; no timestamps, recordings or instrumentation supplied; two local UI images are configuration corroboration",
+      "safety_rights": "Historical locator and limitations only. Any recovered derivative, tool use or new capture requires its own applicable approvals.",
+      "sources": [
+        "docs/experiments/power/save29-test-plan.md",
+        "docs/experiments/power/load-determinism.md",
+        "docs/experiments/power/save29-authority.md",
+        "docs/experiments/power/save29-authority-review.md"
+      ],
+      "requires": [],
+      "consequence": "Independent inspection of the occurrence and epoch history is unavailable; neither Save29 nor a later rerun recovers it.",
+      "predecessors": [
+        [
+          "B4-C07",
+          "three-loads"
+        ],
+        [
+          "B4-C21",
+          "load-epoch"
+        ]
+      ]
+    },
+    {
+      "id": "S-S1-CORE",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Representative stock, owner and link joins",
+      "selector": "B4-F032/F040/F044/F045/F064; HIST-0036 and Save52 not interchangeable",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/storage/report.md",
+        "docs/experiments/storage/native.md",
+        "docs/experiments/storage/saves.md",
+        "docs/experiments/storage/capacity-examples.csv",
+        "docs/experiments/storage/sources.csv",
+        "docs/experiments/storage/review.md",
+        "docs/experiments/storage/capacity-review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Affects named saved-byte corroboration; exact intervention replay is separately selected.",
+      "predecessors": [
+        [
+          "B4-C08",
+          "B4-F032"
+        ],
+        [
+          "B4-C08",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-S1-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Category/weight and storage-versus-edge contract",
+      "selector": "S1 native owner/weight/capacity and saved object table",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/storage/report.md",
+        "docs/experiments/storage/native.md",
+        "docs/experiments/storage/saves.md",
+        "docs/experiments/storage/capacity-examples.csv",
+        "docs/experiments/storage/sources.csv",
+        "docs/experiments/storage/review.md",
+        "docs/experiments/storage/capacity-review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses causal explanation and accepted filter counterexamples.",
+      "predecessors": [
+        [
+          "B4-C08",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-S1-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Physical definition and typed-inventory inspection",
+      "selector": "N244 ESM, named definitions and protected saved inputs where claiming original-byte tier",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/storage/report.md",
+        "docs/experiments/storage/native.md",
+        "docs/experiments/storage/saves.md",
+        "docs/experiments/storage/capacity-examples.csv",
+        "docs/experiments/storage/sources.csv",
+        "docs/experiments/storage/review.md",
+        "docs/experiments/storage/capacity-review.md",
+        "research/s1-storage/README.md",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "No full native/stock replay can be inferred.",
+      "predecessors": [
+        [
+          "B4-C08",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-S2-H36",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "HIST-0036 finite edge/stock reread",
+      "selector": "B4-F064; 246 edges/18 joins/nine edge rereads; S2 saves and receipts",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/local-output-links/report.md",
+        "docs/experiments/local-output-links/native.md",
+        "docs/experiments/local-output-links/lifecycle.md",
+        "docs/experiments/local-output-links/saves.md",
+        "docs/experiments/local-output-links/traces.md",
+        "docs/experiments/local-output-links/sources.csv",
+        "docs/experiments/local-output-links/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Keeps the mechanism inspectable while historical exact reread remains conditional.",
+      "predecessors": [
+        [
+          "B4-C08",
+          "B4-F064"
+        ],
+        [
+          "B4-C22",
+          "B4-F064"
+        ],
+        [
+          "B4-C22",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-S2-H77-H83",
+      "materiality": "SUPPORTING",
+      "state": "HELD",
+      "route": "LOCAL-ONLY original basis or capture absent; tracked report preserves historical context",
+      "substantiates": "Additional historical inventory comparators",
+      "selector": "B4-F065/F066 remain LOCAL-ONLY; H77/H83",
+      "safety_rights": "Historical locator and limitations only. Any recovered derivative, tool use or new capture requires its own applicable approvals.",
+      "sources": [
+        "docs/experiments/local-output-links/report.md",
+        "docs/experiments/local-output-links/native.md",
+        "docs/experiments/local-output-links/lifecycle.md",
+        "docs/experiments/local-output-links/saves.md",
+        "docs/experiments/local-output-links/traces.md",
+        "docs/experiments/local-output-links/sources.csv",
+        "docs/experiments/local-output-links/review.md"
+      ],
+      "requires": [],
+      "consequence": "Omission prevents replay of those comparator originals; other sample counts do not replace them.",
+      "predecessors": [
+        [
+          "B4-C08",
+          "B4-F065"
+        ],
+        [
+          "B4-C22",
+          "B4-F065"
+        ],
+        [
+          "B4-C22",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-S2-L-CONTROLS",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF ADDENDUM member(s), PENDING RELEASE, plus qualified offline reader. Independent original-witness inspection requires the optional ADDENDUM download.",
+      "substantiates": "Unlink/relink and within-session controls",
+      "selector": "B4-F055/F056/F057/F058/F059, L0C/L1/L1C/L2/L2C",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/output-link-validation-L0-L2C.md",
+        "docs/experiments/local-output-links/report.md",
+        "docs/experiments/local-output-links/native.md",
+        "docs/experiments/local-output-links/lifecycle.md",
+        "docs/experiments/local-output-links/saves.md",
+        "docs/experiments/local-output-links/traces.md",
+        "docs/experiments/local-output-links/sources.csv",
+        "docs/experiments/local-output-links/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-ADDENDUM"
+      ],
+      "consequence": "Without the optional originals, do not claim exact original intervention replay.",
+      "predecessors": [
+        [
+          "B4-C08",
+          "B4-F055"
+        ],
+        [
+          "B4-C22",
+          "B4-F055"
+        ]
+      ]
+    },
+    {
+      "id": "S-S2-L0",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Cross-session comparison anchor",
+      "selector": "B4-F032 S4C=L0; original L-series report",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/output-link-validation-L0-L2C.md",
+        "docs/experiments/local-output-links/report.md",
+        "docs/experiments/local-output-links/native.md",
+        "docs/experiments/local-output-links/lifecycle.md",
+        "docs/experiments/local-output-links/saves.md",
+        "docs/experiments/local-output-links/traces.md",
+        "docs/experiments/local-output-links/sources.csv",
+        "docs/experiments/local-output-links/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Without the anchor, the literal-failure/reload contrast is not independently verifiable.",
+      "predecessors": [
+        [
+          "B4-C08",
+          "B4-F032"
+        ],
+        [
+          "B4-C22",
+          "B4-F032"
+        ]
+      ]
+    },
+    {
+      "id": "S-S2-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Different stock redistribution and production delivery paths, remote eligibility and mixed-item reservation counterexample",
+      "selector": "S2 existing-stock plan, direct production receiver and registered/resolvable state matrix",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/local-output-links/report.md",
+        "docs/experiments/local-output-links/native.md",
+        "docs/experiments/local-output-links/lifecycle.md",
+        "docs/experiments/local-output-links/saves.md",
+        "docs/experiments/local-output-links/traces.md",
+        "docs/experiments/local-output-links/sources.csv",
+        "docs/experiments/local-output-links/review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses precise ordinary movement conditions and negative cases.",
+      "predecessors": [
+        [
+          "B4-C22",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-S2-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Inspect original definition and typed source-target resolution",
+      "selector": "Pinned ESM, original typed offsets; HIST-0036 for finite 246-edge/18-join/nine-edge reread",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/local-output-links/report.md",
+        "docs/experiments/local-output-links/native.md",
+        "docs/experiments/local-output-links/lifecycle.md",
+        "docs/experiments/local-output-links/saves.md",
+        "docs/experiments/local-output-links/traces.md",
+        "docs/experiments/local-output-links/sources.csv",
+        "docs/experiments/local-output-links/review.md",
+        "research/s2-links/README.md",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "Exact verification of the named original requires qualified inputs.",
+      "predecessors": [
+        [
+          "B4-C22",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-SD1-CORE",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Representative ordinary fixture and equipped actor comparisons",
+      "selector": "B4-F040/F051/F064",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/containers-displays/report.md",
+        "docs/experiments/containers-displays/native.md",
+        "docs/experiments/containers-displays/saves.md",
+        "docs/experiments/containers-displays/definitions.csv",
+        "docs/experiments/containers-displays/sources.csv",
+        "docs/experiments/containers-displays/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Exact byte inspection remains conditional; the original mechanism argument is tracked.",
+      "predecessors": [
+        [
+          "B4-C13",
+          "B4-F040"
+        ],
+        [
+          "B4-C13",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-SD1-H21",
+      "materiality": "INDISPENSABLE",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF ADDENDUM member(s), PENDING RELEASE, plus qualified offline reader. Independent original-witness inspection requires the optional ADDENDUM download.",
+      "substantiates": "Original fixture/slot/ref/backlink verification",
+      "selector": "B4-F067 / HIST-0021; fixture ff05bb90 at decoded offset 5861284 and item ff05bb92",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/containers-displays/report.md",
+        "docs/experiments/containers-displays/native.md",
+        "docs/experiments/containers-displays/saves.md",
+        "docs/experiments/containers-displays/definitions.csv",
+        "docs/experiments/containers-displays/sources.csv",
+        "docs/experiments/containers-displays/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-ADDENDUM"
+      ],
+      "consequence": "Without the original and reader, scope remains inspection of the authored report, not repeatable original witness verification.",
+      "predecessors": [
+        [
+          "B4-C13",
+          "B4-F067"
+        ]
+      ]
+    },
+    {
+      "id": "S-SD1-NATIVE",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Fixture inventory versus display reference/slot residence and mannequin equipment",
+      "selector": "SD1 native ordinary admission and save/load fixup sections; known zero-stock positive display case",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/containers-displays/report.md",
+        "docs/experiments/containers-displays/native.md",
+        "docs/experiments/containers-displays/saves.md",
+        "docs/experiments/containers-displays/definitions.csv",
+        "docs/experiments/containers-displays/sources.csv",
+        "docs/experiments/containers-displays/review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses the source-level ownership and lifecycle distinction.",
+      "predecessors": [
+        [
+          "B4-C13",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-SD1-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Selected fixture/typed actor and extra replay",
+      "selector": "Pinned ESM, exact source rows, compatible R3 grammar and retained component inputs; full historical route lacks component receipts",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/containers-displays/report.md",
+        "docs/experiments/containers-displays/native.md",
+        "docs/experiments/containers-displays/saves.md",
+        "docs/experiments/containers-displays/definitions.csv",
+        "docs/experiments/containers-displays/sources.csv",
+        "docs/experiments/containers-displays/review.md",
+        "research/historical-methods/b3/sd1-saves.py",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "Do not advertise whole historical fixture corpus replay.",
+      "predecessors": [
+        [
+          "B4-C13",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-SD3-APPEARANCE",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF ADDENDUM member(s), PENDING RELEASE, plus qualified offline reader. Independent original-witness inspection requires the optional ADDENDUM download.",
+      "substantiates": "Two distinct screen appearances",
+      "selector": "B4-F062/F063; SD3 screenshots remain non-joins",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/stored-resources/report.md",
+        "docs/experiments/stored-resources/provider.md",
+        "docs/experiments/stored-resources/membership.md",
+        "docs/experiments/stored-resources/aggregation.md",
+        "docs/experiments/stored-resources/icons.md",
+        "docs/experiments/stored-resources/cases.csv",
+        "docs/experiments/stored-resources/saves.md",
+        "docs/experiments/stored-resources/sources.csv",
+        "docs/experiments/stored-resources/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-ADDENDUM"
+      ],
+      "consequence": "Loss affects visual context only; screenshots cannot show epoch or membership authority.",
+      "predecessors": [
+        [
+          "B4-C15",
+          "B4-F062"
+        ],
+        [
+          "B4-C15",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-SD3-H36",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "substantiates": "Positive 27-row mixed-source saved example",
+      "selector": "B4-F064; SD3 cases and exact saved examples",
+      "safety_rights": "Use individually reviewed, unchanged first-party originals and read-only offline selection in scratch. Hosting, final selection, rights/privacy and post-upload verification remain pending.",
+      "sources": [
+        "docs/experiments/stored-resources/report.md",
+        "docs/experiments/stored-resources/provider.md",
+        "docs/experiments/stored-resources/membership.md",
+        "docs/experiments/stored-resources/aggregation.md",
+        "docs/experiments/stored-resources/icons.md",
+        "docs/experiments/stored-resources/cases.csv",
+        "docs/experiments/stored-resources/saves.md",
+        "docs/experiments/stored-resources/sources.csv",
+        "docs/experiments/stored-resources/review.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv"
+      ],
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "consequence": "Do not advertise exact raw item recomputation without the original and supported grammar.",
+      "predecessors": [
+        [
+          "B4-C15",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-SD3-PRIMARY",
+      "materiality": "SUPPORTING",
+      "state": "CONDITIONAL",
+      "route": "Documented external-input procedure; no fresh primary replay established",
+      "substantiates": "Primary compiled UI comparison",
+      "selector": "Pinned Interface.ba2, exact LocationsPage SWF/ABC/icon members and native/ESM source pins",
+      "safety_rights": "Use lawfully held pinned inputs and the declared reader; inspect its effects before separately authorized execution. No installed game bytes, raw exports, analysis DBs or third-party implementations are supplied.",
+      "sources": [
+        "docs/experiments/stored-resources/report.md",
+        "docs/experiments/stored-resources/provider.md",
+        "docs/experiments/stored-resources/membership.md",
+        "docs/experiments/stored-resources/aggregation.md",
+        "docs/experiments/stored-resources/icons.md",
+        "docs/experiments/stored-resources/cases.csv",
+        "docs/experiments/stored-resources/saves.md",
+        "docs/experiments/stored-resources/sources.csv",
+        "docs/experiments/stored-resources/review.md",
+        "research/historical-methods/b3/sd3-stored/menu_abc.py",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/baseline-inputs.csv"
+      ],
+      "requires": [],
+      "consequence": "Compiled-byte verification conditional; no fresh UI capture.",
+      "predecessors": [
+        [
+          "B4-C15",
+          "claim"
+        ]
+      ]
+    },
+    {
+      "id": "S-SD3-PROVIDER",
+      "materiality": "INDISPENSABLE",
+      "state": "READY",
+      "route": "Tracked authored evidence, original report and independent review; inspect selected static explanation",
+      "substantiates": "Provider admission, unit counts, icon provenance and distinct refresh boundaries",
+      "selector": "SD3 eligible membership, item admission/grouping and three freshness boundaries",
+      "safety_rights": "Authored local inspection only. Publication content review remains pending. No game, VM, native execution, save or database change.",
+      "sources": [
+        "docs/experiments/stored-resources/report.md",
+        "docs/experiments/stored-resources/provider.md",
+        "docs/experiments/stored-resources/membership.md",
+        "docs/experiments/stored-resources/aggregation.md",
+        "docs/experiments/stored-resources/icons.md",
+        "docs/experiments/stored-resources/cases.csv",
+        "docs/experiments/stored-resources/saves.md",
+        "docs/experiments/stored-resources/sources.csv",
+        "docs/experiments/stored-resources/review.md"
+      ],
+      "requires": [],
+      "consequence": "Loses the causal UI and grouped quantity scope.",
+      "predecessors": [
+        [
+          "B4-C15",
+          "claim"
+        ]
+      ]
+    }
+  ]
+}

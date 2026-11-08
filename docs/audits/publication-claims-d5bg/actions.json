@@ -1,0 +1,1086 @@
+{
+  "schema": "sor-d5bg-actions/1",
+  "actions": [
+    {
+      "id": "D5BD-FROZEN-REBUILD",
+      "claims": [
+        "D5BD-LEVEL-A",
+        "D5BD-LEVEL-B",
+        "D5BD-LEVEL-C"
+      ],
+      "edges": [
+        "G-CATALOGUE-A",
+        "G-CATALOGUE-B",
+        "G-CATALOGUE-C"
+      ],
+      "kind": "Bounded reproduction-method documentation correction",
+      "gap": "Current later audit files broaden the inventory scan. Coverage and unresolved-locator output drift while the other 14 generated files remain identical.",
+      "choices": [
+        "For the exact historical text rebuild, use the frozen D5BD source commit. If public exposure omits it and exact rebuild is selected, qualify an explicit, complete frozen source selection in a separate method task."
+      ],
+      "acceptance": [
+        "The read-only verifier matches all 16 outputs at 6e799a428a765aa196a24d3c1de8ae133260aa08. At the authored tier, inspect current index/evidence and use that frozen source-set boundary in the reproduction instructions."
+      ],
+      "effort_risk": "Existing tracked text-only check. Avoid regenerating historical catalogue audit output on a broader later tree.",
+      "sources": [
+        "docs/functions/README.md",
+        "docs/audits/native-function-catalogue-d5bd/closure.md",
+        "research/function-catalogue/inventory.py",
+        "research/function-catalogue/verify.py"
+      ]
+    },
+    {
+      "id": "DECIDE-B4-C07-SAVE29-THREE-LOADS",
+      "claims": [
+        "B4-C07-SAVE29-THREE-LOADS"
+      ],
+      "edges": [
+        "D5BF-CORE",
+        "S-P1-THREE-LOADS"
+      ],
+      "kind": "Proposed history-only; any current claim requires separate approval",
+      "gap": "S-P1-THREE-LOADS — LOCAL-ONLY original basis or capture absent; tracked report preserves historical context",
+      "choices": [
+        "Preserve the report and keep the event out of the independent-witness claim. Only reconsider if exact attributable historical observations for all three trials can be recovered, cleared and tied to the same baseline; a new experiment would answer a new question.",
+        "Independent inspection of the occurrence and epoch history is unavailable; neither Save29 nor a later rerun recovers it."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Reopen only with three identifiable fresh-process trials and contemporaneous state receipts associating the same named extractors with each observed load. A configuration screenshot or Save29 graph cannot satisfy this test."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/experiments/power/save29-test-plan.md",
+        "docs/experiments/power/load-determinism.md",
+        "docs/experiments/power/save29-authority.md",
+        "docs/experiments/power/save29-authority-review.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py"
+      ]
+    },
+    {
+      "id": "DECIDE-B4-C13-H21-DISPLAY-ORIGINAL",
+      "claims": [
+        "B4-C13-H21-DISPLAY-ORIGINAL"
+      ],
+      "edges": [
+        "D5BF-ADDENDUM",
+        "S-SD1-H21"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "S-SD1-H21 — Approved proposed D5BF ADDENDUM member(s), PENDING RELEASE, plus qualified offline reader. Independent original-witness inspection requires the optional ADDENDUM download.",
+      "choices": [
+        "Verify the staged optional B4-F067, then repeat the slot list, zero count and backlink joins from exact selectors with the documented effects. If the missing component prerequisite prevents this isolated case, keep the report and drop the original-verification promise pending a focused reader qualification.",
+        "Without the original and reader, scope remains inspection of the authored report, not repeatable original witness verification."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for S-SD1-H21 using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/experiments/containers-displays/report.md",
+        "docs/experiments/containers-displays/native.md",
+        "docs/experiments/containers-displays/saves.md",
+        "docs/experiments/containers-displays/definitions.csv",
+        "docs/experiments/containers-displays/sources.csv",
+        "docs/experiments/containers-displays/review.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py"
+      ]
+    },
+    {
+      "id": "DECIDE-B4-C17",
+      "claims": [
+        "B4-C17"
+      ],
+      "edges": [
+        "D5BF-CORE",
+        "P-ROOT-COUNTS"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "P-ROOT-COUNTS — B4-F1-CORE proposed original-byte route; prior reviewed reanalysis, not hosted.",
+      "choices": [
+        "Retain exact original-byte tier after CORE preflight and independently verified hosted bytes, or explicitly use reported census wording.",
+        "Without these bytes the case is inspectable as a reported positive count and membership counterexample only."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for P-ROOT-COUNTS using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/guides/identity.md",
+        "docs/reference/identity.md",
+        "docs/experiments/workshop-population/report.md",
+        "docs/experiments/workshop-population/review.md",
+        "docs/experiments/workshop-population/sources.csv",
+        "docs/experiments/workshop-population/owners.csv",
+        "docs/experiments/workshop-population/candidates.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py"
+      ]
+    },
+    {
+      "id": "DECIDE-B4-C21-SAVE29-ORIGINAL",
+      "claims": [
+        "B4-C21-SAVE29-ORIGINAL"
+      ],
+      "edges": [
+        "D5BF-CORE",
+        "S-P1-S29-ORIGINAL"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "S-P1-S29-ORIGINAL — Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "choices": [
+        "Preflight exact B4-F054 from the staged CORE against the ledger and reproduce all four ordered CB rows, flags and selector domains with a reader in isolated scratch. Verify hosted bytes later; otherwise restrict wording to the tracked graph and calculation.",
+        "Without member and reader, retain the published-operand projection and separate report only."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for S-P1-S29-ORIGINAL using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/experiments/power/save29-authority.md",
+        "docs/experiments/power/save29-authority-review.md",
+        "docs/experiments/power/catalogue.csv",
+        "docs/experiments/power/save29-test-plan.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py",
+        "research/p1-power/README.md"
+      ]
+    },
+    {
+      "id": "DECIDE-B4-C22-L-SERIES-ORIGINAL",
+      "claims": [
+        "B4-C22-L-SERIES-ORIGINAL"
+      ],
+      "edges": [
+        "D5BF-ADDENDUM",
+        "D5BF-CORE",
+        "S-S2-L-CONTROLS",
+        "S-S2-L0"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "S-S2-L-CONTROLS — Approved proposed D5BF ADDENDUM member(s), PENDING RELEASE, plus qualified offline reader. Independent original-witness inspection requires the optional ADDENDUM download. S-S2-L0 — Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "choices": [
+        "Preflight the named six originals and exact selected windows using qualified offline read-only decoding. Otherwise keep the report with an inspection-only evidence claim.",
+        "Without the optional originals, do not claim exact original intervention replay.",
+        "Without the anchor, the literal-failure/reload contrast is not independently verifiable."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for S-S2-L-CONTROLS using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent.",
+        "Verify exact input identity and prerequisites for S-S2-L0 using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/experiments/output-link-validation-L0-L2C.md",
+        "docs/experiments/local-output-links/report.md",
+        "docs/experiments/local-output-links/native.md",
+        "docs/experiments/local-output-links/lifecycle.md",
+        "docs/experiments/local-output-links/saves.md",
+        "docs/experiments/local-output-links/traces.md",
+        "docs/experiments/local-output-links/sources.csv",
+        "docs/experiments/local-output-links/review.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py"
+      ]
+    },
+    {
+      "id": "DECIDE-B4-C23-PRIVATE-COMPARATORS",
+      "claims": [
+        "B4-C23-PRIVATE-COMPARATORS"
+      ],
+      "edges": [
+        "S-C23-VM-NETWORK"
+      ],
+      "kind": "Proposed history-only; any current claim requires separate approval",
+      "gap": "S-C23-VM-NETWORK — LOCAL-ONLY original basis or capture absent; tracked report preserves historical context",
+      "choices": [
+        "Keep original comparisons as historical context. If exact comparator agreement is selected, recover and clear the precise independently produced network table and test its joins. Any measured timing question requires a separately authorized experiment.",
+        "The exact private-network agreement at original tier and historical timer/flight event remain unavailable. Static explanation and selected saved links survive."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Reopen topology comparison only with the exact manually maintained network version and an independently checked pairing join. For the separate VM event, require the original versioned event trace and association to the selected epoch. Neither proves an unrecorded voyage timer."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/experiments/mature-save-outpost-validation.md",
+        "docs/experiments/cargo-links/transport/saves.md",
+        "docs/experiments/cargo-links/transport/timing.md",
+        "docs/experiments/cargo-links/transport/transit.md",
+        "docs/experiments/cargo-links/transport/transit-review.md",
+        "docs/audits/publication-architecture-d5ax/evidence-access.md"
+      ]
+    },
+    {
+      "id": "DECIDE-B4-C23-SAVE52-ORIGINAL",
+      "claims": [
+        "B4-C23-SAVE52-ORIGINAL"
+      ],
+      "edges": [
+        "D5BF-CORE",
+        "S-C23-SAVE52"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "S-C23-SAVE52 — Approved proposed D5BF CORE member(s), PENDING RELEASE, plus qualified offline reader.",
+      "choices": [
+        "Preflight the exact member and independently reproduce the selected pair, hold, explicit unknown inventory cases and four fuel-source joins from declared read-only scratch. Do not require a historical VM trace for these saved relationships.",
+        "Without this candidate and selector, exact saved-byte verification remains conditional."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for S-C23-SAVE52 using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/experiments/cargo-links/transport/saves.md",
+        "docs/experiments/cargo-links/transport/review.md",
+        "docs/experiments/cargo-links/transport/sources.csv",
+        "docs/experiments/cargo-links/configuration-ui/save52.md",
+        "docs/experiments/cargo-links/configuration-ui/review.md",
+        "docs/experiments/cargo-links/fuel/saves.md",
+        "docs/experiments/cargo-links/fuel/review.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py",
+        "research/c2-transport/README.md"
+      ]
+    },
+    {
+      "id": "DECIDE-C02-ORIGINALS",
+      "claims": [
+        "C02-ORIGINALS"
+      ],
+      "edges": [
+        "D5BF-CORE",
+        "P-POSITION-CORE",
+        "P-POSITION-METHOD"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "P-POSITION-CORE — B4-F1-CORE exact saved-byte route proposed, unhosted. P-POSITION-METHOD — B3 historical source available, full replay unqualified. Qualify a finite reader for the named selected original-save joins.",
+      "choices": [
+        "Retain after exact CORE hashes and CS read-only method qualify in isolated preflight and hosted checks.",
+        "Without CORE the published operands can still be inspected, but exact records cannot be redecoded.",
+        "Reader source alone cannot reproduce the named joins. Qualify existing compatible inputs or an exact bounded replacement for the fixed-anchor manifest, ESM index and selected intermediate receipts before advertising raw-byte verification."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for P-POSITION-CORE using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent.",
+        "Verify exact input identity and prerequisites for P-POSITION-METHOD using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/guides/position.md",
+        "docs/reference/position.md",
+        "docs/experiments/coordinate-sufficiency/report.md",
+        "docs/experiments/coordinate-sufficiency/review.md",
+        "docs/experiments/coordinate-sufficiency/positions.csv",
+        "docs/experiments/coordinate-sufficiency/fixed-controls.csv",
+        "docs/experiments/coordinate-sufficiency/inputs.csv",
+        "docs/experiments/coordinate-sufficiency/sources.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py",
+        "research/historical-methods/b3/cs-saves.py",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/method-reproduction.md",
+        "research/historical-methods/b3/cs-more.py"
+      ]
+    },
+    {
+      "id": "DECIDE-C03-FRAME-CONTROL",
+      "claims": [
+        "C03-FRAME-CONTROL"
+      ],
+      "edges": [
+        "D5BF-ADDENDUM",
+        "D5BF-CORE",
+        "P-BIOME-METHOD",
+        "P-BIOME-ORIGINALS"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "P-BIOME-METHOD — B3 historical source available, full replay unqualified. Qualify a finite original-save and map-to-frame procedure. P-BIOME-ORIGINALS — D5BF CORE and optional ADDENDUM plus lawfully installed pinned PlanetData.ba2 and main ESM; authored B3 method, not a public rebuild demonstration.",
+      "choices": [
+        "Qualify the named B3 readers with the selected CORE and ADDENDUM members and lawful pinned map inputs before advertising this exact tier.",
+        "Package bytes plus method text do not close original replay. Supply lawful pinned maps and qualify extraction receipts and bounded reader effects, or publish only the inspectable nominal-model tier.",
+        "Without ADDENDUM, exact HIST-0035 comparison is unavailable. Without the pinned lawful maps there is no exact map-to-save replay."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for P-BIOME-METHOD using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent.",
+        "Verify exact input identity and prerequisites for P-BIOME-ORIGINALS using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/guides/nominal-biomes.md",
+        "docs/reference/nominal-biomes.md",
+        "docs/experiments/outpost-biomes/report.md",
+        "docs/experiments/outpost-biomes/review.md",
+        "docs/experiments/outpost-biomes/sources.csv",
+        "docs/experiments/outpost-biomes/cases.csv",
+        "docs/experiments/outpost-biomes/cells.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py",
+        "docs/audits/publication-readiness-b3/method-contracts.csv",
+        "docs/audits/publication-readiness-b3/method-reproduction.md",
+        "research/historical-methods/b3/b1-maps.py",
+        "research/historical-methods/b3/b1-saves.py",
+        "research/historical-methods/b3/b1-model.py",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md",
+        "docs/experiments/outpost-biomes/saves.md"
+      ]
+    },
+    {
+      "id": "DECIDE-C06-0036",
+      "claims": [
+        "C06-0036"
+      ],
+      "edges": [
+        "D5BF-CORE",
+        "P-FAB-0036"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "P-FAB-0036 — D5BF CORE approved exact witness proposal. This supersedes the obsolete B4 LOCAL-ONLY classification for the member, not for the historical corpus.",
+      "choices": [
+        "Preflight then verify the hosted CORE member and repeat representative BF/base/producer joins.",
+        "Without CORE, readers retain E3 tables and conditions but cannot inspect the detailed historical source joins from the original."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for P-FAB-0036 using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/guides/fabrication.md",
+        "docs/reference/fabrication.md",
+        "docs/experiments/fabricators/report.md",
+        "docs/experiments/fabricators/review.md",
+        "docs/experiments/fabricators/sources.csv",
+        "docs/experiments/fabricators/definitions.md",
+        "docs/experiments/fabricators/native.md",
+        "docs/experiments/fabricators/saves.md",
+        "docs/experiments/fabricators/recipes.csv",
+        "docs/experiments/fabricators/facilities.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-C06-CENSUS",
+      "claims": [
+        "C06-CENSUS"
+      ],
+      "edges": [
+        "P-FAB-CENSUS"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-FAB-CENSUS — Tracked report and selected authored tables; unselected historical inputs LOCAL-ONLY.",
+      "choices": [
+        "Agree report-attributed totals and the selected representative tier, or separately approve a minimal original-corpus route with independently inspectable row provenance and framing.",
+        "Original corpus census cannot be independently replayed from the staged witnesses. Exact totals can remain attributed to the original report."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Supply the qualified historical source inventory and versioned E3 parser. Reproduce the 105-positive/1,190-row totals and separately account for the 41 parser gaps and 21 unavailable candidates."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/fabrication.md",
+        "docs/reference/fabrication.md",
+        "docs/experiments/fabricators/report.md",
+        "docs/experiments/fabricators/review.md",
+        "docs/experiments/fabricators/sources.csv",
+        "docs/experiments/fabricators/definitions.md",
+        "docs/experiments/fabricators/native.md",
+        "docs/experiments/fabricators/saves.md",
+        "docs/experiments/fabricators/recipes.csv",
+        "docs/experiments/fabricators/facilities.csv",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ]
+    },
+    {
+      "id": "DECIDE-C14-CENSUS",
+      "claims": [
+        "C14-CENSUS"
+      ],
+      "edges": [
+        "P-SHARED-CENSUS"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-SHARED-CENSUS — Original complete qualified source corpus is LOCAL-ONLY and unselected; tracked derivative does not supply original bytes.",
+      "choices": [
+        "Agree derivative/representative original tier, or separately authorize an exact small provenance or corpus route if raw-census reanalysis is material.",
+        "No corpus-wide original reanalysis from proposed release set; separate scoped action only if maintainer selects that stronger tier."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Supply the exact 278-row source inventory, preserve the unsupported and missing rows, and reproduce the inline-base detections using a qualified reader. Summing the tracked CSV alone verifies arithmetic."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/shared-storage.md",
+        "docs/reference/shared-storage.md",
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md",
+        "research/historical-methods/b3/sd2-survey.py",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv",
+        "docs/audits/release-assets-d5bf/release-assets.json"
+      ]
+    },
+    {
+      "id": "DECIDE-C14-FRESH-TRIO",
+      "claims": [
+        "C14-FRESH-TRIO"
+      ],
+      "edges": [
+        "D5BF-CORE",
+        "P-SHARED-ORIGINALS",
+        "P-SHARED-TRIO"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-SHARED-ORIGINALS — D5BF CORE approved exact first-party representative witness proposal. Current CORE supersedes the B4-HIST-0036 local-only restriction for this exact member. P-SHARED-TRIO — Tracked original report and review; HIST-0018 and HIST-0257 absent from the proposed asset inventory.",
+      "choices": [
+        "Retain the original result as attributed history and select the CORE tier, or clear a narrow route for the other two fresh cases.",
+        "Omitting F064 loses the selected fresh owner-join witness. The checked owner joins do not establish exact backing quantities or actual spend.",
+        "Prefer the selected exact HIST-0036 tier. If the full fresh trio is selected, recover and qualify the two absent original inputs or a narrowly approved representation of their exact owner joins."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Qualify HIST-0018 and HIST-0257 and reproduce the 1/17/19 joins against the original selected base and owner selectors. The CORE H36 edge is the only required original from that package."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/shared-storage.md",
+        "docs/reference/shared-storage.md",
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py",
+        "research/historical-methods/b3/sd2-survey.py",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-C14-ORIGINALS",
+      "claims": [
+        "C14-ORIGINALS"
+      ],
+      "edges": [
+        "D5BF-CORE",
+        "P-SHARED-CORE-CENSUS",
+        "P-SHARED-ORIGINALS"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "P-SHARED-CORE-CENSUS — Proposed D5BF CORE and qualified SD2 inline-base reader. Exact original-byte replay pending release. P-SHARED-ORIGINALS — D5BF CORE approved exact first-party representative witness proposal. Current CORE supersedes the B4-HIST-0036 local-only restriction for this exact member.",
+      "choices": [
+        "Preflight CORE B4-F064/F051/F040 with the qualified SD2 reader. Check the 17 HIST-0036 owner joins separately from the other census detections.",
+        "Omitting either member loses its own census control. This route is independent of the separate HIST-0036 fresh owner joins.",
+        "Omitting F064 loses the selected fresh owner-join witness. The checked owner joins do not establish exact backing quantities or actual spend."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for P-SHARED-CORE-CENSUS using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent.",
+        "Verify exact input identity and prerequisites for P-SHARED-ORIGINALS using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/guides/shared-storage.md",
+        "docs/reference/shared-storage.md",
+        "docs/experiments/shared-outpost-storage/report.md",
+        "docs/experiments/shared-outpost-storage/review.md",
+        "docs/experiments/shared-outpost-storage/sources.csv",
+        "docs/experiments/shared-outpost-storage/shared-inventory.md",
+        "docs/experiments/shared-outpost-storage/consumers.md",
+        "docs/experiments/shared-outpost-storage/saves.md",
+        "docs/experiments/shared-outpost-storage/corpus.csv",
+        "docs/experiments/shared-outpost-storage/methods.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py",
+        "research/historical-methods/b3/sd2-survey.py",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-C18-FULL-CONTROLS",
+      "claims": [
+        "C18-FULL-CONTROLS"
+      ],
+      "edges": [
+        "P-POSITION-ALL"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-POSITION-ALL — Local-only original position corpus and raw runtime controls; tracked check method/capability register.",
+      "choices": [
+        "Choose attributed provenance with B4-C18's narrower public tier, or authorize a bounded old-control derivative with all 23 input comparators and the two actual native geometry witnesses.",
+        "Representative CORE saves do not repeat 23 original inputs or authenticate the older captured 050/060 epochs. Use a reviewed minimal corpus/control derivative if advertising original replay."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "For full verification, supply all 23 named inputs and confirm the 40 native comparisons in the two stated Kreet geometries using the version-qualified methods and frame checks."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/position.md",
+        "docs/reference/position.md",
+        "docs/position-model/specification.md",
+        "docs/position-model/review.md",
+        "docs/position-model/capabilities.md",
+        "docs/position-model/self-check.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-C19-CALLBACK",
+      "claims": [
+        "C19-CALLBACK"
+      ],
+      "edges": [
+        "D5BF-C19",
+        "P-CALLBACK-FOLD"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "P-CALLBACK-FOLD — D5BF C19 exact candidate plus standalone verifier and original accepted review; prior local derivative replay, PENDING RELEASE.",
+      "choices": [
+        "Retain exact claim if D5BF-C19 staged bytes pass preflight, separately authorized hosting and independent exact digest, fold and negative-control checks.",
+        "The tracked synthetic fold cannot independently establish the historical callbacks. Hosted exact candidate and a positive comparison/negative-controls run close the bounded route."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for P-CALLBACK-FOLD using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/continuous-beacon-preview/live-scientific-report.md",
+        "docs/experiments/continuous-beacon-preview/review.md",
+        "docs/experiments/continuous-beacon-preview/live-sources.csv",
+        "docs/experiments/continuous-beacon-preview/native.md",
+        "docs/experiments/continuous-beacon-preview/validation.md",
+        "docs/audits/evidence-access-d5be/c19.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/evidence-access-d5be/c19-manifest.json",
+        "research/evidence-access/verify_release_assets.py",
+        "research/evidence-access/d5be/c19-verify.py"
+      ]
+    },
+    {
+      "id": "DECIDE-C19-D1-INCIDENT",
+      "claims": [
+        "C19-D1-INCIDENT"
+      ],
+      "edges": [
+        "P-D1-INCIDENT"
+      ],
+      "kind": "Proposed history-only; any current claim requires separate approval",
+      "gap": "P-D1-INCIDENT — Tracked source-reported account and independent offline PARTIALLY DISCRIMINATED review; no independently time-labelled incident operands identified.",
+      "choices": [
+        "Retain the historical report, hypotheses and counterexamples. Cite only the scoped offline discrimination.",
+        "No route to endorse incident occurrence, timed causality or verified remedy from those samples. A future measured contrast would test a mechanism prospectively, not authenticate the past event."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "To independently substantiate occurrence, require separately attributable contemporaneous incident evidence. To claim cause, require a time-aligned paired geometry or placement result and evidence distinguishing generation, cached display and other candidate mechanisms. H249 is rejected and cannot count as a negative."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/disappearing-deposits/report.md",
+        "docs/experiments/disappearing-deposits/review.md",
+        "docs/experiments/disappearing-deposits/saves.csv",
+        "docs/experiments/disappearing-deposits/sites.csv",
+        "docs/experiments/disappearing-deposits/extractors.csv",
+        "docs/experiments/disappearing-deposits/hypotheses.md",
+        "docs/experiments/disappearing-deposits/native.md"
+      ]
+    },
+    {
+      "id": "DECIDE-C19-D1-SAVED",
+      "claims": [
+        "C19-D1-SAVED"
+      ],
+      "edges": [
+        "D5BF-CORE",
+        "P-D1-SAMPLES"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-D1-SAMPLES — Tracked accepted report/derived saved operands. Selected exact originals include a useful positive contrast, but most primary historical comparison bytes remain LOCAL-ONLY.",
+      "choices": [
+        "Agree attributed bounded saved-state scope, or separately clear a minimal operand or original route covering exact earlier/later joins and header qualification. Do not require impossible incident replay to retain the separate static contract.",
+        "Cannot repeat exact mature pair/negative comparisons from Save52 alone. The rejected earlier file cannot be promoted to an absence control. A small cleared saved-state derivative could support bounded sample checks only."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Check the exact original Feynman pair and qualified Decaran pair with the named native/save domains, preserving H249 as unsupported. Compare the bounded site, owner and equipment joins only."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/disappearing-deposits/report.md",
+        "docs/experiments/disappearing-deposits/review.md",
+        "docs/experiments/disappearing-deposits/saves.csv",
+        "docs/experiments/disappearing-deposits/sites.csv",
+        "docs/experiments/disappearing-deposits/extractors.csv",
+        "docs/experiments/disappearing-deposits/hypotheses.md",
+        "docs/experiments/disappearing-deposits/native.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py",
+        "docs/audits/publication-readiness-b4/claim-evidence.csv",
+        "docs/audits/publication-readiness-b4/f1/file-dispositions.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-C19-UPSTREAM",
+      "claims": [
+        "C19-UPSTREAM"
+      ],
+      "edges": [
+        "P-CALLBACK-UPSTREAM"
+      ],
+      "kind": "Proposed history-only; any current claim requires separate approval",
+      "gap": "P-CALLBACK-UPSTREAM — Tracked report and source ledger; raw historical WAL/chronology LOCAL-ONLY. D5BE read the archived source under prior authority.",
+      "choices": [
+        "Attribute the upstream counts to the original report. Use the candidate only for the complete callback subset.",
+        "Cannot independently recount complete upstream events or establish exact screen timing or unique producer ancestry. Candidate omits the necessary raw snapshots/clock joins."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Recover the decisive input-to-evaluation and source/epoch records for the broader claimed census and lineage. Reproducing the 346 callback folds proves the bounded row contract alone."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/continuous-beacon-preview/live-scientific-report.md",
+        "docs/experiments/continuous-beacon-preview/review.md",
+        "docs/experiments/continuous-beacon-preview/live-sources.csv",
+        "docs/experiments/continuous-beacon-preview/native.md",
+        "docs/experiments/continuous-beacon-preview/validation.md",
+        "docs/audits/evidence-access-d5be/c19.md"
+      ]
+    },
+    {
+      "id": "DECIDE-C25-ORIGINALS",
+      "claims": [
+        "C25-ORIGINALS"
+      ],
+      "edges": [
+        "D5BF-ADDENDUM",
+        "D5BF-CORE",
+        "P-BUILD-SAVES"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "P-BUILD-SAVES — D5BF CORE and optional ADDENDUM, distinct exact saved and image routes.",
+      "choices": [
+        "Preflight the exact members and method, then verify hosted ADDENDUM. Retain images as separately attributed visual context.",
+        "No exact six-save contrast without the optional ADDENDUM. Removing images loses original appearance context, never an exact save/photo/rejected-object join."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for P-BUILD-SAVES using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/guides/construction.md",
+        "docs/reference/construction.md",
+        "docs/experiments/spatial-placement/report.md",
+        "docs/experiments/spatial-placement/review.md",
+        "docs/experiments/spatial-placement/sources.csv",
+        "docs/experiments/spatial-placement/screenshots.csv",
+        "docs/experiments/spatial-placement/samples.csv",
+        "docs/experiments/spatial-placement/roots.csv",
+        "docs/experiments/construction-variants/report.md",
+        "docs/experiments/construction-variants/review.md",
+        "docs/experiments/construction-variants/sources.csv",
+        "docs/experiments/construction-variants/saved-replacements.csv",
+        "docs/experiments/construction-variants/mechanisms.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py",
+        "docs/experiments/build-catalogue/report.md",
+        "docs/experiments/build-catalogue/review.md",
+        "docs/experiments/build-catalogue/sources.csv",
+        "docs/experiments/build-catalogue/definitions.csv",
+        "docs/experiments/build-catalogue/categories.csv",
+        "docs/experiments/limits/report.md",
+        "docs/experiments/limits/review.md",
+        "docs/experiments/limits/sources.csv",
+        "docs/experiments/build-budget/report.md",
+        "docs/experiments/build-budget/review.md",
+        "docs/experiments/build-budget/sources.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-D5AC-B2-RETAIL",
+      "claims": [
+        "D5AC-B2-RETAIL"
+      ],
+      "edges": [
+        "P-B2-RETAIL"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-B2-RETAIL — Tracked original chronology and review, with original callback/owner trace LOCAL-ONLY.",
+      "choices": [
+        "If asserting the event directly, separately clear exact matched sequence, key/lifetime and mask operands. Otherwise retain original report and use D5AU native wording.",
+        "Static ordering supports possibility only. Historical winner, earlier loser and actual map reuse need a bounded event chain and identity proof."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Recover the target-bound visit lookup, original protected miss and later contender hit in order. Join both request identities to the same owner/lifetime and construction."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5ac-target-lookup-chronology.md",
+        "docs/experiments/resource-retained-population/d5ac-review.md",
+        "docs/experiments/resource-retained-population/d5r-report.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-D5AG-FIXED-GEOMETRY",
+      "claims": [
+        "D5AG-FIXED-GEOMETRY"
+      ],
+      "edges": [
+        "P-AG-FIXTURE"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-AG-FIXTURE — Tracked authored method and original review. The paired fresh-host fixture operands and verification receipts remain local-only for this exact tier.",
+      "choices": [
+        "Cite the original fixed-input controls as attributed evidence. Select exact original D5AG fixture reproduction only if its three pinned inputs and whole-output comparison can be qualified.",
+        "If exact original fixture reproduction is selected, qualify a lawful finite input/method route or compare an independently approved bounded fixture derivative. Keep the attributed report and current conditional mechanism if that tier is omitted."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Qualify the original fixed-stage fixture and all three named query inputs. Compare complete regions, bounds and points for the two mask-3 outcomes and the distinct mask-0 control."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/experiments/resource-retained-population/d5ag-geometry-controls.md",
+        "docs/experiments/resource-retained-population/d5ag-report.md",
+        "docs/experiments/resource-retained-population/d5ag-review.md",
+        "docs/experiments/resource-retained-population/d5ag-sources.csv",
+        "research/resource-retained-population/d5ag_controls.py",
+        "research/resource-retained-population/d5ag_verify.py"
+      ]
+    },
+    {
+      "id": "DECIDE-D5AK-EPISODE-A",
+      "claims": [
+        "D5AK-EPISODE-A"
+      ],
+      "edges": [
+        "P-AK-A0-BASELINE",
+        "P-AK-EPISODE"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-AK-A0-BASELINE — Original D5AK initial A0 envelope and source/lifetime join are local-only. D5BE documented the canonical body bridge to the proposed D5AS control. P-AK-EPISODE — D5AK-A accepted historical report and review; original episode archive and decisive content/lifetime telemetry LOCAL-ONLY.",
+      "choices": [
+        "Clear a small lifecycle plus dual-body derivative with old/new lifetime identities and actual comparison, or preserve this accepted historical result with attributed provenance only.",
+        "For the original equality tier, recover and qualify the exact A0 envelope and source/lifetime witness. The D5AS control supports the bounded body-only comparison once hosted; it does not carry the missing A0 envelope or independently bind its historical event.",
+        "Neither D5AS mask-3 canonical body nor Save52 proves both episode boundaries, route or lifetime end. Small exact event and both normalized comparison witnesses would be needed."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Reconstruct the exact A0/A1 target and owner lifetime records across the Lodge return and independently compare both complete normalization envelopes."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5ak-a-report.md",
+        "docs/experiments/resource-retained-population/d5ak-a-review.md",
+        "docs/experiments/resource-retained-population/d5ak-a-live-ledger.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md",
+        "docs/experiments/resource-retained-population/d5al-b-report.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/audits/evidence-access-d5be/d5as.md",
+        "docs/experiments/resource-retained-population/d5av-investigation-ledger.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-D5AL-EPISODE-B",
+      "claims": [
+        "D5AL-EPISODE-B"
+      ],
+      "edges": [
+        "P-AK-A0-BASELINE",
+        "P-AL-EPISODE"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-AK-A0-BASELINE — Original D5AK initial A0 envelope and source/lifetime join are local-only. D5BE documented the canonical body bridge to the proposed D5AS control. P-AL-EPISODE — D5AL-B accepted report, frozen prediction and archive review; original 107-member archive and paired chronology LOCAL-ONLY.",
+      "choices": [
+        "Clear minimum matched A0/B0 process/source/frame and complete normalization derivative, sharing exact A0 lineage with D5AK, or retain as historical report provenance.",
+        "For the original equality tier, recover and qualify the exact A0 envelope and source/lifetime witness. The D5AS control supports the bounded body-only comparison once hosted; it does not carry the missing A0 envelope or independently bind its historical event.",
+        "D5AS reference match does not establish the specific A0/B0 process, event or full envelope equality. Distinct acquisition and normalization witnesses are necessary."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Authenticate the original A0 comparator and fresh B0 capture separately, then verify their source/frame, distinct process, construction facts and full 5,090-byte equality under PRED-01 v1."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5al-b-report.md",
+        "docs/experiments/resource-retained-population/d5al-b-review.md",
+        "docs/experiments/resource-retained-population/d5al-b-live-ledger.md",
+        "docs/experiments/resource-retained-population/d5al-b-prediction-evaluation.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md",
+        "docs/experiments/resource-retained-population/d5ak-a-report.md",
+        "docs/experiments/resource-retained-population/d5ak-a-review.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/audits/evidence-access-d5be/d5as.md",
+        "docs/experiments/resource-retained-population/d5ak-a-live-ledger.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-D5AO-N2",
+      "claims": [
+        "D5AO-N2"
+      ],
+      "edges": [
+        "P-AO-N2"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-AO-N2 — Tracked accepted N2 report and review; 174-member authentic archive and complete task/owner receipts LOCAL-ONLY.",
+      "choices": [
+        "Clear a minimal source/lifetime/request/event derivative with qualified bounds, or retain as historical evidence without an independent original-event tier.",
+        "No exact event or recorded admission bounds verified from D5AS bodies or arithmetic. A derivative must retain copied operands, identity, stage provenance and observer-effect limits."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Check the source-qualified N2 request, protected map decision, owner and direct 0x3 sample in original event order. Preserve the instrumented-session boundary."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-report.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-review.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
+        "docs/experiments/resource-retained-population/d5ao-measurement-validity.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-D5AP-N2-COMPETITION",
+      "claims": [
+        "D5AP-N2-COMPETITION"
+      ],
+      "edges": [
+        "P-AO-N2",
+        "P-AP-COMPETITION"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-AO-N2 — Tracked accepted N2 report and review; 174-member authentic archive and complete task/owner receipts LOCAL-ONLY. P-AP-COMPETITION — Tracked D5AP report and original independent replay of local raw/archive/owner receipts; no public exact N2 contender projection.",
+      "choices": [
+        "If directly asserting the historical competition, clear a bounded contender/owner trace plus equivalent-continuation controls. Otherwise preserve this independently accepted event explanation in its original report.",
+        "No exact event or recorded admission bounds verified from D5AS bodies or arithmetic. A derivative must retain copied operands, identity, stage provenance and observer-effect limits.",
+        "Native schedule rules do not authenticate the recorded N2 lead. A small approval-bound timeline must preserve all decisive contender/stage and owner joins plus equivalent delay continuations."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Check the full typed target cohort and the two peer state/order witnesses at the winner boundary. Preserve the unclassified inputs and distinguish the N2 result from B2."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5ap-report.md",
+        "docs/experiments/resource-retained-population/d5ap-review.md",
+        "docs/experiments/resource-retained-population/d5ap-competitor-chronology.md",
+        "docs/experiments/resource-retained-population/d5ap-winner-causal-analysis.md",
+        "docs/experiments/resource-retained-population/d5ap-analysis-method.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-report.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-review.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
+        "docs/experiments/resource-retained-population/d5ao-measurement-validity.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-D5AQ-EXACT-FIXTURE",
+      "claims": [
+        "D5AQ-EXACT-FIXTURE"
+      ],
+      "edges": [
+        "P-AO-N2",
+        "P-AQ-FIXTURE"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-AO-N2 — Tracked accepted N2 report and review; 174-member authentic archive and complete task/owner receipts LOCAL-ONLY. P-AQ-FIXTURE — Reported independently repeated original native fixture; tracked methods plus indispensable private N2 witnesses and original input/fixture receipts. D5AS candidate carries fixed reference bodies only.",
+      "choices": [
+        "Agree attributed fixture tier, or qualify the smallest lawful run with exact fixture inputs and successful native/independent geometry comparison.",
+        "No exact event or recorded admission bounds verified from D5AS bodies or arithmetic. A derivative must retain copied operands, identity, stage provenance and observer-effect limits.",
+        "No exact clean reproduction of source-to-output or 392 typed historical allocations from candidate references. Separate lawful minimal fixture prerequisite qualification or approved derivative if this exact tier is selected."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Qualify the pinned native fixture and independently recreate both fixed geometry controls and the scoped C1/N2 selector join. CSV row arithmetic alone cannot verify this tier."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5aq-report.md",
+        "docs/experiments/resource-retained-population/d5aq-review.md",
+        "docs/experiments/resource-retained-population/d5aq-mask-method.md",
+        "docs/experiments/resource-retained-population/d5aq-request-mask-map.csv",
+        "docs/experiments/resource-retained-population/d5aq-reachability.md",
+        "docs/experiments/resource-retained-population/d5aq-sources.csv",
+        "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-report.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-review.md",
+        "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
+        "docs/experiments/resource-retained-population/d5ao-measurement-validity.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv",
+        "research/resource-retained-population/d5aq_geometry.py",
+        "docs/audits/evidence-access-d5be/d5as.md"
+      ]
+    },
+    {
+      "id": "DECIDE-D5AS-ACQUISITION",
+      "claims": [
+        "D5AS-ACQUISITION"
+      ],
+      "edges": [
+        "P-AS-CUSTODY"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-AS-CUSTODY — Prior independently reviewed local capture, acquisition and custody replay; only roster projection and bodies are proposed for release.",
+      "choices": [
+        "Agree D5AS-BODY at bounded derivative tier with attributed roster/custody. If independently repeating original acquisition qualification is selected, separately clear a narrow admission and source-to-body witness.",
+        "A hosted body ZIP still cannot independently authenticate original producer/capture custody. Use accepted qualification as explicitly attributed provenance, or separately approve a minimum source-admission derivative. Unmeasured operator effects cannot be manufactured."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Independently check the original qualification roster, refusal and replacement, process/start and source-frame observations against the frozen criteria. The body verifier cannot repeat this custody check."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5as-series-closeout.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/experiments/resource-retained-population/d5as-analysis-protocol.md",
+        "docs/audits/evidence-access-d5be/d5as.md",
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+      ]
+    },
+    {
+      "id": "DECIDE-D5AS-BODY",
+      "claims": [
+        "D5AS-BODY"
+      ],
+      "edges": [
+        "D5BF-D5AS",
+        "P-AS-BODIES"
+      ],
+      "kind": "Selected exact tier held pending named route",
+      "gap": "P-AS-BODIES — D5BF D5AS approved exact candidate plus read-only verifier, previously replayed locally; PENDING RELEASE.",
+      "choices": [
+        "Retain exact bounded comparison after D5BF preflight, separately authorized hosting, and independent exact verifier and negative controls.",
+        "Exact comparison cannot be independently rerun using report or digest alone. Candidate does not prove per-start sampled mask or method from raw source to body."
+      ],
+      "acceptance": [
+        "Verify exact input identity and prerequisites for P-AS-BODIES using its selector. Independently check the stated result and its negative controls using the approved method. Keep this edge conditional if any named input or qualification is absent."
+      ],
+      "effort_risk": "Existing package and route checks at B6, plus any explicitly named lawfully obtained reader inputs.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5as-series-closeout.md",
+        "docs/experiments/resource-retained-population/d5as-producer-profile.md",
+        "docs/experiments/resource-retained-population/d5as-analysis-protocol.md",
+        "docs/audits/evidence-access-d5be/d5as.md",
+        "docs/audits/deferred-work-d5aw/dispositions.csv",
+        "docs/audits/deferred-work-d5aw/review.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/evidence-access-d5be/d5as-manifest.json",
+        "research/evidence-access/verify_release_assets.py",
+        "research/evidence-access/d5be/d5as_verify.py"
+      ]
+    },
+    {
+      "id": "DECIDE-D5AT-EXACT-REPLAY",
+      "claims": [
+        "D5AT-EXACT-REPLAY"
+      ],
+      "edges": [
+        "D5BF-CORE",
+        "P-AT-REPLAY"
+      ],
+      "kind": "Maintainer chooses evidence tier or separate work",
+      "gap": "P-AT-REPLAY — Exact original survey/native qualification conditional on proposed CORE plus lawful N244 inputs and original private Grid/atlas/task receipts. No clean exact original-method run is established.",
+      "choices": [
+        "Agree the table and attributed native-control tier, or qualify a lawful original method with exact Save52/main/atlas selectors and independently compare both VII-b output bodies.",
+        "CORE does not supply historical residence/atlas controls or full VII-b geometry. Qualify a portable exact-input method or clear a minimal authored source/geometry derivative."
+      ],
+      "acceptance": [
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
+        "Reproduce the exact Save52 site-to-source association with the lawful indexed source/grid inputs and check the separate complete VII-b fixed-mask bodies in the controlled case. Conditional count arithmetic alone is a smaller tier."
+      ],
+      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "sources": [
+        "docs/guides/resource-generation.md",
+        "docs/reference/resource-generation.md",
+        "docs/experiments/resource-retained-population/d5at-report.md",
+        "docs/experiments/resource-retained-population/d5at-active-associations.md",
+        "docs/experiments/resource-retained-population/d5at-activation-trace.md",
+        "docs/experiments/resource-retained-population/d5at-grid-trace.md",
+        "docs/experiments/resource-retained-population/d5at/active-sites.csv",
+        "docs/experiments/resource-retained-population/d5at/active-source-relations.csv",
+        "docs/experiments/resource-retained-population/d5at/active-rankings.csv",
+        "docs/experiments/resource-retained-population/d5at-candidate-assessment.md",
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/release-assets-d5bf/README.md",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "research/evidence-access/verify_release_assets.py",
+        "research/resource-retained-population/d5at_active.py",
+        "research/resource-retained-population/d5at_active_geometry.py",
+        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+      ]
+    }
+  ]
+}
