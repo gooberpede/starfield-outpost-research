@@ -73,7 +73,8 @@ in its verification instructions.
 | Claim / agreed scope and limit | Primary evidence / review / required negative cases | Dependency and transitive dependencies | Durable route, exact manifest and verification receipt | Status / reviewer |
 | --- | --- | --- | --- | --- |
 | F1 saved-state and screenshot witnesses, at the agreed evidence tier | [F1 coverage](audits/publication-readiness-b4/f1/coverage.md) | Exact selected first-party originals and lawful readers or inputs for the selected methods | D5BF CORE and ADDENDUM proposal under D; scope, clearance and B6 receipts TBD | PENDING |
-| D5AS qualified body comparisons, if selected | [D5BE access index](audits/evidence-access-d5be/README.md) | Complete canonical reference and sample bodies, roster and provenance | D5BF D5AS proposal under D; clearance and B6 receipts TBD | PENDING |
+| D5AS qualified body comparisons, proposed tier selected at D5BH | [D5BE access index](audits/evidence-access-d5be/README.md) | Complete canonical reference and sample bodies, roster and attributed original qualification | D5BF D5AS candidate under D. Exact clearance and B6 receipts TBD | PENDING |
+| D5AK/D5AL episode comparison and lifecycle witnesses | [D5BH local candidate assessment](audits/evidence-derivative-d5bh/README.md) | Bounded A0/A1/B0 original-data projection with distinct process and frozen prediction checks | Exact public route held pending file-specific clearance, selection, transfer and B6 | PENDING |
 | C19 native UI comparisons, if selected | [D5BE access index](audits/evidence-access-d5be/README.md) | Complete recorded callback operands, native outputs and provenance | D5BF C19 proposal under D; clearance and B6 receipts TBD | PENDING |
 | TBD | TBD | TBD | TBD | PENDING |
 

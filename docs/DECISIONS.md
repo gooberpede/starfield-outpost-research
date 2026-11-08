@@ -1,5 +1,27 @@
 # Decision Register
 
+## D5BH D5AS first-release evidence tier — 2026-11-08
+
+The maintainer invoked [D5BH](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BH_D5AS_Decision_and_D5AK_D5AL_Public_Evidence_Derivative.md)
+and selected the existing [D5BF D5AS asset](audits/release-assets-d5bf/release-assets.json)
+as the proposed first-release tier for complete-body comparison. The fixed
+mask-0 reference matches qualified positions 7 and 13. The fixed mask-3
+reference matches the other 28. Each of the 30 bodies matches exactly one
+reference. The generating mask, winning request and IID status remain
+unestablished. The original research confidence and eligibility rules carry
+forward.
+
+Attribute acquisition and eligibility to the [reviewed original investigation](experiments/resource-retained-population/d5as-series-closeout.md).
+The ZIP supports replay of the full canonical-body comparison and supplies the
+roster and exclusion projection. Independent reader replay of original
+acquisition and custody stays outside this selected tier. No additional
+acquisition or custody package is planned for it.
+
+Exact staged-asset and independent B6 verification, file-specific clearance,
+separate distribution authorization and verified hosting remain pending.
+The [D5BG claims and actions](audits/publication-claims-d5bg/README.md) record
+selection separately from route readiness. Availability is `PENDING RELEASE`.
+
 ## D5AW local working evidence and publication independence — 2026-11-07
 
 The maintainer's follow-up to D5AW prospectively defines `.local-work/` as

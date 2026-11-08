@@ -809,18 +809,18 @@
         "P-AK-EPISODE"
       ],
       "kind": "Maintainer chooses evidence tier or separate work",
-      "gap": "P-AK-A0-BASELINE — Original D5AK initial A0 envelope and source/lifetime join are local-only. D5BE documented the canonical body bridge to the proposed D5AS control. P-AK-EPISODE — D5AK-A accepted historical report and review; original episode archive and decisive content/lifetime telemetry LOCAL-ONLY.",
+      "gap": "D5BH built a common LOCAL-ONLY candidate with exact A0 and A1 normalization and projected original lifecycle operands. File-specific clearance, selection, durable transfer and B6 remain pending.",
       "choices": [
-        "Clear a small lifecycle plus dual-body derivative with old/new lifetime identities and actual comparison, or preserve this accepted historical result with attributed provenance only.",
-        "For the original equality tier, recover and qualify the exact A0 envelope and source/lifetime witness. The D5AS control supports the bounded body-only comparison once hosted; it does not carry the missing A0 envelope or independently bind its historical event.",
-        "Neither D5AS mask-3 canonical body nor Save52 proves both episode boundaries, route or lifetime end. Small exact event and both normalized comparison witnesses would be needed."
+        "Select and clear the exact D5BH witness at its bounded tier, or retain this accepted historical result with attributed provenance.",
+        "Keep the D5AS canonical-body tier and the original A0/A1 envelope and lifecycle tier separate."
       ],
       "acceptance": [
         "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
         "Reconstruct the exact A0/A1 target and owner lifetime records across the Lodge return and independently compare both complete normalization envelopes."
       ],
-      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "effort_risk": "Use the D5BH exact candidate review to support a file-specific decision. Verify the staged bytes at B6 and the authorized hosted bytes afterward.",
       "sources": [
+        "docs/audits/evidence-derivative-d5bh/README.md",
         "docs/guides/resource-generation.md",
         "docs/reference/resource-generation.md",
         "docs/experiments/resource-retained-population/d5ak-a-report.md",
@@ -845,18 +845,18 @@
         "P-AL-EPISODE"
       ],
       "kind": "Maintainer chooses evidence tier or separate work",
-      "gap": "P-AK-A0-BASELINE — Original D5AK initial A0 envelope and source/lifetime join are local-only. D5BE documented the canonical body bridge to the proposed D5AS control. P-AL-EPISODE — D5AL-B accepted report, frozen prediction and archive review; original 107-member archive and paired chronology LOCAL-ONLY.",
+      "gap": "D5BH built a common LOCAL-ONLY candidate with the original A0 and B0 normalization, projected distinct-process and construction operands and frozen forecast eligibility. File-specific clearance, selection, durable transfer and B6 remain pending.",
       "choices": [
-        "Clear minimum matched A0/B0 process/source/frame and complete normalization derivative, sharing exact A0 lineage with D5AK, or retain as historical report provenance.",
-        "For the original equality tier, recover and qualify the exact A0 envelope and source/lifetime witness. The D5AS control supports the bounded body-only comparison once hosted; it does not carry the missing A0 envelope or independently bind its historical event.",
-        "D5AS reference match does not establish the specific A0/B0 process, event or full envelope equality. Distinct acquisition and normalization witnesses are necessary."
+        "Select and clear the exact D5BH witness at its bounded tier, or retain the accepted forecast result with attributed provenance.",
+        "Keep original A0 shared with D5AK and preserve distinct B0 birth and frozen forecast eligibility."
       ],
       "acceptance": [
         "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
         "Authenticate the original A0 comparator and fresh B0 capture separately, then verify their source/frame, distinct process, construction facts and full 5,090-byte equality under PRED-01 v1."
       ],
-      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "effort_risk": "Use the D5BH exact candidate review to support a file-specific decision. Verify the staged bytes at B6 and the authorized hosted bytes afterward.",
       "sources": [
+        "docs/audits/evidence-derivative-d5bh/README.md",
         "docs/guides/resource-generation.md",
         "docs/reference/resource-generation.md",
         "docs/experiments/resource-retained-population/d5al-b-report.md",
@@ -986,17 +986,17 @@
       "edges": [
         "P-AS-CUSTODY"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
+      "kind": "D5BH decision recorded: attributed original qualification selected; exact acquisition replay outside selected tier",
       "gap": "P-AS-CUSTODY — Prior independently reviewed local capture, acquisition and custody replay; only roster projection and bodies are proposed for release.",
       "choices": [
-        "Agree D5AS-BODY at bounded derivative tier with attributed roster/custody. If independently repeating original acquisition qualification is selected, separately clear a narrow admission and source-to-body witness.",
-        "A hosted body ZIP still cannot independently authenticate original producer/capture custody. Use accepted qualification as explicitly attributed provenance, or separately approve a minimum source-admission derivative. Unmeasured operator effects cannot be manufactured."
+        "Use the accepted original qualification as attributed provenance for D5AS-BODY. Keep the original eligibility, refusal and replacement record and operator-report limits.",
+        "Hold the independent acquisition-replay route outside the selected tier. No additional custody package is planned."
       ],
       "acceptance": [
-        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
-        "Independently check the original qualification roster, refusal and replacement, process/start and source-frame observations against the frozen criteria. The body verifier cannot repeat this custody check."
+        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and keep the separate exact-replay edge HELD.",
+        "Reader verification covers the supplied roster projection and full bodies. The original reviewed investigation supplies qualification of the upstream process starts, custody and source-to-body derivation."
       ],
-      "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
+      "effort_risk": "Attributed qualification is selected. Exact acquisition replay remains outside the proposed release scope.",
       "sources": [
         "docs/guides/resource-generation.md",
         "docs/reference/resource-generation.md",
@@ -1016,10 +1016,10 @@
         "D5BF-D5AS",
         "P-AS-BODIES"
       ],
-      "kind": "Selected exact tier held pending named route",
-      "gap": "P-AS-BODIES — D5BF D5AS approved exact candidate plus read-only verifier, previously replayed locally; PENDING RELEASE.",
+      "kind": "D5BH decision recorded: complete-body tier selected; exact staged and hosted checks pending",
+      "gap": "P-AS-BODIES — The selected D5BF D5AS candidate and read-only verifier are available locally. Exact independent B6 staged checks and authorized hosted verification remain pending.",
       "choices": [
-        "Retain exact bounded comparison after D5BF preflight, separately authorized hosting, and independent exact verifier and negative controls.",
+        "Use the existing D5BF ZIP for all 30 qualified complete-body comparisons with both fixed references. Verify staged bytes and negative controls at B6 and the exact hosted bytes after separate authorization.",
         "Exact comparison cannot be independently rerun using report or digest alone. Candidate does not prove per-start sampled mask or method from raw source to body."
       ],
       "acceptance": [

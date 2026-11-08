@@ -21,18 +21,26 @@ rows gives **80** indispensable edges, with four held edges reached only from
 historical rows. Shared package nodes and other transitive edges count once.
 Supporting edges are outside those totals.
 
+The [D5BH decision](../../DECISIONS.md#d5bh-d5as-first-release-evidence-tier--2026-11-08)
+selects the existing D5AS ZIP for proposed complete-body comparison. Its
+`ACTION REQUIRED` row describes the remaining exact staged and hosted checks.
+The D5AS acquisition row retains the exact-replay hold. Attribute the original
+qualification and eligibility to the reviewed historical investigation. The
+selection calls for no additional custody package. Neither inherited
+disposition count changes.
+
 ## Decisions for the maintainer
 
 1. Agree the N244 build and exact first-release wording, access tiers and
    separately qualified historical inputs. The recommended authored tier is
    the 41 READY or READY — QUALIFIED rows. Use the matrix wording and preserve
    the original research, reviews, failed controls and supersessions.
-2. Agree which of the 12 ACTION REQUIRED rows to select at the exact evidence
-   tier. Bind each to its named reader and approved candidate members. The
+2. Decide the remaining selections among the 12 ACTION REQUIRED rows after
+   the D5AS-BODY selection. Bind each to its named reader and approved candidate members. The
    four proposed assets stay in the proposal. Use the existing staged inputs
    at B6. Where specified, the optional ADDENDUM is required for that claim's
    independent original-witness check.
-3. Decide the 14 MAINTAINER DECISION rows against the smallest closure in the
+3. Decide the unresolved tiers among the 14 MAINTAINER DECISION rows against the smallest closure in the
    [actions ledger](actions.json). For D1, the original C06/C14 censuses and
    owner-join trio, and the full C18 corpus, prefer the tracked or
    representative tier unless the omitted originals are material to approved
@@ -45,6 +53,11 @@ Supporting edges are outside those totals.
    rights/privacy decisions on the actual proposed text and bytes. The project
    licence covers authored material where the contributors have rights.
    Existing proprietary and donor boundaries continue to apply.
+
+The [D5BH episode audit](../evidence-derivative-d5bh/README.md) records the
+bounded D5AK/D5AL local candidate and its limitations. Keep the exact public
+episode routes held until file-specific clearance, agreed package transfer and
+exact B6 review. The four D5BF asset entries below retain their own ledger.
 
 ## Four local candidates
 

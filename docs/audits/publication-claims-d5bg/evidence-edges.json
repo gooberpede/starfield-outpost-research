@@ -65,7 +65,7 @@
       "id": "D5BF-D5AS",
       "materiality": "INDISPENSABLE",
       "state": "CONDITIONAL",
-      "route": "D5BF local approved proposed asset; isolated local verification reported by D5BF; hosted availability PENDING RELEASE.",
+      "route": "D5BF local asset selected at D5BH for proposed first-release complete-body comparison. Hosted availability PENDING RELEASE.",
       "substantiates": "30 complete qualified canonical sample bodies, two fixed references and a manifest. No observed generating mask or winning request.",
       "selector": "D5AS: d5as-feynman-geometry-v1.zip; SHA-256 d0d35ed2193527dd8215a647178614a5403e814bf14c3f9d1f0a448c53a1043c; exact member ledger.",
       "safety_rights": "Offline, explicitly supplied read-only inputs at B6. Bounded file-specific approval for proposed release; distribution authorization pending. Bethesda/ZeniMax origin and file-specific review remain in the manifest.",
@@ -205,7 +205,7 @@
       "id": "P-AK-A0-BASELINE",
       "materiality": "INDISPENSABLE",
       "state": "HELD",
-      "route": "Original D5AK initial A0 envelope and source/lifetime join are local-only. D5BE documented the canonical body bridge to the proposed D5AS control.",
+      "route": "The D5BH local candidate carries the exact A0 normalized envelope with projected source, frame and lifetime operands. Original wire and source custody remain LOCAL-ONLY. Exact public route held.",
       "substantiates": "The exact completed Episode A initial comparator, with its original frame and acquisition, independently of the later A1 return.",
       "selector": "D5AK-A initial A0 snapshot 1. Complete 5,090-byte normalization SHA-256 0c05d4a4c458b533d1ec7ae3acc8b34698ac48b91ff2965224e5c37ca055da96. Body-only tail at offset 232 is 4,858 bytes and corresponds to D5AS references/mask3.bin.",
       "safety_rights": "Use approved read-only authored records and file-specific derivative approval. A body-only match does not authorize redistribution of the original envelope or acquisition telemetry.",
@@ -217,7 +217,7 @@
         "docs/audits/evidence-access-d5be/d5as.md"
       ],
       "requires": [],
-      "consequence": "For the original equality tier, recover and qualify the exact A0 envelope and source/lifetime witness. The D5AS control supports the bounded body-only comparison once hosted; it does not carry the missing A0 envelope or independently bind its historical event.",
+      "consequence": "The local D5BH candidate binds the original A0 envelope and its source/lifetime witness. The exact public route remains held for file-specific selection and clearance, asset transfer, B6 and authorized hosting. The D5AS reference supports the separate canonical-body comparison and supplies no historical A0 event binding.",
       "predecessors": [
         [
           "RG-AK",
@@ -233,7 +233,7 @@
       "id": "P-AK-EPISODE",
       "materiality": "INDISPENSABLE",
       "state": "HELD",
-      "route": "D5AK-A accepted historical report and review; original episode archive and decisive content/lifetime telemetry LOCAL-ONLY.",
+      "route": "D5AK-A accepted historical report and review. D5BH provides a LOCAL-ONLY bounded candidate to inspect the original-data lifecycle, resident census, target construction and A0/A1 complete equality.",
       "substantiates": "One Feynman V → Lodge exterior marker → Feynman V trip ended prior source, holder and all three baseline content lifetimes, then reconstructed complete equal geometry.",
       "selector": "D5AK a-live01 Episode A; old/new allocation 932/30579, two 291,032-byte Raw2 maps, equal 5,090-byte normalization, 3 resources/78 regions/180 points. Installer/reset/erase event joins in the original ledger.",
       "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
@@ -248,7 +248,7 @@
         "P-FIRST-MISS",
         "P-AK-A0-BASELINE"
       ],
-      "consequence": "Neither D5AS mask-3 canonical body nor Save52 proves both episode boundaries, route or lifetime end. Small exact event and both normalized comparison witnesses would be needed.",
+      "consequence": "The local D5BH candidate carries the bounded original event evidence and the complete A0 and A1 normalizations. The reported Lodge route retains its operator basis. D5AS and Save52 supply no substitute for the episode witnesses. The exact public route remains held for file-specific selection and clearance, asset transfer, B6 and authorized hosting.",
       "predecessors": [
         [
           "RG-AK",
@@ -260,7 +260,7 @@
       "id": "P-AL-EPISODE",
       "materiality": "INDISPENSABLE",
       "state": "HELD",
-      "route": "D5AL-B accepted report, frozen prediction and archive review; original 107-member archive and paired chronology LOCAL-ONLY.",
+      "route": "D5AL-B accepted report, frozen prediction and archive review. The D5BH LOCAL-ONLY candidate carries the original A0/B0 process, target construction, comparison and projected forecast-eligibility operands.",
       "substantiates": "Authentically distinct process B0 and D5AK A0 agree over complete 5,090 bytes and qualified frame, with new construction and fixed PRED-01 v1 confirmation.",
       "selector": "D5AL episode B, A0/B0 exact pair and reviewed source-bound process birth/geometry equality. Save52 load procedure is operator-reported.",
       "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
@@ -451,7 +451,7 @@
       "id": "P-AS-BODIES",
       "materiality": "INDISPENSABLE",
       "state": "CONDITIONAL",
-      "route": "D5BF D5AS approved exact candidate plus read-only verifier, previously replayed locally; PENDING RELEASE.",
+      "route": "D5BH selected the existing D5BF D5AS candidate plus read-only verifier for the proposed complete-body tier. PENDING RELEASE.",
       "substantiates": "All 30 qualified complete canonical bodies compared with two complete reference bodies, plus prespecified table statistics.",
       "selector": "d5as-feynman-geometry-v1.zip SHA-256 d0d35ed2193527dd8215a647178614a5403e814bf14c3f9d1f0a448c53a1043c; body 0x0005e0de, key 0:37536:20928:0029d20e, origin (-200,-200).",
       "safety_rights": "D5BF APPROVED FOR PROPOSED RELEASE only; PENDING RELEASE. No hosting or distribution authorization. Read exact approved member with the project method; original file remains read-only.",
@@ -494,7 +494,7 @@
       "requires": [
         "P-AS-ROSTER"
       ],
-      "consequence": "A hosted body ZIP still cannot independently authenticate original producer/capture custody. Use accepted qualification as explicitly attributed provenance, or separately approve a minimum source-admission derivative. Unmeasured operator effects cannot be manufactured.",
+      "consequence": "D5BH chose attributed original qualification. Exact independent public acquisition replay stays held and outside the selected tier. No additional custody derivative is planned.",
       "predecessors": [
         [
           "RG-AS",

@@ -35,6 +35,10 @@ an adequate present or approved candidate route. `CONTEXT` records a
 nonessential source without treating it as an independent reproduction route.
 See the route and consequence fields for the limit of each assertion.
 
+[D5BH](../evidence-derivative-d5bh/README.md) records the D5AS tier selection
+separately from the inherited route dispositions. It also assesses a local
+common D5AK/D5AL witness. The exact episode publication routes remain held.
+
 ## Snapshot and safeguards
 
 The starting branch was `main`, HEAD
