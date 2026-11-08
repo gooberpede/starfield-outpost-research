@@ -1,0 +1,1276 @@
+{
+  "schema": "sor-d5bf-release-assets/1",
+  "publication": "NOT READY / NOT CLEARED",
+  "asset_set": "D5BF four-group local proposal",
+  "baseline": {
+    "executable_version": "1.16.244.0",
+    "executable_sha256": "7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28",
+    "reference": "docs/audits/publication-readiness-b3/baseline-manifest.md"
+  },
+  "validation": {
+    "verifier": "research/evidence-access/verify_release_assets.py",
+    "command": "python -I -S -B research/evidence-access/verify_release_assets.py docs/audits/release-assets-d5bf/release-assets.json --asset B4-F1-CORE <CORE-path> --asset B4-F1-ADDENDUM <ADDENDUM-path> --asset D5AS <D5AS-path> --asset C19 <C19-path>",
+    "receipt_id": "D5BF-ASSET-VERIFICATION"
+  },
+  "assets": {
+    "B4-F1-CORE": {
+      "selection": "INCLUDE",
+      "proposed_release_eligibility": "APPROVED FOR PROPOSED RELEASE",
+      "reader_optionality": "CORE; required for the proposed exact original-witness tier",
+      "purpose": "Controlled and mature save witnesses for exact saved-state checks.",
+      "basename": "sor-1.16.244.0-b4-f1-core-stored-provisional.zip",
+      "codec": "ZIP_STORED",
+      "bytes": 104046934,
+      "sha256": "b27bb842770d51499bec30042660789f1e539a3187d0d63f226fafcedd405105",
+      "source_records": [
+        "docs/audits/publication-readiness-b4/f1/assets.csv",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "docs/audits/publication-readiness-b4/f1/file-dispositions.csv",
+        "docs/audits/publication-readiness-b4/f1/coverage.md",
+        "docs/audits/publication-readiness-b4/f1/privacy-policy.md"
+      ],
+      "original_reviews": [
+        "B4-F1 review02 and final01; docs/audits/publication-readiness-b4/f1/review.md"
+      ],
+      "maintainer_policy": "D5BF §§2.1 and 2.3 and B4-F1 first-party original-save policy.",
+      "file_specific_assessment": "Unchanged, individually selected first-party captures. Matching hashes carry forward the F1 scoped review. Save review leaves opaque identifiers and unrelated fields incompletely decoded.",
+      "attribution": "Bethesda/ZeniMax game content and observed behavior; capture and analysis provenance as cited. Project licensing covers authored research and verifiers where the contributors have rights.",
+      "evidence_receipt_ids": [
+        "D5BF-F1-CUSTODY"
+      ],
+      "independent_receipt_id": "D5BF-INDEPENDENT-REVIEW",
+      "local_retrieval": "Use the D5BF-LOCAL-INPUTS receipt to retrieve the exact staged file by asset ID, basename and SHA-256.",
+      "required_approval": "Maintainer must freeze exact selection and claim routes for B6, separately authorize exact tag and draft upload after B6, and separately authorize visibility and timing after hosted-byte checks.",
+      "release_association": "Planned GitHub Release for research pinned to Starfield.exe 1.16.244.0; exact tag and release pending maintainer decision.",
+      "hosting": "PENDING RELEASE",
+      "hosted_url": "PENDING RELEASE",
+      "distribution_authorization": "PENDING",
+      "hold_or_exclusion_consequence": null,
+      "producer": "Maintainer-supplied first-party captures per original F1 experiment records.",
+      "version_qualification": "Member metadata follows F1. Save header versions do not identify originating executable hashes. Screenshot build and epoch are unknown.",
+      "member_count": 25,
+      "members": {
+        "B4-F001/Save37_D6036588M417474696C61204B6972616C79_000205_20261020002316_3_0_4.sfs": {
+          "bytes": 1769536,
+          "sha256": "c6ca5ccf90aeaf2109d688bb398da7ff14a323c6e6dc84967bf841842eaae687",
+          "identity": "B4-F001",
+          "alias": "Save37",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save37_D6036588M417474696C61204B6972616C79_000205_20261020002316_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C02",
+            "B4-C18"
+          ],
+          "evidence_role": "Save37 begins the Kreet controlled geography triplet; preserve source-frame baseline.",
+          "loss_if_omitted": "Loses the exact saved player/beacon/source-world join or prior/moved-beacon control for this sample; published operands/method remain readable, without original-byte verification or fresh-character recreation.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F002/Save38_D6036588M417474696C61204B6972616C79_000208_20261020003016_3_0_4.sfs": {
+          "bytes": 1837568,
+          "sha256": "8239c2372481859f8fea9cd968262aa129f0353ffad1b4dc6c2bd18236a8c13a",
+          "identity": "B4-F002",
+          "alias": "Save38",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save38_D6036588M417474696C61204B6972616C79_000208_20261020003016_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C02",
+            "B4-C18"
+          ],
+          "evidence_role": "Save38 supplies the intermediate geography comparison; Save39 alone cannot test the triplet.",
+          "loss_if_omitted": "Loses the exact saved player/beacon/source-world join or prior/moved-beacon control for this sample; published operands/method remain readable, without original-byte verification or fresh-character recreation.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F003/Save39_D6036588M417474696C61204B6972616C79_000209_20261020003045_3_0_4.sfs": {
+          "bytes": 1840400,
+          "sha256": "69e5bffb97b6320d7657677607e331898a499f50510c54f8c05f2b349619c879",
+          "identity": "B4-F003",
+          "alias": "Save39",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save39_D6036588M417474696C61204B6972616C79_000209_20261020003045_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C02",
+            "B4-C03",
+            "B4-C18"
+          ],
+          "evidence_role": "Save39 closes geography triplet in a second region; no fresh-character precision claim.",
+          "loss_if_omitted": "Loses the exact saved player/beacon/source-world join or prior/moved-beacon control for this sample; published operands/method remain readable, without original-byte verification or fresh-character recreation.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F029/Save10_D6036588M417474696C61204B6972616C79_000217_20261007082620_3_0_4.sfs": {
+          "bytes": 2085904,
+          "sha256": "3830065a8c1de2da171a753360231c1a4c93f20ebdc2b24d4385df6077db6cbd",
+          "identity": "B4-F029",
+          "alias": "S3",
+          "historical_alias": "HIST-0213",
+          "kind": "original first-party save",
+          "original_basename": "Save10_D6036588M417474696C61204B6972616C79_000217_20261007082620_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C04",
+            "B4-C07",
+            "B4-C11",
+            "B4-C19",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: iron extractor + solar array. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact iron extractor + solar array checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F030/Save11_D6036588M417474696C61204B6972616C79_000218_20261007082651_3_0_4.sfs": {
+          "bytes": 2100832,
+          "sha256": "b51daba6a0c1bd7426b140d1df90b741908c2c142be25a6e7c6854c078338b56",
+          "identity": "B4-F030",
+          "alias": "S3C",
+          "historical_alias": "HIST-0215",
+          "kind": "original first-party save",
+          "original_basename": "Save11_D6036588M417474696C61204B6972616C79_000218_20261007082651_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C04",
+            "B4-C07",
+            "B4-C11",
+            "B4-C19",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: no-action control; no-action control for preceding S3. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact no-action control checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F031/Save12_D6036588M417474696C61204B6972616C79_000218_20261007082746_3_0_4.sfs": {
+          "bytes": 2095152,
+          "sha256": "feafd2bc55d90ae48c2c86c3ef28db44ddf8a8b875a767264a484bd51893aff1",
+          "identity": "B4-F031",
+          "alias": "S4",
+          "historical_alias": "HIST-0217",
+          "kind": "original first-party save",
+          "original_basename": "Save12_D6036588M417474696C61204B6972616C79_000218_20261007082746_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C04",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: link extractor -> storage. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact link extractor -> storage checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F032/Save13_D6036588M417474696C61204B6972616C79_000219_20261007082801_3_0_4.sfs": {
+          "bytes": 2098880,
+          "sha256": "5dcf2549a19dbf6b2bdd5573762c67e66f256e05a7db6faa772d616bd35401fd",
+          "identity": "B4-F032",
+          "alias": "S4C / L0 / Save13",
+          "historical_alias": "HIST-0219",
+          "kind": "original first-party save",
+          "original_basename": "Save13_D6036588M417474696C61204B6972616C79_000219_20261007082801_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C04",
+            "B4-C08",
+            "B4-C11",
+            "B4-C22",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: no-action control; no-action control for preceding S4. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact no-action control checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F033/Save14_D6036588M417474696C61204B6972616C79_000219_20261007082843_3_0_4.sfs": {
+          "bytes": 2105120,
+          "sha256": "c3b5cfecfbc8d625d5ea37b863521afc6c2d0930099096411c6fc767c8883bc1",
+          "identity": "B4-F033",
+          "alias": "S5",
+          "historical_alias": "HIST-0221",
+          "kind": "original first-party save",
+          "original_basename": "Save14_D6036588M417474696C61204B6972616C79_000219_20261007082843_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: rename outpost \"SOR-001\". Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact rename outpost \"SOR-001\" checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F034/Save15_D6036588M417474696C61204B6972616C79_000219_20261007082858_3_0_4.sfs": {
+          "bytes": 2095328,
+          "sha256": "cfe1c95908e8686220be2d4dffb3d6ffce0ed52ac9f7ad8b8cd44101557a0e0a",
+          "identity": "B4-F034",
+          "alias": "S5C",
+          "historical_alias": "HIST-0223",
+          "kind": "original first-party save",
+          "original_basename": "Save15_D6036588M417474696C61204B6972616C79_000219_20261007082858_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: no-action control; no-action control for preceding S5. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact no-action control checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F035/Save16_D6036588M417474696C61204B6972616C79_000220_20261007082934_3_0_4.sfs": {
+          "bytes": 2114656,
+          "sha256": "754bcd6c7d04f797a52463e7db9f4634d6ebc5413a1c07dca4770849aeff8774",
+          "identity": "B4-F035",
+          "alias": "S6",
+          "historical_alias": "HIST-0225",
+          "kind": "original first-party save",
+          "original_basename": "Save16_D6036588M417474696C61204B6972616C79_000220_20261007082934_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: move solar array. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact move solar array checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F036/Save17_D6036588M417474696C61204B6972616C79_000220_20261007082951_3_0_4.sfs": {
+          "bytes": 2107408,
+          "sha256": "ac4f0055f54bdce3fc13040c60a8439301609f8e871ea987fa0c626040d6dbdb",
+          "identity": "B4-F036",
+          "alias": "S6C",
+          "historical_alias": "HIST-0227",
+          "kind": "original first-party save",
+          "original_basename": "Save17_D6036588M417474696C61204B6972616C79_000220_20261007082951_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: no-action control; no-action control for preceding S6. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact no-action control checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F037/Save18_D6036588M417474696C61204B6972616C79_000221_20261007083042_3_0_4.sfs": {
+          "bytes": 2108736,
+          "sha256": "761940870ccddea7f2e08f12e0c6d546a27c9869a77799cb600421972e2d8c70",
+          "identity": "B4-F037",
+          "alias": "S7",
+          "historical_alias": "HIST-0229",
+          "kind": "original first-party save",
+          "original_basename": "Save18_D6036588M417474696C61204B6972616C79_000221_20261007083042_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C04",
+            "B4-C11",
+            "B4-C19",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: delete extractor. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact delete extractor checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F038/Save19_D6036588M417474696C61204B6972616C79_000221_20261007083056_3_0_4.sfs": {
+          "bytes": 2099216,
+          "sha256": "241d7c294975124ad7128b83e71eddb54ce2b7f3f1f0f371725b8758a68764fe",
+          "identity": "B4-F038",
+          "alias": "S7C",
+          "historical_alias": "HIST-0231",
+          "kind": "original first-party save",
+          "original_basename": "Save19_D6036588M417474696C61204B6972616C79_000221_20261007083056_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C04",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: no-action control; no-action control for preceding S7. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact no-action control checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F039/Save4_D6036588M417474696C61204B6972616C79_000215_20261007082316_3_0_4.sfs": {
+          "bytes": 2085888,
+          "sha256": "1eb54bdb3f584e5dc3836080e107cfbf74fea2782da53d32d117e428c1b54698",
+          "identity": "B4-F039",
+          "alias": "S0",
+          "historical_alias": "HIST-0264",
+          "kind": "original first-party save",
+          "original_basename": "Save4_D6036588M417474696C61204B6972616C79_000215_20261007082316_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: no outpost. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact no outpost checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F040/Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs": {
+          "bytes": 16411136,
+          "sha256": "6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8",
+          "identity": "B4-F040",
+          "alias": "Save52 / HIST-0267",
+          "historical_alias": "HIST-0267",
+          "kind": "original first-party save",
+          "original_basename": "Save52_BA75E3CDM43616F205472616E_580743_20260818064541_319_15_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C03",
+            "B4-C04",
+            "B4-C05",
+            "B4-C06",
+            "B4-C08",
+            "B4-C09",
+            "B4-C10",
+            "B4-C13",
+            "B4-C14",
+            "B4-C17",
+            "B4-C19",
+            "B4-C22",
+            "B4-C23"
+          ],
+          "evidence_role": "Save52/HIST-0267 uniquely combines 848-root population, 24 reciprocal cargo pairs, E1/E2 producer joins and named biome frames; not a complete active census.",
+          "loss_if_omitted": "Save52 counts/topology, six greenhouse Water paths, 63 extractor joins and named nominal-biome frame checks cannot be replayed against original bytes; static explanations and authored operands remain. Private manual-network JSON still unavailable even if included.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F041/Save5_D6036588M417474696C61204B6972616C79_000215_20261007082336_3_0_4.sfs": {
+          "bytes": 2082912,
+          "sha256": "c838b57c6ae076b98ae10a716d4d76525f5a6a6ca9cb76f0cf8960e3f798eb08",
+          "identity": "B4-F041",
+          "alias": "S0C",
+          "historical_alias": "HIST-0269",
+          "kind": "original first-party save",
+          "original_basename": "Save5_D6036588M417474696C61204B6972616C79_000215_20261007082336_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: no-action control; no-action control for preceding S0. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact no-action control checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F042/Save6_D6036588M417474696C61204B6972616C79_000216_20261007082418_3_0_4.sfs": {
+          "bytes": 2082464,
+          "sha256": "406963331f1f00dde32e9178cfcdfb36a8494cf1db9b5f782c4e9ae2cb55d257",
+          "identity": "B4-F042",
+          "alias": "S1",
+          "historical_alias": "HIST-0271",
+          "kind": "original first-party save",
+          "original_basename": "Save6_D6036588M417474696C61204B6972616C79_000216_20261007082418_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C11",
+            "B4-C17",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: beacon. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact beacon checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F043/Save7_D6036588M417474696C61204B6972616C79_000216_20261007082433_3_0_4.sfs": {
+          "bytes": 2083520,
+          "sha256": "d3f3ab67940964c764eadb936361817016f96a0c43a69051c33ff860ba45daf0",
+          "identity": "B4-F043",
+          "alias": "S1C",
+          "historical_alias": "HIST-0273",
+          "kind": "original first-party save",
+          "original_basename": "Save7_D6036588M417474696C61204B6972616C79_000216_20261007082433_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C11",
+            "B4-C17",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: no-action control; no-action control for preceding S1. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact no-action control checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F044/Save8_D6036588M417474696C61204B6972616C79_000217_20261007082516_3_0_4.sfs": {
+          "bytes": 2107712,
+          "sha256": "ff39b409ddbb3ed8700498e5bd6d47caa042e484cc5149c18123f820bd3bf745",
+          "identity": "B4-F044",
+          "alias": "S2",
+          "historical_alias": "HIST-0275",
+          "kind": "original first-party save",
+          "original_basename": "Save8_D6036588M417474696C61204B6972616C79_000217_20261007082516_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C08",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: solid storage. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact solid storage checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F045/Save9_D6036588M417474696C61204B6972616C79_000217_20261007082535_3_0_4.sfs": {
+          "bytes": 2098144,
+          "sha256": "596fbb4c73f82e17455f0dba256c94427fb166b6d05af3bbd44e94d01923d4bf",
+          "identity": "B4-F045",
+          "alias": "S2C",
+          "historical_alias": "HIST-0277",
+          "kind": "original first-party save",
+          "original_basename": "Save9_D6036588M417474696C61204B6972616C79_000217_20261007082535_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C01",
+            "B4-C08",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "S0–S7C: no-action control; no-action control for preceding S2. Retain full S0–S7C chain: each intervention and no-action comparator tests a separate transition; dropping baseline/intermediate stages would weaken causal replay.",
+          "loss_if_omitted": "Cannot independently compare the exact no-action control checkpoint bytes and its paired action/control within S0–S7C; other numbered saves cannot substitute. This constrains serialized changes, not loaded effects.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F047/Save25_D6036588M417474696C61204B6972616C79_000231_20261009102224_4_0_4.sfs": {
+          "bytes": 2403744,
+          "sha256": "d4df86bc01c2105933fe856a1be5ebbe0c3fc78a4d67fe1a790e18129faf75f5",
+          "identity": "B4-F047",
+          "alias": "CS-Save25",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save25_D6036588M417474696C61204B6972616C79_000231_20261009102224_4_0_4.sfs",
+          "claim_ids": [
+            "B4-C02",
+            "B4-C03",
+            "B4-C18"
+          ],
+          "evidence_role": "Save25 supplies earlier two-outpost source-frame geometry; preserve with the distinct controlled Save26.",
+          "loss_if_omitted": "Loses the exact saved player/beacon/source-world join or prior/moved-beacon control for this sample; published operands/method remain readable, without original-byte verification or fresh-character recreation.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F051/Save41_BA75E3CDM43616F205472616E_480619_20260706053644_309_12_4.sfs": {
+          "bytes": 24870320,
+          "sha256": "635c07a4914c3313bbf12f031523f707183e4757324ce070f361bec0edfe10b4",
+          "identity": "B4-F051",
+          "alias": "Save41 / HIST-0255",
+          "historical_alias": "HIST-0255",
+          "kind": "original first-party save",
+          "original_basename": "Save41_BA75E3CDM43616F205472616E_480619_20260706053644_309_12_4.sfs",
+          "claim_ids": [
+            "B4-C10",
+            "B4-C11",
+            "B4-C12",
+            "B4-C13",
+            "B4-C14",
+            "B4-C24",
+            "B4-C25"
+          ],
+          "evidence_role": "HIST-0255/Save41 is first-party by accepted local-Saves provenance: Lin/Heller rank/assignment, five damaged devices and variant/component witnesses are noninterchangeable with Save52.",
+          "loss_if_omitted": "Exact Lin/Heller assignment, five damaged-device and construction/component witnesses require this distinct mature save; Save52 cannot substitute. Native explanations survive, no cause/arrival/reload inference.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F053/Save26_D6036588M417474696C61204B6972616C79_000241_20261010012454_4_0_4.sfs": {
+          "bytes": 2409024,
+          "sha256": "2b4781e75226f2ff7c6aa47470fb47ff179c1754461aa208c46716d7c3935104",
+          "identity": "B4-F053",
+          "alias": "Save26",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save26_D6036588M417474696C61204B6972616C79_000241_20261010012454_4_0_4.sfs",
+          "claim_ids": [
+            "B4-C02",
+            "B4-C18"
+          ],
+          "evidence_role": "Exact controlled Save26 comparison to Save25 tests second-outpost geometry; same-number F052 is different.",
+          "loss_if_omitted": "Loses the exact saved player/beacon/source-world join or prior/moved-beacon control for this sample; published operands/method remain readable, without original-byte verification or fresh-character recreation.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F054/Save29_D6036588M417474696C61204B6972616C79_000216_20261017043132_3_0_4.sfs": {
+          "bytes": 2085680,
+          "sha256": "ab28c98940b019320cda4d6a0db54c9d88b721a18fba4c6a701fbed0966b42fe",
+          "identity": "B4-F054",
+          "alias": "Save29",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save29_D6036588M417474696C61204B6972616C79_000216_20261017043132_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C07",
+            "B4-C21"
+          ],
+          "evidence_role": "Save29 supplies ordered CB allocation evidence for C/STRONG ordinary reconstruction; neither mature save reproduces that check.",
+          "loss_if_omitted": "Cannot verify exact saved CB solar/#1/#2 order and bit/graph correspondence. Authored graph supports reading C/STRONG explanation; no loaded instruction history, general convergence or writer safety is claimed.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F064/Autosave1_BA75E3CDM43616F205472616E_580731_20260818031907_319_15_4.sfs": {
+          "bytes": 16861680,
+          "sha256": "7e6642f49774c9827fe5230f8cdccdff6b00e4af8738dac11018b56e7ffeca37",
+          "identity": "B4-F064",
+          "alias": "HIST-0036",
+          "historical_alias": "HIST-0036",
+          "kind": "original first-party save",
+          "original_basename": "Autosave1_BA75E3CDM43616F205472616E_580731_20260818031907_319_15_4.sfs",
+          "claim_ids": [
+            "B4-C06",
+            "B4-C08",
+            "B4-C13",
+            "B4-C14",
+            "B4-C22"
+          ],
+          "evidence_role": "HIST-0036 uniquely supplies detailed 17-fabricator witness, mixed/empty inventory examples and S2 246-edge/18-join reread; Save52 is not a substitute.",
+          "loss_if_omitted": "E3 detailed 17-fabricator witness; S1 inventories; S2 finite 246-edge graph and 18 inventory/owner joins; SD1 comparisons: exact named bytes/counts/joins unavailable to the reader. Retain authored tables and static method, with original historical replay explicitly LOCAL-ONLY; Save52 is not an equivalent substitute.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0 (existing frozen metadata; not freshly decoded)"
+        }
+      }
+    },
+    "B4-F1-ADDENDUM": {
+      "selection": "INCLUDE",
+      "proposed_release_eligibility": "APPROVED FOR PROPOSED RELEASE",
+      "reader_optionality": "ADDENDUM; separate optional reader download",
+      "purpose": "Supplemental saved-state controls and original screenshot context.",
+      "basename": "sor-1.16.244.0-b4-f1-addendum-deflate-provisional.zip",
+      "codec": "ZIP_DEFLATED",
+      "bytes": 80827444,
+      "sha256": "d904b452fcfe1a82e6c4ceae5dfd1396b4fa088868587605ced7e2e57de278a3",
+      "source_records": [
+        "docs/audits/publication-readiness-b4/f1/assets.csv",
+        "docs/audits/publication-readiness-b4/f1/members.csv",
+        "docs/audits/publication-readiness-b4/f1/file-dispositions.csv",
+        "docs/audits/publication-readiness-b4/f1/coverage.md",
+        "docs/audits/publication-readiness-b4/f1/privacy-policy.md"
+      ],
+      "original_reviews": [
+        "B4-F1 review02 and final01; docs/audits/publication-readiness-b4/f1/review.md"
+      ],
+      "maintainer_policy": "D5BF §§2.1 and 2.3 and B4-F1 first-party original-save policy.",
+      "file_specific_assessment": "Unchanged, individually selected first-party captures. Matching hashes carry forward the F1 scoped save and visual/JPEG metadata screens. Screenshot/save epoch joins remain unestablished.",
+      "attribution": "Bethesda/ZeniMax game content and observed behavior; capture and analysis provenance as cited. Project licensing covers authored research and verifiers where the contributors have rights.",
+      "evidence_receipt_ids": [
+        "D5BF-F1-CUSTODY"
+      ],
+      "independent_receipt_id": "D5BF-INDEPENDENT-REVIEW",
+      "local_retrieval": "Use the D5BF-LOCAL-INPUTS receipt to retrieve the exact staged file by asset ID, basename and SHA-256.",
+      "required_approval": "Maintainer must freeze exact selection and claim routes for B6, separately authorize exact tag and draft upload after B6, and separately authorize visibility and timing after hosted-byte checks.",
+      "release_association": "Planned GitHub Release for research pinned to Starfield.exe 1.16.244.0; exact tag and release pending maintainer decision.",
+      "hosting": "PENDING RELEASE",
+      "hosted_url": "PENDING RELEASE",
+      "distribution_authorization": "PENDING",
+      "hold_or_exclusion_consequence": null,
+      "producer": "Maintainer-supplied first-party captures per original F1 experiment records.",
+      "version_qualification": "Member metadata follows F1. Save header versions do not identify originating executable hashes. Screenshot build and epoch are unknown.",
+      "member_count": 27,
+      "members": {
+        "B4-F009/20261020113000_1.jpg": {
+          "bytes": 374806,
+          "sha256": "29e936c53becfe220576a2a4360471eb6b8fee15dd62ede41756508565442e48",
+          "identity": "B4-F009",
+          "alias": "20261020113000_1.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "20261020113000_1.jpg",
+          "claim_ids": [
+            "B4-C02",
+            "B4-C18"
+          ],
+          "evidence_role": "Fixed Kreet Research Lab scanner range supplies visible landmark corroboration beyond save arithmetic.",
+          "loss_if_omitted": "Loses this exact scanner/map range and scene context witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F010/20261020113349_1.jpg": {
+          "bytes": 379560,
+          "sha256": "a32a8c4304c330cfeab375db5553b0b26b822ffb2263ae70badab441775b8e23",
+          "identity": "B4-F010",
+          "alias": "20261020113349_1.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "20261020113349_1.jpg",
+          "claim_ids": [
+            "B4-C02",
+            "B4-C18"
+          ],
+          "evidence_role": "Surface-map appearance adds a different geographic view; no exact screenshot/save epoch join.",
+          "loss_if_omitted": "Loses this exact scanner/map range and scene context witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F011/Save30_D6036588M417474696C61204B6972616C79_000218_20261019021923_3_0_4.sfs": {
+          "bytes": 2226640,
+          "sha256": "bdcf6d03b4f495710ddf5d38ab79c6cd0ede34e8a26e9d6f88ab27259200aa3e",
+          "identity": "B4-F011",
+          "alias": "Save30",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save30_D6036588M417474696C61204B6972616C79_000218_20261019021923_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "POI sequence initial baseline: necessary to compare bulldozed-channel 0 -> 1 -> 4.",
+          "loss_if_omitted": "Loses this baseline/beacon/completed member of its three-save construction/bulldozing contrast. No no-action pair or exact screenshot-to-reference identity exists; authored roots/channel tables remain readable.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F012/Save31_D6036588M417474696C61204B6972616C79_000220_20261019022207_3_0_4.sfs": {
+          "bytes": 2189216,
+          "sha256": "98482db78bc64aae17f0cf333ef3cb25825608fea5e87bdc43e3f989eec3fa7c",
+          "identity": "B4-F012",
+          "alias": "Save31",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save31_D6036588M417474696C61204B6972616C79_000220_20261019022207_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C03",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "POI beacon intermediate checkpoint preserves construction order, not just final objects.",
+          "loss_if_omitted": "Loses this baseline/beacon/completed member of its three-save construction/bulldozing contrast. No no-action pair or exact screenshot-to-reference identity exists; authored roots/channel tables remain readable.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F013/Save33_D6036588M417474696C61204B6972616C79_000221_20261019022719_3_0_4.sfs": {
+          "bytes": 2116832,
+          "sha256": "f1181cbbae0272110778c44c0e0dfc604fd786082504420689d0c0c51da59ea0",
+          "identity": "B4-F013",
+          "alias": "Save33",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save33_D6036588M417474696C61204B6972616C79_000221_20261019022719_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C03",
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "POI final solar/extractor checkpoint closes that sequence; no no-action control exists.",
+          "loss_if_omitted": "Loses this baseline/beacon/completed member of its three-save construction/bulldozing contrast. No no-action pair or exact screenshot-to-reference identity exists; authored roots/channel tables remain readable.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F014/Save34_D6036588M417474696C61204B6972616C79_000215_20261019023113_3_0_4.sfs": {
+          "bytes": 2099104,
+          "sha256": "6b38eec82e2e9f71b09a3be665957671edadf290fd354cc6a5d88a68cf23403a",
+          "identity": "B4-F014",
+          "alias": "Save34",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save34_D6036588M417474696C61204B6972616C79_000215_20261019023113_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Clutter sequence initial baseline supplies distinct 0 -> 1 -> 12 contrast.",
+          "loss_if_omitted": "Loses this baseline/beacon/completed member of its three-save construction/bulldozing contrast. No no-action pair or exact screenshot-to-reference identity exists; authored roots/channel tables remain readable.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F015/Save35_D6036588M417474696C61204B6972616C79_000216_20261019023148_3_0_4.sfs": {
+          "bytes": 2092176,
+          "sha256": "8285e864219fbc4fd8e2ecb3f6e594eb50b6ceabea8f421a0b01439c3fc811d7",
+          "identity": "B4-F015",
+          "alias": "Save35",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save35_D6036588M417474696C61204B6972616C79_000216_20261019023148_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Clutter beacon intermediate checkpoint distinguishes beacon from later additions.",
+          "loss_if_omitted": "Loses this baseline/beacon/completed member of its three-save construction/bulldozing contrast. No no-action pair or exact screenshot-to-reference identity exists; authored roots/channel tables remain readable.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F016/Save36_D6036588M417474696C61204B6972616C79_000218_20261019023339_3_0_4.sfs": {
+          "bytes": 2143728,
+          "sha256": "0874817c161439b5f582a47f01e53e4b6a7beab4644362f1c660d75102d53e93",
+          "identity": "B4-F016",
+          "alias": "Save36",
+          "historical_alias": null,
+          "kind": "original first-party save",
+          "original_basename": "Save36_D6036588M417474696C61204B6972616C79_000218_20261019023339_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Clutter final checkpoint completes second sequence; not interchangeable with POI triplet.",
+          "loss_if_omitted": "Loses this baseline/beacon/completed member of its three-save construction/bulldozing contrast. No no-action pair or exact screenshot-to-reference identity exists; authored roots/channel tables remain readable.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F017/environmental-clutter-beacon-override.jpg": {
+          "bytes": 522869,
+          "sha256": "215f5fc50e9504fbfd2fc6a3af416e6a9f2159ea70b79fc00144c8c75ebc03d5",
+          "identity": "B4-F017",
+          "alias": "environmental-clutter-beacon-override.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "environmental-clutter-beacon-override.jpg",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Beacon permissive overlap preview pairs with F018; object class differs from solar.",
+          "loss_if_omitted": "Loses this exact scenery/animal intersection or permissive-preview witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F018/environmental-clutter-beacon-static-intersection.jpg": {
+          "bytes": 532597,
+          "sha256": "4629bfb55b8d9c39f47bbbcaba60b84496b155028265d62b021e4c7fcf19f370",
+          "identity": "B4-F018",
+          "alias": "environmental-clutter-beacon-static-intersection.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "environmental-clutter-beacon-static-intersection.jpg",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Beacon intersection rejection contrasts F017; message is collision, not territorial restriction.",
+          "loss_if_omitted": "Loses this exact scenery/animal intersection or permissive-preview witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F019/environmental-clutter-extractor-dynamic-intersection.jpg": {
+          "bytes": 688941,
+          "sha256": "064265a18a5fa20cb4c613ff7db336b17410ebb13b2a931492e18c85a1acca24",
+          "identity": "B4-F019",
+          "alias": "environmental-clutter-extractor-dynamic-intersection.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "environmental-clutter-extractor-dynamic-intersection.jpg",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Actor-adjacent extractor intersection is a separate category counterexample to scenery clearance.",
+          "loss_if_omitted": "Loses this exact scenery/animal intersection or permissive-preview witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F020/environmental-clutter-solar-array-override.jpg": {
+          "bytes": 744815,
+          "sha256": "9b534f9d99bf153c47e3c4b1f8ed885c75470aeadac76668b6fe4537d985bfe6",
+          "identity": "B4-F020",
+          "alias": "environmental-clutter-solar-array-override.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "environmental-clutter-solar-array-override.jpg",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Solar permissive preview contrasts F021; does not prove completed placement or permanent removal.",
+          "loss_if_omitted": "Loses this exact scenery/animal intersection or permissive-preview witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F021/environmental-clutter-solar-array-static-intersection.jpg": {
+          "bytes": 747204,
+          "sha256": "68703d2eef994ca54b57873ccba04feaec4ab919a8862a3a3f5eee99a01ad2f2",
+          "identity": "B4-F021",
+          "alias": "environmental-clutter-solar-array-static-intersection.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "environmental-clutter-solar-array-static-intersection.jpg",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Solar static intersection rejection contrasts F020; no measured swept depth or exact reference join.",
+          "loss_if_omitted": "Loses this exact scenery/animal intersection or permissive-preview witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F023/poi-beacon-inside-exclusion-zone.jpg": {
+          "bytes": 669255,
+          "sha256": "7e85e870e5b38505d23627e9c42a598a857f16a60e3e7625b528d11489621b4e",
+          "identity": "B4-F023",
+          "alias": "poi-beacon-inside-exclusion-zone.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "poi-beacon-inside-exclusion-zone.jpg",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Beacon screenshot directly says Area is restricted, preserving correction to historical brief.",
+          "loss_if_omitted": "Loses this exact POI restriction/boundary/preview witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F025/poi-clipped-outpost-boundary.jpg": {
+          "bytes": 572725,
+          "sha256": "52dddd5f398a5a32580327d7cb4733ec3a31413e56c37f93afc998584438195d",
+          "identity": "B4-F025",
+          "alias": "poi-clipped-outpost-boundary.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "poi-clipped-outpost-boundary.jpg",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Ground view shows clipped border near the POI; F024 overhead is lower marginal value.",
+          "loss_if_omitted": "Loses this exact POI restriction/boundary/preview witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F026/poi-solar-array-inside-exclusion-zone.jpg": {
+          "bytes": 653986,
+          "sha256": "82c1803b623a5bf09d44312c602132c8cd6cb4560935551206a47d092f7125a5",
+          "identity": "B4-F026",
+          "alias": "poi-solar-array-inside-exclusion-zone.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "poi-solar-array-inside-exclusion-zone.jpg",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Solar territorial rejection paired with F027 separates restriction from generic collision.",
+          "loss_if_omitted": "Loses this exact POI restriction/boundary/preview witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F027/poi-solar-array-outside-exclusion-zone.jpg": {
+          "bytes": 657539,
+          "sha256": "edde395b91b9f04fbd0e29a0a86244cacb75bcaffff01368baf5420e5e54a8ef",
+          "identity": "B4-F027",
+          "alias": "poi-solar-array-outside-exclusion-zone.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "poi-solar-array-outside-exclusion-zone.jpg",
+          "claim_ids": [
+            "B4-C11",
+            "B4-C25"
+          ],
+          "evidence_role": "Solar permissive outside preview completes F026 contrast; not proof of completed construction.",
+          "loss_if_omitted": "Loses this exact POI restriction/boundary/preview witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F048/Autosave1_BA75E3CDM43616F205472616E_551422_20260728075659_318_14_4.sfs": {
+          "bytes": 19666336,
+          "sha256": "4c3e950f0482a9f3833e83bdb7cc22b7af9266947771d1072c9e01ac6062d2f9",
+          "identity": "B4-F048",
+          "alias": "HIST-0024",
+          "historical_alias": "HIST-0024",
+          "kind": "original first-party save",
+          "original_basename": "Autosave1_BA75E3CDM43616F205472616E_551422_20260728075659_318_14_4.sfs",
+          "claim_ids": [
+            "B4-C10",
+            "B4-C24"
+          ],
+          "evidence_role": "Vasco saved ship-skill ranks independently contrast Lin/Heller outpost assignments in HIST-0255; not an extra copy of their effect.",
+          "loss_if_omitted": "Cannot inspect the specific saved Vasco ship-skill rank witness; other actors and Save52 do not establish these ranks. Keep original rank table and qualifier, not a replay promise.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F049/Autosave1_BA75E3CDM43616F205472616E_571837_20260815074923_319_15_4.sfs": {
+          "bytes": 14812256,
+          "sha256": "9c7e133b09aa3b3c0bd92e8b10eb1ead56a8c0cc1c0af8af0227bb8f76db6ee7",
+          "identity": "B4-F049",
+          "alias": "HIST-0035",
+          "historical_alias": "HIST-0035",
+          "kind": "original first-party save",
+          "original_basename": "Autosave1_BA75E3CDM43616F205472616E_571837_20260815074923_319_15_4.sfs",
+          "claim_ids": [
+            "B4-C03"
+          ],
+          "evidence_role": "Earlier HIST-0035 biome snapshot supplies qualified frame 2b without the later descriptor; contrasts core Save52, not a new biome census.",
+          "loss_if_omitted": "Cannot independently check this additional Feynman/Carinae biome-frame snapshot; Save52 supplies one separate nominal-site witness, not historical repetition or D1 incident coverage.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F055/Save20_D6036588M417474696C61204B6972616C79_000219_20261007100746_3_0_4.sfs": {
+          "bytes": 2091760,
+          "sha256": "740d060c35aaed5c9f8a4d4748730c3d21858bebab7847b06b3999e00995ee4c",
+          "identity": "B4-F055",
+          "alias": "L0C",
+          "historical_alias": "HIST-0234",
+          "kind": "original first-party save",
+          "original_basename": "Save20_D6036588M417474696C61204B6972616C79_000219_20261007100746_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C08",
+            "B4-C22"
+          ],
+          "evidence_role": "L0C new-session linked baseline preserves reload churn from L0=S4C; not a within-session no-action control for L0.",
+          "loss_if_omitted": "L0=S4C and the five subsequent L controls form the exact payload/token test. Omitting this stage breaks its corresponding linked/unlinked/action/no-action contrast; no claim of object removal/recreation.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F056/Save21_D6036588M417474696C61204B6972616C79_000219_20261007100826_3_0_4.sfs": {
+          "bytes": 2083904,
+          "sha256": "f039d1ef7eafdd831850bb201596596b10d90a558bb5d183458265a732ece5bd",
+          "identity": "B4-F056",
+          "alias": "L1",
+          "historical_alias": "HIST-0235",
+          "kind": "original first-party save",
+          "original_basename": "Save21_D6036588M417474696C61204B6972616C79_000219_20261007100826_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C08",
+            "B4-C22"
+          ],
+          "evidence_role": "L1 unlink intervention compared with L0C; must retain L1C to separate no-action churn.",
+          "loss_if_omitted": "L0=S4C and the five subsequent L controls form the exact payload/token test. Omitting this stage breaks its corresponding linked/unlinked/action/no-action contrast; no claim of object removal/recreation.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F057/Save22_D6036588M417474696C61204B6972616C79_000220_20261007100840_3_0_4.sfs": {
+          "bytes": 2086432,
+          "sha256": "e17756509e6d85b9eec5c273835b81906503e9c64e01526d465490c956c367cf",
+          "identity": "B4-F057",
+          "alias": "L1C",
+          "historical_alias": "HIST-0237",
+          "kind": "original first-party save",
+          "original_basename": "Save22_D6036588M417474696C61204B6972616C79_000220_20261007100840_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C08",
+            "B4-C22"
+          ],
+          "evidence_role": "L1C is the no-action contrast after unlink, not a duplicate selected by size/date.",
+          "loss_if_omitted": "L0=S4C and the five subsequent L controls form the exact payload/token test. Omitting this stage breaks its corresponding linked/unlinked/action/no-action contrast; no claim of object removal/recreation.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F058/Save23_D6036588M417474696C61204B6972616C79_000220_20261007100900_3_0_4.sfs": {
+          "bytes": 2088912,
+          "sha256": "88a613bd5eb0d43b0709b62c90c0152b8847c8ee711a559359bf6f17a75832c8",
+          "identity": "B4-F058",
+          "alias": "L2",
+          "historical_alias": "HIST-0239",
+          "kind": "original first-party save",
+          "original_basename": "Save23_D6036588M417474696C61204B6972616C79_000220_20261007100900_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C08",
+            "B4-C22"
+          ],
+          "evidence_role": "L2 relink intervention restores 19-byte linked payload relative to unlinked 12; compare L1C/L2C.",
+          "loss_if_omitted": "L0=S4C and the five subsequent L controls form the exact payload/token test. Omitting this stage breaks its corresponding linked/unlinked/action/no-action contrast; no claim of object removal/recreation.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F059/Save24_D6036588M417474696C61204B6972616C79_000220_20261007100920_3_0_4.sfs": {
+          "bytes": 2093152,
+          "sha256": "222f8c2e4571d9b0a9d47a7de8c1dd391613c78fc0a51f21ca326e519db03a38",
+          "identity": "B4-F059",
+          "alias": "L2C",
+          "historical_alias": "HIST-0241",
+          "kind": "original first-party save",
+          "original_basename": "Save24_D6036588M417474696C61204B6972616C79_000220_20261007100920_3_0_4.sfs",
+          "claim_ids": [
+            "B4-C08",
+            "B4-C22"
+          ],
+          "evidence_role": "L2C no-action contrast completes unlink/relink sequence; L0=S4C appears only in core.",
+          "loss_if_omitted": "L0=S4C and the five subsequent L controls form the exact payload/token test. Omitting this stage breaks its corresponding linked/unlinked/action/no-action contrast; no claim of object removal/recreation.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0"
+        },
+        "B4-F062/1716740_62.jpg": {
+          "bytes": 132080,
+          "sha256": "14444e97c9e2a9ba761d053b049ea5643c5715b4a85e175e6c74d1b4b5bf4ccd",
+          "identity": "B4-F062",
+          "alias": "1716740_62.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "1716740_62.jpg",
+          "claim_ids": [
+            "B4-C15",
+            "B4-C16",
+            "B4-C20"
+          ],
+          "evidence_role": "One-outpost UI with iron/1.67 per minute supports visible nominal provider/rate example; save/cache epoch UNKNOWN.",
+          "loss_if_omitted": "Loses this exact Locations panel/resource-count appearance witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F063/1716740_66.jpg": {
+          "bytes": 201834,
+          "sha256": "7d29d00e1966bce47b3945d39843257f0b146fce28da4aaed864c9f9b46efc47",
+          "identity": "B4-F063",
+          "alias": "1716740_66.jpg",
+          "historical_alias": null,
+          "kind": "original first-party JPEG",
+          "original_basename": "1716740_66.jpg",
+          "claim_ids": [
+            "B4-C15",
+            "B4-C16",
+            "B4-C20"
+          ],
+          "evidence_role": "Mature UI contrasts multiple stored categories, 17/24 numerator and badges with F062; separate context, no exact save join.",
+          "loss_if_omitted": "Loses this exact Locations panel/resource-count appearance witness. Caption and native mechanism remain intelligible; no exact save/reference/epoch join is established by including it.",
+          "header_versions_or_qualification": "UNKNOWN: screenshot epoch/build not established"
+        },
+        "B4-F067/Autosave1_BA75E3CDM43616F205472616E_550024_20260725040821_317_14_4.sfs": {
+          "bytes": 17016320,
+          "sha256": "8ad36c6bfa6035c66f0a1c62d64a704496d2ae01f7d1fac567ea979a4f7404ec",
+          "identity": "B4-F067",
+          "alias": "HIST-0021",
+          "historical_alias": "HIST-0021",
+          "kind": "original first-party save",
+          "original_basename": "Autosave1_BA75E3CDM43616F205472616E_550024_20260725040821_317_14_4.sfs",
+          "claim_ids": [
+            "B4-C13"
+          ],
+          "evidence_role": "HIST-0021 provides positive helmet-display slot/backlink witness absent from core; addendum still does not contain mannequin HIST-0256/0257.",
+          "loss_if_omitted": "SD1 positive helmet-display slot/backlink native-component witness: exact named bytes/counts/joins unavailable to the reader. Retain authored tables and static method, with original historical replay explicitly LOCAL-ONLY; Save52 is not an equivalent substitute.",
+          "header_versions_or_qualification": "1.16.244.0;1.16.244.0 (existing frozen metadata; not freshly decoded)"
+        }
+      }
+    },
+    "D5AS": {
+      "selection": "INCLUDE",
+      "proposed_release_eligibility": "APPROVED FOR PROPOSED RELEASE",
+      "reader_optionality": "Separate download; indispensable to the exact D5AS comparison if selected",
+      "purpose": "Compare 30 complete qualified canonical geometry bodies with two fixed references.",
+      "basename": "d5as-feynman-geometry-v1.zip",
+      "codec": "ZIP_STORED",
+      "bytes": 176733,
+      "sha256": "d0d35ed2193527dd8215a647178614a5403e814bf14c3f9d1f0a448c53a1043c",
+      "source_records": [
+        "docs/audits/evidence-access-d5be/d5as-manifest.json",
+        "docs/audits/evidence-access-d5be/d5as.md",
+        "docs/experiments/resource-retained-population/d5as-series-closeout.md"
+      ],
+      "original_reviews": [
+        "D5AS independent closeout",
+        "D5BE independent review of snapshot 02"
+      ],
+      "maintainer_policy": "D5BF §§2.1 and 2.2 bounded game-derived comparison policy.",
+      "file_specific_assessment": "The manifest and complete canonical comparison bodies describe one target-source profile and two fixed controls. The reviewed scope retains neither source-executable material nor a complete exported game resource.",
+      "attribution": "Bethesda/ZeniMax game content and observed behavior; capture and analysis provenance as cited. Project licensing covers authored research and verifiers where the contributors have rights.",
+      "evidence_receipt_ids": [
+        "D5BF-D5AS-REPLAY",
+        "D5BF-DERIVATIVE-INSPECTION"
+      ],
+      "independent_receipt_id": "D5BF-INDEPENDENT-REVIEW",
+      "local_retrieval": "Use the D5BF-LOCAL-INPUTS receipt to retrieve the exact staged file by asset ID, basename and SHA-256.",
+      "required_approval": "Maintainer must freeze exact selection and claim routes for B6, separately authorize exact tag and draft upload after B6, and separately authorize visibility and timing after hosted-byte checks.",
+      "release_association": "Planned GitHub Release for research pinned to Starfield.exe 1.16.244.0; exact tag and release pending maintainer decision.",
+      "hosting": "PENDING RELEASE",
+      "hosted_url": "PENDING RELEASE",
+      "distribution_authorization": "PENDING",
+      "hold_or_exclusion_consequence": null,
+      "producer": "D5AS project observer capture and fixed-reference modelling; D5BE authored canonical evidence derivative.",
+      "version_qualification": "Pinned retail baseline. Canonical body equality in the qualified source/frame domain assigns a reference-equivalent geometry class. The generating mask and winning request remain unverified for these samples.",
+      "claim_ids": [
+        "D5AS",
+        "GC-31"
+      ],
+      "standalone_validation": "python -I -B research/evidence-access/d5be/d5as_verify.py <D5AS-path> --sha256 d0d35ed2193527dd8215a647178614a5403e814bf14c3f9d1f0a448c53a1043c --negative-controls",
+      "member_count": 33,
+      "members": {
+        "manifest.json": {
+          "bytes": 17477,
+          "sha256": "d2b421c2ab5392e68014771675b6ab184a298d3113c6b3d10a6af8359eb4de59",
+          "identity": "D5AS derivative manifest",
+          "evidence_role": "Binds chronology, per-sample and reference pins, exclusions, replacement and body domain."
+        },
+        "references/mask0.bin": {
+          "bytes": 4966,
+          "sha256": "bba4c877bc14d8abd3cfe36313e4cd62fd98e510dbf18441b250eacb57b942c4",
+          "identity": "D5AS fixed mask0 reference",
+          "evidence_role": "Complete reference body for byte equality in the declared canonical-body domain."
+        },
+        "references/mask3.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS fixed mask3 reference",
+          "evidence_role": "Complete reference body for byte equality in the declared canonical-body domain."
+        },
+        "samples/01.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 1",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/02.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 2",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/03.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 3",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/04.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 4",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/05.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 5",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/06.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 6",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/07.bin": {
+          "bytes": 4966,
+          "sha256": "bba4c877bc14d8abd3cfe36313e4cd62fd98e510dbf18441b250eacb57b942c4",
+          "identity": "D5AS qualified position 7",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-0 canonical reference."
+        },
+        "samples/08.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 8",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/09.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 9",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/10.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 10",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/11.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 11",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/12.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 12",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/13.bin": {
+          "bytes": 4966,
+          "sha256": "bba4c877bc14d8abd3cfe36313e4cd62fd98e510dbf18441b250eacb57b942c4",
+          "identity": "D5AS qualified position 13",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-0 canonical reference."
+        },
+        "samples/14.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 14",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/15.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 15",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/16.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 16",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/17.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 17",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/18.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 18",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/19.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 19",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/20.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 20",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/21.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 21",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/22.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 22",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/23.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 23",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/24.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 24",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/25.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 25",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/26.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 26",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/27.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 27",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/28.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 28",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/29.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 29",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        },
+        "samples/30.bin": {
+          "bytes": 4858,
+          "sha256": "7b66c2cce4b0c4c2d52a91a41d02997f12632d0c197681fcf4f21cb87bdbf653",
+          "identity": "D5AS qualified position 30",
+          "evidence_role": "Complete sample body; byte-equal to fixed mask-3 canonical reference."
+        }
+      }
+    },
+    "C19": {
+      "selection": "INCLUDE",
+      "proposed_release_eligibility": "APPROVED FOR PROPOSED RELEASE",
+      "reader_optionality": "Separate download; indispensable to the exact callback-census claim if selected",
+      "purpose": "Recompute all 346 recorded ordered native callback-to-row comparisons.",
+      "basename": "c19-callbacks-v1.json",
+      "codec": "UTF-8 JSON",
+      "bytes": 189747,
+      "sha256": "d37476dd5b33fca44423c1c0aaf239b43e8a98d8cf2ed97b15beaa4225906ada",
+      "source_records": [
+        "docs/audits/evidence-access-d5be/c19-manifest.json",
+        "docs/audits/evidence-access-d5be/c19.md",
+        "docs/experiments/continuous-beacon-preview/live-scientific-report.md"
+      ],
+      "original_reviews": [
+        "SOR-EV-0043 original review; docs/experiments/continuous-beacon-preview/review.md",
+        "D5BE independent review of snapshot 02"
+      ],
+      "maintainer_policy": "D5BF §§2.1 and 2.2 bounded game-derived comparison policy.",
+      "file_specific_assessment": "The structured callback comparison retains ordered observed inputs and output identities, aliases and run context. It carries no raw pointers, game source or complete exported game resource.",
+      "attribution": "Bethesda/ZeniMax game content and observed behavior; capture and analysis provenance as cited. Project licensing covers authored research and verifiers where the contributors have rights.",
+      "evidence_receipt_ids": [
+        "D5BF-C19-REPLAY",
+        "D5BF-DERIVATIVE-INSPECTION"
+      ],
+      "independent_receipt_id": "D5BF-INDEPENDENT-REVIEW",
+      "local_retrieval": "Use the D5BF-LOCAL-INPUTS receipt to retrieve the exact staged file by asset ID, basename and SHA-256.",
+      "required_approval": "Maintainer must freeze exact selection and claim routes for B6, separately authorize exact tag and draft upload after B6, and separately authorize visibility and timing after hosted-byte checks.",
+      "release_association": "Planned GitHub Release for research pinned to Starfield.exe 1.16.244.0; exact tag and release pending maintainer decision.",
+      "hosting": "PENDING RELEASE",
+      "hosted_url": "PENDING RELEASE",
+      "distribution_authorization": "PENDING",
+      "hold_or_exclusion_consequence": null,
+      "producer": "C19 project native observer and operator phase testimony; D5BE authored bounded operand extraction.",
+      "version_qualification": "Pinned retail baseline and original observer contract. Native row checks and A/B/C operator labels have separate provenance. Exact display timing and producer ancestry are unverified.",
+      "claim_ids": [
+        "B4-C19",
+        "SOR-EV-0043"
+      ],
+      "standalone_validation": "python -I -S -B research/evidence-access/d5be/c19-verify.py <C19-path> --sha256 d37476dd5b33fca44423c1c0aaf239b43e8a98d8cf2ed97b15beaa4225906ada --negative-controls",
+      "member_count": 1,
+      "members": {
+        "c19-callbacks-v1.json": {
+          "bytes": 189747,
+          "sha256": "d37476dd5b33fca44423c1c0aaf239b43e8a98d8cf2ed97b15beaa4225906ada",
+          "identity": "SOR-EV-0043 callback derivative v1",
+          "evidence_role": "Whole standalone JSON file, containing all 346 native operand and row comparisons and associated provenance."
+        }
+      }
+    }
+  }
+}

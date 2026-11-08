@@ -35,7 +35,7 @@ hosting and verification are evidenced.
 | Repository, candidate branch, frozen commit and tree OIDs | TBD |
 | Proposed public refs and reachable-history boundary | TBD |
 | Clean index/working-tree and inventory receipts | TBD |
-| Document, verifier, manifest and package versions/hashes | TBD |
+| Document, verifier, manifest and package versions/hashes | [D5BF local proposal](audits/release-assets-d5bf/README.md); freeze receipt TBD |
 
 Record exact candidate Git identities with `git rev-parse HEAD "HEAD^{tree}"`,
 `git status --porcelain=v1 --untracked-files=all`, and an inventory of refs/OIDs
@@ -60,8 +60,9 @@ Copy a row for every selected claim and its indispensable dependencies.
 
 | Claim / agreed scope and limit | Primary evidence / review / required negative cases | Dependency and transitive dependencies | Durable route, exact manifest and verification receipt | Status / reviewer |
 | --- | --- | --- | --- | --- |
-| D5AS qualified body comparisons, if selected | [D5BE access index](audits/evidence-access-d5be/README.md) | Complete canonical reference and sample bodies, roster and provenance | TBD | PENDING |
-| C19 native UI comparisons, if selected | [D5BE access index](audits/evidence-access-d5be/README.md) | Complete recorded callback operands, native outputs and provenance | TBD | PENDING |
+| F1 saved-state and screenshot witnesses, at the agreed evidence tier | [F1 coverage](audits/publication-readiness-b4/f1/coverage.md) | Exact selected first-party originals and lawful readers or inputs for the selected methods | D5BF CORE and ADDENDUM proposal under D; scope, clearance and B6 receipts TBD | PENDING |
+| D5AS qualified body comparisons, if selected | [D5BE access index](audits/evidence-access-d5be/README.md) | Complete canonical reference and sample bodies, roster and provenance | D5BF D5AS proposal under D; clearance and B6 receipts TBD | PENDING |
+| C19 native UI comparisons, if selected | [D5BE access index](audits/evidence-access-d5be/README.md) | Complete recorded callback operands, native outputs and provenance | D5BF C19 proposal under D; clearance and B6 receipts TBD | PENDING |
 | TBD | TBD | TBD | TBD | PENDING |
 
 A durable route uses the public tree, an approved versioned Release asset, or
@@ -89,19 +90,19 @@ Any proposed history remediation requires its own approval and a new freeze.
 
 ## D. Packaged assets and member manifest
 
-Use the [B4-F1 provisional index](audits/publication-readiness-b4/f1/README.md),
-[asset manifest](audits/publication-readiness-b4/f1/assets.csv) and
-[member manifest](audits/publication-readiness-b4/f1/members.csv) for exact
-existing candidate data. Copy only approved final identities into the release
-ledger. Record an explicit inclusion or exclusion and the effect on claims for
-each optional group, including large supplementary audits.
+Use the [D5BF proposal](audits/release-assets-d5bf/README.md) and its
+[exact asset and member ledger](audits/release-assets-d5bf/release-assets.json)
+for all four local candidates. The F1 and D5BE manifests retain original custody
+and review provenance. Freeze the approved ledger revision with the claim matrix
+and clearance records under A. Record the effect on selected claims of any
+change to the proposed membership.
 
 | Group / candidate contents | Required or optional / include or exclude | Purpose / claims / producer | Final basename / count / bytes / codec / SHA-256 | Exact member manifest / SHA-256 | Rights and privacy receipt / staging location | Tag / release | Upload status / hosted URL / download and extracted-member checks |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| B4-F1 CORE, 25 unchanged first-party saves | TBD | F1 control and mature witnesses / TBD | TBD | F1 candidate linked above / TBD final | TBD | TBD | PENDING RELEASE / TBD / TBD |
-| B4-F1 ADDENDUM, 14 unchanged saves and 13 original JPEGs | Optional / TBD | F1 supplemental witnesses / TBD | TBD | F1 candidate linked above / TBD final | TBD | TBD | PENDING RELEASE / TBD / TBD |
-| D5AS geometry derivative | TBD / specific approval required | Qualified sample/reference comparisons / TBD | TBD | TBD | TBD | TBD | PENDING RELEASE / TBD / TBD |
-| C19 native UI derivative | TBD / specific approval required | Native UI row comparisons / TBD | TBD | TBD | TBD | TBD | PENDING RELEASE / TBD / TBD |
+| B4-F1 CORE, 25 unchanged first-party saves | Core / proposed include | Controlled and mature first-party saves | Ledger B4-F1-CORE | Ledger B4-F1-CORE | F1 scoped review and D5BF local receipt; final approval pending | TBD | PENDING RELEASE / PENDING RELEASE / TBD |
+| B4-F1 ADDENDUM, 14 unchanged saves and 13 original JPEGs | Optional reader download / proposed include | Supplemental first-party saves and screenshots | Ledger B4-F1-ADDENDUM | Ledger B4-F1-ADDENDUM | F1 scoped review and D5BF local receipt; final approval pending | TBD | PENDING RELEASE / PENDING RELEASE / TBD |
+| D5AS geometry derivative | Required for exact comparisons if selected / proposed include | Qualified sample and fixed-reference comparisons | Ledger D5AS | Ledger D5AS | D5BF payload assessment and local receipt; final approval pending | TBD | PENDING RELEASE / PENDING RELEASE / TBD |
+| C19 native UI derivative | Required for exact callback census if selected / proposed include | Ordered native callback input and row comparisons | Ledger C19 | Ledger C19 | D5BF payload assessment and local receipt; final approval pending | TBD | PENDING RELEASE / PENDING RELEASE / TBD |
 | Later package or supplementary audit | TBD | TBD | TBD | TBD | TBD | TBD | PENDING RELEASE / TBD / TBD |
 
 For each package, record each exact member path/name, bytes, SHA-256, original
@@ -136,12 +137,12 @@ that operation and recipient.
 | When | Check and required receipt | Status | Reviewer / timestamp |
 | --- | --- | --- | --- |
 | Before B6 acceptance | Clean checkout of exact commit with no access to existing `.local-work/`. Check relative links, case, anchors, actual rendered Mermaid diagrams, examples and verifiers with lawful prerequisites. | PENDING | TBD |
-| Before B6 preflight acceptance | Test explicitly supplied, approved candidate packages in isolation. Record hashes, extracted-member results, and the planned durable route. Hold if clearance, exact bytes or a viable route are missing. | PENDING | TBD |
+| Before B6 preflight acceptance | Supply the four approved staged inputs explicitly to the [ledger verifier and both standalone scientific verifiers](audits/release-assets-d5bf/README.md#verification). Bind the container/member and comparison receipts to the proposed tree, exposure and clearance. Hold if clearance, exact bytes or a viable route are missing. | PENDING | TBD |
 | Before upload | Review release notes, build/version statement, access limits, and download/verification instructions against the approved candidate. | PENDING | TBD |
-| After authorized draft upload | Verify authorized draft links, actual downloaded package bytes and safe extracted member set, sizes and SHA-256. Compare final draft asset names, tag/target commit, and all changed Git/history/asset/link surfaces to the approval receipts. | PENDING | TBD |
-| After authorized visibility change | Verify public reachability at the actual versioned URLs and download again. Record full container and member checks, Release/tag/commit identity, final tree/refs/history exposure and index consistency. | PENDING | TBD |
+| After authorized draft upload | Verify authorized draft URLs and run the ledger verifier on the downloaded bytes. Compare final draft asset names, tag/target commit, and all changed Git/history/asset/link surfaces to the approval receipts. | PENDING | TBD |
+| After authorized visibility change | Verify public reachability at the actual versioned URLs and download again. Record full container and member checks, Release/tag/commit identity, final tree/refs/history exposure, index consistency and notice availability. | PENDING | TBD |
 
-Keep a proposed URL as `TBD` until verified hosting. If linking the hosted
+Keep a proposed asset URL as `PENDING RELEASE` until verified hosting. If linking the hosted
 asset changes reviewed repository bytes, hold for affected review and approval.
 Keep the frozen tag bound to its approved commit. Record an independently
 reviewed follow-up or new candidate decision for any Git-side link update.
