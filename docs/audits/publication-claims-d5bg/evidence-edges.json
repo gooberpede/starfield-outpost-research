@@ -340,10 +340,10 @@
       "id": "P-AQ-FIXTURE",
       "materiality": "INDISPENSABLE",
       "state": "HELD",
-      "route": "Reported independently repeated original native fixture; tracked methods plus indispensable private N2 witnesses and original input/fixture receipts. D5AS candidate carries fixed reference bodies only.",
-      "substantiates": "Exact native replay of the N2 typed cohort, two class continuations and paired controlled full geometry generation.",
+      "route": "D5BJ reader-input methods replay the fixed numeric and ordinary geometry stages and selected continuation controls. D5AS supplies fixed reference comparisons and D5BI supplies the projected N2 join; both routes require exact staged or approved hosted files.",
+      "substantiates": "Projected historical N2 task evidence, native fixed-stage geometry and transition controls, and the qualified static composition of the two class continuations.",
       "selector": "D5AQ source ledger, native replay and controls 01/02; C1 fixed main-file data and N2 copied readiness/task context. Fixed count contrast 74 regions/193 points vs 78/180.",
-      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "safety_rights": "Reader-supplied compatible game inputs only. Original private evidence remains LOCAL-ONLY. Full continuation and exact public availability remain held pending review, asset-specific rights, transfer and B6.",
       "sources": [
         "docs/experiments/resource-retained-population/d5aq-report.md",
         "docs/experiments/resource-retained-population/d5aq-review.md",
@@ -357,13 +357,15 @@
         "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
         "docs/experiments/resource-retained-population/d5ao-measurement-validity.md",
         "research/resource-retained-population/d5aq_geometry.py",
-        "docs/audits/evidence-access-d5be/d5as.md"
+        "docs/audits/evidence-access-d5be/d5as.md",
+        "docs/audits/evidence-reproduction-d5bj/README.md"
       ],
       "requires": [
         "P-AQ-PROOF",
-        "P-AO-N2"
+        "P-AO-N2",
+        "P-AS-BODIES"
       ],
-      "consequence": "No exact clean reproduction of source-to-output or 392 typed historical allocations from candidate references. Separate lawful minimal fixture prerequisite qualification or approved derivative if this exact tier is selected.",
+      "consequence": "The staged D5BI candidate verifies all 392 typed allocations, and the staged D5AS candidate supplies exact geometry comparisons for the reader-input native stage. The complete preparation and public access routes remain unqualified.",
       "predecessors": [
         [
           "RG-AQ",

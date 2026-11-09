@@ -2320,12 +2320,13 @@
         "docs/experiments/resource-retained-population/d5aq-request-mask-map.csv",
         "docs/experiments/resource-retained-population/d5aq-reachability.md",
         "docs/experiments/resource-retained-population/d5aq-sources.csv",
-        "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md"
+        "docs/experiments/resource-retained-population/d5aq-native-dependency-inventory.md",
+        "docs/audits/evidence-reproduction-d5bj/README.md"
       ],
       "edges": [
         "P-AQ-FIXTURE"
       ],
-      "decision": "Agree attributed fixture tier, or qualify the smallest lawful run with exact fixture inputs and successful native/independent geometry comparison.",
+      "decision": "D5BJ selects Option C and demonstrates bounded local native reproduction. Exact public tier remains held pending full continuation qualification, asset-specific clearance, approved transfer and retention, B6 and authorized hosting.",
       "guides": [
         "docs/guides/resource-generation.md"
       ],

@@ -1,5 +1,16 @@
 # Decision Register
 
+## D5BJ D5AQ reader-input route — 2026-11-09
+
+The maintainer invoked [D5BJ](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BJ_D5AQ_Native_Fixture_Public_Reproduction.md)
+and selected Option C for independent offline reproduction from reader-supplied
+compatible Starfield files. The brief permits two simultaneous read-only
+specialists for D5BJ only, followed by a separate non-implementing reviewer.
+The [D5BJ assessment](audits/evidence-reproduction-d5bj/README.md) records
+the qualified local tiers and remaining work. The exact public fixture remains
+held. Asset rights, transfer and retention, B6, hosting and final visibility
+require separate decisions.
+
 ## D5BI N2 projected evidence route — 2026-11-09
 
 The maintainer invoked [D5BI](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BI_D5AO_D5AP_Public_Evidence_Derivative.md)

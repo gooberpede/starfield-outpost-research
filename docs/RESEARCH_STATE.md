@@ -1,5 +1,13 @@
 # Current Research State
 
+**2026-11-09 — D5BJ reader-input fixture checkpoint.** From compatible
+reader-supplied files, the [D5BJ methods](audits/evidence-reproduction-d5bj/README.md)
+replay the C1 numeric paths, both fixed ordinary geometry classes and selected
+native queue, source-key, corner and retirement controls. The D5BI projection
+supplies the recorded typed N2 join. Full continuation and public access
+qualification remain open. The original D5AQ native-feasibility conclusion and
+the controlling GC-10, GC-31 and D5R dispositions retain their scopes.
+
 **2026-11-06 — D5AV player-action persistence proposal.** The
 [action matrix](experiments/resource-retained-population/d5av-player-action-matrix.md)
 distinguishes resident reads, true map reuse, bypass and reconstruction.

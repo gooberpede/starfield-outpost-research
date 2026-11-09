@@ -1,5 +1,14 @@
 # Source Register
 
+## D5BJ reader-input reproduction
+
+The [D5BJ dependency matrix](audits/evidence-reproduction-d5bj/dependencies.md)
+links the original D5AQ source rows to each new execution and comparison tier.
+The authored wrappers reuse owned D5S, D5AQ, D5AF, RG1, D5AS and D5BI methods
+under SOR-P-0002. The reader provides Bethesda input files separately. The
+fixed private-page recipes specify addresses and substitutions. The executable
+pages, raster bytes and source evidence keep their original access boundaries.
+
 ## D5BE historical evidence access
 
 The [D5BE index](audits/evidence-access-d5be/README.md) links the retained D5AS

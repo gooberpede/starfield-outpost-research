@@ -47,6 +47,16 @@ reproducible methods and calculations from documented historical observations
 when exact runtime events cannot be replayed. Give indispensable historical
 evidence an approved durable route. Execution requires a separate release brief.
 
+## Reader-supplied game inputs
+
+Independent reproduction of game-dependent research may require your own
+lawfully obtained Starfield files, including an exact historical build.
+Each applicable procedure identifies the file hashes and definition or override
+scope it supports. A version string or ownership alone cannot establish matching
+bytes. Refusing incompatible inputs is part of the procedure. The project
+excludes proprietary game files from distribution. Many authored calculations
+and some evidence comparisons run without any game inputs.
+
 ## Scientific review
 
 - [ ] Agreed scope/build matrix is recorded, with required questions, exclusions, and acceptance criteria.

@@ -20,6 +20,11 @@ own provenance and are not all revalidated on that build. The
 [proposed claim/build scope](docs/audits/publication-readiness-b1/claim-build-matrix.md)
 labels exclusions, unknowns and remaining approval gates.
 
+Independent checks of game-dependent results may require your own lawful
+Starfield files from a specific build. Many authored calculations run without
+the game. See the [reader input policy](docs/PUBLICATION.md#reader-supplied-game-inputs)
+and the [D5AQ fixture reader guide](docs/audits/evidence-reproduction-d5bj/README.md).
+
 - **Understand a subsystem:** [subsystem guides](docs/guides/README.md) include the
   [resource-generation pilot](docs/guides/resource-generation.md). The
   [roadmap](docs/research-roadmap.md) covers the wider programme.

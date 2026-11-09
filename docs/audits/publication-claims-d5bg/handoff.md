@@ -62,7 +62,8 @@ exact B6 review. The four D5BF asset entries below retain their own ledger.
 The [D5BI N2 audit](../evidence-derivative-d5bi/README.md) records the selected
 Option C local route. Keep both N2 evidence edges held pending file-specific
 rights and privacy clearance, approved transfer and retention, exact B6 and
-authorized hosting. The D5AQ fixture remains a separate decision.
+authorized hosting. The [D5BJ assessment](../evidence-reproduction-d5bj/README.md)
+records the selected Option C work and remaining hold for the exact D5AQ fixture.
 
 ## Four local candidates
 

@@ -1,5 +1,13 @@
 # Credits
 
+## D5BJ reader-input reproduction
+
+Bethesda's pinned Starfield executable, main definitions and PlanetData supply
+the native instructions and game data. D5BJ adapts the maintainer's D5S, D5AQ,
+D5AF and resource geometry methods and uses the original D5AS and D5BI evidence
+tiers. CPython and the Windows UCRT support the private fixture processes.
+[Methods and source lineage](docs/audits/evidence-reproduction-d5bj/dependencies.md)
+
 ## D5BE historical evidence access
 
 The maintainer's D5AS and C19 captures and the original experiment methods and
