@@ -39,6 +39,10 @@ See the route and consequence fields for the limit of each assertion.
 separately from the inherited route dispositions. It also assesses a local
 common D5AK/D5AL witness. The exact episode publication routes remain held.
 
+[D5BI](../evidence-derivative-d5bi/README.md) records Option C and the local
+D5AO/D5AP N2 projection. The public evidence edges remain held pending exact
+rights/privacy review, authorized transfer, B6 and hosting.
+
 ## Snapshot and safeguards
 
 The starting branch was `main`, HEAD

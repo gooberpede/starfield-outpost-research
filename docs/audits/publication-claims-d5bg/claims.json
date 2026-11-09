@@ -2210,12 +2210,13 @@
         "docs/experiments/resource-retained-population/d5ao-n2-report.md",
         "docs/experiments/resource-retained-population/d5ao-n2-review.md",
         "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
-        "docs/experiments/resource-retained-population/d5ao-measurement-validity.md"
+        "docs/experiments/resource-retained-population/d5ao-measurement-validity.md",
+        "docs/audits/evidence-derivative-d5bi/README.md"
       ],
       "edges": [
         "P-AO-N2"
       ],
-      "decision": "Clear a minimal source/lifetime/request/event derivative with qualified bounds, or retain as historical evidence without an independent original-event tier.",
+      "decision": "Option C selected for D5BI local evidence preparation. Public route held pending exact file-specific rights/privacy, approved asset transfer and retention, B6 and authorized hosting.",
       "guides": [
         "docs/guides/resource-generation.md"
       ],
@@ -2245,12 +2246,13 @@
         "docs/experiments/resource-retained-population/d5ap-review.md",
         "docs/experiments/resource-retained-population/d5ap-competitor-chronology.md",
         "docs/experiments/resource-retained-population/d5ap-winner-causal-analysis.md",
-        "docs/experiments/resource-retained-population/d5ap-analysis-method.md"
+        "docs/experiments/resource-retained-population/d5ap-analysis-method.md",
+        "docs/audits/evidence-derivative-d5bi/README.md"
       ],
       "edges": [
         "P-AP-COMPETITION"
       ],
-      "decision": "If directly asserting the historical competition, clear a bounded contender/owner trace plus equivalent-continuation controls. Otherwise preserve this independently accepted event explanation in its original report.",
+      "decision": "Option C selected for D5BI local evidence preparation. Public route held pending exact file-specific rights/privacy, approved asset transfer and retention, B6 and authorized hosting.",
       "guides": [
         "docs/guides/resource-generation.md"
       ],

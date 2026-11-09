@@ -59,6 +59,11 @@ bounded D5AK/D5AL local candidate and its limitations. Keep the exact public
 episode routes held until file-specific clearance, agreed package transfer and
 exact B6 review. The four D5BF asset entries below retain their own ledger.
 
+The [D5BI N2 audit](../evidence-derivative-d5bi/README.md) records the selected
+Option C local route. Keep both N2 evidence edges held pending file-specific
+rights and privacy clearance, approved transfer and retention, exact B6 and
+authorized hosting. The D5AQ fixture remains a separate decision.
+
 ## Four local candidates
 
 Each row is **APPROVED FOR PROPOSED RELEASE / PENDING RELEASE**.

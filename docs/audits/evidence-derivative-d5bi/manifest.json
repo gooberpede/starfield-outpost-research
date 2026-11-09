@@ -1,0 +1,99 @@
+{
+  "schema": "sor-d5bi-n2-projection/1",
+  "candidate": {
+    "name": "SOR-D5BI-N2-projected-evidence-v1.zip",
+    "bytes": 3896901,
+    "sha256": "a47bbd302553755d0fe87d746234d0d6c527ee7297cfda2e38915072edb7c3d7"
+  },
+  "members": {
+    "causal.jsonl": {
+      "bytes": 7528848,
+      "sha256": "c897791ca4275473807e11fce9fb3a4dc04dfed0834e4f7b7687bdacb1a0f34c"
+    },
+    "core.jsonl": {
+      "bytes": 7060976,
+      "sha256": "6dd8c2a375cc2f3279a7bd6bd7d6244ed7f2b726de6724dc05c699691ea76a14"
+    },
+    "geometry.json": {
+      "bytes": 11514,
+      "sha256": "f46e334c71204df3cbb9f60d56194fd832e456b7e9fc10f417ddf4b84679c69a"
+    },
+    "lifetime.jsonl": {
+      "bytes": 587782,
+      "sha256": "103171ca61fe709ad186a80c0bf3c6ca998809608a90c0cbf0aeb2b25cd38c92"
+    },
+    "scheduler.jsonl": {
+      "bytes": 25256092,
+      "sha256": "b96cb611a8b110aa4be76fc158aa51d37346ecfc22e4406cacc922047cbcbec9"
+    },
+    "session.json": {
+      "bytes": 2411,
+      "sha256": "d25fa83ff354f7459932c4fcc662790ee2cee5c0fad60b57bc770aeea834e69c"
+    }
+  },
+  "source_members": {
+    "raw/causal.bin": {
+      "size": 10873568,
+      "sha256": "90260ff79a19ff1250bf866d357790d8850779a562654934d767a80b1af0ddda"
+    },
+    "raw/events.bin": {
+      "size": 10637696,
+      "sha256": "586817a46b8d4f28f4618584e998abc8505b620945decc9c35cdff4d4f9bf54d"
+    },
+    "raw/flush.jsonl": {
+      "size": 581691,
+      "sha256": "74fbec0ae65fbb84380083128046ca2d65a3794aeaee02d0d3bd48b40c87ecdf"
+    },
+    "raw/geometry-1.bin": {
+      "size": 291032,
+      "sha256": "9ea75c3b78474ff765a6d30122ba4b6cea603a04ecf01ac5d6439a2b599d5d9c"
+    },
+    "raw/geometry-1.json": {
+      "size": 368,
+      "sha256": "3aa5c210b4115250c6165d658b2fb3f29f0870d60e7baebbe65fe69e40c5c857"
+    },
+    "raw/identity.json": {
+      "size": 9727,
+      "sha256": "41317ca8bdc549742905cbc3dc0b5c8062870d051175fe8f15c5e7d55a385412"
+    },
+    "raw/lifetimes-flush.jsonl": {
+      "size": 4121128,
+      "sha256": "bab2a0e130a65173c9c25133b96f459109da82c02b33a0b257064281d4b350fd"
+    },
+    "raw/lifetimes.bin": {
+      "size": 668512,
+      "sha256": "2c6df3063575872bf0fb2b13dbf47a200c314313df5f2121cdd9068b8167d351"
+    },
+    "raw/ready.json": {
+      "size": 9849,
+      "sha256": "e5d3a8acff523fa92116d64772320d19fe507e6bba8668a1f67cdb2459e7671f"
+    },
+    "raw/scheduler.bin": {
+      "size": 33577696,
+      "sha256": "ee86402d9de2f85ae54a86bd129d2e8d39c161f1c5e149129cb13048bd7062c5"
+    },
+    "raw/terminal.json": {
+      "size": 12469,
+      "sha256": "f96ce27b09fcc9a7ea012a9fba8e47890a7362e8bb8c0f52930c4dfc315010cd"
+    },
+    "plan/d5ao-n2-source-lock.json": {
+      "size": 89995,
+      "sha256": "acee73650465cd38dbc18ff4aafa17a573b88c5849355a161feb10d6c7f736b1"
+    },
+    "plan/n2-plan.json": {
+      "size": 113065,
+      "sha256": "0adf5c4613fbbefc8335e657e1e4cf1e8a8792e87a77aa98b6a6dac0a31a9dff"
+    }
+  },
+  "source_archive": {
+    "name": "N2-evidence01.zip",
+    "bytes": 61260786,
+    "sha256": "d7d48edf884b796865ed56ef5d5e467f381ce51ac6e6229e980a3e267cbc78af",
+    "seal_sha256": "99360972df120f7ba331bd56593b930fc881f78b6c6938230b20a3956986a3b5",
+    "payloads": 174
+  },
+  "source_lock_sha256": "acee73650465cd38dbc18ff4aafa17a573b88c5849355a161feb10d6c7f736b1",
+  "source_pin_count": 484,
+  "emitter_sha256": "d3900246e4f6826f520cd1d2e5617c44fd58f5fa61f054346b0b23cc63bbce3c",
+  "interpretation_tier": "PROJECTED_N2_EVENT_RELATIONSHIPS"
+}

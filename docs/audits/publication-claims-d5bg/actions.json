@@ -881,8 +881,8 @@
       "edges": [
         "P-AO-N2"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
-      "gap": "P-AO-N2 — Tracked accepted N2 report and review; 174-member authentic archive and complete task/owner receipts LOCAL-ONLY.",
+      "kind": "File-specific clearance and public route decision",
+      "gap": "D5BI Option C supplies a proposed local N2 projection. Public route held pending exact file-specific rights/privacy, approved asset transfer and retention, B6 and authorized hosting.",
       "choices": [
         "Clear a minimal source/lifetime/request/event derivative with qualified bounds, or retain as historical evidence without an independent original-event tier.",
         "No exact event or recorded admission bounds verified from D5AS bodies or arithmetic. A derivative must retain copied operands, identity, stage provenance and observer-effect limits."
@@ -899,7 +899,8 @@
         "docs/experiments/resource-retained-population/d5ao-n2-review.md",
         "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
         "docs/experiments/resource-retained-population/d5ao-measurement-validity.md",
-        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv",
+        "docs/audits/evidence-derivative-d5bi/README.md"
       ]
     },
     {
@@ -911,8 +912,8 @@
         "P-AO-N2",
         "P-AP-COMPETITION"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
-      "gap": "P-AO-N2 — Tracked accepted N2 report and review; 174-member authentic archive and complete task/owner receipts LOCAL-ONLY. P-AP-COMPETITION — Tracked D5AP report and original independent replay of local raw/archive/owner receipts; no public exact N2 contender projection.",
+      "kind": "File-specific clearance and public route decision",
+      "gap": "D5BI Option C supplies a proposed local N2 projection. Public route held pending exact file-specific rights/privacy, approved asset transfer and retention, B6 and authorized hosting.",
       "choices": [
         "If directly asserting the historical competition, clear a bounded contender/owner trace plus equivalent-continuation controls. Otherwise preserve this independently accepted event explanation in its original report.",
         "No exact event or recorded admission bounds verified from D5AS bodies or arithmetic. A derivative must retain copied operands, identity, stage provenance and observer-effect limits.",
@@ -935,7 +936,8 @@
         "docs/experiments/resource-retained-population/d5ao-n2-review.md",
         "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
         "docs/experiments/resource-retained-population/d5ao-measurement-validity.md",
-        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv",
+        "docs/audits/evidence-derivative-d5bi/README.md"
       ]
     },
     {

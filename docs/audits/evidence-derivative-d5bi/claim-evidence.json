@@ -1,0 +1,56 @@
+{
+  "schema": "sor-d5bi-claim-evidence/1",
+  "scope": "One authenticated instrumented Save52 direct-route N2 process",
+  "claims": [
+    {
+      "id": "D5BI-Q1",
+      "basis": "original authentication and independent specialist feasibility",
+      "primary": ["N2-evidence01.zip", "SOR-MANIFEST.json", "plan/n2-plan.json", "plan/d5ao-n2-source-lock.json"],
+      "projection": ["session.json", "core.jsonl", "causal.jsonl", "scheduler.jsonl", "lifetime.jsonl", "geometry.json"],
+      "exclusion": "Retain every event sequence and occupied holder identity. Full raw custody, guard and ABI coverage, original protected inputs and operational provenance stay upstream.",
+      "falsifier": "Missing source closure, wrong process, lost identity join or withheld operand that permits contrary N2 history"
+    },
+    {
+      "id": "D5BI-Q2",
+      "basis": "observed constructor and derived source/owner/lifetime joins",
+      "primary": [
+        "raw/events.bin sequences 2082/2083, 3924, 3942, 3958-3962, 3970-3972 and 3978",
+        "raw/scheduler.bin sequence 41257",
+        "raw/geometry-1.bin snapshot 1 and raw/lifetimes.bin all 5968 records",
+        "raw/events.bin all births, publications, fences and earlier source work"
+      ],
+      "projection": ["core.jsonl", "scheduler.jsonl", "lifetime.jsonl", "geometry.json", "session.json"],
+      "domains": ["original signed request", "runtime VA", "body FormID", "source allocation", "stored token", "observer invocation/selection", "channel sequence"],
+      "exclusion": "All eight births and earlier work, unique current occupied source, positive disjoint owning-Grid clears and complete mutation/ending prefix",
+      "falsifier": "Earlier qualifying construction, swapped birth or owner, relevant fence, incorrect append or overlapping ending"
+    },
+    {
+      "id": "D5BI-Q3",
+      "basis": "observed operands and derived competition under original native receiver coverage",
+      "primary": [
+        "raw/scheduler.bin all 119920 records and raw/events.bin all 32432 records",
+        "raw/causal.bin all 79952 records, including 2925, 2927-2932, 2935, 2937, 2940-2942, 2949/2950",
+        "causal sequence 2946 to core sequence 3967, checked against all four channel records"
+      ],
+      "projection": ["scheduler.jsonl", "core.jsonl", "causal.jsonl", "lifetime.jsonl"],
+      "domains": ["node runtime VA and task allocation", "core invocation/selection and source allocation", "owner-lock VA and generation", "QPC callback stamp", "packed old/new lock state"],
+      "exclusion": "Independent coordinate-compatible and source-selected cohort census, 391 positive bypasses, full generic owner history and four-channel peer gap. Owner-wide conditional overtakes remain separate.",
+      "falsifier": "Unjoined compatible publication, another target exclusive path, incompatible drain or intervening stamp",
+      "inferred": "Observed upstream lead and earlier-source peer traversal explain scoped progress. Two authored continuations demonstrate the missing attribution discriminator."
+    },
+    {
+      "id": "D5BI-Q4",
+      "basis": "exact candidate engineering and separate release gates",
+      "primary": ["manifest.json", "tracked verifier and controls", "independent review"],
+      "projection": ["all six candidate members"],
+      "exclusion": "Isolated replay uses no .local-work inputs beyond the separately supplied asset copy. Original audit is separately local.",
+      "falsifier": "Nondeterministic bytes, hidden dependency, adverse control accepted or a failed mandatory independent check"
+    }
+  ],
+  "omissions": [
+    "Opaque birth bytes, original descriptor padding values, native wire framing and original CRC/ACK receipts",
+    "Geometry query and point bodies, opaque holder words, non-target nested shape",
+    "Original saves, installed files, original observer binaries, raw archives, native exports and private receipts",
+    "Exact claim-CAS time, selected queue route, unique delay attribution, uninstrumented winner and frequency were unobserved"
+  ]
+}

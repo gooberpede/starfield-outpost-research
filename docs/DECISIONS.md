@@ -1,5 +1,17 @@
 # Decision Register
 
+## D5BI N2 projected evidence route — 2026-11-09
+
+The maintainer invoked [D5BI](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BI_D5AO_D5AP_Public_Evidence_Derivative.md)
+and selected Option C for a bounded local D5AO/D5AP N2 evidence derivative.
+The [candidate](audits/evidence-derivative-d5bi/README.md) keeps the complete
+projected event journals and the original instrumented claims at their
+accepted scope. The original source/archive and native receiver qualification
+remain upstream. D5BG's public edges remain held. File-specific rights and
+privacy, exact asset transfer and retention, B6 and authorized hosting remain
+pending. The [D5AQ crosswalk](audits/evidence-derivative-d5bi/d5aq-crosswalk.md)
+records potential input reuse for its separate held native fixture.
+
 ## D5BH D5AS first-release evidence tier — 2026-11-08
 
 The maintainer invoked [D5BH](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BH_D5AS_Decision_and_D5AK_D5AL_Public_Evidence_Derivative.md)

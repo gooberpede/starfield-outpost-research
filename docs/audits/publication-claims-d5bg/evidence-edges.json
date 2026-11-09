@@ -290,21 +290,22 @@
       "id": "P-AO-N2",
       "materiality": "INDISPENSABLE",
       "state": "HELD",
-      "route": "Tracked accepted N2 report and review; 174-member authentic archive and complete task/owner receipts LOCAL-ONLY.",
+      "route": "Tracked accepted N2 report and review. D5BI Option C proposes the local projected N2 ZIP for source, constructor and lifetime verification. The original archive and private receipts remain LOCAL-ONLY.",
       "substantiates": "One instrumented (-2,11) constructor directly sampled 0x3; frozen PRED-03 confirmed at that scope.",
       "selector": "Observer 0.9.3, core birth/publication 2082/2083, miss 3959, sample 3962, store 3972; scheduler provider 41257; 392 task allocations.",
-      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "safety_rights": "Public route held pending exact file-specific rights/privacy, approved asset transfer and retention, B6 and authorized hosting. The local candidate is unpublished.",
       "sources": [
         "docs/experiments/resource-retained-population/d5ao-n2-report.md",
         "docs/experiments/resource-retained-population/d5ao-n2-review.md",
         "docs/experiments/resource-retained-population/d5ao-n2-live-ledger.md",
         "docs/experiments/resource-retained-population/d5ao-measurement-validity.md",
-        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv",
+        "docs/audits/evidence-derivative-d5bi/README.md"
       ],
       "requires": [
         "P-FIRST-MISS"
       ],
-      "consequence": "No exact event or recorded admission bounds verified from D5AS bodies or arithmetic. A derivative must retain copied operands, identity, stage provenance and observer-effect limits.",
+      "consequence": "See D5BI for the projected evidence tier and historically reviewed original-only dependencies.",
       "predecessors": [
         [
           "RG-AO",
@@ -316,23 +317,24 @@
       "id": "P-AP-COMPETITION",
       "materiality": "INDISPENSABLE",
       "state": "HELD",
-      "route": "Tracked D5AP report and original independent replay of local raw/archive/owner receipts; no public exact N2 contender projection.",
+      "route": "Tracked accepted D5AP report and review. The same D5BI Option C ZIP proposes a projected complete contender and owner replay with equivalent-continuation checks.",
       "substantiates": "Task 1211 earliest on seven recorded scheduler boundaries; two earlier providers still traversed earlier sources, 391 target competitors bypassed, no target writer overtake.",
       "selector": "N2 observer 0.9.3, owner generation 1, allocation 932 of eight target births; 392 target tasks, 518 writer triples and 23,194 reader triples.",
-      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "safety_rights": "Public route held pending exact file-specific rights/privacy, approved asset transfer and retention, B6 and authorized hosting. The local candidate is unpublished.",
       "sources": [
         "docs/experiments/resource-retained-population/d5ap-report.md",
         "docs/experiments/resource-retained-population/d5ap-review.md",
         "docs/experiments/resource-retained-population/d5ap-competitor-chronology.md",
         "docs/experiments/resource-retained-population/d5ap-winner-causal-analysis.md",
         "docs/experiments/resource-retained-population/d5ap-analysis-method.md",
-        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv",
+        "docs/audits/evidence-derivative-d5bi/README.md"
       ],
       "requires": [
         "P-AO-N2",
         "P-FIRST-MISS"
       ],
-      "consequence": "Native schedule rules do not authenticate the recorded N2 lead. A small approval-bound timeline must preserve all decisive contender/stage and owner joins plus equivalent delay continuations."
+      "consequence": "See D5BI for the projected evidence tier and historically reviewed original-only dependencies."
     },
     {
       "id": "P-AQ-FIXTURE",
