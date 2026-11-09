@@ -1,5 +1,12 @@
 # Decision Register
 
+## D5BK interruption audit — 2026-11-09
+
+The maintainer authorized a read-only evidence and documentation audit of
+the interrupted D5BJ continuation. The [audit](audits/d5bj-interruption-d5bk/README.md)
+preserves the original REWORK disposition and separates receipt recovery
+from any later decision to resume execution.
+
 ## D5BJ D5AQ reader-input route — 2026-11-09
 
 The maintainer invoked [D5BJ](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BJ_D5AQ_Native_Fixture_Public_Reproduction.md)

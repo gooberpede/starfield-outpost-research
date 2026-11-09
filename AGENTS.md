@@ -30,6 +30,17 @@ Research the live outpost system and its persistence as connected, equally valua
 
 The scaffold establishes documentation only. No game build, tool version, executable hash, address, save format, native structure, or community claim is a verified baseline merely because it appeared in another project or an earlier conversation.
 
+**Research purpose and responsible reverse engineering.** This project is a
+good-faith technical investigation into the operation and persistence of outpost
+systems in Bethesda Game Studios' *Starfield*. Reverse engineering is used to
+understand software behaviour, test hypotheses and develop reproducible research
+methods. The project does not seek to circumvent copyright protections,
+misappropriate proprietary material, introduce malware, compromise systems or
+distribute modified game executables. Proprietary files remain subject to their
+rights holders' restrictions, and native-code analysis or controlled execution
+requires the project's explicit authorization and safeguards. This statement does
+not override platform security controls or authorize otherwise restricted operations.
+
 ## Third-party work: mandatory gates
 
 Maintainer-authored material in `gooberpede` repositories, including `starfield-reference-handles`, follows the standing [maintainer-owned exception](THIRD_PARTY_POLICY.md#maintainer-owned-material) (SOR-P-0002). Inspection, copying, adaptation, porting and reuse are authorized without another permission discussion; provenance remains mandatory, self-credit is optional. Third-party material inside those repositories is excluded and retains all gates below.
