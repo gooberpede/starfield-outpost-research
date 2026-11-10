@@ -37,26 +37,35 @@ Both exact evidence edges remain HELD pending file-specific rights and
 privacy decisions, approved transfer and retention, B6 and hosted-byte
 verification. The 41 READY or READY — QUALIFIED rows retain their tiers.
 
+The [D5BP decision matrix](../publication-decisions-d5bp/README.md#selected-evidence-tiers)
+records the five selected narrower tiers for D5AT, E3, SD2 and position. The
+corresponding five `MAINTAINER DECISION` rows still describe stronger
+original replay. Their edges stay HELD and the counts above stand.
+The [open-action crosswalk](../publication-decisions-d5bp/README.md#open-actions)
+identifies the pending E3, SD2 and coordinate CORE witness checks. Exact D5AT
+replay and the optional future VII-b live study are outside first-release
+requirements. The selected D5AT tier uses tracked table arithmetic and
+method with attributed historical fixed-input geometry.
+
 ## Decisions for the maintainer
 
 1. Agree the N244 build and exact first-release wording, access tiers and
    separately qualified historical inputs. The recommended authored tier is
    the 41 READY or READY — QUALIFIED rows. Use the matrix wording and preserve
    the original research, reviews, failed controls and supersessions.
-2. Decide the remaining selections among the 12 ACTION REQUIRED rows after
-   the D5AS-BODY selection. Bind each to its named reader and approved candidate members. The
+2. Confirm remaining selections among the 12 ACTION REQUIRED rows and
+   qualify the selected D5AS-BODY and D5BP witness routes. Bind each selected
+   route to its named reader and approved candidate members. The
    four proposed assets stay in the proposal. Use the existing staged inputs
    at B6. Where specified, the optional ADDENDUM is required for that claim's
    independent original-witness check.
-3. Decide the unresolved tiers among the 14 MAINTAINER DECISION rows against the smallest closure in the
-   [actions ledger](actions.json). For D1, the original C06/C14 censuses and
-   owner-join trio, and the full C18 corpus, prefer the tracked or
-   representative tier unless the omitted originals are material to approved
-   wording. For the resource records, decide whether exact historical
-   acquisition and causal claims beyond the selected D5BO routes need a bounded
-   chronology or custody derivative, and whether exact D5AT or D5AQ reproduction
-   warrants a separate method task. Confirm the four history-only dispositions
-   separately.
+3. Use the [actions ledger](actions.json) for unresolved tiers among the 14
+   MAINTAINER DECISION rows. The five stronger D5BP routes remain future
+   options. Other decisions include D1 and whether historical resource
+   acquisition and causal claims beyond the selected D5BO routes need a
+   bounded chronology or custody derivative. The separate D5AQ Option C
+   and D5BJ/D5BM deferral record still governs that work. Confirm the four
+   history-only dispositions separately.
 4. Settle any residual contributor credit, excerpt and file-specific
    rights/privacy decisions on the actual proposed text and bytes. The project
    licence covers authored material where the contributors have rights.

@@ -43,6 +43,11 @@ common D5AK/D5AL witness. The exact episode publication routes remain held.
 D5AO/D5AP N2 projection. The public evidence edges remain held pending exact
 rights/privacy review, authorized transfer, B6 and hosting.
 
+[D5BP](../publication-decisions-d5bp/README.md) selects five first-release
+tiers. Their `MAINTAINER DECISION` rows retain the inherited classification of
+the stronger exact-replay propositions. The selections and pending witness
+checks are recorded separately from those held routes.
+
 ## Snapshot and safeguards
 
 The starting branch was `main`, HEAD

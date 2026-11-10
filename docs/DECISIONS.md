@@ -1,5 +1,31 @@
 # Decision Register
 
+## D5BP first-release evidence tiers — 2026-11-10
+
+The maintainer selected five evidence tiers under the
+[D5BP brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BP_Publication_Evidence_Tier_Decision_Reconciliation.md).
+The [decision matrix](audits/publication-decisions-d5bp/README.md#selected-evidence-tiers)
+records the approved wording and supporting sources.
+
+- `D5AT-EXACT-REPLAY` Option A selects the tracked 17-site associations,
+  conditional mask tables, rankings and method, with attribution to the
+  accepted fixed-input Feynman VII-b geometry comparison.
+- `C06-CENSUS` retains E3's attributed census of 105 positive saves and 1,190
+  observation rows, its static and definition findings, and the proposed
+  HIST-0036 original.
+- `C14-CENSUS` selects the tracked derivative of 124 positive saves and 1,499
+  inline-base records and the proposed CORE witnesses.
+- `C14-FRESH-TRIO` retains SD2's attributed HIST-0018, HIST-0036 and HIST-0257
+  series with 1, 17 and 19 joins and selects HIST-0036 as the representative.
+- `C18-FULL-CONTROLS` retains the attributed validation of 23 inputs and 40
+  repeated native calls across two Kreet horizontal geometries, the tracked
+  model and arithmetic, and proposed selected coordinate originals.
+
+The five stronger original replay routes stay HELD. The
+[open-action crosswalk](audits/publication-decisions-d5bp/README.md#open-actions)
+keeps representative witness qualification, asset and release gates separate.
+The optional post-publication VII-b study needs separate execution authority.
+
 ## D5BO selected evidence routes — 2026-11-10
 
 The maintainer authorized a bounded B2 original-event derivative and

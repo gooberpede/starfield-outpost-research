@@ -430,9 +430,9 @@
       "pins": "E3 sources and qualification cohorts; H? original executable and winning overrides remain claim-specific",
       "confidence": "Historical sampled census, with its original review scope preserved.",
       "coverage": "Original corpus-wide measured coverage, rather than a representative witness. The E3 census had 278 frozen inventory rows, 184 positive-beacon candidates, 122 parsed, 41 parser gaps and 21 unavailable sources. The 1,190 rows are observations, which may repeat machines across saves.",
-      "limits": "Candidate CORE lacks the original corpus. The named detailed 17-fabricator witness remains conditionally available separately.",
+      "limits": "HIST-0036 cannot independently recreate the historical E3 corpus. C06-0036 awaits exact CORE and E3 method qualification.",
       "status": "MAINTAINER DECISION",
-      "wording": "Keep the 105/1,190 totals explicitly attributed and describe the available representative original.",
+      "wording": "E3 reported 105 positive saves and 1,190 producer-row observations in its historical census. Rows can repeat fabricators across saves. HIST-0036 is the proposed representative original for the detailed E3 joins.",
       "sources": [
         "docs/guides/fabrication.md",
         "docs/reference/fabrication.md",
@@ -443,12 +443,13 @@
         "docs/experiments/fabricators/native.md",
         "docs/experiments/fabricators/saves.md",
         "docs/experiments/fabricators/recipes.csv",
-        "docs/experiments/fabricators/facilities.csv"
+        "docs/experiments/fabricators/facilities.csv",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ],
       "edges": [
         "P-FAB-CENSUS"
       ],
-      "decision": "Agree report-attributed totals and the selected representative tier, or separately approve a minimal original-corpus route with independently inspectable row provenance and framing.",
+      "decision": "D5BP selected the attributed historical totals alongside B4-C06 static/definition findings and proposed C06-0036 representative verification.",
       "guides": [
         "docs/guides/fabrication.md"
       ],
@@ -1188,9 +1189,9 @@
       "pins": "SD2 original source cohort and qualified reader; H? original executable and winning overrides remain claim-specific",
       "confidence": "Original accepted census unchanged; no claim of independently replayable original scope.",
       "coverage": "124 positive saves and 1,499 inline-base records in the tracked table.",
-      "limits": "The three CORE witnesses and published arithmetic cannot independently verify every original extraction.",
+      "limits": "Recounting the table does not rerun the full original SAVE extraction. The census does not establish universal backing inventory quantities or actual consumption.",
       "status": "MAINTAINER DECISION",
-      "wording": "Keep the complete historical extraction as reported and distinguish it from table recalculation.",
+      "wording": "SD2's tracked per-save table gives 124 positive saves and 1,499 inline-base records by recounting positive rows and summing their record counts. Selected CORE originals support the separate witness tier after preflight.",
       "sources": [
         "docs/guides/shared-storage.md",
         "docs/reference/shared-storage.md",
@@ -1201,12 +1202,13 @@
         "docs/experiments/shared-outpost-storage/consumers.md",
         "docs/experiments/shared-outpost-storage/saves.md",
         "docs/experiments/shared-outpost-storage/corpus.csv",
-        "docs/experiments/shared-outpost-storage/methods.md"
+        "docs/experiments/shared-outpost-storage/methods.md",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ],
       "edges": [
         "P-SHARED-CENSUS"
       ],
-      "decision": "Agree derivative/representative original tier, or separately authorize an exact small provenance or corpus route if raw-census reanalysis is material.",
+      "decision": "D5BP selected C14-TABLE and the proposed C14-ORIGINALS witnesses. Exact raw extraction remains a separate future option.",
       "guides": [
         "docs/guides/shared-storage.md"
       ],
@@ -1230,9 +1232,9 @@
       "pins": "The three SHA-256 values and exact selected record coordinates appear in SD2 saves.md. Historical EXE origins H?.",
       "confidence": "Retain the original scoped SD2 SAVE evidence and review without a new classification.",
       "coverage": "Three first-party original saves; the WorkshopItem owner edge and ordinary beacon base are separately verified in the original analysis.",
-      "limits": "D5BF CORE includes HIST-0036 alone from this trio. Separate census rows for HIST-0255 and HIST-0267 do not reproduce the other fresh joins.",
+      "limits": "CORE includes HIST-0036 alone from the fresh trio. HIST-0255 and Save52/HIST-0267 are separate inline-base census controls and cannot stand in for the two outer fresh cases.",
       "status": "MAINTAINER DECISION",
-      "wording": "Retain the original result as attributed history and select the CORE tier, or clear a narrow route for the other two fresh cases.",
+      "wording": "The accepted SD2 fresh owner-join series reports HIST-0018 (1 join), HIST-0036 (17 joins) and HIST-0257 (19 joins). Exact representative inspection uses the selected HIST-0036 original after CORE and reader preflight.",
       "sources": [
         "docs/guides/shared-storage.md",
         "docs/reference/shared-storage.md",
@@ -1243,7 +1245,8 @@
         "docs/experiments/shared-outpost-storage/consumers.md",
         "docs/experiments/shared-outpost-storage/saves.md",
         "docs/experiments/shared-outpost-storage/corpus.csv",
-        "docs/experiments/shared-outpost-storage/methods.md"
+        "docs/experiments/shared-outpost-storage/methods.md",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ],
       "edges": [
         "P-SHARED-TRIO"
@@ -1256,7 +1259,8 @@
       ],
       "b1_b4_correspondence": [
         "Shared Outpost Storage and crafting sources"
-      ]
+      ],
+      "decision": "D5BP selected attributed historical owner joins with HIST-0036 as the proposed independently inspectable representative under C14-ORIGINALS."
     },
     {
       "id": "C14-ORIGINALS",
@@ -1553,21 +1557,22 @@
       "pins": "check-03 and EXP0031/EV0039 050; N244 per B3 baseline manifest; H? for older saved inputs",
       "confidence": "PROVEN for the scoped comparisons recorded in the accepted review; no universal native equivalence.",
       "coverage": "Historical full control-replay tier; distinct from selected coordinate originals and arithmetic.",
-      "limits": "40 calls are repetitions of two geometries on one body, not 40 independent geometries. Missing coarse/face/reflected native controls and 050/060 cause remain open.",
+      "limits": "Exact original replay remains HELD. Coarse/face/reflected native controls and the historical 050/060 cause remain open. Full native XYZ equivalence remains unproved.",
       "status": "MAINTAINER DECISION",
-      "wording": "Keep the historical validation count attributed. It is outside the selected original-byte replay claim unless the exact controls gain access.",
+      "wording": "The accepted position-model validation checked 23 frozen inputs and 40 native calls. The calls were 20 repeats per geometry across two Kreet horizontal geometries. Readers can inspect the tracked specification and arithmetic and use selected coordinate originals once their separate route qualifies.",
       "sources": [
         "docs/guides/position.md",
         "docs/reference/position.md",
         "docs/position-model/specification.md",
         "docs/position-model/review.md",
         "docs/position-model/capabilities.md",
-        "docs/position-model/self-check.md"
+        "docs/position-model/self-check.md",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ],
       "edges": [
         "P-POSITION-ALL"
       ],
-      "decision": "Choose attributed provenance with B4-C18's narrower public tier, or authorize a bounded old-control derivative with all 23 input comparators and the two actual native geometry witnesses.",
+      "decision": "D5BP selected attributed historical validation, tracked B4-C18 model/specification/arithmetic and proposed C02-ORIGINALS coordinate-save verification.",
       "guides": [
         "docs/guides/position.md"
       ],
@@ -2485,9 +2490,9 @@
       "pins": "N244 per B3 baseline manifest; B4-F040, active methods and exact prior Grid/atlas input receipts",
       "confidence": "Original scoped exact geometry/control and indexed interpretation retained.",
       "coverage": "VII-b masks 0/2 compare 79/206 vs 82/197; repeated mask-2 identical. VI-b, VIII-b and Feynman V controls have distinct frames.",
-      "limits": "Complete original inputs are absent from proposed assets. A fixed native geometry control is not an observed resident VII-b source.",
+      "limits": "Exact original Save52/main/atlas/native-input replay stays HELD and is outside Option A. No VII-b retail resident-source observation, construction winner, repeated-visit frequency or generating-mask observation is established. The D5AS Feynman V geometry matches remain a separate observation with indirect mask labels.",
       "status": "MAINTAINER DECISION",
-      "wording": "Keep the exact geometry check attributed to its original method and publish the auditable indexed table at its own tier.",
+      "wording": "For 17 active ordinary Save52 sites, D5AT verified a saved-site, body and descriptor join to an installed ordinary Grid source at the occupied index. Keep resident, verified indexed and conditional saved-window sources distinct. VII-b leads conditional density balance at 18 mask-0 and nine mask-2 coordinates. The accepted fixed-input native/model comparison matched complete points and bounds: mask 0 yielded 79 regions and 206 points, mask 2 yielded 82 regions and 197 points, and the mask-2 repeat matched.",
       "sources": [
         "docs/guides/resource-generation.md",
         "docs/reference/resource-generation.md",
@@ -2498,12 +2503,13 @@
         "docs/experiments/resource-retained-population/d5at/active-sites.csv",
         "docs/experiments/resource-retained-population/d5at/active-source-relations.csv",
         "docs/experiments/resource-retained-population/d5at/active-rankings.csv",
-        "docs/experiments/resource-retained-population/d5at-candidate-assessment.md"
+        "docs/experiments/resource-retained-population/d5at-candidate-assessment.md",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ],
       "edges": [
         "P-AT-REPLAY"
       ],
-      "decision": "Agree the table and attributed native-control tier, or qualify a lawful original method with exact Save52/main/atlas selectors and independently compare both VII-b output bodies.",
+      "decision": "Option A selected by D5BP. Publish D5AT-INDEXED tracked associations, conditional Grid/density/layer mask tables, rankings and method. Attribute the fixed-input native geometry comparison to accepted D5AT research.",
       "guides": [
         "docs/guides/resource-generation.md"
       ],

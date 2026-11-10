@@ -386,15 +386,15 @@
       "edges": [
         "P-FAB-CENSUS"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
+      "kind": "D5BP selected tier with stronger exact replay held",
       "gap": "P-FAB-CENSUS — Tracked report and selected authored tables; unselected historical inputs LOCAL-ONLY.",
       "choices": [
-        "Agree report-attributed totals and the selected representative tier, or separately approve a minimal original-corpus route with independently inspectable row provenance and framing.",
-        "Original corpus census cannot be independently replayed from the staged witnesses. Exact totals can remain attributed to the original report."
+        "D5BP selected the attributed historical totals alongside B4-C06 static/definition findings and proposed C06-0036 representative verification.",
+        "Under separate future authority, qualify P-FAB-CENSUS for exact original replay."
       ],
       "acceptance": [
-        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
-        "Supply the qualified historical source inventory and versioned E3 parser. Reproduce the 105-positive/1,190-row totals and separately account for the 41 parser gaps and 21 unavailable candidates."
+        "Check the 105 positive saves and 1,190 observation rows, including possible repeats across saves, against the original report and review. Follow DECIDE-C06-0036 for the proposed original.",
+        "If the held tier is separately authorized, supply the qualified historical source inventory and versioned E3 parser. Reproduce the 105-positive/1,190-row totals and separately account for the 41 parser gaps and 21 unavailable candidates."
       ],
       "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
       "sources": [
@@ -409,7 +409,8 @@
         "docs/experiments/fabricators/recipes.csv",
         "docs/experiments/fabricators/facilities.csv",
         "docs/audits/publication-readiness-b4/claim-evidence.csv",
-        "docs/audits/release-assets-d5bf/release-assets.json"
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ]
     },
     {
@@ -420,15 +421,15 @@
       "edges": [
         "P-SHARED-CENSUS"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
+      "kind": "D5BP selected tier with stronger exact replay held",
       "gap": "P-SHARED-CENSUS — Original complete qualified source corpus is LOCAL-ONLY and unselected; tracked derivative does not supply original bytes.",
       "choices": [
-        "Agree derivative/representative original tier, or separately authorize an exact small provenance or corpus route if raw-census reanalysis is material.",
-        "No corpus-wide original reanalysis from proposed release set; separate scoped action only if maintainer selects that stronger tier."
+        "D5BP selected C14-TABLE and the proposed C14-ORIGINALS witnesses. Exact raw extraction remains a separate future option.",
+        "Under separate future authority, qualify P-SHARED-CENSUS for exact original replay."
       ],
       "acceptance": [
-        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
-        "Supply the exact 278-row source inventory, preserve the unsupported and missing rows, and reproduce the inline-base detections using a qualified reader. Summing the tracked CSV alone verifies arithmetic."
+        "Recount the positive rows and sum inline-base records in the tracked SD2 table. Follow DECIDE-C14-ORIGINALS for the separate witnesses.",
+        "If the held tier is separately authorized, supply the exact 278-row source inventory, preserve the unsupported and missing rows, and reproduce the inline-base detections using a qualified reader. Summing the tracked CSV alone verifies arithmetic."
       ],
       "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
       "sources": [
@@ -444,7 +445,8 @@
         "docs/experiments/shared-outpost-storage/methods.md",
         "research/historical-methods/b3/sd2-survey.py",
         "docs/audits/publication-readiness-b4/claim-evidence.csv",
-        "docs/audits/release-assets-d5bf/release-assets.json"
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ]
     },
     {
@@ -457,16 +459,15 @@
         "P-SHARED-ORIGINALS",
         "P-SHARED-TRIO"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
+      "kind": "D5BP selected tier with stronger exact replay held",
       "gap": "P-SHARED-ORIGINALS — D5BF CORE approved exact first-party representative witness proposal. Current CORE supersedes the B4-HIST-0036 local-only restriction for this exact member. P-SHARED-TRIO — Tracked original report and review; HIST-0018 and HIST-0257 absent from the proposed asset inventory.",
       "choices": [
-        "Retain the original result as attributed history and select the CORE tier, or clear a narrow route for the other two fresh cases.",
-        "Omitting F064 loses the selected fresh owner-join witness. The checked owner joins do not establish exact backing quantities or actual spend.",
-        "Prefer the selected exact HIST-0036 tier. If the full fresh trio is selected, recover and qualify the two absent original inputs or a narrowly approved representation of their exact owner joins."
+        "D5BP selected attributed historical owner joins with HIST-0036 as the proposed independently inspectable representative under C14-ORIGINALS.",
+        "Under separate future authority, qualify P-SHARED-TRIO for exact original replay."
       ],
       "acceptance": [
-        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
-        "Qualify HIST-0018 and HIST-0257 and reproduce the 1/17/19 joins against the original selected base and owner selectors. The CORE H36 edge is the only required original from that package."
+        "Check the 1/17/19 attribution against the original report and review. Follow DECIDE-C14-ORIGINALS for the 17 HIST-0036 joins separately from the census controls.",
+        "If the held tier is separately authorized, qualify HIST-0018 and HIST-0257 and reproduce the 1/17/19 joins against the original selected base and owner selectors. The CORE H36 edge is the only required original from that package."
       ],
       "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
       "sources": [
@@ -485,7 +486,8 @@
         "docs/audits/publication-readiness-b4/f1/members.csv",
         "research/evidence-access/verify_release_assets.py",
         "research/historical-methods/b3/sd2-survey.py",
-        "docs/audits/publication-readiness-b4/claim-evidence.csv"
+        "docs/audits/publication-readiness-b4/claim-evidence.csv",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ]
     },
     {
@@ -537,15 +539,15 @@
       "edges": [
         "P-POSITION-ALL"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
+      "kind": "D5BP selected tier with stronger exact replay held",
       "gap": "P-POSITION-ALL — Local-only original position corpus and raw runtime controls; tracked check method/capability register.",
       "choices": [
-        "Choose attributed provenance with B4-C18's narrower public tier, or authorize a bounded old-control derivative with all 23 input comparators and the two actual native geometry witnesses.",
-        "Representative CORE saves do not repeat 23 original inputs or authenticate the older captured 050/060 epochs. Use a reviewed minimal corpus/control derivative if advertising original replay."
+        "D5BP selected attributed historical validation, tracked B4-C18 model/specification/arithmetic and proposed C02-ORIGINALS coordinate-save verification.",
+        "Under separate future authority, qualify P-POSITION-ALL for exact original replay."
       ],
       "acceptance": [
-        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
-        "For full verification, supply all 23 named inputs and confirm the 40 native comparisons in the two stated Kreet geometries using the version-qualified methods and frame checks."
+        "Check the 23 frozen inputs and 40 repeated calls over two horizontal geometries against the original self-check and review. Follow DECIDE-C02-ORIGINALS for the separate coordinate saves.",
+        "If the held tier is separately authorized, supply all 23 named inputs and confirm the 40 native comparisons in the two stated Kreet geometries using the version-qualified methods and frame checks."
       ],
       "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
       "sources": [
@@ -555,7 +557,8 @@
         "docs/position-model/review.md",
         "docs/position-model/capabilities.md",
         "docs/position-model/self-check.md",
-        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ]
     },
     {
@@ -1053,15 +1056,15 @@
         "D5BF-CORE",
         "P-AT-REPLAY"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
+      "kind": "D5BP selected tier with stronger exact replay held",
       "gap": "P-AT-REPLAY — Exact original survey/native qualification conditional on proposed CORE plus lawful N244 inputs and original private Grid/atlas/task receipts. No clean exact original-method run is established.",
       "choices": [
-        "Agree the table and attributed native-control tier, or qualify a lawful original method with exact Save52/main/atlas selectors and independently compare both VII-b output bodies.",
-        "CORE does not supply historical residence/atlas controls or full VII-b geometry. Qualify a portable exact-input method or clear a minimal authored source/geometry derivative."
+        "Option A selected by D5BP. Publish D5AT-INDEXED tracked associations, conditional Grid/density/layer mask tables, rankings and method. Attribute the fixed-input native geometry comparison to accepted D5AT research.",
+        "Under separate future authority, qualify P-AT-REPLAY for exact original replay."
       ],
       "acceptance": [
-        "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
-        "Reproduce the exact Save52 site-to-source association with the lawful indexed source/grid inputs and check the separate complete VII-b fixed-mask bodies in the controlled case. Conditional count arithmetic alone is a smaller tier."
+        "Check the 17 active sites, distinct Grid/density/layer table arithmetic and attributed fixed VII-b comparison against the accepted amendment. P-AT-REPLAY is outside Option A.",
+        "If the held tier is separately authorized, reproduce the exact Save52 site-to-source association with the lawful indexed source/grid inputs and check the separate complete VII-b fixed-mask bodies in the controlled case. Conditional count arithmetic alone is a smaller tier."
       ],
       "effort_risk": "Scope decision is editorial. Recovering or distributing missing evidence needs separate approval and a bounded feasibility check.",
       "sources": [
@@ -1081,7 +1084,8 @@
         "research/evidence-access/verify_release_assets.py",
         "research/resource-retained-population/d5at_active.py",
         "research/resource-retained-population/d5at_active_geometry.py",
-        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+        "docs/audits/publication-readiness-b3/baseline-manifest.md",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ]
     }
   ]

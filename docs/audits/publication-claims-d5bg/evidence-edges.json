@@ -554,13 +554,14 @@
         "research/resource-retained-population/d5at_active_geometry.py",
         "docs/audits/publication-readiness-b4/f1/members.csv",
         "docs/audits/release-assets-d5bf/release-assets.json",
-        "docs/audits/publication-readiness-b3/baseline-manifest.md"
+        "docs/audits/publication-readiness-b3/baseline-manifest.md",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ],
       "requires": [
         "P-AT-TABLE",
         "D5BF-CORE"
       ],
-      "consequence": "CORE does not supply historical residence/atlas controls or full VII-b geometry. Qualify a portable exact-input method or clear a minimal authored source/geometry derivative.",
+      "consequence": "Exact replay is indispensable only for the stronger original-replay tier. Option A uses P-AT-TABLE and attribution to the accepted D5AT record. CORE alone supplies neither the atlas and source operands nor the complete VII-b geometry. A portable exact-input method or reviewed derivative remains a separate future option.",
       "predecessors": [
         [
           "RG-AT",
@@ -1157,12 +1158,13 @@
         "docs/experiments/fabricators/recipes.csv",
         "docs/experiments/fabricators/facilities.csv",
         "docs/audits/publication-readiness-b4/claim-evidence.csv",
-        "docs/audits/release-assets-d5bf/release-assets.json"
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ],
       "requires": [
         "P-FAB-STATIC"
       ],
-      "consequence": "Original corpus census cannot be independently replayed from the staged witnesses. Exact totals can remain attributed to the original report.",
+      "consequence": "The full original census replay stays HELD. D5BP retains the attributed E3 totals and the separate conditional HIST-0036 original (P-FAB-0036). Exact corpus replay would require a separately approved route.",
       "predecessors": [
         [
           "B4-C06",
@@ -1300,12 +1302,13 @@
         "docs/position-model/review.md",
         "docs/position-model/capabilities.md",
         "docs/position-model/self-check.md",
-        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ],
       "requires": [
         "P-POSITION-MATH"
       ],
-      "consequence": "Representative CORE saves do not repeat 23 original inputs or authenticate the older captured 050/060 epochs. Use a reviewed minimal corpus/control derivative if advertising original replay.",
+      "consequence": "D5BP retains the attributed historical controls and P-POSITION-MATH. C02-ORIGINALS has its own conditional CORE and coordinate-reader route. Exact replay of the 23 inputs and native controls stays HELD and would require separate qualification.",
       "predecessors": [
         [
           "B4-C18",
@@ -1491,12 +1494,13 @@
         "docs/experiments/shared-outpost-storage/methods.md",
         "research/historical-methods/b3/sd2-survey.py",
         "docs/audits/publication-readiness-b4/claim-evidence.csv",
-        "docs/audits/release-assets-d5bf/release-assets.json"
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ],
       "requires": [
         "P-SHARED-TABLE"
       ],
-      "consequence": "No corpus-wide original reanalysis from proposed release set; separate scoped action only if maintainer selects that stronger tier.",
+      "consequence": "P-SHARED-TABLE supports auditable arithmetic. Selected CORE witnesses have separate conditional routes. Exact original corpus extraction stays HELD and would need separate selection and qualification.",
       "predecessors": [
         [
           "B4-C14",
@@ -1643,12 +1647,13 @@
         "docs/experiments/shared-outpost-storage/saves.md",
         "docs/experiments/shared-outpost-storage/corpus.csv",
         "docs/experiments/shared-outpost-storage/methods.md",
-        "docs/audits/release-assets-d5bf/release-assets.json"
+        "docs/audits/release-assets-d5bf/release-assets.json",
+        "docs/audits/publication-decisions-d5bp/README.md"
       ],
       "requires": [
         "P-SHARED-ORIGINALS"
       ],
-      "consequence": "Prefer the selected exact HIST-0036 tier. If the full fresh trio is selected, recover and qualify the two absent original inputs or a narrowly approved representation of their exact owner joins."
+      "consequence": "D5BP selects the attributed series with the conditional P-SHARED-ORIGINALS representative. Full original trio replay stays HELD. Recovering and qualifying HIST-0018 and HIST-0257 or a bounded representation remains a separately approved future option."
     },
     {
       "id": "P-U26-CONTROL",
