@@ -1,5 +1,16 @@
 # Decision Register
 
+## D5BN D5BM deferral — 2026-11-10
+
+The maintainer deferred D5BM and chose to finish the other
+publication-readiness decisions first. Option C remains the preferred
+independent reader route. Option B was not selected. D5BM remains
+REWORK, Stage A INCOMPLETE and Stage B NOT STARTED. The shared-host
+STOP, D5BJ REWORK and existing publication holds continue. The
+[D5BN dossier](audits/d5bm-deferred-d5bn/README.md) preserves the evidence
+and entry gates for a separately authorized resumption. Any WIP
+integration requires independent review and separate maintainer approval.
+
 ## D5BK interruption audit — 2026-11-09
 
 The maintainer authorized a read-only evidence and documentation audit of

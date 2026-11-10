@@ -1,5 +1,12 @@
 # Current Research State
 
+**2026-11-10 — D5BM deferred.** The [D5BN dossier](audits/d5bm-deferred-d5bn/README.md)
+preserves the standalone pump success, pending refusal and missing-peer
+contrast. D5BM is REWORK, Stage A is INCOMPLETE and Stage B is NOT
+STARTED. D5BJ remains REWORK / INTERRUPTED / DEFERRED. Option C remains
+preferred. The accepted D5AQ feasibility result and publication holds
+retain their scope.
+
 **2026-11-09 — D5BJ reader-input fixture checkpoint.** From compatible
 reader-supplied files, the [D5BJ methods](audits/evidence-reproduction-d5bj/README.md)
 replay the C1 numeric paths, both fixed ordinary geometry classes and selected

@@ -1,5 +1,13 @@
 # Credits
 
+## D5BM completion-to-density source audit
+
+Bethesda's pinned executable, definitions, PlanetData and DensityMaps
+archives supply the original instructions and candidate input bytes.
+The audit uses the maintainer's D5H, D5S, D5AE, D5AQ, D5BJ and D5BL
+investigations and owned readers. CPython and Git support the data-only
+verification. [D5BM methods](docs/audits/d5bm-completion-eligibility/reader-method.md)
+
 ## D5BJ reader-input reproduction
 
 Bethesda's pinned Starfield executable, main definitions and PlanetData supply

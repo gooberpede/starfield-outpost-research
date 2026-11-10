@@ -1,5 +1,19 @@
 # Source Register
 
+## D5BM completion-to-density source audit
+
+The [D5BM operand matrix](audits/d5bm-completion-eligibility/contract.md)
+links the retained D5S/D5AE server and layer sources, D5H worker-start
+ranges and D5AQ C1 prerequisites. The
+[candidate file checks](audits/d5bm-completion-eligibility/stage-a.md#first-layer-root-and-density-neighbor-candidate-files)
+use the pinned main ESM and separate PlanetData and DensityMaps archives.
+The data audit uses the D5BJ source census and raster reader from the
+isolated HEAD export under SOR-P-0002. The underlying game files, native
+exports and historical receipts retain their local access boundaries.
+The [first-root continuation](audits/d5bm-completion-eligibility/continuation-2026-11-10.md)
+also reuses the owned BIOM group reader and verifies the layer root's
+projected archive keys against all four density neighbors.
+
 ## D5BJ reader-input reproduction
 
 The [D5BJ dependency matrix](audits/evidence-reproduction-d5bj/dependencies.md)
