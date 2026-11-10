@@ -1,5 +1,14 @@
 # Decision Register
 
+## D5BO selected evidence routes — 2026-11-10
+
+The maintainer authorized a bounded B2 original-event derivative and
+D5AG fixed ordinary geometry reproduction under the
+[D5BO brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BO_D5AC_B2_and_D5AG_Public_Evidence_Qualification.md).
+The [qualification record](audits/public-evidence-d5bo/README.md) proposes
+a local B2 package and the unchanged D5BJ geometry component. File-specific
+rights, transfer, retention, B6 and hosting decisions remain held.
+
 ## D5BN D5BM deferral — 2026-11-10
 
 The maintainer deferred D5BM and chose to finish the other

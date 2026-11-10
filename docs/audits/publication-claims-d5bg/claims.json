@@ -2074,12 +2074,13 @@
         "docs/reference/resource-generation.md",
         "docs/experiments/resource-retained-population/d5ac-target-lookup-chronology.md",
         "docs/experiments/resource-retained-population/d5ac-review.md",
-        "docs/experiments/resource-retained-population/d5r-report.md"
+        "docs/experiments/resource-retained-population/d5r-report.md",
+        "docs/audits/public-evidence-d5bo/b2-asset.md"
       ],
       "edges": [
         "P-B2-RETAIL"
       ],
-      "decision": "If asserting the event directly, separately clear exact matched sequence, key/lifetime and mask operands. Otherwise retain original report and use D5AU native wording.",
+      "decision": "D5BO selected the bounded original-event projection. Keep MAINTAINER DECISION for exact asset clearance, transfer and retention, B6 and hosted-byte checks.",
       "guides": [
         "docs/guides/resource-generation.md"
       ],
@@ -2101,12 +2102,13 @@
       "coverage": "The queries (4,-1), (4,1) and (5,0) produce mask classes 0/3/3 and 74 regions / 193 points versus 78 / 180. The two mask-3 populations compare equal.",
       "limits": "This fixture does not show that the B2 losing retail request sampled or that later ordinary visits reproduce these inputs. The D5AQ controls and D5AS series have separate provenance.",
       "status": "MAINTAINER DECISION",
-      "wording": "Cite the original fixed-input controls as attributed evidence. Select exact original D5AG fixture reproduction only if its three pinned inputs and whole-output comparison can be qualified.",
+      "wording": "D5BO selected the unchanged D5BJ native geometry component for all three fixed ordinary cases. It requires lawful pinned files, a supported host and the exact separately supplied D5AS ZIP.",
       "sources": [
         "docs/experiments/resource-retained-population/d5ag-geometry-controls.md",
         "docs/experiments/resource-retained-population/d5ag-report.md",
         "docs/experiments/resource-retained-population/d5ag-review.md",
-        "docs/experiments/resource-retained-population/d5ag-sources.csv"
+        "docs/experiments/resource-retained-population/d5ag-sources.csv",
+        "docs/audits/public-evidence-d5bo/d5ag-reader.md"
       ],
       "edges": [
         "P-AG-FIXTURE"

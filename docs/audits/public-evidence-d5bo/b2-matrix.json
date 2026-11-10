@@ -1,0 +1,36 @@
+{
+  "schema": "sor-d5bo-b2-matrix/1",
+  "scope": "Attempt 002 with one reduced row per original frame. All records screened by kind",
+  "omission": {
+    "original_frames": 32141,
+    "projected_rows": 32141,
+    "omitted_frames": 0,
+    "original_frame_locator": "328 * (sequence - 1), payload begins 16 bytes into frame",
+    "omitted_field_groups": [
+      {"fields": "Original header/CRC, padding, raw receipt contents", "reason": "Original-side integrity and transport check. Loss generations and attested counts retained"},
+      {"fields": "Private raw runtime identifiers", "reason": "Equality, null and selected signed relations remain available via typed aliases, flags and deltas"},
+      {"fields": "Opaque source/descriptor copies and unused per-site operands", "reason": "Target geography components, all geographic equality labels, copied token equality, zero lookup copy, descriptor delta and generator/sample argument equality retained"},
+      {"fields": "Other geographic coordinates from source birth and private installation/process metadata", "reason": "Other-source collision screening uses equality labels. Original input/receipt fingerprints remain"}
+    ],
+    "frame_kinds": {
+      "entry": 6035, "selected": 8625, "visited": 8625, "lookup": 48,
+      "descriptor": 36, "generating": 36, "sample": 36, "generated": 36,
+      "returned": 6035, "fence_begin": 113, "fence_end": 113, "cold": 2,
+      "ready": 1, "birth": 1164, "published": 1164, "reserve": 36, "stored": 36
+    }
+  },
+  "edges": [
+    {"id": "transport", "class": "observed", "trust": "original only", "scope": "Original CRC, exact bytes, 56 cumulative ACKs, ready, zero reported loss and faults, terminal 32141"},
+    {"id": "birth-publication", "class": "derived from records", "trust": "projected operands. Alias fidelity original only", "selectors": [2074, 2075], "scope": "Same source/constructing Grid, epoch, allocation 932. Target geography and token also occur in seven earlier birth rows"},
+    {"id": "earlier-births", "class": "observed", "trust": "projected operands", "selectors": [890, 894, 898, 924, 1270, 1684, 1688], "scope": "Same geography and token, earlier allocations, epochs and intervening clears"},
+    {"id": "contenders", "class": "observed", "trust": "projected operands", "selectors": [8004, 8005, 8006, 8018, 8019, 8020], "scope": "Original signed requests and two unvisited decisions in native time"},
+    {"id": "lookup-inversion", "class": "derived from records", "trust": "projected operands plus native site meaning", "selectors": [8091, 8339], "scope": "Same ProcGen, pointer key and epoch. Exclusive protected miss before hit. 46 other-key lookups and 97 adjacent admission/QPC inversions"},
+    {"id": "locked-insertion", "class": "native-required static", "trust": "attributed original native contract", "selectors": [8091, 8093], "scope": "Compiled insertion on miss before generation and exclusive unlock. No insertion callback"},
+    {"id": "construct-store", "class": "derived from records", "trust": "projected operands", "selectors": [8092, 8093, 8094, 8104, 8105, 8106, 8110], "scope": "Descriptor, generator/sample 0x3, generated, reserve and executed token store, return"},
+    {"id": "other-source", "class": "observed", "trust": "projected operands", "selectors": [8340, 8341, 8345], "scope": "Different selection and bypass before return. No extra target construction"},
+    {"id": "lifecycle", "class": "derived from records", "trust": "projected operands plus original capture scope", "selectors": [2, 3, 4, 881, 882, 883, 1731, 2470], "scope": "2 resets plus 111 Grid clears explain 224 increments. 47 clears add 94 from reset 113 to epoch 207. No reset at 207"},
+    {"id": "carried-empty", "class": "conditional assumption", "trust": "ordinary native mutator and receiver graph", "selectors": [883, 1731, 2470], "scope": "No observed mutator that adds state in the interval. Removal-only native paths and no unrecorded replacement are premises"},
+    {"id": "firstness-refusal", "class": "derived from records", "trust": "projected operands and historical schema-4 rule", "selectors": [8006, 8020], "scope": "No same-epoch reset triad. Earlier eligible decision also defeats constructing-first. 390 later target bypasses. 56 late other-source decisions remain unqualified"},
+    {"id": "unobserved", "class": "unknown", "trust": "outside demonstrated coverage", "scope": "Exact lock acquisition/wait, scheduling cause, uninstrumented writers, complete geometry, true cold-first and population frequency"}
+  ]
+}

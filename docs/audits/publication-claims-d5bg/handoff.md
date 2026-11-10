@@ -29,6 +29,14 @@ qualification and eligibility to the reviewed historical investigation. The
 selection calls for no additional custody package. Neither inherited
 disposition count changes.
 
+The maintainer selected the two local qualification routes in
+[D5BO](../public-evidence-d5bo/README.md). D5AC-B2-RETAIL uses the bounded
+attempt-002 event candidate. D5AG-FIXED-GEOMETRY uses the previously qualified
+D5BJ geometry component with the exact separately supplied D5AS ZIP.
+Both exact evidence edges remain HELD pending file-specific rights and
+privacy decisions, approved transfer and retention, B6 and hosted-byte
+verification. The 41 READY or READY — QUALIFIED rows retain their tiers.
+
 ## Decisions for the maintainer
 
 1. Agree the N244 build and exact first-release wording, access tiers and
@@ -45,10 +53,10 @@ disposition count changes.
    owner-join trio, and the full C18 corpus, prefer the tracked or
    representative tier unless the omitted originals are material to approved
    wording. For the resource records, decide whether exact historical
-   acquisition/causal claims need a bounded chronology or custody derivative
-   and whether exact D5AT, D5AQ or D5AG reproduction warrants a separate method
-   task. This decision controls any additional work. Confirm the four
-   history-only dispositions separately.
+   acquisition and causal claims beyond the selected D5BO routes need a bounded
+   chronology or custody derivative, and whether exact D5AT or D5AQ reproduction
+   warrants a separate method task. Confirm the four history-only dispositions
+   separately.
 4. Settle any residual contributor credit, excerpt and file-specific
    rights/privacy decisions on the actual proposed text and bytes. The project
    licence covers authored material where the contributors have rights.

@@ -1,5 +1,13 @@
 # Current Research State
 
+**2026-11-10 — D5BO evidence qualification.** The
+[B2 projection](audits/public-evidence-d5bo/b2-sufficiency.md) preserves the
+recorded protected lookup inversion and negative history across all 32,141
+frames. The [D5AG reader route](audits/public-evidence-d5bo/d5ag-reader.md)
+reuses the reviewed D5BJ component for all three fixed ordinary cases
+with exact reader-supplied inputs. Both public routes remain held.
+Historical D5AC ACCEPT and D5AG CQ BLOCKED / ESCALATE retain their scope.
+
 **2026-11-10 — D5BM deferred.** The [D5BN dossier](audits/d5bm-deferred-d5bn/README.md)
 preserves the standalone pump success, pending refusal and missing-peer
 contrast. D5BM is REWORK, Stage A is INCOMPLETE and Stage B is NOT

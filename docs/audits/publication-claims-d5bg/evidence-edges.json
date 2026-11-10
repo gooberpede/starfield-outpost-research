@@ -181,19 +181,22 @@
       "id": "P-AG-FIXTURE",
       "materiality": "INDISPENSABLE",
       "state": "HELD",
-      "route": "Tracked authored method and original review. The paired fresh-host fixture operands and verification receipts remain local-only for this exact tier.",
+      "route": "D5BO selected the unchanged D5BJ bounded native geometry component. Prior isolated execution covers all three original queries. D5BO rechecked original and qualification receipts offline.",
       "substantiates": "Exact full-output distinction of the original D5AG mask-0 and mask-3 populations and equality of both mask-3 queries.",
-      "selector": "Original D5AG geometry01, geometry02 and verify03 control sets; three query operands and normalization/point and bounds checks in the original report.",
-      "safety_rights": "The historical method invokes native fixture code. Independent replay needs separately qualified lawful inputs, isolated effect review and explicit execution authority.",
+      "selector": "D5AG geometry01/02 and verify03 plus D5BJ isolated04 geometry and fresh repeat, exact game inputs and D5AS reference bodies.",
+      "safety_rights": "Lawful reader-supplied pinned EXE, ESM and PlanetData, supported host and separately supplied exact D5AS ZIP. No D5BO native execution or change of admitted method.",
       "sources": [
         "docs/experiments/resource-retained-population/d5ag-geometry-controls.md",
         "docs/experiments/resource-retained-population/d5ag-review.md",
         "docs/experiments/resource-retained-population/d5ag-sources.csv",
         "research/resource-retained-population/d5ag_controls.py",
-        "research/resource-retained-population/d5ag_verify.py"
+        "research/resource-retained-population/d5ag_verify.py",
+        "docs/audits/public-evidence-d5bo/d5ag-reader.md"
       ],
-      "requires": [],
-      "consequence": "If exact original fixture reproduction is selected, qualify a lawful finite input/method route or compare an independently approved bounded fixture derivative. Keep the attributed report and current conditional mechanism if that tier is omitted.",
+      "requires": [
+        "D5BF-D5AS"
+      ],
+      "consequence": "The fixed component is qualified locally. Exact D5AS rights and privacy, transfer and retention, B6 and verified hosting remain held.",
       "predecessors": [
         [
           "RG-AU",
@@ -637,20 +640,21 @@
       "id": "P-B2-RETAIL",
       "materiality": "INDISPENSABLE",
       "state": "HELD",
-      "route": "Tracked original chronology and review, with original callback/owner trace LOCAL-ONLY.",
+      "route": "D5BO selected one bounded original-event projection. The local candidate and standalone reader preserve all 32,141 reduced rows. Raw original authentication and native interpretation retain upstream evidence routes.",
       "substantiates": "One original B2 event: earlier unvisited request (4,-1) lost; (5,0) reached the protected miss and sampled 0x3; the former later hit the same live pointer map.",
-      "selector": "B2 miss 8091, sample 8093–8094 and hit 8339; same live source and ProcGen, separate ambient-lock evidence limit.",
-      "safety_rights": "Tracked authored report only. Unselected originals or private derivative remain LOCAL-ONLY; no new acquisition, execution or disclosure.",
+      "selector": "Attempt 002, decisions 8006/8020, miss 8091, sample 8094, store 8106, hit 8339. Exact local candidate SHA-256 098ddf7d67f6a23390932b3440faa489439235663bf315754697e40acf694224.",
+      "safety_rights": "Exact projection is local, unhosted and NOT CLEARED. Retain raw originals and native exports locally.",
       "sources": [
         "docs/experiments/resource-retained-population/d5ac-target-lookup-chronology.md",
         "docs/experiments/resource-retained-population/d5ac-review.md",
         "docs/experiments/resource-retained-population/d5r-report.md",
-        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv",
+        "docs/audits/public-evidence-d5bo/b2-asset.md"
       ],
       "requires": [
         "P-FIRST-MISS"
       ],
-      "consequence": "Static ordering supports possibility only. Historical winner, earlier loser and actual map reuse need a bounded event chain and identity proof.",
+      "consequence": "File-specific rights and privacy, authorized transfer and retention, B6 and verified hosting remain held. Locked insertion is native-required and was not directly recorded.",
       "predecessors": [
         [
           "RG-AU",

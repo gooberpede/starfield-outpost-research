@@ -751,11 +751,10 @@
       "edges": [
         "P-B2-RETAIL"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
-      "gap": "P-B2-RETAIL — Tracked original chronology and review, with original callback/owner trace LOCAL-ONLY.",
+      "kind": "Maintainer selected route. File-specific release decision pending",
+      "gap": "P-B2-RETAIL — D5BO local full-frame projection and standalone verification are available. Original authentication and static insertion semantics stay upstream. The exact candidate is unhosted and uncleared.",
       "choices": [
-        "If asserting the event directly, separately clear exact matched sequence, key/lifetime and mask operands. Otherwise retain original report and use D5AU native wording.",
-        "Static ordering supports possibility only. Historical winner, earlier loser and actual map reuse need a bounded event chain and identity proof."
+        "Qualify the exact local D5BO candidate under file-specific rights/privacy review, transfer and retention, B6 and hosted-byte verification."
       ],
       "acceptance": [
         "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
@@ -768,7 +767,8 @@
         "docs/experiments/resource-retained-population/d5ac-target-lookup-chronology.md",
         "docs/experiments/resource-retained-population/d5ac-review.md",
         "docs/experiments/resource-retained-population/d5r-report.md",
-        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv"
+        "docs/audits/publication-architecture-d5ax/claim-evidence-dependencies.csv",
+        "docs/audits/public-evidence-d5bo/b2-asset.md"
       ]
     },
     {
@@ -779,11 +779,10 @@
       "edges": [
         "P-AG-FIXTURE"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
-      "gap": "P-AG-FIXTURE — Tracked authored method and original review. The paired fresh-host fixture operands and verification receipts remain local-only for this exact tier.",
+      "kind": "Maintainer selected route. Exact reader access pending",
+      "gap": "P-AG-FIXTURE — Existing D5BJ component reproduces all three complete fixed cases with lawful exact game inputs and the supplied D5AS candidate. Exact public access remains held.",
       "choices": [
-        "Cite the original fixed-input controls as attributed evidence. Select exact original D5AG fixture reproduction only if its three pinned inputs and whole-output comparison can be qualified.",
-        "If exact original fixture reproduction is selected, qualify a lawful finite input/method route or compare an independently approved bounded fixture derivative. Keep the attributed report and current conditional mechanism if that tier is omitted."
+        "Use the unchanged D5BJ geometry method and separately qualify the exact D5AS ZIP, reader access, B6 and hosted-byte verification."
       ],
       "acceptance": [
         "For the attributed tier, check the original report and review, scope the wording to their exact disposition and explicitly record the unresolved evidence edge.",
@@ -796,7 +795,8 @@
         "docs/experiments/resource-retained-population/d5ag-review.md",
         "docs/experiments/resource-retained-population/d5ag-sources.csv",
         "research/resource-retained-population/d5ag_controls.py",
-        "research/resource-retained-population/d5ag_verify.py"
+        "research/resource-retained-population/d5ag_verify.py",
+        "docs/audits/public-evidence-d5bo/d5ag-reader.md"
       ]
     },
     {
