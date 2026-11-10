@@ -1,5 +1,16 @@
 # Current Research State
 
+**2026-11-10 — Historical evidence tiers and later deposit research (D5BQ).**
+The [first-release decision](audits/publication-decisions-d5bq/README.md)
+separates the ordinary power, cargo and local output-link mechanisms from
+reported history and exact original-byte checks. The
+[later disappearing-deposit synthesis](experiments/disappearing-deposits/subsequent-research.md)
+connects observed Feynman V geometry variation with the qualified ordinary
+generation mechanism. D1 retains its original PARTIALLY DISCRIMINATED verdict
+and source-reported incident. The separate
+[Exotic default reachability gap](BACKLOG.md#exotic-inactive-resource-default-reachability)
+remains open and nonblocking. Publication remains NOT READY / NOT CLEARED.
+
 **2026-11-10 — D5BO evidence qualification.** The
 [B2 projection](audits/public-evidence-d5bo/b2-sufficiency.md) preserves the
 recorded protected lookup inversion and negative history across all 32,141

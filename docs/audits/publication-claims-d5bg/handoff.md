@@ -47,6 +47,14 @@ replay and the optional future VII-b live study are outside first-release
 requirements. The selected D5AT tier uses tracked table arithmetic and
 method with attributed historical fixed-input geometry.
 
+The [D5BQ decision matrix](../publication-decisions-d5bq/README.md) confirms
+the selected Save29 and Save52 CORE checks, the local output-link CORE
+plus ADDENDUM checks and the exact Kreet callback derivative. It records the
+four attributed historical-only choices separately. The bounded D1
+saved-state tier is selected without a new historical asset. Its stronger
+exact replay remains held. The graph counts above describe the inherited
+rows and routes and carry forward.
+
 ## Decisions for the maintainer
 
 1. Agree the N244 build and exact first-release wording, access tiers and
@@ -54,18 +62,17 @@ method with attributed historical fixed-input geometry.
    the 41 READY or READY — QUALIFIED rows. Use the matrix wording and preserve
    the original research, reviews, failed controls and supersessions.
 2. Confirm remaining selections among the 12 ACTION REQUIRED rows and
-   qualify the selected D5AS-BODY and D5BP witness routes. Bind each selected
+   qualify the selected D5AS-BODY, D5BP and D5BQ witness routes. Bind each selected
    route to its named reader and approved candidate members. The
    four proposed assets stay in the proposal. Use the existing staged inputs
    at B6. Where specified, the optional ADDENDUM is required for that claim's
    independent original-witness check.
 3. Use the [actions ledger](actions.json) for unresolved tiers among the 14
-   MAINTAINER DECISION rows. The five stronger D5BP routes remain future
-   options. Other decisions include D1 and whether historical resource
-   acquisition and causal claims beyond the selected D5BO routes need a
+   MAINTAINER DECISION rows. The five stronger D5BP routes and D1 exact
+   saved replay remain separate future options. Other decisions include
+   whether historical resource acquisition and causal claims beyond the selected D5BO routes need a
    bounded chronology or custody derivative. The separate D5AQ Option C
-   and D5BJ/D5BM deferral record still governs that work. Confirm the four
-   history-only dispositions separately.
+   and D5BJ/D5BM deferral record still governs that work.
 4. Settle any residual contributor credit, excerpt and file-specific
    rights/privacy decisions on the actual proposed text and bytes. The project
    licence covers authored material where the contributors have rights.

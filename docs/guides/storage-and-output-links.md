@@ -70,3 +70,21 @@ serialized lists at those four references. The chain establishes saved
 topology and stock at that sample. A transfer event and current loaded stock
 would require other evidence. Unsupported stack extras leave stock unknown.
 [Saved examples](../experiments/local-output-links/saves.md) · [Original review](../experiments/local-output-links/review.md).
+
+In the controlled save sequence, **L0** is the original linked baseline.
+The operator described **L0C** as the linked baseline after reload, **L1**
+as the unlink save and **L1C** as its same-session unlinked control. **L2**
+and **L2C** are the reported relink save and its same-session linked control.
+The selected relationship payload changed from **19 to 12 to 19 bytes**,
+holding at the corresponding length in each same-session control.
+
+Corresponding saved windows contain different endpoint tokens across the
+reported reload. That comparison also spans elapsed time. The original
+literal fails from L0C onward. Substituting the new tokens still fails at
+L0C because the entry order differs. A later bounded method associates the
+candidate relationship across these windows. The remapping mechanism, full
+record semantics and load authority remain open. The exact inspection route
+requires the CORE baseline, the five ADDENDUM saves and the qualified reader
+with its controls.
+[Controlled sequence](../experiments/output-link-validation-L0-L2C.md) ·
+[Publication decision and checks](../audits/publication-decisions-d5bq/README.md)

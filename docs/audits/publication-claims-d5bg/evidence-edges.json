@@ -999,7 +999,7 @@
         "docs/audits/evidence-access-d5be/c19.md"
       ],
       "requires": [],
-      "consequence": "Cannot independently recount complete upstream events or establish exact screen timing or unique producer ancestry. Candidate omits the necessary raw snapshots/clock joins."
+      "consequence": "D5BQ retains the broader preview as attributed history. The separate callback derivative checks all 346 complete callbacks. It omits the raw snapshots and clock joins needed to recount every upstream evaluation, establish a unique producer or timestamp screen rendering."
     },
     {
       "id": "P-D1-INCIDENT",
@@ -1044,7 +1044,7 @@
       "requires": [
         "D5BF-CORE"
       ],
-      "consequence": "Cannot repeat exact mature pair/negative comparisons from Save52 alone. The rejected earlier file cannot be promoted to an absence control. A small cleared saved-state derivative could support bounded sample checks only.",
+      "consequence": "D5BQ selects the attributed bounded saved-state findings and no additional asset. Exact mature pair and negative comparisons remain held. Save52 alone cannot recreate the mature pairs, and the rejected earlier file cannot serve as an absence control.",
       "predecessors": [
         [
           "B4-C19",

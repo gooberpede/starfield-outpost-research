@@ -517,7 +517,7 @@
       "coverage": "Same selected save and two identified extractors, immediately and several seconds later; later XYZ transcription ties identities at displayed precision",
       "limits": "Two images show setup/appearance, not all three loads. Restoration and recomputation fit the observation; native effective inputs and writes were unrecorded.",
       "status": "HISTORICAL ONLY",
-      "wording": "Cite the documented maintainer report as historical context. It establishes neither a reproduced three-load event nor universal repeatability.",
+      "wording": "D5BQ selects the attributed maintainer report and supporting visual evidence as historical context. The screenshots corroborate the displayed setup and contrast without synchronizing native effective state or identifying all three trial epochs.",
       "sources": [
         "docs/experiments/power/save29-test-plan.md",
         "docs/experiments/power/load-determinism.md",
@@ -639,7 +639,7 @@
       "coverage": "Selected endpoint windows; anchored repeated controls",
       "limits": "L0→L0C is cross-session churn and fails literal preservation; no universal direction, full grammar or reload authority.",
       "status": "ACTION REQUIRED",
-      "wording": "The tracked report preserves the controlled payload association. Independent byte inspection requires both the CORE anchor and the optional ADDENDUM.",
+      "wording": "The selected relationship payload lengths are 19, 19, 12, 12, 19 and 19 bytes in the operator-reported action and control sequence. Corresponding windows contain different tokens across the reported reload and elapsed time. The original literal fails, and changed entry order defeats token-only substitution at L0C. The later endpoint-pair association has bounded coverage. Independent byte inspection requires the CORE anchor and all five ADDENDUM saves.",
       "sources": [
         "docs/experiments/output-link-validation-L0-L2C.md",
         "docs/experiments/local-output-links/report.md",
@@ -675,7 +675,7 @@
       "topics": [
         "cargo"
       ],
-      "proposition": "Ordinary freight alternates endpoints through a shared hold. Dock deadlines, VM dispatch and native travel completion have distinct scheduling roles.",
+      "proposition": "Ordinary freight alternates endpoints through a shared hold. Dock deadlines, Papyrus virtual machine (VM) dispatch and native travel completion have distinct scheduling roles.",
       "basis": "Native/static and installed PEX interpretation plus conditional calculations; sampled save corroboration",
       "pins": "N244 pinned retail EXE and main ESM; separately pinned shipped PEX/VMAD; H? Save52/HIST-0267 (B4-F040); header reports 1.16.244.0; historical executable hash and effective configuration are unknown",
       "confidence": "STRONG / STATIC ordinary explanation; transit continuation independently accepted; scoped saved checks remain separate",
@@ -728,7 +728,7 @@
       "coverage": "Ordinary inter-system recipe/source graph and four selected Save52 endpoints over two stocked links",
       "limits": "Charged mode-0 can bypass the five-unit check; mode-1 producer work rechecks. A failed poll is not a debit. Fuel cycles do not supply a voyage clock, transfer rate or loaded travel guarantee.",
       "status": "READY — QUALIFIED",
-      "wording": "Use five per accepted fuel cycle, never per voyage. The ordinary stage can proceed if either eligible endpoint passes current readiness.",
+      "wording": "Five He-3 is the recipe per accepted fuel-production cycle. Either eligible endpoint can pass readiness. The candidate Constellation's Guide multiplier of 0.95 gives 102.6 engine scheduler seconds from 108 when applicable and could raise consumption per scheduler time. The sampled saved interval does not identify a source or rank, and no transit or delivery-rate effect was demonstrated.",
       "sources": [
         "docs/experiments/cargo-links/fuel/report.md",
         "docs/experiments/cargo-links/fuel/review.md",
@@ -771,7 +771,7 @@
       "coverage": "Reported manual-network topology agreement and historical VM metadata remain distinct from the qualified saved endpoint parser",
       "limits": "No confirmed precise flight time, runtime throughput or loaded transit guarantee. A saved link, conditional budget or table does not substitute for a matching historical event.",
       "status": "HISTORICAL ONLY",
-      "wording": "Keep the original reports discoverable. Cite Save52 for saved topology, and native/PEX for the conditional scheduler, without claiming the private historical comparator can be independently inspected.",
+      "wording": "D5BQ selects attributed historical context for the mature private-network agreement and historical Papyrus virtual machine metadata. Cite Save52 separately for saved topology. The comparator supplies no replayable voyage or measured flight clock.",
       "sources": [
         "docs/experiments/mature-save-outpost-validation.md",
         "docs/experiments/cargo-links/transport/saves.md",
@@ -1676,7 +1676,7 @@
       "coverage": "Two candidate incident sites and one distinct Decaran II gas control; no matched failure epoch.",
       "limits": "C19 callbacks and later D5AS geometry are different cases. Changed generation and retained operation lists remain distinct hypotheses; no proved root cause.",
       "status": "HISTORICAL ONLY",
-      "wording": "Retain the historical report, hypotheses and counterexamples. Cite only the scoped offline discrimination.",
+      "wording": "D5BQ selects the source-reported historical incident and the original PARTIALLY DISCRIMINATED disposition. Later Feynman V geometry evidence supports a plausible mechanism within its own scope. Incident causation remains open.",
       "sources": [
         "docs/guides/resource-generation.md",
         "docs/reference/resource-generation.md",
@@ -1716,7 +1716,7 @@
       "coverage": "Feynman VIII-b and two distinct Decaran sites; 45 curated direct-owner rows. H249 is NOT TESTED for ordinary extractor absence.",
       "limits": "No mature comparison replay from Save52 alone. No failure/recovery time, scene state, deposit geometry or actual output was measured.",
       "status": "MAINTAINER DECISION",
-      "wording": "Preserve the bounded PARTIALLY DISCRIMINATED report and its saved-state negative with explicit attribution.",
+      "wording": "D5BQ selects the attributed bounded saved-state findings and scoped negative from the original PARTIALLY DISCRIMINATED report.",
       "sources": [
         "docs/guides/resource-generation.md",
         "docs/reference/resource-generation.md",
@@ -1731,7 +1731,7 @@
       "edges": [
         "P-D1-SAMPLES"
       ],
-      "decision": "Agree attributed bounded saved-state scope, or separately clear a minimal operand or original route covering exact earlier/later joins and header qualification. Do not require impossible incident replay to retain the separate static contract.",
+      "decision": "The attributed bounded saved-state tier is selected. This row retains the stronger original-byte reanalysis proposition and its held edge. No new historical saved-state asset is selected. C19-D1-SITE-TABLE separately compares the tracked transcribed fields.",
       "guides": [
         "docs/guides/resource-generation.md"
       ],
@@ -1795,7 +1795,7 @@
       "coverage": "35,573 preview evaluations and one initialization; distinct raw record and callback grains.",
       "limits": "No unique producer, exact screen-render clock or all-evaluation replay through D5BF candidate.",
       "status": "HISTORICAL ONLY",
-      "wording": "Attribute the upstream counts to the original report. Use the candidate only for the complete callback subset.",
+      "wording": "D5BQ selects attributed historical context for the larger unplaced-beacon preview. The operator reported Iron plus He-3, then Iron plus Alkanes plus He-3, then Iron plus He-3. The original capture recorded 35,573 preview evaluations plus one initialization and 346 complete callbacks. The selected derivative checks all 346 callbacks separately from upstream chronology.",
       "sources": [
         "docs/guides/resource-generation.md",
         "docs/reference/resource-generation.md",

@@ -176,6 +176,16 @@ can permit fresh sampling under the stated conditions. A familiar list,
 an unchanged save or a repeat of a travel action gives no reliable recipe
 for selecting the next sample or changing the contours.
 
+### Why a deposit can change at a fixed point
+
+Later research observed geometry variation at one geographic source.
+It explains how a fixed point could gain or lose a deposit between
+reconstructions. The older disappearing-deposit account remains
+source-reported, and actual extractor output across a verified local geometry
+change remains unmeasured. The synthesis also explains the separate unresolved
+Exotic setting question.
+[Disappearing deposits and later evidence](../experiments/disappearing-deposits/subsequent-research.md)
+
 ## Evidence you can check
 
 Use the [technical reference](../reference/resource-generation.md) for
@@ -192,3 +202,9 @@ asset is unhosted. [Dependency graph](../audits/publication-architecture-d5ax/cl
 [Evidence-access assessment](../audits/publication-architecture-d5ax/evidence-access.md).
 The [D5BE evidence index](../audits/evidence-access-d5be/README.md) tracks
 access to the D5AS full geometry comparisons and C19 native UI comparisons.
+
+The original Kreet unplaced-beacon experiment and the bounded check of
+all 346 recorded native callbacks cover different parts of the preview
+process. The release decision describes what the operator saw and which
+comparisons the proposed download can reproduce.
+[Kreet preview evidence tiers](../audits/publication-decisions-d5bq/README.md#historical-observations)

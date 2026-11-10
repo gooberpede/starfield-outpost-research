@@ -48,6 +48,14 @@ tiers. Their `MAINTAINER DECISION` rows retain the inherited classification of
 the stronger exact-replay propositions. The selections and pending witness
 checks are recorded separately from those held routes.
 
+[D5BQ](../publication-decisions-d5bq/README.md) selects the power, cargo,
+local-link and historical evidence tiers. The four HISTORICAL ONLY rows
+remain attributed history. The bounded D1 saved-state tier is selected.
+Its inherited MAINTAINER DECISION row retains the stronger original-byte
+proposition and HELD edge. The separate transcribed-field comparison
+retains its READY route. Exact selected Save29, Save52, local-link and
+Kreet callback checks remain conditional.
+
 ## Snapshot and safeguards
 
 The starting branch was `main`, HEAD

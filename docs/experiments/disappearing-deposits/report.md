@@ -156,3 +156,7 @@ historical failure ground truth makes another broad save scan low value. A full
 region-geometry observer remains costly and unqualified under the existing
 [geometry-lifetime assessment](../spatial-equivalence-feasibility/geometry-lifetime/report.md).
 No follow-on experiment, implementation, commit, push or publication is authorized.
+
+[Subsequent research synthesis, 2026-11-10](subsequent-research.md) connects the
+reported symptoms with later observed geometry variation and preserves this
+report's original scientific disposition.

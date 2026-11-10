@@ -1,5 +1,26 @@
 # Separately scoped research backlog
 
+## Exotic inactive-resource default reachability
+
+**OPEN · nonblocking · post-publication or separately authorized read-only
+work.** The executable initializer sets about 0.01 and the installed main
+master's game-setting record resolves to about 0.05. The open question is
+whether a qualified successful ordinary generation path consumes the
+initializer value in place of the loaded setting.
+[Setting provenance and native anchors](experiments/resource-installed-settings/settings.md)
+
+First trace the initializer, game-setting record application and the
+generator read using the pinned existing static evidence. Bound the audit to
+the ordinary startup and generation path and name the admitted lifecycle
+conditions, write/read ordering, indirect edges and success gates. A feasible
+path that reads the initializer value, uses it in the ordinary Exotic inactive
+branch and reaches successful generation would establish reachability within
+that path. Showing the effective master-file write precedes every qualifying
+read in the audited lifecycle, with no intervening reset to the default,
+would rule out that default-consuming path within the covered lifecycle.
+Unresolved paths leave the question open. The first audit carries no
+native or live experiment authority.
+
 ## Deterministic resource generation via canonical source sampling
 
 2026-11-06. **Optional post-publication modding investigation.** This item

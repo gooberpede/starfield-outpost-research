@@ -1,5 +1,27 @@
 # Decision Register
 
+## Power, cargo and historical evidence tiers (D5BQ) — 2026-11-10
+
+The [maintainer brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BQ_Power_Cargo_D1_Historical_Publication_Reconciliation.md)
+selects the [first-release tiers](audits/publication-decisions-d5bq/README.md)
+for ordinary power, freight and fuel, local output links and four attributed
+historical accounts. Save29 and Save52 retain their proposed CORE witness
+checks. The local link sequence requires CORE plus ADDENDUM and its
+qualified reader. The Kreet callback derivative covers all 346 complete
+callbacks within its separate scope.
+
+The selected disappearing-deposit saved-state tier attributes the bounded
+D1 results, with exact historical replay held and no further asset selected.
+The [subsequent synthesis](experiments/disappearing-deposits/subsequent-research.md)
+connects later evidence of geometry variation to a plausible mechanism while
+preserving D1's original verdict and open incident cause. The
+[Exotic default reachability question](BACKLOG.md#exotic-inactive-resource-default-reachability)
+is a separate nonblocking static backlog item.
+
+This is an offline documentation decision. Exact original and derivative
+reader routes, rights and privacy, transfer, isolated B6 preflight and hosting
+retain their pending dispositions. Publication remains NOT READY / NOT CLEARED.
+
 ## D5BP first-release evidence tiers — 2026-11-10
 
 The maintainer selected five evidence tiers under the

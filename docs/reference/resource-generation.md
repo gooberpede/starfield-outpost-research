@@ -314,8 +314,9 @@ transitions, but not universal player-action rules. They preserve the
 distinction between static consequences under the stated operands and an 
 observed complete transition. The older D1 disappearing deposit report retains 
 its incident-attribution gap.
-[D1 case](../experiments/disappearing-deposits/report.md) and
-[review](../experiments/disappearing-deposits/review.md).
+[D1 case](../experiments/disappearing-deposits/report.md) ·
+[original review](../experiments/disappearing-deposits/review.md) ·
+[subsequent research on changing deposits](../experiments/disappearing-deposits/subsequent-research.md).
 
 The strongest unresolved action contrast is a same-area warm return with
 measured target lifetime, first eligible decision and complete geometry on

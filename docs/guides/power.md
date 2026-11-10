@@ -55,9 +55,15 @@ generator seeds, edge order and gates determine the actual discovery order.
 
 Saved electrical connections preserve reference identities and connection
 words. The powered bit records an earlier result and can be restored before
-the engine recalculates. In Save29 three reported fresh-process reloads
-showed extractor #1 on and #2 off. The saved beacon's ordered connections
-lead from one solar generator to #1 then #2. Under the qualified ordinary
+the engine recalculates. The maintainer reported seeing extractor #1 on and
+#2 off after each of three fresh-process loads of Save29. Two screenshots
+corroborate the setup and the powered and unpowered appearance. The account
+and images are historical visual evidence. The images lack per-trial timing
+and synchronized native effective-state observations.
+[Historical observations](../experiments/power/save29-test-plan.md)
+
+The saved beacon's ordered connections lead from one solar generator to
+#1 then #2. Under the qualified ordinary
 load inputs, supply 6 admits the first demand of 5. The second raises
 cumulative demand to 10 and fails. The independently assessed native
 explanation is deterministic recalculation for this setup. Restoring the
@@ -65,6 +71,10 @@ old bits would also match the observations, and historical worker execution
 was untraced. Other graphs, effective values and load orders can differ.
 [Save29 derivation](../experiments/power/save29-authority.md) ·
 [Independent authority review](../experiments/power/save29-authority-review.md).
+
+Independent verification for release of the original Save29 bytes still
+requires the exact selected CORE member and a qualified read-only reader.
+[Publication decision and checks](../audits/publication-decisions-d5bq/README.md)
 
 [Technical reference and tracked allocation check](../reference/power.md) ·
 [Glossary](../reference/glossary.md#availability-and-production) ·

@@ -38,7 +38,7 @@
         "D5BF-CORE",
         "S-P1-THREE-LOADS"
       ],
-      "kind": "Proposed history-only; any current claim requires separate approval",
+      "kind": "D5BQ selected attributed historical visual evidence",
       "gap": "S-P1-THREE-LOADS — LOCAL-ONLY original basis or capture absent; tracked report preserves historical context",
       "choices": [
         "Preserve the report and keep the event out of the independent-witness claim. Only reconsider if exact attributable historical observations for all three trials can be recovered, cleared and tied to the same baseline; a new experiment would answer a new question.",
@@ -202,7 +202,7 @@
       "edges": [
         "S-C23-VM-NETWORK"
       ],
-      "kind": "Proposed history-only; any current claim requires separate approval",
+      "kind": "D5BQ selected attributed historical private comparator and script context",
       "gap": "S-C23-VM-NETWORK — LOCAL-ONLY original basis or capture absent; tracked report preserves historical context",
       "choices": [
         "Keep original comparisons as historical context. If exact comparator agreement is selected, recover and clear the precise independently produced network table and test its joins. Any measured timing question requires a separately authorized experiment.",
@@ -604,7 +604,7 @@
       "edges": [
         "P-D1-INCIDENT"
       ],
-      "kind": "Proposed history-only; any current claim requires separate approval",
+      "kind": "D5BQ selected the source-reported historical incident and bounded original review",
       "gap": "P-D1-INCIDENT — Tracked source-reported account and independent offline PARTIALLY DISCRIMINATED review; no independently time-labelled incident operands identified.",
       "choices": [
         "Retain the historical report, hypotheses and counterexamples. Cite only the scoped offline discrimination.",
@@ -636,10 +636,10 @@
         "D5BF-CORE",
         "P-D1-SAMPLES"
       ],
-      "kind": "Maintainer chooses evidence tier or separate work",
+      "kind": "D5BQ selected the attributed bounded saved-state tier; stronger replay remains held",
       "gap": "P-D1-SAMPLES — Tracked accepted report/derived saved operands. Selected exact originals include a useful positive contrast, but most primary historical comparison bytes remain LOCAL-ONLY.",
       "choices": [
-        "Agree attributed bounded saved-state scope, or separately clear a minimal operand or original route covering exact earlier/later joins and header qualification. Do not require impossible incident replay to retain the separate static contract.",
+        "Retain the attributed report and scoped saved-state negative. No additional historical saved-state asset is selected.",
         "Cannot repeat exact mature pair/negative comparisons from Save52 alone. The rejected earlier file cannot be promoted to an absence control. A small cleared saved-state derivative could support bounded sample checks only."
       ],
       "acceptance": [
@@ -673,7 +673,7 @@
       "edges": [
         "P-CALLBACK-UPSTREAM"
       ],
-      "kind": "Proposed history-only; any current claim requires separate approval",
+      "kind": "D5BQ selected the attributed larger Kreet preview experiment",
       "gap": "P-CALLBACK-UPSTREAM — Tracked report and source ledger; raw historical WAL/chronology LOCAL-ONLY. D5BE read the archived source under prior authority.",
       "choices": [
         "Attribute the upstream counts to the original report. Use the candidate only for the complete callback subset.",

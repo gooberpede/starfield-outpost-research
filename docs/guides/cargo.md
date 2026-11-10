@@ -44,11 +44,23 @@ pad can pass without checking those five units again at that poll. Fuel
 consumption follows native producer work independently of the ship's departure
 and return stages. [Recipe and charge chain](../experiments/cargo-links/fuel/native.md).
 
+Constellation's Guide has a candidate **0.95 interval multiplier**. If it
+applies to an eligible periodic fuel-production cycle, the interval becomes
+**102.6 engine scheduler seconds**. This can increase He-3 consumption per
+elapsed scheduler time. Actual delivery throughput and transit time are
+separate measurements. The historical saved interval is compatible with
+the multiplier, with its actual source and rank unresolved. The study
+demonstrated no delivery-rate or transit-time effect of the magazine.
+[Modifier candidates](../experiments/cargo-links/fuel/native.md) ·
+[Saved interval](../experiments/cargo-links/fuel/saves.md)
+
 The ordinary shipped stage defaults are 30 seconds before loading, 15 before
 departure and 30 before fuel retry, converted to **game-time deadlines**.
-Dispatch depends on VM service, and the native movement leg has a separate
-completion path. Explicit wait/sleep can advance production while freight
-timer delivery is suppressed. A due callback after the wait can arm a new
+Dispatch depends on service by the **Papyrus virtual machine (VM)**. Queueing
+a due timer and running its script handler are separate steps. The native
+movement leg has a separate path to completion. Explicit wait/sleep can
+advance the producer's elapsed clock while freight timer delivery is
+suppressed. A due callback after the wait can arm a new
 stage from the current clock. Calendar passage alone cannot count completed
 voyages. The native detached and full flight paths have different timing
 inputs even though both ordinary ship bases use the same package pair.
@@ -65,3 +77,12 @@ player, with no stock route back to the old outgoing bay in that recovery.
 Saved bays, hold contents and selected target can establish those fields at
 one epoch. They cannot establish prior receipts or current VM/AI progress.
 [Lifecycle and save restoration](../experiments/cargo-links/transport/lifecycle.md) · [Original transport review](../experiments/cargo-links/transport/review.md).
+
+The original mature Save52 comparison reported agreement with a private
+manually maintained network. That comparison and the historical Papyrus
+context are attributed research history. They supply no replayable voyage
+or measured flight clock. The selected Save52 original-byte checks cover
+saved relationships and inventories and still require the exact CORE
+member and qualified offline reader.
+[Mature network comparison](../experiments/mature-save-outpost-validation.md) ·
+[Publication decision and checks](../audits/publication-decisions-d5bq/README.md)
