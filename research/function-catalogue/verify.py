@@ -1,4 +1,4 @@
-"""Generate or check D5BD documents from repository text and curated joins."""
+"""Verify the frozen D5BD catalogue or generate a separate technical edition."""
 
 import argparse
 import csv
@@ -9,7 +9,8 @@ from collections import Counter, defaultdict
 from pathlib import PurePosixPath
 from urllib.parse import unquote
 
-from inventory import BASE, BUILD, MODULE, ROOT, SHA, THEMES, address, inventory, rva, sidecar, text
+from editions import HISTORICAL, SourceSet, digest, drift, historical_outputs, read_manifest, write_receipt
+from inventory import BASE, BUILD, MODULE, ROOT, SHA, THEMES, inventory, rva
 
 DOC = "docs/functions"
 AUDIT = "docs/audits/native-function-catalogue-d5bd"
@@ -269,14 +270,14 @@ def collisions(aliases, canonical_by_rva):
     return rows
 
 
-def reference_walk(catalogue):
+def reference_walk(catalogue, sources):
     path = f"{AUDIT}/crosswalk.md"
     address_re = re.compile(r"(?<![0-9a-f])(?:0x)?(14[0-3][0-9a-f]{6})(?![0-9a-f])", re.I)
     lines = ["# Subsystem crosswalk", "", "This pass runs after entry normalization. An exact address overlap is a navigation join.",
              "The files also contain globals, call sites and other coordinates. Unmatched tokens stay in the separate crosswalk CSV for review.", "",
              "| Pair | Subject | Entry overlaps | Catalogue evidence | Review note |", "| --- | --- | --- | --- | --- |"]
     va_map = {row["va"]: row for row in catalogue}
-    observations = sidecar("crosswalk.json", {})
+    observations = sources.sidecar("crosswalk.json")
     interior = {
         "0x14079be20": ("0x14079c470", "Ordinary generation call site, linked to its callee"),
         "0x1407a1a3c": ("0x14079f860", "Density call site, linked to the provider"),
@@ -288,7 +289,7 @@ def reference_walk(catalogue):
         guide = f"docs/guides/{name}.md"
         unique = set()
         for source in (reference, guide):
-            for line, prose in enumerate(text(source).splitlines(), 1):
+            for line, prose in enumerate(sources.text(source).splitlines(), 1):
                 for token in sorted({match[1].lower() for match in address_re.finditer(prose)}):
                     va = "0x" + token
                     row = va_map.get(va)
@@ -320,8 +321,8 @@ def reports(items, scanned, catalogue):
     return [dict(path=path, source_class=kind, rows_or_lines=size, **by_path[path]) for path, (kind, size) in sorted(scanned.items())]
 
 
-def outputs():
-    items, scanned, characterization = inventory()
+def outputs(sources):
+    items, scanned, characterization = inventory(sources)
     rows, detail = canonical(items, characterization)
     if not rows:
         raise ValueError("Empty catalogue")
@@ -364,7 +365,7 @@ def outputs():
     power_exception = {a["va"] for a in alias if a["alias"] == "o012" and a["path"] == "docs/experiments/power/followup.md" and a["entry_rva"]}
     if power_exception != {"0x14065be30", "0x1405ccd00", "0x140f7f6f0"}:
         raise ValueError("Missing source-qualified o012 exception associations")
-    crosswalk, hits = reference_walk(rows)
+    crosswalk, hits = reference_walk(rows, sources)
     if any(hit["result"] == "Unclassified token" for hit in hits):
         raise ValueError("The reference crosswalk still has an unclassified address token")
     result = {
@@ -387,30 +388,26 @@ def outputs():
     return result, Counter(row["level"] for row in rows), Counter(item["status"] for item in evidence)
 
 
-def check_links(generated):
+def check_links(generated, sources):
     documents = {path: value for path, value in generated.items() if path.endswith(".md")}
     for path in (f"{DOC}/README.md", f"{AUDIT}/README.md", f"{AUDIT}/closure.md"):
-        documents[path] = text(path)
+        documents[path] = sources.text(path)
     for path in ("README.md", "CREDITS.md", "docs/SOURCES.md", "docs/reference/README.md"):
-        documents[path] = "\n".join(line for line in text(path).splitlines() if re.search(r"\]\([^\n]*(?:functions/README\.md|native-function-catalogue-d5bd/README\.md)\)", line))
-    linked_paths = {}
+        documents[path] = "\n".join(line for line in sources.text(path).splitlines() if re.search(r"\]\([^\n]*(?:functions/README\.md|native-function-catalogue-d5bd/README\.md)\)", line))
+    linked_paths = set()
     for origin, content in documents.items():
         for match in re.finditer(r"(?<!!)\[[^\]\n]+\]\(([^()\s]+)\)", content):
             target, _, fragment = unquote(match[1]).partition("#")
             if "://" in target:
                 continue
             path = posixpath.normpath(posixpath.join(posixpath.dirname(origin), target)) if target else origin
-            if path not in linked_paths:
-                current = ROOT
-                for part in PurePosixPath(path).parts:
-                    if part not in {child.name for child in current.iterdir()} and path not in generated:
-                        raise ValueError(f"Missing or incorrectly cased path {path} from {origin}")
-                    current /= part
-                linked_paths[path] = current
+            if path not in generated:
+                sources.text(path)
+            linked_paths.add(path)
             if fragment:
                 target_text = documents.get(path)
                 if target_text is None:
-                    target_text = text(path)
+                    target_text = sources.text(path)
                 headings = re.findall(r"^#{1,6} (.+)$", target_text, re.M)
                 anchors = {re.sub(r"[^\w\- ]", "", h.lower()).replace(" ", "-") for h in headings}
                 if fragment not in anchors:
@@ -418,23 +415,52 @@ def check_links(generated):
     return len(linked_paths)
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--write", action="store_true", help="rewrite generated catalogue and audit tables")
-    args = parser.parse_args()
-    baseline = text(BASELINE)
+def generate(repo, manifest):
+    sources = SourceSet(repo, manifest)
+    baseline = sources.text(BASELINE)
     for pin in (MODULE, BUILD, SHA, f"0x{BASE:x}"):
         if pin not in baseline:
             raise ValueError(f"Missing baseline pin {pin}")
-    generated, levels, counts = outputs()
-    targets = check_links(generated)
-    for name, content in generated.items():
-        path = ROOT / name
+    generated, levels, counts = outputs(sources)
+    targets = check_links(generated, sources)
+    sources.check_used()
+    data = {path: content.encode("utf-8") for path, content in generated.items()}
+    expected = manifest["outputs"]
+    if data.keys() != expected.keys():
+        raise ValueError("Manifest output path set differs from the generator")
+    for path, content in data.items():
+        if digest(content) != expected[path]:
+            raise ValueError(f"Generated output digest mismatch: {path}")
+    if manifest["edition"] == HISTORICAL:
+        if data != historical_outputs(repo, data):
+            raise ValueError("Historical output differs from the accepted Git blobs")
+        if levels != {"A": 18, "B": 366, "C": 1711}:
+            raise ValueError("Historical catalogue depth distribution changed")
+    return data, levels, counts, targets
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--edition", default=HISTORICAL, help="versioned manifest name")
+    parser.add_argument("--write", action="store_true", help="write a fresh technical-edition receipt")
+    parser.add_argument("--drift", action="store_true", help="report unselected working-tree sources as CSV")
+    args = parser.parse_args()
+    if args.write and (args.edition == HISTORICAL or args.drift):
+        parser.error("--write requires an explicit technical edition and cannot be combined with --drift")
+    try:
+        manifest = read_manifest(ROOT, args.edition)
+        if args.drift:
+            print(csv_text(("path", "sha256", "reason"), drift(ROOT, manifest)), end="")
+            return
+        generated, levels, counts, targets = generate(ROOT, manifest)
         if args.write:
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_bytes(content.encode("utf-8"))
-        elif not path.is_file() or path.read_bytes() != content.encode("utf-8"):
-            raise SystemExit(f"Stale or missing generated file: {name}")
+            receipt = write_receipt(ROOT, manifest, generated)
+            print(f"Technical edition receipt: {receipt}")
+    except (ValueError, OSError, RuntimeError) as error:
+        parser.exit(1, f"{error}\n")
+    print(f"{manifest['edition']} from {manifest['revision']} ({manifest['tree']})")
+    for path, content in sorted(generated.items()):
+        print(f"{digest(content)}  {path}")
     print(f"{sum(levels.values())} canonical entries {dict(sorted(levels.items()))}")
     print(f"Source accounting {dict(sorted(counts.items()))}")
     print(f"{len(generated)} deterministic files and {targets} distinct local link targets")

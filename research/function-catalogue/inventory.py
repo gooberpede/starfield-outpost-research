@@ -1,13 +1,12 @@
 """Read tracked-form research metadata. Never open the raw exports it names."""
 
 import csv
-import json
+import io
 import re
 from collections import Counter, defaultdict
 from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[2]
-HERE = Path(__file__).resolve().parent
 BASE = 0x140000000
 MODULE = "Starfield.exe"
 BUILD = "1.16.244.0"
@@ -51,6 +50,8 @@ ALIAS_LEDGER_PATTERNS = {
     "docs/experiments/resource-geometry/sources.csv": ((r"\.local-work/resource-geometry/native/(\d{3})\.request\.tsv", "G"),),
 }
 ARCHIVES = {"docs/experiments/evidence", "docs/experiments/templates"}
+SCAN_ROOTS = ("docs/experiments/", "docs/subsystems/", "runtime/", "docs/audits/", "save-analysis/", "research/")
+SCAN_EXCLUSIONS = ("docs/audits/native-function-catalogue-d5bd/", "research/function-catalogue/")
 VA_COLUMNS = {"va", "static_va", "function_static_va", "static_va_hex", "function_va", "entry_va", "entry_rva", "function", "va_start", "rva_start"}
 
 THEMES = {
@@ -72,30 +73,13 @@ def rva(number):
     return f"0x{number - BASE:08x}"
 
 
-def text(path):
-    return (ROOT / path).read_text(encoding="utf-8-sig")
-
-
-def sidecar(name, default):
-    path = HERE / name
-    return json.loads(path.read_text(encoding="utf-8-sig")) if path.is_file() else default
-
-
-def source_paths():
-    yield LEGACY
-    yield "docs/state-register.md"
-    yield LOOKUPS
-    for directory in ("docs/experiments", "docs/subsystems", "runtime", "docs/audits", "save-analysis", "research"):
-        for path in sorted((ROOT / directory).rglob("*")):
-            name = path.relative_to(ROOT).as_posix()
-            if path.suffix not in {".md", ".csv"} or not path.is_file():
-                continue
-            if name == LOOKUPS or any(name.startswith(f"{prefix}/") for prefix in ARCHIVES):
-                continue
-            if name.startswith(("docs/audits/native-function-catalogue-d5bd/", "research/function-catalogue/")):
-                continue
-            if "third_party" not in path.parts:
-                yield name
+def scan_candidate(path):
+    """Identify paths eligible for the original broad scan."""
+    return path in {LEGACY, "docs/state-register.md", LOOKUPS} or (
+        path.startswith(SCAN_ROOTS) and path.endswith((".md", ".csv"))
+        and not path.startswith(SCAN_EXCLUSIONS + tuple(f"{prefix}/" for prefix in ARCHIVES))
+        and "third_party" not in path.split("/")
+    )
 
 
 def theme(path, key=""):
@@ -143,8 +127,8 @@ def provenance(path, line, end, number, domain, status, reason, **extra):
     }
 
 
-def csv_inventory(path):
-    with (ROOT / path).open(encoding="utf-8-sig", newline="") as source:
+def csv_inventory(sources, path):
+    with io.StringIO(sources.text(path), newline="") as source:
         reader = csv.DictReader(source)
         reader.fieldnames = [name.lower() for name in reader.fieldnames or ()]
         previous = reader.line_num
@@ -228,10 +212,10 @@ def structured(path, line, end, row, identified, verified_boundary=None):
     return provenance(path, line, end, number, "window-or-site", "unresolved", "Manifest coordinate alone does not establish an entry", **fields)
 
 
-def manual_records():
+def manual_records(sources):
     inputs = ("narrative.json", "legacy.json", "reconciled.json", "remaining-narrative.json", "closure-narrative.json")
-    records = [row for name in inputs for row in sidecar(name, [])]
-    characterization = sidecar("characterization.json", {})
+    records = [row for name in inputs for row in sources.sidecar(name)]
+    characterization = sources.sidecar("characterization.json")
     for va, entry in characterization.items():
         for source in entry["sources"]:
             records.append({**source, "va": va, "label": entry["label"], "detail": entry["purpose"]})
@@ -241,7 +225,7 @@ def manual_records():
         path, line = record["path"], record["line"]
         number = direct_address(record["va"])
         end = record.get("end_line", line)
-        if not number or not 0 < line <= end <= len(text(path).splitlines()):
+        if not number or not 0 < line <= end <= len(sources.text(path).splitlines()):
             raise ValueError(f"Invalid curated evidence in {record}")
         if path.startswith(("docs/reference/", "docs/guides/")):
             raise ValueError(f"Reference used as original entry evidence in {record}")
@@ -275,9 +259,9 @@ def declared_export_aliases(path, source_path):
             yield prefix + stem[1]
 
 
-def local_export_aliases(identified):
-    ledger_rows = {path: {start: row for start, _, row in csv_inventory(path)} for path in ALIAS_LEDGER_PATTERNS}
-    with (HERE / "export-aliases.csv").open(encoding="utf-8", newline="") as source:
+def local_export_aliases(sources, identified):
+    ledger_rows = {path: {start: row for start, _, row in csv_inventory(sources, path)} for path in ALIAS_LEDGER_PATTERNS}
+    with sources.sidecar_csv("export-aliases.csv") as source:
         seen = set()
         for row in csv.DictReader(source):
             path, line = row["path"], int(row["line"])
@@ -295,18 +279,17 @@ def local_export_aliases(identified):
                              alias=row["alias"], alias_kind="export shorthand", label="")
 
 
-def inventory():
-    curated, characterization = manual_records()
+def inventory(sources):
+    curated, characterization = manual_records(sources)
     original = {}
-    paths = sorted(set(source_paths()))
     scanned = {}
     roster_by_folder = defaultdict(set)
     identified = {number for (_, _, number), row in curated.items() if row["status"] == "included"}
-    with (HERE / "d5ad-boundaries.csv").open(encoding="utf-8", newline="") as source:
+    with sources.sidecar_csv("d5ad-boundaries.csv") as source:
         boundary_rows = {(D5AD_LEDGER, int(row["line"])): row for row in csv.DictReader(source)}
-    with (HERE / "scheduler-boundaries.csv").open(encoding="utf-8", newline="") as source:
+    with sources.sidecar_csv("scheduler-boundaries.csv") as source:
         boundary_rows.update({(row["path"], int(row["line"])): row for row in csv.DictReader(source)})
-    with (HERE / "residual-boundaries.csv").open(encoding="utf-8", newline="") as source:
+    with sources.sidecar_csv("residual-boundaries.csv") as source:
         for row in csv.DictReader(source):
             key = (row["path"], int(row["line"]))
             if key in boundary_rows:
@@ -319,12 +302,12 @@ def inventory():
                 raise ValueError(f"Unexpected boundary classification at {key}")
             boundary_rows[key] = row
     checked_boundaries = set()
-    for path in paths:
+    for path in sources.scan_paths:
         if path.endswith(".md"):
-            original[path] = text(path).splitlines()
+            original[path] = sources.text(path).splitlines()
             scanned[path] = ("narrative", len(original[path]))
             continue
-        rows = list(csv_inventory(path))
+        rows = list(csv_inventory(sources, path))
         fields = set(rows[0][2]) if rows else set()
         name = PurePosixPath(path).name
         if not fields.intersection(VA_COLUMNS) and name not in {"native-exports.csv", "native-sources.csv", "region-sources.csv"}:
@@ -396,7 +379,7 @@ def inventory():
             continue
         for line, prose in enumerate(contents, 1):
             found = sorted({int(match[1], 16) for match in ADDRESS.finditer(prose)})
-            aliases = sorted(set(ALIAS.findall(prose)), key=str.casefold)
+            aliases = sorted(set(ALIAS.findall(prose)), key=lambda alias: (alias.casefold(), alias))
             remaining = [address(va) for va in found if (path, line, va) not in curated and (path, line, va) not in corroborated]
             if remaining or aliases:
                 unjoined = [va for va in remaining if int(va, 16) not in identified]
@@ -410,5 +393,5 @@ def inventory():
                     path, line, line, None, "mixed-text", "candidate", reason,
                     candidates=" ".join(remaining), mentions=" ".join(aliases),
                 ))
-    items.extend(local_export_aliases(identified))
+    items.extend(local_export_aliases(sources, identified))
     return items, scanned, characterization
