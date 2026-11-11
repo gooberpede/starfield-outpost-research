@@ -1,5 +1,12 @@
 # Current Research State
 
+**2026-11-11 — D5BV selected evidence and current resource scope.**
+The [current evidence audit](audits/evidence-closure-d5bv/README.md) joins the
+accepted local checks to the inherited first-release claim graph and records
+the item 7 handoff. The [prospective scope decision](DECISIONS.md#d5bv-practical-resource-generation-predictability--2026-11-11)
+sets the current objective for construction predictability and preserves the
+historical D5AG verdicts. Publication remains NOT READY / NOT CLEARED.
+
 **2026-11-10 — Historical evidence tiers and later deposit research (D5BQ).**
 The [first-release decision](audits/publication-decisions-d5bq/README.md)
 separates the ordinary power, cargo and local output-link mechanisms from

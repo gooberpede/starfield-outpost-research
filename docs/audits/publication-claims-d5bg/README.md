@@ -3,6 +3,10 @@
 **PROPOSED · NOT READY / NOT CLEARED**  
 2026-11-08, Australia/Sydney.
 
+**Current evidence status.** Use the [D5BV overlay](../evidence-closure-d5bv/README.md)
+for accepted selected local verification and remaining release work. The
+tables and dispositions below record the inherited D5BG proposal.
+
 | Controlling question | Proposed answer |
 | --- | --- |
 | Q1 · What may the first release claim? | Use the [claim matrix](claims.json) for the exact propositions and reader wording. Retain the original reports, reviews and negative cases as the research record. |

@@ -1,5 +1,48 @@
 # Decision Register
 
+## D5BV practical resource-generation predictability — 2026-11-11
+
+Where more than one resource geometry is eligible for a given source,
+the resulting geometry can depend on transient engine execution state
+and the ordering of competing construction requests. We have identified
+no practically obtainable advance input set that reliably selects the
+winning geometry. Static planetary data, coordinates and resource
+definitions alone do not determine the outcome of a future construction
+episode.
+
+D5AS observed two complete represented geometries among 30 qualified
+fresh-process observations at one Feynman V source. Geometry-reference
+matches leave the generating masks and winning requests unobserved.
+D5AQ and D5AG establish fixed-stage native differences with exact supplied
+inputs. B2 shows a later request overtaking an earlier unvisited query
+at the decisive lookup, with the complete lost timing still unknown.
+The operational conclusion leaves the full eligible-mask space, winner
+frequencies and the cause of the reported D1 incident unresolved.
+[D5AS series](experiments/resource-retained-population/d5as-series-closeout.md) ·
+[D5AQ report](experiments/resource-retained-population/d5aq-report.md) ·
+[B2 witness](audits/public-evidence-d5bo/b2-sufficiency.md) ·
+[D1 synthesis](experiments/disappearing-deposits/subsequent-research.md)
+
+Exhaustive terrain-scheduling chronology and the full controlled
+terrain/source lifecycle across return and reconstruction are outside
+the current project and first-release objectives. They may be pursued as
+broader terrain-generation research. D5AU's individual gap decisions and
+original checklist ticks remain the record for those questions. D5AG Q1
+and Q4 remain complete within scope. Its Q2/Q3 and parent CQ remain
+BLOCKED, with original ESCALATE, AC01 FAIL and the empirical portions of
+AC03/AC04 NOT TESTED. The fixed-native-stage reader remains conditional
+and the stronger D5AQ Option C and D5BJ/D5BM retain their existing
+unfinished or deferred dispositions.
+[Original D5AG report](experiments/resource-retained-population/d5ag-report.md) ·
+[Original D5AG review](experiments/resource-retained-population/d5ag-review.md) ·
+[D5AU decisions](experiments/resource-retained-population/d5au-gap-closure-decisions.md) ·
+[D5BN deferral](audits/d5bm-deferred-d5bn/README.md)
+
+The Exotic multiplier default-versus-installed-GMST reachability question
+remains open and nonblocking. The executable's 0.01 default has no
+established ordinary effective use. The maintainer approved this prospective
+scope under [D5BV](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BV_First_Release_Evidence_Verification_Closure_and_Publication_Handoff.md).
+
 ## Power, cargo and historical evidence tiers (D5BQ) — 2026-11-10
 
 The [maintainer brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5BQ_Power_Cargo_D1_Historical_Publication_Reconciliation.md)
