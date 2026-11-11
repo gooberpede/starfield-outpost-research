@@ -1,7 +1,7 @@
 # RG2-C2A: Carinae native Iron-region qualification
 
 2026-10-23, Australia/Sydney. **PHASE B NOT EXECUTED — MAINTAINER APPROVAL REQUIRED.**
-[Frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2A_carinae_native_iron_region_qualification.md),
+[Frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2A_carinae_native_iron_region_qualification.md`),
 [verification](verification.md), [case and native contract](contract.md),
 [prospective session](run-card.md), [comparison](comparison.md), [review](review.md).
 Authored work is REVIEW-REQUIRED; raw inputs and receipts remain LOCAL-ONLY.

@@ -52,13 +52,27 @@ unestablished.
 | `sor-d5bx-cargo-c3-v1.json` | 1 | 3,598,255 | `557f6148a357cc0a354336637a939ae1c3736a63f7a5f7cea27c189cd5095920` | PENDING RELEASE |
 
 CORE and ADDENDUM use the [historical member aliases](../history/save-identifiers.md).
-The pinned machine ledger at `docs/audits/release-assets-d5bf/release-assets.json`
+The pinned machine ledger at `research/evidence-data/release-assets-d5bf/release-assets.json`
 provides exact member identities and is an active reader operand. The
-`docs/audits/evidence-access-d5bx/assets.json` machine ledger pins both
+`research/evidence-data/evidence-access-d5bx/assets.json` machine ledger pins both
 supplements. The release inventory requires member validation as well as the
 whole-file digests above. Rights and privacy review, authorized custody and
 transfer, exact candidate freeze, isolated B6, hosting checks and distribution
 authorization remain separate.
+
+## Verify D5BF containers and members
+
+The [D5BF ledger verifier](../../research/evidence-access/verify_release_assets.py)
+reads the relocated ledger and the four explicitly supplied files. Use each
+file's approved basename. The verifier reads and streams member bytes and
+reports comparisons to stdout.
+
+```text
+python -I -S -B research/evidence-access/verify_release_assets.py research/evidence-data/release-assets-d5bf/release-assets.json --asset B4-F1-CORE "<CORE-path>" --asset B4-F1-ADDENDUM "<ADDENDUM-path>" --asset D5AS "<D5AS-path>" --asset C19 "<C19-path>"
+```
+
+For the standalone scientific checks, follow the C19 callback and D5AS
+complete-body methods below.
 
 ## Selected original witnesses
 
@@ -206,3 +220,10 @@ expects six passing tests of the bounded record grammar. It constructs its
 operands in memory, reads no original save and reports unittest results.
 Framing success leaves payload meanings and live ownership to the original
 scientific evidence.
+
+## Current source and historical methods
+
+The [D5BZ source crosswalk](../../research/evidence-data/README.md) identifies
+the relocated machine operands and changed reader sources. Use those paths
+with this checkout. Historical receipts remain bound to their original
+source hashes and are available by exact revision or archive member.

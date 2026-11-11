@@ -40,7 +40,7 @@ validation. [Actual results/limits](../../docs/experiments/event-oracle/review.m
 
 ## Output-link L0–L2C validation
 
-The invoked [link-validation brief](../../docs/implementation-briefs/CODEX_RESEARCH_BRIEF_output_link_validation_L0-L2C.md) authorizes [validate_output_link.py](validate_output_link.py) and [probe_output_link_structure.py](probe_output_link_structure.py). [Results](../../docs/experiments/output-link-validation-L0-L2C.md). Installed CPython 3.14.3 standard library only; use its explicit installed executable if the Windows `python` alias is unavailable. No downloads or effects on game processes/static-analysis projects.
+The invoked [link-validation brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_output_link_validation_L0-L2C.md`) authorizes [validate_output_link.py](validate_output_link.py) and [probe_output_link_structure.py](probe_output_link_structure.py). [Results](../../docs/experiments/output-link-validation-L0-L2C.md). Installed CPython 3.14.3 standard library only; use its explicit installed executable if the Windows `python` alias is unavailable. No downloads or effects on game processes/static-analysis projects.
 
 `validate_output_link.py` without arguments reads the brief/prior manifests, records preregistered old candidates, exclusively copies six named originals and reuses S4C, verifies source/copy/source hashes/size/mtime, then writes decoded streams and bounded diff analysis. Existing archive/output roots cause refusal; do not rerun archive creation. `--run <fresh-name>` reads the existing exact manifest and parses only hash-verified local copies into a new analysis directory. It preserves absent old signatures as negative observations. Reads/writes are bounded to the named source saves and ignored `.local-work/output-link-L0-L2C/` / `.local-work/savegames/` paths. It imports the existing project decoder/diff/metadata/candidate constants without changing them.
 
@@ -59,7 +59,7 @@ Local `build_review_tables.py` reads only verified analytical outputs and writes
 
 ## Historical S0–S7C tooling
 
-The invoked [manual corpus brief](../../docs/implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md) authorizes these original, corpus-specific helpers. [Results and limits](../../docs/experiments/manual-save-corpus-S0-S7C.md). Installed CPython 3.14.3 standard library only (SOR-S-0113); no dependency download, vendoring, target execution or save editing.
+The invoked [manual corpus brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md`) authorizes these original, corpus-specific helpers. [Results and limits](../../docs/experiments/manual-save-corpus-S0-S7C.md). Installed CPython 3.14.3 standard library only (SOR-S-0113); no dependency download, vendoring, target execution or save editing.
 
 | Script | Reads | Writes / limits |
 |---|---|---|
@@ -83,7 +83,7 @@ The local `build_review_tables.py` in `.local-work/manual-S0-S7C/` selects only 
 
 ## Structural containment of existing archives
 
-[analyze_structural_containment.py](analyze_structural_containment.py), authorized by the [invoked brief](../../docs/implementation-briefs/CODEX_RESEARCH_BRIEF_outpost_save_structural_containment.md), reads the two existing manifests, prior analysis hashes and hash-verified archived .sfs copies. Originals are read only for integrity hashing/stat checks. Reuses original decoder/candidate definitions with CPython standard library; no downloads, general save editor or process/database effects.
+[analyze_structural_containment.py](analyze_structural_containment.py), authorized by the [invoked brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_outpost_save_structural_containment.md`), reads the two existing manifests, prior analysis hashes and hash-verified archived .sfs copies. Originals are read only for integrity hashing/stat checks. Reuses original decoder/candidate definitions with CPython standard library; no downloads, general save editor or process/database effects.
 
 Run from repository root with the recorded installed Python executable:
 
@@ -97,7 +97,7 @@ Writes CSV summaries and provenance/analysis JSON into an exclusively new ignore
 
 ## Mature-save bounded validation
 
-[validate_mature_outposts.py](validate_mature_outposts.py) is authorized by the [mature brief](../../docs/implementation-briefs/CODEX_RESEARCH_BRIEF_mature_save_outpost_validation.md). Reads the named existing mature archive, sole copied scratch JSON, S/L manifests and prior analysis identities, archived controlled saves, original project directory labels and preserved offbook decoder. Exploratory methods are conceptually reused with exact hashes under SOR-S-0124; no exploratory driver is executed. CPython standard library only, no installation or target/database effects. Reject missing/ambiguous essential identity, bounds/hash failures or C:/D: free space below 40,000,000,000 bytes. Maximum decoded file 64 MiB, one save at a time; no decoded blob is written.
+[validate_mature_outposts.py](validate_mature_outposts.py) is authorized by the [mature brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_mature_save_outpost_validation.md`). Reads the named existing mature archive, sole copied scratch JSON, S/L manifests and prior analysis identities, archived controlled saves, original project directory labels and preserved offbook decoder. Exploratory methods are conceptually reused with exact hashes under SOR-S-0124; no exploratory driver is executed. CPython standard library only, no installation or target/database effects. Reject missing/ambiguous essential identity, bounds/hash failures or C:/D: free space below 40,000,000,000 bytes. Maximum decoded file 64 MiB, one save at a time; no decoded blob is written.
 
 Run from repository root: `python -B save-analysis/scripts/validate_mature_outposts.py --run <fresh-name>`. Outputs exclusively new ignored `.local-work/mature-save-validation/<fresh-name>/`: input before/after identities, closed/hash-frozen save-extraction before JSON content access, separate comparison, all controlled envelope/grammar results, shifted negatives and tool provenance. Same-region successor framing and byte-bounded grammar are separate gates; grammar-only false accepts are reported. Candidate windows and tag/name interpretation are empirical, not a universal parser or complete records. Final run `run-07`; failures/earlier freezes retained.
 

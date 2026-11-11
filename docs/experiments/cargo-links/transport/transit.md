@@ -1,7 +1,7 @@
 # Native movement and round-trip timing
 
 2026-10-18. SOR-EXP-0045 / SOR-EV-0053, continuation under the
-[transit brief](../../../implementation-briefs/CODEX_BRIEF_SOR_C2_transit_time_continuation.md).
+[transit brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_C2_transit_time_continuation.md`).
 [Earlier answer](report.md), [dock clock](timing.md), [completion](lifecycle.md),
 [continuation review](transit-review.md). Earlier accepted coverage remains a
 historical result; this document adds the subsequent native investigation.

@@ -1,6 +1,6 @@
 # D5AF methods and checks
 
-2026-11-02. [Frozen contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AF_construction_winner_stabilization.md),
+2026-11-02. [Frozen contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AF_construction_winner_stabilization.md`),
 [report](d5af-report.md), [source pins](d5af-sources.csv).
 
 ## Execution boundary

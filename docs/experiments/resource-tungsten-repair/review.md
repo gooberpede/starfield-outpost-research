@@ -1,6 +1,6 @@
 # D4B independent review
 
-The frozen [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md), [contract](contract.md), [report](report.md), [native ledger](native.md), [hypotheses](hypotheses.md), [repair analysis](teardown.md), [executed qualification](qualification.md), [prospective card](run-card.md) and [editorial record](editorial.md) define the package. Exact reviewer verdict and snapshot hashes are retained locally with the delivery manifests. No implementer self-review is independent acceptance.
+The frozen [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md`), [contract](contract.md), [report](report.md), [native ledger](native.md), [hypotheses](hypotheses.md), [repair analysis](teardown.md), [executed qualification](qualification.md), [prospective card](run-card.md) and [editorial record](editorial.md) define the package. Exact reviewer verdict and snapshot hashes are retained locally with the delivery manifests. No implementer self-review is independent acceptance.
 
 | Criterion | Implementer disposition | Evidence / limit |
 |---|---|---|

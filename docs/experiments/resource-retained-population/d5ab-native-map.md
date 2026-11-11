@@ -5,7 +5,7 @@
 This checkpoint authorizes no further native analysis.
 
 2026-10-31, Australia/Sydney. Candidate schema `sor-d5x/3`, observer 0.3.0.
-The [original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md)
+The [original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`)
 and [active ledger](d5ab-investigation-ledger.md) govern qualification.
 All locations below are **RVAs** for image base `0x140000000` and executable
 SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`.

@@ -1,6 +1,6 @@
 # B1 completion review and delivery package
 
-2026-10-20, Australia/Sydney. [Original invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_B1_outpost_biome_assignment_nominal_territory.md),
+2026-10-20, Australia/Sydney. [Original invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_B1_outpost_biome_assignment_nominal_territory.md`),
 [frozen plan](plan.md), [answer](report.md), [methods/failures](evidence.md).
 AC1–AC8 are unchanged. Authored research REVIEW-REQUIRED; primary evidence
 LOCAL-ONLY. Maintainer critical diff review precedes integration.

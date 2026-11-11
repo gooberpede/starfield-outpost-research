@@ -1,7 +1,7 @@
 # E1 production arithmetic, clocks and displayed rates
 
 2026-10-16. SOR-EXP-0038 / SOR-EV-0046 continuation under the
-[brief](../../implementation-briefs/CODEX_BRIEF_SOR_E1_arithmetic_clock_scheduler_ui_provenance.md)
+[brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E1_arithmetic_clock_scheduler_ui_provenance.md`)
 and [frozen contract](arithmetic-contract.md).
 
 **Ordinary production has a definition-derived interval, a separate quantity

@@ -2,7 +2,7 @@
 
 2026-11-04, Australia/Sydney. Current future-use readiness: REWORK_REQUIRED.
 The following preparation chronology records work under the explicit
-[N1 authorization](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N1_live_2026-11-04.md).
+[N1 authorization](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N1_live_2026-11-04.md`).
 Launch required actual qualification, independent binding/freeze review and
 fresh protected preflight. Those gates passed; the actual attempt failed as
 recorded below and in the [report](d5am-n1-report.md).

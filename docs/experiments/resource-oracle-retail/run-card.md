@@ -1,6 +1,6 @@
 # C1D bounded retail pilot card
 
-2026-10-22 Australia/Sydney. Authority: [invoked C1D brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md).
+2026-10-22 Australia/Sydney. Authority: [invoked C1D brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md`).
 This prospective card does not assert launch or acquisition. Actual receipts and
 outcome belong in [report](report.md). Raw data is LOCAL-ONLY.
 

@@ -1,7 +1,7 @@
 # D5A frozen selection contract
 
 2026-10-25, Australia/Sydney. The maintainer explicitly invoked the
-[D5A brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md).
+[D5A brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md`).
 Its AC1–AC8 and T1–T5 are frozen without amendment. This is offline research and
 experiment design, with independent review, not observer implementation or live
 authority. Read-only inputs are the existing saved/installed/native projections,

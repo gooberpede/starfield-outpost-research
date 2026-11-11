@@ -1,7 +1,7 @@
 # SOR-EXP-0019 — Activated overlays and planetary grid geometry
 
 2026-10-10, Australia/Sydney. Authorized by the user invoking the retained
-[brief](../implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_and_planetary_grid_geometry.md).
+[brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_and_planetary_grid_geometry.md`).
 SOR-EV-0027. **Strong partial, REVIEW-REQUIRED.** The supported durable location is
 the resolved body, saved discrete site anchor, qualified local frame and compensated
 workshop XYZ. Exact continuous center longitude/latitude remains unestablished.

@@ -1,7 +1,7 @@
 # Ship relocation observer 0.5.0 — offline qualification
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
-[Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md),
+[Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md`),
 [frozen contract](contract.md), [native design](design.md),
 [prospective integrated card](run-card.md), [review package](review.md).
 Authored material REVIEW-REQUIRED; binaries/raw/private/native exports LOCAL-ONLY.

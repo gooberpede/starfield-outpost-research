@@ -1,10 +1,10 @@
 # Outpost biome assignment and nominal territory
 
 2026-10-20, Australia/Sydney. SOR-EXP-0059 / SOR-EV-0067.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_B1_outpost_biome_assignment_nominal_territory.md), [frozen plan](plan.md), [review](review.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_B1_outpost_biome_assignment_nominal_territory.md`), [frozen plan](plan.md), [review](review.md).
 Authored findings REVIEW-REQUIRED; original saves, maps and native exports LOCAL-ONLY.
 
-Reader context added 2026-10-21: [historical examples and access limits](../../audits/publication-readiness-b2/evidence-dependencies.md)
+Reader context added 2026-10-21: [historical examples and access limits](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b2/evidence-dependencies.md`)
 distinguishes the two named Feynman V sites and Carinae III-a, the Save52 alias
 and the unestablished Carinae III-c label. This adds context, not new site evidence.
 

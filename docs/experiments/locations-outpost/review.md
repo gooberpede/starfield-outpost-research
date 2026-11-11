@@ -1,7 +1,7 @@
 # LO1 frozen criteria, validation and review package
 
 2026-10-20. SOR-EXP-0062 / SOR-EV-0070.
-[Original invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_LO1_locations_outpost_field_lineage.md),
+[Original invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_LO1_locations_outpost_field_lineage.md`),
 SHA256 `2691dd9d50b7787140f2d46ce4a14c2310ce0a104abba98498402cd2ace80fa8`.
 [Answer](report.md), [inventory](field-lineage.md), [primary locators](native-and-ui.md),
 [methods/failures](methods.md), [source pins](sources.csv), [reuse ledger](reuse-and-gaps.md).

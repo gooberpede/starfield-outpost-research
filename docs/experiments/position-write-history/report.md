@@ -2,7 +2,7 @@
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
 Authored research/source REVIEW-REQUIRED; raw native/save/capture/build artifacts
-LOCAL-ONLY. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md),
+LOCAL-ONLY. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md`),
 [contract](contract.md), [review](review.md), [prospective card](run-card.md).
 
 | Element | Result |

@@ -2,7 +2,7 @@
 
 ## Frozen contract — 2026-10-30, Australia/Sydney
 
-The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5U_comparative_resource_source_variability_predictive_rules.md)
+The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5U_comparative_resource_source_variability_predictive_rules.md`)
 freezes D5U-AC1–AC11 without amendment. This is offline comparative research,
 native qualification and reproducible visualization, with independent review.
 

@@ -1,6 +1,6 @@
 # SOR-EV-0006 — S0/S1/S2 controls and crash evidence
 
-2026-10-07 Australia/Sydney; SOR-EXP-0002A, SOR-D-0019. Authored index REVIEW-REQUIRED; all raw saves, dumps and debugger logs LOCAL-ONLY and ignored. [Audit](../../../audits/exp0002a-adapter-0.1.3.md), [S0](../../EXP0002A-S0-control.md), [S2 selection review](../../EXP0002A-S2-thread-review.md).
+2026-10-07 Australia/Sydney; SOR-EXP-0002A, SOR-D-0019. Authored index REVIEW-REQUIRED; all raw saves, dumps and debugger logs LOCAL-ONLY and ignored. [Audit](../../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-adapter-0.1.3.md`), [S0](../../EXP0002A-S0-control.md), [S2 selection review](../../EXP0002A-S2-thread-review.md).
 
 | Control | Project result | Decisive evidence and limits |
 |---|---|---|

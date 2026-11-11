@@ -50,7 +50,7 @@ Modified files:
 
 Pre-existing user-supplied untracked file, preserved without edits and included separately in the review inventory:
 
-- `docs/implementation-briefs/CODEX_RESEARCH_BRIEF_active_outpost_identification.md`
+- `implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_active_outpost_identification.md`
 
 All remaining new research files are ignored under `.local-work/`. No unrelated tracked changes existed at task start. Repository/Markdown/CSV/syntax checks and a complete tracked-plus-untracked review patch are retained in `.local-work/active-outpost/review-checks.json`, `review.patch` and `final-status.txt`. These artifacts are local and are not publication approval.
 

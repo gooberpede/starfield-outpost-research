@@ -54,7 +54,7 @@ Modified task files:
 - `docs/implementation-briefs/README.md`
 - `save-analysis/scripts/README.md`
 
-Pre-existing untracked input, unchanged: `docs/implementation-briefs/CODEX_RESEARCH_BRIEF_launch_era_third_party_save_corpus.md`. Frozen historical inventory and existing evidence/scripts were not edited. Local scratch artifacts are not proposed for tracking.
+Pre-existing untracked input, unchanged: `implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_launch_era_third_party_save_corpus.md`. Frozen historical inventory and existing evidence/scripts were not edited. Local scratch artifacts are not proposed for tracking.
 
 Final `git status --short` (also retained verbatim in validation receipt):
 

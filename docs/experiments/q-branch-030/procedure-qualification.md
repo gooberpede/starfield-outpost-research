@@ -1,6 +1,6 @@
 # Q030 procedure qualification and completion contract
 
-2026-10-12. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_Q_branch_030_live_acquisition_procedure.md).
+2026-10-12. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_Q_branch_030_live_acquisition_procedure.md`).
 **COMPLETE — PROCEDURE READY FOR REVIEW. Independent disposition: ACCEPT.**
 Scope is offline procedure/tool
 qualification; no deployment, game launch/open, live capture, save/config changes,

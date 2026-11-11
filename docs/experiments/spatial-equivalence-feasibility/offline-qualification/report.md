@@ -1,7 +1,7 @@
 # Internal spatial-decision observation: offline qualification
 
 2026-10-15, Australia/Sydney. SOR-EXP-0034 / SOR-EV-0042 continuation.
-[Authorized brief](../../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md).
+[Authorized brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md`).
 Authored results are REVIEW-REQUIRED; local native evidence/builds remain LOCAL-ONLY.
 
 | Element | Answer |

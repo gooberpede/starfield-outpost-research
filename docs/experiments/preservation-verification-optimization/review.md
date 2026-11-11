@@ -1,6 +1,6 @@
 # Completion contract, review and delivery
 
-2026-10-25, Australia/Sydney. [Frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_preservation_audit_optimization.md),
+2026-10-25, Australia/Sydney. [Frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_preservation_audit_optimization.md`),
 [report](report.md), [methods](../../../research/preservation-verification/README.md).
 No criterion is amended. **REWORK: AC4 FAIL.** A numerical conditional speedup
 does not satisfy comparable protection. Suggested commit text is withheld under

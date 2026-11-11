@@ -5,7 +5,7 @@ No live authority is supplied. GC-10/D5R remain OPEN.
 
 | Element | Best-supported answer and scope |
 | --- | --- |
-| Original question | The [D5AO brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AO_GC10_observer_perturbation_measurement_validity.md) freezes Q1–Q4 and AC01–AC09, without amendments. |
+| Original question | The [D5AO brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AO_GC10_observer_perturbation_measurement_validity.md`) freezes Q1–Q4 and AC01–AC09, without amendments. |
 | Mechanism | 0.9.2's failed-CAS Sleep can delay task progress while native reader/exclusive ownership or observer gates remain held. The owner lock has non-ticket admission, so this can change which request reaches protected construction first. |
 | Corrective candidate | Separate 0.9.3 removes the two counter sleeps while retaining checked strong CAS, nonmutation at MAX/zero, LastError, partial-entry rollback, independent teardown and source-attributed failure. |
 | Controlled evidence | Corrected owned native-fixture comparisons positively detect close-race winner reversals with the sleep path, and contrary controls without sleep and with separated contenders. Exact-final native and operational qualification passes, with controlled timing and inference limits preserved. |

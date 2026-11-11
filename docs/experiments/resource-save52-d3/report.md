@@ -1,7 +1,7 @@
 # RG2-D3: expanded Save52 geometry coverage
 
 2026-10-24, Australia/Sydney. Offline execution of the
-[brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D3_save52_discrepancies_coverage.md)
+[brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D3_save52_discrepancies_coverage.md`)
 under its unchanged [AC1–AC8](contract.md). Authored synthesis is
 REVIEW-REQUIRED; primary inputs, screenshots, extracted corpus and complete
 geometry remain LOCAL-ONLY. B6/publication remain on hold.

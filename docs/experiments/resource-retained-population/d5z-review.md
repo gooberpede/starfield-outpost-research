@@ -1,6 +1,6 @@
 # D5Z contract, verification and independent review
 
-2026-10-31, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Z_visited_state_persistence_reset_capacity.md)
+2026-10-31, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Z_visited_state_persistence_reset_capacity.md`)
 SHA-256 `569fefd58a2b291d8d2d0a12a6279d10df87dad4b31f351a5400464e32eab56f`.
 D5Z-CQ, Q1–Q5 and AC1–AC11 are frozen without amendment. Independent scientific,
 engineering/evidence and editorial reviews ACCEPT `review01`. Q1–Q5 are COMPLETE

@@ -1,6 +1,6 @@
 # Milestone B offline research tools
 
-Invoked [brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md),
+Invoked [brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md`),
 [result and contracts](../../docs/experiments/resource-availability-milestone-b/report.md).
 Pure installed CPython stdlib plus existing project modules; no external code or
 dependency added. All outputs stay ignored/local unless specifically authored

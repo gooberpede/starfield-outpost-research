@@ -1,7 +1,7 @@
 # Disposable x87 preservation qualification
 
 Original project-owned extension, GPL-3.0-or-later. Governing
-[brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md),
+[brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md`),
 [report and comparison table](../../docs/experiments/spatial-equivalence-feasibility/x87-preservation/report.md),
 [contract and ledger](../../docs/experiments/spatial-equivalence-feasibility/x87-preservation/validation.md).
 No retail observer or integration library is created.

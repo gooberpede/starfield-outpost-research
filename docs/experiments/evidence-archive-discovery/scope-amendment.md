@@ -5,7 +5,7 @@
 > Set the saved files aside - they can be dealt with separately.
 
 This is a prospective narrowing of the
-[original Stage A brief](../../implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_a.md).
+[original Stage A brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_a.md`).
 It does not authorize moving, altering or deleting game saves. Raw game saves,
 save copies/backups, known raw decompressed save streams and known save-corpus
 containers are held outside the current archive, retention, backup-size and

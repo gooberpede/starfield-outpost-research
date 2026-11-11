@@ -1,6 +1,6 @@
 # Cargo evidence archival pilot
 
-The [invoked brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_b_pilot.md)
+The [invoked brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_b_pilot.md`)
 authorizes offline packaging, synthetic fault tests and disposable restoration.
 It does not authorize retirement of real files. Use the existing CPython 3.14
 executable with `-B`, from the repository root. No installation or network is used.

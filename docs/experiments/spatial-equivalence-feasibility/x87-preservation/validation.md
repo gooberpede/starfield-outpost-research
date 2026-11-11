@@ -1,7 +1,7 @@
 # Frozen scope, regression and preservation ledger
 
 2026-10-16, Australia/Sydney. SOR-EXP-0034 / SOR-EV-0042 continuation.
-[Brief](../../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md),
+[Brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md`),
 [report](report.md), [source/commands](../../../../research/x87-preservation/README.md).
 The brief's PASS/NO-GO definition is unchanged. No lowered required-state
 definition or alternate breakpoint strategy was adopted.

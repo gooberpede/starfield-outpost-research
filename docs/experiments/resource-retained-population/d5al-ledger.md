@@ -1,7 +1,7 @@
 # D5AL active investigation ledger
 
 2026-11-03, Australia/Sydney. Offline engineering only under the
-[D5AL brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md).
+[D5AL brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md`).
 No live, installation, protected-original write, staging, commit or push authority.
 Episode B and GC-31 remain open; PRED-01 v1 remains NOT TESTED.
 

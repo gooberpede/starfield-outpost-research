@@ -1,7 +1,7 @@
 # LO1 bounded offline plan and frozen authority
 
 2026-10-20. Question: how do Locations -> Outpost's informational values and
-graphics reach the compiled screen? [Original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_LO1_locations_outpost_field_lineage.md#7-frozen-completion-contract--ac1ac8)
+graphics reach the compiled screen? [Original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_LO1_locations_outpost_field_lineage.md#7-frozen-completion-contract--ac1ac8`)
 are frozen without amendment in local `frozen-contract.md`, alongside the brief hash
 and starting HEAD/index/status in `.local-work/lo1-locations/baseline.json`.
 

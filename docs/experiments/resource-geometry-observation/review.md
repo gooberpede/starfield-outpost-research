@@ -1,6 +1,6 @@
 # C1 acceptance accounting and delivery
 
-[Original frozen AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1_native_region_observation_feasibility.md).
+[Original frozen AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1_native_region_observation_feasibility.md`).
 This is an offline feasibility assessment; live qualification/native equality
 are NOT TESTED and are not requirements silently relabelled PASS.
 

@@ -2,7 +2,7 @@
 
 2026-10-11, Australia/Sydney. Prospective policy implemented under
 [SOR-D-0049](DECISIONS.md#sor-d-0049--research-execution-and-completion-protocol).
-[Governing brief](implementation-briefs/CODEX_BRIEF_SOR_research_execution_completion_protocol.md).
+[Governing brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_research_execution_completion_protocol.md`).
 Implementation awaits maintainer integration review; effectiveness awaits a
 separately approved step-2 trial. Historical scientific classifications are unchanged.
 
@@ -30,7 +30,7 @@ engineering completion, under [the evidence standard](EVIDENCE_STANDARD.md).
 ## Controlling question and outcome gate
 
 Prospective reinforcement, 2026-10-30, under the
-[authorized brief](implementation-briefs/CODEX_BRIEF_SOR_research_completion_governance_reinforcement.md)
+[authorized brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_research_completion_governance_reinforcement.md`)
 and [decision](DECISIONS.md#research-completion-governance-reinforcement---2026-10-30).
 This supplements the existing safeguards; historical criteria and verdicts stand.
 

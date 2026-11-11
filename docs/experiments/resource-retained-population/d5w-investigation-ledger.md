@@ -1,6 +1,6 @@
 # D5W active investigation ledger
 
-2026-10-30, Australia/Sydney. Parent contract: [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md).
+2026-10-30, Australia/Sydney. Parent contract: [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md`).
 All four controlling questions and AC1–AC11 are frozen verbatim by reference;
 no amendments are approved. This is an active checkpoint, not completion.
 

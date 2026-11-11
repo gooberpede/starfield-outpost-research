@@ -1,6 +1,6 @@
 # E3 bounded offline research utilities
 
-[Brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_E3_fabricators_manufactured_production.md),
+[Brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E3_fabricators_manufactured_production.md`),
 [report](../../docs/experiments/fabricators/report.md).
 Original GPL-3.0-or-later research code, adapting the existing maintainer-owned
 [E2 readers](../e2-organic/README.md) and their project save/ESM dependencies.

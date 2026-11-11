@@ -1,6 +1,6 @@
 # Independent review and handoff
 
-[Original brief](../../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md),
+[Original brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md`),
 [report and exact field comparisons](report.md), [mandatory matrix](validation.md),
 [correction eligibility recorded before implementation](correction-plan.md),
 [source/commands](../../../../research/x87-preservation/README.md).

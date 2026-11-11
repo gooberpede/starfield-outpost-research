@@ -223,7 +223,7 @@ assignment acceptance; no integration, live or publication authority follows.
 
 ## Frozen position questions — DEFERRED, 2026-10-14
 
-Verified under the [inorganic availability brief](implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md).
+Verified under the [inorganic availability brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md`).
 These questions remain separate from resource availability; none is reopened here.
 The brief explicitly broadens the earlier feature-only reopening recommendation:
 a concrete application need, independently discriminating evidence, **or** a
@@ -257,7 +257,7 @@ by this backlog, and this control is not part of inorganic resource research.
 
 ## Read-only save-menu identification extractor
 
-2026-10-14: the [explicit support brief](implementation-briefs/CODEX_BRIEF_SOR_save_menu_identification_utility.md) is implemented for review in the [utility/report](experiments/save-menu-identification.md). Practical identification is qualified for five controlled menu entries, with original timestamp provenance/collisions/unknowns and a model-based separate mature Save52 label. Universal menu parity is outside scope. The earlier unimplemented status below is preserved history; no additional menu reverse-engineering phase is proposed.
+2026-10-14: the [explicit support brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_save_menu_identification_utility.md`) is implemented for review in the [utility/report](experiments/save-menu-identification.md). Practical identification is qualified for five controlled menu entries, with original timestamp provenance/collisions/unknowns and a model-based separate mature Save52 label. Universal menu parity is outside scope. The earlier unimplemented status below is preserved history; no additional menu reverse-engineering phase is proposed.
 
 Recorded 2026-10-12 under the Q030 procedure brief; **not implemented or investigated**.
 Future separate brief should map research IDs to visible character name, manual/auto/

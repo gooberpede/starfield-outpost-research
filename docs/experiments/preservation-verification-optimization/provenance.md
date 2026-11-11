@@ -1,6 +1,6 @@
 # Source and execution provenance
 
-[Pinned local source ledger](sources.csv), [governing brief](../../implementation-briefs/CODEX_BRIEF_SOR_preservation_audit_optimization.md),
+[Pinned local source ledger](sources.csv), [governing brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_preservation_audit_optimization.md`),
 [research methods](../../../research/preservation-verification/README.md).
 
 All new code is original task implementation using installed CPython stdlib,

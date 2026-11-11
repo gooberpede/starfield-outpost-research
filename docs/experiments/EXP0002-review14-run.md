@@ -1,6 +1,6 @@
 # EXP0002 fresh primary run — review 14-settled
 
-2026-10-06 Australia/Sydney. SOR-D-0013 authorizes a fresh primary A0/A0C/A1/A1C/A2/A2R run after review of the [synchronization correction](../audits/exp0002-settled-correction.md). The [operator card](EXP0002-operator-card.md) governs actions, bounds, anomaly handling and cleanup. No optional debugger diagnostic. Prior failed-run evidence is not reused as a primary checkpoint.
+2026-10-06 Australia/Sydney. SOR-D-0013 authorizes a fresh primary A0/A0C/A1/A1C/A2/A2R run after review of the [synchronization correction](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002-settled-correction.md`). The [operator card](EXP0002-operator-card.md) governs actions, bounds, anomaly handling and cleanup. No optional debugger diagnostic. Prior failed-run evidence is not reused as a primary checkpoint.
 
 ## Preflight and current status
 

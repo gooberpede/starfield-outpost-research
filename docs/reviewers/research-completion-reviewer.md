@@ -14,7 +14,7 @@ acceptance. Inspect how references affected controls and interpretation; do not
 accept a file-name checklist alone. Reading chronology is not an AC01 criterion.
 Missing critical sections, material misunderstanding or unverifiable coverage
 still fails. Preserve historical reading-order breaches and frozen verdicts.
-The [D5AL prospective amendment](../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md)
+The [D5AL prospective amendment](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md`)
 is the maintainer authority for this rule.
 
 Remain read-only: no file edits, staging, commits, pushes, worktree creation,

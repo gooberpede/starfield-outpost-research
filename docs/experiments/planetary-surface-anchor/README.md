@@ -40,7 +40,7 @@ New task files: `docs/experiments/planetary-surface-anchor-semantics.md`; this d
 
 Changed existing files: root README/CREDITS; docs DECISIONS/PERMISSIONS/PROVENANCE/RESEARCH_STATE/SOURCES; experiment/evidence/implementation-brief indexes; function/hypothesis/finding/state registers; subsystem initial map; Ghidra reader/README; save-analysis ESM reader/README. Existing ESM reader default remains last-field dict; `repeated=True` adds an ordered list. Ghidra `surface` adds vocabulary filtering with existing bounds. No frozen earlier evidence is edited.
 
-Pre-existing user file: `docs/implementation-briefs/CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md`, retained unchanged and included separately in the complete review diff.
+Pre-existing user file: `implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md`, retained unchanged and included separately in the complete review diff.
 
 Local, unstaged review artifacts (native Git patch bytes, including untracked files):
 

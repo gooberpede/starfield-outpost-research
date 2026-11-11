@@ -1,7 +1,7 @@
 # SD1: containers, displays and item residence
 
 2026-10-19, Australia/Sydney. SOR-EXP-0055 / SOR-EV-0063.
-[Frozen plan](plan.md), [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_SD1_containers_displays_ownership_persistence.md),
+[Frozen plan](plan.md), [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_SD1_containers_displays_ownership_persistence.md`),
 [definitions](definitions.csv), [native paths](native.md), [saved joins](saves.md),
 [review](review.md). Authored interpretation REVIEW-REQUIRED; primary material LOCAL-ONLY.
 

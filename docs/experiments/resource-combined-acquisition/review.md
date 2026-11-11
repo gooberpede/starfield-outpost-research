@@ -1,6 +1,6 @@
 # D5B qualification, preservation and review
 
-2026-10-25, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md), [frozen contract](contract.md), [report](report.md), [native map](native.md), [proposed card](run-card.md), [source ledger](sources.csv).
+2026-10-25, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md`), [frozen contract](contract.md), [report](report.md), [native map](native.md), [proposed card](run-card.md), [source ledger](sources.csv).
 
 **Phase A scientific scope is source-bound synthetic construction and separately bound current consumption. Native producer-to-consumer epoch and historical construction inputs remain UNKNOWN. Phase B has not been executed and is not authorized.** Independent review returned ACCEPT for scientific, engineering and editorial conformance on the exact review02 snapshot; the disposition and its limits are recorded below.
 

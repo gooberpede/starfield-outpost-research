@@ -1,6 +1,6 @@
 # D5AD offline methods and tests
 
-2026-11-02, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md),
+2026-11-02, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md`),
 [report](d5ad-report.md), [sources](d5ad-sources.csv), [review](d5ad-review.md).
 All receipts, native listings and decoded save/session operands are LOCAL-ONLY.
 Authored methods and this synthesis are REVIEW-REQUIRED.

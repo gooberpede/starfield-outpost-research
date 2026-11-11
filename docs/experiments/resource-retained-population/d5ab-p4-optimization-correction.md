@@ -221,7 +221,7 @@ revalidation; no historical result is silently promoted.
 
 ## Current original-contract accounting
 
-The [original questions and criteria](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md)
+The [original questions and criteria](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`)
 and P4 contract retain their full wording. This table supplies the correction's
 current evidence; the original matrix remains historical beneath its notice.
 

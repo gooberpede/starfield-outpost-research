@@ -2,7 +2,7 @@
 
 Frozen controlling question: when eligible ordinary resource requests share a geographic source, what grants construction authority first, and how predictable is that winner under ordinary retail readiness and scheduling?
 
-Authority: the [D5AE brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AE_GC10_construction_winner_scheduling.md), offline only. Parent D5R and GC-10 OPEN. Publication ON HOLD.
+Authority: the [D5AE brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AE_GC10_construction_winner_scheduling.md`), offline only. Parent D5R and GC-10 OPEN. Publication ON HOLD.
 
 ## Start checkpoint
 

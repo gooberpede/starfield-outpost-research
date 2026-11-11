@@ -2,7 +2,7 @@
 
 ## Frozen contract and initial checkpoint
 
-The [invoked corrective brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5U_C1_outpost_composite_maps_coordinate_join.md)
+The [invoked corrective brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5U_C1_outpost_composite_maps_coordinate_join.md`)
 freezes C1-AC1–C1-AC10 without amendment. Existing D5U source-level conclusions
 and their historical reviews remain immutable. This correction must deliver true
 outpost composites, not merely additional source labels.

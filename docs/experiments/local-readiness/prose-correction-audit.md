@@ -1,6 +1,6 @@
 # Prose correction and diff-scoped audit
 
-2026-10-15. [Governing correction brief](../../implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md),
+2026-10-15. [Governing correction brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md`),
 [scientific decision: NO-GO](scientific-value-reassessment.md),
 [independent reassessment review](reassessment-review.md).
 

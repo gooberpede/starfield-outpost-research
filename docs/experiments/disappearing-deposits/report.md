@@ -1,7 +1,7 @@
 # Disappearing or substituted inorganic deposits — D1
 
 2026-10-16, Australia/Sydney. SOR-EXP-0037 / SOR-EV-0045.
-[Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_D1_disappearing_deposits_reconnaissance.md),
+[Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_D1_disappearing_deposits_reconnaissance.md`),
 [frozen contract](contract.md), [hypotheses](hypotheses.md),
 [native evidence](native.md), [public sources](public-sources.md),
 [verification and review](review.md). Authored interpretation REVIEW-REQUIRED;

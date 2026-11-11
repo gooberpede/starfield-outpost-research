@@ -1,6 +1,6 @@
 # Native-oracle 0.2.0 specialist static review
 
-2026-10-12, Australia/Sydney. Governing authority: [continuation brief](../../implementation-briefs/CODEX_BRIEF_SOR_native_oracle_reachability_continuation.md). Specialist research, not the independent implementation acceptance review. **Recommendation: retain the minimal Q/E additions and the conditional one-new-Kreet-landing N1 scenario. Native reachability remains NOT TESTED for 0.2.0.** No static implementation defect explaining attempt 01's empty callback set was established.
+2026-10-12, Australia/Sydney. Governing authority: [continuation brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_oracle_reachability_continuation.md`). Specialist research, not the independent implementation acceptance review. **Recommendation: retain the minimal Q/E additions and the conditional one-new-Kreet-landing N1 scenario. Native reachability remains NOT TESTED for 0.2.0.** No static implementation defect explaining attempt 01's empty callback set was established.
 
 ## Independently inspected evidence
 

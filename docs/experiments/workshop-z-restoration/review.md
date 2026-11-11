@@ -1,6 +1,6 @@
 # Z restoration completion and review package
 
-2026-10-13, Australia/Sydney. [Original governing brief](../../implementation-briefs/CODEX_BRIEF_SOR_native_workshop_Z_restoration_external_research.md).
+2026-10-13, Australia/Sydney. [Original governing brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_workshop_Z_restoration_external_research.md`).
 [Scientific report](report.md), [native dependencies](dependencies.md),
 [external specialist](external-research.md), [comparison ledger](comparisons.csv),
 [acquisition assessment](acquisition.md). No acceptance criteria amended.

@@ -1,6 +1,6 @@
 # SOR-EV-0008 — final software-breakpoint attempt
 
-2026-10-07; [authorization](../../../implementation-briefs/EXP0002A-final-software-attempt.md), [actual audit](../../../audits/exp0002a-final-software-attempt.md). Disposition **DEFERRED_NO_MATERIAL_ADVANCE**, evidence **INCOMPLETE**, zero request captures. No raw memory/binary/save artifacts in this directory; authored summary REVIEW-REQUIRED, raw evidence LOCAL-ONLY.
+2026-10-07; [authorization](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/EXP0002A-final-software-attempt.md`), [actual audit](../../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-final-software-attempt.md`). Disposition **DEFERRED_NO_MATERIAL_ADVANCE**, evidence **INCOMPLETE**, zero request captures. No raw memory/binary/save artifacts in this directory; authored summary REVIEW-REQUIRED, raw evidence LOCAL-ONLY.
 
 Ignored root `.local-work/exp0002a-final-software/`:
 

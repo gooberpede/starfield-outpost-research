@@ -7,7 +7,7 @@ Cargo retirement and baseline activation were separately authorized and
 and its pinned `routine_command`: archive/index plus three loose holds, with
 zero retired-member payload hashes. Historical proposals/preparers below remain
 available for inspection; they are not the current routine boundary. The
-[original continuation brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md)
+[original continuation brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md`)
 retains its earlier implementation-only authority. Use installed CPython 3.14 with `-B`
 from the repository root; no installation, network or game operation is needed.
 

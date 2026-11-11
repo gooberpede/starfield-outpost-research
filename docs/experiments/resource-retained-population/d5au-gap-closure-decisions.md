@@ -1,7 +1,7 @@
 # D5AU resource-generation gap closure decisions
 
 2026-11-06 (Australia/Sydney). Proposed checklist dispositions under the
-[invoked D5AU brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AU_Gameplay_Gap_Closure_Cache_Questions_and_Determinism_Backlog.md#3-controlling-scientific-dispositions).
+[invoked D5AU brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AU_Gameplay_Gap_Closure_Cache_Questions_and_Determinism_Backlog.md#3-controlling-scientific-dispositions`).
 The qualified Feynman V retail series demonstrates both repeatability and
 variation of complete resident source geometry. The mapped ordinary first-miss
 mechanism explains how competing requests can acquire construction authority.
@@ -96,7 +96,7 @@ supply both without recovering the historical thread interleavings. Under the
 prospective D5AU decision, “conditions that change outcomes” refers here to
 controlled native input differences and the demonstrated retail possibility.
 The series did not experimentally isolate which inputs or scheduling changes
-caused each retail outcome. [D5AU scope](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AU_Gameplay_Gap_Closure_Cache_Questions_and_Determinism_Backlog.md#3-controlling-scientific-dispositions).
+caused each retail outcome. [D5AU scope](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AU_Gameplay_Gap_Closure_Cache_Questions_and_Determinism_Backlog.md#3-controlling-scientific-dispositions`).
 
 - **Travel ingress (GC-06).** The missing full action-to-demand chronology
   cannot undo the observed two-class result. Travel and effective preparation
@@ -163,11 +163,11 @@ The maintainer accepts this mechanism as sufficient for the present objective.
 The original empirical GC-34 requirement remains untested and optional.
 If an application needs that validation, use a separately scoped comparison
 of one matched extractor/Workshop across a verified changed-geometry
-transition. The comparison would bind complete resident geometry, the verified 
-lifetime transition, and the producer row on each side, then measure actual 
-output at the selected destination and record operating gates and point 
-eligibility independently. D5AK has equal rebuilt geometry and D5AS has 
-different source geometry across starts, with no matched extractor/output 
+transition. The comparison would bind complete resident geometry, the verified
+lifetime transition, and the producer row on each side, then measure actual
+output at the selected destination and record operating gates and point
+eligibility independently. D5AK has equal rebuilt geometry and D5AS has
+different source geometry across starts, with no matched extractor/output
 witness in either case.
 [D5AH prospective comparison](d5ah-experiment-design.md).
 

@@ -6,7 +6,7 @@
 D5AB offline readiness COMPLETE / ACCEPT. B2 NOT AUTHORIZED.** Independent
 Review02 accepts all five original AB questions, twelve AB criteria, five P4
 questions and eight P4 criteria against the unchanged
-[P4 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P4_final_readiness_B2_preparation.md).
+[P4 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P4_final_readiness_B2_preparation.md`).
 
 The [report](d5ab-p4-report.md), [original-contract matrix](d5ab-p4-compliance-matrix.md),
 [active ledger](d5ab-p4-investigation-ledger.md), [manifest](d5ab-p4-package-manifest.md)

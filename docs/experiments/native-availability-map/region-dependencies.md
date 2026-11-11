@@ -1,7 +1,7 @@
 # Resource-region dependencies and minimum runtime conditions
 
 2026-10-15, Australia/Sydney. SOR-EXP-0034 / SOR-EV-0042 continuation.
-[Brief](../../implementation-briefs/CODEX_BRIEF_SOR_resource_region_dependencies_minimum_requirements.md),
+[Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_resource_region_dependencies_minimum_requirements.md`),
 [frozen contract](region-contract.md), [review package](region-review.md).
 Authored interpretation REVIEW-REQUIRED; native/raw evidence LOCAL-ONLY.
 

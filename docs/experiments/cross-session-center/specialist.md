@@ -1,7 +1,7 @@
 # Independent hook and native-caller audit
 
 2026-10-13, Australia/Sydney. Specialist contribution to the
-[authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_cross_session_native_center_state_and_observer_interference.md).
+[authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_cross_session_native_center_state_and_observer_interference.md`).
 Authored interpretation REVIEW-REQUIRED; native exports and binary receipts LOCAL-ONLY.
 
 **The two historical center sets do not compare equivalent execution boundaries.

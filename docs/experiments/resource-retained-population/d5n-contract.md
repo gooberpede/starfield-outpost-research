@@ -1,6 +1,6 @@
 # D5N minimal causal contract and method selection
 
-2026-10-28, Australia/Sydney. The invoked [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5N_alternative_native_observation.md)
+2026-10-28, Australia/Sydney. The invoked [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5N_alternative_native_observation.md`)
 freezes AC1–AC8 without amendment. This is Phase A: offline inspection, builds
 and disposable Windows qualification only. [Results](d5n-report.md) and the
 [proposed card](run-card-d5n-v1.md) do not authorize Starfield execution.
@@ -42,7 +42,7 @@ The region claim needs neither a complete source census nor Workshop callback.
 | More extensive hybrid | Moving three additional sites to DR1–DR3 could remove three further patches, while requiring more mixed-event ownership/queue cases. Remaining software sites and debugger delivery still matter. | Not justified by a site-specific failure or additional scientific information in this task. Reserve the slots; refuse foreign enabled/GD state rather than silently taking it. |
 | In-process native observer | Synchronous protected-site copies could supply all fourteen witnesses without debugger exception delivery. It needs a qualified early loader/injection or plugin mechanism, safe instruction relocation, ABI/CPU preservation, hook admission with concurrent threads, copy ownership and durable external acknowledgements. A worker cannot safely dereference borrowed pointers later. | Viable design class, unimplemented here. Existing [geometry-lifetime study](../spatial-equivalence-feasibility/geometry-lifetime/report.md) did not qualify destruction/alias stability; [x87 correction](../spatial-equivalence-feasibility/x87-preservation/report.md) is scoped. Building a new loader/hook framework is disproportionate while a smaller complete hybrid can be tested. No retail deployment is authorized. |
 
-The [earlier DR0 failures](../../audits/exp0002a-crash-dump-comparison.md)
+The [earlier DR0 failures](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-crash-dump-comparison.md`)
 are adverse evidence against any blanket hardware-safety claim: the same game
 build faulted at an armed hardware site without corresponding recorded exception
 delivery. They concern another subsystem/site and do not prove this hybrid will

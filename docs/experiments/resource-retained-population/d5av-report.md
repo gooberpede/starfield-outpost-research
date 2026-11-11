@@ -21,7 +21,7 @@ D5AK/D5AL/D5AS represented output comparisons. Action attribution uses the
 recorded operator itinerary and source-joined telemetry. It does not reconstruct
 uncaptured callers. Save52 evidence concerns the bounded ordinary serializers on
 the pinned 1.16.244.0 graph. All new authored material is REVIEW-REQUIRED.
-Raw evidence remains LOCAL-ONLY. The [frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AV_Outpost_Resource_Persistence_Player_Actions.md#2-frozen-controlling-questions-and-successful-answer-standard)
+Raw evidence remains LOCAL-ONLY. The [frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AV_Outpost_Resource_Persistence_Player_Actions.md#2-frozen-controlling-questions-and-successful-answer-standard`)
 permits these scoped answers with unknown action outcomes.
 
 ## What actually survives

@@ -1,7 +1,7 @@
 # D5V active investigation ledger
 
 2026-10-30, Australia/Sydney. The maintainer invoked the
-[original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5V_resource_population_stability_consumption_native_coordinates.md)
+[original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5V_resource_population_stability_consumption_native_coordinates.md`)
 in chat. D5V-AC1–AC11 and the original generality of D5V-Q1–Q4 are frozen;
 there are no approved amendments. This is an active checkpoint, not completion.
 
@@ -141,7 +141,7 @@ left open or terminally blocked. Full final outcomes and patch paths are in
 
 ## Maintainer correction — native plotted axes
 
-The invoked [D5V-C1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5V_C1_native_coordinate_plot_correction.md)
+The invoked [D5V-C1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5V_C1_native_coordinate_plot_correction.md`)
 reopens AC6/AC7 presentation only. Prior reviewer acceptance of a reversible
 relative grid did not satisfy the requested native descriptor-frame axes.
 [The active correction ledger](d5v-c1-report.md) freezes C1-Q1/AC1–AC9 and records

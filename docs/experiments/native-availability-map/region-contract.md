@@ -1,7 +1,7 @@
 # Resource-region dependency continuation contract
 
 2026-10-15, Australia/Sydney. Continuation of SOR-EXP-0034 / SOR-EV-0042.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_resource_region_dependencies_minimum_requirements.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_resource_region_dependencies_minimum_requirements.md`).
 Authored interpretation REVIEW-REQUIRED; raw/native evidence LOCAL-ONLY.
 
 Question: which native producers and states supply inorganic region data, and

@@ -1,7 +1,7 @@
 # S1: outpost storage and output-link eligibility
 
 2026-10-17, Australia/Sydney. SOR-EXP-0042 / SOR-EV-0050.
-[Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_S1_storage_inventory_eligibility_runtime_save.md),
+[Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_S1_storage_inventory_eligibility_runtime_save.md`),
 [native contracts](native.md), [saved examples](saves.md), [review](review.md).
 Authored interpretation REVIEW-REQUIRED; underlying game/native/save material LOCAL-ONLY.
 

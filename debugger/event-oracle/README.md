@@ -1,8 +1,8 @@
 # Event-associated oracle adapter 0.1.3
 
 Original, narrowly scoped Windows x64 software-breakpoint adapter for
-[the authorized implementation brief](../../docs/implementation-briefs/CODEX_IMPLEMENTATION_BRIEF_SOR_event_associated_oracle_instrumentation.md).
-The [latency follow-up](../../docs/implementation-briefs/CODEX_BRIEF_SOR_event_adapter_latency.md)
+[the authorized implementation brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_IMPLEMENTATION_BRIEF_SOR_event_associated_oracle_instrumentation.md`).
+The [latency follow-up](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_event_adapter_latency.md`)
 governs0.1.3; [report and comparison](../../docs/experiments/event-latency/README.md).
 **Review candidate; no Starfield execution in this task.** It is an external
 debugger, independent of the unchanged SFSE observer 0.1.1. It never launches a

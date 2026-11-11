@@ -2,7 +2,7 @@
 
 2026-10-29, Australia/Sydney. [Call/data map](d5q-call-dataflow-map.md),
 [source ledger](d5q-sources.csv), [frozen criteria and review](d5q-review.md),
-[invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Q_resource_construction_call_dataflow_mapping.md).
+[invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Q_resource_construction_call_dataflow_mapping.md`).
 
 **Native instructions join the request's cell enumeration to its selected
 source, original-query mask sample, geometry attempts and source-map retention.

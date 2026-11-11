@@ -1,7 +1,7 @@
 # Acceptance and independent review package
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
-[Original frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_center_caller_semantics_idle_camera.md),
+[Original frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_center_caller_semantics_idle_camera.md`),
 [report](report.md), [native ledger](native-ledger.md), [chronology](chronology.md),
 [state/acquisition](state-and-acquisition.md), [source hashes](sources.csv).
 

@@ -10,7 +10,7 @@
 
 ## Authority, plan and conditions
 
-The user invoked the [L0–L2C brief](../implementation-briefs/CODEX_RESEARCH_BRIEF_output_link_validation_L0-L2C.md). Allowed: copy/hash the six new named originals, reuse verified S4C, analyze local copies with existing project-authored tooling and narrow additions, author review records. No live gameplay, debugger, SFSE, save edits, configuration/database changes, network, staging, commit or push. No third-party parser or dependency introduced.
+The user invoked the [L0–L2C brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_output_link_validation_L0-L2C.md`). Allowed: copy/hash the six new named originals, reuse verified S4C, analyze local copies with existing project-authored tooling and narrow additions, author review records. No live gameplay, debugger, SFSE, save edits, configuration/database changes, network, staging, commit or push. No third-party parser or dependency introduced.
 
 Question/prediction: does the prior S4 motif reverse on unlink/relink while endpoint candidates persist? Before new-save analysis, `.local-work/output-link-L0-L2C/preregistration.json` pinned the existing exact motif, four main signatures, tokens, prior report/candidate hashes, brief and script hashes. Controls and falsifiers: the linked baseline must support the candidate; unlink and relink must change it oppositely; unlinked/relinked no-action samples must preserve state; unexpected endpoint loss or remapping must be investigated before assigning link semantics.
 

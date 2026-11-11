@@ -10,7 +10,7 @@ historical; the continuation has a [separate review](region-review.md).
 2026-10-15, Australia/Sydney. Continuation of SOR-EXP-0034 / SOR-EV-0042,
 using the approved SOR-EXP-0035 / SOR-EV-0043 capture. Authored interpretation
 REVIEW-REQUIRED; native exports, raw captures and bulk derivatives LOCAL-ONLY.
-[Invoked corrected brief](../../implementation-briefs/CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md).
+[Invoked corrected brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md`).
 It supersedes the earlier native-contracts assignment; no imagined application
 requirements or extractor-footprint acceptance criterion is carried forward.
 

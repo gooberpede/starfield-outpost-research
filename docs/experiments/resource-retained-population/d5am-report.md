@@ -17,7 +17,7 @@ than supplying new retail winner observations.
 
 | Element | Supported answer and scope |
 | --- | --- |
-| Frozen contract | [D5AM Q1–Q4 and AC01–AC09](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AM_GC10_normal_construction_winner_observation_readiness.md), unchanged. |
+| Frozen contract | [D5AM Q1–Q4 and AC01–AC09](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AM_GC10_normal_construction_winner_observation_readiness.md`), unchanged. |
 | Confidence | PROVEN / RUNTIME for authenticated recorded fields; inherited STATIC predicates remain version-bound. New synthesis is independently reviewed within the bounded offline scope. |
 | Coverage | Original B2, completed D5AK A0/A1 and D5AL B0: four constructions in three sessions on Starfield 1.16.244.0. A1 is a within-process return; these are not four independent cold trials. |
 | New evidence | Fresh complete archive/raw authentication and joined request/sample chronology. B2 `[5,0]`, A0 `[8,3]`, A1 `[-1,11]`, B0 `[0,0]` each have a positive protected miss and direct sample `0x3`. |

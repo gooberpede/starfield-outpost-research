@@ -2,7 +2,7 @@
 
 **Later approved pilot:** [Phase B result](phase-b.md) and [separate output/package review](phase-b-review.md) govern the retail evidence. This page retains the original Phase A review.
 
-[Frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1E_native_resource_region_ancestry.md),
+[Frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1E_native_resource_region_ancestry.md`),
 [AC1–AC8 matrix](report.md), [verification/primary receipts](verification.md),
 [approval-only card](run-card.md). No integration/live/publication authority.
 

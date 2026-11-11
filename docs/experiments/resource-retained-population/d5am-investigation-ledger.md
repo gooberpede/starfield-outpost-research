@@ -4,7 +4,7 @@
 no completion or new live authority is implied by this ledger.
 
 The frozen questions and AC01–AC09 are in the
-[original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AM_GC10_normal_construction_winner_observation_readiness.md).
+[original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AM_GC10_normal_construction_winner_observation_readiness.md`).
 Q1 covers retained chronology; Q2 causal selection; Q3 evidence sufficiency and
 conditional offline implementation; Q4 prospective normal-retail readiness.
 

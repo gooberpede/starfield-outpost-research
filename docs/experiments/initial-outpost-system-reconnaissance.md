@@ -2,7 +2,7 @@
 
 **SOR-EXP-0001 — 2026-10-06 (Australia/Sydney). Status: reconnaissance executed; review required.**
 
-Governing authority: [initial brief](../implementation-briefs/CODEX_RESEARCH_BRIEF_initial_outpost_system_reconnaissance.md), explicitly invoked by the user; SOR-D-0008/0009. Publication: REVIEW-REQUIRED for authored notes; underlying game inputs, script extracts and Ghidra/xEdit exports LOCAL-ONLY. No live/save experiment executed.
+Governing authority: [initial brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_initial_outpost_system_reconnaissance.md`), explicitly invoked by the user; SOR-D-0008/0009. Publication: REVIEW-REQUIRED for authored notes; underlying game inputs, script extracts and Ghidra/xEdit exports LOCAL-ONLY. No live/save experiment executed.
 
 ## Scope and baseline
 
@@ -131,7 +131,7 @@ No third-party code copied/adapted, dependencies vendored, forks/PRs/issues/comm
 
 ## Files/evidence produced
 
-Authored helpers: [xEdit reader](../../xedit/README.md), [Ghidra reader/launcher](../../ghidra/scripts/README.md). Durable changes include policy, decisions, provenance, sources/credits/notices, subsystem map, function/state registers, findings/hypotheses and research state. Local artifacts: baseline/plugin inventories, source-entry hashes/extracts, bounded Ghidra reports/logs, before/after database hashes, xEdit exports, review diff/status and verification results. [SOR-EV-0001 evidence index](evidence/initial-reconnaissance/README.md) lists exact hashes and anchors without distributing proprietary raw artifacts. [Audit](../audits/initial-reconnaissance-validation.md) records actual checks and limits.
+Authored helpers: [xEdit reader](../../xedit/README.md), [Ghidra reader/launcher](../../ghidra/scripts/README.md). Durable changes include policy, decisions, provenance, sources/credits/notices, subsystem map, function/state registers, findings/hypotheses and research state. Local artifacts: baseline/plugin inventories, source-entry hashes/extracts, bounded Ghidra reports/logs, before/after database hashes, xEdit exports, review diff/status and verification results. [SOR-EV-0001 evidence index](evidence/initial-reconnaissance/README.md) lists exact hashes and anchors without distributing proprietary raw artifacts. [Audit](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/initial-reconnaissance-validation.md`) records actual checks and limits.
 
 ## Recommended first live/save experiment — SOR-EXP-0002 (PLANNED, NOT AUTHORIZED)
 

@@ -1,6 +1,6 @@
 # D5X-B1 retail instrumentation preauthorization audit
 
-2026-10-31, Australia/Sydney. [Original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5X_B1_preauthorization_audit.md),
+2026-10-31, Australia/Sydney. [Original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5X_B1_preauthorization_audit.md`),
 [active ledger](d5x-b1-audit-ledger.md), [proposed amended card](run-card-d5x-b1.md),
 [frozen schema](d5x-schema.md), [original offline qualification](d5x-report.md).
 

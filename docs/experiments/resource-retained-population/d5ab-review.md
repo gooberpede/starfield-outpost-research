@@ -1,7 +1,7 @@
 # D5AB bounded handoff review record
 
 2026-10-31, Australia/Sydney. [Report](d5ab-report.md),
-[original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md),
+[original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`),
 [stop decision](d5ab-decision.md).
 
 **Original task: REWORK / INCOMPLETE. Final engineering/scientific review:

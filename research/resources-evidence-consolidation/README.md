@@ -10,7 +10,7 @@ The original preparation and future-execution authority boundaries below remain
 historical context, not permission to execute another batch.
 
 Use installed CPython 3.14 with `-B` from the repository root. The
-[governing brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_resources_production_power_evidence_consolidation.md)
+[governing brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_resources_production_power_evidence_consolidation.md`)
 authorizes preparation and synthetic qualification. Real retirement and activation
 require a separate explicit GO for the exact reviewed card. No network, package
 installation, game operation or Git mutation is part of these methods.

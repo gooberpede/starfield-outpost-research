@@ -1,6 +1,6 @@
 # D5E continuous source-decision acquisition
 
-[Authorized Phase A brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5E_continuous_source_decision_acquisition.md),
+[Authorized Phase A brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5E_continuous_source_decision_acquisition.md`),
 [report](../../docs/experiments/resource-source-decisions/report.md),
 [native contract](../../docs/experiments/resource-source-decisions/native.md),
 [qualification](../../docs/experiments/resource-source-decisions/qualification.md).

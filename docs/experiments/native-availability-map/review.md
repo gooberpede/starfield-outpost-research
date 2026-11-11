@@ -1,6 +1,6 @@
 # Review package: local inorganic native mapping
 
-[Original corrected contract](../../implementation-briefs/CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md),
+[Original corrected contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md`),
 [report](report.md), [criterion matrix](validation.md), [function register](functions.csv).
 
 Independent reviewer returned **REWORK** on review01 for execution-language

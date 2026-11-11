@@ -1,6 +1,6 @@
 # D5U acceptance and exact review record
 
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5U_comparative_resource_source_variability_predictive_rules.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5U_comparative_resource_source_variability_predictive_rules.md`),
 [frozen contract and active ledger](d5u-investigation-ledger.md),
 [report](d5u-report.md), [proof/methods](d5u-methods.md),
 [source register](d5u-sources.csv), [gallery](d5u/README.md).

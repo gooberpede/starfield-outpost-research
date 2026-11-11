@@ -7,7 +7,7 @@ are not reconstructed. [Current cumulative review](f1-review.md) supersedes the
 former exact-final package only for the newly reviewed snapshot; historical
 predictions/reviewer returns remain unchanged.
 
-2026-10-22, Australia/Sydney. [Invoked AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_planetary_resource_seed_mature_context.md).
+2026-10-22, Australia/Sydney. [Invoked AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_planetary_resource_seed_mature_context.md`).
 Authored analysis REVIEW-REQUIRED; primary native/save/map evidence LOCAL-ONLY.
 Publication NOT CLEARED; B6 paused; existing observer NO-GO unchanged.
 

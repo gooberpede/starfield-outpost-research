@@ -2,7 +2,7 @@
 
 2026-10-11, Australia/Sydney. SOR-EV-0037 / SOR-F-0030 / SOR-ST-0028.
 Authored research REVIEW-REQUIRED; raw inputs and inventories LOCAL-ONLY.
-Governing [brief](../implementation-briefs/CODEX_BRIEF_SOR_extractor_resource_association_protocol_trial.md),
+Governing [brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_extractor_resource_association_protocol_trial.md`),
 [original frozen contract](extractor-resource-contract.md),
 [workflow trial and acceptance matrix](extractor-resource-trial-review.md).
 **Outcome: COMPLETE — PASS.** Fresh independent reviewer ACCEPT; actual checks
@@ -50,7 +50,7 @@ offsets are separate domains. Native pointers/runtime handles are not used.
 
 The independent original action brief explicitly records **iron extractor + solar**
 at S3 and **delete extractor** at S7; see
-[manual corpus brief](../implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md).
+[manual corpus brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md`).
 This resource expectation was not inferred from this tool. Earlier candidate
 bytes, independent arithmetic record-boundary walker, definition relationships
 and action/no-action controls provide different checks. Initial-loot CNTO/LVLI

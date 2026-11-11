@@ -14,7 +14,7 @@ for the exact independent acceptance boundary.
 
 ## Scope and identities
 
-The [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_resources_production_power_evidence_consolidation.md)
+The [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_resources_production_power_evidence_consolidation.md`)
 retains AC1–AC8. [Subareas](subareas.csv) enumerate all 58 current system roots,
 not 58 archives. The owner is `resources-production`; original relative paths
 remain member locators. The current eligible roster matches the Stage A scoped

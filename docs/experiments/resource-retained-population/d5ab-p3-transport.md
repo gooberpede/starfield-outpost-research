@@ -2,7 +2,7 @@
 
 2026-11-01, Australia/Sydney. Offline results; final independent disposition
 remains separate. D5AB INCOMPLETE / REWORK; D5R OPEN; P4/B2 NOT AUTHORIZED.
-[Contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md),
+[Contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md`),
 [ledger](d5ab-p3-investigation-ledger.md), [provenance](d5ab-p3-provenance.md).
 
 ## Complete-producer envelopes

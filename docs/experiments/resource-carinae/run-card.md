@@ -2,7 +2,7 @@
 
 **PHASE B NOT EXECUTED — MAINTAINER APPROVAL REQUIRED.**
 2026-10-23, Australia/Sydney. This is an approval-ready procedure, not authority
-to execute. [Phase A brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2A_carinae_native_iron_region_qualification.md),
+to execute. [Phase A brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2A_carinae_native_iron_region_qualification.md`),
 [contract](contract.md), [qualification](verification.md), [comparison](comparison.md).
 Reviewer acceptance supplies no launch, attachment, recovery or publication grant.
 

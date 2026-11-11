@@ -1,7 +1,7 @@
 # Qualification contract and native boundaries
 
 2026-10-15, Australia/Sydney. SOR-EXP-0034 / SOR-EV-0042 continuation.
-[Authorized brief](../../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md),
+[Authorized brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md`),
 [report](report.md), [predecessor boundary inventory](../boundary.md).
 Original mandatory G1–G3 criteria are retained; no amendment is adopted.
 Authored work is REVIEW-REQUIRED. Native exports and receipts remain LOCAL-ONLY.

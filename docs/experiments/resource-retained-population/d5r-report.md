@@ -1,6 +1,6 @@
 # D5R construction-query determinism
 
-2026-10-29, Australia/Sydney. [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5R_query_scheduling_selection_determinism.md),
+2026-10-29, Australia/Sydney. [Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5R_query_scheduling_selection_determinism.md`),
 [native scheduling map](d5r-query-scheduling-map.md),
 [dependency matrix](d5r-determinism-matrix.csv), [source ledger](d5r-sources.csv),
 [criteria and independent review](d5r-review.md).

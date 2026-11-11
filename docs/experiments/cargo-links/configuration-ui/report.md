@@ -1,7 +1,7 @@
 # C1: cargo-link configuration and management interface
 
 2026-10-18, Australia/Sydney. SOR-EXP-0044 / SOR-EV-0052.
-[Invoked brief](../../../implementation-briefs/CODEX_BRIEF_SOR_C1_cargo_link_configuration_ui_save.md),
+[Invoked brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_C1_cargo_link_configuration_ui_save.md`),
 [contract](contract.md), [native contract](native.md), [Save52 case](save52.md),
 [review](review.md), [functions](functions.csv), [source pins](sources.csv).
 

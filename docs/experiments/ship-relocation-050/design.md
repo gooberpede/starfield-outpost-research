@@ -1,6 +1,6 @@
 # Native capture design and provenance
 
-2026-10-13. [Brief](../../implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md),
+2026-10-13. [Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md`),
 [accepted prior dependency ledger](../ship-relocation/dependencies.md),
 [prior acquisition](../ship-relocation/acquisition.md),
 [static travel specialist](../ship-relocation/specialist.md). Native addresses

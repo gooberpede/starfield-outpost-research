@@ -1,6 +1,6 @@
 # C2A executed qualification and acceptance evidence
 
-2026-10-23, Australia/Sydney. [Frozen AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2A_carinae_native_iron_region_qualification.md).
+2026-10-23, Australia/Sydney. [Frozen AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2A_carinae_native_iron_region_qualification.md`).
 All commands below were run from the repository root with
 `C:/Users/User/AppData/Local/Python/pythoncore-3.14-64/python.exe -B`.
 They execute only original disposable fixtures or offline analysis, never retail.

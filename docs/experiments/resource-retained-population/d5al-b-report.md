@@ -9,7 +9,7 @@ starting-input equivalence qualify the unchanged prediction oracle.
 
 | Element | Result and scope |
 | --- | --- |
-| Frozen contract | [D5AL-B-Q1/Q2 and B-AC01–07](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AL_EPISODE_B_live_2026-11-03.md), under the exact approved [B card](run-card-d5al-episode-b.md). |
+| Frozen contract | [D5AL-B-Q1/Q2 and B-AC01–07](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AL_EPISODE_B_live_2026-11-03.md`), under the exact approved [B card](run-card-d5al-episode-b.md). |
 | Q1 answer | COMPLETE at this pair: positive new-process construction, complete represented target equality and unchanged forecast CONFIRMED. Independent stopped scientific review ACCEPT. |
 | Q2 status | COMPLETE. Independent scientific, operational, editorial and exact-delivery review ACCEPT; all seven live criteria PASS. |
 | Confidence | PROVEN / RUNTIME for authenticated recorded construction and complete byte equality; STRONG / CROSS-VALIDATED source attribution under the reviewed ordinary native ownership graph. |

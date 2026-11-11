@@ -7,7 +7,7 @@ The console callback does not traverse borrowed pointers. Its coverage is a comp
 represented resident-map census, with physical outpost-area association UNKNOWN.
 No D5AR pilot or statistical sampling has been authorized or performed.
 
-The original [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AR_generic_outpost_geometry_snapshot_plugin.md)
+The original [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AR_generic_outpost_geometry_snapshot_plugin.md`)
 controls acceptance. GC-10 / GC-31 / D5R remain OPEN. This report does not supply
 deployment, integration or publication authority. Authored source and synthesis
 are REVIEW-REQUIRED; proprietary evidence, DLL/ZIP and raw receipts are LOCAL-ONLY.

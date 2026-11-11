@@ -1,7 +1,7 @@
 # DA1: outpost attacks, defenses and Integrity
 
 2026-10-19, Australia/Sydney. SOR-EXP-0054 / SOR-EV-0062.
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_DA1_outpost_defense_attacks_integrity.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_DA1_outpost_defense_attacks_integrity.md`),
 [frozen plan](plan.md), [review/package](review.md).
 
 | Question | Best-supported answer | Confidence, basis and coverage |

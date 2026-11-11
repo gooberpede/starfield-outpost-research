@@ -1,8 +1,8 @@
 # Scientific value reassessment — SOR-EXP-0036
 
 **Decision: NO-GO for the existing 0.8.0 observer and first-session run card.**
-2026-10-15, Australia/Sydney. [Correction brief](../../implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md),
-[original brief](../../implementation-briefs/CODEX_BRIEF_SOR_local_readiness_native_observation.md),
+2026-10-15, Australia/Sydney. [Correction brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md`),
+[original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_local_readiness_native_observation.md`),
 [prose audit](prose-correction-audit.md), [independent reassessment](reassessment-review.md).
 
 | Element | Evidence-based answer |

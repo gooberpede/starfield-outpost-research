@@ -3,7 +3,7 @@
 2026-11-03, Australia/Sydney. **A0 INCONCLUSIVE; owned STOP finalized; operator reports normal exit and
 plugin disablement/deployment. Full postflight and archive PASS; scoped final delivery review ACCEPT; scientific contract REWORK. Episode B NOT AUTHORIZED.**
 
-The governing [live amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AI_EPISODE_A_live_2026-11-03.md)
+The governing [live amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AI_EPISODE_A_live_2026-11-03.md`)
 records the exact maintainer approval and timestamp-content rule. The original
 Episode A route, actions, outcomes and safeguards remain frozen. The operator
 reports deployment in Starfield - SFSE and Steam Cloud disabled. One authorized process, one Save52 load, direct arrival and one A0 capture

@@ -5,7 +5,7 @@ is **PASS** for its controlled setup. [Result and mechanism plan](save29-test-pl
 updates the historical offline uncertainty below; R versus C remains OPEN.
 
 2026-10-17, Australia/Sydney. SOR-EXP-0041 / SOR-EV-0049.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md),
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md`),
 [frozen contract](contract.md), [review and checks](review.md).
 
 The authorized [allocation-order and switch-persistence follow-up](followup.md)

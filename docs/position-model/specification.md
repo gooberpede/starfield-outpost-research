@@ -1,7 +1,7 @@
 # Durable ordinary-outpost position specification
 
 2026-10-13, Australia/Sydney. Offline consolidation under the
-[authorized brief](../implementation-briefs/CODEX_BRIEF_SOR_durable_position_consolidation_application_readiness.md).
+[authorized brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_durable_position_consolidation_application_readiness.md`).
 Authored synthesis REVIEW-REQUIRED; raw inputs LOCAL-ONLY. Existing finding
 classifications are preserved, not automatically promoted by consolidation.
 

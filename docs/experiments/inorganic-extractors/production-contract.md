@@ -1,7 +1,7 @@
 # E1 production continuation contract
 
 2026-10-16, Australia/Sydney. SOR-EXP-0038 / SOR-EV-0046 continuation.
-[Original authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_E1_production_arithmetic_modifiers_live_feasibility.md).
+[Original authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E1_production_arithmetic_modifiers_live_feasibility.md`).
 
 Two independent endpoints: COMPLETE / CONDITIONALLY COMPLETE / INCOMPLETE for
 the native production arithmetic reference; GO / REVISE / NO-GO for a useful

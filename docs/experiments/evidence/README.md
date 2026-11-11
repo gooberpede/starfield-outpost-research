@@ -1,10 +1,10 @@
 # Selected Evidence
 
-**Historical runtime evidence:** [D5BE access index](../../audits/evidence-access-d5be/README.md)
+**Historical runtime evidence:** [D5BE access index](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-access-d5be/README.md`)
 links the D5AS qualified geometry and C19 native UI comparison routes. Exact
 evidence assets remain pending.
 
-**Provisional release evidence, 2026-10-21:** [B4-F1 core and optional addendum index](../../audits/publication-readiness-b4/f1/README.md)
+**Provisional release evidence, 2026-10-21:** [B4-F1 core and optional addendum index](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/f1/README.md`)
 provides proposed exact member/asset manifests and verified local packages.
 GitHub download URLs are **PENDING RELEASE**; membership and publication approval
 remain pending. No historical scientific evidence classification is changed.
@@ -44,9 +44,9 @@ remain pending. No historical scientific evidence classification is changed.
 
 - SOR-EV-0026: [durable-center review package](../durable-center/README.md), SOR-EXP-0018. Original authored numeric selections REVIEW-REQUIRED; raw saves/captures/native exports LOCAL-ONLY. No complete continuous geographic solution or publication clearance.
 
-- SOR-EV-0024: [initial observer live results](../../audits/beacon-observer-initial-live-results.md), SOR-EXP-0016. Nine snapshots/5,233 verified raw sections, protected Save25 and archived Save26; scoped workshop offset and post-reload XYZ observations. Raw/session/save/logs LOCAL-ONLY; authored interpretations REVIEW-REQUIRED.
+- SOR-EV-0024: [initial observer live results](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/beacon-observer-initial-live-results.md`), SOR-EXP-0016. Nine snapshots/5,233 verified raw sections, protected Save25 and archived Save26; scoped workshop offset and post-reload XYZ observations. Raw/session/save/logs LOCAL-ONLY; authored interpretations REVIEW-REQUIRED.
 
-- SOR-EV-0023: [actual observer deployment preflight](../../audits/beacon-observer-post-deployment-preflight.md), SOR-EXP-0016. Installed identity/configuration/output/control/space checks; original receipts LOCAL-ONLY. User-reported smoke test distinguished from unobserved fresh runtime readiness; [operator card](../beacon-observer/Save25-operator-run-card.md) REVIEW-REQUIRED before launch. No new scientific finding.
+- SOR-EV-0023: [actual observer deployment preflight](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/beacon-observer-post-deployment-preflight.md`), SOR-EXP-0016. Installed identity/configuration/output/control/space checks; original receipts LOCAL-ONLY. User-reported smoke test distinguished from unobserved fresh runtime readiness; [operator card](../beacon-observer/Save25-operator-run-card.md) REVIEW-REQUIRED before launch. No new scientific finding.
 
 - SOR-EV-0022: [broad beacon observer offline qualification](../beacon-observer/README.md), SOR-EXP-0016. Selected authored hashes/results REVIEW-REQUIRED; full synthetic captures, binaries, private input/source/database receipts stay LOCAL-ONLY. No Starfield evidence, semantics promotion or publication clearance.
 

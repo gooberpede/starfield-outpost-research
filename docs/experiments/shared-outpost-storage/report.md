@@ -1,7 +1,7 @@
 # SD2: Shared Outpost Storage and ingredient access
 
 2026-10-19, Australia/Sydney. SOR-EXP-0056 / SOR-EV-0064.
-[Frozen plan](plan.md), [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_SD2_shared_storage_crafting_access.md),
+[Frozen plan](plan.md), [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_SD2_shared_storage_crafting_access.md`),
 [prerequisites](prerequisites.md), [shared inventory](shared-inventory.md),
 [source–consumer matrix](consumers.md), [saves](saves.md), [methods](methods.md),
 [independent review/package](review.md). Authored interpretation REVIEW-REQUIRED;

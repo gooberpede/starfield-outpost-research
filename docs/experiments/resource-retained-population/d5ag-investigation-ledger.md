@@ -1,6 +1,6 @@
 # D5AG active investigation ledger
 
-2026-11-02, Australia/Sydney. Governing [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AG_terrain_resource_consistency_lifecycle.md).
+2026-11-02, Australia/Sydney. Governing [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AG_terrain_resource_consistency_lifecycle.md`).
 D5AG-CQ: What concrete terrain-to-resource data, scheduling, ownership or
 lifecycle mechanisms constrain ordinary resource populations and establish
 reproducibility of complete identities and geometry? D5R remains OPEN.

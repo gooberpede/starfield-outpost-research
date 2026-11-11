@@ -1,6 +1,6 @@
 # D5V-C1 native-axis correction
 
-2026-10-30, Australia/Sydney. [Invoked correction brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5V_C1_native_coordinate_plot_correction.md).
+2026-10-30, Australia/Sydney. [Invoked correction brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5V_C1_native_coordinate_plot_correction.md`).
 This is REWORK of D5V-AC6/AC7, not a new scientific investigation.
 
 **Answer: COMPLETE.** Both corrected outpost figures visibly plot absolute native

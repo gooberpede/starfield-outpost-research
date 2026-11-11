@@ -14,7 +14,7 @@ Reading a brief does not authorize every action it mentions. Identify permitted 
 
 ### Required reading for D5AL and future briefs
 
-The maintainer's [D5AL amendment](docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md)
+The maintainer's [D5AL amendment](docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md`)
 removes reading chronology as an acceptance criterion for D5AL and future newly
 issued briefs. Identify all mandatory references and recover/read complete
 relevant content, including truncated output continuations, by final substantive
@@ -57,7 +57,7 @@ COMPLETE can be accepted; INCOMPLETE returns REWORK; an evidenced terminal
 BLOCKED returns ESCALATE. A checkpoint or accepted bounded method result must
 show its parent question ID/status and cannot imply parent completion. Keep
 scientific/completeness, engineering/evidence and editorial dispositions separate.
-The [governance validation](docs/audits/research-completion-governance-reinforcement.md)
+The [governance validation](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/research-completion-governance-reinforcement.md`)
 exercises these rules prospectively; historical contracts remain unchanged.
 
 ## Question-led research loop
@@ -85,7 +85,7 @@ readiness. Historical evidence and backup records remain strict. Apply this
 classification consistently before reusing a legacy operational helper; old
 manifests and failed-run verdicts remain historical, not rewritten baselines.
 
-Prospective correction, 2026-10-12, under the [fallback-grid brief](docs/implementation-briefs/CODEX_BRIEF_SOR_fallback_grid_provenance_and_workflow_policy.md).
+Prospective correction, 2026-10-12, under the [fallback-grid brief](docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_fallback_grid_provenance_and_workflow_policy.md`).
 
 **Elapsed time, evidence volume, a delayed operator action, or a routine monitoring-cadence overrun alone must not terminate an otherwise healthy scientific experiment.** Do not invent hard session/admission deadlines, event counts, evidence-size quotas or arbitrary capture cutoffs. Preserve the **40,000,000,000-byte caller-available free-space guard on both C: and D:**, verified target/plugin identities and instruction guards, protected inputs, instrumentation/evidence integrity, actual worker failure, and explicit operator STOP.
 
@@ -166,7 +166,7 @@ exporter's Git environment must stop parent-repository discovery at
 `.local-work/` (using `GIT_CEILING_DIRECTORIES`) so scratch application checks
 operate on the standalone tree. Normal Git reads from the repository root
 continue to use the repository. The
-[2026-10-19 housekeeping brief](docs/implementation-briefs/CODEX_BRIEF_SOR_review_scratch_housekeeping.md)
+[2026-10-19 housekeeping brief](docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_review_scratch_housekeeping.md`)
 records the relocation of earlier `D:/tools/sor*` trees; historical receipts and
 snapshots retain their original paths and bytes.
 

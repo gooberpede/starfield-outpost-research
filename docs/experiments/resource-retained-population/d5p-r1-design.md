@@ -1,7 +1,7 @@
 # D5P-R1 evidence and continuity contract
 
 2026-10-29, Australia/Sydney. [Pre-repair diagnosis](d5p-r1-diagnosis.md) and
-[frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R1_observer_resilience_context_repair.md).
+[frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R1_observer_resilience_context_repair.md`).
 This is an offline research observer contract, not retail approval.
 
 ## Context diagnostics

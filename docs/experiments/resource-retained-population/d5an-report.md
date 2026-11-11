@@ -4,7 +4,7 @@
 
 | Element | Best-supported answer and scope |
 | --- | --- |
-| Original question | [D5AN-CQ and Q1–Q4](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AN_counter_admission_failure_investigation_repair.md): attribute the N1 counter fault, test its mechanism, repair safely and qualify the actual integrated candidate. |
+| Original question | [D5AN-CQ and Q1–Q4](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AN_counter_admission_failure_investigation_repair.md`): attribute the N1 counter fault, test its mechanism, repair safely and qualify the actual integrated candidate. |
 | Historical answer | N1's nine originals authenticate READY followed by aggregate scheduler bit-2 refusal before ownership/HEALTHY_ACK and Save52 loading. The exact counter/site/thread/interleaving was not stored and remains UNKNOWN. |
 | New mechanism evidence | The old 32-attempt algorithm can reject legitimate competing admissions at an active count of only 32. A rigorously explained shared-state fixture reproduces that behavior; the actual repaired integrated Producer survives forty controlled interferences. This is not N1 replay. |
 | Repair direction | Strong saturating CAS with scheduling backoff, checked nonwrapping teardown, source-specific fixed fault provenance and truthful worker failure aggregation. Overflow, actual queue loss and safety/site guards remain protective failures. |

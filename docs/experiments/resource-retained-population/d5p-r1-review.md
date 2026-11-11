@@ -1,6 +1,6 @@
 # D5P-R1 frozen criteria and review record
 
-2026-10-29, Australia/Sydney. [Original R1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R1_observer_resilience_context_repair.md),
+2026-10-29, Australia/Sydney. [Original R1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R1_observer_resilience_context_repair.md`),
 [report](d5p-r1-report.md), [pre-repair decision](d5p-r1-diagnosis.md),
 [contract](d5p-r1-design.md), [source ledger](d5p-r1-sources.csv).
 R1-AC1–R1-AC9 are unchanged. Overall retail outcome is **NO-GO**. A repaired

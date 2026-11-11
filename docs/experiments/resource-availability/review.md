@@ -1,6 +1,6 @@
 # Independent review and package
 
-2026-10-14. [Governing brief](../../implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md),
+2026-10-14. [Governing brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md`),
 [frozen contract](contract.md), [matrix](validation.md), [report](report.md).
 This independent review is separate from maintainer integration/publication
 approval. No staging, commit, push, deployment or live authority follows.

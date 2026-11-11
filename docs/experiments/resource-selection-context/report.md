@@ -1,6 +1,6 @@
 # RG2-D4: native selection context, Phase A
 
-2026-10-24, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4_native_resource_selection_context_acquisition.md).
+2026-10-24, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4_native_resource_selection_context_acquisition.md`).
 AC1–AC8 are frozen as written in that brief. This is offline research and
 engineering; no retail process was launched or attached. Authored material is
 REVIEW-REQUIRED; native exports, captures, saves and binaries remain LOCAL-ONLY.

@@ -1,6 +1,6 @@
 # C1H acceptance and exact delivery
 
-[Frozen original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1H_installed_settings_cross_site_geometry_editorial_standard.md),
+[Frozen original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1H_installed_settings_cross_site_geometry_editorial_standard.md`),
 [report](report.md), [verification](verification.md),
 [editorial coverage](editorial-finalization.md), [sources](sources.md).
 

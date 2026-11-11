@@ -1,6 +1,6 @@
 # D5W resource-generation operating contract
 
-2026-10-30, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md),
+2026-10-30, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md`),
 [normal-path model](d5w-normal-path-model.md), [active investigation ledger](d5w-investigation-ledger.md),
 [hypotheses](d5w-hypotheses.csv), [sources](d5w-sources.csv),
 [figures](d5w/README.md) and [review](d5w-review.md).

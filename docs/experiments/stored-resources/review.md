@@ -1,7 +1,7 @@
 # SD3 original-criteria review package
 
 2026-10-19, SOR-EXP-0057 / SOR-EV-0065.
-[Original eight frozen criteria](../../implementation-briefs/CODEX_BRIEF_SOR_SD3_stored_resources_aggregation_icons_refresh.md),
+[Original eight frozen criteria](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_SD3_stored_resources_aggregation_icons_refresh.md`),
 [answer](report.md), [failures/methods](methods.md), [sources](sources.csv).
 **Independent review02: ACCEPT, all eight original criteria PASS**, against
 package-review02.json SHA-256

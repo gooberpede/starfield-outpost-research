@@ -1,6 +1,6 @@
 # Independent review and exact review package
 
-2026-10-15. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_continuous_beacon_preview_resource_oracle.md),
+2026-10-15. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_continuous_beacon_preview_resource_oracle.md`),
 [contract](contract.md), [matrix](validation.md), [report](report.md).
 
 The brief-required native specialist and separate read-only reviewer used fresh

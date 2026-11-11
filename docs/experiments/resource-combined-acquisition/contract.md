@@ -1,6 +1,6 @@
 # D5B frozen completion contract
 
-2026-10-25, Australia/Sydney. The [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md) is controlling; no criterion amendment is adopted.
+2026-10-25, Australia/Sydney. The [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md`) is controlling; no criterion amendment is adopted.
 
 - Task: offline native-contract composition and combined Windows debugger engineering, with actual disposable synthetic qualification.
 - Primary deliverable: selected-source first construction query/mask; secondary current Workshop consumption; positive lifetime linkage only on its demonstrated applicability domain.

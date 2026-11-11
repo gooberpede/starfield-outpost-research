@@ -1,7 +1,7 @@
 # D5AL required reading and applied understanding
 
 2026-11-03, Australia/Sydney. This is the applied-coverage record for
-[D5AL-AC01](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md).
+[D5AL-AC01](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md`).
 Acceptance requires independent substantive verification; this inventory alone
 cannot pass the criterion. The prospective rule removes chronology alone as a
 failure, while retaining complete relevant reading by final substantive acceptance.

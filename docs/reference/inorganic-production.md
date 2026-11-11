@@ -162,4 +162,4 @@ accepted counts are outside the check.
 
 **PUBLICATION DEPENDENCY — EVIDENCE ACCESS PENDING** for primary historical
 saved joins and verification of the original native witness.
-[Claim and access crosswalk](../audits/production-guides-d5ba/claims.md).
+[Claim and access crosswalk](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/production-guides-d5ba/claims.md`).

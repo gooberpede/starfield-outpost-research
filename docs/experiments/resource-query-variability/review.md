@@ -1,6 +1,6 @@
 # D5I independent review and delivery record
 
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5I_construction_query_reachability_variability.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5I_construction_query_reachability_variability.md`),
 [report](report.md), [proof](proofs.md), [acceptance matrix](validation.md).
 The original brief's AC1–AC8 remain the frozen contract.
 

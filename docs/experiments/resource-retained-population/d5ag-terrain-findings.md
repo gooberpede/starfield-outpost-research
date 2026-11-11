@@ -2,7 +2,7 @@
 
 2026-11-02, Australia/Sydney. This is a bounded specialist contribution to
 D5AG-Q1/Q2, not independent review or a question-level completion decision.
-The original [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AG_terrain_resource_consistency_lifecycle.md)
+The original [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AG_terrain_resource_consistency_lifecycle.md`)
 and root investigation ledger govern the assignment. All native addresses are
 preferred static VAs for Starfield 1.16.244.0, image base `0x140000000`;
 member offsets are bytes. Native payloads and disposable projects remain local.

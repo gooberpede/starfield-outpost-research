@@ -1,6 +1,6 @@
 # D5: construction masks and Feynman III descriptor selection
 
-2026-10-25, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5_feynman_construction_mask_component_selection.md),
+2026-10-25, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5_feynman_construction_mask_component_selection.md`),
 [frozen contract](contract.md), [native lineage](native.md),
 [validation](validation.md), [screenshots](screenshots.md), [review](review.md).
 

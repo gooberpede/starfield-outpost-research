@@ -1,6 +1,6 @@
 # D5AD Save52 destination operands and ordinary load branch
 
-2026-11-02, Australia/Sydney. [Original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md),
+2026-11-02, Australia/Sydney. [Original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md`),
 [chronology](d5ad-load-chronology.md), [report](d5ad-report.md),
 [source ledger](d5ad-sources.csv). This followup addresses the concrete saved
 operands required by D5AD-Q2; it supplies no new runtime observation.

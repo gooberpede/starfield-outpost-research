@@ -2,7 +2,7 @@
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039.
 **DELIVERED FOR REVIEW, NOT EXECUTED OR LIVE-AUTHORIZED.**
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md`),
 [qualification and exact binary identities](report.md), [independent review](review.md).
 The maintainer must review these together once, deploy the exact ZIP through
 Vortex and authorize this defined experiment. Then Codex may preflight and launch

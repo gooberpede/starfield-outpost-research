@@ -1,7 +1,7 @@
 # Native position oracle Phase A contract
 
 2026-10-11 Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039.
-[Original authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_native_position_oracle_observer_integrated.md).
+[Original authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_position_oracle_observer_integrated.md`).
 Engineering implementation with independent scientific acquisition design.
 Mandatory criteria are the six numbered deliverables in original section 2;
 none is amended or replaced by a test count.

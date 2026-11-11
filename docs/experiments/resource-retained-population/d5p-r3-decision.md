@@ -1,6 +1,6 @@
 # D5P-R3 pre-implementation Grid and membership decision
 
-2026-10-29, Australia/Sydney. The [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R3_grid_membership_context_validation_repair.md)
+2026-10-29, Australia/Sydney. The [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R3_grid_membership_context_validation_repair.md`)
 freezes R3-AC1–R3-AC9 unchanged. Written before any production validation edit.
 The task starts at HEAD `513461a89a5e4958e9dc6f30f97f7e50be5141f0` with only
 the supplied brief untracked. No retail, deployment or save action is authorized.

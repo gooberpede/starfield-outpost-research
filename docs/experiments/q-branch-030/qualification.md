@@ -1,7 +1,7 @@
 # Q branch observer 0.3.0: offline qualification
 
 2026-10-12, Australia/Sydney. Continuation of SOR-EXP-0031 / SOR-EV-0039.
-[Maintainer-authorized scope](../../implementation-briefs/CODEX_BRIEF_SOR_Q_branch_observations_offline.md),
+[Maintainer-authorized scope](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_Q_branch_observations_offline.md`),
 [source and schema](../../../runtime/native-oracle-030/README.md),
 [independent review](review.md). Authored REVIEW-REQUIRED; private raw/binaries
 LOCAL-ONLY. This is engineering qualification, not a new runtime experiment.

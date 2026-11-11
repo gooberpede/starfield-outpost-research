@@ -1,6 +1,6 @@
 # R1 frozen offline research contract
 
-2026-10-18, Australia/Sydney. Governing [brief](../../implementation-briefs/CODEX_BRIEF_SOR_R1_outpost_robots_contributions_limits_lifecycle.md).
+2026-10-18, Australia/Sydney. Governing [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_R1_outpost_robots_contributions_limits_lifecycle.md`).
 
 Task: bounded scientific difference analysis against CR1–CR3, E1–E3 and P1.
 The original eight mandatory criteria remain frozen: qualified catalogue;

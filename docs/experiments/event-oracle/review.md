@@ -1,7 +1,7 @@
 # EXP0024 review package and validation
 
 2026-10-11. [Answer-first report](../event-associated-position-oracle-and-build-mode.md),
-[scope](../../implementation-briefs/CODEX_BRIEF_SOR_event_associated_oracle_and_build_mode_failure.md).
+[scope](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_event_associated_oracle_and_build_mode_failure.md`).
 Authored derivatives REVIEW-REQUIRED, raw native/save/capture/private data
 LOCAL-ONLY. No publication clearance, live implementation or execution authority.
 

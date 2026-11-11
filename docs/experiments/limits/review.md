@@ -1,7 +1,7 @@
 # L1 completion and review package
 
 2026-10-19, Australia/Sydney. SOR-EXP-0051 / SOR-EV-0059.
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_L1_numerical_perk_limits.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_L1_numerical_perk_limits.md`),
 [frozen plan](plan.md), [answer/matrix](report.md), [native chain](native.md),
 [saved coverage](saves.md). No criterion was amended.
 

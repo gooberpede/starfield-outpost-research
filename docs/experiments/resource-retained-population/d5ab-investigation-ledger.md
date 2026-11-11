@@ -6,7 +6,7 @@ the wrap-up instruction. [Report](d5ab-report.md), [review](d5ab-review.md) and
 [decision](d5ab-decision.md) control this checkpoint. AB-Q1–Q5 remain INCOMPLETE;
 D5R remains OPEN. Earlier progress below is not authority to continue after STOP.
 
-2026-10-31, Australia/Sydney. Execution of the [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md)
+2026-10-31, Australia/Sydney. Execution of the [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`)
 is authorized for offline analysis, implementation, testing and review only.
 No amendments. D5R remains **OPEN**. B1 remains historical PARTIAL and D5AA
 remains ESCALATE. B2 is **NOT AUTHORIZED** and has not been performed.

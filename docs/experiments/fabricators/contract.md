@@ -1,6 +1,6 @@
 # E3 frozen offline contract
 
-2026-10-17, Australia/Sydney. [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_E3_fabricators_manufactured_production.md).
+2026-10-17, Australia/Sydney. [Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E3_fabricators_manufactured_production.md`).
 
 Research assignment: map ordinary automated manufactured production on the pinned
 installed main-game definitions and retail native code. Completion is COMPLETE,

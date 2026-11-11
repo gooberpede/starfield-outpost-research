@@ -1,7 +1,7 @@
 # Disposable internal-observation qualification
 
 Original project-owned fixture, GPL-3.0-or-later. Governing
-[brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md),
+[brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md`),
 [report](../../docs/experiments/spatial-equivalence-feasibility/offline-qualification/report.md)
 and [contract](../../docs/experiments/spatial-equivalence-feasibility/offline-qualification/contract.md).
 This directory is offline engineering material, not an observer or reusable hook library.

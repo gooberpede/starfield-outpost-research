@@ -1,6 +1,6 @@
 # B1 frozen offline research plan
 
-2026-10-20, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_B1_outpost_biome_assignment_nominal_territory.md), AC1–AC8 unchanged. Authored findings REVIEW-REQUIRED; proprietary/save/native evidence LOCAL-ONLY.
+2026-10-20, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_B1_outpost_biome_assignment_nominal_territory.md`), AC1–AC8 unchanged. Authored findings REVIEW-REQUIRED; proprietary/save/native evidence LOCAL-ONLY.
 
 Question: which authoritative biome identities intersect an ordinary nominal radius-150 territory with positive area, including enclosed patches? Effective location clipping is secondary. Competing models are one identity per 100-unit terrain cell, finer discrete map lookup, and interpolated/region selection. Trace producer, lookup, consumer and actual frame operands before choosing an enumeration rule. Appearance, planetary catalogue membership and resource presence are separate observations.
 

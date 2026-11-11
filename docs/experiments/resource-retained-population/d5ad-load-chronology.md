@@ -1,6 +1,6 @@
 # D5AD startup, Save52 and destination handoff chronology
 
-2026-11-02, Australia/Sydney. [Frozen contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md),
+2026-11-02, Australia/Sydney. [Frozen contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md`),
 [report](d5ad-report.md), [state matrix](d5ad-save-state-matrix.md),
 [input provenance](d5ad-input-provenance.md), [sources](d5ad-sources.csv).
 This is a partial order with explicit historical gaps. Native possibilities do

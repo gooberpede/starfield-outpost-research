@@ -1,7 +1,7 @@
 # C3 completion and independent review package
 
 2026-10-18, Australia/Sydney. SOR-EXP-0046 / SOR-EV-0054.
-[Original frozen brief](../../../implementation-briefs/CODEX_BRIEF_SOR_C3_intersystem_cargo_fuel_and_timeskip.md),
+[Original frozen brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_C3_intersystem_cargo_fuel_and_timeskip.md`),
 [adopted scope](contract.md), [executive answer](report.md),
 [finite checks](../../../../research/c3-fuel/README.md).
 

@@ -1,0 +1,59 @@
+{
+  "schema": "sor-d5bz-document-containers/1",
+  "edition": "D5BZ-1",
+  "date": "2026-11-11",
+  "intake_head": "d5ab299a5103b6d8d9f00c536f7cef455648cddb",
+  "intake_tree": "1d0fa968c4e606fda7b3ba33636dda3d0f66c6b5",
+  "intake_index_sha256": "d10b8474c83ded331c73b8b6c01037c24917a99b049c0adfcfba2dca28ee7fe1",
+  "original_source_count": 588,
+  "preseal_member_paths": [
+    "docs/audits/archival-d5bz/applied-reading.md",
+    "docs/audits/archival-d5bz/evidence-access.md",
+    "docs/audits/archival-d5bz/investigation-ledger.md",
+    "docs/audits/archival-d5bz/migration-method.md",
+    "docs/audits/archival-d5bz/pre-seal-review.md",
+    "docs/audits/archival-d5bz/reader-journeys.md"
+  ],
+  "builder_sha256": "23c4f7e42026f89f700e94e1744549c49c685cda8bc633190d42f468314382eb",
+  "relocation_map_sha256": "6c16e90ca4cf1a47690dbb636eff67c55c53873dd16336ac5117d3fe9bc6410f",
+  "current_source_edition_sha256": "a39cb789df3d0dcda3d8aebe541b626aa90e0e7a75851ebcd5b5e815f1f76f50",
+  "python": "3.14.3",
+  "zlib": "1.3.1.zlib-ng",
+  "containers": {
+    "audits": {
+      "members": 335,
+      "files": {
+        "docs/audits/README.md": {
+          "bytes": 4045,
+          "sha256": "0d706d9adf141b27a13b208fbbb03fdd9c7782593195e06750e75cfae763952e"
+        },
+        "docs/audits/archive-index.csv": {
+          "bytes": 136291,
+          "sha256": "0a521047e2a9cd44adc7e42f9b6ce4e139d4019581e729571d43c423a289ba7d"
+        },
+        "docs/audits/audits.zip": {
+          "bytes": 3875869,
+          "sha256": "9f263e9a1676c2b79fba66bbf0aea0567aa02210a8a24998ef290a83cc4ab322"
+        }
+      }
+    },
+    "implementation-briefs": {
+      "members": 259,
+      "files": {
+        "docs/implementation-briefs/README.md": {
+          "bytes": 4937,
+          "sha256": "5f2285650cca46797d690b9af359f3c54be14c692ca153edc4df48b1b8434bfb"
+        },
+        "docs/implementation-briefs/archive-index.csv": {
+          "bytes": 140569,
+          "sha256": "e52fb22613f9309d3414d50652de4335ece4566c5eb32921df3b907271b9bdef"
+        },
+        "docs/implementation-briefs/implementation-briefs.zip": {
+          "bytes": 1708456,
+          "sha256": "08987ed5f786da77085229e450ba02df0d6c7badd6c5532ffa46aed7de5d7433"
+        }
+      }
+    }
+  },
+  "publication": "NOT READY / NOT CLEARED"
+}

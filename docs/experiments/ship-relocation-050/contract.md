@@ -1,7 +1,7 @@
 # Integrated observer completion contract
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
-The unchanged [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md)
+The unchanged [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md`)
 is the acceptance authority. This file freezes its criteria, not an amendment.
 
 Task type: offline engineering plus executable prospective scientific procedure.

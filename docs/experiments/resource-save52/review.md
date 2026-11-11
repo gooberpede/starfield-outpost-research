@@ -1,6 +1,6 @@
 # Independent review and exact delivery
 
-2026-10-24, Australia/Sydney. Original [brief AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md)
+2026-10-24, Australia/Sydney. Original [brief AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md`)
 and [contract](contract.md) are unchanged. Implementation evidence and matrix are
 in [report.md](report.md); final independent disposition is separate from
 maintainer integration or publication approval. B6 remains on hold.

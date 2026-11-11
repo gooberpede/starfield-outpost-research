@@ -1,7 +1,7 @@
 # D5AD gameplay checklist decisions
 
 2026-11-02, Australia/Sydney. [Checklist](resource-generation-gameplay-checklist.md),
-[original D5AD contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md),
+[original D5AD contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md`),
 [active ledger](d5ad-investigation-ledger.md), [review](d5ad-review.md).
 
 All 32 stable IDs and original action sentences are preserved. D5AD changes

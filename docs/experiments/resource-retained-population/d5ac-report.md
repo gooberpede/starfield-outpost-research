@@ -4,7 +4,7 @@
 ProcGen resets. The target's two unvisited requests reach the map in the reverse
 order. Cold-first remains unproved; D5R OPEN.**
 
-The [frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AC_B2_epoch_cold_state_reconstruction.md)
+The [frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AC_B2_epoch_cold_state_reconstruction.md`)
 and [active ledger](d5ac-investigation-ledger.md) govern this offline assignment.
 These are proposed research conclusions pending maintainer review. Independent
 exact-snapshot disposition is recorded separately in [the review](d5ac-review.md).

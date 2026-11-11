@@ -1,7 +1,7 @@
 # Existing-reference grid acquisition: offline engineering result
 
 2026-10-12; SOR-EXP-0031 / SOR-EV-0039 continuation. Authority is the
-[integrated brief](../../implementation-briefs/CODEX_BRIEF_SOR_existing_reference_grid_oracle_integrated.md).
+[integrated brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_existing_reference_grid_oracle_integrated.md`).
 
 The pinned native route can calculate a generic terrain grid after either an
 existing-reference search or a fallback reference, and can resolve a supplied

@@ -1,6 +1,6 @@
 # D4D frozen criteria and review record
 
-2026-10-24, Australia/Sydney. Original [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4D_owner_root_component_acquisition.md)
+2026-10-24, Australia/Sydney. Original [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4D_owner_root_component_acquisition.md`)
 freezes AC1–AC8; no criteria amendment is adopted. This is engineering and bounded
 native research, Phase A only. Continue in-scope correction/requalification;
 stop prohibited actions and escalate only an evidenced missing authority/input.

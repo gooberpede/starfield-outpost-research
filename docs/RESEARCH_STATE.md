@@ -1,14 +1,14 @@
 # Current Research State
 
 **2026-11-11 — D5BV selected evidence and current resource scope.**
-The [current evidence audit](audits/evidence-closure-d5bv/README.md) joins the
+The [current evidence audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-closure-d5bv/README.md`) joins the
 accepted local checks to the inherited first-release claim graph and records
 the item 7 handoff. The [prospective scope decision](DECISIONS.md#d5bv-practical-resource-generation-predictability--2026-11-11)
 sets the current objective for construction predictability and preserves the
 historical D5AG verdicts. Publication remains NOT READY / NOT CLEARED.
 
 **2026-11-10 — Historical evidence tiers and later deposit research (D5BQ).**
-The [first-release decision](audits/publication-decisions-d5bq/README.md)
+The [first-release decision](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-decisions-d5bq/README.md`)
 separates the ordinary power, cargo and local output-link mechanisms from
 reported history and exact original-byte checks. The
 [later disappearing-deposit synthesis](experiments/disappearing-deposits/subsequent-research.md)
@@ -19,14 +19,14 @@ and source-reported incident. The separate
 remains open and nonblocking. Publication remains NOT READY / NOT CLEARED.
 
 **2026-11-10 — D5BO evidence qualification.** The
-[B2 projection](audits/public-evidence-d5bo/b2-sufficiency.md) preserves the
+[B2 projection](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/public-evidence-d5bo/b2-sufficiency.md`) preserves the
 recorded protected lookup inversion and negative history across all 32,141
-frames. The [D5AG reader route](audits/public-evidence-d5bo/d5ag-reader.md)
+frames. The [D5AG reader route](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/public-evidence-d5bo/d5ag-reader.md`)
 reuses the reviewed D5BJ component for all three fixed ordinary cases
 with exact reader-supplied inputs. Both public routes remain held.
 Historical D5AC ACCEPT and D5AG CQ BLOCKED / ESCALATE retain their scope.
 
-**2026-11-10 — D5BM deferred.** The [D5BN dossier](audits/d5bm-deferred-d5bn/README.md)
+**2026-11-10 — D5BM deferred.** The [D5BN dossier](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/d5bm-deferred-d5bn/README.md`)
 preserves the standalone pump success, pending refusal and missing-peer
 contrast. D5BM is REWORK, Stage A is INCOMPLETE and Stage B is NOT
 STARTED. D5BJ remains REWORK / INTERRUPTED / DEFERRED. Option C remains
@@ -34,7 +34,7 @@ preferred. The accepted D5AQ feasibility result and publication holds
 retain their scope.
 
 **2026-11-09 — D5BJ reader-input fixture checkpoint.** From compatible
-reader-supplied files, the [D5BJ methods](audits/evidence-reproduction-d5bj/README.md)
+reader-supplied files, the [D5BJ methods](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-reproduction-d5bj/README.md`)
 replay the C1 numeric paths, both fixed ordinary geometry classes and selected
 native queue, source-key, corner and retirement controls. The D5BI projection
 supplies the recorded typed N2 join. Full continuation and public access
@@ -174,7 +174,7 @@ GC-10/D5R remain OPEN; N0/N1 and PRED-03 remain unchanged. No live action,
 native observer change, staging, commit, push or publication is authorized.
 
 **2026-11-04 - D5AO N2 COMPLETE / independent ACCEPT.**
-The separately [authorized 0.9.3 trial](implementation-briefs/CODEX_AMENDMENT_SOR_D5AO_N2_live_2026-11-04.md)
+The separately [authorized 0.9.3 trial](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AO_N2_live_2026-11-04.md`)
 identifies original request (-2, 11) and direct mask 0x3. The
 [report](experiments/resource-retained-population/d5ao-n2-report.md) binds positive
 source/frame/lifetime evidence, 392 typed target task allocations and qualified
@@ -242,7 +242,7 @@ No target request or mask was recorded; N0's forecast disposition is INCONCLUSIV
 Operator-confirmed exit, effective DLL removal, all protected comparisons and the
 32-payload lossless partial archive pass. The capture remains failed/partial.
 The accepted historical AC01 exception is separate from this new engineering
-defect. The maintainer authorizes [offline correction/requalification](implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md),
+defect. The maintainer authorizes [offline correction/requalification](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md`),
 explicitly prohibiting another live run. The separate corrected 0.9.1 package
 now passes 157 native expected exits, exact ABI, 111 replay controls and byte-identical
 reproduction; independent scoped repair acceptance is recorded in the
@@ -1124,26 +1124,26 @@ publication hold remain; no live or Git publication action.
 
 **2026-10-21 - RG1 qualified vein reconstruction:** [Report](experiments/resource-geometry/report.md) connects three saved Kreet frames to a current-build main-file/default-settings source/context-to-region evaluator, native-bound competition, finite outside-start coverage and nominal circle decisions. Alternate arithmetic reproduces 1478 paths and 147 fixed-point checks. Historical loaded-cache correspondence, seams/effective overrides and native marginal boundaries remain unobserved. [Frozen criteria and independent review](experiments/resource-geometry/review.md) control acceptance. Historical findings/classifications unchanged; B6 remains on hold. No live, staging, commit, push or publication.
 
-**2026-10-21 — B5-A housekeeping:** [Report](audits/publication-readiness-b5/report.md)
+**2026-10-21 — B5-A housekeeping:** [Report](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b5/report.md`)
 records fresh local storage accounting, protected evidence retention, exact
 deletion candidates/reference holds and current scratch-exporter qualification.
-[Review](audits/publication-readiness-b5/review.md) controls task disposition.
+[Review](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b5/review.md`) controls task disposition.
 No scientific reclassification, existing artifact deletion, staging, commit,
 push or publication; B5-B is deferred until after release and still needs new explicit maintainer approval; detailed candidates remain local-only.
 
-**2026-10-21 — B4-F1 provisional evidence selection:** [Index and report](audits/publication-readiness-b4/f1/README.md)
+**2026-10-21 — B4-F1 provisional evidence selection:** [Index and report](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/f1/README.md`)
 reconcile all 71 B4 identities to 25 proposed core, 27 addendum, 15 local-only,
 four excluded and zero specific holds. Exact historical filenames are hash-joined;
 HIST-0255 is first-party Save41, distinct from Save52/HIST-0267. Two proposed local
 assets and both compression alternatives pass byte-exact extraction checks.
-[Review](audits/publication-readiness-b4/f1/review.md) controls task disposition.
+[Review](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/f1/review.md`) controls task disposition.
 No scientific reclassification, final selection, integration or publication approval.
 
-**2026-10-21 — B4 evidence preparation:** [Report](audits/publication-readiness-b4/report.md) maps 26 proposed claim rows to exact candidate identities, scoped privacy review and rights/selection holds. Conditional unchanged first-party Release-asset policy text is reviewable; no raw evidence, source pin or scientific classification is promoted. Publication NOT CLEARED; [independent disposition](audits/publication-readiness-b4/review.md).
+**2026-10-21 — B4 evidence preparation:** [Report](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/report.md`) maps 26 proposed claim rows to exact candidate identities, scoped privacy review and rights/selection holds. Conditional unchanged first-party Release-asset policy text is reviewable; no raw evidence, source pin or scientific classification is promoted. Publication NOT CLEARED; [independent disposition](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/review.md`).
 
-**2026-10-21 — B3 source/reproduction baseline:** [Report](audits/publication-readiness-b3/report.md) recovers all 26 RR1 historical source identities, selectively archives exact authored methods and qualifies one isolated synthetic framing case. [Baseline](audits/publication-readiness-b3/baseline-manifest.md) records one investigated 1.16.244.0 EXE; older save metadata is separate. No scientific confidence, evidence classification, live authority, integration or publication change. [Independent review](audits/publication-readiness-b3/review.md) controls task disposition.
+**2026-10-21 — B3 source/reproduction baseline:** [Report](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b3/report.md`) recovers all 26 RR1 historical source identities, selectively archives exact authored methods and qualifies one isolated synthetic framing case. [Baseline](reference/b3-baseline.md) records one investigated 1.16.244.0 EXE; older save metadata is separate. No scientific confidence, evidence classification, live authority, integration or publication change. [Independent review](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b3/review.md`) controls task disposition.
 
-**Current navigation, 2026-10-21:** [Subsystem roadmap](research-roadmap.md), [RC1 coverage/gaps](audits/outpost-rc1-2026-10/gap-reconciliation.md) and [history register](research-history.md) route the best-supported scope. Dated current/next/latest statements below are retained historical snapshots; they do not set today's task queue or grant follow-on authority. B1 proposes [release scope](audits/publication-readiness-b1/claim-build-matrix.md); publication remains **NOT CLEARED / NOT READY**.
+**Current navigation, 2026-10-21:** [Subsystem roadmap](research-roadmap.md), [RC1 coverage/gaps](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/outpost-rc1-2026-10/gap-reconciliation.md`) and [history register](research-history.md) route the best-supported scope. Dated current/next/latest statements below are retained historical snapshots; they do not set today's task queue or grant follow-on authority. B1 proposes [release scope](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b1/claim-build-matrix.md`); publication remains **NOT CLEARED / NOT READY**.
 
 **2026-10-20 - LO1, SOR-EXP-0062 / SOR-EV-0070:** [Locations -> Outpost](experiments/locations-outpost/report.md) proposes STRONG STATIC screen lineage: entry-count numerator/base-AV maximum, decorate-keyword exclusion, inherited endpoint/assignment badge counts, location-owner faction, level byte/configured challenge and body/system/galaxy schematic providers. [Full inventory](experiments/locations-outpost/field-lineage.md) separates copied metrics from per-selection metadata refresh. Historical epochs, effective overrides, exceptional membership and unmatched faction-art labels remain qualified. [Review/package](experiments/locations-outpost/review.md) controls independent disposition. No live/new save scan, analysis mutation, staging, commit, push or publication.
 
@@ -1489,7 +1489,7 @@ no recognized placed X-Tech, nonrefund SOURCE-REPORTED. Independent reviewer ACC
 **Workflow implementation for review, 2026-10-11 — SOR-D-0049:**
 [Execution and completion protocol](RESEARCH_EXECUTION_PROTOCOL.md),
 [reviewer procedure](reviewers/research-completion-reviewer.md) and
-[step-1 audit](audits/research-execution-completion-protocol.md) establish prospective
+[step-1 audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/research-execution-completion-protocol.md`) establish prospective
 completion contracts, in-scope continuation and independent rework. Documentation
 dry run only; policy effectiveness awaits a separately approved step-2 trial.
 No scientific finding/confidence changed, debugger work reopened, or trial/game/
@@ -1580,7 +1580,7 @@ No qualified mismatch or full oracle/grid equivalence. Critical review pending;
 no automatic next experiment. Earlier preflight status below is historical.
 
 **Latest installed preflight — SOR-EXP-0022 / SOR-EV-0030, 2026-10-10:**
-[Actual observer 0.1.1 deployment](audits/observer-011-post-deployment-preflight.md)
+[Actual observer 0.1.1 deployment](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/observer-011-post-deployment-preflight.md`)
 matches the final approved ZIP and Vortex staging; exported pluginVersion0x00010001,
 config/output path, helper controls, disk guard and Save25/26 preservation pass.
 Smoke startup READY/SFSE log corroborate the expected loaded binary; Save25 load/
@@ -1610,11 +1610,11 @@ remain. No launch/deployment/staging/commit/push; critical review required.
 
 **Latest offline result — SOR-EXP-0017 / SOR-EV-0025, 2026-10-10:** [Workshop origin and persistence](experiments/workshop-origin-beacon-relocation-persistence.md) identifies the captured concrete Workshop::ExtraData +0x60 vector, an accumulating relocation writer, explicit 12-byte save/load operations, and compensated-center border/terrain consumers. Save25/26 framed bytes and all nine prior snapshots agree. Scoped STRONG semantics/persistence proposed for critical review; ordinary beacon definition radius is 150 native units, configurable fallback 71.40000152587890625. Effective live radius, metre conversion and exact planetary beacon position remain open. Earlier interpretations below are historical, preserved rather than silently promoted. Authored evidence REVIEW-REQUIRED; raw inputs LOCAL-ONLY. No new live work, staging, commit or push.
 
-**Latest live result — SOR-EXP-0016 / SOR-EV-0024, 2026-10-10:** [Initial move/save/reload session](audits/beacon-observer-initial-live-results.md) completes 9 captures, 5,233 verified raw sections and a hash-verified Save26 archive. SOR-003-associated XYZ changes selectively and persists through reload; workshop+0x60 float triple equals original-minus-current XYZ and survives changed workshop pointer, proposed original-location compensation SOR-H-0010. Operator sees no boundary shift; no authoritative center/radius claim. SOR-002 fast-travel comparison retains decoded terrain/grid origin. Exact planetary conversion remains OPEN. Observer retired cleanly, game exited normally, operator disabled plugin through Vortex; direct process/file cleanup and protected-input/build preservation pass. Authored findings REVIEW-REQUIRED/raw LOCAL-ONLY; no staging, commit or push. Earlier live-readiness/review holds below are historical and superseded for this authorized run only.
+**Latest live result — SOR-EXP-0016 / SOR-EV-0024, 2026-10-10:** [Initial move/save/reload session](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/beacon-observer-initial-live-results.md`) completes 9 captures, 5,233 verified raw sections and a hash-verified Save26 archive. SOR-003-associated XYZ changes selectively and persists through reload; workshop+0x60 float triple equals original-minus-current XYZ and survives changed workshop pointer, proposed original-location compensation SOR-H-0010. Operator sees no boundary shift; no authoritative center/radius claim. SOR-002 fast-travel comparison retains decoded terrain/grid origin. Exact planetary conversion remains OPEN. Observer retired cleanly, game exited normally, operator disabled plugin through Vortex; direct process/file cleanup and protected-input/build preservation pass. Authored findings REVIEW-REQUIRED/raw LOCAL-ONLY; no staging, commit or push. Earlier live-readiness/review holds below are historical and superseded for this authorized run only.
 
-**Latest deployment preflight — SOR-EXP-0016 / SOR-EV-0023, 2026-10-10:** User approves observer 0.1.0 and reports SFSE/observer deployment and successful Save25 smoke test. [Actual installation preflight](audits/beacon-observer-post-deployment-preflight.md) verifies deployed hashes/versions/config, output access, isolated controls and C:/D: capacity above 40 billion bytes; approved observer unchanged. No session existed before preflight and available SFSE logs predate the reported test, so live observer readiness remains independently NOT_OBSERVED. [Operator card](experiments/beacon-observer/Save25-operator-run-card.md) requires fresh matching READY before loading Save25 and preserves continuation-first partial captures. **Return for review before launching.** Earlier staged-only/undeployed statements below are historical. No launch/new scientific finding, staging, commit or push.
+**Latest deployment preflight — SOR-EXP-0016 / SOR-EV-0023, 2026-10-10:** User approves observer 0.1.0 and reports SFSE/observer deployment and successful Save25 smoke test. [Actual installation preflight](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/beacon-observer-post-deployment-preflight.md`) verifies deployed hashes/versions/config, output access, isolated controls and C:/D: capacity above 40 billion bytes; approved observer unchanged. No session existed before preflight and available SFSE logs predate the reported test, so live observer readiness remains independently NOT_OBSERVED. [Operator card](experiments/beacon-observer/Save25-operator-run-card.md) requires fresh matching READY before loading Save25 and preserves continuation-first partial captures. **Return for review before launching.** Earlier staged-only/undeployed statements below are historical. No launch/new scientific finding, staging, commit or push.
 
-**Latest implementation — SOR-EXP-0016 / SOR-EV-0022, 2026-10-10:** [Broad beacon observer 0.1.0](audits/live-beacon-observer.md) provides independent guarded worker captures of the reference pool, ordinary beacon/player transforms, terrain/frame roots, cached planetary and workshop extra/table bytes, plus durable raw/JSON evidence and offline inspection. Full-pool synthetic/disposable qualification is recorded in the [selected ledger](experiments/beacon-observer/README.md). Exact continuous planetary coordinates and boundary behavior remain OPEN; no science finding promoted. SFSE currently staged only in Vortex; **critical review before deployment or first Starfield session**. Save25 starts at SOR-003; proposed plan includes travel to SOR-002 when useful. No live/game/save/database changes, staging, commit or push.
+**Latest implementation — SOR-EXP-0016 / SOR-EV-0022, 2026-10-10:** [Broad beacon observer 0.1.0](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/live-beacon-observer.md`) provides independent guarded worker captures of the reference pool, ordinary beacon/player transforms, terrain/frame roots, cached planetary and workshop extra/table bytes, plus durable raw/JSON evidence and offline inspection. Full-pool synthetic/disposable qualification is recorded in the [selected ledger](experiments/beacon-observer/README.md). Exact continuous planetary coordinates and boundary behavior remain OPEN; no science finding promoted. SFSE currently staged only in Vortex; **critical review before deployment or first Starfield session**. Save25 starts at SOR-003; proposed plan includes travel to SOR-002 when useful. No live/game/save/database changes, staging, commit or push.
 
 **Latest scoped result — SOR-EXP-0015 / SOR-EV-0021, 2026-10-09:** [Terrain projection](experiments/exact-beacon-planetary-coordinates.md) recovers ordinary 49152-grid hemisphere projection, reproducing 22 beacon pairs plus 3 fixed cities. Controlled Save25/S1 differences identify the same candidate origin without fitting. Proposed scoped STRONG; **exact continuous coordinates remain OPEN** at world/cached-frame selection and fractional embedding. Native active-world consumer quantizes, other-world/cached branches can supply anchors. Negative-X mature case prevents universal site=current-cell assumption. [Review package](experiments/exact-beacon/README.md); full required Reddit text inaccessible. Earlier records retained; no live/staging/commit/push or automatic semantic integration.
 
@@ -1627,7 +1627,7 @@ remain. No launch/deployment/staging/commit/push; critical review required.
 
 **Latest scoped result — SOR-EXP-0011 / SOR-EV-0017, 2026-10-09:** [ordinary beacon detector](experiments/ordinary-outpost-beacon-detection.md) exposes case-5 inline ordinary identity and saved disabled-state evidence independently of authoritative membership. Primary controls pass: zero in Save3/S0/S0C, one clear in S1/S1C, and Save52 19 split 17 clear/two set. Fresh token/name comparison matches all 17 clear records to manual network members and both set records outside it; separate arithmetic audits 309,057 primary records. Historical/donor challenge and measured support boundaries are in the report. Scoped STRONG interpretation proposed pending critical review; previous findings retained. Omitted flags/alternate identities/ownership remain unresolved, IsDeleted and quest work deferred. No live work, staging, commit, push or publication.
 
-**Methodology refinement for critical review, 2026-10-09 — SOR-D-0027:** [scoped conclusions and coverage](EVIDENCE_STANDARD.md#scoped-conclusions-and-coverage) distinguish confidence, tested/inferred/unknown coverage and justified completeness, with answer-first substantive reporting. Prospective governance only: no historical reclassification, classifier/evidence changes, reopened membership/quest research or new experimental authority. [Review package](audits/research-methodology-evidence-standards.md); no staging, commit or push.
+**Methodology refinement for critical review, 2026-10-09 — SOR-D-0027:** [scoped conclusions and coverage](EVIDENCE_STANDARD.md#scoped-conclusions-and-coverage) distinguish confidence, tested/inferred/unknown coverage and justified completeness, with answer-first substantive reporting. Prospective governance only: no historical reclassification, classifier/evidence changes, reopened membership/quest research or new experimental authority. [Review package](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/research-methodology-evidence-standards.md`); no staging, commit or push.
 
 **Latest partial handoff — SOR-EXP-0010 / SOR-EV-0016, 2026-10-09:** [alternate identity and membership completion research](experiments/active-outpost-membership-completion.md) tests conditional initial cases 4–7, identifies HIST-0016 as case 6 with omitted flags, and adds three installed faction beacon/template definitions. Fresh challenge: 412 labels / 389 hashes, 409 full framings / three size limits, 1,804 inline diagnostics plus 21 alternate template leads in seven historical labels. All active-player results remain INDETERMINATE; no decoded IsDeleted-set candidate. Maintainer explains quest hand-in removes faction-outpost control and defers resolving quest status in saves; HIST-0016 ground truth remains unknown. Quest FormIDs and activation-blocking leads are retained. A remains partial, B unachieved; offline methods are not claimed exhausted. SOR-D-0026 shelves IsDeleted and supersedes the old deletion-test recommendation. Final review/check limits are linked from the report. No live work, staging, commit, push or publication; critical review pending.
 
@@ -1649,7 +1649,7 @@ remain. No launch/deployment/staging/commit/push; critical review required.
 
 **Latest bounded result — SOR-EXP-0003 / SOR-EV-0009, 2026-10-07:** [S0–S7C offline analysis](experiments/manual-save-corpus-S0-S7C.md) completed the invoked manual-corpus brief. All 17 copies verified; chunked-zlib transforms and exact rename/move/link/deletion byte lifecycles observed. SOR-F-0009 records SAVE facts; SOR-ST-0010–0013 are provisional semantic candidates. Kreet is supported as the site label; Narion is a script-name lead only; planetary coordinates and actor/outpost association remain incompletely resolved. Combat window unresolved. Await critical review; no live work, staging, commit or push. Earlier “next active task” descriptions below predate this completed offline pass; native saving remains deferred.
 
-**Current direction — SOR-D-0021:** native save automation is optional/unresolved, not a project dependency. Manual differential saves and live outpost observation are primary supported paths. The [final one-shot software-breakpoint attempt](implementation-briefs/EXP0002A-final-software-attempt.md) ended with zero request captures: **DEFERRED_NO_MATERIAL_ADVANCE**. This phase of native-save investigation is closed/deferred. No further S1.5, backend or hardware retry for EXP-0002A native-save instrumentation. The next active project task is [resumed beacon research](experiments/EXP0002-manual-beacon-resumption.md) using manual checkpoints. Native-save revisits require a specific new reason from central outpost evidence and separate review. Stage C is not authorized. No commit/push.
+**Current direction — SOR-D-0021:** native save automation is optional/unresolved, not a project dependency. Manual differential saves and live outpost observation are primary supported paths. The [final one-shot software-breakpoint attempt](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/EXP0002A-final-software-attempt.md`) ended with zero request captures: **DEFERRED_NO_MATERIAL_ADVANCE**. This phase of native-save investigation is closed/deferred. No further S1.5, backend or hardware retry for EXP-0002A native-save instrumentation. The next active project task is [resumed beacon research](experiments/EXP0002-manual-beacon-resumption.md) using manual checkpoints. Native-save revisits require a specific new reason from central outpost evidence and separate review. Stage C is not authorized. No commit/push.
 
 EXP0002 outpost/beacon research is ready to resume using manual controlled saves.
 
@@ -1657,16 +1657,16 @@ The decision to defer EXP-0002A does not deprecate debugger use elsewhere in the
 
 The dated EXP0002A holds/results below are preserved history; they do not block the overall outpost programme.
 
-**Prior offline evidence/review hold, 2026-10-07:** [dump comparison](audits/exp0002a-crash-dump-comparison.md), SOR-EV-0007 / SOR-F-0008, finds both failed DR0 runs at REQUEST_ENTRY with STATUS_SINGLE_STEP, matching stacks and WER signature. The S2 faulting TID is the selected DR0 owner. This establishes scoped runtime entry reachability, not a successful adapter capture, complete save contract or root cause. Both original runs remain INCOMPLETE_PRE_CAPTURE_TARGET_EXIT. S1.5 (matched selected-thread lifecycle without DR writes) is recommended for separate review only; no new live authority. Stage C remains blocked. Earlier dated/status statements below are retained as historical; their no-runtime/no-entry-evidence statements are superseded only to this narrow dump-derived extent.
+**Prior offline evidence/review hold, 2026-10-07:** [dump comparison](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-crash-dump-comparison.md`), SOR-EV-0007 / SOR-F-0008, finds both failed DR0 runs at REQUEST_ENTRY with STATUS_SINGLE_STEP, matching stacks and WER signature. The S2 faulting TID is the selected DR0 owner. This establishes scoped runtime entry reachability, not a successful adapter capture, complete save contract or root cause. Both original runs remain INCOMPLETE_PRE_CAPTURE_TARGET_EXIT. S1.5 (matched selected-thread lifecycle without DR writes) is recommended for separate review only; no new live authority. Stage C remains blocked. Earlier dated/status statements below are retained as historical; their no-runtime/no-entry-evidence statements are superseded only to this narrow dump-derived extent.
 
-**Historical S1/S2 controls:** S0 no-debugger manual save passed and is archived; S1 debugger-without-DR0 save passed and is archived. S2 armed only the reviewed game-window thread, then the game exited after one click with no REQUEST_ENTRY evidence. A remaining pre-exit-notification cleanup defect is recorded; both processes are gone and sync completed. Crash dumps are secured locally. No widening/rerun or Stage C. The entire 0.1.2 evidence remains unchanged. [Full 0.1.3 audit](audits/exp0002a-adapter-0.1.3.md).
+**Historical S1/S2 controls:** S0 no-debugger manual save passed and is archived; S1 debugger-without-DR0 save passed and is archived. S2 armed only the reviewed game-window thread, then the game exited after one click with no REQUEST_ENTRY evidence. A remaining pre-exit-notification cleanup defect is recorded; both processes are gone and sync completed. Crash dumps are secured locally. No widening/rerun or Stage C. The entire 0.1.2 evidence remains unchanged. [Full 0.1.3 audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-adapter-0.1.3.md`).
 
 
-**Historical result — adapter 0.1.2:** the authorized Stage-B attempt reached ARMED on 92 existing threads. The operator clicked New Save once, then Starfield exited before any REQUEST_ENTRY capture. Evidence is incomplete; the controller exit-event recovery defect is recorded separately. Both processes are gone, the user reports Steam sync finished, and protected Save3 hashes remain unchanged. No retry or substantive adapter fix before review. Stage C remains blocked. [Live audit](audits/exp0002a-adapter-0.1.2.md).
+**Historical result — adapter 0.1.2:** the authorized Stage-B attempt reached ARMED on 92 existing threads. The operator clicked New Save once, then Starfield exited before any REQUEST_ENTRY capture. Evidence is incomplete; the controller exit-event recovery defect is recorded separately. Both processes are gone, the user reports Steam sync finished, and protected Save3 hashes remain unchanged. No retry or substantive adapter fix before review. Stage C remains blocked. [Live audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-adapter-0.1.2.md`).
 
 **As of:** 2026-10-07 (Australia/Sydney).
 
-**Historical review hold:** SOR-D-0017 / [adapter 0.1.1 qualification](audits/exp0002a-adapter-0.1.1.md): arm only the population existing at ARMED; record later threads without DR0. Focused existing-thread capture, new-thread-only NO_HIT and post-flush destructive-recovery controls passed. Complete evidence survives cleanup failure as a separate result dimension. The 0.1.0 dynamic-new-thread retirement failure remains unchanged; user reports manually terminating PID 16100 after review, no further cleanup needed. No Starfield launch/attachment or deployment; live entry remains disabled. Steam without SFSE, loaded-module absence checks, Stage-A preservation and Stage-C gate remain.
+**Historical review hold:** SOR-D-0017 / [adapter 0.1.1 qualification](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-adapter-0.1.1.md`): arm only the population existing at ARMED; record later threads without DR0. Focused existing-thread capture, new-thread-only NO_HIT and post-flush destructive-recovery controls passed. Complete evidence survives cleanup failure as a separate result dimension. The 0.1.0 dynamic-new-thread retirement failure remains unchanged; user reports manually terminating PID 16100 after review, no further cleanup needed. No Starfield launch/attachment or deployment; live entry remains disabled. Steam without SFSE, loaded-module absence checks, Stage-A preservation and Stage-C gate remain.
 
 **Historical pre-pivot stage:** EXP0002 paused after review 14 A0/A0C. [SOR-EXP-0002A](experiments/SOR-EXP-0002A-native-save-thread-mapping.md) Stage A maps static UI/request/serializer/finalizer candidates. Stage B setup attempts acquired no manual-save trace; default TLS breakpoint deviation and later missing-pause failure retained. User exited normally, sync complete, no manual save. Parents unchanged; incidental exit save copied/verified without deletion. Stage C not entered; observer 0.1.0 not built. Native save/GetWorkshop execution context remains unqualified.
 
@@ -1684,7 +1684,7 @@ The dated EXP0002A holds/results below are preserved history; they do not block 
 
 ## Most useful next question
 
-Preparation handoff: [SOR-EXP-0002 preparation](experiments/SOR-EXP-0002-outpost-membership-reload-location.md), [evidence](experiments/evidence/exp0002-preparation/README.md), [audit](audits/exp0002-preparation-validation.md). SOR-ENV-0002 revalidated seven prior input hashes. SOR-SAMPLE-0001 original/backup match again in Gate B preflight. SOR-P-0001 approves the sole MIT SFSE header. Static operand and synthetic selection/record checks do not establish live ABI/lifetime safety. The [Gate B run record](experiments/EXP0002-gate-b-run.md) now controls current package selection and execution status; older Gate-A-only statements describe preparation history.
+Preparation handoff: [SOR-EXP-0002 preparation](experiments/SOR-EXP-0002-outpost-membership-reload-location.md), [evidence](experiments/evidence/exp0002-preparation/README.md), [audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002-preparation-validation.md`). SOR-ENV-0002 revalidated seven prior input hashes. SOR-SAMPLE-0001 original/backup match again in Gate B preflight. SOR-P-0001 approves the sole MIT SFSE header. Static operand and synthetic selection/record checks do not establish live ABI/lifetime safety. The [Gate B run record](experiments/EXP0002-gate-b-run.md) now controls current package selection and execution status; older Gate-A-only statements describe preparation history.
 
 SOR-F-0005 adds STATIC coordinate-name/registration evidence only: reference position/location APIs, CK latitude/longitude labels and retail name-binding addresses. Units/frame/outpost association and persistence remain UNKNOWN. New function/state candidates are not safe integration points. No runtime/save claim strengthened.
 
@@ -1694,7 +1694,7 @@ Callback static 0x142073cf0 (RVA 0x02073cf0) tail-jumps into keyed lookup 0x1405
 
 ## Limits and review status
 
-No public report was treated as reproduced. xEdit interpretation has no second-parser validation; source-to-PEX identity is unchecked; vocabulary/capture caps and missing PKIN/robot details remain documented. Actual preservation/repository checks are in [the audit](audits/initial-reconnaissance-validation.md). Raw inputs/exports remain local and ignored; the evidence index carries locators/hashes only.
+No public report was treated as reproduced. xEdit interpretation has no second-parser validation; source-to-PEX identity is unchecked; vocabulary/capture caps and missing PKIN/robot details remain documented. Actual preservation/repository checks are in [the audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/initial-reconnaissance-validation.md`). Raw inputs/exports remain local and ignored; the evidence index carries locators/hashes only.
 
 The only third-party code reuse is approved SFSE PluginAPI.h under SOR-P-0001. Maintainer-owned native-core adaptation and offline validator reuse are separately recorded under SOR-P-0002/SOR-S-0122. No broader dependency incorporation, upstream communication, fork/PR, stage/commit/push or publication. Initial user-operated xEdit readers remain as previously recorded. SOR-EXP-0001 read no saves. SOR-EXP-0002 has now loaded the authorized parent through user UI; researcher save access remained protected-parent integrity checks and post-exit archival of the incidental exit save, without semantic parsing. Protected Save2 contents were not accessed. SOR-S-0118 credits read-only SFSE source diagnosis; no hook code was incorporated.
 
@@ -1705,7 +1705,7 @@ The 2026-10-01 scaffold had no verified baseline or findings; that state is supe
 
 ### Offline correction after first Gate B attempt
 
-The user requested operator-confirmed settled checkpoints and fresh live-state consistency checks, with no mandatory SFSE load-message gate. This is implemented for offline review in the [synchronization correction](audits/exp0002-settled-correction.md). A2R reacquires all game identities/context in a new task; optional event counters are telemetry only. The existing failed-attempt evidence is preserved. No deployment, live rerun, debugger or commit is authorized until the user reviews this correction. No outpost or persistence finding is strengthened.
+The user requested operator-confirmed settled checkpoints and fresh live-state consistency checks, with no mandatory SFSE load-message gate. This is implemented for offline review in the [synchronization correction](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002-settled-correction.md`). A2R reacquires all game identities/context in a new task; optional event counters are telemetry only. The existing failed-attempt evidence is preserved. No deployment, live rerun, debugger or commit is authorized until the user reviews this correction. No outpost or persistence finding is strengthened.
 
 Subsequent SOR-D-0013 approval superseded that correction's pre-review stop for review 14 only. Live A0/A0C now demonstrate zero-message capture; SOR-EV-0004 records the new thread-affinity limitation. Static header wording must not be promoted to runtime main-thread proof. No outpost membership, coordinate-frame, persisted-state or safe-query finding is established.
 

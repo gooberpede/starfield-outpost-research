@@ -1,6 +1,6 @@
 # D5L independent review and exact delivery
 
-[Original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5L_first_construction_retained_population.md),
+[Original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5L_first_construction_retained_population.md`),
 [report](report.md), [validation](validation.md), [proposed card](run-card.md).
 **ACCEPT for the original Phase A contract.** Independent full review accepted
 the exact candidate below. Live execution, integration and publication remain

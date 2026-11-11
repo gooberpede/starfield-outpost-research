@@ -16,7 +16,7 @@ than a periodic eviction rule. Six is a configured ordinary threshold, not an
 unmodifiable engine ceiling.
 
 2026-10-19, Australia/Sydney. SOR-EXP-0051 / SOR-EV-0059.
-[Brief](../../implementation-briefs/CODEX_BRIEF_SOR_L1_numerical_perk_limits.md),
+[Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_L1_numerical_perk_limits.md`),
 [frozen plan](plan.md), [native explanation](native.md), [save corroboration](saves.md),
 [recipe census](recipes.csv), [category census](categories.csv),
 [function register](functions.csv), [source pins](sources.csv), [review](review.md).

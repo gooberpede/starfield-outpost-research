@@ -1,6 +1,6 @@
 # C2D: installed surface trees predict Carinae's surface pattern
 
-2026-10-23, Australia/Sydney. [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md).
+2026-10-23, Australia/Sydney. [Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md`).
 Offline only. Authored synthesis and selected derivatives are REVIEW-REQUIRED;
 native exports, complete tables, geometry and captures remain LOCAL-ONLY.
 B6 and publication remain on hold. No live test was performed.

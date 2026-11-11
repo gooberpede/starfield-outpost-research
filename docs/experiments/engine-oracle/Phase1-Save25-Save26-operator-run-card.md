@@ -8,7 +8,7 @@ retains launch/gameplay/load/exit control. [Live ledger](Phase1-live-session.md)
 2026-10-10 Australia/Sydney. SOR-EXP-0022 / SOR-EV-0030 / SOR-D-0041.
 **PROPOSED / REVIEW-REQUIRED. Do not begin the scientific session until reviewed
 and separately authorized.** Deployment and the smoke test are complete; this
-card grants no new live authority. [Actual installed preflight](../../audits/observer-011-post-deployment-preflight.md)
+card grants no new live authority. [Actual installed preflight](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/observer-011-post-deployment-preflight.md`)
 passes. [Frozen comparisons](validation-protocol.md) and
 [native oracle contract](oracle-contract.md) remain the scientific basis.
 

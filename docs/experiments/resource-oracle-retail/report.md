@@ -1,6 +1,6 @@
 # RG2-C1D: first native spatial resource capture
 
-2026-10-22 Australia/Sydney. [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md). Authored work REVIEW-REQUIRED; raw evidence LOCAL-ONLY; publication NOT CLEARED. B6 and frozen predictions unchanged.
+2026-10-22 Australia/Sydney. [Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md`). Authored work REVIEW-REQUIRED; raw evidence LOCAL-ONLY; publication NOT CLEARED. B6 and frozen predictions unchanged.
 
 The third bounded retail attempt captured a complete **P3-bound spatial refresh transfer input containing Ionic Liquids and Copper**. This is new native resource-population evidence for Save52 / Feynman V “Cu Co Ni IL”, independent of the familiar menu image and conditional offline geometry. It confirms the scoped native resource-availability disagreement identified in F1. It does not locate the underlying veins or establish when their geometry was generated.
 

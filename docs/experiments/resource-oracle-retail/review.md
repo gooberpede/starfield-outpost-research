@@ -1,6 +1,6 @@
 # C1D independent review and delivery
 
-[Original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md), [report/matrix](report.md), [implementation](implementation.md), [card](run-card.md).
+[Original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md`), [report/matrix](report.md), [implementation](implementation.md), [card](run-card.md).
 
 The brief explicitly requires a fresh independent critic. That critic inspected native sources, source-to-code correspondence, real Windows synthetic fixtures and actual retail receipts. Prelive REWORK corrected stale invocation binding, unqualified cache ancestry, missing four-slot fixture coverage, premature partial STOP, transfer ancestry scope, buffered ACK/STOP handling and stale source-file identity flags. Final build14/qualification11 readiness was independently ACCEPTED after matching source/binary pins and all116 recorded fixture hashes. Earlier failures and dispositions remain local.
 

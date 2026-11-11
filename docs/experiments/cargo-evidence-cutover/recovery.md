@@ -2,7 +2,7 @@
 
 **DELETION NOT AUTHORIZED. Policy activation is not authorized.**
 Use the [report](report.md), [method instructions](../../../research/evidence-access/README.md)
-and frozen [brief](../../implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md).
+and frozen [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md`).
 The proposal covers 1,051 exact archived originals, not a directory wildcard.
 Three unarchived `package.py` versions remain held unchanged.
 The final conservative projection is 13,594,624 bytes of net file-data allocation

@@ -167,7 +167,7 @@ or recover the original event timeline.
 the historical reload evidence and original native evidence at the
 original-witness tier.
 [Order derivation and limits](../experiments/power/save29-authority.md#ordering-provenance-and-bounded-save29-derivation) ·
-[Claim and access crosswalk](../audits/production-guides-d5ba/claims.md).
+[Claim and access crosswalk](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/production-guides-d5ba/claims.md`).
 
 Run from the checkout root in PowerShell 7. The script reads the
 beacon's stored target order from the report and projects the two

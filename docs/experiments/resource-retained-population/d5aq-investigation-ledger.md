@@ -1,7 +1,7 @@
 # D5AQ active investigation ledger
 
 2026-11-04, Australia/Sydney. Original authority and Q1–Q4/AC01–09 are frozen in
-the [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AQ_ordinary_construction_mask_invariance.md).
+the [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AQ_ordinary_construction_mask_invariance.md`).
 Parent GC-10 asks: **What determines the resource construction winner under
 ordinary gameplay, and how consistently does that mechanism operate?** GC-10
 and D5R remain OPEN. Authored work is REVIEW-REQUIRED; raw evidence LOCAL-ONLY.

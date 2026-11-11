@@ -1,7 +1,7 @@
 # Fallback-grid independent review and package
 
 2026-10-12. [Report](../fallback-grid-provenance.md),
-[authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_fallback_grid_provenance_and_workflow_policy.md).
+[authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_fallback_grid_provenance_and_workflow_policy.md`).
 
 The independently accepted disposition is **COMPLETE — EVIDENCE-BOUND NEGATIVE** for the
 saved-instance/selected-Workshop join. The marker/base provenance and scoped

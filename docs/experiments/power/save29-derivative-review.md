@@ -1,6 +1,6 @@
 # Save29 derivative preparation review ledger
 
-2026-10-17. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_control_reversal_overpower_preparation.md),
+2026-10-17. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_control_reversal_overpower_preparation.md`),
 [answer and method](save29-derivatives.md), [prospective player card](save29-derivative-card.md).
 Frozen acceptance is the brief's alternative: controlled C/R/O candidates **or**
 specific evidenced NO-GO without misleading readiness claims. This ledger does

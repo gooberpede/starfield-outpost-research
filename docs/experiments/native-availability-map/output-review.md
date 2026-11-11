@@ -1,6 +1,6 @@
 # Output-contract review and verification package
 
-2026-10-16, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_native_availability_output_contracts_completion.md),
+2026-10-16, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_availability_output_contracts_completion.md`),
 [mandatory matrix](completion-assessment.md#frozen-mandatory-criterion-matrix),
 [native reference](output-contract.md), [path assessment](output-paths.md).
 Scientific assessment: **CONDITIONALLY COMPLETE** within the stated research

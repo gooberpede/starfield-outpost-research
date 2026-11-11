@@ -1,6 +1,6 @@
 # Save-menu identification utility — 2026-10-14
 
-**COMPLETE — PASS for the brief's practical sufficiency contract; maintainer/ChatGPT review pending.** Single primary agent, no independent reviewer or sub-agents, as explicitly required by the [authorized brief](../implementation-briefs/CODEX_BRIEF_SOR_save_menu_identification_utility.md). This operational result does not promote outpost findings or authorize integration, live work or publication.
+**COMPLETE — PASS for the brief's practical sufficiency contract; maintainer/ChatGPT review pending.** Single primary agent, no independent reviewer or sub-agents, as explicitly required by the [authorized brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_save_menu_identification_utility.md`). This operational result does not promote outpost findings or authorize integration, live work or publication.
 
 |Element|Supported result|
 |---|---|

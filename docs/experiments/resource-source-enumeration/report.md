@@ -1,6 +1,6 @@
 # C2C: Carinae's retained surface pattern explains the missing source
 
-2026-10-23, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md).
+2026-10-23, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md`).
 Offline research only. Authored synthesis is REVIEW-REQUIRED; primary native,
 save, definition and full generated-geometry artifacts remain LOCAL-ONLY.
 B6 and publication remain on hold.

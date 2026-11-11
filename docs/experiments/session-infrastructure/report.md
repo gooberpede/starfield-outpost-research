@@ -2,7 +2,7 @@
 
 **COMPLETE — PASS (offline engineering); critical review pending.**
 2026-10-15, Australia/Sydney. This single-agent assignment follows the
-[authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_live_experiment_infrastructure_consolidation.md).
+[authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_live_experiment_infrastructure_consolidation.md`).
 The explicit no-sub-agent exception replaces routine independent-agent review;
 the maintainer and ChatGPT review this package. No self-summary grants integration.
 

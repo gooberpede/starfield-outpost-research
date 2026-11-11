@@ -2,7 +2,7 @@
 
 2026-11-01. **Independent review03 ACCEPT; D5AC COMPLETE.** This record does not
 approve integration or publication. Parent D5R OPEN; cold-first unproved.
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AC_B2_epoch_cold_state_reconstruction.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AC_B2_epoch_cold_state_reconstruction.md`),
 [active ledger](d5ac-investigation-ledger.md), [report/matrix](d5ac-report.md),
 [tests](d5ac-tests.md), [source locator](d5ac-sources.md).
 

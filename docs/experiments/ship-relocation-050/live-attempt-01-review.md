@@ -1,6 +1,6 @@
 # Scientific attempt 01 — completion and review
 
-2026-10-13. [Governing brief](../../implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md),
+2026-10-13. [Governing brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md`),
 [approved run card](run-card.md), [scientific report](live-attempt-01.md).
 **Independent scientific decision: ACCEPT.** All scoped reporting criteria below pass; full durable equivalence remains NOT TESTED.
 

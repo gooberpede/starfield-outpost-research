@@ -1,6 +1,6 @@
 # Offline Q branch candidate review package
 
-2026-10-12. [Contract](../../implementation-briefs/CODEX_BRIEF_SOR_Q_branch_observations_offline.md),
+2026-10-12. [Contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_Q_branch_observations_offline.md`),
 [qualification/matrix](qualification.md), [schema](../../../runtime/native-oracle-030/schema.md).
 **Independent disposition: ACCEPT — offline engineering complete.** The reviewed
 candidate remains unintegrated and not live-qualified.

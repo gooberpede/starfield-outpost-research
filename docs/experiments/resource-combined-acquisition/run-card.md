@@ -2,7 +2,7 @@
 
 **PHASE B NOT AUTHORIZED. DO NOT LAUNCH OR ATTACH TO STARFIELD.**
 
-2026-10-25, Australia/Sydney. Prepared under the [Phase A brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md). This is a proposal for separate explicit maintainer approval. Independent Phase A ACCEPT does not approve execution. [Native contract](native.md), [result classes](report.md), [qualification/review](review.md).
+2026-10-25, Australia/Sydney. Prepared under the [Phase A brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md`). This is a proposal for separate explicit maintainer approval. Independent Phase A ACCEPT does not approve execution. [Native contract](native.md), [result classes](report.md), [qualification/review](review.md).
 
 ## Exact target and information value
 

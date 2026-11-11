@@ -1,7 +1,7 @@
 # Allocation-order and switch-persistence follow-up contract
 
 2026-10-17. Continuation of SOR-EXP-0041 / SOR-EV-0049.
-[Authorized follow-up brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_power_order_switch_persistence_followup.md).
+[Authorized follow-up brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_order_switch_persistence_followup.md`).
 Original mandatory questions remain unchanged. Preserve the existing uncommitted
 P1 package, its review history and protected evidence; corrections need explicit
 support and must retain their earlier interpretation as history.

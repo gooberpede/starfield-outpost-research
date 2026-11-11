@@ -1,6 +1,6 @@
 # Independent review and delivery record
 
-2026-10-24, Australia/Sydney. Original [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D3_save52_discrepancies_coverage.md),
+2026-10-24, Australia/Sydney. Original [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D3_save52_discrepancies_coverage.md`),
 [contract](contract.md), [report](report.md), [validation](validation.md).
 
 The separate reviewer was invoked with a fresh context under the repository's

@@ -1,7 +1,7 @@
 # D1 reconnaissance contract
 
 2026-10-16, Australia/Sydney. Authority: the user explicitly invoked the
-[unchanged D1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_D1_disappearing_deposits_reconnaissance.md).
+[unchanged D1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_D1_disappearing_deposits_reconnaissance.md`).
 This is one integrated attempt, including one independent read-only review and
 ordinary factual/formatting corrections. Publication classification: REVIEW-REQUIRED.
 

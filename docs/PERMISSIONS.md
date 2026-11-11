@@ -13,23 +13,23 @@ safe acquisition still require independent proof; this grant supplies no such pr
 
 ## RG2-D5C offline population lifecycle — 2026-10-25
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5C_resource_source_population_lifecycle.md) authorizes bounded offline native/evidence inspection, existing-state read-only exports, authored research and independent review. [Per-use provenance](experiments/resource-population-lifecycle/sources.csv) preserves SOR-P-0002 methods. No retail session, target attachment, save loading, regeneration, save/content/configuration/analysis-content mutation, outside incorporation, contact/disclosure, staging, commit, push or publication is authorized or performed. The follow-on acquisition is a design-only draft and requires separate qualification and approval.
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5C_resource_source_population_lifecycle.md`) authorizes bounded offline native/evidence inspection, existing-state read-only exports, authored research and independent review. [Per-use provenance](experiments/resource-population-lifecycle/sources.csv) preserves SOR-P-0002 methods. No retail session, target attachment, save loading, regeneration, save/content/configuration/analysis-content mutation, outside incorporation, contact/disclosure, staging, commit, push or publication is authorized or performed. The follow-on acquisition is a design-only draft and requires separate qualification and approval.
 
 ## RG2-D5B Phase A — 2026-10-25
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md) authorizes offline implementation, protected-input reads/copies, actual disposable Windows debugger qualification and independent review. [Lineage](experiments/resource-combined-acquisition/sources.csv) remains under SOR-P-0002. The proposed Phase B card is not execution authority. No retail launch/attachment, save/configuration/analysis mutation, outside incorporation, contact/disclosure, staging, commit, push, cleanup or publication is authorized or performed.
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md`) authorizes offline implementation, protected-input reads/copies, actual disposable Windows debugger qualification and independent review. [Lineage](experiments/resource-combined-acquisition/sources.csv) remains under SOR-P-0002. The proposed Phase B card is not execution authority. No retail launch/attachment, save/configuration/analysis mutation, outside incorporation, contact/disclosure, staging, commit, push, cleanup or publication is authorized or performed.
 
 ## RG2-D5A offline source selection — 2026-10-25
 
-The explicitly invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md) authorizes bounded offline analysis, authored outputs and independent review. [Per-use pins](experiments/resource-construction-mask-selection/sources.csv) preserve SOR-P-0002 method lineage. No live action, protected-input mutation, observer deployment, outside incorporation, licence acceptance, external contact/disclosure, staging, commit, push or publication is authorized or performed. The combined observer in the proposed card remains design-only and requires offline engineering qualification plus separate explicit live authority.
+The explicitly invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md`) authorizes bounded offline analysis, authored outputs and independent review. [Per-use pins](experiments/resource-construction-mask-selection/sources.csv) preserve SOR-P-0002 method lineage. No live action, protected-input mutation, observer deployment, outside incorporation, licence acceptance, external contact/disclosure, staging, commit, push or publication is authorized or performed. The combined observer in the proposed card remains design-only and requires offline engineering qualification plus separate explicit live authority.
 
 ## RG2-D5 offline Feynman reconciliation — 2026-10-25
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5_feynman_construction_mask_component_selection.md) authorizes offline reads, first-party screenshot intake, owned analytical adaptation and independent review. [Per-use provenance](experiments/resource-feynman-d5/sources.csv) retains SOR-P-0002 lineage. No new outside incorporation, licence acceptance, external contact/disclosure, live action, save/configuration/analysis-content mutation, staging, commit, push or publication is authorized or performed. The proposed live card requires separate approval; raw payloads stay LOCAL-ONLY and authored work REVIEW-REQUIRED.
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5_feynman_construction_mask_component_selection.md`) authorizes offline reads, first-party screenshot intake, owned analytical adaptation and independent review. [Per-use provenance](experiments/resource-feynman-d5/sources.csv) retains SOR-P-0002 lineage. No new outside incorporation, licence acceptance, external contact/disclosure, live action, save/configuration/analysis-content mutation, staging, commit, push or publication is authorized or performed. The proposed live card requires separate approval; raw payloads stay LOCAL-ONLY and authored work REVIEW-REQUIRED.
 
 ## RG2-D4E offline component-slot provenance — 2026-10-25
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md) authorizes offline native/installed reads, owned analytical adaptation, synthetic tests and independent review. [Per-use provenance](experiments/resource-slot-provenance/sources.csv) retains SOR-P-0002 lineage. No new outside incorporation, licence acceptance, contact/disclosure, retail launch/attachment, save/configuration/analysis-content mutation, staging, commit, push or publication is authorized or performed. Derived corpora, exports and raw receipts remain LOCAL-ONLY; authored work remains REVIEW-REQUIRED. B6 stays on hold.
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md`) authorizes offline native/installed reads, owned analytical adaptation, synthetic tests and independent review. [Per-use provenance](experiments/resource-slot-provenance/sources.csv) retains SOR-P-0002 lineage. No new outside incorporation, licence acceptance, contact/disclosure, retail launch/attachment, save/configuration/analysis-content mutation, staging, commit, push or publication is authorized or performed. Derived corpora, exports and raw receipts remain LOCAL-ONLY; authored work remains REVIEW-REQUIRED. B6 stays on hold.
 
 ## D4D one-session Phase B — 2026-10-24
 
@@ -37,19 +37,19 @@ The maintainer explicitly [approved the exact Phase B card](experiments/resource
 
 ## RG2-D4D Phase A — 2026-10-24
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4D_owner_root_component_acquisition.md) authorizes offline native reads, original code, real disposable Windows debugger fixtures, protected-input audits, scratch restoration rehearsal and authored review records. [Per-use lineage](experiments/resource-owner-acquisition/sources.csv) records existing maintainer methods under SOR-P-0002. No new third-party incorporation, retail launch/attachment, save/configuration change, external disclosure, staging, commit, push or publication is authorized. The [Phase B card](experiments/resource-owner-acquisition/run-card.md) requires a new explicit approval naming its exact build. Independent Phase A review grants no live or integration authority.
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4D_owner_root_component_acquisition.md`) authorizes offline native reads, original code, real disposable Windows debugger fixtures, protected-input audits, scratch restoration rehearsal and authored review records. [Per-use lineage](experiments/resource-owner-acquisition/sources.csv) records existing maintainer methods under SOR-P-0002. No new third-party incorporation, retail launch/attachment, save/configuration change, external disclosure, staging, commit, push or publication is authorized. The [Phase B card](experiments/resource-owner-acquisition/run-card.md) requires a new explicit approval naming its exact build. Independent Phase A review grants no live or integration authority.
 
 ## RG2-D4C offline owner-root investigation — 2026-10-24
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4C_owner_root_map_archimedes.md) authorizes the performed offline reads, read-only static exports, owned logical evaluator, conditional predictions and synthetic tests. [Pins](experiments/resource-owner-root/sources.csv) retain SOR-P-0002 provenance. No third-party incorporation, new licence acceptance, contact/disclosure, live operation, protected-input mutation, staging, commit, push or publication occurred. The [prospective card](experiments/resource-owner-root/run-card.md) remains unimplemented and needs fresh qualification plus separate explicit live approval.
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4C_owner_root_map_archimedes.md`) authorizes the performed offline reads, read-only static exports, owned logical evaluator, conditional predictions and synthetic tests. [Pins](experiments/resource-owner-root/sources.csv) retain SOR-P-0002 provenance. No third-party incorporation, new licence acceptance, contact/disclosure, live operation, protected-input mutation, staging, commit, push or publication occurred. The [prospective card](experiments/resource-owner-root/run-card.md) remains unimplemented and needs fresh qualification plus separate explicit live approval.
 
 ## RG2-D4B offline research and synthetic teardown repair — 2026-10-24
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md) authorizes bounded offline source/evidence reads and exports, owned collector adaptation, diagnostic replay and actual disposable Windows debugging fixtures. [Source pins](experiments/resource-tungsten-repair/sources.csv) preserve SOR-P-0002 lineage. No new outside incorporation, licence acceptance, contact, external disclosure, retail launch/attachment, save/configuration/analysis-content mutation, staging, commit, push, fork/PR or publication was performed. The unimplemented prospective owner-map acquisition card needs separate qualification and explicit live approval. Original D4A evidence and teardown FAIL remain immutable; B6 remains on hold.
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md`) authorizes bounded offline source/evidence reads and exports, owned collector adaptation, diagnostic replay and actual disposable Windows debugging fixtures. [Source pins](experiments/resource-tungsten-repair/sources.csv) preserve SOR-P-0002 lineage. No new outside incorporation, licence acceptance, contact, external disclosure, retail launch/attachment, save/configuration/analysis-content mutation, staging, commit, push, fork/PR or publication was performed. The unimplemented prospective owner-map acquisition card needs separate qualification and explicit live approval. Original D4A evidence and teardown FAIL remain immutable; B6 remains on hold.
 
 ## RG2-D3 offline discrepancies and coverage — 2026-10-24
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D3_save52_discrepancies_coverage.md)
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D3_save52_discrepancies_coverage.md`)
 authorizes bounded installed/source/evidence reads, versioned owned predictor
 adaptation, offline replay and independent review. [Provenance](experiments/resource-save52-d3/sources.csv)
 retains SOR-P-0002 methods and the maintainer's eight supplied screenshots.
@@ -60,7 +60,7 @@ requires separate reviewed qualification and explicit live approval. B6 remains 
 
 ## RG2-D2 offline Save52-wide validation — 2026-10-24
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md)
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md`)
 authorizes performed read-only Save52/installed-definition work, owned analytical
 adaptation, isolated inference, post-freeze comparison and independent review.
 [Per-use provenance](experiments/resource-save52/sources.csv) retains SOR-P-0002
@@ -71,7 +71,7 @@ card is unexecuted and requires separate finalized qualification and approval.
 
 ## RG2-D1 offline portable geometry — 2026-10-24
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md)
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md`)
 authorizes fresh read-only installed extraction, owned code adaptation and
 isolated local prediction/tests. [Per-use pins](experiments/resource-standalone/sources.csv)
 cover SOR-P-0002 methods and primary evidence. No third-party incorporation,
@@ -81,7 +81,7 @@ specifications REVIEW-REQUIRED; code publication remains undecided.
 
 ## RG2-C2D offline surface selection — 2026-10-23
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md)
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md`)
 authorizes the performed offline installed-data reads, bounded existing-state
 native exports and original calculations/tests. Owned RG1/C2C/C1H/ESM-reader,
 Ghidra export, protection and review methods retain [per-use pins](experiments/resource-pattern-selection/sources.csv)
@@ -92,7 +92,7 @@ independent acceptance and maintainer integration are separate.
 
 ## RG2-C2C offline source-enumeration research — 2026-10-23
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md)
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md`)
 authorizes existing protected input reads, original analytical code and bounded
 offline generation/tests. [Per-use provenance](experiments/resource-source-enumeration/sources.csv)
 retains unchanged owned methods under SOR-P-0002. No new third-party incorporation,
@@ -117,7 +117,7 @@ remain under SOR-P-0002; no new third-party incorporation or disclosure occurred
 
 ## C2B prospective transient-save correction — 2026-10-23
 
-The invoked [amendment](implementation-briefs/CODEX_AMENDMENT_SOR_C2B_transient_save_protection.md)
+The invoked [amendment](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_C2B_transient_save_protection.md`)
 authorizes the operational implementation and [prospective policy](SAVE_PROTECTION.md):
 active exitsave/autosave churn is diagnostic only, while designated research,
 manual and quicksaves, backup records and historical evidence remain strict.
@@ -133,19 +133,19 @@ The maintainer approved the [C2A Phase B card](experiments/resource-carinae/run-
 
 ## RG2-C1D bounded retail execution
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md) conditionally authorizes this separate guarded hardware-breakpoint adapter, original fixture execution, protected save copies and first Save52 P3 pilot. User corrections require Steam URI launch and confirm Cloud disabled. SOR-P-0002 covers owned C1B/C1C/Workshop methods with [per-use provenance](experiments/resource-oracle-retail/sources.csv). No third-party incorporation, installation, licence acceptance, contact, disclosure, stage/commit/push or release. Approved outside-sandbox ordinary-user execution is distinct from Windows administrator elevation, which has not been used. B6/old-observer/publication boundaries remain.
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1D_retail_adapter_first_live_oracle_capture.md`) conditionally authorizes this separate guarded hardware-breakpoint adapter, original fixture execution, protected save copies and first Save52 P3 pilot. User corrections require Steam URI launch and confirm Cloud disabled. SOR-P-0002 covers owned C1B/C1C/Workshop methods with [per-use provenance](experiments/resource-oracle-retail/sources.csv). No third-party incorporation, installation, licence acceptance, contact, disclosure, stage/commit/push or release. Approved outside-sandbox ordinary-user execution is distinct from Windows administrator elevation, which has not been used. B6/old-observer/publication boundaries remain.
 
 ## SOR-EXP-0020 — Sustained offline continuation
 
-The user-invoked [follow-up brief](implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_continuous_coordinate_static_exhaustion.md) authorizes performed existing-state static/save/ESM/capture reads and original bounded tools/research records. Prior project methods and separately installed tools retain provenance. No third-party code/assets incorporated, new licence basis accepted, installation, external contact/disclosure, staging, commit, push, fork/PR or live action. No request for additional permission was needed for this offline work. Raw proprietary/capture evidence remains ignored/local; authored selected data and terminal graph claims require critical/publication review. Existing GPL and permission gates unchanged.
+The user-invoked [follow-up brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_continuous_coordinate_static_exhaustion.md`) authorizes performed existing-state static/save/ESM/capture reads and original bounded tools/research records. Prior project methods and separately installed tools retain provenance. No third-party code/assets incorporated, new licence basis accepted, installation, external contact/disclosure, staging, commit, push, fork/PR or live action. No request for additional permission was needed for this offline work. Raw proprietary/capture evidence remains ignored/local; authored selected data and terminal graph claims require critical/publication review. Existing GPL and permission gates unchanged.
 
 ## SOR-EXP-0019 — Offline original research and consultation
 
-The invoked [brief](implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_and_planetary_grid_geometry.md) authorizes the performed offline installed-data/static/capture/numerical work. Existing project readers/math reused; installed tools executed separately; no third-party implementation/assets incorporated, permission basis newly accepted, upstream contact/fork/PR or publication. Both Reddit threads remain access-limited consultation leads. Raw proprietary/capture inputs LOCAL-ONLY; authored research REVIEW-REQUIRED. Existing permissions and GPL text unchanged; proposed live acquisition is not authorized.
+The invoked [brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_and_planetary_grid_geometry.md`) authorizes the performed offline installed-data/static/capture/numerical work. Existing project readers/math reused; installed tools executed separately; no third-party implementation/assets incorporated, permission basis newly accepted, upstream contact/fork/PR or publication. Both Reddit threads remain access-limited consultation leads. Raw proprietary/capture inputs LOCAL-ONLY; authored research REVIEW-REQUIRED. Existing permissions and GPL text unchanged; proposed live acquisition is not authorized.
 
 ## SOR-EXP-0013 — Public consultation only
 
-The invoked [surface-anchor brief](implementation-briefs/CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md) authorizes public-source research and original offline probes. [SOR-S-0130 / prior-art register](experiments/planetary-surface-anchor/prior-art-and-leads.md) records actual consultation and restrictions. No new incorporation permission is granted or needed for the performed citation-only research. CPS's restrictive modification/upload panel and biome projects' MIT labels have **not** been accepted by the user as an implementation/asset-reuse basis. Any future reuse/contact/fork/PR needs its relevant prior scoped gate; no contact or permission request occurred. Raw Bethesda payloads and proprietary exports remain LOCAL-ONLY, selected authored evidence REVIEW-REQUIRED. Existing SOR-P-0002/0003 scope and GPL text are unchanged.
+The invoked [surface-anchor brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_planetary_surface_anchor_semantics.md`) authorizes public-source research and original offline probes. [SOR-S-0130 / prior-art register](experiments/planetary-surface-anchor/prior-art-and-leads.md) records actual consultation and restrictions. No new incorporation permission is granted or needed for the performed citation-only research. CPS's restrictive modification/upload panel and biome projects' MIT labels have **not** been accepted by the user as an implementation/asset-reuse basis. Any future reuse/contact/fork/PR needs its relevant prior scoped gate; no contact or permission request occurred. Raw Bethesda payloads and proprietary exports remain LOCAL-ONLY, selected authored evidence REVIEW-REQUIRED. Existing SOR-P-0002/0003 scope and GPL text are unchanged.
 
 **One scoped third-party header reuse is approved (SOR-P-0001 below).** No broader SDK/library/runtime reuse follows from it.
 
@@ -187,7 +187,7 @@ Original archive/saves and substantial original extracted payload must never be 
 
 ## SOR-EXP-0064 — offline validation preparation
 
-The invoked [RG2-A brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_A_offline_live_validation_preparation.md) authorizes existing-source/save/header reads, original offline math/diagnostics, protected copies and prospective documentation. [Package](experiments/resource-geometry-live-prep/report.md) uses owned RG1/B1/save-menu/packaging methods under SOR-P-0002 with provenance; no new outside implementation, licence acceptance, game/debugger/observer/Creation Kit/Ghidra execution, save/configuration mutation, disclosure or Git mutation. Character names are allowed operator fields; raw saves remain local/untracked. Cards are PROSPECTIVE — NOT AUTHORIZED; B6/publication gates unchanged.
+The invoked [RG2-A brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_A_offline_live_validation_preparation.md`) authorizes existing-source/save/header reads, original offline math/diagnostics, protected copies and prospective documentation. [Package](experiments/resource-geometry-live-prep/report.md) uses owned RG1/B1/save-menu/packaging methods under SOR-P-0002 with provenance; no new outside implementation, licence acceptance, game/debugger/observer/Creation Kit/Ghidra execution, save/configuration mutation, disclosure or Git mutation. Character names are allowed operator fields; raw saves remain local/untracked. Cards are PROSPECTIVE — NOT AUTHORIZED; B6/publication gates unchanged.
 
 ## RG2-D4A one-session Phase B — 2026-10-24
 
@@ -206,7 +206,7 @@ is the unchanged SFSE `sfse/PluginAPI.h`, upstream commit
 grant, retaining copyright, permission and disclaimer. D5P may compile against
 that header and retain its existing notice. No SFSE runtime source or CommonLibSF
 incorporation, installation, live operation or publication follows. The
-[invoked brief](implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md)
+[invoked brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md`)
 authorizes offline implementation and disposable native qualification.
 
 ## D5X pinned SFSE header extension — 2026-10-30

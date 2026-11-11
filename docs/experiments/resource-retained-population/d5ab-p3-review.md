@@ -5,7 +5,7 @@ P3-AC01–AC08 PASS within the offline integration scope.** Engineering/scientif
 and editorial dispositions are accepted on the exact snapshot below. D5AB
 INCOMPLETE / REWORK; D5R OPEN; P4/B2 NOT AUTHORIZED.
 
-[Frozen contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md),
+[Frozen contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md`),
 [report and criterion matrix](d5ab-p3-report.md), [active ledger](d5ab-p3-investigation-ledger.md),
 [scenarios](d5ab-p3-scenarios.md), [transport](d5ab-p3-transport.md),
 [provenance](d5ab-p3-provenance.md), [parent mapping](d5ab-p3-parent-mapping.md).

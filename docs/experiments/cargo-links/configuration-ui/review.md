@@ -1,6 +1,6 @@
 # C1 completion and independent review package
 
-[Frozen brief](../../../implementation-briefs/CODEX_BRIEF_SOR_C1_cargo_link_configuration_ui_save.md),
+[Frozen brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_C1_cargo_link_configuration_ui_save.md`),
 [contract](contract.md), [report](report.md), [native](native.md), [Save52](save52.md),
 [functions](functions.csv), [source pins](sources.csv),
 [research aids](../../../../research/c1-cargo/README.md).

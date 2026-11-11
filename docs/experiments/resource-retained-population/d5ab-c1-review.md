@@ -1,6 +1,6 @@
 # C1 independent completeness and delivery review
 
-2026-10-31, Australia/Sydney. Review against the [original D5AB contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md), [C1 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C1_continuation_assessment.md), actual source/receipts and the [final matrix](d5ab-c1-continuation-matrix.md). D5AB INCOMPLETE / REWORK; B2 NOT AUTHORIZED; B1 PARTIAL; D5AA ESCALATE; D5R OPEN.
+2026-10-31, Australia/Sydney. Review against the [original D5AB contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`), [C1 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C1_continuation_assessment.md`), actual source/receipts and the [final matrix](d5ab-c1-continuation-matrix.md). D5AB INCOMPLETE / REWORK; B2 NOT AUTHORIZED; B1 PARTIAL; D5AA ESCALATE; D5R OPEN.
 
 ## Review scope and independent challenge
 

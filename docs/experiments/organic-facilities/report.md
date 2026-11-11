@@ -1,7 +1,7 @@
 # E2 organic production facility native reference
 
 2026-10-16, Australia/Sydney. SOR-EXP-0039 / SOR-EV-0047.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_E2_organic_facility_native_mapping.md),
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E2_organic_facility_native_mapping.md`),
 [frozen contract](contract.md), [review package](review.md).
 
 | Element | Answer |

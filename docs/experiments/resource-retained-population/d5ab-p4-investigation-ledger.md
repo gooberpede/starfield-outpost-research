@@ -10,7 +10,7 @@
 - **P4-Q4 — Scientific discrimination.** Does the evidence contract distinguish qualified first target construction and direct sampled mask from visited bypass, cache reuse, unsuccessful append, missing target, missing sample, ambiguous identity, partial/lost captures, contradictory counters and session faults? COMPLETE requires tested reducer/observer acceptance and refusal paths and operational outcome definitions, with no promise the target will be observed.
 - **P4-Q5 — Independent final readiness decision.** Is the exact final snapshot professionally and substantively reviewed against the original D5AB contract and the proposed B2 plan, with correct engineering, scientific, editorial and operational verdicts? COMPLETE requires review of source, binaries, receipts, scripts, run card, hazards and counterexamples; reviewer acceptance is not permission to run B2.
 
-The five original AB questions and twelve criteria remain unchanged in the [original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md). All P4 questions are initially INCOMPLETE.
+The five original AB questions and twelve criteria remain unchanged in the [original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`). All P4 questions are initially INCOMPLETE.
 
 ## Admission checkpoint
 

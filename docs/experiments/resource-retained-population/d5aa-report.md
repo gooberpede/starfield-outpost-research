@@ -1,6 +1,6 @@
 # D5AA resource-generation chronology
 
-2026-10-31, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AA_resource_generation_chronology.md),
+2026-10-31, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AA_resource_generation_chronology.md`),
 [active ledger](d5aa-investigation-ledger.md), [chronology](d5aa-b1-chronology.md),
 [native transition map](d5aa-gameplay-transition-map.md), [sources](d5aa-sources.csv),
 [decision](d5aa-decision.md), [review](d5aa-review.md) and

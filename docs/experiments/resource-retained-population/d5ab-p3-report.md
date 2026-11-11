@@ -14,7 +14,7 @@ appropriate partial evidence or conservative refusals. This is offline instrumen
 qualification; it is not a retail target event, historical B1 reconstruction,
 complete game-generator execution or permission for B2.
 
-[Original P3 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md),
+[Original P3 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md`),
 [active ledger](d5ab-p3-investigation-ledger.md), [scenario/oracle matrix](d5ab-p3-scenarios.md),
 [transport/controller qualification](d5ab-p3-transport.md),
 [source and reproduction provenance](d5ab-p3-provenance.md),

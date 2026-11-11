@@ -10,7 +10,7 @@ historical instruction execution/general prediction remain unproved. No new live
 or writer work follows; [review](save29-authority-review.md) controls disposition.
 
 2026-10-17. SOR-EXP-0041 / SOR-EV-0049 continuation.
-[Authorized planning brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_restoration_vs_recalculation_test_plan.md).
+[Authorized planning brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_restoration_vs_recalculation_test_plan.md`).
 
 | Item | Response |
 |---|---|

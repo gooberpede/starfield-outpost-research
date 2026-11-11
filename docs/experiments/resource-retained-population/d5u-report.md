@@ -21,7 +21,7 @@ outcomes for U25 remain unchanged under its narrower normal-arrival contract.
 [geometry export](d5u/geometry.json), [proof and methods](d5u-methods.md),
 [active ledger](d5u-investigation-ledger.md), [sources](d5u-sources.csv) and
 [acceptance/review](d5u-review.md) form the review package. The
-[original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5U_comparative_resource_source_variability_predictive_rules.md)
+[original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5U_comparative_resource_source_variability_predictive_rules.md`)
 and AC1–AC11 are unchanged.
 
 ## Controlling questions and coverage

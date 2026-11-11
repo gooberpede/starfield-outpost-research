@@ -1,7 +1,7 @@
 # Workshop caller semantics and the idle-camera hypothesis
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_center_caller_semantics_idle_camera.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_center_caller_semantics_idle_camera.md`).
 Authored interpretation REVIEW-REQUIRED; native exports, raw captures and private receipts LOCAL-ONLY.
 
 **B — completed evidence-bound result, independently ACCEPTED in [review](review.md).** The high

@@ -1,7 +1,7 @@
 # D5AL Episode B active live ledger
 
 2026-11-03, Australia/Sydney. Current authority is the explicit maintainer
-[live amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AL_EPISODE_B_live_2026-11-03.md).
+[live amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AL_EPISODE_B_live_2026-11-03.md`).
 The frozen [B card](run-card-d5al-episode-b.md), plan and native 0.7.0 remain
 unchanged. No retry, extra action, save change, commit or push is authorized.
 

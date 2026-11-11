@@ -1,6 +1,6 @@
 # RG2-C1A: acquire a paired UI observation first
 
-2026-10-22, Australia/Sydney. [Invoked authority](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1A_resource_region_acquisition_method_qualification.md).
+2026-10-22, Australia/Sydney. [Invoked authority](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1A_resource_region_acquisition_method_qualification.md`).
 Authored synthesis REVIEW-REQUIRED; saves, pixels and native exports LOCAL-ONLY.
 B6/publication remain on hold. No live work was performed.
 

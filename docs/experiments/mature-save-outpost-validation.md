@@ -4,7 +4,7 @@
 
 ## Result
 
-Reader context added 2026-10-21: [Save52 identity and evidence availability](../audits/publication-readiness-b2/evidence-dependencies.md)
+Reader context added 2026-10-21: [Save52 identity and evidence availability](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b2/evidence-dependencies.md`)
 explains the mature playthrough sample and private comparative JSON. The derived
 tables below support understanding; exact independent replication needs those
 local inputs. This annotation does not revise the historical observations.
@@ -15,7 +15,7 @@ Two important qualifications change the interpretation. First, a broader scan fi
 
 ## Authority, plan, inputs and provenance
 
-The user invoked the [retained brief](../implementation-briefs/CODEX_RESEARCH_BRIEF_mature_save_outpost_validation.md) and requested suggested commit messages with no commit/push. SOR-D-0022 records this exact offline scope. Allowed: existing archive/JSON reads, hashing, narrow standard-library analysis, ignored derivatives and durable research documentation. No source editing, Starfield/SFSE/debugger execution, configuration/database changes, external disclosure, dependency acquisition, staging, commit or push.
+The user invoked the [retained brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_mature_save_outpost_validation.md`) and requested suggested commit messages with no commit/push. SOR-D-0022 records this exact offline scope. Allowed: existing archive/JSON reads, hashing, narrow standard-library analysis, ignored derivatives and durable research documentation. No source editing, Starfield/SFSE/debugger execution, configuration/database changes, external disclosure, dependency acquisition, staging, commit or push.
 
 Plan and stopping rule: validate framing independently; enumerate beacon/name and marker candidates from the save; freeze extraction before reading JSON content; compare names/counts/topology without fitting expected totals; challenge small-corpus generality and deterministic negative controls; record counterexamples and stop for review. Stop on integrity failure, unsafe free space, ambiguous essential identity or bounds failure. Cleanup retains all local evidence and partial runs; no source/live-save cleanup. Risks are false window matches, unresolved record ends, incidental playthrough churn and disclosure of private filenames/JSON. No source-save gameplay is inferred from filesystem dates.
 

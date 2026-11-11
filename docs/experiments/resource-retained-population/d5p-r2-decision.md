@@ -3,7 +3,7 @@
 2026-10-29, Australia/Sydney. The initial REUSE UNCHANGED decision and matrix were
 written before R2 implementation. Image-base and wrapper clarifications were
 added during qualification without changing that decision. The
-[invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R2_retail_context_diagnostic_preparation.md)
+[invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R2_retail_context_diagnostic_preparation.md`)
 freezes R2-AC1–R2-AC8 unchanged. Offline work only; retail is NOT AUTHORIZED.
 
 **REUSE UNCHANGED.** The final R1 DLL/schema can identify the next admitted

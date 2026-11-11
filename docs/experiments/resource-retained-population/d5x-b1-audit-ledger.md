@@ -1,6 +1,6 @@
 # D5X-B1 preauthorization audit ledger
 
-2026-10-31, Australia/Sydney. [Frozen authority](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5X_B1_preauthorization_audit.md).
+2026-10-31, Australia/Sydney. [Frozen authority](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5X_B1_preauthorization_audit.md`).
 Parent D5X offline candidate remains accepted; D5R remains OPEN. B1 and B2 are
 NOT AUTHORIZED; publication/B6 remains ON HOLD.
 

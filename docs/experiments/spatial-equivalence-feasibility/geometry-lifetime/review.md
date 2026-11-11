@@ -1,6 +1,6 @@
 # Verification, preservation and independent review
 
-[Original brief](../../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_geometry_lifetime_operand_capture.md),
+[Original brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_geometry_lifetime_operand_capture.md`),
 [report](report.md), [ownership](ownership.md), [operands](operands.md),
 [schema/admission](capture-contract.md), [source pins](sources.csv).
 Scientific/design decision: **NO-GO, evidence-bounded inconclusive**.

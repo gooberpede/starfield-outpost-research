@@ -1,6 +1,6 @@
 # Carinae case, source ancestry and capture contract
 
-[Brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2A_carinae_native_iron_region_qualification.md),
+[Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2A_carinae_native_iron_region_qualification.md`),
 [primary saved identities](../resource-geometry-observation/cases.md),
 [active candidates](../resource-geometry-mature-context/active-candidates.csv),
 [hardware joins](../resource-geometry-mature-context/f1-witnesses.csv),

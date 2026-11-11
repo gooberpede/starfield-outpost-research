@@ -6,7 +6,7 @@ current `debugger/event-oracle/` sources advance to 0.1.3. Original receipts/ZIP
 and the qualification ledger below still describe0.1.2, not the new candidate.
 
 2026-10-11 Australia/Sydney. Implementation/offline qualification under
-[the retained brief](../../implementation-briefs/CODEX_IMPLEMENTATION_BRIEF_SOR_event_associated_oracle_instrumentation.md),
+[the retained brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_IMPLEMENTATION_BRIEF_SOR_event_associated_oracle_instrumentation.md`),
 SOR-D-0044. Authored source/interpretation REVIEW-REQUIRED; raw/private evidence
 LOCAL-ONLY. No Starfield launch, live attachment, deployment, save mutation,
 staging, commit, push or publication.

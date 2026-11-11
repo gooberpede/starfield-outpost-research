@@ -1,6 +1,6 @@
 # SOR-EXP-0018 — Durable outpost center and placed-object transforms
 
-2026-10-10, Australia/Sydney. SOR-EV-0026 / SOR-F-0023–0024 / SOR-ST-0023 / SOR-FN-0047–0049 / SOR-D-0037. Authorized by the retained [brief](../implementation-briefs/CODEX_BRIEF_SOR_durable_outpost_center_object_transforms.md) and the user's execution request. ANALYZED; critical review required. Authored results REVIEW-REQUIRED; raw inputs and bulk exports LOCAL-ONLY. [Selected tables, reproduction and complete review package](durable-center/README.md).
+2026-10-10, Australia/Sydney. SOR-EV-0026 / SOR-F-0023–0024 / SOR-ST-0023 / SOR-FN-0047–0049 / SOR-D-0037. Authorized by the retained [brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_durable_outpost_center_object_transforms.md`) and the user's execution request. ANALYZED; critical review required. Authored results REVIEW-REQUIRED; raw inputs and bulk exports LOCAL-ONLY. [Selected tables, reproduction and complete review package](durable-center/README.md).
 
 ## Executive answer
 

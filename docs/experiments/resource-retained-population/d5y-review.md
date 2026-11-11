@@ -1,6 +1,6 @@
 # D5Y completion review and delivery
 
-2026-10-31, Australia/Sydney. [Original frozen contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Y_B1_capture_forensics_recorder_performance.md),
+2026-10-31, Australia/Sydney. [Original frozen contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Y_B1_capture_forensics_recorder_performance.md`),
 [report](d5y-report.md), [active ledger](d5y-investigation-ledger.md),
 [decision](d5y-decision.md), [source ledger](d5y-sources.csv).
 This record initially proposes completion; independent final dispositions below

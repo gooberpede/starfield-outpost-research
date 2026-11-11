@@ -2,7 +2,7 @@
 
 2026-11-04, Australia/Sydney. N1-Q1 BLOCKED / ESCALATE; N1-Q2 COMPLETE as a negative operational assessment; GC-10/D5R OPEN.
 The chronological entries below preserve preparation state; the final section
-records the consumed attempt and terminal barrier. The [N1 amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N1_live_2026-11-04.md)
+records the consumed attempt and terminal barrier. The [N1 amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N1_live_2026-11-04.md`)
 records current conditional authority and frozen finite scope. The maintainer
 reports deployed 0.9.1 in `Starfield - SFSE` and Cloud disabled, and awaits launch
 go-ahead. No launch is released before fresh preflight/readiness review.

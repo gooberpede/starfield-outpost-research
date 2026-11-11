@@ -1,6 +1,6 @@
 # D1 verification and review package
 
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_D1_disappearing_deposits_reconnaissance.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_D1_disappearing_deposits_reconnaissance.md`),
 [frozen criteria](contract.md), [report](report.md), [hypotheses](hypotheses.md).
 Scientific disposition **PARTIALLY DISCRIMINATED**; authorship REVIEW-REQUIRED,
 primary/raw evidence LOCAL-ONLY. Independent review decision is recorded below.

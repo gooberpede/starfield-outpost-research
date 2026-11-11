@@ -1,7 +1,7 @@
 # RG1: inorganic vein geometry
 
 2026-10-21, Australia/Sydney. SOR-EXP-0063 / SOR-EV-0071.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG1_inorganic_resource_vein_geometry_reconstruction.md),
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG1_inorganic_resource_vein_geometry_reconstruction.md`),
 [scope](plan.md), [review and AC1–AC8](review.md), [source pins](sources.csv).
 Authored work REVIEW-REQUIRED; proprietary native/content/save evidence LOCAL-ONLY.
 Publication NOT CLEARED; B6 remains on hold.

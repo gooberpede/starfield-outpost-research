@@ -1,6 +1,6 @@
 # RG2-D5K Stage A: blinded validation tooling and readiness
 
-2026-10-27, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5K_stage_a_blinded_validation_toolchain.md),
+2026-10-27, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5K_stage_a_blinded_validation_toolchain.md`),
 [frozen contract](contract.md), [qualification](qualification.md),
 [independent review](review.md), [operator protocol](protocol.md).
 

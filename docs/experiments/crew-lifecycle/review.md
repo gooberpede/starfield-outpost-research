@@ -1,6 +1,6 @@
 # CR3 completion and independent review package
 
-2026-10-18, SOR-EXP-0049 / SOR-EV-0057. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_CR3_remote_crew_contribution_lifecycle.md), [frozen contract](plan.md), [answer](report.md). Original mandatory criteria remain unchanged. This is implementer accounting; independent disposition is separate.
+2026-10-18, SOR-EXP-0049 / SOR-EV-0057. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_CR3_remote_crew_contribution_lifecycle.md`), [frozen contract](plan.md), [answer](report.md). Original mandatory criteria remain unchanged. This is implementer accounting; independent disposition is separate.
 
 | Original criterion | Author result | Evidence and exact coverage |
 |---|---|---|

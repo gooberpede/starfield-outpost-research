@@ -1,6 +1,6 @@
 # D5J: Terran Armada faction outpost reconnaissance
 
-2026-10-27, Australia/Sydney. [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5J_terran_armada_faction_outpost_reconnaissance.md),
+2026-10-27, Australia/Sydney. [Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5J_terran_armada_faction_outpost_reconnaissance.md`),
 [candidate matrix](candidates.csv), [primary identities](sources.csv),
 [methods](methods.md), [native and shared-script follow-through](native.md),
 [review and acceptance](review.md).

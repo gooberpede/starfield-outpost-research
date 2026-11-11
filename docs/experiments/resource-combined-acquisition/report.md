@@ -3,7 +3,7 @@
 Later separately authorized [Phase B](phase-b.md) records current Feynman V
 consumer geometry. This report and its AC1–AC8 review describe the earlier Phase A.
 
-2026-10-25, Australia/Sydney. [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md), [native contract](native.md), [qualification and review](review.md), [proposed run card](run-card.md), [source pins](sources.csv).
+2026-10-25, Australia/Sydney. [Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5B_combined_construction_mask_consumer_acquisition.md`), [native contract](native.md), [qualification and review](review.md), [proposed run card](run-card.md), [source pins](sources.csv).
 
 **Phase A implements a combined Windows debugger controller. It captures the exact selected source's initial query and ordinary mask, and separately captures current Workshop consumption. Retail generation-to-consumption lifetime attribution remains UNKNOWN. No Starfield session was launched or attached.**
 

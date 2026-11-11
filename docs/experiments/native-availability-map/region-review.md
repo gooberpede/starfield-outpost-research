@@ -1,7 +1,7 @@
 # Resource-region review package
 
 2026-10-15, Australia/Sydney.
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_resource_region_dependencies_minimum_requirements.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_resource_region_dependencies_minimum_requirements.md`),
 [frozen contract](region-contract.md), [technical report](region-dependencies.md).
 Outcome B independently ACCEPTED after rework. User critical review remains
 required before integration; authored material REVIEW-REQUIRED, native/raw LOCAL-ONLY.

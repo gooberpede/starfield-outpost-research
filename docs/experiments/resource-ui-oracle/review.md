@@ -1,6 +1,6 @@
 # Frozen AC1–AC8 and exact independent review
 
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1B_native_UI_resource_oracle_qualification.md)
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1B_native_UI_resource_oracle_qualification.md`)
 controls mandatory criteria, unamended. Offline research/design and synthetic
 engineering. [Report](report.md). Corrections/retests remain this assignment.
 

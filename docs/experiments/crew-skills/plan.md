@@ -1,6 +1,6 @@
 # CR2 frozen execution contract
 
-2026-10-18, Australia/Sydney. Authority: [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_CR2_crew_skill_effects_stacking_native_paths.md), invoked by the maintainer in chat. The eight mandatory criteria in section 8 are frozen verbatim by reference; no amendment or reduced completion threshold is adopted.
+2026-10-18, Australia/Sydney. Authority: [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_CR2_crew_skill_effects_stacking_native_paths.md`), invoked by the maintainer in chat. The eight mandatory criteria in section 8 are frozen verbatim by reference; no amendment or reduced completion threshold is adopted.
 
 Question: why possessed/displayed crew skills do or do not reach outpost consumers, how contributions combine, and how saved assignments/perks relate to effect availability. Offline semantic research only. Read installed definitions/PEX, existing read-only Ghidra state and protected historical saves; author focused evidence aids and explanatory documents. No network acquisition, game execution, debugger, native invocation, instrumentation, save/configuration changes, database mutations, staging, commit, push or publication.
 

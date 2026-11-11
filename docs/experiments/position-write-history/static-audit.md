@@ -1,7 +1,7 @@
 # Position writer, ABI and lifetime audit
 
 2026-10-13, Australia/Sydney. Specialist contribution under the
-[authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md),
+[authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md`),
 independently read against the prior [Z dependency ledger](../workshop-z-restoration/dependencies.md).
 Authored interpretation REVIEW-REQUIRED; proprietary exports LOCAL-ONLY.
 

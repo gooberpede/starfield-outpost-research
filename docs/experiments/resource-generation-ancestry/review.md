@@ -1,6 +1,6 @@
 # C1F review, acceptance accounting and exact delivery
 
-[Original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1F_native_resource_generation_ancestry_divergence.md),
+[Original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1F_native_resource_generation_ancestry_divergence.md`),
 [report](report.md), [results](results.md), [ledger](ancestry.md),
 [proposal only](next-run-card.md). No integration/live/publication authority.
 

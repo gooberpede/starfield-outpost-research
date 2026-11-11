@@ -1,6 +1,6 @@
 # D5P-R3 frozen criteria and bounded-investigation review
 
-2026-10-29, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R3_grid_membership_context_validation_repair.md),
+2026-10-29, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R3_grid_membership_context_validation_repair.md`),
 [prior decision](d5p-r3-decision.md), [report](d5p-r3-report.md),
 [source ledger](d5p-r3-sources.csv), [held proposal](run-card-d5p-r3.md).
 R3-AC1–R3-AC9 remain frozen without amendment.

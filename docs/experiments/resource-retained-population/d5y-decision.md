@@ -1,6 +1,6 @@
 # D5Y remedy decision before native changes
 
-2026-10-31, Australia/Sydney. [Contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Y_B1_capture_forensics_recorder_performance.md),
+2026-10-31, Australia/Sydney. [Contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Y_B1_capture_forensics_recorder_performance.md`),
 [analysis](d5y-report.md), [active ledger](d5y-investigation-ledger.md).
 Decision: retain the exact reviewed observer, recorder, scientific reader and
 B1 reporter. This is a completed offline remedy selection, not retail readiness.

@@ -1,6 +1,6 @@
 # D5AD active investigation ledger
 
-2026-11-02, Australia/Sydney. Original contract: [D5AD brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md).
+2026-11-02, Australia/Sydney. Original contract: [D5AD brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md`).
 
 Frozen controlling question: When Starfield starts and loads the exact protected Save52 in the Lodge, how is the resource-generation state that later destination streaming uses established?
 

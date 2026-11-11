@@ -1,7 +1,7 @@
 # D5AK active investigation ledger
 
 2026-11-03, Australia/Sydney. Offline work only under the
-[original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AK_episode_A_requalification_operational_package.md).
+[original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AK_episode_A_requalification_operational_package.md`).
 The brief's D5AK-Q1–Q4 and D5AK-AC01–AC08 are frozen without amendment.
 Parent D5AI Episode A remains INCOMPLETE / REWORK; GC-25/30/31/10 and D5R
 remain OPEN. Episode B and all new live actions remain NOT AUTHORIZED.

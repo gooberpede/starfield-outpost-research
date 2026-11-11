@@ -1,6 +1,6 @@
 # D5Z visited-state origin, reset and capacity
 
-2026-10-31, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Z_visited_state_persistence_reset_capacity.md),
+2026-10-31, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Z_visited_state_persistence_reset_capacity.md`),
 [state transitions](d5z-state-transition-map.md), [active ledger](d5z-investigation-ledger.md),
 [sources](d5z-sources.csv), [gameplay checklist](resource-generation-gameplay-checklist.md)
 and [review](d5z-review.md). Final acceptance is governed by the exact-snapshot

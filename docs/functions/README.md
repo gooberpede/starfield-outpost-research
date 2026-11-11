@@ -15,7 +15,7 @@ preferred VA. Add the RVA to the actual loaded module base for a runtime VA.
 Another verified executable gets separate entries and any evidenced
 cross-version correspondence is recorded separately. Starfield.esm has its
 own independent pin. Save creation metadata and winning installed inputs
-remain source- and sample-specific. [Build baseline](../audits/publication-readiness-b3/baseline-manifest.md).
+remain source- and sample-specific. [Build baseline](../reference/b3-baseline.md).
 
 Instruction sites, call sites, globals, object member offsets, vtable byte
 displacements, saved-file and decoded-stream offsets, and physical ESM offsets
@@ -61,7 +61,7 @@ Publication remains **NOT READY / NOT CLEARED**. [Publication gate](../PUBLICATI
   overlap has its own domain and does not establish entry identity. `line` and
   `end_line` are inclusive physical lines in the original source. Private export
   locations remain in the original ledgers.
-- [Coverage and reconciliation audit](../audits/native-function-catalogue-d5bd/README.md)
+- [Coverage and reconciliation audit](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/native-function-catalogue-d5bd/README.md`)
   accounts for exclusions, unresolved locators, repeated aliases and all 18
   reference pairs. The [historical register](../function-register.md) retains its
   original groupings and identifiers.
@@ -78,4 +78,4 @@ original source set and found that the newer tree changes the generated
 coverage and locator tables while preserving the catalogue, aliases, evidence,
 index and subject pages. Use the frozen source set for exact reproduction of
 the original audit outputs. See the
-[D5BG reproduction decision](../audits/publication-claims-d5bg/handoff.md#catalogue-reproduction).
+[D5BG reproduction decision](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-claims-d5bg/handoff.md#catalogue-reproduction`).

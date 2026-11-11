@@ -1,6 +1,6 @@
 # Native transit continuation review package
 
-2026-10-18. SOR-EXP-0045 / SOR-EV-0053. [Frozen direct-authorized brief](../../../implementation-briefs/CODEX_BRIEF_SOR_C2_transit_time_continuation.md),
+2026-10-18. SOR-EXP-0045 / SOR-EV-0053. [Frozen direct-authorized brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_C2_transit_time_continuation.md`),
 [answer/map/estimates](transit.md), [finite aid](../../../../research/c2-transit/README.md).
 This continuation has its own review; prior [C2 acceptance](review.md) remains
 unchanged and does not accept these new files automatically.

@@ -1,7 +1,7 @@
 # Frozen scope and execution record
 
 SOR-EXP-0063 / SOR-EV-0071, 2026-10-21, Australia/Sydney.
-The supplied [RG1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG1_inorganic_resource_vein_geometry_reconstruction.md)
+The supplied [RG1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG1_inorganic_resource_vein_geometry_reconstruction.md`)
 is authoritative; AC1–AC8 are unchanged. Its SHA-256 is
 `067acd1639b36c8306aa248551437189b84cb7bebbce3c81fd02e07d3a90c2f6`.
 The initial unopposed subset failed review. The same assignment continued to

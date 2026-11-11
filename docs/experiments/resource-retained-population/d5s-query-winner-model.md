@@ -1,6 +1,6 @@
 # D5S construction-query and source-lifetime model
 
-This is the proof submitted for critical review under the [frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5S_construction_query_winner_determinism.md). Q1–Q3 have COMPLETE scoped scientific answers in the [report](d5s-report.md); independent scientific, engineering and editorial reviews accepted the candidate, with the final exact closure recorded in [the review record](d5s-review.md). Preferred static VAs below belong only to the freshly pinned Starfield 1.16.244.0 executable, image base `0x140000000`; none is a live address.
+This is the proof submitted for critical review under the [frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5S_construction_query_winner_determinism.md`). Q1–Q3 have COMPLETE scoped scientific answers in the [report](d5s-report.md); independent scientific, engineering and editorial reviews accepted the candidate, with the final exact closure recorded in [the review record](d5s-review.md). Preferred static VAs below belong only to the freshly pinned Starfield 1.16.244.0 executable, image base `0x140000000`; none is a live address.
 
 ## Result being tested
 

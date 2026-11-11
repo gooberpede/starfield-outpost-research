@@ -38,7 +38,7 @@ Existing modified files:
 - `docs/DECISIONS.md`, `docs/PROVENANCE.md`, `docs/SOURCES.md`, `CREDITS.md`: authorization, evidence and reused tool/source attribution.
 - `docs/experiments/README.md`, `docs/experiments/evidence/README.md`, `docs/implementation-briefs/README.md`: navigation and review status.
 
-The initially untracked user-supplied `docs/implementation-briefs/CODEX_BRIEF_SOR_scoped_ordinary_outpost_beacon_detection.md` is included unchanged in the complete review diff; it is not task-authored work. Ignored local independent-audit/summary/packaging scripts and exact identities are retained alongside receipts. They contain no incorporated third-party implementation.
+The initially untracked user-supplied `implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_scoped_ordinary_outpost_beacon_detection.md` is included unchanged in the complete review diff; it is not task-authored work. Ignored local independent-audit/summary/packaging scripts and exact identities are retained alongside receipts. They contain no incorporated third-party implementation.
 
 ## Review artifacts and remaining issues
 

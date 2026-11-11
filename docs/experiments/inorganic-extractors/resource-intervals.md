@@ -1,7 +1,7 @@
 # Resource intervals and extractor size arithmetic
 
 2026-10-16. Bounded continuation of SOR-EXP-0038 / SOR-EV-0046 under the
-[authorized chat follow-up](../../implementation-briefs/CODEX_BRIEF_SOR_E1_resource_intervals_extractor_sizes.md).
+[authorized chat follow-up](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E1_resource_intervals_extractor_sizes.md`).
 [Verification/review](resource-intervals-review.md), [resource table](resource-intervals.csv),
 [all extractor definitions](extractor-sizes.csv).
 

@@ -1,7 +1,7 @@
 # Ship relocation, landing selection and shared native grid oracle
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
-[Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md);
+[Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md`);
 [frozen contract](contract.md). Authored interpretation REVIEW-REQUIRED;
 native exports, captures, saves and analysis databases LOCAL-ONLY.
 

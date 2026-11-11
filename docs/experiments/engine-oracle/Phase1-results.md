@@ -70,7 +70,7 @@ Approved 0.1.1 ZIP remains
 SHA256`9570c9da1b206c6b611e31273e71b5cf84b10e10b6b7fc2e479e7aa1fd445023`.
 DLL export 0x00010001/hash`4ae2a1e329a498b12352f4145db546fdb1317048dced5dede8c16f3fabe30504`;
 config hash`edf6c20d8bff667783467d8ac6094b331355c07adf4c5ee323e923e407033177`.
-Actual build/sample/version authority is the [preflight](../../audits/observer-011-post-deployment-preflight.md)
+Actual build/sample/version authority is the [preflight](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/observer-011-post-deployment-preflight.md`)
 and fresh READY/startup verification, not historical addresses. Runtime roots are
 reacquired after load; stable pointers do not substitute for Workshop identity.
 
@@ -106,10 +106,10 @@ Local evidence root:`.local-work/engine-oracle-live/phase1-01/`; raw session und
 reads/writes/effects. Prelaunch, startup, conditions, individual inspections,
 postflight and package receipts preserve exact hashes/paths/times locally.
 
-- [Complete review ZIP](../../../.local-work/engine-oracle-live/phase1-01/review-package.zip).
-- [Postflight receipt](../../../.local-work/engine-oracle-live/phase1-01/postflight.json).
-- [Review checks](../../../.local-work/engine-oracle-live/phase1-01/review.json).
-- [Complete authored diff](../../../.local-work/engine-oracle-live/phase1-01/complete.diff).
+- Complete review ZIP (private: `.local-work/engine-oracle-live/phase1-01/review-package.zip`).
+- Postflight receipt (private: `.local-work/engine-oracle-live/phase1-01/postflight.json`).
+- Review checks (private: `.local-work/engine-oracle-live/phase1-01/review.json`).
+- Complete authored diff (private: `.local-work/engine-oracle-live/phase1-01/complete.diff`).
 
 Package includes authored changes and local receipts/scripts, excluding raw memory,
 game binaries, saves and analysis databases. It contains private locator metadata

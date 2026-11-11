@@ -1,6 +1,6 @@
 # RG2-D5K Stage A frozen execution contract
 
-2026-10-27, Australia/Sydney. The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5K_stage_a_blinded_validation_toolchain.md)
+2026-10-27, Australia/Sydney. The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5K_stage_a_blinded_validation_toolchain.md`)
 is controlling and remains unchanged. AC1–AC8 are frozen without amendment.
 
 - Task: offline research tooling and qualification, with a readiness assessment.

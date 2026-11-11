@@ -3,7 +3,7 @@
 **STOP: the authorized S1/S2 sequence is complete. S1 passed; S2 exited without capture. Do not repeat or widen. The instructions below are the completed run card, retained for review.**
 
 
-Authority SOR-D-0019, [brief](../implementation-briefs/EXP0002A-adapter-0.1.3.md), [audit](../audits/exp0002a-adapter-0.1.3.md). S0 already passed; do not repeat it. Preserve 0.1.2 unchanged. Do not use the historical 92-thread or x64dbg modes.
+Authority SOR-D-0019, [brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/EXP0002A-adapter-0.1.3.md`), [audit](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-adapter-0.1.3.md`). S0 already passed; do not repeat it. Preserve 0.1.2 unchanged. Do not use the historical 92-thread or x64dbg modes.
 
 1. Codex verifies protected Save3 and backup hashes, pinned game/build, adapter/source hashes, C:/D: each >=40GB, and fresh local evidence paths. Operator launches normally via Steam without SFSE, loads Save3, opens Pause > Save, highlights New Save and does not confirm. Report ready.
 2. S1 attaches with --starfield-s1 and installs no research DR0. Validate loaded SFSE/SorExp0002 absence, base/site hashes, debugger state and complete thread inventory. The UI pause is distinct from debugger stops. Setup has its own 300 s bound. Report ARMED only after readiness; **ARMED is not permission to click**.
@@ -16,7 +16,7 @@ Both controls affect execution through debugger stops; S2 additionally changes o
 
 ## Superseding final attempt — SOR-D-0021
 
-The S1/S2 card above is historical. Current authority is the [final software attempt](../implementation-briefs/EXP0002A-final-software-attempt.md): ordinary Steam, no SFSE/SorExp0002, pristine Save3; Pause→Save→highlight New Save without confirming; report ready. Researcher attaches existing dbgeng/CDB, verifies process/build/base/site and exactly one one-shot software breakpoint. Wait for ARMED / CLICK NOW after the 10-second capture window is active, then confirm once. No hardware breakpoint, S1.5 or repeat. Report game outcome; on survival exit normally/sync when requested. Capture completeness and cleanup outcome are separate. No automatic Stage C or beacon construction under this handoff.
+The S1/S2 card above is historical. Current authority is the [final software attempt](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/EXP0002A-final-software-attempt.md`): ordinary Steam, no SFSE/SorExp0002, pristine Save3; Pause→Save→highlight New Save without confirming; report ready. Researcher attaches existing dbgeng/CDB, verifies process/build/base/site and exactly one one-shot software breakpoint. Wait for ARMED / CLICK NOW after the 10-second capture window is active, then confirm once. No hardware breakpoint, S1.5 or repeat. Report game outcome; on survival exit normally/sync when requested. Capture completeness and cleanup outcome are separate. No automatic Stage C or beacon construction under this handoff.
 
 
-**FINAL ATTEMPT COMPLETE — DO NOT RUN THIS CARD AGAIN.** No material request capture; native saving deferred under SOR-D-0021. Target survived, normal exit/sync confirmed. [Actual outcome and limits](../audits/exp0002a-final-software-attempt.md). Resume planning outpost/manual-save checkpoints; no S1.5 or backend retry.
+**FINAL ATTEMPT COMPLETE — DO NOT RUN THIS CARD AGAIN.** No material request capture; native saving deferred under SOR-D-0021. Target survived, normal exit/sync confirmed. [Actual outcome and limits](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-final-software-attempt.md`). Resume planning outpost/manual-save checkpoints; no S1.5 or backend retry.

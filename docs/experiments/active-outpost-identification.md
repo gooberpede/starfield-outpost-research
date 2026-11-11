@@ -1,6 +1,6 @@
 # SOR-EXP-0009 — Active outpost identification: record framing and membership obstruction
 
-2026-10-09. SOR-EV-0015 / SOR-F-0014 / SOR-ST-0017 / SOR-H-0006. Offline SAVE and STATIC research; ANALYZED, critical review pending. Authored summaries/code/numeric ledgers REVIEW-REQUIRED; saves, paths, full fingerprints, executable text and analysis exports LOCAL-ONLY. The invoked [brief](../implementation-briefs/CODEX_RESEARCH_BRIEF_active_outpost_identification.md) authorizes this work under SOR-D-0025. No live execution, staging, commit, sync or publication.
+2026-10-09. SOR-EV-0015 / SOR-F-0014 / SOR-ST-0017 / SOR-H-0006. Offline SAVE and STATIC research; ANALYZED, critical review pending. Authored summaries/code/numeric ledgers REVIEW-REQUIRED; saves, paths, full fingerprints, executable text and analysis exports LOCAL-ONLY. The invoked [brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_active_outpost_identification.md`) authorizes this work under SOR-D-0025. No live execution, staging, commit, sync or publication.
 
 ## Result and milestone disposition
 

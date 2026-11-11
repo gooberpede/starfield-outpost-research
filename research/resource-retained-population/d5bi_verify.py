@@ -29,7 +29,7 @@ from d5an_read_causal import NAMES as CAUSAL_FIELDS
 import read_capture as core_reader
 
 ROOT = Path(__file__).resolve().parents[2]
-MANIFEST = ROOT / 'docs/audits/evidence-derivative-d5bi/manifest.json'
+MANIFEST = ROOT / 'research/evidence-data/evidence-derivative-d5bi/manifest.json'
 SCHEMA = 'sor-d5bi-n2-projection/1'
 IDENTITY = '41317ca8bdc549742905cbc3dc0b5c8062870d051175fe8f15c5e7d55a385412'
 SAVE = '6b4a10084c7e752c31fd2de121a00850aaa2bf1decd700b437d7dccfcdbc82e8'

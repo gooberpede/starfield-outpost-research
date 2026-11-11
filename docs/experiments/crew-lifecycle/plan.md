@@ -1,6 +1,6 @@
 # CR3 frozen execution contract
 
-2026-10-18, Australia/Sydney. Authority: [supplied CR3 brief](../../implementation-briefs/CODEX_BRIEF_SOR_CR3_remote_crew_contribution_lifecycle.md), explicitly invoked by the maintainer. The eight mandatory criteria in section 7 are frozen unchanged: answer-first conclusions; assignment/effect/clock lifecycle; remote and exceptional actors; persistence/reconstruction; named versus positively assigned generic specialists; worked examples and robot handoff; durable provenance/checks; independent review and exact review packages.
+2026-10-18, Australia/Sydney. Authority: [supplied CR3 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_CR3_remote_crew_contribution_lifecycle.md`), explicitly invoked by the maintainer. The eight mandatory criteria in section 7 are frozen unchanged: answer-first conclusions; assignment/effect/clock lifecycle; remote and exceptional actors; persistence/reconstruction; named versus positively assigned generic specialists; worked examples and robot handoff; durable provenance/checks; independent review and exact review packages.
 
 Question: when does an assigned outpost actor enter or leave actual modifier evaluation, and how do persistent inputs restore that opportunity? Hypothesis: ordinary type2 bonuses consume eligible assigned actors at query time without arrival or graphics prerequisites; cached producer clocks delay observable consequences. Type1 destination abilities are a separate stateful mechanism.
 

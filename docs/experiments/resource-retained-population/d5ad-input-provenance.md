@@ -1,6 +1,6 @@
 # D5AD input provenance and readiness
 
-2026-11-02, Australia/Sydney. [Frozen questions](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md),
+2026-11-02, Australia/Sydney. [Frozen questions](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md`),
 [active ledger](d5ad-investigation-ledger.md). Authored synthesis is
 REVIEW-REQUIRED; Q1 is **COMPLETE** for the qualified ordinary
 source-to-ready-input contract after independent review. Native exports,

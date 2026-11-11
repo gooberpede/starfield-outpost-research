@@ -1,6 +1,6 @@
 # R1 review package and acceptance accounting
 
-2026-10-18, Australia/Sydney. [Original invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_R1_outpost_robots_contributions_limits_lifecycle.md),
+2026-10-18, Australia/Sydney. [Original invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_R1_outpost_robots_contributions_limits_lifecycle.md`),
 [frozen plan](plan.md), [answer-first report](report.md),
 [native register](functions.csv), [source register](sources.csv).
 SOR-EXP-0050 / SOR-EV-0058. No criteria were amended.

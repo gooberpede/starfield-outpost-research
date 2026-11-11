@@ -1,6 +1,6 @@
 # D5P-R1 offline result — resilient recorder, retail NO-GO
 
-2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R1_observer_resilience_context_repair.md),
+2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R1_observer_resilience_context_repair.md`),
 [pre-repair diagnosis](d5p-r1-diagnosis.md), [design/schema](d5p-r1-design.md),
 [review](d5p-r1-review.md), [source ledger](d5p-r1-sources.csv),
 [held operation plan](run-card-d5p-r1.md).

@@ -4,7 +4,7 @@
 the live procedure is prepared for review, not executed.**
 
 - [Exact run card](center-only-live-run-card.md).
-- [Retained preparation brief](../../implementation-briefs/CODEX_BRIEF_SOR_center_only_live_procedure.md).
+- [Retained preparation brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_center_only_live_procedure.md`).
 - [Original read-only operational checker](../../../debugger/event-smoke/checks.py).
 - [Task-only patch](../../../.local-work/diffs/event-center-smoke-procedure-task-only.diff).
 - [Complete HEAD patch, including prior uncommitted text](../../../.local-work/diffs/event-center-smoke-procedure-complete.diff).

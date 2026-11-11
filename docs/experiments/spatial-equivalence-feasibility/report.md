@@ -1,7 +1,7 @@
 # Experiment A: spatial native equivalence feasibility
 
 2026-10-15, Australia/Sydney. SOR-EXP-0034 / SOR-EV-0042 continuation.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_spatial_native_equivalence_feasibility.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_spatial_native_equivalence_feasibility.md`).
 Authored analysis is REVIEW-REQUIRED; native exports and local receipts are LOCAL-ONLY.
 
 | Element | Answer |

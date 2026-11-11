@@ -1,6 +1,6 @@
 # Inorganic availability: frozen research contract
 
-2026-10-14, Australia/Sydney. Governing [brief](../../implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md).
+2026-10-14, Australia/Sydney. Governing [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md`).
 Frozen before new research implementation; original brief remains controlling.
 
 Research question: what produces the prospective/established site's inorganic

@@ -2,7 +2,7 @@
 
 **CONDITIONALLY COMPLETE** for the native resource-availability reference endpoint.
 2026-10-16, Australia/Sydney. SOR-EXP-0034 / SOR-EV-0042 continuation.
-[Original invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_native_availability_output_contracts_completion.md),
+[Original invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_availability_output_contracts_completion.md`),
 [output contract](output-contract.md), [path assessment](output-paths.md),
 [independent review and verification](output-review.md).
 

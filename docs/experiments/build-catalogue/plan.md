@@ -1,7 +1,7 @@
 # BM2 frozen offline plan
 
 2026-10-20, Australia/Sydney. The maintainer invoked the unchanged
-[BM2 brief](../../implementation-briefs/CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md).
+[BM2 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md`).
 Its section 5 AC1–AC8 are frozen without amendment. The original brief controls
 acceptance; this plan does not narrow it.
 

@@ -11,7 +11,7 @@ changes grant no new attempt, Episode B, deployment or controller operation.
 |---|---|
 | Frozen question | D5AJ-Q4: which admission, continuation and STOP gates protect safety/integrity or indispensable evidence, and which represent recoverable uncertainty? |
 | Best answer | Retain all actual safety/integrity gates and finite operator actions. Replace blanket scientific retirement with explicit query/departure holds, source-specific qualification and evidence preservation. |
-| Basis | Actual [card](run-card-d5ai-episode-a.md), [accepted amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AI_EPISODE_A_live_2026-11-03.md), [command contract](d5ai-operator-commands.md), `d5ai_episode.py`, `d5ai_a_episode.py`, `d5ai_a_operations.py`, native controller and completed Episode A receipts. |
+| Basis | Actual [card](run-card-d5ai-episode-a.md), [accepted amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AI_EPISODE_A_live_2026-11-03.md`), [command contract](d5ai-operator-commands.md), `d5ai_episode.py`, `d5ai_a_episode.py`, `d5ai_a_operations.py`, native controller and completed Episode A receipts. |
 | Coverage | Offline design and pure policy controls; existing live helpers/cards are unchanged. All future live actions still require a separately approved plan and exact source/package lock. |
 | Limit | The policy model is not a live controller qualification. No new process or future gameplay action is tested here. |
 

@@ -1,7 +1,7 @@
 # SD2 original acceptance matrix and review package
 
 2026-10-19, SOR-EXP-0056 / SOR-EV-0064.
-[Original brief and frozen eight criteria](../../implementation-briefs/CODEX_BRIEF_SOR_SD2_shared_storage_crafting_access.md),
+[Original brief and frozen eight criteria](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_SD2_shared_storage_crafting_access.md`),
 [answer](report.md), [methods/failures](methods.md), [sources](sources.csv).
 No criterion has been amended. Independent review01 returned **ACCEPT**, with
 all eight scoped criteria PASS against package-review01.json SHA-256

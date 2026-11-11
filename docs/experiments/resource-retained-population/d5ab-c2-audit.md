@@ -9,9 +9,9 @@ Audit acceptance is governed by the [independent review](d5ab-c2-review.md).
 
 ## G1/G2 — authority and source correspondence
 
-The user invoked the [C2 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C2_existing_evidence_closure_audit.md).
-The [original D5AB brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md)
-and [C1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C1_continuation_assessment.md)
+The user invoked the [C2 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C2_existing_evidence_closure_audit.md`).
+The [original D5AB brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`)
+and [C1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C1_continuation_assessment.md`)
 are unchanged. Current HEAD is `18300618eacdfa50b6dc10303aa2fe30151e007b`;
 the committed D5AB checkpoint is `623b49c878a8dfea051278d9cac41688342dd323`.
 The historical report correctly describes its earlier uncommitted baseline

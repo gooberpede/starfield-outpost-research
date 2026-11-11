@@ -1,7 +1,7 @@
 # Save29 C/R/O player card - review required, delivery blocked
 
 2026-10-17. [Preparation NO-GO](save29-derivatives.md),
-[authorized preparation brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_control_reversal_overpower_preparation.md).
+[authorized preparation brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_control_reversal_overpower_preparation.md`).
 **Do not execute this card now. No candidate files exist.** First qualify the
 container writer, generate and independently review all three candidates and their
 manifest. Then obtain a separate explicit live decision specifying delivery and

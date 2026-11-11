@@ -1,6 +1,6 @@
 # Offline qualification review package
 
-[Original brief](../../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md),
+[Original brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_internal_observation_offline_qualification.md`),
 [report/matrix](report.md), [technical contract](contract.md),
 [scientific decision](decision.md), [replay commands](../../../../research/internal-observation-qualification/README.md).
 Recommendation: scoped synthetic **PASS**, independently **ACCEPTED**.

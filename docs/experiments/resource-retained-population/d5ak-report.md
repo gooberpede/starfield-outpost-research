@@ -9,7 +9,7 @@ results while preserving AC01 FAIL and full-contract ESCALATE.
 
 | Element | Answer and scope |
 |---|---|
-| Contract | [D5AK-Q1–Q4 and AC01–AC08](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AK_episode_A_requalification_operational_package.md), frozen without amendment. |
+| Contract | [D5AK-Q1–Q4 and AC01–AC08](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AK_episode_A_requalification_operational_package.md`), frozen without amendment. |
 | Best-supported result | Historical A0 again qualifies all 36 holders and one target with three resources, 78 regions and 180 points under `sor-d5aj-source-grid/1`. The original checker still refuses. New operational commands bind that method and hold departure while interpretation is pending. |
 | Confidence | PROVEN for authenticated bytes and executed test outcomes; STRONG / CROSS-VALIDATED for the accepted ordinary source-Grid attribution graph. No new gameplay finding is proposed. |
 | Coverage | One immutable historical A0, disposable owned native hosts, adverse copied/in-memory evidence, and prospective controller/protection/archive procedures. Retail throughput and a future A0/A1 comparison are untested. |

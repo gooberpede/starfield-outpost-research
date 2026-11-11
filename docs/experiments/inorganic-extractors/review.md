@@ -1,6 +1,6 @@
 # E1 verification and independent review package
 
-2026-10-16, Australia/Sydney. [Brief](../../implementation-briefs/CODEX_BRIEF_SOR_E1_inorganic_extractor_native_mapping.md),
+2026-10-16, Australia/Sydney. [Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E1_inorganic_extractor_native_mapping.md`),
 [contract](contract.md), [report](report.md). Proposed scientific disposition:
 CONDITIONALLY COMPLETE. Independent disposition: **ACCEPT** after review01
 remediation; no integration authority follows.

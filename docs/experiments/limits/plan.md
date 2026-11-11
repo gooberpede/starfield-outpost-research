@@ -1,6 +1,6 @@
 # L1 frozen offline contract
 
-2026-10-19, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_L1_numerical_perk_limits.md).
+2026-10-19, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_L1_numerical_perk_limits.md`).
 All eight original mandatory criteria remain frozen. Numerical construction and
 body/environment admission are L1; overall Build Limit accounting is L2; local
 placement, territory, collision and procedural scenery anomalies are L3.

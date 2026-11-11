@@ -1,7 +1,7 @@
 # Cargo real-execution authorization card
 
 **NOT AUTHORIZED — FUTURE PLAN ONLY.** This card does not grant execution GO.
-The [implementation brief](../../implementation-briefs/CODEX_BRIEF_SOR_cargo_evidence_retirement_baseline_activation.md)
+The [implementation brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_cargo_evidence_retirement_baseline_activation.md`)
 authorizes code, inspection and disposable qualification. Independent review and
 maintainer integration are separate from this destructive-operation decision.
 

@@ -2,7 +2,7 @@
 
 Authored work REVIEW-REQUIRED; raw game/save/memory/analysis evidence LOCAL-ONLY.
 [Answer-first report](../durable-position-engine-oracle.md),
-[retained authorization](../../implementation-briefs/CODEX_BRIEF_SOR_durable_position_engine_oracle_algorithm_reconstruction.md).
+[retained authorization](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_durable_position_engine_oracle_algorithm_reconstruction.md`).
 This package is offline preparation; no independent retail oracle result exists.
 
 ## New and changed work

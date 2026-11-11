@@ -1,7 +1,7 @@
 # P2 scope and unchanged D5AB obligations
 
-2026-11-01, Australia/Sydney. [P2 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md),
-[original parent contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md),
+2026-11-01, Australia/Sydney. [P2 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md`),
+[original parent contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`),
 [C2 exact residuals](d5ab-c2-evidence-matrix.md), [report](d5ab-p2-report.md).
 P2 engineering acceptance cannot complete D5AB or authorize B2.
 

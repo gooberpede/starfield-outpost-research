@@ -6,7 +6,7 @@ No blanket assignment acceptance or integration authority is implied.
 
 ## Frozen inputs and proposed criterion matrix
 
-The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AH_geometry_persistence_reconstruction.md)
+The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AH_geometry_persistence_reconstruction.md`)
 is unchanged. Initial HEAD is `8df2052136420f3b61c30b7abe427eb83d89e4b1`;
 initial index SHA-256 is
 `199976da8f1cbcc14d1d7610985dcc15bebb5e7926db5a314ff730be42252c9a`.

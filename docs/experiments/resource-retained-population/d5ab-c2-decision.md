@@ -2,8 +2,8 @@
 
 2026-11-01, Australia/Sydney. **C2 audits existing evidence; D5AB remains
 INCOMPLETE / REWORK.** B1 PARTIAL, D5AA ESCALATE, D5R OPEN and B2 NOT AUTHORIZED.
-[Original D5AB contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md),
-[C2 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C2_existing_evidence_closure_audit.md),
+[Original D5AB contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`),
+[C2 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C2_existing_evidence_closure_audit.md`),
 [audit](d5ab-c2-audit.md), [edge matrix](d5ab-c2-evidence-matrix.md),
 [active ledger](d5ab-c2-investigation-ledger.md), [review](d5ab-c2-review.md).
 

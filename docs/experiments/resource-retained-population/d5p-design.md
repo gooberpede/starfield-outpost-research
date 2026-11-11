@@ -1,6 +1,6 @@
 # D5P frozen contract and architecture decision
 
-2026-10-29, Australia/Sydney. [Governing brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md).
+2026-10-29, Australia/Sydney. [Governing brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md`).
 AC1–AC8 are frozen without amendment. This is Phase A only. Phase B, B6,
 installation, game execution and publication remain unauthorized.
 

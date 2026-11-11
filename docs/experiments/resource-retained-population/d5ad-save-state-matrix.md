@@ -1,6 +1,6 @@
 # D5AD saved and reconstructed generation state
 
-2026-11-02, Australia/Sydney. [Original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md),
+2026-11-02, Australia/Sydney. [Original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md`),
 [report](d5ad-report.md), [input provenance](d5ad-input-provenance.md),
 [chronology](d5ad-load-chronology.md), [sources](d5ad-sources.csv).
 Authored synthesis is REVIEW-REQUIRED; native/save evidence and numeric receipts

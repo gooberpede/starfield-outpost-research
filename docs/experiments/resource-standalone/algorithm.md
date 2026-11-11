@@ -1,7 +1,7 @@
 # Standalone ordinary-vein algorithm
 
 2026-10-24, Australia/Sydney. Authored specification, REVIEW-REQUIRED.
-[Contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md),
+[Contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md`),
 [schema and dependencies](corpus.md), [validation](validation.md).
 This describes a conditional installed-main model, not a reconstructed historical
 cache. The inherited [native ledger](../resource-geometry/native.md),

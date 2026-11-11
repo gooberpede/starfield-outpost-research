@@ -1,6 +1,6 @@
 # D5AA active investigation ledger
 
-2026-10-31, Australia/Sydney. Original contract: [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AA_resource_generation_chronology.md).
+2026-10-31, Australia/Sydney. Original contract: [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AA_resource_generation_chronology.md`).
 
 D5AA-CQ and Q1–Q5 are frozen verbatim in the supplied brief. No amendments.
 The target remains `0:37536:20928:0029d20e`; other sources are controls only.

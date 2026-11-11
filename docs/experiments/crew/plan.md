@@ -2,7 +2,7 @@
 
 ## Invoked corrective continuation
 
-The user invoked the [current-assignment rework brief](../../implementation-briefs/CODEX_BRIEF_SOR_CR1_current_crew_assignment_persistence_rework.md)
+The user invoked the [current-assignment rework brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_CR1_current_crew_assignment_persistence_rework.md`)
 on 2026-10-18. Its eight frozen criteria and scoped [completion contract](current-review.md)
 extend this plan: systematic earlier mature corpus, actual writer/wire/load/fixup/UI,
 real reciprocal assignment plus distinct control, truthful unknown/unassigned states,
@@ -11,7 +11,7 @@ freezes the full pre-existing uncommitted tree. No live/save-generation/Git auth
 
 2026-10-18. SOR-EXP-0047 / SOR-EV-0055. Authored REVIEW-REQUIRED.
 
-Authority: the [invoked CR1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_CR1_crew_recruitment_assignment_capacity.md)
+Authority: the [invoked CR1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_CR1_crew_recruitment_assignment_capacity.md`)
 and the user's execution request. The user's addition is adopted: investigate the
 Crew screen, particularly how it is populated. Include roster sources, admission,
 row fields, destinations, sort/filter and refresh boundaries. Suggest a commit

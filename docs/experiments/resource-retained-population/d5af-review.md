@@ -1,6 +1,6 @@
 # D5AF review and frozen acceptance matrix
 
-2026-11-02, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AF_construction_winner_stabilization.md),
+2026-11-02, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AF_construction_winner_stabilization.md`),
 [report](d5af-report.md), [active ledger](d5af-investigation-ledger.md),
 [sources](d5af-sources.csv), [methods](d5af-methods-and-tests.md).
 No amendment changes the frozen CQ, Q1–Q4 or eight criteria.

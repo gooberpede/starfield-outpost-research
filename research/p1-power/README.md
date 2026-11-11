@@ -10,7 +10,7 @@ from repository root, with matching prior pins and C:/D: 40 GB free guards.
 [NO-GO report and serialization prerequisite](../../docs/experiments/power/save29-derivatives.md)
 explain why reader acceptance does not qualify repacking.
 
-[Brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md),
+[Brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md`),
 [report](../../docs/experiments/power/report.md).
 Original GPL-3.0-or-later code, using owned strict ESM/save readers from E1–E3.
 Run installed CPython 3.14.3 with `-B` from the repository root. Standard library

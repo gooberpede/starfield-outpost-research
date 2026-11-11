@@ -1,6 +1,6 @@
 # D5S active investigation ledger
 
-2026-10-30, Australia/Sydney. Authority: [frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5S_construction_query_winner_determinism.md), sections 1 and 8, unchanged. Parent D5R location-to-population question remains OPEN. D5S-Q1, Q2 and Q3 are initially INCOMPLETE; no terminal result is claimed.
+2026-10-30, Australia/Sydney. Authority: [frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5S_construction_query_winner_determinism.md`), sections 1 and 8, unchanged. Parent D5R location-to-population question remains OPEN. D5S-Q1, Q2 and Q3 are initially INCOMPLETE; no terminal result is claimed.
 
 ## Frozen questions and falsifiers
 

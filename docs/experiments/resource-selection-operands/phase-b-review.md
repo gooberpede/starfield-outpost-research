@@ -1,7 +1,7 @@
 # RG2-C1G Phase B completion and review
 
 [Result and primary receipt locators](phase-b.md), [approved historical card](run-card.md),
-[original Phase A contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1G_effective_resource_selection_chance_weight_capture.md),
+[original Phase A contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1G_effective_resource_selection_chance_weight_capture.md`),
 [unchanged Phase A verdict](review.md), [source pins](phase-b-sources.csv).
 
 The original AC1–AC8 remain frozen Phase A criteria. The maintainer's subsequent

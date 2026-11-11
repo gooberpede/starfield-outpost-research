@@ -1,6 +1,6 @@
 # SD3 frozen investigation plan
 
-2026-10-19, Australia/Sydney. Governing [brief](../../implementation-briefs/CODEX_BRIEF_SOR_SD3_stored_resources_aggregation_icons_refresh.md).
+2026-10-19, Australia/Sydney. Governing [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_SD3_stored_resources_aggregation_icons_refresh.md`).
 All eight acceptance criteria in section 6 are frozen without amendment.
 
 Investigate the actual Locations provider before testing candidate predicates:

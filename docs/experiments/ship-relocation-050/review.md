@@ -1,6 +1,6 @@
 # Integrated observer review package and acceptance matrix
 
-2026-10-13. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md),
+2026-10-13. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md`),
 [frozen contract](contract.md), [report/build identities](report.md),
 [executable prospective card](run-card.md), [native/source design](design.md).
 Final independent disposition is retained in [independent-review.md](independent-review.md).

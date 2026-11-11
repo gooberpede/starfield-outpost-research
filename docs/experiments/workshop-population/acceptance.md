@@ -1,7 +1,7 @@
 # Original population acceptance matrix
 
-This matrix tests the [original invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_authoritative_workshop_membership_constructed_inventory.md)
-plus the [maintainer's binding correction](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_population_completeness_rework.md).
+This matrix tests the [original invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_authoritative_workshop_membership_constructed_inventory.md`)
+plus the [maintainer's binding correction](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_population_completeness_rework.md`).
 The earlier scoped-positive A disposition does not close this matrix.
 
 | Original criterion | Evidence / current result | Acceptance boundary |

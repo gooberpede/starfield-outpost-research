@@ -23,7 +23,7 @@ bar can precede the exact cap, and the separately queued display refresh can lag
 an accounting change. The native admission comparison remains unrounded.
 
 2026-10-19, Australia/Sydney. SOR-EXP-0052 / SOR-EV-0060.
-[Frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_L2_outpost_build_budget_native_accounting.md),
+[Frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_L2_outpost_build_budget_native_accounting.md`),
 [plan](plan.md), [native chain](native.md), [UI](ui.md),
 [saved controls/contrasts](saves.md), [verification and review](review.md),
 [function locators](functions.csv), [source pins](sources.csv).

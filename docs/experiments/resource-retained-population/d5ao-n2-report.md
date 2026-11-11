@@ -21,7 +21,7 @@ GC-10/D5R remain OPEN.
 
 ## Authority and measurement context
 
-The [live amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AO_N2_live_2026-11-04.md)
+The [live amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AO_N2_live_2026-11-04.md`)
 records the maintainer's separate current approval. The original
 [N2 card](run-card-d5ao-n2-proposal.md), proposal-only packaging and historical
 N0/N1 records remain unchanged. The [ledger](d5ao-n2-live-ledger.md) retains

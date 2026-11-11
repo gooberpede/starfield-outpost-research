@@ -1,7 +1,7 @@
 # E1 stacking and Research Projects: offline result
 
 2026-10-16. SOR-EXP-0038 / SOR-EV-0046 continuation, under the
-[chat-authorized durable brief](../../implementation-briefs/CODEX_BRIEF_SOR_E1_stacking_research_projects.md).
+[chat-authorized durable brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E1_stacking_research_projects.md`).
 
 **The ordinary timer path supports multiplying contributions from distinct
 assigned actors, followed by the player's applicable bonuses. Different ranks

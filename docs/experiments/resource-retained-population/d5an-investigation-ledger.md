@@ -1,7 +1,7 @@
 # D5AN counter-admission investigation ledger
 
 2026-11-04, Australia/Sydney. **COMPLETE / ACCEPT at the authorized offline scope.**
-The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AN_counter_admission_failure_investigation_repair.md)
+The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AN_counter_admission_failure_investigation_repair.md`)
 freezes D5AN-CQ, Q1–Q4 and AC01–AC09 without amendments. GC-10/D5R remain
 OPEN. N1 failed acquisition; PRED-02 remains INCONCLUSIVE.
 

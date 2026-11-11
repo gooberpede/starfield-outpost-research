@@ -1,6 +1,6 @@
 # Manual observation matrix
 
-2026-10-13. Source: section 2 of the [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md),
+2026-10-13. Source: section 2 of the [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md`),
 two operator-reported sequences, including restart/reload of original Save25.
 These are SOURCE-REPORTED gameplay observations, not independently recorded native
 traces. They were supplied for this investigation; no new gameplay was performed.

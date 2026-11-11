@@ -12,7 +12,7 @@ Historical observations, failed gates, source pins and acceptance snapshots
 below retain their original scope. Current Phase B remains pending approval.
 
 2026-10-23, Australia/Sydney. **Phase A only. Phase B is not authorized.**
-[Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2B_carinae_procedural_source_context_reconstruction.md),
+[Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2B_carinae_procedural_source_context_reconstruction.md`),
 [frozen contract](contract.md), [native ancestry](native.md),
 [hypothesis matrix](comparison.md), [verification](verification.md),
 [proposed card](run-card.md), [review](review.md).

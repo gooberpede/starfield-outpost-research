@@ -4,7 +4,7 @@
 observations and corrections require [fresh full cumulative F1 review](f1-review.md).
 The old AC5 deletion premise is withdrawn; current treatment is optional R2.
 
-[Original frozen AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_planetary_resource_seed_mature_context.md),
+[Original frozen AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_planetary_resource_seed_mature_context.md`),
 [answer](report.md), [checks](validation.md), [sources](sources.csv).
 No acceptance criterion has been amended. Conditional ordinary-initialization
 predictions are submitted for both mature sites; historical loaded/rebased

@@ -10,7 +10,7 @@ historical instruction execution/general prediction remain unproved. No new live
 or writer work follows; [review](save29-authority-review.md) controls disposition.
 
 2026-10-17, Australia/Sydney. SOR-EXP-0041 / SOR-EV-0049 continuation.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_control_reversal_overpower_preparation.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_control_reversal_overpower_preparation.md`).
 [Player test card](save29-derivative-card.md), [review package](save29-derivative-review.md).
 
 | Element | Scoped result |

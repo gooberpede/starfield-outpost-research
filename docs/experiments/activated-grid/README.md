@@ -1,7 +1,7 @@
 # SOR-EV-0027 — Activated-overlay/grid review package
 
 2026-10-10 Australia/Sydney. [Answer-first report](../activated-overlay-and-grid-geometry.md),
-[authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_and_planetary_grid_geometry.md).
+[authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_and_planetary_grid_geometry.md`).
 Strong partial; critical review required. Authored text/numeric selections
 REVIEW-REQUIRED. Raw saves, assets, captures, native text and databases LOCAL-ONLY.
 

@@ -1,6 +1,6 @@
 # RG2-D4C contract and review record
 
-2026-10-24, Australia/Sydney. The invoked [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4C_owner_root_map_archimedes.md) freezes AC1–AC8; there is no amendment. The original remains separately identified in the complete patch. [Report](report.md), [validation](validation.md), [native ledger](native.md), [sources](sources.csv).
+2026-10-24, Australia/Sydney. The invoked [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4C_owner_root_map_archimedes.md`) freezes AC1–AC8; there is no amendment. The original remains separately identified in the complete patch. [Report](report.md), [validation](validation.md), [native ledger](native.md), [sources](sources.csv).
 
 Task type: deterministic reconstruction and research hypothesis, with conditional logical implementation. Authority is offline read-only input analysis, original analytical code, disposable synthetic tests and authored repository records. No live/process/save/analysis-content/Git publication action is authorized. Negative closure requires an evidenced first missing operand and actionable acquisition specification; it does not authorize redefining missing mandatory science as PASS. Continue corrections/retests within this assignment; escalate only the actual missing dependency or authority.
 

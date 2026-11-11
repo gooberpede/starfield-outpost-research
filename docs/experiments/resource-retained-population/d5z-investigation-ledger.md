@@ -1,7 +1,7 @@
 # D5Z active investigation ledger
 
 2026-10-31, Australia/Sydney. Controlling authority is the unchanged
-[D5Z brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Z_visited_state_persistence_reset_capacity.md).
+[D5Z brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Z_visited_state_persistence_reset_capacity.md`).
 Its D5Z-CQ and Q1–Q5 are frozen without amendment: explain visited-state origin,
 all relevant mutations/readers, persistence or reconstruction, reset causality,
 capacity/failure mechanics and consequences for B1's inherited initial state.

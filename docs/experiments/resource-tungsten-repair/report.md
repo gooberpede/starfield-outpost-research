@@ -1,6 +1,6 @@
 # RG2-D4B: Tungsten admission and terminal teardown
 
-2026-10-24, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md), [contract](contract.md), [source pins](sources.csv), [review](review.md).
+2026-10-24, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md`), [contract](contract.md), [source pins](sources.csv), [review](review.md).
 
 | Element | Result |
 |---|---|

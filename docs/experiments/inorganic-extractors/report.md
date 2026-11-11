@@ -1,7 +1,7 @@
 # E1 inorganic extractor native reference
 
 2026-10-16, Australia/Sydney. SOR-EXP-0038 / SOR-EV-0046.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_E1_inorganic_extractor_native_mapping.md),
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E1_inorganic_extractor_native_mapping.md`),
 [frozen contract](contract.md), [review and receipts](review.md).
 Authored interpretation REVIEW-REQUIRED; raw saves, native text and bulk receipts
 LOCAL-ONLY. Findings below are proposed for maintainer review, not silently

@@ -3,7 +3,7 @@
 2026-11-01, Australia/Sydney. Final04's cases pass; independent Review01 accepts
 the declared offline qualification. D5AB remains
 INCOMPLETE / REWORK; D5R OPEN; P4/B2 NOT AUTHORIZED.
-[Frozen P3 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md),
+[Frozen P3 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md`),
 [active ledger](d5ab-p3-investigation-ledger.md),
 [native oracle driver](../../../research/resource-retained-population/d5ab_p3_native_qualify.py).
 

@@ -2,7 +2,7 @@
 
 ## Opening checkpoint · 2026-11-06 20:18 AEDT
 
-Frozen scope and authority are [brief sections 1–5](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AV_Outpost_Resource_Persistence_Player_Actions.md). Q1–Q4 and AC01–09 retain their original wording and acceptance thresholds. GC-35–37 are frozen at the opening HEAD `a22cd58c9a38ad35b532fd0eab87fe111b7df12b` in the [gameplay checklist](resource-generation-gameplay-checklist.md). Initial status contained only the supplied untracked brief. All four questions start INCOMPLETE pending evidence joins and review.
+Frozen scope and authority are [brief sections 1–5](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AV_Outpost_Resource_Persistence_Player_Actions.md`). Q1–Q4 and AC01–09 retain their original wording and acceptance thresholds. GC-35–37 are frozen at the opening HEAD `a22cd58c9a38ad35b532fd0eab87fe111b7df12b` in the [gameplay checklist](resource-generation-gameplay-checklist.md). Initial status contained only the supplied untracked brief. All four questions start INCOMPLETE pending evidence joins and review.
 
 Caller-available bytes at opening were C: 82,410,500,096 and D: 81,766,907,904. Start with authored records and derived receipts. Raw save or native input access would require separate applicable identity/protection preflight under the brief. No experimental execution is planned.
 

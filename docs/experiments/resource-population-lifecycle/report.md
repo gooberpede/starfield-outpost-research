@@ -1,6 +1,6 @@
 # D5C resource-source population lifecycle
 
-2026-10-25, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5C_resource_source_population_lifecycle.md), [native account](native.md), [lifecycle matrix](lifecycle.csv), [propositions](propositions.md), [review and reproduction](review.md), [source pins](sources.csv).
+2026-10-25, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5C_resource_source_population_lifecycle.md`), [native account](native.md), [lifecycle matrix](lifecycle.csv), [propositions](propositions.md), [review and reproduction](review.md), [source pins](sources.csv).
 
 **The inspected native path implements process-local retention and reuse of
 generated resource populations.** The provider stores a refcounted source wrapper

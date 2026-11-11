@@ -1,7 +1,7 @@
 # Experiment A: x87 preservation through exception observation
 
 2026-10-16, Australia/Sydney. SOR-EXP-0034 / SOR-EV-0042 continuation.
-[Authorized brief](../../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md).
+[Authorized brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md`).
 Authored material REVIEW-REQUIRED; raw synthetic evidence/builds LOCAL-ONLY.
 
 | Element | Result |

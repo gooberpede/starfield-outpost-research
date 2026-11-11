@@ -20,7 +20,7 @@ construction. GC-10 and D5R remain OPEN.
 
 ## Original question accounting
 
-The [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AQ_ordinary_construction_mask_invariance.md)
+The [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AQ_ordinary_construction_mask_invariance.md`)
 and all original criteria remain unchanged. The independent exact-snapshot
 review accepts the COMPLETE dispositions below within their explicit scope.
 

@@ -1,7 +1,7 @@
 # L2 completion and independent review package
 
 2026-10-19, Australia/Sydney. SOR-EXP-0052 / SOR-EV-0060.
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_L2_outpost_build_budget_native_accounting.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_L2_outpost_build_budget_native_accounting.md`),
 [frozen plan](plan.md), [answer](report.md), [native chain](native.md),
 [meter](ui.md), [saved contrasts](saves.md),
 [reproduction aid](../../../research/build-budget/README.md).

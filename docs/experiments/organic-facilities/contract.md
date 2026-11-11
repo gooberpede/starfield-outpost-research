@@ -1,7 +1,7 @@
 # E2 frozen offline research contract
 
 2026-10-16, Australia/Sydney. SOR-EXP-0039 / SOR-EV-0047.
-[Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_E2_organic_facility_native_mapping.md).
+[Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E2_organic_facility_native_mapping.md`).
 
 Question: identify organic facilities and map output eligibility/selection,
 configuration/restoration, recipes/inputs, local directional links, current

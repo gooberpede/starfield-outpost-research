@@ -1,6 +1,6 @@
 # D4 review and delivery
 
-2026-10-24, Australia/Sydney. The original [AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4_native_resource_selection_context_acquisition.md#5-frozen-acceptance-criteria-ac1ac8)
+2026-10-24, Australia/Sydney. The original [AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4_native_resource_selection_context_acquisition.md#5-frozen-acceptance-criteria-ac1ac8`)
 remain frozen. Independent scientific, engineering and editorial disposition: **ACCEPT**
 for the final02 snapshot identified below.
 No maintainer integration, live action or publication is authorized by this record.

@@ -1,12 +1,12 @@
 # D5D authority, completion and review
 
-[Original frozen AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5D_construction_triggers_demand_timing.md), [report](report.md), [methods](../../../research/resource-construction-demand/README.md).
+[Original frozen AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5D_construction_triggers_demand_timing.md`), [report](report.md), [methods](../../../research/resource-construction-demand/README.md).
 
 ## Scope and input preservation
 
 Baseline HEAD is `bd3d0485ccc0abc5405ee57f076945fb047bb551`.
 Initial `git status --short` contained only the supplied, untracked brief
-`docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5D_construction_triggers_demand_timing.md`.
+`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5D_construction_triggers_demand_timing.md`.
 It is preserved byte-for-byte and included only in complete-patch accounting,
 separately from task-authored changes. The index was initially unstaged. Exact
 index/input pins and UTC audit completion times are in ignored `audit-before.json`

@@ -16,7 +16,7 @@ The pass establishes a bounded string collection and repeatable cross-save strin
 
 ## Authority, inputs, safety and provenance
 
-The user explicitly invoked the [structural-containment brief](../implementation-briefs/CODEX_RESEARCH_BRIEF_outpost_save_structural_containment.md). Allowed: read existing corpus records and manifests; hash originals for preservation; analyze verified existing archived copies offline; create narrow original standard-library scripts, local derivatives and review summaries. Prohibited: game launch, SFSE deployment, debugger, original-save edits, configuration or analysis-database mutation, third-party tool/code acquisition, staging, commit, push and disclosure.
+The user explicitly invoked the [structural-containment brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_outpost_save_structural_containment.md`). Allowed: read existing corpus records and manifests; hash originals for preservation; analyze verified existing archived copies offline; create narrow original standard-library scripts, local derivatives and review summaries. Prohibited: game launch, SFSE deployment, debugger, original-save edits, configuration or analysis-database mutation, third-party tool/code acquisition, staging, commit, push and disclosure.
 
 Inputs: all requested S0/S0C through S7/S7C and L0/L0C/L1/L1C/L2/L2C labels. **22 labels represent 21 unique saves**, because L0 is immutable S4C / SOR-SAMPLE-0015. No incidental exit sample was analyzed. No raw save or decoded blob was copied. Exact source/copy paths remain in the unchanged prior local manifests; selected [directory metrics](structural-containment/directory.csv) use neutral labels/sample IDs.
 

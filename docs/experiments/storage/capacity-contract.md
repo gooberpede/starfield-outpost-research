@@ -1,6 +1,6 @@
 # S1 capacity follow-up: frozen execution contract
 
-2026-10-17, Australia/Sydney. Governing [authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_S1_capacity_inventory_state_completion.md), section 7, frozen without amendment before investigation.
+2026-10-17, Australia/Sydney. Governing [authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_S1_capacity_inventory_state_completion.md`), section 7, frozen without amendment before investigation.
 
 Task: bounded offline native and saved-inventory semantics, documentation and independent review. Retain accepted S1 history. No production extractor, live access, game, deployment, save editing, downloads, external contact or Git mutation.
 

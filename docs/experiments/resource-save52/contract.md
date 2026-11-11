@@ -1,7 +1,7 @@
 # RG2-D2 frozen execution contract
 
 2026-10-24, Australia/Sydney. The user invoked the
-[Save52-wide brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md).
+[Save52-wide brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md`).
 Its AC1–AC8 are frozen without amendment. This is offline research and
 deterministic reconstruction, with original reusable analytical code.
 

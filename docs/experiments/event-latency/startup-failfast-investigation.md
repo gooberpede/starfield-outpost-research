@@ -1,7 +1,7 @@
 # Adapter startup fail-fast — SOR-EXP-0027 / SOR-EV-0035
 
 2026-10-11 Australia/Sydney; SOR-D-0047.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_adapter_013_startup_failfast_investigation.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_adapter_013_startup_failfast_investigation.md`).
 Offline analysis and disposable processes only; no Starfield process open, memory
 access, launch or attachment in this assignment. Authored results REVIEW-REQUIRED;
 private receipts/dumps LOCAL-ONLY.

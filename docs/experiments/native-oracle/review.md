@@ -4,7 +4,7 @@
 No Starfield launch, attachment, deployment, save/config change, staging, commit
 or push occurred. Full native equivalence remains NOT TESTED. User's Phase B
 joint review and exact live authorization remain required. Original
-[authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_native_position_oracle_observer_integrated.md)
+[authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_position_oracle_observer_integrated.md`)
 and [contract](contract.md) preserve all six mandatory deliverables.
 
 ## Result and actual boundary

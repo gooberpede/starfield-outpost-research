@@ -4,7 +4,7 @@ The [2026-10-28 metadata amendment](cloud-metadata-amendment.md) prospectively
 supersedes the operational Cloud-hash hold/exception below. These original
 qualification results and failed historical comparisons remain unchanged.
 
-[Original frozen contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5L_first_construction_retained_population.md),
+[Original frozen contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5L_first_construction_retained_population.md`),
 [report](report.md), [independent disposition](review.md). The original criteria
 were not amended. Native review accepts the bounded witnessed-region contract;
 full exact-snapshot acceptance is recorded only in review.md.

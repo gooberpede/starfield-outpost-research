@@ -1,6 +1,6 @@
 # Frozen criteria and exact review package
 
-[Original C1C brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1C_native_resource_oracle_collector.md)
+[Original C1C brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1C_native_resource_oracle_collector.md`)
 controls AC1–AC8 without amendment. [Report](report.md), [evidence](qualification.md),
 [effects](verification.md). Corrections/requalification remain this assignment.
 

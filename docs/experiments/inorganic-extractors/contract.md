@@ -1,7 +1,7 @@
 # E1 offline research contract
 
 2026-10-16, Australia/Sydney. SOR-EXP-0038 / SOR-EV-0046.
-[Original authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_E1_inorganic_extractor_native_mapping.md).
+[Original authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E1_inorganic_extractor_native_mapping.md`).
 
 The eight capabilities in brief §2 are mandatory research questions, not eight
 promises of runtime validation. Deliver a useful descriptive native reference,

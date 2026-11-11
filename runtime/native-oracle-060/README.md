@@ -1,6 +1,6 @@
 # Native position-write observer 0.6.0
 
-Offline candidate for the [authorized history brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md).
+Offline candidate for the [authorized history brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md`).
 [Report](../../docs/experiments/position-write-history/report.md),
 [static coverage](../../docs/experiments/position-write-history/static-audit.md),
 [prospective card](../../docs/experiments/position-write-history/run-card.md),

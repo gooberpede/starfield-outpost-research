@@ -1,7 +1,7 @@
 # Kreet coordinate sufficiency
 
 2026-10-20, Australia/Sydney. SOR-EXP-0058 / SOR-EV-0066.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_coordinate_sufficiency_Kreet_lab_Save37-39.md), [plan](plan.md), [review](review.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_coordinate_sufficiency_Kreet_lab_Save37-39.md`), [plan](plan.md), [review](review.md).
 Authored findings REVIEW-REQUIRED; primary save/script/native evidence LOCAL-ONLY.
 
 | Question | Best-supported answer |

@@ -1,6 +1,6 @@
 # S1 frozen contract and execution boundary
 
-[Original invoked brief, section 6](../../implementation-briefs/CODEX_BRIEF_SOR_S1_storage_inventory_eligibility_runtime_save.md)
+[Original invoked brief, section 6](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_S1_storage_inventory_eligibility_runtime_save.md`)
 is the frozen completion contract; no criterion is replaced by this implementation
 account. [Review matrix](review.md) retains all eight criteria.
 

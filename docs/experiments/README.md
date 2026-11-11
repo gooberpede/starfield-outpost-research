@@ -93,7 +93,7 @@
 
 - [RG2-A1 resource seeds and mature context](resource-geometry-mature-context/report.md): CK field/RSCS and ordinary owner producers, frame discrimination, frozen conditional mature predictions and [F1 observed/saved counterexamples, Water admission and Copper disk](resource-geometry-mature-context/f1-reconciliation.md); [review](resource-geometry-mature-context/review.md). Offline only.
 
-For current explanations use the [subsystem roadmap](../research-roadmap.md); for displaced claims use the [history register](../research-history.md). This dated index preserves original scope/next-step descriptions, including later-completed follow-ons. [RC1](../audits/outpost-rc1-2026-10/gap-reconciliation.md) records current coverage. Ignored raw evidence paths in linked records are LOCAL-ONLY, not public downloads.
+For current explanations use the [subsystem roadmap](../research-roadmap.md); for displaced claims use the [history register](../research-history.md). This dated index preserves original scope/next-step descriptions, including later-completed follow-ons. [RC1](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/outpost-rc1-2026-10/gap-reconciliation.md`) records current coverage. Ignored raw evidence paths in linked records are LOCAL-ONLY, not public downloads.
 
 - [SOR-EXP-0062 / SOR-EV-0070 - LO1 Locations -> Outpost](locations-outpost/report.md): authoritative field inventory, counts/base allowance, faction/level, metadata/asset selectors and refresh boundaries; [review/package](locations-outpost/review.md). Offline only.
 
@@ -186,7 +186,7 @@ For current explanations use the [subsystem roadmap](../research-roadmap.md); fo
   conditional native center matches and stale-site counterexample; critical review
   pending, active oracle/grid authority unresolved, cleanup complete.
 
-- SOR-EXP-0022: [observer 0.1.1 actual-installation preflight](../audits/observer-011-post-deployment-preflight.md)
+- SOR-EXP-0022: [observer 0.1.1 actual-installation preflight](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/observer-011-post-deployment-preflight.md`)
   and [Phase 1 Save25/Save26 operator card](engine-oracle/Phase1-Save25-Save26-operator-run-card.md);
   review required before live science, fixed-POI candidates recorded separately.
 
@@ -196,11 +196,11 @@ For current explanations use the [subsystem roadmap](../research-roadmap.md); fo
 
 - [SOR-EXP-0018: durable center and object transforms](durable-outpost-center-and-object-transforms.md) — exact local invariance, captured origin, nonempty Workshop prefix and conditional reference frames; [SOR-EV-0026 review](durable-center/README.md). Continuous geographic embedding remains OPEN.
 
-- SOR-EXP-0016 completed initial live run: [SOR-EV-0024 results](../audits/beacon-observer-initial-live-results.md) / [chronology](beacon-observer/initial-live-session.md). Move/save/reload/SOR-002 comparison, 9 verified captures and original-location-offset lead; exact planetary conversion unresolved, interpretation awaiting critical review.
+- SOR-EXP-0016 completed initial live run: [SOR-EV-0024 results](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/beacon-observer-initial-live-results.md`) / [chronology](beacon-observer/initial-live-session.md). Move/save/reload/SOR-002 comparison, 9 verified captures and original-location-offset lead; exact planetary conversion unresolved, interpretation awaiting critical review.
 
-- SOR-EXP-0016 deployment supplement: [actual-installation preflight](../audits/beacon-observer-post-deployment-preflight.md), SOR-EV-0023, and [Save25 operator card](beacon-observer/Save25-operator-run-card.md). Observer approved/deployed; run-card review precedes launch. Fresh runtime readiness remains unobserved; earlier offline record below retained.
+- SOR-EXP-0016 deployment supplement: [actual-installation preflight](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/beacon-observer-post-deployment-preflight.md`), SOR-EV-0023, and [Save25 operator card](beacon-observer/Save25-operator-run-card.md). Observer approved/deployed; run-card review precedes launch. Fresh runtime readiness remains unobserved; earlier offline record below retained.
 
-- [SOR-EXP-0016: broad beacon observer implementation](../audits/live-beacon-observer.md) — source, offline/disposable qualification, versioned package and proposed Save25 live card; [selected ledger](beacon-observer/README.md), critical review required before deployment/live execution.
+- [SOR-EXP-0016: broad beacon observer implementation](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/live-beacon-observer.md`) — source, offline/disposable qualification, versioned package and proposed Save25 live card; [selected ledger](beacon-observer/README.md), critical review required before deployment/live execution.
 
 - [SOR-EXP-0015: projection and exact-beacon boundary](exact-beacon-planetary-coordinates.md) —49152-grid, 25 angular reconstructions, common-origin evidence and explicit fractional/frame blocker; [review](exact-beacon/README.md), ANALYZED, critical review required.
 
@@ -225,7 +225,7 @@ Keep failed/negative runs and superseded interpretations. Link conclusions into 
 
 Raw data stays local. Selected, reviewed bundles go in [evidence/](evidence/README.md) with their own authored README and rights/integrity metadata. Plan any live work separately; no live run follows from this directory existing.
 
-- [EXP0002A S0 no-debugger control](EXP0002A-S0-control.md) — PROJECT-VERIFIED RUNTIME pass; S1/S2 gates in [0.1.3 audit](../audits/exp0002a-adapter-0.1.3.md).
+- [EXP0002A S0 no-debugger control](EXP0002A-S0-control.md) — PROJECT-VERIFIED RUNTIME pass; S1/S2 gates in [0.1.3 audit](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-adapter-0.1.3.md`).
 
 - [SOR-EXP-0006: mature-save outpost and cargo validation](mature-save-outpost-validation.md) — bounded grammar, member/name and save-only reciprocal graph checks; all-active-index interpretation contradicted by small samples; critical review pending.
 

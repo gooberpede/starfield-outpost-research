@@ -1,6 +1,6 @@
 # Continuation decision and permission gates
 
-2026-10-31, Australia/Sydney. Recommendation only under [C1](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C1_continuation_assessment.md). **D5AB INCOMPLETE / REWORK. B2 NOT AUTHORIZED. B1 PARTIAL; D5AA ESCALATE; D5R OPEN.** C1 is not observer qualification or an amendment of the original contract.
+2026-10-31, Australia/Sydney. Recommendation only under [C1](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C1_continuation_assessment.md`). **D5AB INCOMPLETE / REWORK. B2 NOT AUTHORIZED. B1 PARTIAL; D5AA ESCALATE; D5R OPEN.** C1 is not observer qualification or an amendment of the original contract.
 
 The smallest next approval is an existing-evidence-only D5AB closure audit, restricted to already captured exports, source, receipts and documentation. It should name L1/L2, S1, T1, R1 and G1/G2 from the [matrix](d5ab-c1-continuation-matrix.md), permit no implementation/native execution, and require a precise missing-edge ledger. This is a recommendation for a separate decision, not a request to launch or an automatic continuation.
 

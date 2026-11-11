@@ -1,6 +1,6 @@
 # D5A: selecting the first construction-mask observation
 
-2026-10-25, Australia/Sydney. [Brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md),
+2026-10-25, Australia/Sydney. [Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md`),
 [contract](contract.md), [matrix](discrimination.md), [proposed card](run-card.md),
 [verification/review](review.md), [source pins](sources.csv).
 

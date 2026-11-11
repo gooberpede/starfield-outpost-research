@@ -1,6 +1,6 @@
 # D5I methods and reproducibility
 
-[Brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5I_construction_query_reachability_variability.md),
+[Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5I_construction_query_reachability_variability.md`),
 [proof](proofs.md), [source pins](sources.csv), [validation](validation.md).
 Task type is bounded offline native research; mandatory criteria remain AC1–AC8
 in the unchanged supplied brief. No material amendment was adopted.

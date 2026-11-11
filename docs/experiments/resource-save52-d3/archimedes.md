@@ -1,7 +1,7 @@
 # Archimedes III: independent screenshot and selection record
 
 2026-10-24, Australia/Sydney. Case `D2-81a75b`, body FormID `0x0005de4c`.
-The [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D3_save52_discrepancies_coverage.md)
+The [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D3_save52_discrepancies_coverage.md`)
 associates the new images with the named outpost; pixels alone do not establish
 the executable hash, loaded save identity or native coordinate frame.
 

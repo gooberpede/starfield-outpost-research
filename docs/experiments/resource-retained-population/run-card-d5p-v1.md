@@ -1,6 +1,6 @@
 # D5P v1 proposed Phase B card — NOT AUTHORIZED
 
-2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md),
+2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md`),
 [Phase A report](d5p-report.md), [review](d5p-review.md), [source ledger](d5p-sources.csv).
 This card is a proposal. Independent Phase A review and a separate explicit
 maintainer GO are required. No command below grants permission by itself.

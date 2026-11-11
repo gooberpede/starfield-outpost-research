@@ -1,6 +1,6 @@
 # Q/E acceptance and independent completion review
 
-2026-10-12. [Original contract](../../implementation-briefs/CODEX_BRIEF_SOR_Q_to_E_control_flow_and_oracle_reachability.md),
+2026-10-12. [Original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_Q_to_E_control_flow_and_oracle_reachability.md`),
 [report](../q-to-e-control-flow.md), [acquisition decision](acquisition.md).
 
 **Independent verdict: ESCALATE — offline evidence closure accepted.**

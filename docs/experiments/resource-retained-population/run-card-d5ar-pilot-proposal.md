@@ -3,7 +3,7 @@
 2026-11-05, Australia/Sydney. **DESIGN ONLY / NOT AUTHORIZED.**
 Offline native controls pass; independent integrated qualification and a separate
 explicit pilot decision remain prerequisites for execution.
-The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AR_generic_outpost_geometry_snapshot_plugin.md)
+The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AR_generic_outpost_geometry_snapshot_plugin.md`)
 authorizes preparation only. This pilot is excluded from the later series.
 
 ## Purpose and immutable admission

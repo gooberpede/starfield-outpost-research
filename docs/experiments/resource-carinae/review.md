@@ -1,6 +1,6 @@
 # C2A exact-snapshot independent review
 
-The frozen [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2A_carinae_native_iron_region_qualification.md)
+The frozen [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2A_carinae_native_iron_region_qualification.md`)
 requires AC1–AC8 and independent technical/editorial review of the actual final
 changed text. [Verification](verification.md) provides the implementer matrix;
 [editorial finalization](editorial-finalization.md) defines full prose coverage.

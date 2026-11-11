@@ -1,6 +1,6 @@
 # D5P-R1 prospective operation plan — NO-GO / NOT AUTHORIZED
 
-2026-10-29, Australia/Sydney. [R1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R1_observer_resilience_context_repair.md),
+2026-10-29, Australia/Sydney. [R1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R1_observer_resilience_context_repair.md`),
 [diagnosis](d5p-r1-diagnosis.md), [evidence contract](d5p-r1-design.md).
 
 This is a held planning record, not an executable retail card. No R1 deployment

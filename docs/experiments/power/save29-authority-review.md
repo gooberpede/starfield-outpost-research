@@ -1,7 +1,7 @@
 # Save29 authority: completion and review package
 
 2026-10-17, Australia/Sydney. SOR-EXP-0041 / SOR-EV-0049 continuation.
-[Original frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_offline_allocation_authority.md),
+[Original frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_offline_allocation_authority.md`),
 [answer and native appendix](save29-authority.md),
 [execution protocol](../../RESEARCH_EXECUTION_PROTOCOL.md).
 

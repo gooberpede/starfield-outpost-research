@@ -2,7 +2,7 @@
 
 **Historical contract, with prose repaired.** H1–H6 and original criteria remain identifiable below. The [scientific reassessment](scientific-value-reassessment.md) recommends **NO-GO** and supersedes the earlier ACCEPT for authorization. In particular, the absence of a source callback does not independently prove that scanning was skipped; see the H1 critique.
 
-2026-10-15. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_local_readiness_native_observation.md).
+2026-10-15. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_local_readiness_native_observation.md`).
 SOR-EXP-0036 / SOR-EV-0044. Authored material REVIEW-REQUIRED; raw/build outputs LOCAL-ONLY.
 
 Task: implement and independently review one passive native observer, disposable

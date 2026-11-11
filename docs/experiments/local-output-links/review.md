@@ -1,6 +1,6 @@
 # S2 completion and independent review package
 
-[Original frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_S2_local_output_links_remote_production.md),
+[Original frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_S2_local_output_links_remote_production.md`),
 [contract](contract.md), [report](report.md), [native](native.md),
 [lifecycle](lifecycle.md), [saves](saves.md), [traces](traces.md),
 [functions](functions.csv), [sources](sources.csv),

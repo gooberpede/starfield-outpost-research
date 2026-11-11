@@ -1,6 +1,6 @@
 # RG2-C1 — coherent resource-region observation feasibility
 
-2026-10-22, Australia/Sydney. Offline design under the [C1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1_native_region_observation_feasibility.md).
+2026-10-22, Australia/Sydney. Offline design under the [C1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1_native_region_observation_feasibility.md`).
 Authored analysis REVIEW-REQUIRED; primary native/save/capture bytes LOCAL-ONLY.
 
 **Prefer the naturally executing area consumer `1421e07d0 → 1421e0f50`,

@@ -1,6 +1,6 @@
 # RG1 criterion accounting and independent review
 
-2026-10-21, Australia/Sydney. [Original frozen AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG1_inorganic_resource_vein_geometry_reconstruction.md),
+2026-10-21, Australia/Sydney. [Original frozen AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG1_inorganic_resource_vein_geometry_reconstruction.md`),
 [report](report.md), [validation](validation.md), [source pins](sources.csv).
 No scope amendment or self-issued integration/publication approval.
 

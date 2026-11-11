@@ -1,7 +1,7 @@
 # D5AR active investigation ledger
 
 2026-11-05, Australia/Sydney. OFFLINE ONLY. Original Q1–Q4 and AC01–AC09
-in the [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AR_generic_outpost_geometry_snapshot_plugin.md)
+in the [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AR_generic_outpost_geometry_snapshot_plugin.md`)
 are frozen. GC-10 / GC-31 / D5R remain OPEN. This ledger is a checkpoint,
 not acceptance or authority to launch, deploy, collect samples or integrate.
 

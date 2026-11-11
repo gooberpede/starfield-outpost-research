@@ -1,7 +1,7 @@
 # BM1 experiment plan
 
 2026-10-20, Australia/Sydney. Authorized by the maintainer's instruction to execute
-the [BM1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_BM1_construction_component_variants_dynamic_configuration.md).
+the [BM1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_BM1_construction_component_variants_dynamic_configuration.md`).
 AC1–AC8 in that file are frozen. Interim investigation; no completion claim.
 
 Question: distinguish manual component selection, automatic snap behavior,

@@ -1,6 +1,6 @@
 # D5T completion, editorial and delivery review
 
-The unchanged [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5T_feynman_v_outpost2_variant_enumeration_visual_mapping.md)
+The unchanged [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5T_feynman_v_outpost2_variant_enumeration_visual_mapping.md`)
 governs D5T-CQ, Q1–Q4 and D5T-AC1 through AC11. The
 [report](d5t-report.md) gives COMPLETE scoped scientific answers. Independent
 scientific/completeness, engineering/evidence and editorial reviews ACCEPT the

@@ -1,7 +1,7 @@
 # D5 frozen execution contract
 
 2026-10-25, Australia/Sydney. The maintainer invoked the unchanged
-[D5 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5_feynman_construction_mask_component_selection.md).
+[D5 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5_feynman_construction_mask_component_selection.md`).
 AC1–AC8 are frozen without amendment. This is offline research and analytical
 implementation; no retail process, attachment, deployment, save mutation,
 staging, commit, push or publication is authorized.

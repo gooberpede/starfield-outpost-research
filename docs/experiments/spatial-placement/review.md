@@ -1,7 +1,7 @@
 # L3 completion and independent review package
 
 2026-10-19, Australia/Sydney. SOR-EXP-0053 / SOR-EV-0061.
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_L3_spatial_placement_POI_clutter_persistence.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_L3_spatial_placement_POI_clutter_persistence.md`),
 [frozen plan/user amendments](plan.md), [answer](report.md),
 [native chain](native.md), [saves](saves.md), [screenshots](screenshots.md),
 [lifecycle](persistence.md), [reproduction](../../../research/spatial-placement/README.md).

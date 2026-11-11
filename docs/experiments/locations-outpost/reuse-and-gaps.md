@@ -1,6 +1,6 @@
 # LO1 reuse ledger and investigation boundary
 
-2026-10-20. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_LO1_locations_outpost_field_lineage.md).
+2026-10-20. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_LO1_locations_outpost_field_lineage.md`).
 Ledger started before new interpretation; accepted computations are reused,
 not subject to repeat qualification. Final new edges are in [native/UI](native-and-ui.md).
 

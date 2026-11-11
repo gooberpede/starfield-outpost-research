@@ -1,6 +1,6 @@
 # Cross-session completion and review package
 
-2026-10-13, Australia/Sydney. [Original authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_cross_session_native_center_state_and_observer_interference.md),
+2026-10-13, Australia/Sydney. [Original authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_cross_session_native_center_state_and_observer_interference.md`),
 [scientific report](report.md), [ledger](ledger.md), [coverage](coverage.csv),
 [dependency/acquisition assessment](dependencies-and-acquisition.md),
 [specialist contribution](specialist.md), [sources](sources.csv).

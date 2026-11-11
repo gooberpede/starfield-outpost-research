@@ -1,7 +1,7 @@
 # P1 offline power research contract
 
 2026-10-17, Australia/Sydney. SOR-EXP-0041 / SOR-EV-0049.
-[Original authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md).
+[Original authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md`).
 The brief's mandatory questions and deliverables are frozen; this document
 organizes their verification and does not reduce them.
 

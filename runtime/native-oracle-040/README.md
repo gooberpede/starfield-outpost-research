@@ -1,6 +1,6 @@
 # Existing-reference grid observer 0.4.0
 
-Offline candidate under the [brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_existing_reference_grid_oracle_integrated.md).
+Offline candidate under the [brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_existing_reference_grid_oracle_integrated.md`).
 [Schema](schema.md), [report](../../docs/experiments/existing-reference-grid/report.md),
 [integrated run card](../../docs/experiments/existing-reference-grid/run-card.md).
 No deployment, live execution or Git mutation is authorized by this implementation.

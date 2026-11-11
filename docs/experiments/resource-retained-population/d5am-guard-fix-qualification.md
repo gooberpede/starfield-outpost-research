@@ -2,7 +2,7 @@
 
 2026-11-04, Australia/Sydney. OFFLINE ONLY; independent scoped acceptance is recorded in
 [the combined review](d5am-n0-repair-review.md).
-Authority is the [repair amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md).
+Authority is the [repair amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md`).
 The failed N0 episode, original 0.9.0 package, prediction and source locks remain
 historical. This repair does not authorize another deployment or live run.
 

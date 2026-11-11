@@ -1,6 +1,6 @@
 # D5AD question, criteria and independent review
 
-2026-11-02, Australia/Sydney. [Original frozen contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md),
+2026-11-02, Australia/Sydney. [Original frozen contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md`),
 [report](d5ad-report.md), [active ledger](d5ad-investigation-ledger.md),
 [checklist decisions](d5ad-checklist-decisions.md), [methods/tests](d5ad-methods-and-tests.md),
 [source ledger](d5ad-sources.csv).

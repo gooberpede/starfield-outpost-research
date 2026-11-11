@@ -1,7 +1,7 @@
 # SOR-EXP-0021 — Durable-position model and engine oracle
 
 2026-10-10 Australia/Sydney. SOR-EV-0029. Authorized by the user's invocation of
-[the retained brief](../implementation-briefs/CODEX_BRIEF_SOR_durable_position_engine_oracle_algorithm_reconstruction.md).
+[the retained brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_durable_position_engine_oracle_algorithm_reconstruction.md`).
 Status: OFFLINE PREPARATION COMPLETE WITH EXPLICIT COVERAGE LIMITS;
 authored material REVIEW-REQUIRED; raw inputs LOCAL-ONLY.
 

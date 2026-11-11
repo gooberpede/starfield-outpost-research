@@ -1,6 +1,6 @@
 # D5M debugger repair and Phase A qualification
 
-2026-10-28, Australia/Sydney. [Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5M_debugger_reliability_repair.md),
+2026-10-28, Australia/Sydney. [Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5M_debugger_reliability_repair.md`),
 [historical failure](phase-b-postmortem.md), [proposed versioned card](run-card-d5m-v1.md),
 [local source and receipt pins](debugger-repair-sources.csv).
 

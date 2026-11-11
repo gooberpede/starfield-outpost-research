@@ -2,7 +2,7 @@
 
 2026-11-01, Australia/Sydney. **Independent Review04: ACCEPT. P1-Q1–Q4 COMPLETE;
 P1-AC01–AC08 PASS within the frozen offline contract.**
-[Original P1 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P1_native_source_identity_lifetime_closure.md),
+[Original P1 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P1_native_source_identity_lifetime_closure.md`),
 [report and acceptance matrix](d5ab-p1-report.md),
 [active ledger](d5ab-p1-investigation-ledger.md),
 [native matrix](d5ab-p1-source-identity-lifetime.md),

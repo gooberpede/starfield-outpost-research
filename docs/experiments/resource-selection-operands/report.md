@@ -1,6 +1,6 @@
 # RG2-C1G Phase A: installed exotic setting explains all four paths conditionally
 
-2026-10-23 Australia/Sydney. [Invoked Phase A brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1G_effective_resource_selection_chance_weight_capture.md).
+2026-10-23 Australia/Sydney. [Invoked Phase A brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1G_effective_resource_selection_chance_weight_capture.md`).
 Authored synthesis REVIEW-REQUIRED; original native/definition/save/receipt bytes
 LOCAL-ONLY. No live test was performed. B6 and publication remain on hold.
 

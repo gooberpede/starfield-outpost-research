@@ -1,7 +1,7 @@
 # Matching-source acceptance and independent review
 
 2026-10-12 Australia/Sydney. Original criteria are frozen by
-[the brief](../../implementation-briefs/CODEX_BRIEF_SOR_matching_source_qualification_enumeration_reachability.md).
+[the brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_matching_source_qualification_enumeration_reachability.md`).
 [Research report](../matching-source-qualification.md).
 
 Submitted scientific disposition: **A — QUALIFIED MATCHING-SOURCE SCENARIO**,

@@ -1,7 +1,7 @@
 # Frozen offline acceptance contract
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
-The [invoked original brief](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md)
+The [invoked original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md`)
 controls; this mapping does not narrow its acceptance requirements.
 
 **Type:** integrated offline engineering and scoped acquisition-feasibility

@@ -5,7 +5,7 @@ and lifetime contract.** D5AB remains INCOMPLETE /
 REWORK, D5R OPEN and B2 NOT AUTHORIZED. This work neither identifies B1's missing
 first event nor validates retail behavior.
 
-[Frozen contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P1_native_source_identity_lifetime_closure.md),
+[Frozen contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P1_native_source_identity_lifetime_closure.md`),
 [active ledger](d5ab-p1-investigation-ledger.md),
 [native matrix](d5ab-p1-source-identity-lifetime.md),
 [provenance](d5ab-p1-provenance.md),

@@ -1,6 +1,6 @@
 # E2 verification and independent review
 
-2026-10-16, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_E2_organic_facility_native_mapping.md),
+2026-10-16, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E2_organic_facility_native_mapping.md`),
 [frozen contract](contract.md), [report](report.md). Proposed native-reference
 assessment: **CONDITIONALLY COMPLETE**. Independent review02: **ACCEPT** after
 review01 corrections; maintainer critical review and integration remain separate

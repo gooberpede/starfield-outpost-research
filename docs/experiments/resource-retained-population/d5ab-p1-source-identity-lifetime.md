@@ -1,7 +1,7 @@
 # P1 source identity and lifetime matrix
 
 2026-11-01, Australia/Sydney. D5AB INCOMPLETE / REWORK; D5R OPEN;
-B2 NOT AUTHORIZED. [Contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P1_native_source_identity_lifetime_closure.md),
+B2 NOT AUTHORIZED. [Contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P1_native_source_identity_lifetime_closure.md`),
 [active ledger](d5ab-p1-investigation-ledger.md), [starting C2 edges](d5ab-c2-evidence-matrix.md).
 All native locations below are preferred static VAs for image base `0x140000000`
 on the pinned 1.16.244.0 executable. They are not relocated runtime pointers.

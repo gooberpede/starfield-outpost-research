@@ -1,6 +1,6 @@
 # C2 completion and independent review package
 
-[Invoked brief](../../../implementation-briefs/CODEX_BRIEF_SOR_C2_cargo_transport_scheduling_freight_lifecycle.md),
+[Invoked brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_C2_cargo_transport_scheduling_freight_lifecycle.md`),
 [contract and user amendment](contract.md), [answer-first report](report.md),
 [cycle](cycle.md), [timing/modifiers](timing.md), [inventory](inventory.md),
 [remote lifecycle](lifecycle.md), [saved mapping](saves.md),

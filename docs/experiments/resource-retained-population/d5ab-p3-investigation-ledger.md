@@ -5,10 +5,10 @@ D5R OPEN; B2/P4 NOT AUTHORIZED.**
 
 ## Frozen contract and bounds
 
-The [unchanged invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md)
+The [unchanged invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md`)
 controls the exact P3-Q1–Q5 and P3-AC01–AC08 wording and success conditions.
 This ledger incorporates those conditions without amendment. The original
-[D5AB contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md)
+[D5AB contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`)
 retains all AB-Q1–Q5 and AB-AC01–AC12 obligations.
 
 Task type: offline engineering integration and scientific-evidence qualification.

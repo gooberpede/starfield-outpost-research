@@ -86,3 +86,7 @@ Desktop.ini
 # Deliberately do NOT blanket-ignore docs/, evidence/, JSON, CSV, or future data/.
 # For a cleared exception, add a narrowly named rule in a reviewed change.
 # Never treat git add -f or a changed suffix as a rights/privacy workaround.
+
+# D5BZ first-release document containers.
+!/docs/audits/audits.zip
+!/docs/implementation-briefs/implementation-briefs.zip

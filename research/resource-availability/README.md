@@ -1,6 +1,6 @@
 # Offline resource research helpers
 
-These original GPL-3.0-or-later helpers implement the [bounded brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md).
+These original GPL-3.0-or-later helpers implement the [bounded brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md`).
 Read the [report](../../docs/experiments/resource-availability/report.md),
 [contracts/commands](../../docs/experiments/resource-availability/schema.md) and
 [native execution ledger](../../docs/experiments/resource-availability/native.md).

@@ -17,7 +17,7 @@ scope. No further live run is authorized.
 
 ## Scope and actual actions
 
-The [N0 authorization](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N0_live_2026-11-04.md)
+The [N0 authorization](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N0_live_2026-11-04.md`)
 and unchanged [card](run-card-d5am-normal-construction-proposal.md) govern this
 attempt. Fresh full preflight and independent prelaunch review PASS. The operator
 launches through the approved profile after clearance. The observer's worker
@@ -97,7 +97,7 @@ solely for provenance/postflight, with FAILED_RESIDENT_INERT_BEFORE_READY explic
 | N0-AC04 | FAIL for complete acquisition/owned STOP; protection/exit/disablement and exact partial archival pass. |
 | N0-AC05 | PASS for exact independent evidence/source/editorial/patch review, with final closure verification retained separately. |
 
-The [separate repair amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md)
+The [separate repair amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md`)
 authorizes offline correction/requalification only. A corrected 0.9.1 package
 cannot silently inherit the immutable 0.9.0 measurement manifest, failed N0
 approval or a selected later application of the next-trial forecast. Future

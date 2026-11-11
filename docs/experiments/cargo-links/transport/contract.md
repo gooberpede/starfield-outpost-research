@@ -1,7 +1,7 @@
 # C2 frozen contract and execution boundary
 
 2026-10-18, Australia/Sydney. SOR-EXP-0045 / SOR-EV-0053.
-The [invoked brief](../../../implementation-briefs/CODEX_BRIEF_SOR_C2_cargo_transport_scheduling_freight_lifecycle.md)
+The [invoked brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_C2_cargo_transport_scheduling_freight_lifecycle.md`)
 section 6 controls all eight mandatory criteria. No criterion is relaxed.
 
 Accepted user amendment, recorded verbatim in substance: Feynman I ↔ Feynman

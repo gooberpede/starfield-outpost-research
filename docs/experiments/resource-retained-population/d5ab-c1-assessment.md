@@ -1,6 +1,6 @@
 # Bounded continuation assessment
 
-2026-10-31, Australia/Sydney. Version 1. Assessment only, under the [C1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C1_continuation_assessment.md). The [original D5AB contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md) is unchanged.
+2026-10-31, Australia/Sydney. Version 1. Assessment only, under the [C1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C1_continuation_assessment.md`). The [original D5AB contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`) is unchanged.
 
 **A feasible evidence-first continuation exists, but observer qualification remains unfinished. D5AB INCOMPLETE / REWORK; B1 PARTIAL; D5AA ESCALATE; D5R OPEN; B2 NOT AUTHORIZED.** Existing evidence can support a more exact ownership/coverage audit and ordinary controller/reducer planning before deciding whether fresh native research is indispensable. C1 grants no engineering or experimental continuation authority.
 

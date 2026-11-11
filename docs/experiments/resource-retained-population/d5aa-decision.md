@@ -1,6 +1,6 @@
 # D5AA sufficiency and next discriminating evidence
 
-2026-10-31, Australia/Sydney. [Original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AA_resource_generation_chronology.md),
+2026-10-31, Australia/Sydney. [Original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AA_resource_generation_chronology.md`),
 [report](d5aa-report.md), [native map](d5aa-gameplay-transition-map.md),
 [retained chronology](d5aa-b1-chronology.md), [review](d5aa-review.md).
 

@@ -1,6 +1,6 @@
 # Native spatial predicate and input-production ledger
 
-2026-10-15. Specialist contribution to the [authorized Milestone B brief](../../implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md). Original authored interpretation of local primary exports; authored text is REVIEW-REQUIRED and native exports are LOCAL-ONLY. This supplements, rather than replaces, the [historical route ledger](../resource-availability/native.md).
+2026-10-15. Specialist contribution to the [authorized Milestone B brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md`). Original authored interpretation of local primary exports; authored text is REVIEW-REQUIRED and native exports are LOCAL-ONLY. This supplements, rather than replaces, the [historical route ledger](../resource-availability/native.md).
 
 | Question | Scoped answer |
 |---|---|

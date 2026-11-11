@@ -3,10 +3,10 @@
 2026-11-01, Australia/Sydney. **D5AB INCOMPLETE / REWORK; D5R OPEN;
 B1 PARTIAL; D5AA historical target chronology unresolved; P4/B2 NOT AUTHORIZED.**
 
-The [original D5AB brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md)
+The [original D5AB brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`)
 retains its full wording and required generality. This mapping does not amend
 its five questions or twelve criteria. P3 is the bounded offline integration
-assignment in the [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md).
+assignment in the [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P3_native_integration_qualification.md`).
 Its [active ledger](d5ab-p3-investigation-ledger.md), report and independent review
 control the actual P3 result; a proposed contribution below is not parent closure.
 

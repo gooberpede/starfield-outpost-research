@@ -1,7 +1,7 @@
 # P1 active identity and lifetime investigation
 
 2026-11-01, Australia/Sydney. Parent D5AB INCOMPLETE / REWORK; D5R OPEN;
-B2 NOT AUTHORIZED. [Frozen P1 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P1_native_source_identity_lifetime_closure.md).
+B2 NOT AUTHORIZED. [Frozen P1 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P1_native_source_identity_lifetime_closure.md`).
 
 ## Frozen controlling questions
 

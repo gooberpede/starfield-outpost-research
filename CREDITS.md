@@ -7,7 +7,7 @@ investigations supply the saved witnesses and historical comparisons.
 Bethesda's Starfield supplies the saved representations and definition data.
 The qualification reuses owned D5BU and Workshop population methods.
 CPython, zlib and Git support offline verification and delivery checks.
-[D5BX qualification](docs/audits/evidence-access-d5bx/README.md)
+[D5BX qualification](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-access-d5bx/README.md`)
 
 ## D5BM completion-to-density source audit
 
@@ -15,7 +15,7 @@ Bethesda's pinned executable, definitions, PlanetData and DensityMaps
 archives supply the original instructions and candidate input bytes.
 The audit uses the maintainer's D5H, D5S, D5AE, D5AQ, D5BJ and D5BL
 investigations and owned readers. CPython and Git support the data-only
-verification. [D5BM methods](docs/audits/d5bm-completion-eligibility/reader-method.md)
+verification. [D5BM methods](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/d5bm-completion-eligibility/reader-method.md`)
 
 ## D5BJ reader-input reproduction
 
@@ -23,12 +23,12 @@ Bethesda's pinned Starfield executable, main definitions and PlanetData supply
 the native instructions and game data. D5BJ adapts the maintainer's D5S, D5AQ,
 D5AF and resource geometry methods and uses the original D5AS and D5BI evidence
 tiers. CPython and the Windows UCRT support the private fixture processes.
-[Methods and source lineage](docs/audits/evidence-reproduction-d5bj/dependencies.md)
+[Methods and source lineage](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-reproduction-d5bj/dependencies.md`)
 
 ## D5BE historical evidence access
 
 The maintainer's D5AS and C19 captures and the original experiment methods and
-reviews support the [historical evidence routes](docs/audits/evidence-access-d5be/README.md).
+reviews support the [historical evidence routes](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-access-d5be/README.md`).
 Bethesda's game supplies the observed native geometry and UI data. CPython
 and Git support local verification and review packaging.
 
@@ -37,7 +37,7 @@ and Git support local verification and review packaging.
 The catalogue credits the original project investigations at each entry.
 Bethesda's pinned Starfield executable and the original Ghidra analysis
 records underlie the native evidence. CPython and Git support the documentary
-rebuild and verification. [Source and coverage audit](docs/audits/native-function-catalogue-d5bd/README.md).
+rebuild and verification. [Source and coverage audit](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/native-function-catalogue-d5bd/README.md`).
 
 ## D5AT active-outpost survey
 
@@ -531,13 +531,13 @@ project B4 privacy/source-copy manifests, historical inventory, accepted subsyst
 reports and owned BCPS/review-export methods are reused with their exact identities
 and limits. CPython/stdlib zlib/zipfile and Git supply separate local tools; no
 new outside implementation or legal licence basis is incorporated. [F1 sources
-and preservation](docs/audits/publication-readiness-b4/f1/report.md), [member source
-routes](docs/audits/publication-readiness-b4/f1/members.csv). No endorsement or
+and preservation](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/f1/report.md`), [member source
+routes](research/evidence-data/publication-readiness-b4/f1/members.csv). No endorsement or
 publication clearance is implied.
 
-B4 (2026-10-21) credits the maintainer's protected saves/captures, Bethesda's underlying game evidence, existing project readers and prior report/review/source ledgers. CPython/stdlib, Git and Windows image APIs supported offline inspection; RR1's comparator consultation is reused as recorded, without new external retrieval or incorporation. See [evidence and rights assessment](docs/audits/publication-readiness-b4/rights-policy.md). No raw evidence is cleared or distributed.
+B4 (2026-10-21) credits the maintainer's protected saves/captures, Bethesda's underlying game evidence, existing project readers and prior report/review/source ledgers. CPython/stdlib, Git and Windows image APIs supported offline inspection; RR1's comparator consultation is reused as recorded, without new external retrieval or incorporation. See [evidence and rights assessment](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/rights-policy.md`). No raw evidence is cleared or distributed.
 
-B3 (2026-10-21) preserves project-authored method lineage under SOR-P-0002 and credits the existing Bethesda primary inputs and previously recorded CPython/stdlib, Git, Ghidra/Temurin and xEdit research tooling. Only Python/stdlib and Git were used for B3 inspection/qualification; no new outside code or dependency was incorporated. See [source selection](docs/audits/publication-readiness-b3/source-selection.md) and [baseline](docs/audits/publication-readiness-b3/baseline-manifest.md).
+B3 (2026-10-21) preserves project-authored method lineage under SOR-P-0002 and credits the existing Bethesda primary inputs and previously recorded CPython/stdlib, Git, Ghidra/Temurin and xEdit research tooling. Only Python/stdlib and Git were used for B3 inspection/qualification; no new outside code or dependency was incorporated. See [source selection](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b3/source-selection.md`) and [baseline](docs/reference/b3-baseline.md).
 
 ## LO1 Locations -> Outpost field lineage
 
@@ -679,7 +679,7 @@ No new third-party implementation/dependency or external contact.
 
 OpenAI's [Multi-agent documentation](https://developers.openai.com/api/docs/guides/agents-api/multi-agent)
 was consulted for general agent coordination context in the
-[completion-protocol capability assessment](docs/audits/research-execution-completion-protocol.md)
+[completion-protocol capability assessment](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/research-execution-completion-protocol.md`)
 (SOR-S-0140). Local mechanics were tested separately; no implementation copied.
 
 ## External adapter latency — SOR-EXP-0026
@@ -741,7 +741,7 @@ For [SOR-EXP-0018 durable-center/object-transform research](docs/experiments/dur
 
 ## Broad beacon observer — 2026-10-10
 
-[SOR-EXP-0016](docs/audits/live-beacon-observer.md) credits **Ian Patterson / SFSE** for the exact approved MIT public plugin interface (SOR-P-0001), **Bethesda Game Studios** for locally inspected executable/save research inputs and **Ghidra contributors** for the existing static exports. **Microsoft** supplies installed MSVC/Windows SDK and Windows memory/cryptography/system facilities; **Python Software Foundation/CPython contributors** supply installed standard-library build, hashing, packaging and offline validation. No runtime/SDK binaries are redistributed. Maintainer-authored `gooberpede/starfield-reference-handles` finite census/association patterns retain exact commit/path/hash provenance under SOR-S-0132/SOR-P-0002. No sibling embedded third-party code incorporated, endorsement implied or publication clearance granted.
+[SOR-EXP-0016](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/live-beacon-observer.md`) credits **Ian Patterson / SFSE** for the exact approved MIT public plugin interface (SOR-P-0001), **Bethesda Game Studios** for locally inspected executable/save research inputs and **Ghidra contributors** for the existing static exports. **Microsoft** supplies installed MSVC/Windows SDK and Windows memory/cryptography/system facilities; **Python Software Foundation/CPython contributors** supply installed standard-library build, hashing, packaging and offline validation. No runtime/SDK binaries are redistributed. Maintainer-authored `gooberpede/starfield-reference-handles` finite census/association patterns retain exact commit/path/hash provenance under SOR-S-0132/SOR-P-0002. No sibling embedded third-party code incorporated, endorsement implied or publication clearance granted.
 
 [Exact-beacon terrain projection](docs/experiments/exact-beacon-planetary-coordinates.md), SOR-EXP-0015: Bethesda Game Studios supplies installed native/definition evidence; Ghidra/JDK and CPython/stdlib contributors supply separate tools; prior maintainer archive/framing methods retain SOR-S-0124 credit. Community observers behind the required tiling threads remain credited as leads, with full text/authors unrecovered (SOR-S-0131, existing PA09). Claims were not adopted as engine facts. Original mathematics is source-informed by native analysis; no outside implementation/assets incorporated. Critical/publication review remains separate from confidence.
 
@@ -786,9 +786,9 @@ For the first primary Gate B attempt, **Ian Patterson and SFSE contributors** su
 
 For the review 14 primary run, **Ian Patterson and SFSE contributors** supplied read-only task-dispatch implementation context (SOR-S-0119) for the observed execution-thread discrepancy. No implementation was incorporated, and safe native-query thread affinity remains unresolved.
 
-Microsoft's installed CDB/dbgeng and Windows SDK minidump/AMD64 CONTEXT format declarations support the [EXP0002A offline crash comparison](docs/audits/exp0002a-crash-dump-comparison.md) (SOR-S-0117 extension). Separate installed tools and format consultation only; no third-party implementation/header incorporated. No additional maintainer-owned code reuse occurred in this task.
+Microsoft's installed CDB/dbgeng and Windows SDK minidump/AMD64 CONTEXT format declarations support the [EXP0002A offline crash comparison](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-crash-dump-comparison.md`) (SOR-S-0117 extension). Separate installed tools and format consultation only; no third-party implementation/header incorporated. No additional maintainer-owned code reuse occurred in this task.
 
-Microsoft CDB/dbgeng and Ghidra debugger-agent documentation informed the [final EXP0002A software-breakpoint preparation](docs/audits/exp0002a-final-software-attempt.md). Separate installed tools/read-only consultation; no third-party implementation incorporated.
+Microsoft CDB/dbgeng and Ghidra debugger-agent documentation informed the [final EXP0002A software-breakpoint preparation](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-final-software-attempt.md`). Separate installed tools/read-only consultation; no third-party implementation incorporated.
 
 ## Offline structural containment — 2026-10-08
 

@@ -1,6 +1,6 @@
 # RG2-A1-F1 bounded offline reconciliation plan
 
-2026-10-22, Australia/Sydney. [Authority and frozen focused criteria](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_F1_mature_vein_observation_reconciliation.md).
+2026-10-22, Australia/Sydney. [Authority and frozen focused criteria](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_F1_mature_vein_observation_reconciliation.md`).
 Original AC1–AC8 remain unchanged. Local working directory:
 `.local-work/resource-geometry-mature-reconciliation/`.
 

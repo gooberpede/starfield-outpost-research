@@ -1,7 +1,7 @@
 # Native-oracle 0.2.0 completion contract
 
 2026-10-12. SOR-EXP-0031 / SOR-EV-0039 continuation. Governing authority is the
-[user-invoked continuation brief](../../implementation-briefs/CODEX_BRIEF_SOR_native_oracle_reachability_continuation.md).
+[user-invoked continuation brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_oracle_reachability_continuation.md`).
 Task: offline engineering, original disposable fixtures and combined review.
 No deployment, target execution, live attachment, game/save/settings changes,
 staging, commit, push or disclosure is authorized in this assignment.

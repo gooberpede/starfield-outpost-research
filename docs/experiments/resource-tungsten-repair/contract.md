@@ -1,6 +1,6 @@
 # D4B frozen completion contract
 
-Task type: native research, conditional reconstruction and engineering implementation. The invoked [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md) freezes AC1–AC8 without amendment; this record applies the [completion template](../../templates/completion-contract.md).
+Task type: native research, conditional reconstruction and engineering implementation. The invoked [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4B_tungsten_provenance_teardown_repair.md`) freezes AC1–AC8 without amendment; this record applies the [completion template](../../templates/completion-contract.md).
 
 Deliver a source-backed Tungsten admission explanation or exact missing native edge/acquisition plan, independently qualified terminal teardown repair, durable evidence and verified review package. Permitted actions are bounded offline reads/exports, original or authorized owned code adaptation, repository documentation and disposable real Windows synthetic targets. Protected inputs are immutable. No retail launch/attachment, new save, configuration/analysis-content mutation, staging, commit, push, external disclosure or publication.
 

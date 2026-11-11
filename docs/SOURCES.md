@@ -2,9 +2,9 @@
 
 ## D5BX Workshop and Cargo reader access
 
-The [D5BX asset index](audits/evidence-access-d5bx/assets.json) pins the
+The [D5BX asset index](../research/evidence-data/evidence-access-d5bx/assets.json) pins the
 maintainer's D5BF CORE members, D5BW contexts, Bethesda main ESM, and exact
-reader and build inputs. The [source crosswalk](audits/evidence-access-d5bx/crosswalk.json)
+reader and build inputs. The [source crosswalk](../research/evidence-data/evidence-access-d5bx/crosswalk.json)
 traces the new Workshop projection to the baseline inventory, typed audit,
 installed ALLA pairs and exact canonical ledger. The projected reader reuses
 owned Workshop and D5BU methods under SOR-P-0002. The unchanged Cargo reader
@@ -15,21 +15,21 @@ custody.
 
 ## D5BM completion-to-density source audit
 
-The [D5BM operand matrix](audits/d5bm-completion-eligibility/contract.md)
+The [D5BM operand matrix](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/d5bm-completion-eligibility/contract.md`)
 links the retained D5S/D5AE server and layer sources, D5H worker-start
 ranges and D5AQ C1 prerequisites. The
-[candidate file checks](audits/d5bm-completion-eligibility/stage-a.md#first-layer-root-and-density-neighbor-candidate-files)
+[candidate file checks](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/d5bm-completion-eligibility/stage-a.md#first-layer-root-and-density-neighbor-candidate-files`)
 use the pinned main ESM and separate PlanetData and DensityMaps archives.
 The data audit uses the D5BJ source census and raster reader from the
 isolated HEAD export under SOR-P-0002. The underlying game files, native
 exports and historical receipts retain their local access boundaries.
-The [first-root continuation](audits/d5bm-completion-eligibility/continuation-2026-11-10.md)
+The [first-root continuation](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/d5bm-completion-eligibility/continuation-2026-11-10.md`)
 also reuses the owned BIOM group reader and verifies the layer root's
 projected archive keys against all four density neighbors.
 
 ## D5BJ reader-input reproduction
 
-The [D5BJ dependency matrix](audits/evidence-reproduction-d5bj/dependencies.md)
+The [D5BJ dependency matrix](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-reproduction-d5bj/dependencies.md`)
 links the original D5AQ source rows to each new execution and comparison tier.
 The authored wrappers reuse owned D5S, D5AQ, D5AF, RG1, D5AS and D5BI methods
 under SOR-P-0002. The reader provides Bethesda input files separately. The
@@ -38,7 +38,7 @@ pages, raster bytes and source evidence keep their original access boundaries.
 
 ## D5BE historical evidence access
 
-The [D5BE index](audits/evidence-access-d5be/README.md) links the retained D5AS
+The [D5BE index](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-access-d5be/README.md`) links the retained D5AS
 captures, fixed references, original C19 WAL and native UI observations to
 their bounded derivatives. The builders reuse owned historical analysis and
 capture-decoding methods under SOR-P-0002. The family manifests record exact
@@ -52,7 +52,7 @@ The catalogue consolidates existing project-authored function tables and
 original reports. Each retained source row records its exact location.
 Underlying Bethesda code and historical Ghidra rendering retain their
 original access classifications. CPython's standard library and Git support
-local verification. [Original source census and reconciliation](audits/native-function-catalogue-d5bd/README.md).
+local verification. [Original source census and reconciliation](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/native-function-catalogue-d5bd/README.md`).
 
 ## D5AT Save52 mask survey
 
@@ -166,7 +166,7 @@ technical acceptance is bounded by AC01 FAIL / ESCALATE; no deployment or public
 
 2026-11-03. The [report](experiments/resource-retained-population/d5ai-a-report.md),
 [ledger](experiments/resource-retained-population/d5ai-a-live-ledger.md) and
-[authorization](implementation-briefs/CODEX_AMENDMENT_SOR_D5AI_EPISODE_A_live_2026-11-03.md)
+[authorization](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AI_EPISODE_A_live_2026-11-03.md`)
 bind the one-process attempt. Owned D5AI/P4/B2/protection, archive and review/export
 methods are reused under SOR-P-0002; the new A-only adapters are separately pinned.
 Exact source, raw and receipt hashes remain in the local handoff. Raw transport
@@ -722,17 +722,17 @@ data and full local geometry remain excluded; authored results REVIEW-REQUIRED.
 
 B4-F1 (2026-10-21) reuses exact B4 source/copy/privacy receipts and the protected
 historical scan-04 inventory, joined by SHA-256 to the frozen public inventory.
-[Member provenance](audits/publication-readiness-b4/f1/members.csv), [selection and
-replay limits](audits/publication-readiness-b4/f1/coverage.md) and [privacy supplement](audits/publication-readiness-b4/f1/privacy-policy.md)
+[Member provenance](../research/evidence-data/publication-readiness-b4/f1/members.csv), [selection and
+replay limits](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/f1/coverage.md`) and [privacy supplement](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/f1/privacy-policy.md`)
 retain the original subsystem source routes. The owned `stream_save.py` BCPS
 header reader and B4 patch-export design are reused/adapted under SOR-P-0002;
 exact helper/input hashes remain in local F1 receipts. No new outside source,
 implementation, dependency or rights-holder licence is incorporated; the invoked
 brief supplies maintainer first-party eligibility/local assembly decisions only.
 
-B4 (2026-10-21) reuses the existing primary save/capture and Bethesda source pins, SOR-P-0001/0002/0003, RR1 rights/history/comparator records, B1 claim routes, B2 named-example context and B3 method/baseline identities. [Claim ledger](audits/publication-readiness-b4/claim-evidence.md) and [rights review](audits/publication-readiness-b4/rights-policy.md) identify actual contributions and limits. No new external source retrieval, code/asset incorporation or permission basis; no new SOR-S identity is fabricated for internal synthesis.
+B4 (2026-10-21) reuses the existing primary save/capture and Bethesda source pins, SOR-P-0001/0002/0003, RR1 rights/history/comparator records, B1 claim routes, B2 named-example context and B3 method/baseline identities. [Claim ledger](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/claim-evidence.md`) and [rights review](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/rights-policy.md`) identify actual contributions and limits. No new external source retrieval, code/asset incorporation or permission basis; no new SOR-S identity is fabricated for internal synthesis.
 
-B3 (2026-10-21) adds no outside source or permission grant. [Exact source-selection ledger](audits/publication-readiness-b3/source-selection.csv), [origin hashes](audits/publication-readiness-b3/promoted-sources.csv) and [baseline inputs](audits/publication-readiness-b3/baseline-inputs.csv) retain the immediate owned-method and existing installed-input provenance. Existing SOR-P-0002 and original per-study source/credit records apply; external tools/data remain separate.
+B3 (2026-10-21) adds no outside source or permission grant. [Exact source-selection ledger](../research/evidence-data/publication-readiness-b3/source-selection.csv), [origin hashes](../research/evidence-data/publication-readiness-b3/promoted-sources.csv) and [baseline inputs](../research/evidence-data/publication-readiness-b3/baseline-inputs.csv) retain the immediate owned-method and existing installed-input provenance. Existing SOR-P-0002 and original per-study source/credit records apply; external tools/data remain separate.
 
 ## LO1 Locations -> Outpost primary provenance
 
@@ -1012,7 +1012,7 @@ Native/raw/proprietary inputs remain LOCAL-ONLY; authored reports REVIEW-REQUIRE
 was consulted read-only for general delegation/context coordination, not as proof
 of this desktop session's features. No examples or implementation copied; no API,
 extension, configuration change or dependency added. Actual session tools and
-local CLI/version observations govern the [capability audit](audits/research-execution-completion-protocol.md).
+local CLI/version observations govern the [capability audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/research-execution-completion-protocol.md`).
 The original project-authored protocol derives its policy from the maintainer's
 invoked brief and existing repository rules. Installed Git/CPython standard library
 support local documentation checks/export; no new third-party code incorporation.
@@ -1098,7 +1098,7 @@ private receipts local; original source/tool credits retained.
 
 ### SOR-S-0132 extension — Installed 0.1.1 deployment and smoke startup
 
-[EXP0022 / EV0030](audits/observer-011-post-deployment-preflight.md) reads exact
+[EXP0022 / EV0030](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/observer-011-post-deployment-preflight.md`) reads exact
 approved ZIP/build, actual installation/Vortex staging/deployment metadata,
 existing smoke READY/startup module inventory and SFSE logs. User-reported
 profile/gameplay are separate from directly checked loaded-binary readiness.
@@ -1147,7 +1147,7 @@ SOR-S-0127/0128: [typed native and installed-definition evidence](experiments/du
 
 ## SOR-S-0132 — Maintainer reference census and handle association reuse
 
-2026-10-10, [SOR-EXP-0016 review/provenance](audits/live-beacon-observer.md). `gooberpede/starfield-reference-handles` at commit `6a77579a184c64e0c080c8f3b7883c34bd17e24b`, clean local working tree. `plugin/reference-observer/src/census.h`, `census.cpp`, `snapshot.h`, `snapshot.cpp` and plugin README supply finite stock-pool enumeration, repeated slot/identity checks, spatial roots and handle index/generation association. Maintainer-authored algorithms/constants conceptually reused/adapted in `runtime/beacon-observer/capture.h` under SOR-P-0002, with exact file hashes/HEAD equivalence in local review receipts. No native helper, hook, CommonLib, assembler or embedded third-party implementation incorporated. Existing project guarded Windows/SHA/JSON helpers reused; exact approved SFSE header unchanged under SOR-P-0001/SOR-S-0114. Bethesda native/static exports SOR-S-0127/0129 provide field/coordinate candidates, with no decompiler text incorporated; Ghidra is not executed this pass. Installed Microsoft compiler/SDK/system DLLs and CPython stdlib supply separate build/qualification tools, no downloaded/bundled runtime. Current staged SFSE bytes are not a loaded-runtime validation. No external contact/fork/PR or publication clearance.
+2026-10-10, [SOR-EXP-0016 review/provenance](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/live-beacon-observer.md`). `gooberpede/starfield-reference-handles` at commit `6a77579a184c64e0c080c8f3b7883c34bd17e24b`, clean local working tree. `plugin/reference-observer/src/census.h`, `census.cpp`, `snapshot.h`, `snapshot.cpp` and plugin README supply finite stock-pool enumeration, repeated slot/identity checks, spatial roots and handle index/generation association. Maintainer-authored algorithms/constants conceptually reused/adapted in `runtime/beacon-observer/capture.h` under SOR-P-0002, with exact file hashes/HEAD equivalence in local review receipts. No native helper, hook, CommonLib, assembler or embedded third-party implementation incorporated. Existing project guarded Windows/SHA/JSON helpers reused; exact approved SFSE header unchanged under SOR-P-0001/SOR-S-0114. Bethesda native/static exports SOR-S-0127/0129 provide field/coordinate candidates, with no decompiler text incorporated; Ghidra is not executed this pass. Installed Microsoft compiler/SDK/system DLLs and CPython stdlib supply separate build/qualification tools, no downloaded/bundled runtime. Current staged SFSE bytes are not a loaded-runtime validation. No external contact/fork/PR or publication clearance.
 
 ## SOR-S-0131 — Required tiling threads, access-limited
 
@@ -1178,11 +1178,11 @@ Existing SOR-S-0103/0104 findings supplied the independently recorded beacon/sto
 
 ### SOR-S-0122 — Maintainer debugger lifecycle research and scoped tooling reuse
 
-2026-10-07, `gooberpede/starfield-reference-handles`, clean local checkout/origin verified at commit `6a77579a184c64e0c080c8f3b7883c34bd17e24b`. Consulted debugger/README.md, debugger/native/README.md, native Win32 hardware/RF core, startup/post-title/destructive adapters, probe_attach.py and lifecycle/capability reports. Exact per-file hashes and copied/adapted/conceptual uses: [provenance](../debugger/exp0002a/maintainer/PROVENANCE.md). SOR-P-0002 supplies the maintainer-authored rights/user grant, not a blanket grant for contained third-party work. Initial correction copied lifecycle_checks.py and adapted only offline read_rows/validate. SOR-D-0016 subsequently adapts the native RF core into the one-request adapter and runs bounded fresh disposable controls; [results](audits/exp0002a-adapter-qualification.md) include an unresolved new-thread retirement failure. No sibling disabled live adapter was enabled. Historical negative outcomes inform backend selection, not current-game findings. Raw sibling disposable evidence replay is explicitly historical. No self-credit/notice required; provenance retained at use.
+2026-10-07, `gooberpede/starfield-reference-handles`, clean local checkout/origin verified at commit `6a77579a184c64e0c080c8f3b7883c34bd17e24b`. Consulted debugger/README.md, debugger/native/README.md, native Win32 hardware/RF core, startup/post-title/destructive adapters, probe_attach.py and lifecycle/capability reports. Exact per-file hashes and copied/adapted/conceptual uses: [provenance](../debugger/exp0002a/maintainer/PROVENANCE.md). SOR-P-0002 supplies the maintainer-authored rights/user grant, not a blanket grant for contained third-party work. Initial correction copied lifecycle_checks.py and adapted only offline read_rows/validate. SOR-D-0016 subsequently adapts the native RF core into the one-request adapter and runs bounded fresh disposable controls; [results](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-adapter-qualification.md`) include an unresolved new-thread retirement failure. No sibling disabled live adapter was enabled. Historical negative outcomes inform backend selection, not current-game findings. Raw sibling disposable evidence replay is explicitly historical. No self-credit/notice required; provenance retained at use.
 
 ### SOR-S-0123 — Installed Ghidra dbgeng capability assessment
 
-Ghidra 12.1.2 PUBLIC local `Ghidra/Debug/Debugger-agent-dbgeng/`: data/support/local-dbgeng-attach.py (attach/wait sequence), pypkg/src/ghidradbg/methods.py (attach_pid, break_hw_address, detach), commands.py (ghidra_trace_attach), pypkg/pyproject.toml (ghidratrace12.1/Pybag dependency). Read-only inspection 2026-10-07; exact file hashes in correction backend-inventory.json. Confirms available implementation paths, not an executed Ghidra session or safe lifecycle. No source/dependency incorporation, install or debugger execution. Prior Ghidra credit SOR-S-0105 applies; [ordered assessment](audits/exp0002a-debugger-correction.md). Maintainer exception does not cover these third-party files.
+Ghidra 12.1.2 PUBLIC local `Ghidra/Debug/Debugger-agent-dbgeng/`: data/support/local-dbgeng-attach.py (attach/wait sequence), pypkg/src/ghidradbg/methods.py (attach_pid, break_hw_address, detach), commands.py (ghidra_trace_attach), pypkg/pyproject.toml (ghidratrace12.1/Pybag dependency). Read-only inspection 2026-10-07; exact file hashes in correction backend-inventory.json. Confirms available implementation paths, not an executed Ghidra session or safe lifecycle. No source/dependency incorporation, install or debugger execution. Prior Ghidra credit SOR-S-0105 applies; [ordered assessment](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-debugger-correction.md`). Maintainer exception does not cover these third-party files.
 
 ### SOR-S-0120 — SFSE serialization addresses as a rejected current-build lead
 
@@ -1336,13 +1336,13 @@ Ian Patterson and SFSE contributors; consulted 2026-10-06 at pin `48535cc4306ab3
 
 Microsoft Learn references consulted 2026-10-06: [DebugActiveProcess](https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-debugactiveprocess), [SetThreadContext](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadcontext), [DebugSetProcessKillOnExit](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-debugsetprocesskillonexit), [WaitForDebugEventEx](https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-waitfordebugeventex). Used to document debugger suspension/context, attach breakpoint, no-kill policy and timeout behavior. Documentation is not proof of target behavior; live attach was not tested.
 
-SOR-S-0117 extension, 2026-10-07: Microsoft Learn [WaitForDebugEvent](https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-waitfordebugevent) and [ContinueDebugEvent](https://learn.microsoft.com/windows/win32/api/debugapi/nf-debugapi-continuedebugevent) handle ownership/cleanup documentation informed correction of premature event-handle closure in the disposable adapter. Read-only API documentation; no example implementation copied. Fresh C++17 builds use installed MSVC/SDK and system bcrypt; exact manifests and limits in the [adapter audit](audits/exp0002a-adapter-qualification.md).
+SOR-S-0117 extension, 2026-10-07: Microsoft Learn [WaitForDebugEvent](https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-waitfordebugevent) and [ContinueDebugEvent](https://learn.microsoft.com/windows/win32/api/debugapi/nf-debugapi-continuedebugevent) handle ownership/cleanup documentation informed correction of premature event-handle closure in the disposable adapter. Read-only API documentation; no example implementation copied. Fresh C++17 builds use installed MSVC/SDK and system bcrypt; exact manifests and limits in the [adapter audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-adapter-qualification.md`).
 
-SOR-S-0122 / SOR-S-0117 extension for SOR-D-0017: project 0.1.1 changes the adapted maintainer core to freeze ownership at ARMED and leave later threads unarmed/untouched by debug-register retirement writes. Project-authored evidence latching and exact-handle recovery are documented in [the 0.1.1 audit](audits/exp0002a-adapter-0.1.1.md). Microsoft Learn [TerminateProcess](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess) and [GetProcessTimes](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes), consulted 2026-10-07, inform asynchronous completion and creation-time verification. API documentation only; no example source or new dependency incorporated. Sibling commit/source hashes and SFSE permission boundaries are unchanged.
+SOR-S-0122 / SOR-S-0117 extension for SOR-D-0017: project 0.1.1 changes the adapted maintainer core to freeze ownership at ARMED and leave later threads unarmed/untouched by debug-register retirement writes. Project-authored evidence latching and exact-handle recovery are documented in [the 0.1.1 audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-adapter-0.1.1.md`). Microsoft Learn [TerminateProcess](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess) and [GetProcessTimes](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes), consulted 2026-10-07, inform asynchronous completion and creation-time verification. API documentation only; no example source or new dependency incorporated. Sibling commit/source hashes and SFSE permission boundaries are unchanged.
 
-SOR-S-0117 extension, 2026-10-07 / SOR-EV-0007: installed Microsoft CDB/dbgeng10.0.19041.5609 used separately for offline minidumps, with local-only symbol/image paths. Windows SDK 10.0.26100.0 `um/minidumpapiset.h` (MINIDUMP_HEADER, exception/thread/module/memory/misc streams) and `um/winnt.h` (AMD64 CONTEXT) consulted as format declarations for the independently authored bounded Python reader. This is source-informed format research, not clean-room work; no Microsoft example/header/implementation was incorporated or redistributed. No new sibling tooling reuse or third-party dependency. Exact installed tool/header hashes, raw output and dump offsets remain in the ignored comparison bundle. [Analysis](audits/exp0002a-crash-dump-comparison.md).
+SOR-S-0117 extension, 2026-10-07 / SOR-EV-0007: installed Microsoft CDB/dbgeng10.0.19041.5609 used separately for offline minidumps, with local-only symbol/image paths. Windows SDK 10.0.26100.0 `um/minidumpapiset.h` (MINIDUMP_HEADER, exception/thread/module/memory/misc streams) and `um/winnt.h` (AMD64 CONTEXT) consulted as format declarations for the independently authored bounded Python reader. This is source-informed format research, not clean-room work; no Microsoft example/header/implementation was incorporated or redistributed. No new sibling tooling reuse or third-party dependency. Exact installed tool/header hashes, raw output and dump offsets remain in the ignored comparison bundle. [Analysis](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-crash-dump-comparison.md`).
 
-SOR-S-0117 / SOR-S-0123 extension, 2026-10-07: final EXP0002A uses installed CDB/dbgeng10.0.19041.5609 and Microsoft documentation for bp /1, qd and -pd. Ghidra 12.1.2 local-dbgeng-attach.py and ghidradbg/methods.py were inspected as capability references only; no implementation copied. The direct engine console avoids a new Trace RMI/agent integration for this single test. Project-authored deadline guard0.1.4 uses installed OS APIs and Python standard library; no new dependency or sibling reuse. [Backend rationale and exact references](audits/exp0002a-final-software-attempt.md).
+SOR-S-0117 / SOR-S-0123 extension, 2026-10-07: final EXP0002A uses installed CDB/dbgeng10.0.19041.5609 and Microsoft documentation for bp /1, qd and -pd. Ghidra 12.1.2 local-dbgeng-attach.py and ghidradbg/methods.py were inspected as capability references only; no implementation copied. The direct engine console avoids a new Trace RMI/agent integration for this single test. Project-authored deadline guard0.1.4 uses installed OS APIs and Python standard library; no new dependency or sibling reuse. [Backend rationale and exact references](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-final-software-attempt.md`).
 
 ### SOR-S-0113 extension — Structural containment, 2026-10-08
 
@@ -1523,7 +1523,7 @@ permission basis, dependency, download, upstream contact or disclosure.
 
 ### SOR-S-0143 — Public Workshop vertical-frame prior art
 
-2026-10-13. Read-only focused consultation under the [Z restoration brief](implementation-briefs/CODEX_BRIEF_SOR_native_workshop_Z_restoration_external_research.md). [Specialist research and primary links](experiments/workshop-z-restoration/external-research.md), [six-source ledger](experiments/workshop-z-restoration/external-sources.csv). Credit Ian Patterson/SFSE contributors, Starfield-Reverse-Engineering/CommonLibSF and libxse/CommonLibSF contributors, TES5Edit/xEdit contributors, and fo76utils contributors. Contributions: raw reference accessor/layout corroboration; contradictory source comments/assertions; unassigned runtime flag bits and editor/parent leads; plugin/runtime flag-domain separation; explicitly uncertain Starfield BTD Z scaling. Moving branch revisions remain UNKNOWN where unavailable; access date and release-only revision limit explicit. SOURCE-REPORTED, no validation transferred into pinned 1.16.244.0. No outside code/test/diagram/data reuse, dependency install, licence acceptance, tool execution from consulted repositories, author contact or disclosure. Existing SOR-S-0103/0108/0116/0118 provenance remains applicable; this is consultation only.
+2026-10-13. Read-only focused consultation under the [Z restoration brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_workshop_Z_restoration_external_research.md`). [Specialist research and primary links](experiments/workshop-z-restoration/external-research.md), [six-source ledger](experiments/workshop-z-restoration/external-sources.csv). Credit Ian Patterson/SFSE contributors, Starfield-Reverse-Engineering/CommonLibSF and libxse/CommonLibSF contributors, TES5Edit/xEdit contributors, and fo76utils contributors. Contributions: raw reference accessor/layout corroboration; contradictory source comments/assertions; unassigned runtime flag bits and editor/parent leads; plugin/runtime flag-domain separation; explicitly uncertain Starfield BTD Z scaling. Moving branch revisions remain UNKNOWN where unavailable; access date and release-only revision limit explicit. SOURCE-REPORTED, no validation transferred into pinned 1.16.244.0. No outside code/test/diagram/data reuse, dependency install, licence acceptance, tool execution from consulted repositories, author contact or disclosure. Existing SOR-S-0103/0108/0116/0118 provenance remains applicable; this is consultation only.
 
 ### SOR-S-0127/0128/0132/0142 extension — Native vertical restoration
 

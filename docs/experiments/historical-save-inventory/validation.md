@@ -25,7 +25,7 @@ New authored files:
 - [Durable-safe per-file manifest](inventory.json), [presence matrix](presence-matrix.csv), [version ledger](versions.csv), [location candidates](location-candidates.csv).
 - [Inventory helper](../../../save-analysis/scripts/inventory_historical_saves.py), [location helper](../../../save-analysis/scripts/probe_inventory_locations.py), [ten synthetic tests](../../../save-analysis/scripts/test_historical_inventory.py).
 
-Pre-existing untracked input: [supplied brief](../../implementation-briefs/CODEX_RESEARCH_BRIEF_historical_save_inventory_triage.md), byte-preserved and included in the complete review diff.
+Pre-existing untracked input: [supplied brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_historical_save_inventory_triage.md`), byte-preserved and included in the complete review diff.
 
 Modified existing files: README.md, CREDITS.md; docs/DECISIONS.md, EVIDENCE_STANDARD.md, PROVENANCE.md, RESEARCH_STATE.md, SOURCES.md, known-facts.md, hypotheses.md, state-register.md, subsystems/initial-map.md, experiments/README.md, experiments/evidence/README.md, implementation-briefs/README.md; save-analysis/scripts/README.md. The methodology addition is narrow; prior experiment reports are unchanged. No unrelated source file changes are intended.
 

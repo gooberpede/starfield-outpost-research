@@ -1,7 +1,7 @@
 # D5I validation and acceptance
 
 [Report](report.md), [methods](methods.md), [independent disposition](review.md).
-The unchanged [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5I_construction_query_reachability_variability.md)
+The unchanged [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5I_construction_query_reachability_variability.md`)
 controls AC1–AC8. This matrix records actual coverage; independent acceptance
 and maintainer integration remain separate.
 

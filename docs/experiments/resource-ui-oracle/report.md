@@ -1,6 +1,6 @@
 # RG2-C1B: population origin before geometry
 
-2026-10-22, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1B_native_UI_resource_oracle_qualification.md).
+2026-10-22, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1B_native_UI_resource_oracle_qualification.md`).
 Offline research/design and synthetic engineering only. Authored synthesis
 REVIEW-REQUIRED; game/native/save/image inputs LOCAL-ONLY. B6/publication hold.
 

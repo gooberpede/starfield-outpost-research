@@ -1,6 +1,6 @@
 # SOR-EV-0007 — offline DR0 crash comparison
 
-2026-10-07. [Authored analysis](../../../audits/exp0002a-crash-dump-comparison.md), [authorization](../../../implementation-briefs/EXP0002A-offline-dump-comparison.md). Review-required summaries only; raw artifacts LOCAL-ONLY and ignored. No raw dump is incorporated in this directory.
+2026-10-07. [Authored analysis](../../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002a-crash-dump-comparison.md`), [authorization](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/EXP0002A-offline-dump-comparison.md`). Review-required summaries only; raw artifacts LOCAL-ONLY and ignored. No raw dump is incorporated in this directory.
 
 SOR-EV-0007-A is original `Starfield.exe.10364.dmp`, analyzed from the existing `crash-012-host/artifact-000.dmp` archive. SOR-EV-0007-B is original `Starfield.exe.15608.dmp`, analyzed from `s2-crash-records/artifact-000.dmp`. Archive root is `.local-work/exp0002a-adapter-0.1.3/`; complete identities/hashes/timestamps are in the report. Originals and archives are byte-identical and unchanged. Dump MiscInfo PIDs confirm the original correlation.
 

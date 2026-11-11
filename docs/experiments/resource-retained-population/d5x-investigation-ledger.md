@@ -1,6 +1,6 @@
 # D5X active investigation ledger
 
-2026-10-30, Australia/Sydney. Authority: [unchanged brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5X_construction_winner_observer_feasibility_qualification.md).
+2026-10-30, Australia/Sydney. Authority: [unchanged brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5X_construction_winner_observer_feasibility_qualification.md`).
 Parent: D5R reproducibility question remains OPEN. Publication/B6 remains ON HOLD.
 
 ## Frozen contract

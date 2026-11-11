@@ -3,7 +3,7 @@
 2026-10-24, Australia/Sydney. B6 publication-readiness verification remains
 ON HOLD. This document is a classification proposal, not clearance or release
 authority. [Governing policy](../../../THIRD_PARTY_POLICY.md),
-[publication gate](../../PUBLICATION.md), [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md).
+[publication gate](../../PUBLICATION.md), [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md`).
 
 | Material | Present classification | Future disposition |
 |---|---|---|

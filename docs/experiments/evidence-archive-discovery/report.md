@@ -1,7 +1,7 @@
 # Consolidated evidence archives: Stage A discovery
 
 2026-10-25, Australia/Sydney. Offline discovery and disposable qualification under
-the [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_a.md)
+the [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_a.md`)
 and accepted [save-file scope amendment](scope-amendment.md). **No real evidence
 has been migrated or deleted; no archive boundary or verification policy is active.**
 

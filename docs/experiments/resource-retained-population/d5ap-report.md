@@ -11,7 +11,7 @@ D5AP-Q1–Q4 are COMPLETE and AC01–09 PASS. GC-10 and D5R remain OPEN.
 
 | Answer-first element | Result |
 | --- | --- |
-| Frozen questions | [Original D5AP-Q1–Q4 and AC01–09](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AP_GC10_competitor_causal_analysis.md), unchanged. |
+| Frozen questions | [Original D5AP-Q1–Q4 and AC01–09](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AP_GC10_competitor_causal_analysis.md`), unchanged. |
 | Best-supported answer | Task 1211 is earliest at all seven compared scheduler boundaries. Two peers enter providers before its miss but remain on preceding sources. Another 193 density tasks enter providers later; 196 layer tasks have later readiness approaches. All 391 target competitors eventually bypass on visited state. |
 | Confidence / basis | PROVEN / RUNTIME for reauthenticated fields and exact joins; STATIC native predicates qualify causal interpretation. STRONG / CROSS-VALIDATED for this scoped progress explanation under the ordinary receiver census. Independently accepted synthesis; maintainer integration remains separate. |
 | Coverage | Complete recorded N2: 392 target selections/tasks, 518 writer triples, 23,194 reader triples, owner generation 1; Starfield 1.16.244.0 / observer 0.9.3 / protected Save52 direct route. All eight geographic target births are retained; only allocation 932 is selected. |

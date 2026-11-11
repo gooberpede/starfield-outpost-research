@@ -1,6 +1,6 @@
 # D5D: construction demand and historical acquisition coverage
 
-2026-10-25, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5D_construction_triggers_demand_timing.md), [acquisitions](acquisitions.md), [native paths](native.md), [timing](timing.md), [hypotheses and next test](next-test.md), [completion/review](review.md), [source pins](sources.csv).
+2026-10-25, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5D_construction_triggers_demand_timing.md`), [acquisitions](acquisitions.md), [native paths](native.md), [timing](timing.md), [hypotheses and next test](next-test.md), [completion/review](review.md), [source pins](sources.csv).
 
 **Ordinary coordinate and cell preparation requests can schedule resource work
 that reaches synchronous source construction before Workshop consumption. The

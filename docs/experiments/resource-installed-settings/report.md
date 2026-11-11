@@ -1,6 +1,6 @@
 # RG2-C1H: installed settings explain Feynman paths; Carinae Iron remains unresolved
 
-2026-10-23, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1H_installed_settings_cross_site_geometry_editorial_standard.md).
+2026-10-23, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1H_installed_settings_cross_site_geometry_editorial_standard.md`).
 Offline-only research and prospective workflow amendment. Authored text and
 selected numeric results are REVIEW-REQUIRED; raw inputs remain LOCAL-ONLY.
 B6 and publication remain on hold. No historical result or confidence is promoted.

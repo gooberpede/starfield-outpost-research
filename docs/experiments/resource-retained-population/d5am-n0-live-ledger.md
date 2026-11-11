@@ -1,7 +1,7 @@
 # D5AM N0 active live ledger
 
 2026-11-04, Australia/Sydney. Authorized under the
-[N0 amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N0_live_2026-11-04.md).
+[N0 amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N0_live_2026-11-04.md`).
 N0-Q1 is BLOCKED / ESCALATE after acquisition failure. N0-Q2 is COMPLETE as a
 negative operational assessment; independent scoped review accepts finalization.
 GC-10/D5R OPEN.
@@ -128,7 +128,7 @@ for this failed worker, and the strict cross-channel join refuses the failed cor
 These are retained acquisition failures, not save corruption or archive defects.
 
 The maintainer separately authorizes correction and requalification, explicitly
-prohibiting another live run. The [repair amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md)
+prohibiting another live run. The [repair amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_guard_repair_2026-11-04.md`)
 controls that offline work. One native implementer and one non-implementing
 reviewer are active; the two-subagent cap is observed. The original candidate,
 source closure, frozen prediction and all evidence remain unchanged. The repair

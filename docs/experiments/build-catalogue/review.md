@@ -1,7 +1,7 @@
 # BM2 frozen AC1–AC8, checks and review package
 
 2026-10-20, Australia/Sydney. SOR-EXP-0061 / SOR-EV-0069.
-[Original invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md),
+[Original invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md`),
 SHA256 `a84f6e56027ec5a3e8d87489ddb1bcedad97aec5a68def85bc5c7cc4456d4c9d`.
 [Answer](report.md), [plan](plan.md), [methods/limits](methods.md).
 The original eight criteria are frozen without amendments. The matrix records

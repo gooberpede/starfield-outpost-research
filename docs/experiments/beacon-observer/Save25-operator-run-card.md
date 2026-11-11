@@ -2,7 +2,7 @@
 
 **Approved for initial live session, 2026-10-10:** User explicitly approves the preflight and this card and authorizes the initial live session. The review prerequisite below is satisfied for this bounded run. Operator retains launch/gameplay/save/reload/exit control. No observer implementation change is authorized by this approval. See [live ledger](initial-live-session.md).
 
-2026-10-10. SOR-EXP-0016 / SOR-EV-0023 / SOR-D-0034. **Do not launch until this card has been reviewed.** [Actual deployment preflight and limitations](../../audits/beacon-observer-post-deployment-preflight.md). Observer 0.1.0 is approved; no replacement or configuration edit is proposed.
+2026-10-10. SOR-EXP-0016 / SOR-EV-0023 / SOR-D-0034. **Do not launch until this card has been reviewed.** [Actual deployment preflight and limitations](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/beacon-observer-post-deployment-preflight.md`). Observer 0.1.0 is approved; no replacement or configuration edit is proposed.
 
 ## Purpose, allowed actions and boundaries
 

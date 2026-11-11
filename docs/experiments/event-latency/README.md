@@ -6,7 +6,7 @@ retirement gate. [Final review](thread-control-final-review.md) preserves all
 baselines and negative evidence. Earlier candidate/procedure/latency descriptions
 below remain historical; no new live candidate or exploratory attachment follows.
 
-2026-10-11 Australia/Sydney. [Authorized follow-up](../../implementation-briefs/CODEX_BRIEF_SOR_event_adapter_latency.md),
+2026-10-11 Australia/Sydney. [Authorized follow-up](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_event_adapter_latency.md`),
 SOR-D-0045. REVIEW-REQUIRED; all raw/private artifacts LOCAL-ONLY. No Starfield
 launch/attachment/deployment, save/database mutation, staging, commit or push.
 

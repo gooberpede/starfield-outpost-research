@@ -1,7 +1,7 @@
 # Current saved crew assignments: CR1 corrective continuation
 
 2026-10-18. SOR-EXP-0047 / SOR-EV-0055, REVIEW-REQUIRED; primary bytes LOCAL-ONLY.
-[Rework authority](../../implementation-briefs/CODEX_BRIEF_SOR_CR1_current_crew_assignment_persistence_rework.md).
+[Rework authority](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_CR1_current_crew_assignment_persistence_rework.md`).
 
 **Yes: current saved outpost assignments and a saved unassigned roster are now
 recoverable in HIST-0255 (earlier mature Save41), with independent assignment

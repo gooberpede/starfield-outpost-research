@@ -2,7 +2,7 @@
 
 2026-11-01, Australia/Sydney. **P2 COMPLETE / ACCEPT for offline engineering.
 D5AB INCOMPLETE / REWORK; D5R OPEN; B2 NOT AUTHORIZED.**
-[Contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md),
+[Contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md`),
 [active ledger](d5ab-p2-investigation-ledger.md),
 [parent mapping](d5ab-p2-parent-mapping.md), [provenance](d5ab-p2-provenance.md),
 [review](d5ab-p2-review.md).

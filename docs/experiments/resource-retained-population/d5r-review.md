@@ -1,7 +1,7 @@
 # D5R frozen contract and delivery review
 
 2026-10-29, Australia/Sydney. The unchanged
-[invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5R_query_scheduling_selection_determinism.md)
+[invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5R_query_scheduling_selection_determinism.md`)
 section 9 freezes D5R-AC1–AC9. No amendments or relaxed criteria were adopted.
 [Report](d5r-report.md), [map](d5r-query-scheduling-map.md),
 [input matrix](d5r-determinism-matrix.csv), [sources](d5r-sources.csv).

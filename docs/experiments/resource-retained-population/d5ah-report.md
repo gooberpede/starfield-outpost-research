@@ -16,7 +16,7 @@ is not scientifically complete; D5R remains OPEN.**
 | Confidence / coverage | PROVEN within the cited STATIC branches and disposable native controls; STRONG conditional extractor synthesis with saved-derivative corroboration. Tested build is pinned 1.16.244.0. No new RUNTIME evidence or unconditional gameplay guarantee. |
 | Publication | Raw native/save/session/control evidence LOCAL-ONLY; authored work REVIEW-REQUIRED. Publication remains ON HOLD. |
 
-The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AH_geometry_persistence_reconstruction.md)
+The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AH_geometry_persistence_reconstruction.md`)
 freezes Q1–Q4, CQ and AC01–AC08. No scope amendment is adopted. The
 [active ledger](d5ah-investigation-ledger.md), specialist ledgers and
 [independent review](d5ah-review.md) preserve unresolved branches and exact

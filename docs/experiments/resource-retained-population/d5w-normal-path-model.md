@@ -1,6 +1,6 @@
 # D5W ordinary paths and conditional ordering
 
-This model tests the [frozen questions](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md).
+This model tests the [frozen questions](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md`).
 [Report](d5w-report.md), [active ledger](d5w-investigation-ledger.md),
 [exact native source ranges](d5w-sources.csv) and
 [paired paths](d5w/critical-paths.svg) retain the evidence boundary.

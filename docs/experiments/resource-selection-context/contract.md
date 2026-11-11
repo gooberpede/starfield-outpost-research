@@ -1,7 +1,7 @@
 # D4 execution and completion contract
 
 Invoked 2026-10-24, Australia/Sydney. Engineering plus native research under the
-[unchanged original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4_native_resource_selection_context_acquisition.md#5-frozen-acceptance-criteria-ac1ac8).
+[unchanged original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4_native_resource_selection_context_acquisition.md#5-frozen-acceptance-criteria-ac1ac8`).
 No criterion is replaced by this compact execution record.
 
 Allowed inputs: existing local native exports/receipts, maintained research,

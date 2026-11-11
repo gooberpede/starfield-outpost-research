@@ -2,7 +2,7 @@
 
 2026-10-29, Australia/Sydney. [Report](d5q-report.md),
 [claim/source ledger](d5q-sources.csv), [review](d5q-review.md),
-[authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Q_resource_construction_call_dataflow_mapping.md).
+[authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Q_resource_construction_call_dataflow_mapping.md`).
 
 **The provider processes source pointers emitted by a spatial cell for the
 original request. On the unvisited source-map miss path, that same selected

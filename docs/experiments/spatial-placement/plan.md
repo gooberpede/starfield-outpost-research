@@ -1,7 +1,7 @@
 # L3 frozen offline plan
 
 2026-10-19, Australia/Sydney. SOR-EXP-0053 / SOR-EV-0061.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_L3_spatial_placement_POI_clutter_persistence.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_L3_spatial_placement_POI_clutter_persistence.md`).
 All eight original acceptance criteria remain mandatory; independent review
 controls completion. No game, debugger, save edits, database edits, deployment,
 staging, commit, push, network or publication is authorized.

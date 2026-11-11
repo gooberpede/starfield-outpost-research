@@ -1,7 +1,7 @@
 # P2 transport investigation notes
 
 2026-11-01, Australia/Sydney. P2-Q1 and P2-AC02 transport workstream.
-The [P2 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md)
+The [P2 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md`)
 governs this bounded engineering work. These queue tests cannot alone close the
 integrated recorder/ACK/controller contract. B2 NOT AUTHORIZED; D5R OPEN.
 

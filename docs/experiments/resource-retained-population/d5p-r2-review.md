@@ -1,6 +1,6 @@
 # D5P-R2 frozen criteria and independent review
 
-2026-10-29, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R2_retail_context_diagnostic_preparation.md),
+2026-10-29, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R2_retail_context_diagnostic_preparation.md`),
 [decision/matrix](d5p-r2-decision.md), [report](d5p-r2-report.md),
 [ledger](d5p-r2-sources.csv), [proposed card](run-card-d5p-r2.md).
 R2-AC1–R2-AC8 are frozen unchanged. Reviewer acceptance is separate from

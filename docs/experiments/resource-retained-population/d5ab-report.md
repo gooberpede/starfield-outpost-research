@@ -4,7 +4,7 @@
 D5R OPEN.** The maintainer requested wrap-up after reporting a third product
 cybersecurity block and excluded further code changes, native analysis and
 executable instrumentation. Those activities stop here. This checkpoint does
-not complete the [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md).
+not complete the [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`).
 
 No retail episode, deployment, game attachment, original-save write, configuration
 change, staging, commit, push or publication occurred. The offline protection

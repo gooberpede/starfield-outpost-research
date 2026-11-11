@@ -1,6 +1,6 @@
 # D5U-C1 acceptance and exact review record
 
-The [original corrective brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5U_C1_outpost_composite_maps_coordinate_join.md)
+The [original corrective brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5U_C1_outpost_composite_maps_coordinate_join.md`)
 and C1-AC1–C1-AC10 are unchanged. [Report](d5u-c1-report.md),
 [live ledger](d5u-c1-investigation-ledger.md),
 [coordinate proof](d5u-c1-coordinate-validation.md),

@@ -2,7 +2,7 @@
 
 [Research plan](../../docs/experiments/build-catalogue/plan.md),
 [methods](../../docs/experiments/build-catalogue/methods.md),
-[original frozen brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md).
+[original frozen brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md`).
 
 Run from the repository root using the installed CPython 3.14 interpreter:
 `python -B research/build-catalogue/verify.py --run <fresh-label>`.

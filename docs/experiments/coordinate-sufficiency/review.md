@@ -1,6 +1,6 @@
 # Frozen-contract review and handoff
 
-2026-10-20. SOR-EXP-0058 / SOR-EV-0066. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_coordinate_sufficiency_Kreet_lab_Save37-39.md), [plan](plan.md), [answer](report.md), [primary ledger](evidence.md).
+2026-10-20. SOR-EXP-0058 / SOR-EV-0066. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_coordinate_sufficiency_Kreet_lab_Save37-39.md`), [plan](plan.md), [answer](report.md), [primary ledger](evidence.md).
 
 The original AC1–AC8 are frozen. Scientific confidence, method integrity, input preservation, independent acceptance and publication eligibility are separate. Final scoped disposition: **ACCEPT**, following first-review REWORK and independent rereview. The current eight-row matrix follows; historical failed states remain recorded below.
 

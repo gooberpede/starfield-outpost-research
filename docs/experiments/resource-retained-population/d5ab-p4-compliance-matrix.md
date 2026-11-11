@@ -6,7 +6,7 @@
 AB criteria PASS for offline readiness. Independent Review02 ACCEPT is recorded in [review](d5ab-p4-review.md). D5R OPEN; B1 PARTIAL NATIVE
 COVERAGE; historical D5AA gap unresolved; B2 NOT AUTHORIZED.
 
-The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md)
+The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`)
 retains the full normative requirements. These summaries neither amend them nor
 upgrade historical handoff verdicts. All results concern offline readiness.
 

@@ -1,6 +1,6 @@
 # CR2 completion and review record
 
-2026-10-18, SOR-EXP-0048 / SOR-EV-0056. Authority: [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_CR2_crew_skill_effects_stacking_native_paths.md).
+2026-10-18, SOR-EXP-0048 / SOR-EV-0056. Authority: [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_CR2_crew_skill_effects_stacking_native_paths.md`).
 The [frozen eight criteria](plan.md) are unchanged. This document records the
 author's verification; independent disposition is recorded separately below.
 No integration/publication permission follows from assignment acceptance.

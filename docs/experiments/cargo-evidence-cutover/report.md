@@ -27,7 +27,7 @@ accepted consumer results and exact 1,051-file proposal. Real deletion and
 baseline activation remain unperformed; that report recalculates costs including
 the later qualification rather than reusing this task's earlier projection.
 
-The [invoked frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md)
+The [invoked frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md`)
 controls AC1–AC8. Baseline HEAD is
 `516d751e9fc8c0ccd68feef421e97adc211341e6`, branch `main`; index SHA-256 is
 `335e7bdb53de20361f72304bec7676a8265d0e84c2b5b985c44add35cc97f8dc`.

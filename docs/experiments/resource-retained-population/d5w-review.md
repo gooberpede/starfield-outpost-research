@@ -1,6 +1,6 @@
 # D5W frozen contract, checks and independent review
 
-2026-10-30, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md)
+2026-10-30, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5W_normal_resource_generation_operational_contract.md`)
 SHA-256 `4f1838fc7eb4c11778ce05a8bba11134bd93c8765316391861759c0eb4b7b704`.
 Q1–Q4 and AC1–AC11 are frozen unchanged. No amendments are approved.
 This record distinguishes proposed scientific sufficiency, implementation checks

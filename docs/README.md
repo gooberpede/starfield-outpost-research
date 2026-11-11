@@ -24,13 +24,13 @@ New research maps follow the prospective [visualization convention](VISUALIZATIO
   seven saved centres/150-unit disks, complete ordinary source halos and
   [four-resource reconciliation](experiments/resource-retained-population/d5u-c1-report.md).
 
-- [B5-A housekeeping and retention proposal](audits/publication-readiness-b5/report.md):
+- [B5-A housekeeping and retention proposal](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b5/report.md`):
   exact storage accounting, protected evidence and prospective scratch lifecycle.
   No deletion authorized; publication remains NOT CLEARED.
 
-The historical [B3 method/source and baseline package](audits/publication-readiness-b3/report.md) records the original method tiers and baseline reconciliation. Use the [current evidence-access reference](reference/evidence-access.md) for today's selected routes.
+The historical [B3 method/source and baseline package](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b3/report.md`) records the original method tiers and baseline reconciliation. Use the [current evidence-access reference](reference/evidence-access.md) for today's selected routes.
 
-- [B2 documentation corrections and reader aids](audits/publication-readiness-b2/report.md):
+- [B2 documentation corrections and reader aids](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b2/report.md`):
   notation, analytical decision tables and historical evidence availability.
 
 - [LO1 Locations -> Outpost field lineage](experiments/locations-outpost/report.md): full informational inventory, inherited metrics, count/allowance semantics, selected metadata and schematic asset providers; [review](experiments/locations-outpost/review.md).
@@ -67,14 +67,14 @@ The historical [B3 method/source and baseline package](audits/publication-readin
 - [Subsystem map](subsystems/README.md): connected runtime, persistence, and validation questions.
 - [Established findings](known-facts.md), [hypotheses/questions](hypotheses.md), [functions](function-register.md), and [state/representations](state-register.md).
 - [Experiments](experiments/README.md), [selected evidence](experiments/evidence/README.md), and [templates](templates/README.md).
-- [Initial reconnaissance report](experiments/initial-outpost-system-reconnaissance.md), [ten-area map](subsystems/initial-map.md), [evidence index](experiments/evidence/initial-reconnaissance/README.md), and [validation audit](audits/initial-reconnaissance-validation.md).
+- [Initial reconnaissance report](experiments/initial-outpost-system-reconnaissance.md), [ten-area map](subsystems/initial-map.md), [evidence index](experiments/evidence/initial-reconnaissance/README.md), and [validation audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/initial-reconnaissance-validation.md`).
 
 ## Governance and operations
 
 - [Research execution and completion protocol](RESEARCH_EXECUTION_PROTOCOL.md),
   [contract template](templates/completion-contract.md),
   [reviewer procedure](reviewers/research-completion-reviewer.md) and
-  [step-1 review package](audits/research-execution-completion-protocol.md).
+  [step-1 review package](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/research-execution-completion-protocol.md`).
 
 - [Sources](SOURCES.md) and [permissions](PERMISSIONS.md): contributions, provenance, rights-holder permission, and user approval.
 - [Publication](PUBLICATION.md): mandatory eventual publication and the scientific/rights/privacy/history gate.

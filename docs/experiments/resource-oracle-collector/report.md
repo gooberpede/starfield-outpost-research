@@ -1,6 +1,6 @@
 # RG2-C1C: working synthetic native resource collector
 
-2026-10-22, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1C_native_resource_oracle_collector.md).
+2026-10-22, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1C_native_resource_oracle_collector.md`).
 Engineering and disposable synthetic execution only. Authored work
 REVIEW-REQUIRED; raw receipts/builds LOCAL-ONLY. Publication NOT CLEARED.
 

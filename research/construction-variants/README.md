@@ -2,7 +2,7 @@
 
 Purpose and authority: [plan](../../docs/experiments/construction-variants/plan.md),
 [methods](../../docs/experiments/construction-variants/methods.md),
-[original brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_BM1_construction_component_variants_dynamic_configuration.md).
+[original brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_BM1_construction_component_variants_dynamic_configuration.md`).
 Read-only source analysis; no example mod or production importer.
 
 `verify.py --run <fresh-alphanumeric-label>` runs from the repository root with

@@ -2,7 +2,7 @@
 
 ## D5O coverage diagnosis revision
 
-The [brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5O_hybrid_coverage_diagnosis_repair.md)
+The [brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5O_hybrid_coverage_diagnosis_repair.md`)
 and [report](../../docs/experiments/resource-retained-population/d5o-report.md)
 govern this bounded continuation. No retail execution is authorized.
 `coverage_hybrid.py` adapts owned D5N generated source without editing historical

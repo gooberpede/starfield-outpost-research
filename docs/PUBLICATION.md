@@ -1,6 +1,6 @@
 # Publication Plan and Release Gate
 
-**Status: NOT READY / NOT CLEARED.** Independently reviewed bounded research exists; see the [current roadmap](research-roadmap.md). No public-release action is authorized. The [proposed claim/build scope](audits/publication-readiness-b1/claim-build-matrix.md) still requires maintainer agreement and all release gates below.
+**Status: NOT READY / NOT CLEARED.** Independently reviewed bounded research exists; see the [current roadmap](research-roadmap.md). No public-release action is authorized. The [proposed claim/build scope](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b1/claim-build-matrix.md`) still requires maintainer agreement and all release gates below.
 
 The project begins privately and must publish completed, reviewed research under `GPL-3.0-or-later`. The first publication scope/build matrix must be explicitly agreed and contain runtime and persistence objectives. The continuing programme may remain broader, but unresolved required topics cannot be silently dropped to declare completion.
 
@@ -8,10 +8,10 @@ Use the [publication run card](PUBLICATION_RUN_CARD.md) to record the exact
 candidate, evidence and asset checks, action approvals and release receipts
 under a separately authorized release brief.
 
-The [D5AW proposed preparation sequence](audits/deferred-work-d5aw/publication-plan-amendment.md)
+The [D5AW proposed preparation sequence](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/deferred-work-d5aw/publication-plan-amendment.md`)
 integrates B0–B6 with a prior tree and reader-architecture inventory, evidence
 access review and historical archive design. See the
-[deferred-work disposition register](audits/deferred-work-d5aw/README.md).
+[deferred-work disposition register](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/deferred-work-d5aw/README.md`).
 The sequence remains a proposal. The maintainer's
 [D5AW retention amendment](DECISIONS.md#d5aw-local-working-evidence-and-publication-independence--2026-11-07)
 sets the following prospective publication requirement.
@@ -83,7 +83,7 @@ and some evidence comparisons run without any game inputs.
 ## Conditional first-party original-save evidence
 
 **B4-F1 settled policy, 2026-10-21:** the
-[invoked addendum brief](implementation-briefs/CODEX_BRIEF_SOR_B4_F1_evidence_selection_addendum_packaging.md)
+[invoked addendum brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_B4_F1_evidence_selection_addendum_packaging.md`)
 accepts first-party saves/screenshots as eligible research evidence, informed by
 community practice. This is a maintainer policy decision, not an express
 Bethesda/ZeniMax licence or a claim that legal risk is eliminated. Generic absence
@@ -95,12 +95,12 @@ acceptable; public reproduction instructions must remain portable. HIST-0255 is
 accepted as first-party from the authorized local Saves inventory and is distinct
 from Save52/HIST-0267. Bounded local provisional assembly is authorized by F1;
 exact CORE/ADDENDUM membership and distribution remain pending maintainer/B6
-approval. See the [provisional evidence index](audits/publication-readiness-b4/f1/README.md).
+approval. See the [provisional evidence index](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/f1/README.md`).
 This prospectively qualifies the B4 eligibility/assembly wording below; no donor,
 game-install, raw-save-in-Git, licence-grant or publication restriction is relaxed.
 
 B4 policy-text integration, 2026-10-21, under the explicitly invoked
-[brief](implementation-briefs/CODEX_BRIEF_SOR_B4_evidence_selection_rights_privacy_archives.md).
+[brief](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_B4_evidence_selection_rights_privacy_archives.md`).
 This resolves the former blanket raw-save exclusion only for individually
 reviewed first-party supplementary assets; publication remains **NOT CLEARED**.
 
@@ -129,7 +129,7 @@ INIs/libraries, decompiled native source, bulk disassembly, analysis databases,
 installed tools and built observers remain excluded. Bounded authored analysis,
 pseudocode and illustrative native excerpts require content-specific review;
 a suffix or small size is not clearance. No history rewrite or public disclosure
-is authorized by this policy text. See the [B4 dispositions](audits/publication-readiness-b4/report.md).
+is authorized by this policy text. See the [B4 dispositions](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/report.md`).
 
 ## Repository and release-content review
 

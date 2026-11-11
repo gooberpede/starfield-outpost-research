@@ -7,7 +7,7 @@ No remaining tractable technical defect was found. The actual return is retained
 LOCAL-ONLY as `.local-work/d5ak/reviews/review01.md`, SHA-256
 `6827b862c1ea2b25524ec6b3629390ca80e03bc6e1bef8d81d18c23dc4284ba7`. This record summarizes that return; it does not waive the failure.
 
-The [original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AK_episode_A_requalification_operational_package.md),
+The [original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AK_episode_A_requalification_operational_package.md`),
 [ledger](d5ak-investigation-ledger.md), [report](d5ak-report.md),
 [decision](d5ak-decision.md) and [new card](run-card-d5ak-episode-a.md) preserve
 all original questions and acceptance conditions. Q1–Q3 are COMPLETE within

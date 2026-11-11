@@ -1,6 +1,6 @@
 # RG2-D4A frozen completion contract
 
-The [invoked amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D4A_archimedes_tungsten_bound_acquisition.md) freezes A1–A8, supplemental to historical D4 AC1–AC8. This assignment is offline engineering and synthetic qualification. The question is how to acquire an actual Archimedes Workshop-bound Tungsten region and its transfer, including cached geometry.
+The [invoked amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D4A_archimedes_tungsten_bound_acquisition.md`) freezes A1–A8, supplemental to historical D4 AC1–AC8. This assignment is offline engineering and synthetic qualification. The question is how to acquire an actual Archimedes Workshop-bound Tungsten region and its transfer, including cached geometry.
 
 Allowed actions are reads of existing installed/native/saved evidence, original collector adaptation, MSVC synthetic builds/debugging, offline comparisons and new ignored receipts/scratch copies. Original D4, D2/D3, native receipts, protected saves/backups and Git HEAD/index are protected. No retail launch/attach, native call, deployment, configuration/save edit, download, external disclosure, staging, commit or push is authorized.
 

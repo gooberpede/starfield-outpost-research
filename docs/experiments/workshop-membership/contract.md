@@ -1,7 +1,7 @@
 # SOR-EXP-0032 — Frozen execution contract
 
 2026-10-14, Australia/Sydney. Original authority and acceptance criteria are the
-[invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_authoritative_workshop_membership_constructed_inventory.md).
+[invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_authoritative_workshop_membership_constructed_inventory.md`).
 SOR-EV-0040. Authored material REVIEW-REQUIRED; bulk/raw derivatives LOCAL-ONLY.
 
 Read-only offline research and original stdlib/project implementation are allowed.

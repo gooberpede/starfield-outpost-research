@@ -1,6 +1,6 @@
 # RG2-C1F: a chance-gate discriminator, not a corrected prediction
 
-2026-10-23 Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1F_native_resource_generation_ancestry_divergence.md).
+2026-10-23 Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1F_native_resource_generation_ancestry_divergence.md`).
 Offline only. Authored synthesis REVIEW-REQUIRED; native/save/definition inputs
 LOCAL-ONLY. B6/publication hold and every frozen prediction remain unchanged.
 

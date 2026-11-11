@@ -1,7 +1,7 @@
 # D5AO N2 active live ledger
 
 2026-11-04, Australia/Sydney. Parent GC-10/D5R OPEN. The
-[live amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AO_N2_live_2026-11-04.md)
+[live amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AO_N2_live_2026-11-04.md`)
 records current explicit conditional authority, original N2-Q1/Q2 and AC01–05.
 Both questions are INCOMPLETE at kickoff. No new forecast has yet been frozen
 and no launch GO has been issued.

@@ -1,6 +1,6 @@
 # C1G Phase A acceptance and delivery record
 
-[Frozen original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1G_effective_resource_selection_chance_weight_capture.md),
+[Frozen original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1G_effective_resource_selection_chance_weight_capture.md`),
 [answer](report.md), [native/settings](native.md), [implementation/tests](implementation.md),
 [unexecuted Phase B card](run-card.md), [source pins](sources.csv).
 

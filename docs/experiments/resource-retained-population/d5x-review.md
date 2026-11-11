@@ -1,6 +1,6 @@
 # D5X completion and exact review package
 
-2026-10-31, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5X_construction_winner_observer_feasibility_qualification.md),
+2026-10-31, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5X_construction_winner_observer_feasibility_qualification.md`),
 [report](d5x-report.md), [active ledger](d5x-investigation-ledger.md),
 [architecture](d5x-architecture.md), [schema/diagram](d5x-schema.md).
 

@@ -1,6 +1,6 @@
 # Independent native caller and coordinate-contract audit
 
-2026-10-13, Australia/Sydney. Specialist work under the [authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_center_caller_semantics_idle_camera.md).
+2026-10-13, Australia/Sydney. Specialist work under the [authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_center_caller_semantics_idle_camera.md`).
 Authored interpretation REVIEW-REQUIRED; native exports LOCAL-ONLY. Native
 addresses without another qualification below are module-relative RVAs for
 retail 1.16.244.0, SHA256

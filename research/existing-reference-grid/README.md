@@ -1,7 +1,7 @@
 # Existing-reference grid procedure tools
 
 Project-owned 0.4.0 offline qualification and future operational helpers under
-the [brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_existing_reference_grid_oracle_integrated.md).
+the [brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_existing_reference_grid_oracle_integrated.md`).
 Use the [integrated card](../../docs/experiments/existing-reference-grid/run-card.md)
 only after joint approval. No helper grants live authority.
 

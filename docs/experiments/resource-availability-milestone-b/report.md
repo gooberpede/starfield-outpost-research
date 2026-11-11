@@ -3,7 +3,7 @@
 2026-10-15, Australia/Sydney. SOR-EXP-0034 / SOR-EV-0042 continuation;
 uses independently captured SOR-EXP-0035 / SOR-EV-0043. Authored interpretation
 REVIEW-REQUIRED; raw/native/save evidence LOCAL-ONLY.
-[Original authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md).
+[Original authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md`).
 
 | Element | Scoped result |
 |---|---|

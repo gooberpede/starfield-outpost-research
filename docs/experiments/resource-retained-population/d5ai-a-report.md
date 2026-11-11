@@ -6,7 +6,7 @@ cannot qualify the baseline. The approved pre-departure gate therefore stopped
 the measurement. There was no departure/return comparison, A1, retry or Episode B.
 No retained/reconstructed/unavailable outcome is asserted.
 
-The [authorization amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AI_EPISODE_A_live_2026-11-03.md)
+The [authorization amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AI_EPISODE_A_live_2026-11-03.md`)
 and [active ledger](d5ai-a-live-ledger.md) retain the original controlling questions,
 user instructions, scope and failures. The [original card](run-card-d5ai-episode-a.md),
 native 0.7.0 DLL, original readers and prediction remain unchanged. Existing

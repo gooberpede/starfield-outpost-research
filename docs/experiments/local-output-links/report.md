@@ -1,7 +1,7 @@
 # S2: local output links and remote production
 
 2026-10-17, Australia/Sydney. SOR-EXP-0043 / SOR-EV-0051.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_S2_local_output_links_remote_production.md),
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_S2_local_output_links_remote_production.md`),
 [contract](contract.md), [native derivation](native.md), [lifecycle](lifecycle.md),
 [saved examples](saves.md), [worked traces](traces.md), [review](review.md).
 

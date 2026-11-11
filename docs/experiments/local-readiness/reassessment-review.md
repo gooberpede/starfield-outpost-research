@@ -3,7 +3,7 @@
 **ACCEPT — documentation correction and NO-GO recommendation.** The observer and
 run card remain unapproved. Acceptance applies to this reassessment only.
 
-2026-10-15. Governing [correction brief](../../implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md),
+2026-10-15. Governing [correction brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md`),
 [scientific decision](scientific-value-reassessment.md), [prose audit](prose-correction-audit.md).
 
 The separate read-only reviewer `/root/scientific_reviewer` was given a fresh

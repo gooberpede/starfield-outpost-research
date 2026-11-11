@@ -24,7 +24,7 @@ At scaffold creation no third-party implementation was bundled. The following la
 
 ## Future evidence and incorporations
 
-SOR-EXP-0016 continues use of that exact unchanged SFSE public interface for the resumed research observer and includes its notice in the versioned package. Maintainer-authored sibling census/association patterns are adapted under the standing SOR-P-0002 exception, with [exact source provenance](docs/audits/live-beacon-observer.md) and SOR-S-0132. Embedded third-party sibling code/dependencies remain excluded. This does not incorporate SFSE runtime, CommonLib, Address Library, game bytes or compiler runtime binaries, or authorize publication.
+SOR-EXP-0016 continues use of that exact unchanged SFSE public interface for the resumed research observer and includes its notice in the versioned package. Maintainer-authored sibling census/association patterns are adapted under the standing SOR-P-0002 exception, with [exact source provenance](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/live-beacon-observer.md`) and SOR-S-0132. Embedded third-party sibling code/dependencies remain excluded. This does not incorporate SFSE runtime, CommonLib, Address Library, game bytes or compiler runtime binaries, or authorize publication.
 
 Initial reconnaissance (2026-10-06) uses installed xEdit/Ghidra as separate tools and Bethesda development scripts/game data as local research inputs, under the invoked brief. That reconnaissance added original helpers and factual notes, not those tools, dependencies, scripts or raw exports. Game-derived outputs remain LOCAL-ONLY; authored summaries/identifiers remain subject to publication review. Source-reported mod behavior and documentation are attributed without incorporating implementations. See SOR-S-0101–0112 in [SOURCES.md](docs/SOURCES.md). No third-party code reuse decision was granted for that initial reconnaissance; the later header exception is recorded above.
 
@@ -41,7 +41,7 @@ Missing individual written permission alone is not a first-party hold. Exact
 provenance/privacy/utility checks govern local provisional preparation; final
 membership and publication authorization remain separate. Character names and
 historical workstation profile `User` are acceptable. The
-[F1 policy and proposed assets](docs/audits/publication-readiness-b4/f1/README.md)
+[F1 policy and proposed assets](docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/f1/README.md`)
 prospectively qualify the prior conditional text below, without granting rights
 in underlying game content or relaxing donor/game-install/Git exclusions.
 

@@ -434,7 +434,7 @@ and effective consumer when claiming authority.
 | Mannequin equipment | Instance and slot selection owned by the mannequin actor. Equipping updates the actor's equipment state using inventory rows. It uses a different mechanism from mounting an item on a display case. [Equipment and save channels](containers-and-displays.md#serialized-joins-and-fixup). |
 | Saved record framing | The byte grammar that determines a record's boundaries and divides optional header fields, queues and body. It gives a safe region to decode. Record type, identity and payload meaning still require supported interpretation. [Framing](access-and-save-framing.md#frame-the-sample-before-interpreting-a-field). |
 | Capability surface | The specific definition, script or configuration route checked for an action. Its status describes the evidence for that route and action, including a declaration or an established consumer where applicable. [Capability matrix](access-and-save-framing.md#capability-and-access-matrix). |
-| Native Papyrus declaration | A script signature marked native that describes an engine-bound operation. The declaration gives the callable name and argument/return contract in that script context. Native registration, installed use and validated external integration each need separate evidence. [Declarations](../audits/outpost-rc1-2026-10/papyrus-interfaces.md). |
+| Native Papyrus declaration | A script signature marked native that describes an engine-bound operation. The declaration gives the callable name and argument/return contract in that script context. Native registration, installed use and validated external integration each need separate evidence. [Declarations](rc1/papyrus-interfaces.md). |
 
 ## Electrical state
 

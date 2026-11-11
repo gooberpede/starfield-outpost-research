@@ -6,7 +6,7 @@ and actual protected preflight. The reviewer accepts exact delivery02 and packag
 remains NOT AUTHORIZED; PRED-01 v1 remains NOT TESTED and GC-31/10/D5R OPEN.
 
 The non-implementing reviewer `/root/d5al_review` receives the original
-[D5AL contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md),
+[D5AL contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md`),
 [report](d5al-report.md), [active ledger](d5al-ledger.md),
 [reading/application record](d5al-reading.md), exact new
 [B card](run-card-d5al-episode-b.md), final03 package and all primary receipts.

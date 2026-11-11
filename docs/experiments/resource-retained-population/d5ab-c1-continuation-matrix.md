@@ -1,6 +1,6 @@
 # Original-contract continuation matrix
 
-2026-10-31, Australia/Sydney. Advisory assessment against the unchanged [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md). Row labels summarize requirements; their full normative text and original generality remain in that brief. No row redefines acceptance. D5AB INCOMPLETE / REWORK; D5R OPEN; B1 PARTIAL; D5AA ESCALATE; B2 NOT AUTHORIZED.
+2026-10-31, Australia/Sydney. Advisory assessment against the unchanged [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`). Row labels summarize requirements; their full normative text and original generality remain in that brief. No row redefines acceptance. D5AB INCOMPLETE / REWORK; D5R OPEN; B1 PARTIAL; D5AA ESCALATE; B2 NOT AUTHORIZED.
 
 ## Reading the matrix
 

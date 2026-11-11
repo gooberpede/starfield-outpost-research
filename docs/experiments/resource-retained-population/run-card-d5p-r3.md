@@ -1,6 +1,6 @@
 # D5P-R3 held retail proposal — NO-GO / NOT AUTHORIZED
 
-2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R3_grid_membership_context_validation_repair.md),
+2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R3_grid_membership_context_validation_repair.md`),
 [offline result](d5p-r3-report.md), [review](d5p-r3-review.md).
 
 **This is a held proposal, not an executable card. There is no R3 candidate DLL

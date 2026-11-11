@@ -1,6 +1,6 @@
 # Frozen contract, independent review and delivery
 
-2026-10-24, Australia/Sydney. The original [brief AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md)
+2026-10-24, Australia/Sydney. The original [brief AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md`)
 remain unchanged. Task type: offline engineering and deterministic reconstruction.
 Allowed inputs/actions, protected sources, publication restrictions, continuation
 and independent-review obligations are those of that brief and the repository

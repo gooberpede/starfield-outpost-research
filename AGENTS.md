@@ -13,7 +13,7 @@ safeguards, and have an independent reviewer verify applied understanding.
 Prefer early reading; its chronological order is not a pass/fail criterion.
 Missing critical content, material misunderstanding or unverifiable coverage
 still fails AC01. The maintainer explicitly authorizes this prospective amendment
-in [D5AL section 3](docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md).
+in [D5AL section 3](docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md`).
 Earlier frozen contracts, reading-order breaches and verdicts remain unchanged.
 
 For D5AT and future briefs, at most one sub-agent may be active at a time. An
@@ -22,7 +22,7 @@ the preceding session is confirmed terminated. Disclose breaches with duration,
 operations and effects. A minor promptly corrected breach without material
 consequences does not automatically fail a criterion. Evaluate material effects
 on evidence, independence, safety, authorization and budget. See [the D5AT
-amendment](docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AT_Save52_outpost_mask_inventory_distribution_survey.md#1-authority-and-governance).
+amendment](docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AT_Save52_outpost_mask_inventory_distribution_survey.md#1-authority-and-governance`).
 
 ## Purpose and scope
 

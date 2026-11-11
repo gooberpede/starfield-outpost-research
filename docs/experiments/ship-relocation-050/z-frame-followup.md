@@ -1,7 +1,7 @@
 # Existing-capture Z and frame investigation
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
-[Authorized follow-up](../../implementation-briefs/CODEX_BRIEF_SOR_observer050_existing_capture_z_frame_followup.md),
+[Authorized follow-up](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_observer050_existing_capture_z_frame_followup.md`),
 [prior live report](live-attempt-01.md), [40 audited cases](z-frame-followup-cases.csv),
 [source/evidence hashes](z-frame-followup-sources.csv), [review](z-frame-followup-review.md).
 Authored interpretation REVIEW-REQUIRED; raw/static/private artifacts LOCAL-ONLY.

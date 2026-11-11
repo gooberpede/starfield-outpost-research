@@ -1,6 +1,6 @@
 # D5X construction-winner observer qualification
 
-2026-10-31, Australia/Sydney. [Original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5X_construction_winner_observer_feasibility_qualification.md),
+2026-10-31, Australia/Sydney. [Original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5X_construction_winner_observer_feasibility_qualification.md`),
 [active ledger](d5x-investigation-ledger.md), [architecture](d5x-architecture.md),
 [boundary diagram/schema](d5x-schema.md), [sources](d5x-sources.csv),
 [review and acceptance matrix](d5x-review.md).

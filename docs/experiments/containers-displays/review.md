@@ -1,7 +1,7 @@
 # SD1 review and delivery receipts
 
 2026-10-19, SOR-EXP-0055 / SOR-EV-0063.
-[Original eight criteria](../../implementation-briefs/CODEX_BRIEF_SOR_SD1_containers_displays_ownership_persistence.md),
+[Original eight criteria](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_SD1_containers_displays_ownership_persistence.md`),
 [answer](report.md), [evidence](evidence.md), [methods](methods.md).
 No mandatory acceptance criterion was amended. Independent review02 **ACCEPT**
 passed all eight criteria; the final administrative snapshot is checked separately.

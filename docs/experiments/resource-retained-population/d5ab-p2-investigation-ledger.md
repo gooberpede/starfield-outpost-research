@@ -1,6 +1,6 @@
 # D5AB P2 active investigation ledger
 
-2026-11-01, Australia/Sydney. Authority: [P2 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md).
+2026-11-01, Australia/Sydney. Authority: [P2 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md`).
 Baseline HEAD: `8a51dfce00cb2fcf4886d83561b2ad502d03c21d`.
 Only the supplied P2 brief was untracked at admission. No staging, commit or push.
 

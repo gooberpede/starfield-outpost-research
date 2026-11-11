@@ -1,7 +1,7 @@
 # Extractor/resource trial: frozen completion contract
 
 Frozen 2026-10-11 before task implementation or association tests. Authority:
-[original brief](../implementation-briefs/CODEX_BRIEF_SOR_extractor_resource_association_protocol_trial.md).
+[original brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_extractor_resource_association_protocol_trial.md`).
 Task type: deterministic reconstruction and research, offline only.
 
 ## Inputs and routes

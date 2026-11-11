@@ -1,12 +1,12 @@
 # SOR-EXP-0036 / SOR-EV-0044 — pre-live review package
 
 **Current disposition: NO-GO. Plugin and run card remain unapproved.**
-The [correction brief](../../implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md) supersedes the earlier pre-live ACCEPT as a basis for committing or going live. See the [scientific reassessment](scientific-value-reassessment.md), [prose audit](prose-correction-audit.md) and [new independent review](reassessment-review.md).
+The [correction brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md`) supersedes the earlier pre-live ACCEPT as a basis for committing or going live. See the [scientific reassessment](scientific-value-reassessment.md), [prose audit](prose-correction-audit.md) and [new independent review](reassessment-review.md).
 
 The earlier engineering handoff is retained below as history. Its PASS matrix
 records artifact delivery and qualification, not a passed scientific-value gate.
 
-2026-10-15, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_local_readiness_native_observation.md),
+2026-10-15, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_local_readiness_native_observation.md`),
 [frozen criteria and hypotheses](contract.md). No live result is claimed.
 
 | Element | Answer and scope |

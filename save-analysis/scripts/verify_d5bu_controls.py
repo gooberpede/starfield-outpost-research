@@ -23,7 +23,7 @@ from workshop_population import initial_prefix, typed_records
 sys.path.insert(0, str(ROOT / 'research/historical-methods/b3/cr1-crew'))
 import crew_extras
 
-LEDGER = ROOT / 'docs/audits/release-assets-d5bf/release-assets.json'
+LEDGER = ROOT / 'research/evidence-data/release-assets-d5bf/release-assets.json'
 LEDGER_SHA = '7e0b6bdea0119b86a6cdd9bd0a74ef12b783ef73d4710a4e40aed53a9a652306'
 CREW_SHA = 'd97f4680499a76816bd314d0b0aaca41c5d9d109ab236b893f2047291db2d957'
 BEACON = 'starfield.esm:2c60e9'

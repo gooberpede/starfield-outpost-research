@@ -1,7 +1,7 @@
 # Candidate-query control flow and oracle reachability
 
 2026-10-12, Australia/Sydney. Continuation of SOR-EXP-0031 / SOR-EV-0039;
-no new runtime experiment. [Authorized brief](../implementation-briefs/CODEX_BRIEF_SOR_Q_to_E_control_flow_and_oracle_reachability.md).
+no new runtime experiment. [Authorized brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_Q_to_E_control_flow_and_oracle_reachability.md`).
 Authored interpretation REVIEW-REQUIRED; raw evidence LOCAL-ONLY.
 
 | Element | Answer |

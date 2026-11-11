@@ -5,7 +5,7 @@ and [pre-repair diagnosis](../../docs/experiments/resource-retained-population/d
 govern schema 2. Retail remains NO-GO. The historical v1 package and operation
 helpers explicitly refuse schema-2 builds; they are not a migrated retail gate.
 
-The original Phase A instrument followed the [D5P brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md).
+The original Phase A instrument followed the [D5P brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md`).
 The [design](../../docs/experiments/resource-retained-population/d5p-design.md)
 records eleven selected observation boundaries. No helper installs a plugin,
 launches Starfield, attaches a debugger, changes gameplay, saves or configuration.

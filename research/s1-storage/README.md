@@ -21,7 +21,7 @@ dependency, database/save/Git mutation or external contact. All follow-up script
 use the same CPython -B/stdlib/owned-reader safeguards described below; fresh run
 names are mandatory. Local review packaging adapts the owned S1 exporter.
 
-[Authorized brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_S1_storage_inventory_eligibility_runtime_save.md),
+[Authorized brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_S1_storage_inventory_eligibility_runtime_save.md`),
 [report](../../docs/experiments/storage/report.md),
 [execution contract](../../docs/experiments/storage/contract.md).
 Original GPL-3.0-or-later research code, adapting maintainer-owned E2/E3 ESM

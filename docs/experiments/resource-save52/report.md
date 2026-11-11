@@ -1,7 +1,7 @@
 # RG2-D2: Save52-wide prediction validation
 
 2026-10-24, Australia/Sydney. Offline research under the
-[invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md)
+[invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D2_save52_outpost_wide_validation.md`)
 and [frozen contract](contract.md). Authored results are REVIEW-REQUIRED;
 actual corpora, save evidence and full predictions are LOCAL-ONLY.
 **NO LIVE TEST PERFORMED. B6 and publication remain on hold.**

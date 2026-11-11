@@ -1,6 +1,6 @@
 # D5P SFSE retained-population observer
 
-2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md),
+2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md`),
 [architecture](d5p-design.md), [source ledger](d5p-sources.csv), [review](d5p-review.md),
 [proposed Phase B card](run-card-d5p-v1.md), [source/build instructions](../../../runtime/retained-population/README.md).
 

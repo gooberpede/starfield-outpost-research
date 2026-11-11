@@ -3,7 +3,7 @@
 2026-10-15, Australia/Sydney. SOR-EXP-0035 / SOR-EV-0043.
 **Offline preparation only. Requires combined maintainer/ChatGPT review and
 explicit authorization of the final byte-pinned 0.7.0 package and this card.**
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_continuous_beacon_preview_resource_oracle.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_continuous_beacon_preview_resource_oracle.md`),
 [native contract](native.md), [qualification](validation.md), [review](review.md).
 After that approval and maintainer Vortex deployment, successful machine-side
 preflight permits this sequence without another routine approval. Changed hooks,

@@ -1,6 +1,6 @@
 # Source and review provenance
 
-[Source ledger](sources.csv), [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_a.md),
+[Source ledger](sources.csv), [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_a.md`),
 [scope amendment](scope-amendment.md). Authored synthesis/code is REVIEW-REQUIRED;
 raw inventories, captures, prototypes, actual pilot paths and receipts are LOCAL-ONLY.
 No publication clearance or cloud connection follows from this study.

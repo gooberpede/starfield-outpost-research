@@ -12,7 +12,7 @@ The original proposal below records its implementation-stage authority and
 remains preserved. Its inactive label was superseded only for the exact Cargo
 transaction documented above, not for another owner, archive version or operation.
 
-**PROPOSED / INACTIVE.** The [brief](../../implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md)
+**PROPOSED / INACTIVE.** The [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_archived_evidence_resolution_cargo_cutover.md`)
 authorizes a demonstration, not activation. Existing mandatory preservation rules,
 save protection and historical failed verdicts remain unchanged.
 

@@ -1,6 +1,6 @@
 # Save29 planning review and check ledger
 
-2026-10-17. [Original authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_restoration_vs_recalculation_test_plan.md),
+2026-10-17. [Original authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_restoration_vs_recalculation_test_plan.md`),
 [report and frozen prospective outcome rules](save29-test-plan.md).
 This is documentation and bounded read-only analysis, not live execution.
 Earlier P1 reviews retain their exact historical scope.

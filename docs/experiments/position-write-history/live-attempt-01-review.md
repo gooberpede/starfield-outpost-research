@@ -1,6 +1,6 @@
 # Approved live attempt 01: completion review package
 
-2026-10-13, SOR-EXP-0031 / SOR-EV-0039 continuation. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md),
+2026-10-13, SOR-EXP-0031 / SOR-EV-0039 continuation. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md`),
 [frozen offline contract](contract.md), [approved integrated card](run-card.md),
 [actual live report/matrix](live-attempt-01.md), [selected native cases](live-attempt-01-cases.csv)
 and [source/receipt hashes](live-attempt-01-sources.csv).

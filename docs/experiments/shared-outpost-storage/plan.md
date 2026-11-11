@@ -1,6 +1,6 @@
 # SD2 frozen offline plan
 
-2026-10-19, Australia/Sydney. The [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_SD2_shared_storage_crafting_access.md)
+2026-10-19, Australia/Sydney. The [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_SD2_shared_storage_crafting_access.md`)
 and its eight mandatory criteria govern without amendment. SD3 Stored Resources
 screen mapping is excluded. Results and acceptance remain separate.
 

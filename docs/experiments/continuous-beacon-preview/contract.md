@@ -1,7 +1,7 @@
 # Continuous prospective beacon resource observation contract
 
 2026-10-15, Australia/Sydney. SOR-EXP-0035 / SOR-EV-0043.
-[Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_continuous_beacon_preview_resource_oracle.md).
+[Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_continuous_beacon_preview_resource_oracle.md`).
 Original mandatory requirements remain frozen. Engineering completion requires
 their qualification; no scientific negative substitutes for failing engineering.
 

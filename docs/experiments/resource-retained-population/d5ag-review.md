@@ -1,6 +1,6 @@
 # D5AG review and delivery record
 
-2026-11-02, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AG_terrain_resource_consistency_lifecycle.md),
+2026-11-02, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AG_terrain_resource_consistency_lifecycle.md`),
 [report](d5ag-report.md), [active ledger](d5ag-investigation-ledger.md).
 No amendment changes CQ, Q1–Q4 or AC01–08. Independent original-contract review
 has completed; its exact snapshot binding and separate dispositions follow below.

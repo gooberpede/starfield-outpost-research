@@ -9,7 +9,7 @@ None is a runtime pointer, file offset or safe callable ABI.
 Fresh EXE SHA-256 `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28`;
 main ESM `1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7`.
 `nNNN` denotes a numbered **SD1-local export request/output**, not a function
-name or global identifier. The [export-ID guide and SD1 lookup](../../audits/publication-readiness-b2/native-export-ids.md#sd1-lookup-example)
+name or global identifier. The [export-ID guide and SD1 lookup](../../reference/native-export-ids.md#sd1-lookup-example)
 links each function address to its tracked register and exact local output/pin.
 Raw `.local-work/sd1-containers/native/NNN.request.tsv` outputs are LOCAL-ONLY;
 one output may contain several FUNCTION sections. Identical numbers in another
@@ -19,7 +19,7 @@ Reading convention: an explicit vtable byte offset selects a pointer in the
 referenced interface's vtable; an object/member offset selects data in the named
 object. Neither is an executable address or a vtable slot index. Existing shorter
 hexadecimal expressions below retain their locally stated owner; see the
-[prose notation convention](../../audits/publication-readiness-b2/notation.md#native-prose-at-first-use).
+[prose notation convention](../../reference/notation.md#native-prose-at-first-use).
 Read-only Ghidra exports identify the imported hash/base in every file.
 RTTI names are existing analysis state; semantic names below are analyst labels,
 OBSERVED-INTERNAL. Instructions govern when decompiler pointer/float types err.

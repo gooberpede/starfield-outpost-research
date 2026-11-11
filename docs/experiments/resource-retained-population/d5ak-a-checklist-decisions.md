@@ -1,7 +1,7 @@
 # D5AK Episode A checklist decisions
 
 2026-11-03, Australia/Sydney. Independent review accepts these evidence-backed
-scoped updates under the [live contract](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AK_EPISODE_A_live_2026-11-03.md).
+scoped updates under the [live contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AK_EPISODE_A_live_2026-11-03.md`).
 Original checkbox wording and historical evidence remain intact.
 
 | Original obligation | Reviewed disposition and exact coverage |

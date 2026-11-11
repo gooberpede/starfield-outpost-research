@@ -1,7 +1,7 @@
 # D5AO active investigation ledger
 
 2026-11-04, Australia/Sydney. Parent GC-10 / D5R remains OPEN.
-Authority is the [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AO_GC10_observer_perturbation_measurement_validity.md), offline only.
+Authority is the [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AO_GC10_observer_perturbation_measurement_validity.md`), offline only.
 
 ## Frozen contract
 

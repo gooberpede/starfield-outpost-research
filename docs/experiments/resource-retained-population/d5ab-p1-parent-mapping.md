@@ -2,7 +2,7 @@
 
 2026-11-01, Australia/Sydney. D5AB INCOMPLETE / REWORK; D5R OPEN;
 B1 PARTIAL; D5AA ESCALATE; B2 NOT AUTHORIZED.
-[Original full normative contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md),
+[Original full normative contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`),
 [C2 mapping](d5ab-c2-decision.md), [accepted P2](d5ab-p2-parent-mapping.md),
 [P1 report](d5ab-p1-report.md). The summaries below do not amend any question or
 criterion. Historical full-criterion outcomes remain separate from P1 contributions.

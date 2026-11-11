@@ -1,6 +1,6 @@
 # D5G: why exact replay and independent prediction differ
 
-2026-10-25, Australia/Sydney. Offline-only [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5G_source_predictability_and_reachable_query_invariance.md),
+2026-10-25, Australia/Sydney. Offline-only [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5G_source_predictability_and_reachable_query_invariance.md`),
 [methods](methods.md), [native proof boundaries](native.md), [review](review.md).
 
 **The three successful sites have enough qualified installed inputs and witnessed

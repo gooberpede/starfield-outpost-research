@@ -13,7 +13,7 @@ review cannot waive it. The maintainer has accepted
 authority to the exact reviewed plan, preflight and actual session. This card,
 the engineering bundle and prediction freeze alone grant neither authority.
 The maintainer has now accepted the historical exception and authorized N1
-subject to successful preflight under the [N1 amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N1_live_2026-11-04.md). No renewed waiver request is needed.
+subject to successful preflight under the [N1 amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N1_live_2026-11-04.md`). No renewed waiver request is needed.
 
 ## Question and inputs
 

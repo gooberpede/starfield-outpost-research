@@ -2,7 +2,7 @@
 
 **Independent decision: ACCEPT.** All Z1–Z5 criteria pass within the stated scope; exact Z cause/full 3D equivalence remains unresolved.
 
-2026-10-13. [Authorized contract](../../implementation-briefs/CODEX_BRIEF_SOR_observer050_existing_capture_z_frame_followup.md),
+2026-10-13. [Authorized contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_observer050_existing_capture_z_frame_followup.md`),
 [report](z-frame-followup.md), [cases](z-frame-followup-cases.csv),
 [sources](z-frame-followup-sources.csv).
 

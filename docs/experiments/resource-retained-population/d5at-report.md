@@ -17,7 +17,7 @@ geometry comparison. [Active associations](d5at-active-associations.md).
 | D5AT-Q3 | COMPLETE. The candidate survey ranks retained Grid support, conditional density and conditional layer separately, and retains the historical alternatives. |
 | D5AT-Q4 | COMPLETE for forward evaluation. VI-b and VIII-b U20 retain their prior controls. The new VII-b density lead has a distinct full-geometry result under fixed inputs. Future visits require their own resident source and compatible frame evidence. |
 
-[Maintainer amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D5AT_active_outpost_scope_2026-11-06.md) ·
+[Maintainer amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D5AT_active_outpost_scope_2026-11-06.md`) ·
 [Active ranking](d5at/active-rankings.csv) · [Candidate assessment](d5at-candidate-assessment.md).
 
 ## Historical result under the original contract

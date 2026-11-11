@@ -6,7 +6,7 @@ below records the original RG2-A result; use the [current population](../resourc
 Prediction v1 remains unchanged.
 
 2026-10-22, Australia/Sydney. SOR-EXP-0064 / SOR-EV-0072.
-[Invoked AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_A_offline_live_validation_preparation.md),
+[Invoked AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_A_offline_live_validation_preparation.md`),
 [review](review.md), [verification](verification.md), [sources](sources.csv).
 Authored analysis REVIEW-REQUIRED; saves, full paths/native/map payloads LOCAL-ONLY.
 Publication NOT CLEARED. B6 remains paused. No RG2-B action is authorized.

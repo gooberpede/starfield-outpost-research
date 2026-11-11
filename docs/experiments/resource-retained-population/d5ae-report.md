@@ -1,6 +1,6 @@
 # D5AE construction authority and scheduling
 
-2026-11-02, Australia/Sydney. [Frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AE_GC10_construction_winner_scheduling.md),
+2026-11-02, Australia/Sydney. [Frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AE_GC10_construction_winner_scheduling.md`),
 [active ledger](d5ae-investigation-ledger.md), [review](d5ae-review.md).
 Authored conclusions are REVIEW-REQUIRED; publication ON HOLD. D5R remains OPEN.
 

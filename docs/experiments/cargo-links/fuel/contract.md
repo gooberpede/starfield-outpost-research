@@ -1,7 +1,7 @@
 # C3 scope and frozen completion contract
 
 2026-10-18, Australia/Sydney. The maintainer invoked the retained
-[C3 brief](../../../implementation-briefs/CODEX_BRIEF_SOR_C3_intersystem_cargo_fuel_and_timeskip.md)
+[C3 brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_C3_intersystem_cargo_fuel_and_timeskip.md`)
 and authorized using whichever protected outposts and saves answer the questions.
 This broadens sample selection within offline analysis; it supplies no live-load
 or save-write authority. Finalization must include independent contextual prose

@@ -1,6 +1,6 @@
 # Stacking continuation: verification and review
 
-2026-10-16. [Original mandatory contract](../../implementation-briefs/CODEX_BRIEF_SOR_E1_stacking_research_projects.md),
+2026-10-16. [Original mandatory contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E1_stacking_research_projects.md`),
 [answer-first report](stacking-report.md), [source pins](stacking-sources.csv).
 Scientific result: strong scoped STATIC selection/stacking and Research Project
 unlock result. General realized production remains conditional; runtime NOT TESTED.

@@ -1,6 +1,6 @@
 # D5C completion and review package
 
-2026-10-25, Australia/Sydney. [Original frozen AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5C_resource_source_population_lifecycle.md), [report](report.md), [native claims](native.md), [pins](sources.csv).
+2026-10-25, Australia/Sydney. [Original frozen AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5C_resource_source_population_lifecycle.md`), [report](report.md), [native claims](native.md), [pins](sources.csv).
 Task type: bounded offline native research. No amendments to mandatory criteria.
 An honest unjoined Save52 timing/serialization result is permitted by AC5; missing
 engineering verification or independent review is not a scientific negative.

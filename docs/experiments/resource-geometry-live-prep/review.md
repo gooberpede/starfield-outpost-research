@@ -1,7 +1,7 @@
 # RG2-A criterion accounting and independent review
 
 2026-10-22, Australia/Sydney. Original
-[AC1–AC8 and completion contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_A_offline_live_validation_preparation.md)
+[AC1–AC8 and completion contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_A_offline_live_validation_preparation.md`)
 remain unchanged. [Report](report.md), [primary checks](verification.md),
 [prediction contract](prediction-contract.md). No amendment or self-issued approval.
 

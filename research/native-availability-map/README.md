@@ -1,7 +1,7 @@
 # Local native availability mapping
 
 Offline continuation of SOR-EXP-0034 / SOR-EV-0042, using SOR-EV-0043.
-[Authorized brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md).
+[Authorized brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md`).
 [Report and contracts](../../docs/experiments/native-availability-map/report.md).
 
 `verify.py` reads the structured function register, existing local native exports,

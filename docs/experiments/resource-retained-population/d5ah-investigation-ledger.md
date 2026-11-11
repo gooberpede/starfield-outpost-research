@@ -1,7 +1,7 @@
 # D5AH active investigation ledger
 
 2026-11-02, Australia/Sydney. Parent D5R OPEN. Opening state: D5AH-CQ and Q1–Q4
-were INCOMPLETE; later checkpoints below preserve their disposition. The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AH_geometry_persistence_reconstruction.md)
+were INCOMPLETE; later checkpoints below preserve their disposition. The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AH_geometry_persistence_reconstruction.md`)
 freezes the questions and AC01–AC08; no amendment is adopted.
 
 ## Initial state and authority

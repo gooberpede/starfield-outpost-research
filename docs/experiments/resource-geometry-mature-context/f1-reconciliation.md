@@ -1,6 +1,6 @@
 # Mature observations: real disagreements, one supported Water explanation
 
-2026-10-22, Australia/Sydney. [Continuation authority](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_F1_mature_vein_observation_reconciliation.md),
+2026-10-22, Australia/Sydney. [Continuation authority](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_F1_mature_vein_observation_reconciliation.md`),
 [plan](f1-plan.md), [checks/reproduction](f1-validation.md), [cumulative review](f1-review.md).
 Authored REVIEW-REQUIRED; raw images/native/save/definition evidence LOCAL-ONLY.
 

@@ -8,9 +8,9 @@ Do not replay in the current evidence tree. No execution authority follows from
 source inclusion. No real save was decoded; no Ghidra, xEdit, debugger, game,
 native worker or observer ran for B3. Installed CPython/stdlib and Git were used.
 
-Use the [method contracts](../../../docs/audits/publication-readiness-b3/method-reproduction.md),
-[per-source I/O and dependencies](../../../docs/audits/publication-readiness-b3/method-contracts.csv)
-and [exact origin hashes](../../../docs/audits/publication-readiness-b3/promoted-sources.csv).
+Use the [method contracts](../../../docs/reference/b3-methods.md),
+[per-source I/O and dependencies](../../evidence-data/publication-readiness-b3/method-contracts.csv)
+and [exact origin hashes](../../evidence-data/publication-readiness-b3/promoted-sources.csv).
 These links explain safe inspection, the isolated synthetic framing command and
 precisely which historical reproduction dependencies remain local-only.
 

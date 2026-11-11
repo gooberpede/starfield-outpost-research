@@ -1,6 +1,6 @@
 # D5O independent review and delivery
 
-2026-10-28, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5O_hybrid_coverage_diagnosis_repair.md),
+2026-10-28, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5O_hybrid_coverage_diagnosis_repair.md`),
 [report and AC1–AC8 ledger](d5o-report.md), [source/evidence pins](d5o-sources.csv),
 [proposed card](run-card-d5o-v1.md).
 

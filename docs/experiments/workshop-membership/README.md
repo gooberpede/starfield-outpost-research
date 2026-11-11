@@ -2,7 +2,7 @@
 
 SOR-EXP-0032 / SOR-EV-0040, 2026-10-14. Authored REVIEW-REQUIRED; raw/bulk LOCAL-ONLY.
 
-- [Frozen contract](contract.md) and [authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_authoritative_workshop_membership_constructed_inventory.md).
+- [Frozen contract](contract.md) and [authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_authoritative_workshop_membership_constructed_inventory.md`).
 - [Scientific report](report.md), [dependency map](dependencies.md), [schema and commands](schema.md).
 - [Validation](validation.md), [independent review and acceptance matrix](review.md).
 - `owners.csv`, `corpus.csv`, `sources.csv`: lightweight reference summaries.

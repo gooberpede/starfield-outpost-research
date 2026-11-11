@@ -1,6 +1,6 @@
 # P1 review, validation and handoff
 
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_generation_distribution_native_mapping.md`),
 [contract](contract.md), [report](report.md), [source pins](sources.csv).
 Scientific completion is **COMPLETE**, independently **ACCEPTED** after rework.
 The frozen review02 decision and final export are recorded below. Maintainer integration/publication approval
@@ -92,7 +92,7 @@ This is a suggestion only; no staging, commit or push.
 
 ## Focused allocation-order/switch follow-up
 
-2026-10-17. [Authorized follow-up](../../implementation-briefs/CODEX_BRIEF_SOR_P1_power_order_switch_persistence_followup.md),
+2026-10-17. [Authorized follow-up](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_order_switch_persistence_followup.md`),
 [frozen criteria](followup-contract.md), [derivation](followup.md),
 [availability](availability.md). The primary agent conducted the focused native
 investigation. Independent review was requested separately under WORKFLOW.
@@ -202,7 +202,7 @@ No staging, commit, push, external disclosure or integration approval occurred.
 ## Load reconstruction continuation — 2026-10-17
 
 Original criteria are [load-contract.md](load-contract.md); authorized scope is
-the retained [third P1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_power_load_reconstruction_determinism.md).
+the retained [third P1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_load_reconstruction_determinism.md`).
 The [report](load-determinism.md) separates assignment disposition from the
 scientific **NOT YET ESTABLISHED** identical-save settled-outcome verdict.
 Independent review returned ACCEPT for the bounded research and exact

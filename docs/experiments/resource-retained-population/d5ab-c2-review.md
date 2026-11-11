@@ -1,6 +1,6 @@
 # C2 independent review and delivery record
 
-2026-11-01, Australia/Sydney. Review scope: the original [C2 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C2_existing_evidence_closure_audit.md), original [D5AB contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md), primary evidence and exact five-document C2 snapshot. D5AB INCOMPLETE / REWORK; D5R OPEN; B2 NOT AUTHORIZED.
+2026-11-01, Australia/Sydney. Review scope: the original [C2 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C2_existing_evidence_closure_audit.md`), original [D5AB contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_observer_remediation_live_readiness.md`), primary evidence and exact five-document C2 snapshot. D5AB INCOMPLETE / REWORK; D5R OPEN; B2 NOT AUTHORIZED.
 
 ## Review boundary
 

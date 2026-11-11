@@ -1,6 +1,6 @@
 # D5P acceptance, independent review and exact delivery
 
-2026-10-29, Australia/Sydney. [Original frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md),
+2026-10-29, Australia/Sydney. [Original frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_SFSE_retained_population_observer.md`),
 [report](d5p-report.md), [design decision](d5p-design.md), [source ledger](d5p-sources.csv),
 [proposed card](run-card-d5p-v1.md).
 

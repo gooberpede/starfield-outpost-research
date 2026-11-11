@@ -1,7 +1,7 @@
 # D5AQ review and delivery record
 
 2026-11-04, Australia/Sydney. Original
-[brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AQ_ordinary_construction_mask_invariance.md)
+[brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AQ_ordinary_construction_mask_invariance.md`)
 Q1–Q4 and AC01–09 remain frozen. The [report](d5aq-report.md) establishes outcome B
 at the qualified native-feasibility scope. GC-10/D5R and GC-31 remain OPEN.
 Authored work REVIEW-REQUIRED; raw evidence LOCAL-ONLY; publication ON HOLD.

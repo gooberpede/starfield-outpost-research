@@ -1,7 +1,7 @@
 # Revised card 02 preparation and review
 
 2026-10-12. [Revised card](live-run-card-02.md), under the
-[direct-user brief](../../implementation-briefs/CODEX_BRIEF_SOR_Q030_revised_card_02.md),
+[direct-user brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_Q030_revised_card_02.md`),
 is prepared offline for approval. No deployment/launch/live command was executed.
 The native 030 candidate and qualified inventory tools/lock 05 are unchanged.
 Only Markdown documents change in this task; previous card/attempt/fix reports

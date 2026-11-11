@@ -2,7 +2,7 @@
 
 2026-10-16, Australia/Sydney. SOR-EXP-0034 / SOR-EV-0042 continuation.
 Recorded after `diagnostic-03` and before implementing the correction.
-[Governing brief](../../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md).
+[Governing brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_x87_state_preservation.md`).
 
 The qualified pre-trap duplicate FXSAVE64 images agree. Both full-width pointers
 are nonzero above 4 GiB. All required x87 fields still agree at the first assembly

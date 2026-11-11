@@ -41,7 +41,7 @@ The new review exporter uses owned SOR-P-0002 methods. It verifies UTF-8/LF,
 whitespace, new links, exact path inventory and standalone forward/reverse bytes
 for both diff coverages, with unchanged HEAD/index. Raw/native/save/binary and
 private evidence is excluded and individually pinned in private delivery records.
-The original [live contract](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AL_EPISODE_B_live_2026-11-03.md)
+The original [live contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AL_EPISODE_B_live_2026-11-03.md`)
 and [report](d5al-b-report.md) control scope; publication remains ON HOLD.
 
 

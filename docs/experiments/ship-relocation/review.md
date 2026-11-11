@@ -1,6 +1,6 @@
 # Ship relocation completion and review package
 
-2026-10-13. Original [brief](../../implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md),
+2026-10-13. Original [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md`),
 [contract](contract.md), [standalone report](report.md).
 Scientific disposition: **A — QUALIFIED ACQUISITION SCENARIO**, shared component
 scope. Full durable Workshop native equivalence and native nonzero coverage

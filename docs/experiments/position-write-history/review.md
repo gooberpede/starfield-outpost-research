@@ -1,6 +1,6 @@
 # Position-write observer review package
 
-2026-10-13, Australia/Sydney. [Original acceptance brief](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md),
+2026-10-13, Australia/Sydney. [Original acceptance brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md`),
 [contract](contract.md), [report/matrix and rework](report.md),
 [complete prospective Save25 card](run-card.md), [source/provenance](sources.csv),
 [static specialist audit](static-audit.md),

@@ -1,7 +1,7 @@
 # Fallback-grid provenance and identity boundary
 
 2026-10-12, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
-[Authorized brief](../implementation-briefs/CODEX_BRIEF_SOR_fallback_grid_provenance_and_workflow_policy.md).
+[Authorized brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_fallback_grid_provenance_and_workflow_policy.md`).
 Authored interpretation REVIEW-REQUIRED; raw/native/save material LOCAL-ONLY.
 
 | Element | Answer |

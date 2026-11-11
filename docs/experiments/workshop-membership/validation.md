@@ -21,7 +21,7 @@ snapshot. [Schema/commands](schema.md), [scientific limits](report.md).
 | Preservation | All 26 qualified archive hashes checked before/after; 38 ESM sources before/after; 16 database/executable pins match baseline; 60 sealed 050 evidence files and 3 frozen input/prediction/model hashes match prior seals. Validation rehashes its input pins after checks. |
 
 Expected construction actions come from the independently authored
-[manual brief](../../implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md),
+[manual brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md`),
 not detector-generated expectations. Native representative selection and ESM
 templates supply another evidence path. The selected prior resource/network
 comparison is independent context with explicitly limited coverage.

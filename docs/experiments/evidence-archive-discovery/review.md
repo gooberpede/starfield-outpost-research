@@ -1,6 +1,6 @@
 # Stage A contract and independent review
 
-[Original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_a.md),
+[Original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_a.md`),
 [accepted amendment](scope-amendment.md), [report](report.md). Stage A is an offline
 discovery/prototype assignment; real recovery and the 80% verification objective
 are future Stage B outcomes. The earlier preservation task remains REWORK.

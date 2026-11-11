@@ -3,7 +3,7 @@
 2026-11-02, Australia/Sydney. Proposed D5AH-Q1 COMPLETE for the qualified native ownership graph;
 D5AH-Q2 BLOCKED for actual return/reconstruction evidence. Parent D5AH-CQ
 is BLOCKED; D5R OPEN. Independent review controls acceptance.
-[Original questions](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AH_geometry_persistence_reconstruction.md),
+[Original questions](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AH_geometry_persistence_reconstruction.md`),
 [active branch ledger](d5ah-lifecycle-ledger.md),
 [exact primary locators](d5ah-lifecycle-sources.csv).
 

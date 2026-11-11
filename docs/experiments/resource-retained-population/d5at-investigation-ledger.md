@@ -2,7 +2,7 @@
 
 ## Active-outpost amendment continuation
 
-The [maintainer amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D5AT_active_outpost_scope_2026-11-06.md)
+The [maintainer amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D5AT_active_outpost_scope_2026-11-06.md`)
 sets 17 active ordinary Save52 sites as the controlling population. The
 previous BLOCKED result and evidence remain historical. This pass uses the
 reviewed saved-world and Grid traces, D5H installed corpus, D5R request model,
@@ -166,7 +166,7 @@ positive loaded-source association remain tractable leads.
 
 ## 2026-11-06 intake
 
-The [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AT_Save52_outpost_mask_inventory_distribution_survey.md)
+The [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AT_Save52_outpost_mask_inventory_distribution_survey.md`)
 freezes Q1 inventory, Q2 request census, Q3 distributions and Q4 empirical
 candidate qualification. GC-10, GC-31 and D5R retain their existing status.
 

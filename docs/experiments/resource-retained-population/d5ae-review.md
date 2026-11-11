@@ -1,6 +1,6 @@
 # D5AE review and completion matrix
 
-2026-11-02. [Original frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AE_GC10_construction_winner_scheduling.md),
+2026-11-02. [Original frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AE_GC10_construction_winner_scheduling.md`),
 [report](d5ae-report.md), [active ledger](d5ae-investigation-ledger.md),
 [primary locators](d5ae-sources.csv), [methods/results](d5ae-methods-and-tests.md).
 No maintainer amendment changes the four questions or eight criteria.

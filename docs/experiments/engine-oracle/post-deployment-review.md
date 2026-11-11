@@ -1,9 +1,9 @@
 # Observer 0.1.1 post-deployment / Phase 1 review package
 
-2026-10-10; EXP0022 / EV0030. [Actual-file preflight](../../audits/observer-011-post-deployment-preflight.md),
+2026-10-10; EXP0022 / EV0030. [Actual-file preflight](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/observer-011-post-deployment-preflight.md`),
 [Phase 1 card](Phase1-Save25-Save26-operator-run-card.md),
 [fixed-POI candidates](fixed-poi-validation-candidates.md),
-[retained task scope](../../implementation-briefs/observer-011-post-deployment-phase1.md).
+[retained task scope](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/observer-011-post-deployment-phase1.md`).
 These are returned for critical review before the scientific live experiment.
 
 Actual checks: installed/staged/all five approved ZIP member identities and

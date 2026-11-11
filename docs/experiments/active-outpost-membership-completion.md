@@ -1,7 +1,7 @@
 # SOR-EXP-0010 — Alternate beacon identity and conservative membership prototype
 
 2026-10-09. SOR-EV-0016 / SOR-F-0015 / SOR-ST-0018 / SOR-H-0007.
-Scope: the [invoked brief](../implementation-briefs/CODEX_RESEARCH_BRIEF_active_outpost_membership_completion.md), with the maintainer's subsequent faction-quest explanation and request to defer the quest-status edge case. Offline work only; critical review pending. This is material progress and a bounded partial implementation. It does **not** establish complete active-player classification or claim that further offline analysis is impossible.
+Scope: the [invoked brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_active_outpost_membership_completion.md`), with the maintainer's subsequent faction-quest explanation and request to defer the quest-status edge case. Offline work only; critical review pending. This is material progress and a bounded partial implementation. It does **not** establish complete active-player classification or claim that further offline analysis is impossible.
 
 ## Result and decisive distinctions
 

@@ -8,7 +8,7 @@ authenticated resident-map attribution.
 
 ## Population and scope
 
-The [maintainer amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D5AT_active_outpost_scope_2026-11-06.md)
+The [maintainer amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_RG2_D5AT_active_outpost_scope_2026-11-06.md`)
 makes the 17 active records the controlling candidate population. The
 [historical inventory](d5at-outpost-source-inventory.md) retains both disabled
 ordinary records and their Hab ownership uncertainties. The quest diagnostic

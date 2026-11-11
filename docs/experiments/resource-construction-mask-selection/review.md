@@ -1,6 +1,6 @@
 # D5A verification and independent review
 
-2026-10-25, Australia/Sydney. [Frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md),
+2026-10-25, Australia/Sydney. [Frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5A_construction_mask_test_selection.md`),
 [contract](contract.md), [report](report.md), [discrimination](discrimination.md),
 [unexecuted card](run-card.md). Review acceptance, integration and live authority
 are separate decisions.

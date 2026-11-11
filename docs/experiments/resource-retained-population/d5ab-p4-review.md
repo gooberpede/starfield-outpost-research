@@ -4,7 +4,7 @@
 
 2026-11-01, Australia/Sydney. **Independent Review02: ACCEPT.** Preliminary technical
 challenge found concrete defects and returned REWORK; corrections and retests completed under
-the same [P4 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P4_final_readiness_B2_preparation.md).
+the same [P4 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P4_final_readiness_B2_preparation.md`).
 No preliminary finding is final ACCEPT. D5R OPEN; B2 NOT AUTHORIZED.
 
 The fresh-context reviewer implements none of the candidate. It receives the

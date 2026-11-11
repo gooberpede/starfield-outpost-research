@@ -1,6 +1,6 @@
 # RG2-D4D: ordered owner-root acquisition
 
-2026-10-24, Australia/Sydney. [Invoked Phase A brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4D_owner_root_component_acquisition.md),
+2026-10-24, Australia/Sydney. [Invoked Phase A brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4D_owner_root_component_acquisition.md`),
 [native contract](native.md), [qualification](qualification.md), [source ledger](sources.csv),
 [prospective Phase B card](run-card.md) and [review](review.md).
 

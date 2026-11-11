@@ -1,6 +1,6 @@
 # Verification and independent review package
 
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_spatial_native_equivalence_feasibility.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_spatial_native_equivalence_feasibility.md`),
 [report](report.md), [native inventory](boundary.md), [coverage](coverage.md),
 [scientific value/risk](value-risk.md). Recommendation: **REVISE**.
 

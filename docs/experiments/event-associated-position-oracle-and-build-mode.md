@@ -2,7 +2,7 @@
 
 2026-10-11 Australia/Sydney. SOR-EXP-0024 / SOR-EV-0032 / SOR-D-0043.
 ANALYZED; authored conclusions/design **REVIEW-REQUIRED**, native exports and
-raw/private evidence **LOCAL-ONLY**. [Authorized brief](../implementation-briefs/CODEX_BRIEF_SOR_event_associated_oracle_and_build_mode_failure.md).
+raw/private evidence **LOCAL-ONLY**. [Authorized brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_event_associated_oracle_and_build_mode_failure.md`).
 
 **Best-supported result:** the four-float observation is shared planetary
 `BGSPlanet::ProcGen` state, with a conditional placement-state publisher and a
@@ -59,7 +59,7 @@ or game bytes were changed. Exports `event-oracle-01` onward remain ignored.
 Exact identities and commands are retained in the local review manifest.
 
 Existing [Phase 1 results](engine-oracle/Phase1-results.md) supply 16 checkpoints;
-the [initial session](../audits/beacon-observer-initial-live-results.md) supplies 9.
+the [initial session](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/beacon-observer-initial-live-results.md`) supplies 9.
 Fresh integrity audit verified all 14,645 raw sections and four protected
 Save25/26 original/archive paths. Integrity establishes preservation and journal
 completeness, not semantics or atomicity. No new native runtime observation was

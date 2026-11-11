@@ -18,7 +18,7 @@ The read-only [detector](../../save-analysis/scripts/ordinary_outpost_beacons.py
 
 ## Authorization, experiment and preservation
 
-The maintainer explicitly invoked [the retained brief](../implementation-briefs/CODEX_BRIEF_SOR_scoped_ordinary_outpost_beacon_detection.md) and requested suggested commit messages without committing/pushing. Allowed operations: original project-authored offline tooling, existing archive/manifest/definition reads, bounded in-memory decompression, synthetic tests, local receipts and durable documentation. No game launch/load, debugger/SFSE, database mutation, network, installation, source-save modification, staging, commit or push.
+The maintainer explicitly invoked [the retained brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_scoped_ordinary_outpost_beacon_detection.md`) and requested suggested commit messages without committing/pushing. Allowed operations: original project-authored offline tooling, existing archive/manifest/definition reads, bounded in-memory decompression, synthetic tests, local receipts and durable documentation. No game launch/load, debugger/SFSE, database mutation, network, installation, source-save modification, staging, commit or push.
 
 Plan: freeze a scoped predicate; apply it to raw decoded records without expected counts, names or network labels; compare six primary outcomes; audit their record/flag positions with separate arithmetic; challenge all frozen corpus identities and inspect alternate/decoy cases; return for review. Expected control outcomes are preregistered in the brief, not detector inputs. Previous results were already known, so this is replication/challenge, not blinded discovery.
 

@@ -11,7 +11,7 @@ outputs and historical archives are LOCAL-ONLY. GC-10, GC-31 and D5R remain OPEN
 | What does the old method say? | `sor-d5ar-source-planar/1` still returns `UNAVAILABLE/INCONCLUSIVE` with `Producer interval profile not admitted`. It rejects the exact 0.2.0 producer before evaluating source or shape. |
 | What remains unknown? | Physical outpost area, historical sampled mask, full effective generation input equality, future retail performance, load-set identity and the representativeness of eligible attempts. Independent review of this D5AS profile and aggregate procedure is a separate acceptance requirement. |
 
-[Frozen D5AS contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AS_Feynman_30_sample_series_preparation.md) ·
+[Frozen D5AS contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AS_Feynman_30_sample_series_preparation.md`) ·
 [Pilot04 offline findings](d5ar-pilot04-offline-findings.md) ·
 [D5AR effective input gate](d5ar-effective-input-gate.md)
 

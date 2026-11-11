@@ -7,8 +7,8 @@ what the running game actually resolves and uses. A menu can show a cached
 summary of only part of that state.
 
 [Technical reference](../reference/access-and-save-framing.md) ·
-[Capability audit](../audits/outpost-rc1-2026-10/report.md) and
-[independent review](../audits/outpost-rc1-2026-10/review.md) ·
+[Capability audit](../reference/rc1/report.md) and
+[independent review](../reference/rc1/review.md) ·
 [Evidence standard](../EVIDENCE_STANDARD.md)
 
 ## Where the information lives
@@ -53,12 +53,12 @@ output-link transaction also depends on admission, native registration and
 refresh. Safe use of the primitive as a replacement for that transaction
 remains unvalidated. Likewise, a serializer explains how the engine writes a
 record. It supplies no validated save editing procedure.
-[Capability matrix](../audits/outpost-rc1-2026-10/capability-access.md) ·
-[Exact Papyrus declarations](../audits/outpost-rc1-2026-10/papyrus-interfaces.md) ·
+[Capability matrix](../reference/rc1/capability-access.md) ·
+[Exact Papyrus declarations](../reference/rc1/papyrus-interfaces.md) ·
 [Output links](storage-and-output-links.md)
 
 The mapped mechanisms are useful for the bounded paths even where an importer,
 live monitor or safe external invocation remains unvalidated. Evidence access
 and publication clearance have their own requirements.
-[Gap reconciliation](../audits/outpost-rc1-2026-10/gap-reconciliation.md) ·
+[Gap reconciliation](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/outpost-rc1-2026-10/gap-reconciliation.md`) ·
 [Publication gate](../PUBLICATION.md)

@@ -1,7 +1,7 @@
 # SOR-EXP-0020 — Activated-overlay and continuous-coordinate continuation
 
 2026-10-10 Australia/Sydney. SOR-EV-0028. Authorized by the user invoking the
-[follow-up brief](../implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_continuous_coordinate_static_exhaustion.md).
+[follow-up brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_activated_overlay_continuous_coordinate_static_exhaustion.md`).
 This continues EXP0019; earlier uncommitted findings remain the working base and
 retain critical-review/publication status.
 

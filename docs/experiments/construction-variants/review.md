@@ -1,7 +1,7 @@
 # Frozen AC1–AC8 review and integrity package
 
 2026-10-20, Australia/Sydney. SOR-EXP-0060 / SOR-EV-0068.
-[Original invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_BM1_construction_component_variants_dynamic_configuration.md),
+[Original invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_BM1_construction_component_variants_dynamic_configuration.md`),
 [answer](report.md), [plan](plan.md), [methods and exclusions](methods.md).
 No criterion amendment. Scientific proposal and engineering integrity remain
 separate from independent acceptance, maintainer integration and publication.

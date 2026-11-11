@@ -13,8 +13,8 @@ does not satisfy exhaustive population acceptance by itself.
 - [Interfaces and reproduction](schema.md), [validation/preservation](validation.md).
 - [Independent review](review.md), [source ledger](sources.csv), [owner counts](owners.csv).
 
-Authority: [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_authoritative_workshop_membership_constructed_inventory.md)
-and [maintainer's correction](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_population_completeness_rework.md).
+Authority: [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_authoritative_workshop_membership_constructed_inventory.md`)
+and [maintainer's correction](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_population_completeness_rework.md`).
 No game launch/attachment, save/configuration/database mutation, deployment,
 new dependency, external disclosure, staging, commit or push is authorized.
 

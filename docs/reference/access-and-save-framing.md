@@ -2,8 +2,8 @@
 
 [Reader guide](../guides/access-and-save-framing.md) ·
 [Selected claims](../history/claims.md#access-and-save-framing) ·
-[RC1 report](../audits/outpost-rc1-2026-10/report.md) and
-[independent review](../audits/outpost-rc1-2026-10/review.md)
+[RC1 report](rc1/report.md) and
+[independent review](rc1/review.md)
 
 Use the [function register](../function-register.md) for native locators,
 [state register](../state-register.md) for state owners and consumers,
@@ -13,7 +13,7 @@ paths. Historical saved inputs have independent version and source records.
 
 ## Capability and access matrix
 
-The original [RC1 matrix](../audits/outpost-rc1-2026-10/capability-access.md)
+The original [RC1 matrix](rc1/capability-access.md)
 labels each definition, Papyrus and configuration route independently.
 **SE** is statically established, **D** demonstrated within a named action
 or sample, **P** provisional, **NE** a supported route not established on the
@@ -34,7 +34,7 @@ invocation, preconditions, state effects and cleanup evidence.
 | Change damage state (C26) | SE DEST stages and models on qualified forms | SE P12/P13 declarations, with selected damage and repair paths mapped | SE Health values and Integrity consumer. No universal damageability switch or observed repair. [Defense](defense.md) |
 | Read Locations payload (C31) | SE registered rows and metadata lineage | NE full payload getter on checked surface | SE base maximum and level thresholds; owner override lifecycle NI beyond the mapping. [Locations](locations-ui.md) |
 
-Use [P01–P22](../audits/outpost-rc1-2026-10/papyrus-interfaces.md) for exact
+Use [P01–P22](rc1/papyrus-interfaces.md) for exact
 declarations, including ordinary script context and declaration-only entries.
 Use the original matrix for C01–C31 and status qualifications. This selection
 is an access guide. A missing route on the checked surface leaves other
@@ -73,7 +73,7 @@ interfaces and methods open.
 
 ## Research coverage and access boundary
 
-The [historical crosswalk](../audits/outpost-rc1-2026-10/gap-reconciliation.md)
+The [historical crosswalk](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/outpost-rc1-2026-10/gap-reconciliation.md`)
 preserves 60 original question IDs and eight child gaps. Later work retires
 some ordinary mechanism questions or answers them conditionally. For
 example, the Locations binding resolves the old unnamed exclusion while

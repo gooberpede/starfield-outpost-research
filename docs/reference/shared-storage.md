@@ -1,6 +1,6 @@
 # Shared Outpost Storage technical reference
 
-[Guide](../guides/shared-storage.md) · [Reference index](README.md) · [Claim and evidence crosswalk](../audits/logistics-guides-d5bb/claims.md)
+[Guide](../guides/shared-storage.md) · [Reference index](README.md) · [Claim and evidence crosswalk](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/logistics-guides-d5bb/claims.md`)
 
 STATIC scope is retail 1.16.244.0 with the pinned installed main ESM and
 `SFBGS00D.esm` add-on. Native VAs are preferred static addresses at image

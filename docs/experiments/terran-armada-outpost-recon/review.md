@@ -1,6 +1,6 @@
 # D5J acceptance and exact delivery
 
-The unchanged [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5J_terran_armada_faction_outpost_reconnaissance.md)
+The unchanged [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5J_terran_armada_faction_outpost_reconnaissance.md`)
 defines AC1–AC8. This is a bounded offline insufficiency result. It leaves
 functional ordinary Workshop execution and exact instantiated placement
 unverified, rather than forcing a positive prediction control.

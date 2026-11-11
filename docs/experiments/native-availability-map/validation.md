@@ -1,6 +1,6 @@
 # Completion matrix and reproducible checks
 
-2026-10-15. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md),
+2026-10-15. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_local_inorganic_availability_native_mapping_corrected.md`),
 [report](report.md), [review](review.md). PASS for an offline artifact does not
 mean independent native spatial equivalence. Receipts stay ignored under
 `.local-work/native-availability-map/`.

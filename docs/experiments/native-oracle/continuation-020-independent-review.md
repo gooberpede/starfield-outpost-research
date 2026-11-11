@@ -1,7 +1,7 @@
 # Native-oracle 0.2.0 independent completion review
 
 2026-10-12. **ACCEPT** for the offline engineering and combined review deliverable
-under the [invoked continuation brief](../../implementation-briefs/CODEX_BRIEF_SOR_native_oracle_reachability_continuation.md)
+under the [invoked continuation brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_oracle_reachability_continuation.md`)
 and [completion contract](continuation-020-contract.md). No outstanding mandatory
 rework was identified in the submitted final-review-04 snapshot. This decision
 does not authorize deployment, game execution, N1 save creation, integration,

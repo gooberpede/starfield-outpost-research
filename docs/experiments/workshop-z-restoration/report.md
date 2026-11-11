@@ -1,7 +1,7 @@
 # Native Workshop Z restoration
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_native_workshop_Z_restoration_external_research.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_workshop_Z_restoration_external_research.md`).
 Authored interpretation REVIEW-REQUIRED; proprietary exports, saves, memory and
 private audit receipts remain LOCAL-ONLY. [Review package](review.md).
 

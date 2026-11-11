@@ -1,6 +1,6 @@
 # Coordinate sufficiency: frozen offline plan
 
-2026-10-20, Australia/Sydney. Governing [brief](../../implementation-briefs/CODEX_BRIEF_SOR_coordinate_sufficiency_Kreet_lab_Save37-39.md), AC1–AC8 unchanged. Authored REVIEW-REQUIRED; primary evidence LOCAL-ONLY.
+2026-10-20, Australia/Sydney. Governing [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_coordinate_sufficiency_Kreet_lab_Save37-39.md`), AC1–AC8 unchanged. Authored REVIEW-REQUIRED; primary evidence LOCAL-ONLY.
 
 Inputs: exact named Save37/38/39 originals, seven named screenshots, installed executable/ESM/scripts, existing read-only Ghidra database and earlier qualified SOR-002/003 controls. Local receipt directory: `.local-work/coordinate-sufficiency/`. Save37 is the Lab fast-travel baseline; Save38 is preconstruction; Save39 adds a close beacon. No player movement between 38/39 is user-reported; small beacon separation must be measured.
 

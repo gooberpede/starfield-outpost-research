@@ -8,7 +8,7 @@ A0. It cannot supply an independent retail B0 or close GC-31, GC-10 or D5R.
 
 | Element | Answer and scope |
 | --- | --- |
-| Contract | [D5AL Q1–Q4 and AC01–AC08](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md), offline engineering only. |
+| Contract | [D5AL Q1–Q4 and AC01–AC08](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AL_episode_B_operational_adaptation.md`), offline engineering only. |
 | Best-supported result | Actual completed D5AK initial A0 is authenticated through source/frame/content, its prefix, stopped session and complete archive. A B-only controller, source-scoped checkpoint, full-byte evaluator, trusted STOP and protected archival procedure are separately adapted. Final-source qualification and independent disposition control readiness. |
 | Confidence | PROVEN for authenticated original bytes and executed bounded controls; STRONG / CROSS-VALIDATED for source attribution under the accepted ordinary native graph. No new retail finding. |
 | Coverage | One original A0, independent full-byte recomputation, owned native fixture processes and explicit copied/in-memory adverse histories. Production retail admission is not exercised by fixtures. |

@@ -1,6 +1,6 @@
 # RG2-D4C: owner-root map and Archimedes
 
-2026-10-24, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4C_owner_root_map_archimedes.md), [native ledger](native.md), [validation](validation.md), [review](review.md), [source pins](sources.csv).
+2026-10-24, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4C_owner_root_map_archimedes.md`), [native ledger](native.md), [validation](validation.md), [review](review.md), [source pins](sources.csv).
 
 **The native array exchange supplies a concrete route from a Lead-family component to the Chlorine map entry. An installed-data family-slot hypothesis predicts Tungsten then Chlorine through that route, without inserting Tungsten by name. It does not predict the complete native sequence: the two leading Water operands remain unexplained.** The full component-to-slot mapping and actual owner-range population are not established. No complete owner-root predictor or corpus is supplied. A separate, source-backed SFPT preparation correction resolves the Chlorine source-ID discrepancy.
 

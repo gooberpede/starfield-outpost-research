@@ -1,6 +1,6 @@
 # D5N alternative native observation — Phase A
 
-2026-10-28, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5N_alternative_native_observation.md),
+2026-10-28, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5N_alternative_native_observation.md`),
 [frozen contract and comparison](d5n-contract.md), [Phase B proposal](run-card-d5n-v1.md),
 [source/evidence ledger](d5n-sources.csv), [review](d5n-review.md).
 

@@ -1,6 +1,6 @@
 # D5N independent review and delivery
 
-2026-10-28, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5N_alternative_native_observation.md),
+2026-10-28, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5N_alternative_native_observation.md`),
 [contract](d5n-contract.md), [report/matrix](d5n-report.md),
 [proposed card](run-card-d5n-v1.md), [ledger](d5n-sources.csv).
 

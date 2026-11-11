@@ -1,6 +1,6 @@
 # Independent review — SOR-EXP-0036
 
-**HISTORICAL VERBATIM REVIEW — SUPERSEDED FOR AUTHORIZATION, 2026-10-15.** The [correction brief](../../implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md) supersedes the ACCEPT below. The current [reassessment](scientific-value-reassessment.md) recommends NO-GO. The earlier reviewer response remains verbatim evidence; it is not current scientific or live approval.
+**HISTORICAL VERBATIM REVIEW — SUPERSEDED FOR AUTHORIZATION, 2026-10-15.** The [correction brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_080_prose_correction_scientific_go_nogo.md`) supersedes the ACCEPT below. The current [reassessment](scientific-value-reassessment.md) recommends NO-GO. The earlier reviewer response remains verbatim evidence; it is not current scientific or live approval.
 
 2026-10-15. Separate read-only reviewer agent `/root/reviewer`, invoked under
 the original brief section 7 and repository reviewer procedure. The following is

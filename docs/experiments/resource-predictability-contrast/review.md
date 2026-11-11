@@ -1,6 +1,6 @@
 # D5G completion and independent review
 
-2026-10-25, Australia/Sydney. The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5G_source_predictability_and_reachable_query_invariance.md)
+2026-10-25, Australia/Sydney. The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5G_source_predictability_and_reachable_query_invariance.md`)
 freezes AC1–AC8. No amendments or relaxed criteria. [Report](report.md),
 [methods](methods.md), [primary identities](sources.csv).
 

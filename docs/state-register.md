@@ -74,7 +74,7 @@ change to ST0021/0025 persisted-vector/world classifications; review required.
 
 ## SOR-ST-0021 — Observed workshop relocation-offset candidate
 
-[SOR-EV-0024 / SOR-H-0010](audits/beacon-observer-initial-live-results.md), pinned 1.16.244/observer 0.1.0. In-memory ExtraWorkshop-candidate+0x60 holds three float32 values matching original beacon XYZ minus current beacon XYZ for one move and controls; bit-identical after manual Save26/reload with changed workshop pointer. Reference transform at+0x8c and this offset are distinct fields. Runtime byte relation OBSERVED-INTERNAL; authoritative boundary-center/radius semantics PROVISIONAL. Persistence class UNCLASSIFIED: post-load survival alone does not prove direct serialization. No serialized offset/native consumer/writer/safe integration established. Raw byte locators and exact arithmetic in report; REVIEW-REQUIRED.
+[SOR-EV-0024 / SOR-H-0010](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/beacon-observer-initial-live-results.md`), pinned 1.16.244/observer 0.1.0. In-memory ExtraWorkshop-candidate+0x60 holds three float32 values matching original beacon XYZ minus current beacon XYZ for one move and controls; bit-identical after manual Save26/reload with changed workshop pointer. Reference transform at+0x8c and this offset are distinct fields. Runtime byte relation OBSERVED-INTERNAL; authoritative boundary-center/radius semantics PROVISIONAL. Persistence class UNCLASSIFIED: post-load survival alone does not prove direct serialization. No serialized offset/native consumer/writer/safe integration established. Raw byte locators and exact arithmetic in report; REVIEW-REQUIRED.
 
 ## SOR-ST-0020 — Derived terrain indices and runtime frame inputs
 

@@ -1,6 +1,6 @@
 # D5Q frozen criteria, verification and review
 
-2026-10-29, Australia/Sydney. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Q_resource_construction_call_dataflow_mapping.md),
+2026-10-29, Australia/Sydney. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Q_resource_construction_call_dataflow_mapping.md`),
 [map](d5q-call-dataflow-map.md), [report](d5q-report.md),
 [claim/source ledger](d5q-sources.csv).
 

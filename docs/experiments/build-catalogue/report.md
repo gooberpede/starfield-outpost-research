@@ -1,7 +1,7 @@
 # BM2: Build Mode catalogue, selection and nominal production
 
 2026-10-20, Australia/Sydney. SOR-EXP-0061 / SOR-EV-0069.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md),
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md`),
 [frozen plan](plan.md), [review](review.md).
 Authored interpretation REVIEW-REQUIRED; game-derived primary payloads LOCAL-ONLY.
 

@@ -1,6 +1,6 @@
 # D5Y B1 target forensics and recorder pressure
 
-2026-10-31, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Y_B1_capture_forensics_recorder_performance.md),
+2026-10-31, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Y_B1_capture_forensics_recorder_performance.md`),
 [active ledger](d5y-investigation-ledger.md), [sources](d5y-sources.csv),
 [remedy decision](d5y-decision.md), [review and delivery](d5y-review.md).
 The [claim ledger](d5y-claims.csv) connects the principal scoped claims to exact

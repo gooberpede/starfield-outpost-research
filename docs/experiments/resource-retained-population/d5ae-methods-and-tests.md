@@ -1,6 +1,6 @@
 # D5AE offline methods and tests
 
-2026-11-02. [Contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AE_GC10_construction_winner_scheduling.md),
+2026-11-02. [Contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AE_GC10_construction_winner_scheduling.md`),
 [ledger](d5ae-investigation-ledger.md), [sources](d5ae-sources.csv).
 Raw evidence, native bytes/exports and private receipts remain LOCAL-ONLY.
 

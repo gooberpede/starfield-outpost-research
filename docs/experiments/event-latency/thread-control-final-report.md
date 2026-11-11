@@ -1,7 +1,7 @@
 # B — COMPLETE / ABANDON EXTERNAL DEBUGGER
 
 2026-10-11 Australia/Sydney; SOR-EXP-0028 / SOR-EV-0036 / SOR-D-0048.
-[Final authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_FINAL_THREAD_CONTROL_RECOVERY.md).
+[Final authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_FINAL_THREAD_CONTROL_RECOVERY.md`).
 Authored analysis REVIEW-REQUIRED; raw/private receipts LOCAL-ONLY.
 
 **ABANDON EXTERNAL DEBUGGER PATH.** The final bounded engineering attempt is

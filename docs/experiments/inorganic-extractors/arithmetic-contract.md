@@ -1,7 +1,7 @@
 # E1 arithmetic, clocks and UI continuation contract
 
 2026-10-16, Australia/Sydney. SOR-EXP-0038 / SOR-EV-0046 continuation under
-the [authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_E1_arithmetic_clock_scheduler_ui_provenance.md).
+the [authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E1_arithmetic_clock_scheduler_ui_provenance.md`).
 
 Frozen mandatory criteria: (1) trace nominal interval, quantity and effective
 modifier operands with definition-grounded numerical examples; (2) distinguish

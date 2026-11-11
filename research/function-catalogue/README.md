@@ -23,8 +23,8 @@ of that commit runs the original verifier against the original checkout.
 The modern verifier can run from a later checkout and compares against the
 accepted Git blobs. The installed working-tree copies are separate from that
 comparison. The [public catalogue](../../docs/functions/README.md) and
-[D5BD audit](../../docs/audits/native-function-catalogue-d5bd/README.md) retain
-their original paths. The modern verifier refuses historical writes.
+[archived D5BD audit](../../docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/native-function-catalogue-d5bd/README.md`) preserve
+the authored catalogue and the original audit bytes. The modern verifier refuses historical writes.
 
 If a shallow clone or archive lacks the pinned objects, obtain the exact
 objects from a separately approved source before running the verifier.
@@ -107,4 +107,4 @@ git show 6e799a428a765aa196a24d3c1de8ae133260aa08:docs/function-register.md
 Raw export references remain provenance metadata. Build and link checks use
 authored files and curated boundary receipts. Original export replay and
 external invocation have separate evidentiary and authorization requirements.
-See the [D5BS checks](../../docs/audits/native-function-catalogue-d5bs/README.md).
+See the [D5BS checks](../../docs/audits/README.md#archive-lookup) (`audits.zip :: docs/audits/native-function-catalogue-d5bs/README.md`).

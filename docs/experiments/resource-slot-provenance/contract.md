@@ -1,7 +1,7 @@
 # D4E frozen execution contract
 
 2026-10-25, Australia/Sydney. The maintainer invoked the unchanged
-[D4E brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md).
+[D4E brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md`).
 Its AC1–AC8 are frozen without amendment. This is offline research and
 deterministic reconstruction, with original analytical code and synthetic tests.
 

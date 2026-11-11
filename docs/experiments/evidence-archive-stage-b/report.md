@@ -1,7 +1,7 @@
 # Stage B cargo archive qualification and retirement proposal
 
 2026-10-26, Australia/Sydney. Under the
-[frozen AC1–AC8 contract](../../implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_b_pilot.md),
+[frozen AC1–AC8 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_consolidated_evidence_archival_stage_b_pilot.md`),
 the real cargo archive and complete disposable restore pass byte verification.
 **No original has been deleted or changed. Storage recovery is not complete.**
 The safe conditional retirement set contains only 37 historical editorial-package

@@ -2,7 +2,7 @@
 
 2026-10-23. This is a completed **prospective design**, not execution permission
 or a qualified existing collector. [Scientific discriminator](report.md),
-[native operands](ancestry.md), [original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1F_native_resource_generation_ancestry_divergence.md).
+[native operands](ancestry.md), [original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1F_native_resource_generation_ancestry_divergence.md`).
 No live test was run. Engineering qualification and fresh scoped maintainer
 approval are required before any launch, attachment or process intervention.
 

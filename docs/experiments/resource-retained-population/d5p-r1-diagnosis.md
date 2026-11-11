@@ -1,7 +1,7 @@
 # D5P-R1 diagnosis and repair decision
 
 2026-10-29, Australia/Sydney. Written before production repair under the
-[R1 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R1_observer_resilience_context_repair.md).
+[R1 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R1_observer_resilience_context_repair.md`).
 R1-AC1–R1-AC9 are frozen unchanged. Offline inspection, task-owned edits and
 disposable Windows qualification only. Retail remains NO-GO; B6/publication
 remain on hold. The initial branch is `main`, HEAD

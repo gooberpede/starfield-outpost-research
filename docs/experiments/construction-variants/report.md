@@ -1,7 +1,7 @@
 # BM1: construction-component variants and dynamic configuration
 
 2026-10-20, Australia/Sydney. SOR-EXP-0060 / SOR-EV-0068.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_BM1_construction_component_variants_dynamic_configuration.md),
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_BM1_construction_component_variants_dynamic_configuration.md`),
 [plan](plan.md), [review and frozen criteria](review.md).
 Authored interpretation REVIEW-REQUIRED; proprietary/private evidence LOCAL-ONLY.
 

@@ -1,6 +1,6 @@
 # SOR-EV-0026 — Durable-center review package
 
-2026-10-10, Australia/Sydney. [SOR-EXP-0018 report](../durable-outpost-center-and-object-transforms.md), [authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_durable_outpost_center_object_transforms.md). Critical review required; authored tables/text REVIEW-REQUIRED. Raw saves/captures/native exports/databases remain LOCAL-ONLY and excluded from this package.
+2026-10-10, Australia/Sydney. [SOR-EXP-0018 report](../durable-outpost-center-and-object-transforms.md), [authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_durable_outpost_center_object_transforms.md`). Critical review required; authored tables/text REVIEW-REQUIRED. Raw saves/captures/native exports/databases remain LOCAL-ONLY and excluded from this package.
 
 Best-supported answer: Save25/26 preserve the compensated local workshop center exactly. The controlled loaded terrain origin is directly recovered from nine existing captures. Ordinary objects carry their own case 5 transforms; conditional overlay rebasing and continuous geographic embedding remain distinct unresolved stages. All 19 mature Workshop compensations are now decoded and zero, retaining the negative-X/frame counterexample. No complete geographic solution or universally aligned workshop-relative object API is claimed.
 

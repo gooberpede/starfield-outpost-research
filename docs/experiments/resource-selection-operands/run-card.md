@@ -4,7 +4,7 @@
 authorize this card. Present this completed card to the maintainer and assistant
 for explicit approval before any Starfield launch or attachment.**
 
-2026-10-23 Australia/Sydney. [Authority](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1G_effective_resource_selection_chance_weight_capture.md),
+2026-10-23 Australia/Sydney. [Authority](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1G_effective_resource_selection_chance_weight_capture.md`),
 [scientific discriminator](report.md), [native sites](native.md),
 [qualification/effects](implementation.md), [review](review.md).
 The previous rejected observer stays NO-GO; B6/publication remain on hold.

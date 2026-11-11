@@ -11,7 +11,7 @@ acceptance is recorded in the [review record](d5am-n1-review.md).
 
 ## Contract and applied safeguards
 
-The [N1 amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N1_live_2026-11-04.md)
+The [N1 amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AM_N1_live_2026-11-04.md`)
 binds the current explicit approval to the corrected 0.9.1 candidate and a fresh
 preflight. The [card](run-card-d5am-n1.md) permits one process and, only after
 successful admission, one controlled Save52 load/direct route/at most one N1

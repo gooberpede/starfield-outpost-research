@@ -1,6 +1,6 @@
 # D5G methods and evidence domains
 
-2026-10-25, Australia/Sydney. [Brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5G_source_predictability_and_reachable_query_invariance.md),
+2026-10-25, Australia/Sydney. [Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5G_source_predictability_and_reachable_query_invariance.md`),
 [report](report.md), [review](review.md). The brief's AC1–AC8 are unchanged.
 This is offline research, with bounded uncertainty as an allowed scientific result.
 

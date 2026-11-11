@@ -69,7 +69,7 @@ frozen sample scope with saved registration/body/descriptor correspondence.
 They do not validate an exhaustive classifier across other representations.
 [Almanac trace](../experiments/active-outpost-identification.md#independent-native-membership-route-and-exact-obstruction) ·
 [Alternate case](../experiments/active-outpost-membership-completion.md) ·
-[RC1 review](../audits/outpost-rc1-2026-10/review.md) ·
+[RC1 review](rc1/review.md) ·
 [Save52 activation trace](../experiments/resource-retained-population/d5at-activation-trace.md).
 
 The later Locations panel study resolved the previously unnamed exclusion

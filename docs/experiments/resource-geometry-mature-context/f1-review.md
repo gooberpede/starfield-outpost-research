@@ -1,7 +1,7 @@
 # F1 cumulative acceptance and independent critical review
 
-[Original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_planetary_resource_seed_mature_context.md)
-and [continuation focused checks](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_F1_mature_vein_observation_reconciliation.md)
+[Original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_planetary_resource_seed_mature_context.md`)
+and [continuation focused checks](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_A1_F1_mature_vein_observation_reconciliation.md`)
 are unchanged. [Answer](f1-reconciliation.md), [checks](f1-validation.md),
 [sources](f1-sources.csv). Whole cumulative RG2-A1 work is submitted, including
 post-acceptance informal edits and F1 corrections; no earlier ACCEPT is borrowed.

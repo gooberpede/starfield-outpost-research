@@ -1,6 +1,6 @@
 # D5AF construction-winner stabilization
 
-2026-11-02, Australia/Sydney. [Frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AF_construction_winner_stabilization.md),
+2026-11-02, Australia/Sydney. [Frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AF_construction_winner_stabilization.md`),
 [active ledger](d5af-investigation-ledger.md), [review matrix](d5af-review.md),
 [source pins](d5af-sources.csv). Authored work REVIEW-REQUIRED; publication ON HOLD.
 

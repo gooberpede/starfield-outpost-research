@@ -1,7 +1,7 @@
 # Cross-session native Workshop centers
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_cross_session_native_center_state_and_observer_interference.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_cross_session_native_center_state_and_observer_interference.md`).
 Authored interpretation REVIEW-REQUIRED; original native/save/private evidence LOCAL-ONLY.
 
 **B — COMPLETE EVIDENCE-BOUND RESULT, independently ACCEPTED in

@@ -1,6 +1,6 @@
 # D4E completion and editorial review
 
-2026-10-25, Australia/Sydney. Original [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md)
+2026-10-25, Australia/Sydney. Original [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md`)
 and unchanged AC1–AC8 govern this assignment. [Report](report.md),
 [validation and failures](validation.md), [source pins](sources.csv).
 

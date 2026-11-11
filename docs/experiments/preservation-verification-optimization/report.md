@@ -2,7 +2,7 @@
 
 2026-10-25, Australia/Sydney. **REWORK: the frozen AC4 efficiency contract is not
 satisfied.** No replacement policy is effective. The
-[authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_preservation_audit_optimization.md)
+[authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_preservation_audit_optimization.md`)
 governs this offline audit and disposable prototype.
 
 | Element | Result |

@@ -1,6 +1,6 @@
 # DA1 frozen offline plan
 
-2026-10-19, Australia/Sydney. Governing [brief](../../implementation-briefs/CODEX_BRIEF_SOR_DA1_outpost_defense_attacks_integrity.md).
+2026-10-19, Australia/Sydney. Governing [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_DA1_outpost_defense_attacks_integrity.md`).
 The original eight deliverables and sections A–D remain mandatory; no amendment.
 
 Question: what initiates outpost attacks, what defenses change those paths, and

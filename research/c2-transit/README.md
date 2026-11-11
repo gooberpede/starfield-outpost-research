@@ -2,7 +2,7 @@
 
 Use installed CPython 3.14, `-B`, from the repository root:
 `python -B research/c2-transit/calculate.py --run calculation01`.
-The [authorized scope](../../docs/implementation-briefs/CODEX_BRIEF_SOR_C2_transit_time_continuation.md)
+The [authorized scope](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_C2_transit_time_continuation.md`)
 and [interpretation](../../docs/experiments/cargo-links/transport/transit.md)
 govern this finite aid; it is not a general shipping simulator.
 

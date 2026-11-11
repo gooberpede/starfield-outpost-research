@@ -1,6 +1,6 @@
 # D5P-R3 Grid investigation: bounded offline NO-GO
 
-2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R3_grid_membership_context_validation_repair.md),
+2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R3_grid_membership_context_validation_repair.md`),
 [prior decision](d5p-r3-decision.md), [review](d5p-r3-review.md),
 [source ledger](d5p-r3-sources.csv), [held proposal](run-card-d5p-r3.md).
 

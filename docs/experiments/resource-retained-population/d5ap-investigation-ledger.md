@@ -1,7 +1,7 @@
 # D5AP investigation ledger
 
 2026-11-04, Australia/Sydney. D5AP-Q1–Q4 are INCOMPLETE at kickoff.
-GC-10 and D5R remain OPEN. The original [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AP_GC10_competitor_causal_analysis.md)
+GC-10 and D5R remain OPEN. The original [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AP_GC10_competitor_causal_analysis.md`)
 controls the question and all nine mandatory criteria.
 
 | Checkpoint / branch | Actual evidence and decision | Next action |

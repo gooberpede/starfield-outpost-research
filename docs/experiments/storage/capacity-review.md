@@ -1,6 +1,6 @@
 # S1 capacity completion and review package
 
-[Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_S1_capacity_inventory_state_completion.md),
+[Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_S1_capacity_inventory_state_completion.md`),
 [frozen contract](capacity-contract.md), [report](capacity-report.md),
 [native](capacity-native.md), [saved calculations](capacity-saves.md),
 [sources](capacity-sources.csv), [instrument documentation](../../../research/s1-storage/README.md).

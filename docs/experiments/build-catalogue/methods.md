@@ -1,6 +1,6 @@
 # Evidence, corpus, tool effects and retained corrections
 
-[Frozen plan](plan.md), [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md),
+[Frozen plan](plan.md), [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_BM2_build_catalogue_selection_production_aggregation.md`),
 [sources](sources.csv), [functions](functions.csv), [review](review.md).
 
 ## Baseline and address domains
@@ -27,7 +27,7 @@ are not interchangeable. No new runtime pointer or save offset is established.
 
 | Reviewed project source | BM2 use / retained boundary |
 |---|---|
-| [Build Mode/Locations audit](../../audits/outpost-coverage-2026-10/build-mode-and-locations.md) | Starting field gaps only; its pre-BM1 CHANGE status is historical. |
+| [Build Mode/Locations audit](../../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/outpost-coverage-2026-10/build-mode-and-locations.md`) | Starting field gaps only; its pre-BM1 CHANGE status is historical. |
 | [BM1](../construction-variants/report.md), methods/manual/automatic/review | Placed STBH variants, PackIn anchors and positive HIST-0210 relationships; not prospective grid siblings. |
 | [SD2](../shared-outpost-storage/prerequisites.md), consumers/methods/review | Actual two-perk/location/add-on control; condition retry, ingredient sourcing and spending. Add-on source/selected records are freshly reread here. |
 | [L1](../limits/native.md), report/review | Quota, player/environment gates and ordinary action admission, not a catalogue count ceiling. |

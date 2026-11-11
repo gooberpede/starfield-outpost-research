@@ -5,7 +5,7 @@ Scientific/completeness, engineering/evidence, editorial and permission review
 all PASS at delivery02. Final self-describing records and regenerated delivery
 patches receive a narrow independent delta check before handoff.
 Non-implementing reviewer `/root/d5aj_review` reviews the
-[original frozen contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AJ_source_scoped_attribution_resilience.md),
+[original frozen contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AJ_source_scoped_attribution_resilience.md`),
 primary native/capture evidence, actual versioned sources and complete changed
 prose. Specialist `/root/native_scope` implemented the native matrix and cannot
 accept that work. The primary agent owns all remediation and packaging.

@@ -14,7 +14,7 @@ is **PASS** for its controlled setup. [Result and mechanism plan](save29-test-pl
 updates the historical offline uncertainty below; R versus C remains OPEN.
 
 2026-10-17. SOR-EXP-0041 / SOR-EV-0049.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_power_load_reconstruction_determinism.md),
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_load_reconstruction_determinism.md`),
 [frozen criteria](load-contract.md), [review](review.md).
 
 | Plain-language question | Best-supported answer |

@@ -1,7 +1,7 @@
 # D5Y active investigation ledger
 
 2026-10-31, Australia/Sydney. Offline assignment under the unchanged
-[D5Y brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Y_B1_capture_forensics_recorder_performance.md).
+[D5Y brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5Y_B1_capture_forensics_recorder_performance.md`).
 D5Y-Q1–Q3 and D5Y-AC1–AC11 are frozen as written there. D5R remains OPEN;
 accepted B1 PARTIAL NATIVE COVERAGE is a baseline to authenticate, not revise.
 

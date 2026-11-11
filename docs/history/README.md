@@ -31,3 +31,10 @@ earlier landing page. The [brief directory index](../implementation-briefs/READM
 and [audit directory index](../audits/README.md) lead to administrative history
 in the current checkout. Future archive-member locators belong in those indexes
 after the separately authorized migration.
+
+## Historical briefs and audits
+
+Use the [implementation brief index](../implementation-briefs/README.md#archive-lookup)
+or the [historical audit index](../audits/README.md#archive-lookup) to find a
+record by identifier, topic or exact original path. Each index provides
+checked extraction and points to current science and evidence methods.

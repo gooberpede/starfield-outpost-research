@@ -18,7 +18,7 @@ from workshop_inventory import audit, constructed_inventory, linked_prefix, owne
 from workshop_population import initial_prefix, typed_records
 from workshop_population_extras import partial_extras
 
-ASSETS = ROOT / 'docs/audits/evidence-access-d5bx/assets.json'
+ASSETS = ROOT / 'research/evidence-data/evidence-access-d5bx/assets.json'
 
 
 def check_alla_keywords(pairs):

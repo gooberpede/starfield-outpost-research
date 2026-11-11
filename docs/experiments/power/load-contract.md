@@ -1,7 +1,7 @@
 # Load reconstruction and determinism contract
 
 2026-10-17. Continuation of SOR-EXP-0041 / SOR-EV-0049.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_power_load_reconstruction_determinism.md).
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_power_load_reconstruction_determinism.md`).
 Research hypothesis/offline native investigation; preserve prior P1 changes,
 interpretations, primary evidence and independent review history.
 

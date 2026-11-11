@@ -3,7 +3,7 @@
 > **NO LIVE RETAIL TEST IS AUTHORISED BY RG2-C1E; A SEPARATE MAINTAINER GO-AHEAD IS REQUIRED AFTER REVIEW OF THIS CARD.**
 
 2026-10-22 Australia/Sydney. Submitted for human review, **NOT EXECUTED**.
-[Authority and AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1E_native_resource_region_ancestry.md),
+[Authority and AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1E_native_resource_region_ancestry.md`),
 [qualified implementation/limits](verification.md), [receipt contract](contract.md),
 [analysis](comparison.md). Reviewer acceptance supplies no launch permission.
 

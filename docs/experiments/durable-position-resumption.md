@@ -1,7 +1,7 @@
 # Durable outpost position resumption — SOR-EXP-0030
 
 2026-10-11 Australia/Sydney. SOR-EV-0038. Original
-[authorized brief](../implementation-briefs/CODEX_BRIEF_SOR_durable_outpost_position_reconstruction_resumption.md).
+[authorized brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_durable_outpost_position_reconstruction_resumption.md`).
 Offline results REVIEW-REQUIRED; raw material LOCAL-ONLY. Independent reviewer
 returns [ESCALATE](position-resumption/independent-review.md): completed offline
 implementation/evidence package, full native-equivalence objective incomplete.

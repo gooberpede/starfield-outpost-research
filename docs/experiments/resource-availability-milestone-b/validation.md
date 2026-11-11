@@ -1,6 +1,6 @@
 # Capture coverage, controls and validation
 
-2026-10-15. [Original brief](../../implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md),
+2026-10-15. [Original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md`),
 [report](report.md), [independent disposition](review.md).
 
 ## Original mandatory criteria

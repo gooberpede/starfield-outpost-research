@@ -1,6 +1,6 @@
 # Resource interval/size verification and review
 
-2026-10-16. [Frozen contract](../../implementation-briefs/CODEX_BRIEF_SOR_E1_resource_intervals_extractor_sizes.md),
+2026-10-16. [Frozen contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E1_resource_intervals_extractor_sizes.md`),
 [report](resource-intervals.md), [source pins](resource-intervals-sources.csv).
 The contract durably records the maintainer's explicit chat authorization;
 it does not add live, publication or Git authority.

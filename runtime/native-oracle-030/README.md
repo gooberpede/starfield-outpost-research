@@ -1,6 +1,6 @@
 # Native Q branch observer 0.3.0
 
-Separately versioned offline candidate under the [authorized brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_Q_branch_observations_offline.md).
+Separately versioned offline candidate under the [authorized brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_Q_branch_observations_offline.md`).
 0.2.0 and accepted evidence remain unchanged. [Schema](schema.md),
 [qualification and limits](../../docs/experiments/q-branch-030/qualification.md).
 No deployment or live run is authorized; no live card is supplied.

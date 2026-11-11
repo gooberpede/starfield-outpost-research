@@ -26,7 +26,7 @@ New task files:
 
 Modified tracked files: root README and CREDITS; docs/RESEARCH_STATE.md, known-facts.md, state-register.md, PROVENANCE.md, SOURCES.md and subsystems/initial-map.md; save-analysis/scripts/README.md. Historical evidence/manifests and existing decoder/diff/candidate scripts are unchanged.
 
-Pre-existing untracked input, unchanged: `docs/implementation-briefs/CODEX_RESEARCH_BRIEF_output_link_validation_L0-L2C.md`. Its filenames encode personal information; publication privacy review is still required. No licence/permission blocker arose from new implementation: project-authored additions plus previously authorized installed separate tools only.
+Pre-existing untracked input, unchanged: `implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_output_link_validation_L0-L2C.md`. Its filenames encode personal information; publication privacy review is still required. No licence/permission blocker arose from new implementation: project-authored additions plus previously authorized installed separate tools only.
 
 Local-only scripts under `.local-work/output-link-L0-L2C/`:
 

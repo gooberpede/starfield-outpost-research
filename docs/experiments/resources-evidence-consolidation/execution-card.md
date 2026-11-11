@@ -1,7 +1,7 @@
 # Exact resources, production and power migration card
 
 **NOT AUTHORIZED. Awaiting separate maintainer GO after independent preparation
-ACCEPT.** The [brief](../../implementation-briefs/CODEX_BRIEF_SOR_resources_production_power_evidence_consolidation.md)
+ACCEPT.** The [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_resources_production_power_evidence_consolidation.md`)
 §1 explicitly withholds real original deletion and replacement-baseline
 activation. Accepting preparation does not grant either action.
 

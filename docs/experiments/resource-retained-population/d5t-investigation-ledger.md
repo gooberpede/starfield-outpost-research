@@ -8,7 +8,7 @@ resource-generation outcomes are actually possible, which admissible winning
 queries produce them, and how can those outcomes be rendered as accurate,
 reviewable maps?
 
-The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5T_feynman_v_outpost2_variant_enumeration_visual_mapping.md)
+The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5T_feynman_v_outpost2_variant_enumeration_visual_mapping.md`)
 fixes Q1 (outcome census), Q2 (determining inputs), Q3 (equivalence classes),
 Q4 (visual maps), and D5T-AC1 through AC11 without amendment. Parent: D5S's
 normal-arrival contract and D5R's open broader scheduling investigation.

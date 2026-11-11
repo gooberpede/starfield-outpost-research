@@ -1,7 +1,7 @@
 # RG2-D1: standalone geometry from a small portable corpus
 
 2026-10-24, Australia/Sydney. Offline implementation and deterministic
-reconstruction under the [frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md).
+reconstruction under the [frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D1_minimal_corpus_standalone_geometry_reproducer.md`).
 Authored research is REVIEW-REQUIRED; actual corpora/full geometry are LOCAL-ONLY.
 B6 and publication remain ON HOLD. No historical evidence was replaced.
 

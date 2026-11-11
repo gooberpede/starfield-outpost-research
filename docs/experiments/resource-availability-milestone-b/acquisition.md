@@ -1,6 +1,6 @@
 # Outcome decision and minimal discriminating acquisition
 
-2026-10-15. [Original criteria](../../implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md),
+2026-10-15. [Original criteria](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_milestone_B.md`),
 [native dependency boundaries](native-provenance.md), [coverage](validation.md).
 
 **Outcome B is the supported disposition.** The executable now includes the

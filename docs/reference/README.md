@@ -36,3 +36,7 @@ for original identifiers, state locators and input pins.
 
 Use [evidence access](evidence-access.md) for exact reader inputs and
 the [claim lookup](../history/claims.md) for claim-specific evidence tiers.
+
+For source verification, see the [B3 baseline](b3-baseline.md),
+[B3 method contracts](b3-methods.md), [address and evidence notation](notation.md),
+[export identifiers](native-export-ids.md) and [RC1 access mapping](rc1/report.md).

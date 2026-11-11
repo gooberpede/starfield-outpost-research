@@ -8,7 +8,7 @@ commit, push, deployment or external disclosure is included.
 
 ## Review entry points
 
-- [Original authorized offline brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AR_generic_outpost_geometry_snapshot_plugin.md),
+- [Original authorized offline brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AR_generic_outpost_geometry_snapshot_plugin.md`),
   [ledger](d5ar-investigation-ledger.md) and [applied reading](d5ar-reading.md).
 - [Native command/acquisition/interference](d5ar-native-investigation.md),
   [identity/area](d5ar-identity-investigation.md) and

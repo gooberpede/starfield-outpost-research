@@ -1,6 +1,6 @@
 # D5H frozen execution contract
 
-2026-10-26, Australia/Sydney. The [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5H_native_source_enumeration_query_reachability.md)
+2026-10-26, Australia/Sydney. The [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5H_native_source_enumeration_query_reachability.md`)
 is the unchanged authority. AC1–AC8 are frozen verbatim there; no amendments.
 
 The question is which original native queries enumerate, admit and first-miss

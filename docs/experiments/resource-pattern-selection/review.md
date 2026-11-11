@@ -1,6 +1,6 @@
 # Frozen C2D contract, finalization and review
 
-The original [brief and AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md)
+The original [brief and AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2D_surface_pattern_selection_source_coverage.md`)
 are unchanged. `.local-work/resource-pattern-selection/contract.json` freezes
 their identity before implementation. Task type: bounded offline deterministic
 reconstruction/research. Negative closure requires evidenced discrimination,

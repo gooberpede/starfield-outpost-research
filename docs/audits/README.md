@@ -1,41 +1,107 @@
-# Audits
+# Historical audits and reviews
 
-- [B5-A local storage and scratch lifecycle](publication-readiness-b5/report.md):
-  measured retention ledger, exact deletion proposal, reference holds and
-  [review](publication-readiness-b5/review.md). No deletion or publication authority.
+Edition **D5BZ-1**, 2026-11-11 (Australia/Sydney), preserves 335 exact
+original files with their full repository-relative paths. Publication is
+**NOT READY / NOT CLEARED**.
 
-- [B4-F1 core/addendum evidence selection and provisional local packages](publication-readiness-b4/f1/README.md):
-  all 71 identities reconciled; exact filename/member maps, measured compression,
-  scoped privacy supplement and [review](publication-readiness-b4/f1/review.md).
-  Membership proposed; publication NOT CLEARED.
+Start with the [guides](../guides/README.md) for player questions, the
+[technical references](../reference/README.md) for current findings and
+verification, or [research history](../history/README.md) for negative and
+superseded results. The [research identifier index](../history/research-identifiers.md)
+and [claim and evidence-route lookups](../history/README.md) lead to primary
+scientific sources. The [archive verification record](../archive-verification.md)
+records edition integrity and custody.
 
-- [B4 evidence selection, rights/privacy and supplementary archive plan](publication-readiness-b4/report.md): [claim matrix](publication-readiness-b4/claim-evidence.md), [proposed evidence index](publication-readiness-b4/archive-plan.md), [review](publication-readiness-b4/review.md). No raw candidate cleared; publication NOT CLEARED.
+## Archive lookup
 
-- [B3 source identity and reproducibility baseline](publication-readiness-b3/report.md): selective authored source, all 26 RR1 historical identities, single 1.16.244.0 baseline, synthetic qualification and [review](publication-readiness-b3/review.md). Publication NOT CLEARED.
+Open the [member CSV](archive-index.csv) for exact paths in alphabetical
+order. Filter its topic, record ID and historical status columns, or search
+from the repository root with Python 3.14:
 
-- [B2 documentation quality and evidence context](publication-readiness-b2/report.md):
-  occurrence corrections, technical notation, analytical tables, local evidence
-  dependencies and [independent review](publication-readiness-b2/review.md).
-  Documentation only; publication NOT CLEARED.
+```text
+python -B research/archival/archive.py search docs/audits/archive-index.csv D5BZ
+```
 
-- [B1 current roadmap and navigation](publication-readiness-b1/report.md): [review](publication-readiness-b1/review.md), [journeys](publication-readiness-b1/navigation-journeys.md), [proposed claim/build scope](publication-readiness-b1/claim-build-matrix.md). Publication NOT CLEARED.
-- [RC1 coverage and access](outpost-rc1-2026-10/report.md): [60-question reconciliation](outpost-rc1-2026-10/gap-reconciliation.md), [capabilities](outpost-rc1-2026-10/capability-access.md), [review](outpost-rc1-2026-10/review.md).
-- [Original coverage audit](outpost-coverage-2026-10/report.md) and [RR1 publication-readiness audit](publication-readiness-rr1/report.md) retain their historical assessments.
+Use a case-sensitive path from the CSV to retrieve a member of
+[audits.zip](audits.zip). For example:
 
-- [B0 publication policy and release scope](publication-readiness-b0/report.md):
-  [frozen criteria and review](publication-readiness-b0/review.md), 21 RR1
-  dispositions and proposed B1–B6 gates. Policy proposal only; no publication,
-  source promotion or cleanup authority.
+`audits.zip :: docs/audits/documentation-synthesis-d5by/review.md`
 
-- [Research execution and completion protocol](research-execution-completion-protocol.md):
-  documentation-only step-1 implementation, capability assessment and reviewer dry run.
+A fragment in a historical citation identifies a heading inside the recovered
+document. Use the member path up to the fragment when locating it in the CSV.
+Dates and dispositions reflect identifiable historical metadata. Blank fields
+leave identification to the original record. Exact bytes and the pre-migration
+Git blob identify different representations when line endings differ. Files
+with a current replacement have a separate active path in the CSV.
 
-- [SOR-EV-0030: actual observer 0.1.1 post-deployment preflight](observer-011-post-deployment-preflight.md)
-  — installed/package/staging/version/config identity, smoke startup, preservation
-  and Phase 1 card for review; no scientific live session executed.
+## Safe extraction
 
-Retain implementation reviews, evidence-integrity checks, source/permission audits, and publication-readiness reviews here. Each report identifies the governing scope, baseline/ref or artifact hash, material inspected, checks actually performed, unavailable checks, findings by severity, and readiness outcome.
+Keep the ZIP and CSV together and use a fresh, caller-owned output directory.
+The verifier checks the complete member inventory, names, metadata and SHA-256
+before writing each file. It checks the extracted bytes again.
 
-An implementation agent's summary is not proof. A scaffold hygiene check does not validate research or satisfy the publication gate. Preserve earlier verdicts and add rechecks rather than rewriting history.
+```text
+python -B research/archival/archive.py verify docs/audits audits --extract NEW_DIRECTORY
+```
 
-The initial [scaffold validation](scaffold-validation.md) concerns this delivered package only. No engine/runtime/save experiment is represented by it.
+Historical commands, links, machine paths, permissions and verdicts describe
+their original revisions. Use the [current evidence access contract](../reference/evidence-access.md)
+for supported reader instructions. Historical Git revisions remain available
+through the repository history.
+
+## Subject groups
+
+| Subject to filter in the CSV | Members |
+| --- | ---: |
+| Other historical records | 41 |
+| Position, coordinates and world state | 1 |
+| Production, power and logistics | 4 |
+| Publication, evidence access and repository governance | 249 |
+| Resource generation and observation | 4 |
+| Save research and experiment methods | 22 |
+| Workshop, construction and membership | 14 |
+
+## Audit packages
+
+| Audit subject or package | Members |
+| --- | ---: |
+| Standalone audit records | 21 |
+| archival-d5bz | 6 |
+| d5bj-interruption-d5bk | 8 |
+| d5bj-preservation-d5bl | 8 |
+| d5bm-completion-eligibility | 10 |
+| d5bm-deferred-d5bn | 9 |
+| deferred-work-d5aw | 8 |
+| documentation-synthesis-d5by | 14 |
+| evidence-access-d5be | 8 |
+| evidence-access-d5bx | 9 |
+| evidence-closure-d5bv | 6 |
+| evidence-derivative-d5bh | 5 |
+| evidence-derivative-d5bi | 9 |
+| evidence-distribution-d5bw | 9 |
+| evidence-readiness-d5br | 6 |
+| evidence-reproduction-d5bj | 6 |
+| foundation-d5az | 2 |
+| logistics-guides-d5bb | 2 |
+| native-function-catalogue-d5bd | 7 |
+| native-function-catalogue-d5bs | 3 |
+| original-save-verification-d5bu | 11 |
+| outpost-coverage-2026-10 | 7 |
+| outpost-rc1-2026-10 | 8 |
+| production-guides-d5ba | 3 |
+| public-evidence-d5bo | 10 |
+| publication-architecture-d5ax | 18 |
+| publication-claims-d5bg | 8 |
+| publication-decisions-d5bp | 2 |
+| publication-decisions-d5bq | 2 |
+| publication-readiness-b0 | 7 |
+| publication-readiness-b1 | 6 |
+| publication-readiness-b2 | 21 |
+| publication-readiness-b3 | 13 |
+| publication-readiness-b4 | 18 |
+| publication-readiness-b5 | 17 |
+| publication-readiness-rr1 | 15 |
+| reader-pilot-d5ay | 4 |
+| reader-qualification-d5bt | 4 |
+| release-assets-d5bf | 2 |
+| remaining-guides-d5bc | 3 |

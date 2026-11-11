@@ -1,7 +1,7 @@
 # Ship relocation investigation contract
 
 2026-10-13, Australia/Sydney. Continuation of SOR-EXP-0031 / SOR-EV-0039;
-no new experiment ID implies live authority. Governing [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md)
+no new experiment ID implies live authority. Governing [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_landing_selection_grid_oracle.md`)
 is the unchanged acceptance authority. User explicitly invoked it, with no commit
 or push. This file records criteria, not an amendment.
 

@@ -1,7 +1,7 @@
 # DA1 completion and independent review package
 
 2026-10-19, SOR-EXP-0054 / SOR-EV-0062.
-[Original frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_DA1_outpost_defense_attacks_integrity.md),
+[Original frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_DA1_outpost_defense_attacks_integrity.md`),
 [plan](plan.md), [answer](report.md), [evidence](evidence.md).
 No mandatory criterion was amended. Maintainer integration remains separate.
 

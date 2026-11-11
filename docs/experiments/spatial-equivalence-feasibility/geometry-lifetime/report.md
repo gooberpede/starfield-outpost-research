@@ -1,7 +1,7 @@
 # Experiment A: native geometry lifetime and consumed operands
 
 2026-10-16, Australia/Sydney. SOR-EXP-0034 / SOR-EV-0042 continuation.
-[Invoked brief](../../../implementation-briefs/CODEX_BRIEF_SOR_experiment_A_geometry_lifetime_operand_capture.md).
+[Invoked brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_experiment_A_geometry_lifetime_operand_capture.md`).
 Authored interpretation REVIEW-REQUIRED; native exports and receipts LOCAL-ONLY.
 
 | Element | Scoped result |

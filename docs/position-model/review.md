@@ -1,6 +1,6 @@
 # Consolidation completion and review package
 
-2026-10-13. [Original frozen contract](../implementation-briefs/CODEX_BRIEF_SOR_durable_position_consolidation_application_readiness.md).
+2026-10-13. [Original frozen contract](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_durable_position_consolidation_application_readiness.md`).
 No amendments. All A–E are mandatory. **COMPLETE — PASS; independent reviewer
 ACCEPT.** No integration/publication/live/Git authority implied.
 

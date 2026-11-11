@@ -95,7 +95,7 @@ For an explicitly authorized crash-tolerant capture, report evidence completenes
 
 ## Address and identity discipline
 
-The [reader notation guide](audits/publication-readiness-b2/notation.md) provides
+The [reader notation guide](reference/notation.md) provides
 domain-specific examples without changing historical address or evidence pins.
 
 Label each location explicitly: runtime virtual address; module-relative RVA; static-analysis address; original compressed-file offset; decompressed-stream offset; record-relative offset; or another defined domain. Include the actual module/image base and build. Preserve original function names/addresses; semantic labels are aliases unless their source is established. Address Library IDs, when used, need version/provenance; they are not universal identifiers.

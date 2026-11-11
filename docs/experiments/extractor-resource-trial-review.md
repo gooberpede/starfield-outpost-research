@@ -2,7 +2,7 @@
 
 2026-10-11. [Original frozen contract](extractor-resource-contract.md),
 [scientific report](extractor-resource-association.md),
-[invoked brief](../implementation-briefs/CODEX_BRIEF_SOR_extractor_resource_association_protocol_trial.md).
+[invoked brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_extractor_resource_association_protocol_trial.md`).
 Disposition: **COMPLETE — PASS**, fresh independent reviewer **ACCEPT**.
 Final documentation/package confirmation is retained in the local reviewer ledger.
 

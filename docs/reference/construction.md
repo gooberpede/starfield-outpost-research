@@ -93,8 +93,8 @@ reload behavior outside the traced paths remains untested.
 
 The original independent budget review accepted the bounded offline study.
 Its verbatim return is local. The tracked assessment identifies the
-verified controls and scope. [RC1 capability C09](../audits/outpost-rc1-2026-10/capability-access.md) ·
-[RC1 independent reconciliation review](../audits/outpost-rc1-2026-10/review.md).
+verified controls and scope. [RC1 capability C09](rc1/capability-access.md) ·
+[RC1 independent reconciliation review](rc1/review.md).
 
 The manual Kreet corpus records Extra `0xbf` base values 7, 8, 10 and 9
 for WorkshopCurrentBudget AV `0x00000399` at beacon-only, storage,

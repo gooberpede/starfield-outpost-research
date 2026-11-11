@@ -13,7 +13,7 @@ Generic earlier "at the Lodge" reports must not be read as interior entry.
 
 | Element | Result and scope |
 |---|---|
-| Frozen question | D5AK-A-Q1: classify the target's A0/A1 population and prior content around this ordinary departure/return. Q2: assess acquisition, preservation and independent delivery under the [explicit live authorization](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AK_EPISODE_A_live_2026-11-03.md). |
+| Frozen question | D5AK-A-Q1: classify the target's A0/A1 population and prior content around this ordinary departure/return. Q2: assess acquisition, preservation and independent delivery under the [explicit live authorization](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AK_EPISODE_A_live_2026-11-03.md`). |
 | Best-supported answer | The exact target is REBUILT_IDENTICAL. Both boundaries contain three resources, 78 regions and 180 points. Old holder and all three collection-content lifetimes are positively ENDED; return uses a different source allocation and new construction. |
 | Confidence | PROVEN / RUNTIME for authenticated recorded transitions and complete represented byte equality; STRONG / CROSS-VALIDATED for source attribution within the accepted ordinary native ownership graph. |
 | Coverage | One Starfield 1.16.244.0 process; one Save52 load; Feynman V Cu IL F A0 → Lodge exterior marker → Feynman V Cu IL F A1. Every one of 36 occupied holders is identified at each complete resident-map scan; exactly one is the target. |

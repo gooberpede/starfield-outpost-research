@@ -1,6 +1,6 @@
 # E3 verification and independent review package
 
-2026-10-17, Australia/Sydney. [Original authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_E3_fabricators_manufactured_production.md),
+2026-10-17, Australia/Sydney. [Original authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E3_fabricators_manufactured_production.md`),
 [frozen contract](contract.md), [answer-first report](report.md).
 Proposed assignment disposition: **COMPLETE** bounded offline native research.
 Independent formal review01: **ACCEPT** for the exact sealed package below.

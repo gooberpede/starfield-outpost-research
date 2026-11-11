@@ -1,7 +1,7 @@
 # Prospective save protection
 
 2026-10-23, Australia/Sydney. Authorized by the
-[C2B transient-save amendment](implementation-briefs/CODEX_AMENDMENT_SOR_C2B_transient_save_protection.md).
+[C2B transient-save amendment](implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_C2B_transient_save_protection.md`).
 This policy changes prospective operational gates. It does not authorize a live
 run, game save creation/modification/restoration, or changes to historical evidence.
 

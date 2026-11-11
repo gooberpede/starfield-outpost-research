@@ -1,6 +1,6 @@
 # Ship relocation observer 0.5.0
 
-Offline candidate under the [integrated brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md).
+Offline candidate under the [integrated brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_ship_relocation_native_grid_observer_integrated.md`).
 [Report](../../docs/experiments/ship-relocation-050/report.md),
 [prospective run card](../../docs/experiments/ship-relocation-050/run-card.md),
 [schema](schema.md). No deployment or live execution in this assignment.

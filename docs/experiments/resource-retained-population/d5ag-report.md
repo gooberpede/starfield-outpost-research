@@ -17,7 +17,7 @@ ordinary retail reconstruction always selects equivalent effective inputs.
 | Completeness | CQ remains BLOCKED for absent historical/empirical operands after the documented offline paths. This is not accepted scientific completion or publication clearance. D5R remains OPEN. |
 | Next decision | Obtain an existing authenticated trace containing the named missing operands, if available; otherwise review the [candidate-specific measurement design](d5ag-discriminators.md) before any separately authorized implementation or live run. |
 
-The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AG_terrain_resource_consistency_lifecycle.md)
+The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AG_terrain_resource_consistency_lifecycle.md`)
 and [active ledger](d5ag-investigation-ledger.md) preserve the frozen questions
 and competing hypotheses. No amendment narrows them. All native addresses are
 preferred static VAs, image base `0x140000000`; member offsets are bytes.

@@ -1,7 +1,7 @@
 # C1 frozen contract and execution boundary
 
 2026-10-18. SOR-EXP-0044 / SOR-EV-0052.
-The unchanged [invoked brief](../../../implementation-briefs/CODEX_BRIEF_SOR_C1_cargo_link_configuration_ui_save.md)
+The unchanged [invoked brief](../../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_C1_cargo_link_configuration_ui_save.md`)
 sections 1-5 control; [review matrix](review.md) accounts for all eight mandatory
 criteria. No criterion amendment is adopted.
 

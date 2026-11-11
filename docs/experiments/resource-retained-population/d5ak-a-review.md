@@ -9,7 +9,7 @@ retained LOCAL-ONLY at
 `4b3fad2131254cd7ebd4a5de3aab89dbd33377153b987f24eb6dd3932b2f86b0`. Recording this actual return and regenerated closing delivery receive
 narrow delta review before handoff; no further gameplay or native run is needed.
 
-The [live contract](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AK_EPISODE_A_live_2026-11-03.md),
+The [live contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AK_EPISODE_A_live_2026-11-03.md`),
 [report](d5ak-a-report.md), [ledger](d5ak-a-live-ledger.md) and
 [checklist decisions](d5ak-a-checklist-decisions.md) preserve the original questions
 and all seven mandatory criteria. Historical D5AK offline AC01 FAIL, original

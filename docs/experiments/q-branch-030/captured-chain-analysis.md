@@ -1,7 +1,7 @@
 # Q030: eighteen chains and the next bounded E step
 
 2026-10-12 Australia/Sydney. Offline analysis under the
-[recorded user scope](../../implementation-briefs/CODEX_BRIEF_SOR_Q030_captured_chains_offline.md).
+[recorded user scope](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_Q030_captured_chains_offline.md`).
 Continuation of SOR-EXP-0031 / SOR-EV-0039; no new experiment or live authority.
 
 | Element | Scoped answer |

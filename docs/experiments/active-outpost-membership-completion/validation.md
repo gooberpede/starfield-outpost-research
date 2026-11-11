@@ -40,7 +40,7 @@ New authored files:
 - `save-analysis/scripts/test_outpost_membership.py`
 - `ghidra/scripts/OutpostMembershipRefs.java`
 
-The supplied, initially untracked `docs/implementation-briefs/CODEX_RESEARCH_BRIEF_active_outpost_membership_completion.md` is retained unchanged and included in the review diff; it was not authored by this task.
+The supplied, initially untracked `implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_active_outpost_membership_completion.md` is retained unchanged and included in the review diff; it was not authored by this task.
 
 Modified existing files: `CREDITS.md`; `docs/DECISIONS.md`; `docs/PROVENANCE.md`; `docs/RESEARCH_STATE.md`; `docs/SOURCES.md`; `docs/experiments/README.md`; `docs/experiments/evidence/README.md`; `docs/function-register.md`; `docs/hypotheses.md`; `docs/implementation-briefs/README.md`; `docs/known-facts.md`; `docs/state-register.md`; `docs/subsystems/initial-map.md`; `ghidra/scripts/Invoke-OutpostRecon.ps1`; `ghidra/scripts/README.md`; `save-analysis/scripts/README.md`.
 

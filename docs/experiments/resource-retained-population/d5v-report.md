@@ -1,6 +1,6 @@
 # D5V population lifecycle, stability and gameplay consumption
 
-2026-10-30, Australia/Sydney. [Frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5V_resource_population_stability_consumption_native_coordinates.md),
+2026-10-30, Australia/Sydney. [Frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5V_resource_population_stability_consumption_native_coordinates.md`),
 [active ledger](d5v-investigation-ledger.md), [native map](d5v-lifecycle-consumer-map.md),
 [coordinate contract](d5v-coordinate-contract.md), [sources](d5v-sources.csv),
 [figures and data](d5v/README.md), [review](d5v-review.md).

@@ -1,6 +1,6 @@
 # D5E completion and independent review
 
-[Unchanged original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5E_continuous_source_decision_acquisition.md),
+[Unchanged original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5E_continuous_source_decision_acquisition.md`),
 [report](report.md), [qualification](qualification.md), [native contract](native.md).
 
 ## Frozen contract and authority

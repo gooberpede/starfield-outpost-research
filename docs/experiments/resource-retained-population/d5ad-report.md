@@ -1,6 +1,6 @@
 # D5AD resource initialization and Save52 reconstruction
 
-2026-11-02, Australia/Sydney. [Frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md),
+2026-11-02, Australia/Sydney. [Frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AD_initialization_save_load_reconstruction.md`),
 [active ledger](d5ad-investigation-ledger.md), [input map](d5ad-input-provenance.md),
 [state matrix](d5ad-save-state-matrix.md), [chronology](d5ad-load-chronology.md),
 [methods/tests](d5ad-methods-and-tests.md), [sources](d5ad-sources.csv),

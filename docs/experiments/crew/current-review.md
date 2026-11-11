@@ -1,7 +1,7 @@
 # CR1 current-assignment correction: review contract
 
 2026-10-18. SOR-EXP-0047 / SOR-EV-0055. [Answer and primary locators](current-assignments.md).
-[Invoked correction](../../implementation-briefs/CODEX_BRIEF_SOR_CR1_current_crew_assignment_persistence_rework.md)
+[Invoked correction](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_CR1_current_crew_assignment_persistence_rework.md`)
 and [original contract/history](review.md) both apply. The earlier ACCEPT does not
 approve these new claims or override the maintainer's REWORK.
 

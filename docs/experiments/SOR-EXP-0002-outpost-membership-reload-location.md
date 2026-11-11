@@ -2,7 +2,7 @@
 
 **2026-10-06, Australia/Sydney. Gate A: OFFLINE IMPLEMENTATION/BUILD PREPARED FOR REVIEW; live qualification unperformed. Critical review required.**
 
-Authority: user explicitly invoked the [brief](../implementation-briefs/CODEX_RESEARCH_BRIEF_SOR-EXP-0002_outpost_membership_reload_location.md); SOR-D-0010. Publication: authored notes/code REVIEW-REQUIRED; saves, local paths, binary/source exports, synthetic outputs and profile data LOCAL-ONLY. An installable observer and executable diagnostic are built locally, not deployed or live-qualified. SOR-D-0011 / SOR-P-0001 record continued authority and exact header approval. This report does not authorize Gate B.
+Authority: user explicitly invoked the [brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_SOR-EXP-0002_outpost_membership_reload_location.md`); SOR-D-0010. Publication: authored notes/code REVIEW-REQUIRED; saves, local paths, binary/source exports, synthetic outputs and profile data LOCAL-ONLY. An installable observer and executable diagnostic are built locally, not deployed or live-qualified. SOR-D-0011 / SOR-P-0001 record continued authority and exact header approval. This report does not authorize Gate B.
 
 ## Question
 
@@ -117,7 +117,7 @@ Hard-stop instrument acquisition for changed parent/build/site, profile mismatch
 
 ## Offline validation
 
-Nine original Python tests pass. Native synthetic tests cover bounded selection/ambiguity/duplicate-cell and collection-change handling, finite identities, exact requests, ASLR arithmetic, write/flush/readback/overwrite/size guards, actual DLL rejection of wrong version/non-game hash, and debugger correlation/zero-hit/hit bounds. Python validates production serializer bytes and rejects invalid roles/order/read/coordinate/terminal/evidence kind. Final counts, compiler/package identities, preservation and repository checks appear in the [audit](../audits/exp0002-preparation-validation.md).
+Nine original Python tests pass. Native synthetic tests cover bounded selection/ambiguity/duplicate-cell and collection-change handling, finite identities, exact requests, ASLR arithmetic, write/flush/readback/overwrite/size guards, actual DLL rejection of wrong version/non-game hash, and debugger correlation/zero-hit/hit bounds. Python validates production serializer bytes and rejects invalid roles/order/read/coordinate/terminal/evidence kind. Final counts, compiler/package identities, preservation and repository checks appear in the [audit](../audits/README.md#archive-lookup) (`audits.zip :: docs/audits/exp0002-preparation-validation.md`).
 
 No live query safety, reference ownership, full plugin profile, crash durability, debugger attach/restoration or coordinate semantics was tested. Header task contracts are source-reported; operand evidence is static. No game/SFSE launch, deployment or semantic save inspection.
 
@@ -127,9 +127,9 @@ No live query safety, reference ownership, full plugin profile, crash durability
 
 Offline implementation and review package are prepared. Critical review must assess selection/lifetime/ABI assumptions and optional debugger context intervention; compilation is not live qualification. Separate user approval must accept exact package/config/profile/sequence and first-run risks. Default is primary six checkpoints; optional diagnostic needs a separate decision after those are secure. Material changes are surfaced before execution. SOR-P-0001 satisfies the exact header use, not broader reuse.
 
-LIVE EXECUTION NOT YET PERFORMED  
-DEPLOYMENT NOT YET PERFORMED  
-SAVE3 NOT LOADED OR MODIFIED  
+LIVE EXECUTION NOT YET PERFORMED
+DEPLOYMENT NOT YET PERFORMED
+SAVE3 NOT LOADED OR MODIFIED
 DEBUGGER NOT ATTACHED
 
 ## Expected discriminating outcomes

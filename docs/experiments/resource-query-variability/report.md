@@ -1,6 +1,6 @@
 # D5I: five source-specific first-construction alternatives
 
-2026-10-27, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5I_construction_query_reachability_variability.md),
+2026-10-27, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5I_construction_query_reachability_variability.md`),
 [proof](proofs.md), [source cases](source-cases.csv), [methods](methods.md),
 [validation](validation.md), [independent review](review.md).
 

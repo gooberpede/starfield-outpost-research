@@ -1,6 +1,6 @@
 # C2C completion contract and review
 
-[Original invoked AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md)
+[Original invoked AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C2C_source_enumeration_carinae_reconciliation.md`)
 remain frozen. Task type: bounded offline research and deterministic diagnostic
 reconstruction. Negative/partial closure requires concrete scientific
 discrimination with preserved controls, not a generic unknown-context claim.

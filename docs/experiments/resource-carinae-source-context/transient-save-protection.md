@@ -1,6 +1,6 @@
 # C2B transient-save operational amendment
 
-2026-10-23, Australia/Sydney. [Invoked amendment](../../implementation-briefs/CODEX_AMENDMENT_SOR_C2B_transient_save_protection.md),
+2026-10-23, Australia/Sydney. [Invoked amendment](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_C2B_transient_save_protection.md`),
 [durable policy](../../SAVE_PROTECTION.md), [amended card](run-card.md),
 [current source/evidence pins](transient-sources.csv).
 **Phase B: PENDING MAINTAINER APPROVAL. No Carinae live test was performed.**

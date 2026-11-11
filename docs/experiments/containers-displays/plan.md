@@ -1,6 +1,6 @@
 # SD1 frozen offline plan
 
-2026-10-19, Australia/Sydney. The [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_SD1_containers_displays_ownership_persistence.md)
+2026-10-19, Australia/Sydney. The [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_SD1_containers_displays_ownership_persistence.md`)
 and its eight mandatory criteria govern this assignment without amendment.
 
 Questions: distinguish logical inventory, presentation, fixture ownership, item

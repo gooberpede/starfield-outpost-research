@@ -1,6 +1,6 @@
 # D4E: sixth-slot provenance and predictive owner-root map
 
-2026-10-25, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md),
+2026-10-25, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D4E_component_slot_provenance_owner_root_prediction.md`),
 [frozen contract](contract.md), [native ledger](native.md),
 [versioned algorithm/corpus](algorithm-corpus.md), [validation](validation.md),
 [review](review.md), [source pins](sources.csv).

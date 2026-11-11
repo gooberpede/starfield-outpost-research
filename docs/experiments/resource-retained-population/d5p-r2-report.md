@@ -1,6 +1,6 @@
 # D5P-R2 diagnostic preparation
 
-2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R2_retail_context_diagnostic_preparation.md),
+2026-10-29, Australia/Sydney. [Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5P_R2_retail_context_diagnostic_preparation.md`),
 [pre-implementation adequacy decision](d5p-r2-decision.md),
 [source ledger](d5p-r2-sources.csv), [review](d5p-r2-review.md),
 [proposed card](run-card-d5p-r2.md).

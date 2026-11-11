@@ -1,7 +1,7 @@
 # D5AJ active investigation ledger
 
 2026-11-03, Australia/Sydney. Offline authority only under the
-[original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AJ_source_scoped_attribution_resilience.md).
+[original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AJ_source_scoped_attribution_resilience.md`).
 Q1–Q4 and AC01–AC08 retain their original wording and scope. Parent D5R and
 GC-25/30/31/10 remain OPEN. No live retry is authorized.
 

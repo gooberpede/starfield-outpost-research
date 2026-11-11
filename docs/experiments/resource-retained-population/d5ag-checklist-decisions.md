@@ -1,6 +1,6 @@
 # D5AG checklist evidence and justification
 
-2026-11-02. [Original contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AG_terrain_resource_consistency_lifecycle.md),
+2026-11-02. [Original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AG_terrain_resource_consistency_lifecycle.md`),
 [canonical checklist](resource-generation-gameplay-checklist.md).
 No existing checkbox, ID or item wording is changed. GC-33 is appended without
 renumbering. D5R remains OPEN; no physical-overlap investigation is added.

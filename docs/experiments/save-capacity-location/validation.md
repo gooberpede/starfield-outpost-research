@@ -35,7 +35,7 @@ Task files:
 - `docs/experiments/save-capacity-location/save52-location.csv` — task change/new deliverable.
 - `docs/experiments/save-capacity-location/validation.md` — task change/new deliverable.
 - `docs/hypotheses.md` — task change/new deliverable.
-- `docs/implementation-briefs/CODEX_BRIEF_SOR_save_capacity_and_outpost_planetary_location.md` — pre-existing supplied input; unchanged.
+- `implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_save_capacity_and_outpost_planetary_location.md` — pre-existing supplied input; unchanged.
 - `docs/implementation-briefs/README.md` — task change/new deliverable.
 - `docs/known-facts.md` — task change/new deliverable.
 - `docs/state-register.md` — task change/new deliverable.

@@ -1,7 +1,7 @@
 # D5AP independent review
 
 2026-11-04, Australia/Sydney. **ACCEPT. D5AP-Q1–Q4 COMPLETE; AC01–09 PASS.** The original
-[D5AP brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AP_GC10_competitor_causal_analysis.md)
+[D5AP brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AP_GC10_competitor_causal_analysis.md`)
 and frozen Q1–Q4/AC01–09 govern. GC-10/D5R remain OPEN.
 
 A fresh-context, non-implementing reviewer independently reruns full raw/source/

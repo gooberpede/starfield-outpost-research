@@ -1,7 +1,7 @@
 # SOR-EXP-0034 — Inorganic resource availability
 
 2026-10-14, Australia/Sydney. SOR-EV-0042 / SOR-F-0033 / SOR-ST-0031.
-[Authority](../../implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md),
+[Authority](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_inorganic_resource_availability_runtime_serialization.md`),
 [frozen acceptance](contract.md), [executable contract](schema.md).
 Authored research REVIEW-REQUIRED; original screenshots/saves/native exports and
 bulk derivatives LOCAL-ONLY. Independent final disposition is in [review](review.md).
@@ -166,7 +166,7 @@ extractor construction at S3/S3C introduces one IRES `0057c7` group whose row
 resolves the constructed extractor `ff022da9` and base `05ef19`; subsequent
 no-action/solar movement/link controls retain it. Extractor deletion at S7/S7C
 removes the group while the beacon remains. These actions were independently
-recorded in the [manual-corpus brief](../../implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md).
+recorded in the [manual-corpus brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_RESEARCH_BRIEF_manual_save_corpus_S0-S7C.md`).
 They are not names inferred by the new scanner.
 
 Save25/26/27/28 each have two sampled beacon prefixes and zero groups. Mature

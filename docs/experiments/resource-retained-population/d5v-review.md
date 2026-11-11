@@ -7,7 +7,7 @@ control current coordinate-presentation acceptance. Original reviewer returns,
 patches and scientific findings are preserved as historical records, not rewritten
 to imply that the earlier images met the requirement.
 
-2026-10-30, Australia/Sydney. [Original invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5V_resource_population_stability_consumption_native_coordinates.md),
+2026-10-30, Australia/Sydney. [Original invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5V_resource_population_stability_consumption_native_coordinates.md`),
 [report](d5v-report.md), [active ledger](d5v-investigation-ledger.md),
 [primary source pins](d5v-sources.csv). D5V-Q1–Q4 and D5V-AC1–AC11 retain their
 original generality; no amendments or reduced mandatory criteria were approved.

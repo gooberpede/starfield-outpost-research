@@ -1,7 +1,7 @@
 # S2 frozen contract and execution boundary
 
 2026-10-17, Australia/Sydney. SOR-EXP-0043 / SOR-EV-0051.
-The user invoked the unchanged [S2 brief](../../implementation-briefs/CODEX_BRIEF_SOR_S2_local_output_links_remote_production.md).
+The user invoked the unchanged [S2 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_S2_local_output_links_remote_production.md`).
 Its sections 3, 6 and 7 govern; the eight deliverables in [review.md](review.md)
 are not retrospective replacement criteria. No amendment is adopted.
 

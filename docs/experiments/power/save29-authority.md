@@ -1,7 +1,7 @@
 # Save29 allocation authority: deterministic reconstruction
 
 2026-10-17, Australia/Sydney. SOR-EXP-0041 / SOR-EV-0049 continuation.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_offline_allocation_authority.md),
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_P1_Save29_offline_allocation_authority.md`),
 [review and acceptance matrix](save29-authority-review.md).
 
 **C — deterministic reconstruction is the best-supported working explanation,

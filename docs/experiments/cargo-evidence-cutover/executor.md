@@ -1,7 +1,7 @@
 # Cargo retirement executor qualification
 
 2026-10-26, Australia/Sydney. Governing authority is the
-[retirement and activation brief](../../implementation-briefs/CODEX_BRIEF_SOR_cargo_evidence_retirement_baseline_activation.md).
+[retirement and activation brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_cargo_evidence_retirement_baseline_activation.md`).
 **Real deletion and baseline activation are NOT AUTHORIZED.** This work implements
 and tests a separate transaction on disposable Cargo replicas. The accepted
 [consumer cutover](report.md) remains the scientific baseline; no gameplay or

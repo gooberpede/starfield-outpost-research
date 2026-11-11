@@ -129,7 +129,7 @@ results are `native-full05.json`; failed attempts are not substituted into them.
 
 ## Scope, safety and disposition
 
-The unchanged [brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5T_feynman_v_outpost2_variant_enumeration_visual_mapping.md)
+The unchanged [brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5T_feynman_v_outpost2_variant_enumeration_visual_mapping.md`)
 and [D5S contract](d5s-query-winner-model.md#normalized-arrival-contract) govern
 this result: source `0:37536:20928:0029d20e`, Feynman V `0x0005e0de`, system
 86469, body index 5, chart 0, descriptor `(37536,20928)`, BIOM `0x00145440`,

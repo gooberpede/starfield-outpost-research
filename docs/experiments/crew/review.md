@@ -8,7 +8,7 @@ its missing-positive-assignment boundary is superseded for the new positive subs
 Real saved unassigned-roster inputs are now qualified; universal post-load authority remains OPEN.
 
 2026-10-18, Australia/Sydney. SOR-EXP-0047 / SOR-EV-0055.
-[Original frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_CR1_crew_recruitment_assignment_capacity.md),
+[Original frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_CR1_crew_recruitment_assignment_capacity.md`),
 [accepted Crew screen amendment](plan.md), [answer-first report](report.md),
 [coverage and preserved failures](coverage.md), [finite checks](../../../research/cr1-crew/README.md).
 

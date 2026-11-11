@@ -1,6 +1,6 @@
 # E2 bounded offline research utilities
 
-[Brief](../../docs/implementation-briefs/CODEX_BRIEF_SOR_E2_organic_facility_native_mapping.md),
+[Brief](../../docs/implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E2_organic_facility_native_mapping.md`),
 [report](../../docs/experiments/organic-facilities/report.md).
 Original GPL-3.0-or-later research code, using existing maintainer-owned readers.
 These are bounded evidence utilities, not an importer or supported production tool.

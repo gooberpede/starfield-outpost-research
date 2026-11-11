@@ -1,6 +1,6 @@
 # D5AS controlling questions and investigation ledger
 
-The [maintainer brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AS_Feynman_30_sample_series_preparation.md)
+The [maintainer brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AS_Feynman_30_sample_series_preparation.md`)
 freezes Q1–Q4 in section 2 and AC01–AC09 in section 6 verbatim. No amendments.
 GC-10, GC-31 and D5R remain OPEN.
 

@@ -1,6 +1,6 @@
 # Resumption completion review and original-criterion matrix
 
-2026-10-11. [Original contract](../../implementation-briefs/CODEX_BRIEF_SOR_durable_outpost_position_reconstruction_resumption.md).
+2026-10-11. [Original contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_durable_outpost_position_reconstruction_resumption.md`).
 **Independent decision: ESCALATE. Overall native-equivalence objective: NOT
 COMPLETE; criterion 4 remains NOT TESTED.** [Actual reviewer return](independent-review.md).
 Offline implementation results

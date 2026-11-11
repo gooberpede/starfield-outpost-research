@@ -1,7 +1,7 @@
 # Matching source, two ordinary sites, and native enumeration
 
 2026-10-12 Australia/Sydney. Continuation of SOR-EXP-0031 / SOR-EV-0039.
-[Authorized brief](../implementation-briefs/CODEX_BRIEF_SOR_matching_source_qualification_enumeration_reachability.md).
+[Authorized brief](../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_matching_source_qualification_enumeration_reachability.md`).
 Authored interpretation REVIEW-REQUIRED; original saves, native exports and raw
 capture bytes LOCAL-ONLY. No runtime or Git mutation authority is implied.
 

@@ -1,6 +1,6 @@
 # C2 investigation ledger
 
-2026-11-01, Australia/Sydney. Existing-evidence audit under the [C2 brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C2_existing_evidence_closure_audit.md).
+2026-11-01, Australia/Sydney. Existing-evidence audit under the [C2 brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_C2_existing_evidence_closure_audit.md`).
 
 Frozen questions: C2-Q1 existing primary-evidence coverage; C2-Q2 exact remaining obligations; C2-Q3 smallest justified continuation. Parent D5AB INCOMPLETE / REWORK; D5R OPEN; B2 NOT AUTHORIZED.
 

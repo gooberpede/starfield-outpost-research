@@ -1,6 +1,6 @@
 # External inventory repair — cooperative receipts, unchanged 030
 
-2026-10-12. [Direct user contract](../../implementation-briefs/CODEX_BRIEF_SOR_Q030_external_module_inventory_fix.md).
+2026-10-12. [Direct user contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_Q030_external_module_inventory_fix.md`).
 **Offline fix qualified; independent review ACCEPT.** The external
 reader no longer attempts the denied cross-process module snapshot. It validates
 the unchanged observer's complete emitted inventory plus fresh worker progress.

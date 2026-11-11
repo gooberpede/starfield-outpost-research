@@ -1,7 +1,7 @@
 # E3 automated fabricator native reference
 
 2026-10-17, Australia/Sydney. SOR-EXP-0040 / SOR-EV-0048.
-[Authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_E3_fabricators_manufactured_production.md),
+[Authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_E3_fabricators_manufactured_production.md`),
 [frozen contract](contract.md), [criterion matrix and review](review.md).
 
 | Element | Answer |

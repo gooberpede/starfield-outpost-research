@@ -1,6 +1,6 @@
 # Frozen acceptance, independent review and review package
 
-[Original AC1–AC8](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_C1A_resource_region_acquisition_method_qualification.md)
+[Original AC1–AC8](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_C1A_resource_region_acquisition_method_qualification.md`)
 are unamended. [Report](report.md). Task type: research/design with bounded offline
 accounting prototype; no live measurement is part of the authorized completion
 contract. Completion means an independently reviewed actionable conditional route,

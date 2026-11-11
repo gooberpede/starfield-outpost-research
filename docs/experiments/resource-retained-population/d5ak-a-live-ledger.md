@@ -1,7 +1,7 @@
 # D5AK Episode A live investigation ledger
 
 2026-11-03, Australia/Sydney. One prospective conditional live attempt under the
-[explicit approval](../../implementation-briefs/CODEX_AMENDMENT_SOR_D5AK_EPISODE_A_live_2026-11-03.md)
+[explicit approval](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_AMENDMENT_SOR_D5AK_EPISODE_A_live_2026-11-03.md`)
 and unchanged [D5AK card](run-card-d5ak-episode-a.md).
 D5AK-A-Q1/Q2 and A-AC01–A-AC07 are frozen without narrowing.
 Historical D5AK AC01 FAIL and original D5AI Episode A REWORK remain unchanged.

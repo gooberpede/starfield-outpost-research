@@ -1,7 +1,7 @@
 # Independent public research: Workshop Z restoration
 
 2026-10-13, Australia/Sydney. Specialist contribution under the
-[authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_native_workshop_Z_restoration_external_research.md).
+[authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_native_workshop_Z_restoration_external_research.md`).
 Authored interpretation REVIEW-REQUIRED. Consultation only: no outside code,
 tests, diagrams, dependencies or bulk source text incorporated; no tools installed
 or executed from consulted projects, and no external contact or uploads.

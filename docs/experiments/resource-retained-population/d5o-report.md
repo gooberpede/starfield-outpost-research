@@ -1,7 +1,7 @@
 # D5O hybrid hardware coverage diagnosis and qualification
 
 2026-10-28, Australia/Sydney. [Source/evidence ledger](d5o-sources.csv),
-[review record](d5o-review.md), [proposed card](run-card-d5o-v1.md). The [invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5O_hybrid_coverage_diagnosis_repair.md)
+[review record](d5o-review.md), [proposed card](run-card-d5o-v1.md). The [invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5O_hybrid_coverage_diagnosis_repair.md`)
 freezes AC1–AC8 without amendment. Work is confined to offline analysis and
 disposable Windows targets. Retail execution, integration and publication remain
 unauthorized. Final synthetic qualification passes. Both independent reviewers

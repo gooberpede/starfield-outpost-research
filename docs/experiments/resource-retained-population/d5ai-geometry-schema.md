@@ -76,7 +76,7 @@ A complete absent-map observation has no represented geometry frame; it carries
 comparing point coordinates. Current manager fields are retained as diagnostics.
 The early current-descriptor double-read proposal is superseded: equal reads
 alone do not exclude intervening mutation or ABA. The
-[ownership map](d5ai-source-lifecycle-map.md#runtime-frame-certificate) records
+[ownership map](d5ai-source-lifecycle-map.md#runtime-frame-certificate-and-rejected-current-state-shortcut) records
 the native frame argument; exact represented points are compared without a
 coordinate transformation.
 
@@ -165,4 +165,4 @@ research/resource-retained-population/d5ai_geometry.py BEFORE.json AFTER.json LI
 
 The byte/oracle controls qualify a representation and comparator. Native lock,
 snapshot ownership, transport, frame attribution and operational qualification
-remain separate acceptance requirements of the [original brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AI_population_lifecycle_geometry_observer_readiness.md).
+remain separate acceptance requirements of the [original brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AI_population_lifecycle_geometry_observer_readiness.md`).

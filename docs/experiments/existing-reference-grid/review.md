@@ -1,6 +1,6 @@
 # Existing-reference grid: completion review
 
-2026-10-12. Contract: [authorized brief](../../implementation-briefs/CODEX_BRIEF_SOR_existing_reference_grid_oracle_integrated.md),
+2026-10-12. Contract: [authorized brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_existing_reference_grid_oracle_integrated.md`),
 [report/matrix](report.md), [integrated card](run-card.md).
 
 Implementation is offline only. Independent final disposition accompanies the

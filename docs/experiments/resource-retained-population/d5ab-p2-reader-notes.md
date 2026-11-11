@@ -1,7 +1,7 @@
 # P2 reader and reducer investigation
 
 2026-11-01, Australia/Sydney. This is the specialist working ledger for P2-Q3
-and P2-AC04. The [P2 contract](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md)
+and P2-AC04. The [P2 contract](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5AB_P2_controller_reducer_transport_qualification.md`)
 and primary active ledger govern completion. D5AB remains INCOMPLETE; D5R OPEN;
 B2 NOT AUTHORIZED. Source-lifetime joins remain conditional pending P1/P3.
 

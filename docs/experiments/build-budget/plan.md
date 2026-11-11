@@ -1,6 +1,6 @@
 # L2 frozen offline investigation
 
-2026-10-19, Australia/Sydney. [Invoked brief](../../implementation-briefs/CODEX_BRIEF_SOR_L2_outpost_build_budget_native_accounting.md).
+2026-10-19, Australia/Sydney. [Invoked brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_L2_outpost_build_budget_native_accounting.md`).
 The original eight mandatory criteria remain unchanged. L1 is retained; L3
 territory/collision/scenery and turret operation remain separate.
 

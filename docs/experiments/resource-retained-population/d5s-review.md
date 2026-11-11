@@ -1,6 +1,6 @@
 # D5S acceptance and exact review record
 
-Authority is the unchanged [frozen brief](../../implementation-briefs/CODEX_BRIEF_SOR_RG2_D5S_construction_query_winner_determinism.md), SHA-256 `d67c5809e98ebc41fcad7c11f09b5161ac35e3cabd37ff95298fb825eca1a644`. Its three controlling questions and all ten mandatory criteria remain unchanged. The [report](d5s-report.md) gives COMPLETE scoped scientific answers for Q1–Q3. **Independent scientific/completeness, engineering and editorial reviews ACCEPT the candidate**, with final exact closure below; this record does not confer integration, retail or publication approval.
+Authority is the unchanged [frozen brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5S_construction_query_winner_determinism.md`), SHA-256 `d67c5809e98ebc41fcad7c11f09b5161ac35e3cabd37ff95298fb825eca1a644`. Its three controlling questions and all ten mandatory criteria remain unchanged. The [report](d5s-report.md) gives COMPLETE scoped scientific answers for Q1–Q3. **Independent scientific/completeness, engineering and editorial reviews ACCEPT the candidate**, with final exact closure below; this record does not confer integration, retail or publication approval.
 
 ## Frozen criterion matrix
 

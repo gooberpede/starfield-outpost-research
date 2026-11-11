@@ -2,7 +2,7 @@
 
 2026-10-13, Australia/Sydney. SOR-EXP-0031 / SOR-EV-0039 continuation.
 **READY FOR COMBINED REVIEW ONLY. DO NOT EXECUTE UNDER THE OFFLINE ASSIGNMENT.**
-[Brief](../../implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md),
+[Brief](../../implementation-briefs/README.md#archive-lookup) (`implementation-briefs.zip :: docs/implementation-briefs/CODEX_BRIEF_SOR_workshop_position_write_history_Z_oracle.md`),
 [qualified package/report](report.md), [independent review](review.md),
 [schema and effects](../../../runtime/native-oracle-060/schema.md).
 
