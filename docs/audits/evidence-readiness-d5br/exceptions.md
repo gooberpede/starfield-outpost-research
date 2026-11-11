@@ -11,6 +11,11 @@
 | Save52 root census (`P-ROOT-COUNTS`) | The independently reproduced 848 count rests on a typed inventory, 657-root baseline and QUST/ALLA context. One save and the arithmetic table alone lack that receipt chain. [Schema](../../experiments/workshop-population/schema.md) | Stage or regenerate the exact named context, verify its origins and repeat only selected root/control readers. Keep unresolved owner assemblies separate. |
 | Fixed geometry (`P-AG-FIXTURE`) | The exact prior component and D5AS ZIP are identified. Pinned-size installed inputs are locally visible, but public legacy-build availability and general host compatibility are unestablished. | Require reader-supplied matching lawful files and supported host. If preflight refuses, offer the already qualified standalone D5AS comparison at its own precomputed tier. |
 
+The [D5BT follow-on](../reader-qualification-d5bt/README.md) records the two
+explicit-input readers and their local original-byte results. The 5B-2
+coordinated original verification and B6 checks remain pending. The table
+above records the original D5BR assessment.
+
 CORE/ADDENDUM have available staged containers at their recorded lengths.
 D5BF's independently checked protected copies resolved all selected identities
 even though 21 older locators were absent. Keep those locator failures distinct

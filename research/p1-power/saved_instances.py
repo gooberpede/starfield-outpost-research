@@ -34,7 +34,7 @@ def pin(path):
                     sha256=hashlib.file_digest(f, 'sha256').hexdigest())
 
 
-def extra_view(data, record, prefix, resolve):
+def extra_view(data, record, prefix, resolve, *, workshop_resources=False):
     """Scoped adaptation of owned workshop_inventory.linked_prefix grammar.
 
     Returns all recognized extras even without 4C. BF values retain section and
@@ -42,6 +42,12 @@ def extra_view(data, record, prefix, resolve):
     """
     c = Reader(data, prefix['form_prefix_end'], record['end'])
     ri = prefix['next_reference_index']
+    si = len(prefix.get('component', {}).get('strings', []))
+    def strings(n):
+        nonlocal si
+        if not 0 <= n <= len(record['strings']) - si:
+            raise ValueError('EXTRA_STRING_QUEUE_BOUNDS')
+        si += n
     def refs(n):
         nonlocal ri
         if not 0 <= n <= len(record['refs']) - ri:
@@ -101,12 +107,30 @@ def extra_view(data, record, prefix, resolve):
         elif tag == 0xda:
             row['references'] = refs(4); row['flag'] = c.take(1)[0]
             row['references'] += refs(1); row['word'] = int.from_bytes(c.take(4), 'little')
+        elif tag == 0xbc and workshop_resources:
+            # Same observed grammar as workshop_inventory.linked_prefix.
+            groups = int.from_bytes(c.take(4), 'little')
+            if groups > (c.end - c.p) // 4:
+                raise ValueError('WORKSHOP_RESOURCE_GROUP_BOUNDS')
+            for _ in range(groups):
+                refs(1)
+                entries = int.from_bytes(c.take(4), 'little')
+                if entries > (c.end - c.p) // 17:
+                    raise ValueError('WORKSHOP_RESOURCE_ROW_BOUNDS')
+                refs(entries * 2)
+                c.take(entries * 17)
+            refs(c.count())
+            c.take(1)
+            strings(1)
+            c.take(24)
         elif tag == 0xcb:
             n = c.count(); row['references'] = refs(n)
             row['words_offset'] = c.p
             row['words'] = list(struct.unpack('<'+'I'*n, c.take(n*4)))
         elif tag == 0xca:
             row['string_queue_count'] = c.count()
+            if workshop_resources:
+                strings(row['string_queue_count'])
         elif tag == 0x30:
             row['references'] = refs(1)
             row['node_count'] = c.count()

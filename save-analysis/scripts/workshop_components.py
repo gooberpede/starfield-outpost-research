@@ -9,7 +9,8 @@ See docs/experiments/workshop-population/schema.md and specialist native37-78.
 from outpost_record_framing import Reader
 
 
-def component_sections(b, start, end, *, buffer_version, activity_custom_payloads):
+def component_sections(b, start, end, *, buffer_version, activity_custom_payloads,
+                       pending_dialogue=False):
     if buffer_version != 153 or activity_custom_payloads is not True:
         raise ValueError('UNQUALIFIED_COMPONENT_CONTEXT')
     c=Reader(b,start,end);sections=[];activity_leads=[]
@@ -101,7 +102,8 @@ def component_sections(b, start, end, *, buffer_version, activity_custom_payload
     table('140923480-CellPackIn','cell-packin')
     for name in ('140923480-markerA','140923480-markerB','140923480-markerC'):table(name,'fixed',0)
     table('140bc4280-WorldClone','worldclone')
-    table('140d4ae40','unknown')
+    # SD1 verified the typed u32 payload for the selected HIST-0021 context.
+    table('140d4ae40', 'fixed' if pending_dialogue else 'unknown', 4)
     at=c.p;dynamic=[]
     while True:
      word=u(4)
