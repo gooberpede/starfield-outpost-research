@@ -9,8 +9,11 @@ to the same geographic source. In the ordinary path studied here, the first
 eligible request to find a protected source-map miss supplies the coordinate
 for a raster sample. A different request can sample the same value, and a
 different sample can change the complete generated geometry. Which request
-usually wins remains unmeasured.
-[Current scope decisions](../experiments/resource-retained-population/d5au-gap-closure-decisions.md) ·
+usually wins remains unmeasured. Where several constructions are eligible,
+static definitions and coordinates alone do not reliably select the next
+winning geometry.
+[Current scope](../DECISIONS.md#d5bv-practical-resource-generation-predictability--2026-11-11) ·
+[Gameplay checklist decisions](../experiments/resource-retained-population/d5au-gap-closure-decisions.md) ·
 [Native feasibility review](../experiments/resource-retained-population/d5aq-review.md).
 
 This guide covers the pinned **Starfield 1.16.244.0** ordinary paths, with
@@ -110,7 +113,7 @@ runs. Neither row supplies a retail winner probability or establishes
 independent, identically distributed trials.
 [Tracked C1 rows](../experiments/resource-retained-population/d5aq-request-mask-map.csv) ·
 [Series comparison and exclusions](../experiments/resource-retained-population/d5as-series-closeout.md#frozen-roster-and-comparisons) ·
-[Evidence-access review](../audits/publication-architecture-d5ax/review.md).
+[D5AS comparison access](../reference/evidence-access.md#d5as-complete-body-comparison).
 
 Other Save52 sites have indexed source associations and conditional request
 censuses. Their candidate counts cannot tell a player how often a visit will
@@ -194,17 +197,11 @@ C1 coordinate distribution from the tracked CSV using the reference's
 [tracked-input check](../reference/resource-generation.md#reproduction-and-access).
 That check verifies the tabulated census and its percentages.
 
-**PUBLICATION DEPENDENCY — EVIDENCE ACCESS PENDING.** The historical B2,
-D5AK, D5AL, D5AO and D5AS observations and the C19 live availability evidence
-have inspectable reports. Their decisive private chronology, geometry or
-UI operands need separate cleared access. The proposed Save52 release
-asset is unhosted. [Dependency graph](../audits/publication-architecture-d5ax/claim-evidence-dependencies.csv) ·
-[Evidence-access assessment](../audits/publication-architecture-d5ax/evidence-access.md).
-The [D5BE evidence index](../audits/evidence-access-d5be/README.md) tracks
-access to the D5AS full geometry comparisons and C19 native UI comparisons.
-
-The original Kreet unplaced-beacon experiment and the bounded check of
-all 346 recorded native callbacks cover different parts of the preview
-process. The release decision describes what the operator saw and which
-comparisons the proposed download can reproduce.
-[Kreet preview evidence tiers](../audits/publication-decisions-d5bq/README.md#historical-observations)
+**PENDING RELEASE.** The proposed downloads support selected comparisons
+of resource geometry, construction chronology and native preview rows.
+The D5AS body comparisons cover the qualified roster. C19 covers all
+346 complete callbacks from one Kreet session. The upstream preview and
+its displayed timing remain historical or unresolved.
+[Reader access contracts](../reference/evidence-access.md) ·
+[C19 original report and scope](../history/research-identifiers.md#c19--continuous-beacon-preview) ·
+[First-release scope](../first-release-scope.md#resource-generation-cut)

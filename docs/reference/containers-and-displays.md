@@ -1,7 +1,7 @@
 # Containers and displays technical reference
 
 [Reader guide](../guides/containers-and-displays.md) ·
-[Claim and evidence map](../audits/remaining-guides-d5bc/claims.md) ·
+[Selected claims](../history/claims.md#containers-and-displays) ·
 [Sources and build](../experiments/containers-displays/methods.md) ·
 [Independent review and corrections](../experiments/containers-displays/review.md)
 

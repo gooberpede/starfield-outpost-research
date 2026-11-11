@@ -1,6 +1,6 @@
 # Cargo links and fuel technical reference
 
-[Guide](../guides/cargo.md) · [Reference index](README.md) · [Claim and evidence crosswalk](../audits/logistics-guides-d5bb/claims.md)
+[Guide](../guides/cargo.md) · [Reference index](README.md) · [Selected claims](../history/claims.md#cargo)
 
 Scope is the pinned retail 1.16.244.0 native image, installed main definitions
 and shipped ship, marker, quest and package-fragment PEX qualified by C2/C3.

@@ -1,6 +1,6 @@
 # Locations Stored Resources technical reference
 
-[Guide](../guides/stored-resources.md) · [Reference index](README.md) · [Claim and evidence crosswalk](../audits/logistics-guides-d5bb/claims.md)
+[Guide](../guides/stored-resources.md) · [Reference index](README.md) · [Selected claims](../history/claims.md#stored-resources)
 
 The reported STATIC path is the pinned retail 1.16.244.0 native image and
 installed UI assets. Hexadecimal native VAs are preferred static addresses

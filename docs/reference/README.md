@@ -29,7 +29,10 @@ Find an observed native function by [RVA or subject](../functions/README.md).
   and identifies historical aliases and context-specific meanings.
 
 Start with the [guides](../guides/README.md) for ordinary behavior or the
-[research history](../research-history.md) for superseded interpretations
+[research history](../history/README.md) for superseded interpretations
 and negative results. See the [historical function register](../function-register.md),
 [state register](../state-register.md) and [build provenance](../PROVENANCE.md)
 for original identifiers, state locators and input pins.
+
+Use [evidence access](evidence-access.md) for exact reader inputs and
+the [claim lookup](../history/claims.md) for claim-specific evidence tiers.

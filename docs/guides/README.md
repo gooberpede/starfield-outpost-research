@@ -29,5 +29,6 @@ behavior, its saved-state boundary and known exceptions.
 
 Use the [technical reference index](../reference/README.md) and
 [project glossary](../reference/glossary.md) for implementation detail.
-The [research roadmap](../research-roadmap.md) covers the rest of the programme.
+The [research roadmap](../research-roadmap.md) maps each subject to its claims.
+See the [first-release scope](../first-release-scope.md) and [history index](../history/README.md).
 Future guides follow the [authoring standard](AUTHORING-STANDARD.md).

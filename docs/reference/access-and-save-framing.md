@@ -1,7 +1,7 @@
 # Access and save framing technical reference
 
 [Reader guide](../guides/access-and-save-framing.md) ·
-[Claim and evidence map](../audits/remaining-guides-d5bc/claims.md) ·
+[Selected claims](../history/claims.md#access-and-save-framing) ·
 [RC1 report](../audits/outpost-rc1-2026-10/report.md) and
 [independent review](../audits/outpost-rc1-2026-10/review.md)
 

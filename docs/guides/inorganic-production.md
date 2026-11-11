@@ -36,7 +36,7 @@ stock is a separate [local output-link operation](storage-and-output-links.md).
 [Native production and reasons](../experiments/inorganic-extractors/native.md) ·
 [Local output link study](../experiments/local-output-links/report.md) ·
 [Independent link review](../experiments/local-output-links/review.md) ·
-[Storage and logistics roadmap](../research-roadmap.md#storage-and-local-output-links).
+[Storage and logistics roadmap](storage-and-output-links.md).
 
 ## Compare two nominal intervals
 
@@ -66,4 +66,4 @@ reader check. [Saved controls](../experiments/resource-retained-population/d5ah-
 
 [Technical reference](../reference/inorganic-production.md) ·
 [Glossary](../reference/glossary.md#availability-and-production) ·
-[Evidence and access](../audits/production-guides-d5ba/claims.md).
+[Selected claims](../history/claims.md#inorganic-production).

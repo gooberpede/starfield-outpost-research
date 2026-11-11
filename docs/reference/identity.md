@@ -1,7 +1,7 @@
 # Outpost identity and membership reference
 
 [Guide](../guides/identity.md) · [Glossary](glossary.md) ·
-[Claim crosswalk](../audits/foundation-d5az/claims.csv)
+[Selected claims](../history/claims.md#identity)
 
 Native locators are preferred static VAs for Starfield 1.16.244.0, image
 base `0x140000000`. Subtract the base for RVA. File-form identities below
@@ -98,4 +98,4 @@ joins. The tracked table and reviewed narrative are inspectable. Raw replay
 needs a qualified original, the relevant record/identity readers and pinned
 definition/native inputs or an approved sufficient derivative. Save52's
 proposed F1 asset is **PENDING RELEASE**.
-[Evidence access audit](../audits/publication-architecture-d5ax/evidence-access.md#f1-continuity).
+[Reader access and limits](../reference/evidence-access.md).

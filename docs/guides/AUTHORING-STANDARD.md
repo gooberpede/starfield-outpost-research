@@ -4,10 +4,9 @@ Write for a reader who already understands reverse engineering or Creation
 Kit modding. Assume they have never read this project's brief identifiers,
 observer schemas or local file conventions. The
 [resource guide](resource-generation.md) and its
-[technical reference](../reference/resource-generation.md) pilot this
-structure. D5AX's [reader architecture](../audits/publication-architecture-d5ax/architecture.md)
-and D5AW's [publication independence plan](../audits/deferred-work-d5aw/publication-plan-amendment.md)
-govern the division of material.
+[technical reference](../reference/resource-generation.md) show the three reader layers. The [roadmap](../research-roadmap.md) connects
+the current subjects and the [release policy](../PUBLICATION.md#publication-independence)
+sets the evidence access requirements.
 
 | Layer | Authoring contract | Resource-generation pilot |
 | --- | --- | --- |

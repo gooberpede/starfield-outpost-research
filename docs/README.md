@@ -1,5 +1,15 @@
 # Documentation Index
 
+**Understand** through the [subsystem guides](guides/README.md) and
+[current roadmap](research-roadmap.md). **Investigate** through the
+[technical references](reference/README.md), [glossary](reference/glossary.md)
+and [evidence access](reference/evidence-access.md). **Trace history** through
+the [history and identifier indexes](history/README.md).
+See the [first-release scope](first-release-scope.md) for selected findings
+and deferrals. Publication is **NOT READY / NOT CLEARED**.
+
+## Earlier documentation milestones
+
 - [D5W resource-generation operating contract](experiments/resource-retained-population/d5w-report.md):
   ordinary request/scheduler paths, query-dependent retained authority,
   competing design hypotheses and [native sampling/point comparisons](experiments/resource-retained-population/d5w/README.md).
@@ -18,12 +28,10 @@ New research maps follow the prospective [visualization convention](VISUALIZATIO
   exact storage accounting, protected evidence and prospective scratch lifecycle.
   No deletion authorized; publication remains NOT CLEARED.
 
-Current [B3 method/source and baseline package](audits/publication-readiness-b3/report.md) supplies source access tiers, exact historical identities and the single investigated executable baseline. Publication remains NOT CLEARED.
+The historical [B3 method/source and baseline package](audits/publication-readiness-b3/report.md) records the original method tiers and baseline reconciliation. Use the [current evidence-access reference](reference/evidence-access.md) for today's selected routes.
 
 - [B2 documentation corrections and reader aids](audits/publication-readiness-b2/report.md):
   notation, analytical decision tables and historical evidence availability.
-
-**Current reader route:** [Subsystem roadmap](research-roadmap.md), [history/supersession](research-history.md), [RC1 capabilities](audits/outpost-rc1-2026-10/capability-access.md), [Papyrus](audits/outpost-rc1-2026-10/papyrus-interfaces.md) and [proposed claim/build scope](audits/publication-readiness-b1/claim-build-matrix.md). Publication **NOT CLEARED**. The dated entries below preserve prior routes; they are not a current task queue.
 
 - [LO1 Locations -> Outpost field lineage](experiments/locations-outpost/report.md): full informational inventory, inherited metrics, count/allowance semantics, selected metadata and schematic asset providers; [review](experiments/locations-outpost/review.md).
 

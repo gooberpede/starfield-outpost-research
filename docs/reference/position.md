@@ -1,7 +1,7 @@
 # Planetary location and position reference
 
 [Guide](../guides/position.md) · [Glossary](glossary.md) ·
-[Claim crosswalk](../audits/foundation-d5az/claims.csv)
+[Selected claims](../history/claims.md#position)
 
 ## Saved coordinate joins
 
@@ -94,4 +94,4 @@ verification of historical loaded-centre comparisons and the broader frozen
 position set. The reported calculations are inspectable. Source replay
 requires lawful pinned inputs and the recorded extraction method. Selected F1
 controls remain **PENDING RELEASE** and cannot supply a historical runtime
-epoch. [Access distinctions](../audits/publication-architecture-d5ax/evidence-access.md#f1-continuity).
+epoch. [Reader access and limits](../reference/evidence-access.md).

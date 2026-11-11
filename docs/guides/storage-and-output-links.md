@@ -87,4 +87,4 @@ record semantics and load authority remain open. The exact inspection route
 requires the CORE baseline, the five ADDENDUM saves and the qualified reader
 with its controls.
 [Controlled sequence](../experiments/output-link-validation-L0-L2C.md) ·
-[Publication decision and checks](../audits/publication-decisions-d5bq/README.md)
+[Selected evidence and limits](../first-release-scope.md)

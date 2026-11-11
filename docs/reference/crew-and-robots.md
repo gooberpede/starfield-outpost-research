@@ -1,7 +1,7 @@
 # Crew and robots technical reference
 
 [Reader guide](../guides/crew-and-robots.md) ·
-[Claim and evidence map](../audits/remaining-guides-d5bc/claims.md) ·
+[Selected claims](../history/claims.md#crew-and-robots) ·
 [Build and source pins](../experiments/robots/report.md#evidence-and-material-gaps)
 
 The native and definition paths below use retail 1.16.244.0 and the pinned

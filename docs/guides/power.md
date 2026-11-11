@@ -42,6 +42,12 @@ unreachable from the devices under assessment. An open switch can prevent
 assessment from expanding through it. An alternate path can still reach a
 device, and the generation pass has its own rules.
 
+~~~text
+Generator contribution -> supply for the assessed component
+Consumer traversal -> cumulative demand in discovery order
+Demand compared with supply -> powered decision for that consumer
+~~~
+
 For an eligible component with supply 10 and demands 6, 6, 1 discovered in
 that order, the cumulative demands are 6, 12, 13. Only the first device
 fits. The failed second device's demand stays in the sum, so the final
@@ -74,8 +80,8 @@ was untraced. Other graphs, effective values and load orders can differ.
 
 Independent verification for release of the original Save29 bytes still
 requires the exact selected CORE member and a qualified read-only reader.
-[Publication decision and checks](../audits/publication-decisions-d5bq/README.md)
+[Selected evidence and limits](../first-release-scope.md)
 
 [Technical reference and tracked allocation check](../reference/power.md) ·
-[Glossary](../reference/glossary.md#availability-and-production) ·
-[Evidence and access](../audits/production-guides-d5ba/claims.md).
+[Glossary](../reference/glossary.md#electrical-state) ·
+[Selected claims](../history/claims.md#power).

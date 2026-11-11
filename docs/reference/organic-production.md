@@ -127,4 +127,4 @@ $recipes | Where-Object ires -in '000777e6', '00224640' |
 **PUBLICATION DEPENDENCY — EVIDENCE ACCESS PENDING** for primary
 verification of the six historical Save52 greenhouse joins and the
 original native and UI evidence.
-[Claim and access crosswalk](../audits/production-guides-d5ba/claims.md).
+[Selected claims](../history/claims.md#organic-production).

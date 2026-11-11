@@ -2,8 +2,8 @@
 
 [Reference index](README.md) · [Guide index](../guides/README.md)
 
-This glossary is for readers familiar with reverse engineering or Creation
-Kit (CK) modding. Bethesda and CK names, recovered native labels, research
+Use this glossary for technical terms and the
+[research identifier index](../history/research-identifiers.md) for study labels. Bethesda and CK names, recovered native labels, research
 abstractions and observer labels serve different purposes. Unless a cited
 source establishes an original name, descriptive native names here identify
 the audited role. Native behavior is scoped to the cited build and path.
@@ -290,6 +290,15 @@ item can represent itself. A compound PackIn uses a qualifying dummy.
 Generated members and foundations do not each add a root.
 [Root selection and correction](identity.md#counting-physical-roots).
 
+### PackIn
+
+An installed compound-object template (PKIN). An instance can have an
+ordinary construction representative, generated members and foundations
+linked through qualified saved relationships. A template definition alone
+cannot establish that a particular instance was placed or saved.
+[Ordinary construction controls](../experiments/workshop-membership/validation.md) ·
+[Variant assemblies](../experiments/construction-variants/report.md).
+
 ### Canonical assembly
 
 A research grouping of references deduplicated by qualified source,
@@ -452,6 +461,19 @@ artifact. Record the domain with every numeric locator.
 | Native offset | Byte displacement from an explicitly named native object, structure or other runtime base. A member displacement such as ProcGen `+0x40` requires that object's layout and differs from an image RVA. |
 | Source-file offset | Byte position in a named input file. A decompressed-stream offset instead locates a byte in the logical payload. State which representation supplies the offset, since compressed save bytes, logical save bytes and PE file bytes have separate domains. |
 
+## Input, identifier and timing notation
+
+| Term | Definition and distinction |
+| --- | --- |
+| N244 and H? | N244 refers to the principal pinned Starfield 1.16.244.0 native and installed-definition baseline. H? marks an unknown historical executable of origin. A save's embedded version metadata does not establish an originating executable hash. [Build and input identities](evidence-access.md#build-and-input-identities). |
+| ESM, BA2 and PEX | An ESM supplies installed game definitions such as resource and recipe forms. A BA2 is an archive of installed assets such as terrain inputs. PEX is compiled Papyrus script code. Declarations, compiled script behavior and actual native execution have separate evidence. [Access layers](access-and-save-framing.md). |
+| Papyrus virtual machine (VM) | The engine's script execution environment. A queued, due game-time callback still requires dispatch and execution. A native recipe scheduler or flight package has its own clock and admission conditions. [Cargo clocks](cargo.md#clocks-and-native-completion). |
+| Saved RefID token | In qualified R3 framing, a three-byte big-endian tagged reference operand whose interpretation uses save-local tables and remapping. A decoded reference identity can resolve to a runtime handle. [Framing](access-and-save-framing.md#frame-the-sample-before-interpreting-a-field). |
+| Epoch | The interval or snapshot in which an identity, pointer alias, graph, timer or UI payload is meaningful. A matching address or source key alone cannot establish continuity across retirement or a fresh process. [Lifetime](resource-generation.md) and [UI refresh](locations-ui.md#collector-and-refresh-lanes). |
+| Vtable byte offset | Displacement from a named virtual method table, separate from a slot index or a field offset in the receiver object. For example, SD1 uses byte offset 0x130 from the item interface's table. [Native example](../experiments/containers-displays/native.md). |
+| Bit mask and bit index | A bit mask selects positions in a field. The mask 0x10 selects zero-based bit 4. A multi-bit raster sample, a saved change mask and a native extra tag use separate domains. |
+| Nominal and effective | Nominal describes the stated model or base conditions, such as a horizontal outpost disk or base rate. Effective describes the active inputs and gates of a particular consumer, such as clipped territory or a rate under current modifiers. Realized output further requires an observed result. [Biomes](nominal-biomes.md) and [production](inorganic-production.md). |
+
 ## Evidence language
 
 These project reporting terms describe basis, premises or verification
@@ -460,6 +482,11 @@ coverage. Confidence and access eligibility are separate dimensions.
 
 | Term | Meaning in a claim |
 | --- | --- |
+| PROVEN, STRONG, PROVISIONAL and OPEN | PROVEN means decisive evidence within an explicit scope. STRONG means substantial independent support with a material gap. PROVISIONAL is an unconfirmed model. OPEN has no accepted explanation. Record coverage separately. [Evidence standard](../EVIDENCE_STANDARD.md). |
+| STATIC, SAVE, RUNTIME and SOURCE-REPORTED | These identify the source of support. STATIC maps definitions or code. SAVE decodes a named serialized sample. RUNTIME records activity under the stated observation or execution. SOURCE-REPORTED attributes an account to its origin. CROSS-VALIDATED joins independent bases with the stated limits. |
+| Fixed native fixture | A bounded native-code stage run with exact supplied inputs and host. Independent execution or comparison is recorded with the individual result. Its controlled output or refusal is distinct from what an instrumented retail session observed. [Fixed-stage route](evidence-access.md#fixed-native-geometry). |
+| HELD and HISTORICAL ONLY | HELD marks an affected evidence or release route awaiting a stated condition. HISTORICAL ONLY retains the attributed report and its original scope without an exact selected replay tier. These are access or selection statuses. [Scope](../first-release-scope.md). |
+| Local qualification and publication clearance | Local qualification checks a named route with exact inputs in a stated setting. Clearance requires approval of exact contents, rights and privacy, transfer, candidate verification, and authorized release. PENDING RELEASE indicates that proposed assets are still unavailable as release downloads. [Access](evidence-access.md) and [publication policy](../PUBLICATION.md). |
 | Observed | Recorded for a particular sample or event through a named acquisition. A trace, decoded bytes and operator report have distinct origins. Inferred cause or missing events require further evidence. |
 | Inferred | Interpretation derived from observations or static relationships, with reasoning and counterexamples stated. A geometry-class match supports a proxy without directly observing the original sample. |
 | Conditional | Supported consequence if specified premises hold. A proven native branch can remain conditional for a player's unrecorded action. |

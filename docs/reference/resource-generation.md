@@ -1,7 +1,7 @@
 # Resource generation technical reference
 
 [Reader guide](../guides/resource-generation.md) · [Reference index](README.md) ·
-[Project glossary](glossary.md) · [Claim crosswalk](../audits/reader-pilot-d5ay/claims.csv)
+[Project glossary](glossary.md) · [Selected claims](../history/claims.md#resource-generation)
 
 The first eligible protected miss on the live source pointer controls
 ordinary construction. Its original request supplies the raster query.
@@ -17,7 +17,7 @@ static VAs. Subtract the image base for an RVA. Add the actual loaded base
 to the RVA for a runtime VA. Member offsets are hexadecimal bytes from
 the named object. Save offsets require their own stream domain. Descriptive
 names are research labels unless the source pins a native name.
-[Build and tool pins](../audits/publication-readiness-b3/baseline-manifest.md) ·
+[Build and input identities](evidence-access.md#build-and-input-identities) ·
 [Function register](../function-register.md) · [State register](../state-register.md).
 
 | Domain | Representation and scope |
@@ -215,8 +215,8 @@ incomplete copies have their own lifetimes and outcomes.
 | D5AK A0/A1 [report](../experiments/resource-retained-population/d5ak-a-report.md#source-identity-complete-bytes-and-lifetime-result) / [review](../experiments/resource-retained-population/d5ak-a-review.md) | Old source and contents ended. Original queries `(8,3)` and `(-1,11)` both directly sample `0x3`. The complete 5,090-byte envelope-inclusive comparison agrees. | Rebuilt identical within one process. Allocation IDs 932 and 30579 are observer labels. |
 | D5AL A0/B0 [report](../experiments/resource-retained-population/d5al-b-report.md#exact-baseline-and-represented-content) / [review](../experiments/resource-retained-population/d5al-b-review.md) | Fresh process with pinned Save52 starting inputs, new source and protected miss, B0 `(0,0)` → `0x3`. Complete 5,090-byte normalization agrees with A0. | Equal independent reconstruction. Equal allocation counters convey no cross-process continuity. |
 | D5AO N2 [report](../experiments/resource-retained-population/d5ao-n2-report.md#direct-target-chain-and-surviving-content) / [review](../experiments/resource-retained-population/d5ao-n2-review.md) | Events 3961 and 3962 bind original `(-2,11)` and `0x3`. Earlier B2 directly sampled `(5,0)` → `0x3`. | Direct sample evidence. Five direct constructors across four sessions cannot establish invariant or frequency. |
-| D5AS [series](../experiments/resource-retained-population/d5as-series-closeout.md#frozen-roster-and-comparisons) / [access review](../audits/publication-architecture-d5ax/review.md) | 30 qualified fresh-process observations. Two match the complete 4,966-byte mask-0 body. The other 28 match the 4,858-byte mask-3 body. Zero other qualified. | Two complete source/frame classes. The operator reported a Save52 load-and-visit procedure. Per-start loaded save and effective inputs were unverified. Generating mask and winner are unknown. The original pre-freeze eligibility review receipt is private. |
-| D5AT [survey](../experiments/resource-retained-population/d5at-active-associations.md) / [access review](../audits/publication-architecture-d5ax/review.md) | 17 active ordinary Save52 sites, 335 installed relationships and 65 separate alternate relations. Grid support and conditional density/layer counts have separate denominators. | Indexed source association and conditional inputs. Outside C1, completed visit cohorts and retail winners remain unmeasured. The earlier original-contract review is private and its historical BLOCKED disposition stands. The linked D5AX review audits access. |
+| D5AS [series](../experiments/resource-retained-population/d5as-series-closeout.md#frozen-roster-and-comparisons) / [selected evidence tier](../first-release-scope.md#resource-generation-cut) | 30 qualified fresh-process observations. Two match the complete 4,966-byte mask-0 body. The other 28 match the 4,858-byte mask-3 body. Zero other qualified. | Two complete source/frame classes. The operator reported a Save52 load-and-visit procedure. Per-start loaded save and effective inputs were unverified. Generating mask and winner are unknown. The original pre-freeze eligibility review receipt is private. |
+| D5AT [survey](../experiments/resource-retained-population/d5at-active-associations.md) / [selected evidence tier](../first-release-scope.md#resource-generation-cut) | 17 active ordinary Save52 sites, 335 installed relationships and 65 separate alternate relations. Grid support and conditional density/layer counts have separate denominators. | Indexed source association and conditional inputs. Outside C1, completed visit cohorts and retail winners remain unmeasured. The earlier original-contract review is private and its historical BLOCKED disposition stands. |
 
 The D5AS source-planar comparison uses origin `(-200,-200)`. A0's
 older envelope adds 232 bytes of framed source and frame metadata before
@@ -258,13 +258,12 @@ remains untested.
 | Route | Available input and verification boundary |
 | --- | --- |
 | Tracked arithmetic | Recount unique coordinates and mask shares from the [C1 CSV](../experiments/resource-retained-population/d5aq-request-mask-map.csv) with the command below. The [D5AT rankings](../experiments/resource-retained-population/d5at/active-rankings.csv) also support table arithmetic. |
-| Native and definition reconstruction | The [build manifest](../audits/publication-readiness-b3/baseline-manifest.md), [source pins](../experiments/resource-retained-population/d5aq-sources.csv) and [method](../experiments/resource-retained-population/d5aq-mask-method.md) identify lawful separately installed pinned files, owned methods and additional private inputs. Exact clean native replay was not qualified here. |
-| Save52 reconstruction | B4-F040 / HIST-0267 is a [provisional B4-F1 member](../audits/publication-readiness-b4/f1/members.csv) without a hosted URL. Full regeneration needs pinned installed-main inputs and a qualified descriptor/grid method. Save bytes cannot supply a historical event epoch. |
-| Historical observations and controls | **PUBLICATION DEPENDENCY — EVIDENCE ACCESS PENDING.** RG-AK, RG-AL, RG-AO, RG-AQ, RG-AS and B4-C19 require historical chronology, complete geometry, native-control or UI operands outside the tracked reports. A digest or private locator cannot supply the underlying evidence. [Dependency graph](../audits/publication-architecture-d5ax/claim-evidence-dependencies.csv) · [Access assessment](../audits/publication-architecture-d5ax/evidence-access.md). |
+| Native and definition reconstruction | The [Build and input identities](evidence-access.md#build-and-input-identities), [source pins](../experiments/resource-retained-population/d5aq-sources.csv) and [method](../experiments/resource-retained-population/d5aq-mask-method.md) identify lawful separately installed pinned files, owned methods and additional private inputs. The [conditional D5AG fixed-stage reader](evidence-access.md#fixed-native-geometry) is narrower than D5AQ Option C, which remains deferred. |
+| Save52 reconstruction | B4-F040 / HIST-0267 is a [Selected CORE member](../history/save-identifiers.md#b4-f1-core) without a hosted URL. Full regeneration needs pinned installed-main inputs and a qualified descriptor/grid method. Save bytes cannot supply a historical event epoch. |
+| Historical observations and controls | **PUBLICATION DEPENDENCY — EVIDENCE ACCESS PENDING.** RG-AK, RG-AL, RG-AO, RG-AQ, RG-AS and B4-C19 require historical chronology, complete geometry, native-control or UI operands outside the tracked reports. A digest or private locator cannot supply the underlying evidence. [Dependency graph](../audits/publication-architecture-d5ax/claim-evidence-dependencies.csv) · [Reader access and limits](../reference/evidence-access.md). |
 
-For the D5AS complete body comparisons and C19 native UI comparisons, see the
-[D5BE evidence index](../audits/evidence-access-d5be/README.md) for verification
-methods, original evidence and pending asset access.
+For the D5AS complete body comparisons and C19 native UI comparisons, see
+[evidence access](evidence-access.md) for methods and the pending asset status.
 
 From the repository root, set PowerShell variable `$python` to your
 Python 3 executable. This reads
@@ -304,15 +303,15 @@ retires the usual-winner subquestion, which remains unmeasured. GC-31
 has both equal and differing qualified retail geometry. The proposals
 retire GC-06, GC-24 and GC-33 for the current objective. The action ingress,
 first-refresh and readiness gaps remain historical. GC-34 and D5AV's
-GC-35–37 have conditional answers at their proposed scopes.
+GC-35, GC-36 and GC-37 have conditional answers at their proposed scopes.
 [D5AU decisions](../experiments/resource-retained-population/d5au-gap-closure-decisions.md#decision-matrix) ·
 [D5AV decisions](../experiments/resource-retained-population/d5av-cache-decision-matrix.md).
 
-GC-35–37 are answered conditionally under the independently reviewed D5AV 
-scope. The conclusions establish native mechanisms and qualified gameplay 
-transitions, but not universal player-action rules. They preserve the 
-distinction between static consequences under the stated operands and an 
-observed complete transition. The older D1 disappearing deposit report retains 
+GC-35, GC-36 and GC-37 are answered conditionally under the independently reviewed D5AV
+scope. The conclusions establish native mechanisms and qualified gameplay
+transitions, but not universal player-action rules. They preserve the
+distinction between static consequences under the stated operands and an
+observed complete transition. The older D1 disappearing deposit report retains
 its incident-attribution gap.
 [D1 case](../experiments/disappearing-deposits/report.md) ·
 [original review](../experiments/disappearing-deposits/review.md) ·

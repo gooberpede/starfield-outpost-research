@@ -131,7 +131,7 @@ one-unit rate, with no primary ESM replay or historical stock recovery.
 
 **PUBLICATION DEPENDENCY — EVIDENCE ACCESS PENDING** for primary
 verification of the historical saved joins and the original native evidence.
-[Claim and access crosswalk](../audits/production-guides-d5ba/claims.md).
+[Selected claims](../history/claims.md#fabrication).
 
 Run from the checkout root in PowerShell 7.
 

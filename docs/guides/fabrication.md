@@ -66,4 +66,4 @@ outside those observations.
 
 [Technical reference and tracked catalogue check](../reference/fabrication.md) ·
 [Glossary](../reference/glossary.md#availability-and-production) ·
-[Evidence and access](../audits/production-guides-d5ba/claims.md).
+[Selected claims](../history/claims.md#fabrication).

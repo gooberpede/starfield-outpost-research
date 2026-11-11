@@ -1,7 +1,7 @@
 # Locations outpost panel technical reference
 
 [Reader guide](../guides/locations-ui.md) ·
-[Claim and evidence map](../audits/remaining-guides-d5bc/claims.md) ·
+[Selected claims](../history/claims.md#locations-ui) ·
 [LO1 original field inventory](../experiments/locations-outpost/field-lineage.md) and
 [independent review](../experiments/locations-outpost/review.md)
 

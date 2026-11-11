@@ -1,7 +1,7 @@
 # Outpost defense technical reference
 
 [Reader guide](../guides/defense.md) ·
-[Claim and evidence map](../audits/remaining-guides-d5bc/claims.md) ·
+[Selected claims](../history/claims.md#defense) ·
 [Input and address provenance](../experiments/outpost-defense/evidence.md#input-and-address-provenance)
 
 STATIC paths use retail 1.16.244.0, installed definitions and shipped

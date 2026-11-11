@@ -1,6 +1,6 @@
 # Storage and local output links technical reference
 
-[Guide](../guides/storage-and-output-links.md) · [Reference index](README.md) · [Claim and evidence crosswalk](../audits/logistics-guides-d5bb/claims.md)
+[Guide](../guides/storage-and-output-links.md) · [Reference index](README.md) · [Selected claims](../history/claims.md#storage-and-output-links)
 
 The native paths below are STATIC for the pinned retail 1.16.244.0 image
 and installed main definitions. Addresses are preferred static VAs at image

@@ -1,7 +1,7 @@
 # Nominal biome reference
 
 [Guide](../guides/nominal-biomes.md) · [Position reference](position.md) ·
-[Claim crosswalk](../audits/foundation-d5az/claims.csv)
+[Selected claims](../history/claims.md#nominal-biomes)
 
 ## Inputs and decision path
 

@@ -1,7 +1,7 @@
 # Construction and placement reference
 
 [Guide](../guides/construction.md) · [Glossary](glossary.md) ·
-[Claim crosswalk](../audits/foundation-d5az/claims.csv)
+[Selected claims](../history/claims.md#construction)
 
 The inspected native routes use Starfield 1.16.244.0. Addresses are
 preferred static VAs at image base `0x140000000`. Sampled physical main-ESM

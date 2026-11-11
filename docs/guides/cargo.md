@@ -35,6 +35,13 @@ the ship schedules another unload and check at the same dock. Once loading
 is admitted, the ordinary load and takeoff handlers proceed without another
 fuel poll in that leg. [Stage cases](../experiments/cargo-links/fuel/stages.md).
 
+These two paths use different triggers.
+
+~~~text
+Fuel marker due cycle -> recipe and input gates -> He-3 withdrawal
+Ship arrival or retry -> either-pad readiness -> schedule loading
+~~~
+
 The fuel marker requests He-3 through [incoming local links](storage-and-output-links.md).
 The pinned recipe withdraws **five He-3 per accepted fuel-production cycle**
 with a base interval of **108 engine scheduler seconds** before modifiers. The
@@ -83,6 +90,7 @@ manually maintained network. That comparison and the historical Papyrus
 context are attributed research history. They supply no replayable voyage
 or measured flight clock. The selected Save52 original-byte checks cover
 saved relationships and inventories and still require the exact CORE
-member and qualified offline reader.
+member, exact Cargo C3 supplement and qualified offline reader.
+[Reader inputs](../reference/evidence-access.md#selected-original-witnesses)
 [Mature network comparison](../experiments/mature-save-outpost-validation.md) ·
-[Publication decision and checks](../audits/publication-decisions-d5bq/README.md)
+[Selected evidence and limits](../first-release-scope.md)

@@ -1,0 +1,47 @@
+# Applied source reading
+
+The brief controls D5BY-Q1 through Q4 and AC01 through AC12. This record
+identifies the material consulted by section and what it changed. Unrelated
+historic experiments and individual live grants do not authorize work here.
+
+| Source and relevant section | Application |
+| --- | --- |
+| [Standing orders](../../../AGENTS.md#required-reading), [workflow](../../../WORKFLOW.md#execution-and-completion-contract) and [workflow patch rules](../../../WORKFLOW.md#critical-review-of-every-diff) | One separate reviewer, active ledger before authoring, complete and task-only diff without staging, supplied brief separated, authored UTF-8/LF checked. |
+| [Third-party policy](../../../THIRD_PARTY_POLICY.md#maintainer-owned-material), [permission register](../../PERMISSIONS.md#sor-p-0002--standing-maintainer-owned-material-grant), [source and attribution](../../SOURCES.md) and [notices](../../../THIRD_PARTY_NOTICES.md) | Adapted only owned project explanations and metadata at the intake revision. Preserved the original Bethesda, tools and observer attribution and scope. No outside incorporation or outreach. |
+| [Charter scope](../../CHARTER.md#scope), [research state](../../RESEARCH_STATE.md) and [subsystem map](../../subsystems/README.md) | Retained the runtime/persistence relationship across all 18 reader routes. Read current dated D5BV, D5BQ, D5BO, D5BM/BJ and D5AU–AV entries against the earlier case reports and distinction between saved, reconstructed and operating state. |
+| [Decisions](../../DECISIONS.md#d5bv-practical-resource-generation-predictability--2026-11-11), D5BQ, D5BP, D5BO, D5BN, D5BJ, D5BI, D5BH, D5AW and D5AU through D5AL | D5BV sets the practical result and keeps the original D5AG verdict. D5BP/Q select exact tiers, D5BH bounds D5AS and D5AW controls independent durable access. D5AT/AL govern sequential review and recovery of truncated relevant reading. |
+| [Save protection](../../SAVE_PROTECTION.md#namespace-and-evidence-boundaries) and [publication](../../PUBLICATION.md#publication-independence) | No access to originals, saves, game data or private evidence was needed. No reclassification of historical save identity or retention. Track pending candidate assets and independent B6 separately. |
+| [Evidence standard](../../EVIDENCE_STANDARD.md#scoped-conclusions-and-coverage), address discipline and artifact rules | Separate confidence, basis, coverage and access. Introduced exact RefID, VA/RVA, vtable, bit and host glossary domains. No evidence byte change or new findings. |
+| [Editorial standard](../../EDITORIAL_STANDARD.md#mandatory-sequence-and-independent-enforcement), [protocol](../../RESEARCH_EXECUTION_PROTOCOL.md#controlling-question-and-outcome-gate), [contract](../../templates/completion-contract.md) and [reviewer procedure](../../reviewers/research-completion-reviewer.md#mandatory-scientific-completeness-challenge) | Preserve the first REWORK and distinguish source reading, link/fixture checks, exact delivery and unfamiliar-reader review. |
+| [Run card](../../PUBLICATION_RUN_CARD.md), sections A–D and F–G | Candidate identity, author/rights/custody decisions, staged B6, actual hosted byte and approval checks remain pending. No handoff initiates those operations. |
+| D5AW dispositions and decisions, D5AW v2 and D5AX architecture, migration, archive plan and inbound/reference census | B1 selected questions are ordinary cases, with paired scope and method pages. D5AX's three reader routes are already partly implemented. Historical loose exception proposals and fixed census counts do not control 7B. |
+| B0 baseline and gate rules, B1 claim matrix with 16 parents and ten continuations, RC1 report/review and declarations, B2 notation and source IDs, B3 baseline and methods, B4 and F1 selection, B5 safety/retention | Retained version-bound source, representative historic framing, optional versus indispensable witness tiers and no implicit cleanup. Kept RC1 scientific tables discoverable and marked archival migration separately from research. |
+| D5BG claims/actions/edges, D5BR selected records and review, D5BV routes and final substantive review | Preserve 71 inherited claims, 31 actions, 110 edges, 68 selected route IDs and 126 joins. Tracked synthesized indexes read original metadata. A local checker may fail on a changed source pin even when only prose was edited. Restored those exact inputs. |
+| D5BF inventory, D5BH and D5BI qualification, D5BO B2 sufficiency and fixed-stage reuse, D5BT readers, D5BU methods/review, D5BW access and D5BX exact identity and final review | Separate two CORE/ADDENDUM original groups and five derivatives from two unhosted supplementary files. Recorded named commands, effects, inputs, scope and what the reader can actually check. D5BX locally supplies two formerly missing operands; it does not host or clear them. |
+
+## Primary scientific sections and how they were applied
+
+The claim index links all selected rows to the original report, review or
+technical route. The following checks control material explanations and
+counterexamples in the scope and navigation edits.
+
+| Subject | Source section and applied limit |
+| --- | --- |
+| Identity | [Membership scoped positive](../../experiments/workshop-membership/report.md) and [population outcome](../../experiments/workshop-population/report.md) support explicit owner edges and 848 supported roots. The bounded negative and [alternate-reference case](../../experiments/active-outpost-membership-completion.md) constrain Hab and exhaustive membership. |
+| Position | [Coordinate sufficiency result](../../experiments/coordinate-sufficiency/report.md), [position specification](../../position-model/specification.md) and [review](../../position-model/review.md) constrain cell and frame reconstruction to the qualified sample. Arithmetic and named controls cannot supply universal loaded XYZ. |
+| Biomes | [Nominal traversal](../../experiments/outpost-biomes/nominal.md), [saved contrasts](../../experiments/outpost-biomes/saves.md) and [review](../../experiments/outpost-biomes/review.md) establish three named disks, including two different Feynman V sites. Review01 corrected the initial body-level wording. |
+| Resource generation | [Fixed geometry and historical status](../../experiments/resource-retained-population/d5ag-review.md), [D5AQ feasibility](../../experiments/resource-retained-population/d5aq-report.md), [D5AS roster and exclusions](../../experiments/resource-retained-population/d5as-series-closeout.md), [D5AU decisions](../../experiments/resource-retained-population/d5au-gap-closure-decisions.md) and [D5AV conditional returns](../../experiments/resource-retained-population/d5av-report.md) distinguish controlled calculation, acquired classes and conditional lifecycle. The [D1 synthesis](../../experiments/disappearing-deposits/subsequent-research.md) retains non-attribution. |
+| Production | [E1](../../experiments/inorganic-extractors/report.md), [E2](../../experiments/organic-facilities/report.md) and [E3](../../experiments/fabricators/report.md) answer installed admission, rates, selection, producer rows and ingredients. Their reviews limit throughput, husbandry witnesses and complete corpus claims. |
+| Power and storage | [Save29 adjudication](../../experiments/power/save29-authority.md), [storage](../../experiments/storage/report.md) and [movement](../../experiments/local-output-links/report.md) separate saved state and current order, inventory gates, local redistribution and produced delivery. |
+| Cargo | [C1 configuration](../../experiments/cargo-links/configuration-ui/report.md), [C2 transit](../../experiments/cargo-links/transport/transit-review.md) and [C3 fuel](../../experiments/cargo-links/fuel/report.md) control shared hold, dynamic clocks and periodic He-3. Saved Cargo relationships do not replay a voyage. |
+| Crew and construction | [Crew lifecycle](../../experiments/crew-lifecycle/report.md), [robot variants](../../experiments/robots/report.md), [catalogue](../../experiments/build-catalogue/report.md), [placement](../../experiments/spatial-placement/report.md) and [variants](../../experiments/construction-variants/report.md) keep assignment, effective effects, admission and reload separate. |
+| Defense and displays | [Defense](../../experiments/outpost-defense/report.md), [display residence](../../experiments/containers-displays/report.md) and their reviews retain attack non-attribution and the independent displayed-item channel. |
+| Shared and stored resources | [Shared backing and spending](../../experiments/shared-outpost-storage/report.md) and [Stored Resources](../../experiments/stored-resources/report.md) separate provider enumeration, units and effective quantities. The three SD2 census/reader tiers remain distinct. |
+| Locations and framing | [Locations field lineage](../../experiments/locations-outpost/field-lineage.md), [R3 record structure](../../experiments/active-outpost-identification.md#new-structural-evidence) and RC1 declarations separate provider snapshot epochs from wire framing and capability. |
+
+The implementer read the decisive portions used in the synthesis, including
+continuations of initially truncated governing output. The historical corpus
+includes much longer implementation, permission and receipt detail outside the
+selected reader propositions. This record does not assert a fresh independent
+audit of those source results. The reviewer checks relevant coverage and applied
+understanding under AC01.

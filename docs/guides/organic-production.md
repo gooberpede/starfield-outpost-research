@@ -65,4 +65,4 @@ accepted output of a loaded facility remain unobserved.
 
 [Technical reference and tracked recipe check](../reference/organic-production.md) ·
 [Glossary](../reference/glossary.md#availability-and-production) ·
-[Evidence and access](../audits/production-guides-d5ba/claims.md).
+[Selected claims](../history/claims.md#organic-production).
