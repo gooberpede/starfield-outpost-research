@@ -1,0 +1,582 @@
+{
+  "blocked_original_checks": [],
+  "crosswalk_sha256": "67d610f6e66564c93b051b269ce0707f41262784180fab4aa618a21b81b81bc1",
+  "original_route_count": 14,
+  "release_routes_closed": 0,
+  "routes": {
+    "P-BIOME-METHOD": {
+      "batch": "A1",
+      "claims": {
+        "C03-FRAME-CONTROL": [
+          "DECIDE-C03-FRAME-CONTROL"
+        ]
+      },
+      "controls": "HIST-0035 non-unique later-style descriptor, exact-dyadic boundary contrast and negative/nonintersecting cells. Save37 isn't held-out; Save31/33 and HIST-0210 have different scopes.",
+      "members": {
+        "B4-F1-ADDENDUM": [
+          "B4-F049"
+        ],
+        "B4-F1-CORE": [
+          "B4-F040",
+          "B4-F047",
+          "B4-F003"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_geography.py",
+        "sha256": "c0aca175e668d8f6493e23f0d175d7e7657681fac17abc83322a5f4596e06559"
+      },
+      "receipts": [
+        {
+          "locator": "rework01/geography-frozen/result.json",
+          "sha256": "72719d6d064c0caaaf518218ab454097769e4e1e29731b8955b8ed190edb96cd"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [],
+      "scope": "Rejoin Save52, Kreet Save25 and held-out Save39 to the named maps and reproduce positive-area frame/cell checks in cases.csv and cells.csv. HIST-0035 is the scoped older-frame comparison.",
+      "status": "verified original check",
+      "transitive_requires": []
+    },
+    "P-BIOME-ORIGINALS": {
+      "batch": "A1",
+      "claims": {
+        "C03-FRAME-CONTROL": [
+          "DECIDE-C03-FRAME-CONTROL"
+        ]
+      },
+      "controls": "HIST-0035 non-unique later-style descriptor, exact-dyadic boundary contrast and negative/nonintersecting cells. Save37 isn't held-out; Save31/33 and HIST-0210 have different scopes.",
+      "members": {
+        "B4-F1-ADDENDUM": [
+          "B4-F049"
+        ],
+        "B4-F1-CORE": [
+          "B4-F040",
+          "B4-F047",
+          "B4-F003"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_geography.py",
+        "sha256": "c0aca175e668d8f6493e23f0d175d7e7657681fac17abc83322a5f4596e06559"
+      },
+      "receipts": [
+        {
+          "locator": "rework01/geography-frozen/result.json",
+          "sha256": "72719d6d064c0caaaf518218ab454097769e4e1e29731b8955b8ed190edb96cd"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "P-BIOME-MODEL",
+        "D5BF-CORE",
+        "D5BF-ADDENDUM",
+        "P-BIOME-METHOD"
+      ],
+      "scope": "Rejoin Save52, Kreet Save25 and held-out Save39 to the named maps and reproduce positive-area frame/cell checks in cases.csv and cells.csv. HIST-0035 is the scoped older-frame comparison. Named positives: Feynman V 12 FrozenNoLife09 and two CanyonsNoLife06, Carinae III-a 14 HillsNoLife08, other Feynman site 15 Canyons across rows 147/146; held-out Save39 15 VolcanicRoughLifeKreet and Save25 15/13 MountainsLifeKreet.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-ADDENDUM",
+        "D5BF-CORE",
+        "P-BIOME-METHOD",
+        "P-BIOME-MODEL"
+      ]
+    },
+    "P-BUILD-SAVES": {
+      "batch": "A6",
+      "claims": {
+        "C25-ORIGINALS": [
+          "DECIDE-C25-ORIGINALS"
+        ]
+      },
+      "controls": "Case-7 one-byte 0x00 is not Boolean semantics. Keep prefix gaps 167/167/167 and 165/166/166. Missing radius override \u2260 missing effective radius. Photos distinguish restricted/intersection/permissive; 203 m does not measure radius or join a specific rejected object/XYZ/epoch. Exclude F022/F024.",
+      "members": {
+        "B4-F1-ADDENDUM": [
+          "B4-F011",
+          "B4-F012",
+          "B4-F013",
+          "B4-F014",
+          "B4-F015",
+          "B4-F016"
+        ],
+        "B4-F1-CORE": [
+          "B4-F029",
+          "B4-F030",
+          "B4-F031",
+          "B4-F032",
+          "B4-F033",
+          "B4-F034",
+          "B4-F035",
+          "B4-F036",
+          "B4-F037",
+          "B4-F038",
+          "B4-F039",
+          "B4-F041",
+          "B4-F042",
+          "B4-F043",
+          "B4-F044",
+          "B4-F045",
+          "B4-F051"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_controls.py",
+        "sha256": "49b5e4f583fe44fe4120a574c71976b76c81f46f7f99a9a50fe487f5be9aefb3"
+      },
+      "receipts": [
+        {
+          "locator": "rework01/construction-frozen.json",
+          "sha256": "fd690123dc4918a15daaad57d0be806276a216ff8f3e04c848fcd96e0f1ee968"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "P-BUILD-PLACEMENT",
+        "D5BF-CORE",
+        "D5BF-ADDENDUM"
+      ],
+      "scope": "Save30/31/33 and Save34/35/36 accepted roots 0\u21921\u21923 in each series; bulldozed mask 0x01000000 counts 0\u21921\u21924 and 0\u21921\u219212. Retained beacons 0xff029ab6/0xff041cc1; PackIn base 0x015804; solar and extractor roots join qualified owner/position. BF AV399 7\u21929, registration 0\u21921. CORE paired S0\u2013S7 counts 0/1/2/4/4/4/4/3, with no-action controls matching; BF AV399 7/8/10/9 at named transitions. H255 scopes DA/191/group cases. HIST-0210's four-wall comparison is a different local-only route.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-ADDENDUM",
+        "D5BF-CORE",
+        "P-BUILD-PLACEMENT"
+      ]
+    },
+    "P-FAB-0036": {
+      "batch": "A2",
+      "claims": {
+        "C06-0036": [
+          "DECIDE-C06-0036"
+        ],
+        "C06-CENSUS": [
+          "DECIDE-C06-CENSUS"
+        ]
+      },
+      "controls": "Preserve failed leading-BF/explicit-AV assumption and unknown/unqualified rows. Reject Save52 as substitution. No recipe effect/output inference from registration.",
+      "members": {
+        "B4-F1-CORE": [
+          "B4-F064"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_fabricators.py",
+        "sha256": "df0a1b72d235ed684b4cfbf1930aadd017694fc6bde78bd95ee4053e4e09432a"
+      },
+      "receipts": [
+        {
+          "locator": "rework01/e3-frozen.json",
+          "sha256": "330a80466563f638e0607123a88941426eb762cc8cf976b137729b0bd48e004a"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "P-FAB-STATIC",
+        "D5BF-CORE"
+      ],
+      "scope": "17 fabricators in 14 groups, all 17 counted extras close with no selected ExtraBF AV override, installed preset 1 agrees with registered IRES, 24 local BFS paths, 53 storage and 29 incoming-cargo boundary observations, 307 joined endpoints.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-CORE",
+        "P-FAB-STATIC"
+      ]
+    },
+    "P-POSITION-CORE": {
+      "batch": "A1",
+      "claims": {
+        "C02-ORIGINALS": [
+          "DECIDE-C02-ORIGINALS"
+        ],
+        "C18-FULL-CONTROLS": [
+          "DECIDE-C18-FULL-CONTROLS"
+        ]
+      },
+      "controls": "Save38/39 exact XY bits but Z differs by 0.0000152587890625 in saved local frame. Save25 unrelated type-6 payload fails closure. Negative-X 0x2b fine X=13151 and anchor=13152 reject 13153. Reject malformed framing, unqualified ownership/frame or unsupported versions.",
+      "members": {
+        "B4-F1-CORE": [
+          "B4-F001",
+          "B4-F002",
+          "B4-F003",
+          "B4-F047",
+          "B4-F053"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_geography.py",
+        "sha256": "c0aca175e668d8f6493e23f0d175d7e7657681fac17abc83322a5f4596e06559"
+      },
+      "receipts": [
+        {
+          "locator": "rework01/geography-frozen/result.json",
+          "sha256": "72719d6d064c0caaaf518218ab454097769e4e1e29731b8955b8ed190edb96cd"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "P-POSITION-MATH",
+        "D5BF-CORE",
+        "P-POSITION-METHOD"
+      ],
+      "scope": "Save37/38/39 counts 0/0/1. Player 0x400014 parents fixed 0x725868, source 0x81482d and site 0x839160. Save39 beacon 0x841421, decoded record [1355959,1356294), world 0x278737, descriptor 3890 with key 02b20e7831e037e0. Frame 0x0b gives chart-0 (14314,12779), Lab anchor (14312,12774), and SOR-002/003 chart-1 (10465,21122)/(10467,21144). Compare Save25 and Save26 fixed anchors within qualified frames. Save26 SOR-003 changed P with nonzero D, and C=f32(P+D) matches Save25 bitwise. F052 is a different, nonselected Save26.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-CORE",
+        "P-POSITION-MATH",
+        "P-POSITION-METHOD"
+      ]
+    },
+    "P-POSITION-METHOD": {
+      "batch": "A1",
+      "claims": {
+        "C02-ORIGINALS": [
+          "DECIDE-C02-ORIGINALS"
+        ],
+        "C18-FULL-CONTROLS": [
+          "DECIDE-C18-FULL-CONTROLS"
+        ]
+      },
+      "controls": "Save38/39 exact XY bits but Z differs by 0.0000152587890625 in saved local frame. Save25 unrelated type-6 payload fails closure. Negative-X 0x2b fine X=13151 and anchor=13152 reject 13153. Reject malformed framing, unqualified ownership/frame or unsupported versions.",
+      "members": {
+        "B4-F1-CORE": [
+          "B4-F001",
+          "B4-F002",
+          "B4-F003",
+          "B4-F047",
+          "B4-F053"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_geography.py",
+        "sha256": "c0aca175e668d8f6493e23f0d175d7e7657681fac17abc83322a5f4596e06559"
+      },
+      "receipts": [
+        {
+          "locator": "rework01/geography-frozen/result.json",
+          "sha256": "72719d6d064c0caaaf518218ab454097769e4e1e29731b8955b8ed190edb96cd"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [],
+      "scope": "Save37/38/39 counts 0/0/1. Player 0x400014 parents fixed 0x725868, source 0x81482d and site 0x839160. Save39 beacon 0x841421, decoded record [1355959,1356294), world 0x278737, descriptor 3890 with key 02b20e7831e037e0. Frame 0x0b gives chart-0 (14314,12779), Lab anchor (14312,12774), and SOR-002/003 chart-1 (10465,21122)/(10467,21144). Compare Save25 and Save26 fixed anchors within qualified frames. Save26 SOR-003 changed P with nonzero D, and C=f32(P+D) matches Save25 bitwise. F052 is a different, nonselected Save26.",
+      "status": "verified original check",
+      "transitive_requires": []
+    },
+    "P-ROOT-COUNTS": {
+      "batch": "A2",
+      "claims": {
+        "B4-C17": [
+          "DECIDE-B4-C17"
+        ]
+      },
+      "controls": "Retain 16 unresolved canonical groups, both Hab cases, distinct ChairGeneric roots, no 9C imputation and no ownership from DA/WRLD\u2192LCTN. census population_complete=false.",
+      "members": {
+        "B4-F1-CORE": [
+          "B4-F040",
+          "B4-F042",
+          "B4-F043"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_controls.py",
+        "sha256": "49b5e4f583fe44fe4120a574c71976b76c81f46f7f99a9a50fe487f5be9aefb3"
+      },
+      "receipts": [
+        {
+          "locator": "rework01/roots-frozen.json",
+          "sha256": "e51360ceacffac7448e1b1f6151be8358df19140422a97ba3dfc451d0df08f79"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "P-IDENTITY",
+        "D5BF-CORE"
+      ],
+      "scope": "848 supported roots = 657 baseline + 191 (51 STAT, 89 FURN, 51 PKIN); 19 beacons 17 clear/2 disabled; 6,345 rooted member identity/offset/type tuples; 8,627 ordinary rows = 848 roots + 5,497 other direct + 2,282 transitive, plus one nonordinary unresolved lead.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-CORE",
+        "P-IDENTITY"
+      ]
+    },
+    "P-SHARED-CORE-CENSUS": {
+      "batch": "A2",
+      "claims": {
+        "C14-CENSUS": [
+          "DECIDE-C14-CENSUS"
+        ],
+        "C14-ORIGINALS": [
+          "DECIDE-C14-ORIGINALS"
+        ]
+      },
+      "controls": "Preserve zero-row, unsupported version and unresolved framing distinctions. Inline matches alone provide no fresh owner join or stock quantities.",
+      "members": {
+        "B4-F1-CORE": [
+          "B4-F051",
+          "B4-F040"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_controls.py",
+        "sha256": "49b5e4f583fe44fe4120a574c71976b76c81f46f7f99a9a50fe487f5be9aefb3"
+      },
+      "receipts": [
+        {
+          "locator": "rework01/sd2-frozen.json",
+          "sha256": "b3b29f184f7c787ad0e54ad63be0280c5398e4ad826c81bfc3782f655a2b6f5f"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "P-SHARED-TABLE",
+        "D5BF-CORE"
+      ],
+      "scope": "HIST-0255/Save41 has 16 and Save52/HIST-0267 has 17 qualified inline-base fixture records. Count separately from fresh owner joins.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-CORE",
+        "P-SHARED-TABLE"
+      ]
+    },
+    "P-SHARED-ORIGINALS": {
+      "batch": "A2",
+      "claims": {
+        "C14-CENSUS": [
+          "DECIDE-C14-CENSUS"
+        ],
+        "C14-FRESH-TRIO": [
+          "DECIDE-C14-FRESH-TRIO"
+        ],
+        "C14-ORIGINALS": [
+          "DECIDE-C14-ORIGINALS"
+        ]
+      },
+      "controls": "No inventory-change branch leaves unknown contents. H255 and Save52 census cases cannot substitute for HIST-0018 or HIST-0257 fresh joins.",
+      "members": {
+        "B4-F1-CORE": [
+          "B4-F064"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_controls.py",
+        "sha256": "49b5e4f583fe44fe4120a574c71976b76c81f46f7f99a9a50fe487f5be9aefb3"
+      },
+      "receipts": [
+        {
+          "locator": "rework01/sd2-frozen.json",
+          "sha256": "b3b29f184f7c787ad0e54ad63be0280c5398e4ad826c81bfc3782f655a2b6f5f"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "P-SHARED-STATIC",
+        "D5BF-CORE"
+      ],
+      "scope": "HIST-0036: 17 fixtures of canonical add-on base 0x02af77 join 17 distinct ordinary beacon bases 0x2c60e9 by explicit owner key 0x054ba6. First fixture 0xff01a5a0 at decoded 3051921; disabled/deleted clear.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-CORE",
+        "P-SHARED-STATIC"
+      ]
+    },
+    "S-C23-SAVE52": {
+      "batch": "A2",
+      "claims": {
+        "B4-C23-SAVE52-ORIGINAL": [
+          "DECIDE-B4-C23-SAVE52-ORIGINAL"
+        ]
+      },
+      "controls": "Four Extra30 plus one ExtraD9 inventory unknowns; no inventory-change branch cannot establish empty. Ordinary hold He-3 is freight. Alkanes adverse ingredient. Check no scoped incoming edge for each pad01, gas1 cannot pay five, and cached/override absence differs from zero. Preserve C1 initial Extra33 prefix gap separately from later positively closed zero stock; reject unsupported mod flags/masks/counts.",
+      "members": {
+        "B4-F1-CORE": [
+          "B4-F040"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_cargo.py",
+        "sha256": "41b460114215a408d2fb2b37094454c27aa972854f0221c265c37be0664b0135"
+      },
+      "receipts": [
+        {
+          "locator": "rework01/cargo-qualified.json",
+          "sha256": "fdb2b73aeab8e18b0e5098367bedd63d391e26b0b2f10a3134decd67dcfcfcc6"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "scope": "Principal pair marker 0xff02c3c4 (VII-b) at decoded 3810829, counted 4C 3810958, and 0xff03444c (I) at 4505842, 4C 4505971. Reciprocal LinkActive 0x255cc8, common LinkShip 0x255cc7 to GBFM hold 0xff02dc37 at 2344136 with ship 4C 2344486. Four bay roles: VII-b out/in 0xff02c3ef/0xff02c3f0 at 3826329/3826450 and I out/in 0xff034474/0xff034475 at 4521282/4521403. Landing 0xff02c3c3/0xff03444b. Shared principal inventory closes zero [2344497,2344498). C2 246 edges, 61 markers, 19 closed inventories (11 stocked/8 empty). C3 scoped 944 records; four source inventories 0xff04fb23/0xff050483/0xff036b0f/0xff036b11 carry 1/150/15/15 He-3, at count offsets 5801989/5873692/4567639/4568153. Four pad producer rows IRES 0x21e6ff at 5811894/4440860/3760441/3616939, cached flags 0/1/0/0, all pending 0 and one iteration; remaining 30.271221160888672 and interval 102.5999984741211 engine seconds. Explicit AV 0x338 values 1 and 2 in the two named rows. Direction and stock controls: principal Current 0x255cc3\u2192I landing 0xff03444b, AV 0x2457af=1; ordinary 0xff019341 has He-3\u00d7558 and Gold\u00d73, Current\u219201. Fueled 0xff01c5b7 has Ionic Liquids\u00d77, Current\u219201 without explicit destination AV; fueled 0xff047b8b has Lithium\u00d73, Current\u219202 with destination AV=1. Both pad01 branches lack incoming serialized links in the scoped envelope.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-CORE"
+      ]
+    },
+    "S-P1-S29-ORIGINAL": {
+      "batch": "A3",
+      "claims": {
+        "B4-C21-SAVE29-ORIGINAL": [
+          "DECIDE-B4-C21-SAVE29-ORIGINAL"
+        ]
+      },
+      "controls": "Unsupported ExtraBC baseline, counted-extras end/ref cursor, no non-CB closure. Swap consumer order and winner changes. Flipping old flags changes only diff. Supply 6 versus demand 5 then cumulative 10 is conditional.",
+      "members": {
+        "B4-F1-CORE": [
+          "B4-F054"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/d5bt_reader.py",
+        "sha256": "ff36df08a89f854ef6afdbb6a68068a442f58458ce9503244b0fb83f9b2cc60a"
+      },
+      "receipts": [
+        {
+          "locator": "save29/result.json",
+          "sha256": "4f877b2da6b27b6ba889e673a144632eb857a8418500e6e017292a7b8a1ccf61"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "scope": "All 20,825 R3 records frame. The four half-open decoded REFR spans are beacon 0xff022778 [1298916,1299344), solar 0xff022841 [1300005,1300509), extractor #1 0xff022917 [1300577,1301023) and #2 0xff02294d [1301249,1301671). Beacon ExtraCB [1299159,1299173) orders solar then #1 then #2, all word 1. Reverse word-1 rows to beacon at [1300178,1300184), [1300678,1300684), [1301343,1301349). Four Extra9C spans [1299043,1299048), [1300167,1300172), [1300659,1300664), [1301324,1301329) give 0x840/0x840/0x840/0x800. Counted extras and reference cursors agree with the independent linked-prefix walk.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-CORE"
+      ]
+    },
+    "S-S2-L-CONTROLS": {
+      "batch": "A4",
+      "claims": {
+        "B4-C22-L-SERIES-ORIGINAL": [
+          "DECIDE-B4-C22-L-SERIES-ORIGINAL"
+        ]
+      },
+      "controls": "L0 literal 04 82 2c 5d 08 82 2d 48 04 82 2d a9 fails from L0C. Token-only substitution also fails at L0C due to entry order. Preserve old T collision, repeated-role-token ambiguity, frame bounds and independent roles. L1/L1C and L2/L2C close identically; L0/L0C crosses reload/time.",
+      "members": {
+        "B4-F1-ADDENDUM": [
+          "B4-F055",
+          "B4-F056",
+          "B4-F057",
+          "B4-F058",
+          "B4-F059"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_output_links.py",
+        "sha256": "73537cf4aa93c8a746df56c6e05dd85a7f7de3dcf005917fb33107e120a33223"
+      },
+      "receipts": [
+        {
+          "locator": "output-links-reviewed.json",
+          "sha256": "537d879510e98572091d9fa0f00bf5bb6d50ac681f4b052121fa360ac4394a16"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "D5BF-ADDENDUM"
+      ],
+      "scope": "L0C/L1/L1C/L2/L2C decoded payload offsets 425510/425510/425510/426830/426826 and lengths 19/12/12/19/19. Pair offsets 425522, absent, absent, 426835, 426831. Discriminators 0x08/0x04/0x04/0x08/0x08.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-ADDENDUM"
+      ]
+    },
+    "S-S2-L0": {
+      "batch": "A4",
+      "claims": {
+        "B4-C22-L-SERIES-ORIGINAL": [
+          "DECIDE-B4-C22-L-SERIES-ORIGINAL"
+        ]
+      },
+      "controls": "L0 literal 04 82 2c 5d 08 82 2d 48 04 82 2d a9 fails from L0C. Token-only substitution also fails at L0C due to entry order. Preserve old T collision, repeated-role-token ambiguity, frame bounds and independent roles. L1/L1C and L2/L2C close identically; L0/L0C crosses reload/time.",
+      "members": {
+        "B4-F1-CORE": [
+          "B4-F032"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/verify_d5bu_output_links.py",
+        "sha256": "73537cf4aa93c8a746df56c6e05dd85a7f7de3dcf005917fb33107e120a33223"
+      },
+      "receipts": [
+        {
+          "locator": "output-links-reviewed.json",
+          "sha256": "537d879510e98572091d9fa0f00bf5bb6d50ac681f4b052121fa360ac4394a16"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "D5BF-CORE"
+      ],
+      "scope": "S4C=L0. At decoded offset 425676, 19-byte relation payload discriminator 0x08 and pair at 425681. Retain the original positive literal.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-CORE"
+      ]
+    },
+    "S-SD1-H21": {
+      "batch": "A5",
+      "claims": {
+        "B4-C13-H21-DISPLAY-ORIGINAL": [
+          "DECIDE-B4-C13-H21-DISPLAY-ORIGINAL"
+        ]
+      },
+      "controls": "Independent backpack 0xff05bb91\u21920xff05bb93 and table row 1579804. Keep unsupported ExtraEB and missing branch unknown. Workshop ownership separate from player/NPC and displayed item. No rendered-restoration inference.",
+      "members": {
+        "B4-F1-ADDENDUM": [
+          "B4-F067"
+        ]
+      },
+      "next_release_action": "Retain inherited action IDs, bind this qualified method and exact inputs to the candidate, complete isolated B6, then obtain the separate transfer/visibility authority and verify hosted bytes.",
+      "reader": {
+        "path": "save-analysis/scripts/d5bt_reader.py",
+        "sha256": "ff36df08a89f854ef6afdbb6a68068a442f58458ce9503244b0fb83f9b2cc60a"
+      },
+      "receipts": [
+        {
+          "locator": "hist-0021/result.json",
+          "sha256": "fe8692f8ca8af9e4ca0eaad33afbe8c460172219f361274cc220e455ae5a5aa4"
+        }
+      ],
+      "release_status": "Still conditional pending file-specific selection/rights, frozen candidate B6 and hosted-byte verification.",
+      "requires": [
+        "D5BF-ADDENDUM"
+      ],
+      "scope": "Fixture 0xff05bb90 base 0x363cc8 decoded 5861284. Type-6/CTName closes all 43 sections; Nested table row 1579789 index 0 flag 1 joins helmet 0xff05bb92 at 5861468 (ARMO 0x026bf0), same parent 0xff020801. Extra36 reverses, Extra4C independent; seven extras close at 5861601..5861629. Fixture stock zero despite positive display.",
+      "status": "verified original check",
+      "transitive_requires": [
+        "D5BF-ADDENDUM"
+      ]
+    }
+  },
+  "still_conditional_original_checks": [],
+  "verified_original_route_ids": [
+    "P-BIOME-METHOD",
+    "P-BIOME-ORIGINALS",
+    "P-BUILD-SAVES",
+    "P-FAB-0036",
+    "P-POSITION-CORE",
+    "P-POSITION-METHOD",
+    "P-ROOT-COUNTS",
+    "P-SHARED-CORE-CENSUS",
+    "P-SHARED-ORIGINALS",
+    "S-C23-SAVE52",
+    "S-P1-S29-ORIGINAL",
+    "S-S2-L-CONTROLS",
+    "S-S2-L0",
+    "S-SD1-H21"
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "cargo_editorial_source_bracket": {
+    "preflight": "rework01/cargo-final-preflight.json",
+    "rerun": "rework01/cargo-qualified.json",
+    "sha256": "b5ad9c4f8be75bfc74ac102cff59e591e6a51b15fc6b08406cc707f0d862d371"
+  },
+  "current_project_source_sha256": {
+    "research/historical-methods/b3/cr1-crew/crew_extras.py": "d97f4680499a76816bd314d0b0aaca41c5d9d109ab236b893f2047291db2d957",
+    "research/historical-methods/b3/sd1-containers/extras_sd1.py": "d3fa720e91ffc9fa8b82f69c618b5fe286a2fd772f32210ed36624d08d416e50",
+    "research/p1-power/saved_instances.py": "844a164609a07c4e3086d36d9ac577ba0c79eab42a3725b25a10abc0627c2ebe",
+    "research/s1-storage/catalog.py": "58cba1c9b6e74517537708bd499bd5643dbd6b09cda978946711c6ef6d9432db",
+    "research/s1-storage/saved.py": "8b24be175b1e1448027c13eb1460c084b8cfab86f8926f9a52f0781351e83659",
+    "save-analysis/scripts/analyze_manual_corpus.py": "2eace97d4caa905acdc77a71f6a7c0c96cd99b3991f096766e4111112c8ac730",
+    "save-analysis/scripts/analyze_structural_containment.py": "404a8545563005f6e54bca4e59def5173fdd43bd4b56e93e438d049e4a347f32",
+    "save-analysis/scripts/archive_manual_corpus.py": "0a8edc76039647987ecc17f5fa0b65d398056e54596e1039567cb47f48783bd0",
+    "save-analysis/scripts/beacon_terrain_projection.py": "4ef4ad38c640f1bf12e090c1ae78636c77d686fae44f4f58f367efb004ae2bf6",
+    "save-analysis/scripts/d5bt_display.py": "fa28530b89c41231749d9246b2ba24be546e2adca1cc815bcb21addf4cbe2241",
+    "save-analysis/scripts/d5bt_reader.py": "ff36df08a89f854ef6afdbb6a68068a442f58458ce9503244b0fb83f9b2cc60a",
+    "save-analysis/scripts/extractor_resources.py": "414ba6e14e84512668a9504fb2a36bf75d003adfdab3490befc644f18e055ddb",
+    "save-analysis/scripts/inspect_outpost_definitions.py": "1a143040d9dd7766c42fa211af9c89c199dd0fa28b0e9b467248512239666c48",
+    "save-analysis/scripts/inventory_historical_saves.py": "42dbc384ce08b484616935abb664b83b9dee5ebfc2ac0329734ea213eb927c8d",
+    "save-analysis/scripts/ordinary_outpost_beacons.py": "aa69886996490ee630dee03d03ff87602cdc02de2b2c08667284a016df136ee0",
+    "save-analysis/scripts/outpost_membership.py": "af7fc0d01bab3e4ba2117dcc6460edfffcc1b1dc2a1611278a3c9087b8134a76",
+    "save-analysis/scripts/outpost_planetary_location.py": "4cdc88e43653114df1a24bc1c132605a64c6264fb057981d3e91b010aaf6b4a0",
+    "save-analysis/scripts/outpost_record_framing.py": "ec453fe90937246ac4eca6dca582afc2c21137819d6579fca07a8221ebfcb25f",
+    "save-analysis/scripts/planet_world_key.py": "1f64ca90a8a74cb426d153cc2a4f34ff86988ebba8a9dfb0b2a45edf1f677694",
+    "save-analysis/scripts/probe_manual_candidates.py": "afff0675b214be78ee99d459907a13ce8dc66910f6868bc1b2ff9900f744a8f1",
+    "save-analysis/scripts/probe_output_link_structure.py": "736c44c810760c7527e35b82370a9ee9b16e9438cb2e25fa75218284010cea66",
+    "save-analysis/scripts/research_durable_center.py": "1ec2485889c9582d02ed653830fd2673df0df82f123d601be55ddeb8390d5a49",
+    "save-analysis/scripts/research_resource_availability.py": "0d9439ac8ad4400db6157fde63b3e15ae1d40929fe51da913fa5ba2b5a74f042",
+    "save-analysis/scripts/research_surface_anchors.py": "43d1fad0baefc5589e87e959576e6fd2acc1e9f4c1185a021f80409509242b2b",
+    "save-analysis/scripts/research_two_outpost_anchors.py": "9f4975288644094399f9e3a64ca7fab7c77c0e55da686b166a2760205f409073",
+    "save-analysis/scripts/research_workshop_components.py": "0b2ef7b0b5645f936150263eb1afb623566a8175ae5d8aae8583765906ddfb64",
+    "save-analysis/scripts/research_workshop_origin.py": "e78c5c14b3d82065c628c928b0b1fe80a30e2e671a0154a99601b6069abef743",
+    "save-analysis/scripts/research_workshop_roots.py": "693db96523781da1364ffde6314f9694e4e4ae914f4526fc20d560f9f7aa6418",
+    "save-analysis/scripts/saved_world_components.py": "bc5fff98873f8701e233444f34941290b219cebdb44509bd859c43d75e3c2335",
+    "save-analysis/scripts/stream_save.py": "b71bfcb0bfba63f978fd35b3e7d3cce17585cd7fd40e1a1fc646a3d1147a7823",
+    "save-analysis/scripts/test_d5bt_reader.py": "6e2ffd11a519f4bfa1dba31de7854612378b6bdac6fa25037d6f8e3ddcb6b278",
+    "save-analysis/scripts/test_d5bu_verification.py": "7034b2f06533bb26bdc231d292747e9c1d654d963d695b39d01f581c108e6334",
+    "save-analysis/scripts/test_outpost_record_framing.py": "9ce58f3b2a1e771cd918e13b59271f58d8204301339535b63ab3dfb6eec7e8a5",
+    "save-analysis/scripts/validate_mature_outposts.py": "251325513dd9ad04b83a99fcb491a6fe556d083ee2c06b6fa6a892e764fde2f6",
+    "save-analysis/scripts/validate_output_link.py": "bcefee8579e0b90881bf216be8e53c006ac638eaf8e31c573e292d388a2abcfb",
+    "save-analysis/scripts/verify_d5bu_cargo.py": "41b460114215a408d2fb2b37094454c27aa972854f0221c265c37be0664b0135",
+    "save-analysis/scripts/verify_d5bu_controls.py": "49b5e4f583fe44fe4120a574c71976b76c81f46f7f99a9a50fe487f5be9aefb3",
+    "save-analysis/scripts/verify_d5bu_fabricators.py": "df0a1b72d235ed684b4cfbf1930aadd017694fc6bde78bd95ee4053e4e09432a",
+    "save-analysis/scripts/verify_d5bu_geography.py": "c0aca175e668d8f6493e23f0d175d7e7657681fac17abc83322a5f4596e06559",
+    "save-analysis/scripts/verify_d5bu_output_links.py": "73537cf4aa93c8a746df56c6e05dd85a7f7de3dcf005917fb33107e120a33223",
+    "save-analysis/scripts/workshop_components.py": "ea5eeab3aeb8a04582205a8beb0dfe4e84ababd4ae0d2e029093e5a8042babe5",
+    "save-analysis/scripts/workshop_global_units.py": "c36809e3a6b7083e79e2aead4514f10c6795315c84a510d4d0207952e9253fe7",
+    "save-analysis/scripts/workshop_inventory.py": "84c8573cdf690f875517374fa1b9133e1b45ff90837341d0b94dfb35c1c9821b",
+    "save-analysis/scripts/workshop_population.py": "0c1caeaaf929151622e84a22558cde8bdf4a8820a0942d029122f7d79a907fee"
+  },
+  "effect_receipts": {
+    "cargo": {
+      "locator": "rework01/cargo-qualified-effects.json",
+      "observed_opens": 120,
+      "project_modules": 29,
+      "sha256": "9fb79033541a5d19546fa72a7c7e9b9f0c8e98ef52659c8f6a9082b85484df1d"
+    },
+    "construction": {
+      "locator": "rework01/construction-frozen-effects.json",
+      "observed_opens": 148,
+      "project_modules": 20,
+      "sha256": "2fec4a80a4fca81434962f198744791eda5fe7f6985f6f187a882d58ef275ddb"
+    },
+    "e3": {
+      "locator": "rework01/e3-frozen-effects.json",
+      "observed_opens": 118,
+      "project_modules": 27,
+      "sha256": "51a1e8f115db93d9b09e5fb639db8179be9a87465953a4d47f945d534cbb5d16"
+    },
+    "geography": {
+      "locator": "rework01/geography-frozen-effects.json",
+      "observed_opens": 162,
+      "project_modules": 33,
+      "sha256": "b630ccfef5fe3b7549a1c32f89afcd13bdc9fa95879936999d492e42694b7efc"
+    },
+    "roots": {
+      "locator": "rework01/roots-frozen-effects.json",
+      "observed_opens": 110,
+      "project_modules": 20,
+      "sha256": "12784f5611ad1b32fae81aaa594905cf6efdae5da8d56ef268979b06bb99217c"
+    },
+    "sd2": {
+      "locator": "rework01/sd2-frozen-effects.json",
+      "observed_opens": 109,
+      "project_modules": 20,
+      "sha256": "b1a389caedf32a83b3b4e6f00d196484ccc1f7e3ba6205b8dfe9967d3d6feaf3"
+    }
+  },
+  "historical_method_pins": {
+    "research/c1-cargo/save_case.py": {
+      "current": "d07076249f79716e9b8b0445d35c2b0e593f1369e56a6245683361d15e37c68e",
+      "historical": "d07076249f79716e9b8b0445d35c2b0e593f1369e56a6245683361d15e37c68e"
+    },
+    "research/c2-transport/saved.py": {
+      "current": "4a8ce694793a77d9087ef4bb16c17fb21863c21654345119de9208b48eb3b9a9",
+      "historical": "4a8ce694793a77d9087ef4bb16c17fb21863c21654345119de9208b48eb3b9a9"
+    },
+    "research/c3-fuel/verify.py": {
+      "current": "994733e0d2af7d945bf8d7b08327a60be9336eeb2fccf642269bc1634ee59d35",
+      "historical": "994733e0d2af7d945bf8d7b08327a60be9336eeb2fccf642269bc1634ee59d35"
+    },
+    "research/e3-fabricators/catalog.py": {
+      "current": "8fab3ca7d410f99147dd4d24cd5b9aca4e064db3a2e8509652a9467faefda538",
+      "historical": "8fab3ca7d410f99147dd4d24cd5b9aca4e064db3a2e8509652a9467faefda538"
+    },
+    "research/e3-fabricators/details.py": {
+      "current": "f4f0ab5ccc3b5f2cf0488cf10425d16cbef336d790eaf85b0ca450c07f1ee8c5",
+      "historical": "f4f0ab5ccc3b5f2cf0488cf10425d16cbef336d790eaf85b0ca450c07f1ee8c5"
+    },
+    "research/e3-fabricators/saved.py": {
+      "current": "949d8d1ce0cc5e45df38bb733ce4ac0244d697aa6e595b5de12c482965744c14",
+      "historical": "949d8d1ce0cc5e45df38bb733ce4ac0244d697aa6e595b5de12c482965744c14"
+    },
+    "research/historical-methods/b3/b1-maps.py": {
+      "current": "fa9721aaf2c4ee0b99be61b3372cd31f560a110ee4f9c02c65dbec84881c3107",
+      "historical": "fa9721aaf2c4ee0b99be61b3372cd31f560a110ee4f9c02c65dbec84881c3107"
+    },
+    "research/historical-methods/b3/b1-model.py": {
+      "current": "d6e3de2413a4d312f9f53c02fcc7dfed5111fac8690f062a7b5874ddd760bc4d",
+      "historical": "d6e3de2413a4d312f9f53c02fcc7dfed5111fac8690f062a7b5874ddd760bc4d"
+    },
+    "research/historical-methods/b3/b1-numeric.py": {
+      "current": "997d405d701ca1f4f9e9c916e8e8e79c93f26c5d6f0b53d8281dfe92fc49f69a",
+      "historical": "997d405d701ca1f4f9e9c916e8e8e79c93f26c5d6f0b53d8281dfe92fc49f69a"
+    },
+    "research/historical-methods/b3/b1-saves.py": {
+      "current": "9398e4d794cc6c88f200a7c2a4b16e93336c3b681610aa8bf13aa905310cff5b",
+      "historical": "9398e4d794cc6c88f200a7c2a4b16e93336c3b681610aa8bf13aa905310cff5b"
+    },
+    "research/historical-methods/b3/bm1-saves.py": {
+      "current": "c17685722bee3166d50a36b386a0c1e132967021dcf996d0cba41c70177d9185",
+      "historical": "c17685722bee3166d50a36b386a0c1e132967021dcf996d0cba41c70177d9185"
+    },
+    "research/historical-methods/b3/cr1-crew/crew_extras.py": {
+      "current": "d97f4680499a76816bd314d0b0aaca41c5d9d109ab236b893f2047291db2d957",
+      "historical": "d97f4680499a76816bd314d0b0aaca41c5d9d109ab236b893f2047291db2d957"
+    },
+    "research/historical-methods/b3/cs-more.py": {
+      "current": "ffeff674e6121880e7ba9291a2a6989e4fd578406ddc4908d81bd64f7902a1e9",
+      "historical": "ffeff674e6121880e7ba9291a2a6989e4fd578406ddc4908d81bd64f7902a1e9"
+    },
+    "research/historical-methods/b3/cs-numbers.py": {
+      "current": "62a323b96c59c1ded35fb1992e433d128de655ba7603429fc4c454539e86d1ed",
+      "historical": "62a323b96c59c1ded35fb1992e433d128de655ba7603429fc4c454539e86d1ed"
+    },
+    "research/historical-methods/b3/cs-saves.py": {
+      "current": "256562c02f96109b4f93f79f6495f8d41a861f39ec74b6a043d990ade5b14462",
+      "historical": "256562c02f96109b4f93f79f6495f8d41a861f39ec74b6a043d990ade5b14462"
+    },
+    "research/historical-methods/b3/l3-compare.py": {
+      "current": "3c4ac7f7c7e5a4457535f049a5799a4982150f6a608454f6d5e382268434e7bf",
+      "historical": "3c4ac7f7c7e5a4457535f049a5799a4982150f6a608454f6d5e382268434e7bf"
+    },
+    "research/historical-methods/b3/l3-defs.py": {
+      "current": "6611825b62d6531c5fab5559150b7b8b2fdaaebf286324e4442b46fb6e6de32d",
+      "historical": "6611825b62d6531c5fab5559150b7b8b2fdaaebf286324e4442b46fb6e6de32d"
+    },
+    "research/historical-methods/b3/l3-saves.py": {
+      "current": "d2a13e1a620c21b9a7fffa337020cf1fdee7554577a5c752bc614d3f0a3aa128",
+      "historical": "d2a13e1a620c21b9a7fffa337020cf1fdee7554577a5c752bc614d3f0a3aa128"
+    },
+    "research/historical-methods/b3/sd1-containers/extras_sd1.py": {
+      "current": "d3fa720e91ffc9fa8b82f69c618b5fe286a2fd772f32210ed36624d08d416e50",
+      "historical": "d3fa720e91ffc9fa8b82f69c618b5fe286a2fd772f32210ed36624d08d416e50"
+    },
+    "research/historical-methods/b3/sd1-instance-joins.py": {
+      "current": "e49a667021766e5569fc586882d7193656e8c0e81b9e0d4516c8fa87d6d5498b",
+      "historical": "e49a667021766e5569fc586882d7193656e8c0e81b9e0d4516c8fa87d6d5498b"
+    },
+    "research/historical-methods/b3/sd1-saves.py": {
+      "current": "faefd93435ee9d47f31f84e709deaa479e392820c210f5ebe18c59b566ae7ddb",
+      "historical": "faefd93435ee9d47f31f84e709deaa479e392820c210f5ebe18c59b566ae7ddb"
+    },
+    "research/historical-methods/b3/sd2-defs.py": {
+      "current": "6179d7e11a0d8fea0b16eb62e48510d519157489652512a76662f6f9f3ccb54d",
+      "historical": "6179d7e11a0d8fea0b16eb62e48510d519157489652512a76662f6f9f3ccb54d"
+    },
+    "research/historical-methods/b3/sd2-joins.py": {
+      "current": "1a014d5f1de4f8a85b019e23edf2831e9291a37b46e1c0952ec2ba74c6f92e2b",
+      "historical": "1a014d5f1de4f8a85b019e23edf2831e9291a37b46e1c0952ec2ba74c6f92e2b"
+    },
+    "research/historical-methods/b3/sd2-survey.py": {
+      "current": "eca9ec5e63bbd54c75b324a9f3812387a65bb674f806354983a2676048f177fc",
+      "historical": "eca9ec5e63bbd54c75b324a9f3812387a65bb674f806354983a2676048f177fc"
+    },
+    "research/p1-power/save29_feasibility.py": {
+      "current": "49ab6fb43dd29233e253ac922cb968e6a87e06b24376b58bee5b839b9e89a6c5",
+      "historical": "49ab6fb43dd29233e253ac922cb968e6a87e06b24376b58bee5b839b9e89a6c5"
+    },
+    "research/p1-power/saved_graph.py": {
+      "current": "97d06c9537d53ec3fc510dfa4a05656bacf1ded3d482860832510d4548435b0d",
+      "historical": "97d06c9537d53ec3fc510dfa4a05656bacf1ded3d482860832510d4548435b0d"
+    },
+    "research/p1-power/saved_instances.py": {
+      "current": "844a164609a07c4e3086d36d9ac577ba0c79eab42a3725b25a10abc0627c2ebe",
+      "historical": "cff89cb5385e2d8665ac38e01a7dd57e95a7b8aee97f975931f9ef55d97abf35"
+    },
+    "save-analysis/scripts/beacon_terrain_projection.py": {
+      "current": "4ef4ad38c640f1bf12e090c1ae78636c77d686fae44f4f58f367efb004ae2bf6",
+      "historical": "4ef4ad38c640f1bf12e090c1ae78636c77d686fae44f4f58f367efb004ae2bf6"
+    },
+    "save-analysis/scripts/outpost_record_framing.py": {
+      "current": "ec453fe90937246ac4eca6dca582afc2c21137819d6579fca07a8221ebfcb25f",
+      "historical": "ec453fe90937246ac4eca6dca582afc2c21137819d6579fca07a8221ebfcb25f"
+    },
+    "save-analysis/scripts/probe_output_link_structure.py": {
+      "current": "736c44c810760c7527e35b82370a9ee9b16e9438cb2e25fa75218284010cea66",
+      "historical": "736c44c810760c7527e35b82370a9ee9b16e9438cb2e25fa75218284010cea66"
+    },
+    "save-analysis/scripts/research_workshop_components.py": {
+      "current": "0b2ef7b0b5645f936150263eb1afb623566a8175ae5d8aae8583765906ddfb64",
+      "historical": "0b2ef7b0b5645f936150263eb1afb623566a8175ae5d8aae8583765906ddfb64"
+    },
+    "save-analysis/scripts/research_workshop_population.py": {
+      "current": "85f778db44a02e8bbea54e37340940da097551fbe7c02fe8714716a149b0abb1",
+      "historical": "85f778db44a02e8bbea54e37340940da097551fbe7c02fe8714716a149b0abb1"
+    },
+    "save-analysis/scripts/research_workshop_roots.py": {
+      "current": "693db96523781da1364ffde6314f9694e4e4ae914f4526fc20d560f9f7aa6418",
+      "historical": "693db96523781da1364ffde6314f9694e4e4ae914f4526fc20d560f9f7aa6418"
+    },
+    "save-analysis/scripts/stream_save.py": {
+      "current": "b71bfcb0bfba63f978fd35b3e7d3cce17585cd7fd40e1a1fc646a3d1147a7823",
+      "historical": "b71bfcb0bfba63f978fd35b3e7d3cce17585cd7fd40e1a1fc646a3d1147a7823"
+    },
+    "save-analysis/scripts/validate_output_link.py": {
+      "current": "bcefee8579e0b90881bf216be8e53c006ac638eaf8e31c573e292d388a2abcfb",
+      "historical": "bcefee8579e0b90881bf216be8e53c006ac638eaf8e31c573e292d388a2abcfb"
+    },
+    "save-analysis/scripts/workshop_inventory.py": {
+      "current": "84c8573cdf690f875517374fa1b9133e1b45ff90837341d0b94dfb35c1c9821b",
+      "historical": "84c8573cdf690f875517374fa1b9133e1b45ff90837341d0b94dfb35c1c9821b"
+    },
+    "save-analysis/scripts/workshop_population.py": {
+      "current": "0c1caeaaf929151622e84a22558cde8bdf4a8820a0942d029122f7d79a907fee",
+      "historical": "0c1caeaaf929151622e84a22558cde8bdf4a8820a0942d029122f7d79a907fee"
+    }
+  },
+  "historical_pin_deltas": [
+    {
+      "path": "research/p1-power/saved_instances.py",
+      "reason": "Accepted D5BT opt-in extension predates D5BU. Current pin is checked against D5BT source closure."
+    }
+  ],
+  "permission": "SOR-P-0002 maintainer-owned adaptation",
+  "protection": {
+    "locator": "rework01/preservation-final.json",
+    "sha256": "747a57ac98f5e5c9d35e193a4eb737e6e0c6ce059dba40285ce2ff640badea7b"
+  },
+  "schema": "d5bu-methods/1",
+  "source_effects_description": "methods.md",
+  "source_intake": {
+    "locator": "rework01/source-intake.json",
+    "sha256": "af83c5d45be7b45527d4dc49faf9d93cb2a66214600452ca67f9db6a7215469b"
+  }
+}

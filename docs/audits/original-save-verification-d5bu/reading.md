@@ -1,0 +1,29 @@
+# Applied required reading
+
+Complete relevant reading was recovered during the original and resumed
+assignment. Truncated outputs were continued through focused document/range
+reads. The table records the actual influence on implementation and safeguards.
+The final independent reviewer challenges applied understanding against the
+source documents and primary receipts.
+
+| Reading coverage | Concrete application |
+| --- | --- |
+| AGENTS.md, README.md, WORKFLOW.md, THIRD_PARTY_POLICY.md and docs/CHARTER.md | Kept the original research question, ownership boundaries and immutable originals. No live, native, active-save or network work. Owned source reuse follows SOR-P-0002 with provenance. Corrected patch placement to the mandatory diffs directory. |
+| EVIDENCE_STANDARD.md, RESEARCH_EXECUTION_PROTOCOL.md and templates/completion-contract.md | Separated byte integrity, semantics, reader engineering, controlling-question completion and publication. Retained the first incomplete checkpoint and reviewer REWORK. Continued all viable selected branches without reclassifying unsupported data as scientific negatives. |
+| EDITORIAL_STANDARD.md and reviewers/research-completion-reviewer.md | Required full changed-prose review, actual screen diagnostics, separate fresh-context read-only final review, exact source snapshot and post-correction review. The earlier resumed reviewer served only as an advisory specialist, then completed. |
+| PUBLICATION.md and all sections A–G of PUBLICATION_RUN_CARD.md | Kept exact file-specific rights, candidate freeze, independent B6, transfer, tag, visibility and hosting actions open. Fourteen local route checks confer zero release clearances. |
+| RESEARCH_STATE.md current tier statements, B3/CS/B1/BM1/Workshop population and E3/SD2/power/display context | Applied current first-release decisions while retaining historical snapshots. The 848 roots leave population completeness false. The historical Save29 load and D1/native deferred states remain outside this task. |
+| D5BR README, complete execution plan, exceptions and review, plus complete selected A1–A6 route records and their claim/prerequisite joins | Fixed the member set and asserted counts/offsets. Kept Save25 type-6 and HIST-0035 descriptor controls separate, H255/H267 inline counts distinct from the fresh trio, and F022/F024 outside the visual set. |
+| D5BT README, provenance, review and reader/test sources | Reused the accepted four electrical rows and 43-section display grammar with proportionate integration checks. Kept the ExtraBC refusal, counted-extra tails, backpack witness and missing rendered-load evidence. |
+| D5BG selected claim/action/edge records and handoff, D5BF README/exact member ledger, B4/F1 coverage and selected dispositions/privacy policy | Preserved original claim IDs and release actions. Selected exact archives/members, protected original names and bytes, and retained file-specific rights and residual privacy qualifications. |
+| B3 baseline, method reproduction and selected source/dependency contracts, B5 report/scratch workflow, D5BP and D5BQ decisions | Replaced fixed historical paths and broad acquisition mains with explicit finite inputs. Kept 40-billion-byte guards on both drives, exclusive outputs and retained failures. Selected corpus and historical runtime replay remain held. |
+| Coordinate-sufficiency report, saved/fixed Lab evidence, review and method/source records; B1 report, cases/cells, evidence, source ledger and review; archived CS/B1 source | Used descriptor and saved-frame rules, exact Lab PNDT order and offset, compensated binary32 arithmetic and negative-floor control. Rebuilt maps/index from lawful pinned bytes. Exact dyadic footprint calculations challenge positive-area coverage, with no loaded geometry or compass claims. |
+| E3 report, saves, review, recipe/facility tables and original saved/detail code/source records | Preserved absent selected BF override and the failed leading-BF hypothesis. Joined definition presets with producer registration, retained 307 physical endpoint classes and bounded BFS path semantics. Kept storage traversal, cargo termination and unknown endpoints distinct. |
+| SD2 report, saves, methods, review and selected source/definition records | Required actual typed inline bases and owner keys. Added original zero and unsupported-buffer controls. No inventory-change branch leaves stock unknown. Existing exact backing quantities remain unparsed. |
+| Cargo transport/fuel saves and reviews, C1 principal-pair record, original C2 source and recovered C3 source/context, active archive baseline | Used reciprocal principal/child/hold identities, stock offsets, producer wire order, scoped no-incoming-edge and charged/omitted-override controls. Preserved freight versus fuel distinction and no voyage/time inference. Recovered only the two named B02 payloads. |
+| Workshop population report, schema, review, acquisition boundary and source records; exact baseline/typed/ALLA/canonical dependencies | Checked the full supported tuple/role partition with fresh typed originals, preserving omitted flags and all 16 canonical exclusions. The two Hab cases remain unresolved construction-origin/ordinary-owner evidence. |
+| L2 report/saved budget controls, L3 report/saves/review/images, BM1 report/saves/methods/review and selected source/CSV records | Kept scalar budget, physical roots and bulldozing masks separate. Checked actual counts, exact root rows and 154 H255 DA/191/owner rows. Counted extras close independently of whole record end. Photos retain unsynchronized epochs and absent rejected XYZ. |
+
+The machine source and receipt manifests bind the versions actually used.
+This reading supports the selected finite verification. It supplies no authority
+to run the historical native acquisition, full save census, or deferred routes.
