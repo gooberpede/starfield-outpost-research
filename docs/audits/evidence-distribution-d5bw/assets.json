@@ -1,0 +1,199 @@
+{
+  "schema": "sor-d5bw-assets/1",
+  "publication": "NOT READY / NOT CLEARED",
+  "selected_routes_source": {
+    "path": "docs/audits/evidence-closure-d5bv/routes.json",
+    "sha256": "628064af887daa04fda4496b3813376fb875b172d04e7d2828a9d35a20ffad0a"
+  },
+  "notices": "../../../THIRD_PARTY_NOTICES.md",
+  "credits": "../../../CREDITS.md",
+  "sources": "../../SOURCES.md",
+  "assets": {
+    "B4-F1-CORE": {
+      "basename": "sor-1.16.244.0-b4-f1-core-stored-provisional.zip",
+      "bytes": 104046934,
+      "sha256": "b27bb842770d51499bec30042660789f1e539a3187d0d63f226fafcedd405105",
+      "member_count": 25,
+      "member_index": {
+        "path": "docs/audits/release-assets-d5bf/release-assets.json",
+        "sha256": "7e0b6bdea0119b86a6cdd9bd0a74ef12b783ef73d4710a4e40aed53a9a652306",
+        "json_pointer": "/assets/B4-F1-CORE/members"
+      },
+      "local_candidate_path": ".local-work/b4-f1/packages/sor-1.16.244.0-b4-f1-core-stored-provisional.zip",
+      "d5bv_asset": "B4-F1-CORE",
+      "claims": [
+        "B4-C17",
+        "B4-C21-SAVE29-ORIGINAL",
+        "B4-C22-L-SERIES-ORIGINAL",
+        "B4-C23-SAVE52-ORIGINAL",
+        "C02-ORIGINALS",
+        "C03-FRAME-CONTROL",
+        "C06-0036",
+        "C06-CENSUS",
+        "C14-CENSUS",
+        "C14-FRESH-TRIO",
+        "C14-ORIGINALS",
+        "C18-FULL-CONTROLS",
+        "C25-ORIGINALS"
+      ],
+      "provenance": "F1 first-party saved witnesses and controls",
+      "prior_assessment": "../publication-readiness-b4/f1/privacy-policy.md",
+      "reviewed_members": 25,
+      "review": "exposure-review.md",
+      "privacy": "25 exact member joins to both F1 ledgers; prior scoped save screen inherited. Opaque data and embedded previews remain residual.",
+      "direct_reconstruction": null,
+      "disposition": "PROPOSE INCLUDE",
+      "availability": "LOCAL ONLY"
+    },
+    "B4-F1-ADDENDUM": {
+      "basename": "sor-1.16.244.0-b4-f1-addendum-deflate-provisional.zip",
+      "bytes": 80827444,
+      "sha256": "d904b452fcfe1a82e6c4ceae5dfd1396b4fa088868587605ced7e2e57de278a3",
+      "member_count": 27,
+      "member_index": {
+        "path": "docs/audits/release-assets-d5bf/release-assets.json",
+        "sha256": "7e0b6bdea0119b86a6cdd9bd0a74ef12b783ef73d4710a4e40aed53a9a652306",
+        "json_pointer": "/assets/B4-F1-ADDENDUM/members"
+      },
+      "local_candidate_path": ".local-work/b4-f1/packages/sor-1.16.244.0-b4-f1-addendum-deflate-provisional.zip",
+      "d5bv_asset": "B4-F1-ADDENDUM",
+      "claims": [
+        "B4-C13-H21-DISPLAY-ORIGINAL",
+        "B4-C22-L-SERIES-ORIGINAL",
+        "C03-FRAME-CONTROL",
+        "C25-ORIGINALS"
+      ],
+      "provenance": "F1 first-party saved witnesses and JPEG observations",
+      "prior_assessment": "../publication-readiness-b4/f1/privacy-policy.md",
+      "reviewed_members": 27,
+      "review": "exposure-review.md",
+      "privacy": "27 exact member joins; 14 inherited save screens and 13 current image and segment screens. Screenshot and save epochs are unjoined.",
+      "direct_reconstruction": null,
+      "disposition": "PROPOSE INCLUDE",
+      "availability": "LOCAL ONLY"
+    },
+    "D5AS": {
+      "basename": "d5as-feynman-geometry-v1.zip",
+      "bytes": 176733,
+      "sha256": "d0d35ed2193527dd8215a647178614a5403e814bf14c3f9d1f0a448c53a1043c",
+      "member_count": 33,
+      "member_index": {
+        "path": "docs/audits/release-assets-d5bf/release-assets.json",
+        "sha256": "7e0b6bdea0119b86a6cdd9bd0a74ef12b783ef73d4710a4e40aed53a9a652306",
+        "json_pointer": "/assets/D5AS/members"
+      },
+      "local_candidate_path": ".local-work/d5be/d5as-build02/d5as-feynman-geometry-v1.zip",
+      "d5bv_asset": "D5AS",
+      "claims": [
+        "D5AG-FIXED-GEOMETRY",
+        "D5AS-BODY"
+      ],
+      "provenance": "D5BE/D5BF geometry with D5BH independent checks",
+      "prior_assessment": "../evidence-access-d5be/d5as.md",
+      "reviewed_members": 33,
+      "review": "exposure-review.md",
+      "privacy": "Geometry, FormIDs, capture UUIDs, source hashes and attempt labels.",
+      "direct_reconstruction": "Two exact represented geometries and 30 classifications; no identified direct subsystem reconstruction.",
+      "disposition": "PROPOSE INCLUDE",
+      "availability": "LOCAL ONLY"
+    },
+    "C19": {
+      "basename": "c19-callbacks-v1.json",
+      "bytes": 189747,
+      "sha256": "d37476dd5b33fca44423c1c0aaf239b43e8a98d8cf2ed97b15beaa4225906ada",
+      "member_count": 1,
+      "member_index": {
+        "path": "docs/audits/release-assets-d5bf/release-assets.json",
+        "sha256": "7e0b6bdea0119b86a6cdd9bd0a74ef12b783ef73d4710a4e40aed53a9a652306",
+        "json_pointer": "/assets/C19/members"
+      },
+      "local_candidate_path": ".local-work/d5be/c19/rebuild-1/c19-callbacks-v1.json",
+      "d5bv_asset": "C19",
+      "claims": [
+        "C19-CALLBACK"
+      ],
+      "provenance": "D5BE/D5BF callback projection from the retained C19 WAL",
+      "prior_assessment": "../evidence-access-d5be/c19.md",
+      "reviewed_members": 1,
+      "review": "exposure-review.md",
+      "privacy": "Session-local aliases, FormIDs, event order and operator labels.",
+      "direct_reconstruction": "346 ordered recorded row comparisons; no identified direct subsystem reconstruction.",
+      "disposition": "PROPOSE INCLUDE",
+      "availability": "LOCAL ONLY"
+    },
+    "D5BH": {
+      "basename": "d5bh-episode-witness-v1.zip",
+      "bytes": 1592210,
+      "sha256": "2febe19f9348b7c6b45ab60bb3adb0cc0f278d04b815481445fb91473e3fc209",
+      "member_count": 27,
+      "member_index": {
+        "path": "docs/audits/evidence-derivative-d5bh/asset.json",
+        "sha256": "86ef116eed3750889da8d883af69dd4489639dd092cb5d8cf08871be31da0b1d",
+        "json_pointer": "/members"
+      },
+      "local_candidate_path": ".local-work/d5bh/candidate-v1/d5bh-episode-witness-v1.zip",
+      "d5bv_asset": "D5BH-EPISODE",
+      "claims": [
+        "D5AK-EPISODE-A",
+        "D5AL-EPISODE-B"
+      ],
+      "provenance": "D5BH Raw2, normalized geometry and A/B episode witnesses",
+      "prior_assessment": "../evidence-derivative-d5bh/proof.md",
+      "reviewed_members": 27,
+      "review": "exposure-review.md",
+      "privacy": "Expired process addresses, PID, birth time, QPC, observer nonces, instrumentation sites and bounded operator context.",
+      "direct_reconstruction": "Three represented geometry snapshots and finite episode and lifetime relationships; no identified direct subsystem reconstruction.",
+      "disposition": "PROPOSE INCLUDE",
+      "availability": "LOCAL ONLY"
+    },
+    "D5BI": {
+      "basename": "SOR-D5BI-N2-projected-evidence-v1.zip",
+      "bytes": 3896901,
+      "sha256": "a47bbd302553755d0fe87d746234d0d6c527ee7297cfda2e38915072edb7c3d7",
+      "member_count": 6,
+      "member_index": {
+        "path": "docs/audits/evidence-derivative-d5bi/manifest.json",
+        "sha256": "8c2cfc6084c06aa9c91c68991b8562d39d0d3411175757ee7bc9b40dd0b1f557",
+        "json_pointer": "/members"
+      },
+      "local_candidate_path": ".local-work/d5bi/candidate01/SOR-D5BI-N2-projected-evidence-v1.zip",
+      "d5bv_asset": "D5BI-N2",
+      "claims": [
+        "D5AO-N2",
+        "D5AP-N2-COMPETITION"
+      ],
+      "provenance": "D5BI original N2 projection, Review02",
+      "prior_assessment": "../evidence-derivative-d5bi/proof.md",
+      "reviewed_members": 6,
+      "review": "exposure-review.md",
+      "privacy": "Typed journal operands, expired process addresses, QPC, PID, birth time and nonce.",
+      "direct_reconstruction": "Finite scheduler, lock and construction observations; no identified direct subsystem reconstruction.",
+      "disposition": "PROPOSE INCLUDE",
+      "availability": "LOCAL ONLY"
+    },
+    "D5BO": {
+      "basename": "SOR-D5BO-B2-projected-evidence-v1.zip",
+      "bytes": 394869,
+      "sha256": "098ddf7d67f6a23390932b3440faa489439235663bf315754697e40acf694224",
+      "member_count": 2,
+      "member_index": {
+        "path": "docs/audits/public-evidence-d5bo/b2-asset.md",
+        "sha256": "7995bd060e437c9bfc91f340ca5335a379b5dffa7ff55209468c8b96799dc647",
+        "json_pointer": null
+      },
+      "local_candidate_path": ".local-work/d5bo/SOR-D5BO-B2-projected-evidence-v1.zip",
+      "d5bv_asset": "D5BO-B2",
+      "claims": [
+        "D5AC-B2-RETAIL"
+      ],
+      "provenance": "D5BO B2 attempt-002 projection, Review05",
+      "prior_assessment": "../public-evidence-d5bo/b2-sufficiency.md",
+      "reviewed_members": 2,
+      "review": "exposure-review.md",
+      "privacy": "Timing, local equality aliases, invocation IDs, target tuple/FormIDs and relative address operands.",
+      "direct_reconstruction": "Bounded decision-order inversion with missing admission clocks; no identified direct subsystem reconstruction.",
+      "disposition": "PROPOSE INCLUDE",
+      "availability": "LOCAL ONLY"
+    }
+  }
+}

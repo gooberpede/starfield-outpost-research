@@ -1,0 +1,125 @@
+{
+  "schema": "sor-d5bw-access/1",
+  "publication": "NOT READY / NOT CLEARED",
+  "selected_routes": 68,
+  "selected_claim_route_pairs": 126,
+  "contexts": {
+    "WORKSHOP-BASELINE": {
+      "bytes": 417320665,
+      "sha256": "229b79deedec274ffd9816e7aee7675e14e5e657c17776930e2085b3b648480c",
+      "local_path": ".local-work/workshop-inventory/final05/mature-Save52.json",
+      "format": "JSON",
+      "operand": "--root-context BASELINE",
+      "route": "P-ROOT-COUNTS",
+      "role": "Baseline roots, instance and unresolved candidate operands, owner and member roles.",
+      "availability": "SECURED LOCALLY; INDEPENDENT ACCESS UNESTABLISHED"
+    },
+    "WORKSHOP-TYPED": {
+      "bytes": 226146013,
+      "sha256": "1b4f69b4e5bfacfcecb91721670def8f9690dde2cc615ff97d55bdaeb37d9086",
+      "local_path": ".local-work/workshop-population-rework/typed-full03/mature-Save52.json",
+      "format": "JSON",
+      "operand": "--root-context TYPED",
+      "route": "P-ROOT-COUNTS",
+      "role": "Independent frame guard and exact type, offset and override joins.",
+      "availability": "SECURED LOCALLY; INDEPENDENT ACCESS UNESTABLISHED"
+    },
+    "WORKSHOP-ALLA": {
+      "bytes": 956014,
+      "sha256": "b4533026f2c933cfe0057927149758964d2d0418c99d57c73d4a7a62b317ab68",
+      "local_path": ".local-work/workshop-population-rework/specialist/alla-global01.json",
+      "format": "JSON",
+      "operand": "--root-context ALLA",
+      "route": "P-ROOT-COUNTS",
+      "role": "Installed QUST alias keyword exclusion under the 38-ESM census.",
+      "availability": "SECURED LOCALLY; INDEPENDENT ACCESS UNESTABLISHED"
+    },
+    "CARGO-C3": {
+      "bytes": 3598255,
+      "sha256": "557f6148a357cc0a354336637a939ae1c3736a63f7a5f7cea27c189cd5095920",
+      "local_path": ".local-work/d5bu/c3-recovered/save01.json",
+      "format": "JSON",
+      "operand": "--c3-context",
+      "route": "S-C23-SAVE52",
+      "role": "Historical comparator for the finite C3 recomputation from CORE F040.",
+      "availability": "SECURED LOCALLY; INDEPENDENT ACCESS UNESTABLISHED"
+    },
+    "WORKSHOP-CANONICAL": {
+      "bytes": 9469,
+      "sha256": "34972f368f95b671d68bcb0087a9b50619d87cc0f8f2d426eb88d6a5d1dfccb3",
+      "local_path": ".local-work/workshop-population-rework/canonical-candidates01.json",
+      "format": "JSON",
+      "operand": "--canonical-context",
+      "route": "P-ROOT-COUNTS",
+      "role": "Oracle for 16 unresolved canonical groups outside the admitted root set.",
+      "availability": "SECURED LOCALLY; INDEPENDENT ACCESS UNESTABLISHED"
+    }
+  },
+  "affected_routes": {
+    "P-ROOT-COUNTS": {
+      "reader": "save-analysis/scripts/verify_d5bu_controls.py",
+      "reader_mode": "roots",
+      "contexts": [
+        "WORKSHOP-BASELINE",
+        "WORKSHOP-TYPED",
+        "WORKSHOP-ALLA",
+        "WORKSHOP-CANONICAL"
+      ],
+      "ranked_options": [
+        "QUALIFY BOUNDED PROJECTION AND PROVIDE EXACT CANONICAL LEDGER",
+        "APPROVE FOUR EXACT FILES",
+        "HOLD OR APPROVE AUTHORED INSPECTION WORDING"
+      ],
+      "fallback_route": "P-ROOT-TABLE",
+      "reader_sha256": "49b5e4f583fe44fe4120a574c71976b76c81f46f7f99a9a50fe487f5be9aefb3",
+      "claims": [
+        "B4-C17"
+      ],
+      "status": "LOCAL QUALIFICATION RETAINED; HOLD INDEPENDENT ACCESS"
+    },
+    "S-C23-SAVE52": {
+      "reader": "save-analysis/scripts/verify_d5bu_cargo.py",
+      "contexts": [
+        "CARGO-C3"
+      ],
+      "ranked_options": [
+        "APPROVE EXACT C3 WITH PROVENANCE PATHS",
+        "QUALIFY PATH-FREE HISTORICAL PROJECTION",
+        "HOLD OR APPROVE ATTRIBUTED WORDING"
+      ],
+      "fallback_claims": [
+        "B4-C09",
+        "B4-C23",
+        "B4-C23-PRIVATE-COMPARATORS"
+      ],
+      "reader_sha256": "41b460114215a408d2fb2b37094454c27aa972854f0221c265c37be0664b0135",
+      "claims": [
+        "B4-C23-SAVE52-ORIGINAL"
+      ],
+      "status": "LOCAL QUALIFICATION RETAINED; HOLD INDEPENDENT ACCESS"
+    }
+  },
+  "other_prerequisites": {
+    "baseline_inputs": "docs/audits/publication-readiness-b3/baseline-inputs.csv",
+    "d5bu_methods": "docs/audits/original-save-verification-d5bu/methods.md",
+    "d5ag_native": {
+      "route": "P-AG-FIXTURE",
+      "standalone_asset_route": "D5BF-D5AS",
+      "standalone_witness_route": "P-AS-BODIES",
+      "contract": "docs/audits/public-evidence-d5bo/d5ag-reader.md",
+      "availability": "CONDITIONAL ON LAWFUL MATCHING GAME FILES AND HOST"
+    },
+    "d5bd_historical": {
+      "routes": [
+        "G-CATALOGUE-A",
+        "G-CATALOGUE-B",
+        "G-CATALOGUE-C"
+      ],
+      "exact_rebuild_action": "D5BD-FROZEN-REBUILD",
+      "commit": "6e799a428a765aa196a24d3c1de8ae133260aa08",
+      "tree": "7a1f6fdd6728a8f98bc92ef7ee6c9b24a62f0e0e",
+      "edition": "research/function-catalogue/editions/d5bd.json",
+      "availability": "LOCAL OBJECT CONFIRMED; PUBLIC REACHABILITY UNESTABLISHED"
+    }
+  }
+}
