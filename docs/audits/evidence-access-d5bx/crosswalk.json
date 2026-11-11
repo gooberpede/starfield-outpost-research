@@ -1,0 +1,79 @@
+{
+  "schema": "sor-d5bx-crosswalk/2",
+  "source_pins": "../evidence-distribution-d5bw/access-routes.json#/contexts",
+  "defaults": {
+    "order": "Preserve source array order. Sort JSON object keys in canonical encoding. Root and member results use supplement's existing order.",
+    "exclusion": "Fields outside the listed copies and whole-object subtrees are excluded unless explicitly named as private inputs below. The complete normalized supplement is compared to the original full-context result."
+  },
+  "projection": [
+    {
+      "output": ["baseline.source", "typed.source"],
+      "source": ["WORKSHOP-BASELINE:/source", "WORKSHOP-TYPED:/source"],
+      "selection": "Compare whole source objects at build time, then copy size and sha256 from the baseline into both views.",
+      "domain": "Compressed F040 original byte identity",
+      "excluded": ["path", "ctime_ns", "ctime_utc", "mtime_ns", "mtime_utc"],
+      "check": "Compare retained identity to CORE F040 and verify input pre/post pins."
+    },
+    {
+      "output": ["baseline.constructed_instances", "baseline.member_roles", "baseline.owners"],
+      "source": ["WORKSHOP-BASELINE:/constructed_instances", "WORKSHOP-BASELINE:/member_roles", "WORKSHOP-BASELINE:/owners"],
+      "selection": "Copy all rows and keys. Legacy explicit record type fields retain their historical interpretation and the supplement separately uses the typed registry.",
+      "domain": "Saved IDs, serialized tokens, decoded logical offsets, ordered role evidence, original ESM definition records",
+      "check": "Reconstruct baseline roots, roles and per-owner tallies from retained rows, compare all fields, then replay corrections and check original bytes."
+    },
+    {
+      "output": ["baseline.instances", "baseline.unresolved_population"],
+      "source": ["WORKSHOP-BASELINE:/instances", "WORKSHOP-BASELINE:/unresolved_population"],
+      "selection": "Keep every row matching a root, member, role or owner ID, or an unresolved selected control ID. Controls include NOT_DECODED linked prefixes, exact ledger group IDs and DA resolved identities naming a ledger group. Preserve duplicate multiplicity.",
+      "fields": ["saved_reference", "token", "owner_identity", "base_identity", "offset", "end", "explicit_type", "reason", "association_status", "definition_provenance", "editor_name", "prefix (all keys)", "linked_prefix (all keys)", "linked_gap", "prefix_error"],
+      "domain": "Saved identities and tokens, decoded logical stream, preserved prefix and ordered extras with version-specific interpretations",
+      "excluded": ["Unrelated unresolved population", "reference and string queue dumps", "ordinal and broad diagnostics", "redundant detached owner and parent summaries"],
+      "check": "Reparse selected frame, prefix and linked extras from F040, resolve tokens using the save's tables, compare relationships and replay membership."
+    },
+    {
+      "output": ["typed.independent_framing", "typed.population_complete", "typed.references", "typed.canonical_da"],
+      "source": ["WORKSHOP-TYPED:/independent_framing", "WORKSHOP-TYPED:/population_complete", "WORKSHOP-TYPED:/references"],
+      "selection": "Copy both guards and identity, offset, form_type and buffer_version_override for baseline-selected identities, canonical group representatives and canonical DA sources. A canonical DA source has a fourth resolved DA identity in the exact ledger and no WorkshopItem key in its decoded 4C entries. Copy identity, end, case, base_identity and the whole extras subtree for those rows in canonical_da. Reject duplicate identities across all original typed references first.",
+      "domain": "Save registry form type and separate nullable record buffer override, decoded logical offset",
+      "excluded": ["Unselected reference rows", "other typed columns", "all_records", "keyword_queue_leads", "counts", "decoder metrics"],
+      "check": "Replay ordered save type registry and every retained typed identity, offset and override. Reread canonical DA extras and base/case joins, tally all 31 source counts, and check all recorded R3 presence values. Unsupported suffixes carry their partial status and supply no general absence claim."
+    },
+    {
+      "output": ["alla.schema", "alla.pairs", "alla.census", "alla.quest_variants", "alla.alias_definitions"],
+      "source": ["WORKSHOP-ALLA:/schema", "WORKSHOP-ALLA:/links", "WORKSHOP-ALLA:/census", "WORKSHOP-ALLA:/quest_variants", "WORKSHOP-ALLA:/alias_definitions"],
+      "selection": "Copy each pair's plugin, record_offset, formid, alias_id, keyword, keyword_raw and target_alias_id, plus the per-plugin census and aggregate quest and alias counts. Recompute source keyword_counts and compare its multiplicities before build.",
+      "domain": "Original ESM file offsets, plugin-relative FormIDs and quest-local alias IDs",
+      "excluded": ["source_context", "file_stat_before_after", "quest and alias display names", "precomputed zero-key result", "coverage prose retained in the authenticated historical source and documented in projection-schema.md"],
+      "check": "Replay main ESM ordered alias blocks and compare exact pair multiplicities. Check census closure and recompute all three forbidden-key absences from the resolved identities and the raw low 24-bit words. Other ESM file coverage is inherited."
+    },
+    {
+      "output": ["canonical-candidates01.json"],
+      "source": ["WORKSHOP-CANONICAL:/"],
+      "selection": "Copy original byte stream unchanged as the third ZIP member.",
+      "domain": "Canonical saved group identities and historical dispositions",
+      "check": "Exact external and internal member pins, full 31-row disposition partition, 31 reproduced DA-source counts and R3 presence values, all 16 unresolved identities excluded and both Hab groups challenged with retained DA and 191 source joins."
+    },
+    {
+      "output": ["manifest.json", "workshop.json:/schema"],
+      "source": ["D5BW exact input identities", "generated member bytes", "builder schema constant"],
+      "selection": "Construct versioned internal index with source and data member identities. External assets.json separately pins all member and container bytes.",
+      "domain": "Byte length and SHA-256",
+      "check": "Exact ordered safe member inventory, canonical manifest recomputation and exact recognized version."
+    }
+  ],
+  "controls": {
+    "P-ROOT-COUNTS": [
+      "Original D5BU full receipt equality, then independently replayed baseline roots and roles and full normalized supplement equality",
+      "CORE F040 typed source joins, raw extras, member overrides, 19 beacon states and 17 distinct fixture/owner links",
+      "Separate F042 and F043 ordinary beacon root controls",
+      "191 omitted Extra9C values, three distinct chairs, two unsupported ExtraEA cases and one unresolved nonordinary role",
+      "Canonical 6/1/8/16 partition and two Hab groups with exact source wall and disabled dummy replacement links",
+      "Main ESM 51 STAT, 89 FURN and 51 PKIN bases and three ALLA exclusions"
+    ],
+    "S-C23-SAVE52": [
+      "Unchanged exact C3 file and existing reader, eight comparator keys and exact D5BU receipt equality",
+      "C2/C3 edges, producer rows, marker/ship relations, He-3 stock and pad branch scope, zero hold and unknown extras",
+      "Four embedded path fields preserved as provenance values, no archival lookup during replay"
+    ]
+  }
+}

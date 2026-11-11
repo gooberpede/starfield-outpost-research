@@ -1,5 +1,14 @@
 # Credits
 
+## D5BX Workshop and Cargo reader access
+
+The maintainer's CORE captures and the original Workshop and cargo
+investigations supply the saved witnesses and historical comparisons.
+Bethesda's Starfield supplies the saved representations and definition data.
+The qualification reuses owned D5BU and Workshop population methods.
+CPython, zlib and Git support offline verification and delivery checks.
+[D5BX qualification](docs/audits/evidence-access-d5bx/README.md)
+
 ## D5BM completion-to-density source audit
 
 Bethesda's pinned executable, definitions, PlanetData and DensityMaps

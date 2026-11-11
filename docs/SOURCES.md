@@ -1,5 +1,18 @@
 # Source Register
 
+## D5BX Workshop and Cargo reader access
+
+The [D5BX asset index](audits/evidence-access-d5bx/assets.json) pins the
+maintainer's D5BF CORE members, D5BW contexts, Bethesda main ESM, and exact
+reader and build inputs. The [source crosswalk](audits/evidence-access-d5bx/crosswalk.json)
+traces the new Workshop projection to the baseline inventory, typed audit,
+installed ALLA pairs and exact canonical ledger. The projected reader reuses
+owned Workshop and D5BU methods under SOR-P-0002. The unchanged Cargo reader
+rejoins the exact C3 comparator recovered from the private B02 archive.
+CPython 3.14.3, zlib 1.3.1.zlib-ng and Git support local verification and patch
+export. The source game files and private historical receipts stay in local
+custody.
+
 ## D5BM completion-to-density source audit
 
 The [D5BM operand matrix](audits/d5bm-completion-eligibility/contract.md)

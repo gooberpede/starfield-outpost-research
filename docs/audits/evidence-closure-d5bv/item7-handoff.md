@@ -46,6 +46,10 @@ and every declared member, including the standalone JSON file identity.
 
 ## Exact reader prerequisites
 
+- [D5BX](../evidence-access-d5bx/README.md) records the local rehearsal of the
+  supplementary Workshop ZIP and unchanged Cargo C3 JSON for `P-ROOT-COUNTS`
+  and `S-C23-SAVE52`. Their exact identities are proposed for separate custody
+  and freeze. Durable independent retrieval and B6 remain pending.
 - For D5BU, use the named Python entry points, source manifest and explicit
   operands in [methods](../original-save-verification-d5bu/methods.md). Geography
   requires lawful pinned main ESM and PlanetData BA2. Fabrication needs the
