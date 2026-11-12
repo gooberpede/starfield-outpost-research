@@ -20,8 +20,10 @@ The [research roadmap](docs/research-roadmap.md) connects each subject to its
 technical sources. The [first-release scope](docs/first-release-scope.md)
 identifies the selected claims, available checks and deferred research.
 
-**Publication is NOT READY / NOT CLEARED.** Read the
-[publication policy](docs/PUBLICATION.md), [licensing](LICENSING.md),
-[third-party notices](THIRD_PARTY_NOTICES.md) and [credits](CREDITS.md).
+See the [publication run card](docs/PUBLICATION_RUN_CARD.md) for current release
+status and the [evidence access guide](docs/reference/evidence-access.md) for
+verification instructions. See also the [publication policy](docs/PUBLICATION.md),
+[licensing](LICENSING.md), [third-party notices](THIRD_PARTY_NOTICES.md) and
+[credits](CREDITS.md).
 The [documentation index](docs/README.md) links the research standards and
 contributor workflow.

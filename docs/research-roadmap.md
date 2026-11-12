@@ -9,7 +9,8 @@ and [history](history/README.md) for supersessions and negative results.
 
 The principal native and installed-definition baseline is **Starfield
 1.16.244.0**. Historical sample versions have separate provenance.
-**Publication is NOT READY / NOT CLEARED.**
+See the [publication run card](PUBLICATION_RUN_CARD.md) for current release
+status.
 
 | Reader question | Guide | Technical basis | Selected claims |
 | --- | --- | --- | --- |

@@ -1,6 +1,13 @@
 # Publication run card — Starfield 1.16.244.0
 
-**Starfield Outpost Research v1.0.0 — Starfield 1.16.244.0. NOT READY / NOT CLEARED.**
+**Starfield Outpost Research v1.0.0 (Starfield 1.16.244.0)**
+
+D5CC received independent pre-integration acceptance for its tested F1 overlay.
+Final B6 acceptance is pending exact candidate binding and independent
+revalidation of the affected checks. Tag creation, draft upload and final
+visibility each require separate approval. Asset downloads remain pending
+verified hosting.
+
 Retain the exact candidate and operation receipts. The [publication policy](PUBLICATION.md),
 [B0 gate matrix](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b0/release-gates.md`) and
 [D5AW preparation sequence](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/deferred-work-d5aw/publication-plan-amendment.md`)
@@ -38,6 +45,7 @@ hosting and verification are evidenced.
 | Selected claims, build and exclusions | [First-release scope](first-release-scope.md) and [selected route ledger](../research/evidence-data/evidence-closure-d5bv/routes.json) |
 | Historical save creation and effective load/configuration qualifications, by claim | TBD |
 | F0, approved committed intake | `main` commit `722d779568d56730e03c9585154d1c9a6ad93917`, tree `880ea503ee942b64f4cec2307a625a13db18f8b4` |
+| D5CC independently reviewed F1 overlay tree | `9a837bec47ba7cc3c4cf868684be0f5368e118ab`. Pre-integration receipt in `.local-work/b6-preflight/handoff.md`. Final candidate binding and affected revalidation remain pending. |
 | Approved disclosure boundary | Ordinary ancestry of the sole `main` branch. The reserved release tag is uncreated. Additional refs and history changes require separate decisions. |
 | Clean index/working-tree and inventory receipts | TBD |
 | Document, verifier, manifest and package versions/hashes | [D5BF local proposal](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/release-assets-d5bf/README.md`); freeze receipt TBD |

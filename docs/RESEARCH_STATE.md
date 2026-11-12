@@ -1,5 +1,9 @@
 # Current Research State
 
+See the [publication run card](PUBLICATION_RUN_CARD.md) for current release
+status. The dated entries below record research milestones and their status
+at the time.
+
 **2026-11-11 — D5BV selected evidence and current resource scope.**
 The [current evidence audit](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-closure-d5bv/README.md`) joins the
 accepted local checks to the inherited first-release claim graph and records

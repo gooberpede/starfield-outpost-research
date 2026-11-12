@@ -6,7 +6,8 @@
 and [evidence access](reference/evidence-access.md). **Trace history** through
 the [history and identifier indexes](history/README.md).
 See the [first-release scope](first-release-scope.md) for selected findings
-and deferrals. Publication is **NOT READY / NOT CLEARED**.
+and deferrals, and the [publication run card](PUBLICATION_RUN_CARD.md) for
+current release status.
 
 ## Earlier documentation milestones
 

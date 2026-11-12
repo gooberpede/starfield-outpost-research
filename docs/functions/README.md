@@ -35,7 +35,8 @@ publication eligibility. Follow the original evidence for those classifications.
 Proprietary binaries and raw native exports are local-only. Tracked links lead
 to authored records and source locators. **PUBLICATION DEPENDENCY — EVIDENCE
 ACCESS PENDING** where source-level replay requires a private export or receipt.
-Publication remains **NOT READY / NOT CLEARED**. [Publication gate](../PUBLICATION.md).
+See the [publication run card](../PUBLICATION_RUN_CARD.md) for current release
+status.
 
 ## Subjects
 

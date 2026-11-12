@@ -1,8 +1,8 @@
 # Implementation briefs and amendments
 
 Edition **D5BZ-2**, 2026-11-12 (Australia/Sydney), preserves 262 exact
-original files with their full repository-relative paths. Publication is
-**NOT READY / NOT CLEARED**.
+original files with their full repository-relative paths. See the
+[publication run card](../PUBLICATION_RUN_CARD.md) for current release status.
 
 Start with the [guides](../guides/README.md) for player questions, the
 [technical references](../reference/README.md) for current findings and

@@ -7,7 +7,7 @@ Local qualification checks a named method and input in a stated setting.
 Independent readers need the exact lawful inputs that the method checks.
 A public checkout can supply authored sources and selected tables. Proposed
 candidate assets and their independent retrieval are **PENDING RELEASE**.
-Publication is **NOT READY / NOT CLEARED**.
+[Publication run card](../PUBLICATION_RUN_CARD.md) ·
 [Publication policy](../PUBLICATION.md#publication-independence)
 
 ## Choose a verification tier

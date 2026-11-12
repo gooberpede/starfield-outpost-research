@@ -1,13 +1,14 @@
 # D5BZ first-release archive verification
 
 Edition **D5BZ-1** was sealed on 2026-11-11 (Australia/Sydney).
-Publication remains **NOT READY / NOT CLEARED**.
+See the [publication run card](PUBLICATION_RUN_CARD.md) for current release
+status.
 
 The D5BZ-1 container manifest at commit `e29b750` has SHA-256
 `2250f90eb90a691070b0a383b19bc58e57ede670b94e2ee9828c4ed3b422c4f6`.
 It binds the two ZIPs, their adjacent indexes and READMEs, the build
-method and the current source edition. The archive members carry no final
-container or attestation hash. See the [brief update](#d5bz-2-brief-update)
+method and the source edition at that revision. The archive members carry no
+final container or attestation hash. See the [brief update](#d5bz-2-brief-update)
 for the current implementation-brief ZIP and the [audit update](#d5bz-2-audit-update)
 for the current audit ZIP.
 
@@ -154,7 +155,7 @@ The D5CA dossier moved from `docs/release-candidate-audit-d5ca/` to
 audit ZIP now holds 350 members. All 335 predecessor members and all 15
 dossier files retain their exact bytes. The
 [container manifest](archive-containers.json) maps the former directory to
-the archive prefix and records the current hashes. The
+the archive prefix and records the hashes at the time of the update. The
 [audit index](audits/archive-index.csv) records each dossier member and
 its pre-move Git blob. The implementation-brief ZIP and index are unchanged.
 
@@ -168,3 +169,8 @@ the local ZIP preserves the original report and makes no publication decision.
 
 Independent review accepted the audit update and verified all 350 member
 identities, both generated indexes and the unchanged implementation-brief ZIP.
+
+The D5BZ-2 README and builder hashes identify the bytes at commit
+`b0f4f27e4b07f16c1ed0186a4e30b35b9c6e2c9b`. The current builder generates
+the README navigation text from the same member indexes. The ZIPs and member
+indexes retain their D5BZ-2 hashes.

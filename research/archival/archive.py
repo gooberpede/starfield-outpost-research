@@ -236,8 +236,8 @@ def write_readme(folder, family, basename, rows, edition):
     content = f"""# {title}
 
 Edition **{edition}**, {EDITION_DATES[edition]} (Australia/Sydney), preserves {len(rows)} exact
-original files with their full repository-relative paths. Publication is
-**NOT READY / NOT CLEARED**.
+original files with their full repository-relative paths. See the
+[publication run card](../PUBLICATION_RUN_CARD.md) for current release status.
 
 Start with the [guides](../guides/README.md) for player questions, the
 [technical references](../reference/README.md) for current findings and

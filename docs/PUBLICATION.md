@@ -1,6 +1,8 @@
 # Publication Plan and Release Gate
 
-**Status: NOT READY / NOT CLEARED.** Independently reviewed bounded research exists; see the [current roadmap](research-roadmap.md). No public-release action is authorized. The [proposed claim/build scope](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b1/claim-build-matrix.md`) still requires maintainer agreement and all release gates below.
+See the [publication run card](PUBLICATION_RUN_CARD.md) for current release
+status and the [first-release scope](first-release-scope.md) for selected
+claims, build and evidence limits.
 
 The project begins privately and must publish completed, reviewed research under `GPL-3.0-or-later`. The first publication scope/build matrix must be explicitly agreed and contain runtime and persistence objectives. The continuing programme may remain broader, but unresolved required topics cannot be silently dropped to declare completion.
 
@@ -40,7 +42,7 @@ indispensable claim dependency. If a required route is unavailable, hold the
 affected claim for explicit maintainer resolution, including narrowing or
 exclusion where needed. Apply all existing rights and privacy requirements.
 
-The future B6 gate requires a clean checkout with no access to the existing
+The final B6 gate requires a clean checkout with no access to the existing
 `.local-work/`. Verify documented reproduction procedures, public references
 and approved supplementary evidence within the stated scope. Separate
 reproducible methods and calculations from documented historical observations

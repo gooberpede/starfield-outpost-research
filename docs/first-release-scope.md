@@ -1,8 +1,7 @@
 # First-release scope
 
-**Publication is NOT READY / NOT CLEARED.** This is the selected scope for a
-version-bound research archive. The principal native and installed-definition
-baseline is Starfield **1.16.244.0**. A historical save marked **H?** has an
+This version-bound research archive uses Starfield **1.16.244.0** as the
+principal native and installed-definition baseline. A historical save marked **H?** has an
 unestablished originating executable unless its own source establishes one.
 Exact saved bytes can corroborate a particular field or relationship. Its
 current realization depends on the loader, resolution and the consumer.
@@ -103,4 +102,4 @@ for inputs, exact candidate identities and the distinction between tracked
 inspection, attributed history, original-file checks, derivative checks and
 native execution. Rights and privacy, custody and transfer, freeze, isolated
 B6, verified hosting and final authorization are separate gates.
-[Publication policy](PUBLICATION.md)
+[Publication run card](PUBLICATION_RUN_CARD.md) · [Publication policy](PUBLICATION.md)

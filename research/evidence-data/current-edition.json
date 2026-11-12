@@ -795,11 +795,11 @@
       "sha256": "ccfff55cad9edd36bef1c6013e50d72ff9d0b2307cfdbde097926772ace541e0"
     },
     "docs/functions/README.md": {
-      "bytes": 5019,
+      "bytes": 5018,
       "prior_git_blob": "b1ab344c2dba78cb06523e3c0d8e1378b83bacd5",
       "prior_path": "docs/functions/README.md",
       "prior_sha256": "836617a4677489931a5ead272cce720fb49dff40fc76a47ccaff1fc833515a7b",
-      "sha256": "07a2a77e982435a0cba2c8aed31c98501c6a6bf4482126946d75afa35e1fb154"
+      "sha256": "a7c6c2b118e683660ae575e250a4abbd2d30fbd02afdd2afa04f68ab075077af"
     },
     "docs/position-model/review.md": {
       "bytes": 7566,
