@@ -1,5 +1,89 @@
 # Decision Register
 
+## D5CB pre-freeze evidence and distribution
+
+The maintainer accepts the 12 absolute Windows path values in the tracked
+[Cargo B02 custody record](experiments/cargo-evidence-cutover/active-baseline.json).
+The reviewed values describe local research layout and include the historical
+verification command. That review identified no credentials, personal
+identifiers or private evidence payload. Retain the original record and
+ordinary `main` ancestry. Its `ACTIVE` label describes historical local custody.
+The [selected Cargo method](reference/evidence-access.md#selected-original-witnesses)
+uses CORE F040 and the exact D5BX Cargo C3 supplement.
+
+### R3 author and contributor wording
+
+At freeze, confirm the following public wording. “Copyright remains with the
+respective rights holders. Project-authored research documentation,
+specifications and supporting code are licensed under GPL-3.0-or-later to
+the extent their respective rights holders have authority to license them.”
+Use the existing role-based credits and source-specific notices. Bethesda
+and ZeniMax retain rights in underlying game material. The exact Ian
+Patterson SFSE header retains its MIT notice and its existing scoped use
+approvals. The maintainer-owned material grant preserves provenance and
+applies to maintainer-authored material. Final confirmation covers the public
+copyright and contributor presentation in the [licence statement](../LICENSING.md)
+and [credits](../CREDITS.md). Until that confirmation, the run card's
+authorship and licensing signoff remains pending.
+[Notices](../THIRD_PARTY_NOTICES.md) · [Sources](SOURCES.md) · [Permissions](PERMISSIONS.md)
+
+### R4 asset and excerpt decisions
+
+The nine exact files in the [candidate inventory](reference/evidence-access.md#candidate-inventory)
+are selected for local staging and proposed versioned GitHub Release
+distribution. The file-by-file limits below carry forward the
+[D5BW exposure review](audits/README.md#archive-lookup)
+(`audits.zip :: docs/audits/evidence-distribution-d5bw/exposure-review.md`)
+and [D5BX qualification](audits/README.md#archive-lookup)
+(`audits.zip :: docs/audits/evidence-access-d5bx/review.md`).
+
+| Exact candidate basename | Accepted selection and file-specific limit |
+| --- | --- |
+| `sor-1.16.244.0-b4-f1-core-stored-provisional.zip` | 25 unchanged first-party saves. Opaque fields, embedded previews and unrelated state remain limits of the privacy screen. Donor F061 stays excluded. |
+| `sor-1.16.244.0-b4-f1-addendum-deflate-provisional.zip` | 14 unchanged first-party saves and 13 reviewed original JPEGs. Save and screenshot epochs remain unjoined. |
+| `d5as-feynman-geometry-v1.zip` | Complete geometry at the selected source, with FormIDs, capture identifiers, source hashes and roster. Eligibility and acquisition retain their original qualifications. |
+| `c19-callbacks-v1.json` | Native callback operands and ordered row identities from the recorded Kreet session. Upstream acquisition and rendering remain attributed. |
+| `d5bh-episode-witness-v1.zip` | Scoped episode projections, including exact lifetime frames, normalized data and geometry. Historical timing and expired process identifiers retain correlation value. |
+| `SOR-D5BI-N2-projected-evidence-v1.zip` | Selected typed journals and geometry summaries with process-specific identifiers. Omitted point geometry and unobserved timing remain upstream. |
+| `SOR-D5BO-B2-projected-evidence-v1.zip` | Bounded decision-order projection with original QPC, typed invocation labels, target tuple and request operands. Private originals remain in custody. |
+| `sor-d5bx-workshop-roots-v2.zip` | Projected root operands and exact canonical ledger. Retained saved identifiers, offsets and alias facts support the selected comparison. Private raw receipts remain in custody. |
+| `sor-d5bx-cargo-c3-v1.json` | Exact historical comparator with the four approved fields `source.path`, `prior.path`, `cache.path` and `tool.path`. The private B02 archive remains in custody. |
+
+The first-party policy accepts the scoped residual risk of these exact
+saves and screenshots. Underlying game material remains subject to its
+rights holders' terms. Keep the existing attribution and qualifications
+for authored comparisons, tables, pseudocode and game-derived facts.
+Literal game-derived excerpts remain subject to the
+[content-specific publication rule](PUBLICATION.md#conditional-first-party-original-save-evidence).
+Raw native exports, executable excerpts used by private fixtures, installed
+game inputs and private source captures stay outside the selected asset
+inventory. This selection introduces no additional excerpt or rights grant.
+
+### Custody and approval schedule
+
+The maintainer is the local custodian for all nine files at
+`.local-work/release-assets/1.16.244.0/`. That ignored working directory is
+disposable. The maintainer accepted custody without an independent backup
+requirement for these staged files. Prior protected originals retain their
+existing custody. The directory suffix identifies the game build. The
+research release ID is a separate freeze decision.
+
+At freeze, confirm the exact candidate tree, evidence inventory and R3
+wording, and approve the proposed public ref boundary of ordinary `main`
+ancestry. Any additional public ref requires a specific decision. The
+[release run card](PUBLICATION_RUN_CARD.md) governs separately authorized
+B6 preflight, including isolated full readers, current-edition Fabricators
+and Controls reruns, host-specific D5AG qualification, diagram rendering
+and the release-specific run card.
+
+After B6, obtain exact tag, destination, retention and transfer approval
+before sending the nine named files to a versioned GitHub Release draft.
+Record the host receipt and compare the actual downloads and all member
+identities to the frozen inventory. Obtain final release, custody,
+visibility and timing signoff before publication, then repeat retrieval
+and verification at the public URLs. GitHub recovery is pending actual
+hosting and verified downloads. Publication remains **NOT READY / NOT CLEARED**.
+
 ## D5BV practical resource-generation predictability — 2026-11-11
 
 Where more than one resource geometry is eligible for a given source,

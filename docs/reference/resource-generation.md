@@ -260,10 +260,31 @@ remains untested.
 | Tracked arithmetic | Recount unique coordinates and mask shares from the [C1 CSV](../experiments/resource-retained-population/d5aq-request-mask-map.csv) with the command below. The [D5AT rankings](../experiments/resource-retained-population/d5at/active-rankings.csv) also support table arithmetic. |
 | Native and definition reconstruction | The [Build and input identities](evidence-access.md#build-and-input-identities), [source pins](../experiments/resource-retained-population/d5aq-sources.csv) and [method](../experiments/resource-retained-population/d5aq-mask-method.md) identify lawful separately installed pinned files, owned methods and additional private inputs. The [conditional D5AG fixed-stage reader](evidence-access.md#fixed-native-geometry) is narrower than D5AQ Option C, which remains deferred. |
 | Save52 reconstruction | B4-F040 / HIST-0267 is a [Selected CORE member](../history/save-identifiers.md#b4-f1-core) without a hosted URL. Full regeneration needs pinned installed-main inputs and a qualified descriptor/grid method. Save bytes cannot supply a historical event epoch. |
-| Historical observations and controls | **PUBLICATION DEPENDENCY — EVIDENCE ACCESS PENDING.** RG-AK, RG-AL, RG-AO, RG-AQ, RG-AS and B4-C19 require historical chronology, complete geometry, native-control or UI operands outside the tracked reports. A digest or private locator cannot supply the underlying evidence. [Dependency graph](../../research/evidence-data/publication-architecture-d5ax/claim-evidence-dependencies.csv) · [Reader access and limits](../reference/evidence-access.md). |
 
-For the D5AS complete body comparisons and C19 native UI comparisons, see
-[evidence access](evidence-access.md) for methods and the pending asset status.
+The [D5BV selection](../../research/evidence-data/evidence-closure-d5bv/routes.json)
+binds 68 distinct routes and 126 claim-to-route joins to their original
+qualifications. A checkout supports authored mechanism inspection and table
+comparisons. Original collection and unselected historical comparators remain
+attributed to their reports and reviews. CORE F040 supplies the exact Save52
+witness for the selected saved comparison. The saved witness cannot identify
+historical execution order or live state after load.
+
+The selected derivatives remain pending release. [D5AS](evidence-access.md#d5as-complete-body-comparison)
+checks complete recorded geometry bodies against fixed references, with
+acquisition and eligibility attributed to the original investigation.
+[C19](evidence-access.md#c19-callback-comparison) checks the 346 recorded native
+callback folds. Upstream preview chronology, unique producer ancestry and
+Flash render timing remain outside that check. The
+[D5BH, D5BI and D5BO projections](evidence-access.md#projected-event-evidence)
+support the named Episode A/B, N2 and B2 comparisons within their recorded
+histories. Those histories do not establish winner probabilities.
+
+`P-AG-FIXTURE` is the [conditional fixed-native-stage route](evidence-access.md#fixed-native-geometry).
+It requires exact D5AS reference operands, lawful matching EXE, main ESM and
+PlanetData BA2, a qualified host and separate execution authority. The D5AS
+body comparison can use the precomputed archive independently. D5AQ Option C
+remains held. D5AG's original Q2/Q3 scheduling and lifecycle questions and
+parent question remain BLOCKED under the [recorded decision](../DECISIONS.md#d5bv-practical-resource-generation-predictability--2026-11-11).
 
 From the repository root, set PowerShell variable `$python` to your
 Python 3 executable. This reads

@@ -921,11 +921,17 @@
       "sha256": "77f73b1bb7294996ac568cd72bd38e343ec15d67f08009d0d4f0ad1d32f268d8"
     },
     "docs/reference/resource-generation.md": {
-      "bytes": 31893,
+      "bytes": 32988,
       "prior_git_blob": "e9d8c0242a2ac9f4ec7c2951a7388de742a4d32d",
       "prior_path": "docs/reference/resource-generation.md",
       "prior_sha256": "21d57407ce80118de13fb740555a62dd7599f89fd387d3d5bfcefede5f56d6c4",
-      "sha256": "4c1e781edce08ad7d49f6c07be888e0af6909825ee7344b876701d2d6a8abff1"
+      "sha256": "41ae631963126933ab892ad35d53d5b67e5173b9092412f1bde339f091efab9a",
+      "previous_current_edition": {
+        "edition": "D5BZ-1 at D5CB intake",
+        "revision": "3cf2866dc72d8660f3968572fd4615eb8c4b1106",
+        "bytes": 31893,
+        "sha256": "4c1e781edce08ad7d49f6c07be888e0af6909825ee7344b876701d2d6a8abff1"
+      }
     },
     "docs/reference/shared-storage.md": {
       "bytes": 7586,

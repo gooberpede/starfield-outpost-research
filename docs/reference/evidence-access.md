@@ -56,9 +56,8 @@ The pinned machine ledger at `research/evidence-data/release-assets-d5bf/release
 provides exact member identities and is an active reader operand. The
 `research/evidence-data/evidence-access-d5bx/assets.json` machine ledger pins both
 supplements. The release inventory requires member validation as well as the
-whole-file digests above. Rights and privacy review, authorized custody and
-transfer, exact candidate freeze, isolated B6, hosting checks and distribution
-authorization remain separate.
+whole-file digests above. See the [pre-freeze decision](../DECISIONS.md#d5cb-pre-freeze-evidence-and-distribution)
+for file-specific dispositions, local custody and pending approvals.
 
 ## Verify D5BF containers and members
 
@@ -86,14 +85,29 @@ from the pinned member ledger.
 
 | Subject | Entry point and operands | Verified comparison boundary |
 | --- | --- | --- |
-| Position and biomes | [Geography](../../save-analysis/scripts/verify_d5bu_geography.py) with `--member ID PATH` for 1, 2, 3, 40, 47, 49, 53, `--esm`, `--planet-data`, `--output-directory`. | Seven original reads and three named maps. Position and biome claims select their own comparisons. |
+| Position and biomes | [Geography](../../save-analysis/scripts/verify_d5bu_geography.py) with `--member ID PATH` for CORE IDs 1, 2, 3, 40, 47, 53 and ADDENDUM ID 49, plus lawful matching `--esm` and `--planet-data` and a new `--output-directory`. | Seven original reads and three named maps. Position and biome claims select their own comparisons. |
 | Fabricators | [Fabrication](../../save-analysis/scripts/verify_d5bu_fabricators.py) with `--hist-0036`, `--esm`, `--receipt`. Tracked authored recipe tables are also read. | Selected F064 producer, extra and graph joins. |
 | Shared storage | [Controls](../../save-analysis/scripts/verify_d5bu_controls.py) subcommand `sd2` with `--member ID PATH` for 40, 42, 51, 64, `--esm`, `--addon`, `--receipt`. | Fresh owner and inline-base joins and selected zero/version controls. |
 | Workshop roots | [Projection reader](../../save-analysis/scripts/verify_d5bx_workshop.py) with `--member ID PATH` for 40, 42, 43, `--archive`, `--esm`, `--receipt`. Supply the exact Workshop supplement. | 657 baseline roots and 191 supplemental roots, with typed membership and the 31-group canonical ledger. Retained Hab origin and full population completeness remain unresolved. |
 | Construction | [Controls](../../save-analysis/scripts/verify_d5bu_controls.py) subcommand `construction` with `--member ID PATH` for 11–16, 29–39, 41–45 and 51, plus `--receipt`. | Paired roots, budgets, placement, gap ledgers and named variant extras. |
 | Cargo | [Cargo reader](../../save-analysis/scripts/verify_d5bu_cargo.py) with `--save52`, `--c3-context`, `--receipt`. Supply CORE F040 and the exact Cargo C3 supplement. | Saved C2/C3 relationships and inventory selections. |
-| Local output links | [L-series reader](../../save-analysis/scripts/verify_d5bu_output_links.py) with `--l0`, `--l0c`, `--l1`, `--l1c`, `--l2`, `--l2c`, `--receipt`. | Named relationship windows and their payload/entry-order controls. |
+| Local output links | [L-series reader](../../save-analysis/scripts/verify_d5bu_output_links.py) with `--l0` for CORE F032, `--l0c` for ADDENDUM F055, `--l1` for F056, `--l1c` for F057, `--l2` for F058, `--l2c` for F059, and a new `--receipt`. | Named relationship windows and their payload/entry-order controls. |
 | Power and displays | [Save29 and HIST-0021 reader](../../save-analysis/scripts/d5bt_reader.py) subcommands `save29` or `hist-0021`, `--save`, `--output-directory`. | F054 ordered allocation and swap calculation, or F067 displayed reference and backpack control. |
+
+Both combined commands require CORE and ADDENDUM. The Geography batch
+adds CORE F040 and ADDENDUM F049 to the five selected coordinate originals
+used by `C02-ORIGINALS` and `C18-FULL-CONTROLS`. Use the main ESM and
+PlanetData BA2 pins under [Build and input identities](#build-and-input-identities).
+For L-series, all six flags are required for the combined command.
+`B4-C22-L-SERIES-ORIGINAL` identifies the relationship windows and controls
+supported by the selected claim. See the [route lookup](../history/evidence-routes.md)
+for the evidence behind each claim.
+
+The historical Cargo B02 custody record uses the label `ACTIVE` for its
+local preservation baseline. The selected Cargo reader takes CORE F040
+and the exact D5BX C3 JSON as `--save52` and `--c3-context`. Its checks
+require neither the private B02 archive nor the local paths embedded in
+the comparator. See the [B02 disposition](../DECISIONS.md#d5cb-pre-freeze-evidence-and-distribution).
 
 D5BU accepted 14 selected original-reader routes locally. D5BX locally
 qualified both exact supplements. Its Workshop projection reader matched
@@ -161,7 +175,8 @@ from the qualified host and inventory above.
 python -I -B -X faulthandler research/resource-retained-population/d5bj_geometry.py --exe EXE --esm MAIN_ESM --planet-data PLANET_DATA_BA2 --d5as D5AS_ZIP
 ```
 
-The geometry entry point, [sampler](../../research/resource-retained-population/d5bj_sampler.py)
+Execution requires separate authority for the native fixture. The geometry
+entry point, [sampler](../../research/resource-retained-population/d5bj_sampler.py)
 and their tracked planar, ESM and context readers supply the source closure.
 The BA2's exact 655,414-byte Feynman V BIOM member has SHA-256
 `bd06d24e8ca1788481f6a4388c0e262b863b8b376a521752cf3d286c69f23863`.
@@ -227,3 +242,7 @@ The [D5BZ source crosswalk](../../research/evidence-data/README.md) identifies
 the relocated machine operands and changed reader sources. Use those paths
 with this checkout. Historical receipts remain bound to their original
 source hashes and are available by exact revision or archive member.
+
+The [active source manifest](../../research/evidence-data/current-edition.json)
+binds the D5CB resource-generation page and records the exact D5BZ page
+revision and digest under `previous_current_edition`.
