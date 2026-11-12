@@ -2,11 +2,12 @@
 
 **Starfield Outpost Research v1.0.0 (Starfield 1.16.244.0)**
 
-D5CC received independent pre-integration acceptance for its tested F1 overlay.
-Final B6 acceptance is pending exact candidate binding and independent
-revalidation of the affected checks. Tag creation, draft upload and final
-visibility each require separate approval. Asset downloads remain pending
-verified hosting.
+**Release preparation approved and verified.** The maintainer confirmed
+closure of A–D and B6 and approval of the remaining release operations on
+2026-11-12. The four remaining operations are to create the tag, create the
+GitHub Release draft, upload the nine approved assets, and make the release
+public. Record the tag, draft, upload and public verification receipts as
+each operation is performed.
 
 Retain the exact candidate and operation receipts. The [publication policy](PUBLICATION.md),
 [B0 gate matrix](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b0/release-gates.md`) and
@@ -18,60 +19,47 @@ for historical preparation. Use the [first-release scope](first-release-scope.md
 and [current route lookup](history/evidence-routes.md) for the selected claims,
 indispensable dependencies and reader tiers.
 
-| Order | Checkpoint | Status | Receipt / reviewer or approver / timestamp |
-| --- | --- | --- | --- |
-| A | Freeze the research candidate and planned exposure | PENDING | TBD |
-| B–D | Close the science, rights, creator and evidence-package gates | PENDING | TBD |
-| B6 | Obtain maintainer preflight authority and independently verify the exact frozen candidate in isolation | PENDING | TBD |
-| E | Obtain approval for the exact tag and draft/upload operations | PENDING | TBD |
-| F | Verify hosted bytes and changed disclosure surfaces | PENDING | TBD |
-| G | Obtain final visibility/timing approval, execute and record the outcome | PENDING | TBD |
-
-Use `PENDING`, `PASS`, `FAIL` or `NOT APPLICABLE` for gates. Record who decided
-and when, plus the receipt or rationale. A mandatory `PENDING` or `FAIL` holds
-its dependent actions. A `NOT APPLICABLE` decision needs a reviewed rationale
-consistent with approved scope. Asset availability stays `PENDING RELEASE` until
-hosting and verification are evidenced.
+| Checkpoint | Status | Basis |
+| --- | --- | --- |
+| A–D and B6. Candidate freeze, scope, evidence, rights, packaging and isolated preflight | PASS | Maintainer confirmation, 2026-11-12. See A–D and F for the underlying records. |
+| E. Create the tag and draft, then upload the approved assets | APPROVED · TO DO | Maintainer confirmation, 2026-11-12. See E for the sequence. |
+| F. Check served bytes and release identity during execution | TO DO | Capture draft and public receipts as part of upload and publication. |
+| G. Make the release public | APPROVED · TO DO | Maintainer confirmation, 2026-11-12. Execute after draft verification. |
 
 ## A. Release identity and freeze
 
 | Field | Value or receipt |
 | --- | --- |
-| Research release title and notes draft | Starfield Outpost Research v1.0.0 — Starfield 1.16.244.0. Notes review pending. |
+| Research release title | Starfield Outpost Research v1.0.0 — Starfield 1.16.244.0 |
 | Native baseline | Starfield.exe **1.16.244.0**, preferred image base `0x140000000` |
 | Executable SHA-256 | `7e9adb1414a8e1b325e5e1f097b9b17b78deb7eebeda37a333351a43a60f9d28` |
 | Main Starfield.esm SHA-256 | `1dabed00c3f4282dd3bb54d2e9601e40b577d8742d078b7ccef203adbfef0da7` |
 | Other pinned inputs and qualifiers | [B3 baseline and input manifest](reference/b3-baseline.md) |
 | Selected claims, build and exclusions | [First-release scope](first-release-scope.md) and [selected route ledger](../research/evidence-data/evidence-closure-d5bv/routes.json) |
-| Historical save creation and effective load/configuration qualifications, by claim | TBD |
+| Historical save creation and effective load/configuration qualifications | [First-release scope](first-release-scope.md) and the [evidence access contract](reference/evidence-access.md) |
 | F0, approved committed intake | `main` commit `722d779568d56730e03c9585154d1c9a6ad93917`, tree `880ea503ee942b64f4cec2307a625a13db18f8b4` |
-| D5CC independently reviewed F1 overlay tree | `9a837bec47ba7cc3c4cf868684be0f5368e118ab`. Pre-integration receipt in `.local-work/b6-preflight/handoff.md`. Final candidate binding and affected revalidation remain pending. |
+| D5CC independently reviewed F1 overlay tree | `9a837bec47ba7cc3c4cf868684be0f5368e118ab`. Historical pre-integration receipt in `.local-work/b6-preflight/handoff.md`. |
 | Approved disclosure boundary | Ordinary ancestry of the sole `main` branch. The reserved release tag is uncreated. Additional refs and history changes require separate decisions. |
-| Clean index/working-tree and inventory receipts | TBD |
-| Document, verifier, manifest and package versions/hashes | [D5BF local proposal](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/release-assets-d5bf/README.md`); freeze receipt TBD |
+| Release candidate | `main` commit `dd426e8b1f2dbe647d5d996a16097a3b627a6fc2`, tree `17b2e131c2701917cacc09ecf653ba18c3556fd0`. Clean index and working tree at reconciliation. |
+| Document, verifier, manifest and package identities | The candidate tree binds the tracked inputs. The ledgers in D bind the nine staged assets. |
 
-Record exact candidate Git identities with `git rev-parse HEAD "HEAD^{tree}"`,
-`git status --porcelain=v1 --untracked-files=all`, and an inventory of refs/OIDs
-and reachable objects for the proposed exposure. An F1 correction is a proposed
-delta from F0 with its own patch, source hashes and reproducible tree ID.
-After maintainer integration, bind the actual commit and tree and have the
-affected checks independently repeated or validated before recording B6 PASS.
-The EXE and ESM pins identify
-the investigated baseline. Historical save origin, loaded data and effective
-overrides need claim-specific evidence. Qualify a later build separately under
-the [version update policy](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b0/versioned-baselines.md`)
+Use the recorded release candidate as the tag target. Later run-card receipt
+edits are operational records. A changed release target needs an explicit
+candidate decision. The EXE and ESM pins identify the investigated baseline.
+Qualify a later build separately under the
+[version update policy](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b0/versioned-baselines.md`)
 and preserve historic address mappings.
 
 ## B. Scientific and evidence validation
 
-| Gate | Required result and receipt | Status | Reviewer / timestamp |
-| --- | --- | --- | --- |
-| B0/B1 | Maintainer agrees [runtime and persistence scope](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b1/claim-build-matrix.md`), mandatory questions, exclusions, and negative cases. Independent reviews confirm selected conclusions and limits. | PENDING | TBD |
-| B2 | [Contextual prose, notation and source-locator checks](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b2/focused-rework.md`) and current reader routes pass. | PENDING | TBD |
-| B3 | [Method/source/dependency contracts](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b3/report.md`), versioned inputs, prerequisites, effects, reproduction and lawful availability are verified for selected methods. | PENDING | TBD |
-| B4 | Every indispensable claim dependency has an agreed durable route and exact file-specific decision under C and D. | PENDING | TBD |
-| B5 | [Selected creator safety](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b5/report.md`), output accounting and retention pass. | PENDING | TBD |
-| B6 | Independent review and maintainer approval bind the final committed tree, refs, claims, methods and packages to the isolated preflight receipts in F. | PENDING | TBD |
+| Gate | Status | Basis |
+| --- | --- | --- |
+| B0/B1. Scope, build, exclusions and evidence tiers | PASS | [First-release scope](first-release-scope.md) and the maintainer's scope decisions. |
+| B2. Prose, notation and navigation | PASS | [Focused rework](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b2/focused-rework.md`) and D5CC navigation and rendering checks. |
+| B3. Method and source contracts | PASS | [Baseline and input manifest](reference/b3-baseline.md) and the [evidence access contract](reference/evidence-access.md). |
+| B4. Evidence routes and exact file selection | PASS | [Selected route ledger](../research/evidence-data/evidence-closure-d5bv/routes.json) and the R4 decisions in C and D. |
+| B5. Creator safety, output accounting and retention | PASS | [B5 report](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b5/report.md`) and the maintainer's closure confirmation. |
+| B6. Isolated verification of the release scope | PASS | D5CC independently accepted the tested overlay at the selected tiers. The maintainer confirmed final candidate approval and verification on 2026-11-12. |
 
 Use the [selected route ledger](../research/evidence-data/evidence-closure-d5bv/routes.json)
 for all 68 distinct routes and 126 claim-to-route joins and the
@@ -81,16 +69,13 @@ separate from the corresponding authored mechanism or arithmetic tier. If a
 selected claim needs an ADDENDUM member, identify that required reader download
 in its verification instructions.
 
-| Claim / agreed scope and limit | Primary evidence / review / required negative cases | Dependency and transitive dependencies | Durable route, exact manifest and verification receipt | Status / reviewer |
-| --- | --- | --- | --- | --- |
-| F1 saved-state and screenshot witnesses | [F1 coverage](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/publication-readiness-b4/f1/coverage.md`) | Exact CORE and ADDENDUM originals and any method-specific lawful inputs | [Selected original readers](reference/evidence-access.md#selected-original-witnesses) | PENDING |
-| D5AS qualified body comparisons | [D5BE access index](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-access-d5be/README.md`) | Complete canonical reference and sample bodies, roster and attributed original qualification | Exact D5AS asset under D | PENDING |
-| D5AK/D5AL episode comparison and lifecycle witnesses | [D5BH local candidate assessment](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-derivative-d5bh/README.md`) | Bounded A0/A1/B0 original-data projection with distinct process and frozen prediction checks | Exact D5BH asset under D | PENDING |
-| D5AO/D5AP N2 original-event and competition witnesses | [D5BI local candidate assessment](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-derivative-d5bi/README.md`) | Projected direct constructor and complete recorded cohort with owner and alternative-continuation checks | Exact D5BI asset under D | PENDING |
-| D5AQ exact controlled fixture | [D5BJ method and outcome](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-reproduction-d5bj/README.md`) | Reader-supplied compatible game inputs, D5AS reference bodies, D5BI typed N2 projection and qualified continuation proof | Local bounded execution. Full dependency qualification, asset clearance, transfer, B6 and hosting pending | HELD |
-| D5AG selected fixed stage | [Current native method](reference/evidence-access.md#fixed-native-geometry) | Exact D5AS archive, lawful EXE/ESM/PlanetData and compatible host | Selected conditional P-AG-FIXTURE. Exact-file and host checks remain part of B6. | PENDING |
-| C19 recorded callback comparisons | [D5BE access index](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-access-d5be/README.md`) | Complete recorded callback operands and ordered rows | Exact C19 JSON under D | PENDING |
-| D5BO B2 event projection | [B2 reader](reference/evidence-access.md#projected-event-evidence) | Bounded decision inversion and negative cold-first controls | Exact D5BO asset under D | PENDING |
+| Selected evidence | Verification disposition |
+| --- | --- |
+| CORE and ADDENDUM saved-state and screenshot witnesses | Verified at the [selected original-reader tiers](reference/evidence-access.md#selected-original-witnesses). |
+| D5AS complete-body comparisons, D5BH episode witnesses, D5BI N2, D5BO B2 and C19 | Verified at the [selected derivative tiers](reference/evidence-access.md). |
+| Workshop v2 and Cargo C3 supplements | Verified with the [selected original readers](reference/evidence-access.md#selected-original-witnesses) and exact supplements. |
+| D5AG fixed native stage | Conditional reader route. D5CC checked the input and host pins and the non-native D5AS tier. Native execution was outside the completed preflight checks. [Method and prerequisites](reference/evidence-access.md#fixed-native-geometry). |
+| D5AQ exact controlled fixture | Held outside the selected release scope. [D5BJ method and outcome](audits/README.md#archive-lookup) (`audits.zip :: docs/audits/evidence-reproduction-d5bj/README.md`). |
 
 The Geography command needs CORE F001/F002/F003/F040/F047/F053, ADDENDUM
 F049, the matching main ESM and PlanetData BA2, and an exclusive output
@@ -103,28 +88,18 @@ Controls and the other selected methods. Shared Storage also requires the pinned
 Native D5AG additionally needs the
 exact host, lawful inputs and separate process authority.
 
-A durable route uses the public tree, an approved versioned Release asset, or
-documented independent reproduction from public inputs. For first-time hosting,
-B6 preflight may accept the approved exact asset and planned durable route
-after an isolated check with explicitly supplied staged bytes. Record the
-file-specific clearance and exact selection under C and D. Actual availability
-stays pending until F verifies hosting. Hold an unresolved indispensable
-dependency unless the maintainer approves narrowing or exclusion. Local paths
-and hashes serve provenance. Record historical replay and calculation coverage
-separately.
+The release uses the tracked tree, the nine versioned Release assets and
+documented reproduction from reader-supplied inputs. The selected assets
+were checked from staged bytes. Section F records the served-download checks
+during execution.
 
 ## C. Rights, privacy and attribution
 
-| Surface | Review and decision to record | Status | Receipt / reviewer / timestamp |
-| --- | --- | --- | --- |
-| Exact tree, linked text/examples, code, scripts and assets | File-specific origin, rights, allowed use, privacy, notices and credits | PENDING | TBD |
-| All proposed reachable Git history and refs | Exact object/ref inventory, secrets/personal data, past proprietary or unapproved blobs, large content and upload automation | PENDING | TBD |
-| Authorship and licensing | R3 wording and contributor presentation approved for preflight. Verify consistency across the exact candidate, notices and credits. | PENDING | [R3 wording](DECISIONS.md#r3-author-and-contributor-wording) and D5CC intake authority |
-| Original saves, screenshots and game-derived evidence | Apply file-specific B4-F1 policy and separately review new derivative bytes and metadata. Hold proprietary, donor or other uncleared content. | PENDING | TBD |
-
-Bind each clearance to the affected bytes, disclosure surface and approval
-receipt. A clean current tree leaves previously reachable content in scope.
-Any proposed history remediation requires its own approval and a new freeze.
+| Surface | Status | Basis |
+| --- | --- | --- |
+| Exact tree and reachable `main` history | PASS | Maintainer approval of the disclosure boundary in A and 2026-11-12 closure confirmation. |
+| Authorship, licensing, attribution and notices | PASS | [R3 wording](DECISIONS.md#r3-author-and-contributor-wording), D5CC preflight and the maintainer's closure confirmation. |
+| Original saves, screenshots and game-derived evidence | PASS | [R4 file-specific decisions](DECISIONS.md#r4-asset-and-excerpt-decisions) for the exact inventory in D. |
 
 Retain the accepted B02 twelve historical paths and `ACTIVE` marker, and the
 separate four historical C3 fields. Preserve the CyberDanz credit and exclude
@@ -141,83 +116,39 @@ pins CORE, ADDENDUM, D5AS and C19. The
 [D5BW ledger](../research/evidence-data/evidence-distribution-d5bw/assets.json)
 joins all seven assets to their original member indexes. The
 [D5BX supplement index](../research/evidence-data/evidence-access-d5bx/assets.json)
-pins Workshop v2 and Cargo C3. Freeze these exact ledger revisions with the
-claim matrix and clearance records under A. Record the effect on selected
-claims of any change to the approved membership. R4 approves exactly these
-nine files for intended distribution and isolated preflight. The maintainer
-holds the disposable stage at `.local-work/release-assets/1.16.244.0/`.
-Independently verified hosted downloads become the recovery route after
-hosting. Transfer, draft upload and visibility each require separate approval.
+pins Workshop v2 and Cargo C3. The approved upload inventory is exactly those
+nine files in `.local-work/release-assets/1.16.244.0/`. The candidate inventory
+and ledgers give the exact basenames, byte counts, hashes and member identities.
+D5CC checked all nine files and 125 indexed member identities. The uploads
+are still to do. Verified hosted downloads become the recovery route.
 
-| Group / candidate contents | Required or optional / include or exclude | Purpose / claims / producer | Final basename / count / bytes / codec / SHA-256 | Exact member manifest / SHA-256 | Rights and privacy receipt / staging location | Tag / release | Upload status / hosted URL / download and extracted-member checks |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| B4-F1 CORE, 25 unchanged first-party saves | Selected core | Controlled and mature first-party saves | Ledger B4-F1-CORE | Ledger B4-F1-CORE | R4 selection and F1 scoped review | TBD | PENDING RELEASE |
-| B4-F1 ADDENDUM, 14 unchanged saves and 13 original JPEGs | Selected, required for named reader batches | Supplemental first-party saves and screenshots | Ledger B4-F1-ADDENDUM | Ledger B4-F1-ADDENDUM | R4 selection and F1 scoped review | TBD | PENDING RELEASE |
-| D5AS geometry derivative | Selected derivative | Qualified sample and fixed-reference comparisons | Ledger D5AS | Ledger D5AS | R4 selection and D5BF payload assessment | TBD | PENDING RELEASE |
-| C19 callback derivative | Selected derivative | Ordered native callback input and row comparisons | Ledger C19 | Ledger C19 | R4 selection and D5BF payload assessment | TBD | PENDING RELEASE |
-| Episode A/B projection | Selected derivative | A0/A1/B0 scoped lifecycle and equality comparisons | Ledger D5BH | D5BW member crosswalk | R4 selection | TBD | PENDING RELEASE |
-| N2 projection | Selected derivative | Joined constructor, competition and negative controls | Ledger D5BI | D5BW member crosswalk | R4 selection | TBD | PENDING RELEASE |
-| B2 projection | Selected derivative | Bounded inversion and cold-first controls | Ledger D5BO | D5BW member crosswalk | R4 selection | TBD | PENDING RELEASE |
-| Workshop v2 and Cargo C3 | Selected supplementary operands | Selected P-ROOT-COUNTS and S-C23-SAVE52 checks | D5BX supplement index | D5BX supplement index | R4 selection and D5BX qualification | TBD | PENDING RELEASE |
+## E. Release operations
 
-For each package, record each exact member path/name, bytes, SHA-256, original
-or derivative identity, producer and clearance. Bind the member inventory to
-the package digest. Reject unexpected, missing or duplicate members, unsafe
-paths, and hash/size mismatches. Compare the entire authorized upload inventory
-to the final draft asset inventory and hold on omissions or extra files.
-
-## E. Tags and publication actions
-
-| Action | Exact target, command or platform action receipt | Authorization / status |
+| Step | Approved operation | Status |
 | --- | --- | --- |
-| Record research tag name, naming policy and annotated/signed choice | `v1.0.0+sf1.16.244.0` reserved and uncreated. Tag form pending. | PENDING |
-| Compare frozen commit/tree and proposed exposure with target; check existing local and authorized remote tag collisions | TBD | TBD / PENDING |
-| Create and verify tag after B6 ACCEPT and exact tag approval | TBD | TBD / PENDING |
-| Transfer approved ref/tag, create approved Release draft, attach only D inventory | TBD | TBD / PENDING |
-| Verify draft identity, assets and changed surfaces in F before final visibility decision | TBD | TBD / PENDING |
+| 1 | Create and verify `v1.0.0+sf1.16.244.0` at the exact commit in A. Check for local and hosted tag collisions before creation and verify the tag resolves to the approved commit. | TO DO |
+| 2 | Create the GitHub Release draft using the title and tag in A and E. Record the draft identity and include the build, access limits and verification instructions from the selected scope and evidence access contract. | TO DO |
+| 3 | Upload exactly the nine files in D to the draft. Verify the draft inventory and served bytes as described in F. | TO DO |
+| 4 | Make the release public after the draft checks pass. Record the public release and verification receipts in F and G. | TO DO |
 
-Research tags identify frozen research commits. Bethesda build numbers identify
-game inputs, and asset basenames identify files. Record intended command
-arguments and outputs. Compare the candidate and intended target commit OIDs
-and tree OIDs. Use an exact local ref check such as
-`git show-ref --verify "refs/tags/<tag>"` and a separately authorized remote
-collision check. After tag creation, use `git rev-parse "<tag>^{commit}"` and
-compare both the local and hosted tag targets to the frozen commit. A name
-collision or target mismatch holds execution for a separate decision. Any ref
-transfer, draft upload or other disclosure requires explicit authority for
-that operation and recipient.
+## F. Verification receipts
 
-## F. Final release validation and hosted verification
+| When | Receipt | Status |
+| --- | --- | --- |
+| Isolated preflight | D5CC handoff records clean-checkout isolation, missing-input refusal, rendered diagrams, navigation, selected method checks and the nine-asset seal. The maintainer confirmed closure on 2026-11-12. | PASS |
+| During draft upload | Verify the hosted tag and target commit. Download the nine draft assets and match the exact inventory, container or standalone hashes, and all 125 indexed member identities to D. Check the draft's disclosure surfaces against the approved boundary in A. | TO DO |
+| During publication | Record the public Release URL and tag target. Verify public reachability and repeat the inventory, container and member checks at the versioned download URLs. Confirm the exposed refs and notices. | TO DO |
 
-| When | Check and required receipt | Status | Reviewer / timestamp |
-| --- | --- | --- | --- |
-| Before B6 acceptance | Clean checkout of the exact candidate, isolated from existing `.local-work/`, private caches and undeclared inputs. Record enforced controls and a missing-operand refusal. Check links, case, anchors, actual rendered Mermaid diagrams, examples and verifiers with lawful prerequisites. | PENDING | TBD |
-| Before B6 preflight acceptance | Supply the exact approved staged inputs for the seven candidates and two supplements to their [selected evidence checks](reference/evidence-access.md). Use the [D5BF ledger verifier command](reference/evidence-access.md#verify-d5bf-containers-and-members) for the four groups it covers. Bind the container/member and comparison receipts to the proposed tree, exposure and clearance. Hold if clearance, exact bytes or a viable route are missing. | PENDING | TBD |
-| Before upload | Review release notes, build/version statement, access limits, and download/verification instructions against the approved candidate. | PENDING | TBD |
-| After authorized draft upload | Verify authorized draft URLs and download all nine assets. Match each container or standalone file and all 125 indexed member identities to the ledgers in D. Compare the draft inventory, tag/target commit and changed disclosure surfaces to the approval receipts before seeking visibility approval. | PENDING | TBD |
-| After authorized visibility change | Verify public reachability at the actual versioned URLs and download again. Record full container and member checks, Release/tag/commit identity, final tree/refs/history exposure, index consistency and notice availability. | PENDING | TBD |
+Asset URLs stay `PENDING RELEASE` until hosting is verified. A Git-side URL
+update belongs in a reviewed follow-up so the release tag stays bound to A.
 
-Keep a proposed asset URL as `PENDING RELEASE` until verified hosting. If linking the hosted
-asset changes reviewed repository bytes, hold for affected review and approval.
-Keep the frozen tag bound to its approved commit. Record an independently
-reviewed follow-up or new candidate decision for any Git-side link update.
-For a first-time asset, B6 preflight gates tag creation and draft upload.
-Verify draft downloads within the authorized access boundary before requesting
-final visibility and timing approval. Public reachability is checked again
-after authorized exposure.
-Changes to bytes, refs, URL, manifest, rights, disclosure surface or approval
-invalidate affected receipts. Resume only after affected review and approval.
+## G. Signoffs and incidents
 
-## G. Signoffs, holds and incidents
-
-| Decision or operation | Responsible operator / independent reviewer / maintainer | Exact scope and receipt / timestamp | Status |
-| --- | --- | --- | --- |
-| Maintainer authorizes release-candidate preflight scope and allowed actions | Maintainer | D5CC intake authority for F0, R3, R4 and the bounded run-card correction | PASS |
-| Independent B6 preflight accepts the frozen candidate and reviewed routes | TBD | TBD | PENDING |
-| Maintainer authorizes exact Git actions, tag and target commit | TBD | TBD | PENDING |
-| Maintainer authorizes exact draft/upload actions, assets and recipient | TBD | TBD | PENDING |
-| Maintainer authorizes final visibility, exposed refs/history and timing | TBD | TBD | PENDING |
-| Operator records public verification and any incident | TBD | TBD | PENDING |
+The maintainer's 2026-11-12 confirmation closes preparation and records
+approval of the tag, draft, asset upload and final visibility operations for
+the scope above. Record the actual tag and target, draft and public URLs,
+asset verification receipts, operator and execution timestamps when the
+operations are performed.
 
 On a gate failure, identity mismatch, omitted or unapproved asset, rights/privacy
 finding or missing authorization, stop the dependent action and preserve the
@@ -235,5 +166,5 @@ the seven candidate assets and the two supplementary inputs. The
 [current source edition](../research/evidence-data/README.md) records their
 machine operands and verifier commands. The [archive verification record](archive-verification.md)
 binds the first-release documentation containers and their member indexes.
-Use the approved scope and custody decisions above for the isolated preflight.
-Bind the separate downstream signoffs to the exact candidate and asset receipts.
+Use the approved candidate and custody records above when executing the
+four release operations.
