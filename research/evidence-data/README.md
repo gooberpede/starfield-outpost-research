@@ -24,9 +24,22 @@ From the repository root using Python 3.14 with assertions enabled:
 python -B research/evidence-data/publication-claims-d5bg/verify.py --negative-controls
 python -B research/evidence-data/evidence-closure-d5bv/verify.py --negative-controls
 python -B research/evidence-data/documentation-synthesis-d5by/verify.py
-python -B research/evidence-data/publication-readiness-b3/check.py
 python -B research/archival/verify_assets.py
 ```
+
+The B3 metadata check compares exact historical source bytes. In a disposable
+copy of the checkout, restore CRLF line endings in these three files under
+`research/historical-methods/b3/` before running it.
+
+- `l2-budget/native/TransitCalls.java`
+- `c2-transit/native/E2ReadSession.java`
+- `cr3-lifecycle/native/Cr1Recon.java`
+
+Keep all other bytes, including the final newline, as checked out. Confirm each
+restored file against the SHA-256 in [promoted-sources.csv](publication-readiness-b3/promoted-sources.csv).
+Then run `python -B research/evidence-data/publication-readiness-b3/check.py`
+from the root of that disposable copy. This reconstructs the three historical
+byte identities from the LF Git blobs.
 
 These checks read source and metadata. They leave original evidence, receipts,
 the Git index and references untouched. For original-witness and derivative

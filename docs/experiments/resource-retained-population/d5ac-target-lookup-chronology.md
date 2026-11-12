@@ -67,8 +67,8 @@ sequenceDiagram
   A->>A: Unvisited 8006
   B->>B: Unvisited 8020
   B->>M: Protected miss 8091
-  Note over M: Insertion required by compiled path; not separately recorded
-  M-->>B: Generator/sample 8093-8094; store 8106
+  Note over M: Insertion required by compiled path and not separately recorded
+  M-->>B: Generator/sample 8093-8094 then store 8106
   Note over M: Native unlock follows store, before other lookup
   A->>M: Protected hit 8339
 ```

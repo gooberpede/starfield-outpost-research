@@ -55,5 +55,72 @@
       }
     }
   },
-  "publication": "NOT READY / NOT CLEARED"
+  "publication": "NOT READY / NOT CLEARED",
+  "brief_successor": {
+    "edition": "D5BZ-2",
+    "date": "2026-11-12",
+    "predecessor_commit": "e29b7507def041e25884e87222deea32b30d964d",
+    "members": 262,
+    "added_members": [
+      "docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5CA_Final_Repository_Exposure_and_Release_Candidate_Audit.md",
+      "docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5CB_Pre_Freeze_Asset_Staging_Decisions_and_Reader_Corrections.md",
+      "docs/implementation-briefs/CODEX_BRIEF_SOR_RG2_D5CC_B6_Isolated_Release_Candidate_Preflight.md"
+    ],
+    "files": {
+      "docs/implementation-briefs/archive-index.csv": {
+        "bytes": 142283,
+        "sha256": "9be31f833ee117483ae4067e3761afee7c558ecda232e13a2f976f7d4f0a7ab1"
+      },
+      "docs/implementation-briefs/implementation-briefs.zip": {
+        "bytes": 1740059,
+        "sha256": "d8729c791ebca2a39f3b4ada868f9c4337384f827f77dd80e99a8b2879ec4863"
+      },
+      "docs/implementation-briefs/README.md": {
+        "bytes": 4996,
+        "sha256": "1e001546cf38a520794450142102cf40b542810ca885ede86ac3076824723a15"
+      }
+    },
+    "builder_sha256": "e10798baf9704c59e7355568dfa3bd476071a409cabc9fa9b91591d1ef0d91a8"
+  },
+  "audit_successor": {
+    "edition": "D5BZ-2",
+    "date": "2026-11-12",
+    "predecessor_commit": "e29b7507def041e25884e87222deea32b30d964d",
+    "dossier_commit": "3cf2866dc72d8660f3968572fd4615eb8c4b1106",
+    "former_directory": "docs/release-candidate-audit-d5ca",
+    "member_directory": "docs/audits/release-candidate-audit-d5ca",
+    "members": 350,
+    "added_members": [
+      "docs/audits/release-candidate-audit-d5ca/README.md",
+      "docs/audits/release-candidate-audit-d5ca/asset-and-custody.csv",
+      "docs/audits/release-candidate-audit-d5ca/asset-and-custody.md",
+      "docs/audits/release-candidate-audit-d5ca/claim-and-reader-closure.csv",
+      "docs/audits/release-candidate-audit-d5ca/claim-and-reader-closure.md",
+      "docs/audits/release-candidate-audit-d5ca/exposure-inventory.csv",
+      "docs/audits/release-candidate-audit-d5ca/freeze-readiness.md",
+      "docs/audits/release-candidate-audit-d5ca/history-and-d5bd.md",
+      "docs/audits/release-candidate-audit-d5ca/intake-and-surface.md",
+      "docs/audits/release-candidate-audit-d5ca/investigation-ledger.md",
+      "docs/audits/release-candidate-audit-d5ca/issue-and-decision-ledger.md",
+      "docs/audits/release-candidate-audit-d5ca/review.md",
+      "docs/audits/release-candidate-audit-d5ca/rights-and-exposure.md",
+      "docs/audits/release-candidate-audit-d5ca/run-card-reconciliation.md",
+      "docs/audits/release-candidate-audit-d5ca/tree-and-refs.json"
+    ],
+    "files": {
+      "docs/audits/archive-index.csv": {
+        "bytes": 142572,
+        "sha256": "81a6701939efc9ca13e60363508e58b55a48da84961d7f1bc51f3edf8e89717e"
+      },
+      "docs/audits/audits.zip": {
+        "bytes": 5135321,
+        "sha256": "798618fd898f3869087ea6ed4aa091ff757bc1f69d72db5ad87fcb721cc338b8"
+      },
+      "docs/audits/README.md": {
+        "bytes": 4103,
+        "sha256": "99b5d494db5361f0cdeae47ff68f68f10724eaa0fdb26022a6143d14372b97b7"
+      }
+    },
+    "builder_sha256": "e10798baf9704c59e7355568dfa3bd476071a409cabc9fa9b91591d1ef0d91a8"
+  }
 }

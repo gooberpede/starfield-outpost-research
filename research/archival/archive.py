@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
-"""Build and verify the D5BZ first-release document archives (stdlib only)."""
+"""Build and verify the versioned document archives (stdlib only)."""
 
 import argparse
 from collections import Counter
@@ -15,6 +15,8 @@ import zipfile
 import zlib
 
 EDITION = "D5BZ-1"
+SUCCESSOR = "D5BZ-2"
+EDITION_DATES = {EDITION: "2026-11-11", SUCCESSOR: "2026-11-12"}
 ARCHIVES = {"audits": "audits.zip", "implementation-briefs": "implementation-briefs.zip"}
 BRIEF = ("docs/implementation-briefs/"
          "CODEX_BRIEF_SOR_RG2_D5BZ_Comprehensive_Historical_Repository_Archival.md")
@@ -94,6 +96,11 @@ def require(condition, message):
         raise ValueError(message)
 
 
+def check_edition(family, edition):
+    require(family in ARCHIVES and edition in EDITION_DATES,
+            f"unsupported archive edition: {family} {edition}")
+
+
 def checked_names(names, family):
     seen = set()
     spelling = {}
@@ -145,19 +152,27 @@ def check_member(row, data):
             f"member size or SHA-256 mismatch: {path}")
 
 
-def verify(directory, family, extract=None, sources=None):
+def read_index(directory, family):
     with (directory / "archive-index.csv").open(encoding="utf-8", newline="") as file:
         reader = csv.DictReader(file)
         require(tuple(reader.fieldnames or ()) == FIELDS, "index columns differ")
         rows = list(reader)
+    require(rows, f"empty archive index: {family}")
+    edition = rows[0]["edition"]
+    check_edition(family, edition)
+    require(all(row["archive_id"] == family and row["edition"] == edition for row in rows),
+            f"mixed archive families or editions: {family}")
+    return rows
+
+
+def verify(directory, family, extract=None, sources=None):
+    rows = read_index(directory, family)
     names = [row["original_path"] for row in rows]
     checked_names(names, family)
     if extract:
         extract.mkdir(parents=True, exist_ok=False)
     archive = directory / ARCHIVES[family]
     for row, (name, data) in zip(rows, entries(archive, family), strict=True):
-        require(row["archive_id"] == family and row["edition"] == EDITION,
-                f"wrong archive edition: {name}")
         require(row["original_path"] == name, f"index missing, extra or misjoined at {name}")
         check_member(row, data)
         if sources:
@@ -172,7 +187,7 @@ def verify(directory, family, extract=None, sources=None):
     return len(rows)
 
 
-def metadata(family, row, data, active):
+def metadata(family, row, data, active, edition=EDITION):
     path = row["path"]
     parts = path.split("/")
     text = data.decode("utf-8")
@@ -185,11 +200,14 @@ def metadata(family, row, data, active):
     category = subject(path, topic)
     date, status = historical_metadata(text, path.endswith(".md"))
     authority = active.get(path, "")
-    if path == BRIEF or path.startswith("docs/audits/archival-d5bz/"):
+    if edition == SUCCESSOR and any(identifier in ids for identifier in ("D5CA", "D5CB", "D5CC")):
+        category = "Publication, evidence access and repository governance"
+        current = "docs/PUBLICATION_RUN_CARD.md"
+    elif path == BRIEF or path.startswith("docs/audits/archival-d5bz/"):
         current = "docs/archive-verification.md"
     else:
         current = AUTHORITIES.get(category, "docs/history/README.md")
-    return dict(archive_id=family, edition=EDITION, original_path=path, member_path=path,
+    return dict(archive_id=family, edition=edition, original_path=path, member_path=path,
                 record_ids=" ".join(ids), topic=topic, subject=category, historical_date=date,
                 historical_status=status, bytes=len(data),
                 sha256=digest(data), git_blob=row.get("git_blob", ""),
@@ -198,7 +216,7 @@ def metadata(family, row, data, active):
                 active_path=authority)
 
 
-def write_readme(folder, family, basename, rows):
+def write_readme(folder, family, basename, rows, edition):
     title = "Implementation briefs and amendments" if family == "implementation-briefs" else "Historical audits and reviews"
     groups = Counter()
     for row in rows:
@@ -212,9 +230,12 @@ def write_readme(folder, family, basename, rows):
     inventory = "\n".join(f"| {group} | {count} |" for group, count in sorted(groups.items()))
     subjects = Counter(row["subject"] for row in rows)
     subjects_text = "\n".join(f"| {group} | {count} |" for group, count in sorted(subjects.items()))
+    verification_anchor = ""
+    if edition == SUCCESSOR:
+        verification_anchor = "#d5bz-2-audit-update" if family == "audits" else "#d5bz-2-brief-update"
     content = f"""# {title}
 
-Edition **D5BZ-1**, 2026-11-11 (Australia/Sydney), preserves {len(rows)} exact
+Edition **{edition}**, {EDITION_DATES[edition]} (Australia/Sydney), preserves {len(rows)} exact
 original files with their full repository-relative paths. Publication is
 **NOT READY / NOT CLEARED**.
 
@@ -223,7 +244,7 @@ Start with the [guides](../guides/README.md) for player questions, the
 verification, or [research history](../history/README.md) for negative and
 superseded results. The [research identifier index](../history/research-identifiers.md)
 and [claim and evidence-route lookups](../history/README.md) lead to primary
-scientific sources. The [archive verification record](../archive-verification.md)
+scientific sources. The [archive verification record](../archive-verification.md{verification_anchor})
 records edition integrity and custody.
 
 ## Archive lookup
@@ -278,15 +299,18 @@ through the repository history.
     (folder / "README.md").write_bytes(content.encode("utf-8"))
 
 
-def build(output, sources, census, active):
+def build(output, sources, census, active, brief_edition=EDITION, audit_edition=EDITION):
     census = census["sources"]
     paths = {row["path"]: row for row in census}
     require(len(paths) == len(census), "duplicate census paths")
     require(all(any(path.startswith(f"docs/{family}/") for family in ARCHIVES) for path in paths),
             "unassigned census path")
     require(set(active) <= paths.keys(), "relocation without an archived source")
+    check_edition("implementation-briefs", brief_edition)
+    check_edition("audits", audit_edition)
     output.mkdir(parents=True, exist_ok=False)
     for family, basename in ARCHIVES.items():
+        edition = brief_edition if family == "implementation-briefs" else audit_edition
         names = sorted(path for path in paths if path.startswith(f"docs/{family}/"))
         checked_names(names, family)
         folder = output / family
@@ -305,9 +329,9 @@ def build(output, sources, census, active):
                     info.create_system = 0
                     info.external_attr = 0x20
                     archive.writestr(info, data, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
-                    rows.append(metadata(family, row, data, active))
+                    rows.append(metadata(family, row, data, active, edition))
                     writer.writerow(rows[-1])
-        write_readme(folder, family, basename, rows)
+        write_readme(folder, family, basename, rows, edition)
         verify(folder, family, sources=sources[family])
 
 
@@ -317,23 +341,25 @@ def rebuild(docs, scratch):
     sources = {family: scratch / family for family in ARCHIVES}
     census = []
     active = {}
+    editions = {}
     for family, source in sources.items():
         folder = docs / family
         verify(folder, family, extract=source)
-        with (folder / "archive-index.csv").open(encoding="utf-8", newline="") as index:
-            for row in csv.DictReader(index):
-                name = row["original_path"]
-                census.append({"path": name, "sha256": row["sha256"], "bytes": int(row["bytes"]),
-                               "git_blob": row["git_blob"]})
-                if row["active_path"]:
-                    active[name] = row["active_path"]
+        rows = read_index(folder, family)
+        editions[family] = rows[0]["edition"]
+        for row in rows:
+            name = row["original_path"]
+            census.append({"path": name, "sha256": row["sha256"], "bytes": int(row["bytes"]),
+                           "git_blob": row["git_blob"]})
+            if row["active_path"]:
+                active[name] = row["active_path"]
     rebuilt = scratch / "rebuilt"
-    build(rebuilt, sources, {"sources": census}, active)
+    build(rebuilt, sources, {"sources": census}, active, editions["implementation-briefs"], editions["audits"])
     for family, basename in ARCHIVES.items():
         for name in (basename, "archive-index.csv", "README.md"):
             require((rebuilt / family / name).read_bytes() == (docs / family / name).read_bytes(),
                     f"byte-exact rebuild differs: {family}/{name}")
-    print(f"{EDITION}: archive, member index and README rebuild match in both families")
+    print(f"Audits {editions['audits']}, briefs {editions['implementation-briefs']}: ZIP, index and README rebuild match")
 
 
 def main():
@@ -342,6 +368,8 @@ def main():
     build_args = commands.add_parser("build")
     for name in ("output", "sources", "census", "relocations"):
         build_args.add_argument(name, type=Path)
+    build_args.add_argument("--brief-edition", choices=EDITION_DATES, default=EDITION)
+    build_args.add_argument("--audit-edition", choices=EDITION_DATES, default=EDITION)
     verify_args = commands.add_parser("verify")
     verify_args.add_argument("directory", type=Path)
     verify_args.add_argument("family", choices=ARCHIVES)
@@ -358,8 +386,9 @@ def main():
     if args.command == "build":
         census = json.loads(args.census.read_bytes())
         active = json.loads(args.relocations.read_bytes())
-        build(args.output, dict.fromkeys(ARCHIVES, args.sources), census, active)
-        print(f"{EDITION}: built and verified {len(census['sources'])} members using zlib {zlib.ZLIB_RUNTIME_VERSION}")
+        build(args.output, dict.fromkeys(ARCHIVES, args.sources), census, active,
+              args.brief_edition, args.audit_edition)
+        print(f"Built and verified {len(census['sources'])} members using zlib {zlib.ZLIB_RUNTIME_VERSION}")
     elif args.command == "verify":
         print(f"{args.family}: {verify(args.directory, args.family, args.extract, args.sources)} members verified")
 

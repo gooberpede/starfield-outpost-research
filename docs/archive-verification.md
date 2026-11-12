@@ -3,11 +3,13 @@
 Edition **D5BZ-1** was sealed on 2026-11-11 (Australia/Sydney).
 Publication remains **NOT READY / NOT CLEARED**.
 
-The [external container manifest](archive-containers.json) has SHA-256
+The D5BZ-1 container manifest at commit `e29b750` has SHA-256
 `2250f90eb90a691070b0a383b19bc58e57ede670b94e2ee9828c4ed3b422c4f6`.
 It binds the two ZIPs, their adjacent indexes and READMEs, the build
 method and the current source edition. The archive members carry no final
-container or attestation hash.
+container or attestation hash. See the [brief update](#d5bz-2-brief-update)
+for the current implementation-brief ZIP and the [audit update](#d5bz-2-audit-update)
+for the current audit ZIP.
 
 | Archive and index | Members | SHA-256 |
 | --- | ---: | --- |
@@ -127,3 +129,42 @@ recursive digest in this document.
 
 The final complete and task-only patches and their manifest are in ignored
 local review storage. Publication remains **NOT READY / NOT CLEARED**.
+
+## D5BZ-2 brief update
+
+On 2026-11-12, D5CA, D5CB and the untracked D5CC intake copy joined the
+existing implementation-brief ZIP under their original paths. The ZIP
+contains 262 members, including all 259 D5BZ-1 members byte for byte.
+That brief-only update left the audit ZIP at D5BZ-1. The [container manifest](archive-containers.json)
+records the successor ZIP and index hashes. The
+[member index](implementation-briefs/archive-index.csv) records the three
+source hashes and the Git blob identities for D5CA and D5CB. D5CC's blank
+Git blob field records its untracked intake status.
+
+Independent review accepted the byte-preserving update. The combined
+archive changes the candidate tree and needs to be included in the exact
+candidate used for B6. The D5BZ-1 ZIP and original verification records
+remain available at commit `e29b750`. Publication remains **NOT READY /
+NOT CLEARED**.
+
+## D5BZ-2 audit update
+
+The D5CA dossier moved from `docs/release-candidate-audit-d5ca/` to
+`docs/audits/release-candidate-audit-d5ca/` before archival. The existing
+audit ZIP now holds 350 members. All 335 predecessor members and all 15
+dossier files retain their exact bytes. The
+[container manifest](archive-containers.json) maps the former directory to
+the archive prefix and records the current hashes. The
+[audit index](audits/archive-index.csv) records each dossier member and
+its pre-move Git blob. The implementation-brief ZIP and index are unchanged.
+
+Dossier links within the package use the archived layout. Fifteen outward
+relative links no longer resolve from the moved directory. To follow them
+in their historical context, use the dossier at the
+original directory in the revision recorded in the manifest. The
+[publication run card](PUBLICATION_RUN_CARD.md) gives current instructions.
+The dossier was outside its own intake exposure boundary. Its inclusion in
+the local ZIP preserves the original report and makes no publication decision.
+
+Independent review accepted the audit update and verified all 350 member
+identities, both generated indexes and the unchanged implementation-brief ZIP.

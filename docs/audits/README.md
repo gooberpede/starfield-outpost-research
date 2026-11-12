@@ -1,6 +1,6 @@
 # Historical audits and reviews
 
-Edition **D5BZ-1**, 2026-11-11 (Australia/Sydney), preserves 335 exact
+Edition **D5BZ-2**, 2026-11-12 (Australia/Sydney), preserves 350 exact
 original files with their full repository-relative paths. Publication is
 **NOT READY / NOT CLEARED**.
 
@@ -9,7 +9,7 @@ Start with the [guides](../guides/README.md) for player questions, the
 verification, or [research history](../history/README.md) for negative and
 superseded results. The [research identifier index](../history/research-identifiers.md)
 and [claim and evidence-route lookups](../history/README.md) lead to primary
-scientific sources. The [archive verification record](../archive-verification.md)
+scientific sources. The [archive verification record](../archive-verification.md#d5bz-2-audit-update)
 records edition integrity and custody.
 
 ## Archive lookup
@@ -56,7 +56,7 @@ through the repository history.
 | Other historical records | 41 |
 | Position, coordinates and world state | 1 |
 | Production, power and logistics | 4 |
-| Publication, evidence access and repository governance | 249 |
+| Publication, evidence access and repository governance | 264 |
 | Resource generation and observation | 4 |
 | Save research and experiment methods | 22 |
 | Workshop, construction and membership | 14 |
@@ -104,4 +104,5 @@ through the repository history.
 | reader-pilot-d5ay | 4 |
 | reader-qualification-d5bt | 4 |
 | release-assets-d5bf | 2 |
+| release-candidate-audit-d5ca | 15 |
 | remaining-guides-d5bc | 3 |

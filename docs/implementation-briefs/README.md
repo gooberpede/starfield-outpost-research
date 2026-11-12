@@ -1,6 +1,6 @@
 # Implementation briefs and amendments
 
-Edition **D5BZ-1**, 2026-11-11 (Australia/Sydney), preserves 259 exact
+Edition **D5BZ-2**, 2026-11-12 (Australia/Sydney), preserves 262 exact
 original files with their full repository-relative paths. Publication is
 **NOT READY / NOT CLEARED**.
 
@@ -9,7 +9,7 @@ Start with the [guides](../guides/README.md) for player questions, the
 verification, or [research history](../history/README.md) for negative and
 superseded results. The [research identifier index](../history/research-identifiers.md)
 and [claim and evidence-route lookups](../history/README.md) lead to primary
-scientific sources. The [archive verification record](../archive-verification.md)
+scientific sources. The [archive verification record](../archive-verification.md#d5bz-2-brief-update)
 records edition integrity and custody.
 
 ## Archive lookup
@@ -56,7 +56,7 @@ through the repository history.
 | Other historical records | 29 |
 | Position, coordinates and world state | 6 |
 | Production, power and logistics | 20 |
-| Publication, evidence access and repository governance | 34 |
+| Publication, evidence access and repository governance | 37 |
 | Resource generation and observation | 90 |
 | Save research and experiment methods | 26 |
 | Workshop, construction and membership | 54 |
@@ -157,6 +157,9 @@ through the repository history.
 | D5BY | 1 |
 | D5BZ | 1 |
 | D5C | 1 |
+| D5CA | 1 |
+| D5CB | 1 |
+| D5CC | 1 |
 | D5D | 1 |
 | D5E | 1 |
 | D5G | 1 |
