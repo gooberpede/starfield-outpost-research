@@ -1,5 +1,11 @@
 # Credits
 
+## Community assistance
+
+Special thanks to **CyberDanz**, owner of the [Collective Modding - A Biraitbec Legacy Discord server](https://discord.com/channels/830436661736243230/1492877515587588197), for helping me locate third-party Starfield save files on Nexus Mods during the early stages of this research project.
+
+**No third-party save files are included in this repository or its associated release assets.**
+
 ## D5BX Workshop and Cargo reader access
 
 The maintainer's CORE captures and the original Workshop and cargo
